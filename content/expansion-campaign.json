@@ -730,6 +730,120 @@
         "engine"
       ],
       "completedAt": "2026-10-27T14:35:58.704633+00:00"
+    },
+    {
+      "id": "specialist-500-batch-5",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-10",
+      "baseline": {
+        "releaseId": "2026-10-preview-9",
+        "manifest": "content/releases/2026-10-preview-9-1fb34da95662/manifest.json",
+        "manifestSha256": "1fb34da9566269fdbd6d71cfb7dd4d157a7aacae931e33cd5fc0e8a9a0b028bf",
+        "words": 330
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 86,
+          "targetCategoryWords": 98,
+          "entryIds": [
+            "pharmacist",
+            "dentist",
+            "paramedic",
+            "physiotherapist",
+            "ambulance",
+            "first-aid-kit",
+            "pharmacy",
+            "clinic",
+            "hospital",
+            "ward",
+            "waiting-room",
+            "reception"
+          ],
+          "units": [
+            {
+              "id": "clinical-roles-ems",
+              "title": "Clinical roles and emergency transport",
+              "entryIds": [
+                "pharmacist",
+                "dentist",
+                "paramedic",
+                "physiotherapist",
+                "ambulance",
+                "first-aid-kit"
+              ]
+            },
+            {
+              "id": "care-settings",
+              "title": "Care settings and arrival",
+              "entryIds": [
+                "pharmacy",
+                "clinic",
+                "hospital",
+                "ward",
+                "waiting-room",
+                "reception"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 86,
+          "targetCategoryWords": 98,
+          "entryIds": [
+            "ruler",
+            "tape-measure",
+            "protractor",
+            "spirit-level",
+            "set-square",
+            "drawing-compass",
+            "length",
+            "width",
+            "height",
+            "depth",
+            "diameter",
+            "radius"
+          ],
+          "units": [
+            {
+              "id": "measurement-tools",
+              "title": "Measurement and drafting tools",
+              "entryIds": [
+                "ruler",
+                "tape-measure",
+                "protractor",
+                "spirit-level",
+                "set-square",
+                "drawing-compass"
+              ]
+            },
+            {
+              "id": "dimensions",
+              "title": "Dimensions and circular measurements",
+              "entryIds": [
+                "length",
+                "width",
+                "height",
+                "depth",
+                "diameter",
+                "radius"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [
+        "heart",
+        "structure"
+      ],
+      "completedAt": "2026-10-27T16:28:06.751522+00:00"
     }
   ],
   "activeWorkBatchId": null,

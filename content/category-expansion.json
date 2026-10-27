@@ -1610,7 +1610,115 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 86,
+      "targetCategoryWords": 98,
+      "entryIds": [
+        "pharmacist",
+        "dentist",
+        "paramedic",
+        "physiotherapist",
+        "ambulance",
+        "first-aid-kit",
+        "pharmacy",
+        "clinic",
+        "hospital",
+        "ward",
+        "waiting-room",
+        "reception"
+      ],
+      "units": [
+        {
+          "id": "clinical-roles-ems",
+          "title": "Clinical roles and emergency transport",
+          "entryIds": [
+            "pharmacist",
+            "dentist",
+            "paramedic",
+            "physiotherapist",
+            "ambulance",
+            "first-aid-kit"
+          ]
+        },
+        {
+          "id": "care-settings",
+          "title": "Care settings and arrival",
+          "entryIds": [
+            "pharmacy",
+            "clinic",
+            "hospital",
+            "ward",
+            "waiting-room",
+            "reception"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-5",
+      "releaseId": "2026-10-preview-10",
+      "status": "published-preview",
+      "objective": "Describe healthcare roles, care settings, measuring tools and technical dimensions in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 86,
+      "targetCategoryWords": 98,
+      "entryIds": [
+        "ruler",
+        "tape-measure",
+        "protractor",
+        "spirit-level",
+        "set-square",
+        "drawing-compass",
+        "length",
+        "width",
+        "height",
+        "depth",
+        "diameter",
+        "radius"
+      ],
+      "units": [
+        {
+          "id": "measurement-tools",
+          "title": "Measurement and drafting tools",
+          "entryIds": [
+            "ruler",
+            "tape-measure",
+            "protractor",
+            "spirit-level",
+            "set-square",
+            "drawing-compass"
+          ]
+        },
+        {
+          "id": "dimensions",
+          "title": "Dimensions and circular measurements",
+          "entryIds": [
+            "length",
+            "width",
+            "height",
+            "depth",
+            "diameter",
+            "radius"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-5",
+      "releaseId": "2026-10-preview-10",
+      "status": "published-preview",
+      "objective": "Describe healthcare roles, care settings, measuring tools and technical dimensions in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-4"
+  "activePassId": "specialist-500-batch-5"
 }

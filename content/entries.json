@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-9",
+  "releaseId": "2026-10-preview-10",
   "channel": "preview",
-  "createdAt": "2026-10-27T14:35:58.704633+00:00",
+  "createdAt": "2026-10-27T16:28:06.751522+00:00",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -2204,7 +2204,7 @@
       "ant": [],
       "tip": "در این کارت heart اندام قلب است؛ در متن ادبی می‌تواند به احساس یا بخش اصلی چیزی اشاره کند.",
       "media": {
-        "img": "atlas/img/heart.webp",
+        "img": "atlas/img/heart-v2.webp",
         "uk": "atlas/audio/uk/heart.mp3",
         "us": "atlas/audio/us/heart.mp3"
       },
@@ -2213,7 +2213,17 @@
         "source": "https://github.com/designfuchen/word-atlas/blob/e7b44629230a470e6b664826ced4af2c367b44c2/data/word-atlas.json",
         "attribution": "Word Atlas contributors — CC BY 4.0",
         "aiAssisted": true,
-        "modifications": "Selected English senses and lexical metadata retained; original Persian translations and usage notes; contextual English examples and bilingual collocations adapted or newly written. No independent human or domain approval claimed."
+        "modifications": "Selected English senses and lexical metadata retained; original Persian translations and usage notes; contextual English examples and bilingual collocations adapted or newly written. No independent human or domain approval claimed.",
+        "factualReferences": [
+          {
+            "url": "https://www.nhlbi.nih.gov/health/heart",
+            "use": "Verified heart as organ pumping blood; original anatomical teaching model, no source artwork copied."
+          },
+          {
+            "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+            "use": "Checked attached great-vessel roles and separation of aortic/pulmonary routes; generic exterior model, no diagnostic claims."
+          }
+        ]
       }
     },
     {
@@ -3434,7 +3444,7 @@
       "ant": [],
       "tip": "structure می‌تواند ساختار اجزا یا خود یک سازه باشد؛ structural صفت مرتبط با آن است.",
       "media": {
-        "img": "atlas/img/structure.webp",
+        "img": "atlas/img/structure-v2.webp",
         "uk": "atlas/audio/uk/structure.mp3",
         "us": "atlas/audio/us/structure.mp3"
       },
@@ -20221,6 +20231,1476 @@
           {
             "url": "https://www.energy.gov/documents/doe-hdbk-1012-92vol2",
             "use": "Checked that counterflow means the two working fluids move in opposite directions; no numerical performance or design qualification inferred."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharmacist",
+      "w": "pharmacist",
+      "uk": "/ˈfɑːməsɪst/",
+      "us": "/ˈfɑːrməsɪst/",
+      "cefr": "B1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "pharmacist:meaning-1",
+          "pos": "n.",
+          "fa": "داروساز",
+          "en": "A healthcare professional who prepares or supplies medicines and explains their use.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The pharmacist checked the prescription.",
+          "fa": "داروساز نسخه را بررسی کرد.",
+          "senseId": "pharmacist:meaning-1"
+        },
+        {
+          "en": "She asked the pharmacist about the medicine label.",
+          "fa": "او دربارهٔ برچسب دارو از داروساز پرسید.",
+          "senseId": "pharmacist:meaning-1"
+        }
+      ],
+      "col": [
+        "a community pharmacist｜داروسازِ داروخانهٔ محلی",
+        "a hospital pharmacist｜داروساز بیمارستان",
+        "ask a pharmacist｜از داروساز پرسیدن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "pharmacist شخصِ داروساز است؛ pharmacy در معنی این مجموعه، محلِ ارائهٔ داروست. این دو واژه را با هم اشتباه نگیرید.",
+      "media": {
+        "img": "atlas/img/pharmacist.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.bls.gov/ooh/healthcare/pharmacists.htm",
+            "use": "Checked general professional function or care setting against primary occupational source; original learner prose and original image. No region-specific credential equivalence or clinical instruction claimed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dentist",
+      "w": "dentist",
+      "uk": "/ˈdentɪst/",
+      "us": "/ˈdentɪst/",
+      "cefr": "A2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "dentist:meaning-1",
+          "pos": "n.",
+          "fa": "دندان‌پزشک",
+          "en": "A healthcare professional who examines and treats teeth, gums and other parts of the mouth.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The dentist used a small mirror during the examination.",
+          "fa": "دندان‌پزشک هنگام معاینه از آینه‌ای کوچک استفاده کرد.",
+          "senseId": "dentist:meaning-1"
+        },
+        {
+          "en": "I have an appointment with the dentist tomorrow.",
+          "fa": "فردا با دندان‌پزشک وقت دارم.",
+          "senseId": "dentist:meaning-1"
+        }
+      ],
+      "col": [
+        "a dental appointment｜وقت دندان‌پزشکی",
+        "visit the dentist｜به دندان‌پزشک مراجعه کردن",
+        "a general dentist｜دندان‌پزشک عمومی"
+      ],
+      "fam": [
+        "dental (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "dentist به دندان‌پزشک گفته می‌شود؛ dental صفتِ مربوط به دندان و دندان‌پزشکی است، مانند dental appointment.",
+      "media": {
+        "img": "atlas/img/dentist.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.bls.gov/ooh/healthcare/dentists.htm",
+            "use": "Checked general professional function or care setting against primary occupational source; original learner prose and original image. No region-specific credential equivalence or clinical instruction claimed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "paramedic",
+      "w": "paramedic",
+      "uk": "/ˌpærəˈmedɪk/",
+      "us": "/ˌpærəˈmedɪk/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "paramedic:meaning-1",
+          "pos": "n.",
+          "fa": "تکنسین فوریت‌های پزشکی؛ امدادگر پزشکی",
+          "en": "A healthcare worker trained to assess people and provide emergency care, often before they reach a hospital.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The paramedic carried a medical bag to the ambulance.",
+          "fa": "تکنسین فوریت‌های پزشکی کیف پزشکی را به آمبولانس برد.",
+          "senseId": "paramedic:meaning-1"
+        },
+        {
+          "en": "A paramedic spoke to the patient beside the stretcher.",
+          "fa": "امدادگر پزشکی کنار برانکارد با بیمار صحبت کرد.",
+          "senseId": "paramedic:meaning-1"
+        }
+      ],
+      "col": [
+        "an ambulance paramedic｜تکنسین فوریت‌های پزشکیِ آمبولانس",
+        "a paramedic team｜گروه امدادگران پزشکی",
+        "call a paramedic｜امدادگر پزشکی خبر کردن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "paramedic یک نقشِ حرفه‌ای در مراقبت اورژانسی است، نه صرفاً رانندهٔ آمبولانس. نام و حدودِ این نقش در کشورها متفاوت است.",
+      "media": {
+        "img": "atlas/img/paramedic.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm",
+            "use": "Checked general professional function or care setting against primary occupational source; original learner prose and original image. No region-specific credential equivalence or clinical instruction claimed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "physiotherapist",
+      "w": "physiotherapist",
+      "uk": "/ˌfɪziəʊˈθerəpɪst/",
+      "us": "/ˌfɪzioʊˈθerəpɪst/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "physiotherapist:meaning-1",
+          "pos": "n.",
+          "fa": "فیزیوتراپیست",
+          "en": "A healthcare professional who helps people improve or recover movement and physical function.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The physiotherapist observed how the patient moved.",
+          "fa": "فیزیوتراپیست نحوهٔ حرکت بیمار را مشاهده کرد.",
+          "senseId": "physiotherapist:meaning-1"
+        },
+        {
+          "en": "He discussed his progress with the physiotherapist.",
+          "fa": "او دربارهٔ پیشرفت خود با فیزیوتراپیست صحبت کرد.",
+          "senseId": "physiotherapist:meaning-1"
+        }
+      ],
+      "col": [
+        "a physiotherapy appointment｜وقت فیزیوتراپی",
+        "see a physiotherapist｜به فیزیوتراپیست مراجعه کردن",
+        "a physiotherapist's assessment｜ارزیابی فیزیوتراپیست"
+      ],
+      "fam": [
+        "physiotherapy (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "physiotherapist در انگلیسی بریتانیایی رایج است؛ physical therapist در انگلیسی آمریکایی رایج‌تر است. physiotherapy نامِ حوزه یا خدمات فیزیوتراپی است.",
+      "media": {
+        "img": "atlas/img/physiotherapist.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.bls.gov/ooh/healthcare/physical-therapists.htm",
+            "use": "Checked general professional function or care setting against primary occupational source; original learner prose and original image. No region-specific credential equivalence or clinical instruction claimed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ambulance",
+      "w": "ambulance",
+      "uk": "/ˈæmbjələns/",
+      "us": "/ˈæmbjələns/",
+      "cefr": "A2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "ambulance:meaning-1",
+          "pos": "n.",
+          "fa": "آمبولانس",
+          "en": "A vehicle equipped to carry sick or injured people and support their care during transport.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The ambulance stopped at the hospital entrance.",
+          "fa": "آمبولانس جلوی ورودی بیمارستان توقف کرد.",
+          "senseId": "ambulance:meaning-1"
+        },
+        {
+          "en": "The stretcher fits inside the ambulance.",
+          "fa": "برانکارد داخل آمبولانس جا می‌گیرد.",
+          "senseId": "ambulance:meaning-1"
+        }
+      ],
+      "col": [
+        "an ambulance crew｜گروه کارکنان آمبولانس",
+        "an ambulance service｜خدمات آمبولانس",
+        "arrive by ambulance｜با آمبولانس رسیدن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "ambulance وسیلهٔ نقلیه است؛ paramedic شخصی با نقشِ حرفه‌ایِ مراقبت اورژانسی است. همهٔ انتقال‌ها با آمبولانس همراه با آژیر نیست.",
+      "media": {
+        "img": "atlas/img/ambulance.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm",
+            "use": "Checked general professional function or care setting against primary occupational source; original learner prose and original image. No region-specific credential equivalence or clinical instruction claimed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "first-aid-kit",
+      "w": "first-aid kit",
+      "uk": "/ˌfɜːst ˈeɪd kɪt/",
+      "us": "/ˌfɝːst ˈeɪd kɪt/",
+      "cefr": "B1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "first-aid-kit:meaning-1",
+          "pos": "n.",
+          "fa": "جعبهٔ کمک‌های اولیه",
+          "en": "A container holding basic supplies for giving immediate care to an injured or unwell person.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The first-aid kit contains dressings and bandages.",
+          "fa": "جعبهٔ کمک‌های اولیه پانسمان و باند دارد.",
+          "senseId": "first-aid-kit:meaning-1"
+        },
+        {
+          "en": "They keep a first-aid kit near the reception desk.",
+          "fa": "آن‌ها جعبهٔ کمک‌های اولیه را نزدیک میز پذیرش نگه می‌دارند.",
+          "senseId": "first-aid-kit:meaning-1"
+        }
+      ],
+      "col": [
+        "a portable first-aid kit｜جعبهٔ کمک‌های اولیهٔ قابل‌حمل",
+        "first-aid supplies｜لوازم کمک‌های اولیه",
+        "check a first-aid kit｜جعبهٔ کمک‌های اولیه را بررسی کردن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "first aid به کمک‌های اولیه گفته می‌شود؛ kit مجموعهٔ لوازم در یک ظرف یا کیف است. first-aid پیش از اسم معمولاً با خط تیره نوشته می‌شود.",
+      "media": {
+        "img": "atlas/img/first-aid-kit.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html",
+            "use": "Checked basic first-aid kit supply types only; original learner wording and illustration, no doses or treatment procedure supplied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharmacy",
+      "w": "pharmacy",
+      "uk": "/ˈfɑːməsi/",
+      "us": "/ˈfɑːrməsi/",
+      "cefr": "A2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "pharmacy:meaning-1",
+          "pos": "n.",
+          "fa": "داروخانه",
+          "en": "A place where medicines are prepared or supplied to people.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The pharmacy has a counter for collecting medicines.",
+          "fa": "داروخانه پیشخوانی برای تحویل دارو دارد.",
+          "senseId": "pharmacy:meaning-1"
+        },
+        {
+          "en": "The hospital has its own pharmacy.",
+          "fa": "بیمارستان داروخانهٔ خودش را دارد.",
+          "senseId": "pharmacy:meaning-1"
+        }
+      ],
+      "col": [
+        "a local pharmacy｜داروخانهٔ محلی",
+        "a hospital pharmacy｜داروخانهٔ بیمارستان",
+        "a pharmacy counter｜پیشخوان داروخانه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "pharmacy در این کارت محلِ ارائهٔ داروست؛ در بافت دانشگاهی می‌تواند به رشتهٔ داروسازی هم اشاره کند. pharmacist نامِ داروساز است.",
+      "media": {
+        "img": "atlas/img/pharmacy.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.bls.gov/ooh/healthcare/pharmacists.htm",
+            "use": "Checked general professional function or care setting against primary occupational source; original learner prose and original image. No region-specific credential equivalence or clinical instruction claimed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "clinic",
+      "w": "clinic",
+      "uk": "/ˈklɪnɪk/",
+      "us": "/ˈklɪnɪk/",
+      "cefr": "B1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "clinic:meaning-1",
+          "pos": "n.",
+          "fa": "درمانگاه؛ کلینیک سرپایی",
+          "en": "A healthcare facility or service where people attend consultations or treatment without staying overnight.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The clinic has two examination rooms.",
+          "fa": "درمانگاه دو اتاق معاینه دارد.",
+          "senseId": "clinic:meaning-1"
+        },
+        {
+          "en": "She visited the clinic for a scheduled appointment.",
+          "fa": "او برای نوبت از پیش تعیین‌شده به درمانگاه مراجعه کرد.",
+          "senseId": "clinic:meaning-1"
+        }
+      ],
+      "col": [
+        "an outpatient clinic｜درمانگاه سرپایی",
+        "a clinic appointment｜نوبت درمانگاه",
+        "a clinic entrance｜ورودی درمانگاه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "clinic اینجا در معنیِ خدمت یا مرکز سرپایی است. نام و دامنهٔ مراکزی که clinic خوانده می‌شوند در کشورها یکسان نیست.",
+      "media": {
+        "img": "atlas/img/clinic.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nhs.uk/nhs-services/hospitals/going-into-hospital/outpatients-and-day-patients/",
+            "use": "Checked selected outpatient attendance meaning and overnight-stay distinction; original learner wording, no service-access advice."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hospital",
+      "w": "hospital",
+      "uk": "/ˈhɒspɪtəl/",
+      "us": "/ˈhɑːspɪtəl/",
+      "cefr": "A1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "hospital:meaning-1",
+          "pos": "n.",
+          "fa": "بیمارستان",
+          "en": "A healthcare institution with facilities for medical care, including care for patients who stay there.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The ambulance arrived at the hospital.",
+          "fa": "آمبولانس به بیمارستان رسید.",
+          "senseId": "hospital:meaning-1"
+        },
+        {
+          "en": "His grandmother stayed in the hospital for several days.",
+          "fa": "مادربزرگ او چند روز در بیمارستان ماند.",
+          "senseId": "hospital:meaning-1"
+        }
+      ],
+      "col": [
+        "a hospital entrance｜ورودی بیمارستان",
+        "a hospital ward｜بخش بیمارستان",
+        "hospital staff｜کارکنان بیمارستان"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "hospital یک مؤسسهٔ درمانی است؛ ward بخشی از آن است. در انگلیسی بریتانیایی in hospital برای بیمارِ بستری رایج است؛ in the hospital در انگلیسی آمریکایی رایج‌تر است.",
+      "media": {
+        "img": "atlas/img/hospital.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nhs.uk/nhs-services/hospitals/going-into-hospital/going-into-hospital-as-a-patient/",
+            "use": "Checked hospital inpatient/outpatient distinction; original learner wording and generic institutional scene, no universal architecture claim."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ward",
+      "w": "ward",
+      "uk": "/wɔːd/",
+      "us": "/wɔːrd/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "ward:meaning-1",
+          "pos": "n.",
+          "fa": "بخش بستریِ بیمارستان",
+          "en": "A section of a hospital where a group of patients receive care and usually stay in beds.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The nurse walked through the ward.",
+          "fa": "پرستار از بخش بستری عبور کرد.",
+          "senseId": "ward:meaning-1"
+        },
+        {
+          "en": "The ward has several beds and privacy curtains.",
+          "fa": "بخش بستری چند تخت و پرده‌های حفظ حریم دارد.",
+          "senseId": "ward:meaning-1"
+        }
+      ],
+      "col": [
+        "a hospital ward｜بخش بیمارستان",
+        "a ward nurse｜پرستار بخش",
+        "a ward round｜ویزیتِ دوره‌ایِ بیماران بخش"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "ward در این کارت بخشِ بستریِ بیمارستان است؛ در سیاست می‌تواند به حوزهٔ شهری و در حقوق به شخصِ تحت سرپرستی اشاره کند.",
+      "media": {
+        "img": "atlas/img/ward.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "waiting-room",
+      "w": "waiting room",
+      "uk": "/ˈweɪtɪŋ ruːm/",
+      "us": "/ˈweɪtɪŋ ruːm/",
+      "cefr": "A2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "waiting-room:meaning-1",
+          "pos": "n.",
+          "fa": "اتاق انتظار",
+          "en": "A room where people sit or wait before an appointment or service.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "We sat in the waiting room before the appointment.",
+          "fa": "پیش از نوبت در اتاق انتظار نشستیم.",
+          "senseId": "waiting-room:meaning-1"
+        },
+        {
+          "en": "The waiting room has a row of chairs near the window.",
+          "fa": "اتاق انتظار یک ردیف صندلی نزدیک پنجره دارد.",
+          "senseId": "waiting-room:meaning-1"
+        }
+      ],
+      "col": [
+        "a clinic waiting room｜اتاق انتظار درمانگاه",
+        "waiting room chairs｜صندلی‌های اتاق انتظار",
+        "a crowded waiting room｜اتاق انتظار شلوغ"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "waiting room نامِ فضاست؛ reception در این مجموعه به محلِ پذیرش و راهنماییِ مراجعه‌کنندگان اشاره می‌کند. این دو فضا ممکن است کنار هم باشند.",
+      "media": {
+        "img": "atlas/img/waiting-room.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "reception",
+      "w": "reception",
+      "uk": "/rɪˈsepʃən/",
+      "us": "/rɪˈsepʃən/",
+      "cefr": "A2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "reception:meaning-1",
+          "pos": "n.",
+          "fa": "پذیرش؛ محل پذیرشِ مراجعه‌کنندگان",
+          "en": "The area at the entrance of a building where staff welcome visitors and provide information.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Please ask at reception when you arrive.",
+          "fa": "لطفاً هنگام ورود از بخش پذیرش بپرسید.",
+          "senseId": "reception:meaning-1"
+        },
+        {
+          "en": "The clinic moved reception near the main entrance.",
+          "fa": "درمانگاه بخش پذیرش را به نزدیکی ورودی اصلی منتقل کرد.",
+          "senseId": "reception:meaning-1"
+        }
+      ],
+      "col": [
+        "a reception desk｜میز پذیرش",
+        "the reception area｜محوطهٔ پذیرش",
+        "ask at reception｜از پذیرش پرسیدن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "reception در این کارت محلِ پذیرش است؛ receptionist شخصی است که آنجا کار می‌کند. reception می‌تواند معنیِ مهمانی یا دریافتِ پیام هم داشته باشد.",
+      "media": {
+        "img": "atlas/img/reception.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "ruler",
+      "w": "ruler",
+      "uk": "/ˈruːlə/",
+      "us": "/ˈruːlər/",
+      "cefr": "A2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "ruler:meaning-1",
+          "pos": "n.",
+          "fa": "خط‌کش",
+          "en": "A straight tool with evenly spaced marks for measuring lengths or drawing straight lines.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The ruler lies along the edge of the metal sheet.",
+          "fa": "خط‌کش در امتداد لبهٔ ورق فلزی قرار دارد.",
+          "senseId": "ruler:meaning-1"
+        },
+        {
+          "en": "The student used a ruler to draw a straight line.",
+          "fa": "دانش‌آموز برای کشیدن خطی راست از خط‌کش استفاده کرد.",
+          "senseId": "ruler:meaning-1"
+        }
+      ],
+      "col": [
+        "a steel ruler｜خط‌کش فولادی",
+        "a ruler edge｜لبهٔ خط‌کش",
+        "a ruler marking｜درجهٔ خط‌کش"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "ruler در این کارت ابزار اندازه‌گیری است، نه حاکم. فاصلهٔ میان درجه‌ها به مقیاسِ خط‌کش بستگی دارد.",
+      "media": {
+        "img": "atlas/img/ruler.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "tape-measure",
+      "w": "tape measure",
+      "uk": "/ˈteɪp ˌmeʒə/",
+      "us": "/ˈteɪp ˌmeʒər/",
+      "cefr": "B1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "tape-measure:meaning-1",
+          "pos": "n.",
+          "fa": "متر نواری",
+          "en": "A flexible strip marked with units of length, used to measure distances or dimensions.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The tape measure has a hooked end and a retractable strip.",
+          "fa": "متر نواری سری قلاب‌دار و نواری جمع‌شونده دارد.",
+          "senseId": "tape-measure:meaning-1"
+        },
+        {
+          "en": "The carpenter checked the board with a tape measure.",
+          "fa": "نجار تخته را با متر نواری اندازه گرفت.",
+          "senseId": "tape-measure:meaning-1"
+        }
+      ],
+      "col": [
+        "a retractable tape measure｜متر نواری جمع‌شونده",
+        "a tape measure hook｜قلاب متر نواری",
+        "a tape measure case｜قاب متر نواری"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "تصویر، نوعِ جمع‌شوندهٔ tape measure را نشان می‌دهد. measuring tape نیز به نوارِ اندازه‌گیری گفته می‌شود؛ tape در این بافت چسب نیست.",
+      "media": {
+        "img": "atlas/img/tape-measure.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "protractor",
+      "w": "protractor",
+      "uk": "/prəˈtræktə/",
+      "us": "/prəˈtræktər/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "protractor:meaning-1",
+          "pos": "n.",
+          "fa": "نقاله",
+          "en": "A tool with an angular scale used to measure or draw angles.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The protractor has marks around its curved edge.",
+          "fa": "نقاله دور لبهٔ خمیده‌اش درجه دارد.",
+          "senseId": "protractor:meaning-1"
+        },
+        {
+          "en": "The student aligned the protractor with one side of the angle.",
+          "fa": "دانش‌آموز نقاله را با یکی از ضلع‌های زاویه هم‌راستا کرد.",
+          "senseId": "protractor:meaning-1"
+        }
+      ],
+      "col": [
+        "a semicircular protractor｜نقالهٔ نیم‌دایره‌ای",
+        "a protractor scale｜مقیاس نقاله",
+        "the center of a protractor｜مرکز نقاله"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "protractor زاویه را اندازه می‌گیرد؛ ruler بیشتر برای طول و خط راست است. تصویر، نوعِ نیم‌دایره‌ای را نشان می‌دهد.",
+      "media": {
+        "img": "atlas/img/protractor.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.staedtler.com/fileadmin/user_upload/Product/PDF/STAEDTLER-stationery-catalogue-2020.pdf",
+            "use": "Manufacturer catalog confirms compass, protractor and right-angle drawing-tool families. Original learner text and generic non-branded illustrations, no source artwork copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spirit-level",
+      "w": "spirit level",
+      "uk": "/ˈspɪrɪt ˌlevəl/",
+      "us": "/ˈspɪrɪt ˌlevəl/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "spirit-level:meaning-1",
+          "pos": "n.",
+          "fa": "تراز حبابی",
+          "en": "A tool with a liquid-filled vial and an air bubble used to check whether a surface is level or upright.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The spirit level has a bubble between two reference marks.",
+          "fa": "تراز حبابی، حبابی میان دو خطِ مرجع دارد.",
+          "senseId": "spirit-level:meaning-1"
+        },
+        {
+          "en": "The worker placed a spirit level on the shelf.",
+          "fa": "کارگر تراز حبابی را روی قفسه گذاشت.",
+          "senseId": "spirit-level:meaning-1"
+        }
+      ],
+      "col": [
+        "a spirit level vial｜محفظهٔ حبابِ تراز",
+        "a level bubble｜حباب تراز",
+        "a spirit level body｜بدنهٔ تراز حبابی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "spirit level را bubble level هم می‌گویند. تصویر، حبابِ محفظهٔ افقی را نشان می‌دهد؛ ابزارهای گوناگون ممکن است محفظه‌های دیگری هم داشته باشند.",
+      "media": {
+        "img": "atlas/img/spirit-level.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.stabila.com/en-US/products-553/quality-and-technology/spirit-levels.html",
+            "use": "Manufacturer documentation confirms liquid vial, bubble and reference-ring relationship. No accuracy or calibration result is claimed for the illustration."
+          }
+        ]
+      }
+    },
+    {
+      "id": "set-square",
+      "w": "set square",
+      "uk": "/ˈset ˌskweə/",
+      "us": "/ˈset ˌskwer/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "set-square:meaning-1",
+          "pos": "n.",
+          "fa": "گونیا؛ گونیای نقشه‌کشی",
+          "en": "A flat triangular drawing tool with a right angle and straight edges.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The set square has a triangular opening in the middle.",
+          "fa": "گونیای نقشه‌کشی در وسط، دهانه‌ای مثلثی دارد.",
+          "senseId": "set-square:meaning-1"
+        },
+        {
+          "en": "The drafter used a set square to draw a perpendicular line.",
+          "fa": "نقشه‌کش برای رسم خطی عمود از گونیا استفاده کرد.",
+          "senseId": "set-square:meaning-1"
+        }
+      ],
+      "col": [
+        "a drawing set square｜گونیای نقشه‌کشی",
+        "a set square edge｜لبهٔ گونیا",
+        "a transparent set square｜گونیای شفاف"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "set square ابزارِ مثلثیِ گونیاست، نه یک شکلِ مربع. در انگلیسی آمریکایی drawing triangle نیز برای این ابزار به کار می‌رود.",
+      "media": {
+        "img": "atlas/img/set-square.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.staedtler.com/fileadmin/user_upload/Product/PDF/STAEDTLER-stationery-catalogue-2020.pdf",
+            "use": "Manufacturer catalog confirms compass, protractor and right-angle drawing-tool families. Original learner text and generic non-branded illustrations, no source artwork copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "drawing-compass",
+      "w": "compass",
+      "uk": "/ˈkʌmpəs/",
+      "us": "/ˈkʌmpəs/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "drawing-compass:meaning-1",
+          "pos": "n.",
+          "fa": "پرگار",
+          "en": "A drawing tool with two hinged legs, one with a point and one for marking circles or arcs.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The compass has a fixed point and a pencil tip.",
+          "fa": "پرگار یک نوکِ ثابت و یک نوکِ مداد دارد.",
+          "senseId": "drawing-compass:meaning-1"
+        },
+        {
+          "en": "The student drew an arc with the compass.",
+          "fa": "دانش‌آموز با پرگار کمانی رسم کرد.",
+          "senseId": "drawing-compass:meaning-1"
+        }
+      ],
+      "col": [
+        "a drawing compass｜پرگار نقشه‌کشی",
+        "a compass point｜نوک پرگار",
+        "a pair of compasses｜یک پرگار"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "compass اینجا پرگارِ رسم دایره است، نه قطب‌نما. عبارتِ a pair of compasses نیز برای یک ابزارِ پرگار به کار می‌رود.",
+      "media": {
+        "img": "atlas/img/drawing-compass.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.staedtler.com/fileadmin/user_upload/Product/PDF/STAEDTLER-stationery-catalogue-2020.pdf",
+            "use": "Manufacturer catalog confirms compass, protractor and right-angle drawing-tool families. Original learner text and generic non-branded illustrations, no source artwork copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "length",
+      "w": "length",
+      "uk": "/leŋθ/",
+      "us": "/leŋθ/",
+      "cefr": "B1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "length:meaning-1",
+          "pos": "n.",
+          "fa": "طول",
+          "en": "The distance between the two ends of an object along a chosen direction.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The arrow marks the length of the rectangular block.",
+          "fa": "پیکان، طولِ قطعهٔ مستطیلی را نشان می‌دهد.",
+          "senseId": "length:meaning-1"
+        },
+        {
+          "en": "The engineer recorded the length of the shaft.",
+          "fa": "مهندس طولِ محور را ثبت کرد.",
+          "senseId": "length:meaning-1"
+        }
+      ],
+      "col": [
+        "overall length｜طول کلی",
+        "the length of a shaft｜طولِ محور",
+        "a length measurement｜اندازه‌گیری طول"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "length اینجا اندازه‌ای در یک راستاست. در این قطعهٔ مستطیلی، طول در امتدادِ لبهٔ بلند نشان داده می‌شود؛ نام‌گذاری بُعدها به بافت بستگی دارد.",
+      "media": {
+        "img": "atlas/img/length.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "width",
+      "w": "width",
+      "uk": "/wɪdθ/",
+      "us": "/wɪdθ/",
+      "cefr": "B1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "width:meaning-1",
+          "pos": "n.",
+          "fa": "عرض؛ پهنا",
+          "en": "The distance across an object from one side to the other.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The arrow shows the width across the short side of the block.",
+          "fa": "پیکان، عرضِ قطعه را در امتدادِ ضلع کوتاه نشان می‌دهد.",
+          "senseId": "width:meaning-1"
+        },
+        {
+          "en": "The sheet has the same width along its full length.",
+          "fa": "ورق در تمام طولِ خود عرضی یکسان دارد.",
+          "senseId": "width:meaning-1"
+        }
+      ],
+      "col": [
+        "the width of a sheet｜عرض ورق",
+        "overall width｜عرض کلی",
+        "a width measurement｜اندازه‌گیری عرض"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "width نامِ بُعدِ عرضی است. در تصویر، پیکان روی راستایی متفاوت از length قرار دارد؛ عرض را با ارتفاعِ عمودی اشتباه نگیرید.",
+      "media": {
+        "img": "atlas/img/width.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "height",
+      "w": "height",
+      "uk": "/haɪt/",
+      "us": "/haɪt/",
+      "cefr": "B1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "height:meaning-1",
+          "pos": "n.",
+          "fa": "ارتفاع؛ بلندی",
+          "en": "The vertical distance from the bottom of an object to its top.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The vertical arrow marks the height of the block.",
+          "fa": "پیکانِ عمودی ارتفاعِ قطعه را نشان می‌دهد.",
+          "senseId": "height:meaning-1"
+        },
+        {
+          "en": "The engineer compared the height of the two supports.",
+          "fa": "مهندس ارتفاعِ دو تکیه‌گاه را مقایسه کرد.",
+          "senseId": "height:meaning-1"
+        }
+      ],
+      "col": [
+        "the height of a column｜ارتفاع ستون",
+        "overall height｜ارتفاع کلی",
+        "a height measurement｜اندازه‌گیری ارتفاع"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "height با high هم‌خانواده است، اما height اسم و high صفت است. در تصویر، پیکان از سطح پایینی تا سطح بالایی امتداد دارد.",
+      "media": {
+        "img": "atlas/img/height.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "depth",
+      "w": "depth",
+      "uk": "/depθ/",
+      "us": "/depθ/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "depth:meaning-1",
+          "pos": "n.",
+          "fa": "عمق؛ ژرفا",
+          "en": "The distance from an opening or surface down to the bottom of a space.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The arrow shows the depth inside the open box.",
+          "fa": "پیکان، عمقِ داخل جعبهٔ باز را نشان می‌دهد.",
+          "senseId": "depth:meaning-1"
+        },
+        {
+          "en": "The designer checked the depth of the recess.",
+          "fa": "طراح عمقِ فرورفتگی را بررسی کرد.",
+          "senseId": "depth:meaning-1"
+        }
+      ],
+      "col": [
+        "the depth of a hole｜عمق سوراخ",
+        "a depth measurement｜اندازه‌گیری عمق",
+        "the depth of a recess｜عمقِ فرورفتگی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "depth اسمِ مربوط به deep است. در این تصویر، عمق از دهانه تا کفِ داخلی اندازه گرفته می‌شود، نه تا زیرِ بدنهٔ جعبه.",
+      "media": {
+        "img": "atlas/img/depth.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "diameter",
+      "w": "diameter",
+      "uk": "/daɪˈæmɪtə/",
+      "us": "/daɪˈæmɪtər/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "diameter:meaning-1",
+          "pos": "n.",
+          "fa": "قطر",
+          "en": "The distance across a circle through its center, from one point on the edge to the opposite point.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The diameter passes through the center of the circular face.",
+          "fa": "قطر از مرکزِ سطحِ دایره‌ای می‌گذرد.",
+          "senseId": "diameter:meaning-1"
+        },
+        {
+          "en": "The drawing marks the outside diameter of the disc.",
+          "fa": "نقشه، قطرِ بیرونیِ دیسک را نشان می‌دهد.",
+          "senseId": "diameter:meaning-1"
+        }
+      ],
+      "col": [
+        "outside diameter｜قطر بیرونی",
+        "the diameter of a disc｜قطرِ دیسک",
+        "a diameter measurement｜اندازه‌گیری قطر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "diameter از مرکز می‌گذرد و دو سوی دایره را به هم می‌رساند. قطر دو برابرِ radius، یعنی شعاعِ همان دایره است.",
+      "media": {
+        "img": "atlas/img/diameter.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/prealgebra/pages/5-3-decimals-and-fractions",
+            "use": "Checked circle-center-to-edge radius and center-crossing diameter distinction; original phrasing and imagery."
+          },
+          {
+            "url": "https://openstax.org/books/prealgebra-2e/pages/5-key-terms",
+            "use": "Verified center-to-circle radius and center-crossing full diameter; original learner text and original metallic dimension diagram."
+          }
+        ]
+      }
+    },
+    {
+      "id": "radius",
+      "w": "radius",
+      "uk": "/ˈreɪdiəs/",
+      "us": "/ˈreɪdiəs/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "radius:meaning-1",
+          "pos": "n.",
+          "fa": "شعاع",
+          "en": "The distance from the center of a circle to any point on its edge.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The radius runs from the center point to the edge.",
+          "fa": "شعاع از نقطهٔ مرکزی تا لبه امتداد دارد.",
+          "senseId": "radius:meaning-1"
+        },
+        {
+          "en": "The designer marked the radius of the circular face.",
+          "fa": "طراح شعاعِ سطحِ دایره‌ای را علامت زد.",
+          "senseId": "radius:meaning-1"
+        }
+      ],
+      "col": [
+        "the radius of a circle｜شعاعِ دایره",
+        "a radius measurement｜اندازه‌گیری شعاع",
+        "the radius of a disc｜شعاعِ دیسک"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "radius اینجا شعاعِ دایره است، نه استخوانِ ساعد. diameter از یک لبه تا لبهٔ مقابل می‌رود؛ radius فقط از مرکز تا یک لبه است.",
+      "media": {
+        "img": "atlas/img/radius.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/prealgebra/pages/5-3-decimals-and-fractions",
+            "use": "Checked circle-center-to-edge radius and center-crossing diameter distinction; original phrasing and imagery."
+          },
+          {
+            "url": "https://openstax.org/books/prealgebra-2e/pages/5-key-terms",
+            "use": "Verified center-to-circle radius and center-crossing full diameter; original learner text and original metallic dimension diagram."
           }
         ]
       }

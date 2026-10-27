@@ -1205,17 +1205,33 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/heart.webp",
-        "sha256": "36267342c13afea0a8d593539b98accbb8bda6c874d1db6dcf0ef20ec690c942"
+        "path": "atlas/img/heart-v2.webp",
+        "sha256": "1551d6159112c0e1c5f82bf39697f775f716ba339a121f9c007a3218025a33cc"
       },
       "visual": {
-        "expectedCue": "A clinician points at a recognizable anatomical heart model rather than a decorative love-heart symbol.",
-        "decision": "retained",
-        "reason": "Retained after pixel inspection: A clinician points at a recognizable anatomical heart model rather than a decorative love-heart symbol."
+        "expectedCue": "An isolated anterior anatomical heart model with attached great vessels and coronary surface vessels.",
+        "decision": "replaced",
+        "reason": "Full generated source and corrected512/120 inspected: heart apex, attached coronary vessels, aortic arch with3superior branches and caval entries are coherent. One pulmonary arterial branch goes viewer-right; the other passes behind aorta/SVC with a viewer-left stub. A targeted edit corrected ambiguous same-side pulmonary forks after twoAI passes. Exterior teaching model; independent specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical model, red cardiac muscle and conventional red/blue vessels on cool mint/white, with the organ itself as the clear focal cue."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1551d6159112c0e1c5f82bf39697f775f716ba339a121f9c007a3218025a33cc",
+          "inspectedAt": "2026-10-27T15:37:56.858314+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Accepted corrected actual full/512/120: one visible left pulmonary artery extends viewer-right while the right pulmonary artery routes behind ascending aorta/SVC and has a short visible viewer-left end. This resolves the ambiguous same-side fork. Arch has three branches, caval vessels align to right atrial region, apex and coronary surface remain recognizable. Clean mint/ivory clinical anatomy model; this is an AI gross-anatomy assessment, not specialist approval."
+        }
       }
     },
     {
@@ -1952,17 +1968,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/structure.webp",
-        "sha256": "42e34f62b733da73de16cb420162d68a42aba610705f5a58d55d941fab5bb977"
+        "path": "atlas/img/structure-v2.webp",
+        "sha256": "ec9a927bdf2317574c5623da4267233f0605c5d8ff49fb13d97af867f8d4f609"
       },
       "visual": {
-        "expectedCue": "A bridge model exposes the arrangement and connections of its supporting members.",
-        "decision": "retained",
-        "reason": "Retained after pixel inspection: A bridge model exposes the arrangement and connections of its supporting members."
+        "expectedCue": "Connected wooden bridge frame makes the arrangement of deck, cross-members and triangular side frames visible.",
+        "decision": "replaced",
+        "reason": "Full generated source and512/120 inspected:2sideframes,deck,boltednodesandbracesformoneconnectedspanon2end supports; small deck cutaway reveals cross-members. No person hides the arrangement, no dangling beam or unsupported brace apparent.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise slate-ground technical product study with warm wood, silver joints and restrained amber highlights; full structural arrangement remains readable at120px."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ec9a927bdf2317574c5623da4267233f0605c5d8ff49fb13d97af867f8d4f609",
+          "inspectedAt": "2026-10-27T15:47:25.259427+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120px: wooden bridge members form two connected side frames with bolted nodes, diagonals meeting chords, transverse deck supports and two end abutments. Partial deck exposure reveals how members are arranged into a whole, with no person obscuring the structure. Slate/amber technical style reads at120px."
+        }
       }
     },
     {
@@ -14061,6 +14092,1206 @@
             120
           ],
           "finding": "Actual512/120px pixels show four distinct ports: amber fluid runs left-to-right inside a continuous inner metal tube, while blue fluid enters the right upper jacket port and travels through the annular outer path toward the left lower outlet. Metal walls/end seals separate the circuits; white upper arrow and amber inner arrow point in opposite directions. No mixing or disconnected channel. Double-pipe geometry agrees with FDA technical guide and DOE counterflow description; this is an AI inspection, not engineering qualification."
+        }
+      }
+    },
+    {
+      "entryId": "pharmacist",
+      "sourceWord": "pharmacist",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pharmacist:meaning-1",
+          "pos": "n.",
+          "en": "A healthcare professional who prepares or supplies medicines and explains their use."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pharmacist checked the prescription.",
+          "senseId": "pharmacist:meaning-1"
+        },
+        {
+          "en": "She asked the pharmacist about the medicine label.",
+          "senseId": "pharmacist:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pharmacist.webp",
+        "sha256": "6d7c6b9115a2a84dc409fff04743037d32a7850dab47392fbfa46a20a8920a3d"
+      },
+      "visual": {
+        "expectedCue": "A pharmacist supplying a plain medicine bottle and discussing it at a dispensary counter.",
+        "decision": "added",
+        "reason": "Actual generated full-size and final512/120 inspected: pharmacist is the main figure, medicine bottle held coherently, customer across counter, blank prescription slip and medicine shelving establish dispensing role. No drug names, doses or readable labels; hands and bottle contact coherent.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical photo-like rendering with cool white/mint shelves, restrained teal clothing and clear foreground professional. Professional role is represented through work context, not qualification proof."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6d7c6b9115a2a84dc409fff04743037d32a7850dab47392fbfa46a20a8920a3d",
+          "inspectedAt": "2026-10-27T15:44:51.288779+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: clinician behind a medicine dispensing counter holds a plain medicine bottle while addressing a customer, with medicine stock shelves behind. Work setting distinguishes pharmacist from a generic portrait; hands/body coherent, no drug label or dosage. Clean cool-white/mint clinical rendering."
+        }
+      }
+    },
+    {
+      "entryId": "dentist",
+      "sourceWord": "dentist",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "dentist:meaning-1",
+          "pos": "n.",
+          "en": "A healthcare professional who examines and treats teeth, gums and other parts of the mouth."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The dentist used a small mirror during the examination.",
+          "senseId": "dentist:meaning-1"
+        },
+        {
+          "en": "I have an appointment with the dentist tomorrow.",
+          "senseId": "dentist:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/dentist.webp",
+        "sha256": "2ac689f22e1b1be7b024a338f27e4e93ae6b8b8c406aad75dad307b3469d1922"
+      },
+      "visual": {
+        "expectedCue": "A dentist holding a dental mirror near a reclining patient under a dental examination light.",
+        "decision": "added",
+        "reason": "Actual full generated source and final512/120 inspected: masked gloved clinician, connected round mirror/stem, coherent dental chair and directed overhead light identify a dental examination. No graphic mouth view, drilling, wounds or readings; mirror and hand remain connected in thumbnail.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise photo-like clinical rendering, cool white/mint/teal surroundings with calm human scene; readable professional role in context at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2ac689f22e1b1be7b024a338f27e4e93ae6b8b8c406aad75dad307b3469d1922",
+          "inspectedAt": "2026-10-27T15:44:51.288950+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: masked/gloved clinician examines an adult patient in a reclining dental chair with dental mirror, overhead dental light and instrument rack. Mouth/tool relationship is coherent and non-graphic; clear dentistry role rather than routine desk consultation, cool clinical style."
+        }
+      }
+    },
+    {
+      "entryId": "paramedic",
+      "sourceWord": "paramedic",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "paramedic:meaning-1",
+          "pos": "n.",
+          "en": "A healthcare worker trained to assess people and provide emergency care, often before they reach a hospital."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The paramedic carried a medical bag to the ambulance.",
+          "senseId": "paramedic:meaning-1"
+        },
+        {
+          "en": "A paramedic spoke to the patient beside the stretcher.",
+          "senseId": "paramedic:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/paramedic.webp",
+        "sha256": "c84947d846b9e2f34128588436db1c5b7493aff85b3483daa3d0ce9bc5117eec"
+      },
+      "visual": {
+        "expectedCue": "An emergency-care professional carrying a medical bag beside an ambulance with a stretcher inside.",
+        "decision": "added",
+        "reason": "Actual full generated source and final512/120 inspected: professional person is foreground focus; coherent bag grip and handle, open ambulance rear and secured wheeled stretcher give clear emergency-care work context. No patient injury, treatment procedure, labels or fabricated data.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise photo-like clinical rendering, cool white/mint/teal surroundings with calm human scene; readable professional role in context at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c84947d846b9e2f34128588436db1c5b7493aff85b3483daa3d0ce9bc5117eec",
+          "inspectedAt": "2026-10-27T15:44:51.289000+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: responder in reflective clinical uniform holds an emergency bag beside the open equipped ambulance and stretcher. Connected limbs and equipment, no injury or treatment instructions; role cue and white/teal clinical setting clear in thumbnail."
+        }
+      }
+    },
+    {
+      "entryId": "physiotherapist",
+      "sourceWord": "physiotherapist",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "physiotherapist:meaning-1",
+          "pos": "n.",
+          "en": "A healthcare professional who helps people improve or recover movement and physical function."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The physiotherapist observed how the patient moved.",
+          "senseId": "physiotherapist:meaning-1"
+        },
+        {
+          "en": "He discussed his progress with the physiotherapist.",
+          "senseId": "physiotherapist:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/physiotherapist.webp",
+        "sha256": "9541e0ac4347ad5eb21f3ee34f10ef3b4a14984e0633d9f0ef2d2332ad3c6305"
+      },
+      "visual": {
+        "expectedCue": "A physiotherapist observes and supports a seated patient arm during a movement assessment.",
+        "decision": "added",
+        "reason": "Actual full generated source and final512/120 inspected: therapist supports one coherent elbow and forearm, patient opposite hand rests on lap and both feet on floor, therapy bench and exercise rail establish rehabilitation context. Four arms belong to the two people, no extra limb or instructional arrow; clear helping-movement relation at120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical rendering with cool white/mint/teal surroundings and one readable role or equipment focus at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9541e0ac4347ad5eb21f3ee34f10ef3b4a14984e0633d9f0ef2d2332ad3c6305",
+          "inspectedAt": "2026-10-27T15:51:14.780801+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: professional supports a seated patient under the elbow and at forearm during a movement assessment in a rehab clinic with treatment table and exercise bars. Arms/contact and grounded feet coherent; distinctive professional context, no exercise directions or outcome claim."
+        }
+      }
+    },
+    {
+      "entryId": "ambulance",
+      "sourceWord": "ambulance",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "ambulance:meaning-1",
+          "pos": "n.",
+          "en": "A vehicle equipped to carry sick or injured people and support their care during transport."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ambulance stopped at the hospital entrance.",
+          "senseId": "ambulance:meaning-1"
+        },
+        {
+          "en": "The stretcher fits inside the ambulance.",
+          "senseId": "ambulance:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ambulance.webp",
+        "sha256": "428855b0a6c6f2c437167e931c9a3fc0126cedc46662427dedd747b6111a6b2a"
+      },
+      "visual": {
+        "expectedCue": "A medical transport van with roof lights and an open rear showing a secured patient stretcher.",
+        "decision": "added",
+        "reason": "Actual full generated source and final512/120 inspected: whole vehicle silhouette, attached wheels/chassis, hinged rear doors, blue roof lights and medical compartment/stretcher identify ambulance. No branding, phone numbers, injuries or invented readings; vehicle remains clear in thumbnail.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical rendering with cool white/mint/teal surroundings and one readable role or equipment focus at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "428855b0a6c6f2c437167e931c9a3fc0126cedc46662427dedd747b6111a6b2a",
+          "inspectedAt": "2026-10-27T15:51:14.780843+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: equipped patient-transport van has roof emergency lights, open rear doors, internal care space and a fitted stretcher. Vehicle/body/wheels/doors physically connected, no patient or procedure, cool-white/teal clinical object study."
+        }
+      }
+    },
+    {
+      "entryId": "first-aid-kit",
+      "sourceWord": "first-aid kit",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "first-aid-kit:meaning-1",
+          "pos": "n.",
+          "en": "A container holding basic supplies for giving immediate care to an injured or unwell person."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The first-aid kit contains dressings and bandages.",
+          "senseId": "first-aid-kit:meaning-1"
+        },
+        {
+          "en": "They keep a first-aid kit near the reception desk.",
+          "senseId": "first-aid-kit:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/first-aid-kit.webp",
+        "sha256": "c213c747a94ba061d0dccb2a64f84916fd16c8fd2026ac39aa15fd9689376901"
+      },
+      "visual": {
+        "expectedCue": "An open portable case containing bandages, dressings, scissors and disposable gloves.",
+        "decision": "added",
+        "reason": "Actual full generated source and final512/120 inspected: attached handle, hinges and molded compartments hold two bandage rolls, blank dressing packets, connected two-loop scissors and folded gloves. Supplies clearly form a kit rather than a single dressing or a toolbox; no medicines, doses, needles or readings.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical rendering with cool white/mint/teal surroundings and one readable role or equipment focus at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c213c747a94ba061d0dccb2a64f84916fd16c8fd2026ac39aa15fd9689376901",
+          "inspectedAt": "2026-10-27T15:51:14.780889+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: open portable latched case contains organized bandage rolls, sealed dressing packs, gloves and scissors. Supplies have readable forms without medicine labels or instructions; clear basic-care-kit cue and clinical mint/white style."
+        }
+      }
+    },
+    {
+      "entryId": "pharmacy",
+      "sourceWord": "pharmacy",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pharmacy:meaning-1",
+          "pos": "n.",
+          "en": "A place where medicines are prepared or supplied to people."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pharmacy has a counter for collecting medicines.",
+          "senseId": "pharmacy:meaning-1"
+        },
+        {
+          "en": "The hospital has its own pharmacy.",
+          "senseId": "pharmacy:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pharmacy.webp",
+        "sha256": "a954cbe616ae932ac21f11ccf2492864ddda79b1779fe9351480c212cc950814"
+      },
+      "visual": {
+        "expectedCue": "A medicine dispensary with a service counter, medicine shelving and a pharmacist in the background.",
+        "decision": "added",
+        "reason": "Actual full generated source and final512/120 inspected: whole counter and organized blank medicine packaging dominate, while small pharmacist provides work context. Distinct place-focused composition from the pharmacist portrait; no dosage, food retail or readable product labels.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical architectural/interior rendering with cool white/mint/teal accents; one clear healthcare-setting focus, readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a954cbe616ae932ac21f11ccf2492864ddda79b1779fe9351480c212cc950814",
+          "inspectedAt": "2026-10-27T16:04:09.634228+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: wide medicine-dispensing counter and organized medicine shelves establish the place, with a small professional for context rather than a portrait. Plain packaging, no readable drug names or dosage, clean white/mint clinical setting distinct from generic retail."
+        }
+      }
+    },
+    {
+      "entryId": "clinic",
+      "sourceWord": "clinic",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "clinic:meaning-1",
+          "pos": "n.",
+          "en": "A healthcare facility or service where people attend consultations or treatment without staying overnight."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clinic has two examination rooms.",
+          "senseId": "clinic:meaning-1"
+        },
+        {
+          "en": "She visited the clinic for a scheduled appointment.",
+          "senseId": "clinic:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/clinic.webp",
+        "sha256": "bd8e3fdce913a331932021007ecdab0c9a5487b5a013ffeef67310b0bbc2d341"
+      },
+      "visual": {
+        "expectedCue": "A compact outpatient facility with reception, waiting chairs and two examination rooms.",
+        "decision": "added",
+        "reason": "Actual full generated source and final512/120 inspected: two separate examination couches/stools, connected doors, reception and waiting seating in a compact cutaway layout. No inpatient bed rows or operating theatre, and no readable medical quantities. This is one outpatient setting example, not a claim about every clinic.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical architectural/interior rendering with cool white/mint/teal accents; one clear healthcare-setting focus, readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "bd8e3fdce913a331932021007ecdab0c9a5487b5a013ffeef67310b0bbc2d341",
+          "inspectedAt": "2026-10-27T16:04:09.634437+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: controlled cutaway shows a small outpatient facility with2 examination rooms, exam tables/wall instruments, reception and waiting seats. Whole facility is the focus, distinct from a ward or single waiting room; precise cool clinical rendering."
+        }
+      }
+    },
+    {
+      "entryId": "hospital",
+      "sourceWord": "hospital",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "hospital:meaning-1",
+          "pos": "n.",
+          "en": "A healthcare institution with facilities for medical care, including care for patients who stay there."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ambulance arrived at the hospital.",
+          "senseId": "hospital:meaning-1"
+        },
+        {
+          "en": "His grandmother stayed in the hospital for several days.",
+          "senseId": "hospital:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hospital.webp",
+        "sha256": "4ed372f9ba2935475f4dda0c6eed226c65b124bcd96c7fb0fcaebb90b6f439d6"
+      },
+      "visual": {
+        "expectedCue": "A multi-storey healthcare institution with a covered entrance, ambulance and visible inpatient bed bay.",
+        "decision": "added",
+        "reason": "Actual full generated source and final512/120 inspected after two bounded grille edits: whole multi-wing hospital is the focus, visible bed bay and ambulance provide inpatient/institution cues. Final vehicle front has a plain black grille, no emblem; initial and first edit retained privately. No diagnoses, procedures or readable clinical quantities.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical architectural/interior rendering with cool white/mint/teal accents; one clear healthcare-setting focus, readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4ed372f9ba2935475f4dda0c6eed226c65b124bcd96c7fb0fcaebb90b6f439d6",
+          "inspectedAt": "2026-10-27T16:04:09.634499+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted corrected actual512/120: larger multi-storey healthcare facility includes inpatient beds visible through a clinical wing and an ambulance at covered arrival. Building/entry/vehicle relations coherent; tiny ambulance grille is plain after bounded edits. No names, diagnostic readings or clinical outcome claim; white/teal clinical palette."
+        }
+      }
+    },
+    {
+      "entryId": "ward",
+      "sourceWord": "ward",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "ward:meaning-1",
+          "pos": "n.",
+          "en": "A section of a hospital where a group of patients receive care and usually stay in beds."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The nurse walked through the ward.",
+          "senseId": "ward:meaning-1"
+        },
+        {
+          "en": "The ward has several beds and privacy curtains.",
+          "senseId": "ward:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ward.webp",
+        "sha256": "249dbdc9e5f9a0b72c0e7b0b6b2351241c382be5c457e14a645a58726cd8f865"
+      },
+      "visual": {
+        "expectedCue": "Multiple inpatient hospital bed spaces with privacy curtains, two resting patients and a central nurse.",
+        "decision": "added",
+        "reason": "Actual full-size source and final 512px/120px inspected: repeated coherent wheeled hospital beds and blankets, two resting adult patients and a nurse in the central aisle clearly show an inpatient ward. Curtain tracks and bed rails connect plausibly; no clinical readings, names, labels or procedures. The ward remains distinct from outpatient waiting seating.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean photo-like clinical educational rendering with precise soft forms, cool white/mint/teal accents and calm natural anatomy. The focal room cue remains readable at 120px; no warm paper/storybook treatment."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "249dbdc9e5f9a0b72c0e7b0b6b2351241c382be5c457e14a645a58726cd8f865",
+          "inspectedAt": "2026-10-27T16:12:44.042088+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: shared inpatient-care area has several beds, privacy curtains, clinical bedhead facilities and a nurse walking between patients. People/beds/wheels/curtain tracks form a coherent setting; no invented readings or treatment scene. Clean cool-white/teal clinical style distinct from waiting room."
+        }
+      }
+    },
+    {
+      "entryId": "waiting-room",
+      "sourceWord": "waiting room",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "waiting-room:meaning-1",
+          "pos": "n.",
+          "en": "A room where people sit or wait before an appointment or service."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We sat in the waiting room before the appointment.",
+          "senseId": "waiting-room:meaning-1"
+        },
+        {
+          "en": "The waiting room has a row of chairs near the window.",
+          "senseId": "waiting-room:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/waiting-room.webp",
+        "sha256": "75a84ff0a990c568fdd20db77a57860e4d8460b772c8baeb15914992edef3951"
+      },
+      "visual": {
+        "expectedCue": "A quiet row of waiting chairs, two calmly seated fully clothed adults and a closed appointment-room door.",
+        "decision": "added",
+        "reason": "Actual full-size corrected source and final 512px/120px inspected: four waiting chairs, two calmly seated adults with coherent hands and legs, a low table with a plant, and a closed interior door. No clinician, examination bed or active reception counter. Original book-cover pseudolettering was removed with one targeted edit; the rejected original is retained privately. No visible text or logos remain.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean photo-like clinical educational rendering with precise soft forms, cool white/mint/teal accents and calm natural anatomy. The focal room cue remains readable at 120px; no warm paper/storybook treatment."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "75a84ff0a990c568fdd20db77a57860e4d8460b772c8baeb15914992edef3951",
+          "inspectedAt": "2026-10-27T16:12:44.042357+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: two visitors sit quietly among a row of linked waiting chairs beside an appointment-room door, with clear empty seats between them. No examination, bed or reception transaction; room/seating is the focus, anatomy coherent and white/mint setting readable."
+        }
+      }
+    },
+    {
+      "entryId": "reception",
+      "sourceWord": "reception",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "reception:meaning-1",
+          "pos": "n.",
+          "en": "The area at the entrance of a building where staff welcome visitors and provide information."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please ask at reception when you arrive.",
+          "senseId": "reception:meaning-1"
+        },
+        {
+          "en": "The clinic moved reception near the main entrance.",
+          "senseId": "reception:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/reception.webp",
+        "sha256": "c4ef8ff41d329ae5093c4768e6f431ac9846660623f7f65d52e5116e6c940a9c"
+      },
+      "visual": {
+        "expectedCue": "Clinic arrival desk with staff welcoming a standing visitor, distinct from a waiting-seat area.",
+        "decision": "added",
+        "reason": "Completed built-in worker generation was retained and reused. Actual full original and final512/120 inspected: curved reception counter, seated staff greeting a standing visitor across it, plain monitor back, coherent hands/limbs, no readable data, letters or examination. Desk/arrival interaction remains clear at120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean cool-white/mint clinical scene with soft precise forms and an uncluttered arrival focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c4ef8ff41d329ae5093c4768e6f431ac9846660623f7f65d52e5116e6c940a9c",
+          "inspectedAt": "2026-10-27T16:25:43.174697+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120px: a curved arrival counter is the focal space; a seated staff member behind it greets a standing visitor. Monitor back faces the viewer with no visible data, hands and counter contact are coherent, and quiet waiting seats/clinical doorway give healthcare arrival context. Clean cool-white/mint clinical rendering remains readable at120px, distinct from a ward or examination scene."
+        }
+      }
+    },
+    {
+      "entryId": "ruler",
+      "sourceWord": "ruler",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "ruler:meaning-1",
+          "pos": "n.",
+          "en": "A straight tool with evenly spaced marks for measuring lengths or drawing straight lines."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ruler lies along the edge of the metal sheet.",
+          "senseId": "ruler:meaning-1"
+        },
+        {
+          "en": "The student used a ruler to draw a straight line.",
+          "senseId": "ruler:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ruler.webp",
+        "sha256": "3f38484a9862347ee2cab678f13d97abcb9ae63091f53ee168773bd4392768a6"
+      },
+      "visual": {
+        "expectedCue": "A straight thin steel measuring strip with regular graduation ticks and a straight edge.",
+        "decision": "added",
+        "reason": "Actual generated full source and final512/120px inspected: long rigid rectangular strip, straight edges and regularly spaced engraved ticks; no invented numbers or measurement reading. The silhouette and graduated edge remain visible at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise engineering product rendering on slate with silver material shading and restrained amber accents; one clear object or dimension, readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3f38484a9862347ee2cab678f13d97abcb9ae63091f53ee168773bd4392768a6",
+          "inspectedAt": "2026-10-27T15:44:51.289029+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: straight metal measuring ruler with fine/major graduation marks lies beside a straight line. No invented numeric reading; long straight instrument distinct from flexible retractable tape. Precise silver/slate rendering with restrained amber edge."
+        }
+      }
+    },
+    {
+      "entryId": "tape-measure",
+      "sourceWord": "tape measure",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "tape-measure:meaning-1",
+          "pos": "n.",
+          "en": "A flexible strip marked with units of length, used to measure distances or dimensions."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tape measure has a hooked end and a retractable strip.",
+          "senseId": "tape-measure:meaning-1"
+        },
+        {
+          "en": "The carpenter checked the board with a tape measure.",
+          "senseId": "tape-measure:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tape-measure.webp",
+        "sha256": "e63feb6651e8b5713689251587d3c23da9071cc8e0af763d2439b2410a9827c5"
+      },
+      "visual": {
+        "expectedCue": "A compact retractable measuring-tape housing with one extended graduated strip and attached end hook.",
+        "decision": "added",
+        "reason": "Actual generated full source and final512/120px inspected: strip emerges from housing slot, carries unlabeled ticks and ends in one attached metal hook; thumb lock and flexible strip distinguish the tool from a ruler or adhesive tape.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise engineering product rendering on slate with silver material shading and restrained amber accents; one clear object or dimension, readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e63feb6651e8b5713689251587d3c23da9071cc8e0af763d2439b2410a9827c5",
+          "inspectedAt": "2026-10-27T15:44:51.289060+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: retractable measuring blade emerges continuously from its housing, with a perpendicular end hook, lock slider and unnumbered marks. No detached blade or invented value. Slate/amber technical object remains clear at120px."
+        }
+      }
+    },
+    {
+      "entryId": "protractor",
+      "sourceWord": "protractor",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "protractor:meaning-1",
+          "pos": "n.",
+          "en": "A tool with an angular scale used to measure or draw angles."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The protractor has marks around its curved edge.",
+          "senseId": "protractor:meaning-1"
+        },
+        {
+          "en": "The student aligned the protractor with one side of the angle.",
+          "senseId": "protractor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/protractor.webp",
+        "sha256": "cef6ff3b6650bddb67515d8582396324de17799909105f65b03ad4602403952f"
+      },
+      "visual": {
+        "expectedCue": "A semicircular angular measuring tool with curved graduations and a center mark on its straight baseline.",
+        "decision": "added",
+        "reason": "Actual generated full source and final512/120px inspected: half-circle rim, flat baseline, central reference point and radial unlabeled graduation marks. Transparent body and inner opening remain coherent and read as a protractor rather than a triangular set square.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise engineering product rendering on slate with silver material shading and restrained amber accents; one clear object or dimension, readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "cef6ff3b6650bddb67515d8582396324de17799909105f65b03ad4602403952f",
+          "inspectedAt": "2026-10-27T15:44:51.289092+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: transparent semicircular angle-measuring tool has straight baseline, marked center and radial arc graduations. No numeric measurement claimed; distinct from right-triangle set square and ruler. Slate/amber/silver drawing legible at120px."
+        }
+      }
+    },
+    {
+      "entryId": "spirit-level",
+      "sourceWord": "spirit level",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "spirit-level:meaning-1",
+          "pos": "n.",
+          "en": "A tool with a liquid-filled vial and an air bubble used to check whether a surface is level or upright."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The spirit level has a bubble between two reference marks.",
+          "senseId": "spirit-level:meaning-1"
+        },
+        {
+          "en": "The worker placed a spirit level on the shelf.",
+          "senseId": "spirit-level:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/spirit-level.webp",
+        "sha256": "50171ef1ec9b03a0245eecb43d8f7512e0bea320952c433d1095b440ab07ef89"
+      },
+      "visual": {
+        "expectedCue": "A rigid level bar contains one horizontal liquid vial with a single bubble between two reference rings.",
+        "decision": "added",
+        "reason": "Actual generated full source and final512/120px inspected: one centered air bubble appears in the green-liquid vial between two dark rings, and the vial is housed in a continuous amber bar with a flat measuring base. No invented calibration reading.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical object drawing on slate with silver and restrained amber forms; physical tool connections and distinct teaching cue remain clear at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "50171ef1ec9b03a0245eecb43d8f7512e0bea320952c433d1095b440ab07ef89",
+          "inspectedAt": "2026-10-27T15:51:14.780561+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: liquid-filled vial is fixed inside a straight tool body, with one visible air bubble between two reference marks. No fabricated numeric reading. Slate/amber technical object and bubble cue remain clear at120px."
+        }
+      }
+    },
+    {
+      "entryId": "set-square",
+      "sourceWord": "set square",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "set-square:meaning-1",
+          "pos": "n.",
+          "en": "A flat triangular drawing tool with a right angle and straight edges."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The set square has a triangular opening in the middle.",
+          "senseId": "set-square:meaning-1"
+        },
+        {
+          "en": "The drafter used a set square to draw a perpendicular line.",
+          "senseId": "set-square:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/set-square.webp",
+        "sha256": "a50d62c4a680a2024e8ef9343d500ab71f53f3a83da5e52358b9bfd33b335dc3"
+      },
+      "visual": {
+        "expectedCue": "A flat triangular drawing frame has straight edges, a right-angle corner and a triangular opening.",
+        "decision": "added",
+        "reason": "Actual generated full source and final512/120px inspected: transparent triangular frame, three connected edges and vertices, distinct right-angle corner and engraved ticks along perpendicular legs; not a square shape or curved protractor.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical object drawing on slate with silver and restrained amber forms; physical tool connections and distinct teaching cue remain clear at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a50d62c4a680a2024e8ef9343d500ab71f53f3a83da5e52358b9bfd33b335dc3",
+          "inspectedAt": "2026-10-27T15:51:14.780721+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: transparent triangular drafting tool has straight graduated edges and a triangular inner opening; right-triangle tool geometry shown in perspective. Distinct from semicircular protractor, no invented angle reading; technical slate/amber rendering."
+        }
+      }
+    },
+    {
+      "entryId": "drawing-compass",
+      "sourceWord": "compass",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "drawing-compass:meaning-1",
+          "pos": "n.",
+          "en": "A drawing tool with two hinged legs, one with a point and one for marking circles or arcs."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The compass has a fixed point and a pencil tip.",
+          "senseId": "drawing-compass:meaning-1"
+        },
+        {
+          "en": "The student drew an arc with the compass.",
+          "senseId": "drawing-compass:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/drawing-compass.webp",
+        "sha256": "4553d7e83de702b5c430322dcc7c8c7200a7448f85d5ce997a1c132cadf1751d"
+      },
+      "visual": {
+        "expectedCue": "Two hinged compass legs place one fixed point on paper and one pencil tip on a coherent partial arc.",
+        "decision": "added",
+        "reason": "Actual initial full-source inspection rejected the off-center full ellipse. One targeted built-in edit preserved the compass and replaced only the curve with a partial arc around the fixed needle that passes through the pencil tip. Corrected full source and final512/120px inspected: two connected legs, one needle, one pencil, both contacting paper; no off-center closed ellipse.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical object drawing on slate with silver and restrained amber forms; physical tool connections and distinct teaching cue remain clear at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4553d7e83de702b5c430322dcc7c8c7200a7448f85d5ce997a1c132cadf1751d",
+          "inspectedAt": "2026-10-27T15:51:14.780758+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted corrected actual512/120: two joined legs end at a fixed needle point and pencil touching the paper, with a partial foreshortened arc ending at the pencil tip. Connected adjustment screw/hinge/pencil holder, no navigation needle or detached pencil; technical drawing-tool scene."
+        }
+      }
+    },
+    {
+      "entryId": "length",
+      "sourceWord": "length",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "length:meaning-1",
+          "pos": "n.",
+          "en": "The distance between the two ends of an object along a chosen direction."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The arrow marks the length of the rectangular block.",
+          "senseId": "length:meaning-1"
+        },
+        {
+          "en": "The engineer recorded the length of the shaft.",
+          "senseId": "length:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/length.webp",
+        "sha256": "4b7169f7be17259e23fc6291c47945c3cadbc88eed03bdf5500a3b2f9e85e133"
+      },
+      "visual": {
+        "expectedCue": "A double-headed dimension arrow spans the full long end-to-end axis of a solid rectangular block.",
+        "decision": "added",
+        "reason": "Actual full generated source and final512/120px inspected: amber arrow parallels the long lower front edge, with endpoints aligned to both end planes by pale extension lines. Clear overall length, not short width or vertical height; no numerical value.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver engineering block on slate with one restrained amber measurement relation, physically aligned endpoints and readable120px composition."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4b7169f7be17259e23fc6291c47945c3cadbc88eed03bdf5500a3b2f9e85e133",
+          "inspectedAt": "2026-10-27T15:57:56.788411+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: double-headed dimension line spans the full long edge of a rectangular bar, with endpoint extension marks aligned to the two end planes. This is longitudinal distance, distinct from short crosswise width or vertical height; slate/silver/amber drawing, no values."
+        }
+      }
+    },
+    {
+      "entryId": "width",
+      "sourceWord": "width",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "width:meaning-1",
+          "pos": "n.",
+          "en": "The distance across an object from one side to the other."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The arrow shows the width across the short side of the block.",
+          "senseId": "width:meaning-1"
+        },
+        {
+          "en": "The sheet has the same width along its full length.",
+          "senseId": "width:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/width.webp",
+        "sha256": "9efdefd345291112cecd7e5753c94cef0f1fe1bcecf74ee1da7df42481622060"
+      },
+      "visual": {
+        "expectedCue": "A double-headed dimension arrow connects both corners of the complete short transverse edge of a solid block.",
+        "decision": "added",
+        "reason": "Initial full-source inspection rejected a partial-width span whose leader met an intermediate edge point. One targeted built-in correction removed those markings and placed the double-headed arrow along the entire short top edge of the right end face, with tips at both actual corners. Corrected full source and final512/120px inspected: complete transverse width cue, distinct from length and height.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver engineering block on slate with one restrained amber measurement relation, physically aligned endpoints and readable120px composition."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9efdefd345291112cecd7e5753c94cef0f1fe1bcecf74ee1da7df42481622060",
+          "inspectedAt": "2026-10-27T15:57:56.788555+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted corrected actual512/120: one amber dimension line covers the entire short top end edge from front corner to back corner, transverse to the long block axis. Both tips reach the end-edge corners; no partial or diagonal length span. Technical category style remains clear at120px."
+        }
+      }
+    },
+    {
+      "entryId": "height",
+      "sourceWord": "height",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "height:meaning-1",
+          "pos": "n.",
+          "en": "The vertical distance from the bottom of an object to its top."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The vertical arrow marks the height of the block.",
+          "senseId": "height:meaning-1"
+        },
+        {
+          "en": "The engineer compared the height of the two supports.",
+          "senseId": "height:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/height.webp",
+        "sha256": "2394cc639b2f38ca8a16f754f43143757e121a5a57848c7debcaec9bb70743ce"
+      },
+      "visual": {
+        "expectedCue": "A vertical double-headed dimension arrow runs from the bottom reference level to the top reference level of a solid block.",
+        "decision": "added",
+        "reason": "Actual full generated source and final512/120px inspected: one vertical amber span aligns to the top and bottom of the same right-hand block edge through horizontal extension lines. Clear bottom-to-top height rather than depth inside a cavity; no readings or extra arrows.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver engineering block on slate with one restrained amber measurement relation, physically aligned endpoints and readable120px composition."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2394cc639b2f38ca8a16f754f43143757e121a5a57848c7debcaec9bb70743ce",
+          "inspectedAt": "2026-10-27T15:57:56.788579+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: one vertical double-headed dimension arrow lies beside an upright block with horizontal extensions from its top and bottom levels. Whole external height is measured, distinct from interior depth; no numerical reading, clear slate/silver/amber rendering."
+        }
+      }
+    },
+    {
+      "entryId": "depth",
+      "sourceWord": "depth",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "depth:meaning-1",
+          "pos": "n.",
+          "en": "The distance from an opening or surface down to the bottom of a space."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The arrow shows the depth inside the open box.",
+          "senseId": "depth:meaning-1"
+        },
+        {
+          "en": "The designer checked the depth of the recess.",
+          "senseId": "depth:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/depth.webp",
+        "sha256": "1d88906f6b43314474d394d36fd8a669a7686df16a292530241225d3fc974daf"
+      },
+      "visual": {
+        "expectedCue": "One vertical dimension arrow spans an open box rim level to its inner floor.",
+        "decision": "added",
+        "reason": "Full generated source and512/120 inspected: cutaway box exposes interior floor; one vertical double-headed amber arrow runs from rim reference to inner-bottom reference, measuring cavitydepthratherthanoveralloutsideheightorwallthickness. No numeric reading or motion diagram.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Silver technical cutaway on slate with one amber dimension cue, readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1d88906f6b43314474d394d36fd8a669a7686df16a292530241225d3fc974daf",
+          "inspectedAt": "2026-10-27T15:47:25.259609+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120px: open box cutaway exposes its interior floor, with a vertical amber double-headed dimension arrow from the upper opening reference to the internal floor reference, above the outside underside. Distinct depth cue, clear slate/silver technical rendering."
+        }
+      }
+    },
+    {
+      "entryId": "diameter",
+      "sourceWord": "diameter",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "diameter:meaning-1",
+          "pos": "n.",
+          "en": "The distance across a circle through its center, from one point on the edge to the opposite point."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The diameter passes through the center of the circular face.",
+          "senseId": "diameter:meaning-1"
+        },
+        {
+          "en": "The drawing marks the outside diameter of the disc.",
+          "senseId": "diameter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/diameter.webp",
+        "sha256": "08bb42966a4c01b68ec94e89cbecf30855cffd8acfa5bb746a83f369c10b40ce"
+      },
+      "visual": {
+        "expectedCue": "One full rim-to-opposite-rim dimension passes through the marked center of a circular disc.",
+        "decision": "added",
+        "reason": "Full generated source and512/120 inspected: straight amber two-headed line crosses the center point and spans opposite circumference points; no off-center chord or half-radius line. Circle stays front-facing and circular.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Refined brushed-silver object surface on slate, amber center and measurement cue, no text or invented values."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "08bb42966a4c01b68ec94e89cbecf30855cffd8acfa5bb746a83f369c10b40ce",
+          "inspectedAt": "2026-10-27T15:47:25.259651+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120px: single amber dimension span crosses the circular face through its marked center and reaches opposite edges. Full across-center diameter, not radius or circumference, on a silver disc with slate ground."
+        }
+      }
+    },
+    {
+      "entryId": "radius",
+      "sourceWord": "radius",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "radius:meaning-1",
+          "pos": "n.",
+          "en": "The distance from the center of a circle to any point on its edge."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The radius runs from the center point to the edge.",
+          "senseId": "radius:meaning-1"
+        },
+        {
+          "en": "The designer marked the radius of the circular face.",
+          "senseId": "radius:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/radius.webp",
+        "sha256": "2ea53f438fbf80c165bad71d314c5f1125075cfe1b1161347b0ecfd12211ee0c"
+      },
+      "visual": {
+        "expectedCue": "One line begins at a circular disc center and ends with an arrow at its rim.",
+        "decision": "added",
+        "reason": "Full generated source and512/120 inspected: center dot is at the disc center; single diagonal amber segment starts there and ends at the circumference, with no extension behind center. Distinct from full diameter and circumference; no numeric values.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Matched slate/silver/amber dimension drawing with metallic texture and a clear center-to-rim cue at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T16:28:06.751522+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2ea53f438fbf80c165bad71d314c5f1125075cfe1b1161347b0ecfd12211ee0c",
+          "inspectedAt": "2026-10-27T15:47:25.259692+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120px: one line runs from the marked center to one rim point only, with an arrow at the outer end. It does not cross to the opposite edge. Correct center-to-edge radius cue, distinct from diameter and legible on the technical disc."
         }
       }
     }
