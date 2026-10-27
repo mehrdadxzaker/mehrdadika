@@ -19,9 +19,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: read
+      pages: read
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: '22'
           cache: npm
@@ -40,9 +43,10 @@ jobs:
       - name: Build static application
         env:
           ATLAS_BASE: ${{ inputs.base_path }}
+          VITE_REPO_URL: https://github.com/${{ github.repository }}
         run: npm run build
         timeout-minutes: 3
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
 
@@ -60,3 +64,10 @@ jobs:
       - name: Deploy static artifact
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify published source revision
+        env:
+          DEPLOY_URL: ${{ steps.deployment.outputs.page_url }}
+        timeout-minutes: 2
+        run: |
+          curl --fail --silent --show-error --retry 2 --retry-delay 3 --connect-timeout 10 --max-time 20 "${DEPLOY_URL%/}/build-info.json?run=${GITHUB_RUN_ID}" --output /tmp/mehrdadika-build-info.json
+          node -e 'const data = JSON.parse(require("node:fs").readFileSync("/tmp/mehrdadika-build-info.json", "utf8")); if (data.revision !== process.env.GITHUB_SHA) throw new Error("Published source revision does not match this deployment"); console.log("Verified deployed source:", data.revision);'
