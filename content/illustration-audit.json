@@ -1813,17 +1813,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/circuit.webp",
-        "sha256": "1521bfaebe10fa5f6056aa9cc06c0ed2c6d6b6dfd0c7679f7960b9ed42450bba"
+        "path": "atlas/img/circuit-v2.webp",
+        "sha256": "87c89f859251a13a5670d1002477ff56905e7d9b618d4e6281acf963875a4f07"
       },
       "visual": {
-        "expectedCue": "A battery, lamp and switch are joined in a continuous electrical path.",
-        "decision": "retained",
-        "reason": "Retained after pixel inspection: A battery, lamp and switch are joined in a continuous electrical path."
+        "expectedCue": "One continuous three-wire battery/lamp/closed-switch series loop, with every lead attached to a distinct metal terminal.",
+        "decision": "replaced",
+        "reason": "Full generated source and final512/120px inspected: three connected wires trace a complete series loop through the lamp socket and knife switch; the switch blade visibly touches its fixed contact and the lamp is lit. No glass wiring, branch, floating lead or battery short. Replaces the inherited open-switch/lit-lamp contradiction.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical product rendering on slate with restrained amber and silver accents, one focused assembly readable at120px."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "87c89f859251a13a5670d1002477ff56905e7d9b618d4e6281acf963875a4f07",
+          "inspectedAt": "2026-10-27T14:22:01.930201+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120px pixels show one closed three-wire loop: each battery terminal leads to a separate lamp-holder or switch post, the brass switch lever bridges its posts, and the lamp is lit. Wiring contacts the holder rather than glass; no bypass or ambiguous open switch. Slate technical composition is legible at120px."
+        }
       }
     },
     {
@@ -1887,17 +1902,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/engine.webp",
-        "sha256": "981d5f78322ff34a813232b737b47193f5bd468b075ba2e5ce4c5bea30ff4721"
+        "path": "atlas/img/engine-v2.webp",
+        "sha256": "af5524a3cadb0b7feebeb623da4cbc9db4d20bdb3926b7de8d08d1d4b4cd9186"
       },
       "visual": {
-        "expectedCue": "A mechanic inspects a recognizable engine beneath an open vehicle hood.",
-        "decision": "retained",
-        "reason": "Retained after pixel inspection: A mechanic inspects a recognizable engine beneath an open vehicle hood."
+        "expectedCue": "A complete compact automotive internal-combustion engine assembly, with connected block, head, sump and front belt accessories.",
+        "decision": "replaced",
+        "reason": "Full generated source and final512/120px inspected: recognizable complete engine assembly on rigid supports; head, block and sump join; visible belt runs along front pulleys and manifolds connect to the assembly. No person obscures the meaning. Generic exterior illustration, not a service diagram or exact model claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical product rendering on slate with restrained amber and silver accents, one focused assembly readable at120px."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "af5524a3cadb0b7feebeb623da4cbc9db4d20bdb3926b7de8d08d1d4b4cd9186",
+          "inspectedAt": "2026-10-27T14:22:01.930466+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120px pixels show a complete supported automotive engine assembly: block/head/cover, connected manifolds, sump, pulleys and continuous accessory belt, alternator and mounting feet. Engine itself is the focus, not a mechanic or vehicle scene. Technical slate/silver rendering with restrained amber caps matches category style; no readings or labels."
+        }
       }
     },
     {
@@ -12830,6 +12860,1207 @@
             120
           ],
           "finding": "Three continuous leads form one battery-to-meter-to-lamp-to-battery series loop without a bypass; the face contains only the essential A letter."
+        }
+      }
+    },
+    {
+      "entryId": "skull",
+      "sourceWord": "skull",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "skull:meaning-1",
+          "pos": "n.",
+          "en": "The bony framework of the head, enclosing the brain and forming the face."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The skull has openings for the eyes and nose.",
+          "senseId": "skull:meaning-1"
+        },
+        {
+          "en": "The model shows the lower jaw attached to the skull.",
+          "senseId": "skull:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/skull.webp",
+        "sha256": "a7b76ebe7cb3d37f042a89cf2ef7ca3a6708590d1feb13d9e51b8d03e04518d8"
+      },
+      "visual": {
+        "expectedCue": "Rounded adult cranium with separate orbits, nasal opening, cheek arches and attached mandible.",
+        "decision": "added",
+        "reason": "Actual original full-size pixels and final512px WebP and120px thumbnail inspected. One complete ivory skull model in three-quarter view, with attached lower jaw, coherent eye sockets and nasal opening. No extra eyeballs, injury or horror symbols; skull silhouette remains unmistakable at120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual pixels preserve the clinical category brief: precise softly shaded medical forms, cool ivory/pale mint field, restrained teal accents and one clear teaching focus; no decorative labels or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a7b76ebe7cb3d37f042a89cf2ef7ca3a6708590d1feb13d9e51b8d03e04518d8",
+          "inspectedAt": "2026-10-27T14:21:54.134328+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted at512/120: recognizable bony skull with cranial vault, two orbits, nasal opening and attached lower jaw; non-graphic ivory clinical anatomy on mint. Main skull cue remains clear in thumbnail."
+        }
+      }
+    },
+    {
+      "entryId": "pelvis",
+      "sourceWord": "pelvis",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pelvis:meaning-1",
+          "pos": "n.",
+          "en": "The ringlike bony structure formed by the hip bones and the base of the spine."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pelvis connects the trunk to the lower limbs.",
+          "senseId": "pelvis:meaning-1"
+        },
+        {
+          "en": "The anatomy model shows the ring of the pelvis.",
+          "senseId": "pelvis:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pelvis.webp",
+        "sha256": "ed128b39dc779c5232264bfb5348da4fde8543db9eea4b70abec08fffe661243"
+      },
+      "visual": {
+        "expectedCue": "Complete bony pelvic ring, paired hip bones and openings, central sacrum and anterior pubic connection.",
+        "decision": "added",
+        "reason": "Actual original full-size pixels and final512px WebP and120px thumbnail inspected. Paired iliac wings join the central sacrum, with two lateral hip sockets, paired obturator openings and anterior pubic symphysis forming a coherent ring. Same relationships remain legible at120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual pixels preserve the clinical category brief: precise softly shaded medical forms, cool ivory/pale mint field, restrained teal accents and one clear teaching focus; no decorative labels or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ed128b39dc779c5232264bfb5348da4fde8543db9eea4b70abec08fffe661243",
+          "inspectedAt": "2026-10-27T14:21:54.134521+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted at512/120: two hip bones join the sacrum posteriorly and pubic symphysis anteriorly into a complete ring, with paired obturator openings and hip sockets visible. Clinical ivory/mint style; ring clear at120px."
+        }
+      }
+    },
+    {
+      "entryId": "sternum",
+      "sourceWord": "sternum",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "sternum:meaning-1",
+          "pos": "n.",
+          "en": "The flat bone at the front center of the chest to which several ribs are connected by cartilage."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sternum lies at the front of the chest.",
+          "senseId": "sternum:meaning-1"
+        },
+        {
+          "en": "The diagram highlights the sternum between the ribs.",
+          "senseId": "sternum:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sternum.webp",
+        "sha256": "489b04d02c355ec8112cc2dc65408951153e028c9a78033b57076197d5141f27"
+      },
+      "visual": {
+        "expectedCue": "Anterior midline breastbone highlighted between paired costal cartilages.",
+        "decision": "added",
+        "reason": "Actual original full-size pixels and final512px WebP and120px thumbnail inspected. Mint-highlighted sternum has broad manubrium, long flat body and pointed xiphoid region; its location is anterior to the receding ribs. Highlight separates it clearly at120px without organs or injury.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual pixels preserve the clinical category brief: precise softly shaded medical forms, cool ivory/pale mint field, restrained teal accents and one clear teaching focus; no decorative labels or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "489b04d02c355ec8112cc2dc65408951153e028c9a78033b57076197d5141f27",
+          "inspectedAt": "2026-10-27T14:21:54.134565+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted at512/120: anterior central breastbone highlighted mint against pale ribs/cartilage, with broad manubrium, long body and small tapered xiphoid region. Central skeletal relation reads at120px; no invented readings or diagnosis."
+        }
+      }
+    },
+    {
+      "entryId": "clavicle",
+      "sourceWord": "clavicle",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "clavicle:meaning-1",
+          "pos": "n.",
+          "en": "A slender curved bone that links the breastbone to the shoulder blade."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clavicle runs across the upper front of the chest.",
+          "senseId": "clavicle:meaning-1"
+        },
+        {
+          "en": "One end of the clavicle meets the sternum.",
+          "senseId": "clavicle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/clavicle.webp",
+        "sha256": "00fb08bc5dafb38fe52a23f837686ab586ce1bdbfc275fec2563ba66c932fad9"
+      },
+      "visual": {
+        "expectedCue": "One slender curved collarbone highlighted between sternum and shoulder.",
+        "decision": "added",
+        "reason": "Actual original full-size pixels and final512px WebP and120px thumbnail inspected. Single right clavicle (viewer left) is highlighted and continuously connects the sternum to the shoulder acromion. Shallow double curve is visible, surrounding bones remain pale, and highlight survives120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual pixels preserve the clinical category brief: precise softly shaded medical forms, cool ivory/pale mint field, restrained teal accents and one clear teaching focus; no decorative labels or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "00fb08bc5dafb38fe52a23f837686ab586ce1bdbfc275fec2563ba66c932fad9",
+          "inspectedAt": "2026-10-27T14:22:41.182302+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: one S-curved collarbone highlighted mint, extending from upper sternum to shoulder/acromion in anterior skeletal context. Both ends meet appropriate neighboring bones; clear highlighted teaching target on cool clinical ground."
+        }
+      }
+    },
+    {
+      "entryId": "scapula",
+      "sourceWord": "scapula",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "scapula:meaning-1",
+          "pos": "n.",
+          "en": "A flat triangular bone at the back of the shoulder that connects with the upper arm bone."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The scapula has a ridge across its back surface.",
+          "senseId": "scapula:meaning-1"
+        },
+        {
+          "en": "The model shows the triangular shape of the scapula.",
+          "senseId": "scapula:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/scapula.webp",
+        "sha256": "99670cbf43fede3794725b7bcf5b6c22d19a04c445fb4f911b776b6b500798e2"
+      },
+      "visual": {
+        "expectedCue": "Triangular posterior shoulder blade with prominent spine continuing into acromion.",
+        "decision": "added",
+        "reason": "Actual original full-size pixels and final512px WebP and120px thumbnail inspected. Isolated triangular scapula has an inferior point, clear posterior ridge continuing into the lateral acromion and lateral socket. These distinguish it from a hip or flat generic bone at512px and120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual pixels preserve the clinical category brief: precise softly shaded medical forms, cool ivory/pale mint field, restrained teal accents and one clear teaching focus; no decorative labels or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "99670cbf43fede3794725b7bcf5b6c22d19a04c445fb4f911b776b6b500798e2",
+          "inspectedAt": "2026-10-27T14:24:15.329449+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: triangular shoulder blade in posterior view with prominent scapular spine continuing to the acromion, lateral glenoid region and inferior angle. Distinct bone shape remains clear in thumbnail; precise ivory clinical study on mint."
+        }
+      }
+    },
+    {
+      "entryId": "patella",
+      "sourceWord": "patella",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "patella:meaning-1",
+          "pos": "n.",
+          "en": "The small bone at the front of the knee, commonly called the kneecap."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The patella sits in front of the knee joint.",
+          "senseId": "patella:meaning-1"
+        },
+        {
+          "en": "The patella is highlighted on the knee model.",
+          "senseId": "patella:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/patella.webp",
+        "sha256": "cf61d61393aa2af9e6b39fcf2e7b608fe1d9adbd93bf0f61651c79898379ccb1"
+      },
+      "visual": {
+        "expectedCue": "A single rounded triangular kneecap highlighted in front of the knee joint.",
+        "decision": "added",
+        "reason": "Actual original full-size pixels and final512px WebP and120px thumbnail inspected. Highlighted patella sits anterior to distal femur, base up and point down. Quadriceps tendon above and patellar attachment below are continuous, with no duplicate or floating kneecap. Highlight is readable at120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual pixels preserve the clinical category brief: precise softly shaded medical forms, cool ivory/pale mint field, restrained teal accents and one clear teaching focus; no decorative labels or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "cf61d61393aa2af9e6b39fcf2e7b608fe1d9adbd93bf0f61651c79898379ccb1",
+          "inspectedAt": "2026-10-27T14:24:15.329819+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: broad superior/pointed inferior kneecap highlighted over anterior femoral knee region, with quadriceps tendon above and patellar ligament below toward tibia; fibula lateral and tibia under the joint. Precise non-graphic clinical model and localized highlight remain readable."
+        }
+      }
+    },
+    {
+      "entryId": "specimen-cup",
+      "sourceWord": "specimen cup",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "specimen-cup:meaning-1",
+          "pos": "n.",
+          "en": "A small sealable container used to hold a biological sample for laboratory testing."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The specimen cup has a screw-on lid.",
+          "senseId": "specimen-cup:meaning-1"
+        },
+        {
+          "en": "The empty specimen cup is on the laboratory tray.",
+          "senseId": "specimen-cup:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/specimen-cup.webp",
+        "sha256": "edcb4eb27fdbe8666fc700fffabbbb0c1f93c4c5c55cae1c16eb5b77f2613bb5"
+      },
+      "visual": {
+        "expectedCue": "Empty wide-mouth sample container with threaded rim and matching screw cap.",
+        "decision": "added",
+        "reason": "Actual original full-size pixels and final512px WebP and120px thumbnail inspected. Transparent empty cup has a wide threaded opening, stable flat base and matching mint lid beside it. Blank label has no text or measurements. At120px it reads as a sealable sample container rather than a drinking glass.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual pixels preserve the clinical category brief: precise softly shaded medical forms, cool ivory/pale mint field, restrained teal accents and one clear teaching focus; no decorative labels or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "edcb4eb27fdbe8666fc700fffabbbb0c1f93c4c5c55cae1c16eb5b77f2613bb5",
+          "inspectedAt": "2026-10-27T14:27:59.093103+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: empty wide-mouth transparent specimen container with screw threads, matching detached screw cap and blank identification panel. No biological content or fabricated labeling; clinical mint/white object rendering clear at120px."
+        }
+      }
+    },
+    {
+      "entryId": "swab",
+      "sourceWord": "swab",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "swab:meaning-1",
+          "pos": "n.",
+          "en": "A small soft pad on a stick used to collect a sample from a surface of the body."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The swab has a soft tip at one end.",
+          "senseId": "swab:meaning-1"
+        },
+        {
+          "en": "A sealed pouch contains the swab.",
+          "senseId": "swab:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/swab.webp",
+        "sha256": "6e11687522e68ac4c9e2e8c9804c207a923e9c8f5bf6f1f557c451c39731aa25"
+      },
+      "visual": {
+        "expectedCue": "A single-ended soft sampling tip on a long thin shaft beside a peel pouch.",
+        "decision": "added",
+        "reason": "Actual original full-size pixels and final512px WebP and120px thumbnail inspected. One white flocked oval tip is attached to a long shaft; opposite end is bare. Pouch establishes collection-device context. Tip and shaft remain distinct at120px; no needle, double-ended household cotton bud or sampling procedure.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual pixels preserve the clinical category brief: precise softly shaded medical forms, cool ivory/pale mint field, restrained teal accents and one clear teaching focus; no decorative labels or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6e11687522e68ac4c9e2e8c9804c207a923e9c8f5bf6f1f557c451c39731aa25",
+          "inspectedAt": "2026-10-27T14:27:59.093253+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: one long sampling stick with a single soft flocked tip beside an individual peel pouch; no second tip, liquid pipette or toothbrush head. Tip and slender sampling tool remain visible in thumbnail, consistent cool clinical style."
+        }
+      }
+    },
+    {
+      "entryId": "tourniquet",
+      "sourceWord": "tourniquet",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "tourniquet:meaning-1",
+          "pos": "n.",
+          "en": "A band or device that applies pressure around a limb to restrict blood flow."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tourniquet has an elastic strap and a buckle.",
+          "senseId": "tourniquet:meaning-1"
+        },
+        {
+          "en": "The nurse placed a tourniquet beside the collection tray.",
+          "senseId": "tourniquet:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tourniquet.webp",
+        "sha256": "f5f5f4cf54c7875cf71f0da5d00892ed594743805855323768bc12326c916ee3"
+      },
+      "visual": {
+        "expectedCue": "An elastic venous-collection strap with connected quick-release buckle.",
+        "decision": "added",
+        "reason": "Actual original full-size pixels and final512px WebP and120px thumbnail inspected. Broad teal elastic strap forms a loose loop with short adjustable tail through coherent white buckle. No limb, application direction or hemorrhage is depicted. At120px the elastic-band device and buckle remain clear.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual pixels preserve the clinical category brief: precise softly shaded medical forms, cool ivory/pale mint field, restrained teal accents and one clear teaching focus; no decorative labels or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f5f5f4cf54c7875cf71f0da5d00892ed594743805855323768bc12326c916ee3",
+          "inspectedAt": "2026-10-27T14:27:59.093293+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: loose loop of woven elastic-style strap with compact quick-release buckle and free tail, no limb application or instructions. No collar ring or bandage roll; precise mint/white clinical object study preserves the selected venous-collection device cue."
+        }
+      }
+    },
+    {
+      "entryId": "suture",
+      "sourceWord": "suture",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "suture:meaning-1",
+          "pos": "n.",
+          "en": "A length of surgical thread used to hold tissue edges together."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The suture is attached to a curved needle.",
+          "senseId": "suture:meaning-1"
+        },
+        {
+          "en": "The diagram shows a fine suture beside its needle.",
+          "senseId": "suture:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/suture.webp",
+        "sha256": "9c8c8de2875ba27100fa853a701004b16e4cb9692a6f9a0a473b69bb6af25c1e"
+      },
+      "visual": {
+        "expectedCue": "Fine surgical thread attached to the blunt end of a curved surgical needle.",
+        "decision": "added",
+        "reason": "Actual corrected full-size output and final512px WebP and120px thumbnail inspected. Exactly one continuous dark teal braided strand leaves the blunt swaged end of one curved steel needle, arcs around the left and top of the image, and ends freely at upper right. No separate loop, second strand, knot or wound. Needle-thread connection and open single-strand silhouette remain clear at120px. The first candidate was rejected by second AI review for a disconnected closed oval; a targeted built-in edit removed that oval only.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual pixels preserve the clinical category brief: precise softly shaded medical forms, cool ivory/pale mint field, restrained teal accents and one clear teaching focus; no decorative labels or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9c8c8de2875ba27100fa853a701004b16e4cb9692a6f9a0a473b69bb6af25c1e",
+          "inspectedAt": "2026-10-27T14:34:55.643416+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Accepted corrected actualfull/512/120: disconnected inner oval has been removed. Exactly one continuous open surgical thread runs from a swaged attachment at the blunt end of one curved needle to one free upper-right end. No extra closed ring or procedural scene. Clinical ivory/mint and dark strand retain clear attachment at120px. Rejected original retained privately."
+        }
+      }
+    },
+    {
+      "entryId": "iv-bag",
+      "sourceWord": "IV bag",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "iv-bag:meaning-1",
+          "pos": "n.",
+          "en": "A flexible container of fluid made for delivery into a vein through an infusion system."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The IV bag hangs from a hook on the stand.",
+          "senseId": "iv-bag:meaning-1"
+        },
+        {
+          "en": "A clear tube connects to the bottom of the IV bag.",
+          "senseId": "iv-bag:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/iv-bag.webp",
+        "sha256": "770e2d00363deaf90d625bb731298792073ed6978865054665130baafd9c2ac6"
+      },
+      "visual": {
+        "expectedCue": "Flexible hanging fluid bag, bottom ports and connected drip chamber.",
+        "decision": "added",
+        "reason": "Actual original full-size pixels and final512px WebP and120px thumbnail inspected. Clear flexible seamed bag hangs from a top hook with a visible fluid level, two bottom ports, one capped and one connected to drip chamber/tubing. No invented readings, doses or drug names; bag silhouette and chamber remain distinct at120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual pixels preserve the clinical category brief: precise softly shaded medical forms, cool ivory/pale mint field, restrained teal accents and one clear teaching focus; no decorative labels or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "770e2d00363deaf90d625bb731298792073ed6978865054665130baafd9c2ac6",
+          "inspectedAt": "2026-10-27T14:34:09.783622+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: flexible fluid bag hangs by its reinforced top eye, with two bottom ports: one capped, one connected to a drip chamber and tube. Blank label and no doses, numbers or treatment instructions; clinical clear/mint depiction stays recognizable at120px."
+        }
+      }
+    },
+    {
+      "entryId": "iv-pole",
+      "sourceWord": "IV pole",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "iv-pole:meaning-1",
+          "pos": "n.",
+          "en": "An upright stand with hooks for holding bags of intravenous fluid."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The IV pole has a wheeled base.",
+          "senseId": "iv-pole:meaning-1"
+        },
+        {
+          "en": "The nurse moved the empty IV pole beside the bed.",
+          "senseId": "iv-pole:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/iv-pole.webp",
+        "sha256": "df4f6b801879324f267f2d6c910be60201b393db190f8504ebdf8d66cba8a7bb"
+      },
+      "visual": {
+        "expectedCue": "Freestanding tall IV stand with connected hooks, adjustment knob and stable rolling base.",
+        "decision": "added",
+        "reason": "Actual original full-size pixels and final512px WebP and120px thumbnail inspected. Complete upright pole has two upper hooks, one hanging bag, middle adjustment knob and five-spoke connected caster base. Whole stand is visible and distinguishable from the bag alone even at120px; no patient or infusion instructions.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual pixels preserve the clinical category brief: precise softly shaded medical forms, cool ivory/pale mint field, restrained teal accents and one clear teaching focus; no decorative labels or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "df4f6b801879324f267f2d6c910be60201b393db190f8504ebdf8d66cba8a7bb",
+          "inspectedAt": "2026-10-27T14:34:09.783900+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: single upright adjustable pole has connected five-caster star base, adjustment knob and two top hooks with one hanging bag for context. Distinct stand silhouette and visible attached wheels at120px, cool clinical palette."
+        }
+      }
+    },
+    {
+      "entryId": "pipe",
+      "sourceWord": "pipe",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "pipe:meaning-1",
+          "pos": "n.",
+          "en": "A hollow, usually rigid length used to carry a liquid or gas."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pipe has a hollow center and a thick wall.",
+          "senseId": "pipe:meaning-1"
+        },
+        {
+          "en": "Water flows through the pipe to the tank.",
+          "senseId": "pipe:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pipe.webp",
+        "sha256": "9af1cd86954764cb83783aac98a4a560dbdf6b2e58441a3a9e49d1fe451c4f51"
+      },
+      "visual": {
+        "expectedCue": "Rigid hollow cylindrical pipe with continuous bore and a small longitudinal cutaway.",
+        "decision": "added",
+        "reason": "Full generated source and actual512/120px pixels show a straight thick-walled hollow metal section. Near mouth is visibly open, the cutaway reveals a continuous inner passage, and the rigid wall distinguishes it from hose and solid rod.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full/512/120px pixels: precise metallic/rubber technical object drawing on slate, restrained silver/amber highlights and a strong readable silhouette."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9af1cd86954764cb83783aac98a4a560dbdf6b2e58441a3a9e49d1fe451c4f51",
+          "inspectedAt": "2026-10-27T14:22:41.182087+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: rigid metal tube has a wide hollow bore and longitudinal cutaway showing continuous lumen and wall thickness. Distinct from solid rod and flexible hose; slate/silver technical rendering clear in thumbnail."
+        }
+      }
+    },
+    {
+      "entryId": "hose",
+      "sourceWord": "hose",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "hose:meaning-1",
+          "pos": "n.",
+          "en": "A flexible tube used to carry a liquid or gas."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The hose bends without a separate elbow fitting.",
+          "senseId": "hose:meaning-1"
+        },
+        {
+          "en": "A short hose connects the pump to the tank.",
+          "senseId": "hose:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hose.webp",
+        "sha256": "b840a692737ba7ad6657f519e77bb6163201b5ae8fbe46e26f59a051e748b67a"
+      },
+      "visual": {
+        "expectedCue": "A flexible rubber tube forms a U, with two hollow open ends.",
+        "decision": "added",
+        "reason": "Full generated source and actual512/120px pixels show an unbroken reinforced rubber U-shaped tube, two open circular mouths, and a connector collar on one end. Curved rubber silhouette teaches flexibility without kinks.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full/512/120px pixels: precise metallic/rubber technical object drawing on slate, restrained silver/amber highlights and a strong readable silhouette."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b840a692737ba7ad6657f519e77bb6163201b5ae8fbe46e26f59a051e748b67a",
+          "inspectedAt": "2026-10-27T14:22:41.182252+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: flexible reinforced U-shaped tube with two open ends and one attached connector; continuous flexible wall, no kink or solid plugged end. Slate technical product composition distinct from rigid pipe."
+        }
+      }
+    },
+    {
+      "entryId": "elbow",
+      "sourceWord": "elbow",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "elbow:meaning-1",
+          "pos": "n.",
+          "en": "A curved pipe fitting that changes the direction of a flow path."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The elbow turns the pipe through a right angle.",
+          "senseId": "elbow:meaning-1"
+        },
+        {
+          "en": "Both ends of the elbow are open.",
+          "senseId": "elbow:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/elbow.webp",
+        "sha256": "d0710750286a1e8d8c2dc4d92588061bf5ab9af445b4b59874255ce9cd8f5f29"
+      },
+      "visual": {
+        "expectedCue": "Ninety-degree pipe fitting with two open ends and a curved continuous bore.",
+        "decision": "added",
+        "reason": "Full generated source and actual512/120px pixels show two thick-walled open mouths connected around a right-angle curve. Cutaway exposes the bore following the bend; no metal blockage, extra branch or loose part.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full/512/120px pixels: precise metallic/rubber technical object drawing on slate, restrained silver/amber highlights and a strong readable silhouette."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d0710750286a1e8d8c2dc4d92588061bf5ab9af445b4b59874255ce9cd8f5f29",
+          "inspectedAt": "2026-10-27T14:23:13.581933+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: two open pipe ends turn through a right angle; cutaway shows smooth connected internal bend rather than solid blockage. Rigid pipe-fitting sense distinct from bodily elbow; slate/silver/amber product style and silhouette clear at120px."
+        }
+      }
+    },
+    {
+      "entryId": "tee",
+      "sourceWord": "tee",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "tee:meaning-1",
+          "pos": "n.",
+          "en": "A pipe fitting with three connected openings arranged like the letter T."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tee adds a side branch to the pipe.",
+          "senseId": "tee:meaning-1"
+        },
+        {
+          "en": "The three openings of the tee share one passage.",
+          "senseId": "tee:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tee.webp",
+        "sha256": "98ed9ede784ba7f07c9853062d878456480efb3903c4ee0cbdbf950a9e082a5a"
+      },
+      "visual": {
+        "expectedCue": "T-shaped fitting with a straight run and one perpendicular branch, three connected ports.",
+        "decision": "added",
+        "reason": "Actual full-source and final512/120 pixels show a coherent T-shaped metal fitting: open near run mouth, open top branch and a third far-end rim seen obliquely. No fourth branch or cap; T geometry is obvious at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full/512/120px pixels show precise metallic technical drawing on slate, subtle silver texture and restrained amber highlights with a strong thumbnail teaching silhouette."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "98ed9ede784ba7f07c9853062d878456480efb3903c4ee0cbdbf950a9e082a5a",
+          "inspectedAt": "2026-10-27T14:25:04.235042+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: three-branch T-shaped pipe fitting with two clearly visible open bores and a third matching through-run end behind, joined at a continuous central junction. Distinct from two-end elbow and nut; clear slate/silver/amber technical rendering."
+        }
+      }
+    },
+    {
+      "entryId": "coupling",
+      "sourceWord": "coupling",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "coupling:meaning-1",
+          "pos": "n.",
+          "en": "A fitting that joins two pipe ends along a shared flow path."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The coupling joins two straight pipe sections.",
+          "senseId": "coupling:meaning-1"
+        },
+        {
+          "en": "The coupling has an opening at each end.",
+          "senseId": "coupling:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/coupling.webp",
+        "sha256": "63d03e6ca52cec69b22a304c417855c9d42251dbaa39e5635a65c981e64c1171"
+      },
+      "visual": {
+        "expectedCue": "A long central threaded sleeve joins two coaxial hollow pipe ends.",
+        "decision": "added",
+        "reason": "Initial isolated hex sleeve looked too much like a nut and was rejected. Corrected full-source and512/120 pixels show two pipe sections entering a long central sleeve. Cutaway shows threaded engagement in both halves, a continuous aligned bore and no solid blocking plate; the joining purpose is clear.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full/512/120px pixels show precise metallic technical drawing on slate, subtle silver texture and restrained amber highlights with a strong thumbnail teaching silhouette."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "63d03e6ca52cec69b22a304c417855c9d42251dbaa39e5635a65c981e64c1171",
+          "inspectedAt": "2026-10-27T14:26:47.317869+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: a long central threaded sleeve visibly surrounds two opposed hollow pipe sections, with partial cutaway showing the threaded engagement. One joining component along a shared axis, distinct from a loose nut; slate/silver/amber technical style."
+        }
+      }
+    },
+    {
+      "entryId": "flange",
+      "sourceWord": "flange",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "flange:meaning-1",
+          "pos": "n.",
+          "en": "A projecting rim used to fasten a pipe or other component to a matching part."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The flange has bolt holes around its central opening.",
+          "senseId": "flange:meaning-1"
+        },
+        {
+          "en": "Two flanges hold the pipe joint together.",
+          "senseId": "flange:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/flange.webp",
+        "sha256": "ea7c2ed6a260b4397dbb87855b19df8f11d2e0a42959350018e49202c3d41639"
+      },
+      "visual": {
+        "expectedCue": "Projecting circular pipe rim with central fluid bore, six surrounding bolt holes and a rear neck.",
+        "decision": "added",
+        "reason": "Actual full-source and512/120 pixels show one continuous steel component with six separate bolt holes around the large open bore and a short tapered neck behind. Rim is distinct from a washer or solid wheel and remains clear at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full/512/120px pixels show precise metallic technical drawing on slate, subtle silver texture and restrained amber highlights with a strong thumbnail teaching silhouette."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ea7c2ed6a260b4397dbb87855b19df8f11d2e0a42959350018e49202c3d41639",
+          "inspectedAt": "2026-10-27T14:26:47.318069+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: projecting circular pipe rim with central open bore, attached neck and six separate bolt holes around the rim. Distinct from thin gasket/washer and generic gear, with no invented teeth or blocked bore; precise slate/silver technical object study."
+        }
+      }
+    },
+    {
+      "entryId": "duct",
+      "sourceWord": "duct",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "duct:meaning-1",
+          "pos": "n.",
+          "en": "An enclosed passage used to carry air through a ventilation or heating system."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The metal duct carries air above the ceiling.",
+          "senseId": "duct:meaning-1"
+        },
+        {
+          "en": "The duct has a rectangular opening.",
+          "senseId": "duct:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/duct.webp",
+        "sha256": "0e4f63e4f6d084de993d35e7bd2522d40d6274809a3750ba9ab512527973a358"
+      },
+      "visual": {
+        "expectedCue": "Hollow rectangular sheet-metal ventilation duct, with an airflow arrow through its interior.",
+        "decision": "added",
+        "reason": "Actual full-source and512/120 pixels show a thin-walled rectangular passage with folded seams and flanged end rims. A single amber airflow arrow points through the hollow near opening, not through a wall. Sheet-metal enclosure is distinct from solid beam or circular pipe.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full/512/120px pixels show precise technical product/cutaway drawing on slate, silver metal and restrained amber teaching accents, with a legible thumbnail focal object."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0e4f63e4f6d084de993d35e7bd2522d40d6274809a3750ba9ab512527973a358",
+          "inspectedAt": "2026-10-27T14:34:09.783953+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: rectangular sheet-metal ventilation passage has a wide open front and a clear amber arrow along its interior air path. Box walls and flange frame remain attached; distinct from round pipe, without fabricated readings; precise slate/silver technical rendering."
+        }
+      }
+    },
+    {
+      "entryId": "filter",
+      "sourceWord": "filter",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "filter:meaning-1",
+          "pos": "n.",
+          "en": "A device that removes particles from a fluid as the fluid passes through it."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The filter traps particles inside the housing.",
+          "senseId": "filter:meaning-1"
+        },
+        {
+          "en": "The technician replaced the filter element.",
+          "senseId": "filter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/filter.webp",
+        "sha256": "291c99a96e4f1a56cbd0b93ea69a236c9ce4c804c043030d4eb890d4736048d1"
+      },
+      "visual": {
+        "expectedCue": "Cutaway fluid-filter housing with pleated cartridge, particles outside and a separate clean-fluid core/outlet.",
+        "decision": "added",
+        "reason": "Actual full-source and512/120 pixels show inlet fluid with particles outside a fitted pleated cartridge, a perforated hollow central support/core, and a separate curved clean outlet from that core. Cutaway reveals retained particles on the outer medium; casing and cartridge end caps are physically joined, no detached parts or readings.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full/512/120px pixels show precise technical product/cutaway drawing on slate, silver metal and restrained amber teaching accents, with a legible thumbnail focal object."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "291c99a96e4f1a56cbd0b93ea69a236c9ce4c804c043030d4eb890d4736048d1",
+          "inspectedAt": "2026-10-27T14:34:09.784009+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: cutaway cartridge housing shows particles retained at outer pleated medium, central perforated core and separate clean outlet path. Tube joints connect to housing; no particles shown in outgoing stream. Slate/silver/amber product style remains readable at120px."
+        }
+      }
+    },
+    {
+      "entryId": "impeller",
+      "sourceWord": "impeller",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "impeller:meaning-1",
+          "pos": "n.",
+          "en": "A rotating part with blades that transfers energy to a fluid in a pump."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The impeller has curved blades around a central hub.",
+          "senseId": "impeller:meaning-1"
+        },
+        {
+          "en": "The shaft turns the impeller inside the pump.",
+          "senseId": "impeller:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/impeller.webp",
+        "sha256": "ea9e1907c1e6a5b165de45d97270a9eca7c6ec545dbfb3f0b5856dabae9aeab9"
+      },
+      "visual": {
+        "expectedCue": "Open-front pump impeller with curved blades, backplate and central shaft bore.",
+        "decision": "added",
+        "reason": "Actual full-source and512/120 pixels show six curved blades attached to a circular backplate around a cylindrical hub with an open shaft bore. All blade feet join the plate, open channels run from the center toward the edge, and no arrow or detached blade confuses the rotor.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full/512/120px pixels show precise technical product/cutaway drawing on slate, silver metal and restrained amber teaching accents, with a legible thumbnail focal object."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ea9e1907c1e6a5b165de45d97270a9eca7c6ec545dbfb3f0b5856dabae9aeab9",
+          "inspectedAt": "2026-10-27T14:34:09.784065+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Accepted actual512/120: six curved radial vanes attach to a common rear plate and central shaft hub; no detached blades or turbine tower. Exposed-vane geometry and pump-rotor silhouette are clear on slate/amber. Subtype is described by visible rear plate to avoid varying open/semi-open terminology."
+        }
+      }
+    },
+    {
+      "entryId": "manifold",
+      "sourceWord": "manifold",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "manifold:meaning-1",
+          "pos": "n.",
+          "en": "A component with connected passages that distributes fluid to several branches or collects it from them."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The manifold connects one main passage to three branches.",
+          "senseId": "manifold:meaning-1"
+        },
+        {
+          "en": "The ports lead into the manifold.",
+          "senseId": "manifold:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/manifold.webp",
+        "sha256": "a8878277555fdc017598fa1ce0c8ea82ca833187b22919d54deb69ae31a2d5db"
+      },
+      "visual": {
+        "expectedCue": "One main inlet passage connects to three upward branch bores in a single manifold block.",
+        "decision": "added",
+        "reason": "Full generated source and converted512/120 inspected: three visible vertical branch bores intersect a common horizontal bore from the left inlet; right end is blind, mounting feet remain attached, no decorative blind branch or floating part.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise slate/silver technical cutaway with restrained amber emphasis and one readable teaching focus; heat-exchanger blue distinguishes the physically separate second stream."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a8878277555fdc017598fa1ce0c8ea82ca833187b22919d54deb69ae31a2d5db",
+          "inspectedAt": "2026-10-27T14:32:49.131533+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120px pixels show a single common horizontal bore fed by the left threaded inlet; three upward branch bores join it through continuous openings, while the right end is blind. Cutaway exposes those joins, no floating or blocked branch. Slate/silver/amber technical language and distinct multiport silhouette match the selected fluid-manifold sense."
+        }
+      }
+    },
+    {
+      "entryId": "reservoir",
+      "sourceWord": "reservoir",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "reservoir:meaning-1",
+          "pos": "n.",
+          "en": "A container that stores a supply of fluid for use in a system."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The reservoir supplies fluid to the pump.",
+          "senseId": "reservoir:meaning-1"
+        },
+        {
+          "en": "The drawing shows the fluid level inside the reservoir.",
+          "senseId": "reservoir:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/reservoir.webp",
+        "sha256": "f12e4accb513ad822e7c0bfb2e2dd24091f760edc5257c9063cefb9c3821ca4d"
+      },
+      "visual": {
+        "expectedCue": "An engineering tank holds amber fluid with visible liquid level and a low outlet.",
+        "decision": "added",
+        "reason": "Full generated source and converted512/120 inspected: fluid is contained below one continuous level surface, with air above; low side outlet meets liquid-filled portion, filler and upper return fittings attach to closed tank top, visible feet connect to shell. Cutaway is illustrative.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise slate/silver technical cutaway with restrained amber emphasis and one readable teaching focus; heat-exchanger blue distinguishes the physically separate second stream."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f12e4accb513ad822e7c0bfb2e2dd24091f760edc5257c9063cefb9c3821ca4d",
+          "inspectedAt": "2026-10-27T14:32:49.131660+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120px pixels show one supported fluid-storage tank with a coherent horizontal liquid level, empty headspace, capped fill neck and an outlet through the side below the level. The front is a deliberate cutaway, not a leaking open tank; no numeric readings. Storage function and slate/amber technical style are clear."
+        }
+      }
+    },
+    {
+      "entryId": "heat-exchanger",
+      "sourceWord": "heat exchanger",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "heat-exchanger:meaning-1",
+          "pos": "n.",
+          "en": "Equipment that transfers heat between fluids at different temperatures."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The heat exchanger transfers heat through metal walls.",
+          "senseId": "heat-exchanger:meaning-1"
+        },
+        {
+          "en": "The two fluids stay separate in this heat exchanger.",
+          "senseId": "heat-exchanger:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/heat-exchanger.webp",
+        "sha256": "8a9a27259466151fd7a67d1dd9fd316080ad3447d778c9f614d5073c97444108"
+      },
+      "visual": {
+        "expectedCue": "Four-port double-pipe heat exchanger separates amber inner stream from blue annular stream with a metal wall and opposite flow arrows.",
+        "decision": "added",
+        "reason": "Full generated source and converted512/120 inspected: inner amber bore runs left to right through sealed end fittings; blue annulus uses two side branches and a leftward arrow. Four fluid ports are visible, solid inner metal wall separates streams, no mixing or crossing arrow, both supports connect. Represents counterflow double-pipe geometry without numeric readings.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise slate/silver technical cutaway with restrained amber emphasis and one readable teaching focus; heat-exchanger blue distinguishes the physically separate second stream."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T14:35:58.704633+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "8a9a27259466151fd7a67d1dd9fd316080ad3447d778c9f614d5073c97444108",
+          "inspectedAt": "2026-10-27T14:32:49.131688+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120px pixels show four distinct ports: amber fluid runs left-to-right inside a continuous inner metal tube, while blue fluid enters the right upper jacket port and travels through the annular outer path toward the left lower outlet. Metal walls/end seals separate the circuits; white upper arrow and amber inner arrow point in opposite directions. No mixing or disconnected channel. Double-pipe geometry agrees with FDA technical guide and DOE counterflow description; this is an AI inspection, not engineering qualification."
         }
       }
     }

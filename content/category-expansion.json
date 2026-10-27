@@ -1502,7 +1502,115 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 74,
+      "targetCategoryWords": 86,
+      "entryIds": [
+        "skull",
+        "pelvis",
+        "sternum",
+        "clavicle",
+        "scapula",
+        "patella",
+        "specimen-cup",
+        "swab",
+        "tourniquet",
+        "suture",
+        "iv-bag",
+        "iv-pole"
+      ],
+      "units": [
+        {
+          "id": "skeletal-anatomy",
+          "title": "Skeletal anatomy",
+          "entryIds": [
+            "skull",
+            "pelvis",
+            "sternum",
+            "clavicle",
+            "scapula",
+            "patella"
+          ]
+        },
+        {
+          "id": "care-supplies",
+          "title": "Specimen collection and care supplies",
+          "entryIds": [
+            "specimen-cup",
+            "swab",
+            "tourniquet",
+            "suture",
+            "iv-bag",
+            "iv-pole"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-4",
+      "releaseId": "2026-10-preview-9",
+      "status": "published-preview",
+      "objective": "Describe skeletal anatomy, care supplies, fluid connections and heat-transfer equipment in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 74,
+      "targetCategoryWords": 86,
+      "entryIds": [
+        "pipe",
+        "hose",
+        "elbow",
+        "tee",
+        "coupling",
+        "flange",
+        "duct",
+        "filter",
+        "impeller",
+        "manifold",
+        "reservoir",
+        "heat-exchanger"
+      ],
+      "units": [
+        {
+          "id": "fluid-connections",
+          "title": "Pipes and fluid connections",
+          "entryIds": [
+            "pipe",
+            "hose",
+            "elbow",
+            "tee",
+            "coupling",
+            "flange"
+          ]
+        },
+        {
+          "id": "fluid-thermal",
+          "title": "Fluid and heat-transfer equipment",
+          "entryIds": [
+            "duct",
+            "filter",
+            "impeller",
+            "manifold",
+            "reservoir",
+            "heat-exchanger"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-4",
+      "releaseId": "2026-10-preview-9",
+      "status": "published-preview",
+      "objective": "Describe skeletal anatomy, care supplies, fluid connections and heat-transfer equipment in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-3"
+  "activePassId": "specialist-500-batch-4"
 }

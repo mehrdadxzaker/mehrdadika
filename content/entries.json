@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-8",
+  "releaseId": "2026-10-preview-9",
   "channel": "preview",
-  "createdAt": "2026-10-27T13:14:27.924483+00:00",
+  "createdAt": "2026-10-27T14:35:58.704633+00:00",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -3220,7 +3220,7 @@
       "ant": [],
       "tip": "circuit در این کارت مسیر پیوستهٔ مدار الکتریکی است؛ در سفر و ورزش می‌تواند به مسیر دوری اشاره کند.",
       "media": {
-        "img": "atlas/img/circuit.webp",
+        "img": "atlas/img/circuit-v2.webp",
         "uk": "atlas/audio/uk/circuit.mp3",
         "us": "atlas/audio/us/circuit.mp3"
       },
@@ -3229,7 +3229,13 @@
         "source": "https://github.com/designfuchen/word-atlas/blob/e7b44629230a470e6b664826ced4af2c367b44c2/data/word-atlas.json",
         "attribution": "Word Atlas contributors — CC BY 4.0",
         "aiAssisted": true,
-        "modifications": "Selected English senses and lexical metadata retained; original Persian translations and usage notes; contextual English examples and bilingual collocations adapted or newly written. No independent human or domain approval claimed."
+        "modifications": "Selected English senses and lexical metadata retained; original Persian translations and usage notes; contextual English examples and bilingual collocations adapted or newly written. No independent human or domain approval claimed.",
+        "factualReferences": [
+          {
+            "url": "https://www.eia.gov/energyexplained/electricity/batteries-circuits-and-transformers.php",
+            "use": "Electricity travels in circuits section: closed switch completes conducting path and permits the lamp to light. Used to check picture topology; no source artwork copied."
+          }
+        ]
       }
     },
     {
@@ -3355,7 +3361,7 @@
       "ant": [],
       "tip": "engine در این کارت دستگاه تولید نیرو برای حرکت است؛ search engine اصطلاح جداگانهٔ موتور جست‌وجو است.",
       "media": {
-        "img": "atlas/img/engine.webp",
+        "img": "atlas/img/engine-v2.webp",
         "uk": "atlas/audio/uk/engine.mp3",
         "us": "atlas/audio/us/engine.mp3"
       },
@@ -3364,7 +3370,13 @@
         "source": "https://github.com/designfuchen/word-atlas/blob/e7b44629230a470e6b664826ced4af2c367b44c2/data/word-atlas.json",
         "attribution": "Word Atlas contributors — CC BY 4.0",
         "aiAssisted": true,
-        "modifications": "Selected English senses and lexical metadata retained; original Persian translations and usage notes; contextual English examples and bilingual collocations adapted or newly written. No independent human or domain approval claimed."
+        "modifications": "Selected English senses and lexical metadata retained; original Persian translations and usage notes; contextual English examples and bilingual collocations adapted or newly written. No independent human or domain approval claimed.",
+        "factualReferences": [
+          {
+            "url": "https://www.energy.gov/cmei/vehicles/articles/internal-combustion-engine-basics",
+            "use": "Checked internal-combustion engine as connected power-producing assembly and existing transmission-to-wheels example; original image, no artwork copied."
+          }
+        ]
       }
     },
     {
@@ -18701,6 +18713,1514 @@
           {
             "url": "https://openstax.org/books/college-physics-2e/pages/21-4-dc-voltmeters-and-ammeters",
             "use": "Verified series placement for measuring circuit current; independently generated image, no copied source diagram."
+          }
+        ]
+      }
+    },
+    {
+      "id": "skull",
+      "w": "skull",
+      "uk": "/skʌl/",
+      "us": "/skʌl/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "skull:meaning-1",
+          "pos": "n.",
+          "fa": "جمجمه",
+          "en": "The bony framework of the head, enclosing the brain and forming the face.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The skull has openings for the eyes and nose.",
+          "fa": "جمجمه برای چشم‌ها و بینی حفره‌هایی دارد.",
+          "senseId": "skull:meaning-1"
+        },
+        {
+          "en": "The model shows the lower jaw attached to the skull.",
+          "fa": "مدل، فک پایین را در اتصال با جمجمه نشان می‌دهد.",
+          "senseId": "skull:meaning-1"
+        }
+      ],
+      "col": [
+        "the human skull｜جمجمهٔ انسان",
+        "a skull model｜مدل جمجمه",
+        "skull bones｜استخوان‌های جمجمه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "skull مجموعهٔ استخوان‌های سر است، نه خود مغز. مدلِ این کارت فک پایین را هم نشان می‌دهد؛ cranium گاهی به بخشِ دربرگیرندهٔ مغز محدود می‌شود.",
+      "media": {
+        "img": "atlas/img/skull.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-1-divisions-of-the-skeletal-system",
+            "use": "Basic anatomical relationship or device purpose checked; original learner prose and original artwork. No procedural guidance, doses, diagnostic claims or protected illustrations copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pelvis",
+      "w": "pelvis",
+      "uk": "/ˈpelvɪs/",
+      "us": "/ˈpelvɪs/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "pelvis:meaning-1",
+          "pos": "n.",
+          "fa": "لگن؛ لگن استخوانی",
+          "en": "The ringlike bony structure formed by the hip bones and the base of the spine.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The pelvis connects the trunk to the lower limbs.",
+          "fa": "لگن، تنه را به اندام‌های پایینی متصل می‌کند.",
+          "senseId": "pelvis:meaning-1"
+        },
+        {
+          "en": "The anatomy model shows the ring of the pelvis.",
+          "fa": "مدل تشریحی، حلقهٔ استخوانی لگن را نشان می‌دهد.",
+          "senseId": "pelvis:meaning-1"
+        }
+      ],
+      "col": [
+        "the bony pelvis｜لگن استخوانی",
+        "a pelvis model｜مدل لگن",
+        "the pelvic ring｜حلقهٔ لگن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "pelvis اینجا لگن استخوانی است، نه فقط یک استخوانِ ران یا یک مفصل ران. pelvic صفتِ مربوط به لگن است.",
+      "media": {
+        "img": "atlas/img/pelvis.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis",
+            "use": "Basic anatomical relationship or device purpose checked; original learner prose and original artwork. No procedural guidance, doses, diagnostic claims or protected illustrations copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sternum",
+      "w": "sternum",
+      "uk": "/ˈstɜːnəm/",
+      "us": "/ˈstɝːnəm/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "sternum:meaning-1",
+          "pos": "n.",
+          "fa": "جناغ سینه",
+          "en": "The flat bone at the front center of the chest to which several ribs are connected by cartilage.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The sternum lies at the front of the chest.",
+          "fa": "جناغ در جلوی قفسهٔ سینه قرار دارد.",
+          "senseId": "sternum:meaning-1"
+        },
+        {
+          "en": "The diagram highlights the sternum between the ribs.",
+          "fa": "نمودار، جناغ را میان دنده‌ها برجسته می‌کند.",
+          "senseId": "sternum:meaning-1"
+        }
+      ],
+      "col": [
+        "the upper sternum｜بخش بالایی جناغ",
+        "the body of the sternum｜تنهٔ جناغ",
+        "the lower sternum｜بخش پایینی جناغ"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "sternum نام تشریحی breastbone است. این استخوان در جلوی سینه است؛ spine ستون مهره‌ها در پشت بدن است.",
+      "media": {
+        "img": "atlas/img/sternum.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-1-divisions-of-the-skeletal-system",
+            "use": "Basic anatomical relationship or device purpose checked; original learner prose and original artwork. No procedural guidance, doses, diagnostic claims or protected illustrations copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "clavicle",
+      "w": "clavicle",
+      "uk": "/ˈklævɪkəl/",
+      "us": "/ˈklævɪkəl/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "clavicle:meaning-1",
+          "pos": "n.",
+          "fa": "ترقوه؛ استخوان ترقوه",
+          "en": "A slender curved bone that links the breastbone to the shoulder blade.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The clavicle runs across the upper front of the chest.",
+          "fa": "ترقوه در بخش بالاییِ جلوی سینه امتداد دارد.",
+          "senseId": "clavicle:meaning-1"
+        },
+        {
+          "en": "One end of the clavicle meets the sternum.",
+          "fa": "یک سرِ ترقوه به جناغ می‌رسد.",
+          "senseId": "clavicle:meaning-1"
+        }
+      ],
+      "col": [
+        "the right clavicle｜ترقوهٔ راست",
+        "the shaft of the clavicle｜تنهٔ ترقوه",
+        "a clavicle model｜مدل ترقوه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "clavicle اصطلاح تشریحیِ collarbone است. آن را با scapula، استخوان پهن و مثلثیِ پشت شانه، اشتباه نگیرید.",
+      "media": {
+        "img": "atlas/img/clavicle.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle",
+            "use": "Basic anatomical relationship or device purpose checked; original learner prose and original artwork. No procedural guidance, doses, diagnostic claims or protected illustrations copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "scapula",
+      "w": "scapula",
+      "uk": "/ˈskæpjələ/",
+      "us": "/ˈskæpjələ/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "scapula:meaning-1",
+          "pos": "n.",
+          "fa": "کتف؛ استخوان کتف",
+          "en": "A flat triangular bone at the back of the shoulder that connects with the upper arm bone.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The scapula has a ridge across its back surface.",
+          "fa": "استخوان کتف روی سطح پشتی‌اش یک تیغه دارد.",
+          "senseId": "scapula:meaning-1"
+        },
+        {
+          "en": "The model shows the triangular shape of the scapula.",
+          "fa": "مدل، شکل مثلثیِ استخوان کتف را نشان می‌دهد.",
+          "senseId": "scapula:meaning-1"
+        }
+      ],
+      "col": [
+        "the left scapula｜کتف چپ",
+        "the spine of the scapula｜خار کتف",
+        "a scapula model｜مدل استخوان کتف"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "scapula همان shoulder blade است. spine of the scapula تیغهٔ برجستهٔ روی این استخوان است؛ spine به‌تنهایی می‌تواند ستون مهره‌ها باشد.",
+      "media": {
+        "img": "atlas/img/scapula.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle",
+            "use": "Basic anatomical relationship or device purpose checked; original learner prose and original artwork. No procedural guidance, doses, diagnostic claims or protected illustrations copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "patella",
+      "w": "patella",
+      "uk": "/pəˈtelə/",
+      "us": "/pəˈtelə/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "patella:meaning-1",
+          "pos": "n.",
+          "fa": "کشکک زانو",
+          "en": "The small bone at the front of the knee, commonly called the kneecap.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The patella sits in front of the knee joint.",
+          "fa": "کشکک در جلوی مفصل زانو قرار دارد.",
+          "senseId": "patella:meaning-1"
+        },
+        {
+          "en": "The patella is highlighted on the knee model.",
+          "fa": "کشکک در مدلِ زانو برجسته شده است.",
+          "senseId": "patella:meaning-1"
+        }
+      ],
+      "col": [
+        "the right patella｜کشکک زانوی راست",
+        "the surface of the patella｜سطح کشکک",
+        "the patellar tendon｜تاندون کشکک"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "patella نام تشریحیِ kneecap است؛ knee به کل ناحیهٔ زانو گفته می‌شود، نه فقط این استخوان. patellar صفتِ مربوط به کشکک است.",
+      "media": {
+        "img": "atlas/img/patella.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb",
+            "use": "Basic anatomical relationship or device purpose checked; original learner prose and original artwork. No procedural guidance, doses, diagnostic claims or protected illustrations copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "specimen-cup",
+      "w": "specimen cup",
+      "uk": "/ˈspesɪmɪn kʌp/",
+      "us": "/ˈspesəmən kʌp/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "specimen-cup:meaning-1",
+          "pos": "n.",
+          "fa": "ظرف نمونهٔ آزمایشگاهی",
+          "en": "A small sealable container used to hold a biological sample for laboratory testing.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The specimen cup has a screw-on lid.",
+          "fa": "ظرف نمونه درپوش پیچی دارد.",
+          "senseId": "specimen-cup:meaning-1"
+        },
+        {
+          "en": "The empty specimen cup is on the laboratory tray.",
+          "fa": "ظرف خالیِ نمونه روی سینی آزمایشگاه است.",
+          "senseId": "specimen-cup:meaning-1"
+        }
+      ],
+      "col": [
+        "a sterile specimen cup｜ظرف استریل نمونه",
+        "a specimen cup lid｜درپوش ظرف نمونه",
+        "an empty specimen cup｜ظرف خالیِ نمونه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "specimen در این بافت نمونهٔ زیستی برای آزمایش است. cup نامِ ظرف است؛ خود نمونه ممکن است مایع یا مادهٔ دیگری باشد.",
+      "media": {
+        "img": "atlas/img/specimen-cup.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.cdc.gov/foodborne-outbreaks/php/confirming-cause/specimen-collection.html",
+            "use": "Basic anatomical relationship or device purpose checked; original learner prose and original artwork. No procedural guidance, doses, diagnostic claims or protected illustrations copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "swab",
+      "w": "swab",
+      "uk": "/swɒb/",
+      "us": "/swɑːb/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "swab:meaning-1",
+          "pos": "n.",
+          "fa": "سواب؛ چوبک نمونه‌گیری",
+          "en": "A small soft pad on a stick used to collect a sample from a surface of the body.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The swab has a soft tip at one end.",
+          "fa": "سواب در یک سرِ خود نوک نرمی دارد.",
+          "senseId": "swab:meaning-1"
+        },
+        {
+          "en": "A sealed pouch contains the swab.",
+          "fa": "یک بستهٔ دربسته، سواب را در خود دارد.",
+          "senseId": "swab:meaning-1"
+        }
+      ],
+      "col": [
+        "a sampling swab｜سواب نمونه‌گیری",
+        "a swab tip｜نوک سواب",
+        "a swab sample｜نمونهٔ گرفته‌شده با سواب"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "swab در این کارت ابزار نمونه‌گیری است؛ همین واژه می‌تواند به نمونهٔ گرفته‌شده یا عملِ کشیدن سواب روی سطح هم اشاره کند. تصویر، نوعِ تک‌سرِ نمونه‌گیری را نشان می‌دهد.",
+      "media": {
+        "img": "atlas/img/swab.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.cdc.gov/foodborne-outbreaks/php/confirming-cause/specimen-collection.html",
+            "use": "Basic anatomical relationship or device purpose checked; original learner prose and original artwork. No procedural guidance, doses, diagnostic claims or protected illustrations copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tourniquet",
+      "w": "tourniquet",
+      "uk": "/ˈtɔːnɪkeɪ/",
+      "us": "/ˈtɝːnɪkɪt/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "tourniquet:meaning-1",
+          "pos": "n.",
+          "fa": "تورنیکه؛ رگ‌بند",
+          "en": "A band or device that applies pressure around a limb to restrict blood flow.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The tourniquet has an elastic strap and a buckle.",
+          "fa": "تورنیکه بندِ کشسان و سگک دارد.",
+          "senseId": "tourniquet:meaning-1"
+        },
+        {
+          "en": "The nurse placed a tourniquet beside the collection tray.",
+          "fa": "پرستار یک تورنیکه کنار سینی نمونه‌گیری گذاشت.",
+          "senseId": "tourniquet:meaning-1"
+        }
+      ],
+      "col": [
+        "an elastic tourniquet｜تورنیکهٔ کشسان",
+        "a tourniquet strap｜بند تورنیکه",
+        "a tourniquet buckle｜سگک تورنیکه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "تصویر، تورنیکهٔ کشسانِ خون‌گیری را نشان می‌دهد. tourniquet انواع دیگری هم دارد؛ bandage پوشش یا تکیه‌گاهِ بافت است و الزاماً رگ‌بند نیست.",
+      "media": {
+        "img": "atlas/img/tourniquet.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tourniquet",
+            "use": "Basic anatomical relationship or device purpose checked; original learner prose and original artwork. No procedural guidance, doses, diagnostic claims or protected illustrations copied."
+          },
+          {
+            "url": "https://dictionary.cambridge.org/us/pronunciation/english/tourniquet",
+            "use": "UK and US IPA cross-checked by the second AI against official publisher pronunciation page; no dictionary definition copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "suture",
+      "w": "suture",
+      "uk": "/ˈsuːtʃə/",
+      "us": "/ˈsuːtʃər/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "suture:meaning-1",
+          "pos": "n.",
+          "fa": "نخ بخیه",
+          "en": "A length of surgical thread used to hold tissue edges together.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The suture is attached to a curved needle.",
+          "fa": "نخ بخیه به سوزنی خمیده متصل است.",
+          "senseId": "suture:meaning-1"
+        },
+        {
+          "en": "The diagram shows a fine suture beside its needle.",
+          "fa": "نمودار نخ بخیه‌ای ظریف را کنار سوزنِ آن نشان می‌دهد.",
+          "senseId": "suture:meaning-1"
+        }
+      ],
+      "col": [
+        "a surgical suture｜نخ بخیهٔ جراحی",
+        "a suture needle｜سوزن بخیه",
+        "suture material｜مادهٔ سازندهٔ نخ بخیه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "suture اینجا نخِ جراحی است؛ این واژه می‌تواند به بخیه یا اتصالِ ثابت میان استخوان‌های جمجمه هم گفته شود. این کارت روشِ بخیه زدن را آموزش نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/suture.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.fda.gov/media/157490/download",
+            "use": "Surgical thread purpose, tissue approximation and provision with or without attached needles checked. Original learner prose and image; no procedure, device certification or treatment advice copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "iv-bag",
+      "w": "IV bag",
+      "uk": "/ˌaɪ ˈviː bæɡ/",
+      "us": "/ˌaɪ ˈviː bæɡ/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "iv-bag:meaning-1",
+          "pos": "n.",
+          "fa": "کیسهٔ سرم؛ کیسهٔ مایع وریدی",
+          "en": "A flexible container of fluid made for delivery into a vein through an infusion system.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The IV bag hangs from a hook on the stand.",
+          "fa": "کیسهٔ سرم از قلابِ پایه آویزان است.",
+          "senseId": "iv-bag:meaning-1"
+        },
+        {
+          "en": "A clear tube connects to the bottom of the IV bag.",
+          "fa": "لوله‌ای شفاف به پایین کیسهٔ سرم وصل است.",
+          "senseId": "iv-bag:meaning-1"
+        }
+      ],
+      "col": [
+        "an IV bag｜کیسهٔ سرم",
+        "an IV bag hanger｜آویز کیسهٔ سرم",
+        "an IV bag port｜درگاه کیسهٔ سرم"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "IV کوتاه‌شدهٔ intravenous، به معنی داخل‌وریدی است. bag خودِ کیسه است؛ IV pole پایه‌ای است که کیسه را نگه می‌دارد. محتویاتِ کیسه‌های مختلف یکسان نیست.",
+      "media": {
+        "img": "atlas/img/iv-bag.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/intravenous",
+            "use": "Basic anatomical relationship or device purpose checked; original learner prose and original artwork. No procedural guidance, doses, diagnostic claims or protected illustrations copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "iv-pole",
+      "w": "IV pole",
+      "uk": "/ˌaɪ ˈviː pəʊl/",
+      "us": "/ˌaɪ ˈviː poʊl/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "iv-pole:meaning-1",
+          "pos": "n.",
+          "fa": "پایهٔ سرم",
+          "en": "An upright stand with hooks for holding bags of intravenous fluid.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The IV pole has a wheeled base.",
+          "fa": "پایهٔ سرم، پایه‌ای چرخ‌دار دارد.",
+          "senseId": "iv-pole:meaning-1"
+        },
+        {
+          "en": "The nurse moved the empty IV pole beside the bed.",
+          "fa": "پرستار پایهٔ سرمِ خالی را کنار تخت برد.",
+          "senseId": "iv-pole:meaning-1"
+        }
+      ],
+      "col": [
+        "a mobile IV pole｜پایهٔ سرم متحرک",
+        "an IV pole hook｜قلاب پایهٔ سرم",
+        "the base of an IV pole｜کفِ پایهٔ سرم"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "IV pole و drip stand می‌توانند به پایهٔ نگه‌دارندهٔ سرم گفته شوند. pole پایه را نام می‌برد، نه کیسهٔ سرم یا خودِ مایع.",
+      "media": {
+        "img": "atlas/img/iv-pole.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/intravenous",
+            "use": "Basic anatomical relationship or device purpose checked; original learner prose and original artwork. No procedural guidance, doses, diagnostic claims or protected illustrations copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pipe",
+      "w": "pipe",
+      "uk": "/paɪp/",
+      "us": "/paɪp/",
+      "cefr": "B1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "pipe:meaning-1",
+          "pos": "n.",
+          "fa": "لوله",
+          "en": "A hollow, usually rigid length used to carry a liquid or gas.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The pipe has a hollow center and a thick wall.",
+          "fa": "لوله مرکزی توخالی و دیواره‌ای ضخیم دارد.",
+          "senseId": "pipe:meaning-1"
+        },
+        {
+          "en": "Water flows through the pipe to the tank.",
+          "fa": "آب از لوله به مخزن جریان پیدا می‌کند.",
+          "senseId": "pipe:meaning-1"
+        }
+      ],
+      "col": [
+        "a steel pipe｜لولهٔ فولادی",
+        "a pipe joint｜اتصال لوله",
+        "a pipe wall｜دیوارهٔ لوله"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "pipe در این کارت لولهٔ انتقال سیال است. hose معمولاً انعطاف‌پذیر است؛ rod میله‌ای توپر است.",
+      "media": {
+        "img": "atlas/img/pipe.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "hose",
+      "w": "hose",
+      "uk": "/həʊz/",
+      "us": "/hoʊz/",
+      "cefr": "B1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "hose:meaning-1",
+          "pos": "n.",
+          "fa": "شلنگ",
+          "en": "A flexible tube used to carry a liquid or gas.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The hose bends without a separate elbow fitting.",
+          "fa": "شلنگ بدون اتصال زانوییِ جداگانه خم می‌شود.",
+          "senseId": "hose:meaning-1"
+        },
+        {
+          "en": "A short hose connects the pump to the tank.",
+          "fa": "شلنگی کوتاه پمپ را به مخزن وصل می‌کند.",
+          "senseId": "hose:meaning-1"
+        }
+      ],
+      "col": [
+        "a flexible hose｜شلنگ انعطاف‌پذیر",
+        "a hose connector｜رابط شلنگ",
+        "a hose clamp｜بست شلنگ"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "hose نام لولهٔ انعطاف‌پذیر است، نه صرفاً شلنگ باغچه. pipe در کاربرد معمول غالباً سخت‌تر است.",
+      "media": {
+        "img": "atlas/img/hose.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "elbow",
+      "w": "elbow",
+      "uk": "/ˈelbəʊ/",
+      "us": "/ˈelboʊ/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "elbow:meaning-1",
+          "pos": "n.",
+          "fa": "زانوییِ لوله",
+          "en": "A curved pipe fitting that changes the direction of a flow path.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The elbow turns the pipe through a right angle.",
+          "fa": "زانویی مسیر لوله را با زاویهٔ قائمه تغییر می‌دهد.",
+          "senseId": "elbow:meaning-1"
+        },
+        {
+          "en": "Both ends of the elbow are open.",
+          "fa": "هر دو سرِ زانویی باز است.",
+          "senseId": "elbow:meaning-1"
+        }
+      ],
+      "col": [
+        "a pipe elbow｜زانویی لوله",
+        "a threaded elbow｜زانویی رزوه‌دار",
+        "an elbow fitting｜اتصال زانویی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "elbow اینجا اتصال خمیدهٔ لوله است، نه آرنج بدن. تصویر نوع نوددرجه را نشان می‌دهد؛ زاویه‌های دیگر هم وجود دارند.",
+      "media": {
+        "img": "atlas/img/elbow.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://boston.swagelok.com/en/industries/life-sciences/essential-products/pipe-fittings",
+            "use": "Checked pipe-fitting families and technical sense; text and illustrations authored independently."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tee",
+      "w": "tee",
+      "uk": "/tiː/",
+      "us": "/tiː/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "tee:meaning-1",
+          "pos": "n.",
+          "fa": "سه‌راهیِ لوله",
+          "en": "A pipe fitting with three connected openings arranged like the letter T.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The tee adds a side branch to the pipe.",
+          "fa": "سه‌راهی یک انشعاب جانبی به لوله اضافه می‌کند.",
+          "senseId": "tee:meaning-1"
+        },
+        {
+          "en": "The three openings of the tee share one passage.",
+          "fa": "سه دهانهٔ سه‌راهی به یک مسیر مشترک راه دارند.",
+          "senseId": "tee:meaning-1"
+        }
+      ],
+      "col": [
+        "a pipe tee｜سه‌راهی لوله",
+        "a reducing tee｜سه‌راهی تبدیلی",
+        "a tee fitting｜اتصال سه‌راهی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "tee اینجا اتصال لوله با سه دهانه است؛ با tee در گلف یا T-shirt اشتباه نشود.",
+      "media": {
+        "img": "atlas/img/tee.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://boston.swagelok.com/en/industries/life-sciences/essential-products/pipe-fittings",
+            "use": "Checked pipe-fitting families and technical sense; text and illustrations authored independently."
+          }
+        ]
+      }
+    },
+    {
+      "id": "coupling",
+      "w": "coupling",
+      "uk": "/ˈkʌplɪŋ/",
+      "us": "/ˈkʌplɪŋ/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "coupling:meaning-1",
+          "pos": "n.",
+          "fa": "بوشن؛ رابطِ دو لوله",
+          "en": "A fitting that joins two pipe ends along a shared flow path.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The coupling joins two straight pipe sections.",
+          "fa": "بوشن دو بخش مستقیم لوله را به هم وصل می‌کند.",
+          "senseId": "coupling:meaning-1"
+        },
+        {
+          "en": "The coupling has an opening at each end.",
+          "fa": "رابط در هر سر یک دهانه دارد.",
+          "senseId": "coupling:meaning-1"
+        }
+      ],
+      "col": [
+        "a pipe coupling｜بوشن لوله",
+        "a threaded coupling｜بوشن رزوه‌دار",
+        "a reducing coupling｜بوشن تبدیلی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "coupling در این کارت رابطِ لوله است. shaft coupling نوع دیگری است که دو محورِ گردان را به هم وصل می‌کند.",
+      "media": {
+        "img": "atlas/img/coupling.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://boston.swagelok.com/en/industries/life-sciences/essential-products/pipe-fittings",
+            "use": "Checked pipe-fitting families and technical sense; text and illustrations authored independently."
+          }
+        ]
+      }
+    },
+    {
+      "id": "flange",
+      "w": "flange",
+      "uk": "/flændʒ/",
+      "us": "/flændʒ/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "flange:meaning-1",
+          "pos": "n.",
+          "fa": "فلنج؛ لبهٔ اتصالِ پیچ‌شونده",
+          "en": "A projecting rim used to fasten a pipe or other component to a matching part.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The flange has bolt holes around its central opening.",
+          "fa": "فلنج دور دهانهٔ مرکزی خود سوراخ‌های پیچ دارد.",
+          "senseId": "flange:meaning-1"
+        },
+        {
+          "en": "Two flanges hold the pipe joint together.",
+          "fa": "دو فلنج اتصال لوله را کنار هم نگه می‌دارند.",
+          "senseId": "flange:meaning-1"
+        }
+      ],
+      "col": [
+        "a pipe flange｜فلنج لوله",
+        "a flange bolt｜پیچ فلنج",
+        "a flange gasket｜واشر آب‌بندیِ فلنج"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "flange خودِ لبهٔ اتصال است؛ gasket قطعهٔ آب‌بندیِ میان دو سطح است. تصویر فلنجِ سوراخ‌دارِ لوله را نشان می‌دهد.",
+      "media": {
+        "img": "atlas/img/flange.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://boston.swagelok.com/en/industries/life-sciences/essential-products/pipe-fittings",
+            "use": "Checked pipe-fitting families and technical sense; text and illustrations authored independently."
+          }
+        ]
+      }
+    },
+    {
+      "id": "duct",
+      "w": "duct",
+      "uk": "/dʌkt/",
+      "us": "/dʌkt/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "duct:meaning-1",
+          "pos": "n.",
+          "fa": "کانالِ هوا",
+          "en": "An enclosed passage used to carry air through a ventilation or heating system.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The metal duct carries air above the ceiling.",
+          "fa": "کانال فلزی هوا را بالای سقف منتقل می‌کند.",
+          "senseId": "duct:meaning-1"
+        },
+        {
+          "en": "The duct has a rectangular opening.",
+          "fa": "کانال دهانه‌ای مستطیلی دارد.",
+          "senseId": "duct:meaning-1"
+        }
+      ],
+      "col": [
+        "a ventilation duct｜کانال تهویه",
+        "an air duct｜کانال هوا",
+        "a duct joint｜اتصال کانال"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "duct اینجا کانالِ هوای ساختمان است، نه مجرای بدن. کانال‌ها می‌توانند گرد یا مستطیلی باشند؛ تصویر نوع مستطیلی است.",
+      "media": {
+        "img": "atlas/img/duct.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "filter",
+      "w": "filter",
+      "uk": "/ˈfɪltə/",
+      "us": "/ˈfɪltər/",
+      "cefr": "B1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "filter:meaning-1",
+          "pos": "n.",
+          "fa": "صافی؛ فیلترِ سیال",
+          "en": "A device that removes particles from a fluid as the fluid passes through it.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The filter traps particles inside the housing.",
+          "fa": "فیلتر ذرات را درون محفظه به دام می‌اندازد.",
+          "senseId": "filter:meaning-1"
+        },
+        {
+          "en": "The technician replaced the filter element.",
+          "fa": "تکنسین عنصرِ فیلتر را تعویض کرد.",
+          "senseId": "filter:meaning-1"
+        }
+      ],
+      "col": [
+        "a fluid filter｜فیلتر سیال",
+        "a filter element｜عنصر فیلتر",
+        "a filter housing｜محفظهٔ فیلتر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "filter در این کارت اسمِ وسیلهٔ جداکردن ذرات از سیال است؛ خودِ سیال می‌تواند مایع یا گاز باشد. تصویر نوعِ دارای کارتریج را نشان می‌دهد.",
+      "media": {
+        "img": "atlas/img/filter.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "impeller",
+      "w": "impeller",
+      "uk": "/ɪmˈpelə/",
+      "us": "/ɪmˈpelər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "impeller:meaning-1",
+          "pos": "n.",
+          "fa": "پروانهٔ پمپ",
+          "en": "A rotating part with blades that transfers energy to a fluid in a pump.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The impeller has curved blades around a central hub.",
+          "fa": "پروانه دور توپیِ مرکزی خود پره‌های خمیده دارد.",
+          "senseId": "impeller:meaning-1"
+        },
+        {
+          "en": "The shaft turns the impeller inside the pump.",
+          "fa": "محور، پروانه را درون پمپ می‌چرخاند.",
+          "senseId": "impeller:meaning-1"
+        }
+      ],
+      "col": [
+        "a pump impeller｜پروانهٔ پمپ",
+        "an impeller blade｜پرهٔ پروانه",
+        "an impeller hub｜توپیِ پروانه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "impeller در این معنی بخشی از پمپ است که به سیال انرژی می‌دهد؛ turbine معمولاً انرژی را از جریان سیال می‌گیرد. تصویر پروانه‌ای با پره‌های نمایان روی صفحهٔ پشتی را نشان می‌دهد.",
+      "media": {
+        "img": "atlas/img/impeller.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.ksb.com/en-global/centrifugal-pump-lexicon/o",
+            "use": "Checked open-impeller terminology and pumping context; original learner wording."
+          },
+          {
+            "url": "https://www.ksb.com/en-gb/solutions/waste-water-technology/selecting-pump-impellers",
+            "use": "Checked KSB terminology: an open design lacks an outer suction-side shroud. Learner tips describe the visible rear plate and exposed blades literally, avoiding reliance on subtype naming conventions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifold",
+      "w": "manifold",
+      "uk": "/ˈmænɪfəʊld/",
+      "us": "/ˈmænɪfoʊld/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "manifold:meaning-1",
+          "pos": "n.",
+          "fa": "مانیفولد؛ چندراههٔ توزیع سیال",
+          "en": "A component with connected passages that distributes fluid to several branches or collects it from them.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The manifold connects one main passage to three branches.",
+          "fa": "چندراهه یک مسیر اصلی را به سه انشعاب وصل می‌کند.",
+          "senseId": "manifold:meaning-1"
+        },
+        {
+          "en": "The ports lead into the manifold.",
+          "fa": "دهانه‌ها به درون مانیفولد راه دارند.",
+          "senseId": "manifold:meaning-1"
+        }
+      ],
+      "col": [
+        "a hydraulic manifold｜مانیفولد هیدرولیکی",
+        "a manifold port｜دهانهٔ مانیفولد",
+        "a manifold block｜بلوک مانیفولد"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "manifold در این کارت قطعهٔ دارای مسیرهای مشترک برای جمع یا پخش سیال است، نه معنی ریاضی این واژه یا فقط مانیفولدِ خودرو.",
+      "media": {
+        "img": "atlas/img/manifold.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.moog.com/products/manifolds/hydraulic-distribution-manifold.html",
+            "use": "Verified hydraulic distribution-manifold context and fluid-routing function; generic original illustration, no product artwork copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "reservoir",
+      "w": "reservoir",
+      "uk": "/ˈrezəvwɑː/",
+      "us": "/ˈrezərvwɑːr/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "reservoir:meaning-1",
+          "pos": "n.",
+          "fa": "مخزنِ ذخیرهٔ سیال",
+          "en": "A container that stores a supply of fluid for use in a system.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The reservoir supplies fluid to the pump.",
+          "fa": "مخزن سیال را برای پمپ تأمین می‌کند.",
+          "senseId": "reservoir:meaning-1"
+        },
+        {
+          "en": "The drawing shows the fluid level inside the reservoir.",
+          "fa": "نقشه سطح سیال را درون مخزن نشان می‌دهد.",
+          "senseId": "reservoir:meaning-1"
+        }
+      ],
+      "col": [
+        "a hydraulic reservoir｜مخزن هیدرولیک",
+        "a reservoir level｜سطح سیالِ مخزن",
+        "a reservoir outlet｜خروجی مخزن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "reservoir اینجا مخزنِ یک سامانهٔ فنی است، نه دریاچهٔ پشت سد. container واژه‌ای کلی‌تر برای ظرف است.",
+      "media": {
+        "img": "atlas/img/reservoir.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.mcmaster.com/products/hydraulic-reservoirs/for-use-with~hydraulic-fluid/",
+            "use": "Direct supplier technical catalog confirms fluid storage for hydraulic/circulating-oil systems; original generic tank depiction."
+          },
+          {
+            "url": "https://catalog.hydac.com/en-us/category/reservoir-accessories",
+            "use": "Manufacturer reservoir accessory catalog confirms filler/breather and fluid-level observation context; no supplied artwork copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "heat-exchanger",
+      "w": "heat exchanger",
+      "uk": "/ˈhiːt ɪksˌtʃeɪndʒə/",
+      "us": "/ˈhiːt ɪksˌtʃeɪndʒər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "heat-exchanger:meaning-1",
+          "pos": "n.",
+          "fa": "مبدل حرارتی",
+          "en": "Equipment that transfers heat between fluids at different temperatures.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The heat exchanger transfers heat through metal walls.",
+          "fa": "مبدل حرارتی گرما را از میان دیواره‌های فلزی منتقل می‌کند.",
+          "senseId": "heat-exchanger:meaning-1"
+        },
+        {
+          "en": "The two fluids stay separate in this heat exchanger.",
+          "fa": "دو سیال در این مبدل حرارتی از هم جدا می‌مانند.",
+          "senseId": "heat-exchanger:meaning-1"
+        }
+      ],
+      "col": [
+        "a plate heat exchanger｜مبدل حرارتی صفحه‌ای",
+        "a heat exchanger inlet｜ورودی مبدل حرارتی",
+        "a heat exchanger outlet｜خروجی مبدل حرارتی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "heat exchanger گرما را میان سیال‌ها منتقل می‌کند. در نوعِ نشان‌داده‌شده، مسیرها با دیوارهٔ فلزی از هم جدا هستند؛ همهٔ مبدل‌ها همین ساختار را ندارند.",
+      "media": {
+        "img": "atlas/img/heat-exchanger.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://assets.alfalaval.com/documents/pc092cab4/alfa-laval-instruction-manual-brazed-heat-exchanger-en.pdf",
+            "use": "Checked heat transfer through separating plates and two distinct fluid circuits; original illustration, not a product copy."
+          },
+          {
+            "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/heat-exchangers-avoid-contamination",
+            "use": "Checked double-pipe geometry: continuous inner tube and annular outer path, with sealed ends keeping the two fluids separate. Original non-branded illustration authored independently."
+          },
+          {
+            "url": "https://www.energy.gov/documents/doe-hdbk-1012-92vol2",
+            "use": "Checked that counterflow means the two working fluids move in opposite directions; no numerical performance or design qualification inferred."
           }
         ]
       }

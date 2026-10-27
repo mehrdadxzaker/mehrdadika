@@ -616,6 +616,120 @@
         "beam"
       ],
       "completedAt": "2026-10-27T13:14:27.924483+00:00"
+    },
+    {
+      "id": "specialist-500-batch-4",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-9",
+      "baseline": {
+        "releaseId": "2026-10-preview-8",
+        "manifest": "content/releases/2026-10-preview-8-b0ab625bb5d7/manifest.json",
+        "manifestSha256": "b0ab625bb5d7b2d9a00bf73603d53aecec78e2e42cafe5c3ed494f89fe169416",
+        "words": 306
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 74,
+          "targetCategoryWords": 86,
+          "entryIds": [
+            "skull",
+            "pelvis",
+            "sternum",
+            "clavicle",
+            "scapula",
+            "patella",
+            "specimen-cup",
+            "swab",
+            "tourniquet",
+            "suture",
+            "iv-bag",
+            "iv-pole"
+          ],
+          "units": [
+            {
+              "id": "skeletal-anatomy",
+              "title": "Skeletal anatomy",
+              "entryIds": [
+                "skull",
+                "pelvis",
+                "sternum",
+                "clavicle",
+                "scapula",
+                "patella"
+              ]
+            },
+            {
+              "id": "care-supplies",
+              "title": "Specimen collection and care supplies",
+              "entryIds": [
+                "specimen-cup",
+                "swab",
+                "tourniquet",
+                "suture",
+                "iv-bag",
+                "iv-pole"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 74,
+          "targetCategoryWords": 86,
+          "entryIds": [
+            "pipe",
+            "hose",
+            "elbow",
+            "tee",
+            "coupling",
+            "flange",
+            "duct",
+            "filter",
+            "impeller",
+            "manifold",
+            "reservoir",
+            "heat-exchanger"
+          ],
+          "units": [
+            {
+              "id": "fluid-connections",
+              "title": "Pipes and fluid connections",
+              "entryIds": [
+                "pipe",
+                "hose",
+                "elbow",
+                "tee",
+                "coupling",
+                "flange"
+              ]
+            },
+            {
+              "id": "fluid-thermal",
+              "title": "Fluid and heat-transfer equipment",
+              "entryIds": [
+                "duct",
+                "filter",
+                "impeller",
+                "manifold",
+                "reservoir",
+                "heat-exchanger"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [
+        "circuit",
+        "engine"
+      ],
+      "completedAt": "2026-10-27T14:35:58.704633+00:00"
     }
   ],
   "activeWorkBatchId": null,
