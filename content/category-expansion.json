@@ -1934,7 +1934,115 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 122,
+      "targetCategoryWords": 134,
+      "entryIds": [
+        "nebulizer",
+        "spacer",
+        "oxygen-mask",
+        "nasal-cannula",
+        "peak-flow-meter",
+        "spirometer",
+        "sharps-container",
+        "kidney-dish",
+        "bedpan",
+        "urinal",
+        "commode",
+        "transfer-board"
+      ],
+      "units": [
+        {
+          "id": "respiratory-devices",
+          "title": "Respiratory devices and monitoring equipment",
+          "entryIds": [
+            "nebulizer",
+            "spacer",
+            "oxygen-mask",
+            "nasal-cannula",
+            "peak-flow-meter",
+            "spirometer"
+          ]
+        },
+        {
+          "id": "care-equipment",
+          "title": "Care supplies and mobility equipment",
+          "entryIds": [
+            "sharps-container",
+            "kidney-dish",
+            "bedpan",
+            "urinal",
+            "commode",
+            "transfer-board"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-8",
+      "releaseId": "2026-10-preview-13",
+      "status": "published-preview",
+      "objective": "Describe respiratory and care equipment, cutting tools and precision workshop tools in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 122,
+      "targetCategoryWords": 134,
+      "entryIds": [
+        "chisel",
+        "punch",
+        "reamer",
+        "tap",
+        "die",
+        "drill-bit",
+        "file",
+        "hacksaw",
+        "torque-wrench",
+        "allen-key",
+        "feeler-gauge",
+        "scriber"
+      ],
+      "units": [
+        {
+          "id": "cutting-forming-tools",
+          "title": "Cutting and hole-finishing tools",
+          "entryIds": [
+            "chisel",
+            "punch",
+            "reamer",
+            "tap",
+            "die",
+            "drill-bit"
+          ]
+        },
+        {
+          "id": "precision-hand-tools",
+          "title": "Hand tools, torque control and fine measurement",
+          "entryIds": [
+            "file",
+            "hacksaw",
+            "torque-wrench",
+            "allen-key",
+            "feeler-gauge",
+            "scriber"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-8",
+      "releaseId": "2026-10-preview-13",
+      "status": "published-preview",
+      "objective": "Describe respiratory and care equipment, cutting tools and precision workshop tools in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-7"
+  "activePassId": "specialist-500-batch-8"
 }

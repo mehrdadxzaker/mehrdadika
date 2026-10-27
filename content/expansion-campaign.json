@@ -1072,6 +1072,120 @@
         "load"
       ],
       "completedAt": "2026-10-27T18:52:25.506477+00:00"
+    },
+    {
+      "id": "specialist-500-batch-8",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-13",
+      "baseline": {
+        "releaseId": "2026-10-preview-12",
+        "manifest": "content/releases/2026-10-preview-12-a0b38acc4cc6/manifest.json",
+        "manifestSha256": "a0b38acc4cc64729bc7efca1ea47c9372b9af329c8c8009758188d6695eb0ed1",
+        "words": 402
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 122,
+          "targetCategoryWords": 134,
+          "entryIds": [
+            "nebulizer",
+            "spacer",
+            "oxygen-mask",
+            "nasal-cannula",
+            "peak-flow-meter",
+            "spirometer",
+            "sharps-container",
+            "kidney-dish",
+            "bedpan",
+            "urinal",
+            "commode",
+            "transfer-board"
+          ],
+          "units": [
+            {
+              "id": "respiratory-devices",
+              "title": "Respiratory devices and monitoring equipment",
+              "entryIds": [
+                "nebulizer",
+                "spacer",
+                "oxygen-mask",
+                "nasal-cannula",
+                "peak-flow-meter",
+                "spirometer"
+              ]
+            },
+            {
+              "id": "care-equipment",
+              "title": "Care supplies and mobility equipment",
+              "entryIds": [
+                "sharps-container",
+                "kidney-dish",
+                "bedpan",
+                "urinal",
+                "commode",
+                "transfer-board"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 122,
+          "targetCategoryWords": 134,
+          "entryIds": [
+            "chisel",
+            "punch",
+            "reamer",
+            "tap",
+            "die",
+            "drill-bit",
+            "file",
+            "hacksaw",
+            "torque-wrench",
+            "allen-key",
+            "feeler-gauge",
+            "scriber"
+          ],
+          "units": [
+            {
+              "id": "cutting-forming-tools",
+              "title": "Cutting and hole-finishing tools",
+              "entryIds": [
+                "chisel",
+                "punch",
+                "reamer",
+                "tap",
+                "die",
+                "drill-bit"
+              ]
+            },
+            {
+              "id": "precision-hand-tools",
+              "title": "Hand tools, torque control and fine measurement",
+              "entryIds": [
+                "file",
+                "hacksaw",
+                "torque-wrench",
+                "allen-key",
+                "feeler-gauge",
+                "scriber"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [
+        "patient",
+        "treatment"
+      ],
+      "completedAt": "2026-10-27T21:39:23.042423+00:00"
     }
   ],
   "activeWorkBatchId": null,

@@ -13,9 +13,9 @@
     "modifications": "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-12",
-    "manifest": "content/releases/2026-10-preview-12-a0b38acc4cc6/manifest.json",
-    "sha256": "a0b38acc4cc64729bc7efca1ea47c9372b9af329c8c8009758188d6695eb0ed1"
+    "id": "2026-10-preview-13",
+    "manifest": "content/releases/2026-10-preview-13-53133a03bb7a/manifest.json",
+    "sha256": "53133a03bb7a7d4f1ca9a91dbe21f0bc33f7939fb5ee7647704da4c75b6dc467"
   },
   "categories": {
     "everyday-life": {
@@ -14215,6 +14215,822 @@
         }
       ],
       "tip": "Abutment aqui é o apoio na extremidade da ponte, não uma peça dentária. Pier costuma ser um apoio intermediário; a imagem mostra apenas uma extremidade da ponte e sua ligação com o encontro."
+    },
+    "nebulizer": {
+      "sourceWord": "nebulizer",
+      "senses": {
+        "nebulizer:meaning-1": {
+          "gloss": "nebulizador",
+          "definition": "Um dispositivo que transforma medicamento líquido em uma névoa fina para inalação por um bocal ou uma máscara."
+        }
+      },
+      "examples": [
+        {
+          "en": "The nebulizer has a small medicine cup connected to tubing.",
+          "translation": "O nebulizador tem um pequeno copo de medicamento conectado a uma mangueira."
+        },
+        {
+          "en": "The clinic keeps the nebulizer and its accessories together.",
+          "translation": "A clínica mantém o nebulizador e seus acessórios juntos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a nebulizer chamber",
+          "translation": "uma câmara de nebulização"
+        },
+        {
+          "en": "nebulizer tubing",
+          "translation": "a mangueira do nebulizador"
+        },
+        {
+          "en": "a compressor nebulizer",
+          "translation": "um nebulizador a compressor"
+        }
+      ],
+      "tip": "Nebulizer é a grafia americana; nebuliser é comum no inglês britânico. A imagem mostra um modelo a compressor, diferente de um umidificador comum ou de um spacer."
+    },
+    "spacer": {
+      "sourceWord": "spacer",
+      "senses": {
+        "spacer:meaning-1": {
+          "gloss": "espaçador para inalador",
+          "definition": "Uma câmara acoplada a um inalador dosimetrado que retém brevemente o aerossol antes da inalação."
+        }
+      },
+      "examples": [
+        {
+          "en": "The spacer sits between the inhaler and the mouthpiece.",
+          "translation": "O espaçador fica entre o inalador e o bocal."
+        },
+        {
+          "en": "The clinician showed the patient the spacer chamber.",
+          "translation": "A profissional de saúde mostrou ao paciente a câmara do espaçador."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an inhaler spacer",
+          "translation": "um espaçador para inalador"
+        },
+        {
+          "en": "a spacer chamber",
+          "translation": "uma câmara de espaçador"
+        },
+        {
+          "en": "a spacer mouthpiece",
+          "translation": "um bocal de espaçador"
+        }
+      ],
+      "tip": "Spacer aqui é a câmara usada com um tipo de inalador, não qualquer peça de espaçamento. Não é nebulizador nem reservatório de oxigênio; nem todo inalador se conecta a ela."
+    },
+    "oxygen-mask": {
+      "sourceWord": "oxygen mask",
+      "senses": {
+        "oxygen-mask:meaning-1": {
+          "gloss": "máscara de oxigênio",
+          "definition": "Uma máscara que cobre o nariz e a boca e fornece oxigênio de uma fonte por uma mangueira conectada."
+        }
+      },
+      "examples": [
+        {
+          "en": "The oxygen mask covers both the nose and mouth.",
+          "translation": "A máscara de oxigênio cobre o nariz e a boca."
+        },
+        {
+          "en": "The oxygen mask has an elastic strap and a tubing connector.",
+          "translation": "A máscara de oxigênio tem uma tira elástica e um conector para a mangueira."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an oxygen mask strap",
+          "translation": "uma tira de máscara de oxigênio"
+        },
+        {
+          "en": "oxygen mask tubing",
+          "translation": "a mangueira da máscara de oxigênio"
+        },
+        {
+          "en": "a simple oxygen mask",
+          "translation": "uma máscara simples de oxigênio"
+        }
+      ],
+      "tip": "Oxygen mask difere de máscara cirúrgica e de nasal cannula. A imagem mostra uma máscara simples; existem outros formatos e componentes."
+    },
+    "nasal-cannula": {
+      "sourceWord": "nasal cannula",
+      "senses": {
+        "nasal-cannula:meaning-1": {
+          "gloss": "cânula nasal",
+          "definition": "Um tubo flexível para fornecer oxigênio, com duas pequenas pontas posicionadas nas narinas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The nasal cannula has two short nasal prongs.",
+          "translation": "A cânula nasal tem duas pequenas pontas nasais."
+        },
+        {
+          "en": "The nasal cannula leaves the mouth uncovered.",
+          "translation": "A cânula nasal deixa a boca descoberta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "nasal cannula tubing",
+          "translation": "o tubo da cânula nasal"
+        },
+        {
+          "en": "a nasal cannula prong",
+          "translation": "uma ponta da cânula nasal"
+        },
+        {
+          "en": "a nasal cannula connector",
+          "translation": "um conector de cânula nasal"
+        }
+      ],
+      "tip": "Nasal cannula fornece oxigênio por pequenas pontas posicionadas nas narinas e não cobre a boca como uma máscara. A imagem mostra um modelo convencional; outros sistemas podem ser diferentes."
+    },
+    "peak-flow-meter": {
+      "sourceWord": "peak flow meter",
+      "senses": {
+        "peak-flow-meter:meaning-1": {
+          "gloss": "medidor de pico de fluxo expiratório",
+          "definition": "Um pequeno aparelho que mede o maior fluxo de ar durante uma expiração forçada."
+        }
+      },
+      "examples": [
+        {
+          "en": "The peak flow meter has a mouthpiece and a sliding marker.",
+          "translation": "O medidor de pico de fluxo tem um bocal e um marcador deslizante."
+        },
+        {
+          "en": "The nurse explained the peak flow meter reading.",
+          "translation": "A enfermeira explicou a leitura do medidor de pico de fluxo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a peak flow meter reading",
+          "translation": "uma leitura do medidor de pico de fluxo"
+        },
+        {
+          "en": "a peak flow meter mouthpiece",
+          "translation": "um bocal do medidor de pico de fluxo"
+        },
+        {
+          "en": "a peak flow meter scale",
+          "translation": "uma escala do medidor de pico de fluxo"
+        }
+      ],
+      "tip": "Peak flow meter mede o pico do fluxo expiratório, não o volume total de ar. A ilustração não apresenta resultado diagnóstico nem escala calibrada; spirometer é outro aparelho."
+    },
+    "spirometer": {
+      "sourceWord": "spirometer",
+      "senses": {
+        "spirometer:meaning-1": {
+          "gloss": "espirômetro",
+          "definition": "Um instrumento usado em testes de função pulmonar para medir o volume e o fluxo do ar expirado."
+        }
+      },
+      "examples": [
+        {
+          "en": "The spirometer is connected to a breathing tube and mouthpiece.",
+          "translation": "O espirômetro está conectado a um tubo respiratório e a um bocal."
+        },
+        {
+          "en": "The technician checked the spirometer before the lung-function test.",
+          "translation": "A técnica conferiu o espirômetro antes do teste de função pulmonar."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a diagnostic spirometer",
+          "translation": "um espirômetro diagnóstico"
+        },
+        {
+          "en": "a spirometer mouthpiece",
+          "translation": "um bocal de espirômetro"
+        },
+        {
+          "en": "a spirometer sensor",
+          "translation": "um sensor de espirômetro"
+        }
+      ],
+      "tip": "Spirometer é o aparelho; spirometry é o teste. Este cartão mostra um equipamento diagnóstico, não o incentive spirometer de exercícios com indicadores de volume. Também é diferente do peak flow meter."
+    },
+    "sharps-container": {
+      "sourceWord": "sharps container",
+      "senses": {
+        "sharps-container:meaning-1": {
+          "gloss": "coletor de perfurocortantes",
+          "definition": "Um recipiente rígido e resistente a perfurações, projetado para receber agulhas usadas e outros resíduos médicos cortantes ou perfurantes."
+        }
+      },
+      "examples": [
+        {
+          "en": "The sharps container has a small opening in its fitted lid.",
+          "translation": "O coletor de perfurocortantes tem uma pequena abertura na tampa ajustada."
+        },
+        {
+          "en": "The clinic ordered a new sharps container for the treatment room.",
+          "translation": "A clínica pediu um novo coletor de perfurocortantes para a sala de procedimentos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a sharps container lid",
+          "translation": "uma tampa de coletor de perfurocortantes"
+        },
+        {
+          "en": "a puncture-resistant sharps container",
+          "translation": "um coletor de perfurocortantes resistente a perfurações"
+        },
+        {
+          "en": "a sharps container opening",
+          "translation": "uma abertura do coletor de perfurocortantes"
+        }
+      ],
+      "tip": "Sharps aqui reúne objetos médicos cortantes ou perfurantes. O coletor é diferente de uma lixeira comum. A imagem não ensina manuseio ou descarte; a cor não é universal."
+    },
+    "kidney-dish": {
+      "sourceWord": "kidney dish",
+      "senses": {
+        "kidney-dish:meaning-1": {
+          "gloss": "cuba-rim",
+          "definition": "Uma bandeja rasa em forma de rim, usada na assistência à saúde para conter pequenos itens, curativos ou líquidos coletados."
+        }
+      },
+      "examples": [
+        {
+          "en": "The kidney dish has a curved inner edge.",
+          "translation": "A cuba-rim tem uma borda interna curva."
+        },
+        {
+          "en": "A clean dressing rests in the kidney dish.",
+          "translation": "Um curativo limpo está na cuba-rim."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a stainless-steel kidney dish",
+          "translation": "uma cuba-rim de aço inoxidável"
+        },
+        {
+          "en": "a disposable kidney dish",
+          "translation": "uma cuba-rim descartável"
+        },
+        {
+          "en": "the rim of a kidney dish",
+          "translation": "a borda de uma cuba-rim"
+        }
+      ],
+      "tip": "Kidney dish refere-se ao formato, não ao órgão nem a um recipiente exclusivo para cirurgia renal. Em inglês americano, emesis basin também nomeia um recipiente semelhante; materiais e usos variam."
+    },
+    "bedpan": {
+      "sourceWord": "bedpan",
+      "senses": {
+        "bedpan:meaning-1": {
+          "gloss": "comadre hospitalar",
+          "definition": "Um recipiente raso para recolher urina ou fezes enquanto a pessoa permanece na cama."
+        }
+      },
+      "examples": [
+        {
+          "en": "The bedpan has a broad supporting rim.",
+          "translation": "A comadre hospitalar tem uma borda larga de apoio."
+        },
+        {
+          "en": "The nurse brought a clean bedpan to the bedside.",
+          "translation": "A enfermeira levou uma comadre limpa até a cama."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a clean bedpan",
+          "translation": "uma comadre limpa"
+        },
+        {
+          "en": "a disposable bedpan",
+          "translation": "uma comadre descartável"
+        },
+        {
+          "en": "a bedpan rim",
+          "translation": "uma borda de comadre"
+        }
+      ],
+      "tip": "Bedpan é um recipiente baixo usado na cama. É diferente do urinal em forma de garrafa e da cadeira commode. A imagem mostra o objeto, não a técnica de uso."
+    },
+    "urinal": {
+      "sourceWord": "urinal",
+      "senses": {
+        "urinal:meaning-1": {
+          "gloss": "urinol portátil; papagaio",
+          "definition": "Um recipiente portátil em forma de garrafa para recolher urina, muitas vezes junto à cama."
+        }
+      },
+      "examples": [
+        {
+          "en": "The portable urinal has a handle and a wide angled opening.",
+          "translation": "O urinol portátil tem uma alça e uma abertura larga e inclinada."
+        },
+        {
+          "en": "The clean urinal stood upright beside the bed.",
+          "translation": "O urinol limpo estava em pé ao lado da cama."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a portable urinal",
+          "translation": "um urinol portátil"
+        },
+        {
+          "en": "a urinal bottle",
+          "translation": "uma garrafa urinária"
+        },
+        {
+          "en": "a urinal handle",
+          "translation": "uma alça de urinol"
+        }
+      ],
+      "tip": "Urinal aqui é o recipiente portátil em forma de garrafa, não o mictório fixo de banheiro. O formato da abertura e o projeto variam conforme a aplicação."
+    },
+    "commode": {
+      "sourceWord": "commode",
+      "senses": {
+        "commode:meaning-1": {
+          "gloss": "cadeira sanitária com coletor",
+          "definition": "Uma cadeira sanitária portátil com abertura no assento e um recipiente removível embaixo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The commode has armrests and a removable bucket beneath the seat.",
+          "translation": "A cadeira sanitária tem apoios de braço e um balde removível sob o assento."
+        },
+        {
+          "en": "The bedside commode stood beside the hospital bed.",
+          "translation": "A cadeira sanitária de cabeceira estava ao lado da cama hospitalar."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a bedside commode",
+          "translation": "uma cadeira sanitária de cabeceira"
+        },
+        {
+          "en": "a commode seat",
+          "translation": "um assento de cadeira sanitária"
+        },
+        {
+          "en": "a commode bucket",
+          "translation": "um balde de cadeira sanitária"
+        }
+      ],
+      "tip": "Commode aqui é uma cadeira sanitária portátil, não uma cômoda nem um vaso fixo. A imagem mostra um modelo de cabeceira com coletor; nem todos têm rodas."
+    },
+    "transfer-board": {
+      "sourceWord": "transfer board",
+      "senses": {
+        "transfer-board:meaning-1": {
+          "gloss": "prancha de transferência",
+          "definition": "Uma prancha firme e lisa que faz a ligação entre superfícies de assento para auxiliar a passagem de uma pessoa de uma para a outra."
+        }
+      },
+      "examples": [
+        {
+          "en": "The transfer board bridges the gap between the bed and wheelchair seat.",
+          "translation": "A prancha de transferência liga a cama ao assento da cadeira de rodas sobre o vão entre eles."
+        },
+        {
+          "en": "The therapist inspected the smooth surface of the transfer board.",
+          "translation": "A terapeuta inspecionou a superfície lisa da prancha de transferência."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a seated transfer board",
+          "translation": "uma prancha para transferência sentada"
+        },
+        {
+          "en": "a transfer board surface",
+          "translation": "uma superfície de prancha de transferência"
+        },
+        {
+          "en": "a curved transfer board",
+          "translation": "uma prancha de transferência curva"
+        }
+      ],
+      "tip": "Este sentido de transfer board é para transferências sentadas, não para uma prancha longa de transporte de pessoa deitada. A imagem mostra duas superfícies na mesma altura; a escolha do equipamento e da técnica depende de avaliação profissional."
+    },
+    "chisel": {
+      "sourceWord": "chisel",
+      "senses": {
+        "chisel:meaning-1": {
+          "gloss": "talhadeira para metal",
+          "definition": "Uma ferramenta manual com gume afiado em forma de cunha, golpeada para cortar ou modelar metal."
+        }
+      },
+      "examples": [
+        {
+          "en": "The chisel has a flat cutting edge and a solid striking head.",
+          "translation": "A talhadeira tem um gume reto e uma cabeça maciça para receber golpes."
+        },
+        {
+          "en": "The metalworker used a chisel to remove a small piece from the edge.",
+          "translation": "O metalúrgico usou uma talhadeira para retirar um pequeno pedaço da borda."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a cold chisel",
+          "translation": "uma talhadeira a frio"
+        },
+        {
+          "en": "a chisel edge",
+          "translation": "um gume de talhadeira"
+        },
+        {
+          "en": "a chisel head",
+          "translation": "uma cabeça de talhadeira"
+        }
+      ],
+      "tip": "Esta acepção é a talhadeira para trabalho a frio em metal. Chisel também pode indicar um formão de madeira. A ferramenta ilustrada tem gume em cunha, não a ponta cônica de um punção."
+    },
+    "punch": {
+      "sourceWord": "punch",
+      "senses": {
+        "punch:meaning-1": {
+          "gloss": "punção de centro",
+          "definition": "Uma ferramenta manual pontiaguda que recebe golpes para fazer uma pequena marca de localização em uma superfície dura."
+        }
+      },
+      "examples": [
+        {
+          "en": "The punch left a small dimple at the marked center.",
+          "translation": "O punção deixou uma pequena cavidade no centro marcado."
+        },
+        {
+          "en": "The punch has a conical tip below its knurled grip.",
+          "translation": "O punção tem uma ponta cônica abaixo da área de pega recartilhada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a center punch",
+          "translation": "um punção de centro"
+        },
+        {
+          "en": "a punch mark",
+          "translation": "uma marca de punção"
+        },
+        {
+          "en": "a punch tip",
+          "translation": "uma ponta de punção"
+        }
+      ],
+      "tip": "Punch aqui é o punção de centro, não um soco, uma bebida ou um furador de papel. Center é a grafia americana e centre, a britânica. Esta ferramenta difere do punção para expulsar pinos."
+    },
+    "reamer": {
+      "sourceWord": "reamer",
+      "senses": {
+        "reamer:meaning-1": {
+          "gloss": "alargador",
+          "definition": "Uma ferramenta de corte com várias arestas que remove uma pequena quantidade de material de um furo existente para melhorar sua dimensão e acabamento."
+        }
+      },
+      "examples": [
+        {
+          "en": "The reamer has several straight flutes along its cutting section.",
+          "translation": "O alargador tem vários canais retos ao longo da parte cortante."
+        },
+        {
+          "en": "The machinist finished the existing hole with a reamer.",
+          "translation": "A operadora de usinagem deu acabamento ao furo existente com um alargador."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a hand reamer",
+          "translation": "um alargador manual"
+        },
+        {
+          "en": "a reamer flute",
+          "translation": "um canal de alargador"
+        },
+        {
+          "en": "a reamed hole",
+          "translation": "um furo alargado"
+        }
+      ],
+      "tip": "O alargador dá acabamento a um furo existente. A imagem mostra um modelo de canais retos; há outros tipos. Drill bit é a broca que faz o furo e não é a mesma ferramenta."
+    },
+    "tap": {
+      "sourceWord": "tap",
+      "senses": {
+        "tap:meaning-1": {
+          "gloss": "macho de roscar",
+          "definition": "Uma ferramenta que corta uma rosca interna em um furo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The tap has cutting threads interrupted by flutes.",
+          "translation": "O macho tem filetes de corte interrompidos por canais."
+        },
+        {
+          "en": "The tap formed an internal thread inside the metal hole.",
+          "translation": "O macho produziu uma rosca interna no furo de metal."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a hand tap",
+          "translation": "um macho manual"
+        },
+        {
+          "en": "a tap wrench",
+          "translation": "um desandador para macho"
+        },
+        {
+          "en": "a tapped hole",
+          "translation": "um furo roscado"
+        }
+      ],
+      "tip": "Tap aqui é a ferramenta para cortar roscas internas, não uma torneira nem um toque leve. Os canais do modelo de corte ajudam a formar arestas e a escoar cavacos; die corta roscas externas."
+    },
+    "die": {
+      "sourceWord": "die",
+      "senses": {
+        "die:meaning-1": {
+          "gloss": "cossinete; tarraxa de roscar",
+          "definition": "Uma ferramenta de corte com uma abertura roscada por dentro que corta uma rosca externa em uma haste."
+        }
+      },
+      "examples": [
+        {
+          "en": "The round die has cutting edges around its threaded opening.",
+          "translation": "O cossinete redondo tem arestas de corte ao redor da abertura roscada."
+        },
+        {
+          "en": "The die cut an external thread on the end of the rod.",
+          "translation": "O cossinete cortou uma rosca externa na ponta da haste."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a threading die",
+          "translation": "um cossinete de roscar"
+        },
+        {
+          "en": "a round die",
+          "translation": "um cossinete redondo"
+        },
+        {
+          "en": "a die holder",
+          "translation": "um porta-cossinete"
+        }
+      ],
+      "tip": "Die aqui é a ferramenta de roscar, não uma matriz de conformação nem o verbo morrer. Ela corta a rosca externa da haste; tap corta a rosca dentro de um furo."
+    },
+    "drill-bit": {
+      "sourceWord": "drill bit",
+      "senses": {
+        "drill-bit:meaning-1": {
+          "gloss": "broca",
+          "definition": "Uma ferramenta de corte rotativa e removível, montada em uma furadeira para fazer um furo em um material."
+        }
+      },
+      "examples": [
+        {
+          "en": "The drill bit has two helical flutes behind its cutting point.",
+          "translation": "A broca tem dois canais helicoidais atrás da ponta de corte."
+        },
+        {
+          "en": "The drill bit fits into the drill chuck.",
+          "translation": "A broca se encaixa no mandril da furadeira."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a twist drill bit",
+          "translation": "uma broca helicoidal"
+        },
+        {
+          "en": "a drill bit shank",
+          "translation": "uma haste de broca"
+        },
+        {
+          "en": "a drill bit tip",
+          "translation": "uma ponta de broca"
+        }
+      ],
+      "tip": "Bit nesta expressão é a peça de corte, não uma unidade de dados. A imagem mostra uma broca helicoidal comum; a forma varia com o material e a aplicação. A broca não é a furadeira inteira."
+    },
+    "file": {
+      "sourceWord": "file",
+      "senses": {
+        "file:meaning-1": {
+          "gloss": "lima para metal",
+          "definition": "Uma ferramenta manual com fileiras de pequenos dentes de corte para remover e alisar material de uma superfície."
+        }
+      },
+      "examples": [
+        {
+          "en": "The file has diagonal rows of teeth across its flat face.",
+          "translation": "A lima tem fileiras diagonais de dentes em sua face plana."
+        },
+        {
+          "en": "The technician smoothed the metal edge with a file.",
+          "translation": "A técnica alisou a borda de metal com uma lima."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a flat file",
+          "translation": "uma lima chata"
+        },
+        {
+          "en": "a file handle",
+          "translation": "um cabo de lima"
+        },
+        {
+          "en": "file teeth",
+          "translation": "dentes de lima"
+        }
+      ],
+      "tip": "File aqui é a lima manual para metal, não um arquivo de computador ou uma pasta. A imagem mostra uma lima chata com cabo; a lixa de unhas não é a acepção escolhida."
+    },
+    "hacksaw": {
+      "sourceWord": "hacksaw",
+      "senses": {
+        "hacksaw:meaning-1": {
+          "gloss": "arco de serra",
+          "definition": "Uma serra manual com lâmina estreita, dentada e substituível, mantida sob tensão em um arco, usada com frequência para cortar metal."
+        }
+      },
+      "examples": [
+        {
+          "en": "The hacksaw frame holds the narrow blade at both ends.",
+          "translation": "O arco de serra prende a lâmina estreita nas duas extremidades."
+        },
+        {
+          "en": "The hacksaw blade has a row of fine teeth along one edge.",
+          "translation": "A lâmina tem uma fileira de dentes finos ao longo de uma borda."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a hacksaw blade",
+          "translation": "uma lâmina de arco de serra"
+        },
+        {
+          "en": "a hacksaw frame",
+          "translation": "um arco de serra"
+        },
+        {
+          "en": "a hacksaw handle",
+          "translation": "um cabo de arco de serra"
+        }
+      ],
+      "tip": "O arco do hacksaw mantém a lâmina estreita esticada. Ele difere de um serrote de lâmina larga ou de uma serra elétrica. Blade é a lâmina, uma peça distinta do frame."
+    },
+    "torque-wrench": {
+      "sourceWord": "torque wrench",
+      "senses": {
+        "torque-wrench:meaning-1": {
+          "gloss": "torquímetro",
+          "definition": "Uma chave que indica ou limita o momento de força aplicado a um elemento de fixação."
+        }
+      },
+      "examples": [
+        {
+          "en": "The torque wrench connects to the bolt through a socket.",
+          "translation": "O torquímetro se conecta ao parafuso por meio de um soquete."
+        },
+        {
+          "en": "The technician selected a torque wrench for controlled tightening.",
+          "translation": "A técnica escolheu um torquímetro para um aperto controlado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a torque wrench setting",
+          "translation": "um ajuste de torquímetro"
+        },
+        {
+          "en": "a torque wrench handle",
+          "translation": "um cabo de torquímetro"
+        },
+        {
+          "en": "a torque wrench socket",
+          "translation": "um soquete de torquímetro"
+        }
+      ],
+      "tip": "Torque é um momento de força, não apenas força. A imagem mostra um modelo ajustável; nem todo torquímetro sinaliza da mesma maneira. A ilustração não informa um valor de ajuste nem uma instrução de aperto."
+    },
+    "allen-key": {
+      "sourceWord": "Allen key",
+      "senses": {
+        "allen-key:meaning-1": {
+          "gloss": "chave Allen; chave sextavada",
+          "definition": "Uma ferramenta de seção hexagonal que se encaixa em um alojamento correspondente na cabeça de um parafuso."
+        }
+      },
+      "examples": [
+        {
+          "en": "The Allen key has a short arm and a long arm joined at a right angle.",
+          "translation": "A chave Allen tem um braço curto e outro longo unidos em ângulo reto."
+        },
+        {
+          "en": "The hexagonal end of the Allen key fits the screw socket.",
+          "translation": "A extremidade hexagonal da chave Allen se encaixa no alojamento do parafuso."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an Allen key set",
+          "translation": "um jogo de chaves Allen"
+        },
+        {
+          "en": "an Allen key size",
+          "translation": "uma medida de chave Allen"
+        },
+        {
+          "en": "an Allen key socket",
+          "translation": "um encaixe para chave Allen"
+        }
+      ],
+      "tip": "Outro nome genérico é hex key. A imagem mostra o formato em L com ponta sextavada; há outros formatos. A ponta hexagonal não é igual à ponta em estrela Torx."
+    },
+    "feeler-gauge": {
+      "sourceWord": "feeler gauge",
+      "senses": {
+        "feeler-gauge:meaning-1": {
+          "gloss": "calibrador de folgas",
+          "definition": "Uma ferramenta de medição com lâminas finas de espessura conhecida, usada para verificar uma folga estreita entre superfícies."
+        }
+      },
+      "examples": [
+        {
+          "en": "One leaf of the feeler gauge fits between the two metal surfaces.",
+          "translation": "Uma lâmina do calibrador de folgas cabe entre as duas superfícies metálicas."
+        },
+        {
+          "en": "The feeler gauge leaves fold into a shared holder.",
+          "translation": "As lâminas do calibrador se dobram para dentro de um suporte comum."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a feeler gauge leaf",
+          "translation": "uma lâmina de calibrador de folgas"
+        },
+        {
+          "en": "a feeler gauge set",
+          "translation": "um jogo de calibradores de folgas"
+        },
+        {
+          "en": "a feeler gauge holder",
+          "translation": "um suporte de calibrador de folgas"
+        }
+      ],
+      "tip": "Cada lâmina tem espessura conhecida. A ferramenta verifica folgas estreitas, não a profundidade de um furo. Os números foram omitidos na ilustração didática, que não fornece uma medida real."
+    },
+    "scriber": {
+      "sourceWord": "scriber",
+      "senses": {
+        "scriber:meaning-1": {
+          "gloss": "riscador",
+          "definition": "Uma ferramenta de marcação com ponta afiada que risca linhas finas de traçagem em uma peça."
+        }
+      },
+      "examples": [
+        {
+          "en": "The scriber leaves a fine scratch on the metal surface.",
+          "translation": "O riscador deixa um risco fino na superfície de metal."
+        },
+        {
+          "en": "The scriber has a slender hardened point and a knurled grip.",
+          "translation": "O riscador tem uma ponta fina e endurecida e uma área de pega recartilhada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a scriber point",
+          "translation": "uma ponta de riscador"
+        },
+        {
+          "en": "a scriber line",
+          "translation": "uma linha de riscador"
+        },
+        {
+          "en": "a steel scriber",
+          "translation": "um riscador de aço"
+        }
+      ],
+      "tip": "Scriber risca linhas de traçagem; não é uma caneta de tinta nem um punção para golpes. Sua marca é uma linha fina; o punção de centro costuma produzir uma cavidade pontual."
     }
   }
 }

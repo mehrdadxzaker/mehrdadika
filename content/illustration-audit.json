@@ -1336,17 +1336,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/patient.webp",
-        "sha256": "6d8f697515205e8a9fcd1464c93c378f4f3b5301093c5aafab13131f3f005020"
+        "path": "atlas/img/patient-v2.webp",
+        "sha256": "cde69d58359b771cd0566b7a92d92bb24c4a4255ba656756f3d9de34bf7d7927"
       },
       "visual": {
-        "expectedCue": "A person receives an examination from a clinician, clearly establishing the care-recipient role.",
-        "decision": "retained",
-        "reason": "Retained after pixel inspection: A person receives an examination from a clinician, clearly establishing the care-recipient role."
+        "expectedCue": "A person on a clinical examination table receives attentive care from a clinician, teaching the noun patient.",
+        "decision": "replaced",
+        "reason": "Actual full source and final512/120 inspected: patient in a clinical gown sits on an examination table and gestures toward an attentive clinician with a blank chart. Coherent limbs/hands and clinical table/lamp establish receiving care. Calm supported seated posture; feet naturally hang from table. No real person, symptoms, diagnostic readings or patient data are represented.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical cool-white/mint realistic rendering with precise human forms; clinical gown and examination-table context remain recognizable at120px, replacing inherited warm editorial artwork."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "cde69d58359b771cd0566b7a92d92bb24c4a4255ba656756f3d9de34bf7d7927",
+          "inspectedAt": "2026-10-27T19:50:49.208394+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254px source and final512px/120px inspected. Adult in a clinical gown sits securely on an examination table, gestures with a coherent hand and faces an attentive clinician with blank clipboard. Limbs, hands and hanging socked feet are anatomically coherent; patient receiving consultation is the focal role. Clinical table/lamp/gown distinguish the noun from a waiting-room person or adjective patient. Precise photo-like forms in a clean cool-white/mint/pale-blue clinic satisfy the medical brief; no warm storybook treatment, clinical readings or labels. AI semantic/style assessment only; independent human language and qualified specialist approval remain pending."
+        }
       }
     },
     {
@@ -1471,17 +1486,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/treatment.webp",
-        "sha256": "5896d02a3197f2132179b61764a661dbbb1ca1555d187c1574071fd75f982c83"
+        "path": "atlas/img/treatment-v2.webp",
+        "sha256": "e7bb3c90ab534243f2e066e5ed7ce64bfc546df0f0494019e0317a170868b246"
       },
       "visual": {
-        "expectedCue": "A healthcare worker applies care to an injured leg, making the care being given the focus.",
-        "decision": "retained",
-        "reason": "Retained after pixel inspection: A healthcare worker applies care to an injured leg, making the care being given the focus."
+        "expectedCue": "A clinician provides non-graphic dressing care to a patient's supported forearm, making actual medical care visible.",
+        "decision": "replaced",
+        "reason": "Actual full source and final512/120 inspected: two coherent blue-gloved clinician hands touch a clean existing forearm dressing; patient's arm rests on a padded side table and a closed gauze pack sits nearby. Care action is visible, with no open wound, bleeding, medication, steps, dosage or implied outcome.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical rendering on cool white with mint scrubs and pale-blue glove accents; dressing-care contact remains visible at120px, replacing inherited warm artwork."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e7bb3c90ab534243f2e066e5ed7ce64bfc546df0f0494019e0317a170868b246",
+          "inspectedAt": "2026-10-27T19:50:49.208495+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254px source and final512px/120px inspected. Two coherent gloved clinician hands contact an existing clean forearm dressing while the patient arm is supported on a padded table. Anatomical limb/hand contact is plausible and dressing care supplies a visible treatment cue. No open wound, blood, medicine, numerical reading, steps or promised outcome. Photo-like clean clinical rendering has soft precise forms and cool white/mint/blue accents; care action remains readable at120px. AI semantic/style assessment only; independent human language and qualified specialist approval remain pending."
+        }
       }
     },
     {
@@ -17747,6 +17777,1206 @@
             120
           ],
           "finding": "Actual512/120: bridge girder flange bears on a separate dark bearing pad resting on a concrete seat, which connects through the end-support stem to a footing supported by soil. Retained approach fill and road slab are behind the backwall. The view intentionally shows one bridge end; no missing bearing contact, floating footing or middle-pier substitution. Slate/silver/amber engineering style remains readable."
+        }
+      }
+    },
+    {
+      "entryId": "nebulizer",
+      "sourceWord": "nebulizer",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "nebulizer:meaning-1",
+          "pos": "n.",
+          "en": "A device that turns liquid medicine into a fine mist for inhalation through a mouthpiece or mask."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The nebulizer has a small medicine cup connected to tubing.",
+          "senseId": "nebulizer:meaning-1"
+        },
+        {
+          "en": "The clinic keeps the nebulizer and its accessories together.",
+          "senseId": "nebulizer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/nebulizer.webp",
+        "sha256": "d28680fbc093e952a74c98e951831a491023d39af6004cda1c27d43081996269"
+      },
+      "visual": {
+        "expectedCue": "A compressor connects through continuous tubing to the bottom of a small aerosol chamber with a top mouthpiece.",
+        "decision": "added",
+        "reason": "Actual full1254px source and encoded512px/120px inspected. White/mint compressor air outlet connects continuously via a looped thin tube to the chamber bottom; upright chamber is physically supported in its holder and top elbow joins a clear open mouthpiece. Inner jet/baffle and faint aerosol haze remain inside the cup. Device is distinct from a steam humidifier or oxygen mask. Switch carries simple I/O power marks, not dose or diagnostic readings; no drug name or numerical result. One targeted edit removed the decorative plant and towels; actual corrected full/512/120 reinspection confirms device/tube/chamber contact remains coherent.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical device rendering with soft cool-white/mint surfaces, pale-blue transparent tubing and plain clinical counter/wall. Decorative plant/towels removed to meet the no-irrelevant-props brief. Connections readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d28680fbc093e952a74c98e951831a491023d39af6004cda1c27d43081996269",
+          "inspectedAt": "2026-10-27T19:57:59.611559+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual corrected512/120 inspected: compressor outlet connects by one continuous tube to bottom of a supported medication chamber; its upper connector joins a bent open mouthpiece. Clean blank clinical backdrop replaces decorative plant/towels. Simple I/O switch markings read correctly; no doses, diagnostic numbers or usage steps. Cool white/mint precise device rendering and connected parts remain clear at120px."
+        }
+      }
+    },
+    {
+      "entryId": "spacer",
+      "sourceWord": "spacer",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "spacer:meaning-1",
+          "pos": "n.",
+          "en": "A chamber attached to a metered-dose inhaler that holds the spray briefly before it is breathed in."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The spacer sits between the inhaler and the mouthpiece.",
+          "senseId": "spacer:meaning-1"
+        },
+        {
+          "en": "The clinician showed the patient the spacer chamber.",
+          "senseId": "spacer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/spacer.webp",
+        "sha256": "7ac1725914f9c2315ffbb637055267d0096d8d3aab7ddd351170e9cfd2c0910a"
+      },
+      "visual": {
+        "expectedCue": "A large transparent holding chamber joins an L-shaped metered-dose inhaler to a valved mouthpiece.",
+        "decision": "added",
+        "reason": "Actual full1254px source and final512px/120px inspected. Metal canister sits vertically in the L-shaped actuator, whose horizontal outlet fits the rear collar of the clear chamber; a simple valve and open mouthpiece occupy the opposite end. One plausible continuous aerosol path, no compressor/tubing/medicine cup or floating parts. No dose, readings, labels or diagnostic claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical device rendering on a plain cool-white/mint background, pale-blue transparent contours and restrained teal inhaler. Holding chamber and connected inhaler remain distinguishable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7ac1725914f9c2315ffbb637055267d0096d8d3aab7ddd351170e9cfd2c0910a",
+          "inspectedAt": "2026-10-27T19:57:59.611750+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120 inspected: transparent chamber lies between a connected metered-dose inhaler actuator and a shaped mouthpiece, with a restrained visible valve/end assembly. It is a chamber accessory rather than a nebulizer compressor or oxygen bottle. Clean cool-white/mint/pale-blue clinical rendering, no extraneous props or dosage; cylindrical chamber and inhaler connection remain readable at120px."
+        }
+      }
+    },
+    {
+      "entryId": "oxygen-mask",
+      "sourceWord": "oxygen mask",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "oxygen-mask:meaning-1",
+          "pos": "n.",
+          "en": "A mask covering the nose and mouth that delivers oxygen from a supply through connected tubing."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The oxygen mask covers both the nose and mouth.",
+          "senseId": "oxygen-mask:meaning-1"
+        },
+        {
+          "en": "The oxygen mask has an elastic strap and a tubing connector.",
+          "senseId": "oxygen-mask:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/oxygen-mask.webp",
+        "sha256": "5d36c635d4133a2c079f9b4c47605e864dc4d0744ddc30d26bf89daea95e16dd"
+      },
+      "visual": {
+        "expectedCue": "A transparent simple oxygen mask with nose bridge, side vents, head strap and connected thin supply tube; inset covers nose and mouth.",
+        "decision": "added",
+        "reason": "Actual full1254px source and final512px/120px inspected. Molded mask cup has coherent continuous rim, metal nose strip, paired side vent groups and elastic head strap. Lower connector joins one thin supply tube. Mannequin inset places the mask over both nose and mouth; no reservoir bag, nebulizer cup, filter, reading or oxygen prescription is present.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise soft clinical translucent-device rendering on plain cool-white/mint with blue edges and restrained teal strap. Main mask, tube and placement cue remain legible at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5d36c635d4133a2c079f9b4c47605e864dc4d0744ddc30d26bf89daea95e16dd",
+          "inspectedAt": "2026-10-27T20:06:15.440298+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120 inspected: transparent mask has coherent nose/mouth contour, side ventilation holes, nose bridge, elastic strap attachments and an outlet connected to oxygen tubing. Mannequin inset places it over both nose and mouth. It is distinct from surgical mask and nasal cannula; no reservoir-bag type or flow is implied. Cool-white/mint clinical transparent-device model remains clear at120px."
+        }
+      }
+    },
+    {
+      "entryId": "nasal-cannula",
+      "sourceWord": "nasal cannula",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "nasal-cannula:meaning-1",
+          "pos": "n.",
+          "en": "A flexible oxygen-delivery tube with two small prongs positioned at the nostrils."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The nasal cannula has two short nasal prongs.",
+          "senseId": "nasal-cannula:meaning-1"
+        },
+        {
+          "en": "The nasal cannula leaves the mouth uncovered.",
+          "senseId": "nasal-cannula:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/nasal-cannula.webp",
+        "sha256": "bff05514bec372a6d85f006db09015b488f01c4c02b689f23ae0fdc9beca2a0b"
+      },
+      "visual": {
+        "expectedCue": "A transparent oxygen-delivery cannula has exactly two short nasal prongs, continuous supply tubing and an inset showing the prongs at the nostrils with tubing over the ears.",
+        "decision": "added",
+        "reason": "Actual full generated source and final512/120 images inspected: two open short prongs arise from one curved bridge; two side tubes remain traceable to a single Y supply line. The mannequin inset places the bridge beneath the nose, both prongs at the nostrils, lateral tubing over the ears and under the chin. No mask, mouth tube, numerical flow or treatment instruction.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical translucent-device rendering on cool white/mint with restrained blue contours; two-prong cue remains legible at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "bff05514bec372a6d85f006db09015b488f01c4c02b689f23ae0fdc9beca2a0b",
+          "inspectedAt": "2026-10-27T19:50:49.208167+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254px source and final512px/120px inspected. Isolated transparent bridge has exactly two short open prongs and two continuous side tubes joining one Y supply line. Mannequin inset shows bridge beneath the nose, prongs in the nostrils, tubing over the ears and under chin; mouth remains uncovered. No flows, measurements, mask or invented anatomy. Clean precise translucent clinical device model on cool white/mint with pale-blue contours; two-prong cue remains clear at120px. AI semantic/style assessment only; independent human language and qualified specialist approval remain pending."
+        }
+      }
+    },
+    {
+      "entryId": "peak-flow-meter",
+      "sourceWord": "peak flow meter",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "peak-flow-meter:meaning-1",
+          "pos": "n.",
+          "en": "A small device that measures the highest rate of airflow during a forceful breath out."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The peak flow meter has a mouthpiece and a sliding marker.",
+          "senseId": "peak-flow-meter:meaning-1"
+        },
+        {
+          "en": "The nurse explained the peak flow meter reading.",
+          "senseId": "peak-flow-meter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/peak-flow-meter.webp",
+        "sha256": "a497bc5c0372aea16adee9315c4bc0ed4b6f1d659beee1acfa76e608864bd7db"
+      },
+      "visual": {
+        "expectedCue": "A handheld mechanical peak-flow meter with open mouthpiece, straight pointer track, initial-position marker and exhaust vents.",
+        "decision": "added",
+        "reason": "Actual full1254px source and final512px/120px inspected. Compact tubular meter has one coherent open mouthpiece, long side track with a single sliding marker at the starting end and an exhaust grille at the other end. Simple schematic ticks carry no numbers or clinical zones; no result or calibration is claimed. No electronic diagnostic unit, hose or incentive balls. Pointer/mouthpiece distinction survives at120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Plain cool-white/mint clinical object rendering, soft precise surfaces and restrained teal marker. One clear device focus, no decorative props or warm paper texture."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a497bc5c0372aea16adee9315c4bc0ed4b6f1d659beee1acfa76e608864bd7db",
+          "inspectedAt": "2026-10-27T20:06:15.440461+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120 inspected: compact mechanical body has one mouthpiece, a sliding marker at the beginning of a schematic tick channel, and a coherent vented far end. No numbers, measured result, hose, incentive balls or volume claim. Distinct from larger diagnostic spirometer. Precise cool-white/mint device rendering; mouthpiece and marker channel remain readable at120px."
+        }
+      }
+    },
+    {
+      "entryId": "spirometer",
+      "sourceWord": "spirometer",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "spirometer:meaning-1",
+          "pos": "n.",
+          "en": "An instrument used in lung-function testing to measure the amount and flow of air breathed out."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The spirometer is connected to a breathing tube and mouthpiece.",
+          "senseId": "spirometer:meaning-1"
+        },
+        {
+          "en": "The technician checked the spirometer before the lung-function test.",
+          "senseId": "spirometer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/spirometer.webp",
+        "sha256": "389123cce133bb2a0a7e7561879f7707f9d5748d66a1fa11f66da05fbb40d7cd"
+      },
+      "visual": {
+        "expectedCue": "A tabletop diagnostic lung-function instrument with connected wide breathing hose, filter head and open mouthpiece.",
+        "decision": "added",
+        "reason": "Actual full corrected1254px source and final512px/120px inspected. Mouthpiece and cylindrical filter/head connect continuously through the broad corrugated breathing hose to the tabletop diagnostic base; components rest on the counter. Display is plain dark with no readings or patient data. No incentive columns/balls or peak-flow slider. One targeted edit removed plant and background storage jars while preserving geometry.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean softly precise clinical instrument rendering with cool-white/mint surfaces and pale-blue tubing on a plain uncluttered counter/wall. Diagnostic base/hose/mouthpiece remain readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "389123cce133bb2a0a7e7561879f7707f9d5748d66a1fa11f66da05fbb40d7cd",
+          "inspectedAt": "2026-10-27T20:06:15.440464+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120 inspected: diagnostic device has a blank display and controls, one connected corrugated breathing hose, filter/flow-head assembly and open mouthpiece. Tubing is continuous and body is supported on a clean clinical counter. No invented lung-function result, oxygen supply, incentive balls or treatment steps. Cool-white/mint clinical model clearly differs from handheld peak-flow meter at120px."
+        }
+      }
+    },
+    {
+      "entryId": "sharps-container",
+      "sourceWord": "sharps container",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "sharps-container:meaning-1",
+          "pos": "n.",
+          "en": "A rigid, puncture-resistant container designed to collect used needles and other sharp medical waste."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sharps container has a small opening in its fitted lid.",
+          "senseId": "sharps-container:meaning-1"
+        },
+        {
+          "en": "The clinic ordered a new sharps container for the treatment room.",
+          "senseId": "sharps-container:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sharps-container.webp",
+        "sha256": "507bfc1d22889833bd7b8da3d05bc9b27821dc352c02432a25b0273f884f2074"
+      },
+      "visual": {
+        "expectedCue": "A rigid clinical sharps container with fitted lid, protected small deposit slot and medical sharps wholly contained inside.",
+        "decision": "added",
+        "reason": "Actual full corrected1254px source and final512px/120px inspected. Thick rectangular container stands upright with fitted hard lid and small protected closable deposit flap. Two plain syringe/needle silhouettes are wholly inside below the lid, with no protruding sharp or handling action. One edit removed unnecessary background supplies and tiny syringe scale markings. No blood, readings, brand, approval symbol or disposal sequence.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise clean clinical object rendering with muted-red container for recognition against cool-white/mint surroundings. Plain uncluttered background, soft forms, contained-sharps cue visible at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "507bfc1d22889833bd7b8da3d05bc9b27821dc352c02432a25b0273f884f2074",
+          "inspectedAt": "2026-10-27T20:10:12.717509+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120 inspected: rigid red container has a fitted lid and a small protected flap opening; two plain syringe/needle forms remain fully inside below the lid. No protruding needle, person handling waste, fill-limit claim or disposal sequence. Tiny scale markings and decorative supply props were removed. Clean cool clinical backdrop and precise forms match the brief; red is one illustrative container color, explicitly not universal in usage notes. Container/lid/sharps cue remains legible at120px."
+        }
+      }
+    },
+    {
+      "entryId": "kidney-dish",
+      "sourceWord": "kidney dish",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "kidney-dish:meaning-1",
+          "pos": "n.",
+          "en": "A shallow kidney-shaped tray used in healthcare to hold small items, dressings or collected fluids."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The kidney dish has a curved inner edge.",
+          "senseId": "kidney-dish:meaning-1"
+        },
+        {
+          "en": "A clean dressing rests in the kidney dish.",
+          "senseId": "kidney-dish:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/kidney-dish.webp",
+        "sha256": "25c9d99c0c676b42c8af7fcfd5caa167c28a78621ed64cd98737e262918bd7cb"
+      },
+      "visual": {
+        "expectedCue": "A shallow kidney-shaped stainless-steel clinical dish with a continuous rim and a small clean gauze pad.",
+        "decision": "added",
+        "reason": "Actual full1254px source and final512px/120px inspected. One concave curved inner edge and opposite convex edge form a clear kidney outline; low attached walls, continuous rolled rim and smooth basin are mechanically coherent. Folded clean gauze rests inside without obscuring the shape. No kidney organ, food, waste, extra instruments or labels.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical metal-object rendering on cool-white/mint, soft reflections and one essential clean dressing cue. No decorative background props; kidney shape remains clear at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "25c9d99c0c676b42c8af7fcfd5caa167c28a78621ed64cd98737e262918bd7cb",
+          "inspectedAt": "2026-10-27T20:19:11.437185+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120 inspected: shallow steel tray has a continuous kidney-shaped outline, concave inner edge, coherent rolled rim and closed bottom, with a clean gauze dressing resting inside. It teaches the container shape, not a kidney organ or kidney-surgery instrument. Clean cool-white/mint clinical object rendering, no waste or extra props; curved outline remains clear at120px."
+        }
+      }
+    },
+    {
+      "entryId": "bedpan",
+      "sourceWord": "bedpan",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "bedpan:meaning-1",
+          "pos": "n.",
+          "en": "A shallow receptacle for collecting urine or stool while a person remains in bed."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bedpan has a broad supporting rim.",
+          "senseId": "bedpan:meaning-1"
+        },
+        {
+          "en": "The nurse brought a clean bedpan to the bedside.",
+          "senseId": "bedpan:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bedpan.webp",
+        "sha256": "faa6adc8434f2da168b8b7bd95364d6e83dabd46b011e9f49eb8f277e42514fb"
+      },
+      "visual": {
+        "expectedCue": "A shallow bedside receptacle has a broad supporting rim and closed basin, clearly distinct from a bottle urinal or toilet chair.",
+        "decision": "added",
+        "reason": "Actual full generated source and final512/120 inspected: one low-profile molded bedpan has a broad flattened rim around an oval opening, a closed shallow basin and a tapered front. It rests on a plain hospital mattress, with no person, waste, lid, measurement or usage sequence. Closed walls and base are coherent; this depicts one common bedpan form rather than all designs.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean cool-white/mint clinical product rendering with precise smooth forms; broad rim and low basin remain clear at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "faa6adc8434f2da168b8b7bd95364d6e83dabd46b011e9f49eb8f277e42514fb",
+          "inspectedAt": "2026-10-27T20:06:00.112483+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source and final512px/120px. One clean low shallow bedpan has a broad continuous supporting flange around an open collection basin, a lower sloping front and closed back. It rests on a mattress with minimal bed context; no toilet pedestal, bucket/chair, bottle neck, patient, waste or instructions. Precise cool-white/mint clinical rendering, with bedpan silhouette legible at120px. AI semantic/style assessment only; independent human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "urinal",
+      "sourceWord": "urinal",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "urinal:meaning-1",
+          "pos": "n.",
+          "en": "A portable bottle-shaped receptacle used to collect urine, often at the bedside."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The portable urinal has a handle and a wide angled opening.",
+          "senseId": "urinal:meaning-1"
+        },
+        {
+          "en": "The clean urinal stood upright beside the bed.",
+          "senseId": "urinal:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/urinal.webp",
+        "sha256": "6572abf2dd7b463144a8b2ecc79ae1675296c11789bcb4c00e0d83540457f7bf"
+      },
+      "visual": {
+        "expectedCue": "A portable bedside urinal bottle has a stable flat base, attached handle and broad angled open neck.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: empty translucent plastic bottle has one wide angled mouth, closed body/base and integrated handle attached at both ends. Bedside context is secondary. No liquid, graduations, anatomy, cap hiding the opening or drinking straw; selected portable-bottle sense is distinct from wall-mounted sanitary fixtures.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise pale-mint/translucent clinical product rendering on cool white, with readable angled opening and handle at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6572abf2dd7b463144a8b2ecc79ae1675296c11789bcb4c00e0d83540457f7bf",
+          "inspectedAt": "2026-10-27T20:06:00.112611+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source and final512px/120px. Empty bottle-shaped portable urinal has a broad angled open neck, stable flat base and integrated handle attached at both ends. Continuous hollow receptacle geometry and bedside context distinguish the selected handheld sense from a wall fixture. No fluid, measurements, genital anatomy or use steps. Soft precise translucent clinical rendering in cool white/mint; opening and handle legible at120px. AI semantic/style assessment only; independent human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "commode",
+      "sourceWord": "commode",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "commode:meaning-1",
+          "pos": "n.",
+          "en": "A portable toilet chair with an opening in the seat and a removable container underneath."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The commode has armrests and a removable bucket beneath the seat.",
+          "senseId": "commode:meaning-1"
+        },
+        {
+          "en": "The bedside commode stood beside the hospital bed.",
+          "senseId": "commode:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/commode.webp",
+        "sha256": "278e68011baf7bb9507ed14fe879cfa2939472141cc680d6c2b0c43a2f85ae83"
+      },
+      "visual": {
+        "expectedCue": "A bedside toilet chair with open toilet-ring seat, supported removable bucket and four rubber-tipped legs.",
+        "decision": "added",
+        "reason": "Actual full1254px source and final512px/120px inspected. Coherent tubular chair has four connected legs/feet, backrest and two armrests. Open toilet-ring seat exposes the collection bucket directly beneath, with rim supported under the seat and bucket handle resting down. Bed context supplies bedside role. No solid cushion over the opening, missing receptacle, waste, person, plumbing or use instructions.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean softly precise clinical equipment rendering with white frame, mint padding and pale-blue/cool-white bedside context. No decorative props; opening/bucket cue stays recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "278e68011baf7bb9507ed14fe879cfa2939472141cc680d6c2b0c43a2f85ae83",
+          "inspectedAt": "2026-10-27T21:34:40.575396+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120 inspected: portable toilet chair has four connected legs with floor-contact tips, armrests, backrest, an open toilet-ring seat and a removable bucket held beneath it. The bucket aligns with the seat opening; essential bedside context identifies the care setting. No fixed plumbing, waste or person using it. Clean cool-white/mint precise clinical rendering; chair opening and suspended container remain clear at120px."
+        }
+      }
+    },
+    {
+      "entryId": "transfer-board",
+      "sourceWord": "transfer board",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "transfer-board:meaning-1",
+          "pos": "n.",
+          "en": "A firm, smooth board that bridges a gap between two seating surfaces to assist a person moving between them."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The transfer board bridges the gap between the bed and wheelchair seat.",
+          "senseId": "transfer-board:meaning-1"
+        },
+        {
+          "en": "The therapist inspected the smooth surface of the transfer board.",
+          "senseId": "transfer-board:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/transfer-board.webp",
+        "sha256": "3e02e35ebcc08d4781f9ce10539c75e7b26b91ab0a5babb246af39dd9a957f44"
+      },
+      "visual": {
+        "expectedCue": "A smooth rigid transfer board forms a supported bridge from a bed mattress to a wheelchair seating surface with the adjacent armrest removed.",
+        "decision": "added",
+        "reason": "Actual full corrected1254px source and final512px/120px inspected. Both board ends visibly overlap and rest on the mattress and wheelchair seat across a short gap, presented at matching seating height. One targeted edit removed the obstructing bed-side wheelchair armrest/upright; far-side armrest, frame, wheels and brake hardware remain. No footrest blocks the gap and near bed rail is below the transfer surface. Empty equipment demonstrates the board function without a person, measurements or transfer-step instructions; operational suitability is not clinically certified.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical equipment rendering with precise white/metal bed/chair geometry, pale-mint board and thin teal edge. Essential seating context only; supported bridge remains the focus at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3e02e35ebcc08d4781f9ce10539c75e7b26b91ab0a5babb246af39dd9a957f44",
+          "inspectedAt": "2026-10-27T21:37:54.282315+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual final512/120 inspected: smooth board spans the bed-to-wheelchair gap with substantial overlap/support on both mattress and seat. Bed-side wheelchair armrest is absent from the transfer path after correction; far armrest remains secondary. Connected bed/chair frames and wheels are coherent, and board is the clear teaching focus. This is a seated transfer-board object study, with no person, transfer steps, unsupported ends or lying-patient board. Cool-white/mint clinical rendering and two supported ends remain readable at120px; no suitability or technique is prescribed."
+        }
+      }
+    },
+    {
+      "entryId": "chisel",
+      "sourceWord": "chisel",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "chisel:meaning-1",
+          "pos": "n.",
+          "en": "A hand tool with a sharpened wedge-shaped edge that is struck to cut or shape metal."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The chisel has a flat cutting edge and a solid striking head.",
+          "senseId": "chisel:meaning-1"
+        },
+        {
+          "en": "The metalworker used a chisel to remove a small piece from the edge.",
+          "senseId": "chisel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/chisel.webp",
+        "sha256": "81c7a8ff8d89e5177cefa6f3df5ccb9ba691a7c86fb909bfe206e3d100a7c070"
+      },
+      "visual": {
+        "expectedCue": "Solid steel cold chisel with broad straight wedge cutting edge and flat striking head.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected. Continuous forged steel hexagonal shank ends in a broad wedge with a straight sharpened edge; opposite end is a flat clean striking head. No conical punch point, woodcarving handle or separate floating blade. Wedge/edge silhouette remains unmistakable at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "81c7a8ff8d89e5177cefa6f3df5ccb9ba691a7c86fb909bfe206e3d100a7c070",
+          "inspectedAt": "2026-10-27T19:55:00.944567+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120 inspected: solid metal cold chisel has a broad sharpened wedge edge, faceted shank and blunt striking head, distinct from a pointed center punch or handled wood chisel. Straight continuous steel geometry with slate ground and restrained amber side highlight; main cutting edge remains readable at120px. No unsupported working contact, letters or fictitious measurements."
+        }
+      }
+    },
+    {
+      "entryId": "punch",
+      "sourceWord": "punch",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "punch:meaning-1",
+          "pos": "n.",
+          "en": "A pointed hand tool that is struck to make a small locating dimple in a hard surface."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The punch left a small dimple at the marked center.",
+          "senseId": "punch:meaning-1"
+        },
+        {
+          "en": "The punch has a conical tip below its knurled grip.",
+          "senseId": "punch:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/punch.webp",
+        "sha256": "d5dce2c9f06def9bbe293605026247dac4b5998c884006270e276a3555d9ba29"
+      },
+      "visual": {
+        "expectedCue": "One-piece manual center-punch point contacts a locating dimple in metal.",
+        "decision": "added",
+        "reason": "Initial full candidate had a stepped barrel/rear cap resembling an automatic spring punch, inconsistent with the selected struck-tool teaching sense; retained as rejected. One targeted built-in edit replaced the barrel/cap/collars with one continuous solid steel shank and plain blunt striking end. Corrected full source and final512/120 inspected: single knurled shank tapers to a short conical point touching the dimple, without an adjustable cap or spring barrel. Manual point/dimple cue stays clear at120px; English/native selected sense remains unchanged.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d5dce2c9f06def9bbe293605026247dac4b5998c884006270e276a3555d9ba29",
+          "inspectedAt": "2026-10-27T20:06:15.440467+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual corrected512/120 inspected: pointed center punch now has a continuous solid knurled shank and plain blunt rear striking end, without automatic barrel cap or adjustment collars. Conical point visibly meets a small metal dimple. This matches the hammer-struck selected sense; rejected automatic-looking candidate is retained privately. Precise slate/silver tool drawing and short conical point remain clear at120px."
+        }
+      }
+    },
+    {
+      "entryId": "reamer",
+      "sourceWord": "reamer",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "reamer:meaning-1",
+          "pos": "n.",
+          "en": "A multi-edge cutting tool that removes a small amount of material from an existing hole to improve its size and finish."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The reamer has several straight flutes along its cutting section.",
+          "senseId": "reamer:meaning-1"
+        },
+        {
+          "en": "The machinist finished the existing hole with a reamer.",
+          "senseId": "reamer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/reamer.webp",
+        "sha256": "ba3769f995c3e5813272392e2eed270ccd9e128ec058deaf32145666e0589148"
+      },
+      "visual": {
+        "expectedCue": "Straight-fluted hand reamer with multiple cutting lands, short lead-in chamfer and square drive tang.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: several straight axial flutes separate narrow cutting lands on a cylindrical section; cutting end is blunt with a short perimeter lead-in, not a conical twist-drill point. Smooth shank connects to a square drive tang. No external screw threads or large helical channels. Straight finishing-tool silhouette and flutes remain readable at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ba3769f995c3e5813272392e2eed270ccd9e128ec058deaf32145666e0589148",
+          "inspectedAt": "2026-10-27T20:06:15.440469+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120 inspected: long straight cutting flutes and intervening lands end in a short beveled lead; a smooth shank and square drive tang remain continuous. It is a hole-finishing reamer rather than a twist drill or threaded tap. Slate/silver technical product study with restrained amber edge highlights; straight flutes remain legible at120px, with no claimed diameter or calibrated geometry."
+        }
+      }
+    },
+    {
+      "entryId": "tap",
+      "sourceWord": "tap",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "tap:meaning-1",
+          "pos": "n.",
+          "en": "A tool that cuts an internal screw thread in a hole."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tap has cutting threads interrupted by flutes.",
+          "senseId": "tap:meaning-1"
+        },
+        {
+          "en": "The tap formed an internal thread inside the metal hole.",
+          "senseId": "tap:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tap.webp",
+        "sha256": "ce82e68e40a4351691f99b66d399c744d1f36ae260cf2a6cb0a4a29a9cbde971"
+      },
+      "visual": {
+        "expectedCue": "Externally threaded cutting tap has longitudinal flute interruptions and a square drive tang.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected. Male cutting section carries pitched thread ridges interrupted by broad straight axial flute grooves, creating clear cutting lands and chip space. Threaded lead tapers toward the front, and smooth rear shank ends in a square tang. It is distinct from a plain bolt, straight-fluted reamer and female die; fluted/threaded tool cue remains visible at120px. No speculative holder engagement or numeric thread standard is claimed.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ce82e68e40a4351691f99b66d399c744d1f36ae260cf2a6cb0a4a29a9cbde971",
+          "inspectedAt": "2026-10-27T20:06:15.440470+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full source plus512/120 inspected: external cutting threads are interrupted by longitudinal flutes and lead toward a short chamfered end; smooth shank and square tang are connected. Thread-cutting form is distinct from smooth-fluted reamer, drill bit and female threading die. Precise slate/silver/amber product drawing, no fictitious thread size or operational claim; threaded/fluted cue remains clear at120px."
+        }
+      }
+    },
+    {
+      "entryId": "die",
+      "sourceWord": "die",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "die:meaning-1",
+          "pos": "n.",
+          "en": "A cutting tool with an internally threaded opening that cuts an external screw thread on a rod."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The round die has cutting edges around its threaded opening.",
+          "senseId": "die:meaning-1"
+        },
+        {
+          "en": "The die cut an external thread on the end of the rod.",
+          "senseId": "die:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/die.webp",
+        "sha256": "37f13ef9f20be62cef60ad962bf1a2e28e67c33501a6bf3a1d9df1d8a5d7ccf2"
+      },
+      "visual": {
+        "expectedCue": "Round female threading die has internally threaded cutting lobes interrupted by chip-relief openings.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected. Thick circular disk has a visible female helical thread within the central opening, interrupted by three connected round relief openings. Each relief breaks into the center to expose cutting edges; no smooth nut-only bore or separate disconnected decorative holes. Small side retaining recess and solid rim are coherent. Female-threaded opening and relief-lobe geometry stay visible at120px, contrasting with the male tap.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "37f13ef9f20be62cef60ad962bf1a2e28e67c33501a6bf3a1d9df1d8a5d7ccf2",
+          "inspectedAt": "2026-10-27T20:07:23.095926+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120 inspected: round threading die has a central internally threaded opening interrupted by three connected chip-clearance holes, leaving cutting edges around the bore. A side locating recess is coherent; it is a cutting die rather than an ordinary nut or solid forming mold. Precise slate/silver product drawing with restrained warm edge highlights; central thread/clearance shape stays readable at120px. No size, thread pitch or operational specification is asserted."
+        }
+      }
+    },
+    {
+      "entryId": "drill-bit",
+      "sourceWord": "drill bit",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "drill-bit:meaning-1",
+          "pos": "n.",
+          "en": "A removable rotating cutting tool fitted to a drill to make a hole in a material."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The drill bit has two helical flutes behind its cutting point.",
+          "senseId": "drill-bit:meaning-1"
+        },
+        {
+          "en": "The drill bit fits into the drill chuck.",
+          "senseId": "drill-bit:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/drill-bit.webp",
+        "sha256": "3bf809aa44693a98a974bbd240a94cffe2fcec8eec6eae58afde03b2f4a08e01"
+      },
+      "visual": {
+        "expectedCue": "Two helical flutes and cutting lips identify the pointed twist drill bit.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected. Continuous smooth shank transitions into two coherent helical flute channels and a single centered faceted drill point with two principal cutting lips. No tap thread crests, straight reamer flutes, separate point cap or extra spike. Unpowered object study; twist and pointed cutting-end silhouette remain visible at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3bf809aa44693a98a974bbd240a94cffe2fcec8eec6eae58afde03b2f4a08e01",
+          "inspectedAt": "2026-10-27T20:08:25.812630+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120 inspected: removable twist drill bit has two continuous helical flutes, connected cutting lips/chisel-edge tip and a smooth cylindrical shank. It is distinct from a straight-fluted finishing reamer, male-thread tap or whole powered drill. Precise slate/silver/amber product study; helical cutting form stays readable at120px, with no diameter or cutting-setting claim."
+        }
+      }
+    },
+    {
+      "entryId": "file",
+      "sourceWord": "file",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "file:meaning-1",
+          "pos": "n.",
+          "en": "A hand tool with rows of small cutting teeth for removing and smoothing material from a surface."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The file has diagonal rows of teeth across its flat face.",
+          "senseId": "file:meaning-1"
+        },
+        {
+          "en": "The technician smoothed the metal edge with a file.",
+          "senseId": "file:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/file.webp",
+        "sha256": "3b703f4c3c60af80f2544748b03f92e07769d742f6657c3be00f02730d83ab33"
+      },
+      "visual": {
+        "expectedCue": "Flat hand file with shallow crossing rows of cutting teeth and a securely handled tang.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: flat slightly tapered rectangular steel blade carries dense shallow diagonal double-cut rows across its broad face. Narrow tang enters a ferruled handle coherently; no detached handle, nail-board grit or punched rasp spikes. Distinct long textured file blade and handle remain readable at120px, with no unrelated computer cue.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3b703f4c3c60af80f2544748b03f92e07769d742f6657c3be00f02730d83ab33",
+          "inspectedAt": "2026-10-27T20:10:12.717610+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120 inspected: flat rectangular metalworking file has coherent rows of diagonal cutting teeth, a narrow tang entering a supported ferrule and a shaped handle. It is distinct from nail-file or computer-file meanings. Precise slate/silver tool drawing with restrained amber handle accent; toothed flat face and handle remain clear at120px, with no cutting procedure or measurement claim."
+        }
+      }
+    },
+    {
+      "entryId": "hacksaw",
+      "sourceWord": "hacksaw",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "hacksaw:meaning-1",
+          "pos": "n.",
+          "en": "A hand saw with a narrow replaceable toothed blade held under tension in a frame, commonly used for cutting metal."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The hacksaw frame holds the narrow blade at both ends.",
+          "senseId": "hacksaw:meaning-1"
+        },
+        {
+          "en": "The hacksaw blade has a row of fine teeth along one edge.",
+          "senseId": "hacksaw:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hacksaw.webp",
+        "sha256": "3d4033e24d862fe5d3e730a622c0c76e70da8312136521079437451e99603302"
+      },
+      "visual": {
+        "expectedCue": "Rigid bow frame holds one thin toothed blade at both end fixtures with a tensioning screw.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected. One straight thin blade connects visibly to a pin at each lower frame end, with fine teeth on its lower edge. Continuous C-shaped bow and attached closed handle leave clear blade-to-frame space; rear tension screw is coherent. No floating blade end, extra blade or broad wood-saw plate. Hacksaw frame/blade/handle relationship remains clear at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3d4033e24d862fe5d3e730a622c0c76e70da8312136521079437451e99603302",
+          "inspectedAt": "2026-10-27T20:19:11.437292+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120 inspected: one rigid frame supports a narrow separate fine-toothed blade at both end pins, with a coherent handle and tension fastener. Blade remains straight between attachments, and teeth run along one edge. It is a framed hand hacksaw rather than broad wood saw or powered tool. Precise slate/silver/amber product rendering; full frame/blade relation remains readable at120px."
+        }
+      }
+    },
+    {
+      "entryId": "torque-wrench",
+      "sourceWord": "torque wrench",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "torque-wrench:meaning-1",
+          "pos": "n.",
+          "en": "A wrench that indicates or limits the turning moment applied to a fastener."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The torque wrench connects to the bolt through a socket.",
+          "senseId": "torque-wrench:meaning-1"
+        },
+        {
+          "en": "The technician selected a torque wrench for controlled tightening.",
+          "senseId": "torque-wrench:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/torque-wrench.webp",
+        "sha256": "9531a513e65161c2526997259ea7ecbcad0d3f2fc6d0603d24cc83b16bd7b86d"
+      },
+      "visual": {
+        "expectedCue": "An isolated adjustable torque wrench has a long shank, setting collar and bare square drive, distinguishing it from an ordinary ratchet.",
+        "decision": "added",
+        "reason": "Actual final full source and converted512/120 inspected: standalone ratchet head joins a long straight shank and adjustable knurled handle, with a restrained amber setting collar and schematic nonnumeric ticks. A short bare square drive projects from the head. The initial socket/bolt scene and narrow edit were rejected for ambiguous engagement; final redesign removes socket, fastener and plate entirely rather than claiming uncertain contact. No torque value, calibration claim, internal mechanism or working procedure is depicted.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver technical product rendering on slate with restrained amber adjustment highlight; whole tool, bare square drive and distinctive adjustable handle remain readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9531a513e65161c2526997259ea7ecbcad0d3f2fc6d0603d24cc83b16bd7b86d",
+          "inspectedAt": "2026-10-27T19:53:08.316155+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual redesigned full source and final512/120 inspected. Standalone long adjustable torque wrench has a coherent ratchet head with a bare square drive and detent, connected shank, knurled handle and amber adjustment collar. Plain schematic setting ticks contain no numeric reading. Removing socket/bolt/testplate resolves the initially rejected uncertain engagement instead of asserting unverified contact. Distinct adjustable handle cue and drive remain visible at120px. Slate/silver/amber technical product rendering matches engineering. AI inspection, pending qualified human review."
+        }
+      }
+    },
+    {
+      "entryId": "allen-key",
+      "sourceWord": "Allen key",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "allen-key:meaning-1",
+          "pos": "n.",
+          "en": "A tool with a hexagonal cross-section that fits a matching recessed socket in a screw."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The Allen key has a short arm and a long arm joined at a right angle.",
+          "senseId": "allen-key:meaning-1"
+        },
+        {
+          "en": "The hexagonal end of the Allen key fits the screw socket.",
+          "senseId": "allen-key:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/allen-key.webp",
+        "sha256": "d21252e646aa43fd04c9b6fe3133944cd29970b58acbf592dc90ddf09bf10559"
+      },
+      "visual": {
+        "expectedCue": "Continuous L-shaped hexagonal bar with visible six-sided flat end faces.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected. One solid hexagonal steel bar has a continuous right-angle L bend, short and long arms, visible longitudinal facets and six-sided flat-cut end faces. No ball end, star/Torx lobes, round cylinder or detachable joint. Hex section and simple L silhouette remain visible at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d21252e646aa43fd04c9b6fe3133944cd29970b58acbf592dc90ddf09bf10559",
+          "inspectedAt": "2026-10-27T21:34:40.575511+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120 inspected: continuous L-shaped metal key has a short arm and longer arm with coherent bend and clearly six-sided end/cross-section. It is a hex key rather than a star-shaped Torx tool, screwdriver or spanner. Precise silver product drawing on slate with a restrained amber reflection; full L form and hexagonal ends remain readable at120px."
+        }
+      }
+    },
+    {
+      "entryId": "feeler-gauge",
+      "sourceWord": "feeler gauge",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "feeler-gauge:meaning-1",
+          "pos": "n.",
+          "en": "A measuring tool with thin leaves of known thickness used to check a narrow gap between surfaces."
+        }
+      ],
+      "examples": [
+        {
+          "en": "One leaf of the feeler gauge fits between the two metal surfaces.",
+          "senseId": "feeler-gauge:meaning-1"
+        },
+        {
+          "en": "The feeler gauge leaves fold into a shared holder.",
+          "senseId": "feeler-gauge:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/feeler-gauge.webp",
+        "sha256": "d19707b4a1508c6969d0a966031b6b22e9625d7c46ff87f1a7da80cb0fb21621"
+      },
+      "visual": {
+        "expectedCue": "Thin rounded-end measuring leaves fan from one pivot within a compact holder, identifying a leaf thickness gauge.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: six thin flat uniform-width leaves with rounded tips fan from one shared screw/pivot in a U-shaped protective holder. Nested leaf edges remain coherent. No thickness values, ruler scales, test block or insertion procedure are depicted; the uncalibrated object study identifies the instrument without claiming a measured gap.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver technical product study on slate with restrained amber pivot highlight; thin fan and holder remain readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d19707b4a1508c6969d0a966031b6b22e9625d7c46ff87f1a7da80cb0fb21621",
+          "inspectedAt": "2026-10-27T20:07:31.514197+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full source and final512/120 inspected. Six thin flat rounded leaves fan from one pivot within a connected U-shaped holder. Leaves appear like uniform-thickness shims, not knife blades or scale wedges; pivot/holder contact is coherent. No fabricated thickness values or false measured gap is depicted. Known-thickness leaf tool sense remains clear; numeric omissions are explained in source/native tips. Slate/silver/amber product rendering and fan silhouette remain readable at120px. AI inspection only, pending human specialist review."
+        }
+      }
+    },
+    {
+      "entryId": "scriber",
+      "sourceWord": "scriber",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "scriber:meaning-1",
+          "pos": "n.",
+          "en": "A sharp-pointed marking tool that scratches fine layout lines on a workpiece."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The scriber leaves a fine scratch on the metal surface.",
+          "senseId": "scriber:meaning-1"
+        },
+        {
+          "en": "The scriber has a slender hardened point and a knurled grip.",
+          "senseId": "scriber:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/scriber.webp",
+        "sha256": "38f4c1c59f36a747d73b1169faffd13c5eb0dd14e7d3ac100ddbe930bcd1db26"
+      },
+      "visual": {
+        "expectedCue": "A fine hardened marking point meets the end of a hair-thin physical scratch on metal, distinct from a center punch dimple.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: slender tapered marking point joins a knurled handle and visibly touches the end of one straight shallow silver scratch on a metal plate. No ink, arrowhead, dimple, hammer or floating contact. Long fine point distinguishes scriber from the shorter conical center punch.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise slate/silver technical rendering with restrained amber grip ring; point-to-scratch cue and fine silhouette remain readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T21:39:23.042423+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "38f4c1c59f36a747d73b1169faffd13c5eb0dd14e7d3ac100ddbe930bcd1db26",
+          "inspectedAt": "2026-10-27T20:07:31.514561+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full source and final512/120 inspected. Long slender fine steel point connects to a knurled handle and visibly touches the endpoint of one hair-thin straight scratched line on the metal plate. The mark is a line rather than a dimple or ink arrow, with no arrowhead. Distinct from the corrected short-cone center punch. Coherent contact and fine-point silhouette remain visible at120px; slate/silver/amber technical rendering matches category. AI inspection only, pending human specialist review."
         }
       }
     }
