@@ -8,11 +8,11 @@ An open-source visual English-learning atlas for Persian, Brazilian Portuguese a
 
 The Persian (`fa`), Brazilian Portuguese (`pt-BR`) and first Latin American Spanish (`es-419`) editions use the same application: onboarding and daily study, FSRS spaced review, illustrated Atlas and galaxy, reading and books, practice, settings and portable backups. The Persian layout is RTL; Portuguese and Spanish are LTR. All three teach **English**, with explanations and guidance in the learner's language.
 
-The starter corpus contains **91 words and 92 meanings**. Each Portuguese and Spanish vocabulary overlay includes 184 translated examples, 273 collocations and 91 usage notes, plus all 32 category and 348 subcategory labels. Reading includes three passages, one original three-chapter book, two paraphrase levels and three confusable-word groups. These are AI-assisted editorial previews awaiting independent language and specialist review.
+The starter corpus contains **127 words and 128 meanings**. Each Portuguese and Spanish vocabulary overlay includes 256 translated examples, 381 collocations and 127 usage notes, plus all 32 category and 348 subcategory labels. Reading includes three passages, one original three-chapter book, two paraphrase levels and three confusable-word groups. These are AI-assisted editorial previews awaiting independent language and specialist review.
 
 Editions share stable English identities and licensed media, while learner progress, active sessions, saved words and reading state remain separate. Existing saved words from the earlier Portuguese preview migrate into the Portuguese edition. Translation drafts are filtered against the published English release before entering the app bundle. European Portuguese remains a planned, separate locale.
 
-See [vocabulary localization](docs/portuguese-content.md), [localized reading](docs/localized-reading-content.md), the [first word expansion](docs/word-expansion-2.md), the [localization roadmap](docs/localization-roadmap.md), the [implementation plan](IMPLEMENTATION_PLAN.md) and the [category catalog](docs/category-catalog.json).
+See [vocabulary localization](docs/portuguese-content.md), [localized reading](docs/localized-reading-content.md), the [first word expansion](docs/word-expansion-2.md), the [category-by-category expansion](docs/category-expansion.md), the [localization roadmap](docs/localization-roadmap.md), the [implementation plan](IMPLEMENTATION_PLAN.md) and the [category catalog](docs/category-catalog.json).
 
 ## Run locally
 
@@ -66,6 +66,8 @@ All 32 subject families belong to the catalog. They are organized into six disco
 - Technology, industry and environment: engineering; computing and technology; architecture and infrastructure; environment and agriculture; trades and practical work; manufacturing, logistics and supply chains; energy, utilities and natural resources.
 - Business and working life: business and management; economics and finance; retail and e-commerce; careers and workplace.
 
+Cooking now contains **50 words**, including 36 new actions, tools, ingredients, taste adjectives and serving terms. We expand one category at a time, with medicine and engineering next. Run `npm run content:coverage` for current published counts and see the [32-category expansion queue](docs/category-expansion.md).
+
 The [English/Persian category catalog](docs/category-catalog.json) is the source for the planned coverage map. Category presence does not imply that all its lessons are published. Published material, upcoming material and contributor drafts have different states. One word can belong to several subjects without duplicating its learning history; distinct meanings have separate learning records.
 
 ## Science through English
@@ -84,7 +86,7 @@ Starter material is an **AI-assisted editorial preview**. It must not be present
 
 Contributors can propose text, translation, illustrations, pronunciation corrections, new subject modules or code. See the [content guide](docs/contributing-content.md) for review, provenance and publication rules. Paid generation tools are optional maintainer utilities, not prerequisites for running the website or submitting corrections.
 
-Pictures must show the selected meaning and, for verbs, the action. The [illustration guide](docs/illustration-guidelines.md) sets category-specific visual standards. The current 72-word image audit includes 26 replacements, with exact meaning and image-hash bindings; `npm run check:illustrations` detects stale assessments. These are AI visual assessments, with independent human and specialist review still pending.
+Pictures must show the selected meaning and, for verbs, the action. The [illustration guide](docs/illustration-guidelines.md) sets category-specific visual standards. The current 127-word image audit includes 26 replacements and 36 newly illustrated cooking words, with exact meaning and image-hash bindings; `npm run check:illustrations` detects stale assessments. These are AI visual assessments, with independent human and specialist review still pending.
 
 ## Open source and attribution
 

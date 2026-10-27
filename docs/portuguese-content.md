@@ -4,9 +4,9 @@ The first Portuguese locale is `pt-BR`: English vocabulary explained in Brazilia
 
 `content/locales/pt-BR.json` and `content/locales/es-419.json` are translation overlays for Brazilian Portuguese and the first Latin American Spanish edition. Both teach English. Each contains:
 
-- All 72 starter lexical entries and 73 meanings.
-- 146 translated examples and 216 translated collocations, aligned to the original English.
-- 72 native usage notes, including distinctions such as `library`/`bookshop`, `recipe`/`receipt`, `bake`/`roast` and the two meanings of `pressure`.
+- All 127 lexical entries and 128 meanings, including the 50-word cooking foundation.
+- 256 translated examples and 381 translated collocations, aligned to the original English.
+- 127 native usage notes, including distinctions such as `library`/`bookshop`, `recipe`/`receipt`, `bake`/`roast` and the two meanings of `pressure`.
 - Native labels for all 32 subject categories, 348 subcategories and six discovery groups.
 
 This is an **AI-assisted editorial preview**. Independent native-language and specialist review have not been recorded. Clinical and engineering material remains introductory vocabulary and must pass appropriate review before a stable professional learning release.
@@ -50,4 +50,4 @@ After changing reading overlays, run `npm run build:reading-locales` and `npm ru
 
 ## Rights
 
-New Portuguese and Spanish translations and notes follow the project content license, CC BY 4.0. The overlay preserves credit to **Mehrdadika contributors** and the adapted vocabulary source, **Word Atlas contributors — CC BY 4.0**. Existing illustrations, English text and recordings retain their source attribution and terms. No new voice recordings or third-party books are introduced by the overlays. The [16-word expansion](word-expansion-2.md) adds original SVG illustrations; new words without packaged recordings use the device’s English voice when available and are omitted from recorded-audio-only quiz modes.
+New Portuguese and Spanish translations and notes follow the project content license, CC BY 4.0. The overlay preserves credit to **Mehrdadika contributors** and the adapted vocabulary source, **Word Atlas contributors — CC BY 4.0**. Existing illustrations, English text and recordings retain their source attribution and terms. No new voice recordings or third-party books are introduced by the overlays. The [16-word expansion](word-expansion-2.md) added original SVG illustrations; the [cooking foundation](category-expansion.md) adds 36 generated WebP illustrations. Both expansions are AI-assisted previews; new words without packaged recordings use the device’s English voice when available and are omitted from recorded-audio-only quiz modes.

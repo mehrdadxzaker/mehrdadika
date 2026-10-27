@@ -2,7 +2,7 @@
 
 Mehrdadika keeps Word Atlas's calm illustrated-card presentation, but picture meaning takes priority over one uniform art style. A recognizable related object is not always a useful picture of the word. For a verb, show the action; for an abstract noun, show the relation or sequence that makes it understandable.
 
-The current 72-word picture audit is recorded in [content/illustration-audit.json](../content/illustration-audit.json). It binds each assessment to the exact English headword, published meanings and examples, category, source image and SHA-256. The audit records AI visual inspection, including retained pictures; it is not independent human or professional approval. Software checks can detect stale bindings and missing coverage, not establish that an illustration is semantically correct.
+The current 127-word picture audit is recorded in [content/illustration-audit.json](../content/illustration-audit.json). It binds each assessment to the exact English headword, published meanings and examples, category, source image and SHA-256. The audit records AI visual inspection, including retained pictures; it is not independent human or professional approval. Software checks can detect stale bindings and missing coverage, not establish that an illustration is semantically correct.
 
 ## Match the word, not just its surroundings
 
@@ -35,7 +35,7 @@ Inspect the final asset at full card size and at approximately 120–256 pixels.
 
 1. Preserve lexical IDs and sense IDs when correcting only the illustration. Create a new sibling filename such as `slice-v2.webp`; retain prior source files and immutable published media for saved sessions.
 2. Record the new creator/generation method, compatible license, attribution, modifications, description and actual file hash in media provenance. Keep AI assistance and pending human review explicit. Do not copy machine-local generation paths into tracked content.
-3. Update the source entry's image path and its audit record. The record must describe the expected cue and explain whether the image was retained or replaced. Bind it to exact English meanings and examples, not translated display strings or a loosely related category.
+3. Update the source entry's image path and its audit record. The record must describe the expected cue and explain whether the image was retained, replaced, or added for a new word. Bind it to exact English meanings and examples, not translated display strings or a loosely related category.
 4. Build the new versioned English release, then rebuild vocabulary and reading locale snapshots. The shared licensed image follows the same English identity into Persian, Portuguese and Spanish.
 5. Run `node scripts/check-illustrations.mjs`, the content checks and tests, then inspect affected cards in the actual app before deployment. The checker follows the hash-verified published release; incomplete authoring drafts do not need learner-facing audit records, while every published word does.
 

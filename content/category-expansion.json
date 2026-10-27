@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "strategy": "Develop one primary category per publication batch, then revisit categories for greater depth.",
+  "milestones": [
+    {
+      "id": "foundation",
+      "targetWordsPerCategory": 50
+    },
+    {
+      "id": "core",
+      "targetWordsPerCategory": 150
+    },
+    {
+      "id": "depth",
+      "targetWordsPerCategory": 400
+    }
+  ],
+  "currentCategoryId": "cooking-food-drink",
+  "nextCategoryId": "medicine-healthcare",
+  "categoryOrder": [
+    "cooking-food-drink",
+    "medicine-healthcare",
+    "engineering",
+    "everyday-life",
+    "home-gardening-diy",
+    "people-relationships",
+    "travel-tourism-hospitality",
+    "transport-vehicles",
+    "computing-technology",
+    "education-academic",
+    "natural-sciences-mathematics",
+    "careers-workplace",
+    "business-management",
+    "economics-finance",
+    "languages-communication",
+    "retail-ecommerce",
+    "safety-emergencies",
+    "architecture-infrastructure",
+    "trades-practical-work",
+    "manufacturing-logistics",
+    "energy-utilities-resources",
+    "environment-agriculture",
+    "geography-places-cultures",
+    "animals-pets-wildlife",
+    "parenting-family-care",
+    "wellbeing-daily-habits",
+    "sports-recreation",
+    "arts-media",
+    "humanities-society",
+    "law-public-affairs",
+    "fashion-beauty-personal-care",
+    "gaming-digital-culture"
+  ],
+  "counting": "Category counts include shared English lexical IDs. Their sum is not the number of unique words. Translation editions do not multiply English word counts.",
+  "modules": [
+    {
+      "id": "cooking-foundations-1",
+      "categoryId": "cooking-food-drink",
+      "releaseId": "2026-10-preview-4",
+      "status": "published-preview",
+      "baselineCategoryWords": 14,
+      "targetCategoryWords": 50,
+      "objective": "Understand common recipe actions, kitchen equipment, ingredients, taste and portions.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "fry",
+        "grill",
+        "whisk",
+        "knead",
+        "grate",
+        "mash",
+        "pour",
+        "drain",
+        "rinse",
+        "season",
+        "marinate",
+        "serve",
+        "oven",
+        "saucepan",
+        "frying-pan",
+        "chopping-board",
+        "colander",
+        "spatula",
+        "rolling-pin",
+        "measuring-cup",
+        "flour",
+        "dough",
+        "yeast",
+        "butter",
+        "garlic",
+        "onion",
+        "salt",
+        "black-pepper",
+        "sweet",
+        "sour",
+        "salty",
+        "bitter",
+        "sauce",
+        "soup",
+        "salad",
+        "portion"
+      ],
+      "units": [
+        {
+          "id": "cooking:preparation-and-methods",
+          "title": "Prepare and cook food",
+          "objective": "Describe 12 concrete food preparation, cooking and serving actions.",
+          "entryIds": [
+            "fry",
+            "grill",
+            "whisk",
+            "knead",
+            "grate",
+            "mash",
+            "pour",
+            "drain",
+            "rinse",
+            "season",
+            "marinate",
+            "serve"
+          ]
+        },
+        {
+          "id": "cooking:kitchen-tools",
+          "title": "Choose kitchen equipment",
+          "objective": "Recognize eight common tools and appliances and explain their use.",
+          "entryIds": [
+            "oven",
+            "saucepan",
+            "frying-pan",
+            "chopping-board",
+            "colander",
+            "spatula",
+            "rolling-pin",
+            "measuring-cup"
+          ]
+        },
+        {
+          "id": "cooking:pantry-foundations",
+          "title": "Name everyday ingredients",
+          "objective": "Distinguish common baking ingredients, vegetables and seasonings.",
+          "entryIds": [
+            "flour",
+            "dough",
+            "yeast",
+            "butter",
+            "garlic",
+            "onion",
+            "salt",
+            "black-pepper"
+          ]
+        },
+        {
+          "id": "cooking:tastes",
+          "title": "Describe taste",
+          "objective": "Use four taste adjectives with contextual food examples.",
+          "entryIds": [
+            "sweet",
+            "sour",
+            "salty",
+            "bitter"
+          ]
+        },
+        {
+          "id": "cooking:dishes-and-portions",
+          "title": "Talk about dishes and servings",
+          "objective": "Distinguish a sauce, soup, salad and one portion.",
+          "entryIds": [
+            "sauce",
+            "soup",
+            "salad",
+            "portion"
+          ]
+        }
+      ],
+      "remainingCoverage": [
+        "Drinks and beverage preparation",
+        "Cuisines and named dishes",
+        "Menus and dining communication",
+        "Food storage and hygiene vocabulary",
+        "Dietary preferences and allergen terminology",
+        "Advanced baking and specialist techniques"
+      ]
+    }
+  ]
+}

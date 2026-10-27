@@ -18,6 +18,8 @@ Before drafting a large set, open a content proposal identifying:
 - References, rights and assets already available.
 - Language and domain reviewers needed before stable release.
 
+The [category expansion queue](category-expansion.md) prioritizes one category per batch, with 50/150/400-word milestones. `content/category-expansion.json` records the order and exact module word IDs. `npm run content:coverage` reads the hash-verified published release and checks that every published module resolves to that category. Counts include shared memberships and must not be summed as unique English words.
+
 Prefer a complete small objective over a large unrelated word list. Cooking modules might cover ingredient preparation, a set of cooking methods or reading a recipe. The catalog’s ownership rules prevent copies across cooking, hospitality, agriculture and healthcare.
 
 ## Draft and provenance

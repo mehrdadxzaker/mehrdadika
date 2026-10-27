@@ -1,6 +1,6 @@
 # Local verification
 
-Checked on October 26, 2026, on macOS in the Codex in-app browser. This records a local implementation check, not a hosted release or independent editorial approval.
+Checked on October 26, 2026, on macOS in the Codex in-app browser. The initial checks and later milestones below record local and hosted verification separately. They do not establish independent editorial approval.
 
 ## Automated checks
 
@@ -74,3 +74,19 @@ The Portuguese edition also passed a real browser backup export, reset, and file
 A production offline pack was installed through Me. With the browser context offline, the app cold-navigated to a previously unopened lesson and rendered English readings in Portuguese, Spanish and Persian editions. This verifies the bounded installed-pack course path in Chromium, not every browser, storage-eviction or release-update combination. Optional device narration was not perceptually qualified.
 
 The generated course cover and the eight editable diagrams retain honest AI-assisted provenance. The 19 new vocabulary illustrations were rendered as a contact sheet and received source/hash-bound AI inspection records; the pre-existing 72 illustration records and 26 replacements remain preserved. These records are not independent human or specialist approval. Course and translation review, learner-outcome evaluation and public deployment remain separate from these implementation checks.
+
+
+## Cooking foundation expansion
+
+October 26, 2026: the cooking expansion preserves the published Water and Weather course and all 91 previous lexical identities, then adds 36 original entries. The combined preview contains **127 English words, 128 meanings, 256 bilingual examples and 381 collocations** in each supported native edition. Cooking has **50 words**. No independent language, culinary or other specialist approval is claimed.
+
+- All **150 tests** pass with four bounded test workers, including old-word/sense preservation, complete source-bound overlays, real media references, category-overlap counting, queue integrity and multiword cloze examples.
+- `npm run check:content` passes English, both vocabulary overlays, both reading overlays, course validation, all 127 illustration bindings and the category ledger. The audit records 26 earlier replacements and 36 newly added images.
+- `ATLAS_BASE=/mehrdadika/ npm run build` passes TypeScript and production compilation. The English cards now span two 100-entry shards; the separate science-course artifact remains present.
+- All 36 generated pictures were inspected at full size and at 120px. A second AI thumbnail pass and cross-batch text review found no blocking defects. These are editorial AI assessments; hashes and test results cannot establish semantic correctness or human review.
+- The production browser preview showed 127 total words and 50 cooking words in Persian, Portuguese and Spanish. The Persian `drain` and Portuguese `measuring cup` cards loaded their new 512px pictures, meanings, examples and collocations. Portuguese search for `porcao` returned `portion` with its native `porção` label.
+- At 390px, Spanish `frying pan` and Persian `knead` cards retained complete square illustrations, native copy and correct text direction. Both the document and viewport measured 390px; no horizontal overflow or relevant console errors were observed.
+
+New cooking entries have no packaged pronunciation recordings. Device English voice availability and perceptual quality were not independently qualified. The unchanged offline installation lifecycle was not requalified for this content expansion; earlier offline evidence remains scoped to its recorded revisions.
+
+The expanded pointer targets `content/releases/2026-10-preview-4-35a11cd7aa63/manifest.json`, SHA-256 `35a11cd7aa63201cd3f5692a7318c674af391985364275e4e338d0bced9bbcef`. Current category counts and the next category are available through `npm run content:coverage`; the [category queue](category-expansion.md) describes future coverage.

@@ -6,7 +6,7 @@ Un proyecto de código abierto para aprender inglés con imágenes, ejemplos y p
 
 ## Qué incluye
 
-- 91 palabras, 92 sentidos, 184 ejemplos, 273 combinaciones frecuentes y 91 notas de uso traducidos al español.
+- 127 palabras, 128 sentidos, 256 ejemplos, 381 combinaciones frecuentes y 127 notas de uso traducidos al español.
 - 32 categorías y 348 subcategorías, incluidas cocina, medicina e ingeniería, con contenido que se publica poco a poco.
 - Configuración inicial, metas diarias, recuerdo activo y repaso espaciado con FSRS.
 - Atlas ilustrado con búsqueda, filtros, palabras guardadas y una galaxia de progreso.
@@ -16,7 +16,7 @@ Un proyecto de código abierto para aprender inglés con imágenes, ejemplos y p
 
 El contenido y las traducciones son una **vista previa editorial con ayuda de IA**. Aún requieren revisión humana independiente y, en los temas especializados, revisión por profesionales del área. Las etiquetas completas no significan que todas las categorías tengan cursos completos. El vocabulario profesional puede necesitar variantes regionales.
 
-El progreso, las sesiones, las palabras guardadas y los datos de lectura se mantienen separados por edición. Las 16 palabras nuevas tienen ilustraciones originales; cuando falta una grabación licenciada, la pronunciación usa la voz inglesa disponible en el dispositivo. La narración de textos y libros también depende del dispositivo.
+El progreso, las sesiones, las palabras guardadas y los datos de lectura se mantienen separados por edición. Cocina ahora reúne 50 palabras, con 36 incorporaciones ilustradas en esta etapa. El contenido crece por categoría; medicina e ingeniería siguen después. Consulta el [plan de las 32 categorías](docs/category-expansion.md). Las palabras nuevas tienen ilustraciones originales; cuando falta una grabación licenciada, la pronunciación usa la voz inglesa disponible en el dispositivo. La narración de textos y libros también depende del dispositivo.
 
 ## Ejecutar y contribuir
 

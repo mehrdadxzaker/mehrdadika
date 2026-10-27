@@ -30,6 +30,8 @@ For vocabulary translations, read [vocabulary localization](docs/portuguese-cont
 
 Starter content is an AI-assisted editorial preview. Do not mark a reviewer as human, domain-qualified, or independent without a real review and permission to attribute it. Stable publication needs human language approval and specialist approval where appropriate. Drafts remain outside learner release manifests.
 
+For category expansion, follow the [category-by-category queue](docs/category-expansion.md) and inspect `npm run content:coverage`. Add a coherent module to `content/category-expansion.json` after its words, translations and illustrations are ready for preview. Keep all three native editions aligned in the same batch.
+
 For a correction, include the lexical or sense ID, content revision, current text, proposed text, explanation and reference. For a new module, describe the audience, learning objective, category, scope, prerequisites and likely review needs.
 
 ## Network and process limits

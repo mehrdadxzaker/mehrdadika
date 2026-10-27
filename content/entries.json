@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-science-preview-1",
+  "releaseId": "2026-10-preview-4",
   "channel": "preview",
-  "createdAt": "2026-10-27T02:21:01Z",
+  "createdAt": "2026-10-27T03:00:47Z",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -5925,6 +5925,2120 @@
         "attribution": "Mehrdadika contributors — CC BY 4.0",
         "aiAssisted": true,
         "modifications": "Original English examples, multilingual support and original code-authored field-guide illustration. Editorial preview awaiting independent language and science review. Pronunciation uses device speech where no packaged recording is available."
+      }
+    },
+    {
+      "id": "fry",
+      "uk": "/fraɪ/",
+      "us": "/fraɪ/",
+      "cefr": "A2",
+      "w": "fry",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "fry:meaning-1",
+          "pos": "v.",
+          "fa": "سرخ کردن",
+          "en": "To cook food in hot oil or fat.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Fry the potato pieces until they turn golden.",
+          "fa": "تکه‌های سیب‌زمینی را سرخ کنید تا طلایی شوند.",
+          "senseId": "fry:meaning-1"
+        },
+        {
+          "en": "She fried the onions in a little oil.",
+          "fa": "او پیازها را در کمی روغن سرخ کرد.",
+          "senseId": "fry:meaning-1"
+        }
+      ],
+      "col": [
+        "fry an egg｜تخم‌مرغ سرخ کردن",
+        "fry in oil｜در روغن سرخ کردن",
+        "fry until golden｜سرخ کردن تا طلایی شدن"
+      ],
+      "fam": [
+        "fried (adj.)",
+        "frying (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "fry یعنی پختن در روغن یا چربی داغ. در grill غذا روی توری و با گرمای مستقیم می‌پزد؛ سرخ کردن با آب جوش انجام نمی‌شود.",
+      "media": {
+        "img": "atlas/img/fry.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated teaching image. CEFR is an approximate editorial label. No independent human language review is claimed. Device speech is used when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "grill",
+      "uk": "/ɡrɪl/",
+      "us": "/ɡrɪl/",
+      "cefr": "B1",
+      "w": "grill",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "grill:meaning-1",
+          "pos": "v.",
+          "fa": "روی توری کباب کردن",
+          "en": "To cook food on a metal grate over direct heat.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Grill the vegetables and turn them once.",
+          "fa": "سبزیجات را روی توری کباب کنید و یک بار برگردانید.",
+          "senseId": "grill:meaning-1"
+        },
+        {
+          "en": "We grilled corn over the hot coals.",
+          "fa": "ما ذرت را روی زغال داغ کباب کردیم.",
+          "senseId": "grill:meaning-1"
+        }
+      ],
+      "col": [
+        "grill vegetables｜سبزیجات کباب کردن",
+        "grill over coals｜روی زغال کباب کردن",
+        "grill on both sides｜هر دو طرف را کباب کردن"
+      ],
+      "fam": [
+        "grilled (adj.)",
+        "grilling (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "این معنی grill پختن روی توری با گرمای مستقیم است. fry با روغن داغ انجام می‌شود و roast معمولاً پختن در فر است.",
+      "media": {
+        "img": "atlas/img/grill.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated teaching image. CEFR is an approximate editorial label. No independent human language review is claimed. Device speech is used when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "whisk",
+      "uk": "/wɪsk/",
+      "us": "/wɪsk/",
+      "cefr": "B2",
+      "w": "whisk",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "whisk:meaning-1",
+          "pos": "v.",
+          "fa": "با همزن دستی زدن",
+          "en": "To beat a liquid quickly with a whisk to mix it or add air.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Whisk the eggs until the mixture looks smooth.",
+          "fa": "تخم‌مرغ‌ها را با همزن دستی بزنید تا مخلوط یکدست شود.",
+          "senseId": "whisk:meaning-1"
+        },
+        {
+          "en": "He whisked the cream in a cold bowl.",
+          "fa": "او خامه را در یک کاسه سرد با همزن دستی زد.",
+          "senseId": "whisk:meaning-1"
+        }
+      ],
+      "col": [
+        "whisk the eggs｜تخم‌مرغ‌ها را با همزن دستی زدن",
+        "whisk the cream｜خامه را با همزن دستی زدن",
+        "whisk until smooth｜با همزن دستی زدن تا یکدست شدن"
+      ],
+      "fam": [
+        "whisk (n.)",
+        "whisked (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "whisk حرکت سریع همزن دستی در مایع است و می‌تواند هوا وارد آن کند. stir هم زدن معمولی با قاشق است و الزاماً مایع را پف‌دار نمی‌کند.",
+      "media": {
+        "img": "atlas/img/whisk.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated teaching image. CEFR is an approximate editorial label. No independent human language review is claimed. Device speech is used when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "knead",
+      "uk": "/niːd/",
+      "us": "/niːd/",
+      "cefr": "B2",
+      "w": "knead",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "knead:meaning-1",
+          "pos": "v.",
+          "fa": "ورز دادن خمیر",
+          "en": "To press, stretch, and fold dough repeatedly with your hands.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Knead the dough until it feels smooth.",
+          "fa": "خمیر را ورز دهید تا بافت آن صاف و یکدست شود.",
+          "senseId": "knead:meaning-1"
+        },
+        {
+          "en": "She kneaded the bread dough on the counter.",
+          "fa": "او خمیر نان را روی پیشخوان ورز داد.",
+          "senseId": "knead:meaning-1"
+        }
+      ],
+      "col": [
+        "knead dough｜خمیر ورز دادن",
+        "knead by hand｜با دست ورز دادن",
+        "knead until smooth｜ورز دادن تا یکدست شدن"
+      ],
+      "fam": [
+        "kneading (n.)",
+        "kneaded (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "k اول knead تلفظ نمی‌شود؛ تلفظ آن با need یکسان است. knead فشار دادن و تا زدن خمیر است، اما mix فقط مخلوط کردن مواد است.",
+      "media": {
+        "img": "atlas/img/knead.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated teaching image. CEFR is an approximate editorial label. No independent human language review is claimed. Device speech is used when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "grate",
+      "uk": "/ɡreɪt/",
+      "us": "/ɡreɪt/",
+      "cefr": "B2",
+      "w": "grate",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "grate:meaning-1",
+          "pos": "v.",
+          "fa": "رنده کردن",
+          "en": "To rub food against a grater to make small thin pieces.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Grate some cheese over the pasta.",
+          "fa": "کمی پنیر روی پاستا رنده کنید.",
+          "senseId": "grate:meaning-1"
+        },
+        {
+          "en": "He grated a carrot for the salad.",
+          "fa": "او یک هویج برای سالاد رنده کرد.",
+          "senseId": "grate:meaning-1"
+        }
+      ],
+      "col": [
+        "grate cheese｜پنیر رنده کردن",
+        "grate a carrot｜هویج رنده کردن",
+        "finely grate｜ریز رنده کردن"
+      ],
+      "fam": [
+        "grater (n.)",
+        "grated (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "grate با رنده تکه‌های ریز یا رشته‌ای تولید می‌کند. chop با چاقو خرد کردن است و slice برش‌های ورقه‌ای می‌سازد.",
+      "media": {
+        "img": "atlas/img/grate.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated teaching image. CEFR is an approximate editorial label. No independent human language review is claimed. Device speech is used when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "mash",
+      "uk": "/mæʃ/",
+      "us": "/mæʃ/",
+      "cefr": "B1",
+      "w": "mash",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "mash:meaning-1",
+          "pos": "v.",
+          "fa": "له کردن؛ پوره کردن",
+          "en": "To crush soft or cooked food into a thick, smooth mixture.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Mash the cooked potatoes with a little milk.",
+          "fa": "سیب‌زمینی‌های پخته را با کمی شیر پوره کنید.",
+          "senseId": "mash:meaning-1"
+        },
+        {
+          "en": "She mashed a ripe banana with a fork.",
+          "fa": "او یک موز رسیده را با چنگال له کرد.",
+          "senseId": "mash:meaning-1"
+        }
+      ],
+      "col": [
+        "mash potatoes｜سیب‌زمینی پوره کردن",
+        "mash with a fork｜با چنگال له کردن",
+        "mash until smooth｜له کردن تا یکدست شدن"
+      ],
+      "fam": [
+        "masher (n.)",
+        "mashed (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "mash مواد نرم یا پخته را با فشار له می‌کند. knead برای ورز دادن خمیر است و grate برای رنده کردن مواد به تکه‌های ریز.",
+      "media": {
+        "img": "atlas/img/mash.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated teaching image. CEFR is an approximate editorial label. No independent human language review is claimed. Device speech is used when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "pour",
+      "uk": "/pɔː/",
+      "us": "/pɔːr/",
+      "cefr": "A2",
+      "w": "pour",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "pour:meaning-1",
+          "pos": "v.",
+          "fa": "ریختن مایع",
+          "en": "To make a liquid flow from one container into another place.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Pour the milk into the bowl.",
+          "fa": "شیر را داخل کاسه بریزید.",
+          "senseId": "pour:meaning-1"
+        },
+        {
+          "en": "He poured the sauce over the vegetables.",
+          "fa": "او سس را روی سبزیجات ریخت.",
+          "senseId": "pour:meaning-1"
+        }
+      ],
+      "col": [
+        "pour milk｜شیر ریختن",
+        "pour into a bowl｜داخل کاسه ریختن",
+        "pour over the vegetables｜روی سبزیجات ریختن"
+      ],
+      "fam": [
+        "pouring (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "pour معمولاً برای ریختن مایع به کار می‌رود و مقصد را با into یا over می‌آوریم. drain یعنی خارج کردن مایع از غذا، مثلاً با آبکش.",
+      "media": {
+        "img": "atlas/img/pour.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated teaching image. CEFR is an approximate editorial label. No independent human language review is claimed. Device speech is used when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "drain",
+      "uk": "/dreɪn/",
+      "us": "/dreɪn/",
+      "cefr": "B1",
+      "w": "drain",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "drain:meaning-1",
+          "pos": "v.",
+          "fa": "آبکش کردن؛ مایع را گرفتن",
+          "en": "To remove liquid from food by letting it flow away.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Drain the pasta in a colander.",
+          "fa": "پاستا را در آبکش بریزید تا آب آن خارج شود.",
+          "senseId": "drain:meaning-1"
+        },
+        {
+          "en": "Let the beans drain before adding them to the salad.",
+          "fa": "پیش از افزودن لوبیا به سالاد، بگذارید آب آن گرفته شود.",
+          "senseId": "drain:meaning-1"
+        }
+      ],
+      "col": [
+        "drain the pasta｜پاستا را آبکش کردن",
+        "drain in a colander｜در آبکش آب گرفتن",
+        "drain well｜آب را کاملاً گرفتن"
+      ],
+      "fam": [
+        "drained (adj.)",
+        "draining (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "drain مایع را از غذا خارج می‌کند؛ در تصویر، آب از سوراخ‌های آبکش بیرون می‌رود. rinse آب تمیز را روی غذا می‌ریزد تا آن را آب بکشد.",
+      "media": {
+        "img": "atlas/img/drain.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated teaching image. CEFR is an approximate editorial label. No independent human language review is claimed. Device speech is used when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "rinse",
+      "uk": "/rɪns/",
+      "us": "/rɪns/",
+      "cefr": "B1",
+      "w": "rinse",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "rinse:meaning-1",
+          "pos": "v.",
+          "fa": "آب کشیدن؛ با آب شستن",
+          "en": "To wash something briefly with clean water.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Rinse the tomatoes under running water.",
+          "fa": "گوجه‌فرنگی‌ها را زیر آب جاری بشویید.",
+          "senseId": "rinse:meaning-1"
+        },
+        {
+          "en": "She rinsed the rice before cooking it.",
+          "fa": "او پیش از پختن برنج، آن را با آب شست.",
+          "senseId": "rinse:meaning-1"
+        }
+      ],
+      "col": [
+        "rinse vegetables｜سبزیجات را آب کشیدن",
+        "rinse under running water｜زیر آب جاری آب کشیدن",
+        "rinse the rice｜برنج را با آب شستن"
+      ],
+      "fam": [
+        "rinsing (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "rinse شستن کوتاه با آب تمیز است. soak یعنی مدتی در آب خیساندن؛ drain یعنی خارج کردن آب یا مایع از غذا.",
+      "media": {
+        "img": "atlas/img/rinse.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated teaching image. CEFR is an approximate editorial label. No independent human language review is claimed. Device speech is used when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "season",
+      "uk": "/ˈsiːzən/",
+      "us": "/ˈsiːzən/",
+      "cefr": "B1",
+      "w": "season",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "season:meaning-1",
+          "pos": "v.",
+          "fa": "مزه‌دار کردن؛ چاشنی زدن",
+          "en": "To add salt, herbs, or spices to food to give it flavor.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Season the soup with salt and pepper.",
+          "fa": "سوپ را با نمک و فلفل مزه‌دار کنید.",
+          "senseId": "season:meaning-1"
+        },
+        {
+          "en": "She seasoned the vegetables before roasting them.",
+          "fa": "او پیش از پختن سبزیجات در فر، به آن‌ها چاشنی زد.",
+          "senseId": "season:meaning-1"
+        }
+      ],
+      "col": [
+        "season with salt｜با نمک مزه‌دار کردن",
+        "season to taste｜به اندازه دلخواه چاشنی زدن",
+        "lightly season｜کمی چاشنی زدن"
+      ],
+      "fam": [
+        "seasoning (n.)",
+        "seasoned (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "season در آشپزی یعنی چاشنی زدن و ربطی به معنی «فصل» ندارد. marinate یعنی غذا مدتی در مایع مزه‌دار بماند؛ season می‌تواند فقط افزودن نمک باشد.",
+      "media": {
+        "img": "atlas/img/season.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated teaching image. CEFR is an approximate editorial label. No independent human language review is claimed. Device speech is used when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "marinate",
+      "uk": "/ˈmærɪneɪt/",
+      "us": "/ˈmærəneɪt/",
+      "cefr": "B2",
+      "w": "marinate",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "marinate:meaning-1",
+          "pos": "v.",
+          "fa": "در مایع چاشنی‌دار خواباندن",
+          "en": "To leave food in a seasoned liquid for a time before cooking it.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Marinate the tofu in lemon juice and herbs.",
+          "fa": "توفو را در آب‌لیمو و سبزی‌های معطر بخوابانید.",
+          "senseId": "marinate:meaning-1"
+        },
+        {
+          "en": "The vegetables marinated in the fridge before grilling.",
+          "fa": "سبزیجات پیش از کباب شدن، در مایع چاشنی‌دار داخل یخچال ماندند.",
+          "senseId": "marinate:meaning-1"
+        }
+      ],
+      "col": [
+        "marinate tofu｜توفو را در مایع چاشنی‌دار خواباندن",
+        "marinate in lemon juice｜در آب‌لیمو خواباندن",
+        "marinate before grilling｜پیش از کباب کردن در مایع چاشنی‌دار خواباندن"
+      ],
+      "fam": [
+        "marinade (n.)",
+        "marinated (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "marinate فعل است و marinade نام مایع چاشنی‌دار است. marinate زمان می‌خواهد تا غذا در مایع بماند؛ season فقط به افزودن چاشنی اشاره می‌کند.",
+      "media": {
+        "img": "atlas/img/marinate.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated teaching image. CEFR is an approximate editorial label. No independent human language review is claimed. Device speech is used when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "serve",
+      "uk": "/sɜːv/",
+      "us": "/sɝːv/",
+      "cefr": "A2",
+      "w": "serve",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "serve:meaning-1",
+          "pos": "v.",
+          "fa": "غذا کشیدن؛ سرو کردن",
+          "en": "To put food on a plate or in a bowl for someone to eat.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Serve the soup in warm bowls.",
+          "fa": "سوپ را در کاسه‌های گرم بکشید.",
+          "senseId": "serve:meaning-1"
+        },
+        {
+          "en": "He served a spoonful of rice onto her plate.",
+          "fa": "او یک قاشق برنج در بشقاب او کشید.",
+          "senseId": "serve:meaning-1"
+        }
+      ],
+      "col": [
+        "serve a meal｜غذا سرو کردن",
+        "serve the soup｜سوپ کشیدن",
+        "serve while hot｜داغ سرو کردن"
+      ],
+      "fam": [
+        "serving (n.)",
+        "served (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "در این معنی، serve مرحله کشیدن یا دادن غذا برای خوردن است. cook تهیه غذا با گرماست؛ می‌توان غذای سرد را هم serve کرد.",
+      "media": {
+        "img": "atlas/img/serve.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated teaching image. CEFR is an approximate editorial label. No independent human language review is claimed. Device speech is used when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "oven",
+      "w": "oven",
+      "uk": "/ˈʌvən/",
+      "us": "/ˈʌvən/",
+      "cefr": "A2",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "oven:meaning-1",
+          "pos": "n.",
+          "fa": "فر",
+          "en": "A kitchen appliance with an enclosed space for baking or roasting food.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The oven has two shelves.",
+          "fa": "فر دو طبقه دارد.",
+          "senseId": "oven:meaning-1"
+        },
+        {
+          "en": "She put the bread in the oven.",
+          "fa": "او نان را داخل فر گذاشت.",
+          "senseId": "oven:meaning-1"
+        }
+      ],
+      "col": [
+        "electric oven｜فر برقی",
+        "oven door｜درِ فر",
+        "preheated oven｜فر از پیش گرم‌شده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "oven فضای بسته‌ای برای پختن یا برشته‌کردن غذاست؛ stove معمولاً به اجاق اشاره دارد. oven و microwave همیشه یک دستگاه نیستند.",
+      "media": {
+        "img": "atlas/img/oven.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated educational illustration. CEFR levels are editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "saucepan",
+      "w": "saucepan",
+      "uk": "/ˈsɔːspən/",
+      "us": "/ˈsɔːspæn/",
+      "cefr": "B1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "saucepan:meaning-1",
+          "pos": "n.",
+          "fa": "شیرجوش؛ قابلمهٔ دسته‌دار",
+          "en": "A deep cooking pan with one long handle, used for heating food or liquids.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The saucepan has a long handle.",
+          "fa": "شیرجوش یک دستهٔ بلند دارد.",
+          "senseId": "saucepan:meaning-1"
+        },
+        {
+          "en": "He warmed the milk in a small saucepan.",
+          "fa": "او شیر را در یک شیرجوش کوچک گرم کرد.",
+          "senseId": "saucepan:meaning-1"
+        }
+      ],
+      "col": [
+        "small saucepan｜شیرجوش کوچک",
+        "saucepan lid｜درِ شیرجوش",
+        "heavy-bottomed saucepan｜قابلمهٔ دسته‌دار با کف ضخیم"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "saucepan معمولاً گود و دارای یک دستهٔ بلند است؛ frying pan پهن‌تر و کم‌عمق‌تر است. در فارسی بسته به کاربرد می‌توان گفت «شیرجوش» یا «قابلمهٔ دسته‌دار».",
+      "media": {
+        "img": "atlas/img/saucepan.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated educational illustration. CEFR levels are editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "frying-pan",
+      "w": "frying pan",
+      "uk": "/ˈfraɪɪŋ pæn/",
+      "us": "/ˈfraɪɪŋ pæn/",
+      "cefr": "A2",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "frying-pan:meaning-1",
+          "pos": "n.",
+          "fa": "ماهیتابه؛ تابه",
+          "en": "A wide, shallow pan with a long handle, used for frying food.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The frying pan is on the stove.",
+          "fa": "ماهیتابه روی اجاق است.",
+          "senseId": "frying-pan:meaning-1"
+        },
+        {
+          "en": "She cooked the mushrooms in a frying pan.",
+          "fa": "او قارچ‌ها را در ماهیتابه پخت.",
+          "senseId": "frying-pan:meaning-1"
+        }
+      ],
+      "col": [
+        "non-stick frying pan｜ماهیتابهٔ نچسب",
+        "heavy frying pan｜ماهیتابهٔ سنگین",
+        "frying pan handle｜دستهٔ ماهیتابه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "frying pan تابه‌ای پهن و کم‌عمق است؛ saucepan گودتر است. در انگلیسی آمریکایی skillet هم برای چنین تابه‌ای به کار می‌رود.",
+      "media": {
+        "img": "atlas/img/frying-pan.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated educational illustration. CEFR levels are editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "chopping-board",
+      "w": "chopping board",
+      "uk": "/ˈtʃɒpɪŋ bɔːd/",
+      "us": "/ˈtʃɑːpɪŋ bɔːrd/",
+      "cefr": "A2",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "chopping-board:meaning-1",
+          "pos": "n.",
+          "fa": "تختهٔ برش",
+          "en": "A flat kitchen board used as a surface for cutting food.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Put the onion on the chopping board.",
+          "fa": "پیاز را روی تختهٔ برش بگذار.",
+          "senseId": "chopping-board:meaning-1"
+        },
+        {
+          "en": "The wooden chopping board is beside the sink.",
+          "fa": "تختهٔ برش چوبی کنار سینک است.",
+          "senseId": "chopping-board:meaning-1"
+        }
+      ],
+      "col": [
+        "wooden chopping board｜تختهٔ برش چوبی",
+        "plastic chopping board｜تختهٔ برش پلاستیکی",
+        "clean chopping board｜تختهٔ برش تمیز"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "chopping board در انگلیسی بریتانیایی رایج است؛ cutting board نام رایج آن در انگلیسی آمریکایی است. هر دو به تختهٔ برش غذا اشاره دارند.",
+      "media": {
+        "img": "atlas/img/chopping-board.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated educational illustration. CEFR levels are editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "colander",
+      "w": "colander",
+      "uk": "/ˈkʌləndə/",
+      "us": "/ˈkɑːləndər/",
+      "cefr": "B1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "colander:meaning-1",
+          "pos": "n.",
+          "fa": "آبکش",
+          "en": "A bowl with many holes that lets water drain away from food.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The colander has two handles.",
+          "fa": "آبکش دو دسته دارد.",
+          "senseId": "colander:meaning-1"
+        },
+        {
+          "en": "She drained the pasta in a colander.",
+          "fa": "او پاستا را در آبکش ریخت تا آبش برود.",
+          "senseId": "colander:meaning-1"
+        }
+      ],
+      "col": [
+        "metal colander｜آبکش فلزی",
+        "drain in a colander｜در آبکش ریختن برای آبگیری",
+        "colander handles｜دسته‌های آبکش"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "colander معمولاً آبکش کاسه‌شکل و سوراخ‌دار برای پاستا یا سبزی است؛ strainer واژه‌ای کلی‌تر است و می‌تواند صافیِ ریزتوری هم باشد.",
+      "media": {
+        "img": "atlas/img/colander.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated educational illustration. CEFR levels are editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "spatula",
+      "w": "spatula",
+      "uk": "/ˈspætʃələ/",
+      "us": "/ˈspætʃələ/",
+      "cefr": "B1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "spatula:meaning-1",
+          "pos": "n.",
+          "fa": "کفگیر تخت",
+          "en": "A kitchen tool with a wide, flat head used to lift or turn food in a pan.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Slide the spatula under the pancake.",
+          "fa": "کفگیر تخت را زیر پنکیک ببر.",
+          "senseId": "spatula:meaning-1"
+        },
+        {
+          "en": "He turned the fish with a spatula.",
+          "fa": "او ماهی را با کفگیر تخت برگرداند.",
+          "senseId": "spatula:meaning-1"
+        }
+      ],
+      "col": [
+        "flat spatula｜کفگیر تخت",
+        "slotted spatula｜کفگیر شیاردار",
+        "turn with a spatula｜با کفگیر برگرداندن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "spatula در این مدخل کفگیر تختی است که زیر غذا می‌رود و آن را برمی‌گرداند. همین واژه می‌تواند به لیسکِ انعطاف‌پذیر برای تراشیدن مواد از کاسه هم اشاره کند.",
+      "media": {
+        "img": "atlas/img/spatula.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated educational illustration. CEFR levels are editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "rolling-pin",
+      "w": "rolling pin",
+      "uk": "/ˈrəʊlɪŋ pɪn/",
+      "us": "/ˈroʊlɪŋ pɪn/",
+      "cefr": "B1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "rolling-pin:meaning-1",
+          "pos": "n.",
+          "fa": "وردنه",
+          "en": "A kitchen tool shaped like a cylinder that is rolled over dough to flatten it.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The rolling pin is made of wood.",
+          "fa": "وردنه از چوب ساخته شده است.",
+          "senseId": "rolling-pin:meaning-1"
+        },
+        {
+          "en": "She flattened the dough with a rolling pin.",
+          "fa": "او خمیر را با وردنه پهن کرد.",
+          "senseId": "rolling-pin:meaning-1"
+        }
+      ],
+      "col": [
+        "wooden rolling pin｜وردنهٔ چوبی",
+        "roll with a rolling pin｜با وردنه باز کردن",
+        "rolling pin handles｜دسته‌های وردنه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "rolling pin نام ابزار است و دو کلمه نوشته می‌شود. roll out the dough یعنی خمیر را با غلتاندن وردنه باز و پهن کردن.",
+      "media": {
+        "img": "atlas/img/rolling-pin.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated educational illustration. CEFR levels are editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "measuring-cup",
+      "w": "measuring cup",
+      "uk": "/ˈmeʒərɪŋ kʌp/",
+      "us": "/ˈmeʒərɪŋ kʌp/",
+      "cefr": "B1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "measuring-cup:meaning-1",
+          "pos": "n.",
+          "fa": "پیمانهٔ اندازه‌گیری",
+          "en": "A kitchen container used to measure the volume of an ingredient.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Pour the milk into the measuring cup.",
+          "fa": "شیر را در پیمانهٔ اندازه‌گیری بریز.",
+          "senseId": "measuring-cup:meaning-1"
+        },
+        {
+          "en": "The measuring cup has a handle and a spout.",
+          "fa": "پیمانهٔ اندازه‌گیری دسته و دهانهٔ ریزش دارد.",
+          "senseId": "measuring-cup:meaning-1"
+        }
+      ],
+      "col": [
+        "glass measuring cup｜پیمانهٔ اندازه‌گیری شیشه‌ای",
+        "measuring cup markings｜درجه‌های پیمانهٔ اندازه‌گیری",
+        "set of measuring cups｜مجموعهٔ پیمانه‌های اندازه‌گیری"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "measuring cup حجم مواد را اندازه می‌گیرد، نه وزن را. اندازهٔ واحد cup در دستورها ممکن است با کشور یا منبع فرق کند؛ درجه‌های ظرف و واحد دستور را بررسی کن.",
+      "media": {
+        "img": "atlas/img/measuring-cup.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated educational illustration. CEFR levels are editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "flour",
+      "w": "flour",
+      "uk": "/flaʊə/",
+      "us": "/flaʊər/",
+      "cefr": "A2",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "flour:meaning-1",
+          "pos": "n.",
+          "fa": "آرد",
+          "en": "A fine powder made by grinding grain or other ingredients, used in cooking and baking.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The flour is in a large bowl.",
+          "fa": "آرد در یک کاسهٔ بزرگ است.",
+          "senseId": "flour:meaning-1"
+        },
+        {
+          "en": "He sprinkled flour over the work surface.",
+          "fa": "او روی سطح کار آرد پاشید.",
+          "senseId": "flour:meaning-1"
+        }
+      ],
+      "col": [
+        "wheat flour｜آرد گندم",
+        "plain flour｜آرد سادهٔ بدون عامل ورآورنده",
+        "a bag of flour｜یک کیسه آرد"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "flour یعنی آرد و در این کاربرد غیرقابل‌شمارش است: some flour یا a bag of flour. flower یعنی گل؛ این دو واژه معمولاً هم‌آوا هستند. plain flour عامل ورآورندهٔ افزوده ندارد.",
+      "media": {
+        "img": "atlas/img/flour.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated educational illustration. CEFR levels are editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "dough",
+      "w": "dough",
+      "uk": "/dəʊ/",
+      "us": "/doʊ/",
+      "cefr": "B1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "dough:meaning-1",
+          "pos": "n.",
+          "fa": "خمیر",
+          "en": "A thick mixture, usually of flour and liquid, that can be shaped for baking.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The dough is soft and smooth.",
+          "fa": "خمیر نرم و یکدست است.",
+          "senseId": "dough:meaning-1"
+        },
+        {
+          "en": "She shaped the dough into a round loaf.",
+          "fa": "او خمیر را به شکل یک نان گرد درآورد.",
+          "senseId": "dough:meaning-1"
+        }
+      ],
+      "col": [
+        "bread dough｜خمیر نان",
+        "knead the dough｜خمیر را ورز دادن",
+        "roll out the dough｜خمیر را با وردنه باز کردن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "dough معمولاً آن‌قدر سفت است که می‌توان آن را ورز داد یا شکل داد؛ batter رقیق‌تر است و معمولاً ریخته می‌شود، مانند مایهٔ پنکیک. dough در این کاربرد غیرقابل‌شمارش است.",
+      "media": {
+        "img": "atlas/img/dough.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated educational illustration. CEFR levels are editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "yeast",
+      "w": "yeast",
+      "uk": "/jiːst/",
+      "us": "/jiːst/",
+      "cefr": "B1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "yeast:meaning-1",
+          "pos": "n.",
+          "fa": "مخمر؛ خمیرمایه",
+          "en": "A living ingredient used to make bread dough rise.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The yeast is in a small bowl.",
+          "fa": "خمیرمایه در یک کاسهٔ کوچک است.",
+          "senseId": "yeast:meaning-1"
+        },
+        {
+          "en": "This bread dough contains yeast.",
+          "fa": "این خمیر نان خمیرمایه دارد.",
+          "senseId": "yeast:meaning-1"
+        }
+      ],
+      "col": [
+        "dry yeast｜خمیرمایهٔ خشک",
+        "fresh yeast｜خمیرمایهٔ تازه",
+        "yeast dough｜خمیرِ دارای خمیرمایه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "yeast یعنی مخمر یا خمیرمایه؛ baking powder یعنی بیکینگ‌پودر و همان ماده نیست. در انگلیسی yeast در این کاربرد معمولاً غیرقابل‌شمارش است.",
+      "media": {
+        "img": "atlas/img/yeast.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated educational illustration. CEFR levels are editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "butter",
+      "w": "butter",
+      "uk": "/ˈbʌtə/",
+      "us": "/ˈbʌtər/",
+      "cefr": "A1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "butter:meaning-1",
+          "pos": "n.",
+          "fa": "کره",
+          "en": "A soft yellow food made from cream, used for spreading, cooking or baking.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The butter is on a small plate.",
+          "fa": "کره در یک بشقاب کوچک است.",
+          "senseId": "butter:meaning-1"
+        },
+        {
+          "en": "She spread butter on the warm bread.",
+          "fa": "او روی نان گرم کره مالید.",
+          "senseId": "butter:meaning-1"
+        }
+      ],
+      "col": [
+        "unsalted butter｜کرهٔ بدون نمک",
+        "melted butter｜کرهٔ آب‌شده",
+        "a knob of butter｜یک تکهٔ کوچک کره"
+      ],
+      "fam": [
+        "buttery (adj.)",
+        "butter (v.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "butter در این کاربرد اسم غیرقابل‌شمارش است؛ برای یک مقدار مشخص می‌توان گفت a piece of butter یا a knob of butter. margarine نام محصول دیگری است، نه نام دیگر کره.",
+      "media": {
+        "img": "atlas/img/butter.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original AI-generated educational illustration. CEFR levels are editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "garlic",
+      "w": "garlic",
+      "uk": "/ˈɡɑːlɪk/",
+      "us": "/ˈɡɑrlɪk/",
+      "cefr": "A2",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "garlic:meaning-1",
+          "pos": "n.",
+          "fa": "سیر",
+          "en": "A plant bulb made of separate cloves, used to give food a strong flavor.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The garlic is on the cutting board.",
+          "fa": "سیر روی تختهٔ برش است.",
+          "senseId": "garlic:meaning-1"
+        },
+        {
+          "en": "She added a clove of garlic to the pan.",
+          "fa": "او یک حبه سیر به تابه اضافه کرد.",
+          "senseId": "garlic:meaning-1"
+        }
+      ],
+      "col": [
+        "a clove of garlic｜یک حبه سیر",
+        "crushed garlic｜سیر له‌شده",
+        "garlic bread｜نان سیر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "garlic معمولاً غیرقابل‌شمارش است؛ برای یک حبه از a clove of garlic و برای یک بوته از a bulb of garlic استفاده می‌کنیم. onion به معنی پیاز است.",
+      "media": {
+        "img": "atlas/img/garlic.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and AI-generated teaching illustration. Definitions and examples are original contributor text, not copied dictionary material. CEFR levels are approximate editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "onion",
+      "w": "onion",
+      "uk": "/ˈʌnjən/",
+      "us": "/ˈʌnjən/",
+      "cefr": "A1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "onion:meaning-1",
+          "pos": "n.",
+          "fa": "پیاز",
+          "en": "A round vegetable with many layers and a strong smell, eaten raw or cooked.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The onion has a thin brown skin.",
+          "fa": "پیاز پوست نازک و قهوه‌ای دارد.",
+          "senseId": "onion:meaning-1"
+        },
+        {
+          "en": "He sliced two onions for the salad.",
+          "fa": "او دو پیاز را برای سالاد ورقه کرد.",
+          "senseId": "onion:meaning-1"
+        }
+      ],
+      "col": [
+        "a red onion｜یک پیاز قرمز",
+        "chopped onion｜پیاز خردشده",
+        "onion rings｜حلقه‌های پیاز"
+      ],
+      "fam": [
+        "onions (plural n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "onion خودِ پیاز است و جمع آن onions می‌شود. garlic سیر است و هر بخش جداشدنی آن clove نام دارد؛ لایه‌های پیاز را clove نمی‌نامیم.",
+      "media": {
+        "img": "atlas/img/onion.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and AI-generated teaching illustration. Definitions and examples are original contributor text, not copied dictionary material. CEFR levels are approximate editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "salt",
+      "w": "salt",
+      "uk": "/sɔːlt/",
+      "us": "/sɔlt/",
+      "cefr": "A1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "salt:meaning-1",
+          "pos": "n.",
+          "fa": "نمک",
+          "en": "White crystals used to give food a salty taste.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The salt is in the small bowl.",
+          "fa": "نمک در کاسهٔ کوچک است.",
+          "senseId": "salt:meaning-1"
+        },
+        {
+          "en": "This bread needs a little more salt.",
+          "fa": "این نان کمی نمک بیشتری لازم دارد.",
+          "senseId": "salt:meaning-1"
+        }
+      ],
+      "col": [
+        "a pinch of salt｜یک سرانگشت نمک",
+        "table salt｜نمک خوراکی",
+        "sea salt｜نمک دریا"
+      ],
+      "fam": [
+        "salty (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "salt نام ماده است و معمولاً غیرقابل‌شمارش می‌آید؛ salty صفتِ مزه است. برای مقدار کم می‌توان گفت a pinch of salt.",
+      "media": {
+        "img": "atlas/img/salt.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and AI-generated teaching illustration. Definitions and examples are original contributor text, not copied dictionary material. CEFR levels are approximate editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "black-pepper",
+      "w": "black pepper",
+      "uk": "/ˌblæk ˈpepə/",
+      "us": "/ˌblæk ˈpɛpər/",
+      "cefr": "A2",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "black-pepper:meaning-1",
+          "pos": "n.",
+          "fa": "فلفل سیاه",
+          "en": "A dark spice made from dried peppercorns, used whole or ground to season food.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The black pepper is freshly ground.",
+          "fa": "فلفل سیاه تازه آسیاب شده است.",
+          "senseId": "black-pepper:meaning-1"
+        },
+        {
+          "en": "She sprinkled black pepper over the soup.",
+          "fa": "او روی سوپ فلفل سیاه پاشید.",
+          "senseId": "black-pepper:meaning-1"
+        }
+      ],
+      "col": [
+        "ground black pepper｜فلفل سیاه آسیاب‌شده",
+        "freshly ground black pepper｜فلفل سیاه تازه‌آسیاب‌شده",
+        "a pinch of black pepper｜یک سرانگشت فلفل سیاه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "black pepper ادویهٔ فلفل سیاه است، نه فلفل تند تازه یا فلفل دلمه‌ای. هر دانهٔ کامل آن peppercorn نام دارد؛ ground black pepper شکل آسیاب‌شده است.",
+      "media": {
+        "img": "atlas/img/black-pepper.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and AI-generated teaching illustration. Definitions and examples are original contributor text, not copied dictionary material. CEFR levels are approximate editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "sweet",
+      "w": "sweet",
+      "uk": "/swiːt/",
+      "us": "/swit/",
+      "cefr": "A1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "sweet:meaning-1",
+          "pos": "adj.",
+          "fa": "شیرین",
+          "en": "Having a taste like sugar or honey.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "This cake tastes sweet.",
+          "fa": "این کیک مزهٔ شیرینی دارد.",
+          "senseId": "sweet:meaning-1"
+        },
+        {
+          "en": "The ripe pear was sweeter than the green one.",
+          "fa": "گلابی رسیده از گلابی نارس شیرین‌تر بود.",
+          "senseId": "sweet:meaning-1"
+        }
+      ],
+      "col": [
+        "a sweet taste｜مزهٔ شیرین",
+        "sweet fruit｜میوهٔ شیرین",
+        "too sweet｜بیش از حد شیرین"
+      ],
+      "fam": [
+        "sweeter (comparative adj.)",
+        "sweetest (superlative adj.)",
+        "sweetness (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "اینجا sweet فقط مزهٔ شیرین را توصیف می‌کند. delicious یعنی خوشمزه؛ هر غذای خوشمزه‌ای لزوماً شیرین نیست. sweeter و sweetest شکل‌های مقایسه‌ای رایج‌اند.",
+      "media": {
+        "img": "atlas/img/sweet.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and AI-generated teaching illustration. Definitions and examples are original contributor text, not copied dictionary material. CEFR levels are approximate editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "sour",
+      "w": "sour",
+      "uk": "/ˈsaʊə/",
+      "us": "/ˈsaʊər/",
+      "cefr": "B1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "sour:meaning-1",
+          "pos": "adj.",
+          "fa": "ترش",
+          "en": "Having a sharp, acidic taste like lemon juice.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The lemon tastes sour.",
+          "fa": "لیمو مزهٔ ترشی دارد.",
+          "senseId": "sour:meaning-1"
+        },
+        {
+          "en": "These berries are too sour for me.",
+          "fa": "این میوه‌های ریز برای من بیش از حد ترش‌اند.",
+          "senseId": "sour:meaning-1"
+        }
+      ],
+      "col": [
+        "a sour taste｜مزهٔ ترش",
+        "sour fruit｜میوهٔ ترش",
+        "sweet and sour｜ترش و شیرین"
+      ],
+      "fam": [
+        "sourness (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "sour ترشیِ اسیدی مثل لیمو را بیان می‌کند؛ bitter تلخیِ مثل کاکائوی بدون شکر است. sour در این معنا لزوماً به معنی خراب‌شدن غذا نیست.",
+      "media": {
+        "img": "atlas/img/sour.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and AI-generated teaching illustration. Definitions and examples are original contributor text, not copied dictionary material. CEFR levels are approximate editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "salty",
+      "w": "salty",
+      "uk": "/ˈsɔːlti/",
+      "us": "/ˈsɔlti/",
+      "cefr": "A2",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "salty:meaning-1",
+          "pos": "adj.",
+          "fa": "شور",
+          "en": "Having a noticeable taste of salt.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The pretzel tastes salty.",
+          "fa": "پرتزل مزهٔ شوری دارد.",
+          "senseId": "salty:meaning-1"
+        },
+        {
+          "en": "The crackers were saltier than I expected.",
+          "fa": "کراکرها از آنچه انتظار داشتم شورتر بودند.",
+          "senseId": "salty:meaning-1"
+        }
+      ],
+      "col": [
+        "a salty taste｜مزهٔ شور",
+        "salty snacks｜تنقلات شور",
+        "too salty｜بیش از حد شور"
+      ],
+      "fam": [
+        "saltier (comparative adj.)",
+        "saltiest (superlative adj.)",
+        "salt (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "salty صفتِ مزهٔ شور است، اما salt خودِ نمک است. salty به‌تنهایی لزوماً یعنی بیش از حد شور نیست؛ برای آن می‌گوییم too salty.",
+      "media": {
+        "img": "atlas/img/salty.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and AI-generated teaching illustration. Definitions and examples are original contributor text, not copied dictionary material. CEFR levels are approximate editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "bitter",
+      "w": "bitter",
+      "uk": "/ˈbɪtə/",
+      "us": "/ˈbɪtər/",
+      "cefr": "B1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "bitter:meaning-1",
+          "pos": "adj.",
+          "fa": "تلخ",
+          "en": "Having a strong, sharp taste like unsweetened cocoa, distinct from sourness.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "This unsweetened chocolate tastes bitter.",
+          "fa": "این شکلات بدون شکر مزهٔ تلخی دارد.",
+          "senseId": "bitter:meaning-1"
+        },
+        {
+          "en": "The cocoa powder gave the cream a bitter taste.",
+          "fa": "پودر کاکائو به خامه مزهٔ تلخی داد.",
+          "senseId": "bitter:meaning-1"
+        }
+      ],
+      "col": [
+        "a bitter taste｜مزهٔ تلخ",
+        "bitter chocolate｜شکلات تلخ",
+        "a bitter aftertaste｜پس‌مزهٔ تلخ"
+      ],
+      "fam": [
+        "more bitter (comparative adj.)",
+        "bitterness (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "bitter یعنی تلخ، مثل کاکائوی بدون شکر؛ sour یعنی ترش، مثل لیمو. این مدخل فقط مزه را پوشش می‌دهد، نه کاربردهای احساسیِ bitter.",
+      "media": {
+        "img": "atlas/img/bitter.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and AI-generated teaching illustration. Definitions and examples are original contributor text, not copied dictionary material. CEFR levels are approximate editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "sauce",
+      "w": "sauce",
+      "uk": "/sɔːs/",
+      "us": "/sɔs/",
+      "cefr": "A2",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "sauce:meaning-1",
+          "pos": "n.",
+          "fa": "سس",
+          "en": "A liquid or thick mixture served with food to add flavor.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The sauce is in a small dish beside the pasta.",
+          "fa": "سس در ظرف کوچکی کنار پاستاست.",
+          "senseId": "sauce:meaning-1"
+        },
+        {
+          "en": "They served the fish with a lemon sauce.",
+          "fa": "آن‌ها ماهی را با سس لیمو سرو کردند.",
+          "senseId": "sauce:meaning-1"
+        }
+      ],
+      "col": [
+        "tomato sauce｜سس گوجه‌فرنگی",
+        "a thick sauce｜سس غلیظ",
+        "serve with sauce｜با سس سرو کردن"
+      ],
+      "fam": [
+        "sauces (plural n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "sauce همراه غذاست؛ soup معمولاً خودش یک غذاست. dressing معمولاً برای سسِ سالاد به کار می‌رود و gravy نوعی سسِ معمولاً بر پایهٔ آبِ گوشتِ پخته است.",
+      "media": {
+        "img": "atlas/img/sauce.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and AI-generated teaching illustration. Definitions and examples are original contributor text, not copied dictionary material. CEFR levels are approximate editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "soup",
+      "w": "soup",
+      "uk": "/suːp/",
+      "us": "/sup/",
+      "cefr": "A1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "soup:meaning-1",
+          "pos": "n.",
+          "fa": "سوپ",
+          "en": "A dish made mainly of liquid, often containing vegetables, meat, or other ingredients.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The soup is in the blue bowl.",
+          "fa": "سوپ در کاسهٔ آبی است.",
+          "senseId": "soup:meaning-1"
+        },
+        {
+          "en": "We shared a pot of vegetable soup at lunch.",
+          "fa": "سرِ ناهار یک قابلمه سوپ سبزیجات را با هم خوردیم.",
+          "senseId": "soup:meaning-1"
+        }
+      ],
+      "col": [
+        "vegetable soup｜سوپ سبزیجات",
+        "a bowl of soup｜یک کاسه سوپ",
+        "a pot of soup｜یک قابلمه سوپ"
+      ],
+      "fam": [
+        "soups (plural n., types of soup)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "soup خودِ غذای مایع است؛ sauce معمولاً کنار غذای دیگری می‌آید. برای یک وعده می‌گوییم a bowl of soup؛ soups معمولاً به چند نوع سوپ اشاره می‌کند.",
+      "media": {
+        "img": "atlas/img/soup.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and AI-generated teaching illustration. Definitions and examples are original contributor text, not copied dictionary material. CEFR levels are approximate editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "salad",
+      "w": "salad",
+      "uk": "/ˈsæləd/",
+      "us": "/ˈsæləd/",
+      "cefr": "A1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "salad:meaning-1",
+          "pos": "n.",
+          "fa": "سالاد",
+          "en": "A dish of mixed vegetables, usually raw, often served with a dressing.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The salad contains lettuce, tomatoes, and cucumber.",
+          "fa": "سالاد کاهو، گوجه‌فرنگی و خیار دارد.",
+          "senseId": "salad:meaning-1"
+        },
+        {
+          "en": "She put the dressing on her salad.",
+          "fa": "او روی سالادش سس ریخت.",
+          "senseId": "salad:meaning-1"
+        }
+      ],
+      "col": [
+        "a green salad｜سالاد سبز",
+        "salad dressing｜سس سالاد",
+        "a side salad｜سالادِ کنار غذا"
+      ],
+      "fam": [
+        "salads (plural n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "این معنا سالادِ سبزیجات را پوشش می‌دهد. dressing سسِ سالاد است، نه خودِ سالاد. ترکیب‌هایی مثل fruit salad به نوع دیگری از سالاد اشاره می‌کنند.",
+      "media": {
+        "img": "atlas/img/salad.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and AI-generated teaching illustration. Definitions and examples are original contributor text, not copied dictionary material. CEFR levels are approximate editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "portion",
+      "w": "portion",
+      "uk": "/ˈpɔːʃən/",
+      "us": "/ˈpɔrʃən/",
+      "cefr": "B1",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink"
+      ],
+      "senses": [
+        {
+          "id": "portion:meaning-1",
+          "pos": "n.",
+          "fa": "سهمِ غذا؛ مقدارِ یک نفر",
+          "en": "An amount of food served to one person as part of a meal.",
+          "domainIds": [
+            "cooking-food-drink"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "This portion of rice is for one person.",
+          "fa": "این مقدار برنج برای یک نفر است.",
+          "senseId": "portion:meaning-1"
+        },
+        {
+          "en": "He divided the pasta into three equal portions.",
+          "fa": "او پاستا را به سه سهمِ مساوی تقسیم کرد.",
+          "senseId": "portion:meaning-1"
+        }
+      ],
+      "col": [
+        "a small portion｜یک سهمِ کوچک",
+        "a portion of rice｜یک سهم برنج",
+        "equal portions｜سهم‌های مساوی"
+      ],
+      "fam": [
+        "portions (plural n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "portion در اینجا مقدار غذایی است که برای یک نفر جدا می‌شود؛ dish می‌تواند خودِ غذا یا ظرف باشد. serving هم می‌تواند به مقدار یک‌نفره اشاره کند؛ portion اندازهٔ ثابتی ندارد.",
+      "media": {
+        "img": "atlas/img/portion.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and AI-generated teaching illustration. Definitions and examples are original contributor text, not copied dictionary material. CEFR levels are approximate editorial estimates. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
       }
     }
   ]

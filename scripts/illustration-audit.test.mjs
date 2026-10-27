@@ -36,7 +36,7 @@ function fixture() {
 test("illustration audit binds current source and immutable published image bytes, rejecting stale source, release and provenance hashes", () => {
   const f = fixture();
   try {
-    assert.deepEqual(checkIllustrations({ root: f.root }), { words: 1, replaced: 1, humanReviewed: false });
+    assert.deepEqual(checkIllustrations({ root: f.root }), { words: 1, added: 0, replaced: 1, humanReviewed: false });
     write(f.root, "public/atlas/img/slice.svg", f.image.replace("red", "blue"));
     assert.throws(() => checkIllustrations({ root: f.root }), /Stale illustration asset hash/);
     write(f.root, "public/atlas/img/slice.svg", f.image);

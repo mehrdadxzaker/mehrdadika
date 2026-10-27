@@ -4,7 +4,7 @@
   "review": {
     "method": "AI visual inspection of rendered full images and thumbnail contact sheets",
     "humanReviewed": false,
-    "inspectedAt": "2026-10-27T02:22:46.461434+00:00",
+    "inspectedAt": "2026-10-27T03:00:47Z",
     "limitations": [
       "Recorded assessments are AI judgments, not independent human language or specialist approval.",
       "Hash and source-binding checks detect stale assessment records; software does not prove that a picture teaches its word accurately.",
@@ -3357,6 +3357,1266 @@
         "method": "AI visual inspection",
         "humanReviewed": false,
         "inspectedAt": "2026-10-27T02:31:18.454371+00:00"
+      }
+    },
+    {
+      "entryId": "fry",
+      "sourceWord": "fry",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "fry:meaning-1",
+          "pos": "v.",
+          "en": "To cook food in hot oil or fat."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Fry the potato pieces until they turn golden.",
+          "senseId": "fry:meaning-1"
+        },
+        {
+          "en": "She fried the onions in a little oil.",
+          "senseId": "fry:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/fry.webp",
+        "sha256": "01be075d3528c627258b3085e8beb9a66cf67f8d2047fe9e0146ab21b41f66d6"
+      },
+      "visual": {
+        "expectedCue": "Food visibly touching shallow hot oil in a frying pan; spatula turns potato; small sizzling bubbles.",
+        "decision": "added",
+        "reason": "Accepted at full generated resolution and at 120px in the labeled contact sheet. Food visibly touching shallow hot oil in a frying pan; spatula turns potato; small sizzling bubbles. No text, logo, or watermark observed. Editorial visual check only; no independent human language review is claimed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "grill",
+      "sourceWord": "grill",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "grill:meaning-1",
+          "pos": "v.",
+          "en": "To cook food on a metal grate over direct heat."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Grill the vegetables and turn them once.",
+          "senseId": "grill:meaning-1"
+        },
+        {
+          "en": "We grilled corn over the hot coals.",
+          "senseId": "grill:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/grill.webp",
+        "sha256": "2a10bc7330ce679d17c1bbfbd053814dc72480d3a3aaae261d314a10d6c5da32"
+      },
+      "visual": {
+        "expectedCue": "Vegetables contact metal grate over glowing coals; clear grill marks and tongs.",
+        "decision": "added",
+        "reason": "Accepted at full generated resolution and at 120px in the labeled contact sheet. Vegetables contact metal grate over glowing coals; clear grill marks and tongs. No text, logo, or watermark observed. Editorial visual check only; no independent human language review is claimed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "whisk",
+      "sourceWord": "whisk",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "whisk:meaning-1",
+          "pos": "v.",
+          "en": "To beat a liquid quickly with a whisk to mix it or add air."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Whisk the eggs until the mixture looks smooth.",
+          "senseId": "whisk:meaning-1"
+        },
+        {
+          "en": "He whisked the cream in a cold bowl.",
+          "senseId": "whisk:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/whisk.webp",
+        "sha256": "2ae570c033f2a500786fb810e9de0433b01878e523551956a927e7126b039ab6"
+      },
+      "visual": {
+        "expectedCue": "Wire balloon whisk partly immersed in swirling beaten eggs; bubbles distinguish beating from stirring.",
+        "decision": "added",
+        "reason": "Accepted at full generated resolution and at 120px in the labeled contact sheet. Wire balloon whisk partly immersed in swirling beaten eggs; bubbles distinguish beating from stirring. No text, logo, or watermark observed. Editorial visual check only; no independent human language review is claimed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "knead",
+      "sourceWord": "knead",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "knead:meaning-1",
+          "pos": "v.",
+          "en": "To press, stretch, and fold dough repeatedly with your hands."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Knead the dough until it feels smooth.",
+          "senseId": "knead:meaning-1"
+        },
+        {
+          "en": "She kneaded the bread dough on the counter.",
+          "senseId": "knead:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/knead.webp",
+        "sha256": "168bf320626599920438f0bbccf0097bf7a5d7f215a0db68b6b0ffedb9655fa8"
+      },
+      "visual": {
+        "expectedCue": "Hands press and fold a stretched dough ball on a floured surface.",
+        "decision": "added",
+        "reason": "Accepted at full generated resolution and at 120px in the labeled contact sheet. Hands press and fold a stretched dough ball on a floured surface. No text, logo, or watermark observed. Editorial visual check only; no independent human language review is claimed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "grate",
+      "sourceWord": "grate",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "grate:meaning-1",
+          "pos": "v.",
+          "en": "To rub food against a grater to make small thin pieces."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Grate some cheese over the pasta.",
+          "senseId": "grate:meaning-1"
+        },
+        {
+          "en": "He grated a carrot for the salad.",
+          "senseId": "grate:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/grate.webp",
+        "sha256": "7df23e5deb0664c7fa5f9f4fd082f27488d0f22bebb0e7f5d3fde143370c9a66"
+      },
+      "visual": {
+        "expectedCue": "Cheese block contacts box grater; thin shreds accumulate beneath.",
+        "decision": "added",
+        "reason": "Accepted at full generated resolution and at 120px in the labeled contact sheet. Cheese block contacts box grater; thin shreds accumulate beneath. No text, logo, or watermark observed. Editorial visual check only; no independent human language review is claimed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "mash",
+      "sourceWord": "mash",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "mash:meaning-1",
+          "pos": "v.",
+          "en": "To crush soft or cooked food into a thick, smooth mixture."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Mash the cooked potatoes with a little milk.",
+          "senseId": "mash:meaning-1"
+        },
+        {
+          "en": "She mashed a ripe banana with a fork.",
+          "senseId": "mash:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/mash.webp",
+        "sha256": "07d9618bc203d61eded19774ce631aec02c53708e8793f4bc45f62f6c1adca09"
+      },
+      "visual": {
+        "expectedCue": "Perforated potato masher presses cooked potatoes, showing chunks turning into mash.",
+        "decision": "added",
+        "reason": "Accepted at full generated resolution and at 120px in the labeled contact sheet. Perforated potato masher presses cooked potatoes, showing chunks turning into mash. No text, logo, or watermark observed. Editorial visual check only; no independent human language review is claimed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "pour",
+      "sourceWord": "pour",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "pour:meaning-1",
+          "pos": "v.",
+          "en": "To make a liquid flow from one container into another place."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Pour the milk into the bowl.",
+          "senseId": "pour:meaning-1"
+        },
+        {
+          "en": "He poured the sauce over the vegetables.",
+          "senseId": "pour:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pour.webp",
+        "sha256": "434ae02d67e456a5761cbfd51f4accbced1d057ade75199135640f91435482f9"
+      },
+      "visual": {
+        "expectedCue": "Continuous milk stream flows from tilted jug spout into bowl.",
+        "decision": "added",
+        "reason": "Accepted at full generated resolution and at 120px in the labeled contact sheet. Continuous milk stream flows from tilted jug spout into bowl. No text, logo, or watermark observed. Editorial visual check only; no independent human language review is claimed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "drain",
+      "sourceWord": "drain",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "drain:meaning-1",
+          "pos": "v.",
+          "en": "To remove liquid from food by letting it flow away."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Drain the pasta in a colander.",
+          "senseId": "drain:meaning-1"
+        },
+        {
+          "en": "Let the beans drain before adding them to the salad.",
+          "senseId": "drain:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/drain.webp",
+        "sha256": "a2992a1f35cde5fbc5daa6b415fa6c1f3a89d3fa3c8869e612956f962909bb90"
+      },
+      "visual": {
+        "expectedCue": "Pasta stays in colander while water streams out through bottom holes; no incoming faucet.",
+        "decision": "added",
+        "reason": "Accepted at full generated resolution and at 120px in the labeled contact sheet. Pasta stays in colander while water streams out through bottom holes; no incoming faucet. No text, logo, or watermark observed. Editorial visual check only; no independent human language review is claimed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "rinse",
+      "sourceWord": "rinse",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "rinse:meaning-1",
+          "pos": "v.",
+          "en": "To wash something briefly with clean water."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Rinse the tomatoes under running water.",
+          "senseId": "rinse:meaning-1"
+        },
+        {
+          "en": "She rinsed the rice before cooking it.",
+          "senseId": "rinse:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/rinse.webp",
+        "sha256": "3b3484e8d096fc50d5633bc32e414ff2d1f90bf112cef583b1d553cd1fed28be"
+      },
+      "visual": {
+        "expectedCue": "Visible faucet stream lands on tomatoes held in hands, distinct from draining.",
+        "decision": "added",
+        "reason": "Accepted at full generated resolution and at 120px in the labeled contact sheet. Visible faucet stream lands on tomatoes held in hands, distinct from draining. No text, logo, or watermark observed. Editorial visual check only; no independent human language review is claimed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "season",
+      "sourceWord": "season",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "season:meaning-1",
+          "pos": "v.",
+          "en": "To add salt, herbs, or spices to food to give it flavor."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Season the soup with salt and pepper.",
+          "senseId": "season:meaning-1"
+        },
+        {
+          "en": "She seasoned the vegetables before roasting them.",
+          "senseId": "season:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/season.webp",
+        "sha256": "dceda60c298c556784ee64579fee14820a8792c4d7f5a589670a10ff7daf5dce"
+      },
+      "visual": {
+        "expectedCue": "Pinched salt and herb flakes fall onto vegetables; no liquid marinade.",
+        "decision": "added",
+        "reason": "Accepted at full generated resolution and at 120px in the labeled contact sheet. Pinched salt and herb flakes fall onto vegetables; no liquid marinade. No text, logo, or watermark observed. Editorial visual check only; no independent human language review is claimed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "marinate",
+      "sourceWord": "marinate",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "marinate:meaning-1",
+          "pos": "v.",
+          "en": "To leave food in a seasoned liquid for a time before cooking it."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Marinate the tofu in lemon juice and herbs.",
+          "senseId": "marinate:meaning-1"
+        },
+        {
+          "en": "The vegetables marinated in the fridge before grilling.",
+          "senseId": "marinate:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/marinate.webp",
+        "sha256": "717915ecf375b627b12c57f00e00769e4d716d7eff8dca0688e5c9602c2d60f3"
+      },
+      "visual": {
+        "expectedCue": "Uncooked tofu and zucchini rest partly submerged in a visible herbed lemon liquid; no heat.",
+        "decision": "added",
+        "reason": "Accepted at full generated resolution and at 120px in the labeled contact sheet. Uncooked tofu and zucchini rest partly submerged in a visible herbed lemon liquid; no heat. No text, logo, or watermark observed. Editorial visual check only; no independent human language review is claimed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "serve",
+      "sourceWord": "serve",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "serve:meaning-1",
+          "pos": "v.",
+          "en": "To put food on a plate or in a bowl for someone to eat."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Serve the soup in warm bowls.",
+          "senseId": "serve:meaning-1"
+        },
+        {
+          "en": "He served a spoonful of rice onto her plate.",
+          "senseId": "serve:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/serve.webp",
+        "sha256": "286da20b914b1cf654327b05b5017a8f3d2a622bce0e108021f464b08abe5e6c"
+      },
+      "visual": {
+        "expectedCue": "Ladle transfers soup from shared pot into a bowl held by another person.",
+        "decision": "added",
+        "reason": "Accepted at full generated resolution and at 120px in the labeled contact sheet. Ladle transfers soup from shared pot into a bowl held by another person. No text, logo, or watermark observed. Editorial visual check only; no independent human language review is claimed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "oven",
+      "sourceWord": "oven",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "oven:meaning-1",
+          "pos": "n.",
+          "en": "A kitchen appliance with an enclosed space for baking or roasting food."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The oven has two shelves.",
+          "senseId": "oven:meaning-1"
+        },
+        {
+          "en": "She put the bread in the oven.",
+          "senseId": "oven:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/oven.webp",
+        "sha256": "37f66690fb3361da9540cfd7274257156974273d1bcd07d219262d48ed1c864b"
+      },
+      "visual": {
+        "expectedCue": "Whole oven appliance with open insulated cavity, glass door and two racks.",
+        "decision": "added",
+        "reason": "Full-size inspection: complete oven with recognizable cavity, racks and door; 120px thumbnail inspection passed: subject and distinguishing cue remain recognizable."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "saucepan",
+      "sourceWord": "saucepan",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "saucepan:meaning-1",
+          "pos": "n.",
+          "en": "A deep cooking pan with one long handle, used for heating food or liquids."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The saucepan has a long handle.",
+          "senseId": "saucepan:meaning-1"
+        },
+        {
+          "en": "He warmed the milk in a small saucepan.",
+          "senseId": "saucepan:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/saucepan.webp",
+        "sha256": "09a0f10eab0e7146b1f57b34f7573f498d7425a3fc05556a1670fce87fe0924d"
+      },
+      "visual": {
+        "expectedCue": "Deep small saucepan with one long handle.",
+        "decision": "added",
+        "reason": "Full-size inspection: deep metal pan with one long handle, empty and clearly distinct from a shallow frying pan; 120px thumbnail inspection passed: subject and distinguishing cue remain recognizable."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "frying-pan",
+      "sourceWord": "frying pan",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "frying-pan:meaning-1",
+          "pos": "n.",
+          "en": "A wide, shallow pan with a long handle, used for frying food."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The frying pan is on the stove.",
+          "senseId": "frying-pan:meaning-1"
+        },
+        {
+          "en": "She cooked the mushrooms in a frying pan.",
+          "senseId": "frying-pan:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/frying-pan.webp",
+        "sha256": "7df87fca2619b88c96272b181a3610ab4d6944980eeee59203bcfd36c4e20b38"
+      },
+      "visual": {
+        "expectedCue": "Wide shallow frying pan with low sides and one long handle.",
+        "decision": "added",
+        "reason": "Full-size inspection: broad dark cooking surface, low sides and one handle; no distracting food; 120px thumbnail inspection passed: subject and distinguishing cue remain recognizable."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "chopping-board",
+      "sourceWord": "chopping board",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "chopping-board:meaning-1",
+          "pos": "n.",
+          "en": "A flat kitchen board used as a surface for cutting food."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Put the onion on the chopping board.",
+          "senseId": "chopping-board:meaning-1"
+        },
+        {
+          "en": "The wooden chopping board is beside the sink.",
+          "senseId": "chopping-board:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/chopping-board.webp",
+        "sha256": "723bbd3f9781579bf4cf80ba616b3ea7843b86c7286758cd66f3670e70955191"
+      },
+      "visual": {
+        "expectedCue": "Flat rectangular wooden chopping board; small tomato and slices secondary.",
+        "decision": "added",
+        "reason": "Full-size inspection: board occupies most of image with flat cutting surface, thickness, wood grain and hanging hole; 120px thumbnail inspection passed: subject and distinguishing cue remain recognizable."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "colander",
+      "sourceWord": "colander",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "colander:meaning-1",
+          "pos": "n.",
+          "en": "A bowl with many holes that lets water drain away from food."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The colander has two handles.",
+          "senseId": "colander:meaning-1"
+        },
+        {
+          "en": "She drained the pasta in a colander.",
+          "senseId": "colander:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/colander.webp",
+        "sha256": "6a6042133d4c52505f98655f66a14b7846d46d32569b1765e6f54b9940fb316f"
+      },
+      "visual": {
+        "expectedCue": "Perforated colander bowl with two side handles and drain holes, with pasta secondary.",
+        "decision": "added",
+        "reason": "Full-size inspection: clear open drainage holes and two handles; pasta provides context without hiding perforations; 120px thumbnail inspection passed: subject and distinguishing cue remain recognizable."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "spatula",
+      "sourceWord": "spatula",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "spatula:meaning-1",
+          "pos": "n.",
+          "en": "A kitchen tool with a wide, flat head used to lift or turn food in a pan."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Slide the spatula under the pancake.",
+          "senseId": "spatula:meaning-1"
+        },
+        {
+          "en": "He turned the fish with a spatula.",
+          "senseId": "spatula:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/spatula.webp",
+        "sha256": "be7b8aa77c6a87901b5fea6d1aa1f08cdf805d834f0099eb939f987e0df87526"
+      },
+      "visual": {
+        "expectedCue": "Wide thin slotted metal food turner with long handle.",
+        "decision": "added",
+        "reason": "Full-size inspection: flat slotted turner head and thin lifting edge clearly distinguish selected sense from silicone scraper; 120px thumbnail inspection passed: subject and distinguishing cue remain recognizable."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "rolling-pin",
+      "sourceWord": "rolling pin",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "rolling-pin:meaning-1",
+          "pos": "n.",
+          "en": "A kitchen tool shaped like a cylinder that is rolled over dough to flatten it."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The rolling pin is made of wood.",
+          "senseId": "rolling-pin:meaning-1"
+        },
+        {
+          "en": "She flattened the dough with a rolling pin.",
+          "senseId": "rolling-pin:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/rolling-pin.webp",
+        "sha256": "c35894447845f1b835726440e241d1f2da073d5912cc59781aa38c12dd133575"
+      },
+      "visual": {
+        "expectedCue": "Wooden cylindrical rolling pin with two handles.",
+        "decision": "added",
+        "reason": "Full-size inspection: complete smooth barrel and two clear handles, no confused cutting implement; 120px thumbnail inspection passed: subject and distinguishing cue remain recognizable."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "measuring-cup",
+      "sourceWord": "measuring cup",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "measuring-cup:meaning-1",
+          "pos": "n.",
+          "en": "A kitchen container used to measure the volume of an ingredient."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Pour the milk into the measuring cup.",
+          "senseId": "measuring-cup:meaning-1"
+        },
+        {
+          "en": "The measuring cup has a handle and a spout.",
+          "senseId": "measuring-cup:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/measuring-cup.webp",
+        "sha256": "82ffdd1339626a9fd3e8bcad11f8e6ed3a9d6b5c31d03d528360901f3b16b7d1"
+      },
+      "visual": {
+        "expectedCue": "Transparent handled measuring cup with pouring spout and regular front measurement ticks.",
+        "decision": "added",
+        "reason": "Full-size inspection: handle, spout, clear water and evenly spaced high-contrast ticks; no nonsense units or letters; 120px thumbnail inspection passed: subject and distinguishing cue remain recognizable."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "flour",
+      "sourceWord": "flour",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "flour:meaning-1",
+          "pos": "n.",
+          "en": "A fine powder made by grinding grain or other ingredients, used in cooking and baking."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The flour is in a large bowl.",
+          "senseId": "flour:meaning-1"
+        },
+        {
+          "en": "He sprinkled flour over the work surface.",
+          "senseId": "flour:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/flour.webp",
+        "sha256": "892f630a554df919c380543b222359805ef78a505c51f337cfd97947da0084ce"
+      },
+      "visual": {
+        "expectedCue": "Fine white flour powder in bowl with wheat ear as secondary context.",
+        "decision": "added",
+        "reason": "Full-size inspection: loose fine matte powder and flour dust, wheat context makes it distinguishable from sugar or dough; 120px thumbnail inspection passed: subject and distinguishing cue remain recognizable."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "dough",
+      "sourceWord": "dough",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "dough:meaning-1",
+          "pos": "n.",
+          "en": "A thick mixture, usually of flour and liquid, that can be shaped for baking."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The dough is soft and smooth.",
+          "senseId": "dough:meaning-1"
+        },
+        {
+          "en": "She shaped the dough into a round loaf.",
+          "senseId": "dough:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/dough.webp",
+        "sha256": "f02ff98f734631f2e6c01401cfea26154d73d7b9b691c189382061a0477dccbe"
+      },
+      "visual": {
+        "expectedCue": "Cohesive kneaded raw dough mound with elastic folds; no pourable batter or baked crust.",
+        "decision": "added",
+        "reason": "Full-size inspection: thick cream dough mass with stretchy fold and flour dusting, clearly raw and cohesive; 120px thumbnail inspection passed: subject and distinguishing cue remain recognizable."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "yeast",
+      "sourceWord": "yeast",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "yeast:meaning-1",
+          "pos": "n.",
+          "en": "A living ingredient used to make bread dough rise."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The yeast is in a small bowl.",
+          "senseId": "yeast:meaning-1"
+        },
+        {
+          "en": "This bread dough contains yeast.",
+          "senseId": "yeast:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/yeast.webp",
+        "sha256": "90f190e80779f1cc056003516d52c921e43a78f601097f8b7ea2024c2ccb475c"
+      },
+      "visual": {
+        "expectedCue": "Fine beige dry yeast granules, with risen dough secondary.",
+        "decision": "added",
+        "reason": "Full-size inspection: small tan granules dominate and secondary dough supports culinary yeast meaning; no white baking-powder texture; 120px thumbnail inspection passed: subject and distinguishing cue remain recognizable."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "butter",
+      "sourceWord": "butter",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "butter:meaning-1",
+          "pos": "n.",
+          "en": "A soft yellow food made from cream, used for spreading, cooking or baking."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The butter is on a small plate.",
+          "senseId": "butter:meaning-1"
+        },
+        {
+          "en": "She spread butter on the warm bread.",
+          "senseId": "butter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/butter.webp",
+        "sha256": "bbcab37225162df249de83b95dddfce590a0e66ae3ec52f9daafa7fa0294bd8f"
+      },
+      "visual": {
+        "expectedCue": "Pale yellow butter block and slices on plain butter dish.",
+        "decision": "added",
+        "reason": "Full-size inspection: creamy pale-yellow cut block and slices, no cheese holes or branding; 120px thumbnail inspection passed: subject and distinguishing cue remain recognizable."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "garlic",
+      "sourceWord": "garlic",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "garlic:meaning-1",
+          "pos": "n.",
+          "en": "A plant bulb made of separate cloves, used to give food a strong flavor."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The garlic is on the cutting board.",
+          "senseId": "garlic:meaning-1"
+        },
+        {
+          "en": "She added a clove of garlic to the pan.",
+          "senseId": "garlic:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/garlic.webp",
+        "sha256": "10b83dc21f489a896a5905b8a1927cde9bf891f9371f28f3448cfca922235470"
+      },
+      "visual": {
+        "expectedCue": "White papery segmented garlic bulbs with separate ivory cloves.",
+        "decision": "added",
+        "reason": "Full-size and 120px inspection: segmented bulbs and detached cloves are clear and distinct from onion; no writing or brands."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "onion",
+      "sourceWord": "onion",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "onion:meaning-1",
+          "pos": "n.",
+          "en": "A round vegetable with many layers and a strong smell, eaten raw or cooked."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The onion has a thin brown skin.",
+          "senseId": "onion:meaning-1"
+        },
+        {
+          "en": "He sliced two onions for the salad.",
+          "senseId": "onion:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/onion.webp",
+        "sha256": "327aca76bd2d91cb56103b0e163aba067dba351467a5900c051833ae4c557525"
+      },
+      "visual": {
+        "expectedCue": "Round golden onion and a cut half showing nested pale layers.",
+        "decision": "added",
+        "reason": "Full-size and 120px inspection: single whole onion and nested-layer cut face are clear, distinct from segmented garlic; no writing or brands."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "salt",
+      "sourceWord": "salt",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "salt:meaning-1",
+          "pos": "n.",
+          "en": "White crystals used to give food a salty taste."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The salt is in the small bowl.",
+          "senseId": "salt:meaning-1"
+        },
+        {
+          "en": "This bread needs a little more salt.",
+          "senseId": "salt:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/salt.webp",
+        "sha256": "631dccf7dc952db76a9e1665931ea5687646424df7ceae11d960c45174cea278"
+      },
+      "visual": {
+        "expectedCue": "White angular salt crystals in a small terracotta bowl with a spill.",
+        "decision": "added",
+        "reason": "Full-size and 120px inspection: pale angular crystals and bowl remain clear and distinct from dark pepper. Limitation: white crystals alone cannot prove chemical identity and may resemble coarse sugar; the linked word supplies ingredient context."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "black-pepper",
+      "sourceWord": "black pepper",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "black-pepper:meaning-1",
+          "pos": "n.",
+          "en": "A dark spice made from dried peppercorns, used whole or ground to season food."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The black pepper is freshly ground.",
+          "senseId": "black-pepper:meaning-1"
+        },
+        {
+          "en": "She sprinkled black pepper over the soup.",
+          "senseId": "black-pepper:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/black-pepper.webp",
+        "sha256": "c959b842ee019af425ca77f4dd3dd6c136e952d61ffffeae6aac336418acc4fa"
+      },
+      "visual": {
+        "expectedCue": "Wrinkled dark peppercorns beside a pile of ground black pepper.",
+        "decision": "added",
+        "reason": "Full-size and 120px inspection: dark whole peppercorns and ground spice are readable, with no chili or salt substitution; no writing or brands."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "sweet",
+      "sourceWord": "sweet",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "sweet:meaning-1",
+          "pos": "adj.",
+          "en": "Having a taste like sugar or honey."
+        }
+      ],
+      "examples": [
+        {
+          "en": "This cake tastes sweet.",
+          "senseId": "sweet:meaning-1"
+        },
+        {
+          "en": "The ripe pear was sweeter than the green one.",
+          "senseId": "sweet:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sweet.webp",
+        "sha256": "ce59be7d3593c4071ecd6ee736318b855673aa1d370c06f800794b80bc238f83"
+      },
+      "visual": {
+        "expectedCue": "Adult tasting honey cake with visible cake and honey foreground cues.",
+        "decision": "added",
+        "reason": "Full-size and 120px inspection: tasting face, golden cake and honey are clear. Limitation: sweetness is inferred from familiar sweet foods and a tasting expression; taste cannot be verified visually, and a pleased expression alone is nonspecific."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "sour",
+      "sourceWord": "sour",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "sour:meaning-1",
+          "pos": "adj.",
+          "en": "Having a sharp, acidic taste like lemon juice."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The lemon tastes sour.",
+          "senseId": "sour:meaning-1"
+        },
+        {
+          "en": "These berries are too sour for me.",
+          "senseId": "sour:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sour.webp",
+        "sha256": "15cc88547742ae5a6d8f183fd90bd89aa883ee2a5f0a047ad8747821dc4a08c1"
+      },
+      "visual": {
+        "expectedCue": "Adult puckering after tasting a lemon wedge, with a cut lemon half.",
+        "decision": "added",
+        "reason": "Full-size and 120px inspection: lemon and mouth-puckering reaction are clear and distinct from dark chocolate. Limitation: sourness is inferred from lemon and expression; taste cannot be verified visually."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "salty",
+      "sourceWord": "salty",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "salty:meaning-1",
+          "pos": "adj.",
+          "en": "Having a noticeable taste of salt."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pretzel tastes salty.",
+          "senseId": "salty:meaning-1"
+        },
+        {
+          "en": "The crackers were saltier than I expected.",
+          "senseId": "salty:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/salty.webp",
+        "sha256": "72c278cf803d7ed2231bc12809f1a80a67ff6950d0ecac5639746cd747f31a2d"
+      },
+      "visual": {
+        "expectedCue": "Adult tasting a salt-crusted pretzel with visible coarse white salt on the pretzel.",
+        "decision": "added",
+        "reason": "Full-size and 120px inspection: pretzel shape, surface crystals and tasting person are readable, not only a salt bowl. Limitation: saltiness is inferred from the recognizable salt-crusted food; taste and the crystals' identity cannot be verified visually."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "bitter",
+      "sourceWord": "bitter",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "bitter:meaning-1",
+          "pos": "adj.",
+          "en": "Having a strong, sharp taste like unsweetened cocoa, distinct from sourness."
+        }
+      ],
+      "examples": [
+        {
+          "en": "This unsweetened chocolate tastes bitter.",
+          "senseId": "bitter:meaning-1"
+        },
+        {
+          "en": "The cocoa powder gave the cream a bitter taste.",
+          "senseId": "bitter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bitter.webp",
+        "sha256": "c5619ad08f99ebc2281a106336ac5eb8b15a0ac445729eaafcf3d20973bfd3b0"
+      },
+      "visual": {
+        "expectedCue": "Adult tasting very dark chocolate beside broken dark chocolate and cocoa powder.",
+        "decision": "added",
+        "reason": "Full-size and 120px inspection: chocolate, cocoa and a mild tight-lipped tasting expression are readable; no lemon cue. Limitation: bitterness is inferred from intended unsweetened cocoa/chocolate; an unlabeled chocolate image cannot establish sugar content or taste, and the expression alone is nonspecific."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "sauce",
+      "sourceWord": "sauce",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "sauce:meaning-1",
+          "pos": "n.",
+          "en": "A liquid or thick mixture served with food to add flavor."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sauce is in a small dish beside the pasta.",
+          "senseId": "sauce:meaning-1"
+        },
+        {
+          "en": "They served the fish with a lemon sauce.",
+          "senseId": "sauce:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sauce.webp",
+        "sha256": "32a6d8f1337a08af270d8f7547e1953efb41d81191e2adae496e397b4af264cd"
+      },
+      "visual": {
+        "expectedCue": "Small ramekin of thick red sauce and a sauce-filled spoon beside pasta.",
+        "decision": "added",
+        "reason": "Full-size and 120px inspection: semi-liquid sauce on the spoon and ramekin stay prominent, with pasta as accompanying context rather than a soup bowl; no writing or brands."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "soup",
+      "sourceWord": "soup",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "soup:meaning-1",
+          "pos": "n.",
+          "en": "A dish made mainly of liquid, often containing vegetables, meat, or other ingredients."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The soup is in the blue bowl.",
+          "senseId": "soup:meaning-1"
+        },
+        {
+          "en": "We shared a pot of vegetable soup at lunch.",
+          "senseId": "soup:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/soup.webp",
+        "sha256": "a929cc2877f51b6d4c4efad4277e9b7817959d380e4084f04f0e040e7fb97c30"
+      },
+      "visual": {
+        "expectedCue": "Blue bowl of golden broth with visible carrots, potatoes and peas.",
+        "decision": "added",
+        "reason": "Full-size and 120px inspection: ample visible liquid, vegetable pieces and bowl are clear, distinct from thick sauce and raw salad; no writing or brands."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "salad",
+      "sourceWord": "salad",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "salad:meaning-1",
+          "pos": "n.",
+          "en": "A dish of mixed vegetables, usually raw, often served with a dressing."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The salad contains lettuce, tomatoes, and cucumber.",
+          "senseId": "salad:meaning-1"
+        },
+        {
+          "en": "She put the dressing on her salad.",
+          "senseId": "salad:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/salad.webp",
+        "sha256": "c3941f0ab0004ca493f45067f6f8f262f4cae87f0f53603b8358db9efc5d5e48"
+      },
+      "visual": {
+        "expectedCue": "Mixed raw lettuce, tomato wedges and cucumber slices in one shallow bowl.",
+        "decision": "added",
+        "reason": "Full-size and 120px inspection: mixed raw vegetable shapes stay readable, no broth or cooked-food substitution; no writing or brands."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "portion",
+      "sourceWord": "portion",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "portion:meaning-1",
+          "pos": "n.",
+          "en": "An amount of food served to one person as part of a meal."
+        }
+      ],
+      "examples": [
+        {
+          "en": "This portion of rice is for one person.",
+          "senseId": "portion:meaning-1"
+        },
+        {
+          "en": "He divided the pasta into three equal portions.",
+          "senseId": "portion:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/portion.webp",
+        "sha256": "019647666d951a7eb164a5f641ecbaafe6b04871918315091c24938147a90ff6"
+      },
+      "visual": {
+        "expectedCue": "One rice serving on a small blue plate separated from a much larger shared rice dish.",
+        "decision": "added",
+        "reason": "Full-size and 120px inspection: individual plate and larger shared bowl clearly show separated serving and whole dish. Limitation: the scene conveys a portion, not any fixed serving size or dietary recommendation."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
       }
     }
   ]

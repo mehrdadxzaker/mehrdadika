@@ -8,16 +8,18 @@ The [public source repository](https://github.com/mehrdadxzaker/mehrdadika) and 
 
 | Item | Current scope |
 | --- | --- |
-| Vocabulary | 91 lexical items and 92 independently scheduled meanings. `pressure` has separate medical and engineering learning contexts under one public word card. |
+| Vocabulary | 127 lexical items and 128 independently scheduled meanings. `pressure` has separate medical and engineering learning contexts under one public word card. |
 | Subject taxonomy | All 32 domains, organized into six discovery groups. |
 | Subcategory display | 348 native subcategory labels in each of Persian, Brazilian Portuguese and Latin American Spanish, parallel to the English catalog. |
-| Starter focus | General English, cooking, healthcare and introductory engineering, with new law, arts, gaming and safety starter words and cross-links into related categories. |
+| Starter focus | Cooking has 50 words after 36 additions. General English, healthcare and introductory engineering remain smaller starter collections, with law, arts, gaming and safety seeds. Medicine and engineering are next in the category expansion queue. |
 | Short reading | Three original bilingual passages with comprehension questions. |
 | Book reading | One original short book with three chapters. |
 | Additional exercises | Two paraphrase levels and three confusable-word groups. |
 | Science through English | Water and Weather: eight lessons, 32 closed activities, eight writing tasks, 22 target senses and complete Persian/Portuguese/Spanish support. |
 | Review channel | AI-assisted editorial preview. No independent human or specialist approval is claimed. |
-| Portuguese and Spanish previews | Each edition has 91 words, 92 senses, 184 translated examples, 273 collocations, 91 usage notes, 32 category labels, 348 subcategory labels and six group labels, plus the reading/practice catalog above. |
+| Portuguese and Spanish previews | Each edition has 127 words, 128 senses, 256 translated examples, 381 collocations, 127 usage notes, 32 category labels, 348 subcategory labels and six group labels, plus the reading/practice catalog above. |
+
+The [category expansion ledger and queue](category-expansion.md) tracks coherent publication batches, with foundation/core/depth targets of 50/150/400 words per category. `npm run content:coverage` reports current unique word and category counts.
 
 Category and subcategory presence describes intended coverage. It does not mean that every branch already contains authored lessons. A shared sense can appear through multiple category routes without becoming a second learning record.
 
@@ -115,7 +117,7 @@ The current preview vocabulary is expected to fail that stable gate because inde
 - The current publisher builds a release from eligible source records. A separate content-authoring web interface, large editorial review operation and independent per-module publishing command remain future work.
 - Offline installation/update/rollback paths, storage quota failures and cross-browser/device behavior require their own release evidence. Availability of the controls or a passing source test alone does not establish complete offline qualification.
 - Portuguese and Spanish have the full core application flows, but remain AI-assisted translation previews awaiting native-language and domain review. Spanish is the first `es-419` edition; regional terminology and European Portuguese remain continuing editorial work.
-- The 16 new words have original SVG illustrations and use device English pronunciation when no packaged recording is available. They are excluded from recorded-audio-only quiz modes until recordings are supplied. Availability and quality of a device voice depend on the browser and operating system.
+- New original entries have sense-specific SVG or generated WebP illustrations and use device English pronunciation when no packaged recording is available. They are excluded from recorded-audio-only quiz modes until recordings are supplied. Availability and quality of a device voice depend on the browser and operating system.
 - The site is hosted on GitHub Pages. A custom domain, independent external contributor review and real-world learning-outcome evaluation have not been completed.
 
 ## Verification record

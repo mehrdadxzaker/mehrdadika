@@ -65,7 +65,7 @@ export function validateIllustrationAudit(audit, published, { root = process.cwd
     requireValue(JSON.stringify(item.examples) === JSON.stringify(exampleBinding(entry)), `Stale illustration example binding: ${item.entryId}`);
     requireValue(item.categoryId === entry.topic, `Stale illustration category binding: ${item.entryId}`);
     requireValue(
-      ["retained", "replaced"].includes(item.visual?.decision) && nonempty(item.visual?.expectedCue) && nonempty(item.visual?.reason) &&
+      ["retained", "replaced", "added"].includes(item.visual?.decision) && nonempty(item.visual?.expectedCue) && nonempty(item.visual?.reason) &&
         item.review?.humanReviewed === false && item.review?.method === "AI visual inspection",
       `Missing illustration assessment or unsupported review claim: ${item.entryId}`,
     );
@@ -81,7 +81,7 @@ export function validateIllustrationAudit(audit, published, { root = process.cwd
       requireValue(rights[0].sha256 === item.asset.sha256, `Stale illustration provenance hash: ${item.entryId}`);
   }
   for (const id of indexIds) requireValue(audited.has(id), `Missing illustration audit record: ${id}`);
-  return { words: indexIds.size, replaced: audit.entries.filter((entry) => entry.visual.decision === "replaced").length, humanReviewed: false };
+  return { words: indexIds.size, added: audit.entries.filter((entry) => entry.visual.decision === "added").length, replaced: audit.entries.filter((entry) => entry.visual.decision === "replaced").length, humanReviewed: false };
 }
 
 export function checkIllustrations({ root = process.cwd() } = {}) {
@@ -96,7 +96,7 @@ export function checkIllustrations({ root = process.cwd() } = {}) {
 if (process.argv[1] && pathToFileURL(path.resolve(process.argv[1])).href === import.meta.url) {
   try {
     const result = checkIllustrations();
-    console.log(`Illustration bindings current: ${result.words} published words; ${result.replaced} replacements. Semantic judgments are AI-inspected previews, not software-proven or independently human-approved.`);
+    console.log(`Illustration bindings current: ${result.words} published words; ${result.replaced} replacements; ${result.added} newly illustrated words. Semantic judgments are AI-inspected previews, not software-proven or independently human-approved.`);
   } catch (error) {
     console.error(error.message);
     process.exitCode = 1;
