@@ -1,0 +1,2679 @@
+{
+  "schemaVersion": 1,
+  "status": "editorial-preview",
+  "review": {
+    "method": "AI visual inspection of rendered full images and thumbnail contact sheets",
+    "humanReviewed": false,
+    "inspectedAt": "2026-10-27T02:22:46.461434+00:00",
+    "limitations": [
+      "Recorded assessments are AI judgments, not independent human language or specialist approval.",
+      "Hash and source-binding checks detect stale assessment records; software does not prove that a picture teaches its word accurately.",
+      "Representational clinical and engineering illustrations remain editorial previews pending qualified review."
+    ]
+  },
+  "entries": [
+    {
+      "entryId": "library",
+      "sourceWord": "library",
+      "categoryId": "education-academic",
+      "meanings": [
+        {
+          "senseId": "library:meaning-1",
+          "pos": "n.",
+          "en": "A place where people read or borrow books and other materials."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I borrowed three books from the library after school.",
+          "senseId": "library:meaning-1"
+        },
+        {
+          "en": "The library opens at nine every morning.",
+          "senseId": "library:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/library.webp",
+        "sha256": "64ce6edf8a80fe8d61ec473f2f907dc1ef5cc757016071ae75755bb7621ed817"
+      },
+      "visual": {
+        "expectedCue": "A staffed library counter, bookshelves and people borrowing or reading books identify a library rather than a bookshop.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A staffed library counter, bookshelves and people borrowing or reading books identify a library rather than a bookshop."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "journey",
+      "sourceWord": "journey",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "journey:meaning-1",
+          "pos": "n.",
+          "en": "an occasion of travelling from one place to another"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The train journey took three hours.",
+          "senseId": "journey:meaning-1"
+        },
+        {
+          "en": "We stopped for water during the long journey.",
+          "senseId": "journey:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/journey.webp",
+        "sha256": "15da4821193e4f052c253ca7715a1aab3a7c85e04c0784a7b1e63e015355da19"
+      },
+      "visual": {
+        "expectedCue": "A passenger and luggage inside a train, with changing countryside beyond the window, show an occasion of travelling.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A passenger and luggage inside a train, with changing countryside beyond the window, show an occasion of travelling."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "explore",
+      "sourceWord": "explore",
+      "categoryId": "geography-places-cultures",
+      "meanings": [
+        {
+          "senseId": "explore:meaning-1",
+          "pos": "v.",
+          "en": "Travel around a place to discover what it is like"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We explored the old streets on foot.",
+          "senseId": "explore:meaning-1"
+        },
+        {
+          "en": "The students explored the forest with a local guide.",
+          "senseId": "explore:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/explore.webp",
+        "sha256": "9667cadaa9c1567015e9dba2af28cedc51ca6f33b9661044e517f5342c1deee8"
+      },
+      "visual": {
+        "expectedCue": "Hikers move through and look around an unfamiliar landscape, showing exploration of a place.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: Hikers move through and look around an unfamiliar landscape, showing exploration of a place."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "curious",
+      "sourceWord": "curious",
+      "categoryId": "education-academic",
+      "meanings": [
+        {
+          "senseId": "curious:meaning-1",
+          "pos": "adj.",
+          "en": "Wanting to learn or know more about something."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The child was curious about the stars.",
+          "senseId": "curious:meaning-1"
+        },
+        {
+          "en": "I am curious to know how this machine works.",
+          "senseId": "curious:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/curious.webp",
+        "sha256": "2ac99d99c962a5db61666d8b447d8c8398e99d0e461e0ba725e2a901be782e9a"
+      },
+      "visual": {
+        "expectedCue": "A child leans toward a small animal with a magnifying glass, visibly interested in learning more.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A child leans toward a small animal with a magnifying glass, visibly interested in learning more."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "discover",
+      "sourceWord": "discover",
+      "categoryId": "natural-sciences-mathematics",
+      "meanings": [
+        {
+          "senseId": "discover:meaning-1",
+          "pos": "v.",
+          "en": "to find something or learn something previously unknown"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We discovered a quiet garden behind the museum.",
+          "senseId": "discover:meaning-1"
+        },
+        {
+          "en": "The team discovered a new way to reduce waste.",
+          "senseId": "discover:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/discover.webp",
+        "sha256": "4abcf0990eff89f1860f4ab1e09e6ca3d76f64c06e4e6031eab5ebaaff06055e"
+      },
+      "visual": {
+        "expectedCue": "A traveller encounters a previously hidden waterfall beyond the vegetation, suggesting finding something unknown.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A traveller encounters a previously hidden waterfall beyond the vegetation, suggesting finding something unknown."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "remember",
+      "sourceWord": "remember",
+      "categoryId": "education-academic",
+      "meanings": [
+        {
+          "senseId": "remember:meaning-1",
+          "pos": "v.",
+          "en": "Keep information in your mind or bring it back."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I remember the name of my first teacher.",
+          "senseId": "remember:meaning-1"
+        },
+        {
+          "en": "Do you remember where we left the keys?",
+          "senseId": "remember:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/remember.webp",
+        "sha256": "2138cd0254ed78120c5fb6dc48ada95c1d802bf4c64cf329444666bc2b033ee5"
+      },
+      "visual": {
+        "expectedCue": "A person looks at a photograph while a matching earlier-life scene appears in a memory bubble.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A person looks at a photograph while a matching earlier-life scene appears in a memory bubble."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "understand",
+      "sourceWord": "understand",
+      "categoryId": "education-academic",
+      "meanings": [
+        {
+          "senseId": "understand:meaning-1",
+          "pos": "v.",
+          "en": "to know what something means or how it works"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I understand the question now.",
+          "senseId": "understand:meaning-1"
+        },
+        {
+          "en": "This diagram helps us understand how the pump works.",
+          "senseId": "understand:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/understand-v2.webp",
+        "sha256": "e151dea5420fb2679928ad9efd9e2815d0475f78abba224ed9445cdff376aad8"
+      },
+      "visual": {
+        "expectedCue": "A person connects the parts of an explanatory diagram to how the shown system works, with a clear comprehension cue.",
+        "decision": "replaced",
+        "reason": "The prior puzzle-making activity did not clearly distinguish comprehension from assembling or learning.",
+        "inspectionNotes": "A learner relates a working pump to its matching flow diagram with a comprehension cue; this is a teaching illustration, not a validated pump design."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "OpenAI built-in image generation",
+        "prompt": "Use case: illustration-story. Asset type: square vocabulary learning illustration for the English verb UNDERSTAND: know what something means or how it works.\nPrimary request: A learner has an unmistakable moment of comprehension. A young adult in a muted sage shirt sits at a simple desk, looks from a clear explanatory paper diagram to the matching real object, smiles and nods with an \"I see how it works\" expression. The real object is a simple transparent hand-operated water pump moving water from a lower clear reservoir through a tube into an upper bowl; the paper contains a large matching simplified drawing of that same pump, with a few blue arrows showing the same connected water path. One small amber lightbulb thought-symbol beside the learner's head signals understanding, while the learner points to the connection between the diagram and the object.\nStyle: contemporary warm editorial educational illustration, simple gouache-like shapes with subtle texture, pale ivory background, ink-blue and teal object accents, restrained terracotta, clear natural anatomy. Closely frame one learner, the diagram and matching pump, no other people, no room decoration. Keep the causal relationship legible at120px.\nConstraints: a plausible connected simple pump/tube/water path, no free-floating water or disconnected hoses. Not someone merely making a puzzle. No text, letters, numbers, labels, logos, watermark or speech text. Square composition."
+      }
+    },
+    {
+      "entryId": "compare",
+      "sourceWord": "compare",
+      "categoryId": "education-academic",
+      "meanings": [
+        {
+          "senseId": "compare:meaning-1",
+          "pos": "v.",
+          "en": "To examine things to find similarities and differences."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Compare the two pictures and find three differences.",
+          "senseId": "compare:meaning-1"
+        },
+        {
+          "en": "We compared the prices before choosing a ticket.",
+          "senseId": "compare:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/compare.webp",
+        "sha256": "afa0bbbb2d9e99040a9434b7f85c4324cf6e1b691fbc97e97eed209b48303e02"
+      },
+      "visual": {
+        "expectedCue": "A person examines two different backpacks together, making similarities and differences the focus.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A person examines two different backpacks together, making similarities and differences the focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "explain",
+      "sourceWord": "explain",
+      "categoryId": "languages-communication",
+      "meanings": [
+        {
+          "senseId": "explain:meaning-1",
+          "pos": "v.",
+          "en": "to make something clear or easy to understand"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please explain the rule with an example.",
+          "senseId": "explain:meaning-1"
+        },
+        {
+          "en": "The engineer explained why the motor stopped.",
+          "senseId": "explain:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/explain.webp",
+        "sha256": "e9a88bcfeee227b2295f3ada9348774a28971b199b66696b7a9950854feecaf3"
+      },
+      "visual": {
+        "expectedCue": "An adult points through a solar-system model while an attentive learner follows the explanation.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: An adult points through a solar-system model while an attentive learner follows the explanation."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "improve",
+      "sourceWord": "improve",
+      "categoryId": "careers-workplace",
+      "meanings": [
+        {
+          "senseId": "improve:meaning-1",
+          "pos": "v.",
+          "en": "To become better or make something better."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Daily practice helped me improve my English.",
+          "senseId": "improve:meaning-1"
+        },
+        {
+          "en": "The new design improves access to the building.",
+          "senseId": "improve:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/improve-v2.webp",
+        "sha256": "2248650c293e8323437a227adffe37d73fe1e8b9b461c55ccb620bbc841bca3e"
+      },
+      "visual": {
+        "expectedCue": "The same subject is shown before and after practice with an observable improvement, rather than merely doing an activity.",
+        "decision": "replaced",
+        "reason": "The prior pottery-making scene showed an activity without evidence of becoming better.",
+        "inspectionNotes": "The same learner and intended clay bowl progress from uneven to a well-shaped result, making improvement visible."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "OpenAI built-in image generation",
+        "prompt": "Use case: illustration-story. Asset type: square vocabulary illustration for the English verb IMPROVE: to become better or make something better.\nPrimary request: A clear before-and-after learning progression in pottery. Two equally sized scenes of the SAME learner and the SAME type of small clay bowl on a pottery wheel. At first the beginner's bowl is visibly wobbly, uneven and poorly shaped. A simple single forward arrow leads to the same learner later forming a smooth, even, well-proportioned bowl after practice. The change in quality is the main subject. The bowls should have matching clay color and intended design so this reads as improving a skill, not comparing two unrelated products.\nStyle: warm editorial educational illustration, restrained flat gouache-like shapes with subtle texture, ivory backdrop, terracotta clay, muted sage clothing and ink-blue details. Tightly framed hands, bowl and enough consistent face/torso to show the same person. Simple, unbusy and legible at120px.\nConstraints: no words, labels, logos or watermarks. No stars/ratings or competition. No room decoration or distant scenery. Natural hands and plausible pottery shapes. Square image."
+      }
+    },
+    {
+      "entryId": "habit",
+      "sourceWord": "habit",
+      "categoryId": "wellbeing-daily-habits",
+      "meanings": [
+        {
+          "senseId": "habit:meaning-1",
+          "pos": "n.",
+          "en": "something you do regularly, often without thinking"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Reading before bed is one of my habits.",
+          "senseId": "habit:meaning-1"
+        },
+        {
+          "en": "She developed a habit of writing new words in a notebook.",
+          "senseId": "habit:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/habit-v2.webp",
+        "sha256": "ee8bbabf7c2123c66720ab9a8be7a1393281893cb83beaa1e699dd54f45460c7"
+      },
+      "visual": {
+        "expectedCue": "The same person brushes teeth in repeated panels linked to successive checked calendar days.",
+        "decision": "replaced",
+        "reason": "The prior single tooth-brushing scene did not show repeated behavior across days.",
+        "inspectionNotes": "Accepted: identical woman actively brushing teeth in three repeated scenes, each linked to a checked calendar-day page; repetition across days rather than multiple routine actions. No written language."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "built-in image_gen",
+        "prompt": "Use case: scientific-educational.\nAsset type: a square 1:1 vocabulary learning illustration for the noun HABIT: something done regularly, often without thinking. This image must teach repetition across days rather than a morning routine or just a toothbrush.\nCreate a refined warm editorial story illustration with simple confident shapes and lightly textured gouache surfaces on a cream background, muted terracotta, navy and sage accents. A clearly structured triptych: three equal rounded panels side by side. In every panel show exactly the SAME adult woman with the same short dark hair and rust-colored pajama top, actively brushing her teeth at the same small sink, the toothbrush touching her teeth. Repeat the SAME action, with consistent composition across all three panels. Above the three panels show a short calendar strip of three consecutive day squares, each checked, each linked visually to its corresponding panel by a subtle line. The three checked squares represent successive days, not three different activities. Keep face, arm, toothbrush and hand anatomy coherent and readable at thumbnail scale. Calm, ordinary, approachable learning art. Subject and semantic cues should fill the image with generous breathing room.\nNo written words, letters, captions, brand names, logos, watermarks, or decorative text. No numbers are necessary. Do not show multiple morning activities, just the repeated brushing habit over days."
+      }
+    },
+    {
+      "entryId": "question",
+      "sourceWord": "question",
+      "categoryId": "languages-communication",
+      "meanings": [
+        {
+          "senseId": "question:meaning-1",
+          "pos": "n.",
+          "en": "Something you ask to obtain information or an answer"
+        }
+      ],
+      "examples": [
+        {
+          "en": "May I ask a question about the schedule?",
+          "senseId": "question:meaning-1"
+        },
+        {
+          "en": "Write one question for each paragraph.",
+          "senseId": "question:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/question.webp",
+        "sha256": "5285a41b041e927c7caac55aada7231eaf2ff95e5be97d0d07bec24ffc271457"
+      },
+      "visual": {
+        "expectedCue": "A pupil raises a hand to ask an attentive teacher for information.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A pupil raises a hand to ask an attentive teacher for information."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "answer",
+      "sourceWord": "answer",
+      "categoryId": "languages-communication",
+      "meanings": [
+        {
+          "senseId": "answer:meaning-1",
+          "pos": "n.",
+          "en": "a reply, correct result, or solution to a problem"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her answer was short and clear.",
+          "senseId": "answer:meaning-1"
+        },
+        {
+          "en": "We found the answer in the final paragraph.",
+          "senseId": "answer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/answer-v2.webp",
+        "sha256": "a9b5abc2ff88d7686e6753de5859477f59cb8712b1806feaa94c58b83e383f60"
+      },
+      "visual": {
+        "expectedCue": "A question-mark balloon from one speaker is followed by the other speaker's correct apple-icon reply and check mark.",
+        "decision": "replaced",
+        "reason": "The prior raised-hand classroom scene overlapped question and did not clearly depict a reply.",
+        "inspectionNotes": "Accepted: left speaker asks about a visible apple with question-mark bubble; right speaker's larger reply bubble gives an apple icon and check mark. Clearly illustrates a correct response rather than another raised-hand question."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "built-in image_gen",
+        "prompt": "Use case: scientific-educational.\nAsset type: square 1:1 vocabulary illustration for the NOUN ANSWER: a reply that responds correctly to a question. The visual focus is the response, not the act of raising a hand.\nWarm refined editorial illustration with simple confident forms and light gouache paper texture, muted navy, terracotta and sage on cream. Two friendly adults sit facing one another at a small table. A single recognizable red apple with a green leaf sits at the center of the table.\nOn the left, the questioner points toward the real apple with an open, asking expression. A small speech balloon coming from this LEFT person's mouth contains only one large question mark.\nOn the right, the responder looks at the questioner and gives a reply with an open speaking mouth and a conversational hand gesture. A LARGER speech balloon clearly attached to this RIGHT person's mouth contains a simple unmistakable drawing of the SAME red apple plus a green check mark, communicating a correct answer to the question. Make the reply balloon and its speaker the focal point.\nCoherent hands, faces, eye contact and balloon tails. Uncluttered setting, clear readable storytelling at small card size. Not a classroom, no raised hands, no teacher. No words, letters, captions, logos, branding or watermark anywhere. Allowed symbols only: ? and a check mark."
+      }
+    },
+    {
+      "entryId": "routine",
+      "sourceWord": "routine",
+      "categoryId": "everyday-life",
+      "meanings": [
+        {
+          "senseId": "routine:meaning-1",
+          "pos": "n.",
+          "en": "A regular way of doing things in a particular order."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A simple morning routine helps me get ready on time.",
+          "senseId": "routine:meaning-1"
+        },
+        {
+          "en": "Reading is part of our evening routine.",
+          "senseId": "routine:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/routine-v2.webp",
+        "sha256": "d35f6b9fc2e3d6085ada204928eac0cb5433f8d47d1f98adc460d09e71a01882"
+      },
+      "visual": {
+        "expectedCue": "The same person washes, dresses and eats breakfast in three different numbered activities connected in order.",
+        "decision": "replaced",
+        "reason": "The prior single grooming activity did not show multiple actions in a regular order.",
+        "inspectionNotes": "Accepted: same woman washes face, dresses, then eats breakfast in distinct ordered panels numbered1,2,3 with arrows. Distinct from habit repetition; no words."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "built-in image_gen",
+        "prompt": "Use case: scientific-educational.\nAsset type: a square 1:1 educational vocabulary illustration for the noun ROUTINE: a regular way of doing several things in a particular order. Show an ordered sequence of DIFFERENT morning activities, not the same action repeated on different days.\nWarm refined editorial story illustration, simple confident shapes with light gouache paper texture, muted terracotta, navy and sage on a cream background. Three equal rounded panels arranged left to right. SAME adult woman with short dark hair appears in all three panels.\nPanel 1: woman at bathroom sink actively washing her face with both hands; she wears a rust-colored pajama top. A single clear numeral 1 in a small cream circle above this panel.\nPanel 2: same woman now putting on a navy button-up shirt, hands fastening a middle button; simple bedroom backdrop. Numeral 2 in a small cream circle above.\nPanel 3: same woman dressed in the navy shirt, sitting at a breakfast table eating toast with fruit and a mug; numeral 3 in a small cream circle above.\nA simple arrow between panels shows the order 1 to 2 to 3. Keep the person's face and hairstyle consistent and all actions unmistakable at thumbnail size. Calm practical morning, no clutter.\nOnly the numerals 1, 2 and 3 are allowed as text. No words or letters, calendars, written labels, captions, logos, brands or watermark. No duplicate activities."
+      }
+    },
+    {
+      "entryId": "friend",
+      "sourceWord": "friend",
+      "categoryId": "people-relationships",
+      "meanings": [
+        {
+          "senseId": "friend:meaning-1",
+          "pos": "n.",
+          "en": "someone you know well, like, and enjoy spending time with"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I met a friend at the library.",
+          "senseId": "friend:meaning-1"
+        },
+        {
+          "en": "A good friend listens carefully.",
+          "senseId": "friend:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/friend.webp",
+        "sha256": "557197d72ed5704ad11667b88e7b3f416452555b26181a570a4b374fff21e121"
+      },
+      "visual": {
+        "expectedCue": "Two people enjoy a relaxed conversation together on a park bench, showing companionship.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: Two people enjoy a relaxed conversation together on a park bench, showing companionship."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "family",
+      "sourceWord": "family",
+      "categoryId": "people-relationships",
+      "meanings": [
+        {
+          "senseId": "family:meaning-1",
+          "pos": "n.",
+          "en": "a group of people related to one another"
+        }
+      ],
+      "examples": [
+        {
+          "en": "My family lives in a small town.",
+          "senseId": "family:meaning-1"
+        },
+        {
+          "en": "We had dinner with her family.",
+          "senseId": "family:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/family.webp",
+        "sha256": "c9ade8b57b0720ec0fa4108e348ab883670ec7d83258d6caa6295886de85836d"
+      },
+      "visual": {
+        "expectedCue": "Adults, children and older relatives share a home scene as a multigenerational family group.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: Adults, children and older relatives share a home scene as a multigenerational family group."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "garden",
+      "sourceWord": "garden",
+      "categoryId": "home-gardening-diy",
+      "meanings": [
+        {
+          "senseId": "garden:meaning-1",
+          "pos": "n.",
+          "en": "an area of land where flowers or vegetables are grown"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We grow tomatoes in our garden.",
+          "senseId": "garden:meaning-1"
+        },
+        {
+          "en": "There is a quiet garden behind the house.",
+          "senseId": "garden:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/garden.webp",
+        "sha256": "db311db00e0697804560a64f21659096a44ea138e54f6b05b7a5c0f70ca4f612"
+      },
+      "visual": {
+        "expectedCue": "A person tends planted beds of flowers and vegetables beside a home.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A person tends planted beds of flowers and vegetables beside a home."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "language",
+      "sourceWord": "language",
+      "categoryId": "languages-communication",
+      "meanings": [
+        {
+          "senseId": "language:meaning-1",
+          "pos": "n.",
+          "en": "a system of words or gestures used for communication"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Persian and English are different languages.",
+          "senseId": "language:meaning-1"
+        },
+        {
+          "en": "Learning a language takes regular practice.",
+          "senseId": "language:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/language.webp",
+        "sha256": "eb58351ed9396b6366206594e2d29badca89a28e738d89899b1cf101abc6557f"
+      },
+      "visual": {
+        "expectedCue": "Two people communicate using matching speech-balloon symbols for a shared object.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: Two people communicate using matching speech-balloon symbols for a shared object."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "travel",
+      "sourceWord": "travel",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "travel:meaning-1",
+          "pos": "v.",
+          "en": "To go from one place to another."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We travel by train whenever possible.",
+          "senseId": "travel:meaning-1"
+        },
+        {
+          "en": "She travelled to another city for work.",
+          "senseId": "travel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/travel.webp",
+        "sha256": "03bd159023bec150f46eae9af6a7619064f138326e19912be8c24d4231a4fce2"
+      },
+      "visual": {
+        "expectedCue": "A person with luggage boards a train to move from one place to another.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A person with luggage boards a train to move from one place to another."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "learn",
+      "sourceWord": "learn",
+      "categoryId": "education-academic",
+      "meanings": [
+        {
+          "senseId": "learn:meaning-1",
+          "pos": "v.",
+          "en": "To gain knowledge or a skill through study or experience."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I want to learn how to cook rice.",
+          "senseId": "learn:meaning-1"
+        },
+        {
+          "en": "We learn new words through examples.",
+          "senseId": "learn:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/learn.webp",
+        "sha256": "94464113d433fd6bd0d6f3262bc1a288edce9c9949cee3ad0cf08c1add0cb27d"
+      },
+      "visual": {
+        "expectedCue": "A child practices swimming with an adult's guidance, showing acquisition of a skill through experience.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A child practices swimming with an adult's guidance, showing acquisition of a skill through experience."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "bake",
+      "sourceWord": "bake",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "bake:meaning-1",
+          "pos": "v.",
+          "en": "To cook food in an oven using dry heat."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We bake bread every Friday.",
+          "senseId": "bake:meaning-1"
+        },
+        {
+          "en": "She baked the potatoes in the oven.",
+          "senseId": "bake:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bake.webp",
+        "sha256": "2e8c48e6127f0586de259a5662d0fa0abd418f19ac9b3d0cebd7ce69ded9f2cd"
+      },
+      "visual": {
+        "expectedCue": "A person handles a tray of bread at an oven, showing cooking with dry oven heat.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A person handles a tray of bread at an oven, showing cooking with dry oven heat."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "boil",
+      "sourceWord": "boil",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "boil:meaning-1",
+          "pos": "v.",
+          "en": "to cook food in water that is bubbling from heat"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Boil the pasta until it is tender.",
+          "senseId": "boil:meaning-1"
+        },
+        {
+          "en": "We boiled the potatoes for the salad.",
+          "senseId": "boil:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/boil-v2.webp",
+        "sha256": "bc98e88061d397f717a02e8e89fe8fa31a5c45792fa1cc7e630617b2512a799b"
+      },
+      "visual": {
+        "expectedCue": "Food is immersed in vigorously bubbling heated water; the cooking medium and active boiling are visible.",
+        "decision": "replaced",
+        "reason": "The prior bubbling-water pot did not clearly show the selected sense of cooking food in that water.",
+        "inspectionNotes": "Accepted: potato pieces are visibly immersed in vigorously bubbling water, with a heat source; cooking action and distinction from steaming are explicit."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "built-in image_gen",
+        "prompt": "Use case: scientific-educational. Asset type: square illustration for an English vocabulary card teaching the verb BOIL, not a generic picture of a pot. Primary request: show cut potato chunks visibly submerged in clear water at a vigorous rolling boil in a saucepan on a stovetop. Close three-quarter view from slightly above, the water surface and potato pieces are immediately visible, plentiful energetic large bubbles breaking across the whole surface, subtle steam rising, heat source beneath. The pot is the large central subject and fills most of the square. Accurate culinary physics: food is immersed in boiling water, never suspended above it. Style: refined editorial teaching illustration with softly textured flat shapes, cream background, muted terracotta saucepan, sage and ochre details, restrained navy outlines, clear shapes readable at 120px. No people needed. No lettering, no labels, no digits, no logos, no watermark, no frame. Do not depict a kettle or steam basket."
+      }
+    },
+    {
+      "entryId": "roast",
+      "sourceWord": "roast",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "roast:meaning-1",
+          "pos": "v.",
+          "en": "To cook food using dry heat, especially in an oven."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We roasted vegetables for dinner.",
+          "senseId": "roast:meaning-1"
+        },
+        {
+          "en": "The cook roasted the peppers over a flame.",
+          "senseId": "roast:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/roast.webp",
+        "sha256": "7edce6b3257db27c21a1595a33158252ef4bd81244dd6e0150538d7170dc0916"
+      },
+      "visual": {
+        "expectedCue": "A person handles a tray of browned vegetables at an oven, showing roasting with dry heat.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A person handles a tray of browned vegetables at an oven, showing roasting with dry heat."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "chop",
+      "sourceWord": "chop",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "chop:meaning-1",
+          "pos": "v.",
+          "en": "To cut with repeated sharp blows using a blade"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Chop the onion into small pieces.",
+          "senseId": "chop:meaning-1"
+        },
+        {
+          "en": "She chopped the herbs before adding them to the soup.",
+          "senseId": "chop:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/chop-v2.webp",
+        "sha256": "4a25c5f6db9f2c6b7f89b632e13e231575451c12358c8ac70be384a2f278f907"
+      },
+      "visual": {
+        "expectedCue": "A hand and knife actively cut an onion into small pieces with repeated chopping, distinct from thin slicing.",
+        "decision": "replaced",
+        "reason": "The prior carrot-cutting result overlapped thin slicing; small onion pieces make the distinction clearer.",
+        "inspectionNotes": "Accepted: two natural hands, chef knife cutting half onion into irregular chunks, clear action indicator and coarse piece pile; visually distinguished from even bread slices."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "built-in image_gen",
+        "prompt": "Use case: scientific-educational. Create ONE square culinary vocabulary illustration depicting the verb CHOP as an ongoing action. Tight close-up of a natural adult's two hands and a chef's knife chopping half an onion into a pile of small uneven cubes and chunks on a wooden board. One hand holds the knife handle, with its blade coming down into the remaining half onion. The other hand uses a safe curled-finger claw grip behind the cutting plane, fingers away from the blade. A visible half onion remains to show what is being cut, and several irregular diced chunks pile beside it. A single small curved movement stroke over the knife may indicate repeated downward chopping. The visual must emphasize irregular chopped pieces, not evenly thin slices or finished-only food. No bread, no round carrot coins. Refined softly textured editorial teaching illustration, cream background, warm ochre cutting board, muted sage cloth, cream/pale purple onion and restrained navy outlines. Large simple composition readable at120px. No words, numerals, labels, logos, watermark or decorative panels. Exactly two hands, natural anatomy, no extra fingers, no injury."
+      }
+    },
+    {
+      "entryId": "stir",
+      "sourceWord": "stir",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "stir:meaning-1",
+          "pos": "v.",
+          "en": "To mix something by moving a spoon or similar object around."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Stir the soup gently with a wooden spoon.",
+          "senseId": "stir:meaning-1"
+        },
+        {
+          "en": "She stirred some milk into her tea.",
+          "senseId": "stir:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/stir.webp",
+        "sha256": "09ffc20ecb909d03b4cf748da320e19f5556841d48adb665b4ced834b2c1b1c3"
+      },
+      "visual": {
+        "expectedCue": "A spoon moves through soup in a circular mixing action while the cook holds the pot.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A spoon moves through soup in a circular mixing action while the cook holds the pot."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "ingredient",
+      "sourceWord": "ingredient",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "ingredient:meaning-1",
+          "pos": "n.",
+          "en": "one of the foods used to prepare a dish"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The recipe needs only five ingredients.",
+          "senseId": "ingredient:meaning-1"
+        },
+        {
+          "en": "Check the ingredients on the label.",
+          "senseId": "ingredient:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ingredient.webp",
+        "sha256": "e3141f719a5f28a8e2157577659b3317d44adab76ca7427d13e5b6c43ce09571"
+      },
+      "visual": {
+        "expectedCue": "Prepared food components in bowls and chopped vegetables being added to a pot identify ingredients of a dish.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: Prepared food components in bowls and chopped vegetables being added to a pot identify ingredients of a dish."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "recipe",
+      "sourceWord": "recipe",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "recipe:meaning-1",
+          "pos": "n.",
+          "en": "instructions explaining how to prepare and cook a dish"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This recipe makes enough soup for four people.",
+          "senseId": "recipe:meaning-1"
+        },
+        {
+          "en": "I wrote the recipe in my notebook.",
+          "senseId": "recipe:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/recipe-v2.webp",
+        "sha256": "a55613f84222fc8d400b9d3dd6228e5f8a413123816cd2f9c7aa803d8920b714"
+      },
+      "visual": {
+        "expectedCue": "An open recipe presents ingredient quantities and a sequence of cooking instructions, rather than a cooking scene alone.",
+        "decision": "replaced",
+        "reason": "The prior batter-mixing scene lacked the instructions that define a recipe.",
+        "inspectionNotes": "Accepted: open cookbook dominates; separate visual ingredients and numbered preparation sequence 1–3 clearly depict instructions rather than mere mixing. No language-specific words."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "built-in image_gen",
+        "prompt": "Use case: scientific-educational. Asset type: one square vocabulary teaching illustration for the noun RECIPE, meaning instructions for preparing a dish. Primary subject: a large open illustrated cookbook on a kitchen worktop, viewed from above at a slight angle. The book fills about eighty percent of the picture. On its left page, a clean ingredient list represented only by large food drawings with clearly countable quantities: two eggs, a small jug of milk, and a bowl of flour. On the right page, exactly THREE large ordered cooking-step drawings in a vertical sequence: a bowl being mixed, batter being poured into a pan, and finished pancakes on a plate. Place the simple readable numerals 1, 2, 3 beside their respective steps. A wooden spoon and small pancake plate may sit beside the book as secondary context. The instructions in the open book must dominate, so the viewer reads this as a recipe rather than merely cooking or ingredients. Refined softly textured culinary editorial illustration, warm cream paper, muted terracotta, sage, ochre, restrained navy linework, simple shapes visible at 120px. No words, no alphabet letters, no fake handwriting, no logos, watermark or decorative frame. Only the numerals 1, 2, 3 are permitted as text."
+      }
+    },
+    {
+      "entryId": "flavour",
+      "sourceWord": "flavour",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "flavour:meaning-1",
+          "pos": "n.",
+          "en": "the particular taste of food or drink"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Lemon gives the soup a fresh flavour.",
+          "senseId": "flavour:meaning-1"
+        },
+        {
+          "en": "This tea has a mild flavour.",
+          "senseId": "flavour:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/flavour.webp",
+        "sha256": "e54c84cabcbf12d239897dd9571424a439386ce4fc864ec79fc7f07cef29e7b9"
+      },
+      "visual": {
+        "expectedCue": "A person tastes soup from a spoon, focusing on the food's taste.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A person tastes soup from a spoon, focusing on the food's taste."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "slice",
+      "sourceWord": "slice",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "slice:meaning-1",
+          "pos": "v.",
+          "en": "to cut something into thin, flat pieces"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Slice the tomatoes with a sharp knife.",
+          "senseId": "slice:meaning-1"
+        },
+        {
+          "en": "She sliced the bread before lunch.",
+          "senseId": "slice:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/slice-v2.webp",
+        "sha256": "fc8992bafc3669b3d55d9ab9b10b1bd6105cbe0fcf7de8dc0f76d64e17d9703b"
+      },
+      "visual": {
+        "expectedCue": "A hand and knife actively produce thin, flat pieces of food, rather than showing only a sliced result.",
+        "decision": "replaced",
+        "reason": "The prior finished bread slices showed a result without the cutting action.",
+        "inspectionNotes": "Accepted: two natural hands hold a serrated knife and loaf, blade actively cuts with three thin flat slices and a large remaining loaf; clear distinction from chopping."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "built-in image_gen",
+        "prompt": "Use case: scientific-educational. Create one square culinary vocabulary illustration that unmistakably depicts the verb SLICE as an action. Close-up of an adult's two anatomically natural hands actively slicing a crusty bread loaf on a wooden cutting board. One hand grips the handle of a serrated bread knife; the blade is midway through the loaf in a straight cut. The other hand steadies the still-uncut section safely behind the cutting plane, fingers away from the blade. In front of the loaf are three evenly thin flat bread slices fanned out, with a large uncut portion visibly remaining. The blade, cut and flat slices are the dominant subjects, no full person or busy room. Softly textured refined editorial food illustration, pale cream backdrop, warm ochre board and bread, muted sage cloth, restrained navy outlines. Clear and readable at 120px. No words, labels, numbers, logos, watermark, panels, extra fingers, duplicated hands, floating knife, injury or blood."
+      }
+    },
+    {
+      "entryId": "peel",
+      "sourceWord": "peel",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "peel:meaning-1",
+          "pos": "v.",
+          "en": "To remove the outer skin of fruit or vegetables."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Peel the carrots before chopping them.",
+          "senseId": "peel:meaning-1"
+        },
+        {
+          "en": "He peeled an orange for the children.",
+          "senseId": "peel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/peel.webp",
+        "sha256": "56d07117cddbb42a5ba0ebb7c335f26f094e7cfadc69bad15e4fe77c85fac34c"
+      },
+      "visual": {
+        "expectedCue": "A cook removes a long strip of outer skin from a potato with a peeler.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A cook removes a long strip of outer skin from a potato with a peeler."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "mixture",
+      "sourceWord": "mixture",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "mixture:meaning-1",
+          "pos": "n.",
+          "en": "Something made by combining two or more different things."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Add the flour to the egg mixture.",
+          "senseId": "mixture:meaning-1"
+        },
+        {
+          "en": "Stir the mixture until it is smooth.",
+          "senseId": "mixture:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/mixture.webp",
+        "sha256": "764e4d6fea21a61834dde6988278a961fa3e7d4387ead9066dfc00bb90d9ab64"
+      },
+      "visual": {
+        "expectedCue": "Several ingredients are visibly combined into batter in a mixing bowl.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: Several ingredients are visibly combined into batter in a mixing bowl."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "steam",
+      "sourceWord": "steam",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "steam:meaning-1",
+          "pos": "v.",
+          "en": "To cook food using steam from boiling water."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We steamed the vegetables instead of boiling them.",
+          "senseId": "steam:meaning-1"
+        },
+        {
+          "en": "The cook steamed the dumplings in a bamboo basket.",
+          "senseId": "steam:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/steam-v2.webp",
+        "sha256": "6833d3340d36066d7e8426e44d51952cf66a6c89dd23b2dc575d644ac3c121df"
+      },
+      "visual": {
+        "expectedCue": "Food rests in a perforated basket above boiling water; steam reaches the food without immersing it.",
+        "decision": "replaced",
+        "reason": "The prior steaming kettle depicted water vapor rather than cooking food by steaming.",
+        "inspectionNotes": "Accepted: cutaway shows broccoli in a perforated basket above a separate water reservoir, with a visible air gap and rising vapor. Food is not immersed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "built-in image_gen",
+        "prompt": "Use case: scientific-educational. Create one square culinary teaching illustration depicting the cooking verb STEAM. The clear subject is broccoli florets cooking in a perforated metal steaming basket suspended ABOVE a shallow layer of boiling water inside a pot on a stovetop. A clean side cutaway of the pot shows the full setup: lower shallow water reservoir, a clear AIR GAP, and upper perforated basket with broccoli. The bottom of the basket is well above the water level; no broccoli touches the water. Several soft wisps of hot vapor rise from the lower water through the perforations and around the broccoli. Show a tilted raised lid above the pot so the food is visible. Single large pot fills the square with simple cream background. Refined softly textured editorial illustration, muted sage broccoli, terracotta pot, ochre and navy accents. Legible at 120px, physically coherent and instructional. No kettle, no pouring, no extra food, no words, no letters, no digits, no logos or watermark."
+      }
+    },
+    {
+      "entryId": "heart",
+      "sourceWord": "heart",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "heart:meaning-1",
+          "pos": "n.",
+          "en": "The organ that pumps blood around the body."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The heart pumps blood around the body.",
+          "senseId": "heart:meaning-1"
+        },
+        {
+          "en": "The diagram shows the main parts of the heart.",
+          "senseId": "heart:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/heart.webp",
+        "sha256": "36267342c13afea0a8d593539b98accbb8bda6c874d1db6dcf0ef20ec690c942"
+      },
+      "visual": {
+        "expectedCue": "A clinician points at a recognizable anatomical heart model rather than a decorative love-heart symbol.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A clinician points at a recognizable anatomical heart model rather than a decorative love-heart symbol."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "blood",
+      "sourceWord": "blood",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "blood:meaning-1",
+          "pos": "n.",
+          "en": "the red liquid that carries oxygen around your body"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Blood carries oxygen to the body's tissues.",
+          "senseId": "blood:meaning-1"
+        },
+        {
+          "en": "The laboratory received a blood sample.",
+          "senseId": "blood:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/blood-v2.webp",
+        "sha256": "4255545f5f4f1a3933ce21f58891d0a6c4a398b311b758c2f33aa69680e784ff"
+      },
+      "visual": {
+        "expectedCue": "A laboratory sample visibly contains dark red blood, with an explanatory red-cell inset.",
+        "decision": "replaced",
+        "reason": "The prior laboratory scene used a blue-looking sample and failed to identify red blood clearly.",
+        "inspectionNotes": "Dark red laboratory blood sample with an enlarged view of biconcave red cells; replaces the blue-liquid sample."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "OpenAI built-in image generation",
+        "prompt": "Use case: scientific-educational.\nAsset type: square vocabulary illustration for the English noun BLOOD, used in a multilingual visual learning atlas.\nPrimary request: A precise, calm, non-graphic medical editorial illustration showing a capped transparent laboratory collection tube containing clearly dark red blood, with a single enlarged circular inset showing a few recognizable red biconcave blood cells suspended in red liquid. The blood is the unmistakable dominant subject, not the nurse or a needle.\nStyle: clean contemporary medical textbook illustration, carefully drawn forms, pale ivory negative space, crimson red subject with muted teal accents, restrained soft shadows, crisp silhouettes readable at a 120px thumbnail. No decorative room, foliage or extra story.\nConstraints: red blood, never blue liquid; natural tube geometry; no person, needle, active bleeding or gore; no invented anatomy; no text, letters, labels, branding, watermark or border. The inset is a magnified explanatory view, not another physical vessel. 1:1 composition."
+      }
+    },
+    {
+      "entryId": "symptom",
+      "sourceWord": "symptom",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "symptom:meaning-1",
+          "pos": "n.",
+          "en": "a physical or mental change that suggests an illness"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The nurse asked the patient about her symptoms.",
+          "senseId": "symptom:meaning-1"
+        },
+        {
+          "en": "The form includes a space to describe each symptom.",
+          "senseId": "symptom:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/symptom-v2.webp",
+        "sha256": "f298d126edbb5a8a1c88f78f81401d16211b985f6ce3b1f7af8645a9f2c175d4"
+      },
+      "visual": {
+        "expectedCue": "Observable signs of being unwell are the focus of the scene rather than an undifferentiated examination.",
+        "decision": "replaced",
+        "reason": "The prior general examination did not make a symptom the focal cue.",
+        "inspectionNotes": "Observable fever, cough and sore-throat cues around one person, without asserting a diagnosis."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "OpenAI built-in image generation",
+        "prompt": "Use case: scientific-educational. Asset type: square vocabulary illustration for the English noun SYMPTOM: an observable physical or mental change that suggests illness.\nPrimary request: One adult woman describing how she feels, with three large simple observation callouts around her: a warm forehead/fever thermometer symbol, a cough into a tissue, and a sore red throat indicated by her hand gently touching her neck. The callouts show signs the person can notice and report. Her expression is mildly unwell, not distressed. Her actual face and upper body remain central, with one hand near her throat. This must be distinct from a microscope view of infection or a doctor giving a diagnosis.\nStyle: clean contemporary medical editorial illustration, pale ivory background, gentle teal outlines, restrained coral highlights, simple anatomically sensible forms, consistent woman in all callout views. Bold, easily read at120px. Very little secondary detail.\nConstraints: generic examples of symptoms only, no claimed diagnosis or cure, no pathogens, prescription, drugs, needles, doctor or treatment. No words, letters, numbers, medical cross, logos or watermark. A thermometer may use a simple red column with no numerical readout. Calm, non-graphic, square composition."
+      }
+    },
+    {
+      "entryId": "patient",
+      "sourceWord": "patient",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "patient:meaning-1",
+          "pos": "n.",
+          "en": "Someone receiving medical care."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The doctor listened carefully to the patient.",
+          "senseId": "patient:meaning-1"
+        },
+        {
+          "en": "Each patient received a copy of the appointment details.",
+          "senseId": "patient:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/patient.webp",
+        "sha256": "6d8f697515205e8a9fcd1464c93c378f4f3b5301093c5aafab13131f3f005020"
+      },
+      "visual": {
+        "expectedCue": "A person receives an examination from a clinician, clearly establishing the care-recipient role.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A person receives an examination from a clinician, clearly establishing the care-recipient role."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "doctor",
+      "sourceWord": "doctor",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "doctor:meaning-1",
+          "pos": "n.",
+          "en": "a trained professional who diagnoses and treats illnesses"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The doctor explained the results in simple language.",
+          "senseId": "doctor:meaning-1"
+        },
+        {
+          "en": "She works as a doctor at a local clinic.",
+          "senseId": "doctor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/doctor.webp",
+        "sha256": "46bfd7cbf2fd7b6b1535b682ebd1742b688cf7f80b9d6a07fac534827e083f21"
+      },
+      "visual": {
+        "expectedCue": "A clinician examines a person with a stethoscope in a consultation setting.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A clinician examines a person with a stethoscope in a consultation setting."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "nurse",
+      "sourceWord": "nurse",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "nurse:meaning-1",
+          "pos": "n.",
+          "en": "A trained person who cares for ill or injured people."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The nurse checked the patient's name before the appointment.",
+          "senseId": "nurse:meaning-1"
+        },
+        {
+          "en": "A nurse showed us where to wait.",
+          "senseId": "nurse:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/nurse.webp",
+        "sha256": "df0c3786b0ab13c6dc344594352da2ce89c406f423f4963c74c9697535f0df59"
+      },
+      "visual": {
+        "expectedCue": "A healthcare worker tends an injured person's arm, showing a nursing-care context.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A healthcare worker tends an injured person's arm, showing a nursing-care context."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "treatment",
+      "sourceWord": "treatment",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "treatment:meaning-1",
+          "pos": "n.",
+          "en": "medical care given to improve an illness or injury"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The doctor discussed the treatment with the patient.",
+          "senseId": "treatment:meaning-1"
+        },
+        {
+          "en": "The report describes the treatment given at the clinic.",
+          "senseId": "treatment:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/treatment.webp",
+        "sha256": "5896d02a3197f2132179b61764a661dbbb1ca1555d187c1574071fd75f982c83"
+      },
+      "visual": {
+        "expectedCue": "A healthcare worker applies care to an injured leg, making the care being given the focus.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A healthcare worker applies care to an injured leg, making the care being given the focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "infection",
+      "sourceWord": "infection",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "infection:meaning-1",
+          "pos": "n.",
+          "en": "a condition caused by harmful organisms entering the body"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The laboratory report mentioned an infection.",
+          "senseId": "infection:meaning-1"
+        },
+        {
+          "en": "The class discussed how infections can spread.",
+          "senseId": "infection:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/infection-v2.webp",
+        "sha256": "5730d649d8bdda2697627b31c0ba7b57c96a1a148efc472eb69bb33a66bb9171"
+      },
+      "visual": {
+        "expectedCue": "Harmful microorganisms entering or affecting the body are made visible with a controlled explanatory inset.",
+        "decision": "replaced",
+        "reason": "The prior ordinary hand inspection did not show infection or a distinguishing cause.",
+        "inspectionNotes": "Schematic bacteria crossing a skin break and multiplying locally; distinct from ordinary hand examination and from a symptom cue."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "OpenAI built-in image generation",
+        "prompt": "Use case: scientific-educational. Asset type: square vocabulary illustration for the English noun INFECTION, a condition caused by harmful organisms entering the body.\nPrimary request: A calm, simplified textbook cutaway of a small area of skin with a tiny break in the protective surface. A magnified circular detail clearly shows a few small rod-shaped bacteria crossing that break and multiplying locally in the tissue underneath, with a small muted coral halo of inflammation. Use two or three slim arrows to show the organisms moving from outside the body through the surface. The meaning should be invasion by microbes, distinct from a doctor examining a normal hand or a generic fever icon.\nStyle: clean contemporary medical editorial illustration, pale ivory background, simplified cream skin layers, muted teal bacteria and gentle coral accents. Crisp readable shapes, restrained soft shading, balanced whitespace, one central clear concept readable at a120px thumbnail.\nConstraints: educational schematic example of a bacterial infection, not diagnostic advice. No gore, blood, pus, frightening faces, medication, needle, treatment steps, claims, labels, letters, words, logos or watermark. Skin layers and microbes must be visually distinct. Square composition."
+      }
+    },
+    {
+      "entryId": "disease",
+      "sourceWord": "disease",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "disease:meaning-1",
+          "pos": "n.",
+          "en": "An illness affecting humans, animals or plants"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The patient asked a question about the disease.",
+          "senseId": "disease:meaning-1"
+        },
+        {
+          "en": "Researchers study the causes of the disease.",
+          "senseId": "disease:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/disease-v2.webp",
+        "sha256": "67219650a009b9be5db07e20cfb94acba0397739b84df4b6eafc9a744fcf0464"
+      },
+      "visual": {
+        "expectedCue": "An illness affecting the body is represented in a medical explanatory scene, distinct from a single symptom.",
+        "decision": "replaced",
+        "reason": "The prior clinical scene overlapped generic examination, symptom and treatment imagery.",
+        "inspectionNotes": "An unwell patient discusses an underlying body condition shown on a medical record; a generic illness cue, not a specific diagnosis."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "OpenAI built-in image generation",
+        "prompt": "Use case: scientific-educational. Asset type: square vocabulary illustration for the general English noun DISEASE, an illness affecting a living organism.\nPrimary request: A calm medical editorial scene with one visibly unwell adult patient resting in bed, and a large plain medical record/diagnostic illustration in the foreground showing the human body silhouette with an internal organ affected by illness highlighted in muted coral. The record is the dominant explanatory element: an underlying condition affecting the body, rather than isolated symptoms or microbes crossing a wound. A clinician in the background quietly reviews this record with the patient. Keep the body diagram simple and symbolic, no specific disease name or claim.\nStyle: clear contemporary medical textbook illustration, pale ivory negative space, muted teal and coral palette, natural adult anatomy and sympathetic faces, uncluttered composition, enough contrast and large central forms to read at120px.\nConstraints: generic concept of illness, not a diagnosis or medical advice. No treatment, drugs, needle, pathogen symbols, fever thermometer, rash callouts, gore, medical claims, text, labels, letters, logos or watermarks. No floating organs presented as real body anatomy. Square."
+      }
+    },
+    {
+      "entryId": "recover",
+      "sourceWord": "recover",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "recover:meaning-1",
+          "pos": "v.",
+          "en": "return to health or a normal condition after difficulty"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She recovered slowly after the illness.",
+          "senseId": "recover:meaning-1"
+        },
+        {
+          "en": "He needed time to recover from the injury.",
+          "senseId": "recover:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/recover-v2.webp",
+        "sha256": "49adcc036b8e35c8eb34868cdda821acdf4542689942d4aa76632ba719fc8b6a"
+      },
+      "visual": {
+        "expectedCue": "The same person progresses from being unwell to regaining normal activity, showing a return toward health.",
+        "decision": "replaced",
+        "reason": "The prior person eating soup in bed remained ill, without an observable return toward health.",
+        "inspectionNotes": "The same woman progresses from illness/rest in bed to comfortable normal walking; visibly expresses return to health."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "OpenAI built-in image generation",
+        "prompt": "Use case: scientific-educational. Asset type: square English vocabulary illustration for the verb RECOVER: return to health or a normal condition after illness or injury.\nPrimary request: A very clear two-stage recovery sequence, the SAME adult woman with short dark hair and a muted teal top in both stages. First, a smaller scene shows her tired and resting in bed after an illness. A simple gentle forward arrow leads to a larger scene of that same woman restored to ordinary health, walking comfortably outdoors with an upright relaxed posture and a calm smile. Clearly communicate a change over time from illness/rest to regained normal activity, not just eating soup in bed.\nStyle: clean calm medical editorial illustration for language learners, pale ivory background, muted teal and coral accents, natural anatomy, restrained soft shading, clear silhouettes and very little scenery. A single coherent composition readable as an action at a120px thumbnail.\nConstraints: no medicines, treatment, miraculous cure, medical claims, text, labels, words, logo or watermark. No confusing extra people, hospital equipment or sport performance. Keep the same face, hair, clothes and identity across the sequence. Square."
+      }
+    },
+    {
+      "entryId": "medicine",
+      "sourceWord": "medicine",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "medicine:meaning-1",
+          "pos": "n.",
+          "en": "A substance used to treat or prevent illness."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The label gives the name of the medicine.",
+          "senseId": "medicine:meaning-1"
+        },
+        {
+          "en": "She asked the pharmacist a question about the medicine.",
+          "senseId": "medicine:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/medicine.webp",
+        "sha256": "327cebba10f3964927e5bed60a44ed0b5cffeb4c82864e7502a28c2db480a8cc"
+      },
+      "visual": {
+        "expectedCue": "A pharmacist handles a medicine bottle during a consultation, identifying a substance used for treatment.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A pharmacist handles a medicine bottle during a consultation, identifying a substance used for treatment."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "pressure",
+      "sourceWord": "pressure",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pressure:blood-pressure",
+          "pos": "n.",
+          "en": "The pressure of blood against the walls of blood vessels."
+        },
+        {
+          "senseId": "pressure:force-per-area",
+          "pos": "n.",
+          "en": "Force applied over a unit of area."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The nurse recorded the patient's blood pressure.",
+          "senseId": "pressure:blood-pressure"
+        },
+        {
+          "en": "The report lists blood pressure among the recorded measurements.",
+          "senseId": "pressure:blood-pressure"
+        },
+        {
+          "en": "The gauge shows the pressure inside the pipe.",
+          "senseId": "pressure:force-per-area"
+        },
+        {
+          "en": "Pressure depends on both the applied force and the area.",
+          "senseId": "pressure:force-per-area"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pressure.svg",
+        "sha256": "4831e7f60ed1f5bd54fb4879e2fc467bff5a2f20ef3d279d3ea770301fce6cc4"
+      },
+      "visual": {
+        "expectedCue": "A force-over-area diagram and a blood-vessel-wall diagram jointly cover the mechanical and medical meanings.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A force-over-area diagram and a blood-vessel-wall diagram jointly cover the mechanical and medical meanings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "force",
+      "sourceWord": "force",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "force:meaning-1",
+          "pos": "n.",
+          "en": "An interaction that can change an object's motion or shape."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A force can change the motion of an object.",
+          "senseId": "force:meaning-1"
+        },
+        {
+          "en": "The diagram shows the forces acting on the beam.",
+          "senseId": "force:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/force-v2.webp",
+        "sha256": "18503f9f403a88405c1f6f63716941bb06486b4987b8a8a21da3f2c127ba2260"
+      },
+      "visual": {
+        "expectedCue": "A hand pushes a block with a force arrow in the direction of the applied push.",
+        "decision": "replaced",
+        "reason": "The prior windy-umbrella scene was indirect; a push with an explicit force arrow better teaches the engineering context.",
+        "inspectionNotes": "Hand visibly pushes a wood block in the direction of the prominent horizontal force arrow. Active mechanical interaction replaces an indirect wind scene."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "OpenAI built-in image generation",
+        "prompt": "Use case: scientific-educational. One square educational vocabulary illustration for FORCE, an applied push that can change an object's motion. A clean close-up explanatory mechanics illustration on pale ivory paper with slate-blue and honey-wood palette. A single realistic human hand enters from the left, palm flat and fingers naturally together, pressing firmly against the LEFT vertical face of a large rectangular wood block resting on a horizontal workbench. The contact between hand and block is obvious. A large straight amber arrow above the block points horizontally to the RIGHT, parallel to the push along the tabletop; subtle short grey motion lines behind the block suggest it sliding right. Show only one hand, exactly normal anatomy, block stays in contact with surface. Clear physics relationship between person applying push and block receiving force; not a decorative arrow or measurement. No wind, no umbrella, no lightning, no symbols for voltage/current, no text labels, no numbers, no watermark. Large simple composition, clean crisp edges, very clear at120px thumbnail."
+      }
+    },
+    {
+      "entryId": "friction",
+      "sourceWord": "friction",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "friction:meaning-1",
+          "pos": "n.",
+          "en": "Resistance when one surface moves or rubs against another."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Friction slows the moving block.",
+          "senseId": "friction:meaning-1"
+        },
+        {
+          "en": "The rough surface creates more friction.",
+          "senseId": "friction:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/friction.webp",
+        "sha256": "3a60c353d973cdc9732f222ec2bc89e04ba82a17732e3fa40049b0fde1531013"
+      },
+      "visual": {
+        "expectedCue": "A hand rubs an abrasive surface against wood, showing direct contact between resisting surfaces.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A hand rubs an abrasive surface against wood, showing direct contact between resisting surfaces."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "current",
+      "sourceWord": "current",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "current:meaning-1",
+          "pos": "n.",
+          "en": "a continuous movement of water, air, or electricity"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Electric current flows through the wire.",
+          "senseId": "current:meaning-1"
+        },
+        {
+          "en": "The diagram shows the direction of the current.",
+          "senseId": "current:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/current-v2.webp",
+        "sha256": "80e08a51705d78d439885d07ee61f2910e8c23e743735a058218fffaf03824bf"
+      },
+      "visual": {
+        "expectedCue": "A complete battery-and-lamp circuit has traceable base-terminal connections and conventional-current direction arrows.",
+        "decision": "replaced",
+        "reason": "The prior domestic sofa scene depicted the wrong sense for the published electrical examples.",
+        "inspectionNotes": "Accepted after correcting first generation's impossible top-of-glass connection. Final closed low-voltage battery loop attaches to separate lamp-holder base terminals; conventional-current arrows run positive to negative."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "OpenAI built-in image generation",
+        "prompt": "Use case: scientific-educational. Create one square educational vocabulary illustration for the noun ELECTRIC CURRENT, with no title or words. Clean axonometric engineering diagram, pale ivory background, slate blue devices and wiring, restrained amber directional arrows, precise crisp edges, modest paper texture. Show a complete low-voltage DC circuit: one small battery with a clearly visible + terminal and a clearly visible − terminal, one visibly glowing miniature bulb, and an unbroken external wire loop connecting battery positive to the bulb and then bulb to battery negative. Exactly one closed circuit; no dangling wire ends, no shorts bypassing the bulb. Several small amber arrows follow conventional current from the + terminal along the external wire through the bulb toward the − terminal, all arrows consistently along the same loop direction. Battery and bulb large and distinct; the connected flowing path must be recognizable at a 120px thumbnail. No people, no sofa, no clock, no lightning, no explosion, no electron dots going against arrows, no decorative extra circuit elements, no labels except + and −, no watermark. Visually teach continuous electrical flow rather than voltage.",
+        "revisionPrompt": "Edit this educational electric-current illustration. Preserve the square format, ivory textured background, gold/slate-blue palette, large battery at left, closed loop and clockwise amber conventional-current arrows. Correct one physical error: the electric wire must NOT enter or touch the top of the bulb glass. Show the bulb upright in a small real two-terminal lamp holder. Both electrical wire connections must attach to two visibly separate screw terminals on the lamp HOLDER/BASE below the glass: outgoing battery-positive wire connects to the left lamp-holder terminal, the return wire connects to the right lamp-holder terminal and back to battery-negative. The filament inside the bulb visibly connects to those two different base contacts. Reroute the top wire around down to the left base terminal without touching the glass; reroute the return away from the right base terminal. No wire crosses another wire and no bypass shorts across the lamp. Remove any top-of-glass wire. The lamp still glows. Battery +/− and consistent clockwise arrows remain. No added text or extra components."
+      }
+    },
+    {
+      "entryId": "circuit",
+      "sourceWord": "circuit",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "circuit:meaning-1",
+          "pos": "n.",
+          "en": "A connected path through which an electric current can flow"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The switch opens the electric circuit.",
+          "senseId": "circuit:meaning-1"
+        },
+        {
+          "en": "The students drew a simple circuit with a battery and a lamp.",
+          "senseId": "circuit:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/circuit.webp",
+        "sha256": "1521bfaebe10fa5f6056aa9cc06c0ed2c6d6b6dfd0c7679f7960b9ed42450bba"
+      },
+      "visual": {
+        "expectedCue": "A battery, lamp and switch are joined in a continuous electrical path.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A battery, lamp and switch are joined in a continuous electrical path."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "energy",
+      "sourceWord": "energy",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "energy:meaning-1",
+          "pos": "n.",
+          "en": "The capacity of a system to do work or cause change."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The panel converts sunlight into electrical energy.",
+          "senseId": "energy:meaning-1"
+        },
+        {
+          "en": "The machine transfers energy to the moving belt.",
+          "senseId": "energy:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/energy-v2.svg",
+        "sha256": "09b5bdb52e3adc9f1b6e5f1e4ac3e91efd7f07d513a7b1d29fdd8f6624f273c2"
+      },
+      "visual": {
+        "expectedCue": "One pendulum is shown at a raised position and at its lowest moving position, with an equal-length arc and common pivot showing stored energy becoming motion.",
+        "decision": "replaced",
+        "reason": "The prior playground scene suggested being energetic rather than an observable physical energy transformation."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "AI-assisted code-authored SVG diagram",
+        "design": "A common pendulum pivot, equal cord lengths and an explicit circular motion arc make the two positions geometrically consistent."
+      }
+    },
+    {
+      "entryId": "engine",
+      "sourceWord": "engine",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "engine:meaning-1",
+          "pos": "n.",
+          "en": "a machine that produces power to make something move"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The engine drives the wheels through a transmission.",
+          "senseId": "engine:meaning-1"
+        },
+        {
+          "en": "The mechanic inspected the engine before the journey.",
+          "senseId": "engine:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/engine.webp",
+        "sha256": "981d5f78322ff34a813232b737b47193f5bd468b075ba2e5ce4c5bea30ff4721"
+      },
+      "visual": {
+        "expectedCue": "A mechanic inspects a recognizable engine beneath an open vehicle hood.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A mechanic inspects a recognizable engine beneath an open vehicle hood."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "structure",
+      "sourceWord": "structure",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "structure:meaning-1",
+          "pos": "n.",
+          "en": "The way parts are arranged and connected within a whole."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The model shows the structure of a wooden bridge.",
+          "senseId": "structure:meaning-1"
+        },
+        {
+          "en": "Engineers studied the structure before changing the design.",
+          "senseId": "structure:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/structure.webp",
+        "sha256": "42e34f62b733da73de16cb420162d68a42aba610705f5a58d55d941fab5bb977"
+      },
+      "visual": {
+        "expectedCue": "A bridge model exposes the arrangement and connections of its supporting members.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A bridge model exposes the arrangement and connections of its supporting members."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "measure",
+      "sourceWord": "measure",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "measure:meaning-1",
+          "pos": "v.",
+          "en": "Find the size, amount, or degree of something."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Measure the length of the beam in centimetres.",
+          "senseId": "measure:meaning-1"
+        },
+        {
+          "en": "We measured the water before adding it to the mixture.",
+          "senseId": "measure:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/measure-v2.webp",
+        "sha256": "1b43590c1e8e21e6c0f26356b87af65475f3f0b049b045595c35f13ce54af01d"
+      },
+      "visual": {
+        "expectedCue": "A ruler's zero aligns with one end of a wood piece and a hand identifies the tick at the other end.",
+        "decision": "replaced",
+        "reason": "The prior distant workshop scene lacked a clear measuring reference and active reading cue.",
+        "inspectionNotes": "Hand points to the ruler tick at the end of a wood piece; ruler origin aligns with its other end. No numerical measurement claim; active measuring is the focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "OpenAI built-in image generation",
+        "prompt": "Use case: scientific-educational. One square educational vocabulary illustration for the VERB MEASURE: actively checking the length of a wooden piece. Close-up slightly overhead engineering/workshop illustration, pale ivory background, clean slate-blue steel ruler, honey-colored wood, crisp realistic hand anatomy, subtle paper texture. A long rectangular wood offcut lies horizontally on a clear workbench. A straight metal ruler lies flush against its long upper edge, its zero starting line aligned EXACTLY with the left end of the wood. The wood ends around three-quarters of the way along the ruler. One hand gently holds the ruler flat, and the index finger of a second hand points precisely to the tick at the right end of the wooden piece, showing the act of reading the length. On the ruler use evenly spaced fine tick marks, longer regular interval marks; no numbers, no invented units, no written labels. Add a fine restrained amber double-headed dimension arrow parallel to the wood between extension lines at its two ends. Keep all target objects large and immediately recognizable at120px; ruler and both ends fully visible. No saw, no tape bending in the air, no cutting action, no gloves, no extra hands/fingers, no text, no watermark."
+      }
+    },
+    {
+      "entryId": "material",
+      "sourceWord": "material",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "material:meaning-1",
+          "pos": "n.",
+          "en": "A substance used to make things, including cloth."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The team chose a light material for the frame.",
+          "senseId": "material:meaning-1"
+        },
+        {
+          "en": "Different materials have different properties.",
+          "senseId": "material:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/material-v2.webp",
+        "sha256": "93f2e3b87f189d706d5da9d6b2fd6b96583f3195f07efddc883e8c8687a2ea2a"
+      },
+      "visual": {
+        "expectedCue": "Distinct raw wood, metal, concrete and textile samples show substances from which objects can be made.",
+        "decision": "replaced",
+        "reason": "The prior cloth-working scene was valid but narrow; varied raw samples better represent the broader engineering sense.",
+        "inspectionNotes": "Raw wood, steel, concrete and woven textile samples broaden the substance sense and remain visually distinct."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "OpenAI built-in image generation",
+        "prompt": "Use case: scientific-educational. Create one square educational vocabulary image for MATERIAL: the substance something is made from. A clean axonometric materials sample display, four large raw material specimens arranged in a balanced2x2 composition with generous separation on pale ivory paper. Show: a sawn block of wood with clear end grain; a piece of steel stock with a clean brushed silver/slate-blue metallic cut face; a small rough grey concrete cube showing aggregate; and a folded square of thick woven fabric with visible threads and a frayed raw edge. These are unfinished sample substances, not furniture, buildings, machines or clothing. Each texture and edge should distinguish the material immediately, including at a120px thumbnail. Soft grounded shadows, accurate physical material surfaces, restrained slate-blue/ochre/wood palette, attractive editorial engineering illustration, no people, no hands, no labels, no text, no brand marks, no watermark."
+      }
+    },
+    {
+      "entryId": "mechanism",
+      "sourceWord": "mechanism",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "mechanism:meaning-1",
+          "pos": "n.",
+          "en": "a set of connected parts that performs a particular function"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The mechanism moves the two parts together.",
+          "senseId": "mechanism:meaning-1"
+        },
+        {
+          "en": "A simple mechanism controls the opening of the door.",
+          "senseId": "mechanism:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/mechanism-v2.webp",
+        "sha256": "f316c7a90f05625d7afce4f6a0569a82f46fb72d7174c174bde28efec1067420"
+      },
+      "visual": {
+        "expectedCue": "A crank, off-center pivot, connecting rod and slider are visibly connected, showing input rotation producing output movement.",
+        "decision": "replaced",
+        "reason": "The prior greenhouse-watering scene did not clearly reveal connected moving parts and their function.",
+        "inspectionNotes": "Crank disk, off-center pivot, connecting rod and slider are visibly connected. Rotation and translation arrows show function. Illustrative model rather than a manufacturing drawing."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "OpenAI built-in image generation",
+        "prompt": "Use case: scientific-educational. One square educational vocabulary illustration for MECHANISM: connected moving parts that work together. Clean almost-front-view engineering cutaway on pale ivory background, slate blue metal and restrained amber motion arrows. Show a simple physically correct slider-crank mechanism on a small base: a large circular crank disk at left rotates on a fixed central axle; an offset pin near its rim attaches by a single straight connecting rod to a rectangular sliding block at right, constrained by two straight horizontal guide rails. Both ends of the rod visibly attach with separate pivot joints, one at the off-center disk pin and one at the slider. The rod should slope slightly as it bridges disk pin to slider, with no broken connections or impossible overlaps. A small hand-crank handle is fixed to the disk, an amber curved arrow around the disk indicates rotation and an amber double-headed horizontal arrow above the slider indicates back-and-forth translation. The assembled device fills most of the square, every connection readable at a120px thumbnail. No people, no greenhouse, no pipes, no detached gears, no fake teeth, no motor or combustion engine, no text, no labels, no watermark. A precise attractive explanatory teaching illustration, physically simple rather than busy."
+      }
+    },
+    {
+      "entryId": "beam",
+      "sourceWord": "beam",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "beam:meaning-1",
+          "pos": "n.",
+          "en": "a long, strong piece supporting a roof or floor"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A steel beam supports the floor above.",
+          "senseId": "beam:meaning-1"
+        },
+        {
+          "en": "The drawing shows the position of each beam.",
+          "senseId": "beam:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/beam-v2.webp",
+        "sha256": "e784fcbcefdccaaabb18e0a53074e8cd60be86de54b179d97e67e78795f2d9d4"
+      },
+      "visual": {
+        "expectedCue": "A highlighted horizontal structural beam spans supports and carries a floor or roof load above.",
+        "decision": "replaced",
+        "reason": "The prior shaft-of-light scene depicted the wrong sense; the published entry is a structural member.",
+        "inspectionNotes": "Horizontal I-beam explicitly spans two columns and supports a partial floor deck; correct structural sense rather than light."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "OpenAI built-in image generation",
+        "prompt": "Use case: scientific-educational. Create one square vocabulary illustration of a STRUCTURAL BEAM, the long strong horizontal member supporting a floor or roof. Clean axonometric cutaway engineering illustration on pale ivory paper, slate-blue steel with amber downward load arrows. Large central horizontal steel I-beam visibly spans between two solid vertical support columns, sitting directly and plausibly on the column tops, holding several lighter floor joists and a small partial floor deck above it. The main beam is the largest, clearest element and its I-shaped end cross section is unmistakable. Three simple amber downward arrows on the floor deck show the load transferred onto the beam. Isolated explanatory model with uncluttered white space, crisp edges and subtle shadows, physically plausible connections; no floating floor parts, no impossible cantilevers, no disconnected supports. No people, no room interior, no sunlight shaft, no light rays, no lens flare, no decorative beams of light, no text, no labels, no branding or watermark. At120px thumbnail a viewer should identify the horizontal load-bearing piece immediately."
+      }
+    },
+    {
+      "entryId": "load",
+      "sourceWord": "load",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "load:meaning-1",
+          "pos": "n.",
+          "en": "something carried, or the amount a vehicle or person carries"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The truck carried a heavy load of timber.",
+          "senseId": "load:meaning-1"
+        },
+        {
+          "en": "The chart compares the loads carried by the two vehicles.",
+          "senseId": "load:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/load.webp",
+        "sha256": "9ecc1adbf9ab2f6d78ca8bfb17073f77c8f4d74e0a6883bdee996b32a12e907b"
+      },
+      "visual": {
+        "expectedCue": "An animal carries packed cargo, showing a transported load rather than an unrelated electrical meaning.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: An animal carries packed cargo, showing a transported load rather than an unrelated electrical meaning."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "law",
+      "sourceWord": "law",
+      "categoryId": "law-public-affairs",
+      "meanings": [
+        {
+          "senseId": "law:meaning-1",
+          "pos": "n.",
+          "en": "A rule made and enforced by a public authority."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The new law applies to public buildings.",
+          "senseId": "law:meaning-1"
+        },
+        {
+          "en": "The students discussed the purpose of the law.",
+          "senseId": "law:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/law.svg",
+        "sha256": "8f9e4474b37ba6c870e5570602bd3343bf648c13e03cdd0d5bcced2b1784b103"
+      },
+      "visual": {
+        "expectedCue": "A rules book, formal document and scales of justice represent publicly enforced rules.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A rules book, formal document and scales of justice represent publicly enforced rules."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "judge",
+      "sourceWord": "judge",
+      "categoryId": "law-public-affairs",
+      "meanings": [
+        {
+          "senseId": "judge:meaning-1",
+          "pos": "n.",
+          "en": "A public official who hears cases and makes decisions in a court."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The judge listened to both sides.",
+          "senseId": "judge:meaning-1"
+        },
+        {
+          "en": "A judge explained the decision to the court.",
+          "senseId": "judge:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/judge.svg",
+        "sha256": "e9bc3f5e31a4fc0830cb39f1ac2708444fe6f86cbd7c194d2e5649eceaf20fec"
+      },
+      "visual": {
+        "expectedCue": "A court official sits behind a judge's bench with a gavel, identifying the judicial role.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A court official sits behind a judge's bench with a gavel, identifying the judicial role."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "contract",
+      "sourceWord": "contract",
+      "categoryId": "law-public-affairs",
+      "meanings": [
+        {
+          "senseId": "contract:meaning-1",
+          "pos": "n.",
+          "en": "A formal agreement between people or organizations."
+        }
+      ],
+      "examples": [
+        {
+          "en": "They read the contract before the meeting.",
+          "senseId": "contract:meaning-1"
+        },
+        {
+          "en": "The contract describes the work and the payment.",
+          "senseId": "contract:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/contract.svg",
+        "sha256": "e0d3c46e7e873c859c19bab0a77f872c4a38c2102d346c9d18892871856d3fbd"
+      },
+      "visual": {
+        "expectedCue": "A signed formal document and pen represent an agreement.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A signed formal document and pen represent an agreement."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "painting",
+      "sourceWord": "painting",
+      "categoryId": "arts-media",
+      "meanings": [
+        {
+          "senseId": "painting:meaning-1",
+          "pos": "n.",
+          "en": "A picture made using paint."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The painting shows a quiet lake.",
+          "senseId": "painting:meaning-1"
+        },
+        {
+          "en": "We saw a colorful painting in the gallery.",
+          "senseId": "painting:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/painting.svg",
+        "sha256": "b336eae4f416bc89a9f52b1bdb7e8ce3be905368b2ce4d38d0662f064b531130"
+      },
+      "visual": {
+        "expectedCue": "A painted landscape appears on a canvas on an easel, showing the completed artwork noun.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A painted landscape appears on a canvas on an easel, showing the completed artwork noun."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "sculpture",
+      "sourceWord": "sculpture",
+      "categoryId": "arts-media",
+      "meanings": [
+        {
+          "senseId": "sculpture:meaning-1",
+          "pos": "n.",
+          "en": "A three-dimensional work of art made by shaping a material."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sculpture is made of smooth stone.",
+          "senseId": "sculpture:meaning-1"
+        },
+        {
+          "en": "Visitors walked around the sculpture.",
+          "senseId": "sculpture:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sculpture.svg",
+        "sha256": "60ee4d884a5c283289a5596c192ad87812ab00bf24cc3d37e7c3a71309c954fb"
+      },
+      "visual": {
+        "expectedCue": "A three-dimensional shaped bust stands on a plinth.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A three-dimensional shaped bust stands on a plinth."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "melody",
+      "sourceWord": "melody",
+      "categoryId": "arts-media",
+      "meanings": [
+        {
+          "senseId": "melody:meaning-1",
+          "pos": "n.",
+          "en": "A sequence of musical notes that forms a recognizable tune."
+        }
+      ],
+      "examples": [
+        {
+          "en": "She played a simple melody on the piano.",
+          "senseId": "melody:meaning-1"
+        },
+        {
+          "en": "I remembered the melody but not the words.",
+          "senseId": "melody:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/melody.svg",
+        "sha256": "2093dd53926edb2c12f608e4a334b74a4a381bd73bedb623987ee31325f198a5"
+      },
+      "visual": {
+        "expectedCue": "An ordered sequence of musical notes on a staff represents a tune.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: An ordered sequence of musical notes on a staff represents a tune."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "game",
+      "sourceWord": "game",
+      "categoryId": "gaming-digital-culture",
+      "meanings": [
+        {
+          "senseId": "game:meaning-1",
+          "pos": "n.",
+          "en": "An activity with rules in which people play for enjoyment or competition."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We played a board game after dinner.",
+          "senseId": "game:meaning-1"
+        },
+        {
+          "en": "The game has three different levels.",
+          "senseId": "game:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/game.svg",
+        "sha256": "9f3e721b64b57d4bfdce59b450426867c7d0006d3be46e76c3214cfaf0e09d5a"
+      },
+      "visual": {
+        "expectedCue": "A board, playing pieces and a die represent a rule-based play activity.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A board, playing pieces and a die represent a rule-based play activity."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "player",
+      "sourceWord": "player",
+      "categoryId": "gaming-digital-culture",
+      "meanings": [
+        {
+          "senseId": "player:meaning-1",
+          "pos": "n.",
+          "en": "A person who takes part in a game or sport."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Each player chooses a different character.",
+          "senseId": "player:meaning-1"
+        },
+        {
+          "en": "The team welcomed a new player.",
+          "senseId": "player:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/player.svg",
+        "sha256": "b6b1933ff07bea72389dd805a98dff80af270b0f99ebf28be0de130d95dc92bb"
+      },
+      "visual": {
+        "expectedCue": "A person actively holds and uses a game controller, identifying the participant rather than the device alone.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A person actively holds and uses a game controller, identifying the participant rather than the device alone."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "controller",
+      "sourceWord": "controller",
+      "categoryId": "gaming-digital-culture",
+      "meanings": [
+        {
+          "senseId": "controller:meaning-1",
+          "pos": "n.",
+          "en": "A handheld device used to control actions in a video game."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The controller has two small sticks and several buttons.",
+          "senseId": "controller:meaning-1"
+        },
+        {
+          "en": "She connected a controller to the computer.",
+          "senseId": "controller:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/controller.svg",
+        "sha256": "f03d07d02afb238bbd1d7280354cb9ebf22dc1717618c13add0dcfc673b215a4"
+      },
+      "visual": {
+        "expectedCue": "A recognizable handheld gamepad has sticks and buttons used to control a video game.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A recognizable handheld gamepad has sticks and buttons used to control a video game."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "emergency",
+      "sourceWord": "emergency",
+      "categoryId": "safety-emergencies",
+      "meanings": [
+        {
+          "senseId": "emergency:meaning-1",
+          "pos": "n.",
+          "en": "A serious unexpected situation that requires immediate attention."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The building has an emergency plan.",
+          "senseId": "emergency:meaning-1"
+        },
+        {
+          "en": "Staff practiced their roles in an emergency.",
+          "senseId": "emergency:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/emergency-v2.webp",
+        "sha256": "ff2aa9233bd2df797353ecb6d0b78d914785ce64b839a6f8df5c9150be372f29"
+      },
+      "visual": {
+        "expectedCue": "A broken water pipe actively floods a floor while a person urgently calls for help from a dry threshold.",
+        "decision": "replaced",
+        "reason": "The prior alarm-only symbol represented a signal, rather than the urgent unexpected situation itself.",
+        "inspectionNotes": "Accepted: visibly ruptured water pipe actively floods floor; concerned adult calls for help from a raised dry threshold. Actual urgent incident, no injuries, numbers, electrical equipment in water or alarm-only shorthand."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "built-in image_gen",
+        "prompt": "Use case: scientific-educational.\nAsset type: square 1:1 illustrated vocabulary card for the noun EMERGENCY: a serious unexpected situation that requires immediate attention. Depict an ACTUAL urgent incident, not an alarm icon or a warning sign.\nCreate a clean, bold editorial safety illustration. Strong readable shapes and controlled perspective with light print texture, navy and cool teal architecture, clear blue water, restrained coral accents on a pale neutral background. Inside a small utility room, a large exposed horizontal water pipe on the left has visibly burst at a jagged split or broken joint. A forceful stream of water is spraying from that split into the room, and water is rapidly pooling across the floor. The source of flooding must be unmistakably the BROKEN PIPE, with a coherent pipe construction and physically connected water jet.\nOn the right, a concerned adult stands safely on a raised dry doorway threshold, holding a mobile phone to their ear and urgently calling for help. The person looks directly toward the burst pipe; free hand gestures toward the problem. This should read as a response to an unexpected urgent event, with clear cause and action in one scene. Nobody injured, no panic crowd, no gore. Keep electrical equipment and outlets out of the wet area; no technical instructions.\nUncluttered composition, scene fills the card, readable at small thumbnail size. No words, letters, numbers, phone-screen text, captions, brand names, logos, watermark, warning triangles or alarm-only symbols."
+      }
+    },
+    {
+      "entryId": "shelter",
+      "sourceWord": "shelter",
+      "categoryId": "safety-emergencies",
+      "meanings": [
+        {
+          "senseId": "shelter:meaning-1",
+          "pos": "n.",
+          "en": "A place that provides protection from weather or danger."
+        }
+      ],
+      "examples": [
+        {
+          "en": "They found shelter from the rain.",
+          "senseId": "shelter:meaning-1"
+        },
+        {
+          "en": "The shelter has space for several families.",
+          "senseId": "shelter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/shelter-v2.webp",
+        "sha256": "8bd6ea02b35419fd22689e4f3b5b8b137ef467aa0111e75f9f554ac8f00ef522"
+      },
+      "visual": {
+        "expectedCue": "People stay dry beneath an open-sided solid-roof pavilion while heavy rain and puddles remain outside.",
+        "decision": "replaced",
+        "reason": "The prior isolated house in rain implied shelter; protected people and a dry area now show its purpose directly.",
+        "inspectionNotes": "Accepted: open-sided solid-roof pavilion protects a calm family on a dry central floor while heavy rain and puddles remain outside. Protection is visible rather than inferred from an isolated house."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "built-in image_gen",
+        "prompt": "Use case: scientific-educational.\nAsset type: square 1:1 vocabulary learning illustration for the noun SHELTER: a place that provides protection from bad weather or danger. Show the protection working, not just an isolated house icon.\nCreate a clean bold editorial safety illustration with confident shapes, light print texture, navy and cool teal weather, muted coral roof and warm cream people/undercover light. A small OPEN-SIDED park pavilion with a sturdy solid pitched roof and four coherent supporting posts stands in heavy rain. It has no enclosing house walls. Under the broad roof, two adults and a child sit together on a bench, safely set well back from the roof edges, relaxed and clearly protected. Their clothing and the entire visible floor beneath the middle of the roof are DRY.\nMake the contrast unmistakable: dense diagonal rain falls all around OUTSIDE the roof; water runs from the roof edges and wet reflective puddles cover the surrounding park path. The roof visibly blocks the falling rain above the people; no rain passes through the solid roof and no rain falls on the people. Pale warm light under the roof, stormy blue-gray surroundings. A folded umbrella may lean beside the bench as a secondary detail, never as the main subject. Keep both roof structure and protected people large enough to read in a small vocabulary card.\nCalm practical protection, not disaster spectacle. No words, letters, numbers, signs, captions, logos, brand names or watermarks. No house-only icon and no people standing out in the rain."
+      }
+    },
+    {
+      "entryId": "warning",
+      "sourceWord": "warning",
+      "categoryId": "safety-emergencies",
+      "meanings": [
+        {
+          "senseId": "warning:meaning-1",
+          "pos": "n.",
+          "en": "A message or signal that tells people about a possible danger or problem."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A warning sign stood beside the road.",
+          "senseId": "warning:meaning-1"
+        },
+        {
+          "en": "The screen displayed a warning about the connection.",
+          "senseId": "warning:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/warning.svg",
+        "sha256": "8f15e683ab36f353883e48de74af242ea944359d994f53c2b3bf294aff9aef30"
+      },
+      "visual": {
+        "expectedCue": "A high-contrast triangular exclamation sign visibly signals a possible danger.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A high-contrast triangular exclamation sign visibly signals a possible danger."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "simmer",
+      "sourceWord": "simmer",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "simmer:meaning-1",
+          "pos": "v.",
+          "en": "To cook a liquid gently at a temperature just below boiling."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The soup simmered gently in the pot.",
+          "senseId": "simmer:meaning-1"
+        },
+        {
+          "en": "The recipe says to simmer the sauce.",
+          "senseId": "simmer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/simmer-v2.webp",
+        "sha256": "41a1b56fcc5e8a237864d2ed25c2675b657b1d34a3e19c6d68512cf5c84c5f13"
+      },
+      "visual": {
+        "expectedCue": "A gently heated liquid has small sparse bubbles rather than a rolling boil, with an unobstructed view of its surface.",
+        "decision": "replaced",
+        "reason": "A matched close cooking view makes the gentle-bubble distinction from boiling and steaming clearer.",
+        "inspectionNotes": "Accepted second generation: one saucepan, mainly calm sauce surface with a few small edge bubbles and gentle steam over low heat. First diptych rejected because it also showed a rolling boil."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "built-in image_gen",
+        "prompt": "Create ONE square image, ONE scene, ONE saucepan only, no split screen, no panels, no comparison. An educational culinary illustration showing a terracotta saucepan of tomato sauce simmering gently on a low gas burner. Close three-quarter view: most of the sauce surface is smooth and still; just two or three tiny bubbles appear at the surface edge. A single thin wisp of steam. Small gentle flame below the pot. The sauce and pot dominate the square and are readable as a thumbnail. There is no spoon and no stirring. Softly textured refined editorial illustration, cream backdrop, terracotta, sage and muted ochre palette, clean natural geometry and restrained navy outlines. No lettering, numerals, logos, watermark, frames, extra pots or inset images."
+      }
+    },
+    {
+      "entryId": "bandage",
+      "sourceWord": "bandage",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "bandage:meaning-1",
+          "pos": "n.",
+          "en": "A strip of material used to cover or support an injured part of the body."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The nurse brought a clean bandage.",
+          "senseId": "bandage:meaning-1"
+        },
+        {
+          "en": "The package contains two rolls of bandage.",
+          "senseId": "bandage:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bandage.svg",
+        "sha256": "d954e95d5d8985a803a60ff1aa64bc0fe0992968ac3e8915f3782e64f94a8292"
+      },
+      "visual": {
+        "expectedCue": "A gauze roll has a visible unrolled woven strip used to cover or support an injury.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A gauze roll has a visible unrolled woven strip used to cover or support an injury."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "valve",
+      "sourceWord": "valve",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "valve:meaning-1",
+          "pos": "n.",
+          "en": "A device that controls the flow of a liquid or gas through a passage."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The diagram shows a valve inside the pipe.",
+          "senseId": "valve:meaning-1"
+        },
+        {
+          "en": "The valve controls the flow of water.",
+          "senseId": "valve:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/valve.svg",
+        "sha256": "afb839f26040b44ca26ce2399f221a08449aa591eef5da66a37d33a2524269cb"
+      },
+      "visual": {
+        "expectedCue": "A wheel-operated gate in a pipe controls the visible fluid passage.",
+        "decision": "retained",
+        "reason": "Retained after pixel inspection: A wheel-operated gate in a pipe controls the visible fluid passage."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "voltage",
+      "sourceWord": "voltage",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "voltage:meaning-1",
+          "pos": "n.",
+          "en": "The difference in electric potential between two points, measured in volts."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The label shows the battery voltage.",
+          "senseId": "voltage:meaning-1"
+        },
+        {
+          "en": "Voltage is measured between two points.",
+          "senseId": "voltage:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/voltage-v2.webp",
+        "sha256": "a38da86d5664e767a78738433ba11682f679e2e091c8e5d2c161bbb5aa043528"
+      },
+      "visual": {
+        "expectedCue": "A voltmeter has exactly two traceable leads connected across two separately marked battery terminals.",
+        "decision": "replaced",
+        "reason": "The prior meter illustration had ambiguous extra connections; two separate terminal leads make the potential-difference measurement clear.",
+        "inspectionNotes": "Voltmeter V connects across separately marked positive and negative battery terminals using two traceable leads; no direct bypass/short or current-flow arrows."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false
+      },
+      "generation": {
+        "method": "OpenAI built-in image generation",
+        "prompt": "Use case: scientific-educational. One square teaching illustration for VOLTAGE, meaning electric potential difference measured BETWEEN TWO POINTS. Clean axonometric engineering diagram on pale ivory paper, precise slate-blue devices and restrained amber highlights. Show only one low-voltage rectangular battery and one large analog voltmeter. The battery has TWO separate, well-spaced exposed top terminals, one marked + and the other marked −. The voltmeter face prominently shows the single letter V, a simple scale and a needle deflected from zero; no numbers needed. Exactly TWO test leads: a red wire runs directly from the battery's positive terminal to a red socket on the voltmeter, and a dark-blue wire runs directly from the battery's negative terminal to a DIFFERENT dark-blue socket on the voltmeter. Both leads remain separately traceable and never join. The meter is connected ACROSS the two battery terminals in parallel. No other branch, no bulb, no series lamp circuit, no loose ends, no crossed wires, no direct wire short between battery terminals, no current arrows, no lightning symbol. Large simple objects dominate and make the two-point comparison evident at120px. Physically credible connection topology is essential. No people, no labels other than +, − and V, no text, no brand or watermark."
+      }
+    }
+  ]
+}

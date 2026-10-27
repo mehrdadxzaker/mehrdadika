@@ -78,6 +78,8 @@ Starter material is an **AI-assisted editorial preview**. It must not be present
 
 Contributors can propose text, translation, illustrations, pronunciation corrections, new subject modules or code. See the [content guide](docs/contributing-content.md) for review, provenance and publication rules. Paid generation tools are optional maintainer utilities, not prerequisites for running the website or submitting corrections.
 
+Pictures must show the selected meaning and, for verbs, the action. The [illustration guide](docs/illustration-guidelines.md) sets category-specific visual standards. The current 72-word image audit includes 26 replacements, with exact meaning and image-hash bindings; `npm run check:illustrations` detects stale assessments. These are AI visual assessments, with independent human and specialist review still pending.
+
 ## Open source and attribution
 
 Application code follows the [MIT license](LICENSE). Educational content follows the scope and conditions in [CONTENT_LICENSE.md](CONTENT_LICENSE.md), including CC BY 4.0 attribution where applicable. Fonts, dependencies and individual assets retain their own terms; see [third-party notices](THIRD_PARTY_NOTICES.md).

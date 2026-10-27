@@ -39,9 +39,15 @@ test("new preview illustrations have original rights records and hashes for thei
     assert.match(asset.attribution, /Mehrdadika/);
     const bytes = fs.readFileSync(path.join(root, "public", mediaPath));
     assert.equal(crypto.createHash("sha256").update(bytes).digest("hex"), asset.sha256);
-    const svg = bytes.toString("utf8");
-    assert.match(svg, /<svg\b/);
-    assert.doesNotMatch(svg, /<script\b|(?:href|xlink:href)\s*=\s*["']https?:/i);
+    if (mediaPath.endsWith(".svg")) {
+      const svg = bytes.toString("utf8");
+      assert.match(svg, /<svg\b/);
+      assert.doesNotMatch(svg, /<script\b|(?:href|xlink:href)\s*=\s*["']https?:/i);
+    } else {
+      assert.equal(path.extname(mediaPath), ".webp");
+      assert.equal(bytes.toString("ascii", 0, 4), "RIFF");
+      assert.equal(bytes.toString("ascii", 8, 12), "WEBP");
+    }
     for (const kind of ["uk", "us", "ex", "ex2"]) {
       if (!entry.media[kind]) continue;
       assert.ok(fs.existsSync(path.join(root, "public", entry.media[kind])), `${id}: no invented ${kind} recording`);
