@@ -1,3 +1,5 @@
+import { uiDirection } from "../i18n/locale";
+import { tr } from "../i18n/messages";
 import type { Atlas, Entry } from "../atlas/types";
 import { toast } from "./Toast";
 
@@ -87,8 +89,8 @@ export async function renderWordCard(atlas: Atlas, entry: Entry) {
   ctx.fillStyle = "#6b6f80";
   ctx.font = `400 30px ${SANS}`;
   ctx.fillText(`UK ${entry.uk}    US ${entry.us}`, pad, 900, width);
-  ctx.direction = "rtl";
-  ctx.textAlign = "right";
+  ctx.direction = uiDirection();
+  ctx.textAlign = uiDirection() === "rtl" ? "right" : "left";
   ctx.fillStyle = "#1e2640";
   ctx.font = `600 38px ${SANS}`;
   let y = 970;
@@ -100,7 +102,7 @@ export async function renderWordCard(atlas: Atlas, entry: Entry) {
       .join("؛ "),
     width,
   ).slice(0, 2)) {
-    ctx.fillText(line, W - pad, y);
+    ctx.fillText(line, uiDirection() === "rtl" ? W - pad : pad, y);
     y += 52;
   }
   if (entry.ex[0]) {
@@ -114,22 +116,22 @@ export async function renderWordCard(atlas: Atlas, entry: Entry) {
       y += 45;
     }
     y += 12;
-    ctx.direction = "rtl";
-    ctx.textAlign = "right";
+    ctx.direction = uiDirection();
+    ctx.textAlign = uiDirection() === "rtl" ? "right" : "left";
     ctx.font = `400 30px ${SANS}`;
     ctx.fillStyle = "#6b6f80";
     for (const line of wrap(ctx, entry.ex[0].fa, width).slice(0, 2)) {
-      ctx.fillText(line, W - pad, y);
+      ctx.fillText(line, uiDirection() === "rtl" ? W - pad : pad, y);
       y += 42;
     }
   }
   ctx.fillStyle = "rgba(30,38,64,.14)";
   ctx.fillRect(pad, H - 136, width, 1);
-  ctx.direction = "rtl";
-  ctx.textAlign = "right";
+  ctx.direction = uiDirection();
+  ctx.textAlign = uiDirection() === "rtl" ? "right" : "left";
   ctx.fillStyle = "#1e2640";
   ctx.font = `600 32px ${SANS}`;
-  ctx.fillText("مهردادیکا · یک واژه، یک تصویر", W - pad, H - 82);
+  ctx.fillText(tr("مهردادیکا · یک واژه، یک تصویر"), uiDirection() === "rtl" ? W - pad : pad, H - 82);
   ctx.direction = "ltr";
   ctx.textAlign = "left";
   ctx.fillStyle = "#7a7c88";

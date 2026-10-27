@@ -3584,200 +3584,34 @@ a:hover .mark-needle,
   }
 }
 
-/* ---------- splash: the door to the atlas ---------- */
-
-.splash {
-  position: fixed;
-  inset: 0;
-  z-index: 100;
-  cursor: pointer;
-  perspective: 1400px;
-  overflow: hidden;
-  color: #f3ecdf;
-  -webkit-tap-highlight-color: transparent;
-}
-.door {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 50.5%;
-  background:
-    radial-gradient(120% 80% at var(--gx) 45%, #232c48 0%, #151b2e 55%, #0c1020 100%);
-  transition: transform 1.5s cubic-bezier(0.65, 0, 0.35, 1), filter 1.5s;
-  backface-visibility: hidden;
-}
-.splash.is-open .door::after {
-  /* a thin gilded edge appears as the doors part */
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  background: linear-gradient(transparent, rgba(230, 180, 87, 0.45) 30%, rgba(230, 180, 87, 0.45) 70%, transparent);
-}
-.door-l {
-  left: 0;
-  --gx: 100%;
-  transform-origin: left center;
-}
-.door-l::after {
-  right: 0;
-}
-.door-r {
-  right: 0;
-  --gx: 0%;
-  transform-origin: right center;
-}
-.door-r::after {
-  left: 0;
-}
-.splash-light {
-  position: absolute;
-  top: -10%;
-  bottom: -10%;
-  left: 50%;
-  width: 4px;
-  transform: translateX(-50%);
-  background: radial-gradient(ellipse 50% 50% at 50% 50%, rgba(255, 236, 200, 0.95), rgba(255, 214, 150, 0.35) 45%, transparent 72%);
-  opacity: 0;
-  pointer-events: none;
-}
-.splash-canvas {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-.splash-copy {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: max(11vh, 72px);
-  display: grid;
-  justify-items: center;
-  gap: 18px;
-  text-align: center;
-  pointer-events: none;
-}
-.splash-tag {
-  font: 600 clamp(20px, 3vw, 30px) / 1.2 "Songti SC", "STSong", "Noto Serif SC", serif;
-  letter-spacing: 0.32em;
-  padding-left: 0.32em;
-  opacity: 0;
-  transform: translateY(10px);
-  filter: blur(6px);
-  transition: opacity 1.2s var(--ease), transform 1.2s var(--ease), filter 1.2s var(--ease), letter-spacing 1.6s var(--ease);
-  text-shadow: 0 0 30px rgba(255, 214, 150, 0.35);
-}
-.splash-hint {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 13px;
-  letter-spacing: 0.18em;
-  color: rgba(243, 236, 223, 0.6);
-  opacity: 0;
-  transition: opacity 0.8s 0.5s;
-}
-.splash-key {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #e6b457;
-  box-shadow: 0 0 0 0 rgba(230, 180, 87, 0.6);
-  animation: beacon 1.8s ease-out infinite;
-}
-@keyframes beacon {
-  to {
-    box-shadow: 0 0 0 14px rgba(230, 180, 87, 0);
-  }
-}
-.splash-skip {
-  position: absolute;
-  top: max(18px, env(safe-area-inset-top));
-  right: 20px;
-  padding: 8px 14px;
-  border-radius: 999px;
-  font-size: 13px;
-  color: rgba(243, 236, 223, 0.55);
-  border: 1px solid rgba(243, 236, 223, 0.18);
-  transition: color 0.2s, border-color 0.2s, opacity 0.4s;
-}
-.splash-skip:hover {
-  color: #f3ecdf;
-  border-color: rgba(243, 236, 223, 0.5);
-}
-.splash.is-ready .splash-tag,
-.splash.is-open .splash-tag {
-  opacity: 1;
-  transform: none;
-  filter: none;
-}
-.splash.is-ready .splash-hint {
-  opacity: 1;
-}
-.splash.is-open {
-  pointer-events: none;
-}
-.splash.is-open .splash-hint,
-.splash.is-open .splash-skip {
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-.splash.is-open .splash-tag {
-  letter-spacing: 0.6em;
-  opacity: 0;
-  transition: opacity 1s 0.5s, letter-spacing 1.6s var(--ease);
-}
-.splash.is-open .door-l {
-  transform: rotateY(-96deg);
-  filter: brightness(1.6);
-}
-.splash.is-open .door-r {
-  transform: rotateY(96deg);
-  filter: brightness(1.6);
-}
-.splash.is-open .splash-light {
-  animation: doorlight 1.4s var(--ease) forwards;
-}
-@keyframes doorlight {
-  0% {
-    opacity: 0;
-    width: 4px;
-  }
-  25% {
-    opacity: 1;
-    width: 30vw;
-  }
-  100% {
-    opacity: 0;
-    width: 140vw;
-  }
-}
-.splash-static {
-  position: absolute;
-  inset: 0;
-  display: grid;
-  place-content: center;
-  justify-items: center;
-  gap: 8px;
-  font: 700 72px "Songti SC", serif;
-  transition: opacity 0.4s;
-}
-.splash-static small {
-  font: 600 14px var(--serif);
-  letter-spacing: 0.4em;
-  opacity: 0.7;
-}
-.splash.is-reduced .door {
-  transition: opacity 0.3s;
-}
-.splash.is-reduced.is-open .door,
-.splash.is-reduced.is-open .splash-static {
-  transform: none;
-  opacity: 0;
-}
+/* ---------- splash: a legible door to the atlas ---------- */
+.splash{position:fixed;inset:0;z-index:100;overflow:hidden;color:#f3ecdf;perspective:1400px;-webkit-tap-highlight-color:transparent;background:#0c1020}
+.door{position:absolute;top:0;bottom:0;width:50.5%;background:radial-gradient(120% 80% at var(--gx) 43%,#232c48 0%,#151b2e 55%,#0c1020 100%);transition:transform 1.2s cubic-bezier(.65,0,.35,1),filter 1.2s;backface-visibility:hidden}
+.door-l{left:0;--gx:100%;transform-origin:left center}.door-r{right:0;--gx:0%;transform-origin:right center}
+.splash-canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.splash-brand{position:absolute;left:50%;top:43%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:18px;width:min(650px,90vw);text-align:center;pointer-events:none;transition:opacity .55s,transform .8s}
+.splash-compass{width:128px;height:128px;flex-shrink:0;color:#f3ecdf;filter:drop-shadow(0 0 18px rgba(230,180,87,.12))}
+.splash-name{margin:0;font:750 clamp(44px,6vw,76px)/1.35 var(--sans);letter-spacing:-.02em;white-space:nowrap;color:#fff9ec;text-shadow:0 1px 16px rgba(230,180,87,.12)}
+html[dir=ltr] .splash-name{font-family:var(--serif);font-weight:650;letter-spacing:-.045em}
+.splash-wordmark{margin:0;font:500 12px/1.5 var(--sans);letter-spacing:.25em;color:#c9c1b2}
+.splash-copy{position:absolute;left:20px;right:20px;bottom:max(9vh,48px);display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center}
+.splash-tag{margin:0;font:500 clamp(19px,2.3vw,28px)/1.6 var(--sans);letter-spacing:0;color:#f3ecdf}
+.splash-enter{min-height:50px;min-width:184px;display:inline-flex;align-items:center;justify-content:center;gap:14px;padding:12px 26px;border-radius:999px;border:1px solid #f3ecdf;background:#f6f1e7;color:#1a2035;font:600 14px/1.5 var(--sans);cursor:pointer;box-shadow:0 6px 24px rgba(0,0,0,.16);transition:background .2s,transform .2s}
+html[dir=ltr] .splash-enter svg{transform:rotate(180deg)}
+.splash-enter:hover{background:#fffdf8;transform:translateY(-2px)}.splash-enter:focus-visible,.splash-languages a:focus-visible,.splash-skip:focus-visible{outline:2px solid #e6b457;outline-offset:5px}
+.splash-hint{margin:0;display:inline-flex;align-items:center;gap:9px;font:400 11px/1.6 var(--sans);color:#b3afaa;letter-spacing:0}
+.splash-hint kbd{border:1px solid rgba(243,236,223,.25);border-radius:5px;padding:1px 5px;font-size:10px;direction:ltr}
+.splash-languages{position:absolute;z-index:2;top:max(20px,env(safe-area-inset-top));left:24px;display:flex;flex-wrap:wrap;gap:7px;max-width:calc(100% - 130px);direction:ltr}
+.splash-languages .language-link{min-height:36px;padding:6px 11px;color:#f3ecdf;background:rgba(13,17,32,.45);border-color:rgba(243,236,223,.3);font:400 12px/1.5 var(--sans)}
+.splash-skip{position:absolute;z-index:2;top:max(20px,env(safe-area-inset-top));right:24px;min-height:36px;padding:7px 14px;border-radius:999px;font:400 12px/1.5 var(--sans);color:#d1cbbf;border:1px solid rgba(243,236,223,.25);background:rgba(13,17,32,.25);cursor:pointer}
+.splash-skip:hover{color:#fff9ec;border-color:rgba(243,236,223,.65)}
+.splash-light{position:absolute;top:-10%;bottom:-10%;left:50%;width:4px;transform:translateX(-50%);background:radial-gradient(ellipse at center,rgba(255,236,200,.7),rgba(255,214,150,.2) 45%,transparent 72%);opacity:0;pointer-events:none}
+.splash.is-open{pointer-events:none}.splash.is-open .door-l{transform:rotateY(-96deg);filter:brightness(1.4)}.splash.is-open .door-r{transform:rotateY(96deg);filter:brightness(1.4)}
+.splash.is-open .splash-brand{opacity:0;transform:translate(-50%,-50%) scale(1.04)}.splash.is-open .splash-copy,.splash.is-open .splash-languages,.splash.is-open .splash-skip{opacity:0;transition:opacity .25s}
+.splash.is-open .splash-light{animation:doorlight 1.1s ease-out forwards}@keyframes doorlight{0%{opacity:0;width:4px}25%{opacity:1;width:25vw}100%{opacity:0;width:140vw}}
+.splash.is-reduced .door{transition:opacity .2s}.splash.is-reduced.is-open .door{transform:none;opacity:0}
+@media(max-width:699px){.splash-brand{top:42%;gap:16px}.splash-compass{width:104px;height:104px}.splash-name{font-size:48px}.splash-wordmark{font-size:10px;letter-spacing:.2em}.splash-copy{gap:14px;bottom:max(8vh,40px)}.splash-tag{font-size:21px}.splash-languages{left:16px;max-width:calc(100% - 108px);gap:5px}.splash-languages .language-link{font-size:11px;padding-inline:8px}.splash-skip{right:16px;padding-inline:11px}}
+@media(max-height:600px){.splash-brand{top:39%;gap:10px}.splash-compass{width:64px;height:64px}.splash-name{font-size:38px}.splash-copy{bottom:24px;gap:10px}.splash-tag{font-size:18px}.splash-enter{min-height:42px;padding-block:8px}.splash-hint{display:none}.splash-wordmark{font-size:9px}}
 
 /* ---------- word galaxy ---------- */
 

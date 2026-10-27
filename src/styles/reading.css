@@ -489,6 +489,10 @@
   direction: rtl;
   text-align: left;
 }
+html[lang="pt-BR"] .reading-book-cover > p,
+html[lang="es-419"] .reading-book-cover > p {
+  direction: ltr;
+}
 .reading-book-art {
   position: relative;
   display: block;

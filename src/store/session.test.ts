@@ -1,8 +1,9 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { answer, advance, buildSession } from "./session";
+import { answer, advance, buildSession, nextNew, todayPlan } from "./session";
 import {
   defaultSettings,
+  dayKey,
   emptyProgress,
   sanitizeProgress,
   store,
@@ -40,6 +41,23 @@ const atlas = {
   audio: () => null,
 } as Atlas;
 atlas.byId = new Map(atlas.words.map((word) => [word.id, word]));
+test("Today distinguishes a completed daily new-word target from an exhausted collection", () => {
+  const settings = { ...defaultSettings, dailyNew: 5 };
+  const progress = emptyProgress("test");
+  progress.days[dayKey()] = { n: 5, r: 5, c: 5, t: 60 };
+  const completed = todayPlan(atlas, progress, settings);
+  assert.equal(completed.dailyTargetMet, true);
+  assert.deepEqual(completed.fresh, []);
+  assert.deepEqual(completed.due, []);
+  assert.deepEqual(nextNew(atlas, progress, settings, 1), ["sense-a"]);
+  const exhausted = todayPlan(
+    { ...atlas, words: [], byId: new Map() },
+    emptyProgress("test"),
+    settings,
+  );
+  assert.equal(exhausted.dailyTargetMet, false);
+  assert.deepEqual(exhausted.fresh, []);
+});
 test("a repeated answer cannot grade a pending question twice or duplicate retries", async () => {
   await store.useDataset("test");
   const p = emptyProgress("test");

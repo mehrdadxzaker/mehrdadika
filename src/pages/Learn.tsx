@@ -1,3 +1,5 @@
+import { uiIntlLocale } from "../i18n/locale";
+import { minuteUnit } from "../i18n";
 import {
   ArrowRight,
   Check,
@@ -167,12 +169,20 @@ function Intro({ step }: { step: Step }) {
 }
 
 function EntryLoadError() {
-  return <section className="panel" role="alert">
-    <h2>دریافت این واژه ممکن نشد.</h2>
-    <p>اتصال یا بستهٔ آفلاین را بررسی کنید. جای شما در این نوبت حفظ شده است.</p>
-    <button className="btn btn-primary" onClick={() => location.reload()}>تلاش دوباره</button>
-    <button className="btn btn-ghost" onClick={() => go({ page: "today" })}>بازگشت به امروز</button>
-  </section>;
+  return (
+    <section className="panel" role="alert">
+      <h2>دریافت این واژه ممکن نشد.</h2>
+      <p>
+        اتصال یا بستهٔ آفلاین را بررسی کنید. جای شما در این نوبت حفظ شده است.
+      </p>
+      <button className="btn btn-primary" onClick={() => location.reload()}>
+        تلاش دوباره
+      </button>
+      <button className="btn btn-ghost" onClick={() => go({ page: "today" })}>
+        بازگشت به امروز
+      </button>
+    </section>
+  );
 }
 
 const KIND_LABEL: Record<QuizKind, string> = {
@@ -639,7 +649,7 @@ function Summary({ session }: { session: ActiveSession }) {
       <div className="summary-card">
         <div className="summary-sky">
           <Galaxy mode="mini" highlight={words.map((w) => w.id)} ignite />
-          <p>امروز {litWords.toLocaleString("fa-IR")} ستاره روشن شد</p>
+          <p>امروز {litWords.toLocaleString(uiIntlLocale())} ستاره روشن شد</p>
         </div>
         <p className="eyebrow">این نوبت به پایان رسید</p>
         <h1 className="display">
@@ -671,7 +681,7 @@ function Summary({ session }: { session: ActiveSession }) {
               <dt>زمان</dt>
               <dd>
                 {minutes}
-                <small>دقیقه</small>
+                <small>{minuteUnit(minutes)}</small>
               </dd>
             </div>
           </dl>

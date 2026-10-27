@@ -1,4 +1,4 @@
-export type InterfaceLocale = "fa" | "pt-BR";
+export type InterfaceLocale = "fa" | "pt-BR" | "es-419";
 export type PlannedLocale = "pt-PT";
 
 export interface LocaleDefinition {
@@ -36,12 +36,21 @@ export const localeRegistry: readonly LocaleDefinition[] = [
     href: null,
     status: "planned",
   },
+  {
+    id: "es-419",
+    nativeName: "Español (Latinoamérica)",
+    englishName: "Latin American Spanish",
+    direction: "ltr",
+    href: "#/es-419",
+    status: "preview",
+  },
 ];
 
 export function resolveInterfaceLocale(value: unknown): InterfaceLocale {
   if (typeof value !== "string") return "fa";
   const normalized = value.replace(/_/g, "-").toLowerCase();
-  return normalized === "pt" || normalized === "pt-br" ? "pt-BR" : "fa";
+  if (normalized === "pt" || normalized === "pt-br") return "pt-BR";
+  return normalized === "es" || normalized === "es-419" ? "es-419" : "fa";
 }
 
 export function normalizePortugueseSearch(value: string): string {

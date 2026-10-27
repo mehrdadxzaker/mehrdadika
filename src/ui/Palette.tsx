@@ -1,3 +1,4 @@
+import { uiIntlLocale } from "../i18n/locale";
 import { CornerDownLeft, Search, X } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Atlas, WordRef } from "../atlas/types";
@@ -170,7 +171,7 @@ export function Palette({
           )}
           {!q && (
             <li className="palette-hint">
-              {atlas.count.toLocaleString("fa-IR")} واژه · جست‌وجوی انگلیسی،
+              {atlas.count.toLocaleString(uiIntlLocale())} واژه · جست‌وجوی انگلیسی،
               فارسی و معادل‌ها · <kbd>↑</kbd>
               <kbd>↓</kbd> انتخاب <kbd>↵</kbd> باز کردن
             </li>

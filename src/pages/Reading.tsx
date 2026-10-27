@@ -1,3 +1,4 @@
+import { uiIntlLocale } from "../i18n/locale";
 import {
   ArrowLeft,
   ArrowRight,
@@ -12,7 +13,7 @@ import {
   Type,
   Volume2,
 } from "lucide-react";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { useAtlas } from "../atlas/context";
 import { stopAudio } from "../lib/audio";
 import {
@@ -23,9 +24,12 @@ import {
 } from "../reading/model";
 import {
   readingSaveError,
+  readingSnapshot,
   updateReading,
   useReadingState,
 } from "../reading/state";
+import { observedParagraphPosition } from "../reading/position";
+import { readingChapterCount, readingMinutes } from "../reading/labels";
 import {
   DeviceSpeak,
   LookupText,
@@ -137,7 +141,7 @@ function ShortReading({ passage }: { passage: ReadingItem }) {
                 "خواندن"}
             </span>
             <span>{passage.level}</span>
-            <span>حدود {passage.minutes.toLocaleString("fa-IR")} دقیقه</span>
+            <span>حدود {readingMinutes(passage.minutes)}</span>
           </div>
         </header>
         <TargetWords words={passage.targetWords} />
@@ -228,7 +232,7 @@ function ReadingToolbar() {
           A−
         </button>
         <span>
-          {Math.round(state.fontScale * 100).toLocaleString("fa-IR")}٪
+          {Math.round(state.fontScale * 100).toLocaleString(uiIntlLocale())}٪
         </span>
         <button
           className="icon-btn"
@@ -294,14 +298,15 @@ function Comprehension({ passage }: { passage: ReadingItem }) {
       <div className="reading-section-title">
         <div>
           <p className="eyebrow">
-            درک مطلب · {passage.questions.length.toLocaleString("fa-IR")} پرسش
+            درک مطلب · {passage.questions.length.toLocaleString(uiIntlLocale())}{" "}
+            پرسش
           </p>
           <h3 id={`quiz-${passage.id}`}>متن را چقدر فهمیدی؟</h3>
         </div>
         {attempted === passage.questions.length && (
           <span className="reading-score" role="status">
-            {correct.toLocaleString("fa-IR")} از{" "}
-            {attempted.toLocaleString("fa-IR")} درست
+            {correct.toLocaleString(uiIntlLocale())} از{" "}
+            {attempted.toLocaleString(uiIntlLocale())} درست
           </span>
         )}
       </div>
@@ -378,10 +383,10 @@ function PassageLibrary({ selected }: { selected: string }) {
         <div>
           <p className="eyebrow">متن‌های کوتاه</p>
           <h2 id="short-library">
-            {catalog.passages.length.toLocaleString("fa-IR")} متن ·{" "}
+            {catalog.passages.length.toLocaleString(uiIntlLocale())} متن ·{" "}
             {catalog.passages
               .filter((passage) => state.completed.includes(passage.id))
-              .length.toLocaleString("fa-IR")}{" "}
+              .length.toLocaleString(uiIntlLocale())}{" "}
             تمرین‌شده
           </h2>
         </div>
@@ -483,7 +488,8 @@ function BookShelf({ books }: { books: ReadingBook[] }) {
               <p className="lede">{book.summaryFa}</p>
               <div className="reading-meta">
                 <span>
-                  {book.chapters.length.toLocaleString("fa-IR")} فصل منتشرشده
+                  {book.chapters.length.toLocaleString(uiIntlLocale())} فصل
+                  منتشرشده
                 </span>
                 <span>متن انگلیسی و فارسی</span>
               </div>
@@ -547,7 +553,7 @@ function BookOverview({ book }: { book: ReadingBook }) {
             </a>
           )}
           <p className="muted">
-            {book.chapters.length.toLocaleString("fa-IR")} فصل · {book.level}
+            {readingChapterCount(book.chapters.length)} · {book.level}
           </p>
         </div>
       </div>
@@ -555,8 +561,8 @@ function BookOverview({ book }: { book: ReadingBook }) {
         <p className="eyebrow">از یک ستاره، به ستاره‌ای دیگر</p>
         <h2 id="chapter-map">مسیر این داستان</h2>
         <p className="muted">
-          {completed.length.toLocaleString("fa-IR")} از{" "}
-          {book.chapters.length.toLocaleString("fa-IR")} فصل خوانده‌شده
+          {completed.length.toLocaleString(uiIntlLocale())} از{" "}
+          {book.chapters.length.toLocaleString(uiIntlLocale())} فصل خوانده‌شده
         </p>
         <ol>
           {book.chapters.map((chapter) => (
@@ -576,16 +582,14 @@ function BookOverview({ book }: { book: ReadingBook }) {
                 </span>
                 <div>
                   <span className="eyebrow">
-                    فصل {chapter.number.toLocaleString("fa-IR")}
+                    فصل {chapter.number.toLocaleString(uiIntlLocale())}
                   </span>
                   <h3>{chapter.titleFa}</h3>
                   <p lang="en" dir="ltr">
                     {chapter.titleEn}
                   </p>
                 </div>
-                <span className="muted">
-                  {chapter.minutes.toLocaleString("fa-IR")} دقیقه
-                </span>
+                <span className="muted">{readingMinutes(chapter.minutes)}</span>
                 <ArrowLeft size={18} />
               </a>
             </li>
@@ -744,8 +748,7 @@ function ChapterReader({
   );
   const next = book.chapters[chapterIndex + 1];
   const previous = book.chapters[chapterIndex - 1];
-  const initialAnchor = useRef(state.sentenceAnchors[chapter.id]);
-  useEffect(() => {
+  useLayoutEffect(() => {
     updateReading((currentState) => ({
       ...currentState,
       lastBookChapters: {
@@ -753,15 +756,17 @@ function ChapterReader({
         [book.id]: chapter.id,
       },
     }));
+    if (listening) return;
+    const savedAnchor =
+      sentences[chapterPosition(readingSnapshot(), chapter)]?.id;
     const paragraph = chapter.paragraphs.find((item) =>
-      item.sentences.some((sentence) => sentence.id === initialAnchor.current),
+      item.sentences.some((sentence) => sentence.id === savedAnchor),
     );
     if (!paragraph) return;
-    const frame = requestAnimationFrame(() =>
-      document.getElementById(paragraph.id)?.scrollIntoView({ block: "start" }),
-    );
-    return () => cancelAnimationFrame(frame);
-  }, [book.id, chapter.id, chapter.paragraphs]);
+    // Restore the viewport before the observer can interpret the initial page
+    // position as reading progress and overwrite the stored sentence anchor.
+    document.getElementById(paragraph.id)?.scrollIntoView({ block: "start" });
+  }, [book.id, chapter.id, chapter.paragraphs, sentences, listening]);
   useEffect(() => {
     if (listening || narration.playing || !("IntersectionObserver" in window))
       return;
@@ -771,15 +776,12 @@ function ChapterReader({
         if (!active) return;
         const visible = entries.find((entry) => entry.isIntersecting);
         if (!visible) return;
-        const paragraph = chapter.paragraphs.find(
-          (item) => item.id === visible.target.id,
+        const position = observedParagraphPosition(
+          chapter,
+          visible.target.id,
+          chapterPosition(readingSnapshot(), chapter),
         );
-        const anchor = paragraph?.sentences[0];
-        if (!anchor) return;
-        const position = sentences.findIndex(
-          (sentence) => sentence.id === anchor.id,
-        );
-        narration.locate(position);
+        if (position !== undefined) narration.locate(position);
       },
       { rootMargin: "-80px 0px -50% 0px", threshold: 0.1 },
     );
@@ -815,7 +817,8 @@ function ChapterReader({
           <ArrowRight size={21} />
         </a>
         <a href={chapterHref}>
-          فصل {chapter.number.toLocaleString("fa-IR")} · {chapter.titleFa}
+          فصل {chapter.number.toLocaleString(uiIntlLocale())} ·{" "}
+          {chapter.titleFa}
         </a>
         <div>
           <button
@@ -854,7 +857,7 @@ function ChapterReader({
             )}
           </div>
           <p className="eyebrow">
-            {book.titleFa} · فصل {chapter.number.toLocaleString("fa-IR")}
+            {book.titleFa} · فصل {chapter.number.toLocaleString(uiIntlLocale())}
           </p>
           <p className="book-listening-en" lang="en" dir="ltr">
             {current?.en}

@@ -1,3 +1,4 @@
+import { uiIntlLocale } from "../i18n/locale";
 import {
   ArrowLeft,
   ArrowRight,
@@ -75,7 +76,8 @@ function ParaphraseLevelCard({
       </div>
       <h2>{level.titleFa}</h2>
       <p className="muted">
-        {level.questions.length.toLocaleString("fa-IR")} پرسش در بافت جمله
+        {level.questions.length.toLocaleString(uiIntlLocale())} پرسش در بافت
+        جمله
       </p>
       <div className="paraphrase-stars" aria-label={`${stars} ستاره از ۳`}>
         {[1, 2, 3].map((star) => (
@@ -134,8 +136,10 @@ function ParaphraseRound({ level }: { level: ParaphraseLevel }) {
           <Sparkles size={38} strokeWidth={1.3} />
           <h1>این مرحله تمام شد.</h1>
           <p className="language-summary-score">
-            {score.correct.toLocaleString("fa-IR")}{" "}
-            <span>از {score.total.toLocaleString("fa-IR")} پاسخ درست</span>
+            {score.correct.toLocaleString(uiIntlLocale())}{" "}
+            <span>
+              از {score.total.toLocaleString(uiIntlLocale())} پاسخ درست
+            </span>
           </p>
           <p className="muted">پاسخ اول هر پرسش در نتیجه ثبت شده است.</p>
           <div className="reading-button-row">
@@ -159,8 +163,8 @@ function ParaphraseRound({ level }: { level: ParaphraseLevel }) {
         </a>
         <progress value={index} max={level.questions.length} />
         <span>
-          {(index + 1).toLocaleString("fa-IR")} /{" "}
-          {level.questions.length.toLocaleString("fa-IR")}
+          {(index + 1).toLocaleString(uiIntlLocale())} /{" "}
+          {level.questions.length.toLocaleString(uiIntlLocale())}
         </span>
       </div>
       <p className="eyebrow">

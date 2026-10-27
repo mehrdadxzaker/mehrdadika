@@ -14,100 +14,1556 @@
   },
   "categories": {
     "everyday-life": {
-      "label": "Vida cotidiana"
+      "label": "Vida cotidiana",
+      "subcategories": [
+        {
+          "en": "Time and dates",
+          "translation": "Horários e datas"
+        },
+        {
+          "en": "Daily routines",
+          "translation": "Rotinas diárias"
+        },
+        {
+          "en": "Errands",
+          "translation": "Tarefas fora de casa"
+        },
+        {
+          "en": "Household interactions",
+          "translation": "Interações em casa"
+        },
+        {
+          "en": "Public services",
+          "translation": "Serviços públicos"
+        },
+        {
+          "en": "Appointments",
+          "translation": "Compromissos e consultas"
+        },
+        {
+          "en": "Community life",
+          "translation": "Vida comunitária"
+        },
+        {
+          "en": "Migration and settling-in vocabulary",
+          "translation": "Vocabulário de migração e adaptação"
+        },
+        {
+          "en": "Shared everyday objects",
+          "translation": "Objetos comuns do dia a dia"
+        }
+      ]
     },
     "people-relationships": {
-      "label": "Pessoas e relacionamentos"
+      "label": "Pessoas e relacionamentos",
+      "subcategories": [
+        {
+          "en": "Family relationships",
+          "translation": "Relações familiares"
+        },
+        {
+          "en": "Friendship",
+          "translation": "Amizade"
+        },
+        {
+          "en": "Emotions",
+          "translation": "Emoções"
+        },
+        {
+          "en": "Personality",
+          "translation": "Personalidade"
+        },
+        {
+          "en": "Appearance",
+          "translation": "Aparência"
+        },
+        {
+          "en": "Social interaction",
+          "translation": "Interação social"
+        },
+        {
+          "en": "Conflict and agreement",
+          "translation": "Conflitos e acordos"
+        },
+        {
+          "en": "Life stages",
+          "translation": "Etapas da vida"
+        },
+        {
+          "en": "Accessibility and inclusion",
+          "translation": "Acessibilidade e inclusão"
+        }
+      ]
     },
     "education-academic": {
-      "label": "Educação e inglês acadêmico"
+      "label": "Educação e inglês acadêmico",
+      "subcategories": [
+        {
+          "en": "School",
+          "translation": "Escola"
+        },
+        {
+          "en": "university",
+          "translation": "Universidade"
+        },
+        {
+          "en": "teaching and learning",
+          "translation": "Ensino e aprendizagem"
+        },
+        {
+          "en": "assessment",
+          "translation": "Avaliação"
+        },
+        {
+          "en": "research methods",
+          "translation": "Métodos de pesquisa"
+        },
+        {
+          "en": "academic reading",
+          "translation": "Leitura acadêmica"
+        },
+        {
+          "en": "academic writing",
+          "translation": "Escrita acadêmica"
+        },
+        {
+          "en": "presentations",
+          "translation": "Apresentações"
+        },
+        {
+          "en": "evidence and argument",
+          "translation": "Evidências e argumentação"
+        }
+      ]
     },
     "medicine-healthcare": {
-      "label": "Medicina e saúde"
+      "label": "Medicina e saúde",
+      "subcategories": [
+        {
+          "en": "Everyday health",
+          "translation": "Saúde no dia a dia"
+        },
+        {
+          "en": "anatomy",
+          "translation": "Anatomia"
+        },
+        {
+          "en": "physiology",
+          "translation": "Fisiologia"
+        },
+        {
+          "en": "clinical communication",
+          "translation": "Comunicação clínica"
+        },
+        {
+          "en": "symptoms and examination",
+          "translation": "Sintomas e exame clínico"
+        },
+        {
+          "en": "tests and investigations",
+          "translation": "Exames e investigação diagnóstica"
+        },
+        {
+          "en": "specialties",
+          "translation": "Especialidades"
+        },
+        {
+          "en": "nursing",
+          "translation": "Enfermagem"
+        },
+        {
+          "en": "pharmacy",
+          "translation": "Farmácia"
+        },
+        {
+          "en": "dentistry",
+          "translation": "Odontologia"
+        },
+        {
+          "en": "rehabilitation",
+          "translation": "Reabilitação"
+        },
+        {
+          "en": "public health",
+          "translation": "Saúde pública"
+        },
+        {
+          "en": "medical devices",
+          "translation": "Dispositivos médicos"
+        }
+      ]
     },
     "engineering": {
-      "label": "Engenharia"
+      "label": "Engenharia",
+      "subcategories": [
+        {
+          "en": "Shared engineering foundations",
+          "translation": "Fundamentos comuns da engenharia"
+        },
+        {
+          "en": "mechanical",
+          "translation": "Engenharia mecânica"
+        },
+        {
+          "en": "electrical",
+          "translation": "Engenharia elétrica"
+        },
+        {
+          "en": "electronics",
+          "translation": "Eletrônica"
+        },
+        {
+          "en": "civil and structural",
+          "translation": "Engenharia civil e estrutural"
+        },
+        {
+          "en": "chemical",
+          "translation": "Engenharia química"
+        },
+        {
+          "en": "materials",
+          "translation": "Materiais"
+        },
+        {
+          "en": "industrial",
+          "translation": "Engenharia industrial"
+        },
+        {
+          "en": "manufacturing",
+          "translation": "Fabricação"
+        },
+        {
+          "en": "aerospace",
+          "translation": "Engenharia aeroespacial"
+        },
+        {
+          "en": "marine",
+          "translation": "Engenharia naval"
+        },
+        {
+          "en": "energy systems",
+          "translation": "Sistemas de energia"
+        },
+        {
+          "en": "measurement and reliability",
+          "translation": "Medição e confiabilidade"
+        }
+      ]
     },
     "computing-technology": {
-      "label": "Computação e tecnologia"
+      "label": "Computação e tecnologia",
+      "subcategories": [
+        {
+          "en": "Digital literacy",
+          "translation": "Letramento digital"
+        },
+        {
+          "en": "Consumer devices",
+          "translation": "Dispositivos de uso pessoal"
+        },
+        {
+          "en": "Hardware",
+          "translation": "Hardware"
+        },
+        {
+          "en": "Programming",
+          "translation": "Programação"
+        },
+        {
+          "en": "Software engineering",
+          "translation": "Engenharia de software"
+        },
+        {
+          "en": "Operating systems",
+          "translation": "Sistemas operacionais"
+        },
+        {
+          "en": "Networks",
+          "translation": "Redes"
+        },
+        {
+          "en": "Databases",
+          "translation": "Bancos de dados"
+        },
+        {
+          "en": "Web development",
+          "translation": "Desenvolvimento web"
+        },
+        {
+          "en": "Cloud systems",
+          "translation": "Sistemas em nuvem"
+        },
+        {
+          "en": "Cybersecurity",
+          "translation": "Segurança cibernética"
+        },
+        {
+          "en": "Data science",
+          "translation": "Ciência de dados"
+        },
+        {
+          "en": "Artificial intelligence",
+          "translation": "Inteligência artificial"
+        },
+        {
+          "en": "Human-computer interaction",
+          "translation": "Interação humano-computador"
+        }
+      ]
     },
     "natural-sciences-mathematics": {
-      "label": "Ciências naturais e matemática"
+      "label": "Ciências naturais e matemática",
+      "subcategories": [
+        {
+          "en": "Mathematics",
+          "translation": "Matemática"
+        },
+        {
+          "en": "statistics",
+          "translation": "Estatística"
+        },
+        {
+          "en": "measurement",
+          "translation": "Medição"
+        },
+        {
+          "en": "physics",
+          "translation": "Física"
+        },
+        {
+          "en": "chemistry",
+          "translation": "Química"
+        },
+        {
+          "en": "biology",
+          "translation": "Biologia"
+        },
+        {
+          "en": "microbiology",
+          "translation": "Microbiologia"
+        },
+        {
+          "en": "genetics",
+          "translation": "Genética"
+        },
+        {
+          "en": "astronomy",
+          "translation": "Astronomia"
+        },
+        {
+          "en": "laboratory equipment",
+          "translation": "Equipamentos de laboratório"
+        },
+        {
+          "en": "scientific methods",
+          "translation": "Métodos científicos"
+        }
+      ]
     },
     "business-management": {
-      "label": "Negócios e gestão"
+      "label": "Negócios e gestão",
+      "subcategories": [
+        {
+          "en": "Entrepreneurship",
+          "translation": "Empreendedorismo"
+        },
+        {
+          "en": "Strategy",
+          "translation": "Estratégia"
+        },
+        {
+          "en": "Management and organizations",
+          "translation": "Gestão e organizações"
+        },
+        {
+          "en": "Marketing",
+          "translation": "Marketing"
+        },
+        {
+          "en": "Sales",
+          "translation": "Vendas"
+        },
+        {
+          "en": "Human resources management",
+          "translation": "Gestão de recursos humanos"
+        },
+        {
+          "en": "Project management",
+          "translation": "Gestão de projetos"
+        },
+        {
+          "en": "Product management",
+          "translation": "Gestão de produtos"
+        },
+        {
+          "en": "Procurement management",
+          "translation": "Gestão de compras"
+        },
+        {
+          "en": "Business communication",
+          "translation": "Comunicação empresarial"
+        }
+      ]
     },
     "economics-finance": {
-      "label": "Economia e finanças"
+      "label": "Economia e finanças",
+      "subcategories": [
+        {
+          "en": "Everyday personal finance",
+          "translation": "Finanças pessoais do dia a dia"
+        },
+        {
+          "en": "microeconomics",
+          "translation": "Microeconomia"
+        },
+        {
+          "en": "macroeconomics",
+          "translation": "Macroeconomia"
+        },
+        {
+          "en": "accounting",
+          "translation": "Contabilidade"
+        },
+        {
+          "en": "banking",
+          "translation": "Serviços bancários"
+        },
+        {
+          "en": "payments",
+          "translation": "Pagamentos"
+        },
+        {
+          "en": "corporate finance",
+          "translation": "Finanças corporativas"
+        },
+        {
+          "en": "investing",
+          "translation": "Investimentos"
+        },
+        {
+          "en": "insurance",
+          "translation": "Seguros"
+        },
+        {
+          "en": "taxation terminology",
+          "translation": "Terminologia tributária"
+        },
+        {
+          "en": "financial statements",
+          "translation": "Demonstrações financeiras"
+        }
+      ]
     },
     "law-public-affairs": {
-      "label": "Direito e assuntos públicos"
+      "label": "Direito e assuntos públicos",
+      "subcategories": [
+        {
+          "en": "Legal foundations",
+          "translation": "Fundamentos do direito"
+        },
+        {
+          "en": "Contracts",
+          "translation": "Contratos"
+        },
+        {
+          "en": "Civil law terminology",
+          "translation": "Terminologia do direito civil"
+        },
+        {
+          "en": "Criminal law terminology",
+          "translation": "Terminologia do direito penal"
+        },
+        {
+          "en": "Courts and procedure",
+          "translation": "Tribunais e procedimentos"
+        },
+        {
+          "en": "Rights",
+          "translation": "Direitos"
+        },
+        {
+          "en": "Government",
+          "translation": "Governo"
+        },
+        {
+          "en": "Public administration",
+          "translation": "Administração pública"
+        },
+        {
+          "en": "Politics",
+          "translation": "Política"
+        },
+        {
+          "en": "International relations",
+          "translation": "Relações internacionais"
+        },
+        {
+          "en": "Policy",
+          "translation": "Políticas públicas"
+        },
+        {
+          "en": "Migration and citizenship",
+          "translation": "Migração e cidadania"
+        },
+        {
+          "en": "Community and volunteering",
+          "translation": "Comunidade e voluntariado"
+        }
+      ]
     },
     "architecture-infrastructure": {
-      "label": "Arquitetura e infraestrutura"
+      "label": "Arquitetura e infraestrutura",
+      "subcategories": [
+        {
+          "en": "Architecture",
+          "translation": "Arquitetura"
+        },
+        {
+          "en": "Building elements",
+          "translation": "Elementos de edificações"
+        },
+        {
+          "en": "Architectural drawings",
+          "translation": "Desenhos de arquitetura"
+        },
+        {
+          "en": "Construction",
+          "translation": "Construção"
+        },
+        {
+          "en": "Housing and property systems",
+          "translation": "Moradia e sistemas imobiliários"
+        },
+        {
+          "en": "Urban planning",
+          "translation": "Planejamento urbano"
+        },
+        {
+          "en": "Transport infrastructure",
+          "translation": "Infraestrutura de transportes"
+        },
+        {
+          "en": "Utilities infrastructure",
+          "translation": "Infraestrutura de serviços essenciais"
+        },
+        {
+          "en": "Surveying",
+          "translation": "Topografia"
+        },
+        {
+          "en": "Infrastructure maintenance",
+          "translation": "Manutenção da infraestrutura"
+        }
+      ]
     },
     "environment-agriculture": {
-      "label": "Meio ambiente e agricultura"
+      "label": "Meio ambiente e agricultura",
+      "subcategories": [
+        {
+          "en": "Physical geography",
+          "translation": "Geografia física"
+        },
+        {
+          "en": "Geology",
+          "translation": "Geologia"
+        },
+        {
+          "en": "Climate and weather",
+          "translation": "Clima e tempo"
+        },
+        {
+          "en": "Ecology",
+          "translation": "Ecologia"
+        },
+        {
+          "en": "Conservation",
+          "translation": "Conservação"
+        },
+        {
+          "en": "Pollution",
+          "translation": "Poluição"
+        },
+        {
+          "en": "Water and land management",
+          "translation": "Gestão da água e do solo"
+        },
+        {
+          "en": "Crop production",
+          "translation": "Produção agrícola"
+        },
+        {
+          "en": "Soil",
+          "translation": "Solo"
+        },
+        {
+          "en": "Livestock",
+          "translation": "Pecuária"
+        },
+        {
+          "en": "Veterinary science",
+          "translation": "Ciências veterinárias"
+        },
+        {
+          "en": "Forestry",
+          "translation": "Silvicultura"
+        },
+        {
+          "en": "Food systems",
+          "translation": "Sistemas alimentares"
+        }
+      ]
     },
     "arts-media": {
-      "label": "Artes e mídia"
+      "label": "Artes e mídia",
+      "subcategories": [
+        {
+          "en": "Visual arts",
+          "translation": "Artes visuais"
+        },
+        {
+          "en": "Graphic design",
+          "translation": "Design gráfico"
+        },
+        {
+          "en": "Music",
+          "translation": "Música"
+        },
+        {
+          "en": "Film and television",
+          "translation": "Cinema e televisão"
+        },
+        {
+          "en": "Photography",
+          "translation": "Fotografia"
+        },
+        {
+          "en": "Journalism",
+          "translation": "Jornalismo"
+        },
+        {
+          "en": "Publishing",
+          "translation": "Publicação editorial"
+        },
+        {
+          "en": "Broadcasting",
+          "translation": "Radiodifusão"
+        },
+        {
+          "en": "Advertising",
+          "translation": "Publicidade"
+        },
+        {
+          "en": "Creative writing",
+          "translation": "Escrita criativa"
+        },
+        {
+          "en": "Performing arts",
+          "translation": "Artes cênicas"
+        },
+        {
+          "en": "Crafts",
+          "translation": "Artesanato"
+        }
+      ]
     },
     "humanities-society": {
-      "label": "Ciências humanas e sociedade"
+      "label": "Ciências humanas e sociedade",
+      "subcategories": [
+        {
+          "en": "History",
+          "translation": "História"
+        },
+        {
+          "en": "philosophy",
+          "translation": "Filosofia"
+        },
+        {
+          "en": "literature",
+          "translation": "Literatura"
+        },
+        {
+          "en": "religion",
+          "translation": "Religião"
+        },
+        {
+          "en": "linguistics",
+          "translation": "Linguística"
+        },
+        {
+          "en": "sociology",
+          "translation": "Sociologia"
+        },
+        {
+          "en": "anthropology",
+          "translation": "Antropologia"
+        },
+        {
+          "en": "psychology",
+          "translation": "Psicologia"
+        },
+        {
+          "en": "cultural studies",
+          "translation": "Estudos culturais"
+        },
+        {
+          "en": "archaeology",
+          "translation": "Arqueologia"
+        },
+        {
+          "en": "social institutions",
+          "translation": "Instituições sociais"
+        }
+      ]
     },
     "trades-practical-work": {
-      "label": "Ofícios e trabalho técnico"
+      "label": "Ofícios e trabalho técnico",
+      "subcategories": [
+        {
+          "en": "Tools",
+          "translation": "Ferramentas"
+        },
+        {
+          "en": "Workshop practice",
+          "translation": "Prática em oficina"
+        },
+        {
+          "en": "Automotive repair",
+          "translation": "Reparação automotiva"
+        },
+        {
+          "en": "Electrical installation",
+          "translation": "Instalações elétricas"
+        },
+        {
+          "en": "Plumbing",
+          "translation": "Instalações hidráulicas"
+        },
+        {
+          "en": "Welding",
+          "translation": "Soldagem"
+        },
+        {
+          "en": "Machining",
+          "translation": "Usinagem"
+        },
+        {
+          "en": "Installation and maintenance",
+          "translation": "Instalação e manutenção"
+        },
+        {
+          "en": "Workplace safety",
+          "translation": "Segurança no trabalho"
+        }
+      ]
     },
     "sports-recreation": {
-      "label": "Esportes e recreação"
+      "label": "Esportes e recreação",
+      "subcategories": [
+        {
+          "en": "Individual sports",
+          "translation": "Esportes individuais"
+        },
+        {
+          "en": "team sports",
+          "translation": "Esportes coletivos"
+        },
+        {
+          "en": "exercise",
+          "translation": "Exercícios físicos"
+        },
+        {
+          "en": "fitness equipment",
+          "translation": "Equipamentos de condicionamento físico"
+        },
+        {
+          "en": "games",
+          "translation": "Jogos"
+        },
+        {
+          "en": "outdoor activities",
+          "translation": "Atividades ao ar livre"
+        },
+        {
+          "en": "hobbies",
+          "translation": "Passatempos"
+        },
+        {
+          "en": "recreation facilities",
+          "translation": "Instalações recreativas"
+        },
+        {
+          "en": "sporting events",
+          "translation": "Eventos esportivos"
+        }
+      ]
     },
     "cooking-food-drink": {
-      "label": "Culinária, alimentos e bebidas"
+      "label": "Culinária, alimentos e bebidas",
+      "subcategories": [
+        {
+          "en": "Ingredients and food groups",
+          "translation": "Ingredientes e grupos alimentares"
+        },
+        {
+          "en": "Preparation verbs",
+          "translation": "Verbos de preparo"
+        },
+        {
+          "en": "Cooking methods",
+          "translation": "Métodos de cocção"
+        },
+        {
+          "en": "Kitchen utensils and appliances",
+          "translation": "Utensílios e eletrodomésticos de cozinha"
+        },
+        {
+          "en": "Baking, pastry and desserts",
+          "translation": "Panificação, confeitaria e sobremesas"
+        },
+        {
+          "en": "Drinks and beverage preparation",
+          "translation": "Bebidas e seu preparo"
+        },
+        {
+          "en": "Flavors, textures and doneness",
+          "translation": "Sabores, texturas e ponto de cocção"
+        },
+        {
+          "en": "Recipes, portions and measurements",
+          "translation": "Receitas, porções e medidas"
+        },
+        {
+          "en": "Cuisines and dishes",
+          "translation": "Culinárias e pratos"
+        },
+        {
+          "en": "Menus, serving and dining",
+          "translation": "Cardápios, serviço e refeições"
+        },
+        {
+          "en": "Food storage and hygiene",
+          "translation": "Conservação e higiene dos alimentos"
+        },
+        {
+          "en": "Dietary preferences and allergen terminology",
+          "translation": "Preferências alimentares e terminologia de alérgenos"
+        }
+      ]
     },
     "travel-tourism-hospitality": {
-      "label": "Viagens, turismo e hospitalidade"
+      "label": "Viagens, turismo e hospitalidade",
+      "subcategories": [
+        {
+          "en": "Trip planning",
+          "translation": "Planejamento de viagens"
+        },
+        {
+          "en": "Destinations and sightseeing",
+          "translation": "Destinos e passeios"
+        },
+        {
+          "en": "Accommodation and reservations",
+          "translation": "Hospedagem e reservas"
+        },
+        {
+          "en": "Hotels and guest services",
+          "translation": "Hotéis e serviços aos hóspedes"
+        },
+        {
+          "en": "Travel documents and border vocabulary",
+          "translation": "Documentos de viagem e vocabulário de fronteiras"
+        },
+        {
+          "en": "Tour guiding",
+          "translation": "Guias e condução de passeios"
+        },
+        {
+          "en": "Attractions and museums",
+          "translation": "Atrações e museus"
+        },
+        {
+          "en": "Restaurant and hospitality service",
+          "translation": "Serviço de restaurante e hospitalidade"
+        },
+        {
+          "en": "Travel problems",
+          "translation": "Problemas em viagens"
+        },
+        {
+          "en": "Accessible travel",
+          "translation": "Viagens acessíveis"
+        }
+      ]
     },
     "transport-vehicles": {
-      "label": "Transportes e veículos"
+      "label": "Transportes e veículos",
+      "subcategories": [
+        {
+          "en": "Walking and cycling",
+          "translation": "Caminhada e ciclismo"
+        },
+        {
+          "en": "Public transit",
+          "translation": "Transporte público"
+        },
+        {
+          "en": "Road travel and driving",
+          "translation": "Viagens por estrada e direção"
+        },
+        {
+          "en": "Cars and motorcycles",
+          "translation": "Carros e motocicletas"
+        },
+        {
+          "en": "Vehicle parts and operation",
+          "translation": "Peças e funcionamento dos veículos"
+        },
+        {
+          "en": "Railways",
+          "translation": "Ferrovias"
+        },
+        {
+          "en": "Aviation and airports",
+          "translation": "Aviação e aeroportos"
+        },
+        {
+          "en": "Ships and ports",
+          "translation": "Navios e portos"
+        },
+        {
+          "en": "Navigation and traffic",
+          "translation": "Navegação e trânsito"
+        },
+        {
+          "en": "Passenger journeys",
+          "translation": "Viagens de passageiros"
+        }
+      ]
     },
     "home-gardening-diy": {
-      "label": "Casa, jardinagem e pequenos reparos"
+      "label": "Casa, jardinagem e pequenos reparos",
+      "subcategories": [
+        {
+          "en": "Rooms and furniture",
+          "translation": "Cômodos e móveis"
+        },
+        {
+          "en": "Household appliances",
+          "translation": "Eletrodomésticos"
+        },
+        {
+          "en": "Cleaning and laundry",
+          "translation": "Limpeza e lavagem de roupas"
+        },
+        {
+          "en": "Housing, renting and moving",
+          "translation": "Moradia, aluguel e mudança"
+        },
+        {
+          "en": "Property services",
+          "translation": "Serviços para imóveis"
+        },
+        {
+          "en": "Home organization",
+          "translation": "Organização da casa"
+        },
+        {
+          "en": "Gardening tools",
+          "translation": "Ferramentas de jardinagem"
+        },
+        {
+          "en": "Plants and plant care",
+          "translation": "Plantas e seus cuidados"
+        },
+        {
+          "en": "Home improvement",
+          "translation": "Melhorias na casa"
+        },
+        {
+          "en": "Simple household repairs",
+          "translation": "Pequenos reparos domésticos"
+        },
+        {
+          "en": "Decoration and furnishings",
+          "translation": "Decoração e mobiliário"
+        }
+      ]
     },
     "fashion-beauty-personal-care": {
-      "label": "Moda, beleza e cuidados pessoais"
+      "label": "Moda, beleza e cuidados pessoais",
+      "subcategories": [
+        {
+          "en": "Clothing and accessories",
+          "translation": "Roupas e acessórios"
+        },
+        {
+          "en": "Fabrics and materials",
+          "translation": "Tecidos e materiais"
+        },
+        {
+          "en": "Sizes and fit",
+          "translation": "Tamanhos e caimento"
+        },
+        {
+          "en": "Footwear",
+          "translation": "Calçados"
+        },
+        {
+          "en": "Fashion design and tailoring",
+          "translation": "Design de moda e costura"
+        },
+        {
+          "en": "Hair and salon vocabulary",
+          "translation": "Vocabulário de cabelo e salão"
+        },
+        {
+          "en": "Skincare and cosmetics",
+          "translation": "Cuidados com a pele e cosméticos"
+        },
+        {
+          "en": "Grooming and hygiene",
+          "translation": "Cuidados pessoais e higiene"
+        },
+        {
+          "en": "Beauty services",
+          "translation": "Serviços de beleza"
+        },
+        {
+          "en": "Shopping and product labels",
+          "translation": "Compras e rótulos de produtos"
+        }
+      ]
     },
     "parenting-family-care": {
-      "label": "Criação dos filhos e cuidados com a família"
+      "label": "Criação dos filhos e cuidados com a família",
+      "subcategories": [
+        {
+          "en": "Pregnancy and birth vocabulary",
+          "translation": "Vocabulário de gestação e parto"
+        },
+        {
+          "en": "Infant care",
+          "translation": "Cuidados com bebês"
+        },
+        {
+          "en": "Childcare and routines",
+          "translation": "Cuidados infantis e rotinas"
+        },
+        {
+          "en": "Child development terminology",
+          "translation": "Terminologia do desenvolvimento infantil"
+        },
+        {
+          "en": "School-family communication",
+          "translation": "Comunicação entre escola e família"
+        },
+        {
+          "en": "Parenting conversations",
+          "translation": "Conversas sobre criação dos filhos"
+        },
+        {
+          "en": "Play and learning",
+          "translation": "Brincadeiras e aprendizagem"
+        },
+        {
+          "en": "Elder care",
+          "translation": "Cuidados com idosos"
+        },
+        {
+          "en": "Disability support and caregiving",
+          "translation": "Apoio à pessoa com deficiência e cuidados"
+        },
+        {
+          "en": "Household care coordination",
+          "translation": "Coordenação dos cuidados domésticos"
+        }
+      ]
     },
     "animals-pets-wildlife": {
-      "label": "Animais, pets e vida selvagem"
+      "label": "Animais, pets e vida selvagem",
+      "subcategories": [
+        {
+          "en": "Animal groups",
+          "translation": "Grupos de animais"
+        },
+        {
+          "en": "Animal anatomy and behavior",
+          "translation": "Anatomia e comportamento animal"
+        },
+        {
+          "en": "Pets and supplies",
+          "translation": "Animais de estimação e suprimentos"
+        },
+        {
+          "en": "Feeding and care",
+          "translation": "Alimentação e cuidados"
+        },
+        {
+          "en": "Training terminology",
+          "translation": "Terminologia de treinamento"
+        },
+        {
+          "en": "Animal shelters and adoption",
+          "translation": "Abrigos e adoção de animais"
+        },
+        {
+          "en": "Wildlife and habitats",
+          "translation": "Fauna silvestre e habitats"
+        },
+        {
+          "en": "Birds",
+          "translation": "Aves"
+        },
+        {
+          "en": "Marine life",
+          "translation": "Vida marinha"
+        },
+        {
+          "en": "Insects",
+          "translation": "Insetos"
+        },
+        {
+          "en": "Animal welfare",
+          "translation": "Bem-estar animal"
+        },
+        {
+          "en": "Veterinary visit vocabulary",
+          "translation": "Vocabulário de consultas veterinárias"
+        }
+      ]
     },
     "languages-communication": {
-      "label": "Línguas e comunicação"
+      "label": "Línguas e comunicação",
+      "subcategories": [
+        {
+          "en": "Languages and scripts",
+          "translation": "Línguas e sistemas de escrita"
+        },
+        {
+          "en": "Grammar terminology",
+          "translation": "Terminologia gramatical"
+        },
+        {
+          "en": "Pronunciation terminology",
+          "translation": "Terminologia de pronúncia"
+        },
+        {
+          "en": "Conversation and turn-taking",
+          "translation": "Conversação e alternância de turnos"
+        },
+        {
+          "en": "Questions and clarification",
+          "translation": "Perguntas e esclarecimentos"
+        },
+        {
+          "en": "Telephone and video calls",
+          "translation": "Ligações telefônicas e chamadas de vídeo"
+        },
+        {
+          "en": "Messages and email",
+          "translation": "Mensagens e e-mail"
+        },
+        {
+          "en": "Translation and interpreting",
+          "translation": "Tradução e interpretação"
+        },
+        {
+          "en": "Writing and editing terminology",
+          "translation": "Terminologia de escrita e edição"
+        },
+        {
+          "en": "Public speaking",
+          "translation": "Falar em público"
+        },
+        {
+          "en": "Nonverbal communication",
+          "translation": "Comunicação não verbal"
+        },
+        {
+          "en": "Accessible communication",
+          "translation": "Comunicação acessível"
+        }
+      ]
     },
     "gaming-digital-culture": {
-      "label": "Jogos e cultura digital"
+      "label": "Jogos e cultura digital",
+      "subcategories": [
+        {
+          "en": "Game genres",
+          "translation": "Gêneros de jogos"
+        },
+        {
+          "en": "Gameplay and controls",
+          "translation": "Jogabilidade e controles"
+        },
+        {
+          "en": "Consoles and gaming hardware",
+          "translation": "Consoles e hardware para jogos"
+        },
+        {
+          "en": "Multiplayer and online communities",
+          "translation": "Jogos multijogador e comunidades online"
+        },
+        {
+          "en": "Esports",
+          "translation": "Esportes eletrônicos"
+        },
+        {
+          "en": "Game design terminology",
+          "translation": "Terminologia de design de jogos"
+        },
+        {
+          "en": "Streaming and creators",
+          "translation": "Transmissões ao vivo e criadores"
+        },
+        {
+          "en": "Social platforms",
+          "translation": "Plataformas sociais"
+        },
+        {
+          "en": "Internet expressions",
+          "translation": "Expressões da internet"
+        },
+        {
+          "en": "Digital etiquette",
+          "translation": "Etiqueta digital"
+        }
+      ]
     },
     "safety-emergencies": {
-      "label": "Segurança e emergências"
+      "label": "Segurança e emergências",
+      "subcategories": [
+        {
+          "en": "Hazard and warning signs",
+          "translation": "Sinais de perigo e advertência"
+        },
+        {
+          "en": "Protective equipment",
+          "translation": "Equipamentos de proteção"
+        },
+        {
+          "en": "Emergency services",
+          "translation": "Serviços de emergência"
+        },
+        {
+          "en": "Reporting an emergency",
+          "translation": "Comunicação de uma emergência"
+        },
+        {
+          "en": "Fire and evacuation vocabulary",
+          "translation": "Vocabulário de incêndio e evacuação"
+        },
+        {
+          "en": "First-aid terminology",
+          "translation": "Terminologia de primeiros socorros"
+        },
+        {
+          "en": "Natural disasters",
+          "translation": "Desastres naturais"
+        },
+        {
+          "en": "Road and travel safety",
+          "translation": "Segurança no trânsito e em viagens"
+        },
+        {
+          "en": "Home safety",
+          "translation": "Segurança em casa"
+        },
+        {
+          "en": "Workplace safety",
+          "translation": "Segurança no trabalho"
+        },
+        {
+          "en": "Disaster preparedness vocabulary",
+          "translation": "Vocabulário de preparação para desastres"
+        }
+      ]
     },
     "manufacturing-logistics": {
-      "label": "Produção, logística e cadeia de suprimentos"
+      "label": "Produção, logística e cadeia de suprimentos",
+      "subcategories": [
+        {
+          "en": "Production processes",
+          "translation": "Processos de produção"
+        },
+        {
+          "en": "Factories and workstations",
+          "translation": "Fábricas e postos de trabalho"
+        },
+        {
+          "en": "Assembly and packaging",
+          "translation": "Montagem e embalagem"
+        },
+        {
+          "en": "Quality inspection",
+          "translation": "Inspeção de qualidade"
+        },
+        {
+          "en": "Inventory and warehousing",
+          "translation": "Estoque e armazenagem"
+        },
+        {
+          "en": "Picking and fulfillment",
+          "translation": "Separação e atendimento de pedidos"
+        },
+        {
+          "en": "Freight and shipping",
+          "translation": "Frete e transporte de cargas"
+        },
+        {
+          "en": "Customs and trade documents",
+          "translation": "Alfândega e documentos comerciais"
+        },
+        {
+          "en": "Procurement execution",
+          "translation": "Execução de compras"
+        },
+        {
+          "en": "Last-mile delivery",
+          "translation": "Entrega de última milha"
+        },
+        {
+          "en": "Returns and reverse logistics",
+          "translation": "Devoluções e logística reversa"
+        },
+        {
+          "en": "Supply-chain operations",
+          "translation": "Operações da cadeia de suprimentos"
+        }
+      ]
     },
     "retail-ecommerce": {
-      "label": "Varejo e comércio eletrônico"
+      "label": "Varejo e comércio eletrônico",
+      "subcategories": [
+        {
+          "en": "Shops and retail roles",
+          "translation": "Lojas e funções no varejo"
+        },
+        {
+          "en": "Merchandising and displays",
+          "translation": "Exposição de produtos e vitrines"
+        },
+        {
+          "en": "Product catalogs and descriptions",
+          "translation": "Catálogos e descrições de produtos"
+        },
+        {
+          "en": "Online shopping",
+          "translation": "Compras online"
+        },
+        {
+          "en": "Checkout and payment language",
+          "translation": "Linguagem de finalização de compra e pagamento"
+        },
+        {
+          "en": "Customer support",
+          "translation": "Atendimento ao cliente"
+        },
+        {
+          "en": "Orders and tracking",
+          "translation": "Pedidos e rastreamento"
+        },
+        {
+          "en": "Returns and refunds",
+          "translation": "Devoluções e reembolsos"
+        },
+        {
+          "en": "Complaints and service recovery",
+          "translation": "Reclamações e recuperação do atendimento"
+        },
+        {
+          "en": "Reviews and customer experience",
+          "translation": "Avaliações e experiência do cliente"
+        }
+      ]
     },
     "careers-workplace": {
-      "label": "Carreira e ambiente de trabalho"
+      "label": "Carreira e ambiente de trabalho",
+      "subcategories": [
+        {
+          "en": "Jobs and occupations",
+          "translation": "Empregos e profissões"
+        },
+        {
+          "en": "Job search",
+          "translation": "Busca de emprego"
+        },
+        {
+          "en": "CVs and applications",
+          "translation": "Currículos e candidaturas"
+        },
+        {
+          "en": "Interviews",
+          "translation": "Entrevistas"
+        },
+        {
+          "en": "Hiring and onboarding",
+          "translation": "Contratação e integração"
+        },
+        {
+          "en": "Meetings and teamwork",
+          "translation": "Reuniões e trabalho em equipe"
+        },
+        {
+          "en": "Professional correspondence",
+          "translation": "Correspondência profissional"
+        },
+        {
+          "en": "Performance and feedback",
+          "translation": "Desempenho e feedback"
+        },
+        {
+          "en": "Career development",
+          "translation": "Desenvolvimento de carreira"
+        },
+        {
+          "en": "Remote work and freelancing",
+          "translation": "Trabalho remoto e autônomo"
+        },
+        {
+          "en": "Workplace relationships",
+          "translation": "Relações no trabalho"
+        },
+        {
+          "en": "Employment terminology",
+          "translation": "Terminologia de emprego"
+        }
+      ]
     },
     "wellbeing-daily-habits": {
-      "label": "Bem-estar e hábitos diários"
+      "label": "Bem-estar e hábitos diários",
+      "subcategories": [
+        {
+          "en": "Sleep and rest",
+          "translation": "Sono e descanso"
+        },
+        {
+          "en": "Daily self-care",
+          "translation": "Autocuidado diário"
+        },
+        {
+          "en": "Motivation and goals",
+          "translation": "Motivação e metas"
+        },
+        {
+          "en": "Habits and routines",
+          "translation": "Hábitos e rotinas"
+        },
+        {
+          "en": "Time management",
+          "translation": "Gestão do tempo"
+        },
+        {
+          "en": "Everyday stress vocabulary",
+          "translation": "Vocabulário do estresse cotidiano"
+        },
+        {
+          "en": "Mindfulness and relaxation terminology",
+          "translation": "Terminologia de atenção plena e relaxamento"
+        },
+        {
+          "en": "Work-life balance",
+          "translation": "Equilíbrio entre trabalho e vida pessoal"
+        },
+        {
+          "en": "Personal reflection",
+          "translation": "Reflexão pessoal"
+        },
+        {
+          "en": "Social support",
+          "translation": "Apoio social"
+        }
+      ]
     },
     "energy-utilities-resources": {
-      "label": "Energia, serviços essenciais e recursos naturais"
+      "label": "Energia, serviços essenciais e recursos naturais",
+      "subcategories": [
+        {
+          "en": "Electricity generation and distribution",
+          "translation": "Geração e distribuição de eletricidade"
+        },
+        {
+          "en": "Renewable energy",
+          "translation": "Energia renovável"
+        },
+        {
+          "en": "Oil and gas",
+          "translation": "Petróleo e gás"
+        },
+        {
+          "en": "Water supply and treatment",
+          "translation": "Abastecimento e tratamento de água"
+        },
+        {
+          "en": "Utilities and meters",
+          "translation": "Serviços essenciais e medidores"
+        },
+        {
+          "en": "Energy use and efficiency",
+          "translation": "Uso e eficiência de energia"
+        },
+        {
+          "en": "Mining and minerals",
+          "translation": "Mineração e minerais"
+        },
+        {
+          "en": "Resource extraction terminology",
+          "translation": "Terminologia da extração de recursos"
+        },
+        {
+          "en": "Waste and recycling operations",
+          "translation": "Operações de resíduos e reciclagem"
+        },
+        {
+          "en": "Energy markets terminology",
+          "translation": "Terminologia dos mercados de energia"
+        }
+      ]
     },
     "geography-places-cultures": {
-      "label": "Geografia, lugares e culturas"
+      "label": "Geografia, lugares e culturas",
+      "subcategories": [
+        {
+          "en": "Continents, countries and regions",
+          "translation": "Continentes, países e regiões"
+        },
+        {
+          "en": "Cities and landmarks",
+          "translation": "Cidades e pontos de referência"
+        },
+        {
+          "en": "Maps and directions",
+          "translation": "Mapas e direções"
+        },
+        {
+          "en": "Landforms and places",
+          "translation": "Formas de relevo e lugares"
+        },
+        {
+          "en": "Nationalities and languages",
+          "translation": "Nacionalidades e línguas"
+        },
+        {
+          "en": "Customs and etiquette",
+          "translation": "Costumes e etiqueta"
+        },
+        {
+          "en": "Festivals and celebrations",
+          "translation": "Festivais e celebrações"
+        },
+        {
+          "en": "Cultural institutions",
+          "translation": "Instituições culturais"
+        },
+        {
+          "en": "Regional food and traditions",
+          "translation": "Comidas e tradições regionais"
+        },
+        {
+          "en": "Human geography terminology",
+          "translation": "Terminologia da geografia humana"
+        }
+      ]
     }
   },
   "groupLabels": {
@@ -2034,6 +3490,550 @@
       ],
       "tip": "Aqui, load é o substantivo carga. Como verbo, load pode significar carregar um veículo ou carregar dados em um sistema.",
       "sourceWord": "load"
+    },
+    "law": {
+      "sourceWord": "law",
+      "senses": {
+        "law:meaning-1": {
+          "gloss": "lei; regra oficial",
+          "definition": "Regra estabelecida e aplicada por uma autoridade pública."
+        }
+      },
+      "examples": [
+        {
+          "en": "The new law applies to public buildings.",
+          "translation": "A nova lei se aplica aos prédios públicos."
+        },
+        {
+          "en": "The students discussed the purpose of the law.",
+          "translation": "Os estudantes discutiram o objetivo da lei."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a new law",
+          "translation": "uma nova lei"
+        },
+        {
+          "en": "follow the law",
+          "translation": "cumprir a lei"
+        },
+        {
+          "en": "a law on safety",
+          "translation": "uma lei sobre segurança"
+        }
+      ],
+      "tip": "Law aqui significa uma regra oficial; sua aplicação e seus detalhes dependem do lugar e do assunto."
+    },
+    "judge": {
+      "sourceWord": "judge",
+      "senses": {
+        "judge:meaning-1": {
+          "gloss": "juiz; juíza",
+          "definition": "Autoridade que ouve os casos e toma decisões em um tribunal."
+        }
+      },
+      "examples": [
+        {
+          "en": "The judge listened to both sides.",
+          "translation": "A juíza ouviu os dois lados."
+        },
+        {
+          "en": "A judge explained the decision to the court.",
+          "translation": "Um juiz explicou a decisão ao tribunal."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a court judge",
+          "translation": "um juiz de tribunal"
+        },
+        {
+          "en": "the judge’s decision",
+          "translation": "a decisão da juíza"
+        },
+        {
+          "en": "appear before a judge",
+          "translation": "comparecer perante um juiz"
+        }
+      ],
+      "tip": "Neste cartão, judge é a pessoa no tribunal. Como verbo, também pode significar julgar ou avaliar."
+    },
+    "contract": {
+      "sourceWord": "contract",
+      "senses": {
+        "contract:meaning-1": {
+          "gloss": "contrato; acordo formal",
+          "definition": "Acordo formal entre pessoas ou organizações."
+        }
+      },
+      "examples": [
+        {
+          "en": "They read the contract before the meeting.",
+          "translation": "Eles leram o contrato antes da reunião."
+        },
+        {
+          "en": "The contract describes the work and the payment.",
+          "translation": "O contrato descreve o trabalho e o pagamento."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "sign a contract",
+          "translation": "assinar um contrato"
+        },
+        {
+          "en": "a written contract",
+          "translation": "um contrato por escrito"
+        },
+        {
+          "en": "contract terms",
+          "translation": "cláusulas do contrato"
+        }
+      ],
+      "tip": "Contract aqui é um acordo formal. A explicação do vocabulário não substitui a análise de um contrato específico."
+    },
+    "painting": {
+      "sourceWord": "painting",
+      "senses": {
+        "painting:meaning-1": {
+          "gloss": "pintura; quadro",
+          "definition": "Imagem feita com tinta."
+        }
+      },
+      "examples": [
+        {
+          "en": "The painting shows a quiet lake.",
+          "translation": "A pintura mostra um lago tranquilo."
+        },
+        {
+          "en": "We saw a colorful painting in the gallery.",
+          "translation": "Vimos uma pintura colorida na galeria."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an oil painting",
+          "translation": "uma pintura a óleo"
+        },
+        {
+          "en": "a landscape painting",
+          "translation": "uma pintura de paisagem"
+        },
+        {
+          "en": "a painting exhibition",
+          "translation": "uma exposição de pinturas"
+        }
+      ],
+      "tip": "Painting pode indicar a obra ou a atividade de pintar; aqui, indica a imagem pronta."
+    },
+    "sculpture": {
+      "sourceWord": "sculpture",
+      "senses": {
+        "sculpture:meaning-1": {
+          "gloss": "escultura",
+          "definition": "Obra de arte em três dimensões criada ao dar forma a um material."
+        }
+      },
+      "examples": [
+        {
+          "en": "The sculpture is made of smooth stone.",
+          "translation": "A escultura é feita de pedra lisa."
+        },
+        {
+          "en": "Visitors walked around the sculpture.",
+          "translation": "Os visitantes caminharam ao redor da escultura."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a stone sculpture",
+          "translation": "uma escultura de pedra"
+        },
+        {
+          "en": "a modern sculpture",
+          "translation": "uma escultura moderna"
+        },
+        {
+          "en": "create a sculpture",
+          "translation": "criar uma escultura"
+        }
+      ],
+      "tip": "Uma sculpture é tridimensional; uma painting normalmente é feita em uma superfície plana."
+    },
+    "melody": {
+      "sourceWord": "melody",
+      "senses": {
+        "melody:meaning-1": {
+          "gloss": "melodia",
+          "definition": "Sequência de notas musicais que forma uma linha musical reconhecível."
+        }
+      },
+      "examples": [
+        {
+          "en": "She played a simple melody on the piano.",
+          "translation": "Ela tocou uma melodia simples no piano."
+        },
+        {
+          "en": "I remembered the melody but not the words.",
+          "translation": "Eu lembrava a melodia, mas não a letra."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a simple melody",
+          "translation": "uma melodia simples"
+        },
+        {
+          "en": "play a melody",
+          "translation": "tocar uma melodia"
+        },
+        {
+          "en": "the main melody",
+          "translation": "a melodia principal"
+        }
+      ],
+      "tip": "Melody é a sequência de notas; rhythm se refere ao padrão de tempo e às batidas."
+    },
+    "game": {
+      "sourceWord": "game",
+      "senses": {
+        "game:meaning-1": {
+          "gloss": "jogo",
+          "definition": "Atividade com regras em que as pessoas participam por diversão ou competição."
+        }
+      },
+      "examples": [
+        {
+          "en": "We played a board game after dinner.",
+          "translation": "Jogamos um jogo de tabuleiro depois do jantar."
+        },
+        {
+          "en": "The game has three different levels.",
+          "translation": "O jogo tem três fases diferentes."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a board game",
+          "translation": "um jogo de tabuleiro"
+        },
+        {
+          "en": "a video game",
+          "translation": "um videogame"
+        },
+        {
+          "en": "game rules",
+          "translation": "regras do jogo"
+        }
+      ],
+      "tip": "Game pode ser de tabuleiro, esportivo ou digital; o contexto indica o tipo."
+    },
+    "player": {
+      "sourceWord": "player",
+      "senses": {
+        "player:meaning-1": {
+          "gloss": "jogador; jogadora",
+          "definition": "Pessoa que participa de um jogo ou esporte."
+        }
+      },
+      "examples": [
+        {
+          "en": "Each player chooses a different character.",
+          "translation": "Cada jogador escolhe um personagem diferente."
+        },
+        {
+          "en": "The team welcomed a new player.",
+          "translation": "O time recebeu uma nova jogadora."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a team player",
+          "translation": "um jogador da equipe"
+        },
+        {
+          "en": "a new player",
+          "translation": "uma nova jogadora"
+        },
+        {
+          "en": "player profile",
+          "translation": "perfil do jogador"
+        }
+      ],
+      "tip": "Aqui, player é uma pessoa. Em expressões como music player, pode ser um aparelho ou programa."
+    },
+    "controller": {
+      "sourceWord": "controller",
+      "senses": {
+        "controller:meaning-1": {
+          "gloss": "controle de videogame",
+          "definition": "Dispositivo segurado nas mãos para controlar ações em um videogame."
+        }
+      },
+      "examples": [
+        {
+          "en": "The controller has two small sticks and several buttons.",
+          "translation": "O controle tem duas alavancas pequenas e vários botões."
+        },
+        {
+          "en": "She connected a controller to the computer.",
+          "translation": "Ela conectou um controle ao computador."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a game controller",
+          "translation": "um controle de videogame"
+        },
+        {
+          "en": "a wireless controller",
+          "translation": "um controle sem fio"
+        },
+        {
+          "en": "controller buttons",
+          "translation": "botões do controle"
+        }
+      ],
+      "tip": "No contexto de jogos, controller é o controle de videogame; em engenharia e computação, pode ter outros sentidos."
+    },
+    "emergency": {
+      "sourceWord": "emergency",
+      "senses": {
+        "emergency:meaning-1": {
+          "gloss": "emergência",
+          "definition": "Situação grave e inesperada que exige atenção imediata."
+        }
+      },
+      "examples": [
+        {
+          "en": "The building has an emergency plan.",
+          "translation": "O prédio tem um plano de emergência."
+        },
+        {
+          "en": "Staff practiced their roles in an emergency.",
+          "translation": "A equipe praticou suas funções em uma emergência."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an emergency plan",
+          "translation": "um plano de emergência"
+        },
+        {
+          "en": "emergency services",
+          "translation": "serviços de emergência"
+        },
+        {
+          "en": "an emergency exit",
+          "translation": "uma saída de emergência"
+        }
+      ],
+      "tip": "Emergency indica uma situação que exige atenção imediata. Este cartão ensina vocabulário, não procedimentos de socorro."
+    },
+    "shelter": {
+      "sourceWord": "shelter",
+      "senses": {
+        "shelter:meaning-1": {
+          "gloss": "abrigo; refúgio",
+          "definition": "Lugar que oferece proteção contra o tempo ou um perigo."
+        }
+      },
+      "examples": [
+        {
+          "en": "They found shelter from the rain.",
+          "translation": "Eles encontraram abrigo da chuva."
+        },
+        {
+          "en": "The shelter has space for several families.",
+          "translation": "O abrigo tem espaço para várias famílias."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "find shelter",
+          "translation": "encontrar abrigo"
+        },
+        {
+          "en": "a temporary shelter",
+          "translation": "um abrigo temporário"
+        },
+        {
+          "en": "shelter from rain",
+          "translation": "abrigo da chuva"
+        }
+      ],
+      "tip": "Shelter pode ser um prédio ou qualquer lugar protegido; temporary shelter destaca que é provisório."
+    },
+    "warning": {
+      "sourceWord": "warning",
+      "senses": {
+        "warning:meaning-1": {
+          "gloss": "aviso; alerta",
+          "definition": "Mensagem ou sinal que informa sobre um possível perigo ou problema."
+        }
+      },
+      "examples": [
+        {
+          "en": "A warning sign stood beside the road.",
+          "translation": "Uma placa de aviso estava ao lado da estrada."
+        },
+        {
+          "en": "The screen displayed a warning about the connection.",
+          "translation": "A tela exibiu um aviso sobre a conexão."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a warning sign",
+          "translation": "uma placa de aviso"
+        },
+        {
+          "en": "a clear warning",
+          "translation": "um aviso claro"
+        },
+        {
+          "en": "a warning message",
+          "translation": "uma mensagem de alerta"
+        }
+      ],
+      "tip": "Warning pode ser uma mensagem escrita, um símbolo ou um som relacionado a um possível perigo ou problema."
+    },
+    "simmer": {
+      "sourceWord": "simmer",
+      "senses": {
+        "simmer:meaning-1": {
+          "gloss": "cozinhar em fogo baixo; ferver suavemente",
+          "definition": "Cozinhar um líquido suavemente, a uma temperatura pouco abaixo da fervura intensa."
+        }
+      },
+      "examples": [
+        {
+          "en": "The soup simmered gently in the pot.",
+          "translation": "A sopa cozinhava suavemente em fogo baixo na panela."
+        },
+        {
+          "en": "The recipe says to simmer the sauce.",
+          "translation": "A receita orienta cozinhar o molho em fogo baixo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "simmer gently",
+          "translation": "cozinhar suavemente em fogo baixo"
+        },
+        {
+          "en": "simmer a sauce",
+          "translation": "cozinhar um molho em fogo baixo"
+        },
+        {
+          "en": "leave to simmer",
+          "translation": "deixar cozinhar em fogo baixo"
+        }
+      ],
+      "tip": "Simmer é mais suave que boil; normalmente aparecem apenas pequenas bolhas na superfície."
+    },
+    "bandage": {
+      "sourceWord": "bandage",
+      "senses": {
+        "bandage:meaning-1": {
+          "gloss": "atadura; faixa de curativo",
+          "definition": "Faixa de material usada para cobrir ou dar suporte a uma parte machucada do corpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The nurse brought a clean bandage.",
+          "translation": "A enfermeira trouxe uma atadura limpa."
+        },
+        {
+          "en": "The package contains two rolls of bandage.",
+          "translation": "A embalagem contém dois rolos de atadura."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a clean bandage",
+          "translation": "uma atadura limpa"
+        },
+        {
+          "en": "a roll of bandage",
+          "translation": "um rolo de atadura"
+        },
+        {
+          "en": "an elastic bandage",
+          "translation": "uma faixa elástica"
+        }
+      ],
+      "tip": "Bandage é uma faixa para cobrir ou dar suporte a uma área machucada. O cartão não ensina aplicação ou tratamento."
+    },
+    "valve": {
+      "sourceWord": "valve",
+      "senses": {
+        "valve:meaning-1": {
+          "gloss": "válvula",
+          "definition": "Dispositivo que controla a passagem de um líquido ou gás."
+        }
+      },
+      "examples": [
+        {
+          "en": "The diagram shows a valve inside the pipe.",
+          "translation": "O diagrama mostra uma válvula dentro do tubo."
+        },
+        {
+          "en": "The valve controls the flow of water.",
+          "translation": "A válvula controla o fluxo de água."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a control valve",
+          "translation": "uma válvula de controle"
+        },
+        {
+          "en": "a water valve",
+          "translation": "uma válvula de água"
+        },
+        {
+          "en": "valve position",
+          "translation": "posição da válvula"
+        }
+      ],
+      "tip": "Aqui, valve é um dispositivo de controle de fluxo; em medicina, também pode indicar uma válvula do corpo."
+    },
+    "voltage": {
+      "sourceWord": "voltage",
+      "senses": {
+        "voltage:meaning-1": {
+          "gloss": "tensão elétrica; voltagem",
+          "definition": "Diferença de potencial elétrico entre dois pontos, medida em volts."
+        }
+      },
+      "examples": [
+        {
+          "en": "The label shows the battery voltage.",
+          "translation": "A etiqueta mostra a tensão da bateria."
+        },
+        {
+          "en": "Voltage is measured between two points.",
+          "translation": "A tensão é medida entre dois pontos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "battery voltage",
+          "translation": "tensão da bateria"
+        },
+        {
+          "en": "a voltage difference",
+          "translation": "uma diferença de tensão"
+        },
+        {
+          "en": "voltage measurement",
+          "translation": "medição de tensão"
+        }
+      ],
+      "tip": "Voltage não é o mesmo que current: tensão é diferença de potencial; corrente se relaciona ao movimento de cargas elétricas."
     }
   }
 }

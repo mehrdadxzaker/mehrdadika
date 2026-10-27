@@ -340,14 +340,19 @@ const channel =
     : null;
 channel?.addEventListener("message", async (event) => {
   if (event.data?.datasetId !== state.progress.datasetId) return;
+  const datasetId = state.progress.datasetId;
   const version = mutationVersion;
   try {
     await pendingWrites;
-    const saved = await readProgress(state.progress.datasetId);
-    if (saved && mutationVersion === version) {
+    const saved = await readProgress(datasetId);
+    if (
+      saved &&
+      state.progress.datasetId === datasetId &&
+      mutationVersion === version
+    ) {
       state = {
         ...state,
-        progress: sanitizeProgress(saved, state.progress.datasetId),
+        progress: sanitizeProgress(saved, datasetId),
       };
       emit();
     }
@@ -458,9 +463,10 @@ export const store = {
     return () => listeners.delete(l);
   },
   async useDataset(datasetId: string) {
+    const generation = ++loadingVersion;
     flush();
     await pendingWrites;
-    const generation = ++loadingVersion;
+    if (generation !== loadingVersion) return;
     const local = sanitizeProgress(read(progressKey(datasetId)), datasetId);
     try {
       const persisted = await readProgress(datasetId);
@@ -472,6 +478,7 @@ export const store = {
       if (!persisted && Object.keys(local.cards).length)
         enqueueProgress(emptyProgress(datasetId), local, true);
     } catch {
+      if (generation !== loadingVersion) return;
       idbFailed = true;
       state = { ...state, progress: local, saveError: true };
     }

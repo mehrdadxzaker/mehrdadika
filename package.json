@@ -2,7 +2,7 @@
   "name": "mehrdadika",
   "version": "0.1.0",
   "type": "module",
-  "description": "An open-source visual English–Persian learning atlas with 32 growing subject collections.",
+  "description": "An open-source visual English-learning atlas for Persian, Portuguese and Spanish speakers, with 32 growing subject collections.",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "tsc -b && vite build && node scripts/write-build-info.mjs",
@@ -11,12 +11,14 @@
     "check:atlas": "npm run check:content",
     "build:atlas": "npm run build:content",
     "format": "prettier --write src vite.config.ts scripts/*.mjs package.json tsconfig.json",
-    "check:content": "node scripts/check-content.mjs && node scripts/build-locales.mjs --check",
+    "check:content": "node scripts/check-content.mjs && node scripts/build-locales.mjs --check && node scripts/build-reading-locales.mjs --check",
     "build:content": "node scripts/build-content.mjs",
     "build:locales": "node scripts/build-locales.mjs",
     "check:locales": "node scripts/build-locales.mjs --check",
-    "predev": "npm run build:content && npm run build:locales",
-    "prebuild": "npm run build:content && npm run build:locales"
+    "build:reading-locales": "node scripts/build-reading-locales.mjs",
+    "check:reading-locales": "node scripts/build-reading-locales.mjs --check",
+    "predev": "npm run build:content && npm run build:locales && npm run build:reading-locales",
+    "prebuild": "npm run build:content && npm run build:locales && npm run build:reading-locales"
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.3.0",

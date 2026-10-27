@@ -9,6 +9,9 @@ on:
 permissions:
   contents: read
 
+env:
+  NPM_CONFIG_MAXSOCKETS: 8
+
 concurrency:
   group: checks-${{ github.ref }}
   cancel-in-progress: true

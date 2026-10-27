@@ -1,0 +1,4039 @@
+{
+  "schemaVersion": 1,
+  "locale": "es-419",
+  "status": "preview",
+  "review": {
+    "humanReviewed": false,
+    "status": "preview"
+  },
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "aiAssisted": true,
+    "attribution": "Mehrdadika contributors; adapted source vocabulary: Word Atlas contributors — CC BY 4.0",
+    "modifications": "Latin-American Spanish translations and original usage notes aligned to the English preview corpus. No independent human language or specialist review is claimed."
+  },
+  "categories": {
+    "everyday-life": {
+      "label": "Vida cotidiana",
+      "subcategories": [
+        {
+          "en": "Time and dates",
+          "translation": "Horas y fechas"
+        },
+        {
+          "en": "Daily routines",
+          "translation": "Rutinas diarias"
+        },
+        {
+          "en": "Errands",
+          "translation": "Mandados y trámites"
+        },
+        {
+          "en": "Household interactions",
+          "translation": "Interacciones en el hogar"
+        },
+        {
+          "en": "Public services",
+          "translation": "Servicios públicos"
+        },
+        {
+          "en": "Appointments",
+          "translation": "Citas y compromisos"
+        },
+        {
+          "en": "Community life",
+          "translation": "Vida comunitaria"
+        },
+        {
+          "en": "Migration and settling-in vocabulary",
+          "translation": "Vocabulario de migración y adaptación"
+        },
+        {
+          "en": "Shared everyday objects",
+          "translation": "Objetos cotidianos compartidos"
+        }
+      ]
+    },
+    "people-relationships": {
+      "label": "Personas y relaciones",
+      "subcategories": [
+        {
+          "en": "Family relationships",
+          "translation": "Relaciones familiares"
+        },
+        {
+          "en": "Friendship",
+          "translation": "Amistad"
+        },
+        {
+          "en": "Emotions",
+          "translation": "Emociones"
+        },
+        {
+          "en": "Personality",
+          "translation": "Personalidad"
+        },
+        {
+          "en": "Appearance",
+          "translation": "Apariencia"
+        },
+        {
+          "en": "Social interaction",
+          "translation": "Interacción social"
+        },
+        {
+          "en": "Conflict and agreement",
+          "translation": "Conflictos y acuerdos"
+        },
+        {
+          "en": "Life stages",
+          "translation": "Etapas de la vida"
+        },
+        {
+          "en": "Accessibility and inclusion",
+          "translation": "Accesibilidad e inclusión"
+        }
+      ]
+    },
+    "education-academic": {
+      "label": "Educación e inglés académico",
+      "subcategories": [
+        {
+          "en": "School",
+          "translation": "Escuela"
+        },
+        {
+          "en": "university",
+          "translation": "Universidad"
+        },
+        {
+          "en": "teaching and learning",
+          "translation": "Enseñanza y aprendizaje"
+        },
+        {
+          "en": "assessment",
+          "translation": "Evaluación"
+        },
+        {
+          "en": "research methods",
+          "translation": "Métodos de investigación"
+        },
+        {
+          "en": "academic reading",
+          "translation": "Lectura académica"
+        },
+        {
+          "en": "academic writing",
+          "translation": "Escritura académica"
+        },
+        {
+          "en": "presentations",
+          "translation": "Presentaciones"
+        },
+        {
+          "en": "evidence and argument",
+          "translation": "Evidencia y argumentación"
+        }
+      ]
+    },
+    "medicine-healthcare": {
+      "label": "Medicina y salud",
+      "subcategories": [
+        {
+          "en": "Everyday health",
+          "translation": "Salud cotidiana"
+        },
+        {
+          "en": "anatomy",
+          "translation": "Anatomía"
+        },
+        {
+          "en": "physiology",
+          "translation": "Fisiología"
+        },
+        {
+          "en": "clinical communication",
+          "translation": "Comunicación clínica"
+        },
+        {
+          "en": "symptoms and examination",
+          "translation": "Síntomas y exploración"
+        },
+        {
+          "en": "tests and investigations",
+          "translation": "Pruebas e investigación diagnóstica"
+        },
+        {
+          "en": "specialties",
+          "translation": "Especialidades"
+        },
+        {
+          "en": "nursing",
+          "translation": "Enfermería"
+        },
+        {
+          "en": "pharmacy",
+          "translation": "Farmacia"
+        },
+        {
+          "en": "dentistry",
+          "translation": "Odontología"
+        },
+        {
+          "en": "rehabilitation",
+          "translation": "Rehabilitación"
+        },
+        {
+          "en": "public health",
+          "translation": "Salud pública"
+        },
+        {
+          "en": "medical devices",
+          "translation": "Dispositivos médicos"
+        }
+      ]
+    },
+    "engineering": {
+      "label": "Ingeniería",
+      "subcategories": [
+        {
+          "en": "Shared engineering foundations",
+          "translation": "Fundamentos comunes de ingeniería"
+        },
+        {
+          "en": "mechanical",
+          "translation": "Ingeniería mecánica"
+        },
+        {
+          "en": "electrical",
+          "translation": "Ingeniería eléctrica"
+        },
+        {
+          "en": "electronics",
+          "translation": "Electrónica"
+        },
+        {
+          "en": "civil and structural",
+          "translation": "Ingeniería civil y estructural"
+        },
+        {
+          "en": "chemical",
+          "translation": "Ingeniería química"
+        },
+        {
+          "en": "materials",
+          "translation": "Materiales"
+        },
+        {
+          "en": "industrial",
+          "translation": "Ingeniería industrial"
+        },
+        {
+          "en": "manufacturing",
+          "translation": "Manufactura"
+        },
+        {
+          "en": "aerospace",
+          "translation": "Ingeniería aeroespacial"
+        },
+        {
+          "en": "marine",
+          "translation": "Ingeniería naval"
+        },
+        {
+          "en": "energy systems",
+          "translation": "Sistemas de energía"
+        },
+        {
+          "en": "measurement and reliability",
+          "translation": "Medición y confiabilidad"
+        }
+      ]
+    },
+    "computing-technology": {
+      "label": "Informática y tecnología",
+      "subcategories": [
+        {
+          "en": "Digital literacy",
+          "translation": "Alfabetización digital"
+        },
+        {
+          "en": "Consumer devices",
+          "translation": "Dispositivos de uso personal"
+        },
+        {
+          "en": "Hardware",
+          "translation": "Hardware"
+        },
+        {
+          "en": "Programming",
+          "translation": "Programación"
+        },
+        {
+          "en": "Software engineering",
+          "translation": "Ingeniería de software"
+        },
+        {
+          "en": "Operating systems",
+          "translation": "Sistemas operativos"
+        },
+        {
+          "en": "Networks",
+          "translation": "Redes"
+        },
+        {
+          "en": "Databases",
+          "translation": "Bases de datos"
+        },
+        {
+          "en": "Web development",
+          "translation": "Desarrollo web"
+        },
+        {
+          "en": "Cloud systems",
+          "translation": "Sistemas en la nube"
+        },
+        {
+          "en": "Cybersecurity",
+          "translation": "Ciberseguridad"
+        },
+        {
+          "en": "Data science",
+          "translation": "Ciencia de datos"
+        },
+        {
+          "en": "Artificial intelligence",
+          "translation": "Inteligencia artificial"
+        },
+        {
+          "en": "Human-computer interaction",
+          "translation": "Interacción persona-computadora"
+        }
+      ]
+    },
+    "natural-sciences-mathematics": {
+      "label": "Ciencias naturales y matemáticas",
+      "subcategories": [
+        {
+          "en": "Mathematics",
+          "translation": "Matemáticas"
+        },
+        {
+          "en": "statistics",
+          "translation": "Estadística"
+        },
+        {
+          "en": "measurement",
+          "translation": "Medición"
+        },
+        {
+          "en": "physics",
+          "translation": "Física"
+        },
+        {
+          "en": "chemistry",
+          "translation": "Química"
+        },
+        {
+          "en": "biology",
+          "translation": "Biología"
+        },
+        {
+          "en": "microbiology",
+          "translation": "Microbiología"
+        },
+        {
+          "en": "genetics",
+          "translation": "Genética"
+        },
+        {
+          "en": "astronomy",
+          "translation": "Astronomía"
+        },
+        {
+          "en": "laboratory equipment",
+          "translation": "Equipo de laboratorio"
+        },
+        {
+          "en": "scientific methods",
+          "translation": "Métodos científicos"
+        }
+      ]
+    },
+    "business-management": {
+      "label": "Negocios y gestión",
+      "subcategories": [
+        {
+          "en": "Entrepreneurship",
+          "translation": "Emprendimiento"
+        },
+        {
+          "en": "Strategy",
+          "translation": "Estrategia"
+        },
+        {
+          "en": "Management and organizations",
+          "translation": "Gestión y organizaciones"
+        },
+        {
+          "en": "Marketing",
+          "translation": "Mercadotecnia"
+        },
+        {
+          "en": "Sales",
+          "translation": "Ventas"
+        },
+        {
+          "en": "Human resources management",
+          "translation": "Gestión de recursos humanos"
+        },
+        {
+          "en": "Project management",
+          "translation": "Gestión de proyectos"
+        },
+        {
+          "en": "Product management",
+          "translation": "Gestión de productos"
+        },
+        {
+          "en": "Procurement management",
+          "translation": "Gestión de compras"
+        },
+        {
+          "en": "Business communication",
+          "translation": "Comunicación empresarial"
+        }
+      ]
+    },
+    "economics-finance": {
+      "label": "Economía y finanzas",
+      "subcategories": [
+        {
+          "en": "Everyday personal finance",
+          "translation": "Finanzas personales cotidianas"
+        },
+        {
+          "en": "microeconomics",
+          "translation": "Microeconomía"
+        },
+        {
+          "en": "macroeconomics",
+          "translation": "Macroeconomía"
+        },
+        {
+          "en": "accounting",
+          "translation": "Contabilidad"
+        },
+        {
+          "en": "banking",
+          "translation": "Banca"
+        },
+        {
+          "en": "payments",
+          "translation": "Pagos"
+        },
+        {
+          "en": "corporate finance",
+          "translation": "Finanzas corporativas"
+        },
+        {
+          "en": "investing",
+          "translation": "Inversiones"
+        },
+        {
+          "en": "insurance",
+          "translation": "Seguros"
+        },
+        {
+          "en": "taxation terminology",
+          "translation": "Terminología tributaria"
+        },
+        {
+          "en": "financial statements",
+          "translation": "Estados financieros"
+        }
+      ]
+    },
+    "law-public-affairs": {
+      "label": "Derecho y asuntos públicos",
+      "subcategories": [
+        {
+          "en": "Legal foundations",
+          "translation": "Fundamentos del derecho"
+        },
+        {
+          "en": "Contracts",
+          "translation": "Contratos"
+        },
+        {
+          "en": "Civil law terminology",
+          "translation": "Terminología del derecho civil"
+        },
+        {
+          "en": "Criminal law terminology",
+          "translation": "Terminología del derecho penal"
+        },
+        {
+          "en": "Courts and procedure",
+          "translation": "Tribunales y procedimientos"
+        },
+        {
+          "en": "Rights",
+          "translation": "Derechos"
+        },
+        {
+          "en": "Government",
+          "translation": "Gobierno"
+        },
+        {
+          "en": "Public administration",
+          "translation": "Administración pública"
+        },
+        {
+          "en": "Politics",
+          "translation": "Política"
+        },
+        {
+          "en": "International relations",
+          "translation": "Relaciones internacionales"
+        },
+        {
+          "en": "Policy",
+          "translation": "Políticas públicas"
+        },
+        {
+          "en": "Migration and citizenship",
+          "translation": "Migración y ciudadanía"
+        },
+        {
+          "en": "Community and volunteering",
+          "translation": "Comunidad y voluntariado"
+        }
+      ]
+    },
+    "architecture-infrastructure": {
+      "label": "Arquitectura e infraestructura",
+      "subcategories": [
+        {
+          "en": "Architecture",
+          "translation": "Arquitectura"
+        },
+        {
+          "en": "Building elements",
+          "translation": "Elementos de edificios"
+        },
+        {
+          "en": "Architectural drawings",
+          "translation": "Planos arquitectónicos"
+        },
+        {
+          "en": "Construction",
+          "translation": "Construcción"
+        },
+        {
+          "en": "Housing and property systems",
+          "translation": "Vivienda y sistemas inmobiliarios"
+        },
+        {
+          "en": "Urban planning",
+          "translation": "Planificación urbana"
+        },
+        {
+          "en": "Transport infrastructure",
+          "translation": "Infraestructura de transporte"
+        },
+        {
+          "en": "Utilities infrastructure",
+          "translation": "Infraestructura de servicios públicos"
+        },
+        {
+          "en": "Surveying",
+          "translation": "Topografía"
+        },
+        {
+          "en": "Infrastructure maintenance",
+          "translation": "Mantenimiento de infraestructura"
+        }
+      ]
+    },
+    "environment-agriculture": {
+      "label": "Medio ambiente y agricultura",
+      "subcategories": [
+        {
+          "en": "Physical geography",
+          "translation": "Geografía física"
+        },
+        {
+          "en": "Geology",
+          "translation": "Geología"
+        },
+        {
+          "en": "Climate and weather",
+          "translation": "Clima y tiempo"
+        },
+        {
+          "en": "Ecology",
+          "translation": "Ecología"
+        },
+        {
+          "en": "Conservation",
+          "translation": "Conservación"
+        },
+        {
+          "en": "Pollution",
+          "translation": "Contaminación"
+        },
+        {
+          "en": "Water and land management",
+          "translation": "Gestión del agua y la tierra"
+        },
+        {
+          "en": "Crop production",
+          "translation": "Producción agrícola"
+        },
+        {
+          "en": "Soil",
+          "translation": "Suelo"
+        },
+        {
+          "en": "Livestock",
+          "translation": "Ganadería"
+        },
+        {
+          "en": "Veterinary science",
+          "translation": "Ciencias veterinarias"
+        },
+        {
+          "en": "Forestry",
+          "translation": "Silvicultura"
+        },
+        {
+          "en": "Food systems",
+          "translation": "Sistemas alimentarios"
+        }
+      ]
+    },
+    "arts-media": {
+      "label": "Artes y medios",
+      "subcategories": [
+        {
+          "en": "Visual arts",
+          "translation": "Artes visuales"
+        },
+        {
+          "en": "Graphic design",
+          "translation": "Diseño gráfico"
+        },
+        {
+          "en": "Music",
+          "translation": "Música"
+        },
+        {
+          "en": "Film and television",
+          "translation": "Cine y televisión"
+        },
+        {
+          "en": "Photography",
+          "translation": "Fotografía"
+        },
+        {
+          "en": "Journalism",
+          "translation": "Periodismo"
+        },
+        {
+          "en": "Publishing",
+          "translation": "Edición y publicación"
+        },
+        {
+          "en": "Broadcasting",
+          "translation": "Radiodifusión"
+        },
+        {
+          "en": "Advertising",
+          "translation": "Publicidad"
+        },
+        {
+          "en": "Creative writing",
+          "translation": "Escritura creativa"
+        },
+        {
+          "en": "Performing arts",
+          "translation": "Artes escénicas"
+        },
+        {
+          "en": "Crafts",
+          "translation": "Artesanías"
+        }
+      ]
+    },
+    "humanities-society": {
+      "label": "Humanidades y sociedad",
+      "subcategories": [
+        {
+          "en": "History",
+          "translation": "Historia"
+        },
+        {
+          "en": "philosophy",
+          "translation": "Filosofía"
+        },
+        {
+          "en": "literature",
+          "translation": "Literatura"
+        },
+        {
+          "en": "religion",
+          "translation": "Religión"
+        },
+        {
+          "en": "linguistics",
+          "translation": "Lingüística"
+        },
+        {
+          "en": "sociology",
+          "translation": "Sociología"
+        },
+        {
+          "en": "anthropology",
+          "translation": "Antropología"
+        },
+        {
+          "en": "psychology",
+          "translation": "Psicología"
+        },
+        {
+          "en": "cultural studies",
+          "translation": "Estudios culturales"
+        },
+        {
+          "en": "archaeology",
+          "translation": "Arqueología"
+        },
+        {
+          "en": "social institutions",
+          "translation": "Instituciones sociales"
+        }
+      ]
+    },
+    "trades-practical-work": {
+      "label": "Oficios y trabajo técnico",
+      "subcategories": [
+        {
+          "en": "Tools",
+          "translation": "Herramientas"
+        },
+        {
+          "en": "Workshop practice",
+          "translation": "Práctica en taller"
+        },
+        {
+          "en": "Automotive repair",
+          "translation": "Reparación automotriz"
+        },
+        {
+          "en": "Electrical installation",
+          "translation": "Instalaciones eléctricas"
+        },
+        {
+          "en": "Plumbing",
+          "translation": "Plomería"
+        },
+        {
+          "en": "Welding",
+          "translation": "Soldadura"
+        },
+        {
+          "en": "Machining",
+          "translation": "Mecanizado"
+        },
+        {
+          "en": "Installation and maintenance",
+          "translation": "Instalación y mantenimiento"
+        },
+        {
+          "en": "Workplace safety",
+          "translation": "Seguridad en el trabajo"
+        }
+      ]
+    },
+    "sports-recreation": {
+      "label": "Deportes y recreación",
+      "subcategories": [
+        {
+          "en": "Individual sports",
+          "translation": "Deportes individuales"
+        },
+        {
+          "en": "team sports",
+          "translation": "Deportes de equipo"
+        },
+        {
+          "en": "exercise",
+          "translation": "Ejercicio físico"
+        },
+        {
+          "en": "fitness equipment",
+          "translation": "Equipo de acondicionamiento físico"
+        },
+        {
+          "en": "games",
+          "translation": "Juegos"
+        },
+        {
+          "en": "outdoor activities",
+          "translation": "Actividades al aire libre"
+        },
+        {
+          "en": "hobbies",
+          "translation": "Pasatiempos"
+        },
+        {
+          "en": "recreation facilities",
+          "translation": "Instalaciones recreativas"
+        },
+        {
+          "en": "sporting events",
+          "translation": "Eventos deportivos"
+        }
+      ]
+    },
+    "cooking-food-drink": {
+      "label": "Cocina, alimentos y bebidas",
+      "subcategories": [
+        {
+          "en": "Ingredients and food groups",
+          "translation": "Ingredientes y grupos de alimentos"
+        },
+        {
+          "en": "Preparation verbs",
+          "translation": "Verbos de preparación"
+        },
+        {
+          "en": "Cooking methods",
+          "translation": "Métodos de cocción"
+        },
+        {
+          "en": "Kitchen utensils and appliances",
+          "translation": "Utensilios y aparatos de cocina"
+        },
+        {
+          "en": "Baking, pastry and desserts",
+          "translation": "Panadería, repostería y postres"
+        },
+        {
+          "en": "Drinks and beverage preparation",
+          "translation": "Bebidas y su preparación"
+        },
+        {
+          "en": "Flavors, textures and doneness",
+          "translation": "Sabores, texturas y punto de cocción"
+        },
+        {
+          "en": "Recipes, portions and measurements",
+          "translation": "Recetas, porciones y medidas"
+        },
+        {
+          "en": "Cuisines and dishes",
+          "translation": "Tradiciones culinarias y platos"
+        },
+        {
+          "en": "Menus, serving and dining",
+          "translation": "Menús, servicio y comidas"
+        },
+        {
+          "en": "Food storage and hygiene",
+          "translation": "Conservación e higiene de los alimentos"
+        },
+        {
+          "en": "Dietary preferences and allergen terminology",
+          "translation": "Preferencias alimentarias y terminología de alérgenos"
+        }
+      ]
+    },
+    "travel-tourism-hospitality": {
+      "label": "Viajes, turismo y hospitalidad",
+      "subcategories": [
+        {
+          "en": "Trip planning",
+          "translation": "Planificación de viajes"
+        },
+        {
+          "en": "Destinations and sightseeing",
+          "translation": "Destinos y visitas turísticas"
+        },
+        {
+          "en": "Accommodation and reservations",
+          "translation": "Alojamiento y reservaciones"
+        },
+        {
+          "en": "Hotels and guest services",
+          "translation": "Hoteles y servicios al huésped"
+        },
+        {
+          "en": "Travel documents and border vocabulary",
+          "translation": "Documentos de viaje y vocabulario de fronteras"
+        },
+        {
+          "en": "Tour guiding",
+          "translation": "Guiado turístico"
+        },
+        {
+          "en": "Attractions and museums",
+          "translation": "Atracciones y museos"
+        },
+        {
+          "en": "Restaurant and hospitality service",
+          "translation": "Servicio de restaurante y hospitalidad"
+        },
+        {
+          "en": "Travel problems",
+          "translation": "Problemas en los viajes"
+        },
+        {
+          "en": "Accessible travel",
+          "translation": "Viajes accesibles"
+        }
+      ]
+    },
+    "transport-vehicles": {
+      "label": "Transporte y vehículos",
+      "subcategories": [
+        {
+          "en": "Walking and cycling",
+          "translation": "Caminata y ciclismo"
+        },
+        {
+          "en": "Public transit",
+          "translation": "Transporte público"
+        },
+        {
+          "en": "Road travel and driving",
+          "translation": "Viajes por carretera y conducción"
+        },
+        {
+          "en": "Cars and motorcycles",
+          "translation": "Automóviles y motocicletas"
+        },
+        {
+          "en": "Vehicle parts and operation",
+          "translation": "Piezas y funcionamiento de vehículos"
+        },
+        {
+          "en": "Railways",
+          "translation": "Ferrocarriles"
+        },
+        {
+          "en": "Aviation and airports",
+          "translation": "Aviación y aeropuertos"
+        },
+        {
+          "en": "Ships and ports",
+          "translation": "Barcos y puertos"
+        },
+        {
+          "en": "Navigation and traffic",
+          "translation": "Navegación y tránsito"
+        },
+        {
+          "en": "Passenger journeys",
+          "translation": "Viajes de pasajeros"
+        }
+      ]
+    },
+    "home-gardening-diy": {
+      "label": "Hogar, jardinería y reparaciones",
+      "subcategories": [
+        {
+          "en": "Rooms and furniture",
+          "translation": "Habitaciones y muebles"
+        },
+        {
+          "en": "Household appliances",
+          "translation": "Electrodomésticos"
+        },
+        {
+          "en": "Cleaning and laundry",
+          "translation": "Limpieza y lavado de ropa"
+        },
+        {
+          "en": "Housing, renting and moving",
+          "translation": "Vivienda, alquiler y mudanzas"
+        },
+        {
+          "en": "Property services",
+          "translation": "Servicios para inmuebles"
+        },
+        {
+          "en": "Home organization",
+          "translation": "Organización del hogar"
+        },
+        {
+          "en": "Gardening tools",
+          "translation": "Herramientas de jardinería"
+        },
+        {
+          "en": "Plants and plant care",
+          "translation": "Plantas y sus cuidados"
+        },
+        {
+          "en": "Home improvement",
+          "translation": "Mejoras del hogar"
+        },
+        {
+          "en": "Simple household repairs",
+          "translation": "Reparaciones domésticas sencillas"
+        },
+        {
+          "en": "Decoration and furnishings",
+          "translation": "Decoración y mobiliario"
+        }
+      ]
+    },
+    "fashion-beauty-personal-care": {
+      "label": "Moda, belleza y cuidado personal",
+      "subcategories": [
+        {
+          "en": "Clothing and accessories",
+          "translation": "Ropa y accesorios"
+        },
+        {
+          "en": "Fabrics and materials",
+          "translation": "Telas y materiales"
+        },
+        {
+          "en": "Sizes and fit",
+          "translation": "Tallas y ajuste"
+        },
+        {
+          "en": "Footwear",
+          "translation": "Calzado"
+        },
+        {
+          "en": "Fashion design and tailoring",
+          "translation": "Diseño de moda y confección"
+        },
+        {
+          "en": "Hair and salon vocabulary",
+          "translation": "Vocabulario de cabello y salón"
+        },
+        {
+          "en": "Skincare and cosmetics",
+          "translation": "Cuidado de la piel y cosméticos"
+        },
+        {
+          "en": "Grooming and hygiene",
+          "translation": "Arreglo personal e higiene"
+        },
+        {
+          "en": "Beauty services",
+          "translation": "Servicios de belleza"
+        },
+        {
+          "en": "Shopping and product labels",
+          "translation": "Compras y etiquetas de productos"
+        }
+      ]
+    },
+    "parenting-family-care": {
+      "label": "Crianza y cuidado de la familia",
+      "subcategories": [
+        {
+          "en": "Pregnancy and birth vocabulary",
+          "translation": "Vocabulario de embarazo y parto"
+        },
+        {
+          "en": "Infant care",
+          "translation": "Cuidado de bebés"
+        },
+        {
+          "en": "Childcare and routines",
+          "translation": "Cuidado infantil y rutinas"
+        },
+        {
+          "en": "Child development terminology",
+          "translation": "Terminología del desarrollo infantil"
+        },
+        {
+          "en": "School-family communication",
+          "translation": "Comunicación entre escuela y familia"
+        },
+        {
+          "en": "Parenting conversations",
+          "translation": "Conversaciones sobre crianza"
+        },
+        {
+          "en": "Play and learning",
+          "translation": "Juego y aprendizaje"
+        },
+        {
+          "en": "Elder care",
+          "translation": "Cuidado de personas mayores"
+        },
+        {
+          "en": "Disability support and caregiving",
+          "translation": "Apoyo a personas con discapacidad y cuidados"
+        },
+        {
+          "en": "Household care coordination",
+          "translation": "Coordinación de los cuidados del hogar"
+        }
+      ]
+    },
+    "animals-pets-wildlife": {
+      "label": "Animales, mascotas y fauna silvestre",
+      "subcategories": [
+        {
+          "en": "Animal groups",
+          "translation": "Grupos de animales"
+        },
+        {
+          "en": "Animal anatomy and behavior",
+          "translation": "Anatomía y comportamiento animal"
+        },
+        {
+          "en": "Pets and supplies",
+          "translation": "Mascotas y suministros"
+        },
+        {
+          "en": "Feeding and care",
+          "translation": "Alimentación y cuidados"
+        },
+        {
+          "en": "Training terminology",
+          "translation": "Terminología de entrenamiento"
+        },
+        {
+          "en": "Animal shelters and adoption",
+          "translation": "Refugios y adopción de animales"
+        },
+        {
+          "en": "Wildlife and habitats",
+          "translation": "Fauna silvestre y hábitats"
+        },
+        {
+          "en": "Birds",
+          "translation": "Aves"
+        },
+        {
+          "en": "Marine life",
+          "translation": "Vida marina"
+        },
+        {
+          "en": "Insects",
+          "translation": "Insectos"
+        },
+        {
+          "en": "Animal welfare",
+          "translation": "Bienestar animal"
+        },
+        {
+          "en": "Veterinary visit vocabulary",
+          "translation": "Vocabulario de consultas veterinarias"
+        }
+      ]
+    },
+    "languages-communication": {
+      "label": "Lenguas y comunicación",
+      "subcategories": [
+        {
+          "en": "Languages and scripts",
+          "translation": "Lenguas y sistemas de escritura"
+        },
+        {
+          "en": "Grammar terminology",
+          "translation": "Terminología gramatical"
+        },
+        {
+          "en": "Pronunciation terminology",
+          "translation": "Terminología de pronunciación"
+        },
+        {
+          "en": "Conversation and turn-taking",
+          "translation": "Conversación y turnos de habla"
+        },
+        {
+          "en": "Questions and clarification",
+          "translation": "Preguntas y aclaraciones"
+        },
+        {
+          "en": "Telephone and video calls",
+          "translation": "Llamadas telefónicas y videollamadas"
+        },
+        {
+          "en": "Messages and email",
+          "translation": "Mensajes y correo electrónico"
+        },
+        {
+          "en": "Translation and interpreting",
+          "translation": "Traducción e interpretación"
+        },
+        {
+          "en": "Writing and editing terminology",
+          "translation": "Terminología de escritura y edición"
+        },
+        {
+          "en": "Public speaking",
+          "translation": "Hablar en público"
+        },
+        {
+          "en": "Nonverbal communication",
+          "translation": "Comunicación no verbal"
+        },
+        {
+          "en": "Accessible communication",
+          "translation": "Comunicación accesible"
+        }
+      ]
+    },
+    "gaming-digital-culture": {
+      "label": "Videojuegos y cultura digital",
+      "subcategories": [
+        {
+          "en": "Game genres",
+          "translation": "Géneros de videojuegos"
+        },
+        {
+          "en": "Gameplay and controls",
+          "translation": "Jugabilidad y controles"
+        },
+        {
+          "en": "Consoles and gaming hardware",
+          "translation": "Consolas y hardware para videojuegos"
+        },
+        {
+          "en": "Multiplayer and online communities",
+          "translation": "Juegos multijugador y comunidades en línea"
+        },
+        {
+          "en": "Esports",
+          "translation": "Deportes electrónicos"
+        },
+        {
+          "en": "Game design terminology",
+          "translation": "Terminología de diseño de videojuegos"
+        },
+        {
+          "en": "Streaming and creators",
+          "translation": "Transmisiones en vivo y creadores"
+        },
+        {
+          "en": "Social platforms",
+          "translation": "Plataformas sociales"
+        },
+        {
+          "en": "Internet expressions",
+          "translation": "Expresiones de internet"
+        },
+        {
+          "en": "Digital etiquette",
+          "translation": "Etiqueta digital"
+        }
+      ]
+    },
+    "safety-emergencies": {
+      "label": "Seguridad y emergencias",
+      "subcategories": [
+        {
+          "en": "Hazard and warning signs",
+          "translation": "Señales de peligro y advertencia"
+        },
+        {
+          "en": "Protective equipment",
+          "translation": "Equipo de protección"
+        },
+        {
+          "en": "Emergency services",
+          "translation": "Servicios de emergencia"
+        },
+        {
+          "en": "Reporting an emergency",
+          "translation": "Comunicación de una emergencia"
+        },
+        {
+          "en": "Fire and evacuation vocabulary",
+          "translation": "Vocabulario de incendios y evacuación"
+        },
+        {
+          "en": "First-aid terminology",
+          "translation": "Terminología de primeros auxilios"
+        },
+        {
+          "en": "Natural disasters",
+          "translation": "Desastres naturales"
+        },
+        {
+          "en": "Road and travel safety",
+          "translation": "Seguridad vial y en los viajes"
+        },
+        {
+          "en": "Home safety",
+          "translation": "Seguridad en el hogar"
+        },
+        {
+          "en": "Workplace safety",
+          "translation": "Seguridad en el trabajo"
+        },
+        {
+          "en": "Disaster preparedness vocabulary",
+          "translation": "Vocabulario de preparación ante desastres"
+        }
+      ]
+    },
+    "manufacturing-logistics": {
+      "label": "Manufactura, logística y cadena de suministro",
+      "subcategories": [
+        {
+          "en": "Production processes",
+          "translation": "Procesos de producción"
+        },
+        {
+          "en": "Factories and workstations",
+          "translation": "Fábricas y estaciones de trabajo"
+        },
+        {
+          "en": "Assembly and packaging",
+          "translation": "Ensamblaje y empaque"
+        },
+        {
+          "en": "Quality inspection",
+          "translation": "Inspección de calidad"
+        },
+        {
+          "en": "Inventory and warehousing",
+          "translation": "Inventario y almacenamiento"
+        },
+        {
+          "en": "Picking and fulfillment",
+          "translation": "Preparación y cumplimiento de pedidos"
+        },
+        {
+          "en": "Freight and shipping",
+          "translation": "Flete y transporte de carga"
+        },
+        {
+          "en": "Customs and trade documents",
+          "translation": "Aduanas y documentos comerciales"
+        },
+        {
+          "en": "Procurement execution",
+          "translation": "Ejecución de compras"
+        },
+        {
+          "en": "Last-mile delivery",
+          "translation": "Entrega de última milla"
+        },
+        {
+          "en": "Returns and reverse logistics",
+          "translation": "Devoluciones y logística inversa"
+        },
+        {
+          "en": "Supply-chain operations",
+          "translation": "Operaciones de la cadena de suministro"
+        }
+      ]
+    },
+    "retail-ecommerce": {
+      "label": "Comercio minorista y comercio electrónico",
+      "subcategories": [
+        {
+          "en": "Shops and retail roles",
+          "translation": "Tiendas y funciones del comercio minorista"
+        },
+        {
+          "en": "Merchandising and displays",
+          "translation": "Exhibición de productos y escaparates"
+        },
+        {
+          "en": "Product catalogs and descriptions",
+          "translation": "Catálogos y descripciones de productos"
+        },
+        {
+          "en": "Online shopping",
+          "translation": "Compras en línea"
+        },
+        {
+          "en": "Checkout and payment language",
+          "translation": "Lenguaje de finalización de compra y pago"
+        },
+        {
+          "en": "Customer support",
+          "translation": "Atención al cliente"
+        },
+        {
+          "en": "Orders and tracking",
+          "translation": "Pedidos y seguimiento"
+        },
+        {
+          "en": "Returns and refunds",
+          "translation": "Devoluciones y reembolsos"
+        },
+        {
+          "en": "Complaints and service recovery",
+          "translation": "Quejas y recuperación del servicio"
+        },
+        {
+          "en": "Reviews and customer experience",
+          "translation": "Reseñas y experiencia del cliente"
+        }
+      ]
+    },
+    "careers-workplace": {
+      "label": "Carrera y lugar de trabajo",
+      "subcategories": [
+        {
+          "en": "Jobs and occupations",
+          "translation": "Empleos y profesiones"
+        },
+        {
+          "en": "Job search",
+          "translation": "Búsqueda de empleo"
+        },
+        {
+          "en": "CVs and applications",
+          "translation": "Currículos y solicitudes"
+        },
+        {
+          "en": "Interviews",
+          "translation": "Entrevistas"
+        },
+        {
+          "en": "Hiring and onboarding",
+          "translation": "Contratación e incorporación"
+        },
+        {
+          "en": "Meetings and teamwork",
+          "translation": "Reuniones y trabajo en equipo"
+        },
+        {
+          "en": "Professional correspondence",
+          "translation": "Correspondencia profesional"
+        },
+        {
+          "en": "Performance and feedback",
+          "translation": "Desempeño y retroalimentación"
+        },
+        {
+          "en": "Career development",
+          "translation": "Desarrollo profesional"
+        },
+        {
+          "en": "Remote work and freelancing",
+          "translation": "Trabajo remoto e independiente"
+        },
+        {
+          "en": "Workplace relationships",
+          "translation": "Relaciones en el trabajo"
+        },
+        {
+          "en": "Employment terminology",
+          "translation": "Terminología laboral"
+        }
+      ]
+    },
+    "wellbeing-daily-habits": {
+      "label": "Bienestar y hábitos diarios",
+      "subcategories": [
+        {
+          "en": "Sleep and rest",
+          "translation": "Sueño y descanso"
+        },
+        {
+          "en": "Daily self-care",
+          "translation": "Cuidado personal diario"
+        },
+        {
+          "en": "Motivation and goals",
+          "translation": "Motivación y metas"
+        },
+        {
+          "en": "Habits and routines",
+          "translation": "Hábitos y rutinas"
+        },
+        {
+          "en": "Time management",
+          "translation": "Gestión del tiempo"
+        },
+        {
+          "en": "Everyday stress vocabulary",
+          "translation": "Vocabulario del estrés cotidiano"
+        },
+        {
+          "en": "Mindfulness and relaxation terminology",
+          "translation": "Terminología de atención plena y relajación"
+        },
+        {
+          "en": "Work-life balance",
+          "translation": "Equilibrio entre trabajo y vida personal"
+        },
+        {
+          "en": "Personal reflection",
+          "translation": "Reflexión personal"
+        },
+        {
+          "en": "Social support",
+          "translation": "Apoyo social"
+        }
+      ]
+    },
+    "energy-utilities-resources": {
+      "label": "Energía, servicios y recursos naturales",
+      "subcategories": [
+        {
+          "en": "Electricity generation and distribution",
+          "translation": "Generación y distribución de electricidad"
+        },
+        {
+          "en": "Renewable energy",
+          "translation": "Energía renovable"
+        },
+        {
+          "en": "Oil and gas",
+          "translation": "Petróleo y gas"
+        },
+        {
+          "en": "Water supply and treatment",
+          "translation": "Abastecimiento y tratamiento de agua"
+        },
+        {
+          "en": "Utilities and meters",
+          "translation": "Servicios públicos y medidores"
+        },
+        {
+          "en": "Energy use and efficiency",
+          "translation": "Uso y eficiencia de la energía"
+        },
+        {
+          "en": "Mining and minerals",
+          "translation": "Minería y minerales"
+        },
+        {
+          "en": "Resource extraction terminology",
+          "translation": "Terminología de extracción de recursos"
+        },
+        {
+          "en": "Waste and recycling operations",
+          "translation": "Operaciones de residuos y reciclaje"
+        },
+        {
+          "en": "Energy markets terminology",
+          "translation": "Terminología de los mercados de energía"
+        }
+      ]
+    },
+    "geography-places-cultures": {
+      "label": "Geografía, lugares y culturas",
+      "subcategories": [
+        {
+          "en": "Continents, countries and regions",
+          "translation": "Continentes, países y regiones"
+        },
+        {
+          "en": "Cities and landmarks",
+          "translation": "Ciudades y lugares de referencia"
+        },
+        {
+          "en": "Maps and directions",
+          "translation": "Mapas e indicaciones"
+        },
+        {
+          "en": "Landforms and places",
+          "translation": "Formas del relieve y lugares"
+        },
+        {
+          "en": "Nationalities and languages",
+          "translation": "Nacionalidades y lenguas"
+        },
+        {
+          "en": "Customs and etiquette",
+          "translation": "Costumbres y etiqueta"
+        },
+        {
+          "en": "Festivals and celebrations",
+          "translation": "Festivales y celebraciones"
+        },
+        {
+          "en": "Cultural institutions",
+          "translation": "Instituciones culturales"
+        },
+        {
+          "en": "Regional food and traditions",
+          "translation": "Comidas y tradiciones regionales"
+        },
+        {
+          "en": "Human geography terminology",
+          "translation": "Terminología de la geografía humana"
+        }
+      ]
+    }
+  },
+  "groupLabels": {
+    "daily-living": "Vida cotidiana y relaciones",
+    "food-travel-leisure": "Alimentación, viajes y ocio",
+    "learning-science": "Aprendizaje, ciencia y comunicación",
+    "health-society-culture": "Salud, sociedad y cultura",
+    "technology-industry-environment": "Tecnología, industria y medio ambiente",
+    "business-working-life": "Negocios y vida laboral"
+  },
+  "entries": {
+    "library": {
+      "sourceWord": "library",
+      "senses": {
+        "library:meaning-1": {
+          "gloss": "biblioteca",
+          "definition": "Lugar donde se leen o se piden prestados libros y otros materiales."
+        }
+      },
+      "examples": [
+        {
+          "en": "I borrowed three books from the library after school.",
+          "translation": "Pedí prestados tres libros en la biblioteca después de la escuela."
+        },
+        {
+          "en": "The library opens at nine every morning.",
+          "translation": "La biblioteca abre a las nueve todas las mañanas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "public library",
+          "translation": "biblioteca pública"
+        },
+        {
+          "en": "library card",
+          "translation": "credencial de la biblioteca"
+        },
+        {
+          "en": "digital library",
+          "translation": "biblioteca digital"
+        }
+      ],
+      "tip": "Library es una biblioteca. Una librería, donde se compran libros, es bookshop o bookstore."
+    },
+    "journey": {
+      "sourceWord": "journey",
+      "senses": {
+        "journey:meaning-1": {
+          "gloss": "viaje; trayecto",
+          "definition": "Desplazamiento de un lugar a otro considerado como un recorrido."
+        }
+      },
+      "examples": [
+        {
+          "en": "The train journey took three hours.",
+          "translation": "El viaje en tren duró tres horas."
+        },
+        {
+          "en": "We stopped for water during the long journey.",
+          "translation": "Nos detuvimos a beber agua durante el viaje largo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "long journey",
+          "translation": "viaje largo"
+        },
+        {
+          "en": "train journey",
+          "translation": "viaje en tren"
+        },
+        {
+          "en": "return journey",
+          "translation": "viaje de regreso"
+        }
+      ],
+      "tip": "Journey suele referirse a un trayecto concreto; travel expresa la idea más general de viajar."
+    },
+    "explore": {
+      "sourceWord": "explore",
+      "senses": {
+        "explore:meaning-1": {
+          "gloss": "explorar; conocer un lugar",
+          "definition": "Recorrer un lugar para descubrir cómo es."
+        }
+      },
+      "examples": [
+        {
+          "en": "We explored the old streets on foot.",
+          "translation": "Exploramos las calles antiguas a pie."
+        },
+        {
+          "en": "The students explored the forest with a local guide.",
+          "translation": "Los estudiantes exploraron el bosque con un guía local."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "explore a city",
+          "translation": "explorar una ciudad"
+        },
+        {
+          "en": "explore the coast",
+          "translation": "explorar la costa"
+        },
+        {
+          "en": "explore an area",
+          "translation": "explorar una zona"
+        }
+      ],
+      "tip": "Explore pone el énfasis en conocer o descubrir un lugar, no solo en pasar por él."
+    },
+    "curious": {
+      "sourceWord": "curious",
+      "senses": {
+        "curious:meaning-1": {
+          "gloss": "curioso; interesado en saber",
+          "definition": "Que desea aprender o saber más sobre algo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The child was curious about the stars.",
+          "translation": "El niño sentía curiosidad por las estrellas."
+        },
+        {
+          "en": "I am curious to know how this machine works.",
+          "translation": "Tengo curiosidad por saber cómo funciona esta máquina."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "curious about",
+          "translation": "sentir curiosidad por"
+        },
+        {
+          "en": "curious to know",
+          "translation": "tener curiosidad por saber"
+        },
+        {
+          "en": "a curious child",
+          "translation": "un niño curioso"
+        }
+      ],
+      "tip": "Curious about se usa con el tema que despierta interés. Curious to know se usa antes de lo que se quiere saber."
+    },
+    "discover": {
+      "sourceWord": "discover",
+      "senses": {
+        "discover:meaning-1": {
+          "gloss": "descubrir",
+          "definition": "Encontrar algo o enterarse de algo que antes se desconocía."
+        }
+      },
+      "examples": [
+        {
+          "en": "We discovered a quiet garden behind the museum.",
+          "translation": "Descubrimos un jardín tranquilo detrás del museo."
+        },
+        {
+          "en": "The team discovered a new way to reduce waste.",
+          "translation": "El equipo descubrió una nueva forma de reducir los residuos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "discover a place",
+          "translation": "descubrir un lugar"
+        },
+        {
+          "en": "discover a method",
+          "translation": "descubrir un método"
+        },
+        {
+          "en": "discover that",
+          "translation": "descubrir que"
+        }
+      ],
+      "tip": "Discover destaca que la información o el hallazgo es nuevo para quien lo encuentra."
+    },
+    "remember": {
+      "sourceWord": "remember",
+      "senses": {
+        "remember:meaning-1": {
+          "gloss": "recordar; acordarse de",
+          "definition": "Conservar información en la memoria o traerla de nuevo a la mente."
+        }
+      },
+      "examples": [
+        {
+          "en": "I remember the name of my first teacher.",
+          "translation": "Recuerdo el nombre de mi primer maestro."
+        },
+        {
+          "en": "Do you remember where we left the keys?",
+          "translation": "¿Recuerdas dónde dejamos las llaves?"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "remember a name",
+          "translation": "recordar un nombre"
+        },
+        {
+          "en": "remember clearly",
+          "translation": "recordar claramente"
+        },
+        {
+          "en": "remember the details",
+          "translation": "recordar los detalles"
+        }
+      ],
+      "tip": "Remember se refiere a tener o recuperar un recuerdo; remind significa hacer que otra persona recuerde algo."
+    },
+    "understand": {
+      "sourceWord": "understand",
+      "senses": {
+        "understand:meaning-1": {
+          "gloss": "entender; comprender",
+          "definition": "Saber qué significa algo o cómo funciona."
+        }
+      },
+      "examples": [
+        {
+          "en": "I understand the question now.",
+          "translation": "Ahora entiendo la pregunta."
+        },
+        {
+          "en": "This diagram helps us understand how the pump works.",
+          "translation": "Este diagrama nos ayuda a entender cómo funciona la bomba."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "understand a question",
+          "translation": "entender una pregunta"
+        },
+        {
+          "en": "understand how",
+          "translation": "entender cómo"
+        },
+        {
+          "en": "fully understand",
+          "translation": "comprender por completo"
+        }
+      ],
+      "tip": "Understand how introduce la explicación de un proceso o de la manera en que funciona algo."
+    },
+    "compare": {
+      "sourceWord": "compare",
+      "senses": {
+        "compare:meaning-1": {
+          "gloss": "comparar",
+          "definition": "Examinar cosas para encontrar semejanzas y diferencias."
+        }
+      },
+      "examples": [
+        {
+          "en": "Compare the two pictures and find three differences.",
+          "translation": "Compara las dos imágenes y encuentra tres diferencias."
+        },
+        {
+          "en": "We compared the prices before choosing a ticket.",
+          "translation": "Comparamos los precios antes de elegir un boleto."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "compare prices",
+          "translation": "comparar precios"
+        },
+        {
+          "en": "compare results",
+          "translation": "comparar resultados"
+        },
+        {
+          "en": "compare with",
+          "translation": "comparar con"
+        }
+      ],
+      "tip": "Compare with permite relacionar dos elementos para estudiar sus semejanzas y diferencias."
+    },
+    "explain": {
+      "sourceWord": "explain",
+      "senses": {
+        "explain:meaning-1": {
+          "gloss": "explicar; aclarar",
+          "definition": "Hacer que algo resulte claro o fácil de entender."
+        }
+      },
+      "examples": [
+        {
+          "en": "Please explain the rule with an example.",
+          "translation": "Por favor, explica la regla con un ejemplo."
+        },
+        {
+          "en": "The engineer explained why the motor stopped.",
+          "translation": "El ingeniero explicó por qué se detuvo el motor."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "explain a rule",
+          "translation": "explicar una regla"
+        },
+        {
+          "en": "explain why",
+          "translation": "explicar por qué"
+        },
+        {
+          "en": "explain to someone",
+          "translation": "explicarle a alguien"
+        }
+      ],
+      "tip": "Se dice explain something to someone: se explica algo a alguien."
+    },
+    "improve": {
+      "sourceWord": "improve",
+      "senses": {
+        "improve:meaning-1": {
+          "gloss": "mejorar; perfeccionar",
+          "definition": "Volverse mejor o hacer que algo sea mejor."
+        }
+      },
+      "examples": [
+        {
+          "en": "Daily practice helped me improve my English.",
+          "translation": "La práctica diaria me ayudó a mejorar mi inglés."
+        },
+        {
+          "en": "The new design improves access to the building.",
+          "translation": "El nuevo diseño mejora el acceso al edificio."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "improve a skill",
+          "translation": "mejorar una habilidad"
+        },
+        {
+          "en": "improve quality",
+          "translation": "mejorar la calidad"
+        },
+        {
+          "en": "improve gradually",
+          "translation": "mejorar gradualmente"
+        }
+      ],
+      "tip": "Improve puede usarse con un objeto, como improve a skill, o sin él, como my English improved."
+    },
+    "habit": {
+      "sourceWord": "habit",
+      "senses": {
+        "habit:meaning-1": {
+          "gloss": "hábito; costumbre",
+          "definition": "Algo que se hace de manera habitual, muchas veces sin pensarlo."
+        }
+      },
+      "examples": [
+        {
+          "en": "Reading before bed is one of my habits.",
+          "translation": "Leer antes de dormir es uno de mis hábitos."
+        },
+        {
+          "en": "She developed a habit of writing new words in a notebook.",
+          "translation": "Adquirió el hábito de escribir palabras nuevas en una libreta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "daily habit",
+          "translation": "hábito diario"
+        },
+        {
+          "en": "develop a habit",
+          "translation": "adquirir un hábito"
+        },
+        {
+          "en": "break a habit",
+          "translation": "dejar un hábito"
+        }
+      ],
+      "tip": "Habit suele referirse a una conducta repetida; routine es una secuencia habitual de actividades."
+    },
+    "question": {
+      "sourceWord": "question",
+      "senses": {
+        "question:meaning-1": {
+          "gloss": "pregunta; cuestión",
+          "definition": "Algo que se pregunta para obtener información o una respuesta."
+        }
+      },
+      "examples": [
+        {
+          "en": "May I ask a question about the schedule?",
+          "translation": "¿Puedo hacer una pregunta sobre el horario?"
+        },
+        {
+          "en": "Write one question for each paragraph.",
+          "translation": "Escribe una pregunta para cada párrafo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "ask a question",
+          "translation": "hacer una pregunta"
+        },
+        {
+          "en": "answer a question",
+          "translation": "responder una pregunta"
+        },
+        {
+          "en": "a clear question",
+          "translation": "una pregunta clara"
+        }
+      ],
+      "tip": "Ask a question es hacer una pregunta; answer a question es responderla."
+    },
+    "answer": {
+      "sourceWord": "answer",
+      "senses": {
+        "answer:meaning-1": {
+          "gloss": "respuesta; solución",
+          "definition": "Contestación, resultado correcto o solución de un problema."
+        }
+      },
+      "examples": [
+        {
+          "en": "Her answer was short and clear.",
+          "translation": "Su respuesta fue breve y clara."
+        },
+        {
+          "en": "We found the answer in the final paragraph.",
+          "translation": "Encontramos la respuesta en el último párrafo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "correct answer",
+          "translation": "respuesta correcta"
+        },
+        {
+          "en": "give an answer",
+          "translation": "dar una respuesta"
+        },
+        {
+          "en": "find an answer",
+          "translation": "encontrar una respuesta"
+        }
+      ],
+      "tip": "Answer puede ser la contestación a una pregunta o la solución de un problema."
+    },
+    "routine": {
+      "sourceWord": "routine",
+      "senses": {
+        "routine:meaning-1": {
+          "gloss": "rutina; secuencia habitual",
+          "definition": "Manera habitual de hacer las cosas en un orden determinado."
+        }
+      },
+      "examples": [
+        {
+          "en": "A simple morning routine helps me get ready on time.",
+          "translation": "Una rutina matutina sencilla me ayuda a prepararme a tiempo."
+        },
+        {
+          "en": "Reading is part of our evening routine.",
+          "translation": "Leer forma parte de nuestra rutina de la noche."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "daily routine",
+          "translation": "rutina diaria"
+        },
+        {
+          "en": "morning routine",
+          "translation": "rutina de la mañana"
+        },
+        {
+          "en": "part of a routine",
+          "translation": "parte de una rutina"
+        }
+      ],
+      "tip": "Routine suele reunir varias actividades habituales en una secuencia."
+    },
+    "friend": {
+      "sourceWord": "friend",
+      "senses": {
+        "friend:meaning-1": {
+          "gloss": "amigo; amiga",
+          "definition": "Persona que se conoce bien, se aprecia y con quien se disfruta pasar tiempo."
+        }
+      },
+      "examples": [
+        {
+          "en": "I met a friend at the library.",
+          "translation": "Me encontré con un amigo en la biblioteca."
+        },
+        {
+          "en": "A good friend listens carefully.",
+          "translation": "Un buen amigo escucha con atención."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "close friend",
+          "translation": "amigo cercano"
+        },
+        {
+          "en": "make friends",
+          "translation": "hacer amigos"
+        },
+        {
+          "en": "old friend",
+          "translation": "viejo amigo"
+        }
+      ],
+      "tip": "Make friends significa establecer amistades; no se traduce literalmente palabra por palabra."
+    },
+    "family": {
+      "sourceWord": "family",
+      "senses": {
+        "family:meaning-1": {
+          "gloss": "familia",
+          "definition": "Grupo de personas relacionadas entre sí por vínculos familiares."
+        }
+      },
+      "examples": [
+        {
+          "en": "My family lives in a small town.",
+          "translation": "Mi familia vive en un pueblo pequeño."
+        },
+        {
+          "en": "We had dinner with her family.",
+          "translation": "Cenamos con su familia."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "family member",
+          "translation": "miembro de la familia"
+        },
+        {
+          "en": "family life",
+          "translation": "vida familiar"
+        },
+        {
+          "en": "extended family",
+          "translation": "familia extensa"
+        }
+      ],
+      "tip": "Family member se refiere a un integrante de la familia. Extended family incluye a parientes más allá del núcleo inmediato."
+    },
+    "garden": {
+      "sourceWord": "garden",
+      "senses": {
+        "garden:meaning-1": {
+          "gloss": "jardín; huerto",
+          "definition": "Terreno donde se cultivan flores u hortalizas."
+        }
+      },
+      "examples": [
+        {
+          "en": "We grow tomatoes in our garden.",
+          "translation": "Cultivamos tomates en nuestro huerto."
+        },
+        {
+          "en": "There is a quiet garden behind the house.",
+          "translation": "Hay un jardín tranquilo detrás de la casa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "vegetable garden",
+          "translation": "huerto de hortalizas"
+        },
+        {
+          "en": "garden tools",
+          "translation": "herramientas de jardinería"
+        },
+        {
+          "en": "public garden",
+          "translation": "jardín público"
+        }
+      ],
+      "tip": "Garden puede ser un jardín o un huerto; el tipo de plantas y el contexto aclaran el significado."
+    },
+    "language": {
+      "sourceWord": "language",
+      "senses": {
+        "language:meaning-1": {
+          "gloss": "lengua; lenguaje; idioma",
+          "definition": "Sistema de palabras o gestos que se utiliza para comunicarse."
+        }
+      },
+      "examples": [
+        {
+          "en": "Persian and English are different languages.",
+          "translation": "El persa y el inglés son idiomas diferentes."
+        },
+        {
+          "en": "Learning a language takes regular practice.",
+          "translation": "Aprender un idioma requiere práctica constante."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "learn a language",
+          "translation": "aprender un idioma"
+        },
+        {
+          "en": "spoken language",
+          "translation": "lengua hablada"
+        },
+        {
+          "en": "sign language",
+          "translation": "lengua de señas"
+        }
+      ],
+      "tip": "Language puede ser un idioma o un sistema de comunicación, como una lengua de señas."
+    },
+    "travel": {
+      "sourceWord": "travel",
+      "senses": {
+        "travel:meaning-1": {
+          "gloss": "viajar; desplazarse",
+          "definition": "Ir de un lugar a otro."
+        }
+      },
+      "examples": [
+        {
+          "en": "We travel by train whenever possible.",
+          "translation": "Viajamos en tren siempre que es posible."
+        },
+        {
+          "en": "She travelled to another city for work.",
+          "translation": "Ella viajó a otra ciudad por trabajo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "travel by train",
+          "translation": "viajar en tren"
+        },
+        {
+          "en": "travel abroad",
+          "translation": "viajar al extranjero"
+        },
+        {
+          "en": "travel for work",
+          "translation": "viajar por trabajo"
+        }
+      ],
+      "tip": "Travel by se usa con medios de transporte, como train o bus. Travel abroad significa viajar al extranjero."
+    },
+    "learn": {
+      "sourceWord": "learn",
+      "senses": {
+        "learn:meaning-1": {
+          "gloss": "aprender",
+          "definition": "Adquirir conocimientos o habilidades mediante el estudio o la experiencia."
+        }
+      },
+      "examples": [
+        {
+          "en": "I want to learn how to cook rice.",
+          "translation": "Quiero aprender a cocinar arroz."
+        },
+        {
+          "en": "We learn new words through examples.",
+          "translation": "Aprendemos palabras nuevas mediante ejemplos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "learn a skill",
+          "translation": "aprender una habilidad"
+        },
+        {
+          "en": "learn how to",
+          "translation": "aprender a"
+        },
+        {
+          "en": "learn from experience",
+          "translation": "aprender de la experiencia"
+        }
+      ],
+      "tip": "Learn how to introduce una habilidad o un procedimiento que se aprende."
+    },
+    "bake": {
+      "sourceWord": "bake",
+      "senses": {
+        "bake:meaning-1": {
+          "gloss": "hornear; cocinar en el horno",
+          "definition": "Cocinar un alimento en un horno usando calor seco."
+        }
+      },
+      "examples": [
+        {
+          "en": "We bake bread every Friday.",
+          "translation": "Horneamos pan todos los viernes."
+        },
+        {
+          "en": "She baked the potatoes in the oven.",
+          "translation": "Ella horneó las papas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "bake bread",
+          "translation": "hornear pan"
+        },
+        {
+          "en": "bake a cake",
+          "translation": "hornear un pastel"
+        },
+        {
+          "en": "bake in the oven",
+          "translation": "hornear en el horno"
+        }
+      ],
+      "tip": "Bake es frecuente con panes y pasteles. Roast también puede indicar cocinar en el horno, sobre todo carnes y verduras."
+    },
+    "boil": {
+      "sourceWord": "boil",
+      "senses": {
+        "boil:meaning-1": {
+          "gloss": "hervir; cocer en agua hirviendo",
+          "definition": "Cocinar un alimento en agua que forma burbujas por el calor."
+        }
+      },
+      "examples": [
+        {
+          "en": "Boil the pasta until it is tender.",
+          "translation": "Hierve la pasta hasta que esté tierna."
+        },
+        {
+          "en": "We boiled the potatoes for the salad.",
+          "translation": "Hervimos las papas para la ensalada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "boil water",
+          "translation": "hervir agua"
+        },
+        {
+          "en": "boil an egg",
+          "translation": "cocer un huevo"
+        },
+        {
+          "en": "boiling water",
+          "translation": "agua hirviendo"
+        }
+      ],
+      "tip": "Boil puede referirse al agua que hierve o al alimento que se cuece en ella."
+    },
+    "roast": {
+      "sourceWord": "roast",
+      "senses": {
+        "roast:meaning-1": {
+          "gloss": "asar; tostar",
+          "definition": "Cocinar con calor seco, especialmente en un horno."
+        }
+      },
+      "examples": [
+        {
+          "en": "We roasted vegetables for dinner.",
+          "translation": "Asamos verduras para la cena."
+        },
+        {
+          "en": "The cook roasted the peppers over a flame.",
+          "translation": "El cocinero asó los pimientos sobre una llama."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "roast vegetables",
+          "translation": "asar verduras"
+        },
+        {
+          "en": "roast chicken",
+          "translation": "asar pollo"
+        },
+        {
+          "en": "roast in an oven",
+          "translation": "asar en un horno"
+        }
+      ],
+      "tip": "Roast suele usarse con carnes, verduras y otros alimentos que se cocinan con calor seco."
+    },
+    "chop": {
+      "sourceWord": "chop",
+      "senses": {
+        "chop:meaning-1": {
+          "gloss": "picar; cortar en trozos",
+          "definition": "Cortar un alimento en trozos pequeños con varios cortes."
+        }
+      },
+      "examples": [
+        {
+          "en": "Chop the onion into small pieces.",
+          "translation": "Pica la cebolla en trozos pequeños."
+        },
+        {
+          "en": "She chopped the herbs before adding them to the soup.",
+          "translation": "Ella picó las hierbas antes de añadirlas a la sopa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "chop an onion",
+          "translation": "picar una cebolla"
+        },
+        {
+          "en": "finely chopped",
+          "translation": "finamente picado"
+        },
+        {
+          "en": "chopping board",
+          "translation": "tabla para picar"
+        }
+      ],
+      "tip": "Chop indica cortar en trozos; slice destaca los cortes en rebanadas."
+    },
+    "stir": {
+      "sourceWord": "stir",
+      "senses": {
+        "stir:meaning-1": {
+          "gloss": "revolver; mezclar con un utensilio",
+          "definition": "Mover un líquido o una mezcla en círculos con una cuchara u otro utensilio."
+        }
+      },
+      "examples": [
+        {
+          "en": "Stir the soup gently with a wooden spoon.",
+          "translation": "Revuelve suavemente la sopa con una cuchara de madera."
+        },
+        {
+          "en": "She stirred some milk into her tea.",
+          "translation": "Ella mezcló un poco de leche en su té."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "stir gently",
+          "translation": "revolver suavemente"
+        },
+        {
+          "en": "stir the mixture",
+          "translation": "revolver la mezcla"
+        },
+        {
+          "en": "stir in",
+          "translation": "incorporar mientras se revuelve"
+        }
+      ],
+      "tip": "Stir in significa añadir un ingrediente mientras se revuelve la mezcla."
+    },
+    "ingredient": {
+      "sourceWord": "ingredient",
+      "senses": {
+        "ingredient:meaning-1": {
+          "gloss": "ingrediente",
+          "definition": "Uno de los alimentos o sustancias que se combinan para preparar algo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The recipe needs only five ingredients.",
+          "translation": "La receta solo necesita cinco ingredientes."
+        },
+        {
+          "en": "Check the ingredients on the label.",
+          "translation": "Revisa los ingredientes en la etiqueta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "fresh ingredients",
+          "translation": "ingredientes frescos"
+        },
+        {
+          "en": "main ingredient",
+          "translation": "ingrediente principal"
+        },
+        {
+          "en": "list of ingredients",
+          "translation": "lista de ingredientes"
+        }
+      ],
+      "tip": "Ingredient es un componente de una preparación. Una receta puede incluir varios ingredients."
+    },
+    "recipe": {
+      "sourceWord": "recipe",
+      "senses": {
+        "recipe:meaning-1": {
+          "gloss": "receta de cocina",
+          "definition": "Instrucciones que indican los ingredientes y cómo preparar un plato."
+        }
+      },
+      "examples": [
+        {
+          "en": "This recipe makes enough soup for four people.",
+          "translation": "Esta receta rinde sopa suficiente para cuatro personas."
+        },
+        {
+          "en": "I wrote the recipe in my notebook.",
+          "translation": "Escribí la receta en mi libreta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "follow a recipe",
+          "translation": "seguir una receta"
+        },
+        {
+          "en": "a simple recipe",
+          "translation": "una receta sencilla"
+        },
+        {
+          "en": "recipe book",
+          "translation": "libro de recetas"
+        }
+      ],
+      "tip": "Recipe es una receta de cocina; receipt es un recibo o comprobante de pago."
+    },
+    "flavour": {
+      "sourceWord": "flavour",
+      "senses": {
+        "flavour:meaning-1": {
+          "gloss": "sabor",
+          "definition": "Cualidad de un alimento o bebida que se percibe al probarlo."
+        }
+      },
+      "examples": [
+        {
+          "en": "Lemon gives the soup a fresh flavour.",
+          "translation": "El limón le da un sabor fresco a la sopa."
+        },
+        {
+          "en": "This tea has a mild flavour.",
+          "translation": "Este té tiene un sabor suave."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "mild flavour",
+          "translation": "sabor suave"
+        },
+        {
+          "en": "rich flavour",
+          "translation": "sabor intenso"
+        },
+        {
+          "en": "add flavour",
+          "translation": "dar sabor"
+        }
+      ],
+      "tip": "Flavour es la grafía británica; flavor es la grafía estadounidense. Ambas se refieren al sabor."
+    },
+    "slice": {
+      "sourceWord": "slice",
+      "senses": {
+        "slice:meaning-1": {
+          "gloss": "rebanar; cortar en rebanadas",
+          "definition": "Cortar algo en partes delgadas y relativamente planas."
+        }
+      },
+      "examples": [
+        {
+          "en": "Slice the tomatoes with a sharp knife.",
+          "translation": "Rebana los tomates con un cuchillo afilado."
+        },
+        {
+          "en": "She sliced the bread before lunch.",
+          "translation": "Ella rebanó el pan antes del almuerzo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "slice bread",
+          "translation": "rebanar pan"
+        },
+        {
+          "en": "thinly sliced",
+          "translation": "cortado en rebanadas finas"
+        },
+        {
+          "en": "a slice of bread",
+          "translation": "una rebanada de pan"
+        }
+      ],
+      "tip": "Slice como verbo significa rebanar; a slice es una rebanada o porción delgada."
+    },
+    "peel": {
+      "sourceWord": "peel",
+      "senses": {
+        "peel:meaning-1": {
+          "gloss": "pelar; quitar la cáscara",
+          "definition": "Quitar la capa exterior de una fruta u hortaliza."
+        }
+      },
+      "examples": [
+        {
+          "en": "Peel the carrots before chopping them.",
+          "translation": "Pela las zanahorias antes de picarlas."
+        },
+        {
+          "en": "He peeled an orange for the children.",
+          "translation": "Él peló una naranja para los niños."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "peel a potato",
+          "translation": "pelar una papa"
+        },
+        {
+          "en": "orange peel",
+          "translation": "cáscara de naranja"
+        },
+        {
+          "en": "peeled vegetables",
+          "translation": "verduras peladas"
+        }
+      ],
+      "tip": "Peel puede ser el verbo pelar o el sustantivo cáscara. El contexto determina el uso."
+    },
+    "mixture": {
+      "sourceWord": "mixture",
+      "senses": {
+        "mixture:meaning-1": {
+          "gloss": "mezcla",
+          "definition": "Conjunto de dos o más sustancias combinadas."
+        }
+      },
+      "examples": [
+        {
+          "en": "Add the flour to the egg mixture.",
+          "translation": "Añade la harina a la mezcla de huevo."
+        },
+        {
+          "en": "Stir the mixture until it is smooth.",
+          "translation": "Revuelve la mezcla hasta que quede uniforme."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a smooth mixture",
+          "translation": "una mezcla homogénea"
+        },
+        {
+          "en": "cake mixture",
+          "translation": "mezcla para pastel"
+        },
+        {
+          "en": "a mixture of",
+          "translation": "una mezcla de"
+        }
+      ],
+      "tip": "Mixture es el sustantivo que corresponde a mix: la mezcla resultante de combinar ingredientes."
+    },
+    "steam": {
+      "sourceWord": "steam",
+      "senses": {
+        "steam:meaning-1": {
+          "gloss": "cocinar al vapor",
+          "definition": "Cocinar alimentos usando vapor de agua caliente."
+        }
+      },
+      "examples": [
+        {
+          "en": "We steamed the vegetables instead of boiling them.",
+          "translation": "Cocinamos las verduras al vapor en lugar de hervirlas."
+        },
+        {
+          "en": "The cook steamed the dumplings in a bamboo basket.",
+          "translation": "El cocinero preparó las empanadillas al vapor en una cesta de bambú."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "steam vegetables",
+          "translation": "cocinar verduras al vapor"
+        },
+        {
+          "en": "steamed rice",
+          "translation": "arroz al vapor"
+        },
+        {
+          "en": "steam basket",
+          "translation": "cesta para cocinar al vapor"
+        }
+      ],
+      "tip": "Steam como verbo es cocinar al vapor; como sustantivo significa vapor."
+    },
+    "heart": {
+      "sourceWord": "heart",
+      "senses": {
+        "heart:meaning-1": {
+          "gloss": "corazón",
+          "definition": "Órgano muscular que bombea sangre por el cuerpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The heart pumps blood around the body.",
+          "translation": "El corazón bombea sangre por todo el cuerpo."
+        },
+        {
+          "en": "The diagram shows the main parts of the heart.",
+          "translation": "El diagrama muestra las partes principales del corazón."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "heart rate",
+          "translation": "frecuencia cardíaca"
+        },
+        {
+          "en": "heart muscle",
+          "translation": "músculo cardíaco"
+        },
+        {
+          "en": "heart valve",
+          "translation": "válvula cardíaca"
+        }
+      ],
+      "tip": "Aquí heart se refiere al órgano. En otros contextos puede indicar el centro de algo o sentimientos."
+    },
+    "blood": {
+      "sourceWord": "blood",
+      "senses": {
+        "blood:meaning-1": {
+          "gloss": "sangre",
+          "definition": "Líquido del cuerpo que circula por los vasos sanguíneos y transporta sustancias."
+        }
+      },
+      "examples": [
+        {
+          "en": "Blood carries oxygen to the body's tissues.",
+          "translation": "La sangre lleva oxígeno a los tejidos del cuerpo."
+        },
+        {
+          "en": "The laboratory received a blood sample.",
+          "translation": "El laboratorio recibió una muestra de sangre."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "blood sample",
+          "translation": "muestra de sangre"
+        },
+        {
+          "en": "blood vessel",
+          "translation": "vaso sanguíneo"
+        },
+        {
+          "en": "blood test",
+          "translation": "análisis de sangre"
+        }
+      ],
+      "tip": "Blood es un sustantivo incontable en este uso; blood sample es una muestra de sangre."
+    },
+    "symptom": {
+      "sourceWord": "symptom",
+      "senses": {
+        "symptom:meaning-1": {
+          "gloss": "síntoma",
+          "definition": "Cambio o sensación que puede indicar una enfermedad o un problema de salud."
+        }
+      },
+      "examples": [
+        {
+          "en": "The nurse asked the patient about her symptoms.",
+          "translation": "La enfermera le preguntó a la paciente por sus síntomas."
+        },
+        {
+          "en": "The form includes a space to describe each symptom.",
+          "translation": "El formulario incluye un espacio para describir cada síntoma."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "describe a symptom",
+          "translation": "describir un síntoma"
+        },
+        {
+          "en": "common symptom",
+          "translation": "síntoma frecuente"
+        },
+        {
+          "en": "symptom of",
+          "translation": "síntoma de"
+        }
+      ],
+      "tip": "Symptom se usa para hablar de una manifestación percibida de un problema de salud. El vocabulario no permite establecer un diagnóstico."
+    },
+    "patient": {
+      "sourceWord": "patient",
+      "senses": {
+        "patient:meaning-1": {
+          "gloss": "paciente",
+          "definition": "Persona que recibe atención médica."
+        }
+      },
+      "examples": [
+        {
+          "en": "The doctor listened carefully to the patient.",
+          "translation": "El médico escuchó con atención al paciente."
+        },
+        {
+          "en": "Each patient received a copy of the appointment details.",
+          "translation": "Cada paciente recibió una copia de los detalles de la cita."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a new patient",
+          "translation": "un paciente nuevo"
+        },
+        {
+          "en": "patient care",
+          "translation": "atención al paciente"
+        },
+        {
+          "en": "patient record",
+          "translation": "expediente del paciente"
+        }
+      ],
+      "tip": "Patient es la persona atendida en este sentido. Como adjetivo puede significar paciente, con capacidad de esperar."
+    },
+    "doctor": {
+      "sourceWord": "doctor",
+      "senses": {
+        "doctor:meaning-1": {
+          "gloss": "médico; médica",
+          "definition": "Profesional con formación para diagnosticar y tratar enfermedades."
+        }
+      },
+      "examples": [
+        {
+          "en": "The doctor explained the results in simple language.",
+          "translation": "El médico explicó los resultados con palabras sencillas."
+        },
+        {
+          "en": "She works as a doctor at a local clinic.",
+          "translation": "Ella trabaja como médica en una clínica local."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "see a doctor",
+          "translation": "consultar a un médico"
+        },
+        {
+          "en": "family doctor",
+          "translation": "médico de familia"
+        },
+        {
+          "en": "doctor appointment",
+          "translation": "cita médica"
+        }
+      ],
+      "tip": "Doctor aquí se refiere a un profesional de medicina; también puede ser un título académico en otros contextos."
+    },
+    "nurse": {
+      "sourceWord": "nurse",
+      "senses": {
+        "nurse:meaning-1": {
+          "gloss": "enfermero; enfermera",
+          "definition": "Profesional con formación para cuidar a personas enfermas o lesionadas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The nurse checked the patient's name before the appointment.",
+          "translation": "La enfermera comprobó el nombre del paciente antes de la cita."
+        },
+        {
+          "en": "A nurse showed us where to wait.",
+          "translation": "Un enfermero nos indicó dónde esperar."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "registered nurse",
+          "translation": "profesional de enfermería con licencia"
+        },
+        {
+          "en": "nursing care",
+          "translation": "cuidados de enfermería"
+        },
+        {
+          "en": "nurse on duty",
+          "translation": "enfermera de turno"
+        }
+      ],
+      "tip": "Nurse puede referirse a personas de cualquier género que ejercen la enfermería. Las credenciales profesionales varían según el país."
+    },
+    "treatment": {
+      "sourceWord": "treatment",
+      "senses": {
+        "treatment:meaning-1": {
+          "gloss": "tratamiento; atención terapéutica",
+          "definition": "Atención médica destinada a mejorar una enfermedad o una lesión."
+        }
+      },
+      "examples": [
+        {
+          "en": "The doctor discussed the treatment with the patient.",
+          "translation": "El médico habló del tratamiento con el paciente."
+        },
+        {
+          "en": "The report describes the treatment given at the clinic.",
+          "translation": "El informe describe el tratamiento proporcionado en la clínica."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "medical treatment",
+          "translation": "tratamiento médico"
+        },
+        {
+          "en": "treatment plan",
+          "translation": "plan de tratamiento"
+        },
+        {
+          "en": "receive treatment",
+          "translation": "recibir tratamiento"
+        }
+      ],
+      "tip": "Treatment puede indicar la atención o el tratamiento recibido; su mención no es una recomendación para un caso particular."
+    },
+    "infection": {
+      "sourceWord": "infection",
+      "senses": {
+        "infection:meaning-1": {
+          "gloss": "infección",
+          "definition": "Afección causada por organismos dañinos que entran en el cuerpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The laboratory report mentioned an infection.",
+          "translation": "El informe del laboratorio mencionaba una infección."
+        },
+        {
+          "en": "The class discussed how infections can spread.",
+          "translation": "La clase habló de cómo pueden propagarse las infecciones."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "risk of infection",
+          "translation": "riesgo de infección"
+        },
+        {
+          "en": "prevent infection",
+          "translation": "prevenir una infección"
+        },
+        {
+          "en": "an infection",
+          "translation": "una infección"
+        }
+      ],
+      "tip": "Infection se refiere a una infección; no es sinónimo de cualquier enfermedad. Este contenido enseña vocabulario."
+    },
+    "disease": {
+      "sourceWord": "disease",
+      "senses": {
+        "disease:meaning-1": {
+          "gloss": "enfermedad",
+          "definition": "Afección que altera la salud de personas, animales o plantas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The patient asked a question about the disease.",
+          "translation": "El paciente hizo una pregunta sobre la enfermedad."
+        },
+        {
+          "en": "Researchers study the causes of the disease.",
+          "translation": "Los investigadores estudian las causas de la enfermedad."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a common disease",
+          "translation": "una enfermedad frecuente"
+        },
+        {
+          "en": "cause of a disease",
+          "translation": "causa de una enfermedad"
+        },
+        {
+          "en": "disease prevention",
+          "translation": "prevención de enfermedades"
+        }
+      ],
+      "tip": "Disease puede referirse a enfermedades de seres humanos, animales o plantas, según el contexto."
+    },
+    "recover": {
+      "sourceWord": "recover",
+      "senses": {
+        "recover:meaning-1": {
+          "gloss": "recuperarse; restablecerse",
+          "definition": "Volver a la salud o a un estado normal después de una dificultad."
+        }
+      },
+      "examples": [
+        {
+          "en": "She recovered slowly after the illness.",
+          "translation": "Ella se recuperó lentamente después de la enfermedad."
+        },
+        {
+          "en": "He needed time to recover from the injury.",
+          "translation": "Él necesitó tiempo para recuperarse de la lesión."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "recover from",
+          "translation": "recuperarse de"
+        },
+        {
+          "en": "recover fully",
+          "translation": "recuperarse por completo"
+        },
+        {
+          "en": "recover gradually",
+          "translation": "recuperarse gradualmente"
+        }
+      ],
+      "tip": "Recover from introduce la enfermedad, lesión o dificultad de la que alguien se recupera."
+    },
+    "medicine": {
+      "sourceWord": "medicine",
+      "senses": {
+        "medicine:meaning-1": {
+          "gloss": "medicamento; medicina",
+          "definition": "Sustancia utilizada para tratar o prevenir una enfermedad."
+        }
+      },
+      "examples": [
+        {
+          "en": "The label gives the name of the medicine.",
+          "translation": "La etiqueta indica el nombre del medicamento."
+        },
+        {
+          "en": "She asked the pharmacist a question about the medicine.",
+          "translation": "Ella le hizo una pregunta al farmacéutico sobre el medicamento."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "prescription medicine",
+          "translation": "medicamento con receta"
+        },
+        {
+          "en": "medicine label",
+          "translation": "etiqueta del medicamento"
+        },
+        {
+          "en": "study medicine",
+          "translation": "estudiar medicina"
+        }
+      ],
+      "tip": "Medicine puede significar un medicamento o la disciplina médica. La explicación de una palabra no indica cómo usar un fármaco."
+    },
+    "pressure": {
+      "sourceWord": "pressure",
+      "senses": {
+        "pressure:blood-pressure": {
+          "gloss": "presión; presión arterial",
+          "definition": "Presión que ejerce la sangre contra las paredes de los vasos sanguíneos."
+        },
+        "pressure:force-per-area": {
+          "gloss": "presión; fuerza por unidad de área",
+          "definition": "Fuerza aplicada por unidad de área."
+        }
+      },
+      "tip": "El contexto distingue blood pressure, presión arterial, de pressure gauge, manómetro. Los dos sentidos conservan identidades diferentes en el contenido.",
+      "examples": [
+        {
+          "en": "The nurse recorded the patient's blood pressure.",
+          "translation": "La enfermera registró la presión arterial del paciente."
+        },
+        {
+          "en": "The report lists blood pressure among the recorded measurements.",
+          "translation": "El informe incluye la presión arterial entre las mediciones registradas."
+        },
+        {
+          "en": "The gauge shows the pressure inside the pipe.",
+          "translation": "El manómetro muestra la presión dentro de la tubería."
+        },
+        {
+          "en": "Pressure depends on both the applied force and the area.",
+          "translation": "La presión depende tanto de la fuerza aplicada como del área."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "blood pressure",
+          "translation": "presión arterial"
+        },
+        {
+          "en": "pressure gauge",
+          "translation": "manómetro"
+        },
+        {
+          "en": "pressure measurement",
+          "translation": "medición de presión"
+        }
+      ]
+    },
+    "force": {
+      "sourceWord": "force",
+      "senses": {
+        "force:meaning-1": {
+          "gloss": "fuerza",
+          "definition": "Interacción que puede cambiar el movimiento o la forma de un objeto."
+        }
+      },
+      "examples": [
+        {
+          "en": "A force can change the motion of an object.",
+          "translation": "Una fuerza puede cambiar el movimiento de un objeto."
+        },
+        {
+          "en": "The diagram shows the forces acting on the beam.",
+          "translation": "El diagrama muestra las fuerzas que actúan sobre la viga."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "apply a force",
+          "translation": "aplicar una fuerza"
+        },
+        {
+          "en": "contact force",
+          "translation": "fuerza de contacto"
+        },
+        {
+          "en": "force diagram",
+          "translation": "diagrama de fuerzas"
+        }
+      ],
+      "tip": "Force aquí tiene un sentido físico. Su efecto depende de su magnitud, dirección y del sistema estudiado."
+    },
+    "friction": {
+      "sourceWord": "friction",
+      "senses": {
+        "friction:meaning-1": {
+          "gloss": "fricción; rozamiento",
+          "definition": "Resistencia que aparece cuando una superficie se mueve o roza contra otra."
+        }
+      },
+      "examples": [
+        {
+          "en": "Friction slows the moving block.",
+          "translation": "La fricción desacelera el bloque en movimiento."
+        },
+        {
+          "en": "The rough surface creates more friction.",
+          "translation": "La superficie rugosa produce más fricción."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "reduce friction",
+          "translation": "reducir la fricción"
+        },
+        {
+          "en": "friction between surfaces",
+          "translation": "fricción entre superficies"
+        },
+        {
+          "en": "friction force",
+          "translation": "fuerza de fricción"
+        }
+      ],
+      "tip": "Friction describe la interacción entre superficies en contacto; el contexto distingue el sentido físico de usos figurados."
+    },
+    "current": {
+      "sourceWord": "current",
+      "senses": {
+        "current:meaning-1": {
+          "gloss": "corriente; corriente eléctrica",
+          "definition": "Movimiento continuo de agua, aire o electricidad."
+        }
+      },
+      "examples": [
+        {
+          "en": "Electric current flows through the wire.",
+          "translation": "La corriente eléctrica fluye por el cable."
+        },
+        {
+          "en": "The diagram shows the direction of the current.",
+          "translation": "El diagrama muestra la dirección de la corriente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "electric current",
+          "translation": "corriente eléctrica"
+        },
+        {
+          "en": "direct current",
+          "translation": "corriente continua"
+        },
+        {
+          "en": "alternating current",
+          "translation": "corriente alterna"
+        }
+      ],
+      "tip": "Aquí current es corriente eléctrica. Como adjetivo, current también puede significar actual."
+    },
+    "circuit": {
+      "sourceWord": "circuit",
+      "senses": {
+        "circuit:meaning-1": {
+          "gloss": "circuito eléctrico",
+          "definition": "Trayectoria conectada por la que puede circular una corriente eléctrica."
+        }
+      },
+      "examples": [
+        {
+          "en": "The switch opens the electric circuit.",
+          "translation": "El interruptor abre el circuito eléctrico."
+        },
+        {
+          "en": "The students drew a simple circuit with a battery and a lamp.",
+          "translation": "Los estudiantes dibujaron un circuito sencillo con una batería y una lámpara."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "electric circuit",
+          "translation": "circuito eléctrico"
+        },
+        {
+          "en": "closed circuit",
+          "translation": "circuito cerrado"
+        },
+        {
+          "en": "circuit diagram",
+          "translation": "diagrama de circuito"
+        }
+      ],
+      "tip": "Circuit en este contexto es una trayectoria eléctrica. Una descripción de vocabulario no es una instrucción de instalación."
+    },
+    "energy": {
+      "sourceWord": "energy",
+      "senses": {
+        "energy:meaning-1": {
+          "gloss": "energía; capacidad de realizar trabajo",
+          "definition": "Capacidad de un sistema para realizar trabajo o producir un cambio."
+        }
+      },
+      "examples": [
+        {
+          "en": "The panel converts sunlight into electrical energy.",
+          "translation": "El panel convierte la luz solar en energía eléctrica."
+        },
+        {
+          "en": "The machine transfers energy to the moving belt.",
+          "translation": "La máquina transfiere energía a la banda en movimiento."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "electrical energy",
+          "translation": "energía eléctrica"
+        },
+        {
+          "en": "renewable energy",
+          "translation": "energía renovable"
+        },
+        {
+          "en": "energy transfer",
+          "translation": "transferencia de energía"
+        }
+      ],
+      "tip": "Energy puede adoptar diferentes formas y transferirse entre sistemas. No equivale a potencia, que relaciona energía y tiempo."
+    },
+    "engine": {
+      "sourceWord": "engine",
+      "senses": {
+        "engine:meaning-1": {
+          "gloss": "motor",
+          "definition": "Máquina que produce potencia para hacer que algo se mueva."
+        }
+      },
+      "examples": [
+        {
+          "en": "The engine drives the wheels through a transmission.",
+          "translation": "El motor mueve las ruedas mediante una transmisión."
+        },
+        {
+          "en": "The mechanic inspected the engine before the journey.",
+          "translation": "El mecánico revisó el motor antes del viaje."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "car engine",
+          "translation": "motor de automóvil"
+        },
+        {
+          "en": "engine parts",
+          "translation": "piezas del motor"
+        },
+        {
+          "en": "start an engine",
+          "translation": "encender un motor"
+        }
+      ],
+      "tip": "Engine suele ser motor en este contexto; engineering es la disciplina de ingeniería."
+    },
+    "structure": {
+      "sourceWord": "structure",
+      "senses": {
+        "structure:meaning-1": {
+          "gloss": "estructura; disposición de las partes",
+          "definition": "Forma en que las partes de un conjunto están organizadas y conectadas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The model shows the structure of a wooden bridge.",
+          "translation": "El modelo muestra la estructura de un puente de madera."
+        },
+        {
+          "en": "Engineers studied the structure before changing the design.",
+          "translation": "Los ingenieros estudiaron la estructura antes de cambiar el diseño."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "supporting structure",
+          "translation": "estructura de soporte"
+        },
+        {
+          "en": "internal structure",
+          "translation": "estructura interna"
+        },
+        {
+          "en": "structural design",
+          "translation": "diseño estructural"
+        }
+      ],
+      "tip": "Structure puede ser la disposición de las partes o una construcción formada por ellas."
+    },
+    "measure": {
+      "sourceWord": "measure",
+      "senses": {
+        "measure:meaning-1": {
+          "gloss": "medir; determinar una medida",
+          "definition": "Determinar el tamaño, la cantidad o el grado de algo."
+        }
+      },
+      "examples": [
+        {
+          "en": "Measure the length of the beam in centimetres.",
+          "translation": "Mide la longitud de la viga en centímetros."
+        },
+        {
+          "en": "We measured the water before adding it to the mixture.",
+          "translation": "Medimos el agua antes de añadirla a la mezcla."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "measure a length",
+          "translation": "medir una longitud"
+        },
+        {
+          "en": "measure accurately",
+          "translation": "medir con precisión"
+        },
+        {
+          "en": "measurement unit",
+          "translation": "unidad de medida"
+        }
+      ],
+      "tip": "Measure como verbo significa medir; measurement es una medición o una medida obtenida."
+    },
+    "material": {
+      "sourceWord": "material",
+      "senses": {
+        "material:meaning-1": {
+          "gloss": "material; sustancia",
+          "definition": "Sustancia utilizada para fabricar cosas, incluida la tela."
+        }
+      },
+      "examples": [
+        {
+          "en": "The team chose a light material for the frame.",
+          "translation": "El equipo eligió un material ligero para el armazón."
+        },
+        {
+          "en": "Different materials have different properties.",
+          "translation": "Los distintos materiales tienen propiedades diferentes."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "raw material",
+          "translation": "materia prima"
+        },
+        {
+          "en": "building material",
+          "translation": "material de construcción"
+        },
+        {
+          "en": "material properties",
+          "translation": "propiedades del material"
+        }
+      ],
+      "tip": "Material puede referirse a la sustancia de un objeto o a una tela. El contexto aclara cuál."
+    },
+    "mechanism": {
+      "sourceWord": "mechanism",
+      "senses": {
+        "mechanism:meaning-1": {
+          "gloss": "mecanismo",
+          "definition": "Conjunto de piezas conectadas que cumple una función determinada."
+        }
+      },
+      "examples": [
+        {
+          "en": "The mechanism moves the two parts together.",
+          "translation": "El mecanismo mueve las dos piezas juntas."
+        },
+        {
+          "en": "A simple mechanism controls the opening of the door.",
+          "translation": "Un mecanismo sencillo controla la apertura de la puerta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "locking mechanism",
+          "translation": "mecanismo de cierre"
+        },
+        {
+          "en": "control mechanism",
+          "translation": "mecanismo de control"
+        },
+        {
+          "en": "mechanical mechanism",
+          "translation": "mecanismo mecánico"
+        }
+      ],
+      "tip": "Mechanism se refiere a cómo actúan juntas las piezas; puede ser una parte de una máquina más grande."
+    },
+    "beam": {
+      "sourceWord": "beam",
+      "senses": {
+        "beam:meaning-1": {
+          "gloss": "viga; elemento alargado de soporte",
+          "definition": "Pieza larga y resistente que sostiene un techo o un piso."
+        }
+      },
+      "examples": [
+        {
+          "en": "A steel beam supports the floor above.",
+          "translation": "Una viga de acero sostiene el piso superior."
+        },
+        {
+          "en": "The drawing shows the position of each beam.",
+          "translation": "El dibujo muestra la posición de cada viga."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "steel beam",
+          "translation": "viga de acero"
+        },
+        {
+          "en": "support beam",
+          "translation": "viga de soporte"
+        },
+        {
+          "en": "beam length",
+          "translation": "longitud de la viga"
+        }
+      ],
+      "tip": "Beam aquí es un elemento estructural. En otros contextos puede significar haz, por ejemplo a beam of light."
+    },
+    "load": {
+      "sourceWord": "load",
+      "senses": {
+        "load:meaning-1": {
+          "gloss": "carga; cantidad transportada",
+          "definition": "Algo que se transporta o la cantidad que lleva una persona o un vehículo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The truck carried a heavy load of timber.",
+          "translation": "El camión llevaba una carga pesada de madera."
+        },
+        {
+          "en": "The chart compares the loads carried by the two vehicles.",
+          "translation": "La gráfica compara las cargas transportadas por los dos vehículos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "heavy load",
+          "translation": "carga pesada"
+        },
+        {
+          "en": "carry a load",
+          "translation": "transportar una carga"
+        },
+        {
+          "en": "load capacity",
+          "translation": "capacidad de carga"
+        }
+      ],
+      "tip": "Load en estos ejemplos es una carga transportada. En otros contextos técnicos puede designar una acción o demanda sobre un sistema."
+    },
+    "law": {
+      "sourceWord": "law",
+      "senses": {
+        "law:meaning-1": {
+          "gloss": "ley; norma oficial",
+          "definition": "Regla establecida y aplicada por una autoridad pública."
+        }
+      },
+      "examples": [
+        {
+          "en": "The new law applies to public buildings.",
+          "translation": "La nueva ley se aplica a los edificios públicos."
+        },
+        {
+          "en": "The students discussed the purpose of the law.",
+          "translation": "Los estudiantes comentaron el propósito de la ley."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a new law",
+          "translation": "una nueva ley"
+        },
+        {
+          "en": "follow the law",
+          "translation": "cumplir la ley"
+        },
+        {
+          "en": "a law on safety",
+          "translation": "una ley sobre seguridad"
+        }
+      ],
+      "tip": "Law aquí significa una norma oficial; su aplicación y sus detalles dependen del lugar y del tema."
+    },
+    "judge": {
+      "sourceWord": "judge",
+      "senses": {
+        "judge:meaning-1": {
+          "gloss": "juez; jueza",
+          "definition": "Autoridad que escucha los casos y toma decisiones en un tribunal."
+        }
+      },
+      "examples": [
+        {
+          "en": "The judge listened to both sides.",
+          "translation": "La jueza escuchó a ambas partes."
+        },
+        {
+          "en": "A judge explained the decision to the court.",
+          "translation": "Un juez explicó la decisión al tribunal."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a court judge",
+          "translation": "un juez de tribunal"
+        },
+        {
+          "en": "the judge’s decision",
+          "translation": "la decisión de la jueza"
+        },
+        {
+          "en": "appear before a judge",
+          "translation": "comparecer ante un juez"
+        }
+      ],
+      "tip": "En esta tarjeta, judge es la persona del tribunal. Como verbo, también puede significar juzgar o evaluar."
+    },
+    "contract": {
+      "sourceWord": "contract",
+      "senses": {
+        "contract:meaning-1": {
+          "gloss": "contrato; acuerdo formal",
+          "definition": "Acuerdo formal entre personas u organizaciones."
+        }
+      },
+      "examples": [
+        {
+          "en": "They read the contract before the meeting.",
+          "translation": "Leyeron el contrato antes de la reunión."
+        },
+        {
+          "en": "The contract describes the work and the payment.",
+          "translation": "El contrato describe el trabajo y el pago."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "sign a contract",
+          "translation": "firmar un contrato"
+        },
+        {
+          "en": "a written contract",
+          "translation": "un contrato por escrito"
+        },
+        {
+          "en": "contract terms",
+          "translation": "condiciones del contrato"
+        }
+      ],
+      "tip": "Contract aquí es un acuerdo formal. La explicación del vocabulario no sustituye el análisis de un contrato concreto."
+    },
+    "painting": {
+      "sourceWord": "painting",
+      "senses": {
+        "painting:meaning-1": {
+          "gloss": "pintura; cuadro",
+          "definition": "Imagen hecha con pintura."
+        }
+      },
+      "examples": [
+        {
+          "en": "The painting shows a quiet lake.",
+          "translation": "La pintura muestra un lago tranquilo."
+        },
+        {
+          "en": "We saw a colorful painting in the gallery.",
+          "translation": "Vimos una pintura colorida en la galería."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an oil painting",
+          "translation": "una pintura al óleo"
+        },
+        {
+          "en": "a landscape painting",
+          "translation": "una pintura de paisaje"
+        },
+        {
+          "en": "a painting exhibition",
+          "translation": "una exposición de pinturas"
+        }
+      ],
+      "tip": "Painting puede indicar la obra o la actividad de pintar; aquí se refiere a la imagen terminada."
+    },
+    "sculpture": {
+      "sourceWord": "sculpture",
+      "senses": {
+        "sculpture:meaning-1": {
+          "gloss": "escultura",
+          "definition": "Obra de arte de tres dimensiones creada al dar forma a un material."
+        }
+      },
+      "examples": [
+        {
+          "en": "The sculpture is made of smooth stone.",
+          "translation": "La escultura está hecha de piedra lisa."
+        },
+        {
+          "en": "Visitors walked around the sculpture.",
+          "translation": "Los visitantes caminaron alrededor de la escultura."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a stone sculpture",
+          "translation": "una escultura de piedra"
+        },
+        {
+          "en": "a modern sculpture",
+          "translation": "una escultura moderna"
+        },
+        {
+          "en": "create a sculpture",
+          "translation": "crear una escultura"
+        }
+      ],
+      "tip": "Una sculpture es tridimensional; una painting normalmente se hace sobre una superficie plana."
+    },
+    "melody": {
+      "sourceWord": "melody",
+      "senses": {
+        "melody:meaning-1": {
+          "gloss": "melodía",
+          "definition": "Secuencia de notas musicales que forma una línea musical reconocible."
+        }
+      },
+      "examples": [
+        {
+          "en": "She played a simple melody on the piano.",
+          "translation": "Ella tocó una melodía sencilla en el piano."
+        },
+        {
+          "en": "I remembered the melody but not the words.",
+          "translation": "Recordaba la melodía, pero no la letra."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a simple melody",
+          "translation": "una melodía sencilla"
+        },
+        {
+          "en": "play a melody",
+          "translation": "tocar una melodía"
+        },
+        {
+          "en": "the main melody",
+          "translation": "la melodía principal"
+        }
+      ],
+      "tip": "Melody es la secuencia de notas; rhythm se refiere al patrón temporal y a los pulsos."
+    },
+    "game": {
+      "sourceWord": "game",
+      "senses": {
+        "game:meaning-1": {
+          "gloss": "juego",
+          "definition": "Actividad con reglas en la que las personas participan por diversión o competencia."
+        }
+      },
+      "examples": [
+        {
+          "en": "We played a board game after dinner.",
+          "translation": "Jugamos un juego de mesa después de cenar."
+        },
+        {
+          "en": "The game has three different levels.",
+          "translation": "El juego tiene tres niveles diferentes."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a board game",
+          "translation": "un juego de mesa"
+        },
+        {
+          "en": "a video game",
+          "translation": "un videojuego"
+        },
+        {
+          "en": "game rules",
+          "translation": "reglas del juego"
+        }
+      ],
+      "tip": "Game puede ser de mesa, deportivo o digital; el contexto indica el tipo."
+    },
+    "player": {
+      "sourceWord": "player",
+      "senses": {
+        "player:meaning-1": {
+          "gloss": "jugador; jugadora",
+          "definition": "Persona que participa en un juego o deporte."
+        }
+      },
+      "examples": [
+        {
+          "en": "Each player chooses a different character.",
+          "translation": "Cada jugador elige un personaje diferente."
+        },
+        {
+          "en": "The team welcomed a new player.",
+          "translation": "El equipo recibió a una nueva jugadora."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a team player",
+          "translation": "un jugador del equipo"
+        },
+        {
+          "en": "a new player",
+          "translation": "una nueva jugadora"
+        },
+        {
+          "en": "player profile",
+          "translation": "perfil del jugador"
+        }
+      ],
+      "tip": "Aquí, player es una persona. En expresiones como music player, puede ser un aparato o programa."
+    },
+    "controller": {
+      "sourceWord": "controller",
+      "senses": {
+        "controller:meaning-1": {
+          "gloss": "control de videojuegos; mando",
+          "definition": "Dispositivo que se sostiene con las manos para controlar acciones en un videojuego."
+        }
+      },
+      "examples": [
+        {
+          "en": "The controller has two small sticks and several buttons.",
+          "translation": "El control tiene dos palancas pequeñas y varios botones."
+        },
+        {
+          "en": "She connected a controller to the computer.",
+          "translation": "Ella conectó un control a la computadora."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a game controller",
+          "translation": "un control de videojuegos"
+        },
+        {
+          "en": "a wireless controller",
+          "translation": "un control inalámbrico"
+        },
+        {
+          "en": "controller buttons",
+          "translation": "botones del control"
+        }
+      ],
+      "tip": "En el contexto de los juegos, controller es el control o mando; en ingeniería e informática puede tener otros sentidos."
+    },
+    "emergency": {
+      "sourceWord": "emergency",
+      "senses": {
+        "emergency:meaning-1": {
+          "gloss": "emergencia",
+          "definition": "Situación grave e inesperada que requiere atención inmediata."
+        }
+      },
+      "examples": [
+        {
+          "en": "The building has an emergency plan.",
+          "translation": "El edificio tiene un plan de emergencia."
+        },
+        {
+          "en": "Staff practiced their roles in an emergency.",
+          "translation": "El personal practicó sus funciones en una emergencia."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an emergency plan",
+          "translation": "un plan de emergencia"
+        },
+        {
+          "en": "emergency services",
+          "translation": "servicios de emergencia"
+        },
+        {
+          "en": "an emergency exit",
+          "translation": "una salida de emergencia"
+        }
+      ],
+      "tip": "Emergency indica una situación que requiere atención inmediata. Esta tarjeta enseña vocabulario, no procedimientos de auxilio."
+    },
+    "shelter": {
+      "sourceWord": "shelter",
+      "senses": {
+        "shelter:meaning-1": {
+          "gloss": "refugio; albergue",
+          "definition": "Lugar que ofrece protección frente al clima o a un peligro."
+        }
+      },
+      "examples": [
+        {
+          "en": "They found shelter from the rain.",
+          "translation": "Encontraron refugio de la lluvia."
+        },
+        {
+          "en": "The shelter has space for several families.",
+          "translation": "El albergue tiene espacio para varias familias."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "find shelter",
+          "translation": "encontrar refugio"
+        },
+        {
+          "en": "a temporary shelter",
+          "translation": "un refugio temporal"
+        },
+        {
+          "en": "shelter from rain",
+          "translation": "refugio de la lluvia"
+        }
+      ],
+      "tip": "Shelter puede ser un edificio o cualquier lugar protegido; temporary shelter destaca que es provisional."
+    },
+    "warning": {
+      "sourceWord": "warning",
+      "senses": {
+        "warning:meaning-1": {
+          "gloss": "advertencia; aviso",
+          "definition": "Mensaje o señal que informa sobre un posible peligro o problema."
+        }
+      },
+      "examples": [
+        {
+          "en": "A warning sign stood beside the road.",
+          "translation": "Había una señal de advertencia junto a la carretera."
+        },
+        {
+          "en": "The screen displayed a warning about the connection.",
+          "translation": "La pantalla mostró una advertencia sobre la conexión."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a warning sign",
+          "translation": "una señal de advertencia"
+        },
+        {
+          "en": "a clear warning",
+          "translation": "una advertencia clara"
+        },
+        {
+          "en": "a warning message",
+          "translation": "un mensaje de advertencia"
+        }
+      ],
+      "tip": "Warning puede ser un mensaje escrito, un símbolo o un sonido relacionado con un posible peligro o problema."
+    },
+    "simmer": {
+      "sourceWord": "simmer",
+      "senses": {
+        "simmer:meaning-1": {
+          "gloss": "cocer a fuego lento; hervir suavemente",
+          "definition": "Cocinar un líquido suavemente, a una temperatura justo por debajo del hervor intenso."
+        }
+      },
+      "examples": [
+        {
+          "en": "The soup simmered gently in the pot.",
+          "translation": "La sopa se cocía suavemente a fuego lento en la olla."
+        },
+        {
+          "en": "The recipe says to simmer the sauce.",
+          "translation": "La receta indica cocer la salsa a fuego lento."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "simmer gently",
+          "translation": "hervir suavemente"
+        },
+        {
+          "en": "simmer a sauce",
+          "translation": "cocer una salsa a fuego lento"
+        },
+        {
+          "en": "leave to simmer",
+          "translation": "dejar cocer a fuego lento"
+        }
+      ],
+      "tip": "Simmer es más suave que boil; normalmente aparecen solo burbujas pequeñas en la superficie."
+    },
+    "bandage": {
+      "sourceWord": "bandage",
+      "senses": {
+        "bandage:meaning-1": {
+          "gloss": "venda",
+          "definition": "Tira de material utilizada para cubrir o sostener una parte lesionada del cuerpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The nurse brought a clean bandage.",
+          "translation": "La enfermera trajo una venda limpia."
+        },
+        {
+          "en": "The package contains two rolls of bandage.",
+          "translation": "El paquete contiene dos rollos de venda."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a clean bandage",
+          "translation": "una venda limpia"
+        },
+        {
+          "en": "a roll of bandage",
+          "translation": "un rollo de venda"
+        },
+        {
+          "en": "an elastic bandage",
+          "translation": "una venda elástica"
+        }
+      ],
+      "tip": "Bandage es una tira para cubrir o sostener una zona lesionada. La tarjeta no enseña su aplicación ni un tratamiento."
+    },
+    "valve": {
+      "sourceWord": "valve",
+      "senses": {
+        "valve:meaning-1": {
+          "gloss": "válvula",
+          "definition": "Dispositivo que controla el paso de un líquido o un gas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The diagram shows a valve inside the pipe.",
+          "translation": "El diagrama muestra una válvula dentro del tubo."
+        },
+        {
+          "en": "The valve controls the flow of water.",
+          "translation": "La válvula controla el flujo de agua."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a control valve",
+          "translation": "una válvula de control"
+        },
+        {
+          "en": "a water valve",
+          "translation": "una válvula de agua"
+        },
+        {
+          "en": "valve position",
+          "translation": "posición de la válvula"
+        }
+      ],
+      "tip": "Aquí, valve es un dispositivo de control del flujo; en medicina también puede referirse a una válvula del cuerpo."
+    },
+    "voltage": {
+      "sourceWord": "voltage",
+      "senses": {
+        "voltage:meaning-1": {
+          "gloss": "voltaje; tensión eléctrica",
+          "definition": "Diferencia de potencial eléctrico entre dos puntos, medida en voltios."
+        }
+      },
+      "examples": [
+        {
+          "en": "The label shows the battery voltage.",
+          "translation": "La etiqueta muestra el voltaje de la batería."
+        },
+        {
+          "en": "Voltage is measured between two points.",
+          "translation": "El voltaje se mide entre dos puntos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "battery voltage",
+          "translation": "voltaje de la batería"
+        },
+        {
+          "en": "a voltage difference",
+          "translation": "una diferencia de voltaje"
+        },
+        {
+          "en": "voltage measurement",
+          "translation": "medición de voltaje"
+        }
+      ],
+      "tip": "Voltage no es lo mismo que current: el voltaje es una diferencia de potencial y la corriente se relaciona con el movimiento de cargas eléctricas."
+    }
+  }
+}

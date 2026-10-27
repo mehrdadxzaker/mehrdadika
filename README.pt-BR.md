@@ -1,19 +1,22 @@
 # Mehrdadika · Atlas visual de inglês
 
-[Abrir a prévia em português](https://mehrdadxzaker.github.io/mehrdadika/#/pt-BR) · [English](README.md) · [فارسی](README.fa.md) · [Código no GitHub](https://github.com/mehrdadxzaker/mehrdadika)
+[Abrir a edição em português](https://mehrdadxzaker.github.io/mehrdadika/#/pt-BR) · [English](README.md) · [فارسی](README.fa.md) · [Español](README.es-419.md) · [Código no GitHub](https://github.com/mehrdadxzaker/mehrdadika)
 
-Um projeto de código aberto para aprender vocabulário de inglês com imagens e exemplos, adaptado do [Word Atlas](https://github.com/designfuchen/word-atlas). A edição inicial foi criada para falantes de persa; o português brasileiro começa como uma prévia própria.
+Um projeto de código aberto para aprender vocabulário de inglês com imagens e exemplos, adaptado do [Word Atlas](https://github.com/designfuchen/word-atlas). A edição inicial foi criada para falantes de persa; o português brasileiro e a primeira edição em espanhol latino-americano agora usam as mesmas funções principais. Todas as edições ensinam inglês, com orientações na língua do estudante.
 
 ## O que já está disponível
 
-- 56 palavras, 57 sentidos e 114 exemplos traduzidos para português brasileiro.
-- 32 categorias, com conteúdo publicado aos poucos, incluindo culinária, medicina e engenharia.
-- Busca em inglês e português, filtro de nível, cartões ilustrados e combinações frequentes.
-- Pronúncia britânica e americana e palavras salvas neste navegador.
+- 72 palavras, 73 sentidos, 146 exemplos, 216 combinações frequentes e 72 notas de uso em português brasileiro.
+- 32 categorias e 348 subcategorias traduzidas, com conteúdo publicado aos poucos, incluindo culinária, medicina e engenharia.
+- Introdução ao estudo, metas diárias, recordação ativa e revisão espaçada com FSRS.
+- Atlas com cartões ilustrados, busca, filtros, palavras salvas e galáxia de progresso.
+- Biblioteca com três textos curtos e um livro original de três capítulos, tradução, perguntas de compreensão, marcadores e retomada da leitura.
+- Prática de digitação, cópia de frases, ditado, paráfrases e palavras que causam confusão.
+- Preferências e cópias de segurança do progresso local.
 
 As traduções tiveram apoio de IA e ainda aguardam revisão humana independente. O vocabulário especializado também precisa de revisão por profissionais da área. A presença de uma categoria não significa que todo o seu conteúdo já está publicado.
 
-As aulas com revisão espaçada, a biblioteca e os demais exercícios em português serão ampliados em etapas posteriores. Os dados salvos desta prévia ficam separados do histórico da edição em persa. O português europeu é uma futura localização distinta.
+O progresso, as sessões e os dados de leitura ficam separados por edição. As palavras salvas na prévia anterior em português são migradas para esta edição. As 16 palavras novas incluem ilustrações originais; quando ainda não há gravação licenciada, a pronúncia usa a voz inglesa disponível no dispositivo. A narração de textos e livros também depende do dispositivo. O português europeu continua previsto como uma localização distinta.
 
 ## Executar e contribuir
 
@@ -32,7 +35,7 @@ npm run check:content
 npm run build
 ```
 
-Veja as [notas de conteúdo em português](docs/portuguese-content.md), o [roteiro de localização](docs/localization-roadmap.md) e o [guia de contribuição](CONTRIBUTING.md). Correções e revisão de traduções são bem-vindas; não atribua aprovação humana a conteúdo ainda não revisado.
+Veja as [notas de conteúdo em português](docs/portuguese-content.md), as [notas de leitura e prática](docs/localized-reading-content.md), o [roteiro de localização](docs/localization-roadmap.md) e o [guia de contribuição](CONTRIBUTING.md). Correções e revisão de traduções são bem-vindas; não atribua aprovação humana a conteúdo ainda não revisado.
 
 ## Licenças e créditos
 

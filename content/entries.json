@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-1",
+  "releaseId": "2026-10-preview-2",
   "channel": "preview",
-  "createdAt": "2026-10-26T00:00:00Z",
+  "createdAt": "2026-10-27T01:40:55Z",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -3768,6 +3768,1002 @@
         "attribution": "Word Atlas contributors — CC BY 4.0",
         "aiAssisted": true,
         "modifications": "Selected English senses and lexical metadata retained; original Persian translations and usage notes; contextual English examples and bilingual collocations adapted or newly written. No independent human or domain approval claimed."
+      }
+    },
+    {
+      "id": "law",
+      "uk": "/lɔː/",
+      "us": "/lɔː/",
+      "cefr": "A2",
+      "w": "law",
+      "topic": "law-public-affairs",
+      "domainIds": [
+        "law-public-affairs",
+        "humanities-society"
+      ],
+      "senses": [
+        {
+          "id": "law:meaning-1",
+          "pos": "n.",
+          "fa": "قانون؛ قاعدهٔ رسمی",
+          "en": "A rule made and enforced by a public authority.",
+          "domainIds": [
+            "law-public-affairs",
+            "humanities-society"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The new law applies to public buildings.",
+          "fa": "قانون جدید دربارهٔ ساختمان‌های عمومی اجرا می‌شود.",
+          "senseId": "law:meaning-1"
+        },
+        {
+          "en": "The students discussed the purpose of the law.",
+          "fa": "دانشجویان دربارهٔ هدف این قانون گفت‌وگو کردند.",
+          "senseId": "law:meaning-1"
+        }
+      ],
+      "col": [
+        "a new law｜قانون جدید",
+        "follow the law｜از قانون پیروی کردن",
+        "a law on safety｜قانونی دربارهٔ ایمنی"
+      ],
+      "fam": [
+        "lawful (adj.)",
+        "lawfully (adv.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "law در این معنا قاعدهٔ رسمی یک مرجع عمومی است؛ کاربرد و جزئیات هر قانون به محل و موضوع آن بستگی دارد.",
+      "media": {
+        "img": "atlas/img/law.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "judge",
+      "uk": "/dʒʌdʒ/",
+      "us": "/dʒʌdʒ/",
+      "cefr": "B1",
+      "w": "judge",
+      "topic": "law-public-affairs",
+      "domainIds": [
+        "law-public-affairs",
+        "careers-workplace"
+      ],
+      "senses": [
+        {
+          "id": "judge:meaning-1",
+          "pos": "n.",
+          "fa": "قاضی",
+          "en": "A public official who hears cases and makes decisions in a court.",
+          "domainIds": [
+            "law-public-affairs",
+            "careers-workplace"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The judge listened to both sides.",
+          "fa": "قاضی به سخنان هر دو طرف گوش داد.",
+          "senseId": "judge:meaning-1"
+        },
+        {
+          "en": "A judge explained the decision to the court.",
+          "fa": "قاضی تصمیم را برای دادگاه توضیح داد.",
+          "senseId": "judge:meaning-1"
+        }
+      ],
+      "col": [
+        "a court judge｜قاضی دادگاه",
+        "the judge’s decision｜تصمیم قاضی",
+        "appear before a judge｜در برابر قاضی حاضر شدن"
+      ],
+      "fam": [
+        "judicial (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "judge در این کارت اسمِ شخصی در دادگاه است؛ این واژه به‌صورت فعل نیز معنی قضاوت کردن یا ارزیابی کردن دارد.",
+      "media": {
+        "img": "atlas/img/judge.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "contract",
+      "uk": "/ˈkɒntrækt/",
+      "us": "/ˈkɑːntrækt/",
+      "cefr": "B1",
+      "w": "contract",
+      "topic": "law-public-affairs",
+      "domainIds": [
+        "law-public-affairs",
+        "business-management",
+        "careers-workplace"
+      ],
+      "senses": [
+        {
+          "id": "contract:meaning-1",
+          "pos": "n.",
+          "fa": "قرارداد؛ توافق رسمی",
+          "en": "A formal agreement between people or organizations.",
+          "domainIds": [
+            "law-public-affairs",
+            "business-management",
+            "careers-workplace"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "They read the contract before the meeting.",
+          "fa": "آن‌ها پیش از جلسه قرارداد را خواندند.",
+          "senseId": "contract:meaning-1"
+        },
+        {
+          "en": "The contract describes the work and the payment.",
+          "fa": "قرارداد کار و پرداخت را توضیح می‌دهد.",
+          "senseId": "contract:meaning-1"
+        }
+      ],
+      "col": [
+        "sign a contract｜قراردادی را امضا کردن",
+        "a written contract｜قرارداد کتبی",
+        "contract terms｜شرایط قرارداد"
+      ],
+      "fam": [
+        "contractual (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "contract در این کاربرد اسمِ توافق رسمی است؛ شرح واژه جای بررسی حقوقی یک قرارداد مشخص را نمی‌گیرد.",
+      "media": {
+        "img": "atlas/img/contract.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "painting",
+      "uk": "/ˈpeɪntɪŋ/",
+      "us": "/ˈpeɪntɪŋ/",
+      "cefr": "A2",
+      "w": "painting",
+      "topic": "arts-media",
+      "domainIds": [
+        "arts-media",
+        "humanities-society"
+      ],
+      "senses": [
+        {
+          "id": "painting:meaning-1",
+          "pos": "n.",
+          "fa": "نقاشی؛ تصویر رنگ‌شده",
+          "en": "A picture made using paint.",
+          "domainIds": [
+            "arts-media",
+            "humanities-society"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The painting shows a quiet lake.",
+          "fa": "نقاشی دریاچه‌ای آرام را نشان می‌دهد.",
+          "senseId": "painting:meaning-1"
+        },
+        {
+          "en": "We saw a colorful painting in the gallery.",
+          "fa": "در نگارخانه نقاشی رنگارنگی دیدیم.",
+          "senseId": "painting:meaning-1"
+        }
+      ],
+      "col": [
+        "an oil painting｜نقاشی رنگ‌روغن",
+        "a landscape painting｜نقاشی منظره",
+        "a painting exhibition｜نمایشگاه نقاشی"
+      ],
+      "fam": [
+        "paint (v.)",
+        "painter (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "painting می‌تواند خودِ تصویر یا فعالیت نقاشی کردن باشد؛ در این کارت به تصویر اشاره دارد.",
+      "media": {
+        "img": "atlas/img/painting.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "sculpture",
+      "uk": "/ˈskʌlptʃə/",
+      "us": "/ˈskʌlptʃər/",
+      "cefr": "B1",
+      "w": "sculpture",
+      "topic": "arts-media",
+      "domainIds": [
+        "arts-media",
+        "humanities-society"
+      ],
+      "senses": [
+        {
+          "id": "sculpture:meaning-1",
+          "pos": "n.",
+          "fa": "تندیس؛ اثر هنری سه‌بعدی",
+          "en": "A three-dimensional work of art made by shaping a material.",
+          "domainIds": [
+            "arts-media",
+            "humanities-society"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The sculpture is made of smooth stone.",
+          "fa": "تندیس از سنگی صاف ساخته شده است.",
+          "senseId": "sculpture:meaning-1"
+        },
+        {
+          "en": "Visitors walked around the sculpture.",
+          "fa": "بازدیدکنندگان دور تندیس قدم زدند.",
+          "senseId": "sculpture:meaning-1"
+        }
+      ],
+      "col": [
+        "a stone sculpture｜تندیس سنگی",
+        "a modern sculpture｜تندیس مدرن",
+        "create a sculpture｜تندیسی ساختن"
+      ],
+      "fam": [
+        "sculptor (n.)",
+        "sculpt (v.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "sculpture اثر سه‌بعدی است؛ painting معمولاً روی سطحی دوبعدی ساخته می‌شود.",
+      "media": {
+        "img": "atlas/img/sculpture.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "melody",
+      "uk": "/ˈmelədi/",
+      "us": "/ˈmelədi/",
+      "cefr": "B1",
+      "w": "melody",
+      "topic": "arts-media",
+      "domainIds": [
+        "arts-media",
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "melody:meaning-1",
+          "pos": "n.",
+          "fa": "ملودی؛ توالی آهنگین نت‌ها",
+          "en": "A sequence of musical notes that forms a recognizable tune.",
+          "domainIds": [
+            "arts-media",
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "She played a simple melody on the piano.",
+          "fa": "او ملودی ساده‌ای با پیانو نواخت.",
+          "senseId": "melody:meaning-1"
+        },
+        {
+          "en": "I remembered the melody but not the words.",
+          "fa": "ملودی را به یاد داشتم، اما کلمات را نه.",
+          "senseId": "melody:meaning-1"
+        }
+      ],
+      "col": [
+        "a simple melody｜ملودی ساده",
+        "play a melody｜ملودی نواختن",
+        "the main melody｜ملودی اصلی"
+      ],
+      "fam": [
+        "melodic (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "melody توالی نت‌های یک آهنگ است؛ rhythm به الگوی زمانی و ضرباهنگ اشاره می‌کند.",
+      "media": {
+        "img": "atlas/img/melody.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "game",
+      "uk": "/ɡeɪm/",
+      "us": "/ɡeɪm/",
+      "cefr": "A1",
+      "w": "game",
+      "topic": "gaming-digital-culture",
+      "domainIds": [
+        "gaming-digital-culture",
+        "sports-recreation",
+        "everyday-life"
+      ],
+      "senses": [
+        {
+          "id": "game:meaning-1",
+          "pos": "n.",
+          "fa": "بازی؛ فعالیت دارای قواعد",
+          "en": "An activity with rules in which people play for enjoyment or competition.",
+          "domainIds": [
+            "gaming-digital-culture",
+            "sports-recreation",
+            "everyday-life"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "We played a board game after dinner.",
+          "fa": "بعد از شام یک بازی رومیزی انجام دادیم.",
+          "senseId": "game:meaning-1"
+        },
+        {
+          "en": "The game has three different levels.",
+          "fa": "بازی سه مرحلهٔ متفاوت دارد.",
+          "senseId": "game:meaning-1"
+        }
+      ],
+      "col": [
+        "a board game｜بازی رومیزی",
+        "a video game｜بازی ویدئویی",
+        "game rules｜قواعد بازی"
+      ],
+      "fam": [
+        "gamer (n.)",
+        "gaming (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "game می‌تواند رومیزی، ورزشی یا دیجیتال باشد؛ نوع بازی از بافت روشن می‌شود.",
+      "media": {
+        "img": "atlas/img/game.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "player",
+      "uk": "/ˈpleɪə/",
+      "us": "/ˈpleɪər/",
+      "cefr": "A2",
+      "w": "player",
+      "topic": "gaming-digital-culture",
+      "domainIds": [
+        "gaming-digital-culture",
+        "sports-recreation",
+        "people-relationships"
+      ],
+      "senses": [
+        {
+          "id": "player:meaning-1",
+          "pos": "n.",
+          "fa": "بازیکن؛ شرکت‌کننده در بازی",
+          "en": "A person who takes part in a game or sport.",
+          "domainIds": [
+            "gaming-digital-culture",
+            "sports-recreation",
+            "people-relationships"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Each player chooses a different character.",
+          "fa": "هر بازیکن شخصیت متفاوتی انتخاب می‌کند.",
+          "senseId": "player:meaning-1"
+        },
+        {
+          "en": "The team welcomed a new player.",
+          "fa": "تیم از بازیکن جدیدی استقبال کرد.",
+          "senseId": "player:meaning-1"
+        }
+      ],
+      "col": [
+        "a team player｜بازیکن تیم",
+        "a new player｜بازیکن جدید",
+        "player profile｜نمایهٔ بازیکن"
+      ],
+      "fam": [
+        "play (v.)",
+        "playable (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "player در این کارت شخصِ شرکت‌کننده است؛ در عبارت‌هایی مثل music player می‌تواند به دستگاه یا برنامه اشاره کند.",
+      "media": {
+        "img": "atlas/img/player.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "controller",
+      "uk": "/kənˈtrəʊlə/",
+      "us": "/kənˈtroʊlər/",
+      "cefr": "B1",
+      "w": "controller",
+      "topic": "gaming-digital-culture",
+      "domainIds": [
+        "gaming-digital-culture",
+        "computing-technology"
+      ],
+      "senses": [
+        {
+          "id": "controller:meaning-1",
+          "pos": "n.",
+          "fa": "دستهٔ بازی؛ ابزار کنترل بازی",
+          "en": "A handheld device used to control actions in a video game.",
+          "domainIds": [
+            "gaming-digital-culture",
+            "computing-technology"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The controller has two small sticks and several buttons.",
+          "fa": "دستهٔ بازی دو اهرم کوچک و چند دکمه دارد.",
+          "senseId": "controller:meaning-1"
+        },
+        {
+          "en": "She connected a controller to the computer.",
+          "fa": "او یک دستهٔ بازی به رایانه وصل کرد.",
+          "senseId": "controller:meaning-1"
+        }
+      ],
+      "col": [
+        "a game controller｜دستهٔ کنترل بازی",
+        "a wireless controller｜دستهٔ بازی بی‌سیم",
+        "controller buttons｜دکمه‌های دستهٔ بازی"
+      ],
+      "fam": [
+        "control (v.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "controller در بافت بازی همان دستهٔ بازی است؛ این واژه در مهندسی و رایانش کاربردهای دیگری هم دارد.",
+      "media": {
+        "img": "atlas/img/controller.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "emergency",
+      "uk": "/ɪˈmɜːdʒənsi/",
+      "us": "/ɪˈmɝːdʒənsi/",
+      "cefr": "B1",
+      "w": "emergency",
+      "topic": "safety-emergencies",
+      "domainIds": [
+        "safety-emergencies",
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "emergency:meaning-1",
+          "pos": "n.",
+          "fa": "وضعیت اضطراری؛ رویداد نیازمند رسیدگی فوری",
+          "en": "A serious unexpected situation that requires immediate attention.",
+          "domainIds": [
+            "safety-emergencies",
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The building has an emergency plan.",
+          "fa": "ساختمان برنامه‌ای برای وضعیت اضطراری دارد.",
+          "senseId": "emergency:meaning-1"
+        },
+        {
+          "en": "Staff practiced their roles in an emergency.",
+          "fa": "کارکنان نقش‌های خود را در وضعیت اضطراری تمرین کردند.",
+          "senseId": "emergency:meaning-1"
+        }
+      ],
+      "col": [
+        "an emergency plan｜برنامهٔ وضعیت اضطراری",
+        "emergency services｜خدمات امدادی",
+        "an emergency exit｜خروجی اضطراری"
+      ],
+      "fam": [
+        "emergency (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "emergency موقعیتی نیازمند رسیدگی فوری است؛ این کارت فقط معنی واژه را آموزش می‌دهد و دستورالعمل امدادی نیست.",
+      "media": {
+        "img": "atlas/img/emergency.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "shelter",
+      "uk": "/ˈʃeltə/",
+      "us": "/ˈʃeltər/",
+      "cefr": "B1",
+      "w": "shelter",
+      "topic": "safety-emergencies",
+      "domainIds": [
+        "safety-emergencies",
+        "environment-agriculture",
+        "home-gardening-diy"
+      ],
+      "senses": [
+        {
+          "id": "shelter:meaning-1",
+          "pos": "n.",
+          "fa": "سرپناه؛ جای محافظت‌شده",
+          "en": "A place that provides protection from weather or danger.",
+          "domainIds": [
+            "safety-emergencies",
+            "environment-agriculture",
+            "home-gardening-diy"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "They found shelter from the rain.",
+          "fa": "آن‌ها سرپناهی برای در امان ماندن از باران پیدا کردند.",
+          "senseId": "shelter:meaning-1"
+        },
+        {
+          "en": "The shelter has space for several families.",
+          "fa": "این سرپناه برای چند خانواده جا دارد.",
+          "senseId": "shelter:meaning-1"
+        }
+      ],
+      "col": [
+        "find shelter｜سرپناه پیدا کردن",
+        "a temporary shelter｜سرپناه موقت",
+        "shelter from rain｜سرپناه در برابر باران"
+      ],
+      "fam": [
+        "shelter (v.)",
+        "sheltered (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "shelter می‌تواند ساختمان یا هر جای محافظت‌شده‌ای باشد؛ temporary shelter بر موقتی بودن تأکید می‌کند.",
+      "media": {
+        "img": "atlas/img/shelter.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "warning",
+      "uk": "/ˈwɔːnɪŋ/",
+      "us": "/ˈwɔːrnɪŋ/",
+      "cefr": "B1",
+      "w": "warning",
+      "topic": "safety-emergencies",
+      "domainIds": [
+        "safety-emergencies",
+        "transport-vehicles",
+        "trades-practical-work"
+      ],
+      "senses": [
+        {
+          "id": "warning:meaning-1",
+          "pos": "n.",
+          "fa": "هشدار؛ پیام آگاه‌کننده از خطر یا مشکل",
+          "en": "A message or signal that tells people about a possible danger or problem.",
+          "domainIds": [
+            "safety-emergencies",
+            "transport-vehicles",
+            "trades-practical-work"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "A warning sign stood beside the road.",
+          "fa": "تابلوی هشدار کنار جاده قرار داشت.",
+          "senseId": "warning:meaning-1"
+        },
+        {
+          "en": "The screen displayed a warning about the connection.",
+          "fa": "صفحه هشداری دربارهٔ اتصال نشان داد.",
+          "senseId": "warning:meaning-1"
+        }
+      ],
+      "col": [
+        "a warning sign｜تابلوی هشدار",
+        "a clear warning｜هشدار روشن",
+        "a warning message｜پیام هشدار"
+      ],
+      "fam": [
+        "warn (v.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "warning می‌تواند پیام نوشتاری، علامت یا صدا باشد و به خطر یا مشکل احتمالی اشاره کند.",
+      "media": {
+        "img": "atlas/img/warning.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "simmer",
+      "uk": "/ˈsɪmə/",
+      "us": "/ˈsɪmər/",
+      "cefr": "B2",
+      "w": "simmer",
+      "topic": "cooking-food-drink",
+      "domainIds": [
+        "cooking-food-drink",
+        "everyday-life"
+      ],
+      "senses": [
+        {
+          "id": "simmer:meaning-1",
+          "pos": "v.",
+          "fa": "با جوش ملایم پختن؛ ریزجوش زدن",
+          "en": "To cook a liquid gently at a temperature just below boiling.",
+          "domainIds": [
+            "cooking-food-drink",
+            "everyday-life"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The soup simmered gently in the pot.",
+          "fa": "سوپ با جوش ملایم در قابلمه می‌پخت.",
+          "senseId": "simmer:meaning-1"
+        },
+        {
+          "en": "The recipe says to simmer the sauce.",
+          "fa": "دستور غذا می‌گوید سس را با جوش ملایم بپزید.",
+          "senseId": "simmer:meaning-1"
+        }
+      ],
+      "col": [
+        "simmer gently｜به‌آرامی ریزجوش زدن",
+        "simmer a sauce｜سس را با جوش ملایم پختن",
+        "leave to simmer｜گذاشتن تا با جوش ملایم بپزد"
+      ],
+      "fam": [
+        "simmering (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "simmer از boil ملایم‌تر است؛ معمولاً فقط حباب‌های کوچک روی سطح دیده می‌شوند.",
+      "media": {
+        "img": "atlas/img/simmer.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "bandage",
+      "uk": "/ˈbændɪdʒ/",
+      "us": "/ˈbændɪdʒ/",
+      "cefr": "B1",
+      "w": "bandage",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare",
+        "safety-emergencies"
+      ],
+      "senses": [
+        {
+          "id": "bandage:meaning-1",
+          "pos": "n.",
+          "fa": "باند؛ نوار پانسمان",
+          "en": "A strip of material used to cover or support an injured part of the body.",
+          "domainIds": [
+            "medicine-healthcare",
+            "safety-emergencies"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The nurse brought a clean bandage.",
+          "fa": "پرستار باند تمیزی آورد.",
+          "senseId": "bandage:meaning-1"
+        },
+        {
+          "en": "The package contains two rolls of bandage.",
+          "fa": "بسته شامل دو رول باند است.",
+          "senseId": "bandage:meaning-1"
+        }
+      ],
+      "col": [
+        "a clean bandage｜باند تمیز",
+        "a roll of bandage｜رول باند",
+        "an elastic bandage｜باند کشی"
+      ],
+      "fam": [
+        "bandage (v.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "bandage نوعی نوار برای پوشاندن یا حمایت از بخش آسیب‌دیده است؛ این کارت روش استفاده یا درمان را آموزش نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/bandage.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "valve",
+      "uk": "/vælv/",
+      "us": "/vælv/",
+      "cefr": "B2",
+      "w": "valve",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering",
+        "energy-utilities-resources",
+        "trades-practical-work"
+      ],
+      "senses": [
+        {
+          "id": "valve:meaning-1",
+          "pos": "n.",
+          "fa": "شیر؛ ابزار کنترل جریان مایع یا گاز",
+          "en": "A device that controls the flow of a liquid or gas through a passage.",
+          "domainIds": [
+            "engineering",
+            "energy-utilities-resources",
+            "trades-practical-work"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The diagram shows a valve inside the pipe.",
+          "fa": "نمودار شیری را داخل لوله نشان می‌دهد.",
+          "senseId": "valve:meaning-1"
+        },
+        {
+          "en": "The valve controls the flow of water.",
+          "fa": "شیر جریان آب را کنترل می‌کند.",
+          "senseId": "valve:meaning-1"
+        }
+      ],
+      "col": [
+        "a control valve｜شیر کنترل",
+        "a water valve｜شیر آب",
+        "valve position｜وضعیت شیر"
+      ],
+      "fam": [
+        "valved (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "valve در این کارت وسیلهٔ کنترل جریان است؛ در بافت پزشکی این واژه می‌تواند به دریچهٔ بدن اشاره کند.",
+      "media": {
+        "img": "atlas/img/valve.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+      }
+    },
+    {
+      "id": "voltage",
+      "uk": "/ˈvəʊltɪdʒ/",
+      "us": "/ˈvoʊltɪdʒ/",
+      "cefr": "B2",
+      "w": "voltage",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering",
+        "energy-utilities-resources",
+        "natural-sciences-mathematics"
+      ],
+      "senses": [
+        {
+          "id": "voltage:meaning-1",
+          "pos": "n.",
+          "fa": "ولتاژ؛ اختلاف پتانسیل الکتریکی",
+          "en": "The difference in electric potential between two points, measured in volts.",
+          "domainIds": [
+            "engineering",
+            "energy-utilities-resources",
+            "natural-sciences-mathematics"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The label shows the battery voltage.",
+          "fa": "برچسب ولتاژ باتری را نشان می‌دهد.",
+          "senseId": "voltage:meaning-1"
+        },
+        {
+          "en": "Voltage is measured between two points.",
+          "fa": "ولتاژ میان دو نقطه اندازه‌گیری می‌شود.",
+          "senseId": "voltage:meaning-1"
+        }
+      ],
+      "col": [
+        "battery voltage｜ولتاژ باتری",
+        "a voltage difference｜اختلاف ولتاژ",
+        "voltage measurement｜اندازه‌گیری ولتاژ"
+      ],
+      "fam": [
+        "volt (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "voltage با current یکسان نیست: ولتاژ اختلاف پتانسیل است و جریان به حرکت بار الکتریکی مربوط می‌شود.",
+      "media": {
+        "img": "atlas/img/voltage.svg"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
       }
     }
   ]

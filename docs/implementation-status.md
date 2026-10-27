@@ -1,6 +1,6 @@
 # Mehrdadika implementation status
 
-Implementation snapshot, October 26, 2026. Mehrdadika adapts the public Word Atlas application into a Persian-first English-learning website, with a Brazilian Portuguese vocabulary preview. It retains the reference’s visual foundation and five main destinations, with new reading and specialist practice features implemented over the public source.
+Implementation snapshot, October 26, 2026. Mehrdadika adapts the public Word Atlas application into a Persian-first English-learning website, with full shared application flows for Brazilian Portuguese and a first Latin American Spanish edition. It retains the reference’s visual foundation and five main destinations, with new reading and specialist practice features implemented over the public source.
 
 The [public source repository](https://github.com/mehrdadxzaker/mehrdadika) and [GitHub Pages website](https://mehrdadxzaker.github.io/mehrdadika/) are available. The [implementation plan](../IMPLEMENTATION_PLAN.md) remains the broader requirements and continuing roadmap; this document distinguishes current implementation from corpus readiness and release qualification.
 
@@ -8,15 +8,15 @@ The [public source repository](https://github.com/mehrdadxzaker/mehrdadika) and 
 
 | Item | Current scope |
 | --- | --- |
-| Vocabulary | 56 lexical items and 57 independently scheduled meanings. `pressure` has separate medical and engineering learning contexts under one public word card. |
+| Vocabulary | 72 lexical items and 73 independently scheduled meanings. `pressure` has separate medical and engineering learning contexts under one public word card. |
 | Subject taxonomy | All 32 domains, organized into six discovery groups. |
-| Subcategory display | 348 bilingual subcategory labels, with Persian labels parallel to the original English catalog. |
-| Starter focus | General English, cooking, healthcare and introductory engineering, with cross-links into related categories. |
+| Subcategory display | 348 native subcategory labels in each of Persian, Brazilian Portuguese and Latin American Spanish, parallel to the English catalog. |
+| Starter focus | General English, cooking, healthcare and introductory engineering, with new law, arts, gaming and safety starter words and cross-links into related categories. |
 | Short reading | Three original bilingual passages with comprehension questions. |
 | Book reading | One original short book with three chapters. |
 | Additional exercises | Two paraphrase levels and three confusable-word groups. |
 | Review channel | AI-assisted editorial preview. No independent human or specialist approval is claimed. |
-| Portuguese preview | `pt-BR` vocabulary discovery and cards: 56 words, 57 senses, 114 examples, 168 collocations, 56 usage notes, 32 category labels and six group labels. |
+| Portuguese and Spanish previews | Each edition has 72 words, 73 senses, 146 translated examples, 216 collocations, 72 usage notes, 32 category labels, 348 subcategory labels and six group labels, plus the reading/practice catalog above. |
 
 Category and subcategory presence describes intended coverage. It does not mean that every branch already contains authored lessons. A shared sense can appear through multiple category routes without becoming a second learning record.
 
@@ -25,18 +25,19 @@ Category and subcategory presence describes intended coverage. It does not mean 
 | Surface | Current implementation |
 | --- | --- |
 | Persian shell | RTL Persian interface, isolated LTR English and IPA, self-hosted Persian/English fonts, light/dark/system themes, responsive navigation and optional original synthesized UI ambience. |
-| Portuguese edition | A separate LTR preview, native language links, search/category/level filters, bilingual cards, English pronunciation and saved words in a dedicated namespace. The published translation snapshot is filtered against the actual English release before bundling. |
+| Portuguese and Spanish editions | The same full application flows as Persian, with native LTR guidance, locale-prefixed routes and independent learner state. Vocabulary and reading snapshots are filtered against the published English release before bundling. Existing Portuguese preview saved words migrate into the full Portuguese edition. |
+| Welcome | Crisp HTML wordmark, a vector compass and decorative particles, with a visible entry button, keyboard entry, native language links, responsive geometry and reduced-motion support. |
 | Onboarding and Today | Starting-level and daily-target preferences, optional exam settings, daily/resumable study entry, activity/progress summaries and links into reading and Atlas. |
 | Atlas | Illustrated grid, compact list, search, category/level/status filters, the complete category chooser, word sheets, favorites and coverage information. |
 | Word detail | Bilingual meanings/examples, collocations, forms, usage tips, separate UK/US controls, inline lookup and locally rendered share images. |
 | Learning | Five-item introduction/recall flow, meaning/cloze/listening/spelling formats, FSRS scheduling per meaning, first-answer grading, bounded retries, pause/resume and summaries. |
-| Progress | Local transactional progress storage, portable backup/restore, separate practice/reading state and aggregation of meaning progress into one public word/star. |
+| Progress | Local transactional progress storage and portable backup/restore scoped to each edition, separate practice/reading state, and aggregation of meaning progress into one public word/star. Persian storage identities are preserved. |
 | Galaxy | Reference spiral renderer, domain labels, zoom/navigation/share controls, aggregate word state and positions/colors stable under new words or reordered categories. Empty primary clusters do not display labels. |
 | Reading | Short passages and books, aligned translation, comprehension feedback, chapter constellation, bookmarks/resume, inline lookup, reader/listening presentations and device English narration. |
 | Practice | Word typing, sentence copying, dictation, paraphrase questions and confusable-word comparisons, with independent exercise results. |
 | Publishing | Validated preview/stable channels, draft/withdrawn exclusion, content-addressed immutable artifacts, exact-release pointers, asset hashes and contribution/review metadata. |
 | Offline controls | Production-only pack installation, progress/cancel controls, integrity checking, failure handling and pack removal without intentionally deleting learning history. End-to-end browser qualification is a separate check below. |
-| Project setup | MIT code notice, separate content licensing, upstream/asset/font attribution, bilingual READMEs, contribution/security/conduct documents, bounded CI and a manual-only Pages workflow. |
+| Project setup | MIT code notice, separate content licensing, upstream/asset/font attribution, English, Persian, Portuguese and Spanish READMEs, contribution/security/conduct documents, bounded CI and a manual-only Pages workflow. |
 
 These are implementation statements, not a certification of every browser, asset or release scenario. The [local verification record](verification.md) reports browser and release-check evidence separately from the feature inventory.
 
@@ -49,7 +50,7 @@ npm ci
 npm run dev
 ```
 
-The app defaults to `http://127.0.0.1:5188`. The `predev` hook builds the current content release automatically. Only one development/preview server should own that port.
+The app defaults to `http://127.0.0.1:5188`. The `predev` hook builds the current English release, vocabulary locale snapshots and reading locale snapshots automatically. Only one development/preview server should own that port.
 
 ```sh
 npm test
@@ -85,6 +86,7 @@ npm run build:content -- --check --channel preview
 ```sh
 npm run build:content -- --channel preview
 npm run build:locales
+npm run build:reading-locales
 npm run check:content
 npm run build
 ```
@@ -110,9 +112,10 @@ The current preview vocabulary is expected to fail that stable gate because inde
 - The reference’s optional extra appearance presets and alternate illustration collections are not included. The core light/dark presentation and one licensed illustration per starter word form the current visual baseline.
 - The current publisher builds a release from eligible source records. A separate content-authoring web interface, large editorial review operation and independent per-module publishing command remain future work.
 - Offline installation/update/rollback paths, storage quota failures and cross-browser/device behavior require their own release evidence. Availability of the controls or a passing source test alone does not establish complete offline qualification.
-- Portuguese is an initial vocabulary preview. Its 348 subcategory labels, reading material, spaced-review flow and additional exercises are not yet localized. Saved Portuguese words are separate from Persian study history and its backup format. European Portuguese remains planned.
+- Portuguese and Spanish have the full core application flows, but remain AI-assisted translation previews awaiting native-language and domain review. Spanish is the first `es-419` edition; regional terminology and European Portuguese remain continuing editorial work.
+- The 16 new words have original SVG illustrations and use device English pronunciation when no packaged recording is available. They are excluded from recorded-audio-only quiz modes until recordings are supplied. Availability and quality of a device voice depend on the browser and operating system.
 - The site is hosted on GitHub Pages. A custom domain, independent external contributor review and real-world learning-outcome evaluation have not been completed.
 
 ## Verification record
 
-The original Persian build passed 69 tests, local desktop/phone/offline checks and the first public CI/deployment runs. The Portuguese milestone adds locale/model, publication-filter and metadata-navigation regression tests; 83 tests and content checks pass locally. See the [verification record](verification.md) for deployment revisions, browser checks and remaining qualification limits.
+The original Persian build passed 69 tests, local desktop/phone/offline checks and the first public CI/deployment runs. The earlier Portuguese vocabulary milestone passed 83 tests and content checks. The current multilingual milestone adds route/runtime translation, full taxonomy, source-bound reading, locale-state and new-word regressions; its final release validation is recorded separately. See the [verification record](verification.md) for deployment revisions, browser checks and remaining qualification limits.

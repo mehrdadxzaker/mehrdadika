@@ -1,3 +1,5 @@
+import { tr } from "../i18n/messages";
+import { uiIntlLocale } from "../i18n/locale";
 import { Download, RotateCcw, Upload } from "lucide-react";
 import { useMemo, useRef } from "react";
 import { useAtlas } from "../atlas/context";
@@ -77,9 +79,9 @@ export function Me({ privateAvailable }: { privateAvailable: boolean }) {
       };
       const count = Object.keys(preview?.progress?.cards ?? {}).length;
       if (
-        !confirm(
+        !confirm(tr(
           `نسخهٔ پشتیبان با ${faNumber(count)} سابقهٔ معنی بررسی و وارد شود؟ در صورت معتبر بودن، سابقهٔ فعلی جایگزین می‌شود. پیش از ادامه می‌توانید از وضعیت فعلی نسخهٔ پشتیبان بگیرید.`,
-        )
+        ))
       )
         return;
       const r = await importBackup(text);
@@ -110,11 +112,11 @@ export function Me({ privateAvailable }: { privateAvailable: boolean }) {
         </div>
         <div>
           <dt>واژه‌های روشن</dt>
-          <dd>{stats.learned.toLocaleString("fa-IR")}</dd>
+          <dd>{stats.learned.toLocaleString(uiIntlLocale())}</dd>
         </div>
         <div>
           <dt>واژه‌های آشنا</dt>
-          <dd>{stats.mastered.toLocaleString("fa-IR")}</dd>
+          <dd>{stats.mastered.toLocaleString(uiIntlLocale())}</dd>
         </div>
         <div>
           <dt>درستیِ پاسخ نخست</dt>
@@ -371,9 +373,9 @@ export function Me({ privateAvailable }: { privateAvailable: boolean }) {
               className="btn btn-ghost btn-danger"
               onClick={() => {
                 if (
-                  confirm(
+                  confirm(tr(
                     "همهٔ سابقهٔ یادگیری این مجموعه پاک شود؟ این کار برگشت‌پذیر نیست. ابتدا نسخهٔ پشتیبان بگیرید.",
-                  )
+                  ))
                 ) {
                   resetProgress();
                   toast("سابقهٔ یادگیری پاک شد.");

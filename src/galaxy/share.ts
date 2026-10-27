@@ -1,3 +1,5 @@
+import { tr } from "../i18n/messages";
+import { uiIntlLocale, uiDirection } from "../i18n/locale";
 import { toast } from "../ui/Toast";
 const FONT = '"Vazirmatn Variable", sans-serif';
 
@@ -36,24 +38,24 @@ export async function shareGalaxy(
     fade.addColorStop(1, "rgba(9,12,24,1)");
     ctx.fillStyle = fade;
     ctx.fillRect(0, 760, W, 330);
-    ctx.direction = "rtl";
-    ctx.textAlign = "right";
+    ctx.direction = uiDirection();
+    ctx.textAlign = uiDirection() === "rtl" ? "right" : "left";
     ctx.fillStyle = "rgba(243,236,223,.62)";
     ctx.font = `500 28px ${FONT}`;
-    ctx.fillText("آسمان واژگان من", W - pad, 1100);
+    ctx.fillText(tr("آسمان واژگان من"), uiDirection() === "rtl" ? W - pad : pad, 1100);
     ctx.fillStyle = "#f3ecdf";
     ctx.font = `600 66px ${FONT}`;
     ctx.fillText(
-      `${lit.toLocaleString("fa-IR")} ستاره روشن شده`,
-      W - pad,
+      tr(`${lit.toLocaleString(uiIntlLocale())} ستاره روشن شده`),
+      uiDirection() === "rtl" ? W - pad : pad,
       1184,
       W - pad * 2,
     );
     ctx.font = `400 28px ${FONT}`;
     ctx.fillStyle = "rgba(243,236,223,.6)";
     ctx.fillText(
-      `از ${total.toLocaleString("fa-IR")} واژهٔ منتشرشده · هر واژه، یک ستاره`,
-      W - pad,
+      tr(`از ${total.toLocaleString(uiIntlLocale())} واژهٔ منتشرشده · هر واژه، یک ستاره`),
+      uiDirection() === "rtl" ? W - pad : pad,
       1240,
       W - pad * 2,
     );
@@ -61,7 +63,7 @@ export async function shareGalaxy(
     ctx.fillRect(pad, H - 72, W - pad * 2, 1);
     ctx.fillStyle = "#f3ecdf";
     ctx.font = `600 28px ${FONT}`;
-    ctx.fillText("مهردادیکا · یک واژه، یک تصویر", W - pad, H - 30);
+    ctx.fillText(tr("مهردادیکا · یک واژه، یک تصویر"), uiDirection() === "rtl" ? W - pad : pad, H - 30);
     const blob = await new Promise<Blob | null>((resolve) =>
       canvas.toBlob(resolve, "image/png"),
     );

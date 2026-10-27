@@ -1,6 +1,6 @@
 # Contributing to Mehrdadika
 
-Contributions can improve Persian explanations, English examples, illustrations, pronunciation, accessibility, subject coverage and code. Start with a small, reviewable change. The [32-category catalog](docs/category-catalog.json) records intended coverage; unpublished branches are useful places to propose a coherent module.
+Contributions can improve Persian, Brazilian Portuguese and Latin American Spanish explanations, English examples, illustrations, pronunciation, accessibility, subject coverage and code. Start with a small, reviewable change. The [32-category catalog](docs/category-catalog.json) records intended coverage; unpublished branches are useful places to propose a coherent module.
 
 ## Development
 
@@ -15,7 +15,8 @@ Use Node.js 22 or newer. Ordinary builds and tests must not require AI-generatio
 ## Code changes
 
 - Preserve the Word Atlas visual language and five primary destinations unless the change has an agreed product reason.
-- Mark Persian and English direction explicitly. Check keyboard focus, narrow screens, text zoom and reduced motion for interface changes.
+- Mark Persian RTL and English/Portuguese/Spanish LTR direction explicitly. Preserve native language links when switching editions. Check keyboard focus, narrow screens, text zoom and reduced motion for interface changes.
+- Localize shared UI copy through `src/i18n/`; do not fork a reduced learning application for each language. Keep English learning text and IDs unchanged. Check edition-specific progress, reader state and backups when changing locale behavior.
 - Keep lexical identity separate from meaning identity. Preserve existing progress when content or labels change.
 - Use content release manifests rather than assuming mutable array positions identify entries.
 - Add focused checks for a real behavior or failure mode. Mock network dependencies in routine tests.
@@ -24,6 +25,8 @@ Use Node.js 22 or newer. Ordinary builds and tests must not require AI-generatio
 ## Content changes
 
 Read [the content contribution guide](docs/contributing-content.md). A source citation helps verify a statement; it does not grant permission to copy a dictionary, recording, image or translation. Include the rights basis and attribution for every reused item.
+
+For vocabulary translations, read [vocabulary localization](docs/portuguese-content.md); for passages, books and exercise explanations, read [localized reading and practice](docs/localized-reading-content.md). Edit authoring overlays rather than generated snapshots, retain exact English source bindings, and rebuild both vocabulary and reading locale snapshots after changing the English release. The normal `predev` and `prebuild` hooks do this in order.
 
 Starter content is an AI-assisted editorial preview. Do not mark a reviewer as human, domain-qualified, or independent without a real review and permission to attribute it. Stable publication needs human language approval and specialist approval where appropriate. Drafts remain outside learner release manifests.
 

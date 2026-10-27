@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "locale": "es-419",
+  "status": "preview",
+  "review": {
+    "status": "preview",
+    "humanReviewed": false
+  },
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "aiAssisted": true,
+    "attribution": "Mehrdadika contributors — CC BY 4.0",
+    "modifications": "Original native-language translations of the published Mehrdadika English reading and practice content. No independent human or domain review is claimed."
+  },
+  "passages": {
+    "reading:library-afternoon": {
+      "sourceTitleEn": "An Afternoon at the Library",
+      "title": "Una tarde en la biblioteca",
+      "sentences": {
+        "reading:library-afternoon:p1:s1": {
+          "sourceEn": "Mina goes to the library every Thursday.",
+          "translation": "Mina va a la biblioteca todos los jueves."
+        },
+        "reading:library-afternoon:p1:s2": {
+          "sourceEn": "She likes the quiet room and the large windows.",
+          "translation": "Le gusta la sala silenciosa y las ventanas grandes."
+        },
+        "reading:library-afternoon:p2:s1": {
+          "sourceEn": "Today, she finds a book about gardens.",
+          "translation": "Hoy encuentra un libro sobre jardines."
+        },
+        "reading:library-afternoon:p2:s2": {
+          "sourceEn": "Her friend Ali chooses a book about the sea.",
+          "translation": "Su amigo Ali elige un libro sobre el mar."
+        },
+        "reading:library-afternoon:p3:s1": {
+          "sourceEn": "They borrow the books and walk home together.",
+          "translation": "Piden los libros prestados y vuelven juntos a casa."
+        },
+        "reading:library-afternoon:p3:s2": {
+          "sourceEn": "They will return them next Thursday.",
+          "translation": "Los devolverán el próximo jueves."
+        }
+      },
+      "questions": {
+        "q1": {
+          "sourceStatement": "Mina visits the library on Thursdays.",
+          "sourceAnswer": "true",
+          "explanation": "La primera frase dice que Mina visita la biblioteca todos los jueves."
+        },
+        "q2": {
+          "sourceStatement": "Ali chooses a book about gardens.",
+          "sourceAnswer": "false",
+          "explanation": "Ali elige un libro sobre el mar; Mina es quien toma el libro sobre jardines."
+        },
+        "q3": {
+          "sourceStatement": "The library closes at six o’clock.",
+          "sourceAnswer": "not-given",
+          "explanation": "El texto no indica a qué hora cierra la biblioteca."
+        }
+      }
+    },
+    "reading:quiet-kitchen": {
+      "sourceTitleEn": "A Quiet Kitchen",
+      "title": "Una cocina tranquila",
+      "sentences": {
+        "reading:quiet-kitchen:p1:s1": {
+          "sourceEn": "Sara reads the recipe before she starts cooking.",
+          "translation": "Sara lee la receta antes de empezar a cocinar."
+        },
+        "reading:quiet-kitchen:p1:s2": {
+          "sourceEn": "She puts a bowl, a spoon, and a knife on the table.",
+          "translation": "Pone un tazón, una cuchara y un cuchillo sobre la mesa."
+        },
+        "reading:quiet-kitchen:p2:s1": {
+          "sourceEn": "She cuts the vegetables into small pieces.",
+          "translation": "Corta las verduras en trozos pequeños."
+        },
+        "reading:quiet-kitchen:p2:s2": {
+          "sourceEn": "Then she adds them to a pot of water.",
+          "translation": "Después las agrega a una olla con agua."
+        },
+        "reading:quiet-kitchen:p3:s1": {
+          "sourceEn": "When the water begins to boil, she turns down the heat.",
+          "translation": "Cuando el agua empieza a hervir, baja el fuego."
+        },
+        "reading:quiet-kitchen:p3:s2": {
+          "sourceEn": "The soup simmers while she sets the table.",
+          "translation": "La sopa hierve a fuego lento mientras ella pone la mesa."
+        }
+      },
+      "questions": {
+        "q1": {
+          "sourceStatement": "Sara reads the recipe before cooking.",
+          "sourceAnswer": "true",
+          "explanation": "La primera frase indica que Sara lee la receta antes de comenzar a cocinar."
+        },
+        "q2": {
+          "sourceStatement": "She cuts the vegetables after the soup is ready.",
+          "sourceAnswer": "false",
+          "explanation": "Corta las verduras antes de agregarlas al agua."
+        },
+        "q3": {
+          "sourceStatement": "Sara learned this recipe from her grandmother.",
+          "sourceAnswer": "not-given",
+          "explanation": "El texto no dice de quién aprendió Sara esta receta."
+        }
+      }
+    },
+    "reading:water-workshop": {
+      "sourceTitleEn": "Water in the Workshop",
+      "title": "Agua en el taller",
+      "sentences": {
+        "reading:water-workshop:p1:s1": {
+          "sourceEn": "A small pump moves water through a clear pipe.",
+          "translation": "Una pequeña bomba mueve el agua por un tubo transparente."
+        },
+        "reading:water-workshop:p1:s2": {
+          "sourceEn": "Students watch the flow and write down their observations.",
+          "translation": "Los estudiantes observan el flujo y anotan sus observaciones."
+        },
+        "reading:water-workshop:p2:s1": {
+          "sourceEn": "A gauge shows the pressure inside the pipe.",
+          "translation": "Un manómetro indica la presión dentro del tubo."
+        },
+        "reading:water-workshop:p2:s2": {
+          "sourceEn": "A separate instrument measures the volume of water passing each minute.",
+          "translation": "Otro instrumento mide el volumen de agua que pasa cada minuto."
+        },
+        "reading:water-workshop:p3:s1": {
+          "sourceEn": "The students compare the measurements from two trials.",
+          "translation": "Los estudiantes comparan las mediciones de dos pruebas."
+        },
+        "reading:water-workshop:p3:s2": {
+          "sourceEn": "They describe what changed instead of treating pressure and flow as the same quantity.",
+          "translation": "Describen lo que cambió, en lugar de considerar la presión y el caudal como la misma magnitud."
+        }
+      },
+      "questions": {
+        "q1": {
+          "sourceStatement": "The pipe allows students to see the water.",
+          "sourceAnswer": "true",
+          "explanation": "El tubo se describe como transparente y los estudiantes observan el paso del agua."
+        },
+        "q2": {
+          "sourceStatement": "The text treats pressure and flow as identical quantities.",
+          "sourceAnswer": "false",
+          "explanation": "La última frase dice expresamente que la presión y el caudal no se consideran la misma magnitud."
+        },
+        "q3": {
+          "sourceStatement": "The pump is powered by a solar panel.",
+          "sourceAnswer": "not-given",
+          "explanation": "El texto no especifica la fuente de energía de la bomba."
+        }
+      }
+    }
+  },
+  "books": {
+    "a-light-in-the-window": {
+      "sourceTitleEn": "A Light in the Window",
+      "title": "Una luz en la ventana",
+      "author": "Equipo de contenido de Mehrdadika",
+      "summary": "Un cuaderno azul, un pequeño estante y una historia sobre las cosas que podemos compartir.",
+      "chapters": {
+        "book:window:chapter:1": {
+          "sourceTitleEn": "The Blue Notebook",
+          "title": "El cuaderno azul",
+          "sentences": {
+            "book:window:chapter:1:p1:s1": {
+              "sourceEn": "On a rainy afternoon, Mina found a blue notebook beside the window.",
+              "translation": "Una tarde lluviosa, Mina encontró un cuaderno azul junto a la ventana."
+            },
+            "book:window:chapter:1:p1:s2": {
+              "sourceEn": "Its pages were empty, except for one sentence: “What could we share?”",
+              "translation": "Sus páginas estaban vacías, salvo por una frase: “¿Qué podríamos compartir?”"
+            },
+            "book:window:chapter:1:p2:s1": {
+              "sourceEn": "Mina looked at the books on her bedroom shelf.",
+              "translation": "Mina miró los libros en el estante de su habitación."
+            },
+            "book:window:chapter:1:p2:s2": {
+              "sourceEn": "She wrote the word “stories” on the first page.",
+              "translation": "Escribió la palabra “historias” en la primera página."
+            }
+          },
+          "questions": {}
+        },
+        "book:window:chapter:2": {
+          "sourceTitleEn": "A Shelf by the Door",
+          "title": "Un estante junto a la puerta",
+          "sentences": {
+            "book:window:chapter:2:p1:s1": {
+              "sourceEn": "The next morning, Mina spoke to her neighbor, Reza.",
+              "translation": "A la mañana siguiente, Mina habló con su vecino, Reza."
+            },
+            "book:window:chapter:2:p1:s2": {
+              "sourceEn": "He offered an old shelf, and she brought three books.",
+              "translation": "Él ofreció un estante viejo y ella trajo tres libros."
+            },
+            "book:window:chapter:2:p2:s1": {
+              "sourceEn": "They put the shelf near the door of the community room.",
+              "translation": "Pusieron el estante cerca de la puerta de la sala comunitaria."
+            },
+            "book:window:chapter:2:p2:s2": {
+              "sourceEn": "A small sign said, “Take a story. Bring one back.”",
+              "translation": "Un pequeño letrero decía: “Llévate una historia. Trae otra de vuelta.”"
+            }
+          },
+          "questions": {}
+        },
+        "book:window:chapter:3": {
+          "sourceTitleEn": "The Window at Night",
+          "title": "La ventana por la noche",
+          "sentences": {
+            "book:window:chapter:3:p1:s1": {
+              "sourceEn": "After a month, the shelf held more books than Mina could count.",
+              "translation": "Después de un mes, el estante tenía más libros de los que Mina podía contar."
+            },
+            "book:window:chapter:3:p1:s2": {
+              "sourceEn": "People stopped to talk about what they had read.",
+              "translation": "La gente se detenía a conversar sobre lo que había leído."
+            },
+            "book:window:chapter:3:p2:s1": {
+              "sourceEn": "That evening, Mina opened her blue notebook again.",
+              "translation": "Esa noche, Mina volvió a abrir su cuaderno azul."
+            },
+            "book:window:chapter:3:p2:s2": {
+              "sourceEn": "Below “stories,” she wrote another word: “friendship.”",
+              "translation": "Debajo de “historias”, escribió otra palabra: “amistad.”"
+            }
+          },
+          "questions": {}
+        }
+      }
+    }
+  },
+  "paraphrases": {
+    "everyday-equivalents": {
+      "title": "Un significado, dos formas de decirlo",
+      "questions": {
+        "q1": {
+          "sourceSource": "You can purchase a ticket at the station.",
+          "sourceTarget": "purchase",
+          "sourcePrompt": "You can ____ a ticket at the station.",
+          "sourceOptions": [
+            "borrow",
+            "buy",
+            "return",
+            "repair"
+          ],
+          "sourceAnswer": 1,
+          "explanation": "En esta frase, purchase y buy significan comprar."
+        },
+        "q2": {
+          "sourceSource": "Please return the book on Monday.",
+          "sourceTarget": "return",
+          "sourcePrompt": "Please ____ the book on Monday.",
+          "sourceOptions": [
+            "bring back",
+            "look for",
+            "write down",
+            "put on"
+          ],
+          "sourceAnswer": 0,
+          "explanation": "En este contexto, return y bring back significan devolver o traer de vuelta."
+        },
+        "q3": {
+          "sourceSource": "The room is quiet in the morning.",
+          "sourceTarget": "quiet",
+          "sourcePrompt": "There is ____ in the room in the morning.",
+          "sourceOptions": [
+            "little noise",
+            "bright light",
+            "cold water",
+            "fresh food"
+          ],
+          "sourceAnswer": 0,
+          "explanation": "Quiet indica poco ruido; little noise expresa la misma idea."
+        },
+        "q4": {
+          "sourceSource": "We need a larger bowl.",
+          "sourceTarget": "larger",
+          "sourcePrompt": "We need a ____ bowl.",
+          "sourceOptions": [
+            "smaller",
+            "cleaner",
+            "bigger",
+            "lighter"
+          ],
+          "sourceAnswer": 2,
+          "explanation": "Larger y bigger expresan un tamaño mayor en esta frase."
+        }
+      }
+    },
+    "academic-equivalents": {
+      "title": "Expresiones académicas y técnicas",
+      "questions": {
+        "q1": {
+          "sourceSource": "The temperature increased during the trial.",
+          "sourceTarget": "increased",
+          "sourcePrompt": "The temperature ____ during the trial.",
+          "sourceOptions": [
+            "fell",
+            "rose",
+            "stopped",
+            "matched"
+          ],
+          "sourceAnswer": 1,
+          "explanation": "Aquí, increase y rise expresan un aumento de la temperatura."
+        },
+        "q2": {
+          "sourceSource": "The task requires careful observation.",
+          "sourceTarget": "requires",
+          "sourcePrompt": "Careful observation is ____ for this task.",
+          "sourceOptions": [
+            "unnecessary",
+            "sufficient",
+            "needed",
+            "unusual"
+          ],
+          "sourceAnswer": 2,
+          "explanation": "Requires indica que algo es necesario; is needed presenta la misma relación desde otro punto de vista."
+        },
+        "q3": {
+          "sourceSource": "The two measurements were approximately equal.",
+          "sourceTarget": "approximately",
+          "sourcePrompt": "The two measurements were ____ equal.",
+          "sourceOptions": [
+            "exactly",
+            "roughly",
+            "never",
+            "usually"
+          ],
+          "sourceAnswer": 1,
+          "explanation": "Approximately indica una igualdad aproximada; roughly expresa la misma idea."
+        },
+        "q4": {
+          "sourceSource": "The team reduced the amount of waste.",
+          "sourceTarget": "reduced",
+          "sourcePrompt": "The team ____ the amount of waste.",
+          "sourceOptions": [
+            "decreased",
+            "recorded",
+            "compared",
+            "increased"
+          ],
+          "sourceAnswer": 0,
+          "explanation": "En esta frase, reduce y decrease significan disminuir la cantidad."
+        }
+      }
+    }
+  },
+  "confusables": {
+    "bored-boring": {
+      "sourceWords": [
+        "bored",
+        "boring"
+      ],
+      "difference": "Una palabra describe lo que siente una persona; la otra describe lo que provoca ese sentimiento.",
+      "tip": "Usa bored para la persona que siente aburrimiento y boring para algo que provoca aburrimiento.",
+      "words": {
+        "bored": {
+          "sourceExampleEn": "I felt bored during the long wait.",
+          "meaning": "aburrido; aburrida",
+          "explanation": "Sentimiento de una persona que no tiene interés o algo que hacer.",
+          "example": "Me sentí aburrido durante la larga espera."
+        },
+        "boring": {
+          "sourceExampleEn": "The talk was boring.",
+          "meaning": "aburrido; tedioso",
+          "explanation": "Característica de algo que provoca aburrimiento.",
+          "example": "La charla fue aburrida."
+        }
+      },
+      "questions": {
+        "q1": {
+          "sourceSentence": "After an hour with nothing to do, I felt ____.",
+          "sourceAnswer": 0,
+          "explanation": "La frase describe cómo se siente una persona; por eso, bored es la opción correcta."
+        },
+        "q2": {
+          "sourceSentence": "The film was so ____ that we stopped watching.",
+          "sourceAnswer": 1,
+          "explanation": "La película provoca aburrimiento; por eso se usa boring."
+        },
+        "q3": {
+          "sourceSentence": "Are you ____ with this game?",
+          "sourceAnswer": 0,
+          "explanation": "La pregunta se refiere al sentimiento de la persona; bored es la opción adecuada."
+        }
+      }
+    },
+    "borrow-lend": {
+      "sourceWords": [
+        "borrow",
+        "lend"
+      ],
+      "difference": "Borrow significa recibir algo prestado; lend significa prestar algo a otra persona.",
+      "tip": "Si recibes algo temporalmente, usa borrow. Si se lo das temporalmente a otra persona, usa lend.",
+      "words": {
+        "borrow": {
+          "sourceExampleEn": "May I borrow your pen?",
+          "meaning": "pedir prestado; tomar prestado",
+          "explanation": "Recibir algo temporalmente de otra persona, con la expectativa de devolverlo.",
+          "example": "¿Puedo pedirte prestado el bolígrafo?"
+        },
+        "lend": {
+          "sourceExampleEn": "Can you lend me your pen?",
+          "meaning": "prestar",
+          "explanation": "Dar algo temporalmente a otra persona, con la expectativa de recuperarlo.",
+          "example": "¿Me puedes prestar tu bolígrafo?"
+        }
+      },
+      "questions": {
+        "q1": {
+          "sourceSentence": "May I ____ this book from the library?",
+          "sourceAnswer": 0,
+          "explanation": "La persona recibe el libro; borrow es la opción correcta."
+        },
+        "q2": {
+          "sourceSentence": "I can ____ you my bicycle for the afternoon.",
+          "sourceAnswer": 1,
+          "explanation": "La persona ofrece su bicicleta a otra; lend es la opción correcta."
+        },
+        "q3": {
+          "sourceSentence": "We often ____ tools from our neighbor.",
+          "sourceAnswer": 0,
+          "explanation": "Se reciben las herramientas del vecino; se usa borrow."
+        }
+      }
+    },
+    "recipe-receipt": {
+      "sourceWords": [
+        "recipe",
+        "receipt"
+      ],
+      "difference": "Recipe es una receta de cocina; receipt es un comprobante de pago o de recepción de dinero.",
+      "tip": "Para cocinar, sigues una recipe; después de una compra, recibes un receipt.",
+      "words": {
+        "recipe": {
+          "sourceExampleEn": "This recipe uses two eggs.",
+          "meaning": "receta de cocina",
+          "explanation": "Lista de ingredientes e instrucciones para preparar un alimento.",
+          "example": "Esta receta lleva dos huevos."
+        },
+        "receipt": {
+          "sourceExampleEn": "Keep the receipt after you pay.",
+          "meaning": "recibo; comprobante",
+          "explanation": "Documento que confirma un pago o la recepción de algo.",
+          "example": "Guarda el recibo después de pagar."
+        }
+      },
+      "questions": {
+        "q1": {
+          "sourceSentence": "Please keep your ____ if you want to return the item.",
+          "sourceAnswer": 1,
+          "explanation": "Para devolver el artículo se necesita el comprobante de compra: receipt."
+        },
+        "q2": {
+          "sourceSentence": "My aunt shared her bread ____ with me.",
+          "sourceAnswer": 0,
+          "explanation": "La receta para preparar pan es recipe."
+        },
+        "q3": {
+          "sourceSentence": "The cashier gave me a ____.",
+          "sourceAnswer": 1,
+          "explanation": "La persona en la caja entrega un comprobante de pago: receipt."
+        }
+      }
+    }
+  }
+}

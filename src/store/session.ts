@@ -59,6 +59,7 @@ export function todayPlan(atlas: Atlas, p: Progress, s: Settings) {
   return {
     due,
     fresh,
+    dailyTargetMet: newLeft === 0,
     minutes: Math.max(1, Math.round(due.length * 0.25 + fresh.length * 0.9)),
   };
 }

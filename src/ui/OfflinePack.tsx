@@ -1,3 +1,4 @@
+import { uiIntlLocale } from "../i18n/locale";
 import { Download, Trash2, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { useAtlas } from "../atlas/context";
@@ -69,11 +70,11 @@ export function OfflinePack() {
       {info && (
         <p>
           {faNumber(info.files)} فایل ·{" "}
-          {(info.bytes / 1048576).toLocaleString("fa-IR", {
+          {(info.bytes / 1048576).toLocaleString(uiIntlLocale(), {
             maximumFractionDigits: 1,
           })}{" "}
           مگابایت · ذخیره‌شده در{" "}
-          {new Date(info.savedAt).toLocaleDateString("fa-IR")}
+          {new Date(info.savedAt).toLocaleDateString(uiIntlLocale())}
         </p>
       )}
       {busy && (

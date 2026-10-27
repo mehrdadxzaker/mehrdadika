@@ -21,7 +21,7 @@ export interface PortugueseCatalog {
   locale: "pt-BR";
   status: "preview";
   review: { humanReviewed: false };
-  categories: Record<string, { label: string }>;
+  categories: Record<string, { label: string; subcategoryLabels?: string[] }>;
   groupLabels: Record<string, string>;
   entries: Record<string, PortugueseTranslation>;
 }

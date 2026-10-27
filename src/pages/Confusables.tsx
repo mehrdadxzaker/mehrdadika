@@ -1,3 +1,4 @@
+import { uiIntlLocale } from "../i18n/locale";
 import { ArrowLeft, ArrowRight, Check, RotateCcw, Search } from "lucide-react";
 import { useState } from "react";
 import { practiceScore } from "../reading/model";
@@ -87,8 +88,10 @@ export function Confusables({ id }: { id?: string }) {
         </button>
       </div>
       <p className="muted">
-        {filtered.length.toLocaleString("fa-IR")} گروه ·{" "}
-        {catalog.confusables.filter(isComplete).length.toLocaleString("fa-IR")}{" "}
+        {filtered.length.toLocaleString(uiIntlLocale())} گروه ·{" "}
+        {catalog.confusables
+          .filter(isComplete)
+          .length.toLocaleString(uiIntlLocale())}{" "}
         گروه با پاسخ‌های درست
       </p>
       {filtered.length ? (
@@ -202,16 +205,16 @@ function ConfusableDetail({ group }: { group: ConfusableGroup }) {
         <div className="reading-section-title">
           <div>
             <p className="eyebrow">
-              آزمون کوتاه · {group.questions.length.toLocaleString("fa-IR")}{" "}
-              پرسش
+              آزمون کوتاه ·{" "}
+              {group.questions.length.toLocaleString(uiIntlLocale())} پرسش
             </p>
             <h2>جای خالی را پر کن.</h2>
           </div>
           <span className="muted">
             {Math.min(index + 1, group.questions.length).toLocaleString(
-              "fa-IR",
+              uiIntlLocale(),
             )}{" "}
-            / {group.questions.length.toLocaleString("fa-IR")}
+            / {group.questions.length.toLocaleString(uiIntlLocale())}
           </span>
         </div>
         {question ? (
@@ -274,8 +277,8 @@ function ConfusableDetail({ group }: { group: ConfusableGroup }) {
           <div className="confuse-quiz-summary">
             <Check size={28} />
             <h3>
-              {score.correct.toLocaleString("fa-IR")} از{" "}
-              {score.total.toLocaleString("fa-IR")} پاسخ درست
+              {score.correct.toLocaleString(uiIntlLocale())} از{" "}
+              {score.total.toLocaleString(uiIntlLocale())} پاسخ درست
             </h3>
             <p className="muted">
               نتیجهٔ این تمرین از برنامهٔ مرور واژه‌ها جداست.

@@ -1,0 +1,123 @@
+/* The shared English-learning layout follows the selected interface direction. */
+html[data-interface-locale="pt-BR"],
+html[data-interface-locale="es-419"] {
+  direction: ltr;
+}
+.edition-switch {
+  position: relative;
+}
+.edition-switch > summary {
+  cursor: pointer;
+  list-style: none;
+}
+.edition-switch > summary::-webkit-details-marker {
+  display: none;
+}
+.edition-switch > div {
+  position: absolute;
+  inset-inline-end: 0;
+  top: calc(100% + 8px);
+  min-width: 220px;
+  padding: 8px;
+  background: var(--card);
+  border: 1px solid var(--line-strong);
+  border-radius: 14px;
+  box-shadow: 0 12px 35px #10162b20;
+  z-index: 100;
+}
+.edition-switch a {
+  display: block;
+  padding: 10px 12px;
+  white-space: nowrap;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.edition-switch a[aria-current="true"] {
+  background: var(--ochre-soft);
+}
+html[data-interface-locale]:not([data-interface-locale="fa"]) .app {
+  direction: ltr;
+}
+html[data-interface-locale]:not([data-interface-locale="fa"]) .topbar-tools {
+  direction: ltr;
+}
+html[data-interface-locale]:not([data-interface-locale="fa"]) .topnav {
+  gap: 4px;
+}
+html[data-interface-locale]:not([data-interface-locale="fa"]) .display {
+  font-family: var(--serif);
+  font-weight: 550;
+  letter-spacing: -1.2px;
+  line-height: 1.25;
+}
+html[data-interface-locale]:not([data-interface-locale="fa"]) .logo-text > b {
+  font-family: var(--serif);
+  letter-spacing: -0.7px;
+}
+html[data-interface-locale]:not([data-interface-locale="fa"]) .journey-body {
+  text-align: left;
+  margin-inline-start: 0;
+  margin-inline-end: auto;
+}
+html[data-interface-locale]:not([data-interface-locale="fa"]) .journey::before {
+  background: linear-gradient(
+    90deg,
+    rgba(13, 17, 32, 0.8),
+    rgba(13, 17, 32, 0.42) 48%,
+    transparent 88%
+  );
+}
+html[data-interface-locale]:not([data-interface-locale="fa"]) .journey h2 {
+  font-family: var(--serif);
+  letter-spacing: -0.6px;
+  line-height: 1.4;
+}
+html[data-interface-locale]:not([data-interface-locale="fa"]) .journey h2 b {
+  font-family: inherit;
+}
+html[data-interface-locale]:not([data-interface-locale="fa"]) .tabbar,
+html[data-interface-locale]:not([data-interface-locale="fa"]) .chips-scroll,
+html[data-interface-locale]:not([data-interface-locale="fa"]) .teaser,
+html[data-interface-locale]:not([data-interface-locale="fa"]) .palette {
+  direction: ltr;
+}
+html[data-interface-locale]:not([data-interface-locale="fa"]) .senses .fa,
+html[data-interface-locale]:not([data-interface-locale="fa"]) .ex-fa,
+html[data-interface-locale]:not([data-interface-locale="fa"]) .entry-body {
+  text-align: left;
+  direction: ltr;
+}
+html[data-interface-locale]:not([data-interface-locale="fa"])
+  .domain-subcategories {
+  text-align: left;
+}
+html[data-interface-locale]:not([data-interface-locale="fa"])
+  .welcome-card
+  > .lede {
+  line-height: 1.75;
+}
+@media (max-width: 759px) {
+  html[data-interface-locale]:not([data-interface-locale="fa"])
+    .journey::before {
+    background: linear-gradient(
+      0deg,
+      rgba(13, 17, 32, 0.92),
+      rgba(13, 17, 32, 0.45) 45%,
+      transparent 85%
+    );
+  }
+  html[data-interface-locale]:not([data-interface-locale="fa"])
+    .greet
+    .display {
+    font-size: 33px;
+  }
+  html[data-interface-locale]:not([data-interface-locale="fa"]) .topbar {
+    gap: 8px;
+  }
+  html[data-interface-locale]:not([data-interface-locale="fa"]) .topbar-tools {
+    gap: 6px;
+  }
+  .edition-switch > div {
+    max-width: calc(100vw - 30px);
+  }
+}

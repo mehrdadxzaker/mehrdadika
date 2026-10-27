@@ -1,14 +1,18 @@
 # Mehrdadika · مهردادیکا
 
-An open-source visual English-learning atlas for Persian speakers, with a Brazilian Portuguese preview, adapted from [Word Atlas](https://github.com/designfuchen/word-atlas). The project follows Word Atlas’s illustrated vocabulary cards, daily learning, recall, spaced review, explorable galaxy and calm visual design, with a growing subject catalog.
+An open-source visual English-learning atlas for Persian, Brazilian Portuguese and Latin American Spanish speakers, adapted from [Word Atlas](https://github.com/designfuchen/word-atlas). The project follows Word Atlas’s illustrated vocabulary cards, daily learning, recall, spaced review, explorable galaxy and calm visual design, with a growing subject catalog.
 
-[Use the website](https://mehrdadxzaker.github.io/mehrdadika/) · [Portuguese preview](https://mehrdadxzaker.github.io/mehrdadika/#/pt-BR) · [فارسی](README.fa.md) · [Português](README.pt-BR.md) · [Implementation status](docs/implementation-status.md) · [Contributing](CONTRIBUTING.md)
+[Use the website](https://mehrdadxzaker.github.io/mehrdadika/) · [Português](https://mehrdadxzaker.github.io/mehrdadika/#/pt-BR) · [Español](https://mehrdadxzaker.github.io/mehrdadika/#/es-419) · [راهنمای فارسی](README.fa.md) · [Guia em português](README.pt-BR.md) · [Guía en español](README.es-419.md) · [Implementation status](docs/implementation-status.md) · [Contributing](CONTRIBUTING.md)
 
 ## Interface languages
 
-The Persian edition includes the full learning, review, reading and practice experience. The first `pt-BR` preview offers illustrated English–Portuguese cards, all 32 category labels, search, CEFR filtering, UK/US pronunciation and saved words. Its 56 words and 57 meanings are translated; Portuguese reading and spaced-review flows will follow in later stages. European Portuguese is a planned, separate locale rather than an unreviewed relabeling of the Brazilian edition.
+The Persian (`fa`), Brazilian Portuguese (`pt-BR`) and first Latin American Spanish (`es-419`) editions use the same application: onboarding and daily study, FSRS spaced review, illustrated Atlas and galaxy, reading and books, practice, settings and portable backups. The Persian layout is RTL; Portuguese and Spanish are LTR. All three teach **English**, with explanations and guidance in the learner's language.
 
-Both editions share stable English identities and licensed media. Translation drafts are filtered against the actual published English release before they enter the app bundle. See [Portuguese content](docs/portuguese-content.md), the [localization roadmap](docs/localization-roadmap.md), the [implementation plan](IMPLEMENTATION_PLAN.md) and the [category catalog](docs/category-catalog.json).
+The starter corpus contains **72 words and 73 meanings**. Each Portuguese and Spanish vocabulary overlay includes 146 translated examples, 216 collocations and 72 usage notes, plus all 32 category and 348 subcategory labels. Reading includes three passages, one original three-chapter book, two paraphrase levels and three confusable-word groups. These are AI-assisted editorial previews awaiting independent language and specialist review.
+
+Editions share stable English identities and licensed media, while learner progress, active sessions, saved words and reading state remain separate. Existing saved words from the earlier Portuguese preview migrate into the Portuguese edition. Translation drafts are filtered against the published English release before entering the app bundle. European Portuguese remains a planned, separate locale.
+
+See [vocabulary localization](docs/portuguese-content.md), [localized reading](docs/localized-reading-content.md), the [first word expansion](docs/word-expansion-2.md), the [localization roadmap](docs/localization-roadmap.md), the [implementation plan](IMPLEMENTATION_PLAN.md) and the [category catalog](docs/category-catalog.json).
 
 ## Run locally
 
@@ -25,7 +29,7 @@ Open the local address printed by Vite. Keep one development server running at a
 npm run dev -- --host 127.0.0.1
 ```
 
-The default local address is `http://127.0.0.1:5188`. The development command compiles the current content release automatically before starting Vite.
+The default local address is `http://127.0.0.1:5188`. The development command compiles the current English content release and both vocabulary/reading locale snapshots before starting Vite.
 
 ## Check and build
 
@@ -51,7 +55,7 @@ The repository includes a manual GitHub Pages workflow. Configure Pages to use G
 
 ## Learning and catalog
 
-The interface uses five destinations: **امروز** (Today), **اطلس** (Atlas), **کتابخانه** (Reading), **تمرین** (Practice), and **من** (Me). English text remains left-to-right inside the Persian layout.
+Each edition retains five destinations, shown here in Persian: **امروز** (Today), **اطلس** (Atlas), **کتابخانه** (Reading), **تمرین** (Practice), and **من** (Me). English text remains left-to-right inside the Persian layout.
 
 All 32 subject families belong to the catalog. They are organized into six discovery groups, with a searchable category chooser rather than additional primary navigation tabs:
 
@@ -62,11 +66,13 @@ All 32 subject families belong to the catalog. They are organized into six disco
 - Technology, industry and environment: engineering; computing and technology; architecture and infrastructure; environment and agriculture; trades and practical work; manufacturing, logistics and supply chains; energy, utilities and natural resources.
 - Business and working life: business and management; economics and finance; retail and e-commerce; careers and workplace.
 
-The [bilingual category catalog](docs/category-catalog.json) is the source for the planned coverage map. Category presence does not imply that all its lessons are published. Published material, upcoming material and contributor drafts have different states. One word can belong to several subjects without duplicating its learning history; distinct meanings have separate learning records.
+The [English/Persian category catalog](docs/category-catalog.json) is the source for the planned coverage map. Category presence does not imply that all its lessons are published. Published material, upcoming material and contributor drafts have different states. One word can belong to several subjects without duplicating its learning history; distinct meanings have separate learning records.
 
 ## Gradual content publication
 
 Vocabulary, passages, books and exercises are published in coherent, versioned modules. Content identity stays stable across releases. Corrections to spelling or explanations preserve existing progress; meaning changes and withdrawals require explicit migration rules.
+
+The latest expansion adds 16 original illustrated words across law, arts, gaming, safety, cooking, healthcare and engineering. New words without packaged recordings use the available device English voice; recording-only exercises exclude them until licensed recordings are supplied. See the [batch notes](docs/word-expansion-2.md).
 
 Starter material is an **AI-assisted editorial preview**. It must not be presented as having independent human or medical/engineering expert approval. Preview releases allow the application and contributor workflow to be exercised while review continues. Stable publication requires recorded human language review, plus competent domain review for specialist content. Drafts are excluded from learner releases, including previews.
 

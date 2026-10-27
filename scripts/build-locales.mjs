@@ -4,6 +4,8 @@ import crypto from "node:crypto";
 import { pathToFileURL } from "node:url";
 
 const serialize = (value) => JSON.stringify(value, null, 2) + "\n";
+export const SUPPORTED_VOCABULARY_LOCALES = ["pt-BR", "es-419"];
+const localeName = { "pt-BR": "Brazilian Portuguese", "es-419": "Latin-American Spanish" };
 const hash = (value) => crypto.createHash("sha256").update(value).digest("hex");
 const requireValue = (condition, message) => {
   if (!condition) throw new Error(message);
@@ -27,19 +29,41 @@ const visible = (value) =>
 const englishCollocation = (value) =>
   typeof value === "string" ? value.split(/[｜|]/)[0].trim() : "";
 
+const subcategoryLabels = (input, source, locale, domainId) => {
+  const allowed = source.filter((value) => text(value, 300));
+  const sourceLabels = new Set(allowed);
+  const matches = new Map();
+  for (const pair of Array.isArray(input) ? input : []) {
+    if (
+      !visible(pair) ||
+      !text(pair.en, 300) ||
+      !text(pair.translation, 300) ||
+      !sourceLabels.has(pair.en)
+    )
+      continue;
+    requireValue(
+      !matches.has(pair.en) || matches.get(pair.en) === pair.translation.trim(),
+      `Ambiguous ${locale} subcategory translation binding: ${domainId}`,
+    );
+    matches.set(pair.en, pair.translation.trim());
+  }
+  // Keep taxonomy positions stable; an untranslated label falls back only to its public English source.
+  return allowed.map((en) => matches.get(en) ?? en);
+};
+
 /** Pure, conservative publication filter. No authoring record is copied wholesale. */
 export function compileLocale(overlay, published) {
   requireValue(
     record(overlay) &&
       overlay.schemaVersion === 1 &&
-      overlay.locale === "pt-BR",
-    "Expected pt-BR locale schema version 1",
+      SUPPORTED_VOCABULARY_LOCALES.includes(overlay.locale),
+    "Expected a supported vocabulary locale schema version 1",
   );
   requireValue(
     overlay.status === "preview" &&
       visible(overlay) &&
       overlay.review?.humanReviewed === false,
-    "The Portuguese publisher currently supports only honestly unreviewed preview content",
+    "The vocabulary locale publisher currently supports only honestly unreviewed preview content",
   );
   requireValue(
     Array.isArray(published?.index?.entries) &&
@@ -117,7 +141,7 @@ export function compileLocale(overlay, published) {
         requireValue(
           !matches.has(pair.en) ||
             matches.get(pair.en) === pair.translation.trim(),
-          `Ambiguous Portuguese translation binding: ${indexed.id}`,
+          `Ambiguous ${overlay.locale} translation binding: ${indexed.id}`,
         );
         matches.set(pair.en, pair.translation.trim());
       }
@@ -165,7 +189,22 @@ export function compileLocale(overlay, published) {
         visible(domain) &&
         visible(translation) &&
         text(translation.label, 300)
-        ? [[domain.id, { label: translation.label.trim() }]]
+        ? [[
+          domain.id,
+          {
+            label: translation.label.trim(),
+            ...(Array.isArray(domain.subcategories)
+              ? {
+                subcategoryLabels: subcategoryLabels(
+                  translation.subcategories,
+                  domain.subcategories,
+                  overlay.locale,
+                  domain.id,
+                ),
+              }
+              : {}),
+          },
+        ]]
         : [];
     }),
   );
@@ -185,11 +224,11 @@ export function compileLocale(overlay, published) {
       ? overlay.provenance.attribution.trim()
       : "Mehrdadika contributors; Word Atlas contributors — CC BY 4.0",
     modifications:
-      "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed.",
+      `${localeName[overlay.locale]} preview translations filtered against the published English release. No independent human language or specialist review is claimed.`,
   };
   return {
     schemaVersion: 1,
-    locale: "pt-BR",
+    locale: overlay.locale,
     status: "preview",
     review: { humanReviewed: false, status: "preview" },
     provenance,
@@ -311,12 +350,14 @@ export function loadPublishedRelease({ root = process.cwd() } = {}) {
   };
 }
 
-export function buildLocales({ root = process.cwd(), check = false } = {}) {
+export function buildLocales({ root = process.cwd(), check = false, locale = "pt-BR" } = {}) {
+  requireValue(SUPPORTED_VOCABULARY_LOCALES.includes(locale), "Unsupported vocabulary locale");
   const overlay = JSON.parse(
-    fs.readFileSync(path.join(root, "content/locales/pt-BR.json"), "utf8"),
+    fs.readFileSync(path.join(root, `content/locales/${locale}.json`), "utf8"),
   );
+  requireValue(overlay.locale === locale, "Vocabulary locale file identity does not match its path");
   const compiled = compileLocale(overlay, loadPublishedRelease({ root }));
-  const output = path.join(root, "src/locales/published/pt-BR.json");
+  const output = path.join(root, `src/locales/published/${locale}.json`);
   const expected = serialize(compiled);
   if (check) {
     requireValue(
@@ -345,10 +386,12 @@ if (
       process.argv.slice(2).every((argument) => argument === "--check"),
       "Supported argument: --check",
     );
-    const compiled = buildLocales({ check: process.argv.includes("--check") });
-    console.log(
-      `pt-BR preview: ${Object.keys(compiled.entries).length} published words, ${Object.values(compiled.entries).reduce((count, entry) => count + Object.keys(entry.senses).length, 0)} meanings, ${Object.keys(compiled.categories).length} categories${process.argv.includes("--check") ? "; snapshot current" : "; snapshot generated"}.`,
-    );
+    for (const locale of SUPPORTED_VOCABULARY_LOCALES) {
+      const compiled = buildLocales({ locale, check: process.argv.includes("--check") });
+      console.log(
+        `${locale} preview: ${Object.keys(compiled.entries).length} published words, ${Object.values(compiled.entries).reduce((count, entry) => count + Object.keys(entry.senses).length, 0)} meanings, ${Object.keys(compiled.categories).length} categories${process.argv.includes("--check") ? "; snapshot current" : "; snapshot generated"}.`,
+      );
+    }
   } catch (error) {
     console.error(error.message);
     process.exitCode = 1;

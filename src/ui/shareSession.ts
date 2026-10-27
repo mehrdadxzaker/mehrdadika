@@ -1,3 +1,5 @@
+import { tr } from "../i18n/messages";
+import { uiIntlLocale, uiDirection } from "../i18n/locale";
 import type { Atlas } from "../atlas/types";
 import { sessionStats } from "../store/session";
 import { Rating } from "../store/srs";
@@ -96,24 +98,24 @@ export async function shareSession(atlas: Atlas, session: ActiveSession) {
         (grade) => grade === Rating.Again,
       ).length;
     const y = pad + 3 * cell + 2 * gap + 92;
-    ctx.direction = "rtl";
-    ctx.textAlign = "right";
+    ctx.direction = uiDirection();
+    ctx.textAlign = uiDirection() === "rtl" ? "right" : "left";
     ctx.fillStyle = "#8a8c96";
     ctx.font = `500 28px ${SANS}`;
-    ctx.fillText(new Date().toLocaleDateString("fa-IR"), W - pad, y - 24);
+    ctx.fillText(new Date().toLocaleDateString(uiIntlLocale()), uiDirection() === "rtl" ? W - pad : pad, y - 24);
     ctx.fillStyle = "#1e2640";
     ctx.font = `600 52px ${SANS}`;
     ctx.fillText(
-      `${seen.size.toLocaleString("fa-IR")} واژه، ${stats.accuracy.toLocaleString("fa-IR")}٪ پاسخ نخست درست`,
-      W - pad,
+      tr(`${seen.size.toLocaleString(uiIntlLocale())} واژه، ${stats.accuracy.toLocaleString(uiIntlLocale())}٪ پاسخ نخست درست`),
+      uiDirection() === "rtl" ? W - pad : pad,
       y + 52,
       W - 2 * pad,
     );
     ctx.font = `400 28px ${SANS}`;
     ctx.fillStyle = "#5a6075";
     ctx.fillText(
-      `معنی تازه: ${session.newIds.length.toLocaleString("fa-IR")} · مرور: ${session.reviewIds.length.toLocaleString("fa-IR")} · تمرین بیشتر: ${wrong.toLocaleString("fa-IR")}`,
-      W - pad,
+      tr(`معنی تازه: ${session.newIds.length.toLocaleString(uiIntlLocale())} · مرور: ${session.reviewIds.length.toLocaleString(uiIntlLocale())} · تمرین بیشتر: ${wrong.toLocaleString(uiIntlLocale())}`),
+      uiDirection() === "rtl" ? W - pad : pad,
       y + 110,
       W - pad * 2,
     );
@@ -121,7 +123,7 @@ export async function shareSession(atlas: Atlas, session: ActiveSession) {
     ctx.fillRect(pad, H - 126, W - 2 * pad, 1);
     ctx.fillStyle = "#1e2640";
     ctx.font = `600 30px ${SANS}`;
-    ctx.fillText("مهردادیکا · آسمان یادگیری من", W - pad, H - 74);
+    ctx.fillText(tr("مهردادیکا · آسمان یادگیری من"), uiDirection() === "rtl" ? W - pad : pad, H - 74);
     ctx.direction = "ltr";
     ctx.textAlign = "left";
     ctx.font = `400 20px ${SANS}`;

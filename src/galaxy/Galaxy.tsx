@@ -1,3 +1,4 @@
+import { uiIntlLocale } from "../i18n/locale";
 import { Crosshair, Minus, Plus, RotateCcw, Share2 } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useAtlas } from "../atlas/context";
@@ -382,8 +383,8 @@ export function Galaxy({
       )}
       <div className="galaxy-hud">
         <p>
-          <b>{lit.toLocaleString("fa-IR")}</b> /{" "}
-          {layout.n.toLocaleString("fa-IR")} ستاره روشن شده
+          <b>{lit.toLocaleString(uiIntlLocale())}</b> /{" "}
+          {layout.n.toLocaleString(uiIntlLocale())} ستاره روشن شده
         </p>
         <ul className="galaxy-legend" aria-hidden="true">
           <li>

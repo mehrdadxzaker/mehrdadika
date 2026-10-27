@@ -185,6 +185,45 @@ test("Portuguese preview compiler does not propagate a claimed human approval or
   assert.throws(() => compileLocale(overlay, published), /unreviewed preview/);
 });
 
+test("Spanish uses the same publication filter and does not relabel another locale or expose drafts", () => {
+  const { published, overlay } = fixture();
+  overlay.locale = "es-419";
+  overlay.entries.pressure.senses["pressure:mechanical"] = {
+    gloss: "presión",
+    definition: "Fuerza por unidad de área.",
+  };
+  overlay.entries.pressure.examples[0].translation = "Mide la presión.";
+  const result = compileLocale(overlay, published);
+  assert.equal(result.locale, "es-419");
+  assert.deepEqual(Object.keys(result.entries), ["pressure"]);
+  assert.equal(result.entries.pressure.senses["pressure:mechanical"].gloss, "presión");
+  assert.equal(result.review.humanReviewed, false);
+  assert.ok(!JSON.stringify(result).includes("SECRET"));
+  overlay.locale = "unsupported";
+  assert.throws(() => compileLocale(overlay, published), /supported vocabulary locale/);
+});
+
+test("subcategory translations bind to public English labels, preserve taxonomy order and exclude drafts", () => {
+  for (const locale of ["pt-BR", "es-419"]) {
+    const { published, overlay } = fixture();
+    overlay.locale = locale;
+    published.manifest.taxonomy.domains[0].subcategories = ["Tools", "Safety", "Materials"];
+    overlay.categories.engineering.subcategories = [
+      { en: "Materials", translation: "Materiais", authorOnly: "SECRET metadata" },
+      { en: "Old tools label", translation: "SECRET stale translation" },
+      { en: "Tools", translation: "Ferramentas" },
+      { en: "Safety", translation: "SECRET draft translation", publication: "draft" },
+      { en: "Materials", translation: "SECRET withdrawn translation", review: { status: "withdrawn" } },
+      { en: "SECRET unpublished label", translation: "SECRET extra category" },
+    ];
+    const category = compileLocale(overlay, published).categories.engineering;
+    assert.deepEqual(category.subcategoryLabels, ["Ferramentas", "Safety", "Materiais"]);
+    assert.equal(JSON.stringify(category).includes("SECRET"), false);
+    overlay.categories.engineering.subcategories.push({ en: "Tools", translation: "Conflicting label" });
+    assert.throws(() => compileLocale(overlay, published), /Ambiguous .* subcategory translation binding/);
+  }
+});
+
 function writeRelease(root, fixtureValue) {
   const dir = path.join(root, "public/content");
   fs.mkdirSync(dir, { recursive: true });
