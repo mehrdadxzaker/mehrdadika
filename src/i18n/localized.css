@@ -41,6 +41,11 @@ html[data-interface-locale]:not([data-interface-locale="fa"]) .app {
 html[data-interface-locale]:not([data-interface-locale="fa"]) .topbar-tools {
   direction: ltr;
 }
+html[data-interface-locale]:not([data-interface-locale="fa"]) .galaxy-hud,
+html[data-interface-locale]:not([data-interface-locale="fa"]) .galaxy-legend {
+  direction: ltr;
+  text-align: left;
+}
 html[data-interface-locale]:not([data-interface-locale="fa"]) .topnav {
   gap: 4px;
 }
