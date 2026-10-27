@@ -13,9 +13,9 @@
     "modifications": "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-11",
-    "manifest": "content/releases/2026-10-preview-11-4903220d9bbf/manifest.json",
-    "sha256": "4903220d9bbf267f94c48a7d01db39a3a00ed57f49ced24280939c1460a89eb9"
+    "id": "2026-10-preview-12",
+    "manifest": "content/releases/2026-10-preview-12-a0b38acc4cc6/manifest.json",
+    "sha256": "a0b38acc4cc64729bc7efca1ea47c9372b9af329c8c8009758188d6695eb0ed1"
   },
   "categories": {
     "everyday-life": {
@@ -13399,6 +13399,822 @@
         }
       ],
       "tip": "Um traço mostra como o sinal varia no tempo, em vez de apenas um valor numérico. A onda da imagem é uma ilustração didática, não uma medição real nem um resultado médico."
+    },
+    "femur": {
+      "sourceWord": "femur",
+      "senses": {
+        "femur:meaning-1": {
+          "gloss": "fêmur",
+          "definition": "O osso longo da coxa, que se estende do quadril ao joelho."
+        }
+      },
+      "examples": [
+        {
+          "en": "The rounded head of the femur fits into the hip socket.",
+          "translation": "A cabeça arredondada do fêmur se encaixa na cavidade do quadril."
+        },
+        {
+          "en": "The model shows the femur above the knee.",
+          "translation": "O modelo mostra o fêmur acima do joelho."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the head of the femur",
+          "translation": "a cabeça do fêmur"
+        },
+        {
+          "en": "the neck of the femur",
+          "translation": "o colo do fêmur"
+        },
+        {
+          "en": "the shaft of the femur",
+          "translation": "o corpo do fêmur"
+        }
+      ],
+      "tip": "Femur é o osso da coxa, entre o quadril e o joelho. É diferente da tibia, que fica abaixo do joelho."
+    },
+    "tibia": {
+      "sourceWord": "tibia",
+      "senses": {
+        "tibia:meaning-1": {
+          "gloss": "tíbia",
+          "definition": "O maior osso da parte interna da perna, que suporta a maior parte do peso entre o joelho e o tornozelo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The tibia is thicker than the neighboring fibula.",
+          "translation": "A tíbia é mais espessa que a fíbula ao lado."
+        },
+        {
+          "en": "The upper end of the tibia meets the femur at the knee.",
+          "translation": "A extremidade superior da tíbia se articula com o fêmur no joelho."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the shaft of the tibia",
+          "translation": "o corpo da tíbia"
+        },
+        {
+          "en": "the upper end of the tibia",
+          "translation": "a extremidade superior da tíbia"
+        },
+        {
+          "en": "the tibia and fibula",
+          "translation": "a tíbia e a fíbula"
+        }
+      ],
+      "tip": "Tibia também é chamada shinbone em inglês comum. Na posição anatômica, fica no lado interno da perna; a fibula fica no lado externo."
+    },
+    "fibula": {
+      "sourceWord": "fibula",
+      "senses": {
+        "fibula:meaning-1": {
+          "gloss": "fíbula",
+          "definition": "O osso fino situado na parte externa da perna, ao lado da tíbia."
+        }
+      },
+      "examples": [
+        {
+          "en": "The fibula runs beside the larger tibia.",
+          "translation": "A fíbula se estende ao lado da tíbia, que é maior."
+        },
+        {
+          "en": "The lower end of the fibula forms the outer ankle prominence.",
+          "translation": "A extremidade inferior da fíbula forma a saliência externa do tornozelo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the head of the fibula",
+          "translation": "a cabeça da fíbula"
+        },
+        {
+          "en": "the shaft of the fibula",
+          "translation": "o corpo da fíbula"
+        },
+        {
+          "en": "the distal fibula",
+          "translation": "a parte distal da fíbula"
+        }
+      ],
+      "tip": "Fibula é mais fina e lateral que tibia. Sua extremidade superior se articula com a tíbia, não diretamente com o fêmur."
+    },
+    "humerus": {
+      "sourceWord": "humerus",
+      "senses": {
+        "humerus:meaning-1": {
+          "gloss": "úmero",
+          "definition": "O osso longo do braço, entre o ombro e o cotovelo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The head of the humerus forms part of the shoulder joint.",
+          "translation": "A cabeça do úmero faz parte da articulação do ombro."
+        },
+        {
+          "en": "The lower end of the humerus meets the forearm bones at the elbow.",
+          "translation": "A extremidade inferior do úmero se articula com os ossos do antebraço no cotovelo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the head of the humerus",
+          "translation": "a cabeça do úmero"
+        },
+        {
+          "en": "the shaft of the humerus",
+          "translation": "o corpo do úmero"
+        },
+        {
+          "en": "the distal humerus",
+          "translation": "a parte distal do úmero"
+        }
+      ],
+      "tip": "Humerus é o osso do braço; ulna e radius são ossos do antebraço. Não confunda humerus com humorous, que significa engraçado."
+    },
+    "ulna": {
+      "sourceWord": "ulna",
+      "senses": {
+        "ulna:meaning-1": {
+          "gloss": "ulna",
+          "definition": "O osso do antebraço do lado do dedo mínimo quando a palma está voltada para a frente na posição anatômica."
+        }
+      },
+      "examples": [
+        {
+          "en": "The ulna has a large notch near the elbow.",
+          "translation": "A ulna tem uma grande incisura perto do cotovelo."
+        },
+        {
+          "en": "The model shows the ulna beside the radius.",
+          "translation": "O modelo mostra a ulna ao lado do rádio."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the shaft of the ulna",
+          "translation": "o corpo da ulna"
+        },
+        {
+          "en": "the head of the ulna",
+          "translation": "a cabeça da ulna"
+        },
+        {
+          "en": "the ulna and radius",
+          "translation": "a ulna e o rádio"
+        }
+      ],
+      "tip": "Ulna é diferente de radius, o rádio do lado do polegar. Radius também significa raio em geometria. A cabeça da ulna fica perto do punho, não na grande incisura próxima ao cotovelo."
+    },
+    "cartilage": {
+      "sourceWord": "cartilage",
+      "senses": {
+        "cartilage:meaning-1": {
+          "gloss": "cartilagem",
+          "definition": "Tecido conjuntivo firme e flexível que sustenta estruturas do corpo e recobre as extremidades dos ossos em muitas articulações."
+        }
+      },
+      "examples": [
+        {
+          "en": "Smooth cartilage covers the bone surfaces inside the joint.",
+          "translation": "Uma cartilagem lisa recobre as superfícies ósseas dentro da articulação."
+        },
+        {
+          "en": "The model distinguishes cartilage from the bone beneath it.",
+          "translation": "O modelo diferencia a cartilagem do osso que fica abaixo dela."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "articular cartilage",
+          "translation": "cartilagem articular"
+        },
+        {
+          "en": "a cartilage layer",
+          "translation": "uma camada de cartilagem"
+        },
+        {
+          "en": "cartilage tissue",
+          "translation": "tecido cartilaginoso"
+        }
+      ],
+      "tip": "Cartilage é cartilagem, não osso. A imagem mostra cartilagem articular; também existe cartilagem em outras estruturas, como o nariz."
+    },
+    "bladder": {
+      "sourceWord": "bladder",
+      "senses": {
+        "bladder:meaning-1": {
+          "gloss": "bexiga urinária",
+          "definition": "Um órgão muscular oco na pelve que armazena urina antes de sua eliminação."
+        }
+      },
+      "examples": [
+        {
+          "en": "The bladder receives urine through two ureters.",
+          "translation": "A bexiga recebe urina por dois ureteres."
+        },
+        {
+          "en": "The urethra carries urine out of the bladder.",
+          "translation": "A uretra leva a urina para fora da bexiga."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the urinary bladder",
+          "translation": "a bexiga urinária"
+        },
+        {
+          "en": "the bladder wall",
+          "translation": "a parede da bexiga"
+        },
+        {
+          "en": "the bladder neck",
+          "translation": "o colo da bexiga"
+        }
+      ],
+      "tip": "Bladder aqui é a bexiga urinária; gallbladder é a vesícula biliar. Ureter leva urina até a bexiga; urethra a conduz para fora."
+    },
+    "pancreas": {
+      "sourceWord": "pancreas",
+      "senses": {
+        "pancreas:meaning-1": {
+          "gloss": "pâncreas",
+          "definition": "Um órgão atrás do estômago que produz enzimas digestivas e hormônios como a insulina."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pancreas lies behind the stomach.",
+          "translation": "O pâncreas fica atrás do estômago."
+        },
+        {
+          "en": "The pancreatic duct carries digestive fluid from the pancreas to the small intestine.",
+          "translation": "O ducto pancreático leva líquido digestivo do pâncreas ao intestino delgado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the head of the pancreas",
+          "translation": "a cabeça do pâncreas"
+        },
+        {
+          "en": "the tail of the pancreas",
+          "translation": "a cauda do pâncreas"
+        },
+        {
+          "en": "the pancreatic duct",
+          "translation": "o ducto pancreático"
+        }
+      ],
+      "tip": "Pancreas é o órgão; pancreatic é o adjetivo correspondente. O pâncreas produz tanto substâncias digestivas quanto hormônios; são funções diferentes."
+    },
+    "spleen": {
+      "sourceWord": "spleen",
+      "senses": {
+        "spleen:meaning-1": {
+          "gloss": "baço",
+          "definition": "Um órgão na parte superior esquerda do abdome que filtra o sangue e participa das funções imunológicas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The spleen lies on the left side near the stomach.",
+          "translation": "O baço fica no lado esquerdo, perto do estômago."
+        },
+        {
+          "en": "The spleen helps remove old red blood cells from circulation.",
+          "translation": "O baço ajuda a retirar glóbulos vermelhos envelhecidos da circulação."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the human spleen",
+          "translation": "o baço humano"
+        },
+        {
+          "en": "spleen tissue",
+          "translation": "tecido do baço"
+        },
+        {
+          "en": "the spleen capsule",
+          "translation": "a cápsula do baço"
+        }
+      ],
+      "tip": "Spleen é o baço, não o rim nem o pâncreas. Atua no sangue e na imunidade; estar perto do estômago não significa que digira alimentos."
+    },
+    "gallbladder": {
+      "sourceWord": "gallbladder",
+      "senses": {
+        "gallbladder:meaning-1": {
+          "gloss": "vesícula biliar",
+          "definition": "Uma pequena bolsa sob o fígado que armazena e concentra a bile."
+        }
+      },
+      "examples": [
+        {
+          "en": "The gallbladder lies against the underside of the liver.",
+          "translation": "A vesícula biliar fica junto à face inferior do fígado."
+        },
+        {
+          "en": "Bile leaves the gallbladder through the cystic duct.",
+          "translation": "A bile sai da vesícula biliar pelo ducto cístico."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the gallbladder wall",
+          "translation": "a parede da vesícula biliar"
+        },
+        {
+          "en": "the gallbladder neck",
+          "translation": "o colo da vesícula biliar"
+        },
+        {
+          "en": "gallbladder bile",
+          "translation": "bile da vesícula biliar"
+        }
+      ],
+      "tip": "Gallbladder é a vesícula biliar; bladder no outro cartão é a bexiga urinária. O fígado produz bile, e a vesícula a armazena e concentra."
+    },
+    "oesophagus": {
+      "sourceWord": "oesophagus",
+      "senses": {
+        "oesophagus:meaning-1": {
+          "gloss": "esôfago",
+          "definition": "O tubo muscular que conduz alimentos e líquidos engolidos da garganta ao estômago."
+        }
+      },
+      "examples": [
+        {
+          "en": "The oesophagus passes behind the trachea.",
+          "translation": "O esôfago passa atrás da traqueia."
+        },
+        {
+          "en": "Muscular waves move food along the oesophagus toward the stomach.",
+          "translation": "Ondas musculares levam o alimento pelo esôfago em direção ao estômago."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the oesophageal wall",
+          "translation": "a parede do esôfago"
+        },
+        {
+          "en": "the lower oesophagus",
+          "translation": "a parte inferior do esôfago"
+        },
+        {
+          "en": "the oesophageal opening",
+          "translation": "a abertura do esôfago"
+        }
+      ],
+      "tip": "Oesophagus é a grafia britânica; esophagus é a americana do mesmo órgão. O esôfago conduz alimentos; a trachea conduz ar. São tubos separados."
+    },
+    "trachea": {
+      "sourceWord": "trachea",
+      "senses": {
+        "trachea:meaning-1": {
+          "gloss": "traqueia",
+          "definition": "O tubo respiratório que se estende da laringe e se divide nos dois brônquios principais que levam aos pulmões."
+        }
+      },
+      "examples": [
+        {
+          "en": "Cartilage rings help keep the trachea open.",
+          "translation": "Anéis de cartilagem ajudam a manter a traqueia aberta."
+        },
+        {
+          "en": "The trachea divides into a right and a left main bronchus.",
+          "translation": "A traqueia se divide em um brônquio principal direito e outro esquerdo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the tracheal wall",
+          "translation": "a parede da traqueia"
+        },
+        {
+          "en": "tracheal cartilage",
+          "translation": "cartilagem da traqueia"
+        },
+        {
+          "en": "the tracheal opening",
+          "translation": "a abertura da traqueia"
+        }
+      ],
+      "tip": "Trachea também se chama windpipe. Seus anéis de cartilagem têm forma de C e são completados por tecido mole na parte posterior. O esôfago fica atrás da traqueia. A imagem principal mostra um trecho curto da traqueia; a pequena vista de localização indica sua posição na via aérea."
+    },
+    "concrete": {
+      "sourceWord": "concrete",
+      "senses": {
+        "concrete:meaning-1": {
+          "gloss": "concreto",
+          "definition": "Um material de construção que forma um compósito rígido quando uma mistura de cimento, água e agregados pega e endurece."
+        }
+      },
+      "examples": [
+        {
+          "en": "The cut face of the concrete shows small stones held in a solid matrix.",
+          "translation": "A face cortada do concreto mostra pequenas pedras presas em uma matriz sólida."
+        },
+        {
+          "en": "The bridge deck rests on a concrete support.",
+          "translation": "O tabuleiro da ponte se apoia em um suporte de concreto."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a concrete slab",
+          "translation": "uma laje de concreto"
+        },
+        {
+          "en": "a concrete mix",
+          "translation": "uma mistura de concreto"
+        },
+        {
+          "en": "hardened concrete",
+          "translation": "concreto endurecido"
+        }
+      ],
+      "tip": "Concrete aqui é o material de construção, não o adjetivo que significa concreto ou específico. O cimento é um ingrediente do concreto; não são o mesmo material. A imagem mostra concreto endurecido."
+    },
+    "cement": {
+      "sourceWord": "cement",
+      "senses": {
+        "cement:meaning-1": {
+          "gloss": "cimento",
+          "definition": "Um aglomerante de construção finamente moído que reage com água e forma uma pasta que pega e endurece."
+        }
+      },
+      "examples": [
+        {
+          "en": "The dry cement is a fine gray powder.",
+          "translation": "O cimento seco é um pó fino e cinza."
+        },
+        {
+          "en": "Cement binds the sand and stones together in ordinary concrete.",
+          "translation": "O cimento une a areia e as pedras no concreto comum."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "cement powder",
+          "translation": "cimento em pó"
+        },
+        {
+          "en": "a cement paste",
+          "translation": "uma pasta de cimento"
+        },
+        {
+          "en": "a bag of cement",
+          "translation": "um saco de cimento"
+        }
+      ],
+      "tip": "Esta acepção é a do cimento hidráulico comum na construção. Seco, ele é um pó; reage quando recebe água. O concreto é a mistura de cimento, água e agregados, não apenas cimento."
+    },
+    "mortar": {
+      "sourceWord": "mortar",
+      "senses": {
+        "mortar:meaning-1": {
+          "gloss": "argamassa de assentamento",
+          "definition": "Uma mistura trabalhável de aglomerante, agregado miúdo e água usada para unir unidades de alvenaria e preencher suas juntas."
+        }
+      },
+      "examples": [
+        {
+          "en": "A layer of mortar joins the two courses of bricks.",
+          "translation": "Uma camada de argamassa une as duas fiadas de tijolos."
+        },
+        {
+          "en": "The mortar fills the narrow joint between neighboring bricks.",
+          "translation": "A argamassa preenche a junta estreita entre tijolos vizinhos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a mortar joint",
+          "translation": "uma junta de argamassa"
+        },
+        {
+          "en": "a mortar mix",
+          "translation": "uma mistura de argamassa"
+        },
+        {
+          "en": "a bed of mortar",
+          "translation": "uma camada de argamassa"
+        }
+      ],
+      "tip": "Mortar aqui é a argamassa de alvenaria, não um pilão nem uma arma. O aglomerante pode variar; a argamassa de assentamento normalmente não contém o agregado graúdo do concreto comum."
+    },
+    "brick": {
+      "sourceWord": "brick",
+      "senses": {
+        "brick:meaning-1": {
+          "gloss": "tijolo",
+          "definition": "Uma pequena unidade de alvenaria, geralmente retangular e muitas vezes feita de argila queimada, usada em paredes e outras estruturas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The brick has flat faces and a shallow recess on top.",
+          "translation": "O tijolo tem faces planas e uma depressão rasa na parte superior."
+        },
+        {
+          "en": "The wall has alternating rows of bricks and mortar joints.",
+          "translation": "A parede tem fiadas de tijolos alternadas com juntas de argamassa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a clay brick",
+          "translation": "um tijolo de argila"
+        },
+        {
+          "en": "a brick wall",
+          "translation": "uma parede de tijolos"
+        },
+        {
+          "en": "a brick course",
+          "translation": "uma fiada de tijolos"
+        }
+      ],
+      "tip": "A imagem mostra um tijolo maciço de argila com uma depressão rasa. Nem todos os tijolos são maciços, vermelhos ou do mesmo formato e tamanho. Course em alvenaria significa fiada."
+    },
+    "aggregate": {
+      "sourceWord": "aggregate",
+      "senses": {
+        "aggregate:meaning-1": {
+          "gloss": "agregado para construção",
+          "definition": "Material granular, como areia, cascalho ou pedra britada, usado em misturas ou camadas de construção."
+        }
+      },
+      "examples": [
+        {
+          "en": "The tray contains coarse aggregate with angular stone pieces.",
+          "translation": "A bandeja contém agregado graúdo com fragmentos angulares de pedra."
+        },
+        {
+          "en": "Fine aggregate and coarse aggregate have different particle sizes.",
+          "translation": "O agregado miúdo e o graúdo têm tamanhos de partículas diferentes."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "coarse aggregate",
+          "translation": "agregado graúdo"
+        },
+        {
+          "en": "fine aggregate",
+          "translation": "agregado miúdo"
+        },
+        {
+          "en": "aggregate grading",
+          "translation": "granulometria do agregado"
+        }
+      ],
+      "tip": "Aggregate aqui é o substantivo que nomeia um material granular, não o verbo agregar. A imagem mostra agregado graúdo; a areia também pode ser agregado miúdo."
+    },
+    "asphalt": {
+      "sourceWord": "asphalt",
+      "senses": {
+        "asphalt:meaning-1": {
+          "gloss": "asfalto; mistura asfáltica",
+          "definition": "Um material escuro de pavimentação em que agregados minerais são unidos por um ligante betuminoso."
+        }
+      },
+      "examples": [
+        {
+          "en": "The asphalt sample has a dark binder around its stone particles.",
+          "translation": "A amostra de asfalto tem um ligante escuro ao redor das partículas de pedra."
+        },
+        {
+          "en": "A compacted layer of asphalt forms the road surface.",
+          "translation": "Uma camada compactada de asfalto forma a superfície da via."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an asphalt surface",
+          "translation": "uma superfície asfáltica"
+        },
+        {
+          "en": "an asphalt mix",
+          "translation": "uma mistura asfáltica"
+        },
+        {
+          "en": "an asphalt layer",
+          "translation": "uma camada de asfalto"
+        }
+      ],
+      "tip": "Esta acepção é a mistura de pavimentação com ligante betuminoso. Em alguns usos, especialmente asphalt binder, asphalt também designa o próprio ligante. A mistura asfáltica não é cimento Portland."
+    },
+    "lintel": {
+      "sourceWord": "lintel",
+      "senses": {
+        "lintel:meaning-1": {
+          "gloss": "verga",
+          "definition": "Um elemento estrutural que vence uma abertura na parede e sustenta o material acima dela."
+        }
+      },
+      "examples": [
+        {
+          "en": "The lintel spans the window opening and rests on the masonry at both ends.",
+          "translation": "A verga vence a abertura da janela e se apoia na alvenaria nas duas extremidades."
+        },
+        {
+          "en": "The bricks above the opening bear on the lintel.",
+          "translation": "Os tijolos acima da abertura se apoiam na verga."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a concrete lintel",
+          "translation": "uma verga de concreto"
+        },
+        {
+          "en": "a lintel bearing",
+          "translation": "um apoio de verga"
+        },
+        {
+          "en": "a lintel span",
+          "translation": "um vão de verga"
+        }
+      ],
+      "tip": "Lintel fica acima da abertura; sill é a peça na parte inferior. O comprimento dos apoios e as dimensões reais exigem projeto; a ilustração não é um desenho de execução."
+    },
+    "joist": {
+      "sourceWord": "joist",
+      "senses": {
+        "joist:meaning-1": {
+          "gloss": "barrote de piso ou teto",
+          "definition": "Um dos elementos estruturais horizontais próximos e paralelos que sustentam um piso ou teto."
+        }
+      },
+      "examples": [
+        {
+          "en": "Parallel joists support the floor panels from below.",
+          "translation": "Barrotes paralelos sustentam os painéis do piso por baixo."
+        },
+        {
+          "en": "Each joist rests on a supporting wall at both ends.",
+          "translation": "Cada barrote se apoia em uma parede nas duas extremidades."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a floor joist",
+          "translation": "um barrote de piso"
+        },
+        {
+          "en": "a ceiling joist",
+          "translation": "um barrote de teto"
+        },
+        {
+          "en": "joist spacing",
+          "translation": "espaçamento entre barrotes"
+        }
+      ],
+      "tip": "Joist costuma ser um entre vários elementos horizontais repetidos. Rafter é o elemento inclinado do telhado; beam é um termo mais geral para viga. A imagem mostra barrotes de piso de madeira."
+    },
+    "rafter": {
+      "sourceWord": "rafter",
+      "senses": {
+        "rafter:meaning-1": {
+          "gloss": "caibro",
+          "definition": "Um elemento estrutural inclinado que sustenta o telhado, normalmente entre o beiral e a cumeeira."
+        }
+      },
+      "examples": [
+        {
+          "en": "The rafter slopes upward from the wall toward the roof ridge.",
+          "translation": "O caibro sobe em inclinação da parede em direção à cumeeira."
+        },
+        {
+          "en": "Roof sheathing rests on a row of parallel rafters.",
+          "translation": "O revestimento de base do telhado se apoia em uma fileira de caibros paralelos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a roof rafter",
+          "translation": "um caibro de telhado"
+        },
+        {
+          "en": "a rafter pair",
+          "translation": "um par de caibros"
+        },
+        {
+          "en": "rafter spacing",
+          "translation": "espaçamento entre caibros"
+        }
+      ],
+      "tip": "Rafter é um elemento inclinado do telhado, diferente do joist horizontal. A imagem mostra uma estrutura de madeira simplificada; as ligações e o contraventamento reais exigem projeto."
+    },
+    "pile": {
+      "sourceWord": "pile",
+      "senses": {
+        "pile:meaning-1": {
+          "gloss": "estaca de fundação",
+          "definition": "Um elemento longo de fundação que penetra profundamente no terreno e transfere cargas da estrutura ao solo ao redor ou às camadas inferiores."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pile extends below the soft surface soil.",
+          "translation": "A estaca se estende abaixo do solo superficial macio."
+        },
+        {
+          "en": "The concrete cap transfers load into the pile beneath it.",
+          "translation": "O bloco de coroamento de concreto transfere a carga para a estaca abaixo dele."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a foundation pile",
+          "translation": "uma estaca de fundação"
+        },
+        {
+          "en": "a driven pile",
+          "translation": "uma estaca cravada"
+        },
+        {
+          "en": "a pile cap",
+          "translation": "um bloco de coroamento de estacas"
+        }
+      ],
+      "tip": "Pile aqui é um elemento de fundação profunda, não uma pilha de objetos. Estacas podem transferir cargas por resistência lateral e/ou de ponta; nem todas se apoiam em rocha."
+    },
+    "retaining-wall": {
+      "sourceWord": "retaining wall",
+      "senses": {
+        "retaining-wall:meaning-1": {
+          "gloss": "muro de contenção",
+          "definition": "Um muro projetado para conter solo ou outro material onde há diferença de nível do terreno."
+        }
+      },
+      "examples": [
+        {
+          "en": "The retaining wall holds back the higher ground beside the path.",
+          "translation": "O muro de contenção segura o terreno mais alto ao lado do caminho."
+        },
+        {
+          "en": "The cutaway shows soil behind the retaining wall and open space in front.",
+          "translation": "O corte mostra solo atrás do muro de contenção e espaço aberto na frente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a concrete retaining wall",
+          "translation": "um muro de contenção de concreto"
+        },
+        {
+          "en": "a retaining wall base",
+          "translation": "uma base de muro de contenção"
+        },
+        {
+          "en": "retaining wall drainage",
+          "translation": "drenagem de muro de contenção"
+        }
+      ],
+      "tip": "Um retaining wall contém solo e um desnível; nem todo muro de divisa é de contenção. Forma, fundação e drenagem dependem do local e do projeto."
+    },
+    "abutment": {
+      "sourceWord": "abutment",
+      "senses": {
+        "abutment:meaning-1": {
+          "gloss": "encontro de ponte",
+          "definition": "Um apoio na extremidade de uma ponte que sustenta a ponta do vão e também pode conter o aterro de acesso."
+        }
+      },
+      "examples": [
+        {
+          "en": "The end of the bridge girder rests on a bearing above the abutment.",
+          "translation": "A extremidade da longarina da ponte se apoia em um aparelho de apoio sobre o encontro."
+        },
+        {
+          "en": "The abutment stands between the bridge opening and the approach embankment.",
+          "translation": "O encontro fica entre a abertura da ponte e o aterro de acesso."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a bridge abutment",
+          "translation": "um encontro de ponte"
+        },
+        {
+          "en": "an abutment wall",
+          "translation": "uma parede de encontro de ponte"
+        },
+        {
+          "en": "an abutment footing",
+          "translation": "uma sapata de encontro de ponte"
+        }
+      ],
+      "tip": "Abutment aqui é o apoio na extremidade da ponte, não uma peça dentária. Pier costuma ser um apoio intermediário; a imagem mostra apenas uma extremidade da ponte e sua ligação com o encontro."
     }
   }
 }

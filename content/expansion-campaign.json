@@ -958,6 +958,120 @@
         "voltage"
       ],
       "completedAt": "2026-10-27T17:25:57.272713+00:00"
+    },
+    {
+      "id": "specialist-500-batch-7",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-12",
+      "baseline": {
+        "releaseId": "2026-10-preview-11",
+        "manifest": "content/releases/2026-10-preview-11-4903220d9bbf/manifest.json",
+        "manifestSha256": "4903220d9bbf267f94c48a7d01db39a3a00ed57f49ced24280939c1460a89eb9",
+        "words": 378
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 110,
+          "targetCategoryWords": 122,
+          "entryIds": [
+            "femur",
+            "tibia",
+            "fibula",
+            "humerus",
+            "ulna",
+            "cartilage",
+            "bladder",
+            "pancreas",
+            "spleen",
+            "gallbladder",
+            "oesophagus",
+            "trachea"
+          ],
+          "units": [
+            {
+              "id": "limb-bones-and-joints",
+              "title": "Limb bones and cartilage",
+              "entryIds": [
+                "femur",
+                "tibia",
+                "fibula",
+                "humerus",
+                "ulna",
+                "cartilage"
+              ]
+            },
+            {
+              "id": "organs-and-passages",
+              "title": "Internal organs, food passage and airway",
+              "entryIds": [
+                "bladder",
+                "pancreas",
+                "spleen",
+                "gallbladder",
+                "oesophagus",
+                "trachea"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 110,
+          "targetCategoryWords": 122,
+          "entryIds": [
+            "concrete",
+            "cement",
+            "mortar",
+            "brick",
+            "aggregate",
+            "asphalt",
+            "lintel",
+            "joist",
+            "rafter",
+            "pile",
+            "retaining-wall",
+            "abutment"
+          ],
+          "units": [
+            {
+              "id": "construction-materials",
+              "title": "Concrete, masonry and paving materials",
+              "entryIds": [
+                "concrete",
+                "cement",
+                "mortar",
+                "brick",
+                "aggregate",
+                "asphalt"
+              ]
+            },
+            {
+              "id": "structural-supports",
+              "title": "Floor, roof, ground and bridge supports",
+              "entryIds": [
+                "lintel",
+                "joist",
+                "rafter",
+                "pile",
+                "retaining-wall",
+                "abutment"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [
+        "nurse",
+        "load"
+      ],
+      "completedAt": "2026-10-27T18:52:25.506477+00:00"
     }
   ],
   "activeWorkBatchId": null,

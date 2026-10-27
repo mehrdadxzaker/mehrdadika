@@ -1826,7 +1826,115 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 110,
+      "targetCategoryWords": 122,
+      "entryIds": [
+        "femur",
+        "tibia",
+        "fibula",
+        "humerus",
+        "ulna",
+        "cartilage",
+        "bladder",
+        "pancreas",
+        "spleen",
+        "gallbladder",
+        "oesophagus",
+        "trachea"
+      ],
+      "units": [
+        {
+          "id": "limb-bones-and-joints",
+          "title": "Limb bones and cartilage",
+          "entryIds": [
+            "femur",
+            "tibia",
+            "fibula",
+            "humerus",
+            "ulna",
+            "cartilage"
+          ]
+        },
+        {
+          "id": "organs-and-passages",
+          "title": "Internal organs, food passage and airway",
+          "entryIds": [
+            "bladder",
+            "pancreas",
+            "spleen",
+            "gallbladder",
+            "oesophagus",
+            "trachea"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-7",
+      "releaseId": "2026-10-preview-12",
+      "status": "published-preview",
+      "objective": "Describe limb bones, organs, construction materials and structural supports in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 110,
+      "targetCategoryWords": 122,
+      "entryIds": [
+        "concrete",
+        "cement",
+        "mortar",
+        "brick",
+        "aggregate",
+        "asphalt",
+        "lintel",
+        "joist",
+        "rafter",
+        "pile",
+        "retaining-wall",
+        "abutment"
+      ],
+      "units": [
+        {
+          "id": "construction-materials",
+          "title": "Concrete, masonry and paving materials",
+          "entryIds": [
+            "concrete",
+            "cement",
+            "mortar",
+            "brick",
+            "aggregate",
+            "asphalt"
+          ]
+        },
+        {
+          "id": "structural-supports",
+          "title": "Floor, roof, ground and bridge supports",
+          "entryIds": [
+            "lintel",
+            "joist",
+            "rafter",
+            "pile",
+            "retaining-wall",
+            "abutment"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-7",
+      "releaseId": "2026-10-preview-12",
+      "status": "published-preview",
+      "objective": "Describe limb bones, organs, construction materials and structural supports in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-6"
+  "activePassId": "specialist-500-batch-7"
 }

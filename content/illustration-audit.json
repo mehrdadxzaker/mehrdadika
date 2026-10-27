@@ -1421,17 +1421,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/nurse.webp",
-        "sha256": "df0c3786b0ab13c6dc344594352da2ce89c406f423f4963c74c9697535f0df59"
+        "path": "atlas/img/nurse-v2.webp",
+        "sha256": "56cc29b673d89453f9467895c8d27b568f5884fa12f65f7b315932ceb7949014"
       },
       "visual": {
-        "expectedCue": "A healthcare worker tends an injured person's arm, showing a nursing-care context.",
-        "decision": "retained",
-        "reason": "Retained after pixel inspection: A healthcare worker tends an injured person's arm, showing a nursing-care context."
+        "expectedCue": "A nurse provides calm bedside care while a connected bandage roll wraps a supported patient wrist.",
+        "decision": "replaced",
+        "reason": "Actual full generated source and converted512/120 inspected: two coherent nurse hands support the patient forearm and hold a bandage roll whose strip meets the wrapped wrist. Patient other hand rests on lap; no wound, bleeding, fake reading or identifiable data. Teal scrubs and clinical couch establish professional care.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise cool-white/teal clinical rendering; nurse and care action remain clear at120px."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "56cc29b673d89453f9467895c8d27b568f5884fa12f65f7b315932ceb7949014",
+          "inspectedAt": "2026-10-27T18:14:03.610230+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254px source and final512px/120px inspected. Nurse supports the adult patient forearm with one hand while handling a continuous bandage roll with the other; patient posture, hands, limbs and contact are coherent. Care task and examination-room context make the role readable beyond a uniform portrait. No visible wound, blood, fake reading, patient data, text or logo. Clean clinical photo-like rendering with cool white, mint/teal and pale-blue accents. Role image is an editorial preview, not a clinical bandaging instruction or human qualification."
+        }
       }
     },
     {
@@ -2203,17 +2218,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/load.webp",
-        "sha256": "9ecc1adbf9ab2f6d78ca8bfb17073f77c8f4d74e0a6883bdee996b32a12e907b"
+        "path": "atlas/img/load-v2.webp",
+        "sha256": "e31c66526ee6faddd8e5a72b17bdd61aa24307eec5691b0f8cc6615c341284f9"
       },
       "visual": {
-        "expectedCue": "An animal carries packed cargo, showing a transported load rather than an unrelated electrical meaning.",
-        "decision": "retained",
-        "reason": "Retained after pixel inspection: An animal carries packed cargo, showing a transported load rather than an unrelated electrical meaning."
+        "expectedCue": "A substantial timber cargo is carried on the bed of a supported truck.",
+        "decision": "replaced",
+        "reason": "Actual full source and512/120 inspected: stacked timber rests on bed spacers inside the flatbed, with two securing straps attached to the bed rails. Truck cab, chassis, wheels and bed are physically coherent; cargo dominates the composition. This depicts transported goods matching the existing selected sense, not a force or electrical load. No weight or securement qualification is asserted.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise slate/silver technical vehicle study with warm amber timber focal cargo; readable at120px."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e31c66526ee6faddd8e5a72b17bdd61aa24307eec5691b0f8cc6615c341284f9",
+          "inspectedAt": "2026-10-27T18:15:45.372060+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full source, final512 WebP and120px thumbnail inspected. A coherent stack of timber rests on short spacers contacting the truck bed; two visible straps contact the stack and connect to bed-side anchor fittings. Silver truck body and wheels remain coherent, with no floating cargo, fake text or numerical load claim. Transported cargo sense is unmistakable and preserved, rather than a force-arrow schematic. Slate ground, silver vehicle and amber timber match engineering; readable at120px. AI pixel review is not cargo-rating or human specialist approval."
+        }
       }
     },
     {
@@ -16517,6 +16547,1206 @@
             120
           ],
           "finding": "Actual full source, final512 WebP and120px thumbnail inspected. Bench instrument has one coherent continuous sine-like illustrative amber trace on an unnumbered grid, five physical rotary knobs and two coaxial input sockets. No false measured values, clinical trace, invented words or stray wiring. Screen and controls clearly identify an oscilloscope at120px. Silver technical product drawing, slate ground and amber trace match engineering style. This is an AI pixel review, not human specialist approval."
+        }
+      }
+    },
+    {
+      "entryId": "femur",
+      "sourceWord": "femur",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "femur:meaning-1",
+          "pos": "n.",
+          "en": "The long bone of the thigh, extending from the hip to the knee."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The rounded head of the femur fits into the hip socket.",
+          "senseId": "femur:meaning-1"
+        },
+        {
+          "en": "The model shows the femur above the knee.",
+          "senseId": "femur:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/femur.webp",
+        "sha256": "b00c2e46948521d1d41edc9dee1589c71a2e61184fe76f7070f9e158b05dc333"
+      },
+      "visual": {
+        "expectedCue": "The long thigh bone with rounded head/angled neck, greater trochanter and two distal condyles, between ghost hip/knee context.",
+        "decision": "added",
+        "reason": "Actual full source and final 512px/120px inspected. Continuous long femur has a spherical proximal head entering a faint hip socket, an oblique neck and opposing trochanter, shaft and two expanded distal condyles with anterior patellar groove. Faint tibial plateau below supplies hip-to-knee context. No fracture, disease, labels or generic cartoon-bone silhouette.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise clinical anatomical bone model on cool-white/pale-mint ground, restrained teal focal contour and pale-blue translucent neighboring context. Natural bone color and controlled soft shading; no warm storybook texture or clutter."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b00c2e46948521d1d41edc9dee1589c71a2e61184fe76f7070f9e158b05dc333",
+          "inspectedAt": "2026-10-27T18:19:09.801690+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: highlighted thigh bone has a proximal head/neck joining the faint hip socket, a long shaft and distal condylar region above a faint tibia. Trochanter and anterior knee surface are coherent; no duplicated hip or extra limb. Clear clinical bone model on mint, distinct from lower-leg bones."
+        }
+      }
+    },
+    {
+      "entryId": "tibia",
+      "sourceWord": "tibia",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "tibia:meaning-1",
+          "pos": "n.",
+          "en": "The larger bone on the inner side of the lower leg, which carries most of the weight between the knee and ankle."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tibia is thicker than the neighboring fibula.",
+          "senseId": "tibia:meaning-1"
+        },
+        {
+          "en": "The upper end of the tibia meets the femur at the knee.",
+          "senseId": "tibia:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tibia.webp",
+        "sha256": "03e308ed66752cebd75bcba09c41081993db2c38bcbbd89bbbc71bee24924e66"
+      },
+      "visual": {
+        "expectedCue": "The thick medial shin bone highlighted next to a faint thin lateral fibula.",
+        "decision": "added",
+        "reason": "Actual full source and final 512px/120px inspected. Solid broad tibial plateau, anterior tuberosity and thick shaft are highlighted on viewer-right; medial malleolus is on the same medial side. Ghost fibular head sits below the plateau, and fibular distal tip extends lower than the tibial projection. Bones remain separate and coherently aligned over a ghost ankle. Relative size and highlight distinguish the tibia at 120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise clinical anatomical bone model on cool-white/pale-mint ground, restrained teal focal contour and pale-blue translucent neighboring context. Natural bone color and controlled soft shading; no warm storybook texture or clutter."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "03e308ed66752cebd75bcba09c41081993db2c38bcbbd89bbbc71bee24924e66",
+          "inspectedAt": "2026-10-27T18:19:09.801933+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: broad medial shin bone has two proximal plateau regions, an anterior tuberosity, shaft and distal medial ankle projection. Faint thin lateral fibula starts below the plateau and extends lower at the outside ankle. Primary bone and relative positions are clear in the ivory/mint clinical rendering."
+        }
+      }
+    },
+    {
+      "entryId": "fibula",
+      "sourceWord": "fibula",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "fibula:meaning-1",
+          "pos": "n.",
+          "en": "The slender bone on the outer side of the lower leg, beside the tibia."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The fibula runs beside the larger tibia.",
+          "senseId": "fibula:meaning-1"
+        },
+        {
+          "en": "The lower end of the fibula forms the outer ankle prominence.",
+          "senseId": "fibula:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/fibula.webp",
+        "sha256": "07cf069598ea1bcd37721a83a7e7a6cbc249fd3d41c0fbb15bfe4efd7c32e044"
+      },
+      "visual": {
+        "expectedCue": "The thin lateral lower-leg bone highlighted beside a larger ghost tibia, ending in the outer ankle projection.",
+        "decision": "added",
+        "reason": "Actual full source and final 512px/120px inspected. Solid slender fibula is lateral on viewer-left beside ghost tibia. Its proximal head meets the side of the tibia below the plateau rather than the femur; distal lateral malleolus extends below the medial ankle projection. Continuous thin shaft, adjacent knee and cropped ghost ankle/foot context are coherent. Highlight and size contrast remain legible at 120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise clinical anatomical bone model on cool-white/pale-mint ground, restrained teal focal contour and pale-blue translucent neighboring context. Natural bone color and controlled soft shading; no warm storybook texture or clutter."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "07cf069598ea1bcd37721a83a7e7a6cbc249fd3d41c0fbb15bfe4efd7c32e044",
+          "inspectedAt": "2026-10-27T18:19:09.802063+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: slender lateral lower-leg bone is highlighted beside a faint broad tibia. Its proximal head lies below the knee plateau and its distal lateral malleolus reaches the outside ankle, distinguishing it from the weight-bearing tibia. No direct knee-bearing articulation or extra bone; readable clinical model."
+        }
+      }
+    },
+    {
+      "entryId": "humerus",
+      "sourceWord": "humerus",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "humerus:meaning-1",
+          "pos": "n.",
+          "en": "The long bone of the upper arm, between the shoulder and elbow."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The head of the humerus forms part of the shoulder joint.",
+          "senseId": "humerus:meaning-1"
+        },
+        {
+          "en": "The lower end of the humerus meets the forearm bones at the elbow.",
+          "senseId": "humerus:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/humerus.webp",
+        "sha256": "06cd73f774ef3e5f4cd9dbb10d0d8a0fe57b0a9a5f5ccbef0a00cb0a6db4dd27"
+      },
+      "visual": {
+        "expectedCue": "The upper-arm bone with a rounded shoulder head, short neck and distinct elbow joint surfaces.",
+        "decision": "added",
+        "reason": "Actual full source and final 512px/120px inspected. Proximal head/short neck and tubercles articulate with faint scapular context; long shaft and distal rounded capitulum/pulley-like trochlea meet faint radius/ulna ends. No angled femoral neck. Shoulder-to-elbow setting and outline remain clear at 120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise clean clinical anatomical model on cool-white/mint ground, restrained teal focus and pale-blue tissue/context. Natural soft shading, clear at 120px, with no warm paper/storybook treatment or decoration."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "06cd73f774ef3e5f4cd9dbb10d0d8a0fe57b0a9a5f5ccbef0a00cb0a6db4dd27",
+          "inspectedAt": "2026-10-27T18:21:09.346888+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: highlighted upper-arm bone joins a faint shoulder glenoid through its rounded head, has a shaft/tuberosity, and distal capitulum/trochlear region above coherent faint radius/ulna. No extra elbow bone or disconnected upper/lower limb. Distinct upper-arm location remains clear in the precise ivory/mint clinical rendering."
+        }
+      }
+    },
+    {
+      "entryId": "ulna",
+      "sourceWord": "ulna",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "ulna:meaning-1",
+          "pos": "n.",
+          "en": "The forearm bone on the little-finger side when the palm faces forward in anatomical position."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ulna has a large notch near the elbow.",
+          "senseId": "ulna:meaning-1"
+        },
+        {
+          "en": "The model shows the ulna beside the radius.",
+          "senseId": "ulna:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ulna.webp",
+        "sha256": "eb1cb84abd15d1c600021c470fdce61dc0e3558f918eaa140ae16820dce95dbc"
+      },
+      "visual": {
+        "expectedCue": "The little-finger-side forearm bone with a large elbow notch and small distal head beside a ghost radius.",
+        "decision": "added",
+        "reason": "Actual full source and final 512px/120px inspected. Solid ulna on viewer-right has a visible C-shaped proximal trochlear notch and olecranon, tapering shaft, small distal head/styloid. Faint radius is disc-headed proximally and broader distally; ghost hand thumb lies on the radius side, little finger on ulna side. Parallel separate shafts and wrist context distinguish it from radius.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise clean clinical anatomical model on cool-white/mint ground, restrained teal focus and pale-blue tissue/context. Natural soft shading, clear at 120px, with no warm paper/storybook treatment or decoration."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "eb1cb84abd15d1c600021c470fdce61dc0e3558f918eaa140ae16820dce95dbc",
+          "inspectedAt": "2026-10-27T18:21:09.347117+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: highlighted medial forearm bone has a large proximal elbow notch/olecranon around the faint humeral trochlea and a slender shaft ending in a small distal head/styloid. Faint radius widens on the thumb side of the ghost hand, while ulna stays on the little-finger side. The skeletal relationships and diagnostic shape are coherent at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "cartilage",
+      "sourceWord": "cartilage",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "cartilage:meaning-1",
+          "pos": "n.",
+          "en": "Firm, flexible connective tissue that supports body structures and covers bone ends in many joints."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Smooth cartilage covers the bone surfaces inside the joint.",
+          "senseId": "cartilage:meaning-1"
+        },
+        {
+          "en": "The model distinguishes cartilage from the bone beneath it.",
+          "senseId": "cartilage:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cartilage.webp",
+        "sha256": "4d38f14b9fd2851511baa8aa61d9bbd8ff7d42abb7ccc6b0da4712381b6917ee"
+      },
+      "visual": {
+        "expectedCue": "Smooth pale-blue articular tissue attached to opposing knee bone surfaces, distinct from the underlying bone.",
+        "decision": "added",
+        "reason": "Actual full corrected source and final 512px/120px inspected. Smooth blue caps adhere to femoral and tibial joint surfaces across a narrow joint space; they do not float or bridge between bones. A targeted edit separated the two tibial plateau patches around an uncovered central ivory eminence. Simplified close view omits menisci/complex ligaments and shows articular cartilage, as the text explains. No injury or treatment cue.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise clean clinical anatomical model on cool-white/mint ground, restrained teal focus and pale-blue tissue/context. Natural soft shading, clear at 120px, with no warm paper/storybook treatment or decoration."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4d38f14b9fd2851511baa8aa61d9bbd8ff7d42abb7ccc6b0da4712381b6917ee",
+          "inspectedAt": "2026-10-27T18:21:09.347162+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: blue educational highlighting covers the two femoral condylar surfaces and separate tibial plateau surfaces, while the central tibial eminence stays bare. Layers lie on bone ends rather than floating in the joint or fusing across its center. This is an illustrative articular-cartilage example, not a complete knee-structure or clinical diagnostic model. Clean clinical palette remains legible."
+        }
+      }
+    },
+    {
+      "entryId": "bladder",
+      "sourceWord": "bladder",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "bladder:meaning-1",
+          "pos": "n.",
+          "en": "A hollow muscular organ in the pelvis that stores urine before it leaves the body."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bladder receives urine through two ureters.",
+          "senseId": "bladder:meaning-1"
+        },
+        {
+          "en": "The urethra carries urine out of the bladder.",
+          "senseId": "bladder:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bladder.webp",
+        "sha256": "43790176746f3c506e7a25c9b59751a6c85517c20efaa51c598f69840e463bbb"
+      },
+      "visual": {
+        "expectedCue": "A muscular urinary sac with two posterior-wall ureteral openings and one inferior urethral outlet in ghost pelvic context.",
+        "decision": "added",
+        "reason": "Actual full corrected source and final 512px/120px inspected. Round hollow muscular bladder and central inferior neck/urethra are clear. One targeted edit removed erroneous free ureter tubes inside the lumen: final cavity has two small slit orifices in the lower posterior wall, with ureters disappearing behind the outer shoulders. Ghost pelvis supplies urinary location. Organ is intentionally enlarged for teaching; no kidney, gallbladder, stones, labels or procedure is shown.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical anatomical rendering on cool-white/mint ground with restrained teal focus contour and pale translucent neighboring context. Natural tissue hues support the organ identity; no warm storybook texture, icons, text or gore."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "43790176746f3c506e7a25c9b59751a6c85517c20efaa51c598f69840e463bbb",
+          "inspectedAt": "2026-10-27T18:34:34.940726+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: cutaway muscular urinary sac sits within faint pelvic context, with two ureters reaching its wall, two small trigonal slit openings and one continuing urethral outlet. No dangling intraluminal ureter tubes or extra outlet; the hollow storage-organ cue and distinction from gallbladder are clear in the cool clinical palette."
+        }
+      }
+    },
+    {
+      "entryId": "pancreas",
+      "sourceWord": "pancreas",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pancreas:meaning-1",
+          "pos": "n.",
+          "en": "An organ behind the stomach that produces digestive enzymes and hormones such as insulin."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pancreas lies behind the stomach.",
+          "senseId": "pancreas:meaning-1"
+        },
+        {
+          "en": "The pancreatic duct carries digestive fluid from the pancreas to the small intestine.",
+          "senseId": "pancreas:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pancreas.webp",
+        "sha256": "620542d9e75322741156e85ebdd05d5e0070f7bfd14a0d0adde36cdb91d80898"
+      },
+      "visual": {
+        "expectedCue": "The lobulated elongated pancreatic gland with head in the duodenal curve and tail toward the spleen behind ghost stomach context.",
+        "decision": "added",
+        "reason": "Actual full source and final 512px/120px inspected. Solid pale-salmon lobulated pancreas runs from broad head within a viewer-left duodenal C to tapering viewer-right tail near the ghost spleen. Translucent stomach overlaps in front/above rather than placing pancreas anterior to an opaque stomach. Other digestive context is faint; focal gland remains continuous and readable at 120px. No diagrammatic duct network, measurements, diagnosis or treatment.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical anatomical rendering on cool-white/mint ground with restrained teal focus contour and pale translucent neighboring context. Natural tissue hues support the organ identity; no warm storybook texture, icons, text or gore."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "620542d9e75322741156e85ebdd05d5e0070f7bfd14a0d0adde36cdb91d80898",
+          "inspectedAt": "2026-10-27T18:34:34.940897+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: highlighted elongated lobulated pancreas has a broad head embraced by the faint duodenal C-loop and a tapered tail toward faint splenic context. A ghosted stomach supplies upper-abdominal location context rather than blocking the target organ; no invented duct scheme or unrelated gland. Precise clinical model remains readable at120px."
+        }
+      }
+    },
+    {
+      "entryId": "spleen",
+      "sourceWord": "spleen",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "spleen:meaning-1",
+          "pos": "n.",
+          "en": "An organ in the upper left abdomen that filters blood and supports immune functions."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The spleen lies on the left side near the stomach.",
+          "senseId": "spleen:meaning-1"
+        },
+        {
+          "en": "The spleen helps remove old red blood cells from circulation.",
+          "senseId": "spleen:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/spleen.webp",
+        "sha256": "16537e3aa106fdd2c5bcf683f57e17abb26d20c6d28eb0650678643483e16a45"
+      },
+      "visual": {
+        "expectedCue": "A broad dark red-purple splenic model beside ghost stomach and ribs in the upper-left abdomen.",
+        "decision": "added",
+        "reason": "Actual full corrected source and final512px/120px inspected. One targeted edit broadened the initially very elongated kidney-like outline into a more ovoid/wedge-like splenic form, reduced the deep medial cleft and added subtle superior-border notches. Upper-left stomach/rib context, capsule color and absent urinary structures remain. Typical illustrative shape is selected for teaching; natural splenic shape variation is not denied, and no clinical size or diagnosis is claimed.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise clinical anatomical model on cool-white/mint ground, muted red-purple capsule, thin teal focus contour and faint neighboring context. Clear organ focus at120px with no warm storybook treatment, gore or decorative props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "16537e3aa106fdd2c5bcf683f57e17abb26d20c6d28eb0650678643483e16a45",
+          "inspectedAt": "2026-10-27T18:40:48.511746+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual corrected512/120: a broader ovoid/wedge-like capsule has a shallower medial impression and subtle upper-border notches, reducing the original strongly kidney-like cue. Faint stomach and left-upper rib context locate the organ appropriately; no renal pelvis, ureter or urine structures. Deep red/purple clinical model remains clear at120px. Shape variation is acknowledged; no universal splenic-outline or professional qualification claim."
+        }
+      }
+    },
+    {
+      "entryId": "gallbladder",
+      "sourceWord": "gallbladder",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "gallbladder:meaning-1",
+          "pos": "n.",
+          "en": "A small sac beneath the liver that stores and concentrates bile."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The gallbladder lies against the underside of the liver.",
+          "senseId": "gallbladder:meaning-1"
+        },
+        {
+          "en": "Bile leaves the gallbladder through the cystic duct.",
+          "senseId": "gallbladder:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/gallbladder.webp",
+        "sha256": "91a7dc9d9b21d1fd31e18bfcb5f6b46d88b1a1ae14b96f0f2085e20a2fa8c527"
+      },
+      "visual": {
+        "expectedCue": "A pear-shaped bile-storage sac beneath a ghost liver, with its narrow neck joining the biliary duct path.",
+        "decision": "added",
+        "reason": "Actual full source and final512px/120px inspected. Single muted-green pear-shaped sac lies against the underside of the ghost liver, narrowing through a cystic duct into the hepatic/common-bile-duct path. Connection remains continuous and distinguishable from two ureters/one urethra in the urinary bladder image. Faint hepatic branches remain secondary. No stones, pathological swelling, labels, measurements or treatment tools.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical educational anatomical rendering on cool-white/mint with restrained teal focus contour, natural tissue color and translucent neighboring structures. Clear single-organ/path focus at120px without warm paper, icons or decoration."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "91a7dc9d9b21d1fd31e18bfcb5f6b46d88b1a1ae14b96f0f2085e20a2fa8c527",
+          "inspectedAt": "2026-10-27T18:51:38.275566+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: pear-shaped green sac lies against the underside of a faint liver, with a neck/cystic duct joining the continuing biliary duct below hepatic branching. No urinary pelvis, ureter or extra sac; organ and duct contacts are coherent. Conventional educational bile-system color and cool clinical rendering remain clear at120px, without a claim of a complete variant-free biliary map."
+        }
+      }
+    },
+    {
+      "entryId": "oesophagus",
+      "sourceWord": "oesophagus",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "oesophagus:meaning-1",
+          "pos": "n.",
+          "en": "The muscular tube that carries swallowed food and liquid from the throat to the stomach."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The oesophagus passes behind the trachea.",
+          "senseId": "oesophagus:meaning-1"
+        },
+        {
+          "en": "Muscular waves move food along the oesophagus toward the stomach.",
+          "senseId": "oesophagus:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/oesophagus.webp",
+        "sha256": "4a39176a0d2345a9e1f6cd9996d518cbfa75c3a949701f24644a4393208e4b76"
+      },
+      "visual": {
+        "expectedCue": "The continuous smooth food tube behind a ghost ringed airway, passing through the diaphragm to the stomach.",
+        "decision": "added",
+        "reason": "Actual full source and final512px/120px inspected. Solid smooth muscular oesophageal tube outlined teal lies behind the separate faint ringed trachea, descends through chest and a diaphragm opening, and joins the upper stomach. The food tube does not branch into bronchi or connect to the airway. Airway remains translucent context. Distinct course and stomach connection remain clear at120px; no food-bolus procedure, disease, labels or invented vessel pathways.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical educational anatomical rendering on cool-white/mint with restrained teal focus contour, natural tissue color and translucent neighboring structures. Clear single-organ/path focus at120px without warm paper, icons or decoration."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4a39176a0d2345a9e1f6cd9996d518cbfa75c3a949701f24644a4393208e4b76",
+          "inspectedAt": "2026-10-27T18:51:38.275735+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: highlighted smooth muscular food tube lies behind the ghosted ring-supported airway and in front of the spine, continues through the diaphragm and joins the stomach. It stays separate from the airway, with no abnormal connection or wrong destination. Teal outline and faded torso context make throat-to-stomach location clear at120px in the clinical palette."
+        }
+      }
+    },
+    {
+      "entryId": "trachea",
+      "sourceWord": "trachea",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "trachea:meaning-1",
+          "pos": "n.",
+          "en": "The airway tube that extends from the larynx and divides into the two main bronchi leading to the lungs."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Cartilage rings help keep the trachea open.",
+          "senseId": "trachea:meaning-1"
+        },
+        {
+          "en": "The trachea divides into a right and a left main bronchus.",
+          "senseId": "trachea:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/trachea.webp",
+        "sha256": "9af65d930b1653c4797cb4a3b4a63a4b0311451bb4b760a7acb4074fcd5d6e7a"
+      },
+      "visual": {
+        "expectedCue": "An explicitly partial mid-tracheal segment shows five C-shaped supports and a closed posterior membranous wall, with a smooth locator for whole-airway context.",
+        "decision": "added",
+        "reason": "Actual final full source and512/120 inspected: five C-shaped cartilage supports wrap around the front/sides of a partial segment; pink posterior membrane bridges their ends and mucosa lines one open cut lumen. A small smooth unringed locator highlights central trachea above two bronchial branches. Whole-airway candidates were rejected for incomplete central ring series and misleading bronchial hoops; redesign made the anatomical scope explicitly partial, then removed locator ring marks. No complete tracheal ring count is claimed.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical anatomical model on cool-white/mint with ivory cartilage, muted pink soft tissue and teal locator; main five-support segment stays clear at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9af65d930b1653c4797cb4a3b4a63a4b0311451bb4b760a7acb4074fcd5d6e7a",
+          "inspectedAt": "2026-10-27T18:14:03.610411+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254px source and final512px/120px inspected. Enlarged model explicitly shows a partial mid-tracheal segment with five separate C-shaped supports; the open top reveals cartilage ends separated by a posterior soft-tissue bridge, continuous with the visible pink posterior wall. Connective intervals are coherent and the lumen remains open. Small smooth unringed whole-airway locator highlights the tracheal portion without implying a false complete ring count; posterior-oriented viewer-right branch is shorter and more steeply directed than viewer-left. Main segment and locator remain clear at120px. Clean precise cool clinical rendering, no labels, pathology or treatment tools. AI gross-anatomy/style assessment only; qualified human review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "concrete",
+      "sourceWord": "concrete",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "concrete:meaning-1",
+          "pos": "n.",
+          "en": "A construction material that becomes a hard composite when a mixture of cement, water and aggregates sets and hardens."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cut face of the concrete shows small stones held in a solid matrix.",
+          "senseId": "concrete:meaning-1"
+        },
+        {
+          "en": "The bridge deck rests on a concrete support.",
+          "senseId": "concrete:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/concrete.webp",
+        "sha256": "955907891eb38eccb1dea3e183184ce465e5cc17b85cb1c0350682c1cc36d2dd"
+      },
+      "visual": {
+        "expectedCue": "Hardened composite cube with coarse aggregate embedded in a continuous cementitious matrix.",
+        "decision": "added",
+        "reason": "Actual full generated source and final512/120 inspected: solid coherent cube has matte gray formed faces and a sawn front face exposing irregular stones locked within a continuous fine gray matrix. Aggregate appears embedded rather than loose or as holes; no cement powder, cracks or copied labels. Hard composite versus binder-powder cue remains visible at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "955907891eb38eccb1dea3e183184ce465e5cc17b85cb1c0350682c1cc36d2dd",
+          "inspectedAt": "2026-10-27T18:19:09.802130+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: a hardened cube has a solid gray binder matrix with embedded coarse aggregate exposed on one cut face; other faces remain coherent solid surfaces. Distinct from loose aggregate, dry cement powder and fresh mortar. Precise material cutaway on slate with restrained amber stone accents."
+        }
+      }
+    },
+    {
+      "entryId": "cement",
+      "sourceWord": "cement",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "cement:meaning-1",
+          "pos": "n.",
+          "en": "A finely ground construction binder that reacts with water to form a paste that sets and hardens."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The dry cement is a fine gray powder.",
+          "senseId": "cement:meaning-1"
+        },
+        {
+          "en": "Cement binds the sand and stones together in ordinary concrete.",
+          "senseId": "cement:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cement.webp",
+        "sha256": "0cdfeb87338ba9a0115b4f79e766e097450affb9fcd6a4f0ccea61e93ba11b21"
+      },
+      "visual": {
+        "expectedCue": "Fine dry binder powder in an unprinted construction sack, distinct from hardened concrete.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: open kraft sack holds fine dry gray powder with a small matching powder mound beside it. Texture is fine and dusty with small powder clumps, not coarse stone aggregate or a hardened block; no printed labels. Sack/powder silhouette and gray dry binder cue remain clear at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0cdfeb87338ba9a0115b4f79e766e097450affb9fcd6a4f0ccea61e93ba11b21",
+          "inspectedAt": "2026-10-27T18:19:09.802177+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: plain paper sack and a small mound show fine dry gray binder powder, with no coarse stones, hardened slab, misleading dosage or label. The depiction distinguishes cement form from the neighboring concrete/aggregate cards; it does not claim that a powder can be chemically identified from appearance alone. Clear slate/amber technical material study."
+        }
+      }
+    },
+    {
+      "entryId": "mortar",
+      "sourceWord": "mortar",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "mortar:meaning-1",
+          "pos": "n.",
+          "en": "A workable mixture of a binder, fine aggregate and water used to join masonry units and fill the joints between them."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A layer of mortar joins the two courses of bricks.",
+          "senseId": "mortar:meaning-1"
+        },
+        {
+          "en": "The mortar fills the narrow joint between neighboring bricks.",
+          "senseId": "mortar:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/mortar.webp",
+        "sha256": "bd618b18d5f4373bcc8b262e31199fc87d2bb93d9de897e28dc6e673c0d413b0"
+      },
+      "visual": {
+        "expectedCue": "Fine masonry mortar forms continuous bed and head joints; fresh paste is visible on a trowel.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: two staggered brick courses are joined by continuous pale horizontal mortar beds and filled vertical head joints. Lower course rests on a solid support. Coherent steel trowel carries a fine workable gray mortar dollop without coarse aggregate; it contrasts with the dry cement sack and hardened concrete composite. Mortar bands and paste remain visible at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "bd618b18d5f4373bcc8b262e31199fc87d2bb93d9de897e28dc6e673c0d413b0",
+          "inspectedAt": "2026-10-27T18:19:09.802234+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: fine gray paste on an attached trowel blade accompanies continuous horizontal and vertical mortar joints in staggered masonry courses. Bricks are supported and joints meet; no large coarse-aggregate chunks or kitchen-mortar/tool sense. Slate technical setting with restrained material colors reads at120px."
+        }
+      }
+    },
+    {
+      "entryId": "brick",
+      "sourceWord": "brick",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "brick:meaning-1",
+          "pos": "n.",
+          "en": "A small, usually rectangular masonry unit, often made from fired clay, used to build walls and other structures."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The brick has flat faces and a shallow recess on top.",
+          "senseId": "brick:meaning-1"
+        },
+        {
+          "en": "The wall has alternating rows of bricks and mortar joints.",
+          "senseId": "brick:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/brick.webp",
+        "sha256": "4c030789bc74b94dbf43b94a66ad9aefe1801878e5267587dc92239cce2ef1fe"
+      },
+      "visual": {
+        "expectedCue": "Rectangular fired-clay masonry unit with flat faces and a shallow closed-bottom frog.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: one elongated rectangular clay brick has coherent flat perpendicular faces, fine terracotta fired texture, and a shallow top recess with visible solid bottom. Recess does not become a through-hole; no concrete aggregate, decorative stamps or text. Solid brick and top depression remain clear at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4c030789bc74b94dbf43b94a66ad9aefe1801878e5267587dc92239cce2ef1fe",
+          "inspectedAt": "2026-10-27T18:19:09.802283+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: single fired-clay rectangular masonry unit has a blind shallow frog recess with a closed bottom, coherent solid sides and granular clay texture. No misleading through-hole or multi-brick wall replacing the object focus. Warm clay on slate remains clear at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "aggregate",
+      "sourceWord": "aggregate",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "aggregate:meaning-1",
+          "pos": "n.",
+          "en": "Granular material such as sand, gravel or crushed stone used in construction mixtures or layers."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tray contains coarse aggregate with angular stone pieces.",
+          "senseId": "aggregate:meaning-1"
+        },
+        {
+          "en": "Fine aggregate and coarse aggregate have different particle sizes.",
+          "senseId": "aggregate:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/aggregate.webp",
+        "sha256": "2ea8ad967d208deee80c7bbf82b2c494afdf9dc891343643534597c760c56dc5"
+      },
+      "visual": {
+        "expectedCue": "Separate angular crushed-stone grains in a sample tray, showing coarse construction aggregate.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: shallow silver tray contains separate irregular angular mineral stone fragments with visible fractured faces and mixed small sizes. Particles are loose rather than embedded in binder, with no powder or polished gemstone cue. Tray and visibly granular coarse material remain distinct at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2ea8ad967d208deee80c7bbf82b2c494afdf9dc891343643534597c760c56dc5",
+          "inspectedAt": "2026-10-27T18:19:09.802330+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: loose angular coarse mineral particles sit in a coherent metal sample tray, without binder, melted matrix or powder. This is an illustrative coarse aggregate sample, not all possible grading classes. Distinct from embedded concrete aggregate and cement powder, with clear technical material presentation."
+        }
+      }
+    },
+    {
+      "entryId": "asphalt",
+      "sourceWord": "asphalt",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "asphalt:meaning-1",
+          "pos": "n.",
+          "en": "A dark paving material in which mineral aggregate is bound together with bitumen."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The asphalt sample has a dark binder around its stone particles.",
+          "senseId": "asphalt:meaning-1"
+        },
+        {
+          "en": "A compacted layer of asphalt forms the road surface.",
+          "senseId": "asphalt:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/asphalt.webp",
+        "sha256": "eb9b2f262f20225fd3b2be2342ac956f7d969d9c9ee379d59510f0677a868630"
+      },
+      "visual": {
+        "expectedCue": "Mineral aggregate bound by dark bitumen beneath a compacted pavement surface.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: cohesive dark upper paving specimen has stone particles surrounded by continuous black binder and a flat compacted rough top. A lighter granular underlayer contacts it throughout. It is a bound aggregate mixture, not loose stone, bare liquid tar or ordinary pale cement concrete. Distinct dark matrix and surface layer remain recognizable at120px; no invented paving values or markings.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "eb9b2f262f20225fd3b2be2342ac956f7d969d9c9ee379d59510f0677a868630",
+          "inspectedAt": "2026-10-27T18:19:09.802393+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: dark bituminous-looking binder surrounds coarse stones beneath a dark paving surface; a lighter granular support layer is visible below. Bound dark mixture contrasts with the loose aggregate and light concrete cards. No temperature, mix specification or pavement-performance claim, with coherent slate material cutaway."
+        }
+      }
+    },
+    {
+      "entryId": "lintel",
+      "sourceWord": "lintel",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "lintel:meaning-1",
+          "pos": "n.",
+          "en": "A structural member that spans an opening in a wall and supports the material above it."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The lintel spans the window opening and rests on the masonry at both ends.",
+          "senseId": "lintel:meaning-1"
+        },
+        {
+          "en": "The bricks above the opening bear on the lintel.",
+          "senseId": "lintel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/lintel.webp",
+        "sha256": "604d619f7549a14532a068c8f6a39c56681c0b68048305e0833414b8eabca455"
+      },
+      "visual": {
+        "expectedCue": "Continuous horizontal lintel spans above an opening and bears on both masonry jambs.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected. One gray concrete lintel bridges the empty rectangular opening, visibly overlapping and bearing on left and right masonry jamb tops; brick courses above contact its top. Jambs stand on a continuous base. Amber outline isolates the upper structural member, distinguishing it from the lower sill/base. Both bearing ends and supported masonry are clear at120px; no numerical design claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "604d619f7549a14532a068c8f6a39c56681c0b68048305e0833414b8eabca455",
+          "inspectedAt": "2026-10-27T18:34:34.940950+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: highlighted horizontal member spans the wall opening with clear bearing on both masonry jambs and supported brick courses above. No floating end or lower-sill substitution. Amber outline identifies the lintel against a coherent slate/brick/concrete cutaway."
+        }
+      }
+    },
+    {
+      "entryId": "joist",
+      "sourceWord": "joist",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "joist:meaning-1",
+          "pos": "n.",
+          "en": "One of a series of closely spaced horizontal structural members supporting a floor or ceiling."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Parallel joists support the floor panels from below.",
+          "senseId": "joist:meaning-1"
+        },
+        {
+          "en": "Each joist rests on a supporting wall at both ends.",
+          "senseId": "joist:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/joist.webp",
+        "sha256": "2cdb7880324c5d44639d661986c17038651507aa11e2ec82767ef47772dc5c83"
+      },
+      "visual": {
+        "expectedCue": "Repeated horizontal floor joists bear at both ends and support a partial floor panel.",
+        "decision": "added",
+        "reason": "Actual initial full candidate had a near wall gap leaving central joist bearings on an inadequately supported thin sill; retained as rejected. One targeted built-in edit filled that gap with continuous masonry. Corrected full source and final512/120 inspected: six parallel joists, one amber-highlighted, bear on near and rear sill plates backed by walls. Partial rear floor panel contacts joist tops; no floating central bearing remains. Repeated horizontal members and their supports remain visible at120px. Six rather than the five requested is harmless to the selected sense and honestly recorded.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2cdb7880324c5d44639d661986c17038651507aa11e2ec82767ef47772dc5c83",
+          "inspectedAt": "2026-10-27T18:34:34.941004+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: repeated horizontal joists bear on timber wall plates over complete supporting masonry at both ends; a partial panel spans across their upper faces. One amber joist distinguishes the member from the floor surface. The previously problematic opening/thin sill is absent, and the support path is coherent in the technical cutaway."
+        }
+      }
+    },
+    {
+      "entryId": "rafter",
+      "sourceWord": "rafter",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "rafter:meaning-1",
+          "pos": "n.",
+          "en": "A sloping structural member that supports a roof, typically running from an eave toward the ridge."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The rafter slopes upward from the wall toward the roof ridge.",
+          "senseId": "rafter:meaning-1"
+        },
+        {
+          "en": "Roof sheathing rests on a row of parallel rafters.",
+          "senseId": "rafter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/rafter.webp",
+        "sha256": "286f7445d29aa22cfc46bf59ccbb4d9bbb6c2be11b63f3ddefb5a9bc52818d61"
+      },
+      "visual": {
+        "expectedCue": "Sloping roof rafters run from supported wall plates to a connected ridge board, with foot-level ties.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: three opposing sloping rafter pairs meet a continuous ridge board, while feet bear on wall plates supported by masonry. Horizontal ties connect the opposed feet at wall-plate level. Exactly one sloping member is amber-highlighted; a small rear sheathing patch contacts the framing. No isolated floating ridge support or disconnected rafter foot. Sloped roof-member cue stays clear at120px and differs from horizontal floor joists.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "286f7445d29aa22cfc46bf59ccbb4d9bbb6c2be11b63f3ddefb5a9bc52818d61",
+          "inspectedAt": "2026-10-27T18:34:34.941045+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: highlighted sloping member bears at a wall plate and reaches a connected ridge board, with opposing roof members, foot-level ties and partial sheathing visibly supported. No floating ridge or detached lower rafter end. Sloping amber target contrasts with the horizontal joist example; simplified framing is not a construction specification."
+        }
+      }
+    },
+    {
+      "entryId": "pile",
+      "sourceWord": "pile",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "pile:meaning-1",
+          "pos": "n.",
+          "en": "A long foundation member that extends deep into the ground and transfers structural loads to the surrounding soil or underlying strata."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pile extends below the soft surface soil.",
+          "senseId": "pile:meaning-1"
+        },
+        {
+          "en": "The concrete cap transfers load into the pile beneath it.",
+          "senseId": "pile:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pile.webp",
+        "sha256": "eccae1e75023caea5ce6d32482d1f29d52b6ca79255cd18929dc4efc48cdb8c8"
+      },
+      "visual": {
+        "expectedCue": "Long slender foundation pile extends below upper soil into deeper strata beneath a connected cap.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: one continuous vertical concrete pile connects into a cutaway concrete cap beneath a short column context and penetrates far below the upper soil layer into deeper granular soil. Pile tip remains within soil, not perched on a mandatory rock shelf; surrounding soil and cutaway expose shaft contact. Amber contour identifies the deep support, with no arrows, numerical depth or installation instructions. Full pile depth/cap relation remains visible at120px; context column is cropped at frame top.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "eccae1e75023caea5ce6d32482d1f29d52b6ca79255cd18929dc4efc48cdb8c8",
+          "inspectedAt": "2026-10-27T18:44:42.746309+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: long concrete foundation member is connected through a cap to the supported column and extends deeply through upper soil into a denser granular layer. Shaft and tip remain in contact with soil, without a floating void or a false bedrock-only mechanism. Amber outline focuses the deep member rather than a heap of material; coherent technical cutaway."
+        }
+      }
+    },
+    {
+      "entryId": "retaining-wall",
+      "sourceWord": "retaining wall",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "retaining-wall:meaning-1",
+          "pos": "n.",
+          "en": "A wall designed to hold back soil or another material where the ground levels differ."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The retaining wall holds back the higher ground beside the path.",
+          "senseId": "retaining-wall:meaning-1"
+        },
+        {
+          "en": "The cutaway shows soil behind the retaining wall and open space in front.",
+          "senseId": "retaining-wall:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/retaining-wall.webp",
+        "sha256": "f2753d3f68daa38396335d21b116166b704916a9d9419e9f879c63b14243e4e4"
+      },
+      "visual": {
+        "expectedCue": "A connected concrete wall and footing retain higher backfill above lower front ground.",
+        "decision": "added",
+        "reason": "Actual full source and512/120 inspected: vertical stem joins a footing with shorter front toe and longer heel under retained soil. Continuous foundation soil supports the base; higher backfill contacts the rear through a gravel band, while front ground is visibly lower. No floating footing, gap behind wall, calculations or construction specification.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver concrete/amber earth cutaway on slate, with ground-level difference and connected support readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f2753d3f68daa38396335d21b116166b704916a9d9419e9f879c63b14243e4e4",
+          "inspectedAt": "2026-10-27T18:15:45.372241+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full source, final512 WebP and120px thumbnail inspected. A continuous concrete stem joins a broad footing with shorter exposed toe and longer heel under retained higher backfill. Soil remains visibly lower in front and supports the underside of the footing without an air gap. Gravel backing is visible behind the stem, but no complete drainage design or engineering dimensions are asserted. It clearly teaches soil retention across unequal ground levels, not an ordinary boundary wall. Slate, silver concrete and restrained amber soil cutaway remain clear at120px. AI pixel review, not qualified human design approval."
+        }
+      }
+    },
+    {
+      "entryId": "abutment",
+      "sourceWord": "abutment",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "abutment:meaning-1",
+          "pos": "n.",
+          "en": "A support at the end of a bridge that carries the end of the span and may also retain the approach embankment."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The end of the bridge girder rests on a bearing above the abutment.",
+          "senseId": "abutment:meaning-1"
+        },
+        {
+          "en": "The abutment stands between the bridge opening and the approach embankment.",
+          "senseId": "abutment:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/abutment.webp",
+        "sha256": "02db107dc6f56f4e64edfcbc6d2c9e55f16032407f0d065bf0a040e830280857"
+      },
+      "visual": {
+        "expectedCue": "Bridge end girder bears through a pad on a concrete seat above connected stem/footing, beside approach backfill.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: end of bridge girder visibly contacts a dark bearing pad resting on a concrete seat. Seat/backwall/stem connect to a broad footing on soil. Open bridge space is on one side and retained higher approach embankment on the other; deck contacts girder and approach slab is coherent. It is an end support rather than an isolated midspan pier. Amber contour isolates the abutment, with bearing and retained-soil relationship still visible at120px. No design dimensions or copied labels.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T18:52:25.506477+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "02db107dc6f56f4e64edfcbc6d2c9e55f16032407f0d065bf0a040e830280857",
+          "inspectedAt": "2026-10-27T18:44:42.746492+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual512/120: bridge girder flange bears on a separate dark bearing pad resting on a concrete seat, which connects through the end-support stem to a footing supported by soil. Retained approach fill and road slab are behind the backwall. The view intentionally shows one bridge end; no missing bearing contact, floating footing or middle-pier substitution. Slate/silver/amber engineering style remains readable."
         }
       }
     }

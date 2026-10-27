@@ -25,10 +25,10 @@ Mehrdadika is a free, open-source English-learning web app for Persian, Brazilia
 
 **October 27, 2026 · Development preview**
 
-- **Latest vocabulary batch:** 24 illustrated entries add 12 medical and 12 engineering terms; the doctor and voltage illustrations have also been refreshed. See the [latest specialist batch](docs/specialist-expansion-6.md).
+- **Latest vocabulary batch:** 24 illustrated entries add 12 medical and 12 engineering terms; the nurse and load illustrations have also been refreshed. See the [latest specialist batch](docs/specialist-expansion-7.md).
 - **Science through English:** _Water and Weather_ adds eight illustrated lessons, 32 practice activities, eight writing tasks, and 19 new science words, with Persian, Portuguese, and Spanish support.
 - **Three shared language editions:** daily study, spaced review, reading, practice, settings, and backups use the same application, with separate progress for each edition.
-- **A growing illustrated atlas:** the current corpus has 378 words and 379 meanings. All 32 categories have illustrated starter entries; cooking has 52 words, and medicine and engineering have 110 each. The earlier visual foundation pass added two entries per category, with category-specific illustration styles.
+- **A growing illustrated atlas:** the current corpus has 402 words and 403 meanings. All 32 categories have illustrated starter entries; cooking has 52 words, and medicine and engineering have 122 each. The earlier visual foundation pass added two entries per category, with category-specific illustration styles.
 
 Content and translations are an **AI-assisted editorial preview** awaiting independent human review. Specialist material also needs review by people qualified in the subject. These highlights describe the current source; the hosted app follows the latest manual deployment. See the [implementation status](docs/implementation-status.md) and [verification record](docs/verification.md) for details.
 
@@ -133,7 +133,7 @@ Use `ATLAS_BASE=/` for a domain root. The repository includes a manually dispatc
 | Guide                                                                                                                                                                      | Purpose                                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | [Implementation status](docs/implementation-status.md) · [Verification](docs/verification.md)                                                                              | Current scope, recorded checks, and known limits.             |
-| [Vocabulary expansion](docs/category-expansion.md) · [Visual foundations](docs/category-visual-foundations.md) · [Latest specialist batch](docs/specialist-expansion-6.md) | Category coverage and recent vocabulary/image additions.      |
+| [Vocabulary expansion](docs/category-expansion.md) · [Visual foundations](docs/category-visual-foundations.md) · [Latest specialist batch](docs/specialist-expansion-7.md) | Category coverage and recent vocabulary/image additions.      |
 | [Science course](docs/science-course.md)                                                                                                                                   | Course design, progress, authoring, and review.               |
 | [Content contributions](docs/contributing-content.md) · [Illustrations](docs/illustration-guidelines.md)                                                                   | Editorial review, sources, asset rights, and teaching images. |
 | [Vocabulary localization](docs/portuguese-content.md) · [Reading localization](docs/localized-reading-content.md)                                                          | Source-bound translations and the shared language editions.   |
