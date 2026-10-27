@@ -844,6 +844,120 @@
         "structure"
       ],
       "completedAt": "2026-10-27T16:28:06.751522+00:00"
+    },
+    {
+      "id": "specialist-500-batch-6",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-11",
+      "baseline": {
+        "releaseId": "2026-10-preview-10",
+        "manifest": "content/releases/2026-10-preview-10-dbf7de46528e/manifest.json",
+        "manifestSha256": "dbf7de46528e69ae2b8b3f6b3cde66799c6c918c1c8d3f8ed578816362ab85c3",
+        "words": 354
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 98,
+          "targetCategoryWords": 110,
+          "entryIds": [
+            "x-ray",
+            "ultrasound",
+            "mri",
+            "ct-scan",
+            "blood-test",
+            "urine-test",
+            "incisor",
+            "canine",
+            "premolar",
+            "enamel",
+            "dentine",
+            "root-canal"
+          ],
+          "units": [
+            {
+              "id": "imaging-and-laboratory",
+              "title": "Imaging and laboratory examinations",
+              "entryIds": [
+                "x-ray",
+                "ultrasound",
+                "mri",
+                "ct-scan",
+                "blood-test",
+                "urine-test"
+              ]
+            },
+            {
+              "id": "dental-anatomy",
+              "title": "Tooth forms, tissues and root passages",
+              "entryIds": [
+                "incisor",
+                "canine",
+                "premolar",
+                "enamel",
+                "dentine",
+                "root-canal"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 98,
+          "targetCategoryWords": 110,
+          "entryIds": [
+            "circuit-breaker",
+            "terminal-block",
+            "connector",
+            "printed-circuit-board",
+            "inductor",
+            "led",
+            "potentiometer",
+            "heat-sink",
+            "busbar",
+            "solenoid",
+            "electromagnet",
+            "oscilloscope"
+          ],
+          "units": [
+            {
+              "id": "electrical-components",
+              "title": "Electrical protection, connections and components",
+              "entryIds": [
+                "circuit-breaker",
+                "terminal-block",
+                "connector",
+                "printed-circuit-board",
+                "inductor",
+                "led"
+              ]
+            },
+            {
+              "id": "control-magnetism-and-measurement",
+              "title": "Control, heat transfer, magnetism and signal observation",
+              "entryIds": [
+                "potentiometer",
+                "heat-sink",
+                "busbar",
+                "solenoid",
+                "electromagnet",
+                "oscilloscope"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [
+        "doctor",
+        "voltage"
+      ],
+      "completedAt": "2026-10-27T17:25:57.272713+00:00"
     }
   ],
   "activeWorkBatchId": null,

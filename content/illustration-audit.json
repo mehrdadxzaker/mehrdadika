@@ -1371,17 +1371,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/doctor.webp",
-        "sha256": "46bfd7cbf2fd7b6b1535b682ebd1742b688cf7f80b9d6a07fac534827e083f21"
+        "path": "atlas/img/doctor-v2.webp",
+        "sha256": "70771319907a9311a5be947b2e85b2ab9daf8bb5c85a8b79986183f263d7f88e"
       },
       "visual": {
-        "expectedCue": "A clinician examines a person with a stethoscope in a consultation setting.",
-        "decision": "retained",
-        "reason": "Retained after pixel inspection: A clinician examines a person with a stethoscope in a consultation setting."
+        "expectedCue": "A physician actively listens to a seated patient with a stethoscope.",
+        "decision": "replaced",
+        "reason": "Full generated source and converted 512px/120px images inspected: physician has coherent hands and upright seated posture; stethoscope earpieces lead through the joined tubing to a chestpiece held against the clothed patient. Clinical examination distinguishes this professional from dispensing or reception roles. Patient has normal visible hands on lap; no exposed anatomy, readings or diagnosis.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean cool-white/mint clinical rendering with soft precise human forms; doctor and examination remain clear at 120px."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "70771319907a9311a5be947b2e85b2ab9daf8bb5c85a8b79986183f263d7f88e",
+          "inspectedAt": "2026-10-27T16:53:23.684944+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full 1254px source and encoded 512px/120px files. Two adults have coherent heads, arms and hands; the clinician holds the stethoscope chestpiece on the clothed upper chest and its visible tubing runs through a plausible Y connection to both ear tubes. The section behind the forearm is naturally occluded. Listening interaction plus clinical surroundings gives a clear doctor cue, beyond a uniform portrait. Clean photo-like clinical rendering with cool white, mint and teal; no fake readings, labels, logos or treatment directions. AI semantic/style review only; not independent human specialist approval."
+        }
       }
     },
     {
@@ -2763,22 +2778,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/voltage-v2.webp",
-        "sha256": "a38da86d5664e767a78738433ba11682f679e2e091c8e5d2c161bbb5aa043528"
+        "path": "atlas/img/voltage-v3.webp",
+        "sha256": "ef17477620a6f2b17832766dcd8a2bb2194b4dc894b85223b7782ffdd5267a4a"
       },
       "visual": {
-        "expectedCue": "A voltmeter has exactly two traceable leads connected across two separately marked battery terminals.",
+        "expectedCue": "A voltmeter is connected across two separate positive and negative battery terminals.",
         "decision": "replaced",
-        "reason": "The prior meter illustration had ambiguous extra connections; two separate terminal leads make the potential-difference measurement clear.",
-        "inspectionNotes": "Voltmeter V connects across separately marked positive and negative battery terminals using two traceable leads; no direct bypass/short or current-flow arrows."
+        "reason": "Full generated source and converted 512px/120px images inspected: red lead connects positive terminal to red meter input, black lead connects negative terminal to black input. Paths remain traceable through one visibly insulated crossover without a junction. Opaque battery avoids invented internal plates. Needle is visibly deflected on an unnumbered arc; V, plus and minus symbols are recognizable, with no numerical value asserted. Two targeted edits corrected hidden lead routing/transparent internals and the initial left-end needle.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise slate-ground technical product rendering with silver housings and restrained amber terminal marks; parallel two-terminal relation is readable at 120px."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
-      },
-      "generation": {
-        "method": "OpenAI built-in image generation",
-        "prompt": "Use case: scientific-educational. One square teaching illustration for VOLTAGE, meaning electric potential difference measured BETWEEN TWO POINTS. Clean axonometric engineering diagram on pale ivory paper, precise slate-blue devices and restrained amber highlights. Show only one low-voltage rectangular battery and one large analog voltmeter. The battery has TWO separate, well-spaced exposed top terminals, one marked + and the other marked −. The voltmeter face prominently shows the single letter V, a simple scale and a needle deflected from zero; no numbers needed. Exactly TWO test leads: a red wire runs directly from the battery's positive terminal to a red socket on the voltmeter, and a dark-blue wire runs directly from the battery's negative terminal to a DIFFERENT dark-blue socket on the voltmeter. Both leads remain separately traceable and never join. The meter is connected ACROSS the two battery terminals in parallel. No other branch, no bulb, no series lamp circuit, no loose ends, no crossed wires, no direct wire short between battery terminals, no current arrows, no lightning symbol. Large simple objects dominate and make the two-point comparison evident at120px. Physically credible connection topology is essential. No people, no labels other than +, − and V, no text, no brand or watermark."
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ef17477620a6f2b17832766dcd8a2bb2194b4dc894b85223b7782ffdd5267a4a",
+          "inspectedAt": "2026-10-27T16:55:36.618078+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full generated source, final 512px WebP and 120px thumbnail inspected. Red cable independently traces battery positive to meter red socket; black cable independently traces negative to black socket. Their one crossing has continuous insulated jackets and no junction. Battery has coherent + and minus marks; meter V and a single needle are legible without invented numeric readings. It depicts a voltmeter across the battery, not a wire short. Slate product drawing, silver materials and amber accents match engineering; meter/battery/lead relation remains recognizable at120px."
+        }
       }
     },
     {
@@ -15292,6 +15317,1206 @@
             120
           ],
           "finding": "Actual512/120px: one line runs from the marked center to one rim point only, with an arrow at the outer end. It does not cross to the opposite edge. Correct center-to-edge radius cue, distinct from diameter and legible on the technical disc."
+        }
+      }
+    },
+    {
+      "entryId": "x-ray",
+      "sourceWord": "X-ray",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "x-ray:meaning-1",
+          "pos": "n.",
+          "en": "An image of the inside of the body made using X-rays."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The doctor examined an X-ray of the hand.",
+          "senseId": "x-ray:meaning-1"
+        },
+        {
+          "en": "The X-ray shows the bones as pale shapes.",
+          "senseId": "x-ray:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/x-ray.webp",
+        "sha256": "14ec80d9d1d7c04f53cd19b24bd81ea120c8999ce211da2c4a316864416a72ea"
+      },
+      "visual": {
+        "expectedCue": "A radiographic image of a hand and wrist, with pale bones on a dark film rather than an X-ray machine.",
+        "decision": "added",
+        "reason": "Actual full source and encoded 512px/120px inspected. Film/light-box framing clearly teaches the radiographic image. Five digits, two thumb phalanges, three phalanges in each other finger, five metacarpals and two distal forearm bones are coherent; small wrist bones overlap plausibly in the projection. No text, side markers, patient data or asserted diagnosis. Illustrative synthetic anatomy is not a diagnostic image.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical educational rendering with cool white/mint/pale blue surfaces and soft forms; the semantic focus stays readable at 120px. The radiographic image itself appropriately uses grayscale. No warm paper/storybook styling."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "14ec80d9d1d7c04f53cd19b24bd81ea120c8999ce211da2c4a316864416a72ea",
+          "inspectedAt": "2026-10-27T16:56:45.852234+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full source, 512px and 120px inspected: grayscale radiographic hand image on a clinical lightbox, five digits, two thumb phalanges and three in each other digit, five metacarpals, larger thumb-side radius and smaller ulna. Bone silhouettes are pale against dark soft tissue; no extra major limb, text or diagnostic annotation. Carpal region is a synthetic educational illustration and still requires qualified specialist review. Cool clinical frame and single image focus read at 120px."
+        }
+      }
+    },
+    {
+      "entryId": "ultrasound",
+      "sourceWord": "ultrasound",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "ultrasound:meaning-1",
+          "pos": "n.",
+          "en": "A way of making images inside the body using high-frequency sound waves."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Ultrasound uses a probe connected to a scanner.",
+          "senseId": "ultrasound:meaning-1"
+        },
+        {
+          "en": "The clinician used ultrasound to view an internal organ.",
+          "senseId": "ultrasound:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ultrasound.webp",
+        "sha256": "ca7240fd86578ce6cfe55d0f59002dacfb33a38e18946d1c6f17e67bf43cbd15"
+      },
+      "visual": {
+        "expectedCue": "A clinician holds a cable-connected ultrasound probe against the abdomen beside an ultrasound cart.",
+        "decision": "added",
+        "reason": "Actual full source and encoded 512px/120px inspected. Probe contacts exposed abdominal skin; cable runs continuously from probe, loops along the couch and connects to the cart. Clinician/patient hands and posture are coherent. The monitor rear faces the viewer, so no invented diagnostic image or reading appears. Process cue survives at 120px, distinct from injection or a listening examination.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical educational rendering with cool white/mint/pale blue surfaces and soft forms; the semantic focus stays readable at 120px. The radiographic image itself appropriately uses grayscale. No warm paper/storybook styling."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ca7240fd86578ce6cfe55d0f59002dacfb33a38e18946d1c6f17e67bf43cbd15",
+          "inspectedAt": "2026-10-27T16:56:45.852384+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: clinician holds a connected transducer against the exposed abdominal patch of a draped patient; visible cable portions lead toward the scanner, with some cable occluded by hand/bed. Rear-facing monitor avoids fabricated diagnostic results. Natural patient and clinician anatomy, probe contact, calm teal/white clinical rendering and the scanning action remain clear at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "mri",
+      "sourceWord": "MRI",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "mri:meaning-1",
+          "pos": "n.",
+          "en": "A method that uses a magnetic field and radio waves to make images inside the body."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The hospital has an MRI scanner with a long central tunnel.",
+          "senseId": "mri:meaning-1"
+        },
+        {
+          "en": "The radiologist reviewed the MRI images.",
+          "senseId": "mri:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/mri.webp",
+        "sha256": "124229b65aaade51d9069583b38e8c663bc09716b0b31faa475c75dffb87368c"
+      },
+      "visual": {
+        "expectedCue": "A conventional MRI scanner with a long cylindrical housing and patient table aligned into a deep tunnel.",
+        "decision": "added",
+        "reason": "Actual full source and encoded 512px/120px inspected. Long front-to-back cylinder, visible deep central bore and supported table aligned through the opening are coherent. Long housing remains visible at thumbnail size, ready to contrast with the shorter CT ring. No patient, loose metal prop, display reading, branding or diagnostic claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical educational rendering with cool white/mint/pale blue surfaces and soft forms; the semantic focus stays readable at 120px. The radiographic image itself appropriately uses grayscale. No warm paper/storybook styling."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "124229b65aaade51d9069583b38e8c663bc09716b0b31faa475c75dffb87368c",
+          "inspectedAt": "2026-10-27T16:56:45.852419+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: long cylindrical scanner housing and deep central bore align with a supported sliding patient table, distinguishing the chosen MRI example from a short CT gantry. No metallic patient accessories, invented data, labels or diagnostic image. Cool-white/mint precise clinical object rendering remains readable at 120px; this is one scanner design, not a universal shape claim."
+        }
+      }
+    },
+    {
+      "entryId": "ct-scan",
+      "sourceWord": "CT scan",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "ct-scan:meaning-1",
+          "pos": "n.",
+          "en": "An examination that uses X-rays from different angles and a computer to make cross-sectional images inside the body."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The CT scan produced a series of cross-sectional images.",
+          "senseId": "ct-scan:meaning-1"
+        },
+        {
+          "en": "The CT scanner has a short ring around the patient table.",
+          "senseId": "ct-scan:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ct-scan.webp",
+        "sha256": "856181ac97bd5eb6b0111a8aa6ed4126332a03487feed0b624f8f22e1756a231"
+      },
+      "visual": {
+        "expectedCue": "A short CT ring gantry with the patient table aligned through its opening, visibly distinct from the long MRI bore.",
+        "decision": "added",
+        "reason": "Actual full source and final 512px/120px inspected: short front-to-back ring and open space behind it are clear. The supported table enters the ring on one continuous aligned path; ring/base contact is coherent. No patient, readings, fake diagnostic slices or branding.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical rendering, soft cool-white surfaces with mint/pale-blue accents, one readable focus at 120px. Blood is visibly red and urine pale yellow; no storybook texture or decorative clutter."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "856181ac97bd5eb6b0111a8aa6ed4126332a03487feed0b624f8f22e1756a231",
+          "inspectedAt": "2026-10-27T17:03:12.642641+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: a short annular CT gantry surrounds an aligned, supported sliding patient table, with the shallow through-opening visibly distinct from the longer MRI housing. No patient data, diagnostic images, labels or phantom anatomy. Cool-white/mint clinical rendering and short-ring cue remain clear at thumbnail size; this is one illustrative scanner design."
+        }
+      }
+    },
+    {
+      "entryId": "blood-test",
+      "sourceWord": "blood test",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "blood-test:meaning-1",
+          "pos": "n.",
+          "en": "An analysis of a blood sample to measure or check substances, cells or other features."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The laboratory received a sample for a blood test.",
+          "senseId": "blood-test:meaning-1"
+        },
+        {
+          "en": "The clinician discussed the blood test results with the patient.",
+          "senseId": "blood-test:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/blood-test.webp",
+        "sha256": "60329088e0d514702c58c0da0c0af610e58bd8d2098e0c6305e7ab4b6cd379f0"
+      },
+      "visual": {
+        "expectedCue": "A clearly red blood specimen in a rack beside a microscope and flat blood film, with a gloved hand focusing the instrument.",
+        "decision": "added",
+        "reason": "Actual full corrected source and final 512px/120px inspected. Red capped specimen tube and microscope teach laboratory blood analysis rather than collection. Objective is above a slide with a thin pale red film and clear coverslip. The initially thick liquid bead was corrected once and retained privately. Coherent gloved hand contacts the focus knob; no numeric results, patient data or needles.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical rendering, soft cool-white surfaces with mint/pale-blue accents, one readable focus at 120px. Blood is visibly red and urine pale yellow; no storybook texture or decorative clutter."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "60329088e0d514702c58c0da0c0af610e58bd8d2098e0c6305e7ab4b6cd379f0",
+          "inspectedAt": "2026-10-27T17:03:12.642841+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: capped tube contains red blood beside a microscope with a thin flat sample preparation under the objective, while a coherent gloved hand adjusts focus. The specimen and laboratory analysis are both present, avoiding a mere blood-draw scene. No raised slide droplet, patient label, numerical result or diagnosis. Clinical white/mint palette and red specimen remain legible at 120px."
+        }
+      }
+    },
+    {
+      "entryId": "urine-test",
+      "sourceWord": "urine test",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "urine-test:meaning-1",
+          "pos": "n.",
+          "en": "An analysis of a urine sample to check its physical, chemical or microscopic features."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sample container was sent to the laboratory for a urine test.",
+          "senseId": "urine-test:meaning-1"
+        },
+        {
+          "en": "The urine test included a microscopic examination.",
+          "senseId": "urine-test:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/urine-test.webp",
+        "sha256": "4d17c34be83f9f32d3f4fed4133691dfd9935744f2c2fca01620c6a1c2184dd0"
+      },
+      "visual": {
+        "expectedCue": "A urine specimen cup, reagent strip and microscope form a clear laboratory-analysis scene.",
+        "decision": "added",
+        "reason": "Actual full corrected source and final 512px/120px inspected. Wide specimen cup with detached screw lid contains pale yellow liquid; a coherent gloved hand holds the reagent strip, with neutral pads and no interpreted scale. Microscope objective is over a flat thin wet mount under a coverslip. Original raised slide droplet was corrected once and retained privately. No numbers, diagnosis, patient or clinical data.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical rendering, soft cool-white surfaces with mint/pale-blue accents, one readable focus at 120px. Blood is visibly red and urine pale yellow; no storybook texture or decorative clutter."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4d17c34be83f9f32d3f4fed4133691dfd9935744f2c2fca01620c6a1c2184dd0",
+          "inspectedAt": "2026-10-27T17:03:12.642895+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: pale-yellow urine specimen in an open container, a coherent gloved hand holding a test strip above it, and a microscope with a flat thin slide preparation. The strip pads are illustrative and no value or interpretation is supplied; source note explicitly avoids a diagnostic-result claim. Sample-analysis context and cool-white/teal clinical style are clear at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "incisor",
+      "sourceWord": "incisor",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "incisor:meaning-1",
+          "pos": "n.",
+          "en": "A front tooth with a relatively flat cutting edge, used to bite into food."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The incisor has a broad crown and a thin cutting edge.",
+          "senseId": "incisor:meaning-1"
+        },
+        {
+          "en": "The dentist examined an upper incisor.",
+          "senseId": "incisor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/incisor.webp",
+        "sha256": "9b490c74fa61ae7fc4f13a706fb5e2268e1de96bba0509e214b9728411f6c456"
+      },
+      "visual": {
+        "expectedCue": "A single adult central incisor with broad flat-edged crown and one tapered root.",
+        "decision": "added",
+        "reason": "Actual full source and final 512px/120px inspected. Broad roughly rectangular crown, relatively flat cutting edge, narrowed neck and one coherent tapered root clearly teach the central incisor. No pointed canine cusp, molar chewing table, surrounding pathology or text.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean isolated clinical dental rendering with precise ivory crown and natural root tissue on cool-white/pale-mint ground. Distinguishing crown shape remains clear at 120px; no warm paper texture, icons or clutter."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9b490c74fa61ae7fc4f13a706fb5e2268e1de96bba0509e214b9728411f6c456",
+          "inspectedAt": "2026-10-27T17:14:46.658934+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: isolated adult front-tooth model has a broad relatively flat cutting edge, crown broader than its single tapered root, and a clear crown/root boundary. Distinct from the pointed canine and posterior chewing tooth. Ivory/pale-yellow clinical object rendering on cool mint is clear at 120px."
+        }
+      }
+    },
+    {
+      "entryId": "canine",
+      "sourceWord": "canine",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "canine:meaning-1",
+          "pos": "n.",
+          "en": "A pointed tooth between the incisors and premolars in the adult mouth."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The canine has one prominent pointed cusp.",
+          "senseId": "canine:meaning-1"
+        },
+        {
+          "en": "The dentist compared the canine with the neighboring incisor.",
+          "senseId": "canine:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/canine.webp",
+        "sha256": "1980e1f1814f00068ef0f5b3914119d0e55b6da19b820047703713473cc414f8"
+      },
+      "visual": {
+        "expectedCue": "A single human canine tooth with one pointed crown cusp and a long tapered root.",
+        "decision": "added",
+        "reason": "Actual full corrected source and final 512px/120px inspected. One distinct cusp with sloping ridges, narrower crown and long single root contrast with the flat incisor. One targeted edit shortened and softened the initially exaggerated fang-like tip; rejected original retained. Final is a human tooth, with no dog, damage, text or procedure.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean isolated clinical dental rendering with precise ivory crown and natural root tissue on cool-white/pale-mint ground. Distinguishing crown shape remains clear at 120px; no warm paper texture, icons or clutter."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1980e1f1814f00068ef0f5b3914119d0e55b6da19b820047703713473cc414f8",
+          "inspectedAt": "2026-10-27T17:14:46.659245+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: single-root tooth has one moderate pointed cusp with descending shoulders and a long tapered root. The softened cusp reads as a human canine tooth rather than an exaggerated fang or an incisor cutting edge. No extra root or treatment tool, with clean ivory/mint clinical rendering."
+        }
+      }
+    },
+    {
+      "entryId": "premolar",
+      "sourceWord": "premolar",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "premolar:meaning-1",
+          "pos": "n.",
+          "en": "An adult tooth between the canine and the molars, with a chewing surface that has raised cusps."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The premolar has raised cusps on its chewing surface.",
+          "senseId": "premolar:meaning-1"
+        },
+        {
+          "en": "The model places the premolar between the canine and a molar.",
+          "senseId": "premolar:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/premolar.webp",
+        "sha256": "b2f1457345e1b53232a04de4265c38be6a6b708c3324e40cccdbb98ae069e5bb"
+      },
+      "visual": {
+        "expectedCue": "A compact premolar with two principal chewing cusps, a central groove and one tapered root.",
+        "decision": "added",
+        "reason": "Actual full corrected source and final 512px/120px inspected. Two dominant opposing cusp tips and the intervening groove are visible on the compact crown; the lower foreground connecting rim is below both tips. One targeted edit reduced an extra prominent foreground lobe to avoid a third-cusp teaching cue. Single coherent root and tooth silhouette are intact. The text explicitly allows variation in premolar roots/cusps; this shows one simplified two-cusp example.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean isolated clinical dental rendering with precise ivory crown and natural root tissue on cool-white/pale-mint ground. Distinguishing crown shape remains clear at 120px; no warm paper texture, icons or clutter."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b2f1457345e1b53232a04de4265c38be6a6b708c3324e40cccdbb98ae069e5bb",
+          "inspectedAt": "2026-10-27T17:14:46.659379+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: posterior tooth model shows two dominant raised chewing cusps separated by a groove, a lower rounded front crown ridge and a single tapered root. The main cusp pair and chewing surface distinguish it from the incisor/canine; natural cusp/root variation remains explicit in the source. Clinical ivory/pale-yellow object on mint background remains legible at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "enamel",
+      "sourceWord": "enamel",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "enamel:meaning-1",
+          "pos": "n.",
+          "en": "The hard outer tissue covering the crown of a tooth."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Enamel covers the outside of the tooth crown.",
+          "senseId": "enamel:meaning-1"
+        },
+        {
+          "en": "The diagram shows enamel above the underlying dentine.",
+          "senseId": "enamel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/enamel.webp",
+        "sha256": "786de93ad933b8cfa3f5e67028fec4b704ab1be6cc634971a5eab348d41c4fa4"
+      },
+      "visual": {
+        "expectedCue": "The bright ivory outer crown shell highlighted above the yellow dentine, stopping around the tooth neck.",
+        "decision": "added",
+        "reason": "Actual full source and final 512px/120px inspected. Teal outer contour follows only the ivory crown enamel and stops around the neck; it does not coat the root. Yellow dentine lies beneath the shell and muted pink central pulp remains enclosed. The enamel focus is distinguishable at thumbnail size from the broader dentine-highlighted companion. No disease, treatment instruments, clinical data or text.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical educational dental cutaway, softly precise forms on cool white/pale mint, with a restrained teal focus contour. Anatomical tissue colors support the selected meaning without graphic blood, warm paper texture or decorative props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "786de93ad933b8cfa3f5e67028fec4b704ab1be6cc634971a5eab348d41c4fa4",
+          "inspectedAt": "2026-10-27T17:22:07.849002+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: tooth cutaway has a hard ivory outer crown shell over yellow dentine; the restrained teal contour highlights only that crown exterior and stops at the neck instead of covering the root. Inner pink pulp is separate. The outer-layer focus differs from the dentine card and remains clear on cool mint at 120px."
+        }
+      }
+    },
+    {
+      "entryId": "dentine",
+      "sourceWord": "dentine",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "dentine:meaning-1",
+          "pos": "n.",
+          "en": "The hard tissue beneath enamel or cementum that forms most of a tooth around the pulp."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Dentine lies beneath the enamel in the crown.",
+          "senseId": "dentine:meaning-1"
+        },
+        {
+          "en": "The tooth model shows dentine surrounding the pulp space.",
+          "senseId": "dentine:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/dentine.webp",
+        "sha256": "69ec16ceb288ce2542024da5ca0dd0bf7bed2f4a2952b5b9288ba427ef962a46"
+      },
+      "visual": {
+        "expectedCue": "The broad yellow tissue beneath crown enamel, extending into the root around the pink pulp space.",
+        "decision": "added",
+        "reason": "Actual full source and final 512px/120px inspected. Broad yellow dentine remains continuous from crown into the root, under white crown enamel and around pink pulp. A thin teal contour follows its outer boundary, distinct from the enamel-only outline in the companion. Root surface is pale beige rather than enamel white. The selected tissue and neighboring layers stay visually distinct at 120px. No pathology, tools, labels or treatment claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical educational dental cutaway, softly precise forms on cool white/pale mint, with a restrained teal focus contour. Anatomical tissue colors support the selected meaning without graphic blood, warm paper texture or decorative props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "69ec16ceb288ce2542024da5ca0dd0bf7bed2f4a2952b5b9288ba427ef962a46",
+          "inspectedAt": "2026-10-27T17:22:07.849163+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: broad yellow hard tissue lies under the crown enamel and continues through the root around the central pink pulp space; teal boundary emphasizes that bulk tissue instead of the outer enamel shell or soft pulp. No treatment tool, decay or whole-root enamel coating. Clinical ivory/yellow/mint cutaway remains readable at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "root-canal",
+      "sourceWord": "root canal",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "root-canal:meaning-1",
+          "pos": "n.",
+          "en": "A narrow passage inside a tooth root that contains pulp tissue and connects with the pulp chamber."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The root canal runs through the tooth root.",
+          "senseId": "root-canal:meaning-1"
+        },
+        {
+          "en": "The cutaway model shows the root canal below the pulp chamber.",
+          "senseId": "root-canal:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/root-canal.webp",
+        "sha256": "df8876f6299b631b10132c68ce2ff0f187b1d0f803ddc7f189eda69fb5e6954a"
+      },
+      "visual": {
+        "expectedCue": "A narrow natural root passage continues from the broader pulp chamber to a tiny opening at the root tip.",
+        "decision": "added",
+        "reason": "Full generated source and converted 512px/120px inspected: one continuous narrow pink passage lies enclosed within pale dentine, joins the wider crown pulp chamber and exits at a tiny apical opening. Teal contour marks only the root passage; fine red vessels remain within the pulp/canal and exit at the apex. Crown enamel ends around the crown; no file, drill, filling, disease or treatment scene. This is one simplified single-root anatomical example.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean ivory/pale-yellow clinical cutaway on cool-white/mint with restrained teal contour, focused on the natural passage and readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "df8876f6299b631b10132c68ce2ff0f187b1d0f803ddc7f189eda69fb5e6954a",
+          "inspectedAt": "2026-10-27T17:13:12.488087+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full 1254px source and encoded 512px/120px. A wider crown pulp chamber narrows continuously into one slender central root passage enclosed by yellow dentine, reaching a tiny apical opening. Muted pink pulp and a fine red vessel remain inside the passage, with a short natural vessel continuation at the apex; no blood spill. White crown enamel stops around the neck and the root outer tissue is a thin pale beige layer. Teal highlight follows the root canal only, distinguishing it from the broader chamber. Single-root cutaway is coherent and readable at 120px. No disease, files, drills or treatment filling is depicted. Clean precise cool clinical rendering. AI gross-anatomy/style assessment only; qualified human review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "circuit-breaker",
+      "sourceWord": "circuit breaker",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "circuit-breaker:meaning-1",
+          "pos": "n.",
+          "en": "A protective device that automatically opens an electrical circuit when the current exceeds its designed limit."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The circuit breaker opened when too much current flowed through the circuit.",
+          "senseId": "circuit-breaker:meaning-1"
+        },
+        {
+          "en": "A resettable circuit breaker protects the small test panel.",
+          "senseId": "circuit-breaker:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/circuit-breaker.webp",
+        "sha256": "a71011fe4d87862d7d09bf6d53dc238340f5a8ec4d0f6cdb980f066eb71f254f"
+      },
+      "visual": {
+        "expectedCue": "Protective module with front toggle and recessed terminals at opposite ends.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected. One narrow insulated module has a coherent projecting front toggle, a recessed top and bottom terminal screw and rear mounting profile. No invented internal mechanism, numerical ratings or live wiring. Distinct modular circuit-breaker silhouette remains clear at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a71011fe4d87862d7d09bf6d53dc238340f5a8ec4d0f6cdb980f066eb71f254f",
+          "inspectedAt": "2026-10-27T17:01:43.767402+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: a compact single-pole protective breaker has one connected front toggle, separate upper/lower terminal screws and a rear DIN mounting feature. Opaque case avoids inventing trip internals; no ratings, labels or wiring steps. Precise silver/slate/amber product rendering and the characteristic breaker housing read at 120px."
+        }
+      }
+    },
+    {
+      "entryId": "terminal-block",
+      "sourceWord": "terminal block",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "terminal-block:meaning-1",
+          "pos": "n.",
+          "en": "An insulated support containing terminals that hold and electrically join the ends of wires."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The two wires meet at a terminal block inside the enclosure.",
+          "senseId": "terminal-block:meaning-1"
+        },
+        {
+          "en": "Insulating barriers separate the connections on the terminal block.",
+          "senseId": "terminal-block:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/terminal-block.webp",
+        "sha256": "14ef9ab312b66e8ae68fe588bd90ab409025cfe5a8f3ffa6d79a91dc07c35d96"
+      },
+      "visual": {
+        "expectedCue": "Insulating support and barriers separate two screw-terminal connection channels.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: pale insulating structure separates two brass terminal sections; four recessed screws and wire-entry holes are visible. Two insulated wire ends enter the left brass connection section, while the other section is empty. No bridge crosses the central insulating barrier. The generated arrangement places both wire mouths on the visible face rather than opposite ends of the prompt; it still depicts a plausible multi-entry terminal connection and the insulation/channel cue remains clear at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "14ef9ab312b66e8ae68fe588bd90ab409025cfe5a8f3ffa6d79a91dc07c35d96",
+          "inspectedAt": "2026-10-27T17:01:43.767594+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: two insulated channels contain separate brass terminal groups and clamp screws. Two wire ends enter the same left metal group; the second group remains separate across the insulating divider. No exposed wire ends float away from their contacts. This is an unpowered connection object study, with no phase/neutral assignment implied by wire colors. Clear slate/silver/brass technical style."
+        }
+      }
+    },
+    {
+      "entryId": "connector",
+      "sourceWord": "connector",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "connector:meaning-1",
+          "pos": "n.",
+          "en": "A component with matching electrical contacts that joins wires or parts of a circuit."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The connector joins the sensor cable to the control board.",
+          "senseId": "connector:meaning-1"
+        },
+        {
+          "en": "The two halves of the connector have matching pins and sockets.",
+          "senseId": "connector:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/connector.webp",
+        "sha256": "d133d2a6a072acb028fc08aeaea9c408d1afc8f442a1f5e08256eb8544ef10d7"
+      },
+      "visual": {
+        "expectedCue": "Two matching electrical connector halves with two pins and two socket contacts.",
+        "decision": "added",
+        "reason": "Actual original full candidate had an unwanted small label-like marking; rejected source retained and one targeted correction removed it. Corrected full source and final512/120 inspected: exactly two pins and two corresponding recessed socket contacts, insulating shrouds and two rear wires per half. No stray contact or live circuit; pin/socket distinction remains visible at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d133d2a6a072acb028fc08aeaea9c408d1afc8f442a1f5e08256eb8544ef10d7",
+          "inspectedAt": "2026-10-27T17:01:43.767631+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: two complementary cable connector halves face each other with two pins opposite two receiving sockets, coherent keyed shells and two cable conductors per side. Contacts and housing are attached, no third pin, dangling wire, label or brand artifact. The separated mating pair teaches electrical connector rather than wall socket; precise slate/silver/amber style remains readable."
+        }
+      }
+    },
+    {
+      "entryId": "printed-circuit-board",
+      "sourceWord": "printed circuit board",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "printed-circuit-board:meaning-1",
+          "pos": "n.",
+          "en": "A rigid or flexible insulating board with conductive tracks and pads for connecting electronic components."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Copper tracks run between the pads on the printed circuit board.",
+          "senseId": "printed-circuit-board:meaning-1"
+        },
+        {
+          "en": "The designer moved a mounting hole on the printed circuit board.",
+          "senseId": "printed-circuit-board:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/printed-circuit-board.webp",
+        "sha256": "3bdf2d58cd8af2eb8b11a4247a83d5ca10a8646f1e3c4080043d62c4da9cda28"
+      },
+      "visual": {
+        "expectedCue": "Rigid insulating board with conductive tracks terminating at pads and plated holes.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected. Flat rectangular bare board has visible thickness, four mounting holes and many distinct amber tracks joining silver pads/through-holes. Traces remain on the surface and connected to pads, without apparent crossing junction accidents or floating parts; generic illustrative layout does not claim a functioning schematic. No copied board identity, ratings, words or labels. Tracks/pads and board silhouette remain readable at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3bdf2d58cd8af2eb8b11a4247a83d5ca10a8646f1e3c4080043d62c4da9cda28",
+          "inspectedAt": "2026-10-27T17:08:23.593111+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: bare insulating board with distinct copper tracks, plated pads/holes and four mounting holes; no invented component labels or claim that it is a tested functioning circuit. Tracks end at pads and remain attached to a flat supported laminate. Bare PCB is distinct from a populated assembly, with slate/silver/amber technical rendering readable at 120px."
+        }
+      }
+    },
+    {
+      "entryId": "inductor",
+      "sourceWord": "inductor",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "inductor:meaning-1",
+          "pos": "n.",
+          "en": "A passive electrical component that stores energy in a magnetic field when current flows through it."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The inductor has a copper winding around a ring-shaped core.",
+          "senseId": "inductor:meaning-1"
+        },
+        {
+          "en": "The inductor opposes rapid changes in the current through it.",
+          "senseId": "inductor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/inductor.webp",
+        "sha256": "3e111a63e748882e39e650beaba928c4b918107cc0c4f7fb947321028cb33b29"
+      },
+      "visual": {
+        "expectedCue": "Two-terminal toroidal inductor with enamelled copper winding through an open ferrite ring.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: a ferrite ring has copper wire wound through its center around the core cross-section, ending in exactly two separate tinned leads. Hole remains open, no moving actuator plunger, third terminal or misleading powered glow. Adjacent turns touch closely in a few places as insulated winding, not a drawn bare short. Coil and two-lead silhouette remain distinct at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3e111a63e748882e39e650beaba928c4b918107cc0c4f7fb947321028cb33b29",
+          "inspectedAt": "2026-10-27T17:08:23.593297+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: a continuous copper-colored winding wraps a dark toroidal core and terminates in two clearly separated leads. Turns and core form one plausible electrical component, with no loose extra coil, third lead or mechanical plunger. A ring-core inductor is clear at thumbnail size, matching the selected example and precise slate/copper/silver style."
+        }
+      }
+    },
+    {
+      "entryId": "led",
+      "sourceWord": "LED",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "led:meaning-1",
+          "pos": "n.",
+          "en": "A semiconductor diode that emits light when an appropriate forward current passes through it."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The small LED has two leads and a rounded plastic body.",
+          "senseId": "led:meaning-1"
+        },
+        {
+          "en": "A green LED indicates that the device is ready.",
+          "senseId": "led:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/led.webp",
+        "sha256": "4da7ec73a6ed9810f6d72a8319118557544d61d265bbfca63b49ab17d45e27ae"
+      },
+      "visual": {
+        "expectedCue": "Discrete unpowered LED with dome, die, bond wire and two unequal leads.",
+        "decision": "added",
+        "reason": "Actual first full candidate had the broader cup electrode connected to the longer lead; rejected source retained. One targeted edit corrected this conventional package cue. Corrected full source and final512/120 inspected: cup-electrode lead is shorter, smaller-electrode lead longer, two leads separate; tiny die and bond wire remain coherent inside a transparent unlit dome. No fabricated powered glow. Dome and two unequal legs remain recognizable at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4da7ec73a6ed9810f6d72a8319118557544d61d265bbfca63b49ab17d45e27ae",
+          "inspectedAt": "2026-10-27T17:08:23.593339+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full source and 512px/120px: discrete domed two-lead LED package; die sits in the larger cup attached to the shorter lead, with a fine bond wire to the other post and longer lead. No third contact, disconnected internal wire or powered glow without a supply. The dome and two unequal leads remain recognizable at 120px; internal polarity layout is a conventional example, not a universal package claim."
+        }
+      }
+    },
+    {
+      "entryId": "potentiometer",
+      "sourceWord": "potentiometer",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "potentiometer:meaning-1",
+          "pos": "n.",
+          "en": "A three-terminal variable resistor with a movable contact along a resistive element."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The potentiometer has a rotating shaft and three terminals.",
+          "senseId": "potentiometer:meaning-1"
+        },
+        {
+          "en": "The knob moves the potentiometer’s wiper along the resistive track.",
+          "senseId": "potentiometer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/potentiometer.webp",
+        "sha256": "0f7b13bd3b42ff44c52b1d75e0e2acc660aa9ae99530b9be7ebbfbc79622a35f"
+      },
+      "visual": {
+        "expectedCue": "Rotary potentiometer with one shaft and three isolated solder terminals.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected. One knurled shaft projects through a coherent threaded bushing and nut above a round metal can. Exactly three separate solder lugs sit on the insulating base; no extra switch terminal, fake numbers or imaginary internal mechanism. Shaft/three-terminal arrangement remains clear at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0f7b13bd3b42ff44c52b1d75e0e2acc660aa9ae99530b9be7ebbfbc79622a35f",
+          "inspectedAt": "2026-10-27T17:14:46.659528+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: coherent rotary variable-resistor housing, central splined shaft, threaded mounting bushing/nut and exactly three attached electrical lugs. No fourth electrical terminal, disconnected knob or invented internal wiring. The three-terminal rotary component reads clearly in the slate/silver/amber technical style."
+        }
+      }
+    },
+    {
+      "entryId": "heat-sink",
+      "sourceWord": "heat sink",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "heat-sink:meaning-1",
+          "pos": "n.",
+          "en": "A part that transfers heat from a component to its surroundings, often through a metal base and fins."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The heat sink has thin aluminum fins above a solid base.",
+          "senseId": "heat-sink:meaning-1"
+        },
+        {
+          "en": "Good contact helps heat pass from the component into the heat sink.",
+          "senseId": "heat-sink:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/heat-sink.webp",
+        "sha256": "49e435e571a3fbc0ef202c51456e3e8ea8ef065c474da3aee5621672f5142e2f"
+      },
+      "visual": {
+        "expectedCue": "Continuous metal base with parallel fins and open air channels.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: eight regular parallel fins are physically joined along their bottoms to one thick solid aluminum base, with coherent open channels and continuous extrusion geometry. No floating plates, fan or decorative heat effects. Connected fin/base structure is unmistakable at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "49e435e571a3fbc0ef202c51456e3e8ea8ef065c474da3aee5621672f5142e2f",
+          "inspectedAt": "2026-10-27T17:14:46.659685+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: a single aluminum base joins multiple continuous parallel fins, with open air channels and no floating fin, disconnected base, decorative fan or liquid-water sink cue. Realistic extruded-metal geometry and slate/silver restrained amber highlights remain readable at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "busbar",
+      "sourceWord": "busbar",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "busbar:meaning-1",
+          "pos": "n.",
+          "en": "A rigid conductive bar that collects or distributes electric current among several connections."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The copper busbar has several holes for bolted connections.",
+          "senseId": "busbar:meaning-1"
+        },
+        {
+          "en": "Insulating supports hold the busbar clear of the metal enclosure.",
+          "senseId": "busbar:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/busbar.webp",
+        "sha256": "4857f4bb3c080ddc6eb092da8fc37cfc85d7147a13922f0da8ae617ddf747d67"
+      },
+      "visual": {
+        "expectedCue": "Rigid conductive copper distribution bar with connection holes and insulating supports.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: one continuous flat copper bar spans two ceramic standoff supports, fixed by a bolt at each end. Three additional clean connection holes are open, giving a plausible rigid distribution-bar form. Supports touch the bar and separate it from their metal mounting feet; no connected live circuit. Bar thickness, holes and insulators remain readable at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4857f4bb3c080ddc6eb092da8fc37cfc85d7147a13922f0da8ae617ddf747d67",
+          "inspectedAt": "2026-10-27T17:14:46.659836+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual 512px/120px: rigid copper bar has three open connection holes and two fixing bolts into two ceramic insulating supports. Bar and supports form one coherent unpowered object; no fake current arrows, phase labels or energized wiring. Copper conductor and insulating support relation is clear on the slate technical ground."
+        }
+      }
+    },
+    {
+      "entryId": "solenoid",
+      "sourceWord": "solenoid",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "solenoid:meaning-1",
+          "pos": "n.",
+          "en": "An electromagnetic actuator in which an energized coil moves an iron plunger along its axis."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The solenoid has a coil around a sliding iron plunger.",
+          "senseId": "solenoid:meaning-1"
+        },
+        {
+          "en": "A return spring moves the solenoid’s plunger back after the coil is switched off.",
+          "senseId": "solenoid:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/solenoid.webp",
+        "sha256": "ffe390cae3ba554a18051d3443e268168a4bb561406f4aa4e5daf1866647a42c"
+      },
+      "visual": {
+        "expectedCue": "Coil actuator with a coaxial sliding iron plunger and mechanically opposed return spring.",
+        "decision": "added",
+        "reason": "Actual first full candidate put the compression spring inside the front bracket, where it would aid rather than oppose inward motion; retained as rejected. One targeted edit moved it outside between the eye shoulder and fixed front bracket. Corrected full source and final512/120 inspected: coil surrounds a guided coaxial iron plunger; external compression spring contacts eye shoulder and bracket so inward rightward motion compresses it. Two insulated terminals, coherent frame and connected eye. Actuator shaft/coil/spring remain readable at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ffe390cae3ba554a18051d3443e268168a4bb561406f4aa4e5daf1866647a42c",
+          "inspectedAt": "2026-10-27T17:17:26.958780+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full source and 512px/120px: copper coil surrounds an axial sliding iron plunger within a connected fixed frame, with two isolated electrical terminals. External return spring sits between the moving eye/collar and the fixed front bracket, so inward plunger travel compresses it and release can return the plunger outward. No spring on the mechanically wrong side, floating support or unconnected output rod. Precise slate/copper/silver technical cutaway remains readable at 120px."
+        }
+      }
+    },
+    {
+      "entryId": "electromagnet",
+      "sourceWord": "electromagnet",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "electromagnet:meaning-1",
+          "pos": "n.",
+          "en": "A magnet whose magnetic field is produced by an electric current, often in a coil around an iron core."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The electromagnet attracts small steel washers while current flows through its coil.",
+          "senseId": "electromagnet:meaning-1"
+        },
+        {
+          "en": "The wire is wound around the iron core of the electromagnet.",
+          "senseId": "electromagnet:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/electromagnet.webp",
+        "sha256": "97cd2a3fc7f18af9a86c2e74753621b54a97c920f98c54d5b6b7b546483f6c3c"
+      },
+      "visual": {
+        "expectedCue": "Current-powered coil around an iron core attracts steel washers through direct pole and rim contact.",
+        "decision": "added",
+        "reason": "Initial author inspection missed a tiny mechanical link between washers; second AI review flagged it, and the original full source is retained as rejected. One targeted built-in edit removed the link and placed lower upper rim directly against upper lower rim. Corrected full source and final512/120 inspected: two separate plain washers touch rim-to-rim with no joining hardware, upper washer directly touches the bare iron pole. Red and black leads independently trace the two battery terminals to opposite coil ends, preserving the complete uncrossed loop, coherent core and copper winding. No mains, numeric readings or live-use instructions; authorized low-voltage teaching illustration. All main relations remain legible at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "97cd2a3fc7f18af9a86c2e74753621b54a97c920f98c54d5b6b7b546483f6c3c",
+          "inspectedAt": "2026-10-27T17:23:44.581307+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual corrected full source and 512px/120px: one continuous coil wraps an iron U-core; separate red and black leads connect the two coil ends to separate battery terminals, making a traceable closed loop. Upper steel washer contacts the exposed pole, and the second washer meets it directly rim-to-rim; the misleading mechanical jump-ring is removed. No magnetic-field arrows, numeric readings or wiring procedure. The energized-coil/steel-attraction teaching cue and slate/copper/silver style remain clear at 120px."
+        }
+      }
+    },
+    {
+      "entryId": "oscilloscope",
+      "sourceWord": "oscilloscope",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "oscilloscope:meaning-1",
+          "pos": "n.",
+          "en": "An instrument that displays an electrical signal as a graph, commonly showing voltage changing over time."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The oscilloscope displays the signal as a repeating wave.",
+          "senseId": "oscilloscope:meaning-1"
+        },
+        {
+          "en": "The technician compared two signals on the oscilloscope screen.",
+          "senseId": "oscilloscope:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/oscilloscope.webp",
+        "sha256": "eb3889280206ad883a2fa87ccb6ca0d622bb0eca051cb15eec49e6c87bdcb163"
+      },
+      "visual": {
+        "expectedCue": "A bench instrument displays a simple voltage-like waveform on an unlabeled grid beside control knobs and input sockets.",
+        "decision": "added",
+        "reason": "Full generated source and converted 512px/120px inspected: a supported bench case contains a dark gridded screen with one regular amber sine-like trace, coherent rotary knobs and two coaxial input sockets. No attached probe, patient, ECG spikes, numerical values or diagnostic reading. The waveform is explicitly an educational illustration, not measured data.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver/slate technical product rendering with restrained amber trace; screen, knobs and sockets remain recognizable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T17:25:57.272713+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "eb3889280206ad883a2fa87ccb6ca0d622bb0eca051cb15eec49e6c87bdcb163",
+          "inspectedAt": "2026-10-27T17:14:39.810028+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full source, final512 WebP and120px thumbnail inspected. Bench instrument has one coherent continuous sine-like illustrative amber trace on an unnumbered grid, five physical rotary knobs and two coaxial input sockets. No false measured values, clinical trace, invented words or stray wiring. Screen and controls clearly identify an oscilloscope at120px. Silver technical product drawing, slate ground and amber trace match engineering style. This is an AI pixel review, not human specialist approval."
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-10",
+  "releaseId": "2026-10-preview-11",
   "channel": "preview",
-  "createdAt": "2026-10-27T16:28:06.751522+00:00",
+  "createdAt": "2026-10-27T17:25:57.272713+00:00",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -2473,7 +2473,7 @@
       "ant": [],
       "tip": "doctor می‌تواند پزشک یا دارندهٔ مدرک دکتری باشد؛ در این کارت منظور پزشک است.",
       "media": {
-        "img": "atlas/img/doctor.webp",
+        "img": "atlas/img/doctor-v2.webp",
         "uk": "atlas/audio/uk/doctor.mp3",
         "us": "atlas/audio/us/doctor.mp3"
       },
@@ -2482,7 +2482,13 @@
         "source": "https://github.com/designfuchen/word-atlas/blob/e7b44629230a470e6b664826ced4af2c367b44c2/data/word-atlas.json",
         "attribution": "Word Atlas contributors — CC BY 4.0",
         "aiAssisted": true,
-        "modifications": "Selected English senses and lexical metadata retained; original Persian translations and usage notes; contextual English examples and bilingual collocations adapted or newly written. No independent human or domain approval claimed."
+        "modifications": "Selected English senses and lexical metadata retained; original Persian translations and usage notes; contextual English examples and bilingual collocations adapted or newly written. No independent human or domain approval claimed.",
+        "factualReferences": [
+          {
+            "url": "https://www.nhlbi.nih.gov/health/respiratory-failure/diagnosis",
+            "use": "Factual reference for a physician using a stethoscope during a physical examination; no diagnosis or clinical advice is inferred from the illustration."
+          }
+        ]
       }
     },
     {
@@ -4776,14 +4782,20 @@
       "ant": [],
       "tip": "voltage با current یکسان نیست: ولتاژ اختلاف پتانسیل است و جریان به حرکت بار الکتریکی مربوط می‌شود.",
       "media": {
-        "img": "atlas/img/voltage-v2.webp"
+        "img": "atlas/img/voltage-v3.webp"
       },
       "provenance": {
         "license": "CC-BY-4.0",
         "source": "https://github.com/mehrdadxzaker/mehrdadika/blob/main/content/entries.json",
         "attribution": "Mehrdadika contributors — CC BY 4.0",
         "aiAssisted": true,
-        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available."
+        "modifications": "Original multilingual vocabulary preview and original SVG teaching illustration. No independent human language or specialist review is claimed. English pronunciation uses device speech when no finished licensed recording is available.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/college-physics-2e/pages/21-4-dc-voltmeters-and-ammeters",
+            "use": "Factual reference for a voltmeter connected in parallel across the two terminals whose potential difference is measured; no numeric reading or wiring procedure is supplied."
+          }
+        ]
       }
     },
     {
@@ -21701,6 +21713,1512 @@
           {
             "url": "https://openstax.org/books/prealgebra-2e/pages/5-key-terms",
             "use": "Verified center-to-circle radius and center-crossing full diameter; original learner text and original metallic dimension diagram."
+          }
+        ]
+      }
+    },
+    {
+      "id": "x-ray",
+      "w": "X-ray",
+      "uk": "/ˈeks reɪ/",
+      "us": "/ˈeks reɪ/",
+      "cefr": "B1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "x-ray:meaning-1",
+          "pos": "n.",
+          "fa": "عکس رادیولوژی؛ تصویر پرتو ایکس",
+          "en": "An image of the inside of the body made using X-rays.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The doctor examined an X-ray of the hand.",
+          "fa": "پزشک عکس رادیولوژیِ دست را بررسی کرد.",
+          "senseId": "x-ray:meaning-1"
+        },
+        {
+          "en": "The X-ray shows the bones as pale shapes.",
+          "fa": "عکس رادیولوژی استخوان‌ها را به صورت شکل‌هایی روشن نشان می‌دهد.",
+          "senseId": "x-ray:meaning-1"
+        }
+      ],
+      "col": [
+        "a chest X-ray｜عکس رادیولوژی قفسهٔ سینه",
+        "a dental X-ray｜عکس رادیولوژی دندان",
+        "examine an X-ray｜یک عکس رادیولوژی را بررسی کردن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "X-ray در این کارت اسمِ تصویر است، نه خودِ پرتو یا دستگاه. تصاویر آموزشیِ ساختگی برای تشخیص پزشکی نیستند.",
+      "media": {
+        "img": "atlas/img/x-ray.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.radiologyinfo.org/en/info/chestrad",
+            "use": "Checked basic imaging method, specimen-analysis sense or tooth anatomy against primary healthcare/academic material. Original learner wording and original AI-generated illustration; no copied artwork, clinical interpretation or procedural instructions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ultrasound",
+      "w": "ultrasound",
+      "uk": "/ˈʌltrəsaʊnd/",
+      "us": "/ˈʌltrəsaʊnd/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "ultrasound:meaning-1",
+          "pos": "n.",
+          "fa": "سونوگرافی",
+          "en": "A way of making images inside the body using high-frequency sound waves.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Ultrasound uses a probe connected to a scanner.",
+          "fa": "در سونوگرافی از کاوشگری متصل به دستگاه استفاده می‌شود.",
+          "senseId": "ultrasound:meaning-1"
+        },
+        {
+          "en": "The clinician used ultrasound to view an internal organ.",
+          "fa": "متخصص بالینی با سونوگرافی یکی از اندام‌های داخلی را دید.",
+          "senseId": "ultrasound:meaning-1"
+        }
+      ],
+      "col": [
+        "an ultrasound examination｜معاینهٔ سونوگرافی",
+        "an ultrasound probe｜کاوشگر سونوگرافی",
+        "ultrasound imaging｜تصویربرداری سونوگرافی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "ultrasound اینجا روشِ تصویربرداری است؛ از امواج صوتی استفاده می‌کند، نه پرتو ایکس. sonogram می‌تواند نامِ تصویرِ حاصل باشد.",
+      "media": {
+        "img": "atlas/img/ultrasound.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.radiologyinfo.org/en/info/genus",
+            "use": "Checked basic imaging method, specimen-analysis sense or tooth anatomy against primary healthcare/academic material. Original learner wording and original AI-generated illustration; no copied artwork, clinical interpretation or procedural instructions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "mri",
+      "w": "MRI",
+      "uk": "/ˌem ɑːr ˈaɪ/",
+      "us": "/ˌem ɑːr ˈaɪ/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "mri:meaning-1",
+          "pos": "n.",
+          "fa": "ام‌آر‌آی؛ تصویربرداری تشدید مغناطیسی",
+          "en": "A method that uses a magnetic field and radio waves to make images inside the body.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The hospital has an MRI scanner with a long central tunnel.",
+          "fa": "بیمارستان دستگاه ام‌آر‌آی با تونل مرکزیِ طولانی دارد.",
+          "senseId": "mri:meaning-1"
+        },
+        {
+          "en": "The radiologist reviewed the MRI images.",
+          "fa": "متخصص رادیولوژی تصاویر ام‌آر‌آی را بررسی کرد.",
+          "senseId": "mri:meaning-1"
+        }
+      ],
+      "col": [
+        "an MRI scan｜اسکن ام‌آر‌آی",
+        "an MRI scanner｜دستگاه ام‌آر‌آی",
+        "MRI images｜تصاویر ام‌آر‌آی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "MRI کوتاه‌شدهٔ magnetic resonance imaging است. این روش برخلاف CT از پرتو ایکس استفاده نمی‌کند. تصویر، یک نوعِ استوانه‌ایِ دستگاه را نشان می‌دهد؛ شکلِ دستگاه‌ها یکسان نیست.",
+      "media": {
+        "img": "atlas/img/mri.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.radiologyinfo.org/en/info/bodymr",
+            "use": "Checked basic imaging method, specimen-analysis sense or tooth anatomy against primary healthcare/academic material. Original learner wording and original AI-generated illustration; no copied artwork, clinical interpretation or procedural instructions."
+          },
+          {
+            "url": "https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/magnetic-resonance-imaging-mri",
+            "use": "Checked conventional cylindrical MRI geometry for a deliberately distinct illustrative scanner; other MRI designs exist."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ct-scan",
+      "w": "CT scan",
+      "uk": "/ˌsiː ˈtiː skæn/",
+      "us": "/ˌsiː ˈtiː skæn/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "ct-scan:meaning-1",
+          "pos": "n.",
+          "fa": "سی‌تی‌اسکن",
+          "en": "An examination that uses X-rays from different angles and a computer to make cross-sectional images inside the body.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The CT scan produced a series of cross-sectional images.",
+          "fa": "سی‌تی‌اسکن مجموعه‌ای از تصاویر مقطعی ایجاد کرد.",
+          "senseId": "ct-scan:meaning-1"
+        },
+        {
+          "en": "The CT scanner has a short ring around the patient table.",
+          "fa": "دستگاه سی‌تی‌اسکن حلقه‌ای کوتاه پیرامون تخت بیمار دارد.",
+          "senseId": "ct-scan:meaning-1"
+        }
+      ],
+      "col": [
+        "a chest CT scan｜سی‌تی‌اسکن قفسهٔ سینه",
+        "a CT scanner｜دستگاه سی‌تی‌اسکن",
+        "CT scan images｜تصاویر سی‌تی‌اسکن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "CT کوتاه‌شدهٔ computed tomography است. CT از پرتو ایکس استفاده می‌کند؛ MRI از میدان مغناطیسی و امواج رادیویی. دستگاهِ نشان‌داده‌شده حلقه‌ای کوتاه‌تر از نمونهٔ MRI این مجموعه دارد.",
+      "media": {
+        "img": "atlas/img/ct-scan.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nibib.nih.gov/science-education/science-topics/computed-tomography-ct",
+            "use": "Checked basic imaging method, specimen-analysis sense or tooth anatomy against primary healthcare/academic material. Original learner wording and original AI-generated illustration; no copied artwork, clinical interpretation or procedural instructions."
+          },
+          {
+            "url": "https://www.asnr.org/patientinfo/procedures/ct.shtml",
+            "use": "Checked short doughnut gantry and table geometry to distinguish the selected CT scanner illustration from conventional long-bore MRI."
+          }
+        ]
+      }
+    },
+    {
+      "id": "blood-test",
+      "w": "blood test",
+      "uk": "/ˈblʌd test/",
+      "us": "/ˈblʌd test/",
+      "cefr": "B1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "blood-test:meaning-1",
+          "pos": "n.",
+          "fa": "آزمایش خون",
+          "en": "An analysis of a blood sample to measure or check substances, cells or other features.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The laboratory received a sample for a blood test.",
+          "fa": "آزمایشگاه نمونه‌ای برای آزمایش خون دریافت کرد.",
+          "senseId": "blood-test:meaning-1"
+        },
+        {
+          "en": "The clinician discussed the blood test results with the patient.",
+          "fa": "متخصص بالینی نتایج آزمایش خون را با بیمار در میان گذاشت.",
+          "senseId": "blood-test:meaning-1"
+        }
+      ],
+      "col": [
+        "a blood test sample｜نمونهٔ آزمایش خون",
+        "blood test results｜نتایج آزمایش خون",
+        "a routine blood test｜آزمایش خونِ معمول"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "blood test تحلیلِ نمونهٔ خون است؛ گرفتنِ خون، مرحلهٔ جمع‌آوریِ نمونه است. یک آزمایش، همهٔ بیماری‌ها را بررسی نمی‌کند.",
+      "media": {
+        "img": "atlas/img/blood-test.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://medlineplus.gov/laboratorytests.html",
+            "use": "Checked basic imaging method, specimen-analysis sense or tooth anatomy against primary healthcare/academic material. Original learner wording and original AI-generated illustration; no copied artwork, clinical interpretation or procedural instructions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "urine-test",
+      "w": "urine test",
+      "uk": "/ˈjʊərɪn test/",
+      "us": "/ˈjʊrɪn test/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "urine-test:meaning-1",
+          "pos": "n.",
+          "fa": "آزمایش ادرار",
+          "en": "An analysis of a urine sample to check its physical, chemical or microscopic features.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The sample container was sent to the laboratory for a urine test.",
+          "fa": "ظرف نمونه برای آزمایش ادرار به آزمایشگاه فرستاده شد.",
+          "senseId": "urine-test:meaning-1"
+        },
+        {
+          "en": "The urine test included a microscopic examination.",
+          "fa": "آزمایش ادرار شامل بررسی میکروسکوپی بود.",
+          "senseId": "urine-test:meaning-1"
+        }
+      ],
+      "col": [
+        "a urine test sample｜نمونهٔ آزمایش ادرار",
+        "urine test results｜نتایج آزمایش ادرار",
+        "a routine urine test｜آزمایش ادرارِ معمول"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "urine test در این کارت بررسیِ نمونهٔ ادرار است؛ urinalysis نامِ تخصصیِ رایج برای این نوع بررسی است. رنگِ تصویر، نتیجهٔ تشخیصی را نشان نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/urine-test.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://medlineplus.gov/ency/article/003579.htm",
+            "use": "Checked basic imaging method, specimen-analysis sense or tooth anatomy against primary healthcare/academic material. Original learner wording and original AI-generated illustration; no copied artwork, clinical interpretation or procedural instructions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "incisor",
+      "w": "incisor",
+      "uk": "/ɪnˈsaɪzə/",
+      "us": "/ɪnˈsaɪzər/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "incisor:meaning-1",
+          "pos": "n.",
+          "fa": "دندان پیشین",
+          "en": "A front tooth with a relatively flat cutting edge, used to bite into food.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The incisor has a broad crown and a thin cutting edge.",
+          "fa": "دندان پیشین تاجی پهن و لبهٔ برندهٔ نازکی دارد.",
+          "senseId": "incisor:meaning-1"
+        },
+        {
+          "en": "The dentist examined an upper incisor.",
+          "fa": "دندان‌پزشک یکی از دندان‌های پیشینِ فک بالا را معاینه کرد.",
+          "senseId": "incisor:meaning-1"
+        }
+      ],
+      "col": [
+        "an upper incisor｜دندان پیشینِ بالا",
+        "a central incisor｜دندان پیشینِ مرکزی",
+        "an incisor edge｜لبهٔ دندان پیشین"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "incisor دندانِ جلوی دهان با لبهٔ برنده است؛ canine دندانِ نیش با نوکِ برجسته است. تصویر، یک دندانِ پیشینِ مرکزی را نشان می‌دهد.",
+      "media": {
+        "img": "atlas/img/incisor.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://teeth.org.au/tooth-anatomy",
+            "use": "Checked basic imaging method, specimen-analysis sense or tooth anatomy against primary healthcare/academic material. Original learner wording and original AI-generated illustration; no copied artwork, clinical interpretation or procedural instructions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "canine",
+      "w": "canine",
+      "uk": "/ˈkeɪnaɪn/",
+      "us": "/ˈkeɪnaɪn/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "canine:meaning-1",
+          "pos": "n.",
+          "fa": "دندان نیش",
+          "en": "A pointed tooth between the incisors and premolars in the adult mouth.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The canine has one prominent pointed cusp.",
+          "fa": "دندان نیش یک برجستگیِ نوک‌تیزِ آشکار دارد.",
+          "senseId": "canine:meaning-1"
+        },
+        {
+          "en": "The dentist compared the canine with the neighboring incisor.",
+          "fa": "دندان‌پزشک دندان نیش را با دندان پیشینِ کناری مقایسه کرد.",
+          "senseId": "canine:meaning-1"
+        }
+      ],
+      "col": [
+        "an upper canine｜دندان نیشِ بالا",
+        "a canine tooth｜دندان نیش",
+        "a canine cusp｜نوکِ برجستهٔ دندان نیش"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "canine در این کارت اسمِ دندانِ نیش است؛ معنیِ مربوط به سگ مدنظر نیست. دندانِ نیش را با دندانِ پیشینِ لبه‌صاف اشتباه نگیرید.",
+      "media": {
+        "img": "atlas/img/canine.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://teeth.org.au/tooth-anatomy",
+            "use": "Checked basic imaging method, specimen-analysis sense or tooth anatomy against primary healthcare/academic material. Original learner wording and original AI-generated illustration; no copied artwork, clinical interpretation or procedural instructions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "premolar",
+      "w": "premolar",
+      "uk": "/ˌpriːˈməʊlə/",
+      "us": "/ˌpriːˈmoʊlər/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "premolar:meaning-1",
+          "pos": "n.",
+          "fa": "دندان آسیای کوچک",
+          "en": "An adult tooth between the canine and the molars, with a chewing surface that has raised cusps.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The premolar has raised cusps on its chewing surface.",
+          "fa": "دندان آسیای کوچک روی سطح جونده‌اش برجستگی‌هایی دارد.",
+          "senseId": "premolar:meaning-1"
+        },
+        {
+          "en": "The model places the premolar between the canine and a molar.",
+          "fa": "مدل، دندان آسیای کوچک را میان دندان نیش و یک دندان آسیای بزرگ قرار می‌دهد.",
+          "senseId": "premolar:meaning-1"
+        }
+      ],
+      "col": [
+        "a first premolar｜دندان آسیای کوچکِ اول",
+        "a lower premolar｜دندان آسیای کوچکِ پایین",
+        "a premolar crown｜تاجِ دندان آسیای کوچک"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "premolar با molar، یعنی دندانِ آسیای بزرگ، فرق دارد. شکل و شمارِ ریشه‌ها و برجستگی‌ها یکسان نیست؛ تصویر یک نمونهٔ ساده‌شده با دو برجستگیِ اصلی است.",
+      "media": {
+        "img": "atlas/img/premolar.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://teeth.org.au/tooth-anatomy",
+            "use": "Checked basic imaging method, specimen-analysis sense or tooth anatomy against primary healthcare/academic material. Original learner wording and original AI-generated illustration; no copied artwork, clinical interpretation or procedural instructions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "enamel",
+      "w": "enamel",
+      "uk": "/ɪˈnæməl/",
+      "us": "/ɪˈnæməl/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "enamel:meaning-1",
+          "pos": "n.",
+          "fa": "مینای دندان",
+          "en": "The hard outer tissue covering the crown of a tooth.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Enamel covers the outside of the tooth crown.",
+          "fa": "مینا سطحِ بیرونیِ تاجِ دندان را می‌پوشاند.",
+          "senseId": "enamel:meaning-1"
+        },
+        {
+          "en": "The diagram shows enamel above the underlying dentine.",
+          "fa": "نمودار، مینا را روی عاجِ زیرِ آن نشان می‌دهد.",
+          "senseId": "enamel:meaning-1"
+        }
+      ],
+      "col": [
+        "tooth enamel｜مینای دندان",
+        "an enamel layer｜لایهٔ مینا",
+        "the enamel surface｜سطحِ مینا"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "enamel اینجا بافتِ بیرونیِ تاجِ دندان است، نه لعابِ ظرف یا رنگِ پوششی. مینا تمامِ ریشه را نمی‌پوشاند؛ لایهٔ زیرِ مینا dentine است.",
+      "media": {
+        "img": "atlas/img/enamel.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nidcr.nih.gov/health-info/tooth-decay",
+            "use": "Checked basic imaging method, specimen-analysis sense or tooth anatomy against primary healthcare/academic material. Original learner wording and original AI-generated illustration; no copied artwork, clinical interpretation or procedural instructions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dentine",
+      "w": "dentine",
+      "uk": "/ˈdentiːn/",
+      "us": "/ˈdentɪn/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "dentine:meaning-1",
+          "pos": "n.",
+          "fa": "عاجِ دندان",
+          "en": "The hard tissue beneath enamel or cementum that forms most of a tooth around the pulp.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Dentine lies beneath the enamel in the crown.",
+          "fa": "عاج در تاجِ دندان زیرِ مینا قرار دارد.",
+          "senseId": "dentine:meaning-1"
+        },
+        {
+          "en": "The tooth model shows dentine surrounding the pulp space.",
+          "fa": "مدلِ دندان، عاج را پیرامونِ فضای پالپ نشان می‌دهد.",
+          "senseId": "dentine:meaning-1"
+        }
+      ],
+      "col": [
+        "a dentine layer｜لایهٔ عاج",
+        "exposed dentine｜عاجِ نمایان",
+        "dentine tubules｜لوله‌های ریزِ عاج"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "dentine املای بریتانیایی است؛ dentin املای رایج آمریکاییِ همان بافت است. عاج با enamel، یعنی مینا، و با بافتِ نرمِ pulp فرق دارد.",
+      "media": {
+        "img": "atlas/img/dentine.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://dentistry.uic.edu/patients/dental-services/specialty-services/endodontics/",
+            "use": "Checked basic imaging method, specimen-analysis sense or tooth anatomy against primary healthcare/academic material. Original learner wording and original AI-generated illustration; no copied artwork, clinical interpretation or procedural instructions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "root-canal",
+      "w": "root canal",
+      "uk": "/ˈruːt kəˌnæl/",
+      "us": "/ˈruːt kəˌnæl/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "root-canal:meaning-1",
+          "pos": "n.",
+          "fa": "مجرای ریشهٔ دندان",
+          "en": "A narrow passage inside a tooth root that contains pulp tissue and connects with the pulp chamber.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The root canal runs through the tooth root.",
+          "fa": "مجرای ریشه از درونِ ریشهٔ دندان می‌گذرد.",
+          "senseId": "root-canal:meaning-1"
+        },
+        {
+          "en": "The cutaway model shows the root canal below the pulp chamber.",
+          "fa": "مدلِ برش‌خورده مجرای ریشه را زیرِ حفرهٔ پالپ نشان می‌دهد.",
+          "senseId": "root-canal:meaning-1"
+        }
+      ],
+      "col": [
+        "a root canal opening｜دهانهٔ مجرای ریشه",
+        "the root canal space｜فضای مجرای ریشه",
+        "the root canal system｜سامانهٔ مجراهای ریشه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "root canal در این کارت بخشِ طبیعیِ درونِ ریشه است، نه درمانِ ریشه. در گفتار، root canal گاهی کوتاه‌شدهٔ root canal treatment است. شکل و تعدادِ مجراها متفاوت است.",
+      "media": {
+        "img": "atlas/img/root-canal.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.mouthhealthy.org/all-topics-a-z/tooth/",
+            "use": "Checked basic imaging method, specimen-analysis sense or tooth anatomy against primary healthcare/academic material. Original learner wording and original AI-generated illustration; no copied artwork, clinical interpretation or procedural instructions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "circuit-breaker",
+      "w": "circuit breaker",
+      "uk": "/ˈsɜːkɪt ˌbreɪkə/",
+      "us": "/ˈsɝːkɪt ˌbreɪkər/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "circuit-breaker:meaning-1",
+          "pos": "n.",
+          "fa": "کلید قطع‌کنندهٔ مدار",
+          "en": "A protective device that automatically opens an electrical circuit when the current exceeds its designed limit.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The circuit breaker opened when too much current flowed through the circuit.",
+          "fa": "وقتی جریان بیش از حد از مدار گذشت، کلید قطع‌کنندهٔ مدار باز شد.",
+          "senseId": "circuit-breaker:meaning-1"
+        },
+        {
+          "en": "A resettable circuit breaker protects the small test panel.",
+          "fa": "یک کلید قطع‌کنندهٔ مدارِ قابل بازنشانی از تابلوی آزمایش کوچک محافظت می‌کند.",
+          "senseId": "circuit-breaker:meaning-1"
+        }
+      ],
+      "col": [
+        "a circuit breaker panel｜تابلوی کلیدهای قطع‌کنندهٔ مدار",
+        "a circuit breaker switch｜اهرم کلید قطع‌کنندهٔ مدار",
+        "a resettable circuit breaker｜کلید قطع‌کنندهٔ مدارِ قابل بازنشانی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "این کارت به کلید حفاظتیِ اضافه‌جریان اشاره دارد. برخلاف فیوزِ ذوب‌شونده، بسیاری از این کلیدها پس از رفع خطا قابل بازنشانی‌اند؛ بازنشانی به‌تنهایی خطا را برطرف نمی‌کند.",
+      "media": {
+        "img": "atlas/img/circuit-breaker.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://es-assets.eaton.com/DOCUMENTATION/AWB_MANUALS/h1407G0509_gesamt.pdf",
+            "use": "Checked resettable circuit-breaker terminology; original editorial explanation, no artwork copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "terminal-block",
+      "w": "terminal block",
+      "uk": "/ˈtɜːmɪnəl blɒk/",
+      "us": "/ˈtɝːmɪnəl blɑːk/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "terminal-block:meaning-1",
+          "pos": "n.",
+          "fa": "بلوک ترمینال",
+          "en": "An insulated support containing terminals that hold and electrically join the ends of wires.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The two wires meet at a terminal block inside the enclosure.",
+          "fa": "دو سیم در یک بلوک ترمینال داخل محفظه به هم می‌رسند.",
+          "senseId": "terminal-block:meaning-1"
+        },
+        {
+          "en": "Insulating barriers separate the connections on the terminal block.",
+          "fa": "جداکننده‌های عایق، اتصال‌های بلوک ترمینال را از هم جدا می‌کنند.",
+          "senseId": "terminal-block:meaning-1"
+        }
+      ],
+      "col": [
+        "a screw terminal block｜بلوک ترمینال پیچی",
+        "a terminal block connection｜اتصالِ بلوک ترمینال",
+        "an insulated terminal block｜بلوک ترمینال عایق‌دار"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "در این کاربرد، terminal محل اتصال سیم است، نه پایانهٔ رایانه. اتصال‌های یک بلوک لزوماً همگی به هم وصل نیستند؛ ساختار هر کانال تعیین‌کننده است.",
+      "media": {
+        "img": "atlas/img/terminal-block.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.phoenixcontact.com/en-us/products/terminal-blocks",
+            "use": "Checked insulated terminal-block connection terminology; original text and art."
+          }
+        ]
+      }
+    },
+    {
+      "id": "connector",
+      "w": "connector",
+      "uk": "/kəˈnektə/",
+      "us": "/kəˈnektər/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "connector:meaning-1",
+          "pos": "n.",
+          "fa": "اتصال‌دهندهٔ الکتریکی",
+          "en": "A component with matching electrical contacts that joins wires or parts of a circuit.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The connector joins the sensor cable to the control board.",
+          "fa": "اتصال‌دهنده، کابل حسگر را به برد کنترل وصل می‌کند.",
+          "senseId": "connector:meaning-1"
+        },
+        {
+          "en": "The two halves of the connector have matching pins and sockets.",
+          "fa": "دو نیمهٔ اتصال‌دهنده، پین‌ها و حفره‌های متناظر دارند.",
+          "senseId": "connector:meaning-1"
+        }
+      ],
+      "col": [
+        "an electrical connector｜اتصال‌دهندهٔ الکتریکی",
+        "a cable connector｜اتصال‌دهندهٔ کابل",
+        "a connector pin｜پین اتصال‌دهنده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "connector واژه‌ای کلی برای قطعهٔ اتصال است. در این کارت منظور اتصال الکتریکی است؛ همهٔ connectorها دوشاخهٔ برق یا دارای شکل یکسان نیستند.",
+      "media": {
+        "img": "atlas/img/connector.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.phoenixcontact.com/en-us/products/connectors",
+            "use": "Checked electrical connector pin/socket terminology; original text and art."
+          }
+        ]
+      }
+    },
+    {
+      "id": "printed-circuit-board",
+      "w": "printed circuit board",
+      "uk": "/ˌprɪntɪd ˈsɜːkɪt bɔːd/",
+      "us": "/ˌprɪntɪd ˈsɝːkɪt bɔːrd/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "printed-circuit-board:meaning-1",
+          "pos": "n.",
+          "fa": "برد مدار چاپی",
+          "en": "A rigid or flexible insulating board with conductive tracks and pads for connecting electronic components.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Copper tracks run between the pads on the printed circuit board.",
+          "fa": "مسیرهای مسی میان پدهای برد مدار چاپی امتداد دارند.",
+          "senseId": "printed-circuit-board:meaning-1"
+        },
+        {
+          "en": "The designer moved a mounting hole on the printed circuit board.",
+          "fa": "طراح جای یک سوراخ نصب را روی برد مدار چاپی تغییر داد.",
+          "senseId": "printed-circuit-board:meaning-1"
+        }
+      ],
+      "col": [
+        "a printed circuit board layout｜طرح برد مدار چاپی",
+        "a printed circuit board trace｜مسیر رسانای برد مدار چاپی",
+        "a printed circuit board assembly｜مجموعهٔ مونتاژشدهٔ برد مدار چاپی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "صورت کوتاه رایج PCB است. board می‌تواند بردِ بدون قطعات باشد؛ assembly معمولاً مجموعهٔ برد و قطعات نصب‌شده را می‌رساند.",
+      "media": {
+        "img": "atlas/img/printed-circuit-board.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "inductor",
+      "w": "inductor",
+      "uk": "/ɪnˈdʌktə/",
+      "us": "/ɪnˈdʌktər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "inductor:meaning-1",
+          "pos": "n.",
+          "fa": "القاگر؛ سلف",
+          "en": "A passive electrical component that stores energy in a magnetic field when current flows through it.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The inductor has a copper winding around a ring-shaped core.",
+          "fa": "القاگر یک سیم‌پیچ مسی دور هسته‌ای حلقه‌ای دارد.",
+          "senseId": "inductor:meaning-1"
+        },
+        {
+          "en": "The inductor opposes rapid changes in the current through it.",
+          "fa": "القاگر با تغییرات سریع جریانِ عبوری از خود مخالفت می‌کند.",
+          "senseId": "inductor:meaning-1"
+        }
+      ],
+      "col": [
+        "an inductor coil｜سیم‌پیچ القاگر",
+        "an inductor core｜هستهٔ القاگر",
+        "a power inductor｜القاگر قدرت"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "سلف نام رایج inductor در الکترونیک فارسی است. این قطعه با تغییر جریان ارتباط دارد؛ نباید آن را با مقاومت یا خازن یکی دانست.",
+      "media": {
+        "img": "atlas/img/inductor.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/university-physics-volume-2/pages/14-2-self-inductance-and-inductors",
+            "use": "Checked inductance and magnetic energy; original text and art."
+          }
+        ]
+      }
+    },
+    {
+      "id": "led",
+      "w": "LED",
+      "uk": "/ˌel iː ˈdiː/",
+      "us": "/ˌel iː ˈdiː/",
+      "cefr": "B1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "led:meaning-1",
+          "pos": "n.",
+          "fa": "دیود نورگسیل؛ ال‌ای‌دی",
+          "en": "A semiconductor diode that emits light when an appropriate forward current passes through it.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The small LED has two leads and a rounded plastic body.",
+          "fa": "این ال‌ای‌دی کوچک دو پایه و بدنه‌ای پلاستیکی و گرد دارد.",
+          "senseId": "led:meaning-1"
+        },
+        {
+          "en": "A green LED indicates that the device is ready.",
+          "fa": "یک ال‌ای‌دی سبز نشان می‌دهد که دستگاه آماده است.",
+          "senseId": "led:meaning-1"
+        }
+      ],
+      "col": [
+        "an LED indicator｜نشانگر ال‌ای‌دی",
+        "an LED lead｜پایهٔ ال‌ای‌دی",
+        "an LED package｜محفظهٔ ال‌ای‌دی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "LED کوتاه‌شدهٔ light-emitting diode است و حرف‌به‌حرف خوانده می‌شود؛ با led، گذشتهٔ فعل lead، تفاوت دارد. تصویر یک قطعهٔ دوپایهٔ مجزا را نشان می‌دهد، نه همهٔ شکل‌های LED.",
+      "media": {
+        "img": "atlas/img/led.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "potentiometer",
+      "w": "potentiometer",
+      "uk": "/pəˌtenʃiˈɒmɪtə/",
+      "us": "/pəˌtenʃiˈɑːmɪtər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "potentiometer:meaning-1",
+          "pos": "n.",
+          "fa": "پتانسیومتر",
+          "en": "A three-terminal variable resistor with a movable contact along a resistive element.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The potentiometer has a rotating shaft and three terminals.",
+          "fa": "پتانسیومتر یک محور چرخان و سه پایه دارد.",
+          "senseId": "potentiometer:meaning-1"
+        },
+        {
+          "en": "The knob moves the potentiometer’s wiper along the resistive track.",
+          "fa": "پیچ تنظیم، تماس لغزندهٔ پتانسیومتر را روی مسیر مقاومتی حرکت می‌دهد.",
+          "senseId": "potentiometer:meaning-1"
+        }
+      ],
+      "col": [
+        "a rotary potentiometer｜پتانسیومتر چرخشی",
+        "a potentiometer wiper｜تماس لغزندهٔ پتانسیومتر",
+        "a potentiometer shaft｜محور پتانسیومتر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "دو پایه به دو سر عنصر مقاومتی و پایهٔ سوم به تماس متحرک، یا wiper، وصل است. کاربرد آن به مدار بستگی دارد؛ با یک مقاومت ثابت تفاوت دارد.",
+      "media": {
+        "img": "atlas/img/potentiometer.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.analog.com/en/resources/glossary/potentiometer.html",
+            "use": "Checked three terminals and moving wiper; original text and art."
+          }
+        ]
+      }
+    },
+    {
+      "id": "heat-sink",
+      "w": "heat sink",
+      "uk": "/ˈhiːt sɪŋk/",
+      "us": "/ˈhiːt sɪŋk/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "heat-sink:meaning-1",
+          "pos": "n.",
+          "fa": "گرماگیر؛ هیت‌سینک",
+          "en": "A part that transfers heat from a component to its surroundings, often through a metal base and fins.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The heat sink has thin aluminum fins above a solid base.",
+          "fa": "گرماگیر بالای یک پایهٔ یکپارچه، پره‌های نازک آلومینیومی دارد.",
+          "senseId": "heat-sink:meaning-1"
+        },
+        {
+          "en": "Good contact helps heat pass from the component into the heat sink.",
+          "fa": "تماس مناسب کمک می‌کند گرما از قطعه به گرماگیر منتقل شود.",
+          "senseId": "heat-sink:meaning-1"
+        }
+      ],
+      "col": [
+        "an aluminum heat sink｜گرماگیر آلومینیومی",
+        "a heat sink fin｜پرهٔ گرماگیر",
+        "a heat sink base｜پایهٔ گرماگیر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "در این کاربرد sink به معنی سینک ظرف‌شویی نیست. پره‌ها سطح تماس با هوا را افزایش می‌دهند؛ گرماگیر به‌تنهایی گرما را ناپدید نمی‌کند و لزوماً فن ندارد.",
+      "media": {
+        "img": "atlas/img/heat-sink.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.eaton.com/us/en-us/products/thermal-management-solutions/cooling-architecture/improve-heat-sink-performance-by-optimizing-the-base.html",
+            "use": "Checked base-to-fin heat-transfer description; original wording and original generated artwork."
+          }
+        ]
+      }
+    },
+    {
+      "id": "busbar",
+      "w": "busbar",
+      "uk": "/ˈbʌsbɑː/",
+      "us": "/ˈbʌsbɑːr/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "busbar:meaning-1",
+          "pos": "n.",
+          "fa": "شینهٔ برق",
+          "en": "A rigid conductive bar that collects or distributes electric current among several connections.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The copper busbar has several holes for bolted connections.",
+          "fa": "شینهٔ مسی چند سوراخ برای اتصال‌های پیچی دارد.",
+          "senseId": "busbar:meaning-1"
+        },
+        {
+          "en": "Insulating supports hold the busbar clear of the metal enclosure.",
+          "fa": "تکیه‌گاه‌های عایق، شینه را با فاصله از محفظهٔ فلزی نگه می‌دارند.",
+          "senseId": "busbar:meaning-1"
+        }
+      ],
+      "col": [
+        "a copper busbar｜شینهٔ مسی",
+        "a busbar connection｜اتصال شینه",
+        "a busbar support｜تکیه‌گاه شینه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "busbar در اینجا میله یا تسمهٔ رسانای توزیع جریان است. با bus در حمل‌ونقل یا گذرگاه دادهٔ رایانه یکی نیست؛ شکل و جنس شینه‌ها می‌تواند متفاوت باشد.",
+      "media": {
+        "img": "atlas/img/busbar.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "solenoid",
+      "w": "solenoid",
+      "uk": "/ˈsɒlənɔɪd/",
+      "us": "/ˈsɑːlənɔɪd/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "solenoid:meaning-1",
+          "pos": "n.",
+          "fa": "عملگر سلونوئیدی",
+          "en": "An electromagnetic actuator in which an energized coil moves an iron plunger along its axis.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The solenoid has a coil around a sliding iron plunger.",
+          "fa": "این عملگر سلونوئیدی یک سیم‌پیچ دور هستهٔ آهنیِ لغزنده دارد.",
+          "senseId": "solenoid:meaning-1"
+        },
+        {
+          "en": "A return spring moves the solenoid’s plunger back after the coil is switched off.",
+          "fa": "یک فنر بازگردان، پس از خاموش شدن سیم‌پیچ، هستهٔ متحرک سلونوئید را به عقب برمی‌گرداند.",
+          "senseId": "solenoid:meaning-1"
+        }
+      ],
+      "col": [
+        "a solenoid actuator｜عملگر سلونوئیدی",
+        "a solenoid plunger｜هستهٔ متحرک سلونوئید",
+        "a solenoid coil｜سیم‌پیچ سلونوئید"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "این کارت معنیِ عملگرِ دارای هستهٔ متحرک را آموزش می‌دهد. در فیزیک، solenoid می‌تواند خودِ سیم‌پیچ بلند را هم بنامد؛ همهٔ طرح‌های عملگر فنر بازگردان ندارند.",
+      "media": {
+        "img": "atlas/img/solenoid.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.bicronusa.com/resources/bicron-dc-solenoids-technical-guide/",
+            "use": "Checked actuator coil/plunger and return-spring terminology; original text and art."
+          },
+          {
+            "url": "https://openstax.org/books/university-physics-volume-2/pages/12-6-solenoids-and-toroids",
+            "use": "Checked distinction between the physics coil sense and selected actuator sense; original text and art."
+          }
+        ]
+      }
+    },
+    {
+      "id": "electromagnet",
+      "w": "electromagnet",
+      "uk": "/ɪˌlektrəʊˈmæɡnɪt/",
+      "us": "/ɪˌlektroʊˈmæɡnɪt/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "electromagnet:meaning-1",
+          "pos": "n.",
+          "fa": "آهنربای الکتریکی",
+          "en": "A magnet whose magnetic field is produced by an electric current, often in a coil around an iron core.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The electromagnet attracts small steel washers while current flows through its coil.",
+          "fa": "تا زمانی که جریان از سیم‌پیچ می‌گذرد، آهنربای الکتریکی واشرهای فولادی کوچک را جذب می‌کند.",
+          "senseId": "electromagnet:meaning-1"
+        },
+        {
+          "en": "The wire is wound around the iron core of the electromagnet.",
+          "fa": "سیم دور هستهٔ آهنیِ آهنربای الکتریکی پیچیده شده است.",
+          "senseId": "electromagnet:meaning-1"
+        }
+      ],
+      "col": [
+        "an electromagnet coil｜سیم‌پیچ آهنربای الکتریکی",
+        "an electromagnet core｜هستهٔ آهنربای الکتریکی",
+        "an electromagnet pole｜قطب آهنربای الکتریکی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "میدانِ این آهنربا از جریان الکتریکی پدید می‌آید؛ با آهنربای دائمی تفاوت دارد. همهٔ فلزها جذب آهنربا نمی‌شوند؛ مثال به واشر فولادی اشاره دارد.",
+      "media": {
+        "img": "atlas/img/electromagnet.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/university-physics-volume-2/pages/12-6-solenoids-and-toroids",
+            "use": "Checked current-produced magnetic field; original text and art."
+          }
+        ]
+      }
+    },
+    {
+      "id": "oscilloscope",
+      "w": "oscilloscope",
+      "uk": "/əˈsɪləskəʊp/",
+      "us": "/əˈsɪləskoʊp/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "oscilloscope:meaning-1",
+          "pos": "n.",
+          "fa": "اسیلوسکوپ",
+          "en": "An instrument that displays an electrical signal as a graph, commonly showing voltage changing over time.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The oscilloscope displays the signal as a repeating wave.",
+          "fa": "اسیلوسکوپ سیگنال را به شکل موجی تکرارشونده نمایش می‌دهد.",
+          "senseId": "oscilloscope:meaning-1"
+        },
+        {
+          "en": "The technician compared two signals on the oscilloscope screen.",
+          "fa": "تکنسین دو سیگنال را روی نمایشگر اسیلوسکوپ مقایسه کرد.",
+          "senseId": "oscilloscope:meaning-1"
+        }
+      ],
+      "col": [
+        "an oscilloscope screen｜نمایشگر اسیلوسکوپ",
+        "an oscilloscope probe｜پروب اسیلوسکوپ",
+        "an oscilloscope trace｜ردّ سیگنال روی اسیلوسکوپ"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "برخلاف نمایشِ یک عدد، ردّ سیگنال تغییرات آن را در زمان نشان می‌دهد. موجِ تصویر شماتیک و آموزشی است و اندازه‌گیری واقعی یا نتیجهٔ پزشکی نیست.",
+      "media": {
+        "img": "atlas/img/oscilloscope.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.tek.com/en/documents/primer/oscilloscope-basics",
+            "use": "Checked voltage-over-time display and waveform terminology; original text and art."
           }
         ]
       }

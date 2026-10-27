@@ -1718,7 +1718,115 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 98,
+      "targetCategoryWords": 110,
+      "entryIds": [
+        "x-ray",
+        "ultrasound",
+        "mri",
+        "ct-scan",
+        "blood-test",
+        "urine-test",
+        "incisor",
+        "canine",
+        "premolar",
+        "enamel",
+        "dentine",
+        "root-canal"
+      ],
+      "units": [
+        {
+          "id": "imaging-and-laboratory",
+          "title": "Imaging and laboratory examinations",
+          "entryIds": [
+            "x-ray",
+            "ultrasound",
+            "mri",
+            "ct-scan",
+            "blood-test",
+            "urine-test"
+          ]
+        },
+        {
+          "id": "dental-anatomy",
+          "title": "Tooth forms, tissues and root passages",
+          "entryIds": [
+            "incisor",
+            "canine",
+            "premolar",
+            "enamel",
+            "dentine",
+            "root-canal"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-6",
+      "releaseId": "2026-10-preview-11",
+      "status": "published-preview",
+      "objective": "Describe diagnostic imaging, laboratory tests, dental anatomy and electrical components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 98,
+      "targetCategoryWords": 110,
+      "entryIds": [
+        "circuit-breaker",
+        "terminal-block",
+        "connector",
+        "printed-circuit-board",
+        "inductor",
+        "led",
+        "potentiometer",
+        "heat-sink",
+        "busbar",
+        "solenoid",
+        "electromagnet",
+        "oscilloscope"
+      ],
+      "units": [
+        {
+          "id": "electrical-components",
+          "title": "Electrical protection, connections and components",
+          "entryIds": [
+            "circuit-breaker",
+            "terminal-block",
+            "connector",
+            "printed-circuit-board",
+            "inductor",
+            "led"
+          ]
+        },
+        {
+          "id": "control-magnetism-and-measurement",
+          "title": "Control, heat transfer, magnetism and signal observation",
+          "entryIds": [
+            "potentiometer",
+            "heat-sink",
+            "busbar",
+            "solenoid",
+            "electromagnet",
+            "oscilloscope"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-6",
+      "releaseId": "2026-10-preview-11",
+      "status": "published-preview",
+      "objective": "Describe diagnostic imaging, laboratory tests, dental anatomy and electrical components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-5"
+  "activePassId": "specialist-500-batch-6"
 }

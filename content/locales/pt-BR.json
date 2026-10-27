@@ -13622,6 +13622,822 @@
         }
       ],
       "tip": "Radius aqui é o raio de um círculo, não o osso do antebraço. Diameter vai de uma borda à oposta; radius vai apenas do centro a uma borda."
+    },
+    "x-ray": {
+      "sourceWord": "X-ray",
+      "senses": {
+        "x-ray:meaning-1": {
+          "gloss": "radiografia",
+          "definition": "Uma imagem do interior do corpo produzida com raios X."
+        }
+      },
+      "examples": [
+        {
+          "en": "The doctor examined an X-ray of the hand.",
+          "translation": "A médica examinou uma radiografia da mão."
+        },
+        {
+          "en": "The X-ray shows the bones as pale shapes.",
+          "translation": "A radiografia mostra os ossos como formas claras."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a chest X-ray",
+          "translation": "uma radiografia do tórax"
+        },
+        {
+          "en": "a dental X-ray",
+          "translation": "uma radiografia dentária"
+        },
+        {
+          "en": "examine an X-ray",
+          "translation": "examinar uma radiografia"
+        }
+      ],
+      "tip": "X-ray aqui é a imagem, não a radiação nem o aparelho. A ilustração educativa não serve para diagnóstico."
+    },
+    "ultrasound": {
+      "sourceWord": "ultrasound",
+      "senses": {
+        "ultrasound:meaning-1": {
+          "gloss": "ultrassonografia",
+          "definition": "Um método que usa ondas sonoras de alta frequência para produzir imagens do interior do corpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "Ultrasound uses a probe connected to a scanner.",
+          "translation": "A ultrassonografia usa uma sonda conectada ao aparelho."
+        },
+        {
+          "en": "The clinician used ultrasound to view an internal organ.",
+          "translation": "A profissional de saúde usou ultrassonografia para visualizar um órgão interno."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an ultrasound examination",
+          "translation": "um exame de ultrassonografia"
+        },
+        {
+          "en": "an ultrasound probe",
+          "translation": "uma sonda de ultrassom"
+        },
+        {
+          "en": "ultrasound imaging",
+          "translation": "imagem por ultrassom"
+        }
+      ],
+      "tip": "Ultrasound aqui é o método de imagem, que usa som, não raios X. Sonogram pode nomear a imagem obtida."
+    },
+    "mri": {
+      "sourceWord": "MRI",
+      "senses": {
+        "mri:meaning-1": {
+          "gloss": "ressonância magnética",
+          "definition": "Um método que usa um campo magnético e ondas de rádio para produzir imagens do interior do corpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The hospital has an MRI scanner with a long central tunnel.",
+          "translation": "O hospital tem um aparelho de ressonância magnética com um túnel central longo."
+        },
+        {
+          "en": "The radiologist reviewed the MRI images.",
+          "translation": "A radiologista analisou as imagens de ressonância magnética."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an MRI scan",
+          "translation": "um exame de ressonância magnética"
+        },
+        {
+          "en": "an MRI scanner",
+          "translation": "um aparelho de ressonância magnética"
+        },
+        {
+          "en": "MRI images",
+          "translation": "imagens de ressonância magnética"
+        }
+      ],
+      "tip": "MRI significa magnetic resonance imaging. Diferentemente da CT, não usa raios X. A imagem mostra um modelo cilíndrico; há outros formatos de aparelho."
+    },
+    "ct-scan": {
+      "sourceWord": "CT scan",
+      "senses": {
+        "ct-scan:meaning-1": {
+          "gloss": "tomografia computadorizada",
+          "definition": "Um exame que usa raios X de diferentes ângulos e um computador para produzir imagens em cortes do interior do corpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The CT scan produced a series of cross-sectional images.",
+          "translation": "A tomografia computadorizada produziu uma série de imagens em cortes."
+        },
+        {
+          "en": "The CT scanner has a short ring around the patient table.",
+          "translation": "O tomógrafo tem um anel curto ao redor da mesa do paciente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a chest CT scan",
+          "translation": "uma tomografia do tórax"
+        },
+        {
+          "en": "a CT scanner",
+          "translation": "um tomógrafo"
+        },
+        {
+          "en": "CT scan images",
+          "translation": "imagens de tomografia computadorizada"
+        }
+      ],
+      "tip": "CT significa computed tomography. Usa raios X; a MRI usa campo magnético e ondas de rádio. O aparelho ilustrado tem um anel mais curto que o modelo de MRI desta coleção."
+    },
+    "blood-test": {
+      "sourceWord": "blood test",
+      "senses": {
+        "blood-test:meaning-1": {
+          "gloss": "exame de sangue",
+          "definition": "Uma análise de uma amostra de sangue para medir ou verificar substâncias, células ou outras características."
+        }
+      },
+      "examples": [
+        {
+          "en": "The laboratory received a sample for a blood test.",
+          "translation": "O laboratório recebeu uma amostra para um exame de sangue."
+        },
+        {
+          "en": "The clinician discussed the blood test results with the patient.",
+          "translation": "A profissional de saúde conversou com o paciente sobre os resultados do exame de sangue."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a blood test sample",
+          "translation": "uma amostra para exame de sangue"
+        },
+        {
+          "en": "blood test results",
+          "translation": "resultados de exame de sangue"
+        },
+        {
+          "en": "a routine blood test",
+          "translation": "um exame de sangue de rotina"
+        }
+      ],
+      "tip": "Blood test é a análise da amostra; a coleta de sangue é a etapa de obtenção do material. Um único exame não investiga todas as doenças."
+    },
+    "urine-test": {
+      "sourceWord": "urine test",
+      "senses": {
+        "urine-test:meaning-1": {
+          "gloss": "exame de urina",
+          "definition": "Uma análise de uma amostra de urina para verificar características físicas, químicas ou microscópicas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The sample container was sent to the laboratory for a urine test.",
+          "translation": "O recipiente com a amostra foi enviado ao laboratório para um exame de urina."
+        },
+        {
+          "en": "The urine test included a microscopic examination.",
+          "translation": "O exame de urina incluiu uma avaliação microscópica."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a urine test sample",
+          "translation": "uma amostra para exame de urina"
+        },
+        {
+          "en": "urine test results",
+          "translation": "resultados de exame de urina"
+        },
+        {
+          "en": "a routine urine test",
+          "translation": "um exame de urina de rotina"
+        }
+      ],
+      "tip": "Urine test aqui é a análise de uma amostra de urina. Urinalysis é um nome técnico comum para essa avaliação. A cor da ilustração não indica um resultado diagnóstico."
+    },
+    "incisor": {
+      "sourceWord": "incisor",
+      "senses": {
+        "incisor:meaning-1": {
+          "gloss": "dente incisivo",
+          "definition": "Um dente da frente com uma borda de corte relativamente plana, usado para morder alimentos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The incisor has a broad crown and a thin cutting edge.",
+          "translation": "O incisivo tem uma coroa larga e uma borda de corte fina."
+        },
+        {
+          "en": "The dentist examined an upper incisor.",
+          "translation": "A dentista examinou um incisivo superior."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an upper incisor",
+          "translation": "um incisivo superior"
+        },
+        {
+          "en": "a central incisor",
+          "translation": "um incisivo central"
+        },
+        {
+          "en": "an incisor edge",
+          "translation": "a borda de um incisivo"
+        }
+      ],
+      "tip": "Incisor é o dente da frente com borda cortante; canine tem uma ponta mais marcada. A imagem mostra um incisivo central."
+    },
+    "canine": {
+      "sourceWord": "canine",
+      "senses": {
+        "canine:meaning-1": {
+          "gloss": "dente canino",
+          "definition": "Um dente pontudo situado entre os incisivos e os pré-molares na boca adulta."
+        }
+      },
+      "examples": [
+        {
+          "en": "The canine has one prominent pointed cusp.",
+          "translation": "O canino tem uma cúspide pontuda bem marcada."
+        },
+        {
+          "en": "The dentist compared the canine with the neighboring incisor.",
+          "translation": "A dentista comparou o canino com o incisivo ao lado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an upper canine",
+          "translation": "um canino superior"
+        },
+        {
+          "en": "a canine tooth",
+          "translation": "um dente canino"
+        },
+        {
+          "en": "a canine cusp",
+          "translation": "a cúspide de um canino"
+        }
+      ],
+      "tip": "Canine aqui é o dente canino, não um cão nem o adjetivo relativo a cães. Sua ponta o distingue do incisivo de borda mais plana."
+    },
+    "premolar": {
+      "sourceWord": "premolar",
+      "senses": {
+        "premolar:meaning-1": {
+          "gloss": "dente pré-molar",
+          "definition": "Um dente da dentição permanente entre o canino e os molares, com cúspides elevadas na superfície de mastigação."
+        }
+      },
+      "examples": [
+        {
+          "en": "The premolar has raised cusps on its chewing surface.",
+          "translation": "O pré-molar tem cúspides elevadas na superfície de mastigação."
+        },
+        {
+          "en": "The model places the premolar between the canine and a molar.",
+          "translation": "O modelo mostra o pré-molar entre o canino e um molar."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a first premolar",
+          "translation": "um primeiro pré-molar"
+        },
+        {
+          "en": "a lower premolar",
+          "translation": "um pré-molar inferior"
+        },
+        {
+          "en": "a premolar crown",
+          "translation": "a coroa de um pré-molar"
+        }
+      ],
+      "tip": "Premolar é diferente de molar. A forma e o número de raízes e cúspides variam; a imagem mostra um exemplo simplificado com duas cúspides principais."
+    },
+    "enamel": {
+      "sourceWord": "enamel",
+      "senses": {
+        "enamel:meaning-1": {
+          "gloss": "esmalte dentário",
+          "definition": "O tecido duro que recobre a parte externa da coroa de um dente."
+        }
+      },
+      "examples": [
+        {
+          "en": "Enamel covers the outside of the tooth crown.",
+          "translation": "O esmalte recobre a parte externa da coroa do dente."
+        },
+        {
+          "en": "The diagram shows enamel above the underlying dentine.",
+          "translation": "O esquema mostra o esmalte sobre a dentina subjacente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "tooth enamel",
+          "translation": "esmalte dentário"
+        },
+        {
+          "en": "an enamel layer",
+          "translation": "uma camada de esmalte"
+        },
+        {
+          "en": "the enamel surface",
+          "translation": "a superfície do esmalte"
+        }
+      ],
+      "tip": "Enamel aqui é o tecido externo da coroa dentária, não esmalte de objetos ou tinta. Não cobre toda a raiz; abaixo dele fica a dentina."
+    },
+    "dentine": {
+      "sourceWord": "dentine",
+      "senses": {
+        "dentine:meaning-1": {
+          "gloss": "dentina",
+          "definition": "O tecido duro sob o esmalte ou o cemento que forma a maior parte do dente ao redor da polpa."
+        }
+      },
+      "examples": [
+        {
+          "en": "Dentine lies beneath the enamel in the crown.",
+          "translation": "A dentina fica sob o esmalte na coroa."
+        },
+        {
+          "en": "The tooth model shows dentine surrounding the pulp space.",
+          "translation": "O modelo de dente mostra a dentina ao redor do espaço da polpa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a dentine layer",
+          "translation": "uma camada de dentina"
+        },
+        {
+          "en": "exposed dentine",
+          "translation": "dentina exposta"
+        },
+        {
+          "en": "dentine tubules",
+          "translation": "túbulos dentinários"
+        }
+      ],
+      "tip": "Dentine é a grafia britânica; dentin é a grafia americana comum do mesmo tecido. Dentina é diferente do esmalte e da polpa mole."
+    },
+    "root-canal": {
+      "sourceWord": "root canal",
+      "senses": {
+        "root-canal:meaning-1": {
+          "gloss": "canal radicular",
+          "definition": "Uma passagem estreita dentro da raiz do dente que contém tecido pulpar e se conecta à câmara pulpar."
+        }
+      },
+      "examples": [
+        {
+          "en": "The root canal runs through the tooth root.",
+          "translation": "O canal radicular percorre o interior da raiz do dente."
+        },
+        {
+          "en": "The cutaway model shows the root canal below the pulp chamber.",
+          "translation": "O modelo em corte mostra o canal radicular abaixo da câmara pulpar."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a root canal opening",
+          "translation": "uma abertura do canal radicular"
+        },
+        {
+          "en": "the root canal space",
+          "translation": "o espaço do canal radicular"
+        },
+        {
+          "en": "the root canal system",
+          "translation": "o sistema de canais radiculares"
+        }
+      ],
+      "tip": "Root canal aqui é a passagem anatômica, não o tratamento. Na fala, pode abreviar root canal treatment. A forma e o número de canais variam."
+    },
+    "circuit-breaker": {
+      "sourceWord": "circuit breaker",
+      "senses": {
+        "circuit-breaker:meaning-1": {
+          "gloss": "disjuntor",
+          "definition": "Um dispositivo de proteção que abre automaticamente um circuito elétrico quando a corrente ultrapassa o limite para o qual foi projetado."
+        }
+      },
+      "examples": [
+        {
+          "en": "The circuit breaker opened when too much current flowed through the circuit.",
+          "translation": "O disjuntor abriu quando uma corrente excessiva passou pelo circuito."
+        },
+        {
+          "en": "A resettable circuit breaker protects the small test panel.",
+          "translation": "Um disjuntor rearmável protege o pequeno painel de teste."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a circuit breaker panel",
+          "translation": "um quadro de disjuntores"
+        },
+        {
+          "en": "a circuit breaker switch",
+          "translation": "uma alavanca de disjuntor"
+        },
+        {
+          "en": "a resettable circuit breaker",
+          "translation": "um disjuntor rearmável"
+        }
+      ],
+      "tip": "Esta acepção trata da proteção contra sobrecorrente. Ao contrário de um fusível que se funde, muitos disjuntores podem ser rearmados depois de corrigida a falha; rearmar não corrige a falha."
+    },
+    "terminal-block": {
+      "sourceWord": "terminal block",
+      "senses": {
+        "terminal-block:meaning-1": {
+          "gloss": "borne de conexão",
+          "definition": "Um suporte isolante com terminais que prendem e conectam eletricamente as extremidades dos fios."
+        }
+      },
+      "examples": [
+        {
+          "en": "The two wires meet at a terminal block inside the enclosure.",
+          "translation": "Os dois fios se encontram em um borne de conexão dentro da caixa."
+        },
+        {
+          "en": "Insulating barriers separate the connections on the terminal block.",
+          "translation": "Barreiras isolantes separam as conexões no borne."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a screw terminal block",
+          "translation": "um borne de conexão com parafuso"
+        },
+        {
+          "en": "a terminal block connection",
+          "translation": "uma conexão no borne"
+        },
+        {
+          "en": "an insulated terminal block",
+          "translation": "um borne isolado"
+        }
+      ],
+      "tip": "Terminal aqui é um ponto de conexão elétrica. Os terminais de um mesmo bloco não estão necessariamente todos interligados; isso depende da construção de cada canal."
+    },
+    "connector": {
+      "sourceWord": "connector",
+      "senses": {
+        "connector:meaning-1": {
+          "gloss": "conector",
+          "definition": "Um componente com contatos elétricos correspondentes que une fios ou partes de um circuito."
+        }
+      },
+      "examples": [
+        {
+          "en": "The connector joins the sensor cable to the control board.",
+          "translation": "O conector liga o cabo do sensor à placa de controle."
+        },
+        {
+          "en": "The two halves of the connector have matching pins and sockets.",
+          "translation": "As duas metades do conector têm pinos e contatos de encaixe correspondentes."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an electrical connector",
+          "translation": "um conector elétrico"
+        },
+        {
+          "en": "a cable connector",
+          "translation": "um conector de cabo"
+        },
+        {
+          "en": "a connector pin",
+          "translation": "um pino de conector"
+        }
+      ],
+      "tip": "Connector é um termo geral. Aqui ele designa uma conexão elétrica; nem todo conector é um plugue de tomada ou tem o mesmo formato."
+    },
+    "printed-circuit-board": {
+      "sourceWord": "printed circuit board",
+      "senses": {
+        "printed-circuit-board:meaning-1": {
+          "gloss": "placa de circuito impresso",
+          "definition": "Uma placa isolante rígida ou flexível com trilhas e ilhas condutoras para interligar componentes eletrônicos."
+        }
+      },
+      "examples": [
+        {
+          "en": "Copper tracks run between the pads on the printed circuit board.",
+          "translation": "Trilhas de cobre passam entre as ilhas da placa de circuito impresso."
+        },
+        {
+          "en": "The designer moved a mounting hole on the printed circuit board.",
+          "translation": "O projetista mudou a posição de um furo de fixação na placa de circuito impresso."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a printed circuit board layout",
+          "translation": "um leiaute de placa de circuito impresso"
+        },
+        {
+          "en": "a printed circuit board trace",
+          "translation": "uma trilha de placa de circuito impresso"
+        },
+        {
+          "en": "a printed circuit board assembly",
+          "translation": "uma montagem de placa de circuito impresso"
+        }
+      ],
+      "tip": "A abreviação comum é PCB. Board pode indicar a placa sem componentes; assembly geralmente se refere à placa com os componentes montados."
+    },
+    "inductor": {
+      "sourceWord": "inductor",
+      "senses": {
+        "inductor:meaning-1": {
+          "gloss": "indutor",
+          "definition": "Um componente elétrico passivo que armazena energia em um campo magnético quando há corrente passando por ele."
+        }
+      },
+      "examples": [
+        {
+          "en": "The inductor has a copper winding around a ring-shaped core.",
+          "translation": "O indutor tem um enrolamento de cobre ao redor de um núcleo em forma de anel."
+        },
+        {
+          "en": "The inductor opposes rapid changes in the current through it.",
+          "translation": "O indutor se opõe a mudanças rápidas na corrente que passa por ele."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an inductor coil",
+          "translation": "uma bobina de indutor"
+        },
+        {
+          "en": "an inductor core",
+          "translation": "um núcleo de indutor"
+        },
+        {
+          "en": "a power inductor",
+          "translation": "um indutor de potência"
+        }
+      ],
+      "tip": "Inductor é indutor em eletrônica. Sua ação está ligada à variação da corrente; ele não é o mesmo componente que um resistor ou um capacitor."
+    },
+    "led": {
+      "sourceWord": "LED",
+      "senses": {
+        "led:meaning-1": {
+          "gloss": "LED; diodo emissor de luz",
+          "definition": "Um diodo semicondutor que emite luz quando uma corrente adequada no sentido direto passa por ele."
+        }
+      },
+      "examples": [
+        {
+          "en": "The small LED has two leads and a rounded plastic body.",
+          "translation": "O pequeno LED tem dois terminais e um corpo arredondado de plástico."
+        },
+        {
+          "en": "A green LED indicates that the device is ready.",
+          "translation": "Um LED verde indica que o dispositivo está pronto."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an LED indicator",
+          "translation": "um indicador LED"
+        },
+        {
+          "en": "an LED lead",
+          "translation": "um terminal de LED"
+        },
+        {
+          "en": "an LED package",
+          "translation": "um encapsulamento de LED"
+        }
+      ],
+      "tip": "LED abrevia light-emitting diode e é pronunciado letra por letra em inglês. Não confunda com led, passado de lead. A imagem mostra um componente discreto de dois terminais; há outros formatos."
+    },
+    "potentiometer": {
+      "sourceWord": "potentiometer",
+      "senses": {
+        "potentiometer:meaning-1": {
+          "gloss": "potenciômetro",
+          "definition": "Um resistor variável de três terminais com um contato móvel ao longo de um elemento resistivo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The potentiometer has a rotating shaft and three terminals.",
+          "translation": "O potenciômetro tem um eixo giratório e três terminais."
+        },
+        {
+          "en": "The knob moves the potentiometer’s wiper along the resistive track.",
+          "translation": "O botão move o cursor do potenciômetro ao longo da trilha resistiva."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a rotary potentiometer",
+          "translation": "um potenciômetro rotativo"
+        },
+        {
+          "en": "a potentiometer wiper",
+          "translation": "um cursor de potenciômetro"
+        },
+        {
+          "en": "a potentiometer shaft",
+          "translation": "um eixo de potenciômetro"
+        }
+      ],
+      "tip": "Dois terminais se ligam às extremidades do elemento resistivo; o terceiro se liga ao contato móvel, chamado wiper em inglês. Sua função depende do circuito e difere da de um resistor fixo."
+    },
+    "heat-sink": {
+      "sourceWord": "heat sink",
+      "senses": {
+        "heat-sink:meaning-1": {
+          "gloss": "dissipador de calor",
+          "definition": "Uma peça que transfere calor de um componente para o ambiente, muitas vezes por meio de uma base metálica e aletas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The heat sink has thin aluminum fins above a solid base.",
+          "translation": "O dissipador de calor tem aletas finas de alumínio sobre uma base maciça."
+        },
+        {
+          "en": "Good contact helps heat pass from the component into the heat sink.",
+          "translation": "Um bom contato ajuda o calor a passar do componente para o dissipador."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an aluminum heat sink",
+          "translation": "um dissipador de calor de alumínio"
+        },
+        {
+          "en": "a heat sink fin",
+          "translation": "uma aleta de dissipador de calor"
+        },
+        {
+          "en": "a heat sink base",
+          "translation": "uma base de dissipador de calor"
+        }
+      ],
+      "tip": "Sink aqui não significa pia. As aletas aumentam a área exposta ao ar; o dissipador transfere calor, não o faz desaparecer, e não precisa ter uma ventoinha."
+    },
+    "busbar": {
+      "sourceWord": "busbar",
+      "senses": {
+        "busbar:meaning-1": {
+          "gloss": "barramento elétrico",
+          "definition": "Uma barra condutora rígida que reúne ou distribui corrente elétrica entre várias conexões."
+        }
+      },
+      "examples": [
+        {
+          "en": "The copper busbar has several holes for bolted connections.",
+          "translation": "O barramento de cobre tem vários furos para conexões aparafusadas."
+        },
+        {
+          "en": "Insulating supports hold the busbar clear of the metal enclosure.",
+          "translation": "Suportes isolantes mantêm o barramento afastado da caixa metálica."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a copper busbar",
+          "translation": "um barramento de cobre"
+        },
+        {
+          "en": "a busbar connection",
+          "translation": "uma conexão de barramento"
+        },
+        {
+          "en": "a busbar support",
+          "translation": "um suporte de barramento"
+        }
+      ],
+      "tip": "Busbar aqui é uma barra condutora de distribuição de corrente. Não significa ônibus nem o barramento de dados de um computador; seu formato e material podem variar."
+    },
+    "solenoid": {
+      "sourceWord": "solenoid",
+      "senses": {
+        "solenoid:meaning-1": {
+          "gloss": "atuador solenoide",
+          "definition": "Um atuador eletromagnético em que uma bobina energizada move um êmbolo de ferro ao longo de seu eixo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The solenoid has a coil around a sliding iron plunger.",
+          "translation": "O solenoide tem uma bobina ao redor de um êmbolo de ferro deslizante."
+        },
+        {
+          "en": "A return spring moves the solenoid’s plunger back after the coil is switched off.",
+          "translation": "Uma mola de retorno faz o êmbolo do solenoide voltar depois que a bobina é desligada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a solenoid actuator",
+          "translation": "um atuador solenoide"
+        },
+        {
+          "en": "a solenoid plunger",
+          "translation": "um êmbolo de solenoide"
+        },
+        {
+          "en": "a solenoid coil",
+          "translation": "uma bobina de solenoide"
+        }
+      ],
+      "tip": "Esta acepção é a do atuador com êmbolo móvel. Em física, solenoid também pode ser a própria bobina longa; nem todo atuador tem mola de retorno."
+    },
+    "electromagnet": {
+      "sourceWord": "electromagnet",
+      "senses": {
+        "electromagnet:meaning-1": {
+          "gloss": "eletroímã",
+          "definition": "Um ímã cujo campo magnético é produzido por corrente elétrica, muitas vezes em uma bobina ao redor de um núcleo de ferro."
+        }
+      },
+      "examples": [
+        {
+          "en": "The electromagnet attracts small steel washers while current flows through its coil.",
+          "translation": "O eletroímã atrai pequenas arruelas de aço enquanto passa corrente por sua bobina."
+        },
+        {
+          "en": "The wire is wound around the iron core of the electromagnet.",
+          "translation": "O fio está enrolado ao redor do núcleo de ferro do eletroímã."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an electromagnet coil",
+          "translation": "uma bobina de eletroímã"
+        },
+        {
+          "en": "an electromagnet core",
+          "translation": "um núcleo de eletroímã"
+        },
+        {
+          "en": "an electromagnet pole",
+          "translation": "um polo de eletroímã"
+        }
+      ],
+      "tip": "O campo deste ímã é produzido por corrente elétrica, ao contrário de um ímã permanente. Nem todos os metais são atraídos; o exemplo usa arruelas de aço."
+    },
+    "oscilloscope": {
+      "sourceWord": "oscilloscope",
+      "senses": {
+        "oscilloscope:meaning-1": {
+          "gloss": "osciloscópio",
+          "definition": "Um instrumento que mostra um sinal elétrico em um gráfico, normalmente a variação da tensão ao longo do tempo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The oscilloscope displays the signal as a repeating wave.",
+          "translation": "O osciloscópio mostra o sinal como uma onda repetitiva."
+        },
+        {
+          "en": "The technician compared two signals on the oscilloscope screen.",
+          "translation": "A técnica comparou dois sinais na tela do osciloscópio."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an oscilloscope screen",
+          "translation": "uma tela de osciloscópio"
+        },
+        {
+          "en": "an oscilloscope probe",
+          "translation": "uma ponta de prova de osciloscópio"
+        },
+        {
+          "en": "an oscilloscope trace",
+          "translation": "um traço de osciloscópio"
+        }
+      ],
+      "tip": "Um traço mostra como o sinal varia no tempo, em vez de apenas um valor numérico. A onda da imagem é uma ilustração didática, não uma medição real nem um resultado médico."
     }
   }
 }
