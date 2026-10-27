@@ -3,6 +3,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { pathToFileURL } from "node:url";
 import { validateReadings } from "./reading-validation.mjs";
+import { compileCourseSources } from "./course-validation.mjs";
 
 export const hash = (value) =>
   crypto.createHash("sha256").update(value).digest("hex");
@@ -383,6 +384,22 @@ export function prepareContent(
   }
   const dataFiles = [];
   const shardData = new Map();
+  const courseBundle = compileCourseSources({
+    root,
+    senseIds: new Set(
+      entries.flatMap((entry) => entry.senses.map((sense) => sense.id)),
+    ),
+    rewriteAsset,
+  });
+  let courses;
+  if (courseBundle.courses.length) {
+    const text = serialize(courseBundle);
+    const sha256 = hash(text);
+    const filePath = `content/courses/${sha256}.json`;
+    courses = { path: filePath, sha256 };
+    dataFiles.push({ path: filePath, sha256, bytes: Buffer.byteLength(text) });
+    shardData.set(filePath, text);
+  }
   const shards = {};
   for (let offset = 0; offset < entries.length; offset += 100) {
     const list = entries.slice(offset, offset + 100);
@@ -416,6 +433,7 @@ export function prepareContent(
     shards,
     examples: entries.reduce((n, e) => n + e.ex.length, 0),
     ...(readings ? { readings } : {}),
+    ...(courses ? { courses } : {}),
   });
   const payloadHash = hash(payloadText);
   const payloadPath = `content/indexes/${payloadHash}.json`;

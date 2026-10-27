@@ -3,6 +3,11 @@ import type { Accent } from "../atlas/types";
 import type { CardState, Grade } from "./srs";
 import { persistOperation, readProgress } from "../lib/persistence";
 import { readingSnapshot, restoreReading } from "../reading/state";
+import {
+  courseSnapshot,
+  restoreCourses,
+  setCourseDataset,
+} from "../courses/state";
 
 export type QuizKind = "meaning" | "picture" | "listen" | "spell";
 export type Step =
@@ -483,6 +488,7 @@ export const store = {
       state = { ...state, progress: local, saveError: true };
     }
     loadedId = datasetId;
+    setCourseDataset(datasetId);
     emit();
   },
   settled: () => pendingWrites,
@@ -541,12 +547,14 @@ export function toggleBookmark(id: string) {
 export function exportBackup() {
   flush();
   const { progress, settings } = state;
+  setCourseDataset(progress.datasetId);
   return JSON.stringify(
     {
       app: "mehrdadika",
       version: 2,
       exported: new Date().toISOString(),
       reading: readingSnapshot(),
+      courses: courseSnapshot(),
       progress: { ...progress, session: null },
       settings,
     },
@@ -583,6 +591,13 @@ export function importBackup(
       ok: false,
       error: "این پشتیبان متعلق به مجموعهٔ واژگان دیگری است.",
     };
+  if (
+    data.courses !== undefined &&
+    (!isObj(data.courses) ||
+      data.courses.version !== 1 ||
+      data.courses.datasetId !== id)
+  )
+    return { ok: false, error: "این پشتیبان دوره متعلق به این مجموعه نیست." };
   const progress = sanitizeProgress({ ...data.progress, session: null }, id);
   const before = state.progress;
   state = {
@@ -592,6 +607,8 @@ export function importBackup(
   };
   enqueueProgress(before, progress, true);
   if (data.reading !== undefined) restoreReading(data.reading);
+  setCourseDataset(id);
+  restoreCourses(data.courses ?? null);
   emit();
   markDirty();
   flush();
@@ -604,6 +621,8 @@ export function resetProgress() {
   state = { ...state, progress };
   enqueueProgress(before, progress, true);
   restoreReading(null);
+  setCourseDataset(state.progress.datasetId);
+  restoreCourses(null);
   emit();
   markDirty();
   flush();

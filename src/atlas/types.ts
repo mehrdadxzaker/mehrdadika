@@ -1,4 +1,5 @@
 import type { ReadingCatalog } from "../reading/types";
+import type { CourseRef } from "../courses/types";
 
 export type Accent = "uk" | "us";
 export type IndexRow = [string, string, string, string, number, number, number];
@@ -113,4 +114,5 @@ export interface Atlas {
   learning?: Atlas;
   senseToLexical?: Map<string, string>;
   readings?: ReadingCatalog;
+  courses?: CourseRef;
 }

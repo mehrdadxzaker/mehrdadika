@@ -8,15 +8,16 @@ The [public source repository](https://github.com/mehrdadxzaker/mehrdadika) and 
 
 | Item | Current scope |
 | --- | --- |
-| Vocabulary | 72 lexical items and 73 independently scheduled meanings. `pressure` has separate medical and engineering learning contexts under one public word card. |
+| Vocabulary | 91 lexical items and 92 independently scheduled meanings. `pressure` has separate medical and engineering learning contexts under one public word card. |
 | Subject taxonomy | All 32 domains, organized into six discovery groups. |
 | Subcategory display | 348 native subcategory labels in each of Persian, Brazilian Portuguese and Latin American Spanish, parallel to the English catalog. |
 | Starter focus | General English, cooking, healthcare and introductory engineering, with new law, arts, gaming and safety starter words and cross-links into related categories. |
 | Short reading | Three original bilingual passages with comprehension questions. |
 | Book reading | One original short book with three chapters. |
 | Additional exercises | Two paraphrase levels and three confusable-word groups. |
+| Science through English | Water and Weather: eight lessons, 32 closed activities, eight writing tasks, 22 target senses and complete Persian/Portuguese/Spanish support. |
 | Review channel | AI-assisted editorial preview. No independent human or specialist approval is claimed. |
-| Portuguese and Spanish previews | Each edition has 72 words, 73 senses, 146 translated examples, 216 collocations, 72 usage notes, 32 category labels, 348 subcategory labels and six group labels, plus the reading/practice catalog above. |
+| Portuguese and Spanish previews | Each edition has 91 words, 92 senses, 184 translated examples, 273 collocations, 91 usage notes, 32 category labels, 348 subcategory labels and six group labels, plus the reading/practice catalog above. |
 
 Category and subcategory presence describes intended coverage. It does not mean that every branch already contains authored lessons. A shared sense can appear through multiple category routes without becoming a second learning record.
 
@@ -34,6 +35,7 @@ Category and subcategory presence describes intended coverage. It does not mean 
 | Progress | Local transactional progress storage and portable backup/restore scoped to each edition, separate practice/reading state, and aggregation of meaning progress into one public word/star. Persian storage identities are preserved. |
 | Galaxy | Reference spiral renderer, domain labels, zoom/navigation/share controls, aggregate word state and positions/colors stable under new words or reordered categories. Empty primary clusters do not display labels. |
 | Reading | Short passages and books, aligned translation, comprehension feedback, chapter constellation, bookmarks/resume, inline lookup, reader/listening presentations and device English narration. |
+| Science course | Library course shelf, ordered lessons, optional native support, four exercise formats, saved writing and self-review, separate local progress, backups and course assets in the production offline pack. |
 | Practice | Word typing, sentence copying, dictation, paraphrase questions and confusable-word comparisons, with independent exercise results. |
 | Publishing | Validated preview/stable channels, draft/withdrawn exclusion, content-addressed immutable artifacts, exact-release pointers, asset hashes and contribution/review metadata. |
 | Offline controls | Production-only pack installation, progress/cancel controls, integrity checking, failure handling and pack removal without intentionally deleting learning history. End-to-end browser qualification is a separate check below. |
@@ -119,3 +121,9 @@ The current preview vocabulary is expected to fail that stable gate because inde
 ## Verification record
 
 The original Persian build passed 69 tests, local desktop/phone/offline checks and the first public CI/deployment runs. The earlier Portuguese vocabulary milestone passed 83 tests and content checks. The current multilingual milestone adds route/runtime translation, full taxonomy, source-bound reading, locale-state and new-word regressions; its final release validation is recorded separately. See the [verification record](verification.md) for deployment revisions, browser checks and remaining qualification limits.
+
+## Science course local implementation
+
+The [Water and Weather course](science-course.md) is implemented locally in the same application shell, with its own paper-cut field-guide artwork. The final local suite passes 145 tests, content/locale/illustration checks and the production build. Browser checks completed the first and final lessons in all three editions, including translations and draft restoration, word-sheet return, all four activity types, first-attempt preservation and writing self-review. The production offline pack loaded a previously unopened lesson in each edition. Desktop and Persian phone views had no horizontal overflow or relevant browser errors.
+
+The course remains an AI-assisted editorial preview pending independent language and science review. The approximate English level is an editorial target. Publication uses the manual GitHub Pages workflow; the live site's `build-info.json` identifies its deployed source revision. See the [verification record](verification.md) for scope.

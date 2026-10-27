@@ -15,6 +15,7 @@ import {
 import { store, useStore } from "../store/store";
 import { AmbiencePicker } from "../ui/Ambience";
 import { Illustration } from "../ui/Illustration";
+import { CourseShelf } from "../courses/components";
 
 type Mode = "word" | "sentence" | "dictation";
 type Source = "recent" | "mistakes" | "saved" | "path";
@@ -40,14 +41,21 @@ export function Practice() {
   const [source, setSource] = useState<Source>(() =>
     Object.keys(progress.cards).length ? "recent" : "path",
   );
-  const [round, setRound] = useState<{ entries: Entry[]; key: number; mode: Mode } | null>(
-    null,
-  );
+  const [round, setRound] = useState<{
+    entries: Entry[];
+    key: number;
+    mode: Mode;
+  } | null>(null);
   const [loading, setLoading] = useState(false);
   const [loadError, setLoadError] = useState("");
   const request = useRef(0);
   const busy = useRef(false);
-  useEffect(() => () => { request.current++; }, []);
+  useEffect(
+    () => () => {
+      request.current++;
+    },
+    [],
+  );
 
   const pool = useMemo(() => {
     const learned = Object.entries(progress.cards)
@@ -103,7 +111,10 @@ export function Practice() {
     busy.current = false;
     setLoading(false);
     if (entries.length) setRound({ entries, key: Date.now(), mode });
-    else setLoadError("دریافت مطالب تمرین ممکن نشد. اتصال یا بستهٔ آفلاین را بررسی و دوباره تلاش کنید.");
+    else
+      setLoadError(
+        "دریافت مطالب تمرین ممکن نشد. اتصال یا بستهٔ آفلاین را بررسی و دوباره تلاش کنید.",
+      );
   };
 
   if (round)
@@ -122,6 +133,7 @@ export function Practice() {
     .reduce((m, t) => Math.max(m, t.wpm), 0);
   return (
     <div className="page practice">
+      <CourseShelf compact />
       <div className="special-practice">
         <a className="panel" href="#/paraphrase">
           <b>بازگویی و هم‌معنی‌ها</b>

@@ -1,5 +1,6 @@
 import { tr } from "../i18n/messages";
 import { uiIntlLocale } from "../i18n/locale";
+import { CourseProgressSummary } from "../courses/components";
 import { Download, RotateCcw, Upload } from "lucide-react";
 import { useMemo, useRef } from "react";
 import { useAtlas } from "../atlas/context";
@@ -79,9 +80,11 @@ export function Me({ privateAvailable }: { privateAvailable: boolean }) {
       };
       const count = Object.keys(preview?.progress?.cards ?? {}).length;
       if (
-        !confirm(tr(
-          `نسخهٔ پشتیبان با ${faNumber(count)} سابقهٔ معنی بررسی و وارد شود؟ در صورت معتبر بودن، سابقهٔ فعلی جایگزین می‌شود. پیش از ادامه می‌توانید از وضعیت فعلی نسخهٔ پشتیبان بگیرید.`,
-        ))
+        !confirm(
+          tr(
+            `نسخهٔ پشتیبان با ${faNumber(count)} سابقهٔ معنی بررسی و وارد شود؟ در صورت معتبر بودن، سابقهٔ فعلی جایگزین می‌شود. پیش از ادامه می‌توانید از وضعیت فعلی نسخهٔ پشتیبان بگیرید.`,
+          ),
+        )
       )
         return;
       const r = await importBackup(text);
@@ -134,6 +137,7 @@ export function Me({ privateAvailable }: { privateAvailable: boolean }) {
         </div>
       </section>
 
+      <CourseProgressSummary />
       <div className="me-grid">
         <section className="panel">
           <h3 className="eyebrow">۲۰ هفتهٔ گذشته</h3>
@@ -373,9 +377,11 @@ export function Me({ privateAvailable }: { privateAvailable: boolean }) {
               className="btn btn-ghost btn-danger"
               onClick={() => {
                 if (
-                  confirm(tr(
-                    "همهٔ سابقهٔ یادگیری این مجموعه پاک شود؟ این کار برگشت‌پذیر نیست. ابتدا نسخهٔ پشتیبان بگیرید.",
-                  ))
+                  confirm(
+                    tr(
+                      "همهٔ سابقهٔ یادگیری این مجموعه پاک شود؟ این کار برگشت‌پذیر نیست. ابتدا نسخهٔ پشتیبان بگیرید.",
+                    ),
+                  )
                 ) {
                   resetProgress();
                   toast("سابقهٔ یادگیری پاک شد.");

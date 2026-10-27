@@ -13,9 +13,9 @@
     "modifications": "Latin-American Spanish preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-3",
-    "manifest": "content/releases/2026-10-preview-3-9d8106e288b6/manifest.json",
-    "sha256": "9d8106e288b6858efe9d1d2121be1b434f5bcea99367b4c4b7886598cc41f7ae"
+    "id": "2026-10-science-preview-1",
+    "manifest": "content/releases/2026-10-science-preview-1-c6700fd324b2/manifest.json",
+    "sha256": "c6700fd324b211414c1f57d77258e05c5211dac775aca359f6e6786bd5e7795b"
   },
   "categories": {
     "everyday-life": {
@@ -2995,6 +2995,652 @@
         }
       ],
       "tip": "Voltage no es lo mismo que current: el voltaje es una diferencia de potencial y la corriente se relaciona con el movimiento de cargas eléctricas."
+    },
+    "water": {
+      "sourceWord": "water",
+      "senses": {
+        "water:meaning-1": {
+          "gloss": "agua",
+          "definition": "Sustancia que puede estar en forma líquida, como hielo o como vapor de agua."
+        }
+      },
+      "examples": [
+        {
+          "en": "There is water in the lake.",
+          "translation": "Hay agua en el lago."
+        },
+        {
+          "en": "Water is also found inside living things.",
+          "translation": "El agua también se encuentra dentro de los seres vivos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "liquid water",
+          "translation": "agua líquida"
+        },
+        {
+          "en": "water vapor",
+          "translation": "vapor de agua"
+        },
+        {
+          "en": "the water cycle",
+          "translation": "el ciclo del agua"
+        }
+      ],
+      "tip": "Water es incontable en este uso: di there is water. Para contar, usa drops of water o glasses of water."
+    },
+    "river": {
+      "sourceWord": "river",
+      "senses": {
+        "river:meaning-1": {
+          "gloss": "río",
+          "definition": "Corriente natural de agua que fluye por la tierra."
+        }
+      },
+      "examples": [
+        {
+          "en": "The river flows past the trees.",
+          "translation": "El río pasa junto a los árboles."
+        },
+        {
+          "en": "There is a bridge over the river.",
+          "translation": "Hay un puente sobre el río."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a flowing river",
+          "translation": "un río que fluye"
+        },
+        {
+          "en": "a river bank",
+          "translation": "la orilla de un río"
+        },
+        {
+          "en": "river water",
+          "translation": "agua del río"
+        }
+      ],
+      "tip": "En este curso, river tiene el sentido científico de «río». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "lake": {
+      "sourceWord": "lake",
+      "senses": {
+        "lake:meaning-1": {
+          "gloss": "lago",
+          "definition": "Gran extensión de agua rodeada de tierra."
+        }
+      },
+      "examples": [
+        {
+          "en": "The lake is beside the forest.",
+          "translation": "El lago está junto al bosque."
+        },
+        {
+          "en": "Some water evaporates from the lake.",
+          "translation": "Parte del agua se evapora del lago."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a small lake",
+          "translation": "un lago pequeño"
+        },
+        {
+          "en": "lake water",
+          "translation": "agua del lago"
+        },
+        {
+          "en": "the edge of a lake",
+          "translation": "la orilla de un lago"
+        }
+      ],
+      "tip": "En este curso, lake tiene el sentido científico de «lago». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "solid": {
+      "sourceWord": "solid",
+      "senses": {
+        "solid:meaning-1": {
+          "gloss": "sólido",
+          "definition": "En un estado con forma propia, sin fluir como un líquido."
+        }
+      },
+      "examples": [
+        {
+          "en": "Ice is solid water.",
+          "translation": "El hielo es agua sólida."
+        },
+        {
+          "en": "A solid can change shape if it breaks.",
+          "translation": "Un sólido puede cambiar de forma si se rompe."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "solid water",
+          "translation": "agua sólida"
+        },
+        {
+          "en": "a solid material",
+          "translation": "un material sólido"
+        },
+        {
+          "en": "the solid state",
+          "translation": "el estado sólido"
+        }
+      ],
+      "tip": "En este curso, solid tiene el sentido científico de «sólido». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "liquid": {
+      "sourceWord": "liquid",
+      "senses": {
+        "liquid:meaning-1": {
+          "gloss": "líquido",
+          "definition": "En un estado que puede fluir y tomar la forma de parte de un recipiente."
+        }
+      },
+      "examples": [
+        {
+          "en": "Liquid water fills the bottom of the glass.",
+          "translation": "El agua líquida llena el fondo del vaso."
+        },
+        {
+          "en": "Liquid water becomes ice when it freezes.",
+          "translation": "El agua líquida se convierte en hielo cuando se congela."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "liquid water",
+          "translation": "agua líquida"
+        },
+        {
+          "en": "the liquid state",
+          "translation": "el estado líquido"
+        },
+        {
+          "en": "a liquid substance",
+          "translation": "una sustancia líquida"
+        }
+      ],
+      "tip": "En este curso, liquid tiene el sentido científico de «líquido». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "gas": {
+      "sourceWord": "gas",
+      "senses": {
+        "gas:meaning-1": {
+          "gloss": "gas",
+          "definition": "Estado de la materia que se expande para ocupar el espacio disponible."
+        }
+      },
+      "examples": [
+        {
+          "en": "Water vapor is a gas.",
+          "translation": "El vapor de agua es un gas."
+        },
+        {
+          "en": "A gas does not have a fixed shape of its own.",
+          "translation": "Un gas no tiene forma propia fija."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a gas in the air",
+          "translation": "un gas en el aire"
+        },
+        {
+          "en": "a colorless gas",
+          "translation": "un gas incoloro"
+        },
+        {
+          "en": "gas particles",
+          "translation": "partículas de gas"
+        }
+      ],
+      "tip": "En este curso, gas tiene el sentido científico de «gas». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "melt": {
+      "sourceWord": "melt",
+      "senses": {
+        "melt:meaning-1": {
+          "gloss": "derretirse",
+          "definition": "Pasar del estado sólido al líquido."
+        }
+      },
+      "examples": [
+        {
+          "en": "The ice begins to melt in the warm room.",
+          "translation": "El hielo comienza a derretirse en la habitación cálida."
+        },
+        {
+          "en": "When snow melts, it becomes liquid water.",
+          "translation": "Cuando la nieve se derrite, se vuelve agua líquida."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "melting ice",
+          "translation": "hielo que se derrite"
+        },
+        {
+          "en": "melt slowly",
+          "translation": "derretirse lentamente"
+        },
+        {
+          "en": "begin to melt",
+          "translation": "empezar a derretirse"
+        }
+      ],
+      "tip": "En este curso, melt tiene el sentido científico de «derretirse». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "freeze": {
+      "sourceWord": "freeze",
+      "senses": {
+        "freeze:meaning-1": {
+          "gloss": "congelarse",
+          "definition": "Pasar del líquido al sólido al perder energía."
+        }
+      },
+      "examples": [
+        {
+          "en": "Water can freeze in the freezer.",
+          "translation": "El agua puede congelarse en el congelador."
+        },
+        {
+          "en": "When the water freezes, it becomes ice.",
+          "translation": "Cuando el agua se congela, se convierte en hielo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "freeze water",
+          "translation": "congelar agua"
+        },
+        {
+          "en": "freezing water",
+          "translation": "agua que se congela"
+        },
+        {
+          "en": "begin to freeze",
+          "translation": "empezar a congelarse"
+        }
+      ],
+      "tip": "En este curso, freeze tiene el sentido científico de «congelarse». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "temperature": {
+      "sourceWord": "temperature",
+      "senses": {
+        "temperature:meaning-1": {
+          "gloss": "temperatura",
+          "definition": "Medida de qué tan caliente o frío está algo."
+        }
+      },
+      "examples": [
+        {
+          "en": "A thermometer measures temperature.",
+          "translation": "Un termómetro mide la temperatura."
+        },
+        {
+          "en": "The water temperature is lower this morning.",
+          "translation": "La temperatura del agua es más baja esta mañana."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "water temperature",
+          "translation": "temperatura del agua"
+        },
+        {
+          "en": "a low temperature",
+          "translation": "una temperatura baja"
+        },
+        {
+          "en": "measure temperature",
+          "translation": "medir la temperatura"
+        }
+      ],
+      "tip": "En este curso, temperature tiene el sentido científico de «temperatura». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "evaporate": {
+      "sourceWord": "evaporate",
+      "senses": {
+        "evaporate:meaning-1": {
+          "gloss": "evaporarse",
+          "definition": "Pasar de líquido a gas en la superficie del líquido."
+        }
+      },
+      "examples": [
+        {
+          "en": "Some water evaporates from the puddle.",
+          "translation": "Parte del agua se evapora del charco."
+        },
+        {
+          "en": "Water can evaporate on a cool day.",
+          "translation": "El agua puede evaporarse en un día fresco."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "water evaporates",
+          "translation": "el agua se evapora"
+        },
+        {
+          "en": "evaporate slowly",
+          "translation": "evaporarse lentamente"
+        },
+        {
+          "en": "evaporate from the surface",
+          "translation": "evaporarse de la superficie"
+        }
+      ],
+      "tip": "En este curso, evaporate tiene el sentido científico de «evaporarse». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "vapor": {
+      "sourceWord": "vapor",
+      "senses": {
+        "vapor:meaning-1": {
+          "gloss": "vapor",
+          "definition": "Forma gaseosa de una sustancia que también puede ser líquida o sólida."
+        }
+      },
+      "examples": [
+        {
+          "en": "Water vapor in the air is invisible.",
+          "translation": "El vapor de agua en el aire es invisible."
+        },
+        {
+          "en": "Some water vapor condenses near the cold glass.",
+          "translation": "Parte del vapor de agua se condensa cerca del vaso frío."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "water vapor",
+          "translation": "vapor de agua"
+        },
+        {
+          "en": "invisible vapor",
+          "translation": "vapor invisible"
+        },
+        {
+          "en": "vapor in the air",
+          "translation": "vapor en el aire"
+        }
+      ],
+      "tip": "Vapor es la escritura estadounidense y vapour la británica. El vapor de agua es invisible; las nubes contienen gotitas o cristales de hielo."
+    },
+    "puddle": {
+      "sourceWord": "puddle",
+      "senses": {
+        "puddle:meaning-1": {
+          "gloss": "charco",
+          "definition": "Pequeña acumulación poco profunda de líquido sobre una superficie, especialmente después de la lluvia."
+        }
+      },
+      "examples": [
+        {
+          "en": "There is a puddle on the path.",
+          "translation": "Hay un charco en el camino."
+        },
+        {
+          "en": "The puddle is smaller in the afternoon.",
+          "translation": "El charco es más pequeño por la tarde."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a small puddle",
+          "translation": "un charco pequeño"
+        },
+        {
+          "en": "a rain puddle",
+          "translation": "un charco de lluvia"
+        },
+        {
+          "en": "a puddle on the path",
+          "translation": "un charco en el camino"
+        }
+      ],
+      "tip": "En este curso, puddle tiene el sentido científico de «charco». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "surface": {
+      "sourceWord": "surface",
+      "senses": {
+        "surface:meaning-1": {
+          "gloss": "superficie",
+          "definition": "Parte exterior o superior de algo."
+        }
+      },
+      "examples": [
+        {
+          "en": "Drops form on the cold surface.",
+          "translation": "Se forman gotas en la superficie fría."
+        },
+        {
+          "en": "Some water leaves the surface as vapor.",
+          "translation": "Parte del agua sale de la superficie como vapor."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the water surface",
+          "translation": "la superficie del agua"
+        },
+        {
+          "en": "a cold surface",
+          "translation": "una superficie fría"
+        },
+        {
+          "en": "on the surface",
+          "translation": "en la superficie"
+        }
+      ],
+      "tip": "En este curso, surface tiene el sentido científico de «superficie». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "condense": {
+      "sourceWord": "condense",
+      "senses": {
+        "condense:meaning-1": {
+          "gloss": "condensarse",
+          "definition": "Pasar del estado gaseoso al líquido."
+        }
+      },
+      "examples": [
+        {
+          "en": "Water vapor can condense into droplets.",
+          "translation": "El vapor de agua puede condensarse en gotitas."
+        },
+        {
+          "en": "Some vapor condenses near the cold window.",
+          "translation": "Parte del vapor se condensa cerca de la ventana fría."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "vapor condenses",
+          "translation": "el vapor se condensa"
+        },
+        {
+          "en": "condense into water",
+          "translation": "condensarse en agua"
+        },
+        {
+          "en": "condense on a surface",
+          "translation": "condensarse en una superficie"
+        }
+      ],
+      "tip": "En este curso, condense tiene el sentido científico de «condensarse». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "droplet": {
+      "sourceWord": "droplet",
+      "senses": {
+        "droplet:meaning-1": {
+          "gloss": "gotita",
+          "definition": "Gota muy pequeña de líquido."
+        }
+      },
+      "examples": [
+        {
+          "en": "Tiny droplets form outside the glass.",
+          "translation": "Se forman pequeñas gotitas por fuera del vaso."
+        },
+        {
+          "en": "Some clouds contain liquid water droplets.",
+          "translation": "Algunas nubes contienen gotitas de agua líquida."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a water droplet",
+          "translation": "una gotita de agua"
+        },
+        {
+          "en": "tiny droplets",
+          "translation": "gotitas diminutas"
+        },
+        {
+          "en": "cloud droplets",
+          "translation": "gotitas de nube"
+        }
+      ],
+      "tip": "En este curso, droplet tiene el sentido científico de «gotita». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "cloud": {
+      "sourceWord": "cloud",
+      "senses": {
+        "cloud:meaning-1": {
+          "gloss": "nube",
+          "definition": "Masa visible de gotitas de agua, cristales de hielo o ambos en el aire."
+        }
+      },
+      "examples": [
+        {
+          "en": "A cloud moves above the lake.",
+          "translation": "Una nube pasa sobre el lago."
+        },
+        {
+          "en": "Clouds can contain tiny ice crystals.",
+          "translation": "Las nubes pueden contener pequeños cristales de hielo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a rain cloud",
+          "translation": "una nube de lluvia"
+        },
+        {
+          "en": "cloud droplets",
+          "translation": "gotitas de nube"
+        },
+        {
+          "en": "cloud formation",
+          "translation": "formación de nubes"
+        }
+      ],
+      "tip": "En este curso, cloud tiene el sentido científico de «nube». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "rain": {
+      "sourceWord": "rain",
+      "senses": {
+        "rain:meaning-1": {
+          "gloss": "lluvia",
+          "definition": "Agua líquida que cae de las nubes hacia el suelo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The rain fills a puddle on the path.",
+          "translation": "La lluvia llena un charco en el camino."
+        },
+        {
+          "en": "Some rain reaches the lake.",
+          "translation": "Parte de la lluvia llega al lago."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "heavy rain",
+          "translation": "lluvia intensa"
+        },
+        {
+          "en": "light rain",
+          "translation": "lluvia ligera"
+        },
+        {
+          "en": "falling rain",
+          "translation": "lluvia que cae"
+        }
+      ],
+      "tip": "En este curso, rain tiene el sentido científico de «lluvia». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "precipitation": {
+      "sourceWord": "precipitation",
+      "senses": {
+        "precipitation:meaning-1": {
+          "gloss": "precipitación",
+          "definition": "Agua que cae de las nubes como lluvia, nieve u otras formas líquidas o congeladas."
+        }
+      },
+      "examples": [
+        {
+          "en": "Rain is a form of precipitation.",
+          "translation": "La lluvia es una forma de precipitación."
+        },
+        {
+          "en": "Precipitation returns water from clouds to the ground.",
+          "translation": "La precipitación devuelve agua de las nubes al suelo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "liquid precipitation",
+          "translation": "precipitación líquida"
+        },
+        {
+          "en": "frozen precipitation",
+          "translation": "precipitación congelada"
+        },
+        {
+          "en": "a form of precipitation",
+          "translation": "una forma de precipitación"
+        }
+      ],
+      "tip": "En este curso, precipitation tiene el sentido científico de «precipitación». Observa su uso en los ejemplos y las combinaciones de palabras."
+    },
+    "cycle": {
+      "sourceWord": "cycle",
+      "senses": {
+        "cycle:meaning-1": {
+          "gloss": "ciclo",
+          "definition": "Serie de etapas conectadas que pueden repetirse."
+        }
+      },
+      "examples": [
+        {
+          "en": "The water cycle has many possible routes.",
+          "translation": "El ciclo del agua tiene muchas rutas posibles."
+        },
+        {
+          "en": "A cycle does not have a single starting point.",
+          "translation": "Un ciclo no tiene un único punto inicial."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the water cycle",
+          "translation": "el ciclo del agua"
+        },
+        {
+          "en": "a repeating cycle",
+          "translation": "un ciclo que se repite"
+        },
+        {
+          "en": "stages of a cycle",
+          "translation": "etapas de un ciclo"
+        }
+      ],
+      "tip": "En este curso, cycle tiene el sentido científico de «ciclo». Observa su uso en los ejemplos y las combinaciones de palabras."
     }
   }
 }

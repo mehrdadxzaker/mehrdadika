@@ -46,6 +46,9 @@ import type {
   TruthAnswer,
 } from "../reading/types";
 import "../styles/reading.css";
+import { CourseShelf } from "../courses/components";
+import { courseLabels } from "../courses/labels";
+import { currentUiLocale } from "../i18n/locale";
 
 export type { ReadingRoute } from "../reading/types";
 const truthLabels: [TruthAnswer, string, string][] = [
@@ -73,6 +76,7 @@ export function Reading({ route }: { route: ReadingRoute }) {
     );
   }
   const books = route.tab === "books";
+  const courses = route.tab === "courses";
   const passage =
     catalog.passages.find((item) => item.id === route.id) ??
     catalog.passages.find((item) => item.id === state.lastPassage) ??
@@ -85,8 +89,8 @@ export function Reading({ route }: { route: ReadingRoute }) {
       </header>
       <nav className="reading-tabs" aria-label="بخش‌های کتابخانه">
         <a
-          className={!books ? "is-on" : ""}
-          aria-current={!books ? "page" : undefined}
+          className={!books && !courses ? "is-on" : ""}
+          aria-current={!books && !courses ? "page" : undefined}
           href="#/read?tab=short"
         >
           متن‌های کوتاه
@@ -98,8 +102,17 @@ export function Reading({ route }: { route: ReadingRoute }) {
         >
           کتاب‌ها
         </a>
+        <a
+          className={courses ? "is-on" : ""}
+          aria-current={courses ? "page" : undefined}
+          href="#/read?tab=courses"
+        >
+          {courseLabels(currentUiLocale()).courses}
+        </a>
       </nav>
-      {books ? (
+      {courses ? (
+        <CourseShelf />
+      ) : books ? (
         <BookShelf books={catalog.books} />
       ) : passage ? (
         <>

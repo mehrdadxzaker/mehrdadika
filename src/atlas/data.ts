@@ -8,6 +8,7 @@ import type {
 } from "./types";
 import { MEDIA } from "./types";
 import type { ReadingCatalog } from "../reading/types";
+import type { CourseRef } from "../courses/types";
 
 const BASE = import.meta.env?.BASE_URL ?? "/";
 const contentUrl = (path: string) => `${BASE}${path.replace(/^\//, "")}`;
@@ -28,6 +29,7 @@ interface Manifest {
 }
 interface Payload {
   entries: Entry[];
+  courses?: CourseRef;
   readings?: ReadingCatalog;
   examples?: number;
   shards?: Record<string, { path: string; sha256: string }>;
@@ -64,7 +66,10 @@ async function requestSlot() {
     else activeRequests--;
   };
 }
-async function jsonFile<T>(path: string, expectedHash?: string): Promise<T> {
+export async function jsonFile<T>(
+  path: string,
+  expectedHash?: string,
+): Promise<T> {
   if (!safePath(path)) throw new Error("مسیر بستهٔ محتوا معتبر نیست.");
   const releaseSlot = await requestSlot();
   const controller = new AbortController();
@@ -200,6 +205,7 @@ export function createAtlas(payload: Payload, manifest: Manifest): Atlas {
     release: { ...manifest.release },
     senseToLexical,
     readings: payload.readings,
+    courses: payload.courses,
     img: (ref: WordRef | Entry) => asset(pick(ref)?.media?.img),
     audio: (ref: WordRef | Entry, kind: "uk" | "us" | "ex" | "ex2") =>
       asset(pick(ref)?.media?.[kind]),

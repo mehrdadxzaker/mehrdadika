@@ -1,0 +1,2277 @@
+{
+  "schemaVersion": 1,
+  "corpusId": "mehrdadika-en-fa",
+  "name": "مهردادیکا · اطلس انگلیسی–فارسی",
+  "release": {
+    "id": "2026-10-science-preview-1",
+    "channel": "preview",
+    "schemaVersion": 1,
+    "createdAt": "2026-10-27T01:40:55Z"
+  },
+  "payload": {
+    "path": "content/indexes/d35bfabacf81486bebab3d1eac72af2fec432313a08e422e72fdd090ce9ce3fe.json",
+    "sha256": "d35bfabacf81486bebab3d1eac72af2fec432313a08e422e72fdd090ce9ce3fe"
+  },
+  "taxonomy": {
+    "schemaVersion": 1,
+    "status": "Planning catalog; no published learning content implied",
+    "updated": "2026-10-26",
+    "discoveryGroups": [
+      {
+        "id": "daily-living",
+        "labelEn": "Daily living and relationships",
+        "labelFa": "زندگی روزمره و روابط",
+        "domainIds": [
+          "everyday-life",
+          "people-relationships",
+          "home-gardening-diy",
+          "parenting-family-care",
+          "fashion-beauty-personal-care",
+          "wellbeing-daily-habits"
+        ]
+      },
+      {
+        "id": "food-travel-leisure",
+        "labelEn": "Food, travel and leisure",
+        "labelFa": "غذا، سفر و اوقات فراغت",
+        "domainIds": [
+          "cooking-food-drink",
+          "travel-tourism-hospitality",
+          "transport-vehicles",
+          "sports-recreation",
+          "animals-pets-wildlife",
+          "gaming-digital-culture"
+        ]
+      },
+      {
+        "id": "learning-science",
+        "labelEn": "Learning, science and communication",
+        "labelFa": "یادگیری، علم و ارتباطات",
+        "domainIds": [
+          "education-academic",
+          "natural-sciences-mathematics",
+          "languages-communication",
+          "geography-places-cultures"
+        ]
+      },
+      {
+        "id": "health-society-culture",
+        "labelEn": "Health, society and culture",
+        "labelFa": "سلامت، جامعه و فرهنگ",
+        "domainIds": [
+          "medicine-healthcare",
+          "law-public-affairs",
+          "humanities-society",
+          "arts-media",
+          "safety-emergencies"
+        ]
+      },
+      {
+        "id": "technology-industry-environment",
+        "labelEn": "Technology, industry and environment",
+        "labelFa": "فناوری، صنعت و محیط زیست",
+        "domainIds": [
+          "engineering",
+          "computing-technology",
+          "architecture-infrastructure",
+          "environment-agriculture",
+          "trades-practical-work",
+          "manufacturing-logistics",
+          "energy-utilities-resources"
+        ]
+      },
+      {
+        "id": "business-working-life",
+        "labelEn": "Business and working life",
+        "labelFa": "کسب‌وکار و زندگی شغلی",
+        "domainIds": [
+          "business-management",
+          "economics-finance",
+          "retail-ecommerce",
+          "careers-workplace"
+        ]
+      }
+    ],
+    "domains": [
+      {
+        "id": "everyday-life",
+        "labelEn": "Everyday life",
+        "labelFa": "زندگی روزمره",
+        "subcategories": [
+          "Time and dates",
+          "Daily routines",
+          "Errands",
+          "Household interactions",
+          "Public services",
+          "Appointments",
+          "Community life",
+          "Migration and settling-in vocabulary",
+          "Shared everyday objects"
+        ],
+        "discoveryGroupId": "daily-living",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "زمان و تاریخ",
+          "کارهای روزانه",
+          "کارهای بیرون از خانه",
+          "تعامل‌های خانگی",
+          "خدمات عمومی",
+          "قرارها و نوبت‌ها",
+          "زندگی اجتماعی محلی",
+          "واژگان مهاجرت و سازگاری با محیط تازه",
+          "اشیای پرکاربرد روزمره"
+        ]
+      },
+      {
+        "id": "people-relationships",
+        "labelEn": "People and relationships",
+        "labelFa": "افراد و روابط",
+        "subcategories": [
+          "Family relationships",
+          "Friendship",
+          "Emotions",
+          "Personality",
+          "Appearance",
+          "Social interaction",
+          "Conflict and agreement",
+          "Life stages",
+          "Accessibility and inclusion"
+        ],
+        "discoveryGroupId": "daily-living",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "روابط خانوادگی",
+          "دوستی",
+          "احساسات",
+          "شخصیت",
+          "ظاهر",
+          "تعامل اجتماعی",
+          "اختلاف و توافق",
+          "مراحل زندگی",
+          "دسترس‌پذیری و فراگیری"
+        ]
+      },
+      {
+        "id": "education-academic",
+        "labelEn": "Education and academic English",
+        "labelFa": "آموزش و انگلیسی دانشگاهی",
+        "subcategories": [
+          "School",
+          "university",
+          "teaching and learning",
+          "assessment",
+          "research methods",
+          "academic reading",
+          "academic writing",
+          "presentations",
+          "evidence and argument"
+        ],
+        "discoveryGroupId": "learning-science",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "مدرسه",
+          "دانشگاه",
+          "آموزش و یادگیری",
+          "ارزیابی",
+          "روش‌های پژوهش",
+          "خواندن متن‌های دانشگاهی",
+          "نگارش دانشگاهی",
+          "ارائه‌ها",
+          "شواهد و استدلال"
+        ]
+      },
+      {
+        "id": "medicine-healthcare",
+        "labelEn": "Medicine and healthcare",
+        "labelFa": "پزشکی و سلامت",
+        "subcategories": [
+          "Everyday health",
+          "anatomy",
+          "physiology",
+          "clinical communication",
+          "symptoms and examination",
+          "tests and investigations",
+          "specialties",
+          "nursing",
+          "pharmacy",
+          "dentistry",
+          "rehabilitation",
+          "public health",
+          "medical devices"
+        ],
+        "discoveryGroupId": "health-society-culture",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "سلامت روزمره",
+          "کالبدشناسی",
+          "فیزیولوژی",
+          "ارتباطات بالینی",
+          "علائم و معاینه",
+          "آزمایش‌ها و بررسی‌های تشخیصی",
+          "تخصص‌های پزشکی",
+          "پرستاری",
+          "داروسازی",
+          "دندان‌پزشکی",
+          "توان‌بخشی",
+          "بهداشت عمومی",
+          "تجهیزات پزشکی"
+        ]
+      },
+      {
+        "id": "engineering",
+        "labelEn": "Engineering",
+        "labelFa": "مهندسی",
+        "subcategories": [
+          "Shared engineering foundations",
+          "mechanical",
+          "electrical",
+          "electronics",
+          "civil and structural",
+          "chemical",
+          "materials",
+          "industrial",
+          "manufacturing",
+          "aerospace",
+          "marine",
+          "energy systems",
+          "measurement and reliability"
+        ],
+        "discoveryGroupId": "technology-industry-environment",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "مبانی مشترک مهندسی",
+          "مهندسی مکانیک",
+          "مهندسی برق",
+          "الکترونیک",
+          "مهندسی عمران و سازه",
+          "مهندسی شیمی",
+          "مهندسی مواد",
+          "مهندسی صنایع",
+          "مهندسی ساخت و تولید",
+          "مهندسی هوافضا",
+          "مهندسی دریا",
+          "سامانه‌های انرژی",
+          "اندازه‌گیری و قابلیت اطمینان"
+        ]
+      },
+      {
+        "id": "computing-technology",
+        "labelEn": "Computing and technology",
+        "labelFa": "رایانش و فناوری",
+        "subcategories": [
+          "Digital literacy",
+          "Consumer devices",
+          "Hardware",
+          "Programming",
+          "Software engineering",
+          "Operating systems",
+          "Networks",
+          "Databases",
+          "Web development",
+          "Cloud systems",
+          "Cybersecurity",
+          "Data science",
+          "Artificial intelligence",
+          "Human-computer interaction"
+        ],
+        "discoveryGroupId": "technology-industry-environment",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "سواد دیجیتال",
+          "دستگاه‌های مصرفی",
+          "سخت‌افزار",
+          "برنامه‌نویسی",
+          "مهندسی نرم‌افزار",
+          "سیستم‌عامل‌ها",
+          "شبکه‌ها",
+          "پایگاه‌های داده",
+          "توسعهٔ وب",
+          "سامانه‌های ابری",
+          "امنیت سایبری",
+          "علم داده",
+          "هوش مصنوعی",
+          "تعامل انسان و رایانه"
+        ]
+      },
+      {
+        "id": "natural-sciences-mathematics",
+        "labelEn": "Natural sciences and mathematics",
+        "labelFa": "علوم طبیعی و ریاضیات",
+        "subcategories": [
+          "Mathematics",
+          "statistics",
+          "measurement",
+          "physics",
+          "chemistry",
+          "biology",
+          "microbiology",
+          "genetics",
+          "astronomy",
+          "laboratory equipment",
+          "scientific methods"
+        ],
+        "discoveryGroupId": "learning-science",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "ریاضیات",
+          "آمار",
+          "اندازه‌گیری",
+          "فیزیک",
+          "شیمی",
+          "زیست‌شناسی",
+          "میکروب‌شناسی",
+          "ژنتیک",
+          "اخترشناسی",
+          "تجهیزات آزمایشگاهی",
+          "روش‌های علمی"
+        ]
+      },
+      {
+        "id": "business-management",
+        "labelEn": "Business and management",
+        "labelFa": "کسب‌وکار و مدیریت",
+        "subcategories": [
+          "Entrepreneurship",
+          "Strategy",
+          "Management and organizations",
+          "Marketing",
+          "Sales",
+          "Human resources management",
+          "Project management",
+          "Product management",
+          "Procurement management",
+          "Business communication"
+        ],
+        "discoveryGroupId": "business-working-life",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "کارآفرینی",
+          "راهبرد",
+          "مدیریت و سازمان‌ها",
+          "بازاریابی",
+          "فروش",
+          "مدیریت منابع انسانی",
+          "مدیریت پروژه",
+          "مدیریت محصول",
+          "مدیریت تأمین و خرید",
+          "ارتباطات کسب‌وکار"
+        ]
+      },
+      {
+        "id": "economics-finance",
+        "labelEn": "Economics and finance",
+        "labelFa": "اقتصاد و امور مالی",
+        "subcategories": [
+          "Everyday personal finance",
+          "microeconomics",
+          "macroeconomics",
+          "accounting",
+          "banking",
+          "payments",
+          "corporate finance",
+          "investing",
+          "insurance",
+          "taxation terminology",
+          "financial statements"
+        ],
+        "discoveryGroupId": "business-working-life",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "امور مالی شخصی روزمره",
+          "اقتصاد خرد",
+          "اقتصاد کلان",
+          "حسابداری",
+          "بانکداری",
+          "پرداخت‌ها",
+          "امور مالی شرکت‌ها",
+          "سرمایه‌گذاری",
+          "بیمه",
+          "اصطلاحات مالیات",
+          "صورت‌های مالی"
+        ]
+      },
+      {
+        "id": "law-public-affairs",
+        "labelEn": "Law and public affairs",
+        "labelFa": "حقوق و امور عمومی",
+        "subcategories": [
+          "Legal foundations",
+          "Contracts",
+          "Civil law terminology",
+          "Criminal law terminology",
+          "Courts and procedure",
+          "Rights",
+          "Government",
+          "Public administration",
+          "Politics",
+          "International relations",
+          "Policy",
+          "Migration and citizenship",
+          "Community and volunteering"
+        ],
+        "discoveryGroupId": "health-society-culture",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "مبانی حقوق",
+          "قراردادها",
+          "اصطلاحات حقوق مدنی",
+          "اصطلاحات حقوق کیفری",
+          "دادگاه‌ها و آیین دادرسی",
+          "حقوق و آزادی‌ها",
+          "حکومت و دولت",
+          "ادارهٔ امور عمومی",
+          "سیاست",
+          "روابط بین‌الملل",
+          "خط‌مشی و سیاست‌گذاری",
+          "مهاجرت و شهروندی",
+          "فعالیت اجتماعی و کار داوطلبانه"
+        ]
+      },
+      {
+        "id": "architecture-infrastructure",
+        "labelEn": "Architecture and infrastructure",
+        "labelFa": "معماری و زیرساخت",
+        "subcategories": [
+          "Architecture",
+          "Building elements",
+          "Architectural drawings",
+          "Construction",
+          "Housing and property systems",
+          "Urban planning",
+          "Transport infrastructure",
+          "Utilities infrastructure",
+          "Surveying",
+          "Infrastructure maintenance"
+        ],
+        "discoveryGroupId": "technology-industry-environment",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "معماری",
+          "اجزای ساختمان",
+          "نقشه‌های معماری",
+          "ساخت‌وساز",
+          "مسکن و نظام‌های مالکیت",
+          "برنامه‌ریزی شهری",
+          "زیرساخت حمل‌ونقل",
+          "زیرساخت تأسیسات شهری",
+          "نقشه‌برداری",
+          "نگهداری زیرساخت"
+        ]
+      },
+      {
+        "id": "environment-agriculture",
+        "labelEn": "Environment and agriculture",
+        "labelFa": "محیط زیست و کشاورزی",
+        "subcategories": [
+          "Physical geography",
+          "Geology",
+          "Climate and weather",
+          "Ecology",
+          "Conservation",
+          "Pollution",
+          "Water and land management",
+          "Crop production",
+          "Soil",
+          "Livestock",
+          "Veterinary science",
+          "Forestry",
+          "Food systems"
+        ],
+        "discoveryGroupId": "technology-industry-environment",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "جغرافیای طبیعی",
+          "زمین‌شناسی",
+          "اقلیم و آب‌وهوا",
+          "بوم‌شناسی",
+          "حفاظت از طبیعت",
+          "آلودگی",
+          "مدیریت آب و زمین",
+          "تولید محصولات کشاورزی",
+          "خاک",
+          "دام",
+          "علوم دامپزشکی",
+          "جنگل‌داری",
+          "سامانه‌های غذایی"
+        ]
+      },
+      {
+        "id": "arts-media",
+        "labelEn": "Arts and media",
+        "labelFa": "هنر و رسانه",
+        "subcategories": [
+          "Visual arts",
+          "Graphic design",
+          "Music",
+          "Film and television",
+          "Photography",
+          "Journalism",
+          "Publishing",
+          "Broadcasting",
+          "Advertising",
+          "Creative writing",
+          "Performing arts",
+          "Crafts"
+        ],
+        "discoveryGroupId": "health-society-culture",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "هنرهای تجسمی",
+          "طراحی گرافیک",
+          "موسیقی",
+          "سینما و تلویزیون",
+          "عکاسی",
+          "روزنامه‌نگاری",
+          "نشر",
+          "پخش رادیویی و تلویزیونی",
+          "تبلیغات",
+          "نویسندگی خلاق",
+          "هنرهای نمایشی",
+          "صنایع دستی"
+        ]
+      },
+      {
+        "id": "humanities-society",
+        "labelEn": "Humanities and society",
+        "labelFa": "علوم انسانی و جامعه",
+        "subcategories": [
+          "History",
+          "philosophy",
+          "literature",
+          "religion",
+          "linguistics",
+          "sociology",
+          "anthropology",
+          "psychology",
+          "cultural studies",
+          "archaeology",
+          "social institutions"
+        ],
+        "discoveryGroupId": "health-society-culture",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "تاریخ",
+          "فلسفه",
+          "ادبیات",
+          "دین",
+          "زبان‌شناسی",
+          "جامعه‌شناسی",
+          "انسان‌شناسی",
+          "روان‌شناسی",
+          "مطالعات فرهنگی",
+          "باستان‌شناسی",
+          "نهادهای اجتماعی"
+        ]
+      },
+      {
+        "id": "trades-practical-work",
+        "labelEn": "Trades and practical work",
+        "labelFa": "حرفه‌ها و کارهای فنی",
+        "subcategories": [
+          "Tools",
+          "Workshop practice",
+          "Automotive repair",
+          "Electrical installation",
+          "Plumbing",
+          "Welding",
+          "Machining",
+          "Installation and maintenance",
+          "Workplace safety"
+        ],
+        "discoveryGroupId": "technology-industry-environment",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "ابزارها",
+          "کار عملی در کارگاه",
+          "تعمیر خودرو",
+          "تأسیسات برق",
+          "لوله‌کشی",
+          "جوشکاری",
+          "ماشین‌کاری",
+          "نصب و نگهداری",
+          "ایمنی محیط کار"
+        ]
+      },
+      {
+        "id": "sports-recreation",
+        "labelEn": "Sports and recreation",
+        "labelFa": "ورزش و تفریح",
+        "subcategories": [
+          "Individual sports",
+          "team sports",
+          "exercise",
+          "fitness equipment",
+          "games",
+          "outdoor activities",
+          "hobbies",
+          "recreation facilities",
+          "sporting events"
+        ],
+        "discoveryGroupId": "food-travel-leisure",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "ورزش‌های انفرادی",
+          "ورزش‌های گروهی",
+          "تمرین‌های بدنی",
+          "تجهیزات تناسب اندام",
+          "بازی‌ها",
+          "فعالیت‌های فضای باز",
+          "سرگرمی‌ها",
+          "امکانات تفریحی",
+          "رویدادهای ورزشی"
+        ]
+      },
+      {
+        "id": "cooking-food-drink",
+        "labelEn": "Cooking, food and drink",
+        "labelFa": "آشپزی، غذا و نوشیدنی",
+        "subcategories": [
+          "Ingredients and food groups",
+          "Preparation verbs",
+          "Cooking methods",
+          "Kitchen utensils and appliances",
+          "Baking, pastry and desserts",
+          "Drinks and beverage preparation",
+          "Flavors, textures and doneness",
+          "Recipes, portions and measurements",
+          "Cuisines and dishes",
+          "Menus, serving and dining",
+          "Food storage and hygiene",
+          "Dietary preferences and allergen terminology"
+        ],
+        "discoveryGroupId": "food-travel-leisure",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "مواد اولیه و گروه‌های غذایی",
+          "فعل‌های آماده‌سازی غذا",
+          "روش‌های پخت",
+          "ابزار و لوازم آشپزخانه",
+          "نان‌پزی، شیرینی‌پزی و دسر",
+          "نوشیدنی‌ها و روش تهیهٔ آن‌ها",
+          "طعم، بافت و میزان پخت",
+          "دستورها، اندازهٔ وعده و اندازه‌گیری",
+          "آشپزی ملت‌ها و خوراک‌ها",
+          "منو، سرو و غذا خوردن",
+          "نگهداری و بهداشت مواد غذایی",
+          "ترجیحات غذایی و اصطلاحات مواد حساسیت‌زا"
+        ]
+      },
+      {
+        "id": "travel-tourism-hospitality",
+        "labelEn": "Travel, tourism and hospitality",
+        "labelFa": "سفر، گردشگری و هتلداری",
+        "subcategories": [
+          "Trip planning",
+          "Destinations and sightseeing",
+          "Accommodation and reservations",
+          "Hotels and guest services",
+          "Travel documents and border vocabulary",
+          "Tour guiding",
+          "Attractions and museums",
+          "Restaurant and hospitality service",
+          "Travel problems",
+          "Accessible travel"
+        ],
+        "discoveryGroupId": "food-travel-leisure",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "برنامه‌ریزی سفر",
+          "مقصدها و دیدنی‌ها",
+          "اقامت و رزرو",
+          "هتل‌ها و خدمات مهمان",
+          "مدارک سفر و واژگان مرزی",
+          "راهنمایی گردشگران",
+          "جاذبه‌ها و موزه‌ها",
+          "خدمات رستوران و مهمان‌نوازی",
+          "مشکلات سفر",
+          "سفر دسترس‌پذیر"
+        ]
+      },
+      {
+        "id": "transport-vehicles",
+        "labelEn": "Transport and vehicles",
+        "labelFa": "حمل‌ونقل و وسایل نقلیه",
+        "subcategories": [
+          "Walking and cycling",
+          "Public transit",
+          "Road travel and driving",
+          "Cars and motorcycles",
+          "Vehicle parts and operation",
+          "Railways",
+          "Aviation and airports",
+          "Ships and ports",
+          "Navigation and traffic",
+          "Passenger journeys"
+        ],
+        "discoveryGroupId": "food-travel-leisure",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "پیاده‌روی و دوچرخه‌سواری",
+          "حمل‌ونقل عمومی",
+          "سفر جاده‌ای و رانندگی",
+          "خودروها و موتورسیکلت‌ها",
+          "قطعات و کارکرد وسایل نقلیه",
+          "راه‌آهن",
+          "هوانوردی و فرودگاه‌ها",
+          "کشتی‌ها و بندرها",
+          "مسیریابی و ترافیک",
+          "جابه‌جایی مسافران"
+        ]
+      },
+      {
+        "id": "home-gardening-diy",
+        "labelEn": "Home, gardening and DIY",
+        "labelFa": "خانه، باغبانی و تعمیرات خانگی",
+        "subcategories": [
+          "Rooms and furniture",
+          "Household appliances",
+          "Cleaning and laundry",
+          "Housing, renting and moving",
+          "Property services",
+          "Home organization",
+          "Gardening tools",
+          "Plants and plant care",
+          "Home improvement",
+          "Simple household repairs",
+          "Decoration and furnishings"
+        ],
+        "discoveryGroupId": "daily-living",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "اتاق‌ها و مبلمان",
+          "لوازم خانگی",
+          "نظافت و شست‌وشوی لباس",
+          "مسکن، اجاره و اسباب‌کشی",
+          "خدمات املاک",
+          "نظم‌دهی خانه",
+          "ابزار باغبانی",
+          "گیاهان و مراقبت از آن‌ها",
+          "بهسازی خانه",
+          "تعمیرات سادهٔ خانگی",
+          "دکوراسیون و اثاثیه"
+        ]
+      },
+      {
+        "id": "fashion-beauty-personal-care",
+        "labelEn": "Fashion, beauty and personal care",
+        "labelFa": "مد، زیبایی و مراقبت شخصی",
+        "subcategories": [
+          "Clothing and accessories",
+          "Fabrics and materials",
+          "Sizes and fit",
+          "Footwear",
+          "Fashion design and tailoring",
+          "Hair and salon vocabulary",
+          "Skincare and cosmetics",
+          "Grooming and hygiene",
+          "Beauty services",
+          "Shopping and product labels"
+        ],
+        "discoveryGroupId": "daily-living",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "پوشاک و لوازم جانبی",
+          "پارچه‌ها و مواد",
+          "اندازه و تن‌خور",
+          "کفش و پاپوش",
+          "طراحی مد و خیاطی",
+          "واژگان مو و آرایشگاه",
+          "مراقبت از پوست و لوازم آرایشی",
+          "آراستگی و بهداشت",
+          "خدمات زیبایی",
+          "خرید و برچسب محصولات"
+        ]
+      },
+      {
+        "id": "parenting-family-care",
+        "labelEn": "Parenting and family care",
+        "labelFa": "فرزندپروری و مراقبت از خانواده",
+        "subcategories": [
+          "Pregnancy and birth vocabulary",
+          "Infant care",
+          "Childcare and routines",
+          "Child development terminology",
+          "School-family communication",
+          "Parenting conversations",
+          "Play and learning",
+          "Elder care",
+          "Disability support and caregiving",
+          "Household care coordination"
+        ],
+        "discoveryGroupId": "daily-living",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "واژگان بارداری و زایمان",
+          "مراقبت از نوزاد",
+          "مراقبت از کودک و برنامه‌های روزانه",
+          "اصطلاحات رشد کودک",
+          "ارتباط مدرسه و خانواده",
+          "گفت‌وگوهای فرزندپروری",
+          "بازی و یادگیری",
+          "مراقبت از سالمندان",
+          "حمایت و مراقبت از افراد دارای معلولیت",
+          "هماهنگی مراقبت در خانواده"
+        ]
+      },
+      {
+        "id": "animals-pets-wildlife",
+        "labelEn": "Animals, pets and wildlife",
+        "labelFa": "جانوران، حیوانات خانگی و حیات وحش",
+        "subcategories": [
+          "Animal groups",
+          "Animal anatomy and behavior",
+          "Pets and supplies",
+          "Feeding and care",
+          "Training terminology",
+          "Animal shelters and adoption",
+          "Wildlife and habitats",
+          "Birds",
+          "Marine life",
+          "Insects",
+          "Animal welfare",
+          "Veterinary visit vocabulary"
+        ],
+        "discoveryGroupId": "food-travel-leisure",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "گروه‌های جانوری",
+          "کالبدشناسی و رفتار جانوران",
+          "حیوانات خانگی و لوازم آن‌ها",
+          "تغذیه و مراقبت",
+          "اصطلاحات آموزش حیوانات",
+          "پناهگاه و سرپرستی حیوانات",
+          "حیات وحش و زیستگاه‌ها",
+          "پرندگان",
+          "جانداران دریایی",
+          "حشرات",
+          "رفاه حیوانات",
+          "واژگان مراجعه به دامپزشک"
+        ]
+      },
+      {
+        "id": "languages-communication",
+        "labelEn": "Language and communication",
+        "labelFa": "زبان‌ها و ارتباطات",
+        "subcategories": [
+          "Languages and scripts",
+          "Grammar terminology",
+          "Pronunciation terminology",
+          "Conversation and turn-taking",
+          "Questions and clarification",
+          "Telephone and video calls",
+          "Messages and email",
+          "Translation and interpreting",
+          "Writing and editing terminology",
+          "Public speaking",
+          "Nonverbal communication",
+          "Accessible communication"
+        ],
+        "discoveryGroupId": "learning-science",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "زبان‌ها و خط‌ها",
+          "اصطلاحات دستور زبان",
+          "اصطلاحات تلفظ",
+          "گفت‌وگو و نوبت‌گیری در صحبت",
+          "پرسش و روشن‌سازی",
+          "تماس تلفنی و تصویری",
+          "پیام‌ها و ایمیل",
+          "ترجمهٔ کتبی و شفاهی",
+          "اصطلاحات نگارش و ویرایش",
+          "سخنرانی در جمع",
+          "ارتباط غیرکلامی",
+          "ارتباطات دسترس‌پذیر"
+        ]
+      },
+      {
+        "id": "gaming-digital-culture",
+        "labelEn": "Gaming and digital culture",
+        "labelFa": "بازی‌های رایانه‌ای و فرهنگ دیجیتال",
+        "subcategories": [
+          "Game genres",
+          "Gameplay and controls",
+          "Consoles and gaming hardware",
+          "Multiplayer and online communities",
+          "Esports",
+          "Game design terminology",
+          "Streaming and creators",
+          "Social platforms",
+          "Internet expressions",
+          "Digital etiquette"
+        ],
+        "discoveryGroupId": "food-travel-leisure",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "سبک‌های بازی",
+          "روند بازی و کنترل‌ها",
+          "کنسول‌ها و سخت‌افزار بازی",
+          "بازی چندنفره و جامعه‌های آنلاین",
+          "ورزش‌های الکترونیکی",
+          "اصطلاحات طراحی بازی",
+          "پخش زنده و تولیدکنندگان محتوا",
+          "شبکه‌های اجتماعی",
+          "اصطلاحات اینترنتی",
+          "آداب رفتار در فضای دیجیتال"
+        ]
+      },
+      {
+        "id": "safety-emergencies",
+        "labelEn": "Safety and emergencies",
+        "labelFa": "ایمنی و وضعیت‌های اضطراری",
+        "subcategories": [
+          "Hazard and warning signs",
+          "Protective equipment",
+          "Emergency services",
+          "Reporting an emergency",
+          "Fire and evacuation vocabulary",
+          "First-aid terminology",
+          "Natural disasters",
+          "Road and travel safety",
+          "Home safety",
+          "Workplace safety",
+          "Disaster preparedness vocabulary"
+        ],
+        "discoveryGroupId": "health-society-culture",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "علائم خطر و هشدار",
+          "تجهیزات حفاظتی",
+          "خدمات اضطراری",
+          "گزارش وضعیت اضطراری",
+          "واژگان آتش‌سوزی و تخلیه",
+          "اصطلاحات کمک‌های اولیه",
+          "بلایای طبیعی",
+          "ایمنی جاده و سفر",
+          "ایمنی خانه",
+          "ایمنی محیط کار",
+          "واژگان آمادگی در برابر بحران"
+        ]
+      },
+      {
+        "id": "manufacturing-logistics",
+        "labelEn": "Manufacturing, logistics and supply chains",
+        "labelFa": "تولید، لجستیک و زنجیره تأمین",
+        "subcategories": [
+          "Production processes",
+          "Factories and workstations",
+          "Assembly and packaging",
+          "Quality inspection",
+          "Inventory and warehousing",
+          "Picking and fulfillment",
+          "Freight and shipping",
+          "Customs and trade documents",
+          "Procurement execution",
+          "Last-mile delivery",
+          "Returns and reverse logistics",
+          "Supply-chain operations"
+        ],
+        "discoveryGroupId": "technology-industry-environment",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "فرایندهای تولید",
+          "کارخانه‌ها و ایستگاه‌های کاری",
+          "مونتاژ و بسته‌بندی",
+          "بازرسی کیفیت",
+          "موجودی و انبارداری",
+          "جمع‌آوری کالا و آماده‌سازی سفارش",
+          "حمل بار و ارسال",
+          "اسناد گمرکی و بازرگانی",
+          "اجرای فرایند تأمین و خرید",
+          "تحویل در مرحلهٔ پایانی",
+          "مرجوعی و لجستیک معکوس",
+          "عملیات زنجیرهٔ تأمین"
+        ]
+      },
+      {
+        "id": "retail-ecommerce",
+        "labelEn": "Retail and e-commerce",
+        "labelFa": "خرده‌فروشی و تجارت الکترونیک",
+        "subcategories": [
+          "Shops and retail roles",
+          "Merchandising and displays",
+          "Product catalogs and descriptions",
+          "Online shopping",
+          "Checkout and payment language",
+          "Customer support",
+          "Orders and tracking",
+          "Returns and refunds",
+          "Complaints and service recovery",
+          "Reviews and customer experience"
+        ],
+        "discoveryGroupId": "business-working-life",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "فروشگاه‌ها و مشاغل خرده‌فروشی",
+          "چیدمان و عرضهٔ کالا",
+          "فهرست و توضیحات محصولات",
+          "خرید اینترنتی",
+          "زبان تسویه‌حساب و پرداخت",
+          "پشتیبانی مشتری",
+          "سفارش‌ها و رهگیری",
+          "مرجوعی و بازپرداخت",
+          "رسیدگی به شکایت و جبران نارضایتی",
+          "دیدگاه‌های مشتریان و تجربهٔ خرید"
+        ]
+      },
+      {
+        "id": "careers-workplace",
+        "labelEn": "Careers and workplace",
+        "labelFa": "مسیر شغلی و محیط کار",
+        "subcategories": [
+          "Jobs and occupations",
+          "Job search",
+          "CVs and applications",
+          "Interviews",
+          "Hiring and onboarding",
+          "Meetings and teamwork",
+          "Professional correspondence",
+          "Performance and feedback",
+          "Career development",
+          "Remote work and freelancing",
+          "Workplace relationships",
+          "Employment terminology"
+        ],
+        "discoveryGroupId": "business-working-life",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "شغل‌ها و حرفه‌ها",
+          "جست‌وجوی کار",
+          "رزومه و درخواست استخدام",
+          "مصاحبه‌ها",
+          "استخدام و آشنایی با محیط کار",
+          "جلسه‌ها و کار گروهی",
+          "مکاتبات حرفه‌ای",
+          "عملکرد و بازخورد",
+          "پیشرفت شغلی",
+          "دورکاری و کار آزاد",
+          "روابط در محیط کار",
+          "اصطلاحات استخدام"
+        ]
+      },
+      {
+        "id": "wellbeing-daily-habits",
+        "labelEn": "Wellbeing and daily habits",
+        "labelFa": "بهزیستی و عادت‌های روزانه",
+        "subcategories": [
+          "Sleep and rest",
+          "Daily self-care",
+          "Motivation and goals",
+          "Habits and routines",
+          "Time management",
+          "Everyday stress vocabulary",
+          "Mindfulness and relaxation terminology",
+          "Work-life balance",
+          "Personal reflection",
+          "Social support"
+        ],
+        "discoveryGroupId": "daily-living",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "خواب و استراحت",
+          "خودمراقبتی روزانه",
+          "انگیزه و هدف‌ها",
+          "عادت‌ها و روال‌های روزانه",
+          "مدیریت زمان",
+          "واژگان استرس روزمره",
+          "اصطلاحات ذهن‌آگاهی و آرام‌سازی",
+          "تعادل کار و زندگی",
+          "تأمل شخصی",
+          "حمایت اجتماعی"
+        ]
+      },
+      {
+        "id": "energy-utilities-resources",
+        "labelEn": "Energy, utilities and natural resources",
+        "labelFa": "انرژی، آب و منابع طبیعی",
+        "subcategories": [
+          "Electricity generation and distribution",
+          "Renewable energy",
+          "Oil and gas",
+          "Water supply and treatment",
+          "Utilities and meters",
+          "Energy use and efficiency",
+          "Mining and minerals",
+          "Resource extraction terminology",
+          "Waste and recycling operations",
+          "Energy markets terminology"
+        ],
+        "discoveryGroupId": "technology-industry-environment",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "تولید و توزیع برق",
+          "انرژی تجدیدپذیر",
+          "نفت و گاز",
+          "تأمین و تصفیهٔ آب",
+          "خدمات زیربنایی و کنتورها",
+          "مصرف و بهره‌وری انرژی",
+          "معدن و مواد معدنی",
+          "اصطلاحات استخراج منابع",
+          "عملیات پسماند و بازیافت",
+          "اصطلاحات بازارهای انرژی"
+        ]
+      },
+      {
+        "id": "geography-places-cultures",
+        "labelEn": "Geography, places and cultures",
+        "labelFa": "جغرافیا، مکان‌ها و فرهنگ‌ها",
+        "subcategories": [
+          "Continents, countries and regions",
+          "Cities and landmarks",
+          "Maps and directions",
+          "Landforms and places",
+          "Nationalities and languages",
+          "Customs and etiquette",
+          "Festivals and celebrations",
+          "Cultural institutions",
+          "Regional food and traditions",
+          "Human geography terminology"
+        ],
+        "discoveryGroupId": "learning-science",
+        "publicationStatus": "planned",
+        "subcategoryLabelsFa": [
+          "قاره‌ها، کشورها و منطقه‌ها",
+          "شهرها و مکان‌های شاخص",
+          "نقشه‌ها و جهت‌ها",
+          "ناهمواری‌ها و مکان‌ها",
+          "ملیت‌ها و زبان‌ها",
+          "رسم‌ها و آداب معاشرت",
+          "جشن‌ها و آیین‌ها",
+          "نهادهای فرهنگی",
+          "غذاها و سنت‌های محلی",
+          "اصطلاحات جغرافیای انسانی"
+        ]
+      }
+    ]
+  },
+  "appAssets": [
+    {
+      "path": "brand/empty.webp",
+      "sha256": "c513d24a2b054cd1e28cc6654f1b6f53e6099f136c2d8f41cdea852ece0aa9a4",
+      "bytes": 69384
+    },
+    {
+      "path": "brand/hero.webp",
+      "sha256": "2b1a001ece1617f8019e6cb3bfe2a0ca27c3f969a6b3e2ef3a5e7cac94867e4b",
+      "bytes": 214642
+    },
+    {
+      "path": "brand/listen.webp",
+      "sha256": "05c2a45c3d08ab4f95e0b29d87df68a45f473103a8f0a4f8ed20d1c4b23d557f",
+      "bytes": 50482
+    },
+    {
+      "path": "brand/typing.webp",
+      "sha256": "4e6e9437c651684b579d2fe9fbf7c254d200bacd42cc5f5f59d67305c9c03e43",
+      "bytes": 38820
+    },
+    {
+      "path": "licenses/FSRS-LICENSE.txt",
+      "sha256": "8b83a73dd2894ff553d6de6113064b3ad9dfad3f839837b61f3b183881131d01",
+      "bytes": 1079
+    },
+    {
+      "path": "licenses/Fraunces-OFL.txt",
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e",
+      "bytes": 4504
+    },
+    {
+      "path": "licenses/Lucide-LICENSE.txt",
+      "sha256": "1e7290b35280a048667bbf0ebabac1c7fd52a75300e8b2946ac165715997f2bc",
+      "bytes": 880
+    },
+    {
+      "path": "licenses/Vazirmatn-OFL.txt",
+      "sha256": "e6f4ce7b6c830d5a25a4f8ac777c267cd7d3c180bc2a7150ca57cbb9b280c4b7",
+      "bytes": 4390
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "488e550c9341af186f637987c193592853c6e82e22745d00806f6fd2437012ba",
+      "bytes": 336
+    },
+    {
+      "path": "manifest.webmanifest",
+      "sha256": "3b58b1e7f2ff294c0ae53c996b4c342dfad4cf18f3c0497a2729510df4b9c400",
+      "bytes": 320
+    }
+  ],
+  "dataFiles": [
+    {
+      "path": "content/courses/9ebc9d3318d4dfb42b274fd95a15d2317f8d6f392a9ddbd698d2b7f0a003fc46.json",
+      "sha256": "9ebc9d3318d4dfb42b274fd95a15d2317f8d6f392a9ddbd698d2b7f0a003fc46",
+      "bytes": 138015
+    },
+    {
+      "path": "content/entries/5c6e673d70ad54087417b47c3a699cc92c8420558c866b72554a5b71f7e447f2.json",
+      "sha256": "5c6e673d70ad54087417b47c3a699cc92c8420558c866b72554a5b71f7e447f2",
+      "bytes": 212695
+    }
+  ],
+  "counts": {
+    "words": 91,
+    "meanings": 92,
+    "domains": 32
+  },
+  "assets": [
+    {
+      "path": "content/media/64ce6edf8a80fe8d61ec473f2f907dc1ef5cc757016071ae75755bb7621ed817.webp",
+      "sha256": "64ce6edf8a80fe8d61ec473f2f907dc1ef5cc757016071ae75755bb7621ed817",
+      "bytes": 28706
+    },
+    {
+      "path": "content/media/937e5e202a9a05e279627bb482e379ba40c4cf8159db3d7faef720405d93c2a1.mp3",
+      "sha256": "937e5e202a9a05e279627bb482e379ba40c4cf8159db3d7faef720405d93c2a1",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/e0520a223b20b496adb433cf571bdafd11ebdfe8c7f6fdd7530a818e35829c45.mp3",
+      "sha256": "e0520a223b20b496adb433cf571bdafd11ebdfe8c7f6fdd7530a818e35829c45",
+      "bytes": 9447
+    },
+    {
+      "path": "content/media/15da4821193e4f052c253ca7715a1aab3a7c85e04c0784a7b1e63e015355da19.webp",
+      "sha256": "15da4821193e4f052c253ca7715a1aab3a7c85e04c0784a7b1e63e015355da19",
+      "bytes": 25612
+    },
+    {
+      "path": "content/media/3d2f930c96659b226edace77c1fe59b087e198c583b390f0ae68d72994d63c66.mp3",
+      "sha256": "3d2f930c96659b226edace77c1fe59b087e198c583b390f0ae68d72994d63c66",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/762b004685fe6bec250abe2a97001b40d0e5218d079fc1576c2dc472ef3c2081.mp3",
+      "sha256": "762b004685fe6bec250abe2a97001b40d0e5218d079fc1576c2dc472ef3c2081",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/9667cadaa9c1567015e9dba2af28cedc51ca6f33b9661044e517f5342c1deee8.webp",
+      "sha256": "9667cadaa9c1567015e9dba2af28cedc51ca6f33b9661044e517f5342c1deee8",
+      "bytes": 38860
+    },
+    {
+      "path": "content/media/dcf56ade58085f43c4e7f406f7fd6e9f90c0ee6132260650250e4325b4488ca6.mp3",
+      "sha256": "dcf56ade58085f43c4e7f406f7fd6e9f90c0ee6132260650250e4325b4488ca6",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/abb93ee7e56531d46f5399ae74b77d31cda2fd3c69f732bc80421a52e577df9a.mp3",
+      "sha256": "abb93ee7e56531d46f5399ae74b77d31cda2fd3c69f732bc80421a52e577df9a",
+      "bytes": 9447
+    },
+    {
+      "path": "content/media/2ac99d99c962a5db61666d8b447d8c8398e99d0e461e0ba725e2a901be782e9a.webp",
+      "sha256": "2ac99d99c962a5db61666d8b447d8c8398e99d0e461e0ba725e2a901be782e9a",
+      "bytes": 38792
+    },
+    {
+      "path": "content/media/6f4ca2216376ffb66632b72f240c0a7872cc4dcee6b3c82f9dc0d2a4f1f65a95.mp3",
+      "sha256": "6f4ca2216376ffb66632b72f240c0a7872cc4dcee6b3c82f9dc0d2a4f1f65a95",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/3b146d6a88c4fc9f6e550a006b21e11bfa8ce1a108ee227f91b260a52aaf7152.mp3",
+      "sha256": "3b146d6a88c4fc9f6e550a006b21e11bfa8ce1a108ee227f91b260a52aaf7152",
+      "bytes": 9447
+    },
+    {
+      "path": "content/media/4abcf0990eff89f1860f4ab1e09e6ca3d76f64c06e4e6031eab5ebaaff06055e.webp",
+      "sha256": "4abcf0990eff89f1860f4ab1e09e6ca3d76f64c06e4e6031eab5ebaaff06055e",
+      "bytes": 38596
+    },
+    {
+      "path": "content/media/71c75c082417cd1fa0eba5abfef0af828b20fb2a7984eb4487d4e8d10835f79d.mp3",
+      "sha256": "71c75c082417cd1fa0eba5abfef0af828b20fb2a7984eb4487d4e8d10835f79d",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/16e1cc49dc666aff79b1a31b5b351473f20dd672ea568c3417cc568dc7519dfc.mp3",
+      "sha256": "16e1cc49dc666aff79b1a31b5b351473f20dd672ea568c3417cc568dc7519dfc",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/2138cd0254ed78120c5fb6dc48ada95c1d802bf4c64cf329444666bc2b033ee5.webp",
+      "sha256": "2138cd0254ed78120c5fb6dc48ada95c1d802bf4c64cf329444666bc2b033ee5",
+      "bytes": 25524
+    },
+    {
+      "path": "content/media/369bab815ea4bdd4d47b0a33ef3d38e1499f73f505780a6871c350298651729c.mp3",
+      "sha256": "369bab815ea4bdd4d47b0a33ef3d38e1499f73f505780a6871c350298651729c",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/7e12fdf8179226f606ddfb5f6463eb179be943c411faf8d6faaf7ca6ee439933.mp3",
+      "sha256": "7e12fdf8179226f606ddfb5f6463eb179be943c411faf8d6faaf7ca6ee439933",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/ec5a545503b78b6d6bae1156d86496970ad049afa03c7f296170a74e991ee1c7.webp",
+      "sha256": "ec5a545503b78b6d6bae1156d86496970ad049afa03c7f296170a74e991ee1c7",
+      "bytes": 20596
+    },
+    {
+      "path": "content/media/3f1c6d58f27f02137bce554bbb2d7ef63b61384ed743d56a96de317b7f5806d2.mp3",
+      "sha256": "3f1c6d58f27f02137bce554bbb2d7ef63b61384ed743d56a96de317b7f5806d2",
+      "bytes": 10700
+    },
+    {
+      "path": "content/media/185d760e6ee9fcc75c0069b5b190a27cbccf891601ce02c89051053e7cf8c354.mp3",
+      "sha256": "185d760e6ee9fcc75c0069b5b190a27cbccf891601ce02c89051053e7cf8c354",
+      "bytes": 10700
+    },
+    {
+      "path": "content/media/afa0bbbb2d9e99040a9434b7f85c4324cf6e1b691fbc97e97eed209b48303e02.webp",
+      "sha256": "afa0bbbb2d9e99040a9434b7f85c4324cf6e1b691fbc97e97eed209b48303e02",
+      "bytes": 22848
+    },
+    {
+      "path": "content/media/3763b1ac727129e2ccf5015504149b2881d513b1dcddc5a3c6a61c935d8ce915.mp3",
+      "sha256": "3763b1ac727129e2ccf5015504149b2881d513b1dcddc5a3c6a61c935d8ce915",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/c015e60ed7184518a13a5fc03ccf374a562603e06634212f93aad9b6b20a9e27.mp3",
+      "sha256": "c015e60ed7184518a13a5fc03ccf374a562603e06634212f93aad9b6b20a9e27",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/e9a88bcfeee227b2295f3ada9348774a28971b199b66696b7a9950854feecaf3.webp",
+      "sha256": "e9a88bcfeee227b2295f3ada9348774a28971b199b66696b7a9950854feecaf3",
+      "bytes": 23328
+    },
+    {
+      "path": "content/media/681751755eaa734f5d8f965884751e0d6722072f51a566aadb961bb16f66660a.mp3",
+      "sha256": "681751755eaa734f5d8f965884751e0d6722072f51a566aadb961bb16f66660a",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/f221066cf63c721def522cf16ffc85e54eb61be95d88fb132a8b9f309fdd2784.mp3",
+      "sha256": "f221066cf63c721def522cf16ffc85e54eb61be95d88fb132a8b9f309fdd2784",
+      "bytes": 9447
+    },
+    {
+      "path": "content/media/40df680bc949e56a91273acac1e73fe877bf0c31b5d8f30f3426cbf836bbd86f.webp",
+      "sha256": "40df680bc949e56a91273acac1e73fe877bf0c31b5d8f30f3426cbf836bbd86f",
+      "bytes": 26936
+    },
+    {
+      "path": "content/media/96f35d0b251fdda5685fad94562ba29923160b4a5994c888e3e229fba6f8614d.mp3",
+      "sha256": "96f35d0b251fdda5685fad94562ba29923160b4a5994c888e3e229fba6f8614d",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/8313a29cd08ac5963b0a6b85113bc4a7b1210f85f375e3af8897deded2f524bb.mp3",
+      "sha256": "8313a29cd08ac5963b0a6b85113bc4a7b1210f85f375e3af8897deded2f524bb",
+      "bytes": 10074
+    },
+    {
+      "path": "content/media/eeffb01e638e4b5700f326232618d9db77c7c435c253d616444c4f5c0df3cc39.webp",
+      "sha256": "eeffb01e638e4b5700f326232618d9db77c7c435c253d616444c4f5c0df3cc39",
+      "bytes": 21530
+    },
+    {
+      "path": "content/media/cab168a5527f2d5271378fc09eed52b25cdf095c229eeb501cf866c22bd6b220.mp3",
+      "sha256": "cab168a5527f2d5271378fc09eed52b25cdf095c229eeb501cf866c22bd6b220",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/84bbcee16728578f82d6d9cfae00309660af0ec99fa20499c39b47e615cb66dd.mp3",
+      "sha256": "84bbcee16728578f82d6d9cfae00309660af0ec99fa20499c39b47e615cb66dd",
+      "bytes": 6312
+    },
+    {
+      "path": "content/media/5285a41b041e927c7caac55aada7231eaf2ff95e5be97d0d07bec24ffc271457.webp",
+      "sha256": "5285a41b041e927c7caac55aada7231eaf2ff95e5be97d0d07bec24ffc271457",
+      "bytes": 17074
+    },
+    {
+      "path": "content/media/6defcd2d39bb6a8d87202bf0c84410aa396a4b76b2e42023ea35b9e9b086998f.mp3",
+      "sha256": "6defcd2d39bb6a8d87202bf0c84410aa396a4b76b2e42023ea35b9e9b086998f",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/c33359439219b5a16e3f961b7cba3e368e90da30dcf7f294eefd92b6a259c571.mp3",
+      "sha256": "c33359439219b5a16e3f961b7cba3e368e90da30dcf7f294eefd92b6a259c571",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/c9e28cf4fc6e0152f6c79b3e05f1ca3a46d3f6e01dc505618a96d93e2c5ccaf1.webp",
+      "sha256": "c9e28cf4fc6e0152f6c79b3e05f1ca3a46d3f6e01dc505618a96d93e2c5ccaf1",
+      "bytes": 18510
+    },
+    {
+      "path": "content/media/24cf0106b3d73fd1e72f40813c71531c6afaccd7a1175715af5815e76f554ad9.mp3",
+      "sha256": "24cf0106b3d73fd1e72f40813c71531c6afaccd7a1175715af5815e76f554ad9",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/cf53f153de78d373e85bb6e5a165e759e60d5a1bb172a628fce31d4a915902ec.mp3",
+      "sha256": "cf53f153de78d373e85bb6e5a165e759e60d5a1bb172a628fce31d4a915902ec",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/5bc30dfd0dd62eb670e7698f52a148ea7bc7ba1726812685eb470674ff1f8361.webp",
+      "sha256": "5bc30dfd0dd62eb670e7698f52a148ea7bc7ba1726812685eb470674ff1f8361",
+      "bytes": 21482
+    },
+    {
+      "path": "content/media/fbf0836006cc12c048e809405fb597f3d776aacdf0ba4109b836acf1b21bcf85.mp3",
+      "sha256": "fbf0836006cc12c048e809405fb597f3d776aacdf0ba4109b836acf1b21bcf85",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/704da030a80340f771f2341d6130114fc5e9f756537fd5ae6ef3be943aaf34bd.mp3",
+      "sha256": "704da030a80340f771f2341d6130114fc5e9f756537fd5ae6ef3be943aaf34bd",
+      "bytes": 9447
+    },
+    {
+      "path": "content/media/557197d72ed5704ad11667b88e7b3f416452555b26181a570a4b374fff21e121.webp",
+      "sha256": "557197d72ed5704ad11667b88e7b3f416452555b26181a570a4b374fff21e121",
+      "bytes": 30640
+    },
+    {
+      "path": "content/media/3736ab63b6b152bb5be0e2b7e42f1126a5584adf3d1fa3fe578c7f135aab36f6.mp3",
+      "sha256": "3736ab63b6b152bb5be0e2b7e42f1126a5584adf3d1fa3fe578c7f135aab36f6",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/13985c57d772ad993b5da2e47cab714189202ae96ee6af09cc088c691b24221f.mp3",
+      "sha256": "13985c57d772ad993b5da2e47cab714189202ae96ee6af09cc088c691b24221f",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/c9ade8b57b0720ec0fa4108e348ab883670ec7d83258d6caa6295886de85836d.webp",
+      "sha256": "c9ade8b57b0720ec0fa4108e348ab883670ec7d83258d6caa6295886de85836d",
+      "bytes": 23398
+    },
+    {
+      "path": "content/media/68026468cdeab2870570bd556c636f7c2d0e6ae68dab66983f19a026e7b91456.mp3",
+      "sha256": "68026468cdeab2870570bd556c636f7c2d0e6ae68dab66983f19a026e7b91456",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/4a0be3096e6b439857bc38671003b3e58a7d8c62295009e6a9b685c84f565eb8.mp3",
+      "sha256": "4a0be3096e6b439857bc38671003b3e58a7d8c62295009e6a9b685c84f565eb8",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/db311db00e0697804560a64f21659096a44ea138e54f6b05b7a5c0f70ca4f612.webp",
+      "sha256": "db311db00e0697804560a64f21659096a44ea138e54f6b05b7a5c0f70ca4f612",
+      "bytes": 47730
+    },
+    {
+      "path": "content/media/b1b120a4eef3eeedabe4f17398b63bf417900782bd2d32a81370ff6a544c1f71.mp3",
+      "sha256": "b1b120a4eef3eeedabe4f17398b63bf417900782bd2d32a81370ff6a544c1f71",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/be10d561892b80b8ef46bd93832e77f7e27ee052f3ee11455d5ebf0cd61f981f.mp3",
+      "sha256": "be10d561892b80b8ef46bd93832e77f7e27ee052f3ee11455d5ebf0cd61f981f",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/eb58351ed9396b6366206594e2d29badca89a28e738d89899b1cf101abc6557f.webp",
+      "sha256": "eb58351ed9396b6366206594e2d29badca89a28e738d89899b1cf101abc6557f",
+      "bytes": 19562
+    },
+    {
+      "path": "content/media/701a10a722b759e938cc8e2d83e9d34a293c92acc96ca9852bc53841fe290e6a.mp3",
+      "sha256": "701a10a722b759e938cc8e2d83e9d34a293c92acc96ca9852bc53841fe290e6a",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/900b45b46ea1bfb75f2ae272c38e0f401bc791697cf3accd2f563286ab506422.mp3",
+      "sha256": "900b45b46ea1bfb75f2ae272c38e0f401bc791697cf3accd2f563286ab506422",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/03bd159023bec150f46eae9af6a7619064f138326e19912be8c24d4231a4fce2.webp",
+      "sha256": "03bd159023bec150f46eae9af6a7619064f138326e19912be8c24d4231a4fce2",
+      "bytes": 23952
+    },
+    {
+      "path": "content/media/2f0a259620b05639aabbf984d9a7d2485f2d9318518656fb72b18df0cdb0d067.mp3",
+      "sha256": "2f0a259620b05639aabbf984d9a7d2485f2d9318518656fb72b18df0cdb0d067",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/dc468b39275066b219489287a8f56658db9c100afab1ff7bc81d2146db221db1.mp3",
+      "sha256": "dc468b39275066b219489287a8f56658db9c100afab1ff7bc81d2146db221db1",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/94464113d433fd6bd0d6f3262bc1a288edce9c9949cee3ad0cf08c1add0cb27d.webp",
+      "sha256": "94464113d433fd6bd0d6f3262bc1a288edce9c9949cee3ad0cf08c1add0cb27d",
+      "bytes": 25534
+    },
+    {
+      "path": "content/media/9db0a9af094f5d9cba52719be06c95103c906a7535d9c8409d3b7f5e1155cd76.mp3",
+      "sha256": "9db0a9af094f5d9cba52719be06c95103c906a7535d9c8409d3b7f5e1155cd76",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/398791283098bd3d8c77505af60e14ce84e60ec4efee89b1dbaaff18df5b8043.mp3",
+      "sha256": "398791283098bd3d8c77505af60e14ce84e60ec4efee89b1dbaaff18df5b8043",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/2e8c48e6127f0586de259a5662d0fa0abd418f19ac9b3d0cebd7ce69ded9f2cd.webp",
+      "sha256": "2e8c48e6127f0586de259a5662d0fa0abd418f19ac9b3d0cebd7ce69ded9f2cd",
+      "bytes": 26634
+    },
+    {
+      "path": "content/media/b67e891a198f176f6fe53c9a0a17107ed012eedba18c0a897f70dfaeb3541fea.mp3",
+      "sha256": "b67e891a198f176f6fe53c9a0a17107ed012eedba18c0a897f70dfaeb3541fea",
+      "bytes": 6312
+    },
+    {
+      "path": "content/media/e5e2f5c48fad1b111d943f96b7f09da73c22f6da70c52e79798845446ab8db62.mp3",
+      "sha256": "e5e2f5c48fad1b111d943f96b7f09da73c22f6da70c52e79798845446ab8db62",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/7956819b764b7e37f0b4af10d3b7c2321320b5da05d42f79bc52b88e560decd8.webp",
+      "sha256": "7956819b764b7e37f0b4af10d3b7c2321320b5da05d42f79bc52b88e560decd8",
+      "bytes": 22220
+    },
+    {
+      "path": "content/media/b349df5fd78beef949d32a2315b777f5aeb76282e03051077cffc9b025e9ae76.mp3",
+      "sha256": "b349df5fd78beef949d32a2315b777f5aeb76282e03051077cffc9b025e9ae76",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/52435212045205aa4cbb40dcfe0e367534412813461ead86a22c5c8118b7ce2f.mp3",
+      "sha256": "52435212045205aa4cbb40dcfe0e367534412813461ead86a22c5c8118b7ce2f",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/7edce6b3257db27c21a1595a33158252ef4bd81244dd6e0150538d7170dc0916.webp",
+      "sha256": "7edce6b3257db27c21a1595a33158252ef4bd81244dd6e0150538d7170dc0916",
+      "bytes": 29502
+    },
+    {
+      "path": "content/media/7b1eff33153686e4ea0070e18f672d4fbdf256a9c9a241ed9e54447fff21b2ec.mp3",
+      "sha256": "7b1eff33153686e4ea0070e18f672d4fbdf256a9c9a241ed9e54447fff21b2ec",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/2a81323f4381d6b691988854a4a5706fb237d23fc39c664bc3f16f698c5f565d.mp3",
+      "sha256": "2a81323f4381d6b691988854a4a5706fb237d23fc39c664bc3f16f698c5f565d",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/ec9fb297a1f2178b5f4126e37fa04de80e42a4825a2d04898f065cc6a1527c1d.webp",
+      "sha256": "ec9fb297a1f2178b5f4126e37fa04de80e42a4825a2d04898f065cc6a1527c1d",
+      "bytes": 20932
+    },
+    {
+      "path": "content/media/9a738b0c184c0a1f7962bd04975fd941fca6bf81677d7dd9a7e7a829be58f3a1.mp3",
+      "sha256": "9a738b0c184c0a1f7962bd04975fd941fca6bf81677d7dd9a7e7a829be58f3a1",
+      "bytes": 5685
+    },
+    {
+      "path": "content/media/6a1f581a22e25d354371c9dbb4b5b52eff89335ab11b6459f67c97afdbdd0996.mp3",
+      "sha256": "6a1f581a22e25d354371c9dbb4b5b52eff89335ab11b6459f67c97afdbdd0996",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/09ffc20ecb909d03b4cf748da320e19f5556841d48adb665b4ced834b2c1b1c3.webp",
+      "sha256": "09ffc20ecb909d03b4cf748da320e19f5556841d48adb665b4ced834b2c1b1c3",
+      "bytes": 30618
+    },
+    {
+      "path": "content/media/99a82ab57993bdd7ab4295809625a6baa3b320c08f90abd348fd6636abde7b21.mp3",
+      "sha256": "99a82ab57993bdd7ab4295809625a6baa3b320c08f90abd348fd6636abde7b21",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/3544a884f7a71c810173450772b84c4d0fcb610a3c7972c2ea4ac2ccb7460c4d.mp3",
+      "sha256": "3544a884f7a71c810173450772b84c4d0fcb610a3c7972c2ea4ac2ccb7460c4d",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/e3141f719a5f28a8e2157577659b3317d44adab76ca7427d13e5b6c43ce09571.webp",
+      "sha256": "e3141f719a5f28a8e2157577659b3317d44adab76ca7427d13e5b6c43ce09571",
+      "bytes": 24014
+    },
+    {
+      "path": "content/media/1211440763ba93922acebc6b8910061439804c96a9ed4b0d1d685addc4c22325.mp3",
+      "sha256": "1211440763ba93922acebc6b8910061439804c96a9ed4b0d1d685addc4c22325",
+      "bytes": 10074
+    },
+    {
+      "path": "content/media/0768f75e370460703a25705860aafd918c5009d5d0e37ab7ce3f31fb7fcbf27a.mp3",
+      "sha256": "0768f75e370460703a25705860aafd918c5009d5d0e37ab7ce3f31fb7fcbf27a",
+      "bytes": 9447
+    },
+    {
+      "path": "content/media/45ef877ae77552307eab0c237b0ec5550a3d9a73f6306ff5cc1446d5818edee2.webp",
+      "sha256": "45ef877ae77552307eab0c237b0ec5550a3d9a73f6306ff5cc1446d5818edee2",
+      "bytes": 26372
+    },
+    {
+      "path": "content/media/317c114901422c0c7952ce99f4a6bce0e26a26a92682485a76dfe73e2b5529ce.mp3",
+      "sha256": "317c114901422c0c7952ce99f4a6bce0e26a26a92682485a76dfe73e2b5529ce",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/ef0ccd6b50ff014f2518def28d4c063d9626fad239140024c2dfd3cb1684f119.mp3",
+      "sha256": "ef0ccd6b50ff014f2518def28d4c063d9626fad239140024c2dfd3cb1684f119",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/e54c84cabcbf12d239897dd9571424a439386ce4fc864ec79fc7f07cef29e7b9.webp",
+      "sha256": "e54c84cabcbf12d239897dd9571424a439386ce4fc864ec79fc7f07cef29e7b9",
+      "bytes": 31914
+    },
+    {
+      "path": "content/media/12fd03d5d759d28cb2aec8daa20fd288dad0487066f7deb72ce9aed8c73c7a84.mp3",
+      "sha256": "12fd03d5d759d28cb2aec8daa20fd288dad0487066f7deb72ce9aed8c73c7a84",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/ea97fc4dd16320b6d6fc7c323759e6e80c6ffd2d00fd4e9141d3e929db976516.mp3",
+      "sha256": "ea97fc4dd16320b6d6fc7c323759e6e80c6ffd2d00fd4e9141d3e929db976516",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/cac2e4c7103171e3a62fbd6fd354f5d86b8e68e922c00f7e7eb84ba4a3c56080.webp",
+      "sha256": "cac2e4c7103171e3a62fbd6fd354f5d86b8e68e922c00f7e7eb84ba4a3c56080",
+      "bytes": 28866
+    },
+    {
+      "path": "content/media/49b66f04b68bec60cdb119550503970c7a68b9ab672e4cc3ed076a753a25b318.mp3",
+      "sha256": "49b66f04b68bec60cdb119550503970c7a68b9ab672e4cc3ed076a753a25b318",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/289d0c89e0aa2e75400cfe4024c959cec29b6b6ce643a8fbdc443490a96b305f.mp3",
+      "sha256": "289d0c89e0aa2e75400cfe4024c959cec29b6b6ce643a8fbdc443490a96b305f",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/56d07117cddbb42a5ba0ebb7c335f26f094e7cfadc69bad15e4fe77c85fac34c.webp",
+      "sha256": "56d07117cddbb42a5ba0ebb7c335f26f094e7cfadc69bad15e4fe77c85fac34c",
+      "bytes": 23236
+    },
+    {
+      "path": "content/media/b587d6f312cd66fb6126b09cce92c5e418f28b76d02f6d4659eec4ef1f281d39.mp3",
+      "sha256": "b587d6f312cd66fb6126b09cce92c5e418f28b76d02f6d4659eec4ef1f281d39",
+      "bytes": 6312
+    },
+    {
+      "path": "content/media/5493dbfa2855833174d39b6d49f92c5ec3f1f063bbf9b269ad12daacc27f19e2.mp3",
+      "sha256": "5493dbfa2855833174d39b6d49f92c5ec3f1f063bbf9b269ad12daacc27f19e2",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/764e4d6fea21a61834dde6988278a961fa3e7d4387ead9066dfc00bb90d9ab64.webp",
+      "sha256": "764e4d6fea21a61834dde6988278a961fa3e7d4387ead9066dfc00bb90d9ab64",
+      "bytes": 24414
+    },
+    {
+      "path": "content/media/2203fddafc1b3908a86ef7bb3384e548f354a38ecffcd1cc338532c89f246528.mp3",
+      "sha256": "2203fddafc1b3908a86ef7bb3384e548f354a38ecffcd1cc338532c89f246528",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/5a2a2c86a35f4af6c2769363ec13b75e4b140c1218013b68d6e8259f8d769e23.mp3",
+      "sha256": "5a2a2c86a35f4af6c2769363ec13b75e4b140c1218013b68d6e8259f8d769e23",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/a1322b4fbd146c9729d4b7cbaaf1ad1bad84d53ba7dc7caa284d2e12c77bde51.webp",
+      "sha256": "a1322b4fbd146c9729d4b7cbaaf1ad1bad84d53ba7dc7caa284d2e12c77bde51",
+      "bytes": 16458
+    },
+    {
+      "path": "content/media/48189b2b00730f8486ba4b9c9269411a7891dd14874db18772b6c30b04787eac.mp3",
+      "sha256": "48189b2b00730f8486ba4b9c9269411a7891dd14874db18772b6c30b04787eac",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/0b6642b1f93c5621c1f3036b53750a0f816026022bef190ee311a73106819873.mp3",
+      "sha256": "0b6642b1f93c5621c1f3036b53750a0f816026022bef190ee311a73106819873",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/36267342c13afea0a8d593539b98accbb8bda6c874d1db6dcf0ef20ec690c942.webp",
+      "sha256": "36267342c13afea0a8d593539b98accbb8bda6c874d1db6dcf0ef20ec690c942",
+      "bytes": 19308
+    },
+    {
+      "path": "content/media/5e250369f63d0cb646fc7a26d84ad59471593922b20f26a589d092e851f973a5.mp3",
+      "sha256": "5e250369f63d0cb646fc7a26d84ad59471593922b20f26a589d092e851f973a5",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/312c3ed54be273586054f1944349848fc42ade6d51b3dc388752f6429880ad53.mp3",
+      "sha256": "312c3ed54be273586054f1944349848fc42ade6d51b3dc388752f6429880ad53",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/00b899a64af06b5fe1c2f3bd413aa8975be36c28944fee5a9c2d8a3c2918f801.webp",
+      "sha256": "00b899a64af06b5fe1c2f3bd413aa8975be36c28944fee5a9c2d8a3c2918f801",
+      "bytes": 15702
+    },
+    {
+      "path": "content/media/1274a9304e76c9f81e07bc7bcc5f9e4b8aeafb95003ef8aa47f608cc6a36c99a.mp3",
+      "sha256": "1274a9304e76c9f81e07bc7bcc5f9e4b8aeafb95003ef8aa47f608cc6a36c99a",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/2e144f6ea1a3f07c48bff22b356458daac4d0c15b82a62dd2f44994c53f76cc0.mp3",
+      "sha256": "2e144f6ea1a3f07c48bff22b356458daac4d0c15b82a62dd2f44994c53f76cc0",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/7fc1d3b1bcd27d28507ec86b14b53da42adebc6baa332535d8a6e1a449e86e60.webp",
+      "sha256": "7fc1d3b1bcd27d28507ec86b14b53da42adebc6baa332535d8a6e1a449e86e60",
+      "bytes": 17192
+    },
+    {
+      "path": "content/media/6320a9b8cedd4b7491ca20635d5a1b97cd3f49253b1c3cb7d6e1f47cf2c3572f.mp3",
+      "sha256": "6320a9b8cedd4b7491ca20635d5a1b97cd3f49253b1c3cb7d6e1f47cf2c3572f",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/cf421831cd121397848c18052d2046f36e9f3e99c72f85ccc844ac772e2e82d4.mp3",
+      "sha256": "cf421831cd121397848c18052d2046f36e9f3e99c72f85ccc844ac772e2e82d4",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/6d8f697515205e8a9fcd1464c93c378f4f3b5301093c5aafab13131f3f005020.webp",
+      "sha256": "6d8f697515205e8a9fcd1464c93c378f4f3b5301093c5aafab13131f3f005020",
+      "bytes": 15494
+    },
+    {
+      "path": "content/media/75b9edbcde84de1cb597522cae5da0647f74966997bd570731e47ad89ea2c41e.mp3",
+      "sha256": "75b9edbcde84de1cb597522cae5da0647f74966997bd570731e47ad89ea2c41e",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/36cc196b4add51534174e4670449310feba803236a3c3ef3fa311ebc82840ed7.mp3",
+      "sha256": "36cc196b4add51534174e4670449310feba803236a3c3ef3fa311ebc82840ed7",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/46bfd7cbf2fd7b6b1535b682ebd1742b688cf7f80b9d6a07fac534827e083f21.webp",
+      "sha256": "46bfd7cbf2fd7b6b1535b682ebd1742b688cf7f80b9d6a07fac534827e083f21",
+      "bytes": 17424
+    },
+    {
+      "path": "content/media/582c73cd51f57ab524f89c8aa8b923346051f01ba74e3f37da95b1602fab2cd4.mp3",
+      "sha256": "582c73cd51f57ab524f89c8aa8b923346051f01ba74e3f37da95b1602fab2cd4",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/74c3aa2b1821a1669a6467efdf884c28254186d0d22e9eb55b6a84c2974e65d7.mp3",
+      "sha256": "74c3aa2b1821a1669a6467efdf884c28254186d0d22e9eb55b6a84c2974e65d7",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/df0c3786b0ab13c6dc344594352da2ce89c406f423f4963c74c9697535f0df59.webp",
+      "sha256": "df0c3786b0ab13c6dc344594352da2ce89c406f423f4963c74c9697535f0df59",
+      "bytes": 17588
+    },
+    {
+      "path": "content/media/67f8829b5dae073b2af56c092c1f768932f2f3013dc6e334b83d968471701f4e.mp3",
+      "sha256": "67f8829b5dae073b2af56c092c1f768932f2f3013dc6e334b83d968471701f4e",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/7065caf3aa8327841304cc743fa40a4a73e6589410db258ebd8025dfda4806b8.mp3",
+      "sha256": "7065caf3aa8327841304cc743fa40a4a73e6589410db258ebd8025dfda4806b8",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/5896d02a3197f2132179b61764a661dbbb1ca1555d187c1574071fd75f982c83.webp",
+      "sha256": "5896d02a3197f2132179b61764a661dbbb1ca1555d187c1574071fd75f982c83",
+      "bytes": 20024
+    },
+    {
+      "path": "content/media/9897500a0875ca6a73a0e234ecd6eb9443d39e568a61ea554551860de4a85d61.mp3",
+      "sha256": "9897500a0875ca6a73a0e234ecd6eb9443d39e568a61ea554551860de4a85d61",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/2ba1c6a6b5899acb2a5ff3b76fc75bd28fb8ac881b511fc2d7d1b0f6b857dd48.mp3",
+      "sha256": "2ba1c6a6b5899acb2a5ff3b76fc75bd28fb8ac881b511fc2d7d1b0f6b857dd48",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/b770f938107ec71825e47028c55d12fd8a693771f49acd9017435cf8fe67c1ef.webp",
+      "sha256": "b770f938107ec71825e47028c55d12fd8a693771f49acd9017435cf8fe67c1ef",
+      "bytes": 17038
+    },
+    {
+      "path": "content/media/f5d80762273c5d1a408fe9366d118c99dc76c84cd27f497d39c08ab364f9dc6f.mp3",
+      "sha256": "f5d80762273c5d1a408fe9366d118c99dc76c84cd27f497d39c08ab364f9dc6f",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/e124995f06657e472306e84e155d194685d57ee54254b8bd60f78ddc7c116b75.mp3",
+      "sha256": "e124995f06657e472306e84e155d194685d57ee54254b8bd60f78ddc7c116b75",
+      "bytes": 10700
+    },
+    {
+      "path": "content/media/962ab1a31cee2e854742987f22760402b8a591bcef5efb65f4f392a71eabe1bc.webp",
+      "sha256": "962ab1a31cee2e854742987f22760402b8a591bcef5efb65f4f392a71eabe1bc",
+      "bytes": 20174
+    },
+    {
+      "path": "content/media/f0ae51755d6d0cb41784419fbc538945cdd6e4c17b72c536df1056cc07551675.mp3",
+      "sha256": "f0ae51755d6d0cb41784419fbc538945cdd6e4c17b72c536df1056cc07551675",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/af45d1f4c8cb8fa27eeabddda35964660ccf7ea172ffaaa6dd6821534d1c1f24.mp3",
+      "sha256": "af45d1f4c8cb8fa27eeabddda35964660ccf7ea172ffaaa6dd6821534d1c1f24",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/64f433703a26b6a2d8c2b456fdb32a78e53f6862c9fb301edf48b53a6297e4d1.webp",
+      "sha256": "64f433703a26b6a2d8c2b456fdb32a78e53f6862c9fb301edf48b53a6297e4d1",
+      "bytes": 19828
+    },
+    {
+      "path": "content/media/61b0b8970e1b3344510c933c1dc9b48e003d8bfa2596629641ab074fb11dcf86.mp3",
+      "sha256": "61b0b8970e1b3344510c933c1dc9b48e003d8bfa2596629641ab074fb11dcf86",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/091b9208953e145bb4d220453d5229f5300da2fe61f97517d373598b8d2cf99d.mp3",
+      "sha256": "091b9208953e145bb4d220453d5229f5300da2fe61f97517d373598b8d2cf99d",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/327cebba10f3964927e5bed60a44ed0b5cffeb4c82864e7502a28c2db480a8cc.webp",
+      "sha256": "327cebba10f3964927e5bed60a44ed0b5cffeb4c82864e7502a28c2db480a8cc",
+      "bytes": 16290
+    },
+    {
+      "path": "content/media/4ae25df114e537c0a9e5198631d837ee9cb69c0b466fb022f1f5c46936dfc2d3.mp3",
+      "sha256": "4ae25df114e537c0a9e5198631d837ee9cb69c0b466fb022f1f5c46936dfc2d3",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/82b8809a840aad3333044a4e39dcbaf87657d91f21fb98ffd9be8c2a797073e1.mp3",
+      "sha256": "82b8809a840aad3333044a4e39dcbaf87657d91f21fb98ffd9be8c2a797073e1",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/4831e7f60ed1f5bd54fb4879e2fc467bff5a2f20ef3d279d3ea770301fce6cc4.svg",
+      "sha256": "4831e7f60ed1f5bd54fb4879e2fc467bff5a2f20ef3d279d3ea770301fce6cc4",
+      "bytes": 1480
+    },
+    {
+      "path": "content/media/2e23967690556256261526ba34e0ee8681b146aa8d4902aac2f764292a1298f1.mp3",
+      "sha256": "2e23967690556256261526ba34e0ee8681b146aa8d4902aac2f764292a1298f1",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/0fc2671c867c3a67d4d22f490308aea6c67ab13d3f414ec2c6c38b6f642a003c.mp3",
+      "sha256": "0fc2671c867c3a67d4d22f490308aea6c67ab13d3f414ec2c6c38b6f642a003c",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/1afe38a9a9292dff8d593e54990edf21f47537a0d5455065811b607c82edf774.webp",
+      "sha256": "1afe38a9a9292dff8d593e54990edf21f47537a0d5455065811b607c82edf774",
+      "bytes": 36474
+    },
+    {
+      "path": "content/media/6858affe01b1729173ec115a3fa86eab69a63901f3e49f6683f8af1f858322c3.mp3",
+      "sha256": "6858affe01b1729173ec115a3fa86eab69a63901f3e49f6683f8af1f858322c3",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/367491d96e3ac52395064e8aba27a1f6e0dd3532ca4cfd5a04a17d6816f8bb4f.mp3",
+      "sha256": "367491d96e3ac52395064e8aba27a1f6e0dd3532ca4cfd5a04a17d6816f8bb4f",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/3a60c353d973cdc9732f222ec2bc89e04ba82a17732e3fa40049b0fde1531013.webp",
+      "sha256": "3a60c353d973cdc9732f222ec2bc89e04ba82a17732e3fa40049b0fde1531013",
+      "bytes": 19896
+    },
+    {
+      "path": "content/media/33b9697b0d43ccfd6434217264921f3646730d74a918d9a6944d76b2694a7cde.mp3",
+      "sha256": "33b9697b0d43ccfd6434217264921f3646730d74a918d9a6944d76b2694a7cde",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/b3d9c19dd249f9825ac14fa198ac560bb01af566ea6d8a6b95cc630312a819d2.mp3",
+      "sha256": "b3d9c19dd249f9825ac14fa198ac560bb01af566ea6d8a6b95cc630312a819d2",
+      "bytes": 9447
+    },
+    {
+      "path": "content/media/016e89d32c675fa71d81f7a0e23b5f51a7a565678f7337582f5bddadabcdf182.webp",
+      "sha256": "016e89d32c675fa71d81f7a0e23b5f51a7a565678f7337582f5bddadabcdf182",
+      "bytes": 29410
+    },
+    {
+      "path": "content/media/3b6127aab82e80c0cf37251a8aacd35243369388e300882f604317584af3332c.mp3",
+      "sha256": "3b6127aab82e80c0cf37251a8aacd35243369388e300882f604317584af3332c",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/ff3178b679cbc90624b7e06a51baabbb0a103623243f2cb12fa6b9ed513fb306.mp3",
+      "sha256": "ff3178b679cbc90624b7e06a51baabbb0a103623243f2cb12fa6b9ed513fb306",
+      "bytes": 6312
+    },
+    {
+      "path": "content/media/1521bfaebe10fa5f6056aa9cc06c0ed2c6d6b6dfd0c7679f7960b9ed42450bba.webp",
+      "sha256": "1521bfaebe10fa5f6056aa9cc06c0ed2c6d6b6dfd0c7679f7960b9ed42450bba",
+      "bytes": 13528
+    },
+    {
+      "path": "content/media/fb4b2a55170f2aa0eb9f666f3dc9e2cfd0c5b204e98217026c04a1e9f5b91e92.mp3",
+      "sha256": "fb4b2a55170f2aa0eb9f666f3dc9e2cfd0c5b204e98217026c04a1e9f5b91e92",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/9a3babd9c26a44bd1d9e7216893f536525a8ece97199c872de4dad23940dd0e9.mp3",
+      "sha256": "9a3babd9c26a44bd1d9e7216893f536525a8ece97199c872de4dad23940dd0e9",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/d8c0d1b54fca3fb09f0758166bd0d94f4d58343c37ebf64e744549cabb6e6220.webp",
+      "sha256": "d8c0d1b54fca3fb09f0758166bd0d94f4d58343c37ebf64e744549cabb6e6220",
+      "bytes": 29722
+    },
+    {
+      "path": "content/media/6fcaaf99d32321bc74a22981f1f634b9629185da8f9055e9b48c9a436dcf7694.mp3",
+      "sha256": "6fcaaf99d32321bc74a22981f1f634b9629185da8f9055e9b48c9a436dcf7694",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/0b797f4a8c2869815139ddaa616163d02f41703b268d57166d2d22d60c4ad4bd.mp3",
+      "sha256": "0b797f4a8c2869815139ddaa616163d02f41703b268d57166d2d22d60c4ad4bd",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/981d5f78322ff34a813232b737b47193f5bd468b075ba2e5ce4c5bea30ff4721.webp",
+      "sha256": "981d5f78322ff34a813232b737b47193f5bd468b075ba2e5ce4c5bea30ff4721",
+      "bytes": 29340
+    },
+    {
+      "path": "content/media/870175f19b66775a9c1b2e419efd0fe3800074a0a32672270a7f9699d8c9fe8d.mp3",
+      "sha256": "870175f19b66775a9c1b2e419efd0fe3800074a0a32672270a7f9699d8c9fe8d",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/a4b6a3f93f1e4ac239e727fde4a80d77b8366a365d833d96561561b34da9d714.mp3",
+      "sha256": "a4b6a3f93f1e4ac239e727fde4a80d77b8366a365d833d96561561b34da9d714",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/42e34f62b733da73de16cb420162d68a42aba610705f5a58d55d941fab5bb977.webp",
+      "sha256": "42e34f62b733da73de16cb420162d68a42aba610705f5a58d55d941fab5bb977",
+      "bytes": 22160
+    },
+    {
+      "path": "content/media/2cdcd7e6953148d97a3b6755fcb234701eab57a18620888d5eadf78b0d36d628.mp3",
+      "sha256": "2cdcd7e6953148d97a3b6755fcb234701eab57a18620888d5eadf78b0d36d628",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/1d99b9c06b35cc871366cb4173ab98987b1874fb8cf73efc52ba03062020dfe0.mp3",
+      "sha256": "1d99b9c06b35cc871366cb4173ab98987b1874fb8cf73efc52ba03062020dfe0",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/7a7527ba2169a2bef41e4389bbeb829c6011f8c9e2f9ac67ae9140fe4b87619c.webp",
+      "sha256": "7a7527ba2169a2bef41e4389bbeb829c6011f8c9e2f9ac67ae9140fe4b87619c",
+      "bytes": 21694
+    },
+    {
+      "path": "content/media/13298d1e375c5cfcb0c6391965bb6681550ca7384bea91a387651c244949ed01.mp3",
+      "sha256": "13298d1e375c5cfcb0c6391965bb6681550ca7384bea91a387651c244949ed01",
+      "bytes": 7566
+    },
+    {
+      "path": "content/media/2a4c7e822e564f9db3e0e656c2f392ba565b94f5f5c7bfcdce373033c84d1ad3.mp3",
+      "sha256": "2a4c7e822e564f9db3e0e656c2f392ba565b94f5f5c7bfcdce373033c84d1ad3",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/9e16982f3438b45c67c8d7ab8a1a30a2ce26364c58d56b44001285512856ceca.webp",
+      "sha256": "9e16982f3438b45c67c8d7ab8a1a30a2ce26364c58d56b44001285512856ceca",
+      "bytes": 18590
+    },
+    {
+      "path": "content/media/5701655f3ecae0e9b592f01a92914d131615640594b72e3d9bcc935019a6b82e.mp3",
+      "sha256": "5701655f3ecae0e9b592f01a92914d131615640594b72e3d9bcc935019a6b82e",
+      "bytes": 9447
+    },
+    {
+      "path": "content/media/6bb10aa1c900534da745bdd0a304cf9fa3cd952e748980e4792208fd7757bb8a.mp3",
+      "sha256": "6bb10aa1c900534da745bdd0a304cf9fa3cd952e748980e4792208fd7757bb8a",
+      "bytes": 9447
+    },
+    {
+      "path": "content/media/7361a25d483a740c9dc85742194f733a63dba9c813a2b9750c76656a40df5840.webp",
+      "sha256": "7361a25d483a740c9dc85742194f733a63dba9c813a2b9750c76656a40df5840",
+      "bytes": 34208
+    },
+    {
+      "path": "content/media/c19ea699fc688caf0b4e3393ee81c2a03bfc81578e8368a65a8f82bde9140d83.mp3",
+      "sha256": "c19ea699fc688caf0b4e3393ee81c2a03bfc81578e8368a65a8f82bde9140d83",
+      "bytes": 8820
+    },
+    {
+      "path": "content/media/c87d842c169a19aba8a90ee3deec9faad251e45f3df3026df88644093b04cb28.mp3",
+      "sha256": "c87d842c169a19aba8a90ee3deec9faad251e45f3df3026df88644093b04cb28",
+      "bytes": 9447
+    },
+    {
+      "path": "content/media/00168a6a7dcf789c6518515faace81951c1e5ac56b4649773851892b5f57b404.webp",
+      "sha256": "00168a6a7dcf789c6518515faace81951c1e5ac56b4649773851892b5f57b404",
+      "bytes": 23112
+    },
+    {
+      "path": "content/media/64a882261ffb87c1bea6e26ee85232a19335f01069a415de78ece559b936a69e.mp3",
+      "sha256": "64a882261ffb87c1bea6e26ee85232a19335f01069a415de78ece559b936a69e",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/8bf04be1afb661fe946d665a46a811e56596a4a499e558ae6f7cc7dd7cf840de.mp3",
+      "sha256": "8bf04be1afb661fe946d665a46a811e56596a4a499e558ae6f7cc7dd7cf840de",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/9ecc1adbf9ab2f6d78ca8bfb17073f77c8f4d74e0a6883bdee996b32a12e907b.webp",
+      "sha256": "9ecc1adbf9ab2f6d78ca8bfb17073f77c8f4d74e0a6883bdee996b32a12e907b",
+      "bytes": 37862
+    },
+    {
+      "path": "content/media/b719922bccb5e6b9acde932bd62f45c6aa670e740c68e49da4d00c2e91cc4771.mp3",
+      "sha256": "b719922bccb5e6b9acde932bd62f45c6aa670e740c68e49da4d00c2e91cc4771",
+      "bytes": 6939
+    },
+    {
+      "path": "content/media/9ffffa2ec7fec1a0ff97f84d4d2ac4feb8d7efc7060e7606c275e4374159d962.mp3",
+      "sha256": "9ffffa2ec7fec1a0ff97f84d4d2ac4feb8d7efc7060e7606c275e4374159d962",
+      "bytes": 8193
+    },
+    {
+      "path": "content/media/8f9e4474b37ba6c870e5570602bd3343bf648c13e03cdd0d5bcced2b1784b103.svg",
+      "sha256": "8f9e4474b37ba6c870e5570602bd3343bf648c13e03cdd0d5bcced2b1784b103",
+      "bytes": 1512
+    },
+    {
+      "path": "content/media/e9bc3f5e31a4fc0830cb39f1ac2708444fe6f86cbd7c194d2e5649eceaf20fec.svg",
+      "sha256": "e9bc3f5e31a4fc0830cb39f1ac2708444fe6f86cbd7c194d2e5649eceaf20fec",
+      "bytes": 1588
+    },
+    {
+      "path": "content/media/e0d3c46e7e873c859c19bab0a77f872c4a38c2102d346c9d18892871856d3fbd.svg",
+      "sha256": "e0d3c46e7e873c859c19bab0a77f872c4a38c2102d346c9d18892871856d3fbd",
+      "bytes": 1570
+    },
+    {
+      "path": "content/media/b336eae4f416bc89a9f52b1bdb7e8ce3be905368b2ce4d38d0662f064b531130.svg",
+      "sha256": "b336eae4f416bc89a9f52b1bdb7e8ce3be905368b2ce4d38d0662f064b531130",
+      "bytes": 1464
+    },
+    {
+      "path": "content/media/60ee4d884a5c283289a5596c192ad87812ab00bf24cc3d37e7c3a71309c954fb.svg",
+      "sha256": "60ee4d884a5c283289a5596c192ad87812ab00bf24cc3d37e7c3a71309c954fb",
+      "bytes": 1528
+    },
+    {
+      "path": "content/media/2093dd53926edb2c12f608e4a334b74a4a381bd73bedb623987ee31325f198a5.svg",
+      "sha256": "2093dd53926edb2c12f608e4a334b74a4a381bd73bedb623987ee31325f198a5",
+      "bytes": 1739
+    },
+    {
+      "path": "content/media/9f3e721b64b57d4bfdce59b450426867c7d0006d3be46e76c3214cfaf0e09d5a.svg",
+      "sha256": "9f3e721b64b57d4bfdce59b450426867c7d0006d3be46e76c3214cfaf0e09d5a",
+      "bytes": 1666
+    },
+    {
+      "path": "content/media/b6b1933ff07bea72389dd805a98dff80af270b0f99ebf28be0de130d95dc92bb.svg",
+      "sha256": "b6b1933ff07bea72389dd805a98dff80af270b0f99ebf28be0de130d95dc92bb",
+      "bytes": 1630
+    },
+    {
+      "path": "content/media/f03d07d02afb238bbd1d7280354cb9ebf22dc1717618c13add0dcfc673b215a4.svg",
+      "sha256": "f03d07d02afb238bbd1d7280354cb9ebf22dc1717618c13add0dcfc673b215a4",
+      "bytes": 1734
+    },
+    {
+      "path": "content/media/24ca4da482ce77c67c9ebd95190dd9c2d4592ecea8cd14db46bbf014fca38b0b.svg",
+      "sha256": "24ca4da482ce77c67c9ebd95190dd9c2d4592ecea8cd14db46bbf014fca38b0b",
+      "bytes": 1431
+    },
+    {
+      "path": "content/media/7beb6d02a27450ecb864c68ea4b197bb8ac84126cd194d0f56ba9e28b0908362.svg",
+      "sha256": "7beb6d02a27450ecb864c68ea4b197bb8ac84126cd194d0f56ba9e28b0908362",
+      "bytes": 1531
+    },
+    {
+      "path": "content/media/8f15e683ab36f353883e48de74af242ea944359d994f53c2b3bf294aff9aef30.svg",
+      "sha256": "8f15e683ab36f353883e48de74af242ea944359d994f53c2b3bf294aff9aef30",
+      "bytes": 1401
+    },
+    {
+      "path": "content/media/daae7c0b459cbcd24d5a97bcd0d39993766cf57e9b59fc4daeb8aa21faf214a9.svg",
+      "sha256": "daae7c0b459cbcd24d5a97bcd0d39993766cf57e9b59fc4daeb8aa21faf214a9",
+      "bytes": 1665
+    },
+    {
+      "path": "content/media/d954e95d5d8985a803a60ff1aa64bc0fe0992968ac3e8915f3782e64f94a8292.svg",
+      "sha256": "d954e95d5d8985a803a60ff1aa64bc0fe0992968ac3e8915f3782e64f94a8292",
+      "bytes": 1924
+    },
+    {
+      "path": "content/media/afb839f26040b44ca26ce2399f221a08449aa591eef5da66a37d33a2524269cb.svg",
+      "sha256": "afb839f26040b44ca26ce2399f221a08449aa591eef5da66a37d33a2524269cb",
+      "bytes": 1513
+    },
+    {
+      "path": "content/media/658d0092af67c0f4d24465597a73ef2fb12f25f8cd21bd66d681787faf891b85.svg",
+      "sha256": "658d0092af67c0f4d24465597a73ef2fb12f25f8cd21bd66d681787faf891b85",
+      "bytes": 1730
+    },
+    {
+      "path": "content/media/58f896fbf3611b186d775d4351b5d5e51d934bff0305857b2b9f811fc3963ea4.svg",
+      "sha256": "58f896fbf3611b186d775d4351b5d5e51d934bff0305857b2b9f811fc3963ea4",
+      "bytes": 775
+    },
+    {
+      "path": "content/media/d92574b3ed2a7278d0e2723423818f0626995665f68a106ed9696d22753d0e99.svg",
+      "sha256": "d92574b3ed2a7278d0e2723423818f0626995665f68a106ed9696d22753d0e99",
+      "bytes": 793
+    },
+    {
+      "path": "content/media/95f36f7c3f65e182edb105035bacffbb143d61b0a64fc1a7564ce933e4ab1fe1.svg",
+      "sha256": "95f36f7c3f65e182edb105035bacffbb143d61b0a64fc1a7564ce933e4ab1fe1",
+      "bytes": 804
+    },
+    {
+      "path": "content/media/af3c74e9be5f51ee33f6c52c066ae1e5dfaddf60cafcf5f14b9e57ace5552698.svg",
+      "sha256": "af3c74e9be5f51ee33f6c52c066ae1e5dfaddf60cafcf5f14b9e57ace5552698",
+      "bytes": 963
+    },
+    {
+      "path": "content/media/1e65768f08c7171a1d4a8bdecace25969a2a6e74efbd41122525e60c5a9a880d.svg",
+      "sha256": "1e65768f08c7171a1d4a8bdecace25969a2a6e74efbd41122525e60c5a9a880d",
+      "bytes": 1006
+    },
+    {
+      "path": "content/media/2c0a9278f2e301fa9882baadf55ea78ab0fc005e64fd69e753a90c0c59f7e997.svg",
+      "sha256": "2c0a9278f2e301fa9882baadf55ea78ab0fc005e64fd69e753a90c0c59f7e997",
+      "bytes": 1094
+    },
+    {
+      "path": "content/media/d3b0d62a746deb153a28d556da6552d3d944288faecfbc22559397521f85305d.svg",
+      "sha256": "d3b0d62a746deb153a28d556da6552d3d944288faecfbc22559397521f85305d",
+      "bytes": 1126
+    },
+    {
+      "path": "content/media/a2d8cab53a5477894b03dd6f01ea0c23ead3b1c8db0f850c8596beb63d4ae9a3.svg",
+      "sha256": "a2d8cab53a5477894b03dd6f01ea0c23ead3b1c8db0f850c8596beb63d4ae9a3",
+      "bytes": 1363
+    },
+    {
+      "path": "content/media/07c300d94852a793fc362b456d40015c9cfe57c44feab72ba5e71456f314774a.svg",
+      "sha256": "07c300d94852a793fc362b456d40015c9cfe57c44feab72ba5e71456f314774a",
+      "bytes": 1000
+    },
+    {
+      "path": "content/media/eff60b03d25cd38b7ba49ab4ee6bb64055facdea9e43e554eb744568611c5e54.svg",
+      "sha256": "eff60b03d25cd38b7ba49ab4ee6bb64055facdea9e43e554eb744568611c5e54",
+      "bytes": 913
+    },
+    {
+      "path": "content/media/649e8b61b2488f35460a73f3c928099f2051e21f85a6a3c7ce9f1a58928a30cd.svg",
+      "sha256": "649e8b61b2488f35460a73f3c928099f2051e21f85a6a3c7ce9f1a58928a30cd",
+      "bytes": 1100
+    },
+    {
+      "path": "content/media/aa8982b97909244c836f082fa1501373ad4b8563c43024c10583739a4ad33df1.svg",
+      "sha256": "aa8982b97909244c836f082fa1501373ad4b8563c43024c10583739a4ad33df1",
+      "bytes": 810
+    },
+    {
+      "path": "content/media/2fce784459aa9596e5157a7eb4256e5323919de1dcd3fb2fcd2c24ab32650492.svg",
+      "sha256": "2fce784459aa9596e5157a7eb4256e5323919de1dcd3fb2fcd2c24ab32650492",
+      "bytes": 880
+    },
+    {
+      "path": "content/media/e4eff6c4cb037dabb42cdeccc690d90d35f095a3824febd1562b11a16a60c243.svg",
+      "sha256": "e4eff6c4cb037dabb42cdeccc690d90d35f095a3824febd1562b11a16a60c243",
+      "bytes": 1380
+    },
+    {
+      "path": "content/media/938dfcecfe3e639cff67f69951cc988a996840ab686479cab17b871fbf52b076.svg",
+      "sha256": "938dfcecfe3e639cff67f69951cc988a996840ab686479cab17b871fbf52b076",
+      "bytes": 809
+    },
+    {
+      "path": "content/media/be08e8c92571beda4c2a6fcf32dbd591cc98cb8770c0aed95169c3031a7b5f89.svg",
+      "sha256": "be08e8c92571beda4c2a6fcf32dbd591cc98cb8770c0aed95169c3031a7b5f89",
+      "bytes": 916
+    },
+    {
+      "path": "content/media/35d8be832f239596cd988598d51d2d22283ad8144b03b727946afc4dc4142963.svg",
+      "sha256": "35d8be832f239596cd988598d51d2d22283ad8144b03b727946afc4dc4142963",
+      "bytes": 1267
+    },
+    {
+      "path": "content/media/d0531c223acf2336aafaebfc82e9f200e5454e6c7aee39a8d1cc4f370180339b.svg",
+      "sha256": "d0531c223acf2336aafaebfc82e9f200e5454e6c7aee39a8d1cc4f370180339b",
+      "bytes": 1149
+    },
+    {
+      "path": "content/media/837f122196411baac6a878555dbad8fc3b9c3c68f0b26dfc2c17d0047ccf1ee7.svg",
+      "sha256": "837f122196411baac6a878555dbad8fc3b9c3c68f0b26dfc2c17d0047ccf1ee7",
+      "bytes": 909
+    },
+    {
+      "path": "content/media/c0398eeb5b33f29bd00f2b95d6df898f9d3732caf2c1c6bfd41c538f6fbe95b7.webp",
+      "sha256": "c0398eeb5b33f29bd00f2b95d6df898f9d3732caf2c1c6bfd41c538f6fbe95b7",
+      "bytes": 540042
+    },
+    {
+      "path": "content/media/10e18996e7afb13d73837917f1d9f780fa6be44497a2d3b6c41f9de69d267eac.svg",
+      "sha256": "10e18996e7afb13d73837917f1d9f780fa6be44497a2d3b6c41f9de69d267eac",
+      "bytes": 2540
+    },
+    {
+      "path": "content/media/506827c90d8014d610393b47d029a1637d8e76dd2ac0cfceaaa0df864f1b45a4.svg",
+      "sha256": "506827c90d8014d610393b47d029a1637d8e76dd2ac0cfceaaa0df864f1b45a4",
+      "bytes": 2881
+    },
+    {
+      "path": "content/media/2ed60284cf15350007cd9960ec735680a5a797f3630768669fd907f1188fa8ea.svg",
+      "sha256": "2ed60284cf15350007cd9960ec735680a5a797f3630768669fd907f1188fa8ea",
+      "bytes": 2574
+    },
+    {
+      "path": "content/media/16d43ad1e6b075f425bed5d43517dc26766124a17fc2adffc323d0e789e90c24.svg",
+      "sha256": "16d43ad1e6b075f425bed5d43517dc26766124a17fc2adffc323d0e789e90c24",
+      "bytes": 2377
+    },
+    {
+      "path": "content/media/7cd48d36937b9e0b40d7568dfdf6ba19c2dad50aed1606f85d9c87d5f16f0b25.svg",
+      "sha256": "7cd48d36937b9e0b40d7568dfdf6ba19c2dad50aed1606f85d9c87d5f16f0b25",
+      "bytes": 3421
+    },
+    {
+      "path": "content/media/25f3eed0b555b20b0c7b607e4e530678b4f1fd26afb5f53df34fd981458080fe.svg",
+      "sha256": "25f3eed0b555b20b0c7b607e4e530678b4f1fd26afb5f53df34fd981458080fe",
+      "bytes": 2886
+    },
+    {
+      "path": "content/media/14605588e6e48f302a174b90c2beb4e63714c6171ebb4a9f55ac600ca1f6d150.svg",
+      "sha256": "14605588e6e48f302a174b90c2beb4e63714c6171ebb4a9f55ac600ca1f6d150",
+      "bytes": 2602
+    },
+    {
+      "path": "content/media/f21885124cc7b0607433f9923c351828c930f65c4beec0fd5be18dad975c12f7.svg",
+      "sha256": "f21885124cc7b0607433f9923c351828c930f65c4beec0fd5be18dad975c12f7",
+      "bytes": 2824
+    }
+  ]
+}

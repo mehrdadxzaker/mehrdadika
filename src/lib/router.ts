@@ -23,7 +23,8 @@ export type Route =
   | { page: "me" }
   | { page: "about" }
   | { page: "portuguese" }
-  | { page: "read"; id?: string; tab?: "short" | "books" }
+  | { page: "read"; id?: string; tab?: "short" | "books" | "courses" }
+  | { page: "course"; course: string; lesson?: string }
   | { page: "books"; book: string; chapter?: number }
   | { page: "paraphrase"; id?: string }
   | { page: "confuse"; id?: string };
@@ -71,7 +72,18 @@ export function parseRouteLocation(hash: string): Location {
     route = {
       page: "read",
       id: params.get("id") || undefined,
-      tab: params.get("tab") === "books" ? "books" : "short",
+      tab:
+        params.get("tab") === "books"
+          ? "books"
+          : params.get("tab") === "courses"
+            ? "courses"
+            : "short",
+    };
+  else if (seg[0] === "courses" && seg[1])
+    route = {
+      page: "course",
+      course: decode(seg[1]).slice(0, 180),
+      lesson: seg[2] ? decode(seg[2]).slice(0, 180) : undefined,
     };
   else if (seg[0] === "books" && seg[1])
     route = {
@@ -109,9 +121,11 @@ export function href(
   const path =
     route.page === "today"
       ? ""
-      : route.page === "books"
-        ? `books/${encodeURIComponent(route.book)}${route.chapter ? `/${route.chapter}` : ""}`
-        : route.page;
+      : route.page === "course"
+        ? `courses/${encodeURIComponent(route.course)}${route.lesson ? `/${encodeURIComponent(route.lesson)}` : ""}`
+        : route.page === "books"
+          ? `books/${encodeURIComponent(route.book)}${route.chapter ? `/${route.chapter}` : ""}`
+          : route.page;
   return localizedHref(`#/${path}${params.size ? `?${params}` : ""}`, locale);
 }
 let loc = parseRouteLocation(

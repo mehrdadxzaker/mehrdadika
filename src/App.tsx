@@ -28,6 +28,7 @@ import {
   PORTUGUESE_BOOKMARK_KEY,
 } from "./locales/registry";
 import { setReadingLocale } from "./reading/state";
+import { setCourseDataset } from "./courses/state";
 import "./i18n/localized.css";
 import {
   closeWord,
@@ -70,6 +71,9 @@ const Paraphrase = lazy(() =>
 const Confusables = lazy(() =>
   import("./pages/Confusables").then((m) => ({ default: m.Confusables })),
 );
+const Course = lazy(() =>
+  import("./pages/Course").then((m) => ({ default: m.Course })),
+);
 
 function useTheme() {
   const theme = useStore((s) => s.settings.theme);
@@ -96,6 +100,9 @@ export default function App() {
   const [priv, setPriv] = useState<Atlas | null>(null);
   const [error, setError] = useState<string | null>(null);
   const dataset = useStore((s) => s.settings.dataset);
+  const sessionManifestHash = useStore((s) =>
+    s.progress.session?.finished ? undefined : s.progress.session?.manifestHash,
+  );
   useTheme();
 
   useEffect(() => {
@@ -111,6 +118,12 @@ export default function App() {
   useEffect(() => {
     const next = dataset === "private" && priv ? priv : open;
     if (!next) return;
+    if (
+      atlas &&
+      atlas.release?.manifestHash !==
+        (sessionManifestHash ?? next.release?.manifestHash)
+    )
+      setLoadedLocale(null);
     let live = true;
     setError(null);
     void (async () => {
@@ -134,6 +147,7 @@ export default function App() {
         );
       }
       setReadingLocale(locale);
+      setCourseDataset(datasetForLocale(next.id, locale));
       const localized = restored.atlas;
       if (locale === "pt-BR") await migratePortugueseBookmarks(localized);
       if (!live) return;
@@ -148,7 +162,7 @@ export default function App() {
     return () => {
       live = false;
     };
-  }, [dataset, open, priv, locale]);
+  }, [dataset, open, priv, locale, sessionManifestHash]);
 
   useEffect(() => {
     document.documentElement.lang = locale;
@@ -201,6 +215,17 @@ export default function App() {
 
 function Shell({ privateAvailable }: { privateAvailable: boolean }) {
   const { route, word, locale } = useLocation();
+  const activePage = route.page === "course" ? "read" : route.page;
+  const atlas = useAtlas();
+  const [courseAtlas, setCourseAtlas] = useState<Atlas | null>(null);
+  useEffect(() => {
+    setCourseAtlas(null);
+  }, [
+    route.page,
+    route.page === "course" ? route.course : undefined,
+    route.page === "course" ? route.lesson : undefined,
+    locale,
+  ]);
   const onboarded = useStore((s) => s.settings.onboarded);
   const theme = useStore((s) => s.settings.theme);
   const [palette, setPalette] = useState(false);
@@ -248,8 +273,8 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
               <a
                 key={page}
                 href={page === "today" ? "#/" : `#/${page}`}
-                className={route.page === page ? "is-on" : ""}
-                aria-current={route.page === page ? "page" : undefined}
+                className={activePage === page ? "is-on" : ""}
+                aria-current={activePage === page ? "page" : undefined}
               >
                 {label}
               </a>
@@ -335,6 +360,13 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
           )}
           {route.page === "paraphrase" && <Paraphrase id={route.id} />}
           {route.page === "confuse" && <Confusables id={route.id} />}
+          {route.page === "course" && (
+            <Course
+              courseId={route.course}
+              lessonId={route.lesson}
+              onAtlas={setCourseAtlas}
+            />
+          )}
         </Suspense>
       </main>
 
@@ -357,17 +389,25 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
             <a
               key={page}
               href={page === "today" ? "#/" : `#/${page}`}
-              className={route.page === page ? "is-on" : ""}
-              aria-current={route.page === page ? "page" : undefined}
+              className={activePage === page ? "is-on" : ""}
+              aria-current={activePage === page ? "page" : undefined}
             >
-              <Icon size={22} strokeWidth={route.page === page ? 2.1 : 1.7} />
+              <Icon size={22} strokeWidth={activePage === page ? 2.1 : 1.7} />
               <span>{label}</span>
             </a>
           ))}
         </nav>
       )}
 
-      <WordSheet id={word} />
+      {route.page !== "course" ? (
+        <WordSheet id={word} />
+      ) : (
+        courseAtlas && (
+          <AtlasContext.Provider value={courseAtlas ?? atlas}>
+            <WordSheet id={word} />
+          </AtlasContext.Provider>
+        )
+      )}
       <Palette open={palette} onClose={() => setPalette(false)} />
       {!onboarded && route.page !== "about" && !splash && <Onboarding />}
       {splash && <Splash onDone={() => setSplash(false)} />}

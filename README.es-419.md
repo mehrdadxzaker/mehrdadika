@@ -6,7 +6,7 @@ Un proyecto de código abierto para aprender inglés con imágenes, ejemplos y p
 
 ## Qué incluye
 
-- 72 palabras, 73 sentidos, 146 ejemplos, 216 combinaciones frecuentes y 72 notas de uso traducidos al español.
+- 91 palabras, 92 sentidos, 184 ejemplos, 273 combinaciones frecuentes y 91 notas de uso traducidos al español.
 - 32 categorías y 348 subcategorías, incluidas cocina, medicina e ingeniería, con contenido que se publica poco a poco.
 - Configuración inicial, metas diarias, recuerdo activo y repaso espaciado con FSRS.
 - Atlas ilustrado con búsqueda, filtros, palabras guardadas y una galaxia de progreso.
@@ -40,3 +40,7 @@ Consulta la [localización del vocabulario](docs/portuguese-content.md), las [le
 ## Licencias y créditos
 
 El código usa la [licencia MIT](LICENSE). El contenido sigue las condiciones de [CONTENT_LICENSE.md](CONTENT_LICENSE.md), incluida la atribución CC BY 4.0 cuando corresponda. Vocabulario, imágenes y grabaciones adaptados: **Word Atlas contributors — CC BY 4.0**. Traducciones y notas nuevas: **Mehrdadika contributors**. Las fuentes y dependencias mantienen sus propias licencias, descritas en los [avisos de terceros](THIRD_PARTY_NOTICES.md).
+
+## Ciencias en inglés
+
+En **Biblioteca → Cursos**, explora **Water and Weather**: ocho lecciones ilustradas para practicar inglés describiendo observaciones, comparando y explicando causas. El curso ofrece ayuda en español latinoamericano, 32 actividades y ocho propuestas de escritura con ejemplos y autoevaluación. Las 19 palabras nuevas de ciencias usan la revisión de vocabulario existente; completar una lección no modifica el dominio de las palabras. El progreso queda en este dispositivo y se incluye en las copias de seguridad y en el paquete de producción sin conexión. El contenido es una vista previa editorial con apoyo de IA y aún espera revisión independiente. [Guía del curso](docs/science-course.md).

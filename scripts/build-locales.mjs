@@ -5,7 +5,10 @@ import { pathToFileURL } from "node:url";
 
 const serialize = (value) => JSON.stringify(value, null, 2) + "\n";
 export const SUPPORTED_VOCABULARY_LOCALES = ["pt-BR", "es-419"];
-const localeName = { "pt-BR": "Brazilian Portuguese", "es-419": "Latin-American Spanish" };
+const localeName = {
+  "pt-BR": "Brazilian Portuguese",
+  "es-419": "Latin-American Spanish",
+};
 const hash = (value) => crypto.createHash("sha256").update(value).digest("hex");
 const requireValue = (condition, message) => {
   if (!condition) throw new Error(message);
@@ -189,22 +192,24 @@ export function compileLocale(overlay, published) {
         visible(domain) &&
         visible(translation) &&
         text(translation.label, 300)
-        ? [[
-          domain.id,
-          {
-            label: translation.label.trim(),
-            ...(Array.isArray(domain.subcategories)
-              ? {
-                subcategoryLabels: subcategoryLabels(
-                  translation.subcategories,
-                  domain.subcategories,
-                  overlay.locale,
-                  domain.id,
-                ),
-              }
-              : {}),
-          },
-        ]]
+        ? [
+            [
+              domain.id,
+              {
+                label: translation.label.trim(),
+                ...(Array.isArray(domain.subcategories)
+                  ? {
+                      subcategoryLabels: subcategoryLabels(
+                        translation.subcategories,
+                        domain.subcategories,
+                        overlay.locale,
+                        domain.id,
+                      ),
+                    }
+                  : {}),
+              },
+            ],
+          ]
         : [];
     }),
   );
@@ -223,8 +228,7 @@ export function compileLocale(overlay, published) {
     attribution: text(overlay.provenance?.attribution, 1200)
       ? overlay.provenance.attribution.trim()
       : "Mehrdadika contributors; Word Atlas contributors — CC BY 4.0",
-    modifications:
-      `${localeName[overlay.locale]} preview translations filtered against the published English release. No independent human language or specialist review is claimed.`,
+    modifications: `${localeName[overlay.locale]} preview translations filtered against the published English release. No independent human language or specialist review is claimed.`,
   };
   return {
     schemaVersion: 1,
@@ -308,6 +312,9 @@ export function loadPublishedRelease({ root = process.cwd() } = {}) {
     "Published entry shard count exceeds locale compiler limits",
   );
   const shardFiles = new Map();
+  const entryShardPaths = new Set(
+    Object.values(index.shards).map((shard) => shard?.path),
+  );
   const entryPaths = new Map();
   const entries = [];
   for (const shard of manifest.dataFiles) {
@@ -317,6 +324,9 @@ export function loadPublishedRelease({ root = process.cwd() } = {}) {
     );
     shardFiles.set(shard.path, shard.sha256);
     const content = readJson(shard.path, shard.sha256);
+    // dataFiles also carries immutable course bundles. Only index-referenced
+    // entry shards are vocabulary arrays; every listed file is still verified.
+    if (!entryShardPaths.has(shard.path)) continue;
     requireValue(
       Array.isArray(content),
       "Published entry shard must be an array",
@@ -330,6 +340,12 @@ export function loadPublishedRelease({ root = process.cwd() } = {}) {
       entries.push(entry);
     }
   }
+  if (index.courses !== undefined)
+    requireValue(
+      record(index.courses) &&
+        shardFiles.get(index.courses.path) === index.courses.sha256,
+      "Published course bundle must be a verified manifest data file",
+    );
   const entriesById = new Map(entries.map((entry) => [entry.id, entry]));
   for (const entry of index.entries) {
     const shard = index.shards[entry.id];
@@ -350,12 +366,22 @@ export function loadPublishedRelease({ root = process.cwd() } = {}) {
   };
 }
 
-export function buildLocales({ root = process.cwd(), check = false, locale = "pt-BR" } = {}) {
-  requireValue(SUPPORTED_VOCABULARY_LOCALES.includes(locale), "Unsupported vocabulary locale");
+export function buildLocales({
+  root = process.cwd(),
+  check = false,
+  locale = "pt-BR",
+} = {}) {
+  requireValue(
+    SUPPORTED_VOCABULARY_LOCALES.includes(locale),
+    "Unsupported vocabulary locale",
+  );
   const overlay = JSON.parse(
     fs.readFileSync(path.join(root, `content/locales/${locale}.json`), "utf8"),
   );
-  requireValue(overlay.locale === locale, "Vocabulary locale file identity does not match its path");
+  requireValue(
+    overlay.locale === locale,
+    "Vocabulary locale file identity does not match its path",
+  );
   const compiled = compileLocale(overlay, loadPublishedRelease({ root }));
   const output = path.join(root, `src/locales/published/${locale}.json`);
   const expected = serialize(compiled);
@@ -387,7 +413,10 @@ if (
       "Supported argument: --check",
     );
     for (const locale of SUPPORTED_VOCABULARY_LOCALES) {
-      const compiled = buildLocales({ locale, check: process.argv.includes("--check") });
+      const compiled = buildLocales({
+        locale,
+        check: process.argv.includes("--check"),
+      });
       console.log(
         `${locale} preview: ${Object.keys(compiled.entries).length} published words, ${Object.values(compiled.entries).reduce((count, entry) => count + Object.keys(entry.senses).length, 0)} meanings, ${Object.keys(compiled.categories).length} categories${process.argv.includes("--check") ? "; snapshot current" : "; snapshot generated"}.`,
       );

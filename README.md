@@ -8,7 +8,7 @@ An open-source visual English-learning atlas for Persian, Brazilian Portuguese a
 
 The Persian (`fa`), Brazilian Portuguese (`pt-BR`) and first Latin American Spanish (`es-419`) editions use the same application: onboarding and daily study, FSRS spaced review, illustrated Atlas and galaxy, reading and books, practice, settings and portable backups. The Persian layout is RTL; Portuguese and Spanish are LTR. All three teach **English**, with explanations and guidance in the learner's language.
 
-The starter corpus contains **72 words and 73 meanings**. Each Portuguese and Spanish vocabulary overlay includes 146 translated examples, 216 collocations and 72 usage notes, plus all 32 category and 348 subcategory labels. Reading includes three passages, one original three-chapter book, two paraphrase levels and three confusable-word groups. These are AI-assisted editorial previews awaiting independent language and specialist review.
+The starter corpus contains **91 words and 92 meanings**. Each Portuguese and Spanish vocabulary overlay includes 184 translated examples, 273 collocations and 91 usage notes, plus all 32 category and 348 subcategory labels. Reading includes three passages, one original three-chapter book, two paraphrase levels and three confusable-word groups. These are AI-assisted editorial previews awaiting independent language and specialist review.
 
 Editions share stable English identities and licensed media, while learner progress, active sessions, saved words and reading state remain separate. Existing saved words from the earlier Portuguese preview migrate into the Portuguese edition. Translation drafts are filtered against the published English release before entering the app bundle. European Portuguese remains a planned, separate locale.
 
@@ -67,6 +67,12 @@ All 32 subject families belong to the catalog. They are organized into six disco
 - Business and working life: business and management; economics and finance; retail and e-commerce; careers and workplace.
 
 The [English/Persian category catalog](docs/category-catalog.json) is the source for the planned coverage map. Category presence does not imply that all its lessons are published. Published material, upcoming material and contributor drafts have different states. One word can belong to several subjects without duplicating its learning history; distinct meanings have separate learning records.
+
+## Science through English
+
+**Water and Weather** is an eight-lesson illustrated course for approximately A2–early B1 English learners, with complete Persian, Brazilian Portuguese and Latin American Spanish support. Open **Library → Courses** or the course card on Today. Read English explanations, explore diagrams, practice useful sentence patterns and write short explanations with optional native-language help.
+
+The course includes 32 closed activities, eight writing tasks and 19 new shared science vocabulary words. Writing is saved for self-review; lesson completion and science understanding stay separate from English vocabulary mastery. Progress, backups and production offline packs include the course. Its paper-cut field-guide artwork has a distinct course identity within the existing app style. Content and translations remain AI-assisted editorial previews awaiting independent review. See the [course guide](docs/science-course.md).
 
 ## Gradual content publication
 

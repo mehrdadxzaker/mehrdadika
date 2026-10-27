@@ -6,7 +6,7 @@ Um projeto de código aberto para aprender vocabulário de inglês com imagens e
 
 ## O que já está disponível
 
-- 72 palavras, 73 sentidos, 146 exemplos, 216 combinações frequentes e 72 notas de uso em português brasileiro.
+- 91 palavras, 92 sentidos, 184 exemplos, 273 combinações frequentes e 91 notas de uso em português brasileiro.
 - 32 categorias e 348 subcategorias traduzidas, com conteúdo publicado aos poucos, incluindo culinária, medicina e engenharia.
 - Introdução ao estudo, metas diárias, recordação ativa e revisão espaçada com FSRS.
 - Atlas com cartões ilustrados, busca, filtros, palavras salvas e galáxia de progresso.
@@ -40,3 +40,7 @@ Veja as [notas de conteúdo em português](docs/portuguese-content.md), as [nota
 ## Licenças e créditos
 
 O código usa a [licença MIT](LICENSE). O conteúdo segue as condições em [CONTENT_LICENSE.md](CONTENT_LICENSE.md), incluindo atribuição CC BY 4.0 quando aplicável. Imagens, áudio e vocabulário adaptados: **Word Atlas contributors — CC BY 4.0**. Traduções e notas em português: **Mehrdadika contributors**. Fontes e dependências mantêm suas próprias licenças, descritas nos [avisos de terceiros](THIRD_PARTY_NOTICES.md).
+
+## Ciências em inglês
+
+Em **Biblioteca → Cursos**, explore **Water and Weather**: oito lições ilustradas para praticar inglês descrevendo observações, comparando e explicando causas. O curso oferece ajuda em português brasileiro, 32 atividades e oito propostas de escrita com exemplos e autoavaliação. As 19 novas palavras de ciências usam a revisão de vocabulário existente; concluir uma lição não altera o domínio das palavras. O progresso fica neste dispositivo e participa do backup e do pacote de produção offline. O conteúdo é uma prévia editorial com apoio de IA e ainda aguarda revisão independente. [Guia do curso](docs/science-course.md).

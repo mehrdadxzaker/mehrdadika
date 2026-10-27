@@ -196,35 +196,67 @@ test("Spanish uses the same publication filter and does not relabel another loca
   const result = compileLocale(overlay, published);
   assert.equal(result.locale, "es-419");
   assert.deepEqual(Object.keys(result.entries), ["pressure"]);
-  assert.equal(result.entries.pressure.senses["pressure:mechanical"].gloss, "presión");
+  assert.equal(
+    result.entries.pressure.senses["pressure:mechanical"].gloss,
+    "presión",
+  );
   assert.equal(result.review.humanReviewed, false);
   assert.ok(!JSON.stringify(result).includes("SECRET"));
   overlay.locale = "unsupported";
-  assert.throws(() => compileLocale(overlay, published), /supported vocabulary locale/);
+  assert.throws(
+    () => compileLocale(overlay, published),
+    /supported vocabulary locale/,
+  );
 });
 
 test("subcategory translations bind to public English labels, preserve taxonomy order and exclude drafts", () => {
   for (const locale of ["pt-BR", "es-419"]) {
     const { published, overlay } = fixture();
     overlay.locale = locale;
-    published.manifest.taxonomy.domains[0].subcategories = ["Tools", "Safety", "Materials"];
+    published.manifest.taxonomy.domains[0].subcategories = [
+      "Tools",
+      "Safety",
+      "Materials",
+    ];
     overlay.categories.engineering.subcategories = [
-      { en: "Materials", translation: "Materiais", authorOnly: "SECRET metadata" },
+      {
+        en: "Materials",
+        translation: "Materiais",
+        authorOnly: "SECRET metadata",
+      },
       { en: "Old tools label", translation: "SECRET stale translation" },
       { en: "Tools", translation: "Ferramentas" },
-      { en: "Safety", translation: "SECRET draft translation", publication: "draft" },
-      { en: "Materials", translation: "SECRET withdrawn translation", review: { status: "withdrawn" } },
+      {
+        en: "Safety",
+        translation: "SECRET draft translation",
+        publication: "draft",
+      },
+      {
+        en: "Materials",
+        translation: "SECRET withdrawn translation",
+        review: { status: "withdrawn" },
+      },
       { en: "SECRET unpublished label", translation: "SECRET extra category" },
     ];
     const category = compileLocale(overlay, published).categories.engineering;
-    assert.deepEqual(category.subcategoryLabels, ["Ferramentas", "Safety", "Materiais"]);
+    assert.deepEqual(category.subcategoryLabels, [
+      "Ferramentas",
+      "Safety",
+      "Materiais",
+    ]);
     assert.equal(JSON.stringify(category).includes("SECRET"), false);
-    overlay.categories.engineering.subcategories.push({ en: "Tools", translation: "Conflicting label" });
-    assert.throws(() => compileLocale(overlay, published), /Ambiguous .* subcategory translation binding/);
+    overlay.categories.engineering.subcategories.push({
+      en: "Tools",
+      translation: "Conflicting label",
+    });
+    assert.throws(
+      () => compileLocale(overlay, published),
+      /Ambiguous .* subcategory translation binding/,
+    );
   }
 });
 
-function writeRelease(root, fixtureValue) {
+function writeRelease(root, fixtureValue, courseBundle) {
   const dir = path.join(root, "public/content");
   fs.mkdirSync(dir, { recursive: true });
   const write = (name, value) => {
@@ -236,15 +268,19 @@ function writeRelease(root, fixtureValue) {
     };
   };
   const shard = write("entries.json", fixtureValue.published.entries);
+  const courses = courseBundle
+    ? write("courses.json", courseBundle)
+    : undefined;
   const indexed = {
     ...fixtureValue.published.index,
     shards: { pressure: shard },
+    ...(courses ? { courses } : {}),
   };
   const payload = write("index.json", indexed);
   const manifest = write("manifest.json", {
     ...fixtureValue.published.manifest,
     payload,
-    dataFiles: [shard],
+    dataFiles: [shard, ...(courses ? [courses] : [])],
   });
   fs.writeFileSync(
     path.join(dir, "current.json"),
@@ -276,6 +312,26 @@ test("locale snapshot checks follow the hash-verified published release and dete
       /snapshot is stale/,
     );
     fs.appendFileSync(path.join(root, "public/content/entries.json"), " ");
+    assert.throws(() => loadPublishedRelease({ root }), /integrity failed/);
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});
+
+test("locale compilation accepts manifest-listed course objects without treating them as vocabulary shards", () => {
+  const root = fs.mkdtempSync(
+    path.join(os.tmpdir(), "mehrdadika-course-locale-"),
+  );
+  try {
+    const value = fixture();
+    writeRelease(root, value, { schemaVersion: 1, courses: [], overlays: [] });
+    const loaded = loadPublishedRelease({ root });
+    assert.equal(loaded.entries.length, value.published.entries.length);
+    assert.equal(
+      compileLocale(value.overlay, loaded).entries.pressure.sourceWord,
+      "pressure",
+    );
+    fs.appendFileSync(path.join(root, "public/content/courses.json"), " ");
     assert.throws(() => loadPublishedRelease({ root }), /integrity failed/);
   } finally {
     fs.rmSync(root, { recursive: true, force: true });

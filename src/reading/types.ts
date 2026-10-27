@@ -101,7 +101,7 @@ export interface ReadingCatalog {
   confusables: ConfusableGroup[];
 }
 export type ReadingRoute =
-  | { page: "read"; id?: string; tab?: "short" | "books" }
+  | { page: "read"; id?: string; tab?: "short" | "books" | "courses" }
   | { page: "books"; book: string; chapter?: number };
 export const emptyReadingCatalog: ReadingCatalog = {
   schemaVersion: 1,

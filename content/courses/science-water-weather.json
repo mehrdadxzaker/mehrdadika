@@ -1,0 +1,1312 @@
+{
+  "id": "science-water-weather",
+  "revision": "2026-10-science-preview-1",
+  "title": "Water and Weather",
+  "subtitle": "Learn English through everyday science.",
+  "level": "A2–B1",
+  "subjectDepth": "Introductory school science",
+  "cover": "courses/water-weather/cover.webp",
+  "visualStyle": "Paper-cut field guide: indigo water, amber sunlight and warm paper; diagrams use consistent scientific geometry.",
+  "publication": "preview",
+  "review": {
+    "status": "preview",
+    "humanReviewed": false
+  },
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Original Mehrdadika course; scientific reference: https://www.usgs.gov/water-science-school/water-cycle",
+    "aiAssisted": true
+  },
+  "lessons": [
+    {
+      "id": "water-around-us",
+      "title": "Water around us",
+      "question": "Where can you find water in this scene?",
+      "englishGoal": "Describe where things are using there is, there are, in, on and under.",
+      "scienceGoal": "Identify familiar places where water is found.",
+      "minutes": 10,
+      "image": "courses/water-weather/lesson-1.svg",
+      "imageAlt": "A simplified landscape with a flowing river, a lake beside trees, droplets on a leaf, and water shown below the ground.",
+      "sentences": [
+        {
+          "id": "water-around-us-s1",
+          "en": "Look at the landscape: there is water in the river, and there is a small lake beside the trees."
+        },
+        {
+          "id": "water-around-us-s2",
+          "en": "There are drops of water on a leaf, while there is more water under the ground."
+        },
+        {
+          "id": "water-around-us-s3",
+          "en": "Water is also inside living things, including people and plants, although we cannot see all of it."
+        },
+        {
+          "id": "water-around-us-s4",
+          "en": "Use there is before a singular thing, such as a lake, or an amount, such as water."
+        },
+        {
+          "id": "water-around-us-s5",
+          "en": "Use there are before plural things, such as drops, rivers or lakes, when you describe a picture."
+        },
+        {
+          "id": "water-around-us-s6",
+          "en": "The words in, on and under help your reader locate each thing in a clear and useful way."
+        },
+        {
+          "id": "water-around-us-s7",
+          "en": "Choose two details from the illustration and describe them in English without trying to name everything at once."
+        }
+      ],
+      "targetSenseIds": [
+        "water:meaning-1",
+        "river:meaning-1",
+        "lake:meaning-1"
+      ],
+      "pattern": "There is… / There are…",
+      "patternExample": "There is water in the river. There are drops on the leaf.",
+      "activities": [
+        {
+          "kind": "choice",
+          "checks": "english",
+          "prompt": "Which sentence describes more than one thing?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "There is a lake."
+            },
+            {
+              "id": "2",
+              "text": "There are drops on a leaf."
+            },
+            {
+              "id": "3",
+              "text": "There is water underground."
+            }
+          ],
+          "answer": [
+            "2"
+          ],
+          "explanation": "There are is used with the plural noun drops.",
+          "id": "water-around-us-q1"
+        },
+        {
+          "kind": "cloze",
+          "checks": "english",
+          "prompt": "There ___ water in the river.",
+          "choices": [
+            {
+              "id": "1",
+              "text": "is"
+            },
+            {
+              "id": "2",
+              "text": "are"
+            },
+            {
+              "id": "3",
+              "text": "am"
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "Water is uncountable here, so use there is.",
+          "id": "water-around-us-q2"
+        },
+        {
+          "kind": "label",
+          "checks": "science",
+          "prompt": "Choose the label for the flowing water in the landscape.",
+          "choices": [
+            {
+              "id": "1",
+              "text": "river"
+            },
+            {
+              "id": "2",
+              "text": "leaf"
+            },
+            {
+              "id": "3",
+              "text": "cloud"
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "The river is the flowing water. The lake is the wider pool beside the trees.",
+          "id": "water-around-us-q3"
+        },
+        {
+          "kind": "choice",
+          "checks": "english",
+          "prompt": "Which sentence places water below the surface?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "There is water on a leaf."
+            },
+            {
+              "id": "2",
+              "text": "There is water under the ground."
+            },
+            {
+              "id": "3",
+              "text": "There is water in the sky."
+            }
+          ],
+          "answer": [
+            "2"
+          ],
+          "explanation": "Under the ground means below the surface, not on top of it.",
+          "id": "water-around-us-q4"
+        }
+      ],
+      "production": {
+        "prompt": "Describe two places where water is found in the illustration. Write two English sentences.",
+        "starter": "There is water in… / There are drops on…",
+        "models": [
+          "There is water in the river. There are drops on a leaf.",
+          "There is a lake beside the trees. There is water under the ground."
+        ],
+        "checklist": [
+          "My science explanation matches the scene.",
+          "I use the lesson’s English pattern.",
+          "My meaning is understandable.",
+          "I connect my ideas clearly."
+        ]
+      }
+    },
+    {
+      "id": "solid-liquid-gas",
+      "title": "Solid, liquid and gas",
+      "question": "How can the same substance look different?",
+      "englishGoal": "Describe and compare properties using is, can and unlike.",
+      "scienceGoal": "Distinguish the solid, liquid and gaseous states of water.",
+      "minutes": 10,
+      "image": "courses/water-weather/lesson-2.svg",
+      "imageAlt": "Three panels show solid ice, liquid water in a glass, and symbolic dots for invisible water vapor. The dots are representations, not visible vapor.",
+      "sentences": [
+        {
+          "id": "solid-liquid-gas-s1",
+          "en": "Water can exist as a solid, a liquid or a gas, and these are called its three states."
+        },
+        {
+          "id": "solid-liquid-gas-s2",
+          "en": "An ice cube is solid water: it has a shape of its own until it melts or breaks."
+        },
+        {
+          "id": "solid-liquid-gas-s3",
+          "en": "Liquid water can flow, and it takes the shape of the part of a container that it fills."
+        },
+        {
+          "id": "solid-liquid-gas-s4",
+          "en": "Water vapor is water in its gaseous state; it is invisible, even when there is some in the air."
+        },
+        {
+          "id": "solid-liquid-gas-s5",
+          "en": "The dots in our diagram represent this invisible gas, so they are symbols rather than things you can see."
+        },
+        {
+          "id": "solid-liquid-gas-s6",
+          "en": "Use unlike to introduce a difference, and use can to describe what a material is able to do."
+        },
+        {
+          "id": "solid-liquid-gas-s7",
+          "en": "Compare ice and liquid water in one sentence, then check whether your sentence describes a real difference."
+        }
+      ],
+      "targetSenseIds": [
+        "solid:meaning-1",
+        "liquid:meaning-1",
+        "gas:meaning-1",
+        "water:meaning-1"
+      ],
+      "pattern": "Unlike…, … can…",
+      "patternExample": "Unlike ice, liquid water can take the shape of its container.",
+      "activities": [
+        {
+          "kind": "choice",
+          "checks": "english",
+          "prompt": "Which comparison matches the passage?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "Unlike ice, liquid water can flow."
+            },
+            {
+              "id": "2",
+              "text": "Unlike liquid water, ice takes the shape of any glass."
+            },
+            {
+              "id": "3",
+              "text": "Unlike water vapor, ice is invisible."
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "The passage contrasts solid ice with liquid water that can flow.",
+          "id": "solid-liquid-gas-q1"
+        },
+        {
+          "kind": "cloze",
+          "checks": "english",
+          "prompt": "Liquid water ___ take the shape of its container.",
+          "choices": [
+            {
+              "id": "1",
+              "text": "can"
+            },
+            {
+              "id": "2",
+              "text": "are"
+            },
+            {
+              "id": "3",
+              "text": "unlike"
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "Can comes before a base verb to describe an ability or property.",
+          "id": "solid-liquid-gas-q2"
+        },
+        {
+          "kind": "label",
+          "checks": "science",
+          "prompt": "Which label belongs to invisible water in the air?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "solid water"
+            },
+            {
+              "id": "2",
+              "text": "water vapor"
+            },
+            {
+              "id": "3",
+              "text": "liquid drops"
+            }
+          ],
+          "answer": [
+            "2"
+          ],
+          "explanation": "Water vapor is the invisible gaseous state. Visible drops are liquid.",
+          "id": "solid-liquid-gas-q3"
+        },
+        {
+          "kind": "choice",
+          "checks": "english",
+          "prompt": "In “Unlike ice, liquid water can flow,” what does unlike introduce?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "a difference"
+            },
+            {
+              "id": "2",
+              "text": "a location"
+            },
+            {
+              "id": "3",
+              "text": "a time"
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "Unlike introduces a contrast between two things.",
+          "id": "solid-liquid-gas-q4"
+        }
+      ],
+      "production": {
+        "prompt": "Compare ice and liquid water. Use unlike and can in two English sentences.",
+        "starter": "Unlike ice, liquid water can… / Ice is…",
+        "models": [
+          "Unlike ice, liquid water can flow. Ice is solid water.",
+          "Ice is a solid with its own shape. Unlike ice, liquid water can take the shape of a glass."
+        ],
+        "checklist": [
+          "My science explanation matches the scene.",
+          "I use the lesson’s English pattern.",
+          "My meaning is understandable.",
+          "I connect my ideas clearly."
+        ]
+      }
+    },
+    {
+      "id": "heating-cooling",
+      "title": "Heating and cooling",
+      "question": "What changes when ice becomes warmer?",
+      "englishGoal": "Explain a change using when and the present simple.",
+      "scienceGoal": "Recognize melting and freezing as changes of state.",
+      "minutes": 10,
+      "image": "courses/water-weather/lesson-3.svg",
+      "imageAlt": "A left-to-right arrow labeled melting connects ice to liquid water; a right-to-left arrow labeled freezing connects liquid water to ice.",
+      "sentences": [
+        {
+          "id": "heating-cooling-s1",
+          "en": "Imagine an ice cube in a warm room and a small bowl of liquid water in a freezer."
+        },
+        {
+          "id": "heating-cooling-s2",
+          "en": "When the ice receives enough energy from its surroundings, it melts and becomes liquid water in the bowl."
+        },
+        {
+          "id": "heating-cooling-s3",
+          "en": "When liquid water loses enough energy to colder surroundings, it freezes and becomes solid water, which we call ice."
+        },
+        {
+          "id": "heating-cooling-s4",
+          "en": "The substance is still water in both situations; a change of state does not make a new substance."
+        },
+        {
+          "id": "heating-cooling-s5",
+          "en": "A thermometer measures temperature, but this course asks you to describe the change rather than memorize a particular number."
+        },
+        {
+          "id": "heating-cooling-s6",
+          "en": "Use when to connect the condition with what happens: when water gets cold enough, it freezes."
+        },
+        {
+          "id": "heating-cooling-s7",
+          "en": "In these general statements, use the present simple, and remember the final s in words such as melts and freezes."
+        }
+      ],
+      "targetSenseIds": [
+        "melt:meaning-1",
+        "freeze:meaning-1",
+        "temperature:meaning-1",
+        "energy:meaning-1"
+      ],
+      "pattern": "When…, …",
+      "patternExample": "When ice gets warm enough, it melts.",
+      "activities": [
+        {
+          "kind": "choice",
+          "checks": "english",
+          "prompt": "Which sentence describes freezing?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "When water gets cold enough, it becomes ice."
+            },
+            {
+              "id": "2",
+              "text": "When ice gets warm enough, it melts."
+            },
+            {
+              "id": "3",
+              "text": "When water flows, it becomes a new substance."
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "The when clause gives the condition, and becomes ice describes the result.",
+          "id": "heating-cooling-q1"
+        },
+        {
+          "kind": "cloze",
+          "checks": "english",
+          "prompt": "When ice gets warm enough, it ___.",
+          "choices": [
+            {
+              "id": "1",
+              "text": "melts"
+            },
+            {
+              "id": "2",
+              "text": "melt"
+            },
+            {
+              "id": "3",
+              "text": "melting"
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "In a general present-simple statement, it takes melts with a final s.",
+          "id": "heating-cooling-q2"
+        },
+        {
+          "kind": "label",
+          "checks": "science",
+          "prompt": "Which change takes liquid water toward solid water?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "melting"
+            },
+            {
+              "id": "2",
+              "text": "freezing"
+            },
+            {
+              "id": "3",
+              "text": "flowing"
+            }
+          ],
+          "answer": [
+            "2"
+          ],
+          "explanation": "Freezing changes liquid water into solid water.",
+          "id": "heating-cooling-q3"
+        },
+        {
+          "kind": "sequence",
+          "checks": "english",
+          "prompt": "Order the words to make a correct English explanation.",
+          "choices": [
+            {
+              "id": "1",
+              "text": "it melts."
+            },
+            {
+              "id": "2",
+              "text": "When ice"
+            },
+            {
+              "id": "3",
+              "text": "gets warm enough,"
+            }
+          ],
+          "answer": [
+            "2",
+            "3",
+            "1"
+          ],
+          "explanation": "The when clause comes first here, followed by the result: When ice gets warm enough, it melts.",
+          "id": "heating-cooling-q4"
+        }
+      ],
+      "production": {
+        "prompt": "Explain melting and freezing in two sentences beginning with when.",
+        "starter": "When ice… / When liquid water…",
+        "models": [
+          "When ice gets warm enough, it melts. When liquid water gets cold enough, it freezes.",
+          "When ice receives enough energy, it becomes liquid water. When water loses enough energy, it becomes ice."
+        ],
+        "checklist": [
+          "My science explanation matches the scene.",
+          "I use the lesson’s English pattern.",
+          "My meaning is understandable.",
+          "I connect my ideas clearly."
+        ]
+      }
+    },
+    {
+      "id": "where-puddles-go",
+      "title": "Where puddles go",
+      "question": "Where does the water go when a puddle dries?",
+      "englishGoal": "Give a reason using because.",
+      "scienceGoal": "Understand evaporation without assuming that water must boil.",
+      "minutes": 10,
+      "image": "courses/water-weather/lesson-4.svg",
+      "imageAlt": "The same puddle is larger earlier and smaller later. Dotted upward arrows represent invisible water vapor leaving the liquid surface; runoff and infiltration are excluded.",
+      "sentences": [
+        {
+          "id": "where-puddles-go-s1",
+          "en": "After rain, a puddle may stay on the path for a while and then become smaller during the day."
+        },
+        {
+          "id": "where-puddles-go-s2",
+          "en": "Some liquid water at its surface changes into water vapor and moves into the surrounding air; this process is evaporation."
+        },
+        {
+          "id": "where-puddles-go-s3",
+          "en": "The water does not need to boil, and evaporation can happen on a cool day as well as a warm one."
+        },
+        {
+          "id": "where-puddles-go-s4",
+          "en": "Water vapor is invisible, so a drawing uses dotted arrows to show a movement that your eyes cannot follow."
+        },
+        {
+          "id": "where-puddles-go-s5",
+          "en": "The drawing compares the same puddle at two times and assumes that no water runs away or enters the ground."
+        },
+        {
+          "id": "where-puddles-go-s6",
+          "en": "Use because to introduce a reason: the puddle gets smaller because some of its water evaporates."
+        },
+        {
+          "id": "where-puddles-go-s7",
+          "en": "A good explanation names what changes and gives a reason, instead of saying only that the water disappears."
+        }
+      ],
+      "targetSenseIds": [
+        "evaporate:meaning-1",
+        "vapor:meaning-1",
+        "puddle:meaning-1",
+        "surface:meaning-1"
+      ],
+      "pattern": "… because…",
+      "patternExample": "The puddle gets smaller because some liquid water changes into water vapor.",
+      "activities": [
+        {
+          "kind": "choice",
+          "checks": "english",
+          "prompt": "Which sentence gives a reason for the smaller puddle?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "The puddle gets smaller because some water evaporates."
+            },
+            {
+              "id": "2",
+              "text": "The puddle is beside a path and the sky is blue."
+            },
+            {
+              "id": "3",
+              "text": "There was a puddle yesterday."
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "Because connects the change with its reason, evaporation.",
+          "id": "where-puddles-go-q1"
+        },
+        {
+          "kind": "cloze",
+          "checks": "english",
+          "prompt": "The water is still present in the air ___ some liquid water has become vapor.",
+          "choices": [
+            {
+              "id": "1",
+              "text": "because"
+            },
+            {
+              "id": "2",
+              "text": "under"
+            },
+            {
+              "id": "3",
+              "text": "unlike"
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "Because introduces the explanation for where some water is now.",
+          "id": "where-puddles-go-q2"
+        },
+        {
+          "kind": "label",
+          "checks": "science",
+          "prompt": "Which process changes surface water into invisible water vapor?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "evaporation"
+            },
+            {
+              "id": "2",
+              "text": "freezing"
+            },
+            {
+              "id": "3",
+              "text": "condensation"
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "Evaporation changes liquid water into water vapor and does not require boiling.",
+          "id": "where-puddles-go-q3"
+        },
+        {
+          "kind": "choice",
+          "checks": "english",
+          "prompt": "What does “the same puddle at two times” mean?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "Two different puddles at the same time."
+            },
+            {
+              "id": "2",
+              "text": "One puddle shown earlier and later."
+            },
+            {
+              "id": "3",
+              "text": "A puddle that never changes."
+            }
+          ],
+          "answer": [
+            "2"
+          ],
+          "explanation": "The same refers to one puddle; at two times compares its earlier and later state.",
+          "id": "where-puddles-go-q4"
+        }
+      ],
+      "production": {
+        "prompt": "Explain why the pictured puddle becomes smaller. Write two or three sentences and use because.",
+        "starter": "The puddle gets smaller because… / The water changes into…",
+        "models": [
+          "The puddle gets smaller because some water evaporates. Liquid water changes into invisible water vapor in the air.",
+          "Some water at the surface changes into water vapor. The puddle becomes smaller because of evaporation. The water does not need to boil."
+        ],
+        "checklist": [
+          "My science explanation matches the scene.",
+          "I use the lesson’s English pattern.",
+          "My meaning is understandable.",
+          "I connect my ideas clearly."
+        ]
+      }
+    },
+    {
+      "id": "cold-glass",
+      "title": "Drops on a cold glass",
+      "question": "Does the glass make the water on its outside?",
+      "englishGoal": "Contrast an observation and an explanation using but and because.",
+      "scienceGoal": "Understand condensation from water vapor in surrounding air.",
+      "minutes": 10,
+      "image": "courses/water-weather/lesson-5.svg",
+      "imageAlt": "A cold glass has liquid drops on the outside. Dashed arrows from the surrounding air indicate water vapor moving toward the cold surface, not water passing through the glass.",
+      "sentences": [
+        {
+          "id": "cold-glass-s1",
+          "en": "A cold glass may look dry when you first put it on a table, but later small drops appear outside."
+        },
+        {
+          "id": "cold-glass-s2",
+          "en": "The water in those drops comes from water vapor in the surrounding air, rather than passing through the glass."
+        },
+        {
+          "id": "cold-glass-s3",
+          "en": "Near the cold surface, the air cools, and some of its water vapor can change into liquid water."
+        },
+        {
+          "id": "cold-glass-s4",
+          "en": "This change from water vapor to liquid is called condensation, and the small drops are also called droplets."
+        },
+        {
+          "id": "cold-glass-s5",
+          "en": "The picture uses a dashed arrow for invisible vapor and solid blue drops for the liquid that forms."
+        },
+        {
+          "id": "cold-glass-s6",
+          "en": "Use but to connect contrasting ideas, and use because when you want to explain the reason for an observation."
+        },
+        {
+          "id": "cold-glass-s7",
+          "en": "Describe what you can see first, then explain it in English while keeping the invisible part of the process clear."
+        }
+      ],
+      "targetSenseIds": [
+        "condense:meaning-1",
+        "droplet:meaning-1",
+        "vapor:meaning-1",
+        "surface:meaning-1"
+      ],
+      "pattern": "… but… / … because…",
+      "patternExample": "The outside looks dry at first, but drops form because water vapor cools near the cold glass.",
+      "activities": [
+        {
+          "kind": "choice",
+          "checks": "english",
+          "prompt": "Which sentence connects an observation with its cause?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "Drops form because water vapor cools near the glass."
+            },
+            {
+              "id": "2",
+              "text": "The glass is cold but the table is brown."
+            },
+            {
+              "id": "3",
+              "text": "There is a glass on the table."
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "Because introduces why the observed drops form.",
+          "id": "cold-glass-q1"
+        },
+        {
+          "kind": "cloze",
+          "checks": "english",
+          "prompt": "The outside looks dry at first, ___ drops appear later.",
+          "choices": [
+            {
+              "id": "1",
+              "text": "but"
+            },
+            {
+              "id": "2",
+              "text": "under"
+            },
+            {
+              "id": "3",
+              "text": "when it"
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "But connects the contrasting observations: dry at first and wet later.",
+          "id": "cold-glass-q2"
+        },
+        {
+          "kind": "label",
+          "checks": "science",
+          "prompt": "Which label describes vapor becoming liquid on the cold surface?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "condensation"
+            },
+            {
+              "id": "2",
+              "text": "melting"
+            },
+            {
+              "id": "3",
+              "text": "evaporation"
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "Condensation is the change from water vapor to liquid water.",
+          "id": "cold-glass-q3"
+        },
+        {
+          "kind": "choice",
+          "checks": "english",
+          "prompt": "What does “rather than passing through the glass” tell you?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "The water comes through a hole."
+            },
+            {
+              "id": "2",
+              "text": "The drops come from the surrounding air."
+            },
+            {
+              "id": "3",
+              "text": "The glass makes a new substance."
+            }
+          ],
+          "answer": [
+            "2"
+          ],
+          "explanation": "Rather than rejects the idea of water passing through the glass; the passage gives air as its source.",
+          "id": "cold-glass-q4"
+        }
+      ],
+      "production": {
+        "prompt": "Describe the outside of the glass and explain its droplets. Use but or because in two or three sentences.",
+        "starter": "The glass looks dry at first, but… / Drops form because…",
+        "models": [
+          "The glass looks dry at first, but small drops appear outside. They form because some water vapor in the air cools and becomes liquid.",
+          "There are drops on the cold surface. The water comes from the air because water vapor condenses near the glass. It does not pass through the glass."
+        ],
+        "checklist": [
+          "My science explanation matches the scene.",
+          "I use the lesson’s English pattern.",
+          "My meaning is understandable.",
+          "I connect my ideas clearly."
+        ]
+      }
+    },
+    {
+      "id": "clouds-rain",
+      "title": "Clouds and rain",
+      "question": "What are clouds made of?",
+      "englishGoal": "Connect a cause and its result using so.",
+      "scienceGoal": "Recognize cloud droplets or ice and precipitation.",
+      "minutes": 10,
+      "image": "courses/water-weather/lesson-6.svg",
+      "imageAlt": "A simplified cloud contains small water droplets and ice symbols. Larger drops fall downward as rain; this shows one simplified precipitation route.",
+      "sentences": [
+        {
+          "id": "clouds-rain-s1",
+          "en": "Clouds contain very small liquid water droplets, tiny ice crystals, or both, depending on the conditions in the air."
+        },
+        {
+          "id": "clouds-rain-s2",
+          "en": "They are not simply collections of invisible water vapor, even though water vapor helps clouds form as air cools."
+        },
+        {
+          "id": "clouds-rain-s3",
+          "en": "Within some clouds, droplets join together or ice crystals grow, and eventually some water becomes large enough to fall."
+        },
+        {
+          "id": "clouds-rain-s4",
+          "en": "Water falling from clouds is called precipitation; rain is liquid precipitation, while snow is a form of frozen precipitation."
+        },
+        {
+          "id": "clouds-rain-s5",
+          "en": "The diagram shows one simplified path to rain and does not show every process that happens inside a real cloud."
+        },
+        {
+          "id": "clouds-rain-s6",
+          "en": "Use so to connect a cause with a result: some drops become large enough to fall, so rain reaches the ground."
+        },
+        {
+          "id": "clouds-rain-s7",
+          "en": "Explain the relationship between the two parts of your sentence, rather than putting two unrelated facts next to each other."
+        }
+      ],
+      "targetSenseIds": [
+        "cloud:meaning-1",
+        "rain:meaning-1",
+        "droplet:meaning-1",
+        "precipitation:meaning-1"
+      ],
+      "pattern": "… so…",
+      "patternExample": "Some cloud drops become large enough to fall, so rain reaches the ground.",
+      "activities": [
+        {
+          "kind": "choice",
+          "checks": "english",
+          "prompt": "Which sentence uses so to give a result?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "Some drops become large enough to fall, so rain reaches the ground."
+            },
+            {
+              "id": "2",
+              "text": "Some drops become large enough to fall, so the book is red."
+            },
+            {
+              "id": "3",
+              "text": "So clouds because rain."
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "The second part is a result of the first, not an unrelated detail.",
+          "id": "clouds-rain-q1"
+        },
+        {
+          "kind": "cloze",
+          "checks": "english",
+          "prompt": "The air cools, ___ some water vapor can condense.",
+          "choices": [
+            {
+              "id": "1",
+              "text": "so"
+            },
+            {
+              "id": "2",
+              "text": "unlike"
+            },
+            {
+              "id": "3",
+              "text": "on"
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "So introduces a possible result of the air cooling.",
+          "id": "clouds-rain-q2"
+        },
+        {
+          "kind": "label",
+          "checks": "science",
+          "prompt": "Choose the label for liquid water falling from clouds.",
+          "choices": [
+            {
+              "id": "1",
+              "text": "rain"
+            },
+            {
+              "id": "2",
+              "text": "invisible vapor"
+            },
+            {
+              "id": "3",
+              "text": "melting ice on the ground"
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "Rain is liquid precipitation falling from clouds.",
+          "id": "clouds-rain-q3"
+        },
+        {
+          "kind": "choice",
+          "checks": "english",
+          "prompt": "Which sentence correctly reports the passage?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "Every cloud is made only of gas."
+            },
+            {
+              "id": "2",
+              "text": "Clouds can contain droplets, ice crystals, or both."
+            },
+            {
+              "id": "3",
+              "text": "Every cloud produces rain immediately."
+            }
+          ],
+          "answer": [
+            "2"
+          ],
+          "explanation": "Can expresses a possibility; the passage includes both droplets and ice crystals.",
+          "id": "clouds-rain-q4"
+        }
+      ],
+      "production": {
+        "prompt": "Explain one cause and result connected with clouds or rain. Write two or three sentences and use so.",
+        "starter": "Some drops…, so… / Clouds contain…",
+        "models": [
+          "Clouds contain small drops or ice crystals. Some drops become large enough to fall, so rain reaches the ground.",
+          "The air cools, so some water vapor condenses into droplets. Clouds contain these small droplets or ice crystals."
+        ],
+        "checklist": [
+          "My science explanation matches the scene.",
+          "I use the lesson’s English pattern.",
+          "My meaning is understandable.",
+          "I connect my ideas clearly."
+        ]
+      }
+    },
+    {
+      "id": "following-water",
+      "title": "Following the water",
+      "question": "How can you describe a repeating process?",
+      "englishGoal": "Sequence a process using first, then, after that and finally.",
+      "scienceGoal": "Connect evaporation, condensation and precipitation in a simplified cycle.",
+      "minutes": 10,
+      "image": "courses/water-weather/lesson-7.svg",
+      "imageAlt": "A simplified water cycle shows evaporation upward from a lake, condensation in clouds, rain downward, and surface water flowing back to the lake. Other routes are omitted.",
+      "sentences": [
+        {
+          "id": "following-water-s1",
+          "en": "The water cycle describes how water moves between places on Earth and changes between solid, liquid and gaseous states."
+        },
+        {
+          "id": "following-water-s2",
+          "en": "Our diagram follows one possible route: water evaporates from a lake, and some water vapor later condenses into cloud droplets."
+        },
+        {
+          "id": "following-water-s3",
+          "en": "After that, some water falls as precipitation, and water can flow over the land and return to the lake."
+        },
+        {
+          "id": "following-water-s4",
+          "en": "The Sun supplies energy for evaporation, while gravity helps bring falling rain and flowing water toward lower places."
+        },
+        {
+          "id": "following-water-s5",
+          "en": "Real water follows many other routes too, including entering the ground or passing through plants; this diagram is deliberately simplified."
+        },
+        {
+          "id": "following-water-s6",
+          "en": "Use first, then, after that and finally to guide a reader through the route you have chosen to describe."
+        },
+        {
+          "id": "following-water-s7",
+          "en": "A cycle has no single starting point, so first means the beginning of your explanation, not the beginning of all water."
+        }
+      ],
+      "targetSenseIds": [
+        "cycle:meaning-1",
+        "evaporate:meaning-1",
+        "condense:meaning-1",
+        "precipitation:meaning-1"
+      ],
+      "pattern": "First… Then… After that… Finally…",
+      "patternExample": "First, water evaporates. Then, some water vapor condenses.",
+      "activities": [
+        {
+          "kind": "sequence",
+          "checks": "english",
+          "prompt": "Order this possible route, beginning with water in a lake.",
+          "choices": [
+            {
+              "id": "1",
+              "text": "Some water returns to the lake."
+            },
+            {
+              "id": "2",
+              "text": "Some water falls as precipitation."
+            },
+            {
+              "id": "3",
+              "text": "Water evaporates from the lake."
+            },
+            {
+              "id": "4",
+              "text": "Some vapor condenses in a cloud."
+            }
+          ],
+          "answer": [
+            "3",
+            "4",
+            "2",
+            "1"
+          ],
+          "explanation": "This is one simplified route. A real cycle can be described from different starting points.",
+          "id": "following-water-q1"
+        },
+        {
+          "kind": "cloze",
+          "checks": "english",
+          "prompt": "First, water evaporates. ___, some vapor condenses.",
+          "choices": [
+            {
+              "id": "1",
+              "text": "Then"
+            },
+            {
+              "id": "2",
+              "text": "Unlike"
+            },
+            {
+              "id": "3",
+              "text": "Under"
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "Then introduces the next stage in your explanation.",
+          "id": "following-water-q2"
+        },
+        {
+          "kind": "label",
+          "checks": "science",
+          "prompt": "Which process returns water from clouds toward the ground?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "precipitation"
+            },
+            {
+              "id": "2",
+              "text": "evaporation"
+            },
+            {
+              "id": "3",
+              "text": "melting inside a freezer"
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "Precipitation is water falling from clouds as rain, snow or other forms.",
+          "id": "following-water-q3"
+        },
+        {
+          "kind": "choice",
+          "checks": "english",
+          "prompt": "What does “one possible route” tell the reader?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "All water must take exactly this route."
+            },
+            {
+              "id": "2",
+              "text": "This is an example among several routes."
+            },
+            {
+              "id": "3",
+              "text": "The water cycle has stopped."
+            }
+          ],
+          "answer": [
+            "2"
+          ],
+          "explanation": "One possible route allows other paths, such as water entering the ground.",
+          "id": "following-water-q4"
+        }
+      ],
+      "production": {
+        "prompt": "Describe the simplified water-cycle route in four English sentences. Use sequence words.",
+        "starter": "First, water… Then… After that… Finally…",
+        "models": [
+          "First, some water evaporates from the lake. Then, some vapor condenses into droplets in clouds. After that, water falls as rain. Finally, some water flows back to the lake.",
+          "First, I follow water at the lake. Then, some of it evaporates and later condenses in the air. After that, some cloud water falls as precipitation. Finally, it can return to the lake."
+        ],
+        "checklist": [
+          "My science explanation matches the scene.",
+          "I use the lesson’s English pattern.",
+          "My meaning is understandable.",
+          "I connect my ideas clearly."
+        ]
+      }
+    },
+    {
+      "id": "explain-new-scene",
+      "title": "Explain a new scene",
+      "question": "How can English connect what you see with what you know?",
+      "englishGoal": "Combine description, cause and sequence in a short explanation, then revise it.",
+      "scienceGoal": "Apply ideas about state changes and the water cycle to a new scene.",
+      "minutes": 12,
+      "image": "courses/water-weather/lesson-8.svg",
+      "imageAlt": "A new scene shows a wet cloth on a line, a puddle on the ground, and droplets outside a cold glass on a table. Dashed arrows symbolize invisible water vapor.",
+      "sentences": [
+        {
+          "id": "explain-new-scene-s1",
+          "en": "Look at the new scene: a wet cloth hangs near a smaller puddle, and a cold glass stands on the table."
+        },
+        {
+          "id": "explain-new-scene-s2",
+          "en": "Choose two observations to describe before you explain them, using details that another person can find in the picture."
+        },
+        {
+          "id": "explain-new-scene-s3",
+          "en": "The cloth can dry because some liquid water evaporates, while droplets can form outside the cold glass because water vapor condenses."
+        },
+        {
+          "id": "explain-new-scene-s4",
+          "en": "These processes move water between liquid and gas; neither process creates a new substance or makes water stop existing."
+        },
+        {
+          "id": "explain-new-scene-s5",
+          "en": "Now imagine a possible route from the drying cloth to a cloud and back to the ground as precipitation."
+        },
+        {
+          "id": "explain-new-scene-s6",
+          "en": "Use sequence words to organize that route, but remember that the scene alone does not prove exactly where each drop will go."
+        },
+        {
+          "id": "explain-new-scene-s7",
+          "en": "Write four to six sentences, compare them with the examples, and revise one sentence to make your English explanation clearer."
+        }
+      ],
+      "targetSenseIds": [
+        "explain:meaning-1",
+        "compare:meaning-1",
+        "cycle:meaning-1",
+        "temperature:meaning-1"
+      ],
+      "pattern": "Describe → explain → connect → revise",
+      "patternExample": "There is a wet cloth outside. It dries because some water evaporates.",
+      "activities": [
+        {
+          "kind": "choice",
+          "checks": "english",
+          "prompt": "Which response clearly gives an observation and a reason?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "There are drops on the glass because water vapor condenses near it."
+            },
+            {
+              "id": "2",
+              "text": "Glass and rain and blue."
+            },
+            {
+              "id": "3",
+              "text": "The glass is on the table because first."
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "The sentence names an observation and connects it to an explanation with because.",
+          "id": "explain-new-scene-q1"
+        },
+        {
+          "kind": "cloze",
+          "checks": "english",
+          "prompt": "The cloth is wet at first, ___ it may become dry later.",
+          "choices": [
+            {
+              "id": "1",
+              "text": "but"
+            },
+            {
+              "id": "2",
+              "text": "under"
+            },
+            {
+              "id": "3",
+              "text": "there are"
+            }
+          ],
+          "answer": [
+            "1"
+          ],
+          "explanation": "But connects two contrasting states over time.",
+          "id": "explain-new-scene-q2"
+        },
+        {
+          "kind": "sequence",
+          "checks": "english",
+          "prompt": "Order a clear short explanation.",
+          "choices": [
+            {
+              "id": "1",
+              "text": "Finally, revise one sentence."
+            },
+            {
+              "id": "2",
+              "text": "First, describe what you see."
+            },
+            {
+              "id": "3",
+              "text": "Then, explain a cause."
+            }
+          ],
+          "answer": [
+            "2",
+            "3",
+            "1"
+          ],
+          "explanation": "An explanation begins with an observation, connects a cause and is then checked and revised.",
+          "id": "explain-new-scene-q3"
+        },
+        {
+          "kind": "choice",
+          "checks": "science",
+          "prompt": "Which claim goes beyond what the scene can show?",
+          "choices": [
+            {
+              "id": "1",
+              "text": "Some water in the cloth may evaporate."
+            },
+            {
+              "id": "2",
+              "text": "Every drop from this cloth will fall into this same puddle tomorrow."
+            },
+            {
+              "id": "3",
+              "text": "Drops can form by condensation."
+            }
+          ],
+          "answer": [
+            "2"
+          ],
+          "explanation": "The scene does not prove an exact future path or time for every drop of water.",
+          "id": "explain-new-scene-q4"
+        }
+      ],
+      "production": {
+        "prompt": "Write four to six English sentences about the scene. Describe two observations, explain a cause, and connect a possible sequence. Then revise one sentence.",
+        "starter": "There is… / … because… / First… Then…",
+        "models": [
+          "There is a wet cloth near the puddle. The cloth dries because some liquid water evaporates. There are droplets outside the cold glass because water vapor condenses there. Some vapor may later become part of a cloud. Then, some cloud water may fall as rain.",
+          "There are drops on the glass, but the water does not pass through the glass. Water vapor in the air condenses near its cold surface. Meanwhile, some water in the cloth evaporates. First, that water becomes vapor. Later, it may condense in a cloud and return as precipitation."
+        ],
+        "checklist": [
+          "My science explanation matches the scene.",
+          "I use the lesson’s English pattern.",
+          "My meaning is understandable.",
+          "I connect my ideas clearly."
+        ]
+      }
+    }
+  ]
+}

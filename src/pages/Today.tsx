@@ -13,6 +13,7 @@ import { dayKey, store, useStore } from "../store/store";
 import { Categories } from "../ui/Categories";
 import { Highlight, Pronounce } from "../ui/EntryView";
 import { Illustration } from "../ui/Illustration";
+import { CourseContinueCard } from "../courses/components";
 
 export function streakOf(days: Record<string, { r: number }>) {
   let n = 0;
@@ -188,6 +189,7 @@ export function Today() {
           · کشف موضوع
         </button>
       </div>
+      <CourseContinueCard />
       <div className="today-grid">
         <WordOfDay />
         <a
