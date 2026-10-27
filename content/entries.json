@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-6",
+  "releaseId": "2026-10-preview-7",
   "channel": "preview",
-  "createdAt": "2026-10-27T12:03:21.105448+00:00",
+  "createdAt": "2026-10-27T12:43:05.457744+00:00",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -3021,7 +3021,7 @@
       "ant": [],
       "tip": "force در این کارت اسم نیرو در فیزیک است؛ در کاربرد فعلی می‌تواند به معنی وادار کردن باشد.",
       "media": {
-        "img": "atlas/img/force-v2.webp",
+        "img": "atlas/img/force-v3.webp",
         "uk": "atlas/audio/uk/force.mp3",
         "us": "atlas/audio/us/force.mp3"
       },
@@ -3115,7 +3115,7 @@
           "id": "current:meaning-1",
           "pos": "n.",
           "fa": "جریان؛ در این بافت: جریان الکتریکی",
-          "en": "a continuous movement of water, air, or electricity",
+          "en": "A flow of electric charge.",
           "domainIds": [
             "engineering",
             "energy-utilities-resources",
@@ -3144,20 +3144,12 @@
         "direct current｜جریان مستقیم",
         "alternating current｜جریان متناوب"
       ],
-      "fam": [
-        "currently (adv.)"
-      ],
-      "syn": [
-        "present",
-        "existing"
-      ],
-      "ant": [
-        "past",
-        "future"
-      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
       "tip": "current در این کارت اسم جریان است؛ صفت current در عبارتی مثل current version به معنی فعلی است.",
       "media": {
-        "img": "atlas/img/current-v2.webp",
+        "img": "atlas/img/current-v3.webp",
         "uk": "atlas/audio/uk/current.mp3",
         "us": "atlas/audio/us/current.mp3"
       },
@@ -3166,7 +3158,13 @@
         "source": "https://github.com/designfuchen/word-atlas/blob/e7b44629230a470e6b664826ced4af2c367b44c2/data/word-atlas.json",
         "attribution": "Word Atlas contributors — CC BY 4.0",
         "aiAssisted": true,
-        "modifications": "Selected English senses and lexical metadata retained; original Persian translations and usage notes; contextual English examples and bilingual collocations adapted or newly written. No independent human or domain approval claimed."
+        "modifications": "Selected English senses and lexical metadata retained; original Persian translations and usage notes; contextual English examples and bilingual collocations adapted or newly written. No independent human or domain approval claimed. Electrical noun definition clarified and adjective-only word relations removed; lexical and sense identities preserved.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/college-physics-2e/pages/20-1-current",
+            "use": "Factual check only: electric current is charge flow; conventional-current direction follows positive charge, from the battery positive terminal through the external load to negative. Original text and art; no reference prose or artwork copied."
+          }
+        ]
       }
     },
     {
@@ -15763,6 +15761,1453 @@
         "attribution": "Mehrdadika contributors — CC BY 4.0",
         "aiAssisted": true,
         "modifications": "Original AI-assisted English definitions, examples and lexical metadata with Persian glosses and usage notes. Editorial preview; independent human language and qualified domain review pending."
+      }
+    },
+    {
+      "id": "tooth",
+      "w": "tooth",
+      "uk": "/tuːθ/",
+      "us": "/tuːθ/",
+      "cefr": "A2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "tooth:meaning-1",
+          "pos": "n.",
+          "fa": "دندان",
+          "en": "one of the hard structures in the mouth used to bite or chew food",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "This tooth has a single root.",
+          "fa": "این دندان یک ریشه دارد.",
+          "senseId": "tooth:meaning-1"
+        },
+        {
+          "en": "The model shows how a tooth fits into the jaw.",
+          "fa": "مدل نشان می‌دهد که دندان چگونه در فک قرار می‌گیرد.",
+          "senseId": "tooth:meaning-1"
+        }
+      ],
+      "col": [
+        "a front tooth｜دندان جلو",
+        "a tooth root｜ریشهٔ دندان",
+        "a tooth crown｜تاج دندان"
+      ],
+      "fam": [
+        "teeth (plural)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "جمع tooth به‌صورت بی‌قاعده teeth است. تصویر یک دندان پیشینِ تک‌ریشه را نشان می‌دهد؛ همهٔ دندان‌ها یک ریشه ندارند.",
+      "media": {
+        "img": "atlas/img/tooth.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://teeth.org.au/tooth-anatomy",
+            "use": "Dental-association reference checked single-root incisor versus two-root lower molar and crown/root geometry; original text and art."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gum",
+      "w": "gum",
+      "uk": "/ɡʌm/",
+      "us": "/ɡʌm/",
+      "cefr": "B1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "gum:meaning-1",
+          "pos": "n.",
+          "fa": "لثه",
+          "en": "the firm tissue around the bases of the teeth",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Gum tissue surrounds the teeth.",
+          "fa": "بافت لثه دور دندان‌ها را می‌گیرد.",
+          "senseId": "gum:meaning-1"
+        },
+        {
+          "en": "The dentist examined her gums.",
+          "fa": "دندان‌پزشک لثه‌های او را معاینه کرد.",
+          "senseId": "gum:meaning-1"
+        }
+      ],
+      "col": [
+        "gum tissue｜بافت لثه",
+        "the gum line｜خط لثه",
+        "healthy gums｜لثه‌های سالم"
+      ],
+      "fam": [
+        "gums (plural)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "gum در این معنی «لثه» است و اغلب به‌صورت جمع gums می‌آید؛ chewing gum به معنی آدامس، کاربرد دیگری است.",
+      "media": {
+        "img": "atlas/img/gum.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/mesh/68005881",
+            "use": "NIH terminology checked gingiva as tissue around teeth; original prose and illustration."
+          }
+        ]
+      }
+    },
+    {
+      "id": "molar",
+      "w": "molar",
+      "uk": "/ˈməʊlə/",
+      "us": "/ˈmoʊlər/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "molar:meaning-1",
+          "pos": "n.",
+          "fa": "دندان آسیای بزرگ",
+          "en": "a broad tooth at the back of the mouth used to grind food",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "This molar has a broad chewing surface.",
+          "fa": "این دندان آسیا سطح جوندهٔ پهنی دارد.",
+          "senseId": "molar:meaning-1"
+        },
+        {
+          "en": "The model shows a lower molar with two roots.",
+          "fa": "مدل یک دندان آسیای پایین با دو ریشه را نشان می‌دهد.",
+          "senseId": "molar:meaning-1"
+        }
+      ],
+      "col": [
+        "a lower molar｜دندان آسیای پایین",
+        "a molar tooth｜دندان آسیای بزرگ",
+        "a molar root｜ریشهٔ دندان آسیا"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "molar دندان آسیای بزرگ در عقب دهان است؛ incisor دندان پیشین برای بریدن غذاست. تعداد ریشه‌ها بسته به دندان متفاوت است.",
+      "media": {
+        "img": "atlas/img/molar.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://teeth.org.au/tooth-anatomy",
+            "use": "Dental-association reference checked single-root incisor versus two-root lower molar and crown/root geometry; original text and art."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dental-mirror",
+      "w": "dental mirror",
+      "uk": "/ˈdentəl ˌmɪrə/",
+      "us": "/ˈdentəl ˌmɪrər/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "dental-mirror:meaning-1",
+          "pos": "n.",
+          "fa": "آینهٔ دندان‌پزشکی",
+          "en": "a small mirror on a slender handle used to view areas inside the mouth",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The dental mirror has a small round head.",
+          "fa": "آینهٔ دندان‌پزشکی سری کوچک و گرد دارد.",
+          "senseId": "dental-mirror:meaning-1"
+        },
+        {
+          "en": "The dentist held a dental mirror beside the back tooth.",
+          "fa": "دندان‌پزشک آینهٔ دندان‌پزشکی را کنار دندان عقبی نگه داشت.",
+          "senseId": "dental-mirror:meaning-1"
+        }
+      ],
+      "col": [
+        "a dental mirror handle｜دستهٔ آینهٔ دندان‌پزشکی",
+        "a dental mirror head｜سر آینهٔ دندان‌پزشکی",
+        "hold a dental mirror｜آینهٔ دندان‌پزشکی را نگه داشتن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "dental mirror آینهٔ کوچکِ ابزار دندان‌پزشکی است؛ با mirror معمولیِ دیواری یا دستی فرق دارد.",
+      "media": {
+        "img": "atlas/img/dental-mirror.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "microscope",
+      "w": "microscope",
+      "uk": "/ˈmaɪkrəskəʊp/",
+      "us": "/ˈmaɪkrəskoʊp/",
+      "cefr": "B1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "microscope:meaning-1",
+          "pos": "n.",
+          "fa": "میکروسکوپ",
+          "en": "an instrument that makes very small objects appear larger so their details can be seen",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The microscope has a lens above the slide.",
+          "fa": "میکروسکوپ عدسی‌ای بالای لام دارد.",
+          "senseId": "microscope:meaning-1"
+        },
+        {
+          "en": "The scientist looked through the microscope at the sample.",
+          "fa": "دانشمند از میکروسکوپ به نمونه نگاه کرد.",
+          "senseId": "microscope:meaning-1"
+        }
+      ],
+      "col": [
+        "a light microscope｜میکروسکوپ نوری",
+        "a microscope lens｜عدسی میکروسکوپ",
+        "look through a microscope｜از میکروسکوپ نگاه کردن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "microscope جزئیات بسیار کوچک را بزرگ‌نمایی می‌کند؛ telescope برای دیدن اجرام دور است. تصویر نوع نوری را نشان می‌دهد.",
+      "media": {
+        "img": "atlas/img/microscope.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.leica-microsystems.com/products/microscope-accessories",
+            "use": "Manufacturer reference checked microscope optics and components; no source artwork copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "test-tube",
+      "w": "test tube",
+      "uk": "/ˈtest ˌtjuːb/",
+      "us": "/ˈtest ˌtuːb/",
+      "cefr": "B1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "test-tube:meaning-1",
+          "pos": "n.",
+          "fa": "لولهٔ آزمایش",
+          "en": "a narrow laboratory tube, open at one end and rounded at the other, used to hold small samples",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The test tube has a rounded bottom.",
+          "fa": "لولهٔ آزمایش انتهایی گرد دارد.",
+          "senseId": "test-tube:meaning-1"
+        },
+        {
+          "en": "Three test tubes stand in the rack.",
+          "fa": "سه لولهٔ آزمایش در جا‌لوله‌ای قرار دارند.",
+          "senseId": "test-tube:meaning-1"
+        }
+      ],
+      "col": [
+        "a glass test tube｜لولهٔ آزمایش شیشه‌ای",
+        "a test tube rack｜جا‌لوله‌ای آزمایشگاه",
+        "a test tube holder｜گیرهٔ لولهٔ آزمایش"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "test tube ظرف باریک آزمایشگاهی است؛ tip of a pipette نوک ابزار انتقال مایع است و ظرف نگهداری نمونه نیست.",
+      "media": {
+        "img": "atlas/img/test-tube.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "pipette",
+      "w": "pipette",
+      "uk": "/pɪˈpet/",
+      "us": "/paɪˈpet/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "pipette:meaning-1",
+          "pos": "n.",
+          "fa": "پیپت",
+          "en": "a narrow laboratory instrument for drawing up and transferring small amounts of liquid",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The pipette holds a small amount of liquid.",
+          "fa": "پیپت مقدار کمی مایع در خود دارد.",
+          "senseId": "pipette:meaning-1"
+        },
+        {
+          "en": "A drop hangs from the tip of the pipette.",
+          "fa": "قطره‌ای از نوک پیپت آویزان است.",
+          "senseId": "pipette:meaning-1"
+        }
+      ],
+      "col": [
+        "a transfer pipette｜پیپت انتقال مایع",
+        "a pipette tip｜نوک پیپت",
+        "a glass pipette｜پیپت شیشه‌ای"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "pipette ابزار برداشتن و انتقال مقدار کم مایع است؛ تصویر نوع سادهٔ انتقالی با حباب فشاری را نشان می‌دهد، نه سرنگ.",
+      "media": {
+        "img": "atlas/img/pipette.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "centrifuge",
+      "w": "centrifuge",
+      "uk": "/ˈsentrɪfjuːdʒ/",
+      "us": "/ˈsentrəfjuːdʒ/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "centrifuge:meaning-1",
+          "pos": "n.",
+          "fa": "سانتریفیوژ",
+          "en": "a machine that spins samples rapidly to separate their components",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The centrifuge has a circular rotor.",
+          "fa": "سانتریفیوژ روتوری دایره‌ای دارد.",
+          "senseId": "centrifuge:meaning-1"
+        },
+        {
+          "en": "The laboratory keeps the centrifuge on a bench.",
+          "fa": "آزمایشگاه سانتریفیوژ را روی میز کار نگه می‌دارد.",
+          "senseId": "centrifuge:meaning-1"
+        }
+      ],
+      "col": [
+        "a laboratory centrifuge｜سانتریفیوژ آزمایشگاهی",
+        "a centrifuge rotor｜روتور سانتریفیوژ",
+        "a centrifuge tube｜لولهٔ سانتریفیوژ"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "centrifuge با چرخاندن نمونه‌ها جداسازی انجام می‌دهد؛ microscope برای دیدن و بزرگ‌نمایی است، نه جداسازی.",
+      "media": {
+        "img": "atlas/img/centrifuge.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.eppendorf.com/us-en/lab-academy/life-science/cell-biology/centrifuge-safety/",
+            "use": "Manufacturer reference checked rotor symmetry and matched opposing tubes; no operation instructions copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cane",
+      "w": "cane",
+      "uk": "/keɪn/",
+      "us": "/keɪn/",
+      "cefr": "B1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "cane:meaning-1",
+          "pos": "n.",
+          "fa": "عصای دستی؛ عصای راه‌رفتن",
+          "en": "a stick with a handle used to provide support while walking",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The cane has a rubber tip.",
+          "fa": "عصا سرپوشی لاستیکی دارد.",
+          "senseId": "cane:meaning-1"
+        },
+        {
+          "en": "She placed her cane beside the chair.",
+          "fa": "او عصایش را کنار صندلی گذاشت.",
+          "senseId": "cane:meaning-1"
+        }
+      ],
+      "col": [
+        "a walking cane｜عصای راه‌رفتن",
+        "a cane handle｜دستهٔ عصا",
+        "a cane tip｜سرپوش عصا"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "cane در این کارت عصای دارای دستهٔ دستی است؛ crutch تکیه‌گاهی زیر بغل یا دور ساعد دارد. تصویر عصای تک‌پایه است.",
+      "media": {
+        "img": "atlas/img/cane.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.medlineplus.gov/mobilityaids.html",
+            "use": "NIH resource checked mobility-support object distinctions; no personal medical advice or usage procedure copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "walker",
+      "w": "walker",
+      "uk": "/ˈwɔːkə/",
+      "us": "/ˈwɔːkər/",
+      "cefr": "B1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "walker:meaning-1",
+          "pos": "n.",
+          "fa": "واکر؛ چارچوب کمک‌راه‌رفتن",
+          "en": "a frame held in front of the body to provide support while walking",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The walker has two handgrips.",
+          "fa": "واکر دو دستگیره دارد.",
+          "senseId": "walker:meaning-1"
+        },
+        {
+          "en": "The walker stands on four legs beside the bed.",
+          "fa": "واکر روی چهار پایه کنار تخت قرار دارد.",
+          "senseId": "walker:meaning-1"
+        }
+      ],
+      "col": [
+        "a walking frame｜چارچوب کمک‌راه‌رفتن",
+        "a walker handgrip｜دستگیرهٔ واکر",
+        "a folding walker｜واکر تاشو"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "walker اینجا چارچوب کمک‌حرکتی است، نه شخصی که راه می‌رود. walking frame نیز برای این وسیله، به‌ویژه در انگلیسی بریتانیایی، رایج است.",
+      "media": {
+        "img": "atlas/img/walker.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.medlineplus.gov/mobilityaids.html",
+            "use": "NIH resource checked mobility-support object distinctions; no personal medical advice or usage procedure copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "splint",
+      "w": "splint",
+      "uk": "/splɪnt/",
+      "us": "/splɪnt/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "splint:meaning-1",
+          "pos": "n.",
+          "fa": "آتل",
+          "en": "a firm support fitted to a body part to keep it still or limit its movement",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The splint supports the wrist.",
+          "fa": "آتل از مچ دست حمایت می‌کند.",
+          "senseId": "splint:meaning-1"
+        },
+        {
+          "en": "The model shows a splint secured with straps.",
+          "fa": "مدل آتلی را نشان می‌دهد که با بند محکم شده است.",
+          "senseId": "splint:meaning-1"
+        }
+      ],
+      "col": [
+        "a wrist splint｜آتل مچ دست",
+        "a finger splint｜آتل انگشت",
+        "a splint strap｜بند آتل"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "splint اندام موجود را پشتیبانی یا بی‌حرکت می‌کند؛ prosthesis جای بخش ازدست‌رفتهٔ بدن را می‌گیرد.",
+      "media": {
+        "img": "atlas/img/splint.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "prosthesis",
+      "w": "prosthesis",
+      "uk": "/prɒsˈθiːsɪs/",
+      "us": "/prɑːsˈθiːsɪs/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "prosthesis:meaning-1",
+          "pos": "n.",
+          "fa": "پروتز؛ عضو مصنوعی",
+          "en": "an artificial device that replaces a missing part of the body",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The prosthesis has a socket and an artificial foot.",
+          "fa": "پروتز یک سوکت و یک پای مصنوعی دارد.",
+          "senseId": "prosthesis:meaning-1"
+        },
+        {
+          "en": "He wore a prosthesis in place of his lower leg.",
+          "fa": "او به‌جای بخش پایینی پایش از پروتز استفاده می‌کرد.",
+          "senseId": "prosthesis:meaning-1"
+        }
+      ],
+      "col": [
+        "a leg prosthesis｜پروتز پا",
+        "a prosthesis socket｜سوکت پروتز",
+        "a dental prosthesis｜پروتز دندانی"
+      ],
+      "fam": [
+        "prostheses (plural)",
+        "prosthetic (adj.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "جمع prosthesis به‌صورت prostheses است و صفت آن prosthetic است. تصویر پروتز زیر زانو را نشان می‌دهد؛ این واژه برای جایگزین‌های دیگر، مانند پروتز دندانی، هم کاربرد دارد.",
+      "media": {
+        "img": "atlas/img/prosthesis.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "weld",
+      "w": "weld",
+      "uk": "/weld/",
+      "us": "/weld/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "weld:meaning-1",
+          "pos": "v.",
+          "fa": "جوش دادن؛ جوشکاری کردن",
+          "en": "To join pieces of metal using heat, pressure, or both.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "They weld the two steel plates together.",
+          "fa": "آن‌ها دو ورق فولادی را به هم جوش می‌دهند.",
+          "senseId": "weld:meaning-1"
+        },
+        {
+          "en": "The frame was welded at each corner.",
+          "fa": "قاب در هر گوشه جوش داده شد.",
+          "senseId": "weld:meaning-1"
+        }
+      ],
+      "col": [
+        "weld two plates｜دو ورق را به هم جوش دادن",
+        "weld a joint｜یک اتصال را جوش دادن",
+        "weld metal parts｜قطعات فلزی را جوش دادن"
+      ],
+      "fam": [
+        "welded (adj.)",
+        "welder (n.)",
+        "welding (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "weld فعلِ جوش دادن است؛ تصویر نوعی جوشکاریِ ذوبی را نشان می‌دهد. در solder معمولاً فقط فلزِ پُرکننده ذوب می‌شود، نه قطعات اصلی.",
+      "media": {
+        "img": "atlas/img/weld.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original AI-assisted English definitions, examples and lexical metadata with Persian teaching support. Editorial preview; independent human language and qualified domain review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.twi-global.com/technical-knowledge/faqs/welding-brazing-and-soldering",
+            "use": "Factual distinction between fusion welding and filler-metal soldering; original learner prose and artwork."
+          }
+        ]
+      }
+    },
+    {
+      "id": "solder",
+      "w": "solder",
+      "uk": "/ˈsəʊldə/",
+      "us": "/ˈsɑːdər/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "solder:meaning-1",
+          "pos": "v.",
+          "fa": "لحیم کردن",
+          "en": "To join metal surfaces with a filler metal that melts below the temperature at which the surfaces melt.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "They solder the wire to the metal terminal.",
+          "fa": "آن‌ها سیم را به پایانهٔ فلزی لحیم می‌کنند.",
+          "senseId": "solder:meaning-1"
+        },
+        {
+          "en": "The technician soldered the small connection.",
+          "fa": "تکنسین اتصال کوچک را لحیم کرد.",
+          "senseId": "solder:meaning-1"
+        }
+      ],
+      "col": [
+        "solder a wire｜سیمی را لحیم کردن",
+        "solder a connection｜اتصالی را لحیم کردن",
+        "solder a terminal｜پایانه‌ای را لحیم کردن"
+      ],
+      "fam": [
+        "soldering (n.)"
+      ],
+      "syn": [],
+      "ant": [],
+      "tip": "solder در این کارت فعل است؛ مادهٔ لحیم نیز solder نام دارد. در تلفظ رایج آمریکایی حرف l شنیده نمی‌شود.",
+      "media": {
+        "img": "atlas/img/solder.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original AI-assisted English definitions, examples and lexical metadata with Persian teaching support. Editorial preview; independent human language and qualified domain review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.twi-global.com/technical-knowledge/faqs/welding-brazing-and-soldering",
+            "use": "Factual distinction between fusion welding and filler-metal soldering; original learner prose and artwork."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ingot",
+      "w": "ingot",
+      "uk": "/ˈɪŋɡət/",
+      "us": "/ˈɪŋɡət/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "ingot:meaning-1",
+          "pos": "n.",
+          "fa": "شمش فلز",
+          "en": "A block of metal cast into a shape for storage or later processing.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The ingot has a wide base and a narrower top.",
+          "fa": "شمش پایه‌ای پهن و رویه‌ای باریک‌تر دارد.",
+          "senseId": "ingot:meaning-1"
+        },
+        {
+          "en": "Several ingots are stacked beside the casting area.",
+          "fa": "چند شمش کنار بخش ریخته‌گری روی هم چیده شده‌اند.",
+          "senseId": "ingot:meaning-1"
+        }
+      ],
+      "col": [
+        "metal ingot｜شمش فلز",
+        "cast an ingot｜شمش ریختن",
+        "a stack of ingots｜یک دسته شمش روی هم"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "ingot فلزِ ریخته‌شده به شکل یک بلوک است؛ شکل و اندازهٔ همهٔ شمش‌ها یکسان نیست. تصویر یک نمونهٔ قالبی را نشان می‌دهد.",
+      "media": {
+        "img": "atlas/img/ingot.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original AI-assisted English definitions, examples and lexical metadata with Persian teaching support. Editorial preview; independent human language and qualified domain review pending."
+      }
+    },
+    {
+      "id": "lathe",
+      "w": "lathe",
+      "uk": "/leɪð/",
+      "us": "/leɪð/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "lathe:meaning-1",
+          "pos": "n.",
+          "fa": "دستگاه تراش",
+          "en": "A machine that shapes a workpiece by turning it against a cutting tool.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The lathe turns the metal workpiece.",
+          "fa": "دستگاه تراش قطعهٔ فلزی را می‌چرخاند.",
+          "senseId": "lathe:meaning-1"
+        },
+        {
+          "en": "A cutting tool removes material on the lathe.",
+          "fa": "ابزار برش روی دستگاه تراش از قطعه براده برمی‌دارد.",
+          "senseId": "lathe:meaning-1"
+        }
+      ],
+      "col": [
+        "metalworking lathe｜دستگاه تراش فلز",
+        "lathe chuck｜نظام (گیرهٔ گردان) دستگاه تراش",
+        "lathe cutting tool｜ابزار برش دستگاه تراش"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "در نمونهٔ سادهٔ lathe، قطعه می‌چرخد؛ در milling machine ابزارِ برش می‌چرخد. lathe را با lath به معنی نوار باریک چوب اشتباه نگیرید.",
+      "media": {
+        "img": "atlas/img/lathe.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original AI-assisted English definitions, examples and lexical metadata with Persian teaching support. Editorial preview; independent human language and qualified domain review pending.",
+        "factualReferences": [
+          {
+            "url": "https://legacy-aem.haascnc.com/content/haascnc/en/service/online-manuals/hml-manual-lathe-operators-service-manual/manual-lathe-operation.html",
+            "use": "Lathe workpiece/tool relationship and machine geometry; no operating procedure or image copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "milling-machine",
+      "w": "milling machine",
+      "uk": "/ˈmɪlɪŋ məˌʃiːn/",
+      "us": "/ˈmɪlɪŋ məˌʃiːn/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "milling-machine:meaning-1",
+          "pos": "n.",
+          "fa": "دستگاه فرز",
+          "en": "A machine that removes material from a workpiece using a rotating cutter.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The milling machine cuts a slot in the metal block.",
+          "fa": "دستگاه فرز در قطعهٔ فلزی شیار می‌برد.",
+          "senseId": "milling-machine:meaning-1"
+        },
+        {
+          "en": "The workpiece is clamped on the milling machine table.",
+          "fa": "قطعه روی میز دستگاه فرز محکم بسته شده است.",
+          "senseId": "milling-machine:meaning-1"
+        }
+      ],
+      "col": [
+        "vertical milling machine｜دستگاه فرز عمودی",
+        "milling machine table｜میز دستگاه فرز",
+        "milling machine spindle｜محور اصلی دستگاه فرز"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "milling machine با ابزار چرخان براده برمی‌دارد؛ lathe معمولاً خود قطعه را می‌چرخاند. تصویر نوع فرز عمودی را نشان می‌دهد.",
+      "media": {
+        "img": "atlas/img/milling-machine.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original AI-assisted English definitions, examples and lexical metadata with Persian teaching support. Editorial preview; independent human language and qualified domain review pending."
+      }
+    },
+    {
+      "id": "anvil",
+      "w": "anvil",
+      "uk": "/ˈænvɪl/",
+      "us": "/ˈænvɪl/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "anvil:meaning-1",
+          "pos": "n.",
+          "fa": "سندان",
+          "en": "A heavy metal block with a hard surface that supports material while it is hammered into shape.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The anvil has a flat working surface.",
+          "fa": "سندان سطح کاریِ تخت دارد.",
+          "senseId": "anvil:meaning-1"
+        },
+        {
+          "en": "The metal bar rests on the anvil.",
+          "fa": "میلهٔ فلزی روی سندان قرار دارد.",
+          "senseId": "anvil:meaning-1"
+        }
+      ],
+      "col": [
+        "steel anvil｜سندان فولادی",
+        "anvil face｜سطح کار سندان",
+        "anvil horn｜شاخ سندان"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "anvil تکیه‌گاه سنگینِ زیر قطعه است؛ hammer ابزاری است که ضربه می‌زند. همهٔ سندان‌ها شکل شاخ‌دارِ تصویر را ندارند.",
+      "media": {
+        "img": "atlas/img/anvil.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original AI-assisted English definitions, examples and lexical metadata with Persian teaching support. Editorial preview; independent human language and qualified domain review pending."
+      }
+    },
+    {
+      "id": "truss",
+      "w": "truss",
+      "uk": "/trʌs/",
+      "us": "/trʌs/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "truss:meaning-1",
+          "pos": "n.",
+          "fa": "خرپا",
+          "en": "A load-bearing framework made from connected members, commonly arranged in triangles.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The truss has triangular sections.",
+          "fa": "خرپا بخش‌های مثلثی دارد.",
+          "senseId": "truss:meaning-1"
+        },
+        {
+          "en": "The roof rests on a steel truss.",
+          "fa": "سقف روی یک خرپای فولادی قرار دارد.",
+          "senseId": "truss:meaning-1"
+        }
+      ],
+      "col": [
+        "roof truss｜خرپای سقف",
+        "steel truss｜خرپای فولادی",
+        "truss member｜عضو خرپا"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "truss یک چارچوب با اعضای متصل است؛ beam یک عضوِ تیرمانند است. آرایش مثلثیِ اعضای خرپا به انتقال بار کمک می‌کند.",
+      "media": {
+        "img": "atlas/img/truss.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original AI-assisted English definitions, examples and lexical metadata with Persian teaching support. Editorial preview; independent human language and qualified domain review pending."
+      }
+    },
+    {
+      "id": "column",
+      "w": "column",
+      "uk": "/ˈkɒləm/",
+      "us": "/ˈkɑːləm/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "column:meaning-1",
+          "pos": "n.",
+          "fa": "ستون سازه‌ای",
+          "en": "An upright structural member that carries loads down to a support or foundation.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The column supports the beam above it.",
+          "fa": "ستون تیرِ بالای خود را نگه می‌دارد.",
+          "senseId": "column:meaning-1"
+        },
+        {
+          "en": "A steel column stands on the concrete base.",
+          "fa": "یک ستون فولادی روی پایهٔ بتنی قرار دارد.",
+          "senseId": "column:meaning-1"
+        }
+      ],
+      "col": [
+        "steel column｜ستون فولادی",
+        "column base｜پایهٔ ستون",
+        "supporting column｜ستون نگهدارنده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "column در این کارت ستون سازه است؛ در جدول یا روزنامه هم معنی دیگری دارد. تیرِ beam معمولاً افقی و ستونِ column معمولاً عمودی است.",
+      "media": {
+        "img": "atlas/img/column.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original AI-assisted English definitions, examples and lexical metadata with Persian teaching support. Editorial preview; independent human language and qualified domain review pending."
+      }
+    },
+    {
+      "id": "foundation",
+      "w": "foundation",
+      "uk": "/faʊnˈdeɪʃən/",
+      "us": "/faʊnˈdeɪʃən/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "foundation:meaning-1",
+          "pos": "n.",
+          "fa": "پی؛ شالودهٔ سازه",
+          "en": "The lower supporting part of a structure that transfers its loads to the ground.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The foundation supports the column below ground level.",
+          "fa": "پی، ستون را در زیرِ سطح زمین نگه می‌دارد.",
+          "senseId": "foundation:meaning-1"
+        },
+        {
+          "en": "The drawing shows the concrete foundation beneath the building.",
+          "fa": "نقشه پیِ بتنیِ زیر ساختمان را نشان می‌دهد.",
+          "senseId": "foundation:meaning-1"
+        }
+      ],
+      "col": [
+        "concrete foundation｜پی بتنی",
+        "foundation depth｜عمق پی",
+        "building foundation｜پی ساختمان"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "foundation اینجا پیِ سازه است؛ ترکیب جمعِ building foundations هم رایج است. در کاربردهای دیگر foundation می‌تواند بنیاد یا پایهٔ فکری باشد.",
+      "media": {
+        "img": "atlas/img/foundation.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original AI-assisted English definitions, examples and lexical metadata with Persian teaching support. Editorial preview; independent human language and qualified domain review pending."
+      }
+    },
+    {
+      "id": "girder",
+      "w": "girder",
+      "uk": "/ˈɡɜːdə/",
+      "us": "/ˈɡɝːdər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "girder:meaning-1",
+          "pos": "n.",
+          "fa": "شاه‌تیر؛ تیر اصلی",
+          "en": "A main beam that supports other beams or a large part of a structure.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The girder supports the smaller beams.",
+          "fa": "شاه‌تیر تیرهای کوچک‌تر را نگه می‌دارد.",
+          "senseId": "girder:meaning-1"
+        },
+        {
+          "en": "The drawing highlights one steel girder in the frame.",
+          "fa": "نقشه یک شاه‌تیر فولادی را در قاب برجسته نشان می‌دهد.",
+          "senseId": "girder:meaning-1"
+        }
+      ],
+      "col": [
+        "steel girder｜شاه‌تیر فولادی",
+        "bridge girder｜شاه‌تیر پل",
+        "girder connection｜اتصال شاه‌تیر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "girder نوعی beam با نقش تیرِ اصلی است؛ معمولاً تیرهای دیگر را نگه می‌دارد. این دو واژه همیشه بر اساس یک اندازهٔ ثابت از هم جدا نمی‌شوند.",
+      "media": {
+        "img": "atlas/img/girder.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original AI-assisted English definitions, examples and lexical metadata with Persian teaching support. Editorial preview; independent human language and qualified domain review pending."
+      }
+    },
+    {
+      "id": "rebar",
+      "w": "rebar",
+      "uk": "/ˈriːbɑː/",
+      "us": "/ˈriːbɑːr/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "rebar:meaning-1",
+          "pos": "n.",
+          "fa": "میلگردِ تقویتی",
+          "en": "Steel bars used inside concrete to reinforce it.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The rebar is visible inside the concrete cutaway.",
+          "fa": "میلگرد در نمای برش‌خوردهٔ بتن دیده می‌شود.",
+          "senseId": "rebar:meaning-1"
+        },
+        {
+          "en": "The drawing shows ribbed rebar in a concrete slab.",
+          "fa": "نقشه میلگرد آج‌دار را در یک دال بتنی نشان می‌دهد.",
+          "senseId": "rebar:meaning-1"
+        }
+      ],
+      "col": [
+        "ribbed rebar｜میلگرد آج‌دار",
+        "rebar cage｜قفس میلگرد؛ قفس آرماتور",
+        "steel rebar｜میلگرد فولادی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "rebar کوتاه‌شدهٔ reinforcing bar است و معمولاً مانند اسمِ ماده به کار می‌رود؛ برای شمارش می‌توان گفت a length of rebar یا reinforcing bars.",
+      "media": {
+        "img": "atlas/img/rebar.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original AI-assisted English definitions, examples and lexical metadata with Persian teaching support. Editorial preview; independent human language and qualified domain review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.crsi.org/reinforcing-basics/reinforcing-steel/rebar-properties/",
+            "use": "Steel bar surface deformations and concrete reinforcement role; original prose and artwork."
+          }
+        ]
+      }
+    },
+    {
+      "id": "scaffold",
+      "w": "scaffold",
+      "uk": "/ˈskæfəʊld/",
+      "us": "/ˈskæfəld/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "scaffold:meaning-1",
+          "pos": "n.",
+          "fa": "داربست",
+          "en": "A temporary structure with platforms that gives access to work at height.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The scaffold has a raised working platform.",
+          "fa": "داربست سکوی کاریِ بالاآمده دارد.",
+          "senseId": "scaffold:meaning-1"
+        },
+        {
+          "en": "The scaffold stands beside the building.",
+          "fa": "داربست کنار ساختمان قرار دارد.",
+          "senseId": "scaffold:meaning-1"
+        }
+      ],
+      "col": [
+        "steel scaffold｜داربست فولادی",
+        "scaffold platform｜سکوی داربست",
+        "scaffold frame｜قاب داربست"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "scaffold در این معنی اسمِ قابل‌شمارش برای یک داربست است؛ scaffolding معمولاً غیرقابل‌شمارش است و به مجموعهٔ داربست‌بندی اشاره می‌کند.",
+      "media": {
+        "img": "atlas/img/scaffold.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original AI-assisted English definitions, examples and lexical metadata with Persian teaching support. Editorial preview; independent human language and qualified domain review pending."
       }
     }
   ]

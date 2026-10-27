@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import crypto from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import test from "node:test";
@@ -246,4 +247,48 @@ test("an interrupted draft must remain discoverable through its active pointer",
   assert.throws(() => validateCampaign(c, domains), /sole resumable draft/);
   c.activeWorkBatchId = "resumable";
   assert.doesNotThrow(() => validateCampaign(c, domains));
+});
+
+test("legacy image refreshes are bounded and never counted as new vocabulary", () => {
+  const c = campaign(),
+    domains = live().manifest.taxonomy.domains;
+  c.batches[0].imageRefreshEntryIds = ["force", "force"];
+  assert.throws(() => validateCampaign(c, domains), /Image refreshes/);
+  c.batches[0].imageRefreshEntryIds = [c.batches[0].modules[0].entryIds[0]];
+  assert.throws(() => validateCampaign(c, domains), /Image refreshes/);
+  const published = live(),
+    byId = new Map(published.entries.map((e) => [e.id, e]));
+  let refreshed = 0;
+  for (const batch of campaign().batches.filter(
+    (b) => b.status === "published-preview",
+  )) {
+    const pinned = loadPublishedRelease({
+      root,
+      pointer: {
+        schemaVersion: 1,
+        manifest: batch.baseline.manifest,
+        sha256: batch.baseline.manifestSha256,
+      },
+    });
+    for (const id of batch.imageRefreshEntryIds ?? []) {
+      const previous = pinned.entries.find((e) => e.id === id),
+        current = byId.get(id);
+      assert.equal(current.w, previous.w);
+      assert.deepEqual(
+        current.senses.map((s) => s.id),
+        previous.senses.map((s) => s.id),
+      );
+      assert.notEqual(current.media.img, previous.media.img);
+      const bytes = fs.readFileSync(
+        path.join(root, "public", previous.media.img),
+      );
+      assert.equal(
+        crypto.createHash("sha256").update(bytes).digest("hex"),
+        pinned.manifest.assets.find((a) => a.path === previous.media.img)
+          .sha256,
+      );
+      refreshed++;
+    }
+  }
+  assert.equal(loadCampaign({ root }).refreshedCampaignImages, refreshed);
 });

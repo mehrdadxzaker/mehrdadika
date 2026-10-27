@@ -1,8 +1,10 @@
 # Medicine and engineering expansion
 
-The active goal is **500 published English entries in medicine and healthcare and 500 in engineering**, with full Persian, Brazilian Portuguese and Latin American Spanish teaching content. The first milestone, release `2026-10-preview-6`, adds **67 entries** and takes medicine from 16 to **50** and engineering from 17 to **50**. The atlas grows from 191 to **258 distinct English entries and 259 meanings**. Reaching 50 is progress toward the goal; 450 remain in each category.
+The latest published batch is documented in [Specialist batch 2](specialist-expansion-2.md), taking each priority category to 62. This page records the first 50-word milestone.
 
-All three editions teach the same English words. Every addition has one explicit sense, UK/US IPA, an original English definition, a Persian gloss and usage distinction, two contextual examples and three collocations. Portuguese and Spanish have matching glosses, definitions, examples, collocations and usage notes. Each edition now has 518 examples, 774 collocations and 258 usage notes. Translation counts do not multiply the English vocabulary count. Existing lexical/sense IDs, the science course and immutable releases are preserved.
+The active goal is **500 published English entries in medicine and healthcare and 500 in engineering**, with full Persian, Brazilian Portuguese and Latin American Spanish teaching content. The first milestone, release `2026-10-preview-6`, adds **67 entries** and takes medicine from 16 to **50** and engineering from 17 to **50**. The atlas grows from 191 to **258 distinct English entries and 259 meanings**. Reaching 50 is progress toward the goal; that milestone left 450 in each category.
+
+All three editions teach the same English words. Every addition has one explicit sense, UK/US IPA, an original English definition, a Persian gloss and usage distinction, two contextual examples and three collocations. Portuguese and Spanish have matching glosses, definitions, examples, collocations and usage notes. In that release, each edition has 518 examples, 774 collocations and 258 usage notes. Translation counts do not multiply the English vocabulary count. Existing lexical/sense IDs, the science course and immutable releases are preserved.
 
 | Medical unit | New vocabulary |
 | --- | --- |

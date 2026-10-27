@@ -382,6 +382,126 @@
         "words": 191
       },
       "completedAt": "2026-10-27T12:03:21.105448+00:00"
+    },
+    {
+      "id": "specialist-500-batch-2",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-7",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "baseline": {
+        "releaseId": "2026-10-preview-6",
+        "manifest": "content/releases/2026-10-preview-6-bdacaae1127a/manifest.json",
+        "manifestSha256": "bdacaae1127a433a6d90922181ab487cf1e4cf2b44e907284e018b0d196f699d",
+        "words": 258
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 50,
+          "targetCategoryWords": 62,
+          "entryIds": [
+            "tooth",
+            "gum",
+            "molar",
+            "dental-mirror",
+            "microscope",
+            "test-tube",
+            "pipette",
+            "centrifuge",
+            "cane",
+            "walker",
+            "splint",
+            "prosthesis"
+          ],
+          "units": [
+            {
+              "id": "dentistry",
+              "entryIds": [
+                "tooth",
+                "gum",
+                "molar",
+                "dental-mirror"
+              ],
+              "title": "Dentistry"
+            },
+            {
+              "id": "diagnostics",
+              "entryIds": [
+                "microscope",
+                "test-tube",
+                "pipette",
+                "centrifuge"
+              ],
+              "title": "Diagnostic laboratory equipment"
+            },
+            {
+              "id": "rehabilitation",
+              "entryIds": [
+                "cane",
+                "walker",
+                "splint",
+                "prosthesis"
+              ],
+              "title": "Mobility and rehabilitation"
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 50,
+          "targetCategoryWords": 62,
+          "entryIds": [
+            "weld",
+            "solder",
+            "ingot",
+            "lathe",
+            "milling-machine",
+            "anvil",
+            "truss",
+            "column",
+            "foundation",
+            "girder",
+            "rebar",
+            "scaffold"
+          ],
+          "units": [
+            {
+              "id": "manufacturing",
+              "entryIds": [
+                "weld",
+                "solder",
+                "ingot",
+                "lathe",
+                "milling-machine",
+                "anvil"
+              ],
+              "title": "Manufacturing methods and tools"
+            },
+            {
+              "id": "civil",
+              "entryIds": [
+                "truss",
+                "column",
+                "foundation",
+                "girder",
+                "rebar",
+                "scaffold"
+              ],
+              "title": "Civil structures"
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [
+        "force",
+        "current"
+      ],
+      "completedAt": "2026-10-27T12:43:05.457744+00:00"
     }
   ],
   "activeWorkBatchId": null,

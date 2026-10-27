@@ -143,6 +143,17 @@ export function validateCampaign(campaign, domains) {
       batchSize <= p.maxNewEntriesPerAutomaticRun || initialException,
       "Automatic campaign batches must contain at most 24 additions",
     );
+    const refresh = batch.imageRefreshEntryIds ?? [];
+    const additions = new Set(
+      batch.modules.flatMap((module) => module.entryIds ?? []),
+    );
+    requireValue(
+      Array.isArray(refresh) &&
+        refresh.length <= 2 &&
+        new Set(refresh).size === refresh.length &&
+        refresh.every((id) => nonempty(id) && !additions.has(id)),
+      "Image refreshes must be at most two existing lexical identities, separate from additions",
+    );
     for (const module of batch.modules) {
       requireValue(
         ids.has(module.categoryId) &&
@@ -313,11 +324,23 @@ export function validateCampaignAssets(
       compileLocale(overlays[locale], published),
     ]),
   );
-  let checkedWords = 0;
+  let checkedWords = 0,
+    checkedRefreshImages = 0;
   for (const batch of campaign.batches.filter(
     (batch) => batch.status === "published-preview",
   ))
-    for (const module of batch.modules) {
+    for (const module of [
+      ...batch.modules,
+      ...(batch.imageRefreshEntryIds ?? []).map((id) => ({
+        categoryId: entries.get(id)?.topic,
+        entryIds: [id],
+        imageRefresh: true,
+      })),
+    ]) {
+      requireValue(
+        profiles.has(module.categoryId),
+        "Unknown category or missing word in image refresh",
+      );
       const profile = profiles.get(module.categoryId),
         sha = visualLanguageHash(profile);
       for (const id of module.entryIds) {
@@ -371,11 +394,13 @@ export function validateCampaignAssets(
             `Incomplete campaign native edition ${locale}: ${id}`,
           );
         }
-        checkedWords++;
+        if (module.imageRefresh) checkedRefreshImages++;
+        else checkedWords++;
       }
     }
   return {
     publishedCampaignWords: checkedWords,
+    refreshedCampaignImages: checkedRefreshImages,
     review: "AI-assisted editorial preview",
   };
 }

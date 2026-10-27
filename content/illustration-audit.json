@@ -1663,22 +1663,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/force-v2.webp",
-        "sha256": "18503f9f403a88405c1f6f63716941bb06486b4987b8a8a21da3f2c127ba2260"
+        "path": "atlas/img/force-v3.webp",
+        "sha256": "b252e68a8c7ab4f4b8331f1b362869989ed887d10e4a2331a188235ff9961640"
       },
       "visual": {
-        "expectedCue": "A hand pushes a block with a force arrow in the direction of the applied push.",
+        "expectedCue": "A palm visibly applies a contact force to a supported metal block; the amber arrow points away from the hand in the applied-force direction.",
         "decision": "replaced",
-        "reason": "The prior windy-umbrella scene was indirect; a push with an explicit force arrow better teaches the engineering context.",
-        "inspectionNotes": "Hand visibly pushes a wood block in the direction of the prominent horizontal force arrow. Active mechanical interaction replaces an indirect wind scene."
+        "reason": "Full generated raster inspected: palm contacts the block's left face; coherent fingers and wrist; block rests fully on the bench; one amber arrow points right. Final512px WebP and120px thumbnail actually inspected: teaching cue and contact/circuit relationships remain clear, with no loss of the meaningful arrow direction.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Brushed steel block and bench, slate ground, amber applied-force arrow and small amber block face match the engineering profile."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
-      },
-      "generation": {
-        "method": "OpenAI built-in image generation",
-        "prompt": "Use case: scientific-educational. One square educational vocabulary illustration for FORCE, an applied push that can change an object's motion. A clean close-up explanatory mechanics illustration on pale ivory paper with slate-blue and honey-wood palette. A single realistic human hand enters from the left, palm flat and fingers naturally together, pressing firmly against the LEFT vertical face of a large rectangular wood block resting on a horizontal workbench. The contact between hand and block is obvious. A large straight amber arrow above the block points horizontally to the RIGHT, parallel to the push along the tabletop; subtle short grey motion lines behind the block suggest it sliding right. Show only one hand, exactly normal anatomy, block stays in contact with surface. Clear physics relationship between person applying push and block receiving force; not a decorative arrow or measurement. No wind, no umbrella, no lightning, no symbols for voltage/current, no text labels, no numbers, no watermark. Large simple composition, clean crisp edges, very clear at120px thumbnail."
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b252e68a8c7ab4f4b8331f1b362869989ed887d10e4a2331a188235ff9961640",
+          "inspectedAt": "2026-10-27T12:29:47.452323+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Hand contacts left face of a supported block; amber rightward arrow shows the applied push, and metal/slate rendering matches engineering."
+        }
       }
     },
     {
@@ -1724,7 +1734,7 @@
         {
           "senseId": "current:meaning-1",
           "pos": "n.",
-          "en": "a continuous movement of water, air, or electricity"
+          "en": "A flow of electric charge."
         }
       ],
       "examples": [
@@ -1738,23 +1748,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/current-v2.webp",
-        "sha256": "80e08a51705d78d439885d07ee61f2910e8c23e743735a058218fffaf03824bf"
+        "path": "atlas/img/current-v3.webp",
+        "sha256": "b13ca0d4722ec62622532e6fecb73160f8368969ca202109a786b1655fd7be10"
       },
       "visual": {
-        "expectedCue": "A complete battery-and-lamp circuit has traceable base-terminal connections and conventional-current direction arrows.",
+        "expectedCue": "A powered closed battery-and-lamp circuit with conventional-current arrows from positive through the lamp to negative.",
         "decision": "replaced",
-        "reason": "The prior domestic sofa scene depicted the wrong sense for the published electrical examples.",
-        "inspectionNotes": "Accepted after correcting first generation's impossible top-of-glass connection. Final closed low-voltage battery loop attaches to separate lamp-holder base terminals; conventional-current arrows run positive to negative."
+        "reason": "Full generated raster inspected: '+' on upper cell and '−' on lower cell are correct; two separate continuous wires connect to distinct brass lamp-holder terminals. Every arrow follows conventional current from positive, along top toward lamp, then left along bottom toward negative. Opaque ceramic holder electrically separates posts; no wire touches glass. A rejected cutaway holder was simplified in one correction. Final512px WebP and120px thumbnail actually inspected: teaching cue and contact/circuit relationships remain clear, with no loss of the meaningful arrow direction.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Technical product diagram with slate background, steel/blue conductors and amber arrows/filament; clean opaque ivory ceramic insulator."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
-      },
-      "generation": {
-        "method": "OpenAI built-in image generation",
-        "prompt": "Use case: scientific-educational. Create one square educational vocabulary illustration for the noun ELECTRIC CURRENT, with no title or words. Clean axonometric engineering diagram, pale ivory background, slate blue devices and wiring, restrained amber directional arrows, precise crisp edges, modest paper texture. Show a complete low-voltage DC circuit: one small battery with a clearly visible + terminal and a clearly visible − terminal, one visibly glowing miniature bulb, and an unbroken external wire loop connecting battery positive to the bulb and then bulb to battery negative. Exactly one closed circuit; no dangling wire ends, no shorts bypassing the bulb. Several small amber arrows follow conventional current from the + terminal along the external wire through the bulb toward the − terminal, all arrows consistently along the same loop direction. Battery and bulb large and distinct; the connected flowing path must be recognizable at a 120px thumbnail. No people, no sofa, no clock, no lightning, no explosion, no electron dots going against arrows, no decorative extra circuit elements, no labels except + and −, no watermark. Visually teach continuous electrical flow rather than voltage.",
-        "revisionPrompt": "Edit this educational electric-current illustration. Preserve the square format, ivory textured background, gold/slate-blue palette, large battery at left, closed loop and clockwise amber conventional-current arrows. Correct one physical error: the electric wire must NOT enter or touch the top of the bulb glass. Show the bulb upright in a small real two-terminal lamp holder. Both electrical wire connections must attach to two visibly separate screw terminals on the lamp HOLDER/BASE below the glass: outgoing battery-positive wire connects to the left lamp-holder terminal, the return wire connects to the right lamp-holder terminal and back to battery-negative. The filament inside the bulb visibly connects to those two different base contacts. Reroute the top wire around down to the left base terminal without touching the glass; reroute the return away from the right base terminal. No wire crosses another wire and no bypass shorts across the lamp. Remove any top-of-glass wire. The lamp still glows. Battery +/− and consistent clockwise arrows remain. No added text or extra components."
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b13ca0d4722ec62622532e6fecb73160f8368969ca202109a786b1655fd7be10",
+          "inspectedAt": "2026-10-27T12:29:47.452529+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Closed circuit has separate battery terminals and a ceramic lamp holder; conventional-current arrows run from positive through the load toward negative. Clear at512 and120px in engineering palette."
+        }
       }
     },
     {
@@ -10410,6 +10429,1196 @@
             120
           ],
           "finding": "A mounted photoelectric sensor detects a box on a conveyor; its cable is continuous to the control enclosure and the amber beam makes the detection cue clear."
+        }
+      }
+    },
+    {
+      "entryId": "tooth",
+      "sourceWord": "tooth",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "tooth:meaning-1",
+          "pos": "n.",
+          "en": "one of the hard structures in the mouth used to bite or chew food"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This tooth has a single root.",
+          "senseId": "tooth:meaning-1"
+        },
+        {
+          "en": "The model shows how a tooth fits into the jaw.",
+          "senseId": "tooth:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tooth.webp",
+        "sha256": "429887e2285933b312e2cf5882e31c2f8b3119d257a6b08a974a707547b6d692"
+      },
+      "visual": {
+        "expectedCue": "A single-root incisor with a flat cutting crown.",
+        "decision": "added",
+        "reason": "Actual full/512/120px inspection: one tapered root and a flat broad cutting crown are distinct from the two-root molar. Complete shape visible, no invented anatomical structures.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical rendering on pale mint/ivory with natural dental ivory/pink or clean metallic equipment; no labels or invented readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "429887e2285933b312e2cf5882e31c2f8b3119d257a6b08a974a707547b6d692",
+          "inspectedAt": "2026-10-27T12:32:13.040027+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Isolated incisor has a broad cutting crown and a single tapered root; readable against pale clinical mint."
+        }
+      }
+    },
+    {
+      "entryId": "gum",
+      "sourceWord": "gum",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "gum:meaning-1",
+          "pos": "n.",
+          "en": "the firm tissue around the bases of the teeth"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Gum tissue surrounds the teeth.",
+          "senseId": "gum:meaning-1"
+        },
+        {
+          "en": "The dentist examined her gums.",
+          "senseId": "gum:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/gum.webp",
+        "sha256": "81514b54d08d4a271ceb819196f6de613b22f4462259a25c206baf1257385d15"
+      },
+      "visual": {
+        "expectedCue": "A continuous pink band of gingiva scalloping around four incisor necks.",
+        "decision": "added",
+        "reason": "Actual full/512/120px inspection: gingiva is the dominant coherent pink tissue; realistic interdental peaks and crown/tissue boundaries, no bleeding or treatment claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical rendering on pale mint/ivory with natural dental ivory/pink or clean metallic equipment; no labels or invented readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "81514b54d08d4a271ceb819196f6de613b22f4462259a25c206baf1257385d15",
+          "inspectedAt": "2026-10-27T12:32:13.040240+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Pink gingiva surrounds the cervical bases of four front teeth with coherent interdental tissue; the tissue is prominent rather than hidden behind the teeth."
+        }
+      }
+    },
+    {
+      "entryId": "molar",
+      "sourceWord": "molar",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "molar:meaning-1",
+          "pos": "n.",
+          "en": "a broad tooth at the back of the mouth used to grind food"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This molar has a broad chewing surface.",
+          "senseId": "molar:meaning-1"
+        },
+        {
+          "en": "The model shows a lower molar with two roots.",
+          "senseId": "molar:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/molar.webp",
+        "sha256": "b05786b6e119b4171cf4a017101155e8f04a00410a5349f1620351ab842264b6"
+      },
+      "visual": {
+        "expectedCue": "A broad grinding crown with shallow cusps and two lower-molar roots.",
+        "decision": "added",
+        "reason": "Actual full/512/120px inspection: multi-cusp chewing surface and two distinct tapering roots remain legible at thumbnail size; differs from the single-root incisor.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical rendering on pale mint/ivory with natural dental ivory/pink or clean metallic equipment; no labels or invented readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b05786b6e119b4171cf4a017101155e8f04a00410a5349f1620351ab842264b6",
+          "inspectedAt": "2026-10-27T12:32:13.040242+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Broad cusped grinding crown and two roots distinguish the lower molar from the single-root incisor."
+        }
+      }
+    },
+    {
+      "entryId": "dental-mirror",
+      "sourceWord": "dental mirror",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "dental-mirror:meaning-1",
+          "pos": "n.",
+          "en": "a small mirror on a slender handle used to view areas inside the mouth"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The dental mirror has a small round head.",
+          "senseId": "dental-mirror:meaning-1"
+        },
+        {
+          "en": "The dentist held a dental mirror beside the back tooth.",
+          "senseId": "dental-mirror:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/dental-mirror.webp",
+        "sha256": "42b16d104d39b68d7afddaf0cd583c1d68423908c1456b0538d09d949b599c88"
+      },
+      "visual": {
+        "expectedCue": "Small round dental mirror head on bent neck and long slim knurled handle.",
+        "decision": "added",
+        "reason": "Actual full/512/120px inspection: circular reflective head connects through bent neck to one long handle. Faint tooth reflection provides dental context without an extra physical tooth.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical rendering on pale mint/ivory with natural dental ivory/pink or clean metallic equipment; no labels or invented readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "42b16d104d39b68d7afddaf0cd583c1d68423908c1456b0538d09d949b599c88",
+          "inspectedAt": "2026-10-27T12:36:36.517310+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Round reflective mirror head and angled slender textured handle are clearly a dental instrument, with a faint tooth reflection supporting the selected sense."
+        }
+      }
+    },
+    {
+      "entryId": "microscope",
+      "sourceWord": "microscope",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "microscope:meaning-1",
+          "pos": "n.",
+          "en": "an instrument that makes very small objects appear larger so their details can be seen"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The microscope has a lens above the slide.",
+          "senseId": "microscope:meaning-1"
+        },
+        {
+          "en": "The scientist looked through the microscope at the sample.",
+          "senseId": "microscope:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/microscope.webp",
+        "sha256": "35783021f4be9414eaef25f6b8019a6c58c06887fa64a48bd1f0cb7e479e987f"
+      },
+      "visual": {
+        "expectedCue": "A compound microscope with eyepieces, objective above a slide, stage and aligned illumination.",
+        "decision": "added",
+        "reason": "Actual full/512/120px inspection: head, nosepiece and objectives form a coherent optical path to the slide, with condenser below and stable base. The selected lens is immediately above rather than through the slide.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise clinical equipment study with ivory body, restrained mint details and pale mint backdrop; no labels or invented readings. Clear silhouette at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "35783021f4be9414eaef25f6b8019a6c58c06887fa64a48bd1f0cb7e479e987f",
+          "inspectedAt": "2026-10-27T12:36:36.517668+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Binocular eyepieces, objective turret, slide stage and transmitted-light base form a coherent optical microscope; no telescope-like or invented display parts."
+        }
+      }
+    },
+    {
+      "entryId": "test-tube",
+      "sourceWord": "test tube",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "test-tube:meaning-1",
+          "pos": "n.",
+          "en": "a narrow laboratory tube, open at one end and rounded at the other, used to hold small samples"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The test tube has a rounded bottom.",
+          "senseId": "test-tube:meaning-1"
+        },
+        {
+          "en": "Three test tubes stand in the rack.",
+          "senseId": "test-tube:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/test-tube.webp",
+        "sha256": "399db1edda06e19e340d6fafd4c72ab81fa09ef2e6ff8cf279e71da4e0ddc496"
+      },
+      "visual": {
+        "expectedCue": "Three rounded-bottom open glass test tubes supported by a mint rack.",
+        "decision": "added",
+        "reason": "Actual full/512/120px inspection: all three tubes have open circular lips and smoothly rounded closed bottoms; one contains blue sample liquid and the rack supports the tubes.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise clinical equipment study with ivory body, restrained mint details and pale mint backdrop; no labels or invented readings. Clear silhouette at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "399db1edda06e19e340d6fafd4c72ab81fa09ef2e6ff8cf279e71da4e0ddc496",
+          "inspectedAt": "2026-10-27T12:36:36.517670+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Three narrow tubes with open rims and rounded bottoms are supported by a rack; small sample in one tube distinguishes the laboratory vessel."
+        }
+      }
+    },
+    {
+      "entryId": "pipette",
+      "sourceWord": "pipette",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pipette:meaning-1",
+          "pos": "n.",
+          "en": "a narrow laboratory instrument for drawing up and transferring small amounts of liquid"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pipette holds a small amount of liquid.",
+          "senseId": "pipette:meaning-1"
+        },
+        {
+          "en": "A drop hangs from the tip of the pipette.",
+          "senseId": "pipette:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pipette.webp",
+        "sha256": "b26122d7978596af3f1884bcf43e99d736956fcfa0b7a15a863823ca5b1d9121"
+      },
+      "visual": {
+        "expectedCue": "A rubber bulb joined to a tapering glass transfer tube with one drop at its tip.",
+        "decision": "added",
+        "reason": "Actual full/512/120px inspection: continuous glass stem connects to one bulb, contains a small blue liquid amount and ends in one droplet. No needle, plunger or fabricated calibration.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise clinical equipment study with ivory body, restrained mint details and pale mint backdrop; no labels or invented readings. Clear silhouette at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b26122d7978596af3f1884bcf43e99d736956fcfa0b7a15a863823ca5b1d9121",
+          "inspectedAt": "2026-10-27T12:36:36.517671+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Flexible bulb connects to a narrow transparent transfer tube ending in one hanging droplet; it is distinct from a syringe or storage tube."
+        }
+      }
+    },
+    {
+      "entryId": "centrifuge",
+      "sourceWord": "centrifuge",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "centrifuge:meaning-1",
+          "pos": "n.",
+          "en": "a machine that spins samples rapidly to separate their components"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The centrifuge has a circular rotor.",
+          "senseId": "centrifuge:meaning-1"
+        },
+        {
+          "en": "The laboratory keeps the centrifuge on a bench.",
+          "senseId": "centrifuge:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/centrifuge.webp",
+        "sha256": "01340be367692a9a6a294a3807b55e16679eb867df55f42bb81b18c56d4e043b"
+      },
+      "visual": {
+        "expectedCue": "A stationary open benchtop centrifuge showing a circular rotor with eight symmetrically arranged capped sample tubes.",
+        "decision": "added",
+        "reason": "Actual full/512/120px inspection: circular chamber and central hub coherent; eight identical capped tubes arranged symmetrically with matched small fills. Lid open at rest with no spin blur; display remains blank.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise clinical equipment study with ivory body, restrained mint details and pale mint backdrop; no labels or invented readings. Clear silhouette at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "01340be367692a9a6a294a3807b55e16679eb867df55f42bb81b18c56d4e043b",
+          "inspectedAt": "2026-10-27T12:36:36.517672+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Open stationary centrifuge has eight matched capped tubes in a symmetric circular rotor and a blank front display; no claim of operating with the lid open."
+        }
+      }
+    },
+    {
+      "entryId": "cane",
+      "sourceWord": "cane",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "cane:meaning-1",
+          "pos": "n.",
+          "en": "a stick with a handle used to provide support while walking"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cane has a rubber tip.",
+          "senseId": "cane:meaning-1"
+        },
+        {
+          "en": "She placed her cane beside the chair.",
+          "senseId": "cane:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cane.webp",
+        "sha256": "b8886fc29f8184f1c42c01d2239c1b8c2a4f7d0886f8603a980eac72d3aefb78"
+      },
+      "visual": {
+        "expectedCue": "One single-tip walking cane with ergonomic handgrip and rubber foot.",
+        "decision": "added",
+        "reason": "Actual full/512/120px inspection: one continuous offset metal shaft connects handgrip to one rubber tip in contact with the floor; no forearm cuff or underarm support, clearly distinct from crutch.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical object study with mint handgrip, cool metallic shaft and pale mint background; no text or decorative props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b8886fc29f8184f1c42c01d2239c1b8c2a4f7d0886f8603a980eac72d3aefb78",
+          "inspectedAt": "2026-10-27T12:38:56.783968+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Single slim walking cane has one rubber floor tip and a shaped handgrip, without a crutch cuff or underarm support."
+        }
+      }
+    },
+    {
+      "entryId": "walker",
+      "sourceWord": "walker",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "walker:meaning-1",
+          "pos": "n.",
+          "en": "a frame held in front of the body to provide support while walking"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The walker has two handgrips.",
+          "senseId": "walker:meaning-1"
+        },
+        {
+          "en": "The walker stands on four legs beside the bed.",
+          "senseId": "walker:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/walker.webp",
+        "sha256": "bad020baa627c03ac7fd0b3d87f466ea4feb9dc1cfa823a508e47c0ffb981888"
+      },
+      "visual": {
+        "expectedCue": "A four-legged adult walking frame with two handgrips, open rear and four supported rubber-tipped legs.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection of the full generated source and final512px WebP/120px thumbnail: Four coherent rubber-tipped legs contact a level surface; two handgrips and front crossbar form an open-backed walking frame. No seat, wheels or floating tubes. The distinguishing word cue remains legible at thumbnail size.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical mint/ivory educational rendering with precise soft forms, consistent cool white-pale mint backdrop and restrained mint accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "bad020baa627c03ac7fd0b3d87f466ea4feb9dc1cfa823a508e47c0ffb981888",
+          "inspectedAt": "2026-10-27T12:38:56.784085+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Adult walking frame has four grounded legs with rubber tips and two handgrips; open body space and supporting frame distinguish it from a cane."
+        }
+      }
+    },
+    {
+      "entryId": "splint",
+      "sourceWord": "splint",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "splint:meaning-1",
+          "pos": "n.",
+          "en": "a firm support fitted to a body part to keep it still or limit its movement"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The splint supports the wrist.",
+          "senseId": "splint:meaning-1"
+        },
+        {
+          "en": "The model shows a splint secured with straps.",
+          "senseId": "splint:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/splint.webp",
+        "sha256": "a2f3d32a08f0c56682b9c7176b7dae6bf267f26e6ff4f336e83be4df501980cd"
+      },
+      "visual": {
+        "expectedCue": "A rigid wrist support with coherent straps on an intact forearm/hand, distinct from a replacement limb.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection of the full generated source and final512px WebP/120px thumbnail: An intact five-digit hand/forearm wears a firm rigid wrist support secured with three coherent straps; thumb and fingers remain free. Distinct from bandage and replacement limb. The distinguishing word cue remains legible at thumbnail size.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical mint/ivory educational rendering with precise soft forms, consistent cool white-pale mint backdrop and restrained mint accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a2f3d32a08f0c56682b9c7176b7dae6bf267f26e6ff4f336e83be4df501980cd",
+          "inspectedAt": "2026-10-27T12:38:56.784087+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Rigid wrist support and three straps stabilize an intact five-digit hand; the device supports an existing limb rather than replacing one."
+        }
+      }
+    },
+    {
+      "entryId": "prosthesis",
+      "sourceWord": "prosthesis",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "prosthesis:meaning-1",
+          "pos": "n.",
+          "en": "an artificial device that replaces a missing part of the body"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The prosthesis has a socket and an artificial foot.",
+          "senseId": "prosthesis:meaning-1"
+        },
+        {
+          "en": "He wore a prosthesis in place of his lower leg.",
+          "senseId": "prosthesis:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/prosthesis.webp",
+        "sha256": "a9181d8e5e7b5498aad142599126ecda9185e7ae34926b33af187975f37063ee"
+      },
+      "visual": {
+        "expectedCue": "A below-knee artificial leg with connected socket, pylon and foot, shown as a replacement device rather than a splint.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection of the full generated source and final512px WebP/120px thumbnail: Open below-knee socket connects continuously through adapter and pylon to an artificial ankle/foot; no natural limb or injury shown. The distinguishing word cue remains legible at thumbnail size.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical mint/ivory educational rendering with precise soft forms, consistent cool white-pale mint backdrop and restrained mint accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a9181d8e5e7b5498aad142599126ecda9185e7ae34926b33af187975f37063ee",
+          "inspectedAt": "2026-10-27T12:38:56.784088+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Open residual-limb socket connects through an artificial pylon and ankle assembly to a prosthetic foot; unlike the splint, it replaces the missing lower leg."
+        }
+      }
+    },
+    {
+      "entryId": "weld",
+      "sourceWord": "weld",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "weld:meaning-1",
+          "pos": "v.",
+          "en": "To join pieces of metal using heat, pressure, or both."
+        }
+      ],
+      "examples": [
+        {
+          "en": "They weld the two steel plates together.",
+          "senseId": "weld:meaning-1"
+        },
+        {
+          "en": "The frame was welded at each corner.",
+          "senseId": "weld:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/weld.webp",
+        "sha256": "7f5450f2fe0bb84488cf193a4f090e34028ef505bae00f01c922d7c842a47f23"
+      },
+      "visual": {
+        "expectedCue": "Torch at the plate seam creates a weld pool and a continuous bead joins the two steel plates.",
+        "decision": "added",
+        "reason": "Full source and final512px/120px pixels inspected. MIG torch tip meets the plate butt seam at a bright localized pool; continuous rippled weld bead joins both plate edges behind the arc. The supported plates, torch contact and amber arc remain distinct at120px. No solder-wire or electronics cue.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, final512px and120px inspection: precise technical close-up/cutaway on dark slate with restrained amber teaching highlights and silver structural materials; one readable focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7f5450f2fe0bb84488cf193a4f090e34028ef505bae00f01c922d7c842a47f23",
+          "inspectedAt": "2026-10-27T12:32:13.040243+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Active torch contacts the joint between two supported steel plates with a visible weld pool and a continuous completed bead behind it."
+        }
+      }
+    },
+    {
+      "entryId": "solder",
+      "sourceWord": "solder",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "solder:meaning-1",
+          "pos": "v.",
+          "en": "To join metal surfaces with a filler metal that melts below the temperature at which the surfaces melt."
+        }
+      ],
+      "examples": [
+        {
+          "en": "They solder the wire to the metal terminal.",
+          "senseId": "solder:meaning-1"
+        },
+        {
+          "en": "The technician soldered the small connection.",
+          "senseId": "solder:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/solder.webp",
+        "sha256": "bd2c4e7e2336eb9531a35633ac52bece266e1030cec825fd3df304cf41e3a235"
+      },
+      "visual": {
+        "expectedCue": "Iron tip and filler wire meet one wire-to-pad junction with a shiny solder fillet, distinct from fusion welding.",
+        "decision": "added",
+        "reason": "Full source and final512px/120px inspected. Iron tip and thin filler wire both meet the metal lead at a copper circuit-board pad; a smooth concave solder fillet joins lead and pad. Board and lead remain intact, and no fusion-welding arc or sparks appear. Distinct from weld at thumbnail size.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, final512px and120px inspection: precise technical close-up/cutaway on dark slate with restrained amber teaching highlights and silver structural materials; one readable focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "bd2c4e7e2336eb9531a35633ac52bece266e1030cec825fd3df304cf41e3a235",
+          "inspectedAt": "2026-10-27T12:32:13.040245+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Soldering iron and separate filler wire meet at a plated lead/pad joint, with an intact board and solid lead; clearly distinct from the fusion weld."
+        }
+      }
+    },
+    {
+      "entryId": "ingot",
+      "sourceWord": "ingot",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "ingot:meaning-1",
+          "pos": "n.",
+          "en": "A block of metal cast into a shape for storage or later processing."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ingot has a wide base and a narrower top.",
+          "senseId": "ingot:meaning-1"
+        },
+        {
+          "en": "Several ingots are stacked beside the casting area.",
+          "senseId": "ingot:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ingot.webp",
+        "sha256": "f3bb5cf0e9d50fb6a411d9e54a2b84124ddb2660284f699dc6d8950eb597fc1c"
+      },
+      "visual": {
+        "expectedCue": "A solid cast metal block has tapered sides, with a small stack of matching ingots behind it.",
+        "decision": "added",
+        "reason": "Full source and final512px/120px inspected. Dominant solid metal block has broad base, narrower top, tapered sides and cast texture; three matching blocks stack behind it. Amber rim lighting does not obscure silver metal or turn the object into a stamped currency bar.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, final512px and120px inspection: precise technical close-up/cutaway on dark slate with restrained amber teaching highlights and silver structural materials; one readable focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f3bb5cf0e9d50fb6a411d9e54a2b84124ddb2660284f699dc6d8950eb597fc1c",
+          "inspectedAt": "2026-10-27T12:32:13.040246+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Tapered metallic casting blocks have coherent flat bases and recognizable bulk form; slate/amber technical rendering matches the category."
+        }
+      }
+    },
+    {
+      "entryId": "lathe",
+      "sourceWord": "lathe",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "lathe:meaning-1",
+          "pos": "n.",
+          "en": "A machine that shapes a workpiece by turning it against a cutting tool."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The lathe turns the metal workpiece.",
+          "senseId": "lathe:meaning-1"
+        },
+        {
+          "en": "A cutting tool removes material on the lathe.",
+          "senseId": "lathe:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/lathe.webp",
+        "sha256": "12a46a0279c62656e7fe871b45680b180b3c6978c2778126b96aa7fd5b8bfa11"
+      },
+      "visual": {
+        "expectedCue": "A chuck rotates the horizontal workpiece against a fixed cutting tool supported by the carriage.",
+        "decision": "added",
+        "reason": "Generated source and final512px/120px inspected. Left chuck grips a horizontal cylindrical workpiece, tailstock center supports its end, and a fixed amber cutting insert meets the outer surface on a carriage-supported toolpost. One curled chip and rotation arrow clarify turning; no rotating milling cutter. Bed, carriage and support axes are coherent.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, final512px and120px inspection: precise technical close-up/cutaway on dark slate with restrained amber teaching highlights and silver structural materials; one readable focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "12a46a0279c62656e7fe871b45680b180b3c6978c2778126b96aa7fd5b8bfa11",
+          "inspectedAt": "2026-10-27T12:36:36.517675+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Three-jaw chuck rotates a supported metal workpiece against a tool on a fixed post; tailstock center contacts the workpiece axis and curled swarf marks cutting."
+        }
+      }
+    },
+    {
+      "entryId": "milling-machine",
+      "sourceWord": "milling machine",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "milling-machine:meaning-1",
+          "pos": "n.",
+          "en": "A machine that removes material from a workpiece using a rotating cutter."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The milling machine cuts a slot in the metal block.",
+          "senseId": "milling-machine:meaning-1"
+        },
+        {
+          "en": "The workpiece is clamped on the milling machine table.",
+          "senseId": "milling-machine:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/milling-machine.webp",
+        "sha256": "3a631516dca7b66eeb114e3bd84b95b7f30bc384acf9879b16172ce38249d30b"
+      },
+      "visual": {
+        "expectedCue": "Vertical rotating cutter removes a slot from a fixed workpiece clamped in a vise on the table.",
+        "decision": "added",
+        "reason": "Full source and final512px/120px inspected. Vertical fluted cutter visibly enters a shallow top slot in the metal block held by a table-mounted vise. Cutter rotation is arrowed while block stays clamped; spindle, column, T-slot table and base form a coherent machine. Distinct from the horizontal rotating-workpiece lathe.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, final512px and120px inspection: precise technical close-up/cutaway on dark slate with restrained amber teaching highlights and silver structural materials; one readable focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3a631516dca7b66eeb114e3bd84b95b7f30bc384acf9879b16172ce38249d30b",
+          "inspectedAt": "2026-10-27T12:36:36.517677+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Vertical rotating end mill contacts a block held in a vise on a fixed table; distinct from the rotating workpiece in the lathe image."
+        }
+      }
+    },
+    {
+      "entryId": "anvil",
+      "sourceWord": "anvil",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "anvil:meaning-1",
+          "pos": "n.",
+          "en": "A heavy metal block with a hard surface that supports material while it is hammered into shape."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The anvil has a flat working surface.",
+          "senseId": "anvil:meaning-1"
+        },
+        {
+          "en": "The metal bar rests on the anvil.",
+          "senseId": "anvil:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/anvil.webp",
+        "sha256": "37cf4ed1822ff3898efd14c2dd219edd5fc04dafbd23dcd6b62b31047a7b9e2c"
+      },
+      "visual": {
+        "expectedCue": "Heavy metal anvil has a flat working face, horn, waist and broad supporting base.",
+        "decision": "added",
+        "reason": "Full source and final512px/120px inspected. Heavy anvil has broad flat work face with a bar resting on it, tapered horn, heel/hardy hole, narrow waist and broad bolted support. Its characteristic silhouette remains clear at120px; distinct from a hammer or bench vise.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, final512px and120px inspection: precise technical close-up/cutaway on dark slate with restrained amber teaching highlights and silver structural materials; one readable focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "37cf4ed1822ff3898efd14c2dd219edd5fc04dafbd23dcd6b62b31047a7b9e2c",
+          "inspectedAt": "2026-10-27T12:36:36.517678+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Heavy horned metal block has a flat working face and stable broad feet, in the engineering slate/amber rendering."
+        }
+      }
+    },
+    {
+      "entryId": "truss",
+      "sourceWord": "truss",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "truss:meaning-1",
+          "pos": "n.",
+          "en": "A load-bearing framework made from connected members, commonly arranged in triangles."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The truss has triangular sections.",
+          "senseId": "truss:meaning-1"
+        },
+        {
+          "en": "The roof rests on a steel truss.",
+          "senseId": "truss:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/truss.webp",
+        "sha256": "deaa7787b09f4f7b491204ac7a9dddb52f5bae4d44da520ff179105eb5b7d096"
+      },
+      "visual": {
+        "expectedCue": "A simple king-post framework has two closed triangular panels joined at four clearly connected nodes.",
+        "decision": "added",
+        "reason": "After rejecting ambiguous extra web members, corrected source and final512px/120px inspected. Exactly two large closed triangular panels share one centered vertical post; four gusseted nodes join all members, and both end joints sit on grounded supports. Every member endpoint is connected; no floating diagonals or untriangulated inner panels.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, final512px and120px inspection: precise technical close-up/cutaway on dark slate with restrained amber teaching highlights and silver structural materials; one readable focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "deaa7787b09f4f7b491204ac7a9dddb52f5bae4d44da520ff179105eb5b7d096",
+          "inspectedAt": "2026-10-27T12:38:56.784090+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Corrected four-node king-post frame forms exactly two complete triangular panels. Each top/bottom/vertical member meets at a visible common joint and supports contact the end joints."
+        }
+      }
+    },
+    {
+      "entryId": "column",
+      "sourceWord": "column",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "column:meaning-1",
+          "pos": "n.",
+          "en": "An upright structural member that carries loads down to a support or foundation."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The column supports the beam above it.",
+          "senseId": "column:meaning-1"
+        },
+        {
+          "en": "A steel column stands on the concrete base.",
+          "senseId": "column:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/column.webp",
+        "sha256": "c03fad45e3238c964b9674ead2e83f1fdde760a2efe8c01f7e29abce3b931d24"
+      },
+      "visual": {
+        "expectedCue": "Upright structural member supports a beam and rests on a bolted base plate over concrete.",
+        "decision": "added",
+        "reason": "Generated source and final512px/120px inspected. Dominant amber upright steel member contacts the supporting concrete base through a bolted base plate and meets a horizontal beam through its cap plate. Vertical structural role is clear; no decorative classical-column cue, floating support or false force arrows.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, final512px and120px inspection: precise technical close-up/cutaway on dark slate with restrained amber teaching highlights and silver structural materials; one readable focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c03fad45e3238c964b9674ead2e83f1fdde760a2efe8c01f7e29abce3b931d24",
+          "inspectedAt": "2026-10-27T12:38:56.784091+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Highlighted vertical I-section bears against an overhead beam and stands on a concrete plinth with base connections; unmistakably a structural column."
+        }
+      }
+    },
+    {
+      "entryId": "foundation",
+      "sourceWord": "foundation",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "foundation:meaning-1",
+          "pos": "n.",
+          "en": "The lower supporting part of a structure that transfers its loads to the ground."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The foundation supports the column below ground level.",
+          "senseId": "foundation:meaning-1"
+        },
+        {
+          "en": "The drawing shows the concrete foundation beneath the building.",
+          "senseId": "foundation:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/foundation.webp",
+        "sha256": "695b423569e0cfb6e3532628570e3ce8e8b0a2a95a758caa005ad3cf9f42675b"
+      },
+      "visual": {
+        "expectedCue": "A broad below-ground footing directly supports the column and contacts the surrounding ground.",
+        "decision": "added",
+        "reason": "Full generated source and final512px/120px inspected. A gray structural column visibly joins the broad amber footing below ground level; footing rests in continuous contact with soil. Cutaway earth explains location without a floating base or gap under the foundation. Amber focus and slate upper background retain engineering style.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, final512px and120px inspection: precise technical close-up/cutaway on dark slate with restrained amber teaching highlights and silver structural materials; one readable focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "695b423569e0cfb6e3532628570e3ce8e8b0a2a95a758caa005ad3cf9f42675b",
+          "inspectedAt": "2026-10-27T12:38:56.784092+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Highlighted spread footing lies below the grass/ground level, bears on soil, and contacts the bottom of a vertical column. It is a foundation rather than an above-ground column base alone."
+        }
+      }
+    },
+    {
+      "entryId": "girder",
+      "sourceWord": "girder",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "girder:meaning-1",
+          "pos": "n.",
+          "en": "A main beam that supports other beams or a large part of a structure."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The girder supports the smaller beams.",
+          "senseId": "girder:meaning-1"
+        },
+        {
+          "en": "The drawing highlights one steel girder in the frame.",
+          "senseId": "girder:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/girder.webp",
+        "sha256": "1df6e4d79e75091993981203c0dbaa79f86105a012ed253165122fc74104a3e7"
+      },
+      "visual": {
+        "expectedCue": "The large amber primary beam supports several smaller perpendicular beams, with joined supports visible.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection of the full generated source and final512px WebP/120px thumbnail: Large amber main I-girder visibly supports three smaller perpendicular silver beams; all three meet the far beam, and both long beams rest on end columns, four supported columns total. No member passes through another. The distinguishing word cue remains legible at thumbnail size.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise steel-gray technical assembly/cutaway on slate, with restrained amber teaching highlights; one clear focal relationship."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1df6e4d79e75091993981203c0dbaa79f86105a012ed253165122fc74104a3e7",
+          "inspectedAt": "2026-10-27T12:43:05.410350+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Highlighted primary girder supports three smaller perpendicular joists through visible flange/cleat contacts; both main girders sit on four columns."
+        }
+      }
+    },
+    {
+      "entryId": "rebar",
+      "sourceWord": "rebar",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "rebar:meaning-1",
+          "pos": "n.",
+          "en": "Steel bars used inside concrete to reinforce it."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The rebar is visible inside the concrete cutaway.",
+          "senseId": "rebar:meaning-1"
+        },
+        {
+          "en": "The drawing shows ribbed rebar in a concrete slab.",
+          "senseId": "rebar:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/rebar.webp",
+        "sha256": "b76869d64b1fb31f00aa78e6e55b64e092365de6717c5ddd7c19ed4fd36f3baa"
+      },
+      "visual": {
+        "expectedCue": "Ribbed steel bars form a reinforcing grid embedded within a cutaway concrete slab.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection of the full generated source and final512px WebP/120px thumbnail: Ribbed steel bars form a tied orthogonal grid, one direction consistently above the other; bars embed into a solid aggregate-concrete slab with visible cover and exposed cutaway ends. One amber highlighted bar identifies the reinforcement. The distinguishing word cue remains legible at thumbnail size.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise steel-gray technical assembly/cutaway on slate, with restrained amber teaching highlights; one clear focal relationship."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b76869d64b1fb31f00aa78e6e55b64e092365de6717c5ddd7c19ed4fd36f3baa",
+          "inspectedAt": "2026-10-27T12:43:05.410754+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Ribbed steel bars form a tied perpendicular grid within a concrete cutaway, with a single amber-outlined bar as the teaching focus."
+        }
+      }
+    },
+    {
+      "entryId": "scaffold",
+      "sourceWord": "scaffold",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "scaffold:meaning-1",
+          "pos": "n.",
+          "en": "A temporary structure with platforms that gives access to work at height."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The scaffold has a raised working platform.",
+          "senseId": "scaffold:meaning-1"
+        },
+        {
+          "en": "The scaffold stands beside the building.",
+          "senseId": "scaffold:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/scaffold.webp",
+        "sha256": "5a0d496a1b9975d6e84b5320e28a11a751de9b2320c8b5a96d14c6f1547f84dc"
+      },
+      "visual": {
+        "expectedCue": "Temporary braced frame supports an elevated platform with coherent rails and access ladder.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection of the full generated source and final512px WebP/120px thumbnail: After two rejected geometry drafts, the simplified final bay has four corner posts on four base plates, supported planks, perimeter top/midrails and low toe boards. Front/right X-braces have visible end clamps attached to corner posts; no brace ends unsupported in a ledger midspan. Separate left access ladder reaches the platform. No code-compliance claim. The distinguishing word cue remains legible at thumbnail size.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise steel-gray technical assembly/cutaway on slate, with restrained amber teaching highlights; one clear focal relationship."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:43:05.457744+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5a0d496a1b9975d6e84b5320e28a11a751de9b2320c8b5a96d14c6f1547f84dc",
+          "inspectedAt": "2026-10-27T12:43:05.410911+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Final one-bay frame has four posts on baseplates, a supported plank platform, guardrails and toe boards. Each X-brace end terminates at a visible post clamp; access ladder reaches platform height."
         }
       }
     }
