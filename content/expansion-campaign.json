@@ -502,6 +502,120 @@
         "current"
       ],
       "completedAt": "2026-10-27T12:43:05.457744+00:00"
+    },
+    {
+      "id": "specialist-500-batch-3",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-8",
+      "baseline": {
+        "releaseId": "2026-10-preview-7",
+        "manifest": "content/releases/2026-10-preview-7-b2b3f3268e45/manifest.json",
+        "manifestSha256": "b2b3f3268e45be60d9dcf27ccf1593e688dadfc561570111aa6623bced062f43",
+        "words": 282
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 62,
+          "targetCategoryWords": 74,
+          "entryIds": [
+            "tablet",
+            "capsule",
+            "ointment",
+            "inhaler",
+            "blister-pack",
+            "dropper",
+            "bruise",
+            "rash",
+            "blister",
+            "scar",
+            "scratch",
+            "swelling"
+          ],
+          "units": [
+            {
+              "id": "pharmacy-forms",
+              "title": "Pharmacy forms and delivery devices",
+              "entryIds": [
+                "tablet",
+                "capsule",
+                "ointment",
+                "inhaler",
+                "blister-pack",
+                "dropper"
+              ]
+            },
+            {
+              "id": "skin-signs",
+              "title": "Skin changes and injury vocabulary",
+              "entryIds": [
+                "bruise",
+                "rash",
+                "blister",
+                "scar",
+                "scratch",
+                "swelling"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 62,
+          "targetCategoryWords": 74,
+          "entryIds": [
+            "fuse",
+            "relay",
+            "switch",
+            "battery",
+            "cable",
+            "wire",
+            "socket",
+            "plug",
+            "insulator",
+            "conductor",
+            "voltmeter",
+            "ammeter"
+          ],
+          "units": [
+            {
+              "id": "electrical-parts",
+              "title": "Electrical parts and connections",
+              "entryIds": [
+                "fuse",
+                "relay",
+                "switch",
+                "battery",
+                "cable",
+                "wire",
+                "socket",
+                "plug"
+              ]
+            },
+            {
+              "id": "conductivity-measurement",
+              "title": "Conductivity and electrical measurement",
+              "entryIds": [
+                "insulator",
+                "conductor",
+                "voltmeter",
+                "ammeter"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [
+        "friction",
+        "beam"
+      ],
+      "completedAt": "2026-10-27T13:14:27.924483+00:00"
     }
   ],
   "activeWorkBatchId": null,

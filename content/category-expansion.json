@@ -1394,7 +1394,115 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 62,
+      "targetCategoryWords": 74,
+      "entryIds": [
+        "tablet",
+        "capsule",
+        "ointment",
+        "inhaler",
+        "blister-pack",
+        "dropper",
+        "bruise",
+        "rash",
+        "blister",
+        "scar",
+        "scratch",
+        "swelling"
+      ],
+      "units": [
+        {
+          "id": "pharmacy-forms",
+          "title": "Pharmacy forms and delivery devices",
+          "entryIds": [
+            "tablet",
+            "capsule",
+            "ointment",
+            "inhaler",
+            "blister-pack",
+            "dropper"
+          ]
+        },
+        {
+          "id": "skin-signs",
+          "title": "Skin changes and injury vocabulary",
+          "entryIds": [
+            "bruise",
+            "rash",
+            "blister",
+            "scar",
+            "scratch",
+            "swelling"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-3",
+      "releaseId": "2026-10-preview-8",
+      "status": "published-preview",
+      "objective": "Describe basic pharmacy forms, skin changes, electrical connections and measurements in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 62,
+      "targetCategoryWords": 74,
+      "entryIds": [
+        "fuse",
+        "relay",
+        "switch",
+        "battery",
+        "cable",
+        "wire",
+        "socket",
+        "plug",
+        "insulator",
+        "conductor",
+        "voltmeter",
+        "ammeter"
+      ],
+      "units": [
+        {
+          "id": "electrical-parts",
+          "title": "Electrical parts and connections",
+          "entryIds": [
+            "fuse",
+            "relay",
+            "switch",
+            "battery",
+            "cable",
+            "wire",
+            "socket",
+            "plug"
+          ]
+        },
+        {
+          "id": "conductivity-measurement",
+          "title": "Conductivity and electrical measurement",
+          "entryIds": [
+            "insulator",
+            "conductor",
+            "voltmeter",
+            "ammeter"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-3",
+      "releaseId": "2026-10-preview-8",
+      "status": "published-preview",
+      "objective": "Describe basic pharmacy forms, skin changes, electrical connections and measurements in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-2"
+  "activePassId": "specialist-500-batch-3"
 }

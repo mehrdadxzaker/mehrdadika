@@ -13,9 +13,9 @@
     "modifications": "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-7",
-    "manifest": "content/releases/2026-10-preview-7-b2b3f3268e45/manifest.json",
-    "sha256": "b2b3f3268e45be60d9dcf27ccf1593e688dadfc561570111aa6623bced062f43"
+    "id": "2026-10-preview-8",
+    "manifest": "content/releases/2026-10-preview-8-b0ab625bb5d7/manifest.json",
+    "sha256": "b0ab625bb5d7b2d9a00bf73603d53aecec78e2e42cafe5c3ed494f89fe169416"
   },
   "categories": {
     "everyday-life": {
@@ -10135,6 +10135,822 @@
         }
       ],
       "tip": "Scaffold é contável e pode designar um andaime; scaffolding normalmente é incontável e se refere ao conjunto da estrutura temporária."
+    },
+    "tablet": {
+      "sourceWord": "tablet",
+      "senses": {
+        "tablet:meaning-1": {
+          "gloss": "comprimido",
+          "definition": "Uma pequena forma sólida de medicamento, geralmente produzida pela compressão dos ingredientes."
+        }
+      },
+      "examples": [
+        {
+          "en": "The tablet is round and has a line across one face.",
+          "translation": "O comprimido é redondo e tem uma linha em uma das faces."
+        },
+        {
+          "en": "The package contains several tablets.",
+          "translation": "A embalagem contém vários comprimidos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a round tablet",
+          "translation": "um comprimido redondo"
+        },
+        {
+          "en": "a scored tablet",
+          "translation": "um comprimido sulcado"
+        },
+        {
+          "en": "a tablet pack",
+          "translation": "uma embalagem de comprimidos"
+        }
+      ],
+      "tip": "Tablet aqui é uma forma de medicamento, não um computador portátil. A imagem mostra um comprimido redondo e sulcado; existem outros formatos."
+    },
+    "capsule": {
+      "sourceWord": "capsule",
+      "senses": {
+        "capsule:meaning-1": {
+          "gloss": "cápsula",
+          "definition": "Pequeno invólucro que contém medicamento, muitas vezes fornecido como uma unidade de dose."
+        }
+      },
+      "examples": [
+        {
+          "en": "The capsule has two shell sections.",
+          "translation": "A cápsula tem duas partes no invólucro."
+        },
+        {
+          "en": "One capsule lies beside the blister pack.",
+          "translation": "Uma cápsula está ao lado da cartela."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a hard capsule",
+          "translation": "uma cápsula dura"
+        },
+        {
+          "en": "a capsule shell",
+          "translation": "o invólucro de uma cápsula"
+        },
+        {
+          "en": "a capsule pack",
+          "translation": "uma embalagem de cápsulas"
+        }
+      ],
+      "tip": "Capsule tem um invólucro ao redor do conteúdo; tablet costuma ser uma peça sólida comprimida. A imagem mostra uma cápsula dura de duas partes."
+    },
+    "ointment": {
+      "sourceWord": "ointment",
+      "senses": {
+        "ointment:meaning-1": {
+          "gloss": "pomada",
+          "definition": "Preparação semissólida, espessa e muitas vezes oleosa, feita para uso na pele ou em outra superfície externa."
+        }
+      },
+      "examples": [
+        {
+          "en": "The ointment has a thick, greasy texture.",
+          "translation": "A pomada tem uma textura espessa e oleosa."
+        },
+        {
+          "en": "The tube of ointment has a plain cap.",
+          "translation": "O tubo de pomada tem uma tampa lisa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a tube of ointment",
+          "translation": "um tubo de pomada"
+        },
+        {
+          "en": "ointment texture",
+          "translation": "textura da pomada"
+        },
+        {
+          "en": "a skin ointment",
+          "translation": "uma pomada para a pele"
+        }
+      ],
+      "tip": "Ointment costuma ser incontável; para contar a embalagem, use a tube of ointment. Tube é o recipiente, não a preparação."
+    },
+    "inhaler": {
+      "sourceWord": "inhaler",
+      "senses": {
+        "inhaler:meaning-1": {
+          "gloss": "inalador",
+          "definition": "Dispositivo que fornece medicamento em uma forma que pode ser inspirada para os pulmões."
+        }
+      },
+      "examples": [
+        {
+          "en": "The inhaler has a mouthpiece and a removable cap.",
+          "translation": "O inalador tem um bocal e uma tampa removível."
+        },
+        {
+          "en": "The illustration shows the metal canister inside the inhaler.",
+          "translation": "A ilustração mostra o recipiente metálico dentro do inalador."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an inhaler mouthpiece",
+          "translation": "o bocal de um inalador"
+        },
+        {
+          "en": "an inhaler cap",
+          "translation": "a tampa de um inalador"
+        },
+        {
+          "en": "a metered-dose inhaler",
+          "translation": "um inalador dosimetrado"
+        }
+      ],
+      "tip": "Inhaler é o dispositivo; mouthpiece é o bocal. A imagem mostra um modelo dosimetrado com recipiente metálico."
+    },
+    "blister-pack": {
+      "sourceWord": "blister pack",
+      "senses": {
+        "blister-pack:meaning-1": {
+          "gloss": "cartela; embalagem blíster",
+          "definition": "Embalagem com cavidades separadas e moldadas, seladas a uma base, frequentemente usada para comprimidos ou cápsulas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The blister pack holds each tablet in a separate pocket.",
+          "translation": "A cartela mantém cada comprimido em uma cavidade separada."
+        },
+        {
+          "en": "The blister pack has a foil backing.",
+          "translation": "A cartela tem uma base de folha metálica."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a tablet blister pack",
+          "translation": "uma cartela de comprimidos"
+        },
+        {
+          "en": "blister pack pockets",
+          "translation": "cavidades da cartela"
+        },
+        {
+          "en": "blister pack backing",
+          "translation": "base da cartela"
+        }
+      ],
+      "tip": "Blister pack é uma embalagem com cavidades; blister sozinho pode significar uma bolha na pele. O contexto distingue os usos."
+    },
+    "dropper": {
+      "sourceWord": "dropper",
+      "senses": {
+        "dropper:meaning-1": {
+          "gloss": "conta-gotas",
+          "definition": "Pequeno dispositivo com um bulbo macio e um tubo estreito para transferir líquido em gotas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The dropper has a rubber bulb.",
+          "translation": "O conta-gotas tem um bulbo de borracha."
+        },
+        {
+          "en": "A drop hangs from the tip of the dropper.",
+          "translation": "Uma gota fica suspensa na ponta do conta-gotas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a glass dropper",
+          "translation": "um conta-gotas de vidro"
+        },
+        {
+          "en": "a dropper bulb",
+          "translation": "o bulbo de um conta-gotas"
+        },
+        {
+          "en": "a medicine dropper",
+          "translation": "um conta-gotas para medicamento"
+        }
+      ],
+      "tip": "Dropper é o instrumento; drop é uma gota de líquido. A imagem mostra um conta-gotas com tampa de frasco de medicamento."
+    },
+    "bruise": {
+      "sourceWord": "bruise",
+      "senses": {
+        "bruise:meaning-1": {
+          "gloss": "hematoma; mancha roxa",
+          "definition": "Área de mudança de cor da pele causada por sangue de pequenos vasos danificados sob a pele."
+        }
+      },
+      "examples": [
+        {
+          "en": "The bruise is visible on the forearm.",
+          "translation": "O hematoma está visível no antebraço."
+        },
+        {
+          "en": "The illustration shows a bruise beneath unbroken skin.",
+          "translation": "A ilustração mostra um hematoma sob a pele intacta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a dark bruise",
+          "translation": "um hematoma escuro"
+        },
+        {
+          "en": "a small bruise",
+          "translation": "um hematoma pequeno"
+        },
+        {
+          "en": "a bruise on the arm",
+          "translation": "um hematoma no braço"
+        }
+      ],
+      "tip": "Bruise aqui é o substantivo para uma mancha de sangue sob a pele; bruised é o adjetivo. Não é uma ferida aberta."
+    },
+    "rash": {
+      "sourceWord": "rash",
+      "senses": {
+        "rash:meaning-1": {
+          "gloss": "erupção cutânea",
+          "definition": "Área de pele irritada que pode apresentar vermelhidão, pequenas elevações ou outras mudanças visíveis."
+        }
+      },
+      "examples": [
+        {
+          "en": "The rash covers a small patch of skin.",
+          "translation": "A erupção cobre uma pequena área de pele."
+        },
+        {
+          "en": "The drawing shows a rash with several small bumps.",
+          "translation": "O desenho mostra uma erupção com várias pequenas elevações."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a skin rash",
+          "translation": "uma erupção cutânea"
+        },
+        {
+          "en": "a red rash",
+          "translation": "uma erupção avermelhada"
+        },
+        {
+          "en": "a patch of rash",
+          "translation": "uma área de erupção"
+        }
+      ],
+      "tip": "Rash aqui é uma alteração da pele; o adjetivo rash em a rash decision significa imprudente."
+    },
+    "blister": {
+      "sourceWord": "blister",
+      "senses": {
+        "blister:meaning-1": {
+          "gloss": "bolha na pele",
+          "definition": "Pequena bolsa elevada de líquido nas camadas externas da pele."
+        }
+      },
+      "examples": [
+        {
+          "en": "The blister is a small raised pocket of fluid.",
+          "translation": "A bolha é uma pequena bolsa elevada de líquido."
+        },
+        {
+          "en": "The heel has a blister near the edge of the shoe.",
+          "translation": "O calcanhar tem uma bolha perto da borda do sapato."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a skin blister",
+          "translation": "uma bolha na pele"
+        },
+        {
+          "en": "a fluid-filled blister",
+          "translation": "uma bolha cheia de líquido"
+        },
+        {
+          "en": "a blister on the heel",
+          "translation": "uma bolha no calcanhar"
+        }
+      ],
+      "tip": "Blister neste sentido é uma bolsa de líquido na pele; em blister pack, refere-se à cavidade da embalagem."
+    },
+    "scar": {
+      "sourceWord": "scar",
+      "senses": {
+        "scar:meaning-1": {
+          "gloss": "cicatriz",
+          "definition": "Marca duradoura de tecido reparado que permanece depois que uma lesão na pele cicatriza."
+        }
+      },
+      "examples": [
+        {
+          "en": "The scar is a pale line on the skin.",
+          "translation": "A cicatriz é uma linha clara na pele."
+        },
+        {
+          "en": "An old scar runs across the forearm.",
+          "translation": "Uma cicatriz antiga atravessa o antebraço."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a healed scar",
+          "translation": "uma cicatriz já fechada"
+        },
+        {
+          "en": "a pale scar",
+          "translation": "uma cicatriz clara"
+        },
+        {
+          "en": "a scar on the arm",
+          "translation": "uma cicatriz no braço"
+        }
+      ],
+      "tip": "Scar é a marca que fica após a reparação; wound é a ferida. Scarred é o adjetivo para algo que tem cicatrizes."
+    },
+    "scratch": {
+      "sourceWord": "scratch",
+      "senses": {
+        "scratch:meaning-1": {
+          "gloss": "arranhão",
+          "definition": "Marca ou lesão estreita e superficial causada por raspar a superfície da pele."
+        }
+      },
+      "examples": [
+        {
+          "en": "The scratch is a thin mark on the forearm.",
+          "translation": "O arranhão é uma marca fina no antebraço."
+        },
+        {
+          "en": "A small scratch runs across the back of the hand.",
+          "translation": "Um pequeno arranhão atravessa o dorso da mão."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a shallow scratch",
+          "translation": "um arranhão superficial"
+        },
+        {
+          "en": "a skin scratch",
+          "translation": "um arranhão na pele"
+        },
+        {
+          "en": "a scratch on the hand",
+          "translation": "um arranhão na mão"
+        }
+      ],
+      "tip": "Scratch aqui é o substantivo para uma lesão superficial; como verbo, pode significar arranhar ou coçar."
+    },
+    "swelling": {
+      "sourceWord": "swelling",
+      "senses": {
+        "swelling:meaning-1": {
+          "gloss": "inchaço",
+          "definition": "Aumento do tamanho ou do volume de uma parte do corpo, muitas vezes porque líquido se acumula nos tecidos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The swelling makes the ankle look larger.",
+          "translation": "O inchaço faz o tornozelo parecer maior."
+        },
+        {
+          "en": "The drawing compares an ankle with swelling and one without it.",
+          "translation": "O desenho compara um tornozelo com inchaço e outro sem ele."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "ankle swelling",
+          "translation": "inchaço no tornozelo"
+        },
+        {
+          "en": "visible swelling",
+          "translation": "inchaço visível"
+        },
+        {
+          "en": "localized swelling",
+          "translation": "inchaço localizado"
+        }
+      ],
+      "tip": "Swelling é o substantivo; swell é o verbo e swollen é o adjetivo. A palavra indica aumento de volume, não apenas mudança de cor da pele."
+    },
+    "fuse": {
+      "sourceWord": "fuse",
+      "senses": {
+        "fuse:meaning-1": {
+          "gloss": "fusível",
+          "definition": "Componente de proteção elétrica com um elo que se funde para interromper corrente excessiva."
+        }
+      },
+      "examples": [
+        {
+          "en": "The fuse has a thin metal link inside a glass tube.",
+          "translation": "O fusível tem um elo metálico fino dentro de um tubo de vidro."
+        },
+        {
+          "en": "The technician found an open fuse in the circuit.",
+          "translation": "O técnico encontrou um fusível aberto no circuito."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a cartridge fuse",
+          "translation": "um fusível de cartucho"
+        },
+        {
+          "en": "a fuse link",
+          "translation": "um elo fusível"
+        },
+        {
+          "en": "a fuse holder",
+          "translation": "um porta-fusível"
+        }
+      ],
+      "tip": "Fuse é um componente com elo fusível; circuit breaker normalmente é um dispositivo de interrupção que pode ser rearmado."
+    },
+    "relay": {
+      "sourceWord": "relay",
+      "senses": {
+        "relay:meaning-1": {
+          "gloss": "relé",
+          "definition": "Interruptor controlado eletricamente que abre ou fecha um circuito em resposta a um sinal de entrada."
+        }
+      },
+      "examples": [
+        {
+          "en": "The relay has a coil beside its contacts.",
+          "translation": "O relé tem uma bobina ao lado dos contatos."
+        },
+        {
+          "en": "A small signal controls the relay.",
+          "translation": "Um pequeno sinal controla o relé."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a relay coil",
+          "translation": "uma bobina de relé"
+        },
+        {
+          "en": "relay contacts",
+          "translation": "contatos de relé"
+        },
+        {
+          "en": "a relay armature",
+          "translation": "uma armadura de relé"
+        }
+      ],
+      "tip": "Relay é um interruptor controlado eletricamente; a imagem mostra o tipo eletromagnético com bobina e contatos mecânicos."
+    },
+    "switch": {
+      "sourceWord": "switch",
+      "senses": {
+        "switch:meaning-1": {
+          "gloss": "interruptor",
+          "definition": "Dispositivo que abre ou fecha um caminho elétrico para controlar a corrente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The switch has a small lever.",
+          "translation": "O interruptor tem uma pequena alavanca."
+        },
+        {
+          "en": "The diagram shows the switch in the open position.",
+          "translation": "O diagrama mostra o interruptor na posição aberta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an open switch",
+          "translation": "um interruptor aberto"
+        },
+        {
+          "en": "a closed switch",
+          "translation": "um interruptor fechado"
+        },
+        {
+          "en": "a toggle switch",
+          "translation": "um interruptor de alavanca"
+        }
+      ],
+      "tip": "Switch é o substantivo para interruptor; em switch off, a palavra faz parte de um verbo que significa desligar."
+    },
+    "battery": {
+      "sourceWord": "battery",
+      "senses": {
+        "battery:meaning-1": {
+          "gloss": "bateria; pilha",
+          "definition": "Fonte que converte energia química armazenada em energia elétrica."
+        }
+      },
+      "examples": [
+        {
+          "en": "The battery has a positive terminal and a negative terminal.",
+          "translation": "A bateria tem um terminal positivo e um terminal negativo."
+        },
+        {
+          "en": "The small lamp gets energy from the battery.",
+          "translation": "A pequena lâmpada recebe energia da bateria."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a rechargeable battery",
+          "translation": "uma bateria recarregável"
+        },
+        {
+          "en": "a battery terminal",
+          "translation": "um terminal de bateria"
+        },
+        {
+          "en": "a battery holder",
+          "translation": "um suporte de pilhas"
+        }
+      ],
+      "tip": "Battery também pode nomear uma pilha individual no uso comum; cell é uma unidade eletroquímica na descrição técnica."
+    },
+    "cable": {
+      "sourceWord": "cable",
+      "senses": {
+        "cable:meaning-1": {
+          "gloss": "cabo elétrico",
+          "definition": "Conjunto revestido de um ou mais condutores elétricos para transmitir energia ou sinais."
+        }
+      },
+      "examples": [
+        {
+          "en": "The cable contains several insulated conductors.",
+          "translation": "O cabo contém vários condutores isolados."
+        },
+        {
+          "en": "The outer sheath protects the cable.",
+          "translation": "A cobertura externa protege o cabo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a power cable",
+          "translation": "um cabo de alimentação"
+        },
+        {
+          "en": "a cable sheath",
+          "translation": "uma cobertura de cabo"
+        },
+        {
+          "en": "an insulated cable",
+          "translation": "um cabo isolado"
+        }
+      ],
+      "tip": "Cable pode ter um ou mais condutores em uma cobertura; a imagem mostra o tipo multicondutor. Os usos de wire e cable podem se sobrepor, e a diferença não depende apenas da quantidade de condutores."
+    },
+    "wire": {
+      "sourceWord": "wire",
+      "senses": {
+        "wire:meaning-1": {
+          "gloss": "fio; arame condutor",
+          "definition": "Comprimento fino de metal usado como condutor elétrico."
+        }
+      },
+      "examples": [
+        {
+          "en": "The wire has a copper core.",
+          "translation": "O fio tem um núcleo de cobre."
+        },
+        {
+          "en": "A layer of insulation covers the wire.",
+          "translation": "Uma camada de isolamento cobre o fio."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "copper wire",
+          "translation": "fio de cobre"
+        },
+        {
+          "en": "an insulated wire",
+          "translation": "um fio isolado"
+        },
+        {
+          "en": "a wire core",
+          "translation": "um núcleo de fio"
+        }
+      ],
+      "tip": "Wire pode ser nu ou isolado; stranded wire reúne filamentos finos. A imagem mostra um fio com condutor sólido."
+    },
+    "socket": {
+      "sourceWord": "socket",
+      "senses": {
+        "socket:meaning-1": {
+          "gloss": "tomada",
+          "definition": "Peça de conexão elétrica com aberturas que recebem os pinos de um plugue."
+        }
+      },
+      "examples": [
+        {
+          "en": "The socket has openings for the plug pins.",
+          "translation": "A tomada tem aberturas para os pinos do plugue."
+        },
+        {
+          "en": "The drawing shows the front of the socket.",
+          "translation": "O desenho mostra a frente da tomada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a wall socket",
+          "translation": "uma tomada de parede"
+        },
+        {
+          "en": "a socket outlet",
+          "translation": "uma tomada elétrica"
+        },
+        {
+          "en": "a socket opening",
+          "translation": "uma abertura da tomada"
+        }
+      ],
+      "tip": "Socket é a peça que recebe o plugue; plug é a peça com pinos. O formato das tomadas varia entre países."
+    },
+    "plug": {
+      "sourceWord": "plug",
+      "senses": {
+        "plug:meaning-1": {
+          "gloss": "plugue",
+          "definition": "Conector elétrico com pinos que se encaixam em uma tomada compatível."
+        }
+      },
+      "examples": [
+        {
+          "en": "The plug has two flat pins and a round grounding pin.",
+          "translation": "O plugue tem dois pinos chatos e um pino redondo de aterramento."
+        },
+        {
+          "en": "The cable enters the back of the plug.",
+          "translation": "O cabo entra pela parte traseira do plugue."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an electrical plug",
+          "translation": "um plugue elétrico"
+        },
+        {
+          "en": "a plug pin",
+          "translation": "um pino de plugue"
+        },
+        {
+          "en": "a three-pin plug",
+          "translation": "um plugue de três pinos"
+        }
+      ],
+      "tip": "Plug é o conector com pinos. A imagem mostra um tipo de três pinos; outros formatos e números de pinos também existem."
+    },
+    "insulator": {
+      "sourceWord": "insulator",
+      "senses": {
+        "insulator:meaning-1": {
+          "gloss": "isolante elétrico",
+          "definition": "Material ou objeto que oferece forte resistência ao movimento de carga elétrica."
+        }
+      },
+      "examples": [
+        {
+          "en": "The insulator supports the wire away from the metal bracket.",
+          "translation": "O isolante sustenta o fio afastado do suporte metálico."
+        },
+        {
+          "en": "Ceramic is used as an electrical insulator.",
+          "translation": "A cerâmica é usada como isolante elétrico."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an electrical insulator",
+          "translation": "um isolante elétrico"
+        },
+        {
+          "en": "a ceramic insulator",
+          "translation": "um isolante cerâmico"
+        },
+        {
+          "en": "an insulator support",
+          "translation": "um suporte isolante"
+        }
+      ],
+      "tip": "Insulator pode ser um material ou uma peça isolante; a imagem mostra um suporte cerâmico de condutor. Conductor facilita o movimento de carga."
+    },
+    "conductor": {
+      "sourceWord": "conductor",
+      "senses": {
+        "conductor:meaning-1": {
+          "gloss": "condutor elétrico",
+          "definition": "Material ou objeto pelo qual a carga elétrica pode se mover facilmente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The conductor carries current through the circuit.",
+          "translation": "O condutor transporta corrente pelo circuito."
+        },
+        {
+          "en": "Copper is a good electrical conductor.",
+          "translation": "O cobre é um bom condutor elétrico."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an electrical conductor",
+          "translation": "um condutor elétrico"
+        },
+        {
+          "en": "a copper conductor",
+          "translation": "um condutor de cobre"
+        },
+        {
+          "en": "a metal conductor",
+          "translation": "um condutor metálico"
+        }
+      ],
+      "tip": "Conductor aqui é um condutor de eletricidade; em música pode ser o regente de uma orquestra. A imagem destaca uma tira condutora de cobre."
+    },
+    "voltmeter": {
+      "sourceWord": "voltmeter",
+      "senses": {
+        "voltmeter:meaning-1": {
+          "gloss": "voltímetro",
+          "definition": "Instrumento que mede a diferença de potencial elétrico entre dois pontos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The voltmeter is connected across the resistor.",
+          "translation": "O voltímetro está conectado aos dois terminais do resistor."
+        },
+        {
+          "en": "The diagram places the voltmeter in parallel with the load.",
+          "translation": "O diagrama coloca o voltímetro em paralelo com a carga."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a digital voltmeter",
+          "translation": "um voltímetro digital"
+        },
+        {
+          "en": "a voltmeter reading",
+          "translation": "uma leitura do voltímetro"
+        },
+        {
+          "en": "voltmeter terminals",
+          "translation": "terminais do voltímetro"
+        }
+      ],
+      "tip": "Voltmeter mede a diferença de potencial, ou tensão; neste diagrama está ligado aos dois terminais da carga. Ammeter mede a corrente que passa."
+    },
+    "ammeter": {
+      "sourceWord": "ammeter",
+      "senses": {
+        "ammeter:meaning-1": {
+          "gloss": "amperímetro",
+          "definition": "Instrumento que mede a corrente elétrica que passa por um ramo de circuito."
+        }
+      },
+      "examples": [
+        {
+          "en": "The ammeter is connected in series with the lamp.",
+          "translation": "O amperímetro está conectado em série com a lâmpada."
+        },
+        {
+          "en": "Current passes through the ammeter in this diagram.",
+          "translation": "A corrente passa pelo amperímetro neste diagrama."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a digital ammeter",
+          "translation": "um amperímetro digital"
+        },
+        {
+          "en": "an ammeter reading",
+          "translation": "uma leitura do amperímetro"
+        },
+        {
+          "en": "ammeter terminals",
+          "translation": "terminais do amperímetro"
+        }
+      ],
+      "tip": "Ammeter mede a corrente e faz parte do caminho em série neste diagrama; voltmeter se liga a dois pontos para medir a diferença de potencial."
     }
   }
 }

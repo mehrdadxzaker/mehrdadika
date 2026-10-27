@@ -1713,17 +1713,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/friction.webp",
-        "sha256": "3a60c353d973cdc9732f222ec2bc89e04ba82a17732e3fa40049b0fde1531013"
+        "path": "atlas/img/friction-v2.webp",
+        "sha256": "8709fefeec0b18f94de1a04994203c81fab4717aa1739f8d92b67de9a651ff0a"
       },
       "visual": {
-        "expectedCue": "A hand rubs an abrasive surface against wood, showing direct contact between resisting surfaces.",
-        "decision": "retained",
-        "reason": "Retained after pixel inspection: A hand rubs an abrasive surface against wood, showing direct contact between resisting surfaces."
+        "expectedCue": "Block moving right on a rough surface with opposing amber friction arrow directed left at contact.",
+        "decision": "replaced",
+        "reason": "Full generated source and converted512/120 inspected: supported block contacts the coarse surface, upper light-silver motion arrow points right, lower amber friction arrow points left. One clear opposing-direction relation; no numerical force/speed claims.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise metal/slate study with restrained amber force accent, matching the newer engineering diagrams."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "8709fefeec0b18f94de1a04994203c81fab4717aa1739f8d92b67de9a651ff0a",
+          "inspectedAt": "2026-10-27T13:12:02.817748+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Gray motion arrow points right above a metal block, while amber friction arrow points left at the rough surface contact, clearly opposing sliding motion."
+        }
       }
     },
     {
@@ -2062,22 +2077,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/beam-v2.webp",
-        "sha256": "e784fcbcefdccaaabb18e0a53074e8cd60be86de54b179d97e67e78795f2d9d4"
+        "path": "atlas/img/beam-v3.webp",
+        "sha256": "2e613353b087b61899289475066588c109fe5b5e0b412a132952921f0686f167"
       },
       "visual": {
-        "expectedCue": "A highlighted horizontal structural beam spans supports and carries a floor or roof load above.",
+        "expectedCue": "One long horizontal steel I-beam bears a concrete floor slab and rests on two end columns.",
         "decision": "replaced",
-        "reason": "The prior shaft-of-light scene depicted the wrong sense; the published entry is a structural member.",
-        "inspectionNotes": "Horizontal I-beam explicitly spans two columns and supports a partial floor deck; correct structural sense rather than light."
+        "reason": "Full generated source and final512/120 inspected: floor slab contacts the top flange, continuous web/flanges identify the long beam, and both end columns have coherent bearing/base plates. No competing truss or numerical performance claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Clean technical cutaway study on slate, amber beam teaching focus and cool silver supports."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
-      },
-      "generation": {
-        "method": "OpenAI built-in image generation",
-        "prompt": "Use case: scientific-educational. Create one square vocabulary illustration of a STRUCTURAL BEAM, the long strong horizontal member supporting a floor or roof. Clean axonometric cutaway engineering illustration on pale ivory paper, slate-blue steel with amber downward load arrows. Large central horizontal steel I-beam visibly spans between two solid vertical support columns, sitting directly and plausibly on the column tops, holding several lighter floor joists and a small partial floor deck above it. The main beam is the largest, clearest element and its I-shaped end cross section is unmistakable. Three simple amber downward arrows on the floor deck show the load transferred onto the beam. Isolated explanatory model with uncluttered white space, crisp edges and subtle shadows, physically plausible connections; no floating floor parts, no impossible cantilevers, no disconnected supports. No people, no room interior, no sunlight shaft, no light rays, no lens flare, no decorative beams of light, no text, no labels, no branding or watermark. At120px thumbnail a viewer should identify the horizontal load-bearing piece immediately."
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2e613353b087b61899289475066588c109fe5b5e0b412a132952921f0686f167",
+          "inspectedAt": "2026-10-27T13:14:27.879737+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Amber horizontal I-beam bears on two steel columns and directly supports the slab above, preserving the structural rather than optical beam sense."
+        }
       }
     },
     {
@@ -11619,6 +11644,1192 @@
             120
           ],
           "finding": "Final one-bay frame has four posts on baseplates, a supported plank platform, guardrails and toe boards. Each X-brace end terminates at a visible post clamp; access ladder reaches platform height."
+        }
+      }
+    },
+    {
+      "entryId": "tablet",
+      "sourceWord": "tablet",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "tablet:meaning-1",
+          "pos": "n.",
+          "en": "A small solid form of medicine, usually made by pressing ingredients into a compact shape."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tablet is round and has a line across one face.",
+          "senseId": "tablet:meaning-1"
+        },
+        {
+          "en": "The package contains several tablets.",
+          "senseId": "tablet:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tablet.webp",
+        "sha256": "446754e5fb7b1080cb7dc60b884008e5ee24d6c7e71dcd88f257b9a1a0f63476"
+      },
+      "visual": {
+        "expectedCue": "One compressed solid round medicine tablet with a shallow score line, distinct from a hollow capsule.",
+        "decision": "added",
+        "reason": "Full generated image and final512px/120px pixels inspected: one matte round compressed solid tablet has a single shallow straight score groove, clean beveled edge and no imprints or numeric dosage. Distinct from a capsule shell or computer tablet.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual full-source and converted512px/120px inspection confirms clean clinical object/skin rendering on cool pale mint with ivory and restrained teal accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "446754e5fb7b1080cb7dc60b884008e5ee24d6c7e71dcd88f257b9a1a0f63476",
+          "inspectedAt": "2026-10-27T13:03:06.099763+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Single compressed solid disc with an incised score line, visibly distinct from the enclosing capsule shell; clear clinical mint/ivory rendering."
+        }
+      }
+    },
+    {
+      "entryId": "capsule",
+      "sourceWord": "capsule",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "capsule:meaning-1",
+          "pos": "n.",
+          "en": "A small shell containing medicine, often supplied as a single dosage unit."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The capsule has two shell sections.",
+          "senseId": "capsule:meaning-1"
+        },
+        {
+          "en": "One capsule lies beside the blister pack.",
+          "senseId": "capsule:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/capsule.webp",
+        "sha256": "6cd41309944c13e1cb0584c1f2017722f4b352d9d0f7e43f4ee51316e0a59ac5"
+      },
+      "visual": {
+        "expectedCue": "An intact elongated two-piece hard capsule with a visible cap/body join.",
+        "decision": "added",
+        "reason": "Full generated source and final512px/120px pixels inspected: an intact elongated capsule has exactly two fitted shell sections with a distinct overlap join and rounded ends. Smooth mint/ivory shell is clearly different from the chalky scored solid tablet.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual full-source and converted512px/120px inspection confirms clean clinical object/skin rendering on cool pale mint with ivory and restrained teal accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6cd41309944c13e1cb0584c1f2017722f4b352d9d0f7e43f4ee51316e0a59ac5",
+          "inspectedAt": "2026-10-27T13:03:06.099862+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Two overlapping rounded shell sections make one hard capsule; no pill imprint, label, brand or dosage claim."
+        }
+      }
+    },
+    {
+      "entryId": "ointment",
+      "sourceWord": "ointment",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "ointment:meaning-1",
+          "pos": "n.",
+          "en": "A thick, often greasy semisolid preparation made for use on the skin or another outer surface."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ointment has a thick, greasy texture.",
+          "senseId": "ointment:meaning-1"
+        },
+        {
+          "en": "The tube of ointment has a plain cap.",
+          "senseId": "ointment:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ointment.webp",
+        "sha256": "257485fdd9479454648d10119935a28ac05d21c87f32381b9bedbe331727a50d"
+      },
+      "visual": {
+        "expectedCue": "A plain medicine tube and a small glossy greasy semisolid mound, showing ointment texture.",
+        "decision": "added",
+        "reason": "Full generated source and final512px/120px pixels inspected: plain capped medicine tube releases a glossy translucent pale-yellow semisolid onto a small white palette. Greasy ointment texture is visible and distinct from a solid tablet or capsule; no drug labels or usage instruction.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual full-source and converted512px/120px inspection confirms clean clinical object/skin rendering on cool pale mint with ivory and restrained teal accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "257485fdd9479454648d10119935a28ac05d21c87f32381b9bedbe331727a50d",
+          "inspectedAt": "2026-10-27T13:06:03.214492+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Greasy translucent semisolid from a plain capped tube is prominent on a clinical dish; distinct from a solid tablet or a labeled drug product."
+        }
+      }
+    },
+    {
+      "entryId": "inhaler",
+      "sourceWord": "inhaler",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "inhaler:meaning-1",
+          "pos": "n.",
+          "en": "A device that delivers medicine in a form that can be breathed into the lungs."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The inhaler has a mouthpiece and a removable cap.",
+          "senseId": "inhaler:meaning-1"
+        },
+        {
+          "en": "The illustration shows the metal canister inside the inhaler.",
+          "senseId": "inhaler:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/inhaler.webp",
+        "sha256": "1fa5e0ee5325d56bcfd8c785b767d90e8f11e3dbcd3037fb128de8905dec27fb"
+      },
+      "visual": {
+        "expectedCue": "A metal canister seated in an L-shaped inhaler actuator with a mouthpiece and removable cap.",
+        "decision": "added",
+        "reason": "Full generated source and final512px/120px pixels inspected: one metal canister sits in an upright L-shaped plastic actuator; lower oval mouthpiece and matching removable cap are coherent. Blank unlabeled hardware shows a metered-dose inhaler subtype without numbers, spray or operating instructions.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual full-source and converted512px/120px inspection confirms clean clinical object/skin rendering on cool pale mint with ivory and restrained teal accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1fa5e0ee5325d56bcfd8c785b767d90e8f11e3dbcd3037fb128de8905dec27fb",
+          "inspectedAt": "2026-10-27T13:06:03.214655+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Metal canister sits in an L-shaped actuator boot with a hollow mouthpiece and matching removable cap; no brand, dose counter or administration instruction."
+        }
+      }
+    },
+    {
+      "entryId": "blister-pack",
+      "sourceWord": "blister pack",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "blister-pack:meaning-1",
+          "pos": "n.",
+          "en": "Packaging with separate shaped pockets sealed to a backing sheet, often used for tablets or capsules."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The blister pack holds each tablet in a separate pocket.",
+          "senseId": "blister-pack:meaning-1"
+        },
+        {
+          "en": "The blister pack has a foil backing.",
+          "senseId": "blister-pack:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/blister-pack.webp",
+        "sha256": "22469124cae41074f74b43e44f804d48b7f091a2d5669942ae2836fff8e38435"
+      },
+      "visual": {
+        "expectedCue": "Individual formed medicine pockets containing tablets, sealed over a foil backing sheet.",
+        "decision": "added",
+        "reason": "Full source and final512px/120px pixels inspected: six separate clear formed pockets each hold one plain round tablet over a silver backing. A curled corner makes the backing visible. No package text, strength or dosage data; distinct from a skin blister.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual full-source and converted512px/120px inspection confirms clean clinical object/skin rendering on cool pale mint with ivory and restrained teal accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "22469124cae41074f74b43e44f804d48b7f091a2d5669942ae2836fff8e38435",
+          "inspectedAt": "2026-10-27T13:08:33.843603+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Six individual formed pockets hold separate tablets against foil backing; packaging remains distinct from the separate skin blister entry."
+        }
+      }
+    },
+    {
+      "entryId": "dropper",
+      "sourceWord": "dropper",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "dropper:meaning-1",
+          "pos": "n.",
+          "en": "A small device with a soft bulb and a narrow tube for transferring liquid in drops."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The dropper has a rubber bulb.",
+          "senseId": "dropper:meaning-1"
+        },
+        {
+          "en": "A drop hangs from the tip of the dropper.",
+          "senseId": "dropper:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/dropper.webp",
+        "sha256": "27080ec4addb31d8f7b98216e8397fd60d5c829186061cc7d97b9ae0e332a978"
+      },
+      "visual": {
+        "expectedCue": "A cap-mounted glass medicine dropper with a rubber bulb and one hanging droplet above a matching bottle.",
+        "decision": "added",
+        "reason": "Full generated source and final512px/120px pixels inspected: cap-mounted glass tube is continuous to a mint rubber bulb, with one hanging droplet above the mouth of a matching plain amber bottle. No scale marks; bottle/cap context distinguishes this medicine dropper from the earlier laboratory pipette.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual full-source and converted512px/120px inspection confirms clean clinical object/skin rendering on cool pale mint with ivory and restrained teal accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "27080ec4addb31d8f7b98216e8397fd60d5c829186061cc7d97b9ae0e332a978",
+          "inspectedAt": "2026-10-27T13:08:33.843727+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Bulb and threaded bottle cap attach to a narrow transparent tube with a hanging drop above an amber medicine bottle, distinct from the earlier laboratory transfer pipette."
+        }
+      }
+    },
+    {
+      "entryId": "bruise",
+      "sourceWord": "bruise",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "bruise:meaning-1",
+          "pos": "n.",
+          "en": "An area of skin discoloration caused by blood from small damaged vessels beneath the skin."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bruise is visible on the forearm.",
+          "senseId": "bruise:meaning-1"
+        },
+        {
+          "en": "The illustration shows a bruise beneath unbroken skin.",
+          "senseId": "bruise:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bruise.webp",
+        "sha256": "1cd87381cb55fdca1cb95b0e8463457487d5d468ff466f95fa858e1074917058"
+      },
+      "visual": {
+        "expectedCue": "One purple-blue discoloration under smooth intact forearm skin, without an open cut or raised blister.",
+        "decision": "added",
+        "reason": "Full generated source and final512px/120px pixels inspected: a localized mottled purple-blue discoloration with muted yellow edge lies beneath smooth unbroken forearm skin. No raised fluid pocket, cut or bleeding; generic non-diagnostic skin-sign image.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual full-source and converted512px/120px inspection confirms clean clinical object/skin rendering on cool pale mint with ivory and restrained teal accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1cd87381cb55fdca1cb95b0e8463457487d5d468ff466f95fa858e1074917058",
+          "inspectedAt": "2026-10-27T13:08:33.843729+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Purple/yellow discoloration lies beneath an intact forearm surface, with no open scrape or raised fluid pocket."
+        }
+      }
+    },
+    {
+      "entryId": "rash",
+      "sourceWord": "rash",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "rash:meaning-1",
+          "pos": "n.",
+          "en": "An area of irritated skin that may have redness, small bumps, or other visible changes."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The rash covers a small patch of skin.",
+          "senseId": "rash:meaning-1"
+        },
+        {
+          "en": "The drawing shows a rash with several small bumps.",
+          "senseId": "rash:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/rash.webp",
+        "sha256": "a88e26683b2037978ca671d812e872fdc26e10e005ab0128eacac1945356ca08"
+      },
+      "visual": {
+        "expectedCue": "A localized patch of many small pink-red bumps and mild skin redness, distinct from a bruise or one fluid blister.",
+        "decision": "added",
+        "reason": "Full generated source and final512px/120px pixels inspected: localized pink-red irritation contains many small separate raised bumps, with normal forearm skin around it. Pattern is visibly different from the single flat purple bruise and from one large fluid blister; no disease or cause is named.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual full-source and converted512px/120px inspection confirms clean clinical object/skin rendering on cool pale mint with ivory and restrained teal accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a88e26683b2037978ca671d812e872fdc26e10e005ab0128eacac1945356ca08",
+          "inspectedAt": "2026-10-27T13:12:02.817610+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Localized cluster of small red raised spots on a forearm, distinct from the intact purple bruise and the isolated fluid blister."
+        }
+      }
+    },
+    {
+      "entryId": "blister",
+      "sourceWord": "blister",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "blister:meaning-1",
+          "pos": "n.",
+          "en": "A small raised pocket of fluid in the outer layers of the skin."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The blister is a small raised pocket of fluid.",
+          "senseId": "blister:meaning-1"
+        },
+        {
+          "en": "The heel has a blister near the edge of the shoe.",
+          "senseId": "blister:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/blister.webp",
+        "sha256": "e6eb8f78a31554506a7724dd9fc4e7b17fbd52496c337829c2218958b2ab3bb0"
+      },
+      "visual": {
+        "expectedCue": "One intact translucent fluid-filled skin dome on a heel, with a nearby shoe edge establishing context.",
+        "decision": "added",
+        "reason": "Full generated source and final512px/120px pixels inspected: one intact translucent fluid-filled skin dome sits on the heel beside an unbranded shoe edge. Smooth fluid pocket, normal surrounding skin and heel context distinguish it from flat bruising and a multi-bump rash; no rupture, bleeding or treatment scene.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual full-source and converted512px/120px inspection confirms clean clinical object/skin rendering on cool pale mint with ivory and restrained teal accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e6eb8f78a31554506a7724dd9fc4e7b17fbd52496c337829c2218958b2ab3bb0",
+          "inspectedAt": "2026-10-27T13:12:02.817743+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "One raised translucent fluid pocket on the heel, with shoe context and intact surrounding skin; distinct from medicine blister packaging."
+        }
+      }
+    },
+    {
+      "entryId": "scar",
+      "sourceWord": "scar",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "scar:meaning-1",
+          "pos": "n.",
+          "en": "A lasting mark of repaired tissue left after an injury to the skin has healed."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The scar is a pale line on the skin.",
+          "senseId": "scar:meaning-1"
+        },
+        {
+          "en": "An old scar runs across the forearm.",
+          "senseId": "scar:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/scar.webp",
+        "sha256": "5b4646e5728ea16f21ada14cc5f4492aa0d288d29d3f51c7b839bde98144cfee"
+      },
+      "visual": {
+        "expectedCue": "One pale, fully healed linear mark on intact forearm skin.",
+        "decision": "added",
+        "reason": "Full generated pixels and final512/120 inspected: flat pale textured closed line, no fresh wound or redness, clearly distinct from the scratch candidate.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical close-up, natural skin texture on pale mint/ivory, single clear teaching focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5b4646e5728ea16f21ada14cc5f4492aa0d288d29d3f51c7b839bde98144cfee",
+          "inspectedAt": "2026-10-27T13:01:04.833271+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Flat pale healed tissue line on an intact forearm; clearly distinct from the fresh pink scratch."
+        }
+      }
+    },
+    {
+      "entryId": "scratch",
+      "sourceWord": "scratch",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "scratch:meaning-1",
+          "pos": "n.",
+          "en": "A narrow, shallow mark or injury made by scraping the surface of the skin."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The scratch is a thin mark on the forearm.",
+          "senseId": "scratch:meaning-1"
+        },
+        {
+          "en": "A small scratch runs across the back of the hand.",
+          "senseId": "scratch:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/scratch.webp",
+        "sha256": "08af0eb71924bc0290b6282b69a55aca7b98e5abdb4782a12f0c026f07fc8df7"
+      },
+      "visual": {
+        "expectedCue": "One shallow fresh pink linear scrape on an otherwise intact forearm.",
+        "decision": "added",
+        "reason": "Full generated pixels and final512/120 inspected: narrow superficial pink line with minor disturbed surface, no deep gash or blood; distinct from flat pale healed scar.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical close-up, natural skin texture on pale mint/ivory, single clear teaching focus."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "08af0eb71924bc0290b6282b69a55aca7b98e5abdb4782a12f0c026f07fc8df7",
+          "inspectedAt": "2026-10-27T13:01:04.833476+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Thin shallow pink scrape on otherwise intact skin, without an open deep wound or graphic bleeding."
+        }
+      }
+    },
+    {
+      "entryId": "swelling",
+      "sourceWord": "swelling",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "swelling:meaning-1",
+          "pos": "n.",
+          "en": "An increase in the size or fullness of a body part, often because fluid collects in its tissues."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The swelling makes the ankle look larger.",
+          "senseId": "swelling:meaning-1"
+        },
+        {
+          "en": "The drawing compares an ankle with swelling and one without it.",
+          "senseId": "swelling:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/swelling.webp",
+        "sha256": "32e58d5060962749a84169039b55c27a7bf2f308fc64c834a0ef447b03917449"
+      },
+      "visual": {
+        "expectedCue": "Matched ankle views, with localized diffuse soft-tissue enlargement and reduced bony contour on the right.",
+        "decision": "added",
+        "reason": "Full generated source and final512/120 inspected. Skin tone, orientation and crop remain matched; right ankle is diffusely puffy rather than a discrete blister, with intact skin and no diagnosis or cause depicted.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Pale clinical mint ground, clear neutral anatomical comparison, soft precise skin rendering."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "32e58d5060962749a84169039b55c27a7bf2f308fc64c834a0ef447b03917449",
+          "inspectedAt": "2026-10-27T13:01:04.833524+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Matched side views preserve ankle/foot orientation and scale; the right ankle has diffuse enlargement and a less-defined malleolus contour, unlike a localized blister."
+        }
+      }
+    },
+    {
+      "entryId": "fuse",
+      "sourceWord": "fuse",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "fuse:meaning-1",
+          "pos": "n.",
+          "en": "A protective electrical component with a link that melts to interrupt excessive current."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The fuse has a thin metal link inside a glass tube.",
+          "senseId": "fuse:meaning-1"
+        },
+        {
+          "en": "The technician found an open fuse in the circuit.",
+          "senseId": "fuse:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/fuse.webp",
+        "sha256": "33eb3955ed9bd43acde52bc2bb5da9cd467cd6d24f22501f6b9599520340a223"
+      },
+      "visual": {
+        "expectedCue": "Glass cartridge, two conductive end caps and a continuous thin fusible link inside.",
+        "decision": "added",
+        "reason": "Actual full-source,512px and120px pixels show a clear glass tube between two metal end caps; one continuous thin link connects both cap interiors. No markings or spurious coil. Fuse geometry legible at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full-source,512px and120px inspection: precise metallic technical object/cutaway on slate with restrained amber accents and clear thumbnail geometry."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "33eb3955ed9bd43acde52bc2bb5da9cd467cd6d24f22501f6b9599520340a223",
+          "inspectedAt": "2026-10-27T13:03:06.099864+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Transparent glass cartridge has two metal endcaps connected by a thin internal fusible link, rather than a resistor or empty glass tube."
+        }
+      }
+    },
+    {
+      "entryId": "relay",
+      "sourceWord": "relay",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "relay:meaning-1",
+          "pos": "n.",
+          "en": "An electrically controlled switch that opens or closes a circuit in response to an input signal."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The relay has a coil beside its contacts.",
+          "senseId": "relay:meaning-1"
+        },
+        {
+          "en": "A small signal controls the relay.",
+          "senseId": "relay:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/relay.webp",
+        "sha256": "a9d99660b40c395632f061ed76e84bf6c48a5cc402af920b615cb91674891e0b"
+      },
+      "visual": {
+        "expectedCue": "Coil/core and hinged armature mechanically control separate electrical contacts inside a transparent relay.",
+        "decision": "added",
+        "reason": "Corrected candidate inspected at original full size,512px and120px: coil leads use left two terminals; continuous copper leaf from third terminal carries upper moving contact; fourth terminal carries fixed lower contact. Clear gap and insulating pusher separate electrical switched path from steel armature. Original floating-contact candidate rejected privately.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full-source,512px and120px inspection: precise metallic technical object/cutaway on slate with restrained amber accents and clear thumbnail geometry."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a9d99660b40c395632f061ed76e84bf6c48a5cc402af920b615cb91674891e0b",
+          "inspectedAt": "2026-10-27T13:03:06.099865+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Transparent case exposes coil, moving armature and a conductive contact leaf linked to a switched terminal; separate coil/contact paths distinguish a relay from a manual switch."
+        }
+      }
+    },
+    {
+      "entryId": "switch",
+      "sourceWord": "switch",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "switch:meaning-1",
+          "pos": "n.",
+          "en": "A device that opens or closes an electrical path to control current."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The switch has a small lever.",
+          "senseId": "switch:meaning-1"
+        },
+        {
+          "en": "The diagram shows the switch in the open position.",
+          "senseId": "switch:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/switch.webp",
+        "sha256": "2413f4dff2eaead04ed84fdcfc1a09af0eaebf19a9c00526517929eee3bfafd0"
+      },
+      "visual": {
+        "expectedCue": "Manual toggle lever and separated internal contacts identify an open electrical switch.",
+        "decision": "added",
+        "reason": "Actual full-source and final512/120 pixels show manual toggle and pivot linkage, black insulating lower base and two terminals. A large visible gap separates raised moving contact from fixed lower contact, clearly showing an open switch. No invented readings or branding.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full-source,512px and120px inspection: precise metallic technical object/cutaway on slate with restrained amber accents and clear thumbnail geometry."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2413f4dff2eaead04ed84fdcfc1a09af0eaebf19a9c00526517929eee3bfafd0",
+          "inspectedAt": "2026-10-27T13:06:03.214657+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Cutaway toggle switch shows opposed conductive contact faces separated by a clear gap, connected to its manually operated lever and terminal structure."
+        }
+      }
+    },
+    {
+      "entryId": "battery",
+      "sourceWord": "battery",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "battery:meaning-1",
+          "pos": "n.",
+          "en": "A source that converts stored chemical energy into electrical energy."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The battery has a positive terminal and a negative terminal.",
+          "senseId": "battery:meaning-1"
+        },
+        {
+          "en": "The small lamp gets energy from the battery.",
+          "senseId": "battery:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/battery.webp",
+        "sha256": "0d709db1533a6c908dbc9f083abb020c97e2c8345c033e53491653e834476283"
+      },
+      "visual": {
+        "expectedCue": "Rectangular chemical battery has distinct positive and negative top terminals with correct polarity symbols.",
+        "decision": "added",
+        "reason": "Full-source,512px and120px review confirms rectangular battery with one raised round positive snap and larger hex negative socket, each correctly marked + or minus. No numeric rating, fake display or branding. Both terminals stay separate and readable.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full-source,512px and120px inspection: precise metallic technical object/cutaway on slate with restrained amber accents and clear thumbnail geometry."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0d709db1533a6c908dbc9f083abb020c97e2c8345c033e53491653e834476283",
+          "inspectedAt": "2026-10-27T13:06:03.214658+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Two separated snap terminals have a small round positive connector and larger hexagonal negative connector on an otherwise unmarked battery."
+        }
+      }
+    },
+    {
+      "entryId": "cable",
+      "sourceWord": "cable",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "cable:meaning-1",
+          "pos": "n.",
+          "en": "A covered assembly of one or more electrical conductors for carrying power or signals."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cable contains several insulated conductors.",
+          "senseId": "cable:meaning-1"
+        },
+        {
+          "en": "The outer sheath protects the cable.",
+          "senseId": "cable:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cable.webp",
+        "sha256": "1991471fdd7d48f5a142df4a50fe9b107974e0fa8af6db7457b6bac2591b5377"
+      },
+      "visual": {
+        "expectedCue": "Three individually insulated copper conductors share one outer cable sheath.",
+        "decision": "added",
+        "reason": "Actual full-source,512px and120px review: three separately insulated stranded copper conductors enter one continuous shared outer sheath. No unrelated loose wires. Pictured multicore subtype is clearly distinguished from the single-core wire image; text explicitly permits one-or-more conductors.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full-source,512px and120px inspection: precise metallic technical object/cutaway on slate with restrained amber accents and clear thumbnail geometry."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1991471fdd7d48f5a142df4a50fe9b107974e0fa8af6db7457b6bac2591b5377",
+          "inspectedAt": "2026-10-27T13:08:33.843731+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Shared outer sheath encloses three individually insulated stranded copper conductors; it illustrates the multicore subtype rather than defining all cables."
+        }
+      }
+    },
+    {
+      "entryId": "wire",
+      "sourceWord": "wire",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "wire:meaning-1",
+          "pos": "n.",
+          "en": "A thin length of metal used as an electrical conductor."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The wire has a copper core.",
+          "senseId": "wire:meaning-1"
+        },
+        {
+          "en": "A layer of insulation covers the wire.",
+          "senseId": "wire:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/wire.webp",
+        "sha256": "91b1174153ed704c9e7fd2b04ee7f901f4c83910691eafa5c7e62fd5f8e814a9"
+      },
+      "visual": {
+        "expectedCue": "One solid copper core inside a single insulating sleeve, distinct from the multicore cable.",
+        "decision": "added",
+        "reason": "Actual full-source,512px and120px inspection shows exactly one continuous solid copper core emerging from one insulating sleeve. Single-core shape is unmistakable beside the three-conductor cable; no stray strands or merged cores.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full-source,512px and120px inspection: precise metallic technical object/cutaway on slate with restrained amber accents and clear thumbnail geometry."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "91b1174153ed704c9e7fd2b04ee7f901f4c83910691eafa5c7e62fd5f8e814a9",
+          "inspectedAt": "2026-10-27T13:08:33.843732+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "One smooth solid copper core emerges from a single orange insulation sleeve; distinct from the multicore cable cross-section."
+        }
+      }
+    },
+    {
+      "entryId": "socket",
+      "sourceWord": "socket",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "socket:meaning-1",
+          "pos": "n.",
+          "en": "An electrical fitting with openings that receive the pins of a plug."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The socket has openings for the plug pins.",
+          "senseId": "socket:meaning-1"
+        },
+        {
+          "en": "The drawing shows the front of the socket.",
+          "senseId": "socket:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/socket.webp",
+        "sha256": "4dd014af7535f52a179c097b521fbb29c32d27683a577132f4a4f2d03c15ac3d"
+      },
+      "visual": {
+        "expectedCue": "Electrical socket has two vertical flat-pin slots and one lower ground opening; it receives a matching plug.",
+        "decision": "added",
+        "reason": "Full-source and512/120px inspection: female receptacle has two vertical flat-pin slots and a centered lower grounding opening, with larger left neutral slot. No protruding pins, ratings or text. Cutaway shows internal contact fittings; terminology tip notes country-specific forms.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full-source,512px and120px inspection: precise metallic technical object/cutaway on slate with restrained amber accents and clear thumbnail geometry."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4dd014af7535f52a179c097b521fbb29c32d27683a577132f4a4f2d03c15ac3d",
+          "inspectedAt": "2026-10-27T13:08:33.843733+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Female receptacle has two vertical slots and a lower ground opening in a faceplate, matching the selected three-pin plug geometry."
+        }
+      }
+    },
+    {
+      "entryId": "plug",
+      "sourceWord": "plug",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "plug:meaning-1",
+          "pos": "n.",
+          "en": "An electrical connector with pins that fit into a matching socket."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The plug has two flat pins and a round grounding pin.",
+          "senseId": "plug:meaning-1"
+        },
+        {
+          "en": "The cable enters the back of the plug.",
+          "senseId": "plug:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/plug.webp",
+        "sha256": "75986e24f824a625de49d01a4be6b2b5f9cf9ebc90997fd98c2f13e4cbfc2b8e"
+      },
+      "visual": {
+        "expectedCue": "Male electrical connector with two flat blades and one round ground pin, cable entering its back.",
+        "decision": "added",
+        "reason": "Actual full-source,512px and120px inspection: exactly two flat blades plus one lower round ground pin project from an insulated body, with rear cable and strain relief. Male connector complements the female two-slot/lower-ground socket; no spurious pins, numeric claims or branding.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full-source,512px and120px inspection: precise metallic technical object/cutaway on slate with restrained amber accents and clear thumbnail geometry."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "75986e24f824a625de49d01a4be6b2b5f9cf9ebc90997fd98c2f13e4cbfc2b8e",
+          "inspectedAt": "2026-10-27T13:12:02.817745+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Male connector has two flat blades and a lower round ground pin, complementing the female socket opening geometry."
+        }
+      }
+    },
+    {
+      "entryId": "insulator",
+      "sourceWord": "insulator",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "insulator:meaning-1",
+          "pos": "n.",
+          "en": "A material or object that strongly resists the movement of electric charge."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The insulator supports the wire away from the metal bracket.",
+          "senseId": "insulator:meaning-1"
+        },
+        {
+          "en": "Ceramic is used as an electrical insulator.",
+          "senseId": "insulator:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/insulator.webp",
+        "sha256": "6b1865ff67641b97ac9c41e2ea32f365b411af4aa8278b6f7fd5e168963540ff"
+      },
+      "visual": {
+        "expectedCue": "Ribbed ceramic support separates the top electrical conductor from its lower metal mounting bracket.",
+        "decision": "added",
+        "reason": "Actual full-source,512px and120px inspection shows ribbed ceramic support between overhead conductor and metal bracket. Lower mounting stud ends well below top conductor in a cutaway cavity; solid ceramic remains between them and no continuous metal bypass exists. Top tie holds conductor in groove; thumbnail clearly reads insulating support.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full-source,512px and120px inspection: precise metallic technical object/cutaway on slate with restrained amber accents and clear thumbnail geometry."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6b1865ff67641b97ac9c41e2ea32f365b411af4aa8278b6f7fd5e168963540ff",
+          "inspectedAt": "2026-10-27T13:12:02.817746+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Ribbed ceramic support separates the overhead conductor from the lower metal stud/bracket; cutaway shows the stud stopping below the intact ceramic barrier."
+        }
+      }
+    },
+    {
+      "entryId": "conductor",
+      "sourceWord": "conductor",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "conductor:meaning-1",
+          "pos": "n.",
+          "en": "A material or object through which electric charge can move easily."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The conductor carries current through the circuit.",
+          "senseId": "conductor:meaning-1"
+        },
+        {
+          "en": "Copper is a good electrical conductor.",
+          "senseId": "conductor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/conductor.webp",
+        "sha256": "e0429b3a360aee49c46c3529881a199301fe9466d56db002b9001a8e3f0099c2"
+      },
+      "visual": {
+        "expectedCue": "Copper strip bridges separated insulated terminals in a complete battery/lamp circuit, highlighting conductive material.",
+        "decision": "added",
+        "reason": "Full generated source and converted512/120 inspected. Battery terminals are separate, each wire ends at a terminal, copper strip closes the only loop and lamp contacts sit on ceramic. One targeted correction made both wires neutral gray to avoid arbitrary red/blue polarity association.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Technical slate/amber object study with a broad copper teaching focus, silver-gray traces and ceramic supports."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e0429b3a360aee49c46c3529881a199301fe9466d56db002b9001a8e3f0099c2",
+          "inspectedAt": "2026-10-27T13:06:03.214660+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Copper strip bridges two terminal blocks in a closed neutral-wire battery/lamp loop. The strip is the foreground teaching focus and current-path continuity is traceable."
+        }
+      }
+    },
+    {
+      "entryId": "voltmeter",
+      "sourceWord": "voltmeter",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "voltmeter:meaning-1",
+          "pos": "n.",
+          "en": "An instrument that measures the electrical potential difference between two points."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The voltmeter is connected across the resistor.",
+          "senseId": "voltmeter:meaning-1"
+        },
+        {
+          "en": "The diagram places the voltmeter in parallel with the load.",
+          "senseId": "voltmeter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/voltmeter.webp",
+        "sha256": "d7865716dac1a2be661c73c3c5e467336e56110ee9d19dae20355c245b792437"
+      },
+      "visual": {
+        "expectedCue": "V-marked voltmeter connects across the two ends of a resistor in parallel with its load branch.",
+        "decision": "added",
+        "reason": "Full generated source and final512/120 inspected. Exactly four wires remain: two red at left resistor node, short black meter probe and light-silver outer battery return at right node. V is the only character, with no numerical reading. Correct-topology candidate was recovered by one root-authorized color-only edit after a failed rerouting candidate added an unwanted lower loop; the extra-loop candidate is retained privately and excluded.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Slate/amber technical circuit study, dominant clean V meter and physically traceable nodes."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d7865716dac1a2be661c73c3c5e467336e56110ee9d19dae20355c245b792437",
+          "inspectedAt": "2026-10-27T13:14:27.879401+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Four separate leads form battery/resistor and meter branches across the same two resistor nodes. The light-gray outer battery-negative return is distinct from the case at120px; face has V only, no numeric reading."
+        }
+      }
+    },
+    {
+      "entryId": "ammeter",
+      "sourceWord": "ammeter",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "ammeter:meaning-1",
+          "pos": "n.",
+          "en": "An instrument that measures electric current through a circuit branch."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ammeter is connected in series with the lamp.",
+          "senseId": "ammeter:meaning-1"
+        },
+        {
+          "en": "Current passes through the ammeter in this diagram.",
+          "senseId": "ammeter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ammeter.webp",
+        "sha256": "eb17e771c7d0ffa6db5559b158d3b3ea44e4305548955ae709b87b74669a57d4"
+      },
+      "visual": {
+        "expectedCue": "A-marked ammeter lies in the only series path linking battery and lamp.",
+        "decision": "added",
+        "reason": "Full generated source and final512/120 inspected. Exactly three wires connect battery positive to meter input, meter output to one lamp post, and the other lamp post to battery negative. No meter bypass, wire crossover or glass contact. Face contains one A and no numerical reading.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver/slate instrument study with amber fittings, clear full-loop topology and ceramic lamp base."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T13:14:27.924483+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "eb17e771c7d0ffa6db5559b158d3b3ea44e4305548955ae709b87b74669a57d4",
+          "inspectedAt": "2026-10-27T13:08:33.843734+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Three continuous leads form one battery-to-meter-to-lamp-to-battery series loop without a bypass; the face contains only the essential A letter."
         }
       }
     }
