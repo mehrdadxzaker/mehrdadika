@@ -38,6 +38,27 @@ This establishes a bounded local cold-reload and navigation result. It does not 
 
 ## Limits
 
-No public GitHub repository, hosted deployment, GitHub Actions run, cross-browser/device qualification or learning-outcome study was performed. Automated backup validation and transactional merge tests pass; a complete manual cross-device import/export exercise was not performed. Audio controls were exercised, but perceptual pronunciation quality was not independently reviewed. The starter corpus remains an AI-assisted preview, including healthcare and engineering vocabulary.
+The original local checks above preceded public publication. Cross-browser/device qualification and a learning-outcome study were not performed. Automated backup validation and transactional merge tests pass; a complete manual cross-device import/export exercise was not performed. Audio controls were exercised, but perceptual pronunciation quality was not independently reviewed. The starter corpus remains an AI-assisted preview, including healthcare and engineering vocabulary.
 
 Storage eviction, low quota, arbitrary release-update interruption and rollback combinations still need a broader release qualification run. These checks are deliberately bounded functional checks, not load or stress testing.
+
+## Public publishing and Portuguese milestone
+
+The public repository is [mehrdadxzaker/mehrdadika](https://github.com/mehrdadxzaker/mehrdadika), and the site is hosted at [mehrdadxzaker.github.io/mehrdadika](https://mehrdadxzaker.github.io/mehrdadika/). The first public source revision was `294096582341601d1052dfd330f90f5e9fe71dcd`: its [Checks run](https://github.com/mehrdadxzaker/mehrdadika/actions/runs/40431571195) and [Pages run](https://github.com/mehrdadxzaker/mehrdadika/actions/runs/40431591162) both succeeded. The workflow's live `build-info.json` check and a separate public HTTP read returned the same revision. Browser verification opened the public cooking collection and complete bilingual `bake` card, including its 512-pixel illustration.
+
+The Portuguese milestone passes 83 local tests, content/locale snapshot checks, TypeScript and the production build under `/mehrdadika/`. The original content CLI still accepts `npm run build:content -- --check --channel preview`; separate locale generation preserves that argument forwarding. Tests include draft/withdrawn translation exclusion, exact-English source binding, unknown nested field exclusion and generated snapshot consistency. A service-worker regression verifies that opening JSON metadata or an image as a document cannot replace the offline HTML app shell.
+
+Local browser checks on `#/pt-BR` confirmed:
+
+- Portuguese metadata and computed LTR direction, then restoration to Persian/RTL when switching back.
+- Searching `pressao` finds `pressure`, while displaying the correctly accented Portuguese text.
+- Distinct medical and engineering definitions, English–Portuguese examples, collocations and usage guidance.
+- Saving a word, retaining it after reload, showing it in the saved collection, and removing it.
+- All 32 category choices and the explicit upcoming state for gaming/digital culture.
+- Native-dialog Escape handling and a 390-pixel phone dialog with no horizontal document overflow.
+- Persian study history remaining present after visiting the separately namespaced Portuguese collection.
+- A fresh visitor choosing Portuguese from the welcome screen with the keyboard, without completing the Persian onboarding flow.
+
+Screenshots include `portuguese-pressure-desktop.png` and `portuguese-pressure-phone.png` under the ignored evidence folder. The [Pages workflow](https://github.com/mehrdadxzaker/mehrdadika/actions/workflows/pages.yml) verifies the source revision on each explicit deployment. The site's `build-info.json` identifies the currently served build.
+
+Portuguese currently covers vocabulary discovery, cards, search, categories, pronunciation and saved words. Its reading and spaced-review flows are not localized. Translations are an unreviewed AI-assisted preview, and European Portuguese is planned separately.

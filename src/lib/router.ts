@@ -8,6 +8,7 @@ export type Route =
   | { page: "practice" }
   | { page: "me" }
   | { page: "about" }
+  | { page: "portuguese" }
   | { page: "read"; id?: string; tab?: "short" | "books" }
   | { page: "books"; book: string; chapter?: number }
   | { page: "paraphrase"; id?: string }
@@ -31,6 +32,7 @@ function parse(hash: string): Location {
   else if (seg[0] === "practice") route = { page: "practice" };
   else if (seg[0] === "me") route = { page: "me" };
   else if (seg[0] === "about") route = { page: "about" };
+  else if (seg[0] === "pt-BR") route = { page: "portuguese" };
   else if (seg[0] === "read") route = { page: "read", id: params.get("id") || undefined, tab: params.get("tab") === "books" ? "books" : "short" };
   else if (seg[0] === "books" && seg[1]) route = { page: "books", book: decodeURIComponent(seg[1]), chapter: seg[2] && /^\d+$/.test(seg[2]) ? Number(seg[2]) : undefined };
   else if (seg[0] === "paraphrase" || seg[0] === "confuse") route = { page: seg[0], id: params.get("id") || undefined };
@@ -51,7 +53,7 @@ export function href(route: Route, word?: string | null) {
   if ((route.page === "paraphrase" || route.page === "confuse") && route.id) params.set("id", route.id);
   if (word) params.set("w", word);
   const q = params.toString();
-  const path = route.page === "today" ? "" : route.page === "books" ? `books/${encodeURIComponent(route.book)}${route.chapter ? `/${route.chapter}` : ""}` : route.page;
+  const path = route.page === "today" ? "" : route.page === "portuguese" ? "pt-BR" : route.page === "books" ? `books/${encodeURIComponent(route.book)}${route.chapter ? `/${route.chapter}` : ""}` : route.page;
   return `#/${path}${q ? `?${q}` : ""}`;
 }
 

@@ -1,8 +1,14 @@
 # Mehrdadika · مهردادیکا
 
-An open-source visual English-learning atlas for Persian speakers, adapted from [Word Atlas](https://github.com/designfuchen/word-atlas). The project follows Word Atlas’s illustrated vocabulary cards, daily learning, recall, spaced review, explorable galaxy and calm visual design, with a Persian interface and a growing subject catalog.
+An open-source visual English-learning atlas for Persian speakers, with a Brazilian Portuguese preview, adapted from [Word Atlas](https://github.com/designfuchen/word-atlas). The project follows Word Atlas’s illustrated vocabulary cards, daily learning, recall, spaced review, explorable galaxy and calm visual design, with a growing subject catalog.
 
-[فارسی](README.fa.md) · [Implementation status](docs/implementation-status.md) · [Implementation plan](IMPLEMENTATION_PLAN.md) · [Category catalog](docs/category-catalog.json) · [Contributing](CONTRIBUTING.md) · [Content contributions](docs/contributing-content.md)
+[Use the website](https://mehrdadxzaker.github.io/mehrdadika/) · [Portuguese preview](https://mehrdadxzaker.github.io/mehrdadika/#/pt-BR) · [فارسی](README.fa.md) · [Português](README.pt-BR.md) · [Implementation status](docs/implementation-status.md) · [Contributing](CONTRIBUTING.md)
+
+## Interface languages
+
+The Persian edition includes the full learning, review, reading and practice experience. The first `pt-BR` preview offers illustrated English–Portuguese cards, all 32 category labels, search, CEFR filtering, UK/US pronunciation and saved words. Its 56 words and 57 meanings are translated; Portuguese reading and spaced-review flows will follow in later stages. European Portuguese is a planned, separate locale rather than an unreviewed relabeling of the Brazilian edition.
+
+Both editions share stable English identities and licensed media. Translation drafts are filtered against the actual published English release before they enter the app bundle. See [Portuguese content](docs/portuguese-content.md), the [localization roadmap](docs/localization-roadmap.md), the [implementation plan](IMPLEMENTATION_PLAN.md) and the [category catalog](docs/category-catalog.json).
 
 ## Run locally
 

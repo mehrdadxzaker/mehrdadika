@@ -162,3 +162,75 @@ test("complete public packs survive VaryOrigin differences on crossorigin module
   );
   assert.equal(ignored, false);
 });
+
+test("metadata and asset navigations keep their own cache keys and cannot replace the offline app shell", async () => {
+  const root = "https://example.test/mehrdadika/";
+  const entries = new Map();
+  const requestUrl = (request) =>
+    typeof request === "string" ? request : request.url;
+  const cache = {
+    put: async (request, response) =>
+      entries.set(requestUrl(request), response.clone()),
+    match: async (request) => entries.get(requestUrl(request))?.clone(),
+    keys: async () => [...entries.keys()].map((url) => new Request(url)),
+  };
+  context.caches = { open: async () => cache, keys: async () => [] };
+  let online = true;
+  let buildVersion = 1;
+  context.fetch = async (request) => {
+    if (!online) throw new Error("offline");
+    const path = new URL(requestUrl(request)).pathname;
+    if (path.endsWith("build-info.json"))
+      return new Response(JSON.stringify({ version: buildVersion }), {
+        headers: { "Content-Type": "application/json" },
+      });
+    if (path.endsWith("brand/card.svg"))
+      return new Response("<svg>card image</svg>", {
+        headers: { "Content-Type": "image/svg+xml" },
+      });
+    return new Response("<!doctype html><main>Mehrdadika app</main>", {
+      headers: { "Content-Type": "text/html; charset=utf-8" },
+    });
+  };
+  const navigate = async (path) => {
+    const request = new Request(new URL(path, root));
+    Object.defineProperty(request, "mode", { value: "navigate" });
+    let response;
+    events.get("fetch")({
+      request,
+      respondWith: (promise) => {
+        response = promise;
+      },
+    });
+    return await response;
+  };
+
+  assert.match(await (await navigate("")).text(), /Mehrdadika app/);
+  assert.deepEqual(await (await navigate("build-info.json")).json(), {
+    version: 1,
+  });
+  buildVersion = 2;
+  assert.deepEqual(await (await navigate("build-info.json")).json(), {
+    version: 2,
+  });
+  assert.equal(
+    await (await navigate("brand/card.svg")).text(),
+    "<svg>card image</svg>",
+  );
+  assert.match(await entries.get(root).clone().text(), /Mehrdadika app/);
+  assert.equal(
+    await entries.get(new URL("brand/card.svg", root).href).clone().text(),
+    "<svg>card image</svg>",
+  );
+
+  online = false;
+  assert.match(await (await navigate("")).text(), /Mehrdadika app/);
+  assert.match(await (await navigate("index.html")).text(), /Mehrdadika app/);
+  assert.deepEqual(await (await navigate("build-info.json")).json(), {
+    version: 2,
+  });
+  assert.equal(
+    await (await navigate("brand/card.svg")).text(),
+    "<svg>card image</svg>",
+  );
+});

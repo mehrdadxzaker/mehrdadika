@@ -78,10 +78,11 @@ The current source snapshot is `content/entries.json`, the bilingual taxonomy is
 ```sh
 npm run check:content
 npm run build:content
+npm run build:locales
 npm run build
 ```
 
-The compiler writes an immutable hashed manifest, compact index, entry shards and copied media under `public/content/`, and changes `current.json` only after all release files are present. Retain old supported releases when deploying. Draft and withdrawn meanings/items are excluded. A static release snapshot can include newly completed modules while other categories remain planned.
+The compiler writes an immutable hashed manifest, compact index, entry shards and copied media under `public/content/`, and changes `current.json` only after all release files are present. Retain old supported releases when deploying. Draft and withdrawn meanings/items are excluded. A static release snapshot can include newly completed modules while other categories remain planned. `build:locales` then filters translation overlays against that published snapshot; it never imports the authoring vocabulary into the client. Both development and production prebuild hooks run the two stages in order. The original `build:content -- --channel … --check` argument forwarding remains available.
 
 The preview channel records AI-assisted content honestly. To qualify a vocabulary sense for the stable channel, its `review` must include `status: "approved"`, `human: true`, a named `reviewer`, and a matching `contentHash`. Medicine and engineering meanings additionally require `domainQualified: true` and a named `domainReviewer`. Review declarations must represent real review; adding flags does not perform that review. The reading schema uses `humanReviewed` for its language review record and the same qualified-domain fields for specialist material. Follow the [exact-content review digest workflow](review-digests.md) to bind approval to the inspected text and media; later edits invalidate that approval.
 

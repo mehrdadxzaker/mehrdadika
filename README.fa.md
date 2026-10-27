@@ -2,7 +2,9 @@
 
 مهردادیکا یک اطلس تصویری و متن‌باز برای یادگیری انگلیسی با توضیح‌های فارسی است. این پروژه با اقتباس از [Word Atlas](https://github.com/designfuchen/word-atlas) ساخته می‌شود و کارت‌های تصویری واژگان، یادگیری روزانه، یادآوری فعال، مرور فاصله‌دار و نمایش پیشرفت در یک آسمان واژگانی را دنبال می‌کند.
 
-[English](README.md) · [وضعیت پیاده‌سازی](docs/implementation-status.md) · [برنامهٔ پیاده‌سازی](IMPLEMENTATION_PLAN.md) · [فهرست دسته‌ها](docs/category-catalog.json) · [راهنمای مشارکت](CONTRIBUTING.md)
+[وب‌سایت](https://mehrdadxzaker.github.io/mehrdadika/) · [پیش‌نمایش پرتغالی](https://mehrdadxzaker.github.io/mehrdadika/#/pt-BR) · [English](README.md) · [Português](README.pt-BR.md) · [وضعیت پیاده‌سازی](docs/implementation-status.md) · [راهنمای مشارکت](CONTRIBUTING.md)
+
+نسخهٔ آزمایشی پرتغالی برزیلی، کارت‌های انگلیسی–پرتغالی، جست‌وجو، ۳۲ دسته، تلفظ و نشان‌گذاری واژه‌ها را ارائه می‌کند. بخش‌های یادگیری با مرور فاصله‌دار و کتابخانهٔ پرتغالی در مراحل بعدی گسترش می‌یابند. ترجمه‌های تازه نیز مانند محتوای فارسی، پیش‌نمایش ویرایشی و نیازمند بازبینی انسانی هستند.
 
 ## اجرای محلی
 

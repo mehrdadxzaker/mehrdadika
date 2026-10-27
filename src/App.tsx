@@ -32,6 +32,7 @@ const NAV: { page: Route["page"]; label: string; icon: typeof Compass }[] = [
 const Reading = lazy(() => import("./pages/Reading").then(m => ({ default: m.Reading })));
 const Paraphrase = lazy(() => import("./pages/Paraphrase").then(m => ({ default: m.Paraphrase })));
 const Confusables = lazy(() => import("./pages/Confusables").then(m => ({ default: m.Confusables })));
+const Portuguese = lazy(() => import("./pages/Portuguese").then(m => ({ default: m.Portuguese })));
 
 function useTheme() {
   const theme = useStore((s) => s.settings.theme);
@@ -46,6 +47,7 @@ function useTheme() {
 }
 
 export default function App() {
+  const { route } = useLocation();
   const [atlas, setAtlas] = useState<Atlas | null>(null);
   const [open, setOpen] = useState<Atlas | null>(null);
   const [priv, setPriv] = useState<Atlas | null>(null);
@@ -96,7 +98,11 @@ export default function App() {
     );
   return (
     <AtlasContext.Provider value={atlas}>
-      <Shell privateAvailable={!!priv} />
+      {route.page === "portuguese" ? (
+        <Suspense fallback={<div className="boot" role="status" lang="pt-BR" dir="ltr">Carregando atlas…</div>}>
+          <Portuguese />
+        </Suspense>
+      ) : <Shell privateAvailable={!!priv} />}
     </AtlasContext.Provider>
   );
 }
@@ -146,6 +152,7 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
             ))}
           </nav>
           <div className="topbar-tools">
+            <a className="language-link" href="#/pt-BR" lang="pt-BR" dir="ltr" aria-label="Português (Brasil) — prévia" title="Português (Brasil) — prévia">PT</a>
             <button className="search-pill" onClick={() => setPalette(true)} aria-label="جست‌وجوی واژه">
               <Search size={17} />
               <span>جست‌وجوی واژه</span>

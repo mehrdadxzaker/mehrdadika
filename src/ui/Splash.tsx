@@ -40,7 +40,7 @@ interface P {
 
 const ease = (t: number) => 1 - Math.pow(1 - Math.min(1, Math.max(0, t)), 3);
 
-/** Sample bright pixels of the logo, the Chinese name and the wordmark as particle targets. */
+/** Sample bright pixels of the logo, the Persian name and the wordmark as particle targets. */
 function targets(w: number, h: number, count: number) {
   const c = document.createElement("canvas");
   c.width = w;
@@ -227,6 +227,7 @@ export function Splash({ onDone }: { onDone: () => void }) {
 
   useEffect(() => {
     const key = (e: KeyboardEvent) => {
+      if ((e.target as HTMLElement)?.closest("a, button, input, select, textarea")) return;
       if (e.metaKey || e.ctrlKey || e.altKey || e.key === "Tab") return;
       e.preventDefault();
       if (e.key === "Escape") open(false);
@@ -241,6 +242,7 @@ export function Splash({ onDone }: { onDone: () => void }) {
       <div className="door door-l" />
       <div className="door door-r" />
       <div className="splash-light" />
+      <a className="splash-language language-link" href="#/pt-BR" lang="pt-BR" dir="ltr" onClick={e => e.stopPropagation()}>Português (Brasil) · prévia</a>
       <canvas ref={canvas} className="splash-canvas" aria-hidden="true" />
       {reduce && (
         <div className="splash-static">

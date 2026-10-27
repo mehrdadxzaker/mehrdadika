@@ -11,10 +11,12 @@
     "check:atlas": "npm run check:content",
     "build:atlas": "npm run build:content",
     "format": "prettier --write src vite.config.ts scripts/*.mjs package.json tsconfig.json",
-    "check:content": "node scripts/check-content.mjs",
+    "check:content": "node scripts/check-content.mjs && node scripts/build-locales.mjs --check",
     "build:content": "node scripts/build-content.mjs",
-    "predev": "npm run build:content",
-    "prebuild": "npm run build:content"
+    "build:locales": "node scripts/build-locales.mjs",
+    "check:locales": "node scripts/build-locales.mjs --check",
+    "predev": "npm run build:content && npm run build:locales",
+    "prebuild": "npm run build:content && npm run build:locales"
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.3.0",

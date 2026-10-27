@@ -15,6 +15,7 @@ function publicStaticRequest(request) {
     [
       "index.html",
       "app-manifest.json",
+      "build-info.json",
       "favicon.svg",
       "manifest.webmanifest",
     ].includes(relative) ||
@@ -232,8 +233,10 @@ self.addEventListener("fetch", (event) => {
     return;
   }
   if (
-    url.pathname.endsWith("/app-manifest.json") ||
-    url.pathname.endsWith("/index.html")
+    url.pathname === new URL(absolute("app-manifest.json")).pathname ||
+    url.pathname === new URL(absolute("build-info.json")).pathname ||
+    (url.pathname === new URL(absolute("index.html")).pathname &&
+      req.mode !== "navigate")
   ) {
     event.respondWith(
       (async () => {
@@ -244,24 +247,35 @@ self.addEventListener("fetch", (event) => {
             await cache.put(req, response.clone());
             return response;
           }
-          return (await cache.match(req)) ?? response;
+          return (await matchCached(req)) ?? response;
         } catch {
           return (
-            (await cache.match(req)) ?? new Response("Offline", { status: 503 })
+            (await matchCached(req)) ?? new Response("Offline", { status: 503 })
           );
         }
       })(),
     );
     return;
   }
-  if (req.mode === "navigate") {
+  // The app uses hash routes. Visiting a JSON file or image must never replace its shell.
+  if (
+    req.mode === "navigate" &&
+    (url.pathname === new URL(ROOT).pathname ||
+      url.pathname === new URL(absolute("index.html")).pathname)
+  ) {
     event.respondWith(
       (async () => {
         const cache = await caches.open(CACHE);
         try {
           const response = await boundedFetch(req);
-          if (response.status === 200) {
+          if (
+            response.status === 200 &&
+            /(?:text\/html|application\/xhtml\+xml)/i.test(
+              response.headers.get("Content-Type") ?? "",
+            )
+          ) {
             await cache.put(ROOT, response.clone());
+            await cache.put(absolute("index.html"), response.clone());
             return response;
           }
           return (await cache.match(ROOT)) ?? response;

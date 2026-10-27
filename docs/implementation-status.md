@@ -1,8 +1,8 @@
 # Mehrdadika implementation status
 
-Local implementation snapshot, October 26, 2026. Mehrdadika adapts the public Word Atlas application into a Persian-first English-learning website. It retains the reference’s visual foundation and five main destinations, with new reading and specialist practice features implemented over the public source.
+Implementation snapshot, October 26, 2026. Mehrdadika adapts the public Word Atlas application into a Persian-first English-learning website, with a Brazilian Portuguese vocabulary preview. It retains the reference’s visual foundation and five main destinations, with new reading and specialist practice features implemented over the public source.
 
-The application is available as local source and a static-build project. A public source repository, public URL and hosted deployment have not been created for this project. The [implementation plan](../IMPLEMENTATION_PLAN.md) remains the broader requirements and continuing roadmap; this document distinguishes current implementation from corpus readiness and release qualification.
+The [public source repository](https://github.com/mehrdadxzaker/mehrdadika) and [GitHub Pages website](https://mehrdadxzaker.github.io/mehrdadika/) are available. The [implementation plan](../IMPLEMENTATION_PLAN.md) remains the broader requirements and continuing roadmap; this document distinguishes current implementation from corpus readiness and release qualification.
 
 ## Current inventory
 
@@ -16,6 +16,7 @@ The application is available as local source and a static-build project. A publi
 | Book reading | One original short book with three chapters. |
 | Additional exercises | Two paraphrase levels and three confusable-word groups. |
 | Review channel | AI-assisted editorial preview. No independent human or specialist approval is claimed. |
+| Portuguese preview | `pt-BR` vocabulary discovery and cards: 56 words, 57 senses, 114 examples, 168 collocations, 56 usage notes, 32 category labels and six group labels. |
 
 Category and subcategory presence describes intended coverage. It does not mean that every branch already contains authored lessons. A shared sense can appear through multiple category routes without becoming a second learning record.
 
@@ -24,6 +25,7 @@ Category and subcategory presence describes intended coverage. It does not mean 
 | Surface | Current implementation |
 | --- | --- |
 | Persian shell | RTL Persian interface, isolated LTR English and IPA, self-hosted Persian/English fonts, light/dark/system themes, responsive navigation and optional original synthesized UI ambience. |
+| Portuguese edition | A separate LTR preview, native language links, search/category/level filters, bilingual cards, English pronunciation and saved words in a dedicated namespace. The published translation snapshot is filtered against the actual English release before bundling. |
 | Onboarding and Today | Starting-level and daily-target preferences, optional exam settings, daily/resumable study entry, activity/progress summaries and links into reading and Atlas. |
 | Atlas | Illustrated grid, compact list, search, category/level/status filters, the complete category chooser, word sheets, favorites and coverage information. |
 | Word detail | Bilingual meanings/examples, collocations, forms, usage tips, separate UK/US controls, inline lookup and locally rendered share images. |
@@ -63,7 +65,7 @@ For a static deployment under a subpath:
 ATLAS_BASE=/mehrdadika/ npm run build
 ```
 
-Use `/` for domain-root hosting. Retain the generated immutable content files when publishing updates and configure all app/content/media URLs under the same base path. The included GitHub Pages workflow runs only when explicitly dispatched after a public repository and Pages settings exist. It has not been run for a public deployment here.
+Use `/` for domain-root hosting. Retain the generated immutable content files when publishing updates and configure all app/content/media URLs under the same base path. The GitHub Pages workflow runs only when explicitly dispatched and verifies the live `build-info.json` source revision after deploying. It has been used for the public site; each later update still requires an explicit deployment.
 
 ## Content release workflow
 
@@ -82,6 +84,7 @@ npm run build:content -- --check --channel preview
 
 ```sh
 npm run build:content -- --channel preview
+npm run build:locales
 npm run check:content
 npm run build
 ```
@@ -107,8 +110,9 @@ The current preview vocabulary is expected to fail that stable gate because inde
 - The reference’s optional extra appearance presets and alternate illustration collections are not included. The core light/dark presentation and one licensed illustration per starter word form the current visual baseline.
 - The current publisher builds a release from eligible source records. A separate content-authoring web interface, large editorial review operation and independent per-module publishing command remain future work.
 - Offline installation/update/rollback paths, storage quota failures and cross-browser/device behavior require their own release evidence. Availability of the controls or a passing source test alone does not establish complete offline qualification.
-- No public hosting, repository publication, custom domain, external contributor review or real-world learning-outcome evaluation has occurred as part of this local implementation.
+- Portuguese is an initial vocabulary preview. Its 348 subcategory labels, reading material, spaced-review flow and additional exercises are not yet localized. Saved Portuguese words are separate from Persian study history and its backup format. European Portuguese remains planned.
+- The site is hosted on GitHub Pages. A custom domain, independent external contributor review and real-world learning-outcome evaluation have not been completed.
 
 ## Verification record
 
-The production build, content validation and 69 automated tests pass. Desktop and phone browser checks cover the principal learning, discovery, reading and practice flows. A production offline pack installed 199 files (about 3.8 MB), and a cold reload and illustrated word-card lookup succeeded after the local server was stopped. See the [verification record](verification.md) for the exact scope, evidence and remaining qualification limits. GitHub Actions and public deployment have not run.
+The original Persian build passed 69 tests, local desktop/phone/offline checks and the first public CI/deployment runs. The Portuguese milestone adds locale/model, publication-filter and metadata-navigation regression tests; 83 tests and content checks pass locally. See the [verification record](verification.md) for deployment revisions, browser checks and remaining qualification limits.

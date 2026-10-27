@@ -11,4 +11,5 @@ html{direction:rtl}body{font-size:15px;line-height:1.85}button,input,select,text
 @media(max-width:759px){.home-galaxy .galaxy-mini{min-height:180px;height:180px}}
 @media(min-width:760px){.journey-body{margin-left:auto;margin-right:0}}
 @media(max-width:759px){.journey-art{position:absolute;inset:0;height:100%;aspect-ratio:auto}.journey-body{margin-top:0}}
+.language-link{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;min-width:36px;min-height:36px;padding:6px 10px;border:1px solid var(--line-strong);border-radius:999px;color:var(--ink);font-size:12px;white-space:nowrap;text-decoration:none;background:var(--card)}.welcome-language{margin-top:18px;font-size:12px}.splash-language{position:absolute;z-index:5;top:24px;left:24px;color:#f6f1e7;background:rgba(13,17,32,.6);border-color:rgba(246,241,231,.25)}
 .domain-subcategories{direction:rtl;text-align:right;line-height:2.2}.chip-preview{color:var(--ink-3);border:1px dashed var(--line-strong);background:transparent}
