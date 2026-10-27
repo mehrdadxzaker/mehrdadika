@@ -1,0 +1,23 @@
+name: Content correction
+description: Improve a translation, meaning, example, pronunciation or illustration.
+body:
+  - type: input
+    id: identity
+    attributes:
+      label: Word, sense ID and revision
+      description: Include the content release if available.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Current and proposed text or asset
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Explanation and references
+      description: Link reliable references and identify any domain review needed. A reference is not permission to copy its content.
+    validations:
+      required: true

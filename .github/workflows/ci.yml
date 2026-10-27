@@ -1,0 +1,37 @@
+name: Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install lockfile dependencies
+        run: npm ci --no-audit --no-fund
+        timeout-minutes: 5
+      - name: Unit and integration checks
+        run: npm test
+        timeout-minutes: 5
+      - name: Validate content
+        run: npm run check:content
+        timeout-minutes: 2
+      - name: Production build
+        run: npm run build
+        timeout-minutes: 3

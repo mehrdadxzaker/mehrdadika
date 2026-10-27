@@ -1,0 +1,16 @@
+.skill-scout/
+# Local reference captures are inspection evidence, not redistributable app assets.
+docs/evidence/
+
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+.DS_Store
+.local/
+test-results/
+playwright-report/
+__pycache__/
+*.pyc

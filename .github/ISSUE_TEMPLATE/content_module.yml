@@ -1,0 +1,21 @@
+name: New content module
+description: Propose a coherent addition to the growing catalog.
+body:
+  - type: input
+    id: category
+    attributes:
+      label: Category and target learner
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Learning objective and proposed coverage
+      description: Explain overlap with existing material, likely words/phrases and prerequisites.
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: References, rights, assets and reviewers
+      description: Identify what exists and what still needs production or review.

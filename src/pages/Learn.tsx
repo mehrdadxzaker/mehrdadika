@@ -1,0 +1,750 @@
+import {
+  ArrowRight,
+  Check,
+  Lightbulb,
+  RotateCcw,
+  Share2,
+  Volume2,
+  X,
+} from "lucide-react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { prefetch, useLearningAtlas, useEntry } from "../atlas/context";
+import type { Entry, WordRef } from "../atlas/types";
+import { play, stopAudio } from "../lib/audio";
+import { burst } from "../lib/burst";
+import { cue } from "../lib/sound";
+import { go } from "../lib/router";
+import { gap, normalize } from "../lib/text";
+import {
+  answer,
+  advance,
+  buildSession,
+  gradeFor,
+  sessionStats,
+} from "../store/session";
+import { Rating } from "../store/srs";
+import {
+  store,
+  useStore,
+  type ActiveSession,
+  type QuizKind,
+  type Step,
+} from "../store/store";
+import { EntryView, Highlight } from "../ui/EntryView";
+import { Illustration } from "../ui/Illustration";
+import { Galaxy } from "../galaxy/Galaxy";
+import { AmbiencePicker } from "../ui/Ambience";
+import { Ring } from "../ui/Ring";
+import { Speak } from "../ui/Speak";
+import { shareSession } from "../ui/shareSession";
+
+export function Learn() {
+  const atlas = useLearningAtlas();
+  const session = useStore((s) => s.progress.session);
+  const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    const { progress, settings } = store.get();
+    if (!progress.session) {
+      const s = buildSession(atlas, progress, settings);
+      if (!s.steps.length) {
+        go({ page: "today" }, null, true);
+        return;
+      }
+      store.progress((p) => ({ ...p, session: s }));
+    }
+  }, [atlas]);
+
+  const ids = useMemo(
+    () => [...new Set(session?.steps.map((s) => s.id) ?? [])],
+    [session?.id],
+  ); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => {
+    if (!ids.length) return;
+    let live = true;
+    // Load the first chunk before rendering, the rest in the background.
+    prefetch(atlas, ids.slice(0, 6)).then(() => live && setReady(true));
+    void prefetch(atlas, ids);
+    return () => {
+      live = false;
+    };
+  }, [atlas, ids]);
+
+  useEffect(() => () => stopAudio(), []);
+
+  if (!session || !ready)
+    return (
+      <div className="learn learn-loading">
+        <span className="spinner" />
+      </div>
+    );
+  if (session.finished || session.index >= session.steps.length)
+    return <Summary session={session} />;
+  return <Runner session={session} />;
+}
+
+function Runner({ session }: { session: ActiveSession }) {
+  const step = session.steps[session.index];
+  const total = session.steps.length;
+  const exit = () => {
+    stopAudio();
+    go({ page: "today" });
+  };
+  return (
+    <div className="learn">
+      <header className="learn-top">
+        <button
+          className="icon-btn"
+          onClick={exit}
+          aria-label="توقف و بازگشت به امروز"
+        >
+          <X size={22} />
+        </button>
+        <div
+          className="learn-progress"
+          role="progressbar"
+          aria-valuemin={0}
+          aria-valuemax={total}
+          aria-valuenow={session.index}
+        >
+          <span style={{ width: `${(session.index / total) * 100}%` }} />
+        </div>
+        <span className="learn-count">
+          {session.index + 1}
+          <small>/{total}</small>
+        </span>
+        <AmbiencePicker />
+      </header>
+      <main className="learn-stage" key={`${session.id}-${session.index}`}>
+        {step.kind === "intro" ? (
+          <Intro step={step} />
+        ) : (
+          <Quiz step={step as Step & { kind: QuizKind }} session={session} />
+        )}
+      </main>
+    </div>
+  );
+}
+
+function useStepTimer() {
+  const t = useRef(performance.now());
+  return () => (performance.now() - t.current) / 1000;
+}
+
+function Intro({ step }: { step: Step }) {
+  const atlas = useLearningAtlas();
+  const { entry, error } = useEntry(step.id);
+  const settings = useStore((s) => s.settings);
+  const elapsed = useStepTimer();
+  useEffect(() => {
+    if (entry && settings.autoplay)
+      void play(atlas.audio(entry, settings.accent), entry.w, settings.accent);
+  }, [entry, atlas, settings.autoplay, settings.accent]);
+  const next = useCallback(() => {
+    if (!entry) return;
+    stopAudio();
+    if (store.get().settings.sfx) void cue("flip");
+    advance(elapsed());
+  }, [elapsed, entry]);
+  useKeys({ Enter: next, " ": next });
+  if (!entry) return error ? <EntryLoadError /> : <span className="spinner" />;
+  return (
+    <div className="intro">
+      <p className="stage-label">
+        <span className="dot dot-new" /> آشنایی با واژهٔ تازه
+      </p>
+      <EntryView entry={entry} mode="intro" />
+      <footer className="learn-actions">
+        <button className="btn btn-primary btn-xl" onClick={next} autoFocus>
+          ادامه <ArrowRight size={20} />
+        </button>
+        <span className="hint-keys">
+          <kbd>Enter</kbd> ادامه
+        </span>
+      </footer>
+    </div>
+  );
+}
+
+function EntryLoadError() {
+  return <section className="panel" role="alert">
+    <h2>دریافت این واژه ممکن نشد.</h2>
+    <p>اتصال یا بستهٔ آفلاین را بررسی کنید. جای شما در این نوبت حفظ شده است.</p>
+    <button className="btn btn-primary" onClick={() => location.reload()}>تلاش دوباره</button>
+    <button className="btn btn-ghost" onClick={() => go({ page: "today" })}>بازگشت به امروز</button>
+  </section>;
+}
+
+const KIND_LABEL: Record<QuizKind, string> = {
+  meaning: "معنی این واژه چیست؟",
+  picture: "با کمک تصویر، جمله را کامل کنید",
+  listen: "گوش کنید؛ کدام واژه است؟",
+  spell: "املای واژه را بنویسید",
+};
+
+function Quiz({
+  step,
+  session,
+}: {
+  step: Step & { kind: QuizKind };
+  session: ActiveSession;
+}) {
+  const atlas = useLearningAtlas();
+  const ref = atlas.byId.get(step.id)!;
+  const { entry, error } = useEntry(step.id);
+  const settings = useStore((s) => s.settings);
+  const pending = session.pending;
+  const elapsed = useStepTimer();
+  const [hints, setHints] = useState(0);
+  const options = useMemo(
+    () => (step.options ?? []).map((id) => atlas.byId.get(id)!).filter(Boolean),
+    [atlas, step.options],
+  );
+
+  const submit = useCallback(
+    (value: string, correct: boolean) => {
+      if (pending || !entry) return;
+      const ms = elapsed() * 1000;
+      if (correct) {
+        const el = document.querySelector<HTMLElement>(
+          step.kind === "spell" ? ".slots" : `[data-option="${value}"]`,
+        );
+        const r = el?.getBoundingClientRect();
+        if (r) burst(r.left + r.width / 2, r.top + r.height / 2);
+      }
+      if (settings.sfx) void cue(correct ? "correct" : "wrong");
+      answer(
+        atlas,
+        step,
+        correct,
+        gradeFor(step.kind, correct, ms, hints > 0),
+        value,
+      );
+      if (entry)
+        void play(
+          atlas.audio(entry, settings.accent),
+          entry.w,
+          settings.accent,
+        );
+    },
+    [pending, elapsed, settings, atlas, step, hints, entry],
+  );
+
+  const next = useCallback(() => {
+    stopAudio();
+    advance(elapsed());
+  }, [elapsed]);
+
+  useEffect(() => {
+    if (step.kind === "listen" && entry && !pending)
+      void play(atlas.audio(entry, settings.accent), entry.w, settings.accent);
+  }, [step.kind, entry, atlas, settings.accent, pending]);
+
+  const keys: Record<string, () => void> = {};
+  if (pending && entry) {
+    keys.Enter = next;
+    keys[" "] = next;
+  } else if (entry && step.kind !== "spell") {
+    options.forEach(
+      (o, i) => (keys[String(i + 1)] = () => submit(o.id, o.id === ref.id)),
+    );
+  }
+  useKeys(keys);
+
+  if (!entry) return error ? <EntryLoadError /> : <span className="spinner" />;
+  const sentence = entry.ex[0] ? gap(entry.ex[0].en, entry.w) : null;
+
+  return (
+    <div
+      className={`quiz quiz-${step.kind} ${pending ? (pending.correct ? "is-right" : "is-wrong") : ""}`}
+    >
+      <p className="stage-label">
+        <span className={`dot ${step.retry ? "dot-retry" : "dot-review"}`} />
+        {step.retry ? "یک بار دیگر · " : ""}
+        {KIND_LABEL[step.kind]}
+      </p>
+
+      <section className="prompt">
+        {step.kind === "meaning" && (
+          <div className="prompt-word">
+            <h2 className="headword" lang="en" dir="ltr">
+              {entry.w}
+            </h2>
+            <Speak
+              url={atlas.audio(entry, settings.accent)}
+              text={entry.w}
+              accent={settings.accent}
+              label={
+                <span className="ipa">
+                  {settings.accent === "us"
+                    ? entry.us || entry.uk
+                    : entry.uk || entry.us}
+                </span>
+              }
+            />
+          </div>
+        )}
+        {step.kind === "picture" && (
+          <div className="prompt-picture">
+            <Illustration
+              src={atlas.img(entry)}
+              word={entry.w}
+              topic={ref.topic}
+              eager
+            />
+            <p className="cloze" lang="en" dir="ltr">
+              {sentence ? (
+                <>
+                  {sentence.before}
+                  <span className="blank">
+                    {pending ? sentence.hidden : "　　　"}
+                  </span>
+                  {sentence.after}
+                </>
+              ) : (
+                entry.senses[0].fa
+              )}
+            </p>
+            {sentence && pending && (
+              <p className="cloze-fa">{entry.ex[0].fa}</p>
+            )}
+          </div>
+        )}
+        {step.kind === "listen" && (
+          <div className="prompt-listen">
+            <button
+              className="listen-orb"
+              onClick={() =>
+                play(
+                  atlas.audio(entry, settings.accent),
+                  entry.w,
+                  settings.accent,
+                )
+              }
+              aria-label="دوباره گوش کنید"
+            >
+              <Volume2 size={40} strokeWidth={1.6} />
+              <span />
+            </button>
+            <button
+              className="link"
+              onClick={() =>
+                play(
+                  atlas.audio(entry, settings.accent),
+                  entry.w,
+                  settings.accent,
+                  0.7,
+                )
+              }
+            >
+              پخش آهسته‌تر
+            </button>
+          </div>
+        )}
+        {step.kind === "spell" && (
+          <SpellPrompt entry={entry} refw={ref} hints={hints} />
+        )}
+      </section>
+
+      {step.kind === "spell" ? (
+        <SpellInput
+          entry={entry}
+          pending={pending}
+          hints={hints}
+          onHint={() => setHints((h) => Math.min(entry.w.length - 1, h + 1))}
+          onSubmit={(v) => submit(v, normalize(v) === normalize(entry.w))}
+        />
+      ) : (
+        <ul
+          className={`options ${step.kind === "meaning" ? "options-fa" : "options-en"}`}
+        >
+          {options.map((o, i) => {
+            const isAnswer = o.id === ref.id;
+            const chosen = pending?.value === o.id;
+            const cls = pending
+              ? isAnswer
+                ? "is-answer"
+                : chosen
+                  ? "is-chosen"
+                  : "is-dim"
+              : "";
+            return (
+              <li key={o.id}>
+                <button
+                  className={`option ${cls}`}
+                  data-option={o.id}
+                  onClick={() => submit(o.id, isAnswer)}
+                  disabled={!!pending}
+                >
+                  <kbd>{i + 1}</kbd>
+                  <span
+                    lang={step.kind === "meaning" ? "fa" : "en"}
+                    dir={step.kind === "meaning" ? "rtl" : "ltr"}
+                  >
+                    {step.kind === "meaning" ? o.fa : o.word}
+                  </span>
+                  {pending && isAnswer && (
+                    <Check size={20} className="option-mark" />
+                  )}
+                  {pending && chosen && !isAnswer && (
+                    <X size={20} className="option-mark" />
+                  )}
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+
+      {pending && (
+        <Feedback
+          entry={entry}
+          refw={ref}
+          correct={pending.correct}
+          onNext={next}
+        />
+      )}
+    </div>
+  );
+}
+
+function SpellPrompt({
+  entry,
+  refw,
+  hints,
+}: {
+  entry: Entry;
+  refw: WordRef;
+  hints: number;
+}) {
+  const atlas = useLearningAtlas();
+  const accent = useStore((s) => s.settings.accent);
+  const sentence = entry.ex[0] ? gap(entry.ex[0].en, entry.w) : null;
+  void hints;
+  return (
+    <div className="prompt-spell">
+      <Illustration
+        src={atlas.img(entry)}
+        word={entry.w}
+        topic={refw.topic}
+        eager
+        className="spell-art"
+      />
+      <div>
+        <p className="spell-fa">
+          <span className="pos">{entry.senses[0].pos}</span>{" "}
+          {entry.senses[0].fa}
+        </p>
+        {sentence && (
+          <p className="cloze cloze-sm" lang="en" dir="ltr">
+            {sentence.before}
+            <span className="blank">　　　</span>
+            {sentence.after}
+          </p>
+        )}
+        <Speak
+          url={atlas.audio(entry, accent)}
+          text={entry.w}
+          accent={accent}
+          size="sm"
+          label="شنیدن تلفظ"
+        />
+      </div>
+    </div>
+  );
+}
+
+function SpellInput({
+  entry,
+  pending,
+  hints,
+  onHint,
+  onSubmit,
+}: {
+  entry: Entry;
+  pending?: { correct: boolean; value: string };
+  hints: number;
+  onHint: () => void;
+  onSubmit: (v: string) => void;
+}) {
+  const [value, setValue] = useState("");
+  const input = useRef<HTMLInputElement>(null);
+  const target = entry.w;
+  const prefix = target.slice(0, hints);
+  useEffect(() => {
+    if (hints && !normalize(value).startsWith(normalize(prefix)))
+      setValue(prefix);
+    input.current?.focus();
+  }, [hints]); // eslint-disable-line react-hooks/exhaustive-deps
+  const shown = pending ? pending.value : value;
+  return (
+    <form
+      className="spell"
+      onSubmit={(e) => {
+        e.preventDefault();
+        if (!pending && value.trim()) onSubmit(value);
+      }}
+    >
+      <div
+        className="slots"
+        dir="ltr"
+        aria-hidden="true"
+        onClick={() => input.current?.focus()}
+      >
+        {Array.from(target).map((ch, i) => {
+          const typed = shown[i];
+          const ok =
+            typed !== undefined && typed.toLowerCase() === ch.toLowerCase();
+          return (
+            <span
+              key={i}
+              className={`slot ${ch === " " ? "slot-space" : ""} ${typed !== undefined ? (pending ? (ok ? "is-ok" : "is-bad") : "is-filled") : ""} ${!pending && i === shown.length ? "is-caret" : ""}`}
+            >
+              {pending && !pending.correct ? ch : (typed ?? "")}
+            </span>
+          );
+        })}
+      </div>
+      <input
+        ref={input}
+        className="spell-input"
+        dir="ltr"
+        lang="en"
+        value={shown}
+        onChange={(e) =>
+          !pending && setValue(e.target.value.slice(0, target.length + 6))
+        }
+        autoFocus
+        autoCapitalize="off"
+        autoCorrect="off"
+        autoComplete="off"
+        spellCheck={false}
+        enterKeyHint="done"
+        aria-label={`املا؛ ${target.length} نویسه`}
+        readOnly={!!pending}
+      />
+      {!pending && (
+        <div className="spell-actions">
+          <button
+            type="button"
+            className="btn btn-ghost"
+            onClick={onHint}
+            disabled={hints >= target.length - 1}
+          >
+            <Lightbulb size={17} /> راهنمای حرف بعدی
+          </button>
+          <button
+            type="submit"
+            className="btn btn-primary"
+            disabled={!value.trim()}
+          >
+            ثبت پاسخ <kbd>Enter</kbd>
+          </button>
+        </div>
+      )}
+    </form>
+  );
+}
+
+function Feedback({
+  entry,
+  refw,
+  correct,
+  onNext,
+}: {
+  entry: Entry;
+  refw: WordRef;
+  correct: boolean;
+  onNext: () => void;
+}) {
+  const atlas = useLearningAtlas();
+  const btn = useRef<HTMLButtonElement>(null);
+  useEffect(() => btn.current?.focus({ preventScroll: true }), []);
+  return (
+    <div
+      className={`feedback ${correct ? "is-right" : "is-wrong"}`}
+      role="status"
+    >
+      <div className="feedback-inner">
+        <Illustration
+          src={atlas.img(entry, "thumb")}
+          word={entry.w}
+          topic={refw.topic}
+          className="feedback-art"
+        />
+        <div className="feedback-text">
+          <p className="feedback-verdict">
+            {correct ? "درست بود" : "این بار یادش بگیریم"}
+          </p>
+          <p className="feedback-word">
+            <b lang="en" dir="ltr">
+              {entry.w}
+            </b>
+            <span className="ipa">{entry.uk || entry.us}</span>
+          </p>
+          <p className="feedback-fa">
+            {entry.senses
+              .slice(0, 2)
+              .map((s) => `${s.pos} ${s.fa}`)
+              .join("　")}
+          </p>
+          {entry.ex[0] && (
+            <p className="feedback-ex" lang="en" dir="ltr">
+              <Highlight text={entry.ex[0].en} word={entry.w} />
+            </p>
+          )}
+        </div>
+        <button
+          ref={btn}
+          className={`btn btn-xl ${correct ? "btn-sage" : "btn-terra"}`}
+          onClick={onNext}
+        >
+          ادامه <ArrowRight size={20} />
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function Summary({ session }: { session: ActiveSession }) {
+  const atlas = useLearningAtlas();
+  useEffect(() => {
+    if (store.get().settings.sfx) void cue("complete");
+  }, []);
+  const stats = sessionStats(session);
+  const words = [...new Set(session.steps.map((s) => s.id))]
+    .map((id) => atlas.byId.get(id)!)
+    .filter(Boolean);
+  const litWords = new Set(words.map((word) => word.lexicalId ?? word.id)).size;
+  const wrong = words.filter((w) => session.graded[w.id] === Rating.Again);
+  const minutes = Math.max(
+    1,
+    Math.round(((session.finished ?? Date.now()) - session.started) / 60000),
+  );
+  const done = () => {
+    store.progress((p) => ({ ...p, session: null }));
+    go({ page: "today" });
+  };
+  const again = () => {
+    const { progress, settings } = store.get();
+    store.progress((p) => ({
+      ...p,
+      session: buildSession(atlas, progress, settings, {
+        ids: wrong.map((w) => w.id),
+      }),
+    }));
+  };
+  return (
+    <div className="learn summary">
+      <div className="summary-card">
+        <div className="summary-sky">
+          <Galaxy mode="mini" highlight={words.map((w) => w.id)} ignite />
+          <p>امروز {litWords.toLocaleString("fa-IR")} ستاره روشن شد</p>
+        </div>
+        <p className="eyebrow">این نوبت به پایان رسید</p>
+        <h1 className="display">
+          {stats.accuracy >= 90
+            ? "چه خوب پیش رفتید."
+            : stats.accuracy >= 60
+              ? "قدم‌به‌قدم رو به جلو."
+              : "دوباره مرورشان می‌کنیم."}
+        </h1>
+        <div className="summary-stats">
+          <Ring
+            value={stats.accuracy / 100}
+            size={128}
+            tone={stats.accuracy >= 60 ? "sage" : "terra"}
+          >
+            <b>{stats.accuracy}%</b>
+            <small>درستی پاسخ نخست</small>
+          </Ring>
+          <dl>
+            <div>
+              <dt>معنی تازه</dt>
+              <dd>{session.newIds.length}</dd>
+            </div>
+            <div>
+              <dt>مرور</dt>
+              <dd>{session.reviewIds.length}</dd>
+            </div>
+            <div>
+              <dt>زمان</dt>
+              <dd>
+                {minutes}
+                <small>دقیقه</small>
+              </dd>
+            </div>
+          </dl>
+        </div>
+        <ul className="summary-words">
+          {words.map((w) => (
+            <li
+              key={w.id}
+              className={
+                session.graded[w.id] === Rating.Again ? "is-wrong" : ""
+              }
+            >
+              <Illustration
+                src={atlas.img(w, "thumb")}
+                word={w.word}
+                topic={w.topic}
+              />
+              <span lang="en" dir="ltr">
+                {w.word}
+              </span>
+              <small>{w.fa}</small>
+            </li>
+          ))}
+        </ul>
+        <p className="summary-note">
+          مرور بعدی هر معنی بر اساس پاسخ نخست زمان‌بندی شده است. موارد دشوار
+          زودتر برمی‌گردند.
+        </p>
+        <div className="summary-actions">
+          {wrong.length > 0 && (
+            <button className="btn btn-ghost" onClick={again}>
+              <RotateCcw size={18} /> تمرین دوبارهٔ {wrong.length} مورد دشوار
+            </button>
+          )}
+          <button
+            className="btn btn-ghost"
+            onClick={() => shareSession(atlas, session)}
+          >
+            <Share2 size={18} /> ساخت کارت پیشرفت
+          </button>
+          <button
+            className="btn btn-primary btn-xl"
+            onClick={done}
+            ref={(b) => b?.focus({ preventScroll: true })}
+          >
+            پایان <ArrowRight size={20} />
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/** Page-level shortcuts that ignore typing in inputs (except Enter, which forms handle). */
+export function useKeys(map: Record<string, () => void>) {
+  const ref = useRef(map);
+  ref.current = map;
+  useEffect(() => {
+    const on = (e: KeyboardEvent) => {
+      if (e.metaKey || e.ctrlKey || e.altKey || e.repeat) return;
+      const t = e.target as HTMLElement;
+      const typing = t.tagName === "INPUT" || t.tagName === "TEXTAREA";
+      if (typing && !(e.key === "Enter" && (t as HTMLInputElement).readOnly))
+        return;
+      if (t.tagName === "BUTTON" && (e.key === "Enter" || e.key === " "))
+        return;
+      const fn = ref.current[e.key];
+      if (fn) {
+        e.preventDefault();
+        fn();
+      }
+    };
+    window.addEventListener("keydown", on);
+    return () => window.removeEventListener("keydown", on);
+  }, []);
+}

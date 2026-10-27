@@ -1,0 +1,62 @@
+name: Deploy GitHub Pages
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_path:
+        description: 'Leading/trailing slash, for example /mehrdadika/ or / for a custom domain'
+        required: true
+        default: '/mehrdadika/'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Validate base path
+        env:
+          ATLAS_BASE: ${{ inputs.base_path }}
+        run: |
+          node --input-type=module -e 'const p = process.env.ATLAS_BASE; if (!/^\/(?:[A-Za-z0-9_-]+\/)*$/.test(p || "")) throw new Error("Use a safe leading/trailing-slash path");'
+      - name: Install lockfile dependencies
+        run: npm ci --no-audit --no-fund
+        timeout-minutes: 5
+      - run: npm test
+        timeout-minutes: 5
+      - run: npm run check:content
+        timeout-minutes: 2
+      - name: Build static application
+        env:
+          ATLAS_BASE: ${{ inputs.base_path }}
+        run: npm run build
+        timeout-minutes: 3
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy static artifact
+        id: deployment
+        uses: actions/deploy-pages@v4

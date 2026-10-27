@@ -1,0 +1,688 @@
+{
+  "schemaVersion": 1,
+  "channel": "preview",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "aiAssisted": true,
+    "origin": "Original English and Persian starter texts created for Mehrdadika.",
+    "reviewNotice": "AI-assisted editorial preview; no human or specialist approval is claimed.",
+    "narration": "Optional browser device voice; no voice recording or voice model redistributed."
+  },
+  "passages": [
+    {
+      "id": "reading:library-afternoon",
+      "titleEn": "An Afternoon at the Library",
+      "titleFa": "یک بعدازظهر در کتابخانه",
+      "level": "A1",
+      "domainId": "everyday-life",
+      "minutes": 1,
+      "targetWords": [
+        "library",
+        "Thursday",
+        "book",
+        "friend",
+        "garden",
+        "borrow",
+        "return"
+      ],
+      "paragraphs": [
+        {
+          "id": "reading:library-afternoon:p1",
+          "sentences": [
+            {
+              "id": "reading:library-afternoon:p1:s1",
+              "en": "Mina goes to the library every Thursday.",
+              "fa": "مینا هر پنجشنبه به کتابخانه می‌رود."
+            },
+            {
+              "id": "reading:library-afternoon:p1:s2",
+              "en": "She likes the quiet room and the large windows.",
+              "fa": "او اتاق آرام و پنجره‌های بزرگ را دوست دارد."
+            }
+          ]
+        },
+        {
+          "id": "reading:library-afternoon:p2",
+          "sentences": [
+            {
+              "id": "reading:library-afternoon:p2:s1",
+              "en": "Today, she finds a book about gardens.",
+              "fa": "امروز کتابی دربارهٔ باغ‌ها پیدا می‌کند."
+            },
+            {
+              "id": "reading:library-afternoon:p2:s2",
+              "en": "Her friend Ali chooses a book about the sea.",
+              "fa": "دوستش علی کتابی دربارهٔ دریا انتخاب می‌کند."
+            }
+          ]
+        },
+        {
+          "id": "reading:library-afternoon:p3",
+          "sentences": [
+            {
+              "id": "reading:library-afternoon:p3:s1",
+              "en": "They borrow the books and walk home together.",
+              "fa": "آن‌ها کتاب‌ها را امانت می‌گیرند و با هم به خانه برمی‌گردند."
+            },
+            {
+              "id": "reading:library-afternoon:p3:s2",
+              "en": "They will return them next Thursday.",
+              "fa": "پنجشنبهٔ آینده کتاب‌ها را پس می‌دهند."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "statement": "Mina visits the library on Thursdays.",
+          "answer": "true",
+          "explanationFa": "جملهٔ اول می‌گوید مینا هر پنجشنبه به کتابخانه می‌رود."
+        },
+        {
+          "id": "q2",
+          "statement": "Ali chooses a book about gardens.",
+          "answer": "false",
+          "explanationFa": "علی کتابی دربارهٔ دریا انتخاب می‌کند؛ کتاب باغ‌ها را مینا برمی‌دارد."
+        },
+        {
+          "id": "q3",
+          "statement": "The library closes at six o’clock.",
+          "answer": "not-given",
+          "explanationFa": "در متن زمانی برای بسته شدن کتابخانه گفته نشده است."
+        }
+      ],
+      "publication": "preview",
+      "review": {
+        "status": "ai-editorial-preview",
+        "humanReviewed": false
+      }
+    },
+    {
+      "id": "reading:quiet-kitchen",
+      "titleEn": "A Quiet Kitchen",
+      "titleFa": "آشپزخانه‌ای آرام",
+      "level": "A2",
+      "domainId": "cooking-food-drink",
+      "minutes": 1,
+      "targetWords": [
+        "recipe",
+        "bowl",
+        "spoon",
+        "knife",
+        "vegetable",
+        "boil",
+        "heat",
+        "simmer"
+      ],
+      "paragraphs": [
+        {
+          "id": "reading:quiet-kitchen:p1",
+          "sentences": [
+            {
+              "id": "reading:quiet-kitchen:p1:s1",
+              "en": "Sara reads the recipe before she starts cooking.",
+              "fa": "سارا پیش از شروع آشپزی دستور غذا را می‌خواند."
+            },
+            {
+              "id": "reading:quiet-kitchen:p1:s2",
+              "en": "She puts a bowl, a spoon, and a knife on the table.",
+              "fa": "او یک کاسه، یک قاشق و یک چاقو روی میز می‌گذارد."
+            }
+          ]
+        },
+        {
+          "id": "reading:quiet-kitchen:p2",
+          "sentences": [
+            {
+              "id": "reading:quiet-kitchen:p2:s1",
+              "en": "She cuts the vegetables into small pieces.",
+              "fa": "سبزیجات را به تکه‌های کوچک خرد می‌کند."
+            },
+            {
+              "id": "reading:quiet-kitchen:p2:s2",
+              "en": "Then she adds them to a pot of water.",
+              "fa": "سپس آن‌ها را به قابلمهٔ آب اضافه می‌کند."
+            }
+          ]
+        },
+        {
+          "id": "reading:quiet-kitchen:p3",
+          "sentences": [
+            {
+              "id": "reading:quiet-kitchen:p3:s1",
+              "en": "When the water begins to boil, she turns down the heat.",
+              "fa": "وقتی آب شروع به جوشیدن می‌کند، حرارت را کم می‌کند."
+            },
+            {
+              "id": "reading:quiet-kitchen:p3:s2",
+              "en": "The soup simmers while she sets the table.",
+              "fa": "سوپ آرام می‌جوشد و او میز را می‌چیند."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "statement": "Sara reads the recipe before cooking.",
+          "answer": "true",
+          "explanationFa": "در جملهٔ اول آمده است که سارا پیش از شروع، دستور غذا را می‌خواند."
+        },
+        {
+          "id": "q2",
+          "statement": "She cuts the vegetables after the soup is ready.",
+          "answer": "false",
+          "explanationFa": "او سبزیجات را پیش از اضافه کردن به آب خرد می‌کند."
+        },
+        {
+          "id": "q3",
+          "statement": "Sara learned this recipe from her grandmother.",
+          "answer": "not-given",
+          "explanationFa": "متن دربارهٔ منبع یادگیری این دستور غذا چیزی نمی‌گوید."
+        }
+      ],
+      "publication": "preview",
+      "review": {
+        "status": "ai-editorial-preview",
+        "humanReviewed": false
+      }
+    },
+    {
+      "id": "reading:water-workshop",
+      "titleEn": "Water in the Workshop",
+      "titleFa": "آب در کارگاه",
+      "level": "B1",
+      "domainId": "engineering",
+      "minutes": 1,
+      "targetWords": [
+        "pump",
+        "pipe",
+        "flow",
+        "pressure",
+        "measure",
+        "volume",
+        "compare"
+      ],
+      "paragraphs": [
+        {
+          "id": "reading:water-workshop:p1",
+          "sentences": [
+            {
+              "id": "reading:water-workshop:p1:s1",
+              "en": "A small pump moves water through a clear pipe.",
+              "fa": "یک پمپ کوچک، آب را درون لوله‌ای شفاف جابه‌جا می‌کند."
+            },
+            {
+              "id": "reading:water-workshop:p1:s2",
+              "en": "Students watch the flow and write down their observations.",
+              "fa": "دانشجویان جریان آب را نگاه می‌کنند و مشاهداتشان را یادداشت می‌کنند."
+            }
+          ]
+        },
+        {
+          "id": "reading:water-workshop:p2",
+          "sentences": [
+            {
+              "id": "reading:water-workshop:p2:s1",
+              "en": "A gauge shows the pressure inside the pipe.",
+              "fa": "یک فشارسنج، فشار داخل لوله را نشان می‌دهد."
+            },
+            {
+              "id": "reading:water-workshop:p2:s2",
+              "en": "A separate instrument measures the volume of water passing each minute.",
+              "fa": "ابزار دیگری حجم آبی را که در هر دقیقه عبور می‌کند اندازه می‌گیرد."
+            }
+          ]
+        },
+        {
+          "id": "reading:water-workshop:p3",
+          "sentences": [
+            {
+              "id": "reading:water-workshop:p3:s1",
+              "en": "The students compare the measurements from two trials.",
+              "fa": "دانشجویان اندازه‌گیری‌های دو آزمایش را با هم مقایسه می‌کنند."
+            },
+            {
+              "id": "reading:water-workshop:p3:s2",
+              "en": "They describe what changed instead of treating pressure and flow as the same quantity.",
+              "fa": "آن‌ها تغییرها را توصیف می‌کنند و فشار و جریان را یک کمیت یکسان در نظر نمی‌گیرند."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "statement": "The pipe allows students to see the water.",
+          "answer": "true",
+          "explanationFa": "لوله شفاف توصیف شده است و دانشجویان جریان را نگاه می‌کنند."
+        },
+        {
+          "id": "q2",
+          "statement": "The text treats pressure and flow as identical quantities.",
+          "answer": "false",
+          "explanationFa": "جملهٔ پایانی صریحاً می‌گوید فشار و جریان یک کمیت یکسان در نظر گرفته نمی‌شوند."
+        },
+        {
+          "id": "q3",
+          "statement": "The pump is powered by a solar panel.",
+          "answer": "not-given",
+          "explanationFa": "منبع انرژی پمپ در متن مشخص نشده است."
+        }
+      ],
+      "publication": "preview",
+      "review": {
+        "status": "ai-editorial-preview",
+        "humanReviewed": false
+      }
+    }
+  ],
+  "books": [
+    {
+      "id": "a-light-in-the-window",
+      "titleEn": "A Light in the Window",
+      "titleFa": "نوری در پنجره",
+      "author": "گروه محتوای مهردادیکا",
+      "summaryFa": "یک دفتر آبی، یک قفسهٔ کوچک و داستانی دربارهٔ چیزهایی که می‌توانیم با هم قسمت کنیم.",
+      "level": "A2",
+      "chapters": [
+        {
+          "id": "book:window:chapter:1",
+          "titleEn": "The Blue Notebook",
+          "titleFa": "دفتر آبی",
+          "level": "A2",
+          "domainId": "everyday-life",
+          "minutes": 1,
+          "targetWords": ["notebook", "window", "book", "bedroom", "share"],
+          "paragraphs": [
+            {
+              "id": "book:window:chapter:1:p1",
+              "sentences": [
+                {
+                  "id": "book:window:chapter:1:p1:s1",
+                  "en": "On a rainy afternoon, Mina found a blue notebook beside the window.",
+                  "fa": "در بعدازظهری بارانی، مینا دفتر آبی‌رنگی کنار پنجره پیدا کرد."
+                },
+                {
+                  "id": "book:window:chapter:1:p1:s2",
+                  "en": "Its pages were empty, except for one sentence: “What could we share?”",
+                  "fa": "صفحه‌هایش خالی بود، جز یک جمله: «چه چیزی را می‌توانیم با هم شریک شویم؟»"
+                }
+              ]
+            },
+            {
+              "id": "book:window:chapter:1:p2",
+              "sentences": [
+                {
+                  "id": "book:window:chapter:1:p2:s1",
+                  "en": "Mina looked at the books on her bedroom shelf.",
+                  "fa": "مینا به کتاب‌های روی قفسهٔ اتاقش نگاه کرد."
+                },
+                {
+                  "id": "book:window:chapter:1:p2:s2",
+                  "en": "She wrote the word “stories” on the first page.",
+                  "fa": "در صفحهٔ اول کلمهٔ «داستان‌ها» را نوشت."
+                }
+              ]
+            }
+          ],
+          "questions": [],
+          "publication": "preview",
+          "review": {
+            "status": "ai-editorial-preview",
+            "humanReviewed": false
+          },
+          "number": 1
+        },
+        {
+          "id": "book:window:chapter:2",
+          "titleEn": "A Shelf by the Door",
+          "titleFa": "قفسه‌ای کنار در",
+          "level": "A2",
+          "domainId": "people-relationships",
+          "minutes": 1,
+          "targetWords": ["morning", "neighbor", "shelf", "door", "community"],
+          "paragraphs": [
+            {
+              "id": "book:window:chapter:2:p1",
+              "sentences": [
+                {
+                  "id": "book:window:chapter:2:p1:s1",
+                  "en": "The next morning, Mina spoke to her neighbor, Reza.",
+                  "fa": "صبح روز بعد، مینا با همسایه‌اش رضا صحبت کرد."
+                },
+                {
+                  "id": "book:window:chapter:2:p1:s2",
+                  "en": "He offered an old shelf, and she brought three books.",
+                  "fa": "او یک قفسهٔ قدیمی پیشنهاد داد و مینا سه کتاب آورد."
+                }
+              ]
+            },
+            {
+              "id": "book:window:chapter:2:p2",
+              "sentences": [
+                {
+                  "id": "book:window:chapter:2:p2:s1",
+                  "en": "They put the shelf near the door of the community room.",
+                  "fa": "قفسه را نزدیک درِ اتاق محله گذاشتند."
+                },
+                {
+                  "id": "book:window:chapter:2:p2:s2",
+                  "en": "A small sign said, “Take a story. Bring one back.”",
+                  "fa": "روی تابلوی کوچکی نوشته شده بود: «یک داستان ببر؛ یکی برگردان.»"
+                }
+              ]
+            }
+          ],
+          "questions": [],
+          "publication": "preview",
+          "review": {
+            "status": "ai-editorial-preview",
+            "humanReviewed": false
+          },
+          "number": 2
+        },
+        {
+          "id": "book:window:chapter:3",
+          "titleEn": "The Window at Night",
+          "titleFa": "پنجره در شب",
+          "level": "A2",
+          "domainId": "people-relationships",
+          "minutes": 1,
+          "targetWords": ["month", "evening", "read", "friendship", "talk"],
+          "paragraphs": [
+            {
+              "id": "book:window:chapter:3:p1",
+              "sentences": [
+                {
+                  "id": "book:window:chapter:3:p1:s1",
+                  "en": "After a month, the shelf held more books than Mina could count.",
+                  "fa": "پس از یک ماه، کتاب‌های قفسه از آنچه مینا می‌توانست بشمارد بیشتر شده بود."
+                },
+                {
+                  "id": "book:window:chapter:3:p1:s2",
+                  "en": "People stopped to talk about what they had read.",
+                  "fa": "مردم می‌ایستادند تا دربارهٔ چیزهایی که خوانده بودند صحبت کنند."
+                }
+              ]
+            },
+            {
+              "id": "book:window:chapter:3:p2",
+              "sentences": [
+                {
+                  "id": "book:window:chapter:3:p2:s1",
+                  "en": "That evening, Mina opened her blue notebook again.",
+                  "fa": "آن شب، مینا دوباره دفتر آبی‌اش را باز کرد."
+                },
+                {
+                  "id": "book:window:chapter:3:p2:s2",
+                  "en": "Below “stories,” she wrote another word: “friendship.”",
+                  "fa": "زیر «داستان‌ها» کلمهٔ دیگری نوشت: «دوستی»."
+                }
+              ]
+            }
+          ],
+          "questions": [],
+          "publication": "preview",
+          "review": {
+            "status": "ai-editorial-preview",
+            "humanReviewed": false
+          },
+          "number": 3
+        }
+      ],
+      "publication": "preview",
+      "review": {
+        "status": "ai-editorial-preview",
+        "humanReviewed": false
+      }
+    }
+  ],
+  "paraphrases": [
+    {
+      "id": "everyday-equivalents",
+      "titleFa": "یک معنا، دو بیان",
+      "level": "A2",
+      "publication": "preview",
+      "review": {
+        "status": "ai-editorial-preview",
+        "humanReviewed": false
+      },
+      "questions": [
+        {
+          "id": "q1",
+          "source": "You can purchase a ticket at the station.",
+          "target": "purchase",
+          "prompt": "You can ____ a ticket at the station.",
+          "options": ["borrow", "buy", "return", "repair"],
+          "answer": 1,
+          "explanationFa": "purchase و buy هر دو در این جمله به معنی خریدن هستند."
+        },
+        {
+          "id": "q2",
+          "source": "Please return the book on Monday.",
+          "target": "return",
+          "prompt": "Please ____ the book on Monday.",
+          "options": ["bring back", "look for", "write down", "put on"],
+          "answer": 0,
+          "explanationFa": "در این بافت return و bring back به معنی برگرداندن هستند."
+        },
+        {
+          "id": "q3",
+          "source": "The room is quiet in the morning.",
+          "target": "quiet",
+          "prompt": "There is ____ in the room in the morning.",
+          "options": [
+            "little noise",
+            "bright light",
+            "cold water",
+            "fresh food"
+          ],
+          "answer": 0,
+          "explanationFa": "quiet یعنی کم‌سروصدا؛ little noise همان معنا را با بیان دیگری می‌رساند."
+        },
+        {
+          "id": "q4",
+          "source": "We need a larger bowl.",
+          "target": "larger",
+          "prompt": "We need a ____ bowl.",
+          "options": ["smaller", "cleaner", "bigger", "lighter"],
+          "answer": 2,
+          "explanationFa": "larger و bigger در این جمله هر دو اندازهٔ بزرگ‌تر را بیان می‌کنند."
+        }
+      ]
+    },
+    {
+      "id": "academic-equivalents",
+      "titleFa": "بیان‌های دانشگاهی و فنی",
+      "level": "B1",
+      "publication": "preview",
+      "review": {
+        "status": "ai-editorial-preview",
+        "humanReviewed": false
+      },
+      "questions": [
+        {
+          "id": "q1",
+          "source": "The temperature increased during the trial.",
+          "target": "increased",
+          "prompt": "The temperature ____ during the trial.",
+          "options": ["fell", "rose", "stopped", "matched"],
+          "answer": 1,
+          "explanationFa": "increase و rise در اینجا هر دو افزایش دما را بیان می‌کنند."
+        },
+        {
+          "id": "q2",
+          "source": "The task requires careful observation.",
+          "target": "requires",
+          "prompt": "Careful observation is ____ for this task.",
+          "options": ["unnecessary", "sufficient", "needed", "unusual"],
+          "answer": 2,
+          "explanationFa": "requires یعنی نیاز دارد؛ is needed همان رابطه را از جهت دیگری بیان می‌کند."
+        },
+        {
+          "id": "q3",
+          "source": "The two measurements were approximately equal.",
+          "target": "approximately",
+          "prompt": "The two measurements were ____ equal.",
+          "options": ["exactly", "roughly", "never", "usually"],
+          "answer": 1,
+          "explanationFa": "approximately در این جمله برابری تقریبی را بیان می‌کند؛ roughly همان معنا را می‌رساند."
+        },
+        {
+          "id": "q4",
+          "source": "The team reduced the amount of waste.",
+          "target": "reduced",
+          "prompt": "The team ____ the amount of waste.",
+          "options": ["decreased", "recorded", "compared", "increased"],
+          "answer": 0,
+          "explanationFa": "reduce و decrease در این جمله به معنی کم کردن مقدار هستند."
+        }
+      ]
+    }
+  ],
+  "confusables": [
+    {
+      "id": "bored-boring",
+      "level": "A2",
+      "differenceFa": "یکی احساس شخص را توصیف می‌کند؛ دیگری چیزی را که آن احساس را ایجاد می‌کند.",
+      "tipFa": "وقتی خودتان احساس بی‌حوصلگی دارید bored به کار می‌رود؛ چیزی که حوصله‌تان را سر می‌برد boring است.",
+      "words": [
+        {
+          "word": "bored",
+          "meaningFa": "بی‌حوصله",
+          "explanationFa": "احساس فردی که علاقه یا سرگرمی کافی ندارد.",
+          "exampleEn": "I felt bored during the long wait.",
+          "exampleFa": "در انتظار طولانی، حوصله‌ام سر رفت."
+        },
+        {
+          "word": "boring",
+          "meaningFa": "خسته‌کننده؛ ملال‌آور",
+          "explanationFa": "ویژگی چیزی که باعث بی‌حوصلگی می‌شود.",
+          "exampleEn": "The talk was boring.",
+          "exampleFa": "صحبت خسته‌کننده بود."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "sentence": "After an hour with nothing to do, I felt ____.",
+          "answer": 0,
+          "explanationFa": "جمله احساس شخص را توصیف می‌کند؛ پس bored درست است."
+        },
+        {
+          "id": "q2",
+          "sentence": "The film was so ____ that we stopped watching.",
+          "answer": 1,
+          "explanationFa": "فیلم عامل ایجاد بی‌حوصلگی است؛ پس boring به کار می‌رود."
+        },
+        {
+          "id": "q3",
+          "sentence": "Are you ____ with this game?",
+          "answer": 0,
+          "explanationFa": "پرسش دربارهٔ احساس مخاطب است؛ bored گزینهٔ مناسب است."
+        }
+      ],
+      "publication": "preview",
+      "review": {
+        "status": "ai-editorial-preview",
+        "humanReviewed": false
+      }
+    },
+    {
+      "id": "borrow-lend",
+      "level": "A2",
+      "differenceFa": "borrow گرفتنِ موقت چیزی است؛ lend دادنِ موقت آن به دیگری.",
+      "tipFa": "اگر چیزی به دست شما می‌رسد borrow؛ اگر موقتاً آن را به دیگری می‌دهید lend.",
+      "words": [
+        {
+          "word": "borrow",
+          "meaningFa": "امانت گرفتن؛ قرض گرفتن",
+          "explanationFa": "چیزی را موقتاً از دیگری گرفتن، با انتظار پس دادن.",
+          "exampleEn": "May I borrow your pen?",
+          "exampleFa": "می‌توانم خودکارت را قرض بگیرم؟"
+        },
+        {
+          "word": "lend",
+          "meaningFa": "امانت دادن؛ قرض دادن",
+          "explanationFa": "چیزی را موقتاً به دیگری دادن، با انتظار برگرداندن.",
+          "exampleEn": "Can you lend me your pen?",
+          "exampleFa": "می‌توانی خودکارت را به من قرض بدهی؟"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "sentence": "May I ____ this book from the library?",
+          "answer": 0,
+          "explanationFa": "گوینده کتاب را دریافت می‌کند؛ borrow درست است."
+        },
+        {
+          "id": "q2",
+          "sentence": "I can ____ you my bicycle for the afternoon.",
+          "answer": 1,
+          "explanationFa": "گوینده دوچرخه‌اش را به دیگری می‌دهد؛ lend درست است."
+        },
+        {
+          "id": "q3",
+          "sentence": "We often ____ tools from our neighbor.",
+          "answer": 0,
+          "explanationFa": "ابزارها را از همسایه می‌گیریم؛ borrow به کار می‌رود."
+        }
+      ],
+      "publication": "preview",
+      "review": {
+        "status": "ai-editorial-preview",
+        "humanReviewed": false
+      }
+    },
+    {
+      "id": "recipe-receipt",
+      "level": "A2",
+      "differenceFa": "recipe روش تهیهٔ غذاست؛ receipt مدرک پرداخت یا دریافت پول است.",
+      "tipFa": "برای آشپزی recipe را می‌خوانید؛ پس از خرید receipt را می‌گیرید.",
+      "words": [
+        {
+          "word": "recipe",
+          "meaningFa": "دستور غذا",
+          "explanationFa": "فهرست مواد و روش آماده کردن یک غذا.",
+          "exampleEn": "This recipe uses two eggs.",
+          "exampleFa": "در این دستور غذا از دو تخم‌مرغ استفاده می‌شود."
+        },
+        {
+          "word": "receipt",
+          "meaningFa": "رسید",
+          "explanationFa": "مدرکی که پرداخت پول یا دریافت چیزی را نشان می‌دهد.",
+          "exampleEn": "Keep the receipt after you pay.",
+          "exampleFa": "پس از پرداخت، رسید را نگه دارید."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "sentence": "Please keep your ____ if you want to return the item.",
+          "answer": 1,
+          "explanationFa": "برای پس دادن کالا مدرک خرید لازم است؛ receipt."
+        },
+        {
+          "id": "q2",
+          "sentence": "My aunt shared her bread ____ with me.",
+          "answer": 0,
+          "explanationFa": "دستور تهیهٔ نان recipe است."
+        },
+        {
+          "id": "q3",
+          "sentence": "The cashier gave me a ____.",
+          "answer": 1,
+          "explanationFa": "صندوق‌دار رسید پرداخت می‌دهد؛ receipt."
+        }
+      ],
+      "publication": "preview",
+      "review": {
+        "status": "ai-editorial-preview",
+        "humanReviewed": false
+      }
+    }
+  ]
+}
