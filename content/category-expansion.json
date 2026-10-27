@@ -2042,7 +2042,115 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 134,
+      "targetCategoryWords": 146,
+      "entryIds": [
+        "eye",
+        "ear",
+        "nose",
+        "tongue",
+        "eyelid",
+        "pupil",
+        "iris",
+        "retina",
+        "cornea",
+        "eardrum",
+        "larynx",
+        "diaphragm"
+      ],
+      "units": [
+        {
+          "id": "sensory-anatomy",
+          "title": "Sense organs and their structures",
+          "entryIds": [
+            "eye",
+            "ear",
+            "nose",
+            "tongue",
+            "eyelid",
+            "pupil",
+            "iris",
+            "retina",
+            "cornea",
+            "eardrum"
+          ]
+        },
+        {
+          "id": "voice-breathing-anatomy",
+          "title": "Voice and breathing anatomy",
+          "entryIds": [
+            "larynx",
+            "diaphragm"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-9",
+      "releaseId": "2026-10-preview-14",
+      "status": "published-preview",
+      "objective": "Describe sensory anatomy, breathing anatomy and mechanical transmission parts in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 134,
+      "targetCategoryWords": 146,
+      "entryIds": [
+        "chain",
+        "sprocket",
+        "belt",
+        "rack",
+        "pinion",
+        "bushing",
+        "spindle",
+        "keyway",
+        "camshaft",
+        "crankshaft",
+        "connecting-rod",
+        "flywheel"
+      ],
+      "units": [
+        {
+          "id": "mechanical-drives",
+          "title": "Chain, belt and rack drives",
+          "entryIds": [
+            "chain",
+            "sprocket",
+            "belt",
+            "rack",
+            "pinion"
+          ]
+        },
+        {
+          "id": "shafts-motion-parts",
+          "title": "Shaft supports and motion components",
+          "entryIds": [
+            "bushing",
+            "spindle",
+            "keyway",
+            "camshaft",
+            "crankshaft",
+            "connecting-rod",
+            "flywheel"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-9",
+      "releaseId": "2026-10-preview-14",
+      "status": "published-preview",
+      "objective": "Describe sensory anatomy, breathing anatomy and mechanical transmission parts in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-8"
+  "activePassId": "specialist-500-batch-9"
 }

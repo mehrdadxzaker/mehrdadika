@@ -13,9 +13,9 @@
     "modifications": "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-13",
-    "manifest": "content/releases/2026-10-preview-13-53133a03bb7a/manifest.json",
-    "sha256": "53133a03bb7a7d4f1ca9a91dbe21f0bc33f7939fb5ee7647704da4c75b6dc467"
+    "id": "2026-10-preview-14",
+    "manifest": "content/releases/2026-10-preview-14-2e9f965fb9c8/manifest.json",
+    "sha256": "2e9f965fb9c880c095b93cefb4e94767fbe3fa3d8a6d69059708ca0eda71f35a"
   },
   "categories": {
     "everyday-life": {
@@ -15031,6 +15031,822 @@
         }
       ],
       "tip": "Scriber risca linhas de traçagem; não é uma caneta de tinta nem um punção para golpes. Sua marca é uma linha fina; o punção de centro costuma produzir uma cavidade pontual."
+    },
+    "eye": {
+      "sourceWord": "eye",
+      "senses": {
+        "eye:meaning-1": {
+          "gloss": "olho",
+          "definition": "Um órgão que detecta luz e envia informações ao cérebro para a visão."
+        }
+      },
+      "examples": [
+        {
+          "en": "The model shows the whole eye, including its rounded back.",
+          "translation": "O modelo mostra o olho inteiro, incluindo sua parte posterior arredondada."
+        },
+        {
+          "en": "The optic nerve carries signals from the eye to the brain.",
+          "translation": "O nervo óptico leva sinais do olho ao cérebro."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the human eye",
+          "translation": "o olho humano"
+        },
+        {
+          "en": "an eye examination",
+          "translation": "um exame dos olhos"
+        },
+        {
+          "en": "the surface of the eye",
+          "translation": "a superfície do olho"
+        }
+      ],
+      "tip": "Neste sentido, eye é o órgão da visão; eyeball é o globo ocular, e eyelid é a pálpebra que o recobre. Sentidos como o buraco de uma agulha não estão incluídos aqui."
+    },
+    "ear": {
+      "sourceWord": "ear",
+      "senses": {
+        "ear:meaning-1": {
+          "gloss": "orelha; ouvido",
+          "definition": "Um órgão com partes externa, média e interna que permite ouvir e contribui para o equilíbrio."
+        }
+      },
+      "examples": [
+        {
+          "en": "The ear includes structures that cannot be seen from outside the head.",
+          "translation": "A orelha inclui estruturas que não podem ser vistas de fora da cabeça."
+        },
+        {
+          "en": "Sound travels through the ear canal towards the eardrum.",
+          "translation": "O som passa pelo canal auditivo em direção ao tímpano."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the outer ear",
+          "translation": "a orelha externa"
+        },
+        {
+          "en": "the middle ear",
+          "translation": "a orelha média"
+        },
+        {
+          "en": "the inner ear",
+          "translation": "a orelha interna"
+        }
+      ],
+      "tip": "Aqui, ear abrange as partes externa, média e interna, não apenas a parte visível. Em português cotidiano, ouvido costuma designar as estruturas internas e a audição; orelha também é o termo anatômico para o órgão. Ear canal é o canal auditivo; eardrum é o tímpano."
+    },
+    "nose": {
+      "sourceWord": "nose",
+      "senses": {
+        "nose:meaning-1": {
+          "gloss": "nariz",
+          "definition": "A parte saliente do rosto com duas narinas pelas quais o ar entra na cavidade nasal."
+        }
+      },
+      "examples": [
+        {
+          "en": "The model shows the bridge and tip of the nose.",
+          "translation": "O modelo mostra a ponte e a ponta do nariz."
+        },
+        {
+          "en": "The two nostrils form openings at the lower part of the nose.",
+          "translation": "As duas narinas formam aberturas na parte inferior do nariz."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the bridge of the nose",
+          "translation": "a ponte do nariz"
+        },
+        {
+          "en": "the tip of the nose",
+          "translation": "a ponta do nariz"
+        },
+        {
+          "en": "the shape of the nose",
+          "translation": "o formato do nariz"
+        }
+      ],
+      "tip": "Este sentido se concentra na parte externa do nariz. Nostril é cada uma das duas narinas; nasal cavity é a cavidade nasal interna. O uso de nose para a parte dianteira de um veículo não está incluído aqui."
+    },
+    "tongue": {
+      "sourceWord": "tongue",
+      "senses": {
+        "tongue:meaning-1": {
+          "gloss": "língua; órgão da boca",
+          "definition": "Um órgão muscular da boca que ajuda no paladar, na movimentação dos alimentos, na deglutição e na fala."
+        }
+      },
+      "examples": [
+        {
+          "en": "The tongue changes shape when a person forms different speech sounds.",
+          "translation": "A língua muda de forma quando uma pessoa produz diferentes sons da fala."
+        },
+        {
+          "en": "The model shows the tongue attached within the mouth.",
+          "translation": "O modelo mostra a língua presa aos tecidos dentro da boca."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the tip of the tongue",
+          "translation": "a ponta da língua"
+        },
+        {
+          "en": "the surface of the tongue",
+          "translation": "a superfície da língua"
+        },
+        {
+          "en": "tongue movement",
+          "translation": "o movimento da língua"
+        }
+      ],
+      "tip": "Aqui, tongue é o órgão da boca; o sentido de idioma, como em mother tongue, é diferente. A língua é formada por vários músculos e não é uma peça solta dentro da boca."
+    },
+    "eyelid": {
+      "sourceWord": "eyelid",
+      "senses": {
+        "eyelid:meaning-1": {
+          "gloss": "pálpebra",
+          "definition": "Uma das pregas móveis que cobrem e protegem a parte anterior do olho."
+        }
+      },
+      "examples": [
+        {
+          "en": "The upper eyelid moves down when the eye closes.",
+          "translation": "A pálpebra superior desce quando o olho se fecha."
+        },
+        {
+          "en": "The illustration keeps the eye open so that both eyelids are visible.",
+          "translation": "A ilustração mantém o olho aberto para que as duas pálpebras fiquem visíveis."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the upper eyelid",
+          "translation": "a pálpebra superior"
+        },
+        {
+          "en": "the lower eyelid",
+          "translation": "a pálpebra inferior"
+        },
+        {
+          "en": "the eyelid margin",
+          "translation": "a margem da pálpebra"
+        }
+      ],
+      "tip": "Eyelid é pálpebra, diferente de eyelash, cílio, e eyebrow, sobrancelha. Cada olho tem uma pálpebra superior e uma inferior; o plural é eyelids. O tom verde-claro na imagem apenas destaca a pálpebra superior; não é a cor natural da pele."
+    },
+    "pupil": {
+      "sourceWord": "pupil",
+      "senses": {
+        "pupil:meaning-1": {
+          "gloss": "pupila",
+          "definition": "A abertura no centro da íris pela qual a luz entra no olho."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pupil appears dark inside the coloured ring of the iris.",
+          "translation": "A pupila parece escura dentro do anel colorido da íris."
+        },
+        {
+          "en": "The pupil usually becomes smaller in brighter light.",
+          "translation": "A pupila geralmente fica menor quando a luz é mais intensa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "pupil size",
+          "translation": "o tamanho da pupila"
+        },
+        {
+          "en": "a dilated pupil",
+          "translation": "uma pupila dilatada"
+        },
+        {
+          "en": "the edge of the pupil",
+          "translation": "a borda da pupila"
+        }
+      ],
+      "tip": "Neste sentido, pupil é uma abertura, não o tecido colorido da íris nem o cristalino. O outro sentido de pupil, aluno, não está incluído aqui. A região escura no centro da imagem não é uma superfície sólida."
+    },
+    "iris": {
+      "sourceWord": "iris",
+      "senses": {
+        "iris:meaning-1": {
+          "gloss": "íris",
+          "definition": "O anel colorido de tecido ao redor da pupila que altera a abertura para regular a entrada de luz."
+        }
+      },
+      "examples": [
+        {
+          "en": "The iris surrounds the dark opening called the pupil.",
+          "translation": "A íris circunda a abertura escura chamada pupila."
+        },
+        {
+          "en": "Muscles in the iris change the size of the pupil.",
+          "translation": "Músculos da íris mudam o tamanho da pupila."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the colour of the iris",
+          "translation": "a cor da íris"
+        },
+        {
+          "en": "iris muscles",
+          "translation": "os músculos da íris"
+        },
+        {
+          "en": "the outer edge of the iris",
+          "translation": "a borda externa da íris"
+        }
+      ],
+      "tip": "Iris é o tecido colorido ao redor da pupila; pupil é a própria abertura central. Cornea é a cobertura transparente à frente das duas. Aqui, iris não é o nome da flor nem uma peça de câmera."
+    },
+    "retina": {
+      "sourceWord": "retina",
+      "senses": {
+        "retina:meaning-1": {
+          "gloss": "retina",
+          "definition": "O tecido sensível à luz que reveste a parte interna posterior do olho, onde começam os sinais visuais."
+        }
+      },
+      "examples": [
+        {
+          "en": "The cutaway shows the retina along the inside of the back wall of the eye.",
+          "translation": "O corte mostra a retina ao longo da superfície interna da parede posterior do olho."
+        },
+        {
+          "en": "Light-sensitive cells in the retina respond to incoming light.",
+          "translation": "Células sensíveis à luz na retina respondem à luz que entra."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "retinal cells",
+          "translation": "as células da retina"
+        },
+        {
+          "en": "the surface of the retina",
+          "translation": "a superfície da retina"
+        },
+        {
+          "en": "the central retina",
+          "translation": "a retina central"
+        }
+      ],
+      "tip": "Retina é o revestimento interno sensível à luz na parte posterior do olho; lens é o cristalino à sua frente, que focaliza a luz. Retinal é o adjetivo inglês referente à retina. A imagem mostra a estrutura geral, não cada camada microscópica."
+    },
+    "cornea": {
+      "sourceWord": "cornea",
+      "senses": {
+        "cornea:meaning-1": {
+          "gloss": "córnea",
+          "definition": "A parte anterior curva e transparente do olho que cobre a íris e a pupila e ajuda a focalizar a luz."
+        }
+      },
+      "examples": [
+        {
+          "en": "The cornea forms a transparent dome at the front of the eye.",
+          "translation": "A córnea forma uma cúpula transparente na frente do olho."
+        },
+        {
+          "en": "Light passes through the cornea before reaching the lens.",
+          "translation": "A luz atravessa a córnea antes de chegar ao cristalino."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the corneal surface",
+          "translation": "a superfície da córnea"
+        },
+        {
+          "en": "the shape of the cornea",
+          "translation": "o formato da córnea"
+        },
+        {
+          "en": "corneal tissue",
+          "translation": "o tecido da córnea"
+        }
+      ],
+      "tip": "Cornea é a córnea transparente na frente do olho; lens é o cristalino dentro dele. Iris é a parte colorida e pupil é a abertura central. Corneal é o adjetivo inglês referente à córnea."
+    },
+    "eardrum": {
+      "sourceWord": "eardrum",
+      "senses": {
+        "eardrum:meaning-1": {
+          "gloss": "tímpano; membrana timpânica",
+          "definition": "A membrana fina no fim do canal auditivo que vibra em resposta ao som."
+        }
+      },
+      "examples": [
+        {
+          "en": "The eardrum separates the ear canal from the middle ear.",
+          "translation": "O tímpano separa o canal auditivo da orelha média."
+        },
+        {
+          "en": "Vibrations of the eardrum pass to the tiny bones of the middle ear.",
+          "translation": "As vibrações do tímpano passam para os pequenos ossos da orelha média."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "eardrum vibrations",
+          "translation": "as vibrações do tímpano"
+        },
+        {
+          "en": "the surface of the eardrum",
+          "translation": "a superfície do tímpano"
+        },
+        {
+          "en": "an intact eardrum",
+          "translation": "um tímpano íntegro"
+        }
+      ],
+      "tip": "Eardrum é a membrana timpânica, ou tímpano; não é o próprio canal auditivo nem a cóclea. Apesar de drum significar tambor, não há um instrumento separado dentro da orelha."
+    },
+    "larynx": {
+      "sourceWord": "larynx",
+      "senses": {
+        "larynx:meaning-1": {
+          "gloss": "laringe",
+          "definition": "A estrutura no pescoço que contém as pregas vocais e liga a garganta à traqueia."
+        }
+      },
+      "examples": [
+        {
+          "en": "The larynx lies above the trachea in the front of the neck.",
+          "translation": "A laringe fica acima da traqueia, na parte anterior do pescoço."
+        },
+        {
+          "en": "The vocal folds inside the larynx vibrate during voiced speech.",
+          "translation": "As pregas vocais dentro da laringe vibram durante a fala com sonorização."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the human larynx",
+          "translation": "a laringe humana"
+        },
+        {
+          "en": "the structure of the larynx",
+          "translation": "a estrutura da laringe"
+        },
+        {
+          "en": "laryngeal cartilage",
+          "translation": "a cartilagem da laringe"
+        }
+      ],
+      "tip": "Larynx, ou voice box, é a laringe; pharynx é a faringe atrás do nariz e da boca, e trachea é a traqueia abaixo da laringe. Thyroid cartilage é a cartilagem tireóidea da laringe, diferente de thyroid gland, a glândula tireoide. Laryngeal é o adjetivo inglês referente à laringe."
+    },
+    "diaphragm": {
+      "sourceWord": "diaphragm",
+      "senses": {
+        "diaphragm:meaning-1": {
+          "gloss": "diafragma; músculo respiratório",
+          "definition": "O músculo em forma de cúpula que separa as cavidades torácica e abdominal e ajuda a puxar ar para os pulmões."
+        }
+      },
+      "examples": [
+        {
+          "en": "The diaphragm forms the muscular floor of the chest cavity.",
+          "translation": "O diafragma forma o assoalho muscular da cavidade torácica."
+        },
+        {
+          "en": "During inhalation, the diaphragm contracts and moves downwards.",
+          "translation": "Durante a inspiração, o diafragma se contrai e se desloca para baixo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the diaphragm muscle",
+          "translation": "o músculo diafragma"
+        },
+        {
+          "en": "diaphragm contraction",
+          "translation": "a contração do diafragma"
+        },
+        {
+          "en": "the dome of the diaphragm",
+          "translation": "a cúpula do diafragma"
+        }
+      ],
+      "tip": "Neste sentido, diaphragm é o músculo respiratório abaixo dos pulmões, não o próprio pulmão nem um músculo entre as costelas. Os sentidos de membrana de um dispositivo e de método contraceptivo não estão incluídos aqui."
+    },
+    "chain": {
+      "sourceWord": "chain",
+      "senses": {
+        "chain:meaning-1": {
+          "gloss": "corrente de transmissão",
+          "definition": "Uma sequência de elos metálicos interligados que transmite movimento ao se engatar nos dentes de rodas dentadas para corrente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The chain has linked side plates and small cylindrical rollers.",
+          "translation": "A corrente tem placas laterais interligadas e pequenos rolos cilíndricos."
+        },
+        {
+          "en": "The chain connects the driving sprocket to the driven sprocket.",
+          "translation": "A corrente liga a roda dentada motora à roda dentada movida."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a roller chain",
+          "translation": "uma corrente de rolos"
+        },
+        {
+          "en": "a chain link",
+          "translation": "um elo de corrente"
+        },
+        {
+          "en": "a chain drive",
+          "translation": "uma transmissão por corrente"
+        }
+      ],
+      "tip": "Chain aqui é a corrente de transmissão mecânica, não um colar nem uma rede de lojas. A imagem mostra uma corrente de rolos; nem toda corrente tem rolos."
+    },
+    "sprocket": {
+      "sourceWord": "sprocket",
+      "senses": {
+        "sprocket:meaning-1": {
+          "gloss": "roda dentada para corrente",
+          "definition": "Uma roda com dentes que se engata em uma corrente para transmitir movimento de rotação."
+        }
+      },
+      "examples": [
+        {
+          "en": "The sprocket teeth fit between the rollers of the chain.",
+          "translation": "Os dentes da roda dentada se encaixam entre os rolos da corrente."
+        },
+        {
+          "en": "The sprocket has a central bore for its shaft.",
+          "translation": "A roda dentada tem um furo central para o eixo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a chain sprocket",
+          "translation": "uma roda dentada para corrente"
+        },
+        {
+          "en": "a sprocket tooth",
+          "translation": "um dente de roda dentada"
+        },
+        {
+          "en": "a sprocket bore",
+          "translation": "um furo central de roda dentada"
+        }
+      ],
+      "tip": "Sprocket se engata em uma corrente; gear normalmente engrena com outra engrenagem. O formato e o espaçamento dos dentes precisam ser compatíveis com a corrente; a imagem não informa dimensões de projeto."
+    },
+    "belt": {
+      "sourceWord": "belt",
+      "senses": {
+        "belt:meaning-1": {
+          "gloss": "correia de transmissão",
+          "definition": "Um laço flexível e contínuo que passa ao redor de polias para transmitir rotação entre elas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The belt forms a continuous loop around the two pulleys.",
+          "translation": "A correia forma um laço contínuo ao redor das duas polias."
+        },
+        {
+          "en": "The belt sits in the grooves of the pulleys.",
+          "translation": "A correia se assenta nos canais das polias."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a drive belt",
+          "translation": "uma correia de transmissão"
+        },
+        {
+          "en": "a V-belt",
+          "translation": "uma correia em V"
+        },
+        {
+          "en": "a belt drive",
+          "translation": "uma transmissão por correia"
+        }
+      ],
+      "tip": "Belt aqui é a correia de transmissão, não o cinto de roupa nem uma esteira transportadora. A imagem mostra uma correia em V; também há correias dentadas, diferentes de correntes de elos."
+    },
+    "rack": {
+      "sourceWord": "rack",
+      "senses": {
+        "rack:meaning-1": {
+          "gloss": "cremalheira",
+          "definition": "Uma barra reta e dentada que engrena com um pinhão para converter rotação em movimento linear ou o contrário."
+        }
+      },
+      "examples": [
+        {
+          "en": "The rack has evenly spaced teeth along one straight edge.",
+          "translation": "A cremalheira tem dentes uniformemente espaçados ao longo de uma borda reta."
+        },
+        {
+          "en": "The pinion meshes with the rack above it.",
+          "translation": "O pinhão engrena com a cremalheira acima dele."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a gear rack",
+          "translation": "uma cremalheira"
+        },
+        {
+          "en": "a rack tooth",
+          "translation": "um dente de cremalheira"
+        },
+        {
+          "en": "a rack-and-pinion drive",
+          "translation": "uma transmissão por pinhão e cremalheira"
+        }
+      ],
+      "tip": "Rack aqui é a cremalheira dentada, não uma estante ou um cabideiro. A cremalheira se move em linha reta, e o pinhão gira; a imagem destaca a barra dentada."
+    },
+    "pinion": {
+      "sourceWord": "pinion",
+      "senses": {
+        "pinion:meaning-1": {
+          "gloss": "pinhão",
+          "definition": "Uma engrenagem pequena que engrena com outra maior ou com uma cremalheira dentada."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pinion has teeth around its circular rim.",
+          "translation": "O pinhão tem dentes ao redor de sua borda circular."
+        },
+        {
+          "en": "The pinion meshes with the straight rack above it.",
+          "translation": "O pinhão engrena com a cremalheira reta acima dele."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a pinion gear",
+          "translation": "uma engrenagem de pinhão"
+        },
+        {
+          "en": "a pinion shaft",
+          "translation": "um eixo de pinhão"
+        },
+        {
+          "en": "a rack and pinion",
+          "translation": "uma cremalheira e um pinhão"
+        }
+      ],
+      "tip": "Pinion é a engrenagem pequena de um par ou a que engrena com uma cremalheira; difere da roda para corrente chamada sprocket. A imagem destaca a engrenagem circular em relação à barra reta."
+    },
+    "bushing": {
+      "sourceWord": "bushing",
+      "senses": {
+        "bushing:meaning-1": {
+          "gloss": "bucha de deslizamento",
+          "definition": "Uma luva lisa colocada entre peças móveis, como um eixo e seu alojamento, para fornecer uma superfície de apoio deslizante."
+        }
+      },
+      "examples": [
+        {
+          "en": "The bushing has a smooth cylindrical bore for the shaft.",
+          "translation": "A bucha tem um furo cilíndrico liso para o eixo."
+        },
+        {
+          "en": "The bushing fits inside the housing without any balls or rollers.",
+          "translation": "A bucha se encaixa no alojamento sem esferas nem rolos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a plain bushing",
+          "translation": "uma bucha lisa"
+        },
+        {
+          "en": "a sleeve bushing",
+          "translation": "uma bucha tipo luva"
+        },
+        {
+          "en": "a bushing bore",
+          "translation": "um furo de bucha"
+        }
+      ],
+      "tip": "Esta acepção de bushing é a bucha de mancal de deslizamento, não uma bucha isolante elétrica. Ela não contém esferas ou rolos; pode ser metálica ou polimérica."
+    },
+    "spindle": {
+      "sourceWord": "spindle",
+      "senses": {
+        "spindle:meaning-1": {
+          "gloss": "eixo-árvore de máquina",
+          "definition": "Um eixo rotativo de máquina que apoia e gira uma ferramenta de corte ou uma peça."
+        }
+      },
+      "examples": [
+        {
+          "en": "The spindle has a machined nose for holding a tool.",
+          "translation": "O eixo-árvore tem uma ponta usinada para prender uma ferramenta."
+        },
+        {
+          "en": "The cutting tool rotates with the spindle.",
+          "translation": "A ferramenta de corte gira com o eixo-árvore."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a machine spindle",
+          "translation": "um eixo-árvore de máquina"
+        },
+        {
+          "en": "a spindle nose",
+          "translation": "uma ponta de eixo-árvore"
+        },
+        {
+          "en": "a spindle bearing",
+          "translation": "um rolamento de eixo-árvore"
+        }
+      ],
+      "tip": "Spindle aqui é o eixo rotativo de uma máquina-ferramenta, não um fuso de fiar. Ele segura e gira a ferramenta ou a peça; uma haste simples não é necessariamente um spindle."
+    },
+    "keyway": {
+      "sourceWord": "keyway",
+      "senses": {
+        "keyway:meaning-1": {
+          "gloss": "rasgo de chaveta",
+          "definition": "Uma ranhura em um eixo ou cubo que recebe uma chaveta ajustada para transmitir rotação entre as peças."
+        }
+      },
+      "examples": [
+        {
+          "en": "The keyway is a recessed slot along the shaft.",
+          "translation": "O rasgo de chaveta é uma ranhura rebaixada ao longo do eixo."
+        },
+        {
+          "en": "The key fits partly in the shaft keyway and partly in the hub.",
+          "translation": "A chaveta fica parcialmente no rasgo do eixo e parcialmente no cubo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a shaft keyway",
+          "translation": "um rasgo de chaveta no eixo"
+        },
+        {
+          "en": "a keyway slot",
+          "translation": "uma ranhura de chaveta"
+        },
+        {
+          "en": "a keyway width",
+          "translation": "uma largura de rasgo de chaveta"
+        }
+      ],
+      "tip": "Keyway é a ranhura, não a própria chaveta. Keyseat também se usa para a ranhura no eixo; o uso exato dos dois termos pode variar. A imagem mostra o rasgo vazio."
+    },
+    "camshaft": {
+      "sourceWord": "camshaft",
+      "senses": {
+        "camshaft:meaning-1": {
+          "gloss": "eixo de comando de válvulas",
+          "definition": "Um eixo rotativo com ressaltos perfilados que movem seguidores, muitas vezes para acionar válvulas de motor."
+        }
+      },
+      "examples": [
+        {
+          "en": "The camshaft has round journals between its raised lobes.",
+          "translation": "O eixo de comando tem colos redondos entre seus ressaltos elevados."
+        },
+        {
+          "en": "A camshaft lobe pushes a follower as the shaft turns.",
+          "translation": "Um ressalto do comando empurra um seguidor enquanto o eixo gira."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a camshaft lobe",
+          "translation": "um ressalto do comando de válvulas"
+        },
+        {
+          "en": "a camshaft journal",
+          "translation": "um colo do comando de válvulas"
+        },
+        {
+          "en": "a camshaft follower",
+          "translation": "um seguidor do comando de válvulas"
+        }
+      ],
+      "tip": "Os ressaltos perfilados diferem dos colos redondos coaxiais. Camshaft não é o virabrequim com moentes fora do eixo; a imagem não informa sincronismo de motor."
+    },
+    "crankshaft": {
+      "sourceWord": "crankshaft",
+      "senses": {
+        "crankshaft:meaning-1": {
+          "gloss": "virabrequim",
+          "definition": "Um eixo com moentes excêntricos que trabalha com bielas para converter movimento alternativo em rotação ou o contrário."
+        }
+      },
+      "examples": [
+        {
+          "en": "The crankshaft has main journals on one axis and a crankpin offset from it.",
+          "translation": "O virabrequim tem munhões principais no mesmo eixo e um moente deslocado desse eixo."
+        },
+        {
+          "en": "The connecting rod attaches to the crankpin of the crankshaft.",
+          "translation": "A biela se conecta ao moente do virabrequim."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a crankshaft journal",
+          "translation": "um munhão do virabrequim"
+        },
+        {
+          "en": "a crankshaft counterweight",
+          "translation": "um contrapeso do virabrequim"
+        },
+        {
+          "en": "a crankshaft bearing",
+          "translation": "um mancal do virabrequim"
+        }
+      ],
+      "tip": "O virabrequim tem moentes excêntricos e braços de ligação, diferente do comando com ressaltos. A imagem mostra um exemplo simplificado de uma só manivela, não o projeto completo de um motor específico."
+    },
+    "connecting-rod": {
+      "sourceWord": "connecting rod",
+      "senses": {
+        "connecting-rod:meaning-1": {
+          "gloss": "biela",
+          "definition": "Uma ligação rígida que conecta um pistão a um moente e transmite força entre eles."
+        }
+      },
+      "examples": [
+        {
+          "en": "The connecting rod has a small end and a larger split big end.",
+          "translation": "A biela tem uma extremidade pequena e uma cabeça maior bipartida."
+        },
+        {
+          "en": "The connecting rod joins the piston pin to the crankpin.",
+          "translation": "A biela une o pino do pistão ao moente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a connecting rod big end",
+          "translation": "uma cabeça de biela"
+        },
+        {
+          "en": "a connecting rod small end",
+          "translation": "um pé de biela"
+        },
+        {
+          "en": "a connecting rod cap",
+          "translation": "uma capa de biela"
+        }
+      ],
+      "tip": "Connecting rod aqui é a biela do mecanismo de pistão e virabrequim, não qualquer haste de ligação. A cabeça maior do modelo ilustrado tem capa removível; projetos e dimensões variam."
+    },
+    "flywheel": {
+      "sourceWord": "flywheel",
+      "senses": {
+        "flywheel:meaning-1": {
+          "gloss": "volante de inércia",
+          "definition": "Uma roda giratória que armazena energia cinética e ajuda a suavizar variações de velocidade de rotação."
+        }
+      },
+      "examples": [
+        {
+          "en": "The flywheel has a thick rim around its central hub.",
+          "translation": "O volante de inércia tem um aro espesso ao redor do cubo central."
+        },
+        {
+          "en": "The flywheel helps reduce speed changes during an engine cycle.",
+          "translation": "O volante de inércia ajuda a reduzir variações de velocidade durante um ciclo do motor."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a flywheel rim",
+          "translation": "um aro de volante de inércia"
+        },
+        {
+          "en": "a flywheel hub",
+          "translation": "um cubo de volante de inércia"
+        },
+        {
+          "en": "a flywheel housing",
+          "translation": "uma carcaça de volante de inércia"
+        }
+      ],
+      "tip": "O flywheel armazena energia cinética por sua inércia de rotação; não é simplesmente uma engrenagem ou polia. Formas e fixações variam; a imagem não fornece energia armazenada nem velocidade permitida."
     }
   }
 }

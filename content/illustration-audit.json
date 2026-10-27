@@ -1616,22 +1616,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/recover-v2.webp",
-        "sha256": "49adcc036b8e35c8eb34868cdda821acdf4542689942d4aa76632ba719fc8b6a"
+        "path": "atlas/img/recover-v3.webp",
+        "sha256": "4c70908a2b5e600787870d6f96351290dc919766523a722c844cdc457099d2f4"
       },
       "visual": {
-        "expectedCue": "The same person progresses from being unwell to regaining normal activity, showing a return toward health.",
+        "expectedCue": "The same woman changes from resting tired in a clinical bed to walking upright comfortably, showing return toward health.",
         "decision": "replaced",
-        "reason": "The prior person eating soup in bed remained ill, without an observable return toward health.",
-        "inspectionNotes": "The same woman progresses from illness/rest in bed to comfortable normal walking; visibly expresses return to health."
+        "reason": "Full source and final512/120 inspected: matching face, short dark hair, teal top and blue trousers connect the two temporal views. Smaller bed scene shows fatigue; larger upright walking scene shows improved energy, joined by a single transition arrow. Natural limbs/hands, no diagnosis, treatment steps, timeline or guaranteed outcome. Replaces warm inherited illustration while retaining lexical identity.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical precise forms on cool white with restrained mint/pale blue; selected body part or temporal health cue remains visible at120px."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
-      },
-      "generation": {
-        "method": "OpenAI built-in image generation",
-        "prompt": "Use case: scientific-educational. Asset type: square English vocabulary illustration for the verb RECOVER: return to health or a normal condition after illness or injury.\nPrimary request: A very clear two-stage recovery sequence, the SAME adult woman with short dark hair and a muted teal top in both stages. First, a smaller scene shows her tired and resting in bed after an illness. A simple gentle forward arrow leads to a larger scene of that same woman restored to ordinary health, walking comfortably outdoors with an upright relaxed posture and a calm smile. Clearly communicate a change over time from illness/rest to regained normal activity, not just eating soup in bed.\nStyle: clean calm medical editorial illustration for language learners, pale ivory background, muted teal and coral accents, natural anatomy, restrained soft shading, clear silhouettes and very little scenery. A single coherent composition readable as an action at a120px thumbnail.\nConstraints: no medicines, treatment, miraculous cure, medical claims, text, labels, words, logo or watermark. No confusing extra people, hospital equipment or sport performance. Keep the same face, hair, clothes and identity across the sequence. Square."
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4c70908a2b5e600787870d6f96351290dc919766523a722c844cdc457099d2f4",
+          "inspectedAt": "2026-10-27T22:59:48.173443+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 inspected. The same short-haired woman in the same teal top appears tired and resting in bed, then upright walking comfortably in the clinical corridor; face, clothing and proportions remain consistent. A single arrow joins the two states and communicates improvement over time, not two unrelated people or an instruction. Hands/feet look coherent, no assistive device, injury or cure timeline. Bed and corridor chair give relevant clinical setting; no decorative props. Cool white/mint clinical rendering and before-to-better sequence survive120px. This is a generic recovery illustration, not a guaranteed outcome. AI visual review only; independent human/specialist approval pending."
+        }
       }
     },
     {
@@ -1656,17 +1666,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/medicine.webp",
-        "sha256": "327cebba10f3964927e5bed60a44ed0b5cffeb4c82864e7502a28c2db480a8cc"
+        "path": "atlas/img/medicine-v2.webp",
+        "sha256": "385978052adcbf1094c102b37d96384283ff14c9de1a6ac5b5bc46248dc50c24"
       },
       "visual": {
-        "expectedCue": "A pharmacist handles a medicine bottle during a consultation, identifying a substance used for treatment.",
-        "decision": "retained",
-        "reason": "Retained after pixel inspection: A pharmacist handles a medicine bottle during a consultation, identifying a substance used for treatment."
+        "expectedCue": "Generic tablets and capsules in a closed bottle and blister pack identify medicine as a substance used in medical care.",
+        "decision": "replaced",
+        "reason": "Full source and final512/120 inspected: closed amber bottle with blank label, intact blister capsules and plain tablets form one clinical still life. No brand, drug identity, dosage, diagnostic result or administration step. Medication substance cue replaces inherited warm artwork; the lexical record is preserved.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical precise forms on cool white with restrained mint/pale blue; selected body part or temporal health cue remains visible at120px."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "385978052adcbf1094c102b37d96384283ff14c9de1a6ac5b5bc46248dc50c24",
+          "inspectedAt": "2026-10-27T22:59:48.173443+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 inspected. Closed amber container with genuinely blank label, coherent blister cavities containing intact generic capsules, and plain solid tablets form one clear pharmaceutical group. No medicine name, pill imprint, dose number, instructions or consumption. This depicts medicine as a substance rather than the profession; shapes remain clear at120px. Soft precise clinical still life in cool white/mint, with no unrelated props. No efficacy or prescription claim. AI visual review only; independent human/specialist approval pending."
+        }
       }
     },
     {
@@ -18977,6 +19002,1206 @@
             120
           ],
           "finding": "Actual full source and final512/120 inspected. Long slender fine steel point connects to a knurled handle and visibly touches the endpoint of one hair-thin straight scratched line on the metal plate. The mark is a line rather than a dimple or ink arrow, with no arrowhead. Distinct from the corrected short-cone center punch. Coherent contact and fine-point silhouette remain visible at120px; slate/silver/amber technical rendering matches category. AI inspection only, pending human specialist review."
+        }
+      }
+    },
+    {
+      "entryId": "eye",
+      "sourceWord": "eye",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "eye:meaning-1",
+          "pos": "n.",
+          "en": "An organ that detects light and sends information to the brain for vision."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The model shows the whole eye, including its rounded back.",
+          "senseId": "eye:meaning-1"
+        },
+        {
+          "en": "The optic nerve carries signals from the eye to the brain.",
+          "senseId": "eye:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/eye.webp",
+        "sha256": "aa79accaefc9329647b3219dc69411a25de8d4b71233fe8be9b9e644097496df"
+      },
+      "visual": {
+        "expectedCue": "A complete rounded human eyeball with anterior cornea/iris/pupil and an attached posterior optic-nerve stump.",
+        "decision": "added",
+        "reason": "Actual full1254px generated source and final512WebP/120PNG inspected. Globe is coherent and near-spherical, with clear anterior corneal dome over an iris ring and dark central opening; a short attached nerve stump leaves the opposite posterior side. Sclera has restrained superficial vessel texture, without an invented vascular diagram or bloody section. No cutaway or loose lens; whole-organ silhouette remains visible at120px. This is a simplified educational model; specialist review remains pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise softly lit clinical anatomy model, ivory sclera and blue/teal iris on empty cool-white/mint background. No irrelevant props, labels or readings. Whole globe readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "aa79accaefc9329647b3219dc69411a25de8d4b71233fe8be9b9e644097496df",
+          "inspectedAt": "2026-10-27T22:56:49.121141+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: whole globe with white sclera, curved clear anterior cornea, colored iris/dark pupil and posterior optic nerve. Coherent single organ silhouette and clinical cool-white rendering; no extra pupil or floating tissue."
+        }
+      }
+    },
+    {
+      "entryId": "ear",
+      "sourceWord": "ear",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "ear:meaning-1",
+          "pos": "n.",
+          "en": "An organ with outer, middle and inner parts that enables hearing and contributes to balance."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ear includes structures that cannot be seen from outside the head.",
+          "senseId": "ear:meaning-1"
+        },
+        {
+          "en": "Sound travels through the ear canal towards the eardrum.",
+          "senseId": "ear:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ear.webp",
+        "sha256": "2f428a4b402dcc40738289adcbd039d53452a99082d05f05b68c58c19d7b1b5c"
+      },
+      "visual": {
+        "expectedCue": "Whole-ear cutaway connects the outer pinna/canal through a membrane and ossicular chain to inner cochlea and vestibular canals.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Pinna leads continuously to the canal ending at one slanted tympanic membrane; malleus contacts the membrane and a linked incus/stapes chain reaches the inner-ear oval window. Middle-ear cavity has a separate inferior auditory tube. Inner ear contains a cochlear spiral and three distinct simplified semicircular canal loops. First candidate had an extra apparent nested loop; one targeted edit removed it and actual corrected full/512/120 inspection found three loops, with the whole outer/middle/inner relation retained. Small ossicular details are clearest at512; whole-ear arrangement remains clear at120. AI model inspection only; qualified review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical cutaway on empty cool-white/mint, natural restrained tissue pink and ivory bone with pale-blue inner-ear structures. No decorative objects, text, readings or invasive procedure."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2f428a4b402dcc40738289adcbd039d53452a99082d05f05b68c58c19d7b1b5c",
+          "inspectedAt": "2026-10-27T22:56:49.121544+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: continuous external canal ends at eardrum, malleus/incus/stapes lead toward cochlea, with three semicircular loops above and separate descending auditory tube. Whole ear cue matches selected anatomy sense. Corrected candidate excludes the original extra apparent loop; simplified model rather than microscopic claim."
+        }
+      }
+    },
+    {
+      "entryId": "nose",
+      "sourceWord": "nose",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "nose:meaning-1",
+          "pos": "n.",
+          "en": "The projecting part of the face with two nostrils through which air enters the nasal cavity."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The model shows the bridge and tip of the nose.",
+          "senseId": "nose:meaning-1"
+        },
+        {
+          "en": "The two nostrils form openings at the lower part of the nose.",
+          "senseId": "nose:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/nose.webp",
+        "sha256": "ee0cbad6f511fc8aaea3c8a61e6968ed4409c19cdc107922a65be0434b10af73"
+      },
+      "visual": {
+        "expectedCue": "A naturally attached external human nose with a single bridge, tip and two nostril openings.",
+        "decision": "added",
+        "reason": "Actual full1254 source and encoded512/120 inspected. Close clinical three-quarter face crop gives a clear single nasal bridge, tip, two alae and two dark nostril openings separated by the columella. Nose is attached to the face; no floating structure, extra bridge or third opening. Eyes and lips provide location context without cosmetic procedure. External-nose sense is clear at120px, although internal cavity anatomy is not shown.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Neutral realistic clinical facial rendering with softly lit precise skin form and empty pale cool-mint background. No jewelry, tools, decorations, labels or readings; central nose remains focal in the thumbnail."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ee0cbad6f511fc8aaea3c8a61e6968ed4409c19cdc107922a65be0434b10af73",
+          "inspectedAt": "2026-10-27T22:56:49.121764+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: central external nasal bridge, tip and two nostril openings appear on coherent three-quarter human face; clinical precise soft forms and cool background. Nose is the prominent feature at thumbnail size, without unrelated objects or internal anatomy claims."
+        }
+      }
+    },
+    {
+      "entryId": "tongue",
+      "sourceWord": "tongue",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "tongue:meaning-1",
+          "pos": "n.",
+          "en": "A muscular organ in the mouth that helps with taste, moving food, swallowing and speech."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tongue changes shape when a person forms different speech sounds.",
+          "senseId": "tongue:meaning-1"
+        },
+        {
+          "en": "The model shows the tongue attached within the mouth.",
+          "senseId": "tongue:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tongue.webp",
+        "sha256": "48ec194510ae72f70e818573e6e3f517e2642115bf93554218649c1ebb9bbc35"
+      },
+      "visual": {
+        "expectedCue": "A single pink muscular tongue rests inside the lower dental arch and continues into the attached oral base.",
+        "decision": "added",
+        "reason": "Actual full1254 and encoded512/120 inspected. One tongue has a rounded tip behind the lower incisors, broad continuous base within the mouth, fine surface papillae and central groove. Normal teeth/gums and a single uvula establish oral location; tongue is not detached, a food slice or a tongue-out gesture. The basal attachment itself lies in the normal oral shadow rather than a dissected muscle view. No disease, instruments or procedure. Central tongue stays clear at120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise calm clinical oral rendering with soft natural tissue colors, even lighting and plain pale-mint edge context. No decorative objects, text, fake readings or mapped taste zones."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "48ec194510ae72f70e818573e6e3f517e2642115bf93554218649c1ebb9bbc35",
+          "inspectedAt": "2026-10-27T22:56:49.121970+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: tongue is attached within an open mouth, visible dorsal texture and central groove with coherent teeth/lips and palate. Organ remains the dominant cue, distinct from a detached floating part or language metaphor; precise clinical rendering."
+        }
+      }
+    },
+    {
+      "entryId": "eyelid",
+      "sourceWord": "eyelid",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "eyelid:meaning-1",
+          "pos": "n.",
+          "en": "One of the movable folds that cover and protect the front of the eye."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The upper eyelid moves down when the eye closes.",
+          "senseId": "eyelid:meaning-1"
+        },
+        {
+          "en": "The illustration keeps the eye open so that both eyelids are visible.",
+          "senseId": "eyelid:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/eyelid.webp",
+        "sha256": "4390db1004394d66e0849d80fbb809ff9c39769b6fcca9be7dc14e9c0d14fb0c"
+      },
+      "visual": {
+        "expectedCue": "A normally open eye is framed by upper/lower eyelid folds; a pale-mint teaching overlay isolates the upper fold.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Open neutral eye shows attached upper and lower lid margins, a normal crease above the upper fold, lashes at the margins and a separate eyebrow. Pale-mint tint is confined to the upper lid skin fold, a teaching overlay rather than natural skin color; usage notes explain it. No sleeping/winking action, surgery or missing tissue. Upper fold remains visible at120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical close anatomical rendering with soft precise skin form and pale cool-white/mint field. Highlight is restrained educational annotation without labels, readings, objects or cosmetic procedure."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4390db1004394d66e0849d80fbb809ff9c39769b6fcca9be7dc14e9c0d14fb0c",
+          "inspectedAt": "2026-10-27T22:56:49.122128+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: mint highlight follows the upper skin fold above eyelashes; lower eyelid, eyebrow, iris and pupil stay anatomically distinct. Natural eye proportions and cool clinical palette. All three language tips explain the tint as an educational overlay, not natural skin pigmentation."
+        }
+      }
+    },
+    {
+      "entryId": "pupil",
+      "sourceWord": "pupil",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pupil:meaning-1",
+          "pos": "n.",
+          "en": "The opening in the centre of the iris through which light enters the eye."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pupil appears dark inside the coloured ring of the iris.",
+          "senseId": "pupil:meaning-1"
+        },
+        {
+          "en": "The pupil usually becomes smaller in brighter light.",
+          "senseId": "pupil:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pupil.webp",
+        "sha256": "d8358bf02726baec4a4b473e504132dc0da23c43da2e72a3403c20c9c32c3e89"
+      },
+      "visual": {
+        "expectedCue": "One dark central opening, surrounded by a lighter iris annulus, is the pupil.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. A single round dark aperture is centred within the continuous grey-blue iris ring. Central aperture has no convex bead reflection or separate solid-object edge; reflection lies on the transparent front surface off to the side. Lid margins/sclera establish a normal human eye, without animal slit pupil or an extra hole. Opening is the strongest contrast and remains clear at120px. Front view alone does not expose the aperture in section; definition and tips explicitly distinguish opening from solid tissue.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise clinical eye macro in softly desaturated pale-blue/grey and natural skin, with restrained reflections and no props, labels or readings. Calm focused crop is readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d8358bf02726baec4a4b473e504132dc0da23c43da2e72a3403c20c9c32c3e89",
+          "inspectedAt": "2026-10-27T22:56:49.122338+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: prominent dark central round opening is surrounded by a colored iris; corneal reflection lies away from the dark central cue. No second opening or lens painted into the pupil. Precise clinical eye rendering and central aperture remain readable at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "iris",
+      "sourceWord": "iris",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "iris:meaning-1",
+          "pos": "n.",
+          "en": "The coloured ring of tissue around the pupil that changes the opening to regulate incoming light."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The iris surrounds the dark opening called the pupil.",
+          "senseId": "iris:meaning-1"
+        },
+        {
+          "en": "Muscles in the iris change the size of the pupil.",
+          "senseId": "iris:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/iris.webp",
+        "sha256": "76715aa91792449e2170029945ebc5fb1ab0f3acaa4ec9cfb0458691386abe72"
+      },
+      "visual": {
+        "expectedCue": "A broad coloured iris tissue ring surrounds a smaller distinct pupil opening.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Green/hazel iris annulus is the dominant structure, with radial tissue detail and clear inner pupillary rim and outer limbal boundary. One smaller dark central opening is distinct from the coloured tissue; transparent corneal highlight lies at the side. This is an intact eye close-up, without floating ring, raised doughnut or camera blades. Broad coloured annulus remains distinguishable at120px; microscopic muscles are not claimed to be individually visible.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical eye rendering with restrained green/blue iris and natural skin, no objects, labels, diagnostic numbers or procedural scene. Educational detail remains legible after conversion."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "76715aa91792449e2170029945ebc5fb1ab0f3acaa4ec9cfb0458691386abe72",
+          "inspectedAt": "2026-10-27T22:56:49.122514+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: broad colored radial ring surrounds a smaller central pupil; ring and aperture have distinct boundaries. Corneal reflection does not become a second pupil. Precise clinical eye study differs from the pupil card through the dominant colored ring."
+        }
+      }
+    },
+    {
+      "entryId": "retina",
+      "sourceWord": "retina",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "retina:meaning-1",
+          "pos": "n.",
+          "en": "The light-sensitive tissue lining the inner back of the eye, where visual signals begin."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cutaway shows the retina along the inside of the back wall of the eye.",
+          "senseId": "retina:meaning-1"
+        },
+        {
+          "en": "Light-sensitive cells in the retina respond to incoming light.",
+          "senseId": "retina:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/retina.webp",
+        "sha256": "beac01675c5c134afd7924a1e7a100d40c09696ae909ae248077ab8e7f76c9fd"
+      },
+      "visual": {
+        "expectedCue": "A thin warm-coloured concave retinal lining follows the inner posterior eyeball wall, separate from the clear anterior lens.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Three-quarter cutaway exposes a broad concave inner peach/orange retinal surface lining the posterior globe; thin darker choroid and ivory sclera lie outside it at the cut edge. Central space remains translucent, not a solid retinal ball. A distinct clear biconvex lens lies behind the anterior iris, while a posterior optic disc connects to the exiting nerve and restrained branching red/blue vessels. Main retina versus lens location is clear at120px. Layer thickness and fine vitreous strands are simplified model cues, not histology or a diagnostic image; qualified review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise softly lit clinical educational model on empty cool-white/mint. Natural warm retinal contrast supports the tissue distinction without labels, props, numbers or clinical procedure."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "beac01675c5c134afd7924a1e7a100d40c09696ae909ae248077ab8e7f76c9fd",
+          "inspectedAt": "2026-10-27T22:56:49.122705+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: posterior orange light-sensitive lining follows the inner eye wall with fine vascular branching toward the optic disc/nerve; anterior cornea/iris/lens remain quiet and distinct. No floating retina or duplicated lens. This macroscopic cutaway does not claim microscopic layer accuracy."
+        }
+      }
+    },
+    {
+      "entryId": "cornea",
+      "sourceWord": "cornea",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "cornea:meaning-1",
+          "pos": "n.",
+          "en": "The clear curved front part of the eye that covers the iris and pupil and helps focus light."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cornea forms a transparent dome at the front of the eye.",
+          "senseId": "cornea:meaning-1"
+        },
+        {
+          "en": "Light passes through the cornea before reaching the lens.",
+          "senseId": "cornea:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cornea.webp",
+        "sha256": "359268a9b09ad517accc8edf04c265b3c439c390eb98bae1268c7084ada40e70"
+      },
+      "visual": {
+        "expectedCue": "A transparent curved corneal shell is at the front of the eye, with the iris and dark pupil behind it and a separate lens deeper inside.",
+        "decision": "added",
+        "reason": "Full corrected source and final512/120 actually inspected: teal is restricted to the thin outer curved corneal rim; anterior space is colorless with iris/pupil behind and a separate posterior lens. Original blue-volume candidate rejected by second AI inspection and retained privately. Corrected thin-shell cue passed the second AI inspection; this remains a simplified anterior cutaway rather than a layer-thickness map.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical precise forms on cool white with restrained mint/pale blue; selected body part or temporal health cue remains visible at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "359268a9b09ad517accc8edf04c265b3c439c390eb98bae1268c7084ada40e70",
+          "inspectedAt": "2026-10-27T22:59:48.173443+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual corrected full1254 source cornea-accepted-v2.png, encoded512WebP and120PNG inspected. Thin pale-teal front rim now marks the outer curved corneal shell joining sclera, while the anterior chamber is colorless and the previous thick blue rear crescent is absent. Iris/pupil remain behind that clear space and a separate biconvex lens lies farther posteriorly. The highlighted outer covering is now distinct at120px; this is a simplified cutaway, not a thickness map. Clean precise cool-white/mint model with no props, text or readings. Initial hash fb1a7a43…656124a was rejected for chamber/solid-lens ambiguity; correction actually reviewed, not approved from prompt. AI visual review only; independent human/specialist approval pending."
+        }
+      }
+    },
+    {
+      "entryId": "eardrum",
+      "sourceWord": "eardrum",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "eardrum:meaning-1",
+          "pos": "n.",
+          "en": "The thin membrane at the end of the ear canal that vibrates in response to sound."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The eardrum separates the ear canal from the middle ear.",
+          "senseId": "eardrum:meaning-1"
+        },
+        {
+          "en": "Vibrations of the eardrum pass to the tiny bones of the middle ear.",
+          "senseId": "eardrum:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/eardrum.webp",
+        "sha256": "39a0ed6dd083e2c66581d56564f1421c1ff54b133db1cde9cf82001662c5552d"
+      },
+      "visual": {
+        "expectedCue": "An intact oblique tympanic membrane closes the external ear canal, with a malleus handle attached on its medial side.",
+        "decision": "added",
+        "reason": "Full source and final512/120 inspected: the external canal terminates at one intact oval membrane; a medial malleus handle contacts the inward umbo. Quiet middle-ear cavity lies behind it. Radial membrane texture remains clear, with no perforation, misplaced canal or invented complete ossicle chain.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical precise forms on cool white with restrained mint/pale blue; selected body part or temporal health cue remains visible at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "39a0ed6dd083e2c66581d56564f1421c1ff54b133db1cde9cf82001662c5552d",
+          "inspectedAt": "2026-10-27T22:59:48.173443+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 inspected. One intact thin slanted oval membrane closes the external canal and separates it from a middle-ear cavity. Radial membrane fibres converge near the umbo, with malleus handle visibly contacting the medial surface. Outer pinna/canal locate it correctly; this focused partial model does not show the whole ossicular chain and does not claim it does. Pale-teal teaching contrast makes the membrane clear at120px. Precise cool clinical cutaway, no instruments, pathology, invented readings or irrelevant props. AI visual review only; independent human/specialist approval pending."
+        }
+      }
+    },
+    {
+      "entryId": "larynx",
+      "sourceWord": "larynx",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "larynx:meaning-1",
+          "pos": "n.",
+          "en": "The structure in the neck that contains the vocal folds and connects the throat to the trachea."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The larynx lies above the trachea in the front of the neck.",
+          "senseId": "larynx:meaning-1"
+        },
+        {
+          "en": "The vocal folds inside the larynx vibrate during voiced speech.",
+          "senseId": "larynx:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/larynx.webp",
+        "sha256": "a819b6b08f02f01ba06845b4f950d475461c890afa8509e5aa71ed81766e89de"
+      },
+      "visual": {
+        "expectedCue": "External laryngeal cartilage framework shows the notched thyroid shield above a cricoid ring and short proximal tracheal segment.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Large notched thyroid cartilage shield is distinct from a butterfly thyroid gland; a short soft cricothyroid region joins the cricoid ring below. A few proximal tracheal supports continue inferiorly and fade out, clearly partial scope rather than a complete tracheal ring count. Superiorly a separate ivory hyoid and posterior leaf-like epiglottis give anatomical context within a ghosted neck. No invented external vocal cords or vessels. Main voice-box framework stays clear at120px; internal vocal-fold detail is not visible or claimed. Gross educational model, specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical cartilage model in pale teal/ivory and pink membrane on empty cool-white/mint with a subtle location outline. No props, text, readings, invasive tools or disease."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a819b6b08f02f01ba06845b4f950d475461c890afa8509e5aa71ed81766e89de",
+          "inspectedAt": "2026-10-27T23:05:56.878229+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: central notched thyroid cartilage shield lies above a distinct cricoid ring and quieter tracheal supports; hyoid and epiglottis are separate above. Ghost neck locates the larynx anteriorly. No thyroid gland, invented exposed vocal cords or doubled airway. Clean clinical mint/white anatomy study remains recognizable at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "diaphragm",
+      "sourceWord": "diaphragm",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "diaphragm:meaning-1",
+          "pos": "n.",
+          "en": "The dome-shaped muscle separating the chest and abdominal cavities that helps draw air into the lungs."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The diaphragm forms the muscular floor of the chest cavity.",
+          "senseId": "diaphragm:meaning-1"
+        },
+        {
+          "en": "During inhalation, the diaphragm contracts and moves downwards.",
+          "senseId": "diaphragm:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/diaphragm.webp",
+        "sha256": "f4cb0444c975dd934d75e3b4fd48f85ae614faa5423d25c8a9b9cc17f6cbf0c2"
+      },
+      "visual": {
+        "expectedCue": "A continuous double-domed muscle sheet lies beneath the lungs and separates the thoracic and abdominal regions.",
+        "decision": "added",
+        "reason": "Full source and final512/120 inspected: mint muscle sheet with central tendon and radial fibers is below both lungs inside a quiet rib-cage locator. The subject's right dome is higher, liver context is faint below. This simplified resting-location model omits apertures and does not claim a breathing-motion diagram.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical precise forms on cool white with restrained mint/pale blue; selected body part or temporal health cue remains visible at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f4cb0444c975dd934d75e3b4fd48f85ae614faa5423d25c8a9b9cc17f6cbf0c2",
+          "inspectedAt": "2026-10-27T22:59:48.173443+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 inspected. Highlighted broad domed muscular sheet lies below both lungs and spans the lower rib cage, with central pale tendon and muscle fibres directed inward. The subject-right dome is higher (viewer-left), with subdued liver context beneath. The muscle is distinct from lungs and intercostal ribs and its chest/abdomen separating position remains clear at120px. Ghosted torso and other organs are simplified context, not complete organ or hiatus anatomy. Clean cool-white/mint clinical model, no labels, arrows, readings or procedural claims. AI visual review only; independent human/specialist approval pending."
+        }
+      }
+    },
+    {
+      "entryId": "chain",
+      "sourceWord": "chain",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "chain:meaning-1",
+          "pos": "n.",
+          "en": "A series of connected metal links that transmits motion by engaging sprocket teeth."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The chain has linked side plates and small cylindrical rollers.",
+          "senseId": "chain:meaning-1"
+        },
+        {
+          "en": "The chain connects the driving sprocket to the driven sprocket.",
+          "senseId": "chain:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/chain.webp",
+        "sha256": "c4a5fb5c5f051e71589ac578a2562139c210f2cbabf10667fef66f485a8d28b0"
+      },
+      "visual": {
+        "expectedCue": "A short roller-chain segment has paired alternating side plates, pins and crosswise cylindrical rollers.",
+        "decision": "added",
+        "reason": "Full source and final512/120 inspected: short U-curved metal segment shows linked paired plates, pin heads, cylindrical cross-rollers and open free-end bushings. No necklace, rope or continuous belt. It is an illustrative roller-chain example, with no dimensional or load-rating claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver technical product drawing on slate with restrained amber highlights; mechanism silhouette and relevant contact remain readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c4a5fb5c5f051e71589ac578a2562139c210f2cbabf10667fef66f485a8d28b0",
+          "inspectedAt": "2026-10-27T23:17:02.523712+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: the short curved roller-chain specimen has paired alternating link plates, visible pin heads and crosswise cylindrical rollers with coherent connected articulations and two open segment ends. It reads as a machine chain rather than jewelry or a belt at120px. Silver technical material, slate ground and restrained amber edges match the brief. No load or dimensional performance is inferred. Second AI review only; independent human specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "sprocket",
+      "sourceWord": "sprocket",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "sprocket:meaning-1",
+          "pos": "n.",
+          "en": "A toothed wheel that engages a chain to transmit rotary motion."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sprocket teeth fit between the rollers of the chain.",
+          "senseId": "sprocket:meaning-1"
+        },
+        {
+          "en": "The sprocket has a central bore for its shaft.",
+          "senseId": "sprocket:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sprocket.webp",
+        "sha256": "d6716ed3a62fa8514ae2766147d87a0d4b67bbdfb785cd19d4ef20f9d7c39c2d"
+      },
+      "visual": {
+        "expectedCue": "A toothed wheel engages a short roller chain, with its teeth between the rollers.",
+        "decision": "added",
+        "reason": "Full source and final512/120 inspected: wheel has a central shaft bore, rounded tooth-root gaps and a chain wrapped over its upper arc; rollers occupy the gaps and teeth extend between rollers. Side plates remain outside the toothed wheel. Whole wheel stays inside the frame; short chain ends continue outward. No gear-to-gear mesh or operating specification.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver technical product drawing on slate with restrained amber highlights; mechanism silhouette and relevant contact remain readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d6716ed3a62fa8514ae2766147d87a0d4b67bbdfb785cd19d4ef20f9d7c39c2d",
+          "inspectedAt": "2026-10-27T23:17:02.524028+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: the amber toothed wheel has a central bore and a silver chain around its upper arc. Consecutive rollers sit in tooth-root pockets while the wheel teeth extend into the intervals between rollers; the front link plates naturally occlude part of the mesh. Unobscured lower teeth preserve the selected wheel focus at120px. No tooth penetrates a visible roller or gear-to-gear relationship is implied. Slate/silver/amber treatment matches the brief. Second AI review only; independent human specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "belt",
+      "sourceWord": "belt",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "belt:meaning-1",
+          "pos": "n.",
+          "en": "A flexible continuous loop that runs around pulleys to transmit rotary motion between them."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The belt forms a continuous loop around the two pulleys.",
+          "senseId": "belt:meaning-1"
+        },
+        {
+          "en": "The belt sits in the grooves of the pulleys.",
+          "senseId": "belt:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/belt.webp",
+        "sha256": "682a30ac49b3c0cc94434a8b03fefb4c7621f6d3c5ff574f37ee034e9e7ef80e"
+      },
+      "visual": {
+        "expectedCue": "Continuous uncrossed V-belt loop contacts two coplanar grooved pulleys.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: one continuous dark belt has traceable straight top/bottom tangent runs and wraps around both pulley rims, behind front flanges. No loose ends, chain links, crossings or twists. Equal pulleys share a plane and have coherent shaft/support pedestals; restrained amber edging keeps belt visible. Loop/contact relation remains clear at120px. No working tension, speed or numerical setting is claimed.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "682a30ac49b3c0cc94434a8b03fefb4c7621f6d3c5ff574f37ee034e9e7ef80e",
+          "inspectedAt": "2026-10-27T23:13:07.072732+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: one continuous dark flexible loop follows the two aligned pulley grooves, with straight top/bottom tangent runs and traceable side wraps behind the front flanges. Coaxial shaft supports meet the shared base and pulley grooves lie in one plane. No crossed belt, extra loop, detached end or chain link. Slate/silver rendering and amber belt edges retain the selected mechanical belt cue at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "rack",
+      "sourceWord": "rack",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "rack:meaning-1",
+          "pos": "n.",
+          "en": "A straight toothed bar that meshes with a pinion to convert between rotary and linear motion."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The rack has evenly spaced teeth along one straight edge.",
+          "senseId": "rack:meaning-1"
+        },
+        {
+          "en": "The pinion meshes with the rack above it.",
+          "senseId": "rack:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/rack.webp",
+        "sha256": "714ea0cf0e30e885ada0634638fa9a4cbc291ff0ae924ef1502b1937e5d9bd84"
+      },
+      "visual": {
+        "expectedCue": "A straight toothed rack above a contextual circular pinion is highlighted amber, with matching tooth-to-space engagement.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: straight amber toothed bar above a silver circular pinion, with matching tooth-to-space overlap and small root clearance; silver guides and shaft stand provide context. Both rack cut ends are inside the frame. Initial cropped-end candidate rejected and reframed; no dimensions or motion claims. The selected straight bar remains recognizable at120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise slate/silver/amber technical rendering with complementary focus on the selected rack or pinion, without working dimensions or motion arrows."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "714ea0cf0e30e885ada0634638fa9a4cbc291ff0ae924ef1502b1937e5d9bd84",
+          "inspectedAt": "2026-10-27T23:17:02.524439+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: the entire amber straight rack, including both cut ends, fits within the frame. Its downward teeth alternate with the upper silver pinion teeth at matching visible pitch, with small root clearance and no global separation or solid tip-on-tip collision. End guides and the wheel support remain distinct. The straight target bar stays recognizable at120px; slate/silver/amber rendering matches the brief. Second AI review only; independent human specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "pinion",
+      "sourceWord": "pinion",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "pinion:meaning-1",
+          "pos": "n.",
+          "en": "A small gear that meshes with a larger gear or a toothed rack."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pinion has teeth around its circular rim.",
+          "senseId": "pinion:meaning-1"
+        },
+        {
+          "en": "The pinion meshes with the straight rack above it.",
+          "senseId": "pinion:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pinion.webp",
+        "sha256": "940b28deb0d4f4334c8e341ae19f2e8749d6ac71d280f387cfe14d17fa585e05"
+      },
+      "visual": {
+        "expectedCue": "A small circular amber pinion meshes with a straight contextual silver rack above it.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: amber circular pinion with central hub/shaft engages the straight silver rack above, with teeth entering counterpart spaces and no tip-on-tip collision. Stand supports the shaft; contextual rack extends beyond crop. The circular wheel is fully visible and distinguished from the straight bar at120px; no dimension or power claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise slate/silver/amber technical rendering with complementary focus on the selected rack or pinion, without working dimensions or motion arrows."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "940b28deb0d4f4334c8e341ae19f2e8749d6ac71d280f387cfe14d17fa585e05",
+          "inspectedAt": "2026-10-27T23:17:02.524662+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: the amber circular gear below the silver contextual rack is the dominant target. Three upper gear teeth enter rack tooth spaces while intervening rack teeth enter the wheel gaps; small root clearance is visible without solid overlap. Hub, shaft and front support are coherent. Contextual rack extends beyond the frame while the entire selected pinion remains visible. Circular-versus-linear focus survives120px and matches the technical palette. Second AI review only; independent human specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "bushing",
+      "sourceWord": "bushing",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "bushing:meaning-1",
+          "pos": "n.",
+          "en": "A plain sleeve fitted between moving parts, such as a shaft and its housing, to provide a sliding bearing surface."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bushing has a smooth cylindrical bore for the shaft.",
+          "senseId": "bushing:meaning-1"
+        },
+        {
+          "en": "The bushing fits inside the housing without any balls or rollers.",
+          "senseId": "bushing:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bushing.webp",
+        "sha256": "c01ba8fbede8e0d476a6b2afb8944a7f38ec068e7e6b5a7d2f83d7a765c7182b"
+      },
+      "visual": {
+        "expectedCue": "A short plain bearing sleeve has a continuous smooth through-bore and no rolling elements.",
+        "decision": "added",
+        "reason": "Actual full generated source and final512/120 inspected: a single short bronze sleeve has a concentric open bore, consistent wall thickness and modest chamfered ends. Back opening is visibly open; there are no balls, rollers, threads, seals or electrical connectors. Its isolated plain-bearing form remains unmistakable at120px; bronze color provides the amber focus against slate. No fit, friction rating or operating condition is claimed.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c01ba8fbede8e0d476a6b2afb8944a7f38ec068e7e6b5a7d2f83d7a765c7182b",
+          "inspectedAt": "2026-10-27T23:16:19.893779+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: isolated plain cylindrical sleeve has a continuous smooth through-bore and substantial axial length, with coherent inner/outer walls and open ends. No balls, rollers, teeth or electrical insulation cue. Restrained bronze/amber material shading on slate makes the selected sliding-bearing sleeve clear at thumbnail size; material and dimensions are illustrative."
+        }
+      }
+    },
+    {
+      "entryId": "spindle",
+      "sourceWord": "spindle",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "spindle:meaning-1",
+          "pos": "n.",
+          "en": "A rotating machine shaft that supports and turns a cutting tool or workpiece."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The spindle has a machined nose for holding a tool.",
+          "senseId": "spindle:meaning-1"
+        },
+        {
+          "en": "The cutting tool rotates with the spindle.",
+          "senseId": "spindle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/spindle.webp",
+        "sha256": "3df1fac11fdee7217f5ba5e71cf64be18c6cb43a0bc7b4c94dde0db83c618dd2"
+      },
+      "visual": {
+        "expectedCue": "One continuous stepped machine-tool spindle shaft leads to a nose/collet securely gripping a short cutting tool.",
+        "decision": "added",
+        "reason": "Actual full1254 source, encoded512WebP and120PNG inspected. Long stepped shaft is continuous and coaxial through smooth journal regions, shoulder and integral tool-holding nose. Silver collet segments and amber nut surround a visible short smooth shank; only the end-mill flutes project farther forward. No floating cutter or grip through a flute, no speculative powered motor internals. Flange holes and rear thread are coherent mechanical details rather than dimensions or readings. Whole shaft and tool stay in frame and remain identifiable at120px. Illustrative assembly, not a production design or safety specification.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver technical product drawing with subtle machined-material shading, empty dark-slate ground and restrained amber nose highlight. No props, lettering, arrows, fake readings or watermark."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3df1fac11fdee7217f5ba5e71cf64be18c6cb43a0bc7b4c94dde0db83c618dd2",
+          "inspectedAt": "2026-10-27T23:20:50.092229+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: continuous stepped shaft, coaxial journal regions and machined nose join a collet assembly that grips a short smooth cutter shank before the projecting flutes. No floating tool, flute clamped inside the nose, offset journal or speculative motor cutaway. Whole assembly stays visible; amber tool-holding nose on slate/silver makes a machine-tool spindle distinct from a plain rod at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "keyway",
+      "sourceWord": "keyway",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "keyway:meaning-1",
+          "pos": "n.",
+          "en": "A groove in a shaft or hub that receives a fitted key to transmit rotation between the parts."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The keyway is a recessed slot along the shaft.",
+          "senseId": "keyway:meaning-1"
+        },
+        {
+          "en": "The key fits partly in the shaft keyway and partly in the hub.",
+          "senseId": "keyway:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/keyway.webp",
+        "sha256": "6f49f04b91737a554163e55f3829056d4cac494e757d8fc179a8fa2a29bd125c"
+      },
+      "visual": {
+        "expectedCue": "A longitudinal recessed keyway slot in a solid shaft has visible sidewalls and a lower flat bottom, with no key inserted.",
+        "decision": "added",
+        "reason": "Actual full1254 source, encoded512WebP and120PNG inspected. Solid cylindrical shaft has one axial recessed groove with parallel walls, rounded closed ends and a flat bottom clearly below its curved original surface. Front circular shaft face remains intact; slot is not a through-hole. Amber light marks the recess and there is no raised bar, fitted/loose key or decorative strip. Shadow and visible wall depth preserve the groove meaning at120px. Object study depicts the shaft-keyway variant; no manufacturing dimensions or tolerances claimed.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver technical product drawing on empty dark-slate ground, with subtle machined shading and restrained amber illumination inside the teaching slot. No props, labels, readings or watermarks."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6f49f04b91737a554163e55f3829056d4cac494e757d8fc179a8fa2a29bd125c",
+          "inspectedAt": "2026-10-27T23:24:12.975866+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: an elongated empty recessed groove runs axially in a solid cylindrical shaft, with clear lower floor, side walls and rounded closed ends. The shaft end face is unbroken; no floating or raised key is mistaken for the slot. Amber recess highlight on silver/slate preserves the selected groove cue at thumbnail size. Broad keyway/keyseat terminology is explicitly qualified in all editions; no dimensions or torque rating."
+        }
+      }
+    },
+    {
+      "entryId": "camshaft",
+      "sourceWord": "camshaft",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "camshaft:meaning-1",
+          "pos": "n.",
+          "en": "A rotating shaft with shaped lobes that move followers, often to operate engine valves."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The camshaft has round journals between its raised lobes.",
+          "senseId": "camshaft:meaning-1"
+        },
+        {
+          "en": "A camshaft lobe pushes a follower as the shaft turns.",
+          "senseId": "camshaft:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/camshaft.webp",
+        "sha256": "f34d7971267d682914d9ebd05931e1e9b857ab6a8fcbf9558f4998d5ea9aaa02"
+      },
+      "visual": {
+        "expectedCue": "A straight shaft carries round coaxial journals and shaped eccentric cam lobes.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: a continuous straight shaft joins cylindrical bearing journals and four rounded noncircular lobes. Amber outer lobe faces distinguish their raised noses from the silver round journals; no offset crankpins, detached discs, cam followers or invented timing sequence are shown. The lobe-versus-journal distinction survives120px. All main parts fit in frame with a slate/silver/amber technical product treatment.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f34d7971267d682914d9ebd05931e1e9b857ab6a8fcbf9558f4998d5ea9aaa02",
+          "inspectedAt": "2026-10-27T23:18:14.783871+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: one straight shaft carries coaxial round journals and four raised asymmetric rounded cam lobes, visibly different from concentric disks or offset crankpins. Lobes/journals remain connected along a coherent single shaft, with an end flange. Slate/silver drawing and amber lobe highlights keep the selected shaped-lobe cue visible at thumbnail size. No timing, valve movement or engine-layout claim."
+        }
+      }
+    },
+    {
+      "entryId": "crankshaft",
+      "sourceWord": "crankshaft",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "crankshaft:meaning-1",
+          "pos": "n.",
+          "en": "A shaft with offset crankpins that works with connecting rods to convert between reciprocating and rotary motion."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The crankshaft has main journals on one axis and a crankpin offset from it.",
+          "senseId": "crankshaft:meaning-1"
+        },
+        {
+          "en": "The connecting rod attaches to the crankpin of the crankshaft.",
+          "senseId": "crankshaft:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/crankshaft.webp",
+        "sha256": "fef13478ad8f9a41e6be16f1a7a8d46e66715fcafe54477a605c263d3616dc88"
+      },
+      "visual": {
+        "expectedCue": "A single-throw crankshaft has two main journals and a parallel offset crankpin joined by webs.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: two aligned external main-journal stubs join solid crank webs; a separate parallel amber crankpin spans between the webs above that main axis. Broad counterweight portions extend opposite the throw. No detached crankpin, crossing shafts, arbitrary arms or engine operating sequence is depicted. The deliberate single-throw illustration makes the offset relation readable at120px and is qualified as a simplified form in the native tips. Precise silver/amber material study on slate.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "fef13478ad8f9a41e6be16f1a7a8d46e66715fcafe54477a605c263d3616dc88",
+          "inspectedAt": "2026-10-27T23:21:24.549863+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: two coaxial main journal stubs project outside two connected counterweighted crank webs; one parallel amber crankpin bridges the webs on an offset axis. Rigid continuity and main-axis versus crankpin offset are traceable without floating parts. Single-throw simplified example is distinct from lobed camshaft at thumbnail size; precise silver/slate/amber rendering, no engine timing claim."
+        }
+      }
+    },
+    {
+      "entryId": "connecting-rod",
+      "sourceWord": "connecting rod",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "connecting-rod:meaning-1",
+          "pos": "n.",
+          "en": "A rigid link that connects a piston to a crankpin and transmits force between them."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The connecting rod has a small end and a larger split big end.",
+          "senseId": "connecting-rod:meaning-1"
+        },
+        {
+          "en": "The connecting rod joins the piston pin to the crankpin.",
+          "senseId": "connecting-rod:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/connecting-rod.webp",
+        "sha256": "9888adf348e274a0e5d55ab7ee1a67411128046c132e3008bb15edf8e599a65b"
+      },
+      "visual": {
+        "expectedCue": "A rigid connecting rod joins a small pin eye to a larger split crankpin bearing end.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: one continuous I-section rod joins a bronze-bushed small eye and larger circular big-end bore. A visible diameter split separates the fitted big-end cap, retained by two side fasteners outside the bore; there is no bolt through the bearing opening or exploded gap. Both open eyes and relative size difference remain clear at120px. Restrained amber bearing highlights and silver technical shading on slate match the engineering brief; no full engine geometry or operating setting is claimed.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9888adf348e274a0e5d55ab7ee1a67411128046c132e3008bb15edf8e599a65b",
+          "inspectedAt": "2026-10-27T23:21:51.282636+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: one I-section beam joins a small bushed eye to a larger open big-end bore, with a visible cap split and two seated fasteners outside the bore. No third eye, blocked opening, detached bolt or crossing shaft. Whole isolated rod and distinct end sizes remain clear at thumbnail size; precise slate/silver drawing with restrained bronze/amber inner-bearing highlights. Illustrative piston-engine connecting rod, without dimensions or assembly instructions."
+        }
+      }
+    },
+    {
+      "entryId": "flywheel",
+      "sourceWord": "flywheel",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "flywheel:meaning-1",
+          "pos": "n.",
+          "en": "A rotating wheel that stores kinetic energy and helps smooth changes in rotational speed."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The flywheel has a thick rim around its central hub.",
+          "senseId": "flywheel:meaning-1"
+        },
+        {
+          "en": "The flywheel helps reduce speed changes during an engine cycle.",
+          "senseId": "flywheel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/flywheel.webp",
+        "sha256": "212cb1d48d11670caa13a9ef817219543472b4665f8f00037ab29801071ccaf4"
+      },
+      "visual": {
+        "expectedCue": "A heavy thick-rimmed wheel has a central hub, balanced spokes and a shaft supported by two bearing pedestals.",
+        "decision": "added",
+        "reason": "Full source and final512/120 inspected: thick continuous rim joins four spokes and coaxial hub/shaft. Two bearing stands support the shaft; wheel has floor clearance. No tire, gear teeth, belt groove, unsupported axle or invented energy/speed value.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver technical product drawing on slate with restrained amber highlights; mechanism silhouette and relevant contact remain readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T23:26:50.676283+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "212cb1d48d11670caa13a9ef817219543472b4665f8f00037ab29801071ccaf4",
+          "inspectedAt": "2026-10-27T23:17:02.524203+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: a substantial continuous rim joins the spokes and coaxial hub to the supported shaft. Two bearing pedestals support that shaft and the rim has ground clearance. There is no tire, toothed gear rim, belt groove or unconnected shaft. Rim mass is the clear120px teaching cue; silver structure and amber rim treatment on slate match the brief. This is an illustrative form, not a speed or energy rating. Second AI review only; independent human specialist review remains pending."
         }
       }
     }

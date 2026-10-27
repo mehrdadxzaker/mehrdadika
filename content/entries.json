@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-13",
+  "releaseId": "2026-10-preview-14",
   "channel": "preview",
-  "createdAt": "2026-10-27T21:39:23.042423+00:00",
+  "createdAt": "2026-10-27T23:26:50.676283+00:00",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -2816,7 +2816,7 @@
       ],
       "tip": "برای اشاره به چیزی که فرد از آن بهبود می‌یابد، معمولاً recover from به کار می‌رود.",
       "media": {
-        "img": "atlas/img/recover-v2.webp",
+        "img": "atlas/img/recover-v3.webp",
         "uk": "atlas/audio/uk/recover.mp3",
         "us": "atlas/audio/us/recover.mp3"
       },
@@ -2881,7 +2881,7 @@
       "ant": [],
       "tip": "medicine هم می‌تواند دارو باشد و هم رشتهٔ پزشکی؛ در ترکیب study medicine منظور رشتهٔ پزشکی است.",
       "media": {
-        "img": "atlas/img/medicine.webp",
+        "img": "atlas/img/medicine-v2.webp",
         "uk": "atlas/audio/uk/medicine.mp3",
         "us": "atlas/audio/us/medicine.mp3"
       },
@@ -26267,6 +26267,1566 @@
           {
             "url": "https://www.starrett.com/products/precision-shop-tools/scribers/PT19306",
             "use": "Manufacturer reference for a hardened marking point on a scriber; no dimensions or copied product artwork."
+          }
+        ]
+      }
+    },
+    {
+      "id": "eye",
+      "w": "eye",
+      "uk": "/aɪ/",
+      "us": "/aɪ/",
+      "cefr": "A1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "eye:meaning-1",
+          "pos": "n.",
+          "fa": "چشم؛ اندامِ بینایی",
+          "en": "An organ that detects light and sends information to the brain for vision.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The model shows the whole eye, including its rounded back.",
+          "fa": "مدل تمامِ چشم، از جمله بخشِ گردِ پشتیِ آن را نشان می‌دهد.",
+          "senseId": "eye:meaning-1"
+        },
+        {
+          "en": "The optic nerve carries signals from the eye to the brain.",
+          "fa": "عصبِ بینایی پیام‌ها را از چشم به مغز می‌برد.",
+          "senseId": "eye:meaning-1"
+        }
+      ],
+      "col": [
+        "the human eye｜چشمِ انسان",
+        "an eye examination｜معاینهٔ چشم",
+        "the surface of the eye｜سطحِ چشم"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "در این معنی، eye خودِ اندامِ بینایی است؛ eyeball به کرهٔ چشم اشاره دارد و eyelid پلکِ روی آن است. معنی‌هایی مانند چشمِ سوزن در این مدخل نیستند.",
+      "media": {
+        "img": "atlas/img/eye.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          },
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ear",
+      "w": "ear",
+      "uk": "/ɪə/",
+      "us": "/ɪr/",
+      "cefr": "A1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "ear:meaning-1",
+          "pos": "n.",
+          "fa": "گوش؛ اندامِ شنوایی و تعادل",
+          "en": "An organ with outer, middle and inner parts that enables hearing and contributes to balance.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The ear includes structures that cannot be seen from outside the head.",
+          "fa": "گوش ساختارهایی دارد که از بیرونِ سر دیده نمی‌شوند.",
+          "senseId": "ear:meaning-1"
+        },
+        {
+          "en": "Sound travels through the ear canal towards the eardrum.",
+          "fa": "صدا از مجرای گوش به سوی پردهٔ گوش می‌رود.",
+          "senseId": "ear:meaning-1"
+        }
+      ],
+      "col": [
+        "the outer ear｜گوشِ خارجی",
+        "the middle ear｜گوشِ میانی",
+        "the inner ear｜گوشِ داخلی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "در این مدخل، ear مجموعهٔ گوشِ خارجی، میانی و داخلی است؛ فقط بخشِ بیرونیِ قابلِ دیدن نیست. ear canal مجرای گوش و eardrum پردهٔ گوش است.",
+      "media": {
+        "img": "atlas/img/ear.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nidcd.nih.gov/health/how-do-we-hear",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          },
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nose",
+      "w": "nose",
+      "uk": "/nəʊz/",
+      "us": "/noʊz/",
+      "cefr": "A1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "nose:meaning-1",
+          "pos": "n.",
+          "fa": "بینی؛ بخشِ بیرونیِ اندامِ بویایی و تنفس",
+          "en": "The projecting part of the face with two nostrils through which air enters the nasal cavity.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The model shows the bridge and tip of the nose.",
+          "fa": "مدل پل و نوکِ بینی را نشان می‌دهد.",
+          "senseId": "nose:meaning-1"
+        },
+        {
+          "en": "The two nostrils form openings at the lower part of the nose.",
+          "fa": "دو سوراخِ بینی در بخشِ پایینیِ بینی دهانه‌هایی تشکیل می‌دهند.",
+          "senseId": "nose:meaning-1"
+        }
+      ],
+      "col": [
+        "the bridge of the nose｜پلِ بینی",
+        "the tip of the nose｜نوکِ بینی",
+        "the shape of the nose｜شکلِ بینی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "این معنی بر بخشِ بیرونیِ بینی تمرکز دارد. nostril هر یک از دو سوراخِ بینی است؛ nasal cavity فضایِ داخلِ بینی است. کاربردِ nose برای جلوی وسیلهٔ نقلیه در این مدخل نیست.",
+      "media": {
+        "img": "atlas/img/nose.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tongue",
+      "w": "tongue",
+      "uk": "/tʌŋ/",
+      "us": "/tʌŋ/",
+      "cefr": "B1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "tongue:meaning-1",
+          "pos": "n.",
+          "fa": "زبان؛ اندامِ عضلانیِ دهان",
+          "en": "A muscular organ in the mouth that helps with taste, moving food, swallowing and speech.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The tongue changes shape when a person forms different speech sounds.",
+          "fa": "وقتی فرد صداهای گوناگونِ گفتاری را تولید می‌کند، زبان تغییرِ شکل می‌دهد.",
+          "senseId": "tongue:meaning-1"
+        },
+        {
+          "en": "The model shows the tongue attached within the mouth.",
+          "fa": "مدل زبان را در حالتِ متصل به بافت‌های داخلِ دهان نشان می‌دهد.",
+          "senseId": "tongue:meaning-1"
+        }
+      ],
+      "col": [
+        "the tip of the tongue｜نوکِ زبان",
+        "the surface of the tongue｜سطحِ زبان",
+        "tongue movement｜حرکتِ زبان"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "این مدخل tongue را به معنیِ اندامِ دهان می‌آموزد؛ معنیِ «زبانِ گفتاری» مانند mother tongue جداست. tongue از چندین عضله ساخته شده و قطعه‌ای جدا و شناور در دهان نیست.",
+      "media": {
+        "img": "atlas/img/tongue.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "eyelid",
+      "w": "eyelid",
+      "uk": "/ˈaɪlɪd/",
+      "us": "/ˈaɪlɪd/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "eyelid:meaning-1",
+          "pos": "n.",
+          "fa": "پلک",
+          "en": "One of the movable folds that cover and protect the front of the eye.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The upper eyelid moves down when the eye closes.",
+          "fa": "وقتی چشم بسته می‌شود، پلکِ بالا به سمتِ پایین حرکت می‌کند.",
+          "senseId": "eyelid:meaning-1"
+        },
+        {
+          "en": "The illustration keeps the eye open so that both eyelids are visible.",
+          "fa": "در تصویر چشم باز است تا هر دو پلک دیده شوند.",
+          "senseId": "eyelid:meaning-1"
+        }
+      ],
+      "col": [
+        "the upper eyelid｜پلکِ بالا",
+        "the lower eyelid｜پلکِ پایین",
+        "the eyelid margin｜لبهٔ پلک"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "eyelid پلک است، نه eyelash به معنیِ مژه و نه eyebrow به معنیِ ابرو. هر چشم یک پلکِ بالا و یک پلکِ پایین دارد؛ جمعِ آن eyelids است. رنگِ سبزِ کم‌رنگ در تصویر فقط برای مشخص‌کردنِ پلکِ بالاست و رنگِ طبیعیِ پوست نیست.",
+      "media": {
+        "img": "atlas/img/eyelid.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          },
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pupil",
+      "w": "pupil",
+      "uk": "/ˈpjuːpəl/",
+      "us": "/ˈpjuːpəl/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "pupil:meaning-1",
+          "pos": "n.",
+          "fa": "مردمک؛ دهانهٔ مرکزیِ عنبیه",
+          "en": "The opening in the centre of the iris through which light enters the eye.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The pupil appears dark inside the coloured ring of the iris.",
+          "fa": "مردمک درونِ حلقهٔ رنگیِ عنبیه تیره به نظر می‌رسد.",
+          "senseId": "pupil:meaning-1"
+        },
+        {
+          "en": "The pupil usually becomes smaller in brighter light.",
+          "fa": "مردمک معمولاً در نورِ روشن‌تر کوچک‌تر می‌شود.",
+          "senseId": "pupil:meaning-1"
+        }
+      ],
+      "col": [
+        "pupil size｜اندازهٔ مردمک",
+        "a dilated pupil｜مردمکِ گشادشده",
+        "the edge of the pupil｜لبهٔ مردمک"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "در این معنی، pupil یک دهانه است، نه بافتِ رنگیِ عنبیه و نه عدسیِ چشم. معنیِ دیگرِ pupil یعنی «دانش‌آموز» در این مدخل نیست. شکلِ تیرهٔ وسطِ تصویر سطحِ جامد نیست.",
+      "media": {
+        "img": "atlas/img/pupil.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          },
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "iris",
+      "w": "iris",
+      "uk": "/ˈaɪrɪs/",
+      "us": "/ˈaɪrɪs/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "iris:meaning-1",
+          "pos": "n.",
+          "fa": "عنبیه؛ بخشِ رنگیِ چشم",
+          "en": "The coloured ring of tissue around the pupil that changes the opening to regulate incoming light.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The iris surrounds the dark opening called the pupil.",
+          "fa": "عنبیه دهانهٔ تیره‌ای را که مردمک نام دارد در بر می‌گیرد.",
+          "senseId": "iris:meaning-1"
+        },
+        {
+          "en": "Muscles in the iris change the size of the pupil.",
+          "fa": "عضله‌های عنبیه اندازهٔ مردمک را تغییر می‌دهند.",
+          "senseId": "iris:meaning-1"
+        }
+      ],
+      "col": [
+        "the colour of the iris｜رنگِ عنبیه",
+        "iris muscles｜عضله‌های عنبیه",
+        "the outer edge of the iris｜لبهٔ بیرونیِ عنبیه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "iris بافتِ رنگیِ دورِ مردمک است؛ pupil خودِ دهانهٔ وسطِ آن است. cornea پوششِ شفافِ جلوی این دو است. iris در اینجا نامِ گل یا بخشی از دوربین نیست.",
+      "media": {
+        "img": "atlas/img/iris.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          },
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "retina",
+      "w": "retina",
+      "uk": "/ˈretɪnə/",
+      "us": "/ˈretənə/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "retina:meaning-1",
+          "pos": "n.",
+          "fa": "شبکیه؛ لایهٔ حساس به نورِ چشم",
+          "en": "The light-sensitive tissue lining the inner back of the eye, where visual signals begin.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The cutaway shows the retina along the inside of the back wall of the eye.",
+          "fa": "نمایِ برش‌خورده شبکیه را در امتدادِ سطحِ داخلیِ دیوارهٔ پشتیِ چشم نشان می‌دهد.",
+          "senseId": "retina:meaning-1"
+        },
+        {
+          "en": "Light-sensitive cells in the retina respond to incoming light.",
+          "fa": "سلول‌های حساس به نور در شبکیه به نورِ ورودی پاسخ می‌دهند.",
+          "senseId": "retina:meaning-1"
+        }
+      ],
+      "col": [
+        "retinal cells｜سلول‌های شبکیه",
+        "the surface of the retina｜سطحِ شبکیه",
+        "the central retina｜بخشِ مرکزیِ شبکیه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "retina لایهٔ درونیِ حساس به نور در پشتِ چشم است؛ lens عدسیِ جلوی آن است و نور را متمرکز می‌کند. retinal صفتِ مربوط به شبکیه است. تصویر ساختارِ کلی را نشان می‌دهد، نه تک‌تکِ لایه‌های میکروسکوپی.",
+      "media": {
+        "img": "atlas/img/retina.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          },
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cornea",
+      "w": "cornea",
+      "uk": "/ˈkɔːniə/",
+      "us": "/ˈkɔːrniə/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "cornea:meaning-1",
+          "pos": "n.",
+          "fa": "قرنیه؛ پوششِ شفافِ جلوی چشم",
+          "en": "The clear curved front part of the eye that covers the iris and pupil and helps focus light.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The cornea forms a transparent dome at the front of the eye.",
+          "fa": "قرنیه گنبدی شفاف در جلوی چشم تشکیل می‌دهد.",
+          "senseId": "cornea:meaning-1"
+        },
+        {
+          "en": "Light passes through the cornea before reaching the lens.",
+          "fa": "نور پیش از رسیدن به عدسی از قرنیه عبور می‌کند.",
+          "senseId": "cornea:meaning-1"
+        }
+      ],
+      "col": [
+        "the corneal surface｜سطحِ قرنیه",
+        "the shape of the cornea｜شکلِ قرنیه",
+        "corneal tissue｜بافتِ قرنیه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "cornea قرنیهٔ شفاف در جلوی چشم است؛ lens عدسیِ داخلِ چشم است. iris بخشِ رنگی و pupil دهانهٔ وسطِ آن است. corneal صفتِ مربوط به قرنیه است.",
+      "media": {
+        "img": "atlas/img/cornea.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nei.nih.gov/eye-health-information/healthy-vision/how-eyes-work",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          },
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          },
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+            "use": "Primary anatomical reference checked for selected part location and distinction; original learner wording and artwork."
+          }
+        ]
+      }
+    },
+    {
+      "id": "eardrum",
+      "w": "eardrum",
+      "uk": "/ˈɪədrʌm/",
+      "us": "/ˈɪrdrʌm/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "eardrum:meaning-1",
+          "pos": "n.",
+          "fa": "پردهٔ گوش؛ پردهٔ صماخ",
+          "en": "The thin membrane at the end of the ear canal that vibrates in response to sound.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The eardrum separates the ear canal from the middle ear.",
+          "fa": "پردهٔ گوش مجرای گوش را از گوشِ میانی جدا می‌کند.",
+          "senseId": "eardrum:meaning-1"
+        },
+        {
+          "en": "Vibrations of the eardrum pass to the tiny bones of the middle ear.",
+          "fa": "لرزش‌های پردهٔ گوش به استخوانچه‌های گوشِ میانی منتقل می‌شوند.",
+          "senseId": "eardrum:meaning-1"
+        }
+      ],
+      "col": [
+        "eardrum vibrations｜لرزش‌های پردهٔ گوش",
+        "the surface of the eardrum｜سطحِ پردهٔ گوش",
+        "an intact eardrum｜پردهٔ گوشِ سالم و بدونِ پارگی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "eardrum همان tympanic membrane یا پردهٔ صماخ است؛ این پرده خودِ مجرای گوش یا حلزونِ گوش نیست. برخلافِ نامش، یک سازِ طبل‌مانندِ جداگانه داخلِ گوش نیست.",
+      "media": {
+        "img": "atlas/img/eardrum.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nidcd.nih.gov/health/how-do-we-hear",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          },
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          },
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+            "use": "Primary anatomical reference checked for selected part location and distinction; original learner wording and artwork."
+          }
+        ]
+      }
+    },
+    {
+      "id": "larynx",
+      "w": "larynx",
+      "uk": "/ˈlærɪŋks/",
+      "us": "/ˈlærɪŋks/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "larynx:meaning-1",
+          "pos": "n.",
+          "fa": "حنجره؛ جعبهٔ صوتی",
+          "en": "The structure in the neck that contains the vocal folds and connects the throat to the trachea.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The larynx lies above the trachea in the front of the neck.",
+          "fa": "حنجره در جلوی گردن، بالاتر از نای قرار دارد.",
+          "senseId": "larynx:meaning-1"
+        },
+        {
+          "en": "The vocal folds inside the larynx vibrate during voiced speech.",
+          "fa": "چین‌های صوتیِ داخلِ حنجره هنگامِ گفتارِ واک‌دار می‌لرزند.",
+          "senseId": "larynx:meaning-1"
+        }
+      ],
+      "col": [
+        "the human larynx｜حنجرهٔ انسان",
+        "the structure of the larynx｜ساختارِ حنجره",
+        "laryngeal cartilage｜غضروفِ حنجره"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "larynx یا voice box حنجره است؛ pharynx حلقِ پشتِ بینی و دهان و trachea نایِ پایینِ حنجره است. thyroid cartilage غضروفِ حنجره است و با thyroid gland، غدهٔ تیروئید، یکی نیست. laryngeal صفتِ مربوط به حنجره است.",
+      "media": {
+        "img": "atlas/img/larynx.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "diaphragm",
+      "w": "diaphragm",
+      "uk": "/ˈdaɪəfræm/",
+      "us": "/ˈdaɪəfræm/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "diaphragm:meaning-1",
+          "pos": "n.",
+          "fa": "دیافراگم؛ پردهٔ عضلانیِ میانِ سینه و شکم",
+          "en": "The dome-shaped muscle separating the chest and abdominal cavities that helps draw air into the lungs.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The diaphragm forms the muscular floor of the chest cavity.",
+          "fa": "دیافراگم کفِ عضلانیِ حفرهٔ قفسهٔ سینه را تشکیل می‌دهد.",
+          "senseId": "diaphragm:meaning-1"
+        },
+        {
+          "en": "During inhalation, the diaphragm contracts and moves downwards.",
+          "fa": "هنگامِ دم، دیافراگم منقبض می‌شود و به سمتِ پایین حرکت می‌کند.",
+          "senseId": "diaphragm:meaning-1"
+        }
+      ],
+      "col": [
+        "the diaphragm muscle｜عضلهٔ دیافراگم",
+        "diaphragm contraction｜انقباضِ دیافراگم",
+        "the dome of the diaphragm｜گنبدِ دیافراگم"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "این معنی diaphragm عضلهٔ تنفسیِ زیرِ ریه‌هاست؛ خودِ ریه یا ماهیچهٔ میانِ دنده‌ها نیست. معنی‌های فنیِ پردهٔ دستگاه و وسیلهٔ پیشگیری از بارداری در این مدخل نیستند.",
+      "media": {
+        "img": "atlas/img/diaphragm.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+            "use": "Primary educational anatomy reference checked for selected structure, location and function. Definitions, examples, translations and illustrations are original; no source artwork copied. Independent human language and specialist review pending."
+          },
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+            "use": "Primary anatomy reference checked for position and breathing role; illustration depicts location, not a treatment instruction."
+          }
+        ]
+      }
+    },
+    {
+      "id": "chain",
+      "w": "chain",
+      "uk": "/tʃeɪn/",
+      "us": "/tʃeɪn/",
+      "cefr": "B1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "chain:meaning-1",
+          "pos": "n.",
+          "fa": "زنجیرِ انتقالِ حرکت",
+          "en": "A series of connected metal links that transmits motion by engaging sprocket teeth.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The chain has linked side plates and small cylindrical rollers.",
+          "fa": "زنجیر، صفحه‌های جانبیِ به‌هم‌پیوسته و غلتک‌های کوچکِ استوانه‌ای دارد.",
+          "senseId": "chain:meaning-1"
+        },
+        {
+          "en": "The chain connects the driving sprocket to the driven sprocket.",
+          "fa": "زنجیر، چرخ‌زنجیرِ محرک را به چرخ‌زنجیرِ متحرک وصل می‌کند.",
+          "senseId": "chain:meaning-1"
+        }
+      ],
+      "col": [
+        "a roller chain｜زنجیر غلتکی",
+        "a chain link｜حلقهٔ زنجیر",
+        "a chain drive｜سامانهٔ انتقالِ زنجیری"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "chain اینجا زنجیرِ انتقالِ حرکتِ مکانیکی است، نه گردن‌بند یا زنجیرهٔ فروشگاه. تصویر نمونهٔ غلتکی را نشان می‌دهد؛ همهٔ زنجیرها غلتک ندارند.",
+      "media": {
+        "img": "atlas/img/chain.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.renold.com/media/4198956/transmission-chain-catalogue-renold-uk.pdf",
+            "use": "Manufacturer reference checked for roller-chain elements and chain-to-sprocket engagement; no copied artwork or operating dimensions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sprocket",
+      "w": "sprocket",
+      "uk": "/ˈsprɒkɪt/",
+      "us": "/ˈsprɑːkɪt/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "sprocket:meaning-1",
+          "pos": "n.",
+          "fa": "چرخ‌زنجیر",
+          "en": "A toothed wheel that engages a chain to transmit rotary motion.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The sprocket teeth fit between the rollers of the chain.",
+          "fa": "دندانه‌های چرخ‌زنجیر میانِ غلتک‌های زنجیر جا می‌گیرند.",
+          "senseId": "sprocket:meaning-1"
+        },
+        {
+          "en": "The sprocket has a central bore for its shaft.",
+          "fa": "چرخ‌زنجیر برای محورِ خود سوراخی مرکزی دارد.",
+          "senseId": "sprocket:meaning-1"
+        }
+      ],
+      "col": [
+        "a chain sprocket｜چرخ‌زنجیر",
+        "a sprocket tooth｜دندانهٔ چرخ‌زنجیر",
+        "a sprocket bore｜سوراخِ مرکزیِ چرخ‌زنجیر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "sprocket با زنجیر درگیر می‌شود؛ gear در کاربردِ معمول با چرخ‌دندهٔ دیگر درگیر می‌شود. فاصله و شکلِ دندانه‌ها باید با زنجیر متناسب باشند؛ تصویر ادعای اندازه یا طراحیِ اجرایی ندارد.",
+      "media": {
+        "img": "atlas/img/sprocket.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.renold.com/media/4198956/transmission-chain-catalogue-renold-uk.pdf",
+            "use": "Manufacturer reference checked for roller-chain elements and chain-to-sprocket engagement; no copied artwork or operating dimensions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "belt",
+      "w": "belt",
+      "uk": "/belt/",
+      "us": "/belt/",
+      "cefr": "B1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "belt:meaning-1",
+          "pos": "n.",
+          "fa": "تسمهٔ انتقالِ حرکت",
+          "en": "A flexible continuous loop that runs around pulleys to transmit rotary motion between them.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The belt forms a continuous loop around the two pulleys.",
+          "fa": "تسمه دورِ دو پولی، حلقه‌ای پیوسته تشکیل می‌دهد.",
+          "senseId": "belt:meaning-1"
+        },
+        {
+          "en": "The belt sits in the grooves of the pulleys.",
+          "fa": "تسمه در شیارهای پولی‌ها قرار می‌گیرد.",
+          "senseId": "belt:meaning-1"
+        }
+      ],
+      "col": [
+        "a drive belt｜تسمهٔ انتقالِ حرکت",
+        "a V-belt｜تسمهٔ ذوزنقه‌ای",
+        "a belt drive｜سامانهٔ انتقالِ تسمه‌ای"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "belt در این کارت تسمهٔ انتقالِ حرکت است، نه کمربندِ لباس یا تسمهٔ نقاله. تصویر نوعِ ذوزنقه‌ای را نشان می‌دهد؛ تسمه‌های دندانه‌دار هم وجود دارند و با زنجیرِ حلقه‌دار یکی نیستند.",
+      "media": {
+        "img": "atlas/img/belt.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.gates.com/content/dam/documents-library/catalogs/polyurethane-belt-program-catalogue-K1012-en.pdf",
+            "use": "Checked closed belt/pulley power-transmission relation; no operating values reproduced. Original AI-assisted preview text and generated artwork; independent human review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "rack",
+      "w": "rack",
+      "uk": "/ræk/",
+      "us": "/ræk/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "rack:meaning-1",
+          "pos": "n.",
+          "fa": "دنده‌شانه‌ای؛ شانهٔ دنده‌دار",
+          "en": "A straight toothed bar that meshes with a pinion to convert between rotary and linear motion.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The rack has evenly spaced teeth along one straight edge.",
+          "fa": "دنده‌شانه‌ای در امتدادِ یکی از لبه‌های راستِ خود، دندانه‌هایی با فاصلهٔ منظم دارد.",
+          "senseId": "rack:meaning-1"
+        },
+        {
+          "en": "The pinion meshes with the rack above it.",
+          "fa": "پینیون با دنده‌شانه‌ایِ بالای خود درگیر می‌شود.",
+          "senseId": "rack:meaning-1"
+        }
+      ],
+      "col": [
+        "a gear rack｜دنده‌شانه‌ای",
+        "a rack tooth｜دندانهٔ شانه",
+        "a rack-and-pinion drive｜سامانهٔ شانه و پینیون"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "rack اینجا شانهٔ دنده‌دار است، نه قفسه یا جالباسی. شانه حرکتِ خطی دارد و پینیون می‌چرخد؛ تصویر، قطعهٔ شانه‌ای را برجسته می‌کند.",
+      "media": {
+        "img": "atlas/img/rack.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://khkgears.net/pdf/2025/other-products.pdf",
+            "use": "Checked rack/pinion rotation-to-linear-motion relation. Original AI-assisted preview text and generated artwork; independent human review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pinion",
+      "w": "pinion",
+      "uk": "/ˈpɪnjən/",
+      "us": "/ˈpɪnjən/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "pinion:meaning-1",
+          "pos": "n.",
+          "fa": "پینیون؛ چرخ‌دندهٔ کوچکِ جفت",
+          "en": "A small gear that meshes with a larger gear or a toothed rack.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The pinion has teeth around its circular rim.",
+          "fa": "پینیون در اطرافِ لبهٔ دایره‌ایِ خود دندانه دارد.",
+          "senseId": "pinion:meaning-1"
+        },
+        {
+          "en": "The pinion meshes with the straight rack above it.",
+          "fa": "پینیون با دنده‌شانه‌ایِ راستِ بالای خود درگیر می‌شود.",
+          "senseId": "pinion:meaning-1"
+        }
+      ],
+      "col": [
+        "a pinion gear｜چرخ‌دندهٔ پینیون",
+        "a pinion shaft｜محورِ پینیون",
+        "a rack and pinion｜شانه و پینیون"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "pinion چرخ‌دندهٔ کوچکِ یک جفت یا چرخ‌دندهٔ درگیر با شانه است؛ با sprocket زنجیری فرق دارد. تصویر، چرخ‌دندهٔ گرد را در برابرِ شانهٔ راست برجسته می‌کند.",
+      "media": {
+        "img": "atlas/img/pinion.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://khkgears.net/pdf/cp-tech.pdf",
+            "use": "Checked rack/pinion meshing and linear-positioning terminology; no dimensions or source artwork copied. Original AI-assisted preview text and generated artwork; independent human review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bushing",
+      "w": "bushing",
+      "uk": "/ˈbʊʃɪŋ/",
+      "us": "/ˈbʊʃɪŋ/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "bushing:meaning-1",
+          "pos": "n.",
+          "fa": "بوشِ ساده؛ بوشِ لغزشی",
+          "en": "A plain sleeve fitted between moving parts, such as a shaft and its housing, to provide a sliding bearing surface.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The bushing has a smooth cylindrical bore for the shaft.",
+          "fa": "بوش برای محور، سوراخی استوانه‌ای و صاف دارد.",
+          "senseId": "bushing:meaning-1"
+        },
+        {
+          "en": "The bushing fits inside the housing without any balls or rollers.",
+          "fa": "بوش بدونِ ساچمه یا غلتک در محفظه قرار می‌گیرد.",
+          "senseId": "bushing:meaning-1"
+        }
+      ],
+      "col": [
+        "a plain bushing｜بوشِ ساده",
+        "a sleeve bushing｜بوشِ استوانه‌ای",
+        "a bushing bore｜سوراخِ داخلیِ بوش"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "این معنیِ bushing بوشِ یاتاقانیِ لغزشی است، نه عایقِ عبوریِ برق. نوعِ ساده ساچمه یا غلتک ندارد؛ جنسِ بوش‌ها می‌تواند فلز یا پلیمر باشد.",
+      "media": {
+        "img": "atlas/img/bushing.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.igus.eu/plain-bearing/wiki/plain-bearings",
+            "use": "Checked plain sleeve/sliding bearing distinction from rolling-element bearings; no material-specific performance claim. Original AI-assisted preview text and generated artwork; independent human review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spindle",
+      "w": "spindle",
+      "uk": "/ˈspɪndəl/",
+      "us": "/ˈspɪndəl/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "spindle:meaning-1",
+          "pos": "n.",
+          "fa": "اسپیندل؛ محورِ گردانِ ابزارگیر",
+          "en": "A rotating machine shaft that supports and turns a cutting tool or workpiece.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The spindle has a machined nose for holding a tool.",
+          "fa": "اسپیندل برای نگه‌داشتنِ ابزار، دماغه‌ای ماشین‌کاری‌شده دارد.",
+          "senseId": "spindle:meaning-1"
+        },
+        {
+          "en": "The cutting tool rotates with the spindle.",
+          "fa": "ابزارِ برنده همراهِ اسپیندل می‌چرخد.",
+          "senseId": "spindle:meaning-1"
+        }
+      ],
+      "col": [
+        "a machine spindle｜اسپیندلِ ماشین",
+        "a spindle nose｜دماغهٔ اسپیندل",
+        "a spindle bearing｜یاتاقانِ اسپیندل"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "spindle اینجا محورِ گردانِ ماشین‌ابزار است، نه دوکِ نخ‌ریسی. محور باید ابزار یا قطعه‌کار را نگه دارد و بچرخاند؛ هر میلهٔ ساده اسپیندل نیست.",
+      "media": {
+        "img": "atlas/img/spindle.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://haascnc.com/service/online-manuals/hkm---knee-mill---operators-service-manual-/knee-mill-operation.html",
+            "use": "Checked rotating tool-holding spindle terminology; no use or machine-operation steps reproduced. Original AI-assisted preview text and generated artwork; independent human review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "keyway",
+      "w": "keyway",
+      "uk": "/ˈkiːweɪ/",
+      "us": "/ˈkiːweɪ/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "keyway:meaning-1",
+          "pos": "n.",
+          "fa": "جای خار؛ شیارِ خار",
+          "en": "A groove in a shaft or hub that receives a fitted key to transmit rotation between the parts.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The keyway is a recessed slot along the shaft.",
+          "fa": "جای خار، شیاری فرورفته در امتدادِ محور است.",
+          "senseId": "keyway:meaning-1"
+        },
+        {
+          "en": "The key fits partly in the shaft keyway and partly in the hub.",
+          "fa": "خار بخشی در جای خارِ محور و بخشی در توپی قرار می‌گیرد.",
+          "senseId": "keyway:meaning-1"
+        }
+      ],
+      "col": [
+        "a shaft keyway｜جای خارِ محور",
+        "a keyway slot｜شیارِ خار",
+        "a keyway width｜پهنای جای خار"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "keyway خودِ شیار است، نه قطعهٔ خار. برای شیارِ روی محور، keyseat هم به کار می‌رود و کاربردِ دقیقِ این دو اصطلاح می‌تواند متفاوت باشد. تصویر شیارِ خالی را نشان می‌دهد.",
+      "media": {
+        "img": "atlas/img/keyway.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://uk.misumi-ec.com/en/techblog/product-info/advantages-of-precise-linear-motions-everything-you-need-to-know-about-linear-shafts/",
+            "use": "Checked key/shaft/hub torque-transfer relation and empty shaft groove cue. Original AI-assisted preview text and generated artwork; independent human review pending."
+          },
+          {
+            "url": "https://www.huyett.com/all-products/machine-key-stock-machine-keys-shafts/key-stock/rectangle-key-stock",
+            "use": "Checked keyway/keyseat usage distinction; broad keyway usage is qualified in teaching tips. Original AI-assisted preview text and generated artwork; independent human review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "camshaft",
+      "w": "camshaft",
+      "uk": "/ˈkæmʃɑːft/",
+      "us": "/ˈkæmʃæft/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "camshaft:meaning-1",
+          "pos": "n.",
+          "fa": "میل‌بادامک",
+          "en": "A rotating shaft with shaped lobes that move followers, often to operate engine valves.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The camshaft has round journals between its raised lobes.",
+          "fa": "میل‌بادامک میانِ بادامک‌های برجسته‌اش، بخش‌های گردِ استوانه‌ای برای تکیه در یاتاقان‌ها دارد.",
+          "senseId": "camshaft:meaning-1"
+        },
+        {
+          "en": "A camshaft lobe pushes a follower as the shaft turns.",
+          "fa": "با چرخشِ میل‌بادامک، یک بادامک پیرو را فشار می‌دهد.",
+          "senseId": "camshaft:meaning-1"
+        }
+      ],
+      "col": [
+        "a camshaft lobe｜بادامکِ میل‌بادامک",
+        "a camshaft journal｜ژورنالِ میل‌بادامک",
+        "a camshaft follower｜پیروِ میل‌بادامک"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "بادامک‌ها برآمدگی‌های شکل‌دارند و با ژورنال‌های گردِ هم‌محور فرق دارند. میل‌بادامک را با میل‌لنگِ دارای پین‌های خارج از محور اشتباه نگیرید؛ تصویر ادعای زمان‌بندیِ موتور ندارد.",
+      "media": {
+        "img": "atlas/img/camshaft.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.cummins.com/en-in/news/frequently-asked-questions-about-diesel-engines",
+            "use": "Checked lobe/follower and engine component function; original teaching language. Original AI-assisted preview text and generated artwork; independent human review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "crankshaft",
+      "w": "crankshaft",
+      "uk": "/ˈkræŋkʃɑːft/",
+      "us": "/ˈkræŋkʃæft/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "crankshaft:meaning-1",
+          "pos": "n.",
+          "fa": "میل‌لنگ",
+          "en": "A shaft with offset crankpins that works with connecting rods to convert between reciprocating and rotary motion.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The crankshaft has main journals on one axis and a crankpin offset from it.",
+          "fa": "میل‌لنگ، ژورنال‌های اصلی روی یک محور و پینِ لنگی خارج از آن محور دارد.",
+          "senseId": "crankshaft:meaning-1"
+        },
+        {
+          "en": "The connecting rod attaches to the crankpin of the crankshaft.",
+          "fa": "شاتون به پینِ لنگِ میل‌لنگ متصل می‌شود.",
+          "senseId": "crankshaft:meaning-1"
+        }
+      ],
+      "col": [
+        "a crankshaft journal｜ژورنالِ میل‌لنگ",
+        "a crankshaft counterweight｜وزنهٔ تعادلِ میل‌لنگ",
+        "a crankshaft bearing｜یاتاقانِ میل‌لنگ"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "میل‌لنگ دارای پینِ خارج از محور و بازوهای متصل‌کننده است؛ با میل‌بادامکِ دارای برآمدگی‌های بادامکی فرق دارد. تصویر یک نمونهٔ ساده‌شدهٔ تک‌لنگ است، نه طرحِ کاملِ یک موتورِ مشخص.",
+      "media": {
+        "img": "atlas/img/crankshaft.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.cummins.com/en-in/news/what-diesel-engine-and-what-are-types-and-components-diesel-engine",
+            "use": "Checked reciprocating/rotary conversion and connecting-rod relationship; original teaching language. Original AI-assisted preview text and generated artwork; independent human review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "connecting-rod",
+      "w": "connecting rod",
+      "uk": "/kəˈnektɪŋ rɒd/",
+      "us": "/kəˈnektɪŋ rɑːd/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "connecting-rod:meaning-1",
+          "pos": "n.",
+          "fa": "شاتون؛ میلهٔ رابط",
+          "en": "A rigid link that connects a piston to a crankpin and transmits force between them.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The connecting rod has a small end and a larger split big end.",
+          "fa": "شاتون یک سرِ کوچک و یک سرِ بزرگ‌ترِ دو‌تکه دارد.",
+          "senseId": "connecting-rod:meaning-1"
+        },
+        {
+          "en": "The connecting rod joins the piston pin to the crankpin.",
+          "fa": "شاتون، گژن‌پینِ پیستون را به پینِ لنگ وصل می‌کند.",
+          "senseId": "connecting-rod:meaning-1"
+        }
+      ],
+      "col": [
+        "a connecting rod big end｜سرِ بزرگِ شاتون",
+        "a connecting rod small end｜سرِ کوچکِ شاتون",
+        "a connecting rod cap｜کپهٔ شاتون"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "connecting rod در این کارت شاتونِ سازوکارِ پیستون و میل‌لنگ است، نه هر میلهٔ رابط. سرِ بزرگِ نمونهٔ تصویر کپهٔ جداشدنی دارد؛ طرح‌ها و اندازه‌ها یکسان نیستند.",
+      "media": {
+        "img": "atlas/img/connecting-rod.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.cummins.com/en-la/news/how-do-diesel-engines-work",
+            "use": "Checked piston/crankshaft link function; no operating or timing claims. Original AI-assisted preview text and generated artwork; independent human review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "flywheel",
+      "w": "flywheel",
+      "uk": "/ˈflaɪwiːl/",
+      "us": "/ˈflaɪwiːl/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "flywheel:meaning-1",
+          "pos": "n.",
+          "fa": "چرخ‌طیار؛ فلایویل",
+          "en": "A rotating wheel that stores kinetic energy and helps smooth changes in rotational speed.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The flywheel has a thick rim around its central hub.",
+          "fa": "چرخ‌طیار پیرامونِ توپیِ مرکزیِ خود، طوقه‌ای ضخیم دارد.",
+          "senseId": "flywheel:meaning-1"
+        },
+        {
+          "en": "The flywheel helps reduce speed changes during an engine cycle.",
+          "fa": "چرخ‌طیار به کاهشِ تغییراتِ سرعت در طولِ چرخهٔ موتور کمک می‌کند.",
+          "senseId": "flywheel:meaning-1"
+        }
+      ],
+      "col": [
+        "a flywheel rim｜طوقهٔ چرخ‌طیار",
+        "a flywheel hub｜توپیِ چرخ‌طیار",
+        "a flywheel housing｜محفظهٔ چرخ‌طیار"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "فلایویل با لَختیِ دورانی، انرژیِ جنبشی ذخیره می‌کند؛ با چرخ‌دنده یا پولی یکسان نیست. شکل و اتصالِ فلایویل‌ها متفاوت است و تصویر مقدارِ انرژی یا سرعتِ مجاز را نشان نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/flywheel.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish teaching material. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/university-physics-volume-1/pages/10-4-moment-of-inertia-and-rotational-kinetic-energy",
+            "use": "Primary physics reference checked for rotational energy and inertia; no speed or energy rating is represented."
           }
         ]
       }
