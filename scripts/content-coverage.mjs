@@ -84,6 +84,7 @@ export function categoryCoverage(published, plan) {
       (total, entry) => total + entry.senses.length,
       0,
     ),
+    activePassId: plan.activePassId ?? null,
     currentCategoryId: plan.currentCategoryId,
     nextCategoryId: plan.nextCategoryId,
     categories: plan.categoryOrder.map((id) => {
@@ -124,6 +125,8 @@ if (
       console.log(
         `${result.words} unique English words; ${result.meanings} meanings; ${result.categories.length} categories. Release ${result.releaseId}.`,
       );
+      if (result.activePassId)
+        console.log(`Current expansion pass: ${result.activePassId}.`);
       console.table(
         result.categories.map(({ label, words, foundationTarget }) => ({
           category: label,

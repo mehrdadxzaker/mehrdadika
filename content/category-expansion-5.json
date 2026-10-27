@@ -1,0 +1,945 @@
+{
+  "schemaVersion": 1,
+  "id": "all-categories-visual-foundations-1",
+  "releaseId": "2026-10-preview-5",
+  "baseline": {
+    "releaseId": "2026-10-preview-4",
+    "words": 127,
+    "meanings": 128,
+    "manifest": "content/releases/2026-10-preview-4-35a11cd7aa63/manifest.json",
+    "sha256": "35a11cd7aa63201cd3f5692a7318c674af391985364275e4e338d0bced9bbcef"
+  },
+  "review": {
+    "humanReviewed": false,
+    "status": "AI-assisted editorial preview",
+    "pixelPasses": [
+      "Authoring AI inspection of each full-size and converted 120px image",
+      "Second AI thumbnail review with targeted full-size technical checks"
+    ]
+  },
+  "modules": [
+    {
+      "id": "cooking-food-drink-visual-foundations-1",
+      "categoryId": "cooking-food-drink",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 50,
+      "targetCategoryWords": 52,
+      "objective": "Recognize and use ladle and sift in this subject.",
+      "visualLanguageId": "cooking-food-drink",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "ladle",
+        "sift"
+      ],
+      "units": [
+        {
+          "id": "cooking-food-drink:visual-foundations-1",
+          "title": "Cooking, food and drink visual foundations",
+          "entryIds": [
+            "ladle",
+            "sift"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medicine-healthcare-visual-foundations-1",
+      "categoryId": "medicine-healthcare",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 14,
+      "targetCategoryWords": 16,
+      "objective": "Recognize and use stethoscope and thermometer in this subject.",
+      "visualLanguageId": "medicine-healthcare",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "stethoscope",
+        "thermometer"
+      ],
+      "units": [
+        {
+          "id": "medicine-healthcare:visual-foundations-1",
+          "title": "Medicine and healthcare visual foundations",
+          "entryIds": [
+            "stethoscope",
+            "thermometer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering-visual-foundations-1",
+      "categoryId": "engineering",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 15,
+      "targetCategoryWords": 17,
+      "objective": "Recognize and use gear and spring in this subject.",
+      "visualLanguageId": "engineering",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "gear",
+        "spring"
+      ],
+      "units": [
+        {
+          "id": "engineering:visual-foundations-1",
+          "title": "Engineering visual foundations",
+          "entryIds": [
+            "gear",
+            "spring"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "everyday-life-visual-foundations-1",
+      "categoryId": "everyday-life",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 14,
+      "targetCategoryWords": 16,
+      "objective": "Recognize and use umbrella and yawn in this subject.",
+      "visualLanguageId": "everyday-life",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "umbrella",
+        "yawn"
+      ],
+      "units": [
+        {
+          "id": "everyday-life:visual-foundations-1",
+          "title": "Everyday life visual foundations",
+          "entryIds": [
+            "umbrella",
+            "yawn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-gardening-diy-visual-foundations-1",
+      "categoryId": "home-gardening-diy",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 3,
+      "targetCategoryWords": 5,
+      "objective": "Recognize and use watering can and prune in this subject.",
+      "visualLanguageId": "home-gardening-diy",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "watering-can",
+        "prune"
+      ],
+      "units": [
+        {
+          "id": "home-gardening-diy:visual-foundations-1",
+          "title": "Home, gardening and DIY visual foundations",
+          "entryIds": [
+            "watering-can",
+            "prune"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people-relationships-visual-foundations-1",
+      "categoryId": "people-relationships",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 5,
+      "targetCategoryWords": 7,
+      "objective": "Recognize and use hug and neighbor in this subject.",
+      "visualLanguageId": "people-relationships",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "hug",
+        "neighbor"
+      ],
+      "units": [
+        {
+          "id": "people-relationships:visual-foundations-1",
+          "title": "People and relationships visual foundations",
+          "entryIds": [
+            "hug",
+            "neighbor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "travel-tourism-hospitality-visual-foundations-1",
+      "categoryId": "travel-tourism-hospitality",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 5,
+      "targetCategoryWords": 7,
+      "objective": "Recognize and use passport and suitcase in this subject.",
+      "visualLanguageId": "travel-tourism-hospitality",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "passport",
+        "suitcase"
+      ],
+      "units": [
+        {
+          "id": "travel-tourism-hospitality:visual-foundations-1",
+          "title": "Travel, tourism and hospitality visual foundations",
+          "entryIds": [
+            "passport",
+            "suitcase"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport-vehicles-visual-foundations-1",
+      "categoryId": "transport-vehicles",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 6,
+      "targetCategoryWords": 8,
+      "objective": "Recognize and use bicycle and brake in this subject.",
+      "visualLanguageId": "transport-vehicles",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "bicycle",
+        "brake"
+      ],
+      "units": [
+        {
+          "id": "transport-vehicles:visual-foundations-1",
+          "title": "Transport and vehicles visual foundations",
+          "entryIds": [
+            "bicycle",
+            "brake"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computing-technology-visual-foundations-1",
+      "categoryId": "computing-technology",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 4,
+      "targetCategoryWords": 6,
+      "objective": "Recognize and use keyboard and upload in this subject.",
+      "visualLanguageId": "computing-technology",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "keyboard",
+        "upload"
+      ],
+      "units": [
+        {
+          "id": "computing-technology:visual-foundations-1",
+          "title": "Computing and technology visual foundations",
+          "entryIds": [
+            "keyboard",
+            "upload"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-academic-visual-foundations-1",
+      "categoryId": "education-academic",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 12,
+      "targetCategoryWords": 14,
+      "objective": "Recognize and use notebook and underline in this subject.",
+      "visualLanguageId": "education-academic",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "notebook",
+        "underline"
+      ],
+      "units": [
+        {
+          "id": "education-academic:visual-foundations-1",
+          "title": "Education and academic English visual foundations",
+          "entryIds": [
+            "notebook",
+            "underline"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "natural-sciences-mathematics-visual-foundations-1",
+      "categoryId": "natural-sciences-mathematics",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 33,
+      "targetCategoryWords": 35,
+      "objective": "Recognize and use magnet and triangle in this subject.",
+      "visualLanguageId": "natural-sciences-mathematics",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "magnet",
+        "triangle"
+      ],
+      "units": [
+        {
+          "id": "natural-sciences-mathematics:visual-foundations-1",
+          "title": "Natural sciences and mathematics visual foundations",
+          "entryIds": [
+            "magnet",
+            "triangle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "careers-workplace-visual-foundations-1",
+      "categoryId": "careers-workplace",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 7,
+      "targetCategoryWords": 9,
+      "objective": "Recognize and use clipboard and interview in this subject.",
+      "visualLanguageId": "careers-workplace",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "clipboard",
+        "interview"
+      ],
+      "units": [
+        {
+          "id": "careers-workplace:visual-foundations-1",
+          "title": "Careers and workplace visual foundations",
+          "entryIds": [
+            "clipboard",
+            "interview"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business-management-visual-foundations-1",
+      "categoryId": "business-management",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 2,
+      "targetCategoryWords": 4,
+      "objective": "Recognize and use invoice and negotiate in this subject.",
+      "visualLanguageId": "business-management",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "invoice",
+        "negotiate"
+      ],
+      "units": [
+        {
+          "id": "business-management:visual-foundations-1",
+          "title": "Business and management visual foundations",
+          "entryIds": [
+            "invoice",
+            "negotiate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economics-finance-visual-foundations-1",
+      "categoryId": "economics-finance",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 1,
+      "targetCategoryWords": 3,
+      "objective": "Recognize and use savings and coin in this subject.",
+      "visualLanguageId": "economics-finance",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "savings",
+        "coin"
+      ],
+      "units": [
+        {
+          "id": "economics-finance:visual-foundations-1",
+          "title": "Economics and finance visual foundations",
+          "entryIds": [
+            "savings",
+            "coin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "languages-communication-visual-foundations-1",
+      "categoryId": "languages-communication",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 10,
+      "targetCategoryWords": 12,
+      "objective": "Recognize and use alphabet and translate in this subject.",
+      "visualLanguageId": "languages-communication",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "alphabet",
+        "translate"
+      ],
+      "units": [
+        {
+          "id": "languages-communication:visual-foundations-1",
+          "title": "Language and communication visual foundations",
+          "entryIds": [
+            "alphabet",
+            "translate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retail-ecommerce-visual-foundations-1",
+      "categoryId": "retail-ecommerce",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 4,
+      "targetCategoryWords": 6,
+      "objective": "Recognize and use shopping basket and barcode in this subject.",
+      "visualLanguageId": "retail-ecommerce",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "shopping-basket",
+        "barcode"
+      ],
+      "units": [
+        {
+          "id": "retail-ecommerce:visual-foundations-1",
+          "title": "Retail and e-commerce visual foundations",
+          "entryIds": [
+            "shopping-basket",
+            "barcode"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safety-emergencies-visual-foundations-1",
+      "categoryId": "safety-emergencies",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 4,
+      "targetCategoryWords": 6,
+      "objective": "Recognize and use fire extinguisher and evacuate in this subject.",
+      "visualLanguageId": "safety-emergencies",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "fire-extinguisher",
+        "evacuate"
+      ],
+      "units": [
+        {
+          "id": "safety-emergencies:visual-foundations-1",
+          "title": "Safety and emergencies visual foundations",
+          "entryIds": [
+            "fire-extinguisher",
+            "evacuate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "architecture-infrastructure-visual-foundations-1",
+      "categoryId": "architecture-infrastructure",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 2,
+      "targetCategoryWords": 4,
+      "objective": "Recognize and use arch and staircase in this subject.",
+      "visualLanguageId": "architecture-infrastructure",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "arch",
+        "staircase"
+      ],
+      "units": [
+        {
+          "id": "architecture-infrastructure:visual-foundations-1",
+          "title": "Architecture and infrastructure visual foundations",
+          "entryIds": [
+            "arch",
+            "staircase"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trades-practical-work-visual-foundations-1",
+      "categoryId": "trades-practical-work",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 7,
+      "targetCategoryWords": 9,
+      "objective": "Recognize and use hammer and drill in this subject.",
+      "visualLanguageId": "trades-practical-work",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "hammer",
+        "drill"
+      ],
+      "units": [
+        {
+          "id": "trades-practical-work:visual-foundations-1",
+          "title": "Trades and practical work visual foundations",
+          "entryIds": [
+            "hammer",
+            "drill"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-logistics-visual-foundations-1",
+      "categoryId": "manufacturing-logistics",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 3,
+      "targetCategoryWords": 5,
+      "objective": "Recognize and use forklift and parcel in this subject.",
+      "visualLanguageId": "manufacturing-logistics",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "forklift",
+        "parcel"
+      ],
+      "units": [
+        {
+          "id": "manufacturing-logistics:visual-foundations-1",
+          "title": "Manufacturing, logistics and supply chains visual foundations",
+          "entryIds": [
+            "forklift",
+            "parcel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "energy-utilities-resources-visual-foundations-1",
+      "categoryId": "energy-utilities-resources",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 5,
+      "targetCategoryWords": 7,
+      "objective": "Recognize and use solar panel and wind turbine in this subject.",
+      "visualLanguageId": "energy-utilities-resources",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "solar-panel",
+        "wind-turbine"
+      ],
+      "units": [
+        {
+          "id": "energy-utilities-resources:visual-foundations-1",
+          "title": "Energy, utilities and natural resources visual foundations",
+          "entryIds": [
+            "solar-panel",
+            "wind-turbine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environment-agriculture-visual-foundations-1",
+      "categoryId": "environment-agriculture",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 23,
+      "targetCategoryWords": 25,
+      "objective": "Recognize and use seedling and irrigate in this subject.",
+      "visualLanguageId": "environment-agriculture",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "seedling",
+        "irrigate"
+      ],
+      "units": [
+        {
+          "id": "environment-agriculture:visual-foundations-1",
+          "title": "Environment and agriculture visual foundations",
+          "entryIds": [
+            "seedling",
+            "irrigate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geography-places-cultures-visual-foundations-1",
+      "categoryId": "geography-places-cultures",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 3,
+      "targetCategoryWords": 5,
+      "objective": "Recognize and use island and peninsula in this subject.",
+      "visualLanguageId": "geography-places-cultures",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "island",
+        "peninsula"
+      ],
+      "units": [
+        {
+          "id": "geography-places-cultures:visual-foundations-1",
+          "title": "Geography, places and cultures visual foundations",
+          "entryIds": [
+            "island",
+            "peninsula"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "animals-pets-wildlife-visual-foundations-1",
+      "categoryId": "animals-pets-wildlife",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 1,
+      "targetCategoryWords": 3,
+      "objective": "Recognize and use owl and hoof in this subject.",
+      "visualLanguageId": "animals-pets-wildlife",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "owl",
+        "hoof"
+      ],
+      "units": [
+        {
+          "id": "animals-pets-wildlife:visual-foundations-1",
+          "title": "Animals, pets and wildlife visual foundations",
+          "entryIds": [
+            "owl",
+            "hoof"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parenting-family-care-visual-foundations-1",
+      "categoryId": "parenting-family-care",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 5,
+      "targetCategoryWords": 7,
+      "objective": "Recognize and use stroller and bib in this subject.",
+      "visualLanguageId": "parenting-family-care",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "stroller",
+        "bib"
+      ],
+      "units": [
+        {
+          "id": "parenting-family-care:visual-foundations-1",
+          "title": "Parenting and family care visual foundations",
+          "entryIds": [
+            "stroller",
+            "bib"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wellbeing-daily-habits-visual-foundations-1",
+      "categoryId": "wellbeing-daily-habits",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 5,
+      "targetCategoryWords": 7,
+      "objective": "Recognize and use stretch and meditate in this subject.",
+      "visualLanguageId": "wellbeing-daily-habits",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "stretch",
+        "meditate"
+      ],
+      "units": [
+        {
+          "id": "wellbeing-daily-habits:visual-foundations-1",
+          "title": "Wellbeing and daily habits visual foundations",
+          "entryIds": [
+            "stretch",
+            "meditate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-recreation-visual-foundations-1",
+      "categoryId": "sports-recreation",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 4,
+      "targetCategoryWords": 6,
+      "objective": "Recognize and use racket and swim in this subject.",
+      "visualLanguageId": "sports-recreation",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "racket",
+        "swim"
+      ],
+      "units": [
+        {
+          "id": "sports-recreation:visual-foundations-1",
+          "title": "Sports and recreation visual foundations",
+          "entryIds": [
+            "racket",
+            "swim"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arts-media-visual-foundations-1",
+      "categoryId": "arts-media",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 3,
+      "targetCategoryWords": 5,
+      "objective": "Recognize and use palette and violin in this subject.",
+      "visualLanguageId": "arts-media",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "palette",
+        "violin"
+      ],
+      "units": [
+        {
+          "id": "arts-media:visual-foundations-1",
+          "title": "Arts and media visual foundations",
+          "entryIds": [
+            "palette",
+            "violin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "humanities-society-visual-foundations-1",
+      "categoryId": "humanities-society",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 4,
+      "targetCategoryWords": 6,
+      "objective": "Recognize and use artifact and festival in this subject.",
+      "visualLanguageId": "humanities-society",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "artifact",
+        "festival"
+      ],
+      "units": [
+        {
+          "id": "humanities-society:visual-foundations-1",
+          "title": "Humanities and society visual foundations",
+          "entryIds": [
+            "artifact",
+            "festival"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "law-public-affairs-visual-foundations-1",
+      "categoryId": "law-public-affairs",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 3,
+      "targetCategoryWords": 5,
+      "objective": "Recognize and use ballot and courthouse in this subject.",
+      "visualLanguageId": "law-public-affairs",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "ballot",
+        "courthouse"
+      ],
+      "units": [
+        {
+          "id": "law-public-affairs:visual-foundations-1",
+          "title": "Law and public affairs visual foundations",
+          "entryIds": [
+            "ballot",
+            "courthouse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fashion-beauty-personal-care-visual-foundations-1",
+      "categoryId": "fashion-beauty-personal-care",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 1,
+      "targetCategoryWords": 3,
+      "objective": "Recognize and use comb and braid in this subject.",
+      "visualLanguageId": "fashion-beauty-personal-care",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "comb",
+        "braid"
+      ],
+      "units": [
+        {
+          "id": "fashion-beauty-personal-care:visual-foundations-1",
+          "title": "Fashion, beauty and personal care visual foundations",
+          "entryIds": [
+            "comb",
+            "braid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaming-digital-culture-visual-foundations-1",
+      "categoryId": "gaming-digital-culture",
+      "releaseId": "2026-10-preview-5",
+      "status": "published-preview",
+      "baselineCategoryWords": 3,
+      "targetCategoryWords": 5,
+      "objective": "Recognize and use joystick and pixel in this subject.",
+      "visualLanguageId": "gaming-digital-culture",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "entryIds": [
+        "joystick",
+        "pixel"
+      ],
+      "units": [
+        {
+          "id": "gaming-digital-culture:visual-foundations-1",
+          "title": "Gaming and digital culture visual foundations",
+          "entryIds": [
+            "joystick",
+            "pixel"
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewCorrections": [
+    {
+      "entryId": "brake",
+      "issue": "Initial cutaway did not clearly place pads on opposite rotor faces.",
+      "correction": "Replaced with a coherent external V-brake showing opposed rim pads and connected arms/cable."
+    },
+    {
+      "entryId": "spring",
+      "issue": "The compression inset used a different visible coil count.",
+      "correction": "Removed the inset and retained one clearly formed helical spring."
+    },
+    {
+      "entryId": "shopping-basket",
+      "issue": "Initial rendering drifted toward photography instead of the retail illustration brief.",
+      "correction": "Regenerated with clear outlined retail illustration."
+    },
+    {
+      "entryId": "swim",
+      "issue": "Initial rendering drifted toward photography instead of the sports editorial brief.",
+      "correction": "Regenerated as a dynamic cobalt/lime sports illustration."
+    },
+    {
+      "entryId": "pixel",
+      "issue": "The first zoom patch did not exactly match its source grid.",
+      "correction": "Replaced it with a matching three-by-three selection and enlargement, each with one red center cell."
+    }
+  ]
+}

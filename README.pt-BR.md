@@ -6,7 +6,7 @@ Um projeto de código aberto para aprender vocabulário de inglês com imagens e
 
 ## O que já está disponível
 
-- 127 palavras, 128 sentidos, 256 exemplos, 381 combinações frequentes e 127 notas de uso em português brasileiro.
+- 191 palavras, 192 sentidos, 384 exemplos, 573 combinações frequentes e 191 notas de uso em português brasileiro.
 - 32 categorias e 348 subcategorias traduzidas, com conteúdo publicado aos poucos, incluindo culinária, medicina e engenharia.
 - Introdução ao estudo, metas diárias, recordação ativa e revisão espaçada com FSRS.
 - Atlas com cartões ilustrados, busca, filtros, palavras salvas e galáxia de progresso.
@@ -16,7 +16,7 @@ Um projeto de código aberto para aprender vocabulário de inglês com imagens e
 
 As traduções tiveram apoio de IA e ainda aguardam revisão humana independente. O vocabulário especializado também precisa de revisão por profissionais da área. A presença de uma categoria não significa que todo o seu conteúdo já está publicado.
 
-O progresso, as sessões e os dados de leitura ficam separados por edição. As palavras salvas na prévia anterior em português são migradas para esta edição. A culinária agora reúne 50 palavras, com 36 adições ilustradas nesta etapa. O conteúdo cresce por categoria; medicina e engenharia vêm a seguir. Veja o [plano das 32 categorias](docs/category-expansion.md). As palavras novas incluem ilustrações originais; quando ainda não há gravação licenciada, a pronúncia usa a voz inglesa disponível no dispositivo. A narração de textos e livros também depende do dispositivo. O português europeu continua previsto como uma localização distinta.
+O progresso, as sessões e os dados de leitura ficam separados por edição. As palavras salvas na prévia anterior em português são migradas para esta edição. Esta etapa acrescenta 64 entradas: duas em cada uma das 32 categorias, com uma linguagem visual adequada a cada tema. A culinária agora reúne 52 palavras. Medicina e engenharia continuam como prioridades para ampliar a profundidade. Veja as [bases visuais por categoria](docs/category-visual-foundations.md). Veja o [plano das 32 categorias](docs/category-expansion.md). As palavras novas incluem ilustrações originais; quando ainda não há gravação licenciada, a pronúncia usa a voz inglesa disponível no dispositivo. A narração de textos e livros também depende do dispositivo. O português europeu continua previsto como uma localização distinta.
 
 ## Executar e contribuir
 

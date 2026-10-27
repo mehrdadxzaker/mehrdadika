@@ -1,6 +1,6 @@
 # Category-by-category vocabulary expansion
 
-We grow one subject at a time, publish a coherent preview, then move to the next subject. The first pass targets **50 words per category**, followed by later passes toward **150** and **400**. These are editorial milestones, not completed-course claims or scheduled publication dates.
+We grow through coherent small category modules. Catalog-wide passes increase breadth, while focused passes build depth in one subject at a time. The [64-word visual foundation pass](category-visual-foundations.md) adds two entries to every category. The first pass targets **50 words per category**, followed by later passes toward **150** and **400**. These are editorial milestones, not completed-course claims or scheduled publication dates.
 
 ## First module: cooking foundations
 
@@ -79,6 +79,6 @@ Category membership overlaps. Summing category counts overstates the number of u
 
 ## Technical scaling checkpoints
 
-The existing publisher splits full English cards into 100-entry shards, which the app loads on demand with four bounded metadata request slots and a 15-second timeout. This 127-word release is the first to span two entry shards. Locale catalogs load only for the selected native edition, but each selected catalog is still one complete vocabulary snapshot.
+The existing publisher splits full English cards into 100-entry shards, which the app loads on demand with four bounded metadata request slots and a 15-second timeout. That 127-word release was the first to span two entry shards. Locale catalogs load only for the selected native edition, but each selected catalog is still one complete vocabulary snapshot.
 
 Before moving from foundation coverage to thousands of words, measure real initial payload size, card-load time, mobile memory, search responsiveness and offline-pack size. If those become limiting, split locale catalogs by published shard, virtualize long grids, and offer category-scoped offline packs with explicit size information. Keep immutable assets and stable word/sense identities through that work. These are future checkpoints; this content batch does not claim that those larger-corpus paths have been qualified.

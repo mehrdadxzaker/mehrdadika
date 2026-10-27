@@ -9,7 +9,8 @@
       "Recorded assessments are AI judgments, not independent human language or specialist approval.",
       "Hash and source-binding checks detect stale assessment records; software does not prove that a picture teaches its word accurately.",
       "Representational clinical and engineering illustrations remain editorial previews pending qualified review."
-    ]
+    ],
+    "lastBatchInspectedAt": "2026-10-27T03:41:54Z"
   },
   "entries": [
     {
@@ -4617,6 +4618,2502 @@
       "review": {
         "method": "AI visual inspection",
         "humanReviewed": false
+      }
+    },
+    {
+      "entryId": "ladle",
+      "sourceWord": "ladle",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "ladle:meaning-1",
+          "pos": "n.",
+          "en": "A kitchen tool with a long handle and a deep round bowl for serving liquids."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Use a ladle to serve the soup.",
+          "senseId": "ladle:meaning-1"
+        },
+        {
+          "en": "She rested the ladle beside the pot.",
+          "senseId": "ladle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ladle.webp",
+        "sha256": "e9ca5e6b15812f29f6538887bf3f453cc4936a0508d63281cc66e3727e1cbd5f"
+      },
+      "visual": {
+        "expectedCue": "Deep round ladle bowl connected to long handle, holding soup above pot.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and 120px thumbnail: deep hemispherical metal ladle bowl holds soup above the pot; long connected handle and dripping liquid are clear. No unresolved semantic issue observed.",
+        "languageId": "cooking-food-drink",
+        "languageSha256": "1a25c61d89a2409cab95ef019567dcc78a2eb3a92f45058013481910e65d7a19",
+        "styleInspection": "Warm realistic culinary textures, cream and terracotta kitchen tones; distinct from illustrated daily-life categories."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "sift",
+      "sourceWord": "sift",
+      "categoryId": "cooking-food-drink",
+      "meanings": [
+        {
+          "senseId": "sift:meaning-1",
+          "pos": "v.",
+          "en": "To pass a dry powder through a fine mesh to remove lumps or larger pieces."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We sift the flour into a bowl.",
+          "senseId": "sift:meaning-1"
+        },
+        {
+          "en": "She sifted the cocoa before adding it.",
+          "senseId": "sift:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sift.webp",
+        "sha256": "78495bca52143f03e34c307eebb88770ee8e59139006b631003493b28c10f38a"
+      },
+      "visual": {
+        "expectedCue": "Dry flour visibly falling through fine sieve mesh into bowl.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and 120px thumbnail: flour visibly passes through fine mesh into a bowl below; hand grips and tool contact are coherent. Falling powder remains visible at thumbnail scale.",
+        "languageId": "cooking-food-drink",
+        "languageSha256": "1a25c61d89a2409cab95ef019567dcc78a2eb3a92f45058013481910e65d7a19",
+        "styleInspection": "Warm realistic culinary close-up with tactile metal mesh, flour and earthenware; matches assigned cooking profile."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "stethoscope",
+      "sourceWord": "stethoscope",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "stethoscope:meaning-1",
+          "pos": "n.",
+          "en": "a medical instrument used to listen to sounds inside the body"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The nurse put a stethoscope on the desk.",
+          "senseId": "stethoscope:meaning-1"
+        },
+        {
+          "en": "The doctor listened to my chest with a stethoscope.",
+          "senseId": "stethoscope:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/stethoscope.webp",
+        "sha256": "1d73e34b8d02dac76eeca940bb70761f51e099fd5ae4056afa6d79915677dac9"
+      },
+      "visual": {
+        "expectedCue": "Connected twin eartips, metal ear tubes, Y tube and round chestpiece.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection at512px and120px: Complete connected listening instrument visible; two eartips, tubing and diaphragm remain distinct at120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean soft clinical rendering in mint, pale blue and cool white."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "thermometer",
+      "sourceWord": "thermometer",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "thermometer:meaning-1",
+          "pos": "n.",
+          "en": "an instrument used to measure body temperature"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The thermometer is in its case.",
+          "senseId": "thermometer:meaning-1"
+        },
+        {
+          "en": "The nurse brought a digital thermometer.",
+          "senseId": "thermometer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/thermometer.webp",
+        "sha256": "75ec3aeb72ea0010fde8bd4f2ad7b6ee8b25e29a2a8842828aad0b1405cf6b01"
+      },
+      "visual": {
+        "expectedCue": "Digital clinical thermometer with blank screen and narrow metal sensor tip.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection at512px and120px: Complete clinical stick thermometer has coherent handle, button, blank screen and metal tip; no invented reading. Recognizable at120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Cool-white clinical rendering with restrained mint and blue, matching the medicine pair."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "gear",
+      "sourceWord": "gear",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "gear:meaning-1",
+          "pos": "n.",
+          "en": "A toothed wheel that transfers motion by fitting into another toothed part."
+        }
+      ],
+      "examples": [
+        {
+          "en": "This gear turns the smaller wheel.",
+          "senseId": "gear:meaning-1"
+        },
+        {
+          "en": "The mechanic replaced a damaged gear.",
+          "senseId": "gear:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/gear.webp",
+        "sha256": "eea7658a5e1001efee5a75f09c29616f23c224097684eab521b0d35b49f9130c"
+      },
+      "visual": {
+        "expectedCue": "Two toothed mechanical wheels engage at matching gaps, transmitting motion through connected shafts.",
+        "decision": "added",
+        "reason": "AI inspection of converted 512px and 120px files: two spur gears have visible meshing tooth contact, coherent shafts and mounting supports; the larger amber wheel remains recognizable at thumbnail size. Qualified mechanical review remains pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise slate-ground product drawing with steel surfaces and dominant amber gear; category style retained."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "spring",
+      "sourceWord": "spring",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "spring:meaning-1",
+          "pos": "n.",
+          "en": "An elastic machine part that returns toward its original shape after being pressed or stretched."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The spring pushes the button back up.",
+          "senseId": "spring:meaning-1"
+        },
+        {
+          "en": "A small spring sits inside the latch.",
+          "senseId": "spring:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/spring.webp",
+        "sha256": "d176569af78300d275a1e9345c9a0c3eeff7304becd5f99c276c5ae06e602102"
+      },
+      "visual": {
+        "expectedCue": "One continuous helical steel machine spring stands on its flat ground end.",
+        "decision": "added",
+        "reason": "AI inspection at converted 512px and 120px after targeted edit: one continuous helical steel spring with coherent wire path and supported ground end; inconsistent comparison inset and arrow were removed. Original candidate retained only as temporary QA evidence. Qualified mechanical review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise isolated steel component on slate ground with subtle product shading."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "umbrella",
+      "sourceWord": "umbrella",
+      "categoryId": "everyday-life",
+      "meanings": [
+        {
+          "senseId": "umbrella:meaning-1",
+          "pos": "n.",
+          "en": "An object with a folding cover on a handle that protects a person from rain or sun."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I carry an umbrella when it rains.",
+          "senseId": "umbrella:meaning-1"
+        },
+        {
+          "en": "He closed the umbrella before entering.",
+          "senseId": "umbrella:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/umbrella.webp",
+        "sha256": "e1a924337b1b49278b012a4de40c5c525a726241509212df9d4a5c07908f73dc"
+      },
+      "visual": {
+        "expectedCue": "Open handheld umbrella visibly shelters a person from rain.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and 120px thumbnail: open umbrella shelters the person in visible rain, with continuous shaft, coherent grip and canopy ribs. No unresolved semantic issue observed.",
+        "languageId": "everyday-life",
+        "languageSha256": "fafbcc55886634ad6c74fcb15e4e36a0a1c2de5bb01ba75c13fa83cc561415bf",
+        "styleInspection": "Warm gouache-like paper-grain scene, terracotta coat and muted teal canopy, distinct from culinary realism."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "yawn",
+      "sourceWord": "yawn",
+      "categoryId": "everyday-life",
+      "meanings": [
+        {
+          "senseId": "yawn:meaning-1",
+          "pos": "v.",
+          "en": "To open your mouth wide and take a deep breath, often when tired or bored."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I yawn when I am tired.",
+          "senseId": "yawn:meaning-1"
+        },
+        {
+          "en": "She yawned and put her book down.",
+          "senseId": "yawn:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/yawn.webp",
+        "sha256": "e2f0336b54119bf3d1d6906ee8bc9b3074a28746c24f8be59bc4eaad23203ca1"
+      },
+      "visual": {
+        "expectedCue": "Wide open yawning mouth, sleepy relaxed eyes and posture, not shouting.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Wide yawning mouth remains visible beside hand, with shut sleepy eyes and relaxed seated posture; coherent hand anatomy. Cue is clear at both sizes.",
+        "languageId": "everyday-life",
+        "languageSha256": "fafbcc55886634ad6c74fcb15e4e36a0a1c2de5bb01ba75c13fa83cc561415bf",
+        "styleInspection": "Warm observational gouache with paper grain, muted teal fabric and terracotta details, matching everyday-life profile."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "watering-can",
+      "sourceWord": "watering can",
+      "categoryId": "home-gardening-diy",
+      "meanings": [
+        {
+          "senseId": "watering-can:meaning-1",
+          "pos": "n.",
+          "en": "a container with a handle and a spout for watering plants"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The watering can is beside the flowerpot.",
+          "senseId": "watering-can:meaning-1"
+        },
+        {
+          "en": "Mina filled the watering can before going outside.",
+          "senseId": "watering-can:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/watering-can.webp",
+        "sha256": "c9b5bba9eca7750b3099830125650ee30a6b82aecaf11d016a30e96bdd2876ff"
+      },
+      "visual": {
+        "expectedCue": "Handle, filling opening, long connected spout and perforated rose watering a potted plant.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection at512px and120px: Can dominates; attached spout and rose release water onto the plant. Object outline remains clear at120px.",
+        "languageId": "home-gardening-diy",
+        "languageSha256": "807ee89fd2b7c030a3cbcb3d6f77c8d73907ba22522a523a45568da4eafab74f",
+        "styleInspection": "Leaf-green watercolor and pencil texture on warm cream paper, distinct from clinical rendering."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "prune",
+      "sourceWord": "prune",
+      "categoryId": "home-gardening-diy",
+      "meanings": [
+        {
+          "senseId": "prune:meaning-1",
+          "pos": "v.",
+          "en": "to cut selected branches or stems from a plant"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We prune the rose bush in the garden.",
+          "senseId": "prune:meaning-1"
+        },
+        {
+          "en": "She pruned one damaged branch from the tree.",
+          "senseId": "prune:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/prune.webp",
+        "sha256": "600835e525066f7a9281b5800bb2e624aee675f1851cf5f13131dc5779a22f18"
+      },
+      "visual": {
+        "expectedCue": "Hand-held bypass shears around a shrub branch, with a freshly cut leafy section separating.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection at512px and120px: The gloved hand grips connected shears; branch end, tool contact and falling cut section show pruning rather than uprooting. Cutting scene remains readable at120px.",
+        "languageId": "home-gardening-diy",
+        "languageSha256": "807ee89fd2b7c030a3cbcb3d6f77c8d73907ba22522a523a45568da4eafab74f",
+        "styleInspection": "Botanical watercolor and graphite with leafy green and earth brown on cream."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "hug",
+      "sourceWord": "hug",
+      "categoryId": "people-relationships",
+      "meanings": [
+        {
+          "senseId": "hug:meaning-1",
+          "pos": "v.",
+          "en": "To put your arms around someone and hold them close."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I hug my sister when she arrives.",
+          "senseId": "hug:meaning-1"
+        },
+        {
+          "en": "They hugged after a long time apart.",
+          "senseId": "hug:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hug.webp",
+        "sha256": "fb38a74b2c460075c0908e49d1b858109f9e989258aa63cdb1e0a0f6826731ba"
+      },
+      "visual": {
+        "expectedCue": "Two people mutually embrace with arms wrapped around each other.",
+        "decision": "added",
+        "reason": "AI inspection of converted 512px and 120px: two distinct people, mutually wrapped arms and visible hand-to-back contact clearly depict hugging; no extra limbs observed.",
+        "languageId": "people-relationships",
+        "languageSha256": "d0a53f7be0b5fecafd52ccdeca583b1e84c48921a6b36807d91c2cb2a7db111d",
+        "styleInspection": "Soft textured pastel characters, peach and plum garments, warm peach paper."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "neighbor",
+      "sourceWord": "neighbor",
+      "categoryId": "people-relationships",
+      "meanings": [
+        {
+          "senseId": "neighbor:meaning-1",
+          "pos": "n.",
+          "en": "A person who lives near your home."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Our neighbor lives in the house next door.",
+          "senseId": "neighbor:meaning-1"
+        },
+        {
+          "en": "I left a spare key with my neighbor.",
+          "senseId": "neighbor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/neighbor.webp",
+        "sha256": "0069808ee210c5e452cb67a85f2712a86e983c4892f12e880be93a3e96d134a6"
+      },
+      "visual": {
+        "expectedCue": "Two residents at separate adjacent home entrances across a shared fence.",
+        "decision": "added",
+        "reason": "AI inspection at 512px and 120px: separate adjoining homes, open front doorways and residents waving across one boundary establish living next door rather than friendship alone.",
+        "languageId": "people-relationships",
+        "languageSha256": "d0a53f7be0b5fecafd52ccdeca583b1e84c48921a6b36807d91c2cb2a7db111d",
+        "styleInspection": "Pastel peach and plum character scene with soft paper texture and expressive gestures."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "passport",
+      "sourceWord": "passport",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "passport:meaning-1",
+          "pos": "n.",
+          "en": "An official document that identifies a person for travel between countries."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Keep your passport in a safe place.",
+          "senseId": "passport:meaning-1"
+        },
+        {
+          "en": "She showed her passport at the airport.",
+          "senseId": "passport:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/passport.webp",
+        "sha256": "c1d647f26b1464571e784173d08947db489d48d104bc8f78acd313338b3bc6a4"
+      },
+      "visual": {
+        "expectedCue": "Small official-style travel booklet with generic identity-page layout, not luggage.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Open generic travel booklet has portrait silhouette and abstract identity-page lines, globe cover and blank stamp, no actual personal data or official emblem. Passport form readable at 120px.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Colored-pencil grain with light ink-like teal outlines and cream paper, distinct travel-journal study."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "suitcase",
+      "sourceWord": "suitcase",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "suitcase:meaning-1",
+          "pos": "n.",
+          "en": "A case with a handle used to carry clothes and other belongings when travelling."
+        }
+      ],
+      "examples": [
+        {
+          "en": "My suitcase is under the bed.",
+          "senseId": "suitcase:meaning-1"
+        },
+        {
+          "en": "He packed his clothes in a small suitcase.",
+          "senseId": "suitcase:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/suitcase.webp",
+        "sha256": "3e6894ab1ceb30f731b876f508a31dcbeed38970cc7e64a3b2e8cc939aa43b73"
+      },
+      "visual": {
+        "expectedCue": "Rigid luggage case with handle, closure seam and wheels.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Travel case has clear telescoping handle, carry handle, zip seam and attached wheels. Stable upright physical form and whole-object silhouette remain clear at 120px.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Colored-pencil travel-journal grain, light dark-teal contours and tan ochre case on cream background."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "bicycle",
+      "sourceWord": "bicycle",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "bicycle:meaning-1",
+          "pos": "n.",
+          "en": "a vehicle with two wheels that a rider moves by pushing pedals"
+        }
+      ],
+      "examples": [
+        {
+          "en": "My bicycle has a small basket.",
+          "senseId": "bicycle:meaning-1"
+        },
+        {
+          "en": "He rides his bicycle to the library.",
+          "senseId": "bicycle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bicycle.webp",
+        "sha256": "4561b15b26bd257455bc034db293ab0ebc67ec3b96836b68899716af42189e42"
+      },
+      "visual": {
+        "expectedCue": "Two wheels joined by diamond frame, pedals, chainring and chain to rear sprocket.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection at512px and120px: Connected frame, fork, saddle, two pedals and drivetrain visible. Bicycle silhouette and chain remain recognizable at120px. Tire edges have tight margins.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Crisp graphite transport contours with safety-orange frame on light gray."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "brake",
+      "sourceWord": "brake",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "brake:meaning-1",
+          "pos": "n.",
+          "en": "a device that slows or stops a vehicle or moving wheel"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bicycle has a brake on each wheel.",
+          "senseId": "brake:meaning-1"
+        },
+        {
+          "en": "The mechanic checked the rear brake.",
+          "senseId": "brake:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/brake.webp",
+        "sha256": "781e831014c75f1fc4d0f9f05382673f5f58cc8574a7f1bfe96a880faab85a49"
+      },
+      "visual": {
+        "expectedCue": "External V-brake with two level pads contacting opposite metal rim faces, attached pivot arms and transverse cable.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection at 512px and120px: paired brake pads meet opposing silver rim faces, fork-mounted arms and connecting cable are visible. Prior disc cutaway rejected and retained only in temporary QA evidence.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Crisp graphite transport catalog forms with orange fork and light gray backdrop match this category; distinct from clinical, botanical and finance media."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "keyboard",
+      "sourceWord": "keyboard",
+      "categoryId": "computing-technology",
+      "meanings": [
+        {
+          "senseId": "keyboard:meaning-1",
+          "pos": "n.",
+          "en": "A set of keys used to enter letters, numbers, and commands into a computer."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The keyboard is beside the mouse.",
+          "senseId": "keyboard:meaning-1"
+        },
+        {
+          "en": "She typed her name on the keyboard.",
+          "senseId": "keyboard:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/keyboard.webp",
+        "sha256": "9a9d6d0e0adca70d2eb6520ca6229ea33e4a36c1911a23970515ff757f9450d7"
+      },
+      "visual": {
+        "expectedCue": "Computer keyboard with coherent key rows, long spacebar, enter key and separate arrow-key cluster.",
+        "decision": "added",
+        "reason": "AI inspection of converted 512px and 120px: entire physical keyboard is legible with rows, long spacebar, longer enter key, arrow cluster and cable to monitor. Blank keys avoid false lettering.",
+        "languageId": "computing-technology",
+        "languageSha256": "fba2dfa9af100499160c51f27dbc686bf7bb196901ac15e0b947dd3325dd7d9e",
+        "styleInspection": "Clean isometric cyan keycaps and indigo casing on pale digital ground."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "upload",
+      "sourceWord": "upload",
+      "categoryId": "computing-technology",
+      "meanings": [
+        {
+          "senseId": "upload:meaning-1",
+          "pos": "v.",
+          "en": "To send a digital file from your device to an online service or another remote computer."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please upload the photo from your phone.",
+          "senseId": "upload:meaning-1"
+        },
+        {
+          "en": "He uploaded the report to the shared folder.",
+          "senseId": "upload:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/upload.webp",
+        "sha256": "7ad9e8c680817af007666d3d67a49ddaee6cd2e07687894e43231fb5fc357ba9"
+      },
+      "visual": {
+        "expectedCue": "A local laptop sends a matching photo file upward to remote cloud storage.",
+        "decision": "added",
+        "reason": "AI inspection at converted 512px and 120px: cyan arrow begins at laptop display and points only upward into cloud; matching photo thumbnails establish file transfer. Direction remains clear at thumbnail size.",
+        "languageId": "computing-technology",
+        "languageSha256": "fba2dfa9af100499160c51f27dbc686bf7bb196901ac15e0b947dd3325dd7d9e",
+        "styleInspection": "Isometric digital composition, cyan arrow, indigo device and cloud with pale background."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "notebook",
+      "sourceWord": "notebook",
+      "categoryId": "education-academic",
+      "meanings": [
+        {
+          "senseId": "notebook:meaning-1",
+          "pos": "n.",
+          "en": "A book of blank or lined pages used for writing notes."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I write new words in my notebook.",
+          "senseId": "notebook:meaning-1"
+        },
+        {
+          "en": "Her notebook has a blue cover.",
+          "senseId": "notebook:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/notebook.webp",
+        "sha256": "4173e14dee80c589e7c85ce65fe7b5bae23718b56688d454eb4db2afbe5c575e"
+      },
+      "visual": {
+        "expectedCue": "Bound paper notebook with lined pages and cover, not laptop.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Bound lined paper pages, visible spine and blue cover clearly depict a paper notebook at both sizes; pencil provides classroom context. No screen ambiguity.",
+        "languageId": "education-academic",
+        "languageSha256": "df00e083d6f58d6388e176536b859302d9fa00470c0c7f9df4b27701475e048f",
+        "styleInspection": "Tactile layered paper collage with pencil details, cream paper, school-blue cover and ochre desk."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "underline",
+      "sourceWord": "underline",
+      "categoryId": "education-academic",
+      "meanings": [
+        {
+          "senseId": "underline:meaning-1",
+          "pos": "v.",
+          "en": "To draw or place a line directly below written words."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please underline the title with a pencil.",
+          "senseId": "underline:meaning-1"
+        },
+        {
+          "en": "She underlined the date in her notes.",
+          "senseId": "underline:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/underline.webp",
+        "sha256": "b917d4416607c461bd9a3c2e5b3324ae3e9faa1e68a9281146002a1e7db0ebf2"
+      },
+      "visual": {
+        "expectedCue": "Pencil tip draws a line below the exact printed word river; no strike-through.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Exact word river is spelled correctly. Blue line sits directly below, with the pencil tip touching its end; no strike-through or highlight. Action remains unambiguous at 120px.",
+        "languageId": "education-academic",
+        "languageSha256": "df00e083d6f58d6388e176536b859302d9fa00470c0c7f9df4b27701475e048f",
+        "styleInspection": "Tactile classroom paper and pencil detail, school-blue line with cream and ochre palette."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "magnet",
+      "sourceWord": "magnet",
+      "categoryId": "natural-sciences-mathematics",
+      "meanings": [
+        {
+          "senseId": "magnet:meaning-1",
+          "pos": "n.",
+          "en": "an object that attracts certain metals, such as iron and steel"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The magnet picked up a steel paper clip.",
+          "senseId": "magnet:meaning-1"
+        },
+        {
+          "en": "A small magnet holds the note on the fridge.",
+          "senseId": "magnet:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/magnet.webp",
+        "sha256": "340a8186d0b816f971d4eff01e126a5d4a84c7b534ecea0cd1e82a3f98e1546f"
+      },
+      "visual": {
+        "expectedCue": "Red/blue horseshoe magnet with steel paper clips clinging to its pole ends.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection at512px and120px: Clips physically touch each pole and one another; horseshoe magnet and hanging metal pieces remain clear at120px.",
+        "languageId": "natural-sciences-mathematics",
+        "languageSha256": "8d54b33181ffc0c3202512561bdd313712bc217c229d53a45f9b22a99866660c",
+        "styleInspection": "Clean textbook object diagram on white with red/blue accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "triangle",
+      "sourceWord": "triangle",
+      "categoryId": "natural-sciences-mathematics",
+      "meanings": [
+        {
+          "senseId": "triangle:meaning-1",
+          "pos": "n.",
+          "en": "a flat shape with three straight sides and three corners"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Draw a triangle on the paper.",
+          "senseId": "triangle:meaning-1"
+        },
+        {
+          "en": "This triangle has three equal sides.",
+          "senseId": "triangle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/triangle.webp",
+        "sha256": "53a2399f08e76806acb8790bc21818693eebbf04b9619604aba882b9ced96763"
+      },
+      "visual": {
+        "expectedCue": "One flat shape with exactly three straight sides and three vertices.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection at512px and120px: Front-on planar filled triangle has exactly three sides and corners, no thickness or prism cue; immediately clear at120px.",
+        "languageId": "natural-sciences-mathematics",
+        "languageSha256": "8d54b33181ffc0c3202512561bdd313712bc217c229d53a45f9b22a99866660c",
+        "styleInspection": "Minimal blue textbook shape with red outline on bright white."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "clipboard",
+      "sourceWord": "clipboard",
+      "categoryId": "careers-workplace",
+      "meanings": [
+        {
+          "senseId": "clipboard:meaning-1",
+          "pos": "n.",
+          "en": "A firm board with a clip that holds sheets of paper in place."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clipboard holds the inspection sheet.",
+          "senseId": "clipboard:meaning-1"
+        },
+        {
+          "en": "She carried a clipboard around the warehouse.",
+          "senseId": "clipboard:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/clipboard.webp",
+        "sha256": "06eaf49172ef545954edfe595082bd43ebd8c8441b78d57f2ecd46ec6de35e04"
+      },
+      "visual": {
+        "expectedCue": "Firm board with a real top clip physically gripping a sheet of paper.",
+        "decision": "added",
+        "reason": "AI inspection of converted 512px and 120px: wooden board thickness and metal clip gripping the sheet are visible; empty checkboxes avoid invented writing.",
+        "languageId": "careers-workplace",
+        "languageSha256": "f07b849e78483febc7700ef4ebd02989ae5854f5599e52c10eca7fea1bebeff6",
+        "styleInspection": "Ink outlines with restrained navy metal and rust wood wash on warm paper."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "interview",
+      "sourceWord": "interview",
+      "categoryId": "careers-workplace",
+      "meanings": [
+        {
+          "senseId": "interview:meaning-1",
+          "pos": "n.",
+          "en": "A meeting where an employer asks someone questions to decide whether to offer them a job."
+        }
+      ],
+      "examples": [
+        {
+          "en": "My interview for the job is on Friday.",
+          "senseId": "interview:meaning-1"
+        },
+        {
+          "en": "The manager asked about my experience during the interview.",
+          "senseId": "interview:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/interview.webp",
+        "sha256": "5b3574b21445223eb0892e4de16d03be94a9fd3326cb324e9bad7d55dd0d3237"
+      },
+      "visual": {
+        "expectedCue": "Employer asks a job applicant about a CV during a hiring meeting.",
+        "decision": "added",
+        "reason": "AI inspection at 512px and 120px: employer points to resume with accurately rendered CV, question bubble and applicant response establish hiring question-and-answer. Hands, chairs and document contact look coherent.",
+        "languageId": "careers-workplace",
+        "languageSha256": "f07b849e78483febc7700ef4ebd02989ae5854f5599e52c10eca7fea1bebeff6",
+        "styleInspection": "Professional ink-and-wash office scene, navy suit and rust jacket on warm paper."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "invoice",
+      "sourceWord": "invoice",
+      "categoryId": "business-management",
+      "meanings": [
+        {
+          "senseId": "invoice:meaning-1",
+          "pos": "n.",
+          "en": "A document that lists supplied goods or services and the amount the customer is asked to pay."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The invoice lists the chairs and delivery fee.",
+          "senseId": "invoice:meaning-1"
+        },
+        {
+          "en": "We sent the invoice to the customer.",
+          "senseId": "invoice:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/invoice.webp",
+        "sha256": "56a1c6a7916d2fef16a08ebc2355e4ceb0d80a410a40dc5ebb76c79dc8a3feb1"
+      },
+      "visual": {
+        "expectedCue": "Itemized document requests payment: INVOICE, CHAIR 40, DELIVERY 10, TOTAL 50, AMOUNT DUE.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: All essential text is correct: INVOICE, CHAIR 40, DELIVERY 10, TOTAL 50, AMOUNT DUE. Itemized request clearly asks for payment and has no paid receipt cue. Document title and amounts legible at 120px.",
+        "languageId": "business-management",
+        "languageSha256": "1fe15d03f2696e7ec0edc6934478c80e19b34d2321d6d03315eb726d3b999d8e",
+        "styleInspection": "Structured teal grid and apricot total block with bold geometric typography; corporate editorial document treatment."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "negotiate",
+      "sourceWord": "negotiate",
+      "categoryId": "business-management",
+      "meanings": [
+        {
+          "senseId": "negotiate:meaning-1",
+          "pos": "v.",
+          "en": "To discuss offers or conditions with others in order to reach an agreement."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We negotiate the price before signing.",
+          "senseId": "negotiate:meaning-1"
+        },
+        {
+          "en": "The two teams negotiated a delivery date.",
+          "senseId": "negotiate:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/negotiate.webp",
+        "sha256": "1009f51d657ce2e01befa864083a2b3a1fc815aa3b64f68a8ab0ab5fa8793781"
+      },
+      "visual": {
+        "expectedCue": "Two parties discussing visibly different offers 60 and 50 before agreement.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Two people exchange clearly different offers 60 and 50 while talking, before a handshake or signature. Cards, eye contact and coherent hand gestures remain readable at 120px.",
+        "languageId": "business-management",
+        "languageSha256": "1fe15d03f2696e7ec0edc6934478c80e19b34d2321d6d03315eb726d3b999d8e",
+        "styleInspection": "Structured corporate editorial geometry in teal and apricot with uncluttered light background."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "savings",
+      "sourceWord": "savings",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "savings:meaning-1",
+          "pos": "n.",
+          "en": "money that someone has kept instead of spending"
+        }
+      ],
+      "examples": [
+        {
+          "en": "My savings are in a separate account.",
+          "senseId": "savings:meaning-1"
+        },
+        {
+          "en": "She used part of her savings to buy a desk.",
+          "senseId": "savings:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/savings.webp",
+        "sha256": "e07b3560f4660297dd6ac72a13e92ba9183c22a6b281df2df58908ab271b2479"
+      },
+      "visual": {
+        "expectedCue": "A hand placing a coin into a jar containing money already set aside.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection at512px and120px: Coin is aligned with the lid slot; several coins are stored in a transparent jar. Deposit relation is readable at120px; no return or investment claim.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Emerald glass and brass finance still-life with crisp highlights and restrained pale background."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "coin",
+      "sourceWord": "coin",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "coin:meaning-1",
+          "pos": "n.",
+          "en": "a small piece of metal used as money"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A coin fell out of my pocket.",
+          "senseId": "coin:meaning-1"
+        },
+        {
+          "en": "He put three coins on the counter.",
+          "senseId": "coin:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/coin.webp",
+        "sha256": "c3646582b13980537f406ef73a10b31df46ff7cd4857076bcb7128c4f7d5d0ae"
+      },
+      "visual": {
+        "expectedCue": "One round thin metal money disc with visible ridged edge.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection at512px and120px: Single complete brass disc and edge visible, simple embossed motif and no denomination; recognizable as generic coin at120px.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Restrained emerald/brass finance object still-life with simplified crisp shading."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "alphabet",
+      "sourceWord": "alphabet",
+      "categoryId": "languages-communication",
+      "meanings": [
+        {
+          "senseId": "alphabet:meaning-1",
+          "pos": "n.",
+          "en": "The set of letters used to write a language, usually learned in a fixed order."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The English alphabet begins with A, B, and C.",
+          "senseId": "alphabet:meaning-1"
+        },
+        {
+          "en": "The children sang the alphabet together.",
+          "senseId": "alphabet:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/alphabet.webp",
+        "sha256": "9e5cdcffb5d50b31a09932c6545c2035a67003208d91610d7182ade05714203e"
+      },
+      "visual": {
+        "expectedCue": "All 26 uppercase English letters appear once in alphabetical order.",
+        "decision": "added",
+        "reason": "AI inspection at 512px and 120px: rows read ABCDEFG, HIJKLMN, OPQRSTU, VWXYZ; each character is correct and ordered. Letter set remains recognizable at thumbnail size.",
+        "languageId": "languages-communication",
+        "languageSha256": "bbe0919cb98489dde61893795f6ced2d75e6892c6358576ade744431c5bb1091",
+        "styleInspection": "Large cobalt and coral typography on warm cream speech-shape panel."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "translate",
+      "sourceWord": "translate",
+      "categoryId": "languages-communication",
+      "meanings": [
+        {
+          "senseId": "translate:meaning-1",
+          "pos": "v.",
+          "en": "To express the meaning of words in a different language."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Can you translate this message into Persian?",
+          "senseId": "translate:meaning-1"
+        },
+        {
+          "en": "She translated the short letter into Spanish.",
+          "senseId": "translate:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/translate.webp",
+        "sha256": "67876dd3ed178709ec9806488e69e8004f48c3d16fe78a1008347d6b1151414c"
+      },
+      "visual": {
+        "expectedCue": "English hello changes to Spanish hola via a directional arrow.",
+        "decision": "added",
+        "reason": "AI inspection at 512px and 120px: hello and hola are spelled correctly, arrow points from English greeting to Spanish greeting; clear cross-language meaning transition.",
+        "languageId": "languages-communication",
+        "languageSha256": "bbe0919cb98489dde61893795f6ced2d75e6892c6358576ade744431c5bb1091",
+        "styleInspection": "Cobalt and coral typographic speech geometry on textured cream ground."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "shopping-basket",
+      "sourceWord": "shopping basket",
+      "categoryId": "retail-ecommerce",
+      "meanings": [
+        {
+          "senseId": "shopping-basket:meaning-1",
+          "pos": "n.",
+          "en": "A container with handles that a shopper carries to hold items in a shop."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Put the apples in the shopping basket.",
+          "senseId": "shopping-basket:meaning-1"
+        },
+        {
+          "en": "She carried a basket to the checkout.",
+          "senseId": "shopping-basket:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/shopping-basket.webp",
+        "sha256": "e1224aba5350dae937e0d116b720fc97aa4ae93d6a6b20a8b158923c8dafee27"
+      },
+      "visual": {
+        "expectedCue": "Open shopping basket with connected carrying handles held by hand, no wheels.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail after one targeted style correction: coherent hand carries two hinged handles attached to the open basket; fruit and loaf inside, no wheels. Clear at both sizes. Initial unaccepted WebP preserved in temporary QA evidence.",
+        "languageId": "retail-ecommerce",
+        "languageSha256": "8aad02fc97b2b6a72b8e4a80dd6aecf476fee00467a2faea0b767095c20d3219",
+        "styleInspection": "Bright coral retail illustration with pronounced charcoal outlines and simplified paper-shaded colors on cream. Targeted style correction successfully removed initial near-photoreal rendering."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "barcode",
+      "sourceWord": "barcode",
+      "categoryId": "retail-ecommerce",
+      "meanings": [
+        {
+          "senseId": "barcode:meaning-1",
+          "pos": "n.",
+          "en": "A pattern of parallel bars and spaces that a machine reads to identify an item."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cashier scans the barcode on the box.",
+          "senseId": "barcode:meaning-1"
+        },
+        {
+          "en": "The barcode was printed on a white label.",
+          "senseId": "barcode:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/barcode.webp",
+        "sha256": "3505b44502ba55e2af51bfaeac4ff8c5d9fceb03716b7b5aa1a1c43a659658db"
+      },
+      "visual": {
+        "expectedCue": "Large parallel black bars and spaces on a product label, distinct from square QR pattern.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Large parallel vertical bars and spaces are distinct from a QR pattern. Product-label cue remains obvious at 120px; illustrative bars are not claimed scannable.",
+        "languageId": "retail-ecommerce",
+        "languageSha256": "8aad02fc97b2b6a72b8e4a80dd6aecf476fee00467a2faea0b767095c20d3219",
+        "styleInspection": "Bright cream and coral package illustration with charcoal outlines matches assigned retail product style."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "fire-extinguisher",
+      "sourceWord": "fire extinguisher",
+      "categoryId": "safety-emergencies",
+      "meanings": [
+        {
+          "senseId": "fire-extinguisher:meaning-1",
+          "pos": "n.",
+          "en": "a portable device containing a substance for putting out a fire"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A fire extinguisher hangs beside the door.",
+          "senseId": "fire-extinguisher:meaning-1"
+        },
+        {
+          "en": "The inspector checked the fire extinguisher.",
+          "senseId": "fire-extinguisher:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/fire-extinguisher.webp",
+        "sha256": "b0381299fe201e5dbafea4be089378cea34767826f0cb46dd01a9048871419a3"
+      },
+      "visual": {
+        "expectedCue": "Red portable cylinder with attached hose, nozzle, squeeze lever, handle and safety pin.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection at512px and120px: Coherent hose joins top valve and descends to clipped nozzle; two handles and ring pin visible. Blank gauge has no invented scale or reading. Device clear at120px.",
+        "languageId": "safety-emergencies",
+        "languageSha256": "4aff42680d08d1c5f42ba3ec7ec1335ffa56f93a23d0db4d3fa044164ab9b701",
+        "styleInspection": "High-contrast signal red, dark navy and ivory safety explainer."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "evacuate",
+      "sourceWord": "evacuate",
+      "categoryId": "safety-emergencies",
+      "meanings": [
+        {
+          "senseId": "evacuate:meaning-1",
+          "pos": "v.",
+          "en": "to leave a place because of danger, or move people away from it"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Everyone must evacuate the building during the drill.",
+          "senseId": "evacuate:meaning-1"
+        },
+        {
+          "en": "Staff helped the visitors evacuate calmly.",
+          "senseId": "evacuate:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/evacuate.webp",
+        "sha256": "1218046e1fb7e4f76ccb8980b2e119b153012e5ddc2023dbd28f970ec0003115"
+      },
+      "visual": {
+        "expectedCue": "People walking outward through an exterior door from an alarmed building toward open air.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection at512px and120px: All three figures move right out of building; threshold, outside sky/trees, alarm and outward arrow support evacuation. Anatomy and orderly movement readable at120px.",
+        "languageId": "safety-emergencies",
+        "languageSha256": "4aff42680d08d1c5f42ba3ec7ec1335ffa56f93a23d0db4d3fa044164ab9b701",
+        "styleInspection": "Calm high-contrast flat safety scene in ivory, red and navy with limited outdoor color."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "arch",
+      "sourceWord": "arch",
+      "categoryId": "architecture-infrastructure",
+      "meanings": [
+        {
+          "senseId": "arch:meaning-1",
+          "pos": "n.",
+          "en": "A curved structure that spans an opening and is supported at both sides."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The stone arch stands above the entrance.",
+          "senseId": "arch:meaning-1"
+        },
+        {
+          "en": "We walked beneath the arch into the courtyard.",
+          "senseId": "arch:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/arch.webp",
+        "sha256": "a92ce8d748a71bced844daf36eee91565867e2a761f8b52babf67ba471cfe07d"
+      },
+      "visual": {
+        "expectedCue": "Curved stone span over an open passage, supported on both sides.",
+        "decision": "added",
+        "reason": "AI inspection at converted 512px and 120px: wedge stones form a coherent curved opening with central keystone, both piers reach ground, and passage remains open. Arch silhouette clear.",
+        "languageId": "architecture-infrastructure",
+        "languageSha256": "1a6c2636b22360e36e939f7a9ec27354d0aa24e698b400cf7b3382554055229d",
+        "styleInspection": "Architectural pencil texture and pale sandstone wash with quiet slate accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "staircase",
+      "sourceWord": "staircase",
+      "categoryId": "architecture-infrastructure",
+      "meanings": [
+        {
+          "senseId": "staircase:meaning-1",
+          "pos": "n.",
+          "en": "A connected series of steps that lets people move between levels of a building."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The staircase leads to the second floor.",
+          "senseId": "staircase:meaning-1"
+        },
+        {
+          "en": "Sunlight fell across the wooden staircase.",
+          "senseId": "staircase:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/staircase.webp",
+        "sha256": "2547b5035cd389731025ce07240bd78c9867e49f885fc1ab68cf0cce694cb7a8"
+      },
+      "visual": {
+        "expectedCue": "A connected flight of broad steps leads from lower floor to upper landing.",
+        "decision": "added",
+        "reason": "AI inspection at 512px and 120px: consistent treads and risers form one usable straight staircase; continuous rail, grounded underside and upper landing are coherent.",
+        "languageId": "architecture-infrastructure",
+        "languageSha256": "1a6c2636b22360e36e939f7a9ec27354d0aa24e698b400cf7b3382554055229d",
+        "styleInspection": "Pencil and pale stone wash with quiet wood handrail and architectural daylight."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "hammer",
+      "sourceWord": "hammer",
+      "categoryId": "trades-practical-work",
+      "meanings": [
+        {
+          "senseId": "hammer:meaning-1",
+          "pos": "n.",
+          "en": "A hand tool with a heavy head on a handle, used for striking things such as nails."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Use a hammer to tap the nail.",
+          "senseId": "hammer:meaning-1"
+        },
+        {
+          "en": "He hung the hammer above the workbench.",
+          "senseId": "hammer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hammer.webp",
+        "sha256": "7a38420b58a464131289cb0118dc59ec921997d2ef5e594838bcf6441d245c31"
+      },
+      "visual": {
+        "expectedCue": "Hammer has one coherent heavy steel head, striking face and claw, attached to wooden handle.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Steel head has striking face and split curved claw, firmly attached to a wooden handle. Whole hammer and nearby nail remain clear at 120px, with no incoherent parts.",
+        "languageId": "trades-practical-work",
+        "languageSha256": "8ae88d45aedbe7ca75150c9fa9e4f3fe8a3cde2d9a7905d1eacfcde262261d30",
+        "styleInspection": "Workshop technical gouache-like strokes and textured wood and metal in ochre and steel gray."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "drill",
+      "sourceWord": "drill",
+      "categoryId": "trades-practical-work",
+      "meanings": [
+        {
+          "senseId": "drill:meaning-1",
+          "pos": "v.",
+          "en": "To make a hole in a material using a rotating cutting bit."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We drill a hole in the wooden board.",
+          "senseId": "drill:meaning-1"
+        },
+        {
+          "en": "She drilled through the marked point.",
+          "senseId": "drill:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/drill.webp",
+        "sha256": "35db36e81527d2ce6adf4d16adf660c8627397541f223548c807f03a660fe7d8"
+      },
+      "visual": {
+        "expectedCue": "Rotating twist drill bit contacts and enters clamped wood, producing hole and wood curls.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Twist drill bit is held by chuck and visibly enters clamped board, with wood curls around the hole. Two coherent hand grips stay away from bit. Drilling action is readable at 120px and distinct from screw-driving.",
+        "languageId": "trades-practical-work",
+        "languageSha256": "8ae88d45aedbe7ca75150c9fa9e4f3fe8a3cde2d9a7905d1eacfcde262261d30",
+        "styleInspection": "Workshop technical gouache, visible blocky brush texture, ochre wood and steel-gray drill; coherent with hammer profile."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "forklift",
+      "sourceWord": "forklift",
+      "categoryId": "manufacturing-logistics",
+      "meanings": [
+        {
+          "senseId": "forklift:meaning-1",
+          "pos": "n.",
+          "en": "a vehicle with two front forks for lifting and moving heavy loads"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The forklift carried a pallet across the warehouse.",
+          "senseId": "forklift:meaning-1"
+        },
+        {
+          "en": "Only a trained operator drives this forklift.",
+          "senseId": "forklift:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/forklift.webp",
+        "sha256": "cde89db65f18a232dbac2375c4330963d2ecc2dec51aca8ea235e3232bae1412"
+      },
+      "visual": {
+        "expectedCue": "pending",
+        "decision": "added",
+        "reason": "pending actual-pixel inspection",
+        "languageId": "manufacturing-logistics",
+        "languageSha256": "2851686c9863c86514ed00ba5cf8311c3047aa367299e62e9dff4224bf007c23",
+        "styleInspection": "pending actual-pixel inspection"
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "parcel",
+      "sourceWord": "parcel",
+      "categoryId": "manufacturing-logistics",
+      "meanings": [
+        {
+          "senseId": "parcel:meaning-1",
+          "pos": "n.",
+          "en": "a wrapped package sent or prepared for delivery"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The parcel arrived this morning.",
+          "senseId": "parcel:meaning-1"
+        },
+        {
+          "en": "She wrapped the parcel before taking it to the post office.",
+          "senseId": "parcel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/parcel.webp",
+        "sha256": "033ddfe71bc7baca44e52fdfc388bf5a125b063a95e520a5bf5aeca1a23c6618"
+      },
+      "visual": {
+        "expectedCue": "pending",
+        "decision": "added",
+        "reason": "pending actual-pixel inspection",
+        "languageId": "manufacturing-logistics",
+        "languageSha256": "2851686c9863c86514ed00ba5cf8311c3047aa367299e62e9dff4224bf007c23",
+        "styleInspection": "pending actual-pixel inspection"
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "solar-panel",
+      "sourceWord": "solar panel",
+      "categoryId": "energy-utilities-resources",
+      "meanings": [
+        {
+          "senseId": "solar-panel:meaning-1",
+          "pos": "n.",
+          "en": "A flat unit that uses sunlight to produce electricity."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A solar panel supplies electricity to the cabin.",
+          "senseId": "solar-panel:meaning-1"
+        },
+        {
+          "en": "They fitted solar panels on the south-facing roof.",
+          "senseId": "solar-panel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/solar-panel.webp",
+        "sha256": "ec63c8f59263eab3965d3ae49ce906164f61bf6d985cfec14918425f9c391a44"
+      },
+      "visual": {
+        "expectedCue": "A framed photovoltaic cell array tilts toward sunlight on grounded supports.",
+        "decision": "added",
+        "reason": "AI inspection at converted 512px and 120px: coherent equal cell array with continuous silver frame, supported tilt and sun facing illuminated surface. Dominant panel remains legible at thumbnail size.",
+        "languageId": "energy-utilities-resources",
+        "languageSha256": "f1d5f04b8d58924e5c31a46a332fc3f180b82c59db17a55e4d17f90ed740e7d1",
+        "styleInspection": "Luminous ultramarine and pale-gold energy landscape, crisp technical panel."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "wind-turbine",
+      "sourceWord": "wind turbine",
+      "categoryId": "energy-utilities-resources",
+      "meanings": [
+        {
+          "senseId": "wind-turbine:meaning-1",
+          "pos": "n.",
+          "en": "A machine whose blades turn in the wind to generate electricity."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The wind turbine produces electricity for the farm.",
+          "senseId": "wind-turbine:meaning-1"
+        },
+        {
+          "en": "We watched the wind turbine turn above the fields.",
+          "senseId": "wind-turbine:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/wind-turbine.webp",
+        "sha256": "4cb35320f320626f753c212b2ca2f66b2df83838f6d64af8f1ca2065062697fc"
+      },
+      "visual": {
+        "expectedCue": "Three blades meet at one hub joined to nacelle and grounded tower.",
+        "decision": "added",
+        "reason": "AI inspection at 512px and 120px: exactly three connected rotor blades, central hub, nacelle and one grounded tower; no detached propeller. Complete turbine silhouette clear at thumbnail size.",
+        "languageId": "energy-utilities-resources",
+        "languageSha256": "f1d5f04b8d58924e5c31a46a332fc3f180b82c59db17a55e4d17f90ed740e7d1",
+        "styleInspection": "Luminous ultramarine sky and pale-gold landscape, clean energy object study."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "seedling",
+      "sourceWord": "seedling",
+      "categoryId": "environment-agriculture",
+      "meanings": [
+        {
+          "senseId": "seedling:meaning-1",
+          "pos": "n.",
+          "en": "A young plant that has recently grown from a seed."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The seedling has two small leaves.",
+          "senseId": "seedling:meaning-1"
+        },
+        {
+          "en": "We moved each seedling into a larger pot.",
+          "senseId": "seedling:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/seedling.webp",
+        "sha256": "5d8889ff7d303f7768f86244c22ae5957b307a16f02acc3e6b7ba848578b7153"
+      },
+      "visual": {
+        "expectedCue": "Tiny young plant emerging from seed in soil, cotyledons, stem and fine roots.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Young short plant emerges from split seed in soil; paired small leaves, new center leaf and fine roots clearly distinguish a seedling from mature plant. Readable at 120px. Generic botanical preview, no species claim.",
+        "languageId": "environment-agriculture",
+        "languageSha256": "028eb72e33bcf0fbe9e31f6756ac088b5b7b8efc7e47beccf1eaaf07e7242a42",
+        "styleInspection": "Natural-history watercolor texture with earth browns, multiple greens and quiet cream backdrop."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "irrigate",
+      "sourceWord": "irrigate",
+      "categoryId": "environment-agriculture",
+      "meanings": [
+        {
+          "senseId": "irrigate:meaning-1",
+          "pos": "v.",
+          "en": "To supply water to land or crops through an arranged system."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Farmers irrigate these rows through small pipes.",
+          "senseId": "irrigate:meaning-1"
+        },
+        {
+          "en": "They irrigated the field during the dry week.",
+          "senseId": "irrigate:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/irrigate.webp",
+        "sha256": "79ed13fdf358dcaf24480faf38082b99a844b364615558bab85e2ecde358e351"
+      },
+      "visual": {
+        "expectedCue": "Connected irrigation pipes deliver droplets to crop roots in neat rows.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Drip lines connect visibly to supply pipe and deliver water beside crop roots; droplets and damp patches visible at 512px. At 120px connected piping and neat crop rows retain irrigation cue; no rain or flood.",
+        "languageId": "environment-agriculture",
+        "languageSha256": "028eb72e33bcf0fbe9e31f6756ac088b5b7b8efc7e47beccf1eaaf07e7242a42",
+        "styleInspection": "Botanical agricultural watercolor with earth ochre soil and multiple greens, matching environment profile."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "island",
+      "sourceWord": "island",
+      "categoryId": "geography-places-cultures",
+      "meanings": [
+        {
+          "senseId": "island:meaning-1",
+          "pos": "n.",
+          "en": "an area of land with water all around it"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We reached the island by boat.",
+          "senseId": "island:meaning-1"
+        },
+        {
+          "en": "A small island lies in the middle of the lake.",
+          "senseId": "island:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/island.webp",
+        "sha256": "bea62d73fb4fd6bc8aa369d685bc967e53f37be07322a4c435d8e765e11e52e7"
+      },
+      "visual": {
+        "expectedCue": "pending",
+        "decision": "added",
+        "reason": "pending actual-pixel inspection",
+        "languageId": "geography-places-cultures",
+        "languageSha256": "ff41a7838427f2d7c5d82694711f2959b8643ab0b345e793eb5a833ee58ecf10",
+        "styleInspection": "pending actual-pixel inspection"
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "peninsula",
+      "sourceWord": "peninsula",
+      "categoryId": "geography-places-cultures",
+      "meanings": [
+        {
+          "senseId": "peninsula:meaning-1",
+          "pos": "n.",
+          "en": "an area of land surrounded by water on most sides but connected to a larger land area"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The peninsula is connected to the mainland by a narrow strip of land.",
+          "senseId": "peninsula:meaning-1"
+        },
+        {
+          "en": "Several fishing villages stand along the peninsula.",
+          "senseId": "peninsula:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/peninsula.webp",
+        "sha256": "7fed8629a9ceadff80b7b5b4b6d48e38b9a7e2cb88bf323764cccf8a2d319c30"
+      },
+      "visual": {
+        "expectedCue": "pending",
+        "decision": "added",
+        "reason": "pending actual-pixel inspection",
+        "languageId": "geography-places-cultures",
+        "languageSha256": "ff41a7838427f2d7c5d82694711f2959b8643ab0b345e793eb5a833ee58ecf10",
+        "styleInspection": "pending actual-pixel inspection"
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "owl",
+      "sourceWord": "owl",
+      "categoryId": "animals-pets-wildlife",
+      "meanings": [
+        {
+          "senseId": "owl:meaning-1",
+          "pos": "n.",
+          "en": "A bird with forward-facing eyes and a broad face, many kinds of which hunt at night."
+        }
+      ],
+      "examples": [
+        {
+          "en": "An owl watched us from a tree branch.",
+          "senseId": "owl:meaning-1"
+        },
+        {
+          "en": "We heard an owl calling after sunset.",
+          "senseId": "owl:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/owl.webp",
+        "sha256": "555be58bf99856316b121cbaf14cf5e8b741452b3c471b0999c7389dc718c93c"
+      },
+      "visual": {
+        "expectedCue": "Barn owl with forward-facing eyes, heart-shaped facial disc, feathers and branch-gripping feet.",
+        "decision": "added",
+        "reason": "AI inspection at converted 512px and 120px: owl facial disc, two eyes, hooked beak, folded wings and claw contact with branch are coherent; recognizable bird silhouette.",
+        "languageId": "animals-pets-wildlife",
+        "languageSha256": "d128197adbb174587d921bf0f6c9f7585088bad85cfb80ced1c670f068e4dd21",
+        "styleInspection": "Natural-history colored-pencil feather detail on quiet cream paper with muted sage leaf."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "hoof",
+      "sourceWord": "hoof",
+      "categoryId": "animals-pets-wildlife",
+      "meanings": [
+        {
+          "senseId": "hoof:meaning-1",
+          "pos": "n.",
+          "en": "The hard outer covering of the foot of an animal such as a horse."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The horse lifted one hoof off the ground.",
+          "senseId": "hoof:meaning-1"
+        },
+        {
+          "en": "Mud stuck to the edge of the hoof.",
+          "senseId": "hoof:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hoof.webp",
+        "sha256": "7a0728bc91484db2867c34255627ab0e58cb9f4c03e033464a866d1a0006b22d"
+      },
+      "visual": {
+        "expectedCue": "Horse lower leg ends in a single hard rounded hoof rather than a paw.",
+        "decision": "added",
+        "reason": "AI inspection at 512px and 120px: hairline coronet meets hard unbroken hoof wall, rounded toe and heel are grounded; no claws, pads or cloven split. Equine foot recognizable.",
+        "languageId": "animals-pets-wildlife",
+        "languageSha256": "d128197adbb174587d921bf0f6c9f7585088bad85cfb80ced1c670f068e4dd21",
+        "styleInspection": "Accurate colored-pencil natural-history close study, brown hair and cream paper."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "stroller",
+      "sourceWord": "stroller",
+      "categoryId": "parenting-family-care",
+      "meanings": [
+        {
+          "senseId": "stroller:meaning-1",
+          "pos": "n.",
+          "en": "A small wheeled chair that an adult pushes to carry a baby or young child."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The stroller is beside the door.",
+          "senseId": "stroller:meaning-1"
+        },
+        {
+          "en": "He pushed the stroller along the path.",
+          "senseId": "stroller:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/stroller.webp",
+        "sha256": "3b0ff3a8d7a2b3b5a327acdca1eaf7e73742634103388dc8427a0cba0814a452"
+      },
+      "visual": {
+        "expectedCue": "Baby stroller with connected handle, fabric seat, coherent supporting frame and wheels.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Push handle connects to coherent frame supporting seat and four wheels, with far wheel partly occluded; harness and canopy visible. Stroller silhouette clear at 120px. Empty seat avoids child posture ambiguity.",
+        "languageId": "parenting-family-care",
+        "languageSha256": "e69e8a807333366155c779926797d7fd1ba568f476849bb4f8fffdb5f8d0d7df",
+        "styleInspection": "Soft rounded nursery rendering with sage fabric, muted peach canopy and cream setting; tactile fabric texture."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "bib",
+      "sourceWord": "bib",
+      "categoryId": "parenting-family-care",
+      "meanings": [
+        {
+          "senseId": "bib:meaning-1",
+          "pos": "n.",
+          "en": "A small covering worn below a child’s chin to keep food off their clothes."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The baby wears a bib at lunch.",
+          "senseId": "bib:meaning-1"
+        },
+        {
+          "en": "She washed the bib after the meal.",
+          "senseId": "bib:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bib.webp",
+        "sha256": "cd4dd6197aea68901c2c3ddfe9754561a4d948abde4a2f27eb6efcede5609f37"
+      },
+      "visual": {
+        "expectedCue": "Small bib hangs below toddler chin and clearly covers front of shirt during meal.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Separate peach bib sits below chin and covers the front of the green shirt; shirt sleeves remain visible. Small food stain and meal setting clarify use. Bib remains distinct from blanket at 120px.",
+        "languageId": "parenting-family-care",
+        "languageSha256": "e69e8a807333366155c779926797d7fd1ba568f476849bb4f8fffdb5f8d0d7df",
+        "styleInspection": "Gentle rounded nursery illustration, soft fabric texture and sage-peach palette, matching stroller treatment."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "stretch",
+      "sourceWord": "stretch",
+      "categoryId": "wellbeing-daily-habits",
+      "meanings": [
+        {
+          "senseId": "stretch:meaning-1",
+          "pos": "v.",
+          "en": "to extend a part of your body to its full length"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I stretch my arms above my head.",
+          "senseId": "stretch:meaning-1"
+        },
+        {
+          "en": "She stood up and stretched her legs.",
+          "senseId": "stretch:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/stretch.webp",
+        "sha256": "4c23ff45d39d7c7603dd059ea3efb1bb2fc751c791f0c1b9853f8bd4c1449214"
+      },
+      "visual": {
+        "expectedCue": "pending",
+        "decision": "added",
+        "reason": "pending actual-pixel inspection",
+        "languageId": "wellbeing-daily-habits",
+        "languageSha256": "3c128596624df67643d5a3811306e786dc4559f04eb09fc6d5b3614920c71d67",
+        "styleInspection": "pending actual-pixel inspection"
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "meditate",
+      "sourceWord": "meditate",
+      "categoryId": "wellbeing-daily-habits",
+      "meanings": [
+        {
+          "senseId": "meditate:meaning-1",
+          "pos": "v.",
+          "en": "to sit quietly while deliberately directing your attention to breathing or another focus"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I meditate in a quiet room.",
+          "senseId": "meditate:meaning-1"
+        },
+        {
+          "en": "They meditated together before breakfast.",
+          "senseId": "meditate:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/meditate.webp",
+        "sha256": "0fc3bb6ba57a28f8fd685864d1e9c9f7a4513851ee1c477f2242b86aef9d3971"
+      },
+      "visual": {
+        "expectedCue": "pending",
+        "decision": "added",
+        "reason": "pending actual-pixel inspection",
+        "languageId": "wellbeing-daily-habits",
+        "languageSha256": "3c128596624df67643d5a3811306e786dc4559f04eb09fc6d5b3614920c71d67",
+        "styleInspection": "pending actual-pixel inspection"
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "racket",
+      "sourceWord": "racket",
+      "categoryId": "sports-recreation",
+      "meanings": [
+        {
+          "senseId": "racket:meaning-1",
+          "pos": "n.",
+          "en": "A sports tool with a handle and a frame of stretched strings, used to hit a ball or shuttlecock."
+        }
+      ],
+      "examples": [
+        {
+          "en": "My tennis racket has a blue handle.",
+          "senseId": "racket:meaning-1"
+        },
+        {
+          "en": "He put his racket back in its cover.",
+          "senseId": "racket:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/racket.webp",
+        "sha256": "d86752c6226c31a693913dd269b8abdb6ecf3b16e62e3c881aceb5bfd25f9564"
+      },
+      "visual": {
+        "expectedCue": "Oval tennis racket has a taut crossed string grid, open throat and wrapped handle.",
+        "decision": "added",
+        "reason": "AI inspection of converted 512px and 120px: continuous oval frame, coherent intersecting strings and connected handle clearly identify racket. Small tennis ball supplies context without obscuring subject.",
+        "languageId": "sports-recreation",
+        "languageSha256": "4a14cca0b33da9952358203e14a37bf636049cd41ce0f9caed4aa228180903d1",
+        "styleInspection": "Crisp cobalt racket, lime grip and dynamic sports brush accents on pale ground."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "swim",
+      "sourceWord": "swim",
+      "categoryId": "sports-recreation",
+      "meanings": [
+        {
+          "senseId": "swim:meaning-1",
+          "pos": "v.",
+          "en": "To move through water using your body, arms, and legs."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We swim across the pool every morning.",
+          "senseId": "swim:meaning-1"
+        },
+        {
+          "en": "She swam slowly toward the steps.",
+          "senseId": "swim:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/swim.webp",
+        "sha256": "054696ebf69efda383734233bb91eb4e96a1d2a0466dfb67ad7119da6a788aac"
+      },
+      "visual": {
+        "expectedCue": "One swimmer moves horizontally through water in a coherent freestyle stroke.",
+        "decision": "added",
+        "reason": "AI inspection at converted 512px and 120px after style correction: two arms connect to torso, recovery elbow bends above water, reaching hand enters water and two legs trail with kick splash; head is turned to breathe. Active swimming clear. Photographic initial candidate retained as temporary QA only.",
+        "languageId": "sports-recreation",
+        "languageSha256": "4a14cca0b33da9952358203e14a37bf636049cd41ce0f9caed4aa228180903d1",
+        "styleInspection": "Revised to expressive painted cobalt water, flat skin shading and lime cap; visibly sports editorial illustration."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "palette",
+      "sourceWord": "palette",
+      "categoryId": "arts-media",
+      "meanings": [
+        {
+          "senseId": "palette:meaning-1",
+          "pos": "n.",
+          "en": "A board or tray on which an artist holds and mixes paint."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The artist mixes blue and white on her palette.",
+          "senseId": "palette:meaning-1"
+        },
+        {
+          "en": "His palette was covered with bright paint.",
+          "senseId": "palette:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/palette.webp",
+        "sha256": "5ebeb170513d05567c542fc4d7118fb75e1d201b265e55b947f6ff1e68184d59"
+      },
+      "visual": {
+        "expectedCue": "Artist wooden palette contains separate paint daubs and visibly mixed paint under brush tip.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Wooden artist palette holds separate thick paint daubs and a central light-blue mixture; brush tip touches the mixed paint. Dominant palette-and-paint cue remains readable at 120px. Physical paint, no digital swatch ambiguity.",
+        "languageId": "arts-media",
+        "languageSha256": "a9e6641e269a4165b49be1b32373e2a9b60811323a668442e9bd222755759e18",
+        "styleInspection": "Expressive studio gouache with saturated blue, red and ochre pigments, warm wood and visible brush texture."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "violin",
+      "sourceWord": "violin",
+      "categoryId": "arts-media",
+      "meanings": [
+        {
+          "senseId": "violin:meaning-1",
+          "pos": "n.",
+          "en": "A small four-stringed musical instrument usually held under the chin and played with a bow."
+        }
+      ],
+      "examples": [
+        {
+          "en": "She plays the violin after school.",
+          "senseId": "violin:meaning-1"
+        },
+        {
+          "en": "The violin rested in its case.",
+          "senseId": "violin:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/violin.webp",
+        "sha256": "552926aa4882104e56060c9f2780b44c9683a21b1c3595f197459c8dfe5a697d"
+      },
+      "visual": {
+        "expectedCue": "Four-stringed violin with coherent bridge, neck, tailpiece and body; bow alongside.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Four separate strings and four tuning pegs are visible at 512px, with strings crossing a coherent bridge to the tailpiece, neck attached to shaped body and two f holes. Bow lies separately alongside. Violin silhouette remains clear at 120px; no guitar or extra-string cue.",
+        "languageId": "arts-media",
+        "languageSha256": "a9e6641e269a4165b49be1b32373e2a9b60811323a668442e9bd222755759e18",
+        "styleInspection": "Expressive studio gouache brush texture, amber wood, warm cream and muted blue background, coherent with arts profile."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "artifact",
+      "sourceWord": "artifact",
+      "categoryId": "humanities-society",
+      "meanings": [
+        {
+          "senseId": "artifact:meaning-1",
+          "pos": "n.",
+          "en": "an object made by people that is studied for its historical or cultural importance"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The museum displays an artifact from an ancient village.",
+          "senseId": "artifact:meaning-1"
+        },
+        {
+          "en": "Researchers photographed the clay artifact.",
+          "senseId": "artifact:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/artifact.webp",
+        "sha256": "e6068c6a5021168feb09432ecb966d2c8aa0733fd7854649ab89aa1322e01294"
+      },
+      "visual": {
+        "expectedCue": "pending",
+        "decision": "added",
+        "reason": "pending actual-pixel inspection",
+        "languageId": "humanities-society",
+        "languageSha256": "3e99933d1f4d3ff5fe51b872389f5d5e0ca62ed3fe6a97ed93bfa751877be1ec",
+        "styleInspection": "pending actual-pixel inspection"
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "festival",
+      "sourceWord": "festival",
+      "categoryId": "humanities-society",
+      "meanings": [
+        {
+          "senseId": "festival:meaning-1",
+          "pos": "n.",
+          "en": "an organized public celebration or series of cultural events"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The festival fills the town square with music.",
+          "senseId": "festival:meaning-1"
+        },
+        {
+          "en": "Local artists performed at the summer festival.",
+          "senseId": "festival:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/festival.webp",
+        "sha256": "92a5c418da5d38469d1c7e39a94f6456faadee5d213596e01aaac85418994374"
+      },
+      "visual": {
+        "expectedCue": "pending",
+        "decision": "added",
+        "reason": "pending actual-pixel inspection",
+        "languageId": "humanities-society",
+        "languageSha256": "3e99933d1f4d3ff5fe51b872389f5d5e0ca62ed3fe6a97ed93bfa751877be1ec",
+        "styleInspection": "pending actual-pixel inspection"
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "ballot",
+      "sourceWord": "ballot",
+      "categoryId": "law-public-affairs",
+      "meanings": [
+        {
+          "senseId": "ballot:meaning-1",
+          "pos": "n.",
+          "en": "A paper or electronic form on which a voter records a choice."
+        }
+      ],
+      "examples": [
+        {
+          "en": "She marked her choice on the ballot.",
+          "senseId": "ballot:meaning-1"
+        },
+        {
+          "en": "Each voter received one ballot.",
+          "senseId": "ballot:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ballot.webp",
+        "sha256": "3557d9413da473ef7a491227ebe6938ba0e5c3223af8ab83d8244b08bca30b71"
+      },
+      "visual": {
+        "expectedCue": "Voting paper records exactly one selected option and enters a ballot-box slot.",
+        "decision": "added",
+        "reason": "AI inspection at 512px and 120px: three choice boxes with only middle box marked X; paper gripped by coherent hand and meets actual box slot. Ballot sheet remains dominant; no real party identifiers.",
+        "languageId": "law-public-affairs",
+        "languageSha256": "2e817082a1db80744859f4990f7a799d1f43dd1454ffaa2ac4f9f343d698f9a5",
+        "styleInspection": "Slate-blue civic engraving on parchment with burgundy vote mark."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "courthouse",
+      "sourceWord": "courthouse",
+      "categoryId": "law-public-affairs",
+      "meanings": [
+        {
+          "senseId": "courthouse:meaning-1",
+          "pos": "n.",
+          "en": "A building where courts hold hearings and trials."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The courthouse is opposite the public library.",
+          "senseId": "courthouse:meaning-1"
+        },
+        {
+          "en": "Several people waited outside the courthouse.",
+          "senseId": "courthouse:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/courthouse.webp",
+        "sha256": "1d5c67a055e4c65fe7fd362b8b4973444f69a65117e388e25282cee221c889a7"
+      },
+      "visual": {
+        "expectedCue": "Civic court building has broad public entrance and large balanced-scales-of-justice relief.",
+        "decision": "added",
+        "reason": "AI inspection at converted 512px and 120px: grounded courthouse facade, functional double doors and broad steps; large justice scales are clear at thumbnail size and distinguish court from generic bank or temple.",
+        "languageId": "law-public-affairs",
+        "languageSha256": "2e817082a1db80744859f4990f7a799d1f43dd1454ffaa2ac4f9f343d698f9a5",
+        "styleInspection": "Civic engraved hatching in slate blue on parchment with restrained burgundy doors."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "comb",
+      "sourceWord": "comb",
+      "categoryId": "fashion-beauty-personal-care",
+      "meanings": [
+        {
+          "senseId": "comb:meaning-1",
+          "pos": "n.",
+          "en": "A flat tool with a row of teeth used to arrange or untangle hair."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I keep a comb in my bag.",
+          "senseId": "comb:meaning-1"
+        },
+        {
+          "en": "She cleaned the teeth of the comb.",
+          "senseId": "comb:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/comb.webp",
+        "sha256": "f6230ef96fd0ed850f95b60a04fb91f43e9de2975a38f390596cf1ff12adfc66"
+      },
+      "visual": {
+        "expectedCue": "Flat comb with one separated row of teeth and connected spine and handle.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Comb has a continuous spine, one row of clearly separated teeth and a smooth handle. Teeth remain distinguishable in the 120px thumbnail; no brush-bristle confusion.",
+        "languageId": "fashion-beauty-personal-care",
+        "languageSha256": "0767abe3f5207062a119f01e68e8d542d1608c00eeaedb36063bfeeb056e8fd1",
+        "styleInspection": "Polished beauty editorial drawing with fine rose and charcoal contours, cream backdrop and soft rose shading."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "braid",
+      "sourceWord": "braid",
+      "categoryId": "fashion-beauty-personal-care",
+      "meanings": [
+        {
+          "senseId": "braid:meaning-1",
+          "pos": "v.",
+          "en": "To form a plait by repeatedly crossing sections of hair over one another."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I braid my sister’s hair before school.",
+          "senseId": "braid:meaning-1"
+        },
+        {
+          "en": "She braided three sections into one long plait.",
+          "senseId": "braid:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/braid.webp",
+        "sha256": "d2ce16aafee08609a41e48d5b2312748dbca7033a3165cdedf0476de1fda6c09"
+      },
+      "visual": {
+        "expectedCue": "Hands interweave three distinct hair sections into a formed braid, not a ponytail.",
+        "decision": "added",
+        "reason": "AI inspected the converted 512px WebP and true-size 120px thumbnail: Two coherent hands hold three distinct loose sections below a visibly interwoven braid, showing active crossing rather than a tied ponytail. Hand contact and the three sections are clear at 512px, with braiding action recognizable at 120px.",
+        "languageId": "fashion-beauty-personal-care",
+        "languageSha256": "0767abe3f5207062a119f01e68e8d542d1608c00eeaedb36063bfeeb056e8fd1",
+        "styleInspection": "Polished beauty editorial drawing with fine rose and charcoal contours, soft cream backdrop and detailed brown hair."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "joystick",
+      "sourceWord": "joystick",
+      "categoryId": "gaming-digital-culture",
+      "meanings": [
+        {
+          "senseId": "joystick:meaning-1",
+          "pos": "n.",
+          "en": "a control stick that tilts to direct movement in a game or machine"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Move the joystick to turn the spaceship.",
+          "senseId": "joystick:meaning-1"
+        },
+        {
+          "en": "The arcade machine has one joystick and two buttons.",
+          "senseId": "joystick:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/joystick.webp",
+        "sha256": "bf495e888421141e68fe6b597e0ec171ea900de1b58c03e45fbceab712978ffe"
+      },
+      "visual": {
+        "expectedCue": "pending",
+        "decision": "added",
+        "reason": "pending actual-pixel inspection",
+        "languageId": "gaming-digital-culture",
+        "languageSha256": "ff13f74110ac9178804fd2c2c63e26f69549b0f3742d7006b057cc7c913be5cf",
+        "styleInspection": "pending actual-pixel inspection"
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:41:54Z"
+      }
+    },
+    {
+      "entryId": "pixel",
+      "sourceWord": "pixel",
+      "categoryId": "gaming-digital-culture",
+      "meanings": [
+        {
+          "senseId": "pixel:meaning-1",
+          "pos": "n.",
+          "en": "one small cell of color in a digital image"
+        }
+      ],
+      "examples": [
+        {
+          "en": "One pixel in the image is bright red.",
+          "senseId": "pixel:meaning-1"
+        },
+        {
+          "en": "Zoom in to see the individual pixels.",
+          "senseId": "pixel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pixel.webp",
+        "sha256": "1071e68c7b090e12ed033d25871fb652fdd3db6a18ef7b8a34f4750eb12abecc"
+      },
+      "visual": {
+        "expectedCue": "One red square cell in a digital grid, shown again in an exactly matching magnified patch.",
+        "decision": "added",
+        "reason": "AI actual-pixel inspection at 512 px and 120 px: Source 7-by-7 grid contains a central 3-by-3 violet block with one red center. Enlarged patch has matching 3-by-3 geometry and colors; connector lines show zoom relation. Single cell clear at 120 px. First mismatched patch candidate was rejected and preserved only in temporary QA evidence.",
+        "languageId": "gaming-digital-culture",
+        "languageSha256": "ff13f74110ac9178804fd2c2c63e26f69549b0f3742d7006b057cc7c913be5cf",
+        "styleInspection": "Flat retro violet/cyan pixel-grid diagram with one red teaching accent on dark violet."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T03:46:58.426114+00:00"
       }
     }
   ]

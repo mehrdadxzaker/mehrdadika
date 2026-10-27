@@ -4,9 +4,9 @@ The first Portuguese locale is `pt-BR`: English vocabulary explained in Brazilia
 
 `content/locales/pt-BR.json` and `content/locales/es-419.json` are translation overlays for Brazilian Portuguese and the first Latin American Spanish edition. Both teach English. Each contains:
 
-- All 127 lexical entries and 128 meanings, including the 50-word cooking foundation.
-- 256 translated examples and 381 translated collocations, aligned to the original English.
-- 127 native usage notes, including distinctions such as `library`/`bookshop`, `recipe`/`receipt`, `bake`/`roast` and the two meanings of `pressure`.
+- All 191 lexical entries and 192 meanings, including 52 cooking words.
+- 384 translated examples and 573 translated collocations, aligned to the original English.
+- 191 native usage notes, including distinctions such as `library`/`bookshop`, `recipe`/`receipt`, `bake`/`roast` and the two meanings of `pressure`.
 - Native labels for all 32 subject categories, 348 subcategories and six discovery groups.
 
 This is an **AI-assisted editorial preview**. Independent native-language and specialist review have not been recorded. Clinical and engineering material remains introductory vocabulary and must pass appropriate review before a stable professional learning release.

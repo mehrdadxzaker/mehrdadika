@@ -32,6 +32,8 @@ Starter content is an AI-assisted editorial preview. Do not mark a reviewer as h
 
 For category expansion, follow the [category-by-category queue](docs/category-expansion.md) and inspect `npm run content:coverage`. Add a coherent module to `content/category-expansion.json` after its words, translations and illustrations are ready for preview. Keep all three native editions aligned in the same batch.
 
+For new category illustrations, follow `content/visual-languages.json`, inspect the final full-size and thumbnail pixels, and record the expected meaning cue and actual style assessment. The [visual foundations guide](docs/category-visual-foundations.md) documents the brief bindings and their limits.
+
 For a correction, include the lexical or sense ID, content revision, current text, proposed text, explanation and reference. For a new module, describe the audience, learning objective, category, scope, prerequisites and likely review needs.
 
 ## Network and process limits

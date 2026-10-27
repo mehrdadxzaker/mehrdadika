@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 1,
+  "status": "editorial-preview",
+  "review": {
+    "humanReviewed": false,
+    "method": "AI text and pixel inspection; independent language and domain review pending"
+  },
+  "scope": "Category visual briefs for newly authored batches. Legacy pictures do not acquire compliance or human approval from this registry.",
+  "profiles": [
+    {
+      "id": "cooking-food-drink",
+      "revision": 1,
+      "label": "Cooking, food and drink",
+      "medium": "Warm natural culinary close-up, realistic tactile food and tool textures",
+      "palette": [
+        "#E8D8BF",
+        "#A95732",
+        "#6F7859"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Food and tool visibly touch; sift shows fine flour falling through mesh, ladle has a deep round bowl.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "medicine-healthcare",
+      "revision": 1,
+      "label": "Medicine and healthcare",
+      "medium": "Clean clinical educational rendering, soft precise forms on cool white, restrained mint accents",
+      "palette": [
+        "#EEF7F3",
+        "#387E78",
+        "#A6C7D6"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Correct medical-device anatomy; distinguish listening device and body-temperature instrument; no diagnosis, treatment instructions or invented readings.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "engineering",
+      "revision": 1,
+      "label": "Engineering",
+      "medium": "Precise technical product drawing with subtle cutaway shading, slate ground and amber highlights",
+      "palette": [
+        "#263645",
+        "#D7A64B",
+        "#CAD4DB"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Trace mechanical connections and tooth contact; spring is an elastic helical machine component, not a season or water source.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "everyday-life",
+      "revision": 1,
+      "label": "Everyday life",
+      "medium": "Warm observational gouache scene with gentle paper grain and terracotta highlights",
+      "palette": [
+        "#F2E7D5",
+        "#BA6C54",
+        "#7A9A9D"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Show recognizable everyday object or actual bodily action; yawn visibly opens the mouth with a relaxed tired posture.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "home-gardening-diy",
+      "revision": 1,
+      "label": "Home, gardening and DIY",
+      "medium": "Botanical home-workshop watercolor and pencil, cream paper with leafy greens",
+      "palette": [
+        "#F1EAD9",
+        "#5C7A48",
+        "#B1794C"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Tool purpose clear; pruning shears visibly cut one small branch, distinct from watering or uprooting.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "people-relationships",
+      "revision": 1,
+      "label": "People and relationships",
+      "medium": "Soft character-led pastel editorial scene, peach and plum with expressive body language",
+      "palette": [
+        "#F4DFD7",
+        "#875D7D",
+        "#B4A7BF"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Hug is mutual arm contact; neighbor shows adjacent homes and their residents, rather than friendship alone.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "travel-tourism-hospitality",
+      "revision": 1,
+      "label": "Travel, tourism and hospitality",
+      "medium": "Travel-journal colored-pencil object study with light ink contours and muted teal accents",
+      "palette": [
+        "#EDE5D3",
+        "#386D78",
+        "#C58F55"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Travel document versus luggage clearly distinct; generic illustrative document only, no real identity data or official reproductions.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "transport-vehicles",
+      "revision": 1,
+      "label": "Transport and vehicles",
+      "medium": "Crisp transport catalog illustration, graphite contours and safety-orange accents",
+      "palette": [
+        "#E8ECED",
+        "#39444C",
+        "#D77A3B"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Bicycle has connected frame, two wheels and drivetrain; brake shows coherent external pads on opposite rim faces or an external caliper straddling a disc, without invented cutaway internals.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "computing-technology",
+      "revision": 1,
+      "label": "Computing and technology",
+      "medium": "Clean isometric digital explanatory illustration with cyan and indigo planes",
+      "palette": [
+        "#EEF2FF",
+        "#4F5AA7",
+        "#50B9CA"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Keyboard keys coherent; upload direction runs from a local device toward remote cloud, not the reverse.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "education-academic",
+      "revision": 1,
+      "label": "Education and academic English",
+      "medium": "Tactile classroom cut-paper collage with pencil details, cream, ochre and school blue",
+      "palette": [
+        "#F1EAD7",
+        "#D3A144",
+        "#547B9C"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Notebook binding and pages visible; underline is a line below a printed word, not strike-through or highlighting.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "natural-sciences-mathematics",
+      "revision": 1,
+      "label": "Natural sciences and mathematics",
+      "medium": "Precise textbook diagram on bright white with primary red/blue accents and minimal construction lines",
+      "palette": [
+        "#FFFFFF",
+        "#C65C58",
+        "#4B80B7"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Magnet acts on steel clips; triangle has exactly three straight sides and vertices, no 3D prism ambiguity.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "careers-workplace",
+      "revision": 1,
+      "label": "Careers and workplace",
+      "medium": "Professional editorial ink-and-wash scene, restrained navy and rust",
+      "palette": [
+        "#EEEAE3",
+        "#324C66",
+        "#BA765B"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Clipboard has a real clip; interview shows question-and-answer hiring context, rather than a generic social conversation.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "business-management",
+      "revision": 1,
+      "label": "Business and management",
+      "medium": "Structured corporate editorial geometry with teal and apricot blocks",
+      "palette": [
+        "#EAF1EE",
+        "#32776C",
+        "#D99367"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Invoice is an itemized request for payment, not a paid receipt; negotiation has a visible proposal and counterproposal before agreement.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "economics-finance",
+      "revision": 1,
+      "label": "Economics and finance",
+      "medium": "Restrained finance object still-life with emerald and brass, crisp simplified shading",
+      "palette": [
+        "#E9EEE7",
+        "#36705A",
+        "#B89750"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Savings shows money set aside; coin is one small metal money disc, no investment or return claims.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "languages-communication",
+      "revision": 1,
+      "label": "Language and communication",
+      "medium": "Clear typographic editorial illustration with speech-shape geometry, cobalt and coral",
+      "palette": [
+        "#F2EEE7",
+        "#4365A2",
+        "#D27C6D"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Alphabet shows ordered letters; translate shows a change between two languages, not copying or paraphrasing one language.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "retail-ecommerce",
+      "revision": 1,
+      "label": "Retail and e-commerce",
+      "medium": "Bright retail product illustration with cream, coral and charcoal contours",
+      "palette": [
+        "#F6EEE1",
+        "#CA6D55",
+        "#3F4347"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Shopping basket is hand-carried with handles; barcode shows parallel machine-readable bars, distinct from a QR square.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "safety-emergencies",
+      "revision": 1,
+      "label": "Safety and emergencies",
+      "medium": "Calm high-contrast safety explainer with ivory, signal red and dark navy",
+      "palette": [
+        "#F8F2E5",
+        "#BC4D40",
+        "#2F4555"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Extinguisher has coherent hose/pin/handle; evacuation shows orderly movement out of a building toward safety, not entry or panic.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "architecture-infrastructure",
+      "revision": 1,
+      "label": "Architecture and infrastructure",
+      "medium": "Architectural pencil and pale stone wash, quiet elevations and spatial clarity",
+      "palette": [
+        "#E8E3D7",
+        "#71818B",
+        "#AD8863"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Arch is a curved opening supported at both sides; staircase has connected usable steps with consistent perspective.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "trades-practical-work",
+      "revision": 1,
+      "label": "Trades and practical work",
+      "medium": "Workshop technical gouache with visible wood/metal, ochre and steel gray",
+      "palette": [
+        "#EAE1CF",
+        "#A87B3E",
+        "#65737E"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Hammer head and handle physically coherent; drilling shows bit contact with clamped material, distinct from screw-driving.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "manufacturing-logistics",
+      "revision": 1,
+      "label": "Manufacturing, logistics and supply chains",
+      "medium": "Industrial isometric logistics illustration with warehouse blue and amber",
+      "palette": [
+        "#E8EEF1",
+        "#487392",
+        "#D9A148"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Forklift forks support its load and mast is attached; parcel is a securely wrapped shipping package, not open merchandise.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "energy-utilities-resources",
+      "revision": 1,
+      "label": "Energy, utilities and natural resources",
+      "medium": "Luminous clean energy technical landscape with ultramarine and pale gold",
+      "palette": [
+        "#ECF2F4",
+        "#315E9B",
+        "#D9BE68"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Solar panel has a coherent cell array facing light; wind turbine has three rotor blades attached to a hub/nacelle/tower, no propeller detachment.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "environment-agriculture",
+      "revision": 1,
+      "label": "Environment and agriculture",
+      "medium": "Natural-history botanical watercolor with earth ochre and multiple greens",
+      "palette": [
+        "#EFEAD5",
+        "#5A7A45",
+        "#B19058"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Seedling is a young emerging plant; irrigation visibly delivers water to crop rows, distinct from rain or flooding.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "geography-places-cultures",
+      "revision": 1,
+      "label": "Geography, places and cultures",
+      "medium": "Tactile topographic cut-paper map view, turquoise water and ochre terrain",
+      "palette": [
+        "#53A6B0",
+        "#D7B77C",
+        "#F1E7CF"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Island is surrounded by water on every side; peninsula stays connected to mainland through a visible neck.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "animals-pets-wildlife",
+      "revision": 1,
+      "label": "Animals, pets and wildlife",
+      "medium": "Accurate natural-history colored-pencil plate on quiet cream paper",
+      "palette": [
+        "#EEE9D9",
+        "#7A654A",
+        "#8D9A78"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Owl anatomy recognizable, forward-facing eyes and feathers; hoof is a horse's hard foot, not a clawed paw.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "parenting-family-care",
+      "revision": 1,
+      "label": "Parenting and family care",
+      "medium": "Gentle rounded nursery illustration with soft fabric texture, sage and muted peach",
+      "palette": [
+        "#F3E9DC",
+        "#A6B6A1",
+        "#D59E89"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Stroller frame/wheels form a coherent baby carriage; bib covers the front of a child's clothes, without ambiguous blanket framing.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "wellbeing-daily-habits",
+      "revision": 1,
+      "label": "Wellbeing and daily habits",
+      "medium": "Airy minimal ink gesture with soft lavender and sand watercolor washes",
+      "palette": [
+        "#F2ECE2",
+        "#988BAA",
+        "#C9AD85"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Stretch shows visible limb extension; meditation shows an attentive seated posture, not sleeping or a claim of health benefit.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "sports-recreation",
+      "revision": 1,
+      "label": "Sports and recreation",
+      "medium": "Dynamic sports editorial illustration with clear motion and crisp cobalt/lime accents",
+      "palette": [
+        "#EDF0E4",
+        "#3F70A5",
+        "#A3B75D"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Racket strings/oval/handle clear; swimmer's action and water contact physically coherent, not standing in water.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "arts-media",
+      "revision": 1,
+      "label": "Arts and media",
+      "medium": "Expressive studio gouache and visible brush texture, saturated pigments and warm wood",
+      "palette": [
+        "#EDE2D1",
+        "#AB5949",
+        "#5A7695"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Artist palette holds mixed paint, not a digital swatch UI; violin has four strings and coherent bridge, neck and body.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "humanities-society",
+      "revision": 1,
+      "label": "Humanities and society",
+      "medium": "Museum-and-culture editorial woodcut with restrained clay, indigo and gold",
+      "palette": [
+        "#E9DBC5",
+        "#AA7254",
+        "#4F6083"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Artifact has historical/museum context; festival is an organized public celebration, not one private birthday scene or a stereotype.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "law-public-affairs",
+      "revision": 1,
+      "label": "Law and public affairs",
+      "medium": "Civic editorial engraving with slate blue, parchment and burgundy accents",
+      "palette": [
+        "#EDE6D7",
+        "#52677A",
+        "#964D58"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Ballot records a voting choice without real parties; courthouse has a clear civic court cue, rather than a temple or bank.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "fashion-beauty-personal-care",
+      "revision": 1,
+      "label": "Fashion, beauty and personal care",
+      "medium": "Polished beauty editorial drawing with fine rose/charcoal contours and cream backdrop",
+      "palette": [
+        "#F1E2DB",
+        "#B98B86",
+        "#4D4248"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Comb has separated teeth; braiding visibly interweaves three hair sections, not simply tying a ponytail.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    },
+    {
+      "id": "gaming-digital-culture",
+      "revision": 1,
+      "label": "Gaming and digital culture",
+      "medium": "Deliberate pixel-art and playful retro geometric shading with violet/cyan accents",
+      "palette": [
+        "#25203D",
+        "#8F76CD",
+        "#55C3C8"
+      ],
+      "composition": "Square composition, one clear teaching focus, readable at 120px; exact word meaning takes priority over decoration.",
+      "semanticChecks": "Joystick is a physical stick control, distinct from gamepad; pixel is one cell of a digital image, shown through a clear magnified grid relationship.",
+      "avoid": "No logos, watermarks, decorative labels, fake scientific readings, or irrelevant props. Use text only when essential to depict the word and verify every character."
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 Mehrdadika keeps Word Atlas's calm illustrated-card presentation, but picture meaning takes priority over one uniform art style. A recognizable related object is not always a useful picture of the word. For a verb, show the action; for an abstract noun, show the relation or sequence that makes it understandable.
 
-The current 127-word picture audit is recorded in [content/illustration-audit.json](../content/illustration-audit.json). It binds each assessment to the exact English headword, published meanings and examples, category, source image and SHA-256. The audit records AI visual inspection, including retained pictures; it is not independent human or professional approval. Software checks can detect stale bindings and missing coverage, not establish that an illustration is semantically correct.
+The current 191-word picture audit is recorded in [content/illustration-audit.json](../content/illustration-audit.json). It binds each assessment to the exact English headword, published meanings and examples, category, source image and SHA-256. The audit records AI visual inspection, including retained pictures; it is not independent human or professional approval. Software checks can detect stale bindings and missing coverage, not establish that an illustration is semantically correct.
 
 ## Match the word, not just its surroundings
 
@@ -26,6 +26,8 @@ The current 127-word picture audit is recorded in [content/illustration-audit.js
 **Safety:** show the situation or protection in action. An emergency should be an actual urgent event with a response; a warning sign is a signal about danger. Shelter should visibly protect people from weather. Keep scenes calm and non-sensational.
 
 Other categories may use object studies, scenes or symbols when the selected noun is unambiguous. Style variation should help recognition while retaining the square composition, clear focal subject and readable scale of the atlas.
+
+The [visual-language registry](../content/visual-languages.json) provides a separate medium, palette and meaning-check brief for each of the 32 categories. The [current broad expansion](category-visual-foundations.md) records actual pixel and style assessments for its 64 new images. Legacy pictures retain their earlier assessments and do not automatically gain compliance with a new brief. `npm run check:visual-languages` rejects missing or stale brief bindings; it cannot prove artistic style or semantic correctness.
 
 ## Inspect the actual output
 
