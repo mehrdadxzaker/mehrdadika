@@ -11,17 +11,19 @@
     "check:atlas": "npm run check:content",
     "build:atlas": "npm run build:content",
     "format": "prettier --write src vite.config.ts scripts/*.mjs package.json tsconfig.json",
-    "check:content": "node scripts/check-content.mjs && node scripts/build-locales.mjs --check && node scripts/build-reading-locales.mjs --check && node scripts/check-illustrations.mjs && node scripts/content-coverage.mjs && node scripts/check-visual-languages.mjs",
+    "check:content": "node scripts/check-content.mjs && node scripts/build-locales.mjs --check && node scripts/build-reading-locales.mjs --check && node scripts/check-illustrations.mjs && node scripts/content-coverage.mjs && node scripts/check-visual-languages.mjs && npm run check:campaign",
     "build:content": "node scripts/build-content.mjs",
     "build:locales": "node scripts/build-locales.mjs",
     "check:locales": "node scripts/build-locales.mjs --check",
     "build:reading-locales": "node scripts/build-reading-locales.mjs",
     "check:reading-locales": "node scripts/build-reading-locales.mjs --check",
     "check:illustrations": "node scripts/check-illustrations.mjs",
-    "predev": "npm run build:content && npm run build:locales && npm run build:reading-locales && npm run check:illustrations && npm run check:visual-languages",
-    "prebuild": "npm run build:content && npm run build:locales && npm run build:reading-locales && npm run check:illustrations && npm run check:visual-languages",
+    "predev": "npm run build:content && npm run build:locales && npm run build:reading-locales && npm run check:illustrations && npm run check:visual-languages && npm run check:campaign",
+    "prebuild": "npm run build:content && npm run build:locales && npm run build:reading-locales && npm run check:illustrations && npm run check:visual-languages && npm run check:campaign",
     "content:coverage": "node scripts/content-coverage.mjs",
-    "check:visual-languages": "node scripts/check-visual-languages.mjs"
+    "check:visual-languages": "node scripts/check-visual-languages.mjs",
+    "campaign:status": "node scripts/expansion-campaign.mjs --json",
+    "check:campaign": "node scripts/expansion-campaign.mjs --check"
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.3.0",

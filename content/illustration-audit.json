@@ -7115,6 +7115,3303 @@
         "humanReviewed": false,
         "inspectedAt": "2026-10-27T03:46:58.426114+00:00"
       }
+    },
+    {
+      "entryId": "syringe",
+      "sourceWord": "syringe",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "syringe:meaning-1",
+          "pos": "n.",
+          "en": "A narrow tube with a plunger for drawing in or pushing out a measured amount of liquid."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The syringe has a clear barrel and a white plunger.",
+          "senseId": "syringe:meaning-1"
+        },
+        {
+          "en": "The nurse counted the unopened syringes on the tray.",
+          "senseId": "syringe:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/syringe.webp",
+        "sha256": "f1e3987d47fa95187d3d6f8f81dc6f4a138785f514e852fac9a86b2610f57693"
+      },
+      "visual": {
+        "expectedCue": "Transparent syringe barrel, separate plunger, finger flanges and capped narrow connector; no injection or exposed needle.",
+        "decision": "added",
+        "reason": "Full generated raster: coherent clear barrel and white plunger with teal seal; capped front, finger flanges and thumb pad visible. No needle exposure or readings. Converted512px WebP and120px thumbnail inspected: barrel, plunger, flanges and capped tip retained and clear; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical rendering with precise clear-plastic parts, cool-white background, restrained mint and pale-blue accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f1e3987d47fa95187d3d6f8f81dc6f4a138785f514e852fac9a86b2610f57693",
+          "inspectedAt": "2026-10-27T11:53:18.787355+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "medical-mask",
+      "sourceWord": "medical mask",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "medical-mask:meaning-1",
+          "pos": "n.",
+          "en": "A covering worn over the nose and mouth in healthcare to help limit the spread of droplets."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The medical mask covers her nose and mouth.",
+          "senseId": "medical-mask:meaning-1"
+        },
+        {
+          "en": "A box of medical masks stood beside the clinic door.",
+          "senseId": "medical-mask:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/medical-mask.webp",
+        "sha256": "6c34d52b7ed5028bd35f7327de74924c7d96ad6588703c4d88fe8c237dbdedb0"
+      },
+      "visual": {
+        "expectedCue": "Pleated covering shaped for nose and mouth, two coherent ear loops, mint clinical palette.",
+        "decision": "added",
+        "reason": "Full generated raster: coherent pleated medical mask with upper nose strip and two attached ear loops; no person or readings. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Cool-white clinical object study with mint mask, soft shadows, and restrained material detail."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6c34d52b7ed5028bd35f7327de74924c7d96ad6588703c4d88fe8c237dbdedb0",
+          "inspectedAt": "2026-10-27T11:53:18.787439+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "surgical-glove",
+      "sourceWord": "surgical glove",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "surgical-glove:meaning-1",
+          "pos": "n.",
+          "en": "A sterile, close-fitting glove worn by a member of a surgical team during an operation."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The surgical glove has a long cuff.",
+          "senseId": "surgical-glove:meaning-1"
+        },
+        {
+          "en": "The sealed packet contains a pair of surgical gloves.",
+          "senseId": "surgical-glove:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/surgical-glove.webp",
+        "sha256": "2ec5a7d2db3435c9a112effc7d357bfc424b23094b2156fc692b7f55dfdfdb63"
+      },
+      "visual": {
+        "expectedCue": "One medical glove with exactly five digits, rolled long cuff and fine flexible material.",
+        "decision": "added",
+        "reason": "Full generated raster: exactly five distinct digits, lateral thumb, four fingers, long cuff with rolled rim; empty flexible glove. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise soft mint clinical render on cool-white ground, no decoration."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2ec5a7d2db3435c9a112effc7d357bfc424b23094b2156fc692b7f55dfdfdb63",
+          "inspectedAt": "2026-10-27T11:53:18.787468+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "gauze",
+      "sourceWord": "gauze",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "gauze:meaning-1",
+          "pos": "n.",
+          "en": "Thin, loosely woven fabric used in healthcare to cover or absorb fluid from a wound."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The gauze has a loose, open weave.",
+          "senseId": "gauze:meaning-1"
+        },
+        {
+          "en": "The supply cupboard contains rolls of gauze and small gauze pads.",
+          "senseId": "gauze:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/gauze.webp",
+        "sha256": "218ec27470e458ed2ec2107d1d2a340772f4ae2a39479fbc3663b2a09272fdc1"
+      },
+      "visual": {
+        "expectedCue": "Porous loosely woven cotton mesh visible across folded pad, distinct from a smooth plaster.",
+        "decision": "added",
+        "reason": "Full generated raster: open woven mesh evident through loose corner and folded pad, separate cotton threads and holes; no adhesive strip ambiguity. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Cool-white clinical material study with pale-mint shadows and tactile cotton detail."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "218ec27470e458ed2ec2107d1d2a340772f4ae2a39479fbc3663b2a09272fdc1",
+          "inspectedAt": "2026-10-27T11:53:18.787508+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "adhesive-plaster",
+      "sourceWord": "adhesive plaster",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "adhesive-plaster:meaning-1",
+          "pos": "n.",
+          "en": "A small sticky strip with a soft pad in the middle, made to cover a minor wound."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The adhesive plaster has a soft pad in the middle.",
+          "senseId": "adhesive-plaster:meaning-1"
+        },
+        {
+          "en": "I found an adhesive plaster in the first-aid box.",
+          "senseId": "adhesive-plaster:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/adhesive-plaster.webp",
+        "sha256": "6c3160670232a48aad4d951bfc6cd4ffec60799b584fc3bbaf3abcf6f00b0c2f"
+      },
+      "visual": {
+        "expectedCue": "Small adhesive strip with central absorbent pad and two sticky wings; no mesh-roll ambiguity.",
+        "decision": "added",
+        "reason": "Full generated raster: long rounded adhesive strip, central soft white pad, sticky wings and peeled backing coherent; distinct from gauze. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clinical cool-white backdrop and pale-blue backing, restrained beige product color necessary for recognition."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6c3160670232a48aad4d951bfc6cd4ffec60799b584fc3bbaf3abcf6f00b0c2f",
+          "inspectedAt": "2026-10-27T11:53:18.787546+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "crutch",
+      "sourceWord": "crutch",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "crutch:meaning-1",
+          "pos": "n.",
+          "en": "A walking aid held beside the body, with support under the arm or around the forearm."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The crutch has a rubber tip at the bottom.",
+          "senseId": "crutch:meaning-1"
+        },
+        {
+          "en": "He left his pair of crutches beside the chair.",
+          "senseId": "crutch:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/crutch.webp",
+        "sha256": "6c2d0167a3df4fe6419cdf90c5f71d432f186f9aecab9b3a6767fa85389a760b"
+      },
+      "visual": {
+        "expectedCue": "Walking support with forearm cuff, handgrip, one connected shaft and floor-contact rubber tip.",
+        "decision": "added",
+        "reason": "Full generated raster: adult walking with hand firmly on crutch grip, cuff below elbow, continuous shaft and rubber tip planted on floor; support relation visible. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Calm non-graphic clinical educational character render, cool white, mint and gray accents."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6c2d0167a3df4fe6419cdf90c5f71d432f186f9aecab9b3a6767fa85389a760b",
+          "inspectedAt": "2026-10-27T11:53:18.787569+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "wheelchair",
+      "sourceWord": "wheelchair",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "wheelchair:meaning-1",
+          "pos": "n.",
+          "en": "A chair with wheels that lets a person move while seated."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The wheelchair has two large rear wheels.",
+          "senseId": "wheelchair:meaning-1"
+        },
+        {
+          "en": "There is enough space for her wheelchair beside the table.",
+          "senseId": "wheelchair:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/wheelchair.webp",
+        "sha256": "37b5eaa2c32c22c2ec8b9afeb1b112c3f4031bdc5771f06e54b1c9b08a935fdb"
+      },
+      "visual": {
+        "expectedCue": "Manual seated-mobility chair: large rear wheels, small front casters, connected frame, seat, footrests.",
+        "decision": "added",
+        "reason": "Full generated raster: manual chair with coherent connected frame, two large rear wheels, two small front casters, push rims, seat, armrests and paired footrests. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise clean clinical render, mint upholstery on cool-white ground, gray mechanical parts."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "37b5eaa2c32c22c2ec8b9afeb1b112c3f4031bdc5771f06e54b1c9b08a935fdb",
+          "inspectedAt": "2026-10-27T11:53:18.787603+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "stretcher",
+      "sourceWord": "stretcher",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "stretcher:meaning-1",
+          "pos": "n.",
+          "en": "A narrow platform used to carry a person lying down, sometimes fitted with wheels."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The stretcher has handles at both ends.",
+          "senseId": "stretcher:meaning-1"
+        },
+        {
+          "en": "The team moved the empty stretcher down the corridor.",
+          "senseId": "stretcher:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/stretcher.webp",
+        "sha256": "75908f9aeae740f0242238066bb74c240e65e005e799a36b6c09fd667107cbae"
+      },
+      "visual": {
+        "expectedCue": "Narrow portable fabric carrying platform with two poles and four end handles, distinct from bed or examination table.",
+        "decision": "added",
+        "reason": "Full generated raster: taut narrow fabric platform between two continuous side poles ending in four carrying grips; no wheels, rails or bed confusion. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean mint fabric and silver-pole clinical object render on cool-white background."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "75908f9aeae740f0242238066bb74c240e65e005e799a36b6c09fd667107cbae",
+          "inspectedAt": "2026-10-27T11:53:18.787627+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "hospital-bed",
+      "sourceWord": "hospital bed",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "hospital-bed:meaning-1",
+          "pos": "n.",
+          "en": "A bed designed for hospital care, often with adjustable sections and side rails."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The hospital bed has raised side rails.",
+          "senseId": "hospital-bed:meaning-1"
+        },
+        {
+          "en": "A clean pillow rested on the hospital bed.",
+          "senseId": "hospital-bed:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hospital-bed.webp",
+        "sha256": "0963922139433a0d28bfee3f74cba91f6447f8ec4b21974cfba7be1ea8f514c9"
+      },
+      "visual": {
+        "expectedCue": "Patient bed with pillow, mattress, raised backrest, head/foot boards and side safety rails; substantial adjustable bed frame.",
+        "decision": "added",
+        "reason": "Full generated raster: distinct bed with broad mattress, pillow, raised backrest, headboard, footboard, safety side rails and connected adjustable caster frame. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Cool-white clinical render with restrained mint end panels, precise soft forms and pale-blue frame details."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0963922139433a0d28bfee3f74cba91f6447f8ec4b21974cfba7be1ea8f514c9",
+          "inspectedAt": "2026-10-27T11:53:18.787656+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "examination-table",
+      "sourceWord": "examination table",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "examination-table:meaning-1",
+          "pos": "n.",
+          "en": "A raised padded surface where a person sits or lies during a medical examination."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The examination table has a padded top.",
+          "senseId": "examination-table:meaning-1"
+        },
+        {
+          "en": "The clinician replaced the paper on the examination table.",
+          "senseId": "examination-table:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/examination-table.webp",
+        "sha256": "26456f5fcda1132e4587c4151e9b45d96262846e09e3e92098b1805203c0bffc"
+      },
+      "visual": {
+        "expectedCue": "Raised narrow padded clinical table with white paper roll and four fixed legs, distinct from hospital bed.",
+        "decision": "added",
+        "reason": "Full generated raster: narrow flat padded clinical table on four fixed legs, roll of white examination paper and short step stool; no bed rails, pillow or headboard. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clinical mint upholstery, cool-white backdrop and precise silver frame, separate from hospital-bed composition."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "26456f5fcda1132e4587c4151e9b45d96262846e09e3e92098b1805203c0bffc",
+          "inspectedAt": "2026-10-27T11:53:18.787681+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "otoscope",
+      "sourceWord": "otoscope",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "otoscope:meaning-1",
+          "pos": "n.",
+          "en": "A handheld medical instrument with a light and a viewing lens for looking into the ear canal."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The otoscope has a small cone-shaped tip.",
+          "senseId": "otoscope:meaning-1"
+        },
+        {
+          "en": "The clinician placed the otoscope back in its case.",
+          "senseId": "otoscope:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/otoscope.webp",
+        "sha256": "8b66bff0fc4da9262e937942c3f13df9a5e851189839d1b201efe0b550b91821"
+      },
+      "visual": {
+        "expectedCue": "Handheld diagnostic ear instrument with powered handle, viewing head and hollow cone speculum.",
+        "decision": "added",
+        "reason": "Full generated raster: powered handheld device with angled black viewing head, rear lens, hollow tapered speculum and light at tip; coherent handle joint. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical rendering with restrained mint handle, black diagnostic head and cool-white ground."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "8b66bff0fc4da9262e937942c3f13df9a5e851189839d1b201efe0b550b91821",
+          "inspectedAt": "2026-10-27T11:53:18.787705+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "blood-pressure-cuff",
+      "sourceWord": "blood pressure cuff",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "blood-pressure-cuff:meaning-1",
+          "pos": "n.",
+          "en": "An inflatable band that wraps around a limb as part of a device for measuring blood pressure."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The blood pressure cuff is connected to a tube.",
+          "senseId": "blood-pressure-cuff:meaning-1"
+        },
+        {
+          "en": "The clinic keeps blood pressure cuffs in several sizes.",
+          "senseId": "blood-pressure-cuff:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/blood-pressure-cuff.webp",
+        "sha256": "d8225c4354b5f3b37d0feb759bec27e874be0726ce74559b37501b74c5dec5a4"
+      },
+      "visual": {
+        "expectedCue": "Broad wraparound inflatable cuff with overlap flap and attached flexible tube; cuff alone rather than monitor.",
+        "decision": "added",
+        "reason": "Full generated raster: wide inflatable wraparound band forms an open cylinder, overlapping fastener flap and attached tube visible; no invented monitor or readings. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clinical cool-white/mint fabric render with pale-blue inner bladder and subtle soft shadow."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d8225c4354b5f3b37d0feb759bec27e874be0726ce74559b37501b74c5dec5a4",
+          "inspectedAt": "2026-10-27T11:53:18.787738+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "pulse-oximeter",
+      "sourceWord": "pulse oximeter",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pulse-oximeter:meaning-1",
+          "pos": "n.",
+          "en": "An electronic device that uses light to estimate blood oxygen saturation and pulse rate, often through a fingertip clip."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pulse oximeter clips onto a fingertip.",
+          "senseId": "pulse-oximeter:meaning-1"
+        },
+        {
+          "en": "The pulse oximeter has a screen on its upper surface.",
+          "senseId": "pulse-oximeter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pulse-oximeter.webp",
+        "sha256": "1d935184aae4ab8ca837ed619a65198c0290334b56b65d2390d07938c75045f5"
+      },
+      "visual": {
+        "expectedCue": "Small hinged fingertip clip with blank top display and physically enclosed fingertip.",
+        "decision": "added",
+        "reason": "Full generated raster: coherent clamshell fingertip clip encloses one finger tip from above/below; dark screen entirely blank; hand has five plausible digits. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise non-graphic clinical close-up with mint device on cool-white ground."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1d935184aae4ab8ca837ed619a65198c0290334b56b65d2390d07938c75045f5",
+          "inspectedAt": "2026-10-27T11:53:18.787767+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "reflex-hammer",
+      "sourceWord": "reflex hammer",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "reflex-hammer:meaning-1",
+          "pos": "n.",
+          "en": "A small medical instrument with a rubber head used by a clinician to test reflexes."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The reflex hammer has a triangular rubber head.",
+          "senseId": "reflex-hammer:meaning-1"
+        },
+        {
+          "en": "The doctor kept a reflex hammer in a coat pocket.",
+          "senseId": "reflex-hammer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/reflex-hammer.webp",
+        "sha256": "906beb4d0b45f7fa1665321564df15891f834823fd4aa849b100c50e6e5f6671"
+      },
+      "visual": {
+        "expectedCue": "Small triangular rubber percussion head and long slender flat metal handle; no workshop claw or nail face.",
+        "decision": "added",
+        "reason": "Full generated raster: triangular mint rubber head secured to long slender metal handle, no claw or workshop striking head; coherent one-piece diagnostic tool. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical product rendering, mint rubber and silver on cool white."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "906beb4d0b45f7fa1665321564df15891f834823fd4aa849b100c50e6e5f6671",
+          "inspectedAt": "2026-10-27T11:56:05.956343+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "The selected medical device, vessel or workshop tool is recognizable and distinct at 120px; clinical mint/ivory or engineering slate/amber style matches its category."
+        }
+      }
+    },
+    {
+      "entryId": "scalpel",
+      "sourceWord": "scalpel",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "scalpel:meaning-1",
+          "pos": "n.",
+          "en": "A small surgical knife with a very sharp blade for making precise cuts."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The scalpel has a short blade and a long handle.",
+          "senseId": "scalpel:meaning-1"
+        },
+        {
+          "en": "The sealed scalpel lay on the clean tray.",
+          "senseId": "scalpel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/scalpel.webp",
+        "sha256": "87f6cb552fa21c8fd960d2776e4ae221be53fd162ad0d0e527f43cdfa8f4f568"
+      },
+      "visual": {
+        "expectedCue": "Slender surgical knife with single short curved pointed blade and long metal handle.",
+        "decision": "added",
+        "reason": "Full generated raster: one short curved sharp blade securely joined to slender long grooved handle; single cutting edge, no second blade or incision. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Cool-white clinical object study with precise steel forms and pale mint shadows."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "87f6cb552fa21c8fd960d2776e4ae221be53fd162ad0d0e527f43cdfa8f4f568",
+          "inspectedAt": "2026-10-27T11:56:05.956405+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "The selected medical device, vessel or workshop tool is recognizable and distinct at 120px; clinical mint/ivory or engineering slate/amber style matches its category."
+        }
+      }
+    },
+    {
+      "entryId": "forceps",
+      "sourceWord": "forceps",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "forceps:meaning-1",
+          "pos": "n.",
+          "en": "A medical gripping instrument with two arms used to hold small objects or tissue."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The forceps have two narrow metal tips.",
+          "senseId": "forceps:meaning-1"
+        },
+        {
+          "en": "A pair of forceps rested beside a folded gauze pad.",
+          "senseId": "forceps:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/forceps.webp",
+        "sha256": "8171a2adc9bd59dc0226100ba3701b2391855df6df1787375908e612154a63ed"
+      },
+      "visual": {
+        "expectedCue": "Tweezer-shaped medical gripping tool with two spring-joined arms and two opposed narrow tips.",
+        "decision": "added",
+        "reason": "Full generated raster: two slender metal spring arms joined at broad end, two opposed narrow tips with gripping grooves; no scissor rings or invented hinge. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise soft clinical metal render on cool-white/mint ground."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "8171a2adc9bd59dc0226100ba3701b2391855df6df1787375908e612154a63ed",
+          "inspectedAt": "2026-10-27T11:56:05.956407+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "The selected medical device, vessel or workshop tool is recognizable and distinct at 120px; clinical mint/ivory or engineering slate/amber style matches its category."
+        }
+      }
+    },
+    {
+      "entryId": "medicine-bottle",
+      "sourceWord": "medicine bottle",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "medicine-bottle:meaning-1",
+          "pos": "n.",
+          "en": "A small bottle made to hold medicine in liquid or solid form."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The medicine bottle has a plain white cap.",
+          "senseId": "medicine-bottle:meaning-1"
+        },
+        {
+          "en": "The empty medicine bottle stood on the pharmacy counter.",
+          "senseId": "medicine-bottle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/medicine-bottle.webp",
+        "sha256": "419397ea52fd4d966292271855b0125fa7d1a83c4eb3d44b8dc8f0cced777e8b"
+      },
+      "visual": {
+        "expectedCue": "Small amber pharmacy bottle with plain white screw cap and completely blank label.",
+        "decision": "added",
+        "reason": "Full generated raster: generic empty amber bottle with narrow neck, white screw cap and completely blank white label; no drug, dose or invented text. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clinical cool-white object study with amber glass as identifying material and restrained pale-mint shadow."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "419397ea52fd4d966292271855b0125fa7d1a83c4eb3d44b8dc8f0cced777e8b",
+          "inspectedAt": "2026-10-27T11:56:05.956408+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "The selected medical device, vessel or workshop tool is recognizable and distinct at 120px; clinical mint/ivory or engineering slate/amber style matches its category."
+        }
+      }
+    },
+    {
+      "entryId": "bolt",
+      "sourceWord": "bolt",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "bolt:meaning-1",
+          "pos": "n.",
+          "en": "A threaded metal fastener with a head, usually secured by tightening a nut onto its shaft."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bolt passes through both metal plates.",
+          "senseId": "bolt:meaning-1"
+        },
+        {
+          "en": "A nut holds the bolt in place.",
+          "senseId": "bolt:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bolt.webp",
+        "sha256": "d170e445f1ed72ecbdf98ad4bf16b0f60a4f7326f1065e24d228ab4618fd1692"
+      },
+      "visual": {
+        "expectedCue": "Hex-head blunt-ended threaded bolt with matching internally threaded nut, bolt dominant.",
+        "decision": "added",
+        "reason": "Full generated raster: dominant six-sided head, straight shaft, external machine threads and blunt flat tip; companion nut has compatible round threaded hole. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise steel technical product drawing, slate ground, amber edge highlights; mechanically legible silhouette."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d170e445f1ed72ecbdf98ad4bf16b0f60a4f7326f1065e24d228ab4618fd1692",
+          "inspectedAt": "2026-10-27T11:56:05.956409+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "The selected medical device, vessel or workshop tool is recognizable and distinct at 120px; clinical mint/ivory or engineering slate/amber style matches its category."
+        }
+      }
+    },
+    {
+      "entryId": "nut",
+      "sourceWord": "nut",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "nut:meaning-1",
+          "pos": "n.",
+          "en": "A small fastener with a threaded hole that turns onto a bolt to hold parts together."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The nut fits the thread on this bolt.",
+          "senseId": "nut:meaning-1"
+        },
+        {
+          "en": "She put the nut beside the washer.",
+          "senseId": "nut:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/nut.webp",
+        "sha256": "234ccc245898cce8c351faf61f1f11e9edf7172c1e913e5c5c70b223afb6ac95"
+      },
+      "visual": {
+        "expectedCue": "Large hex nut with visible internally threaded through-hole, matched to small bolt context.",
+        "decision": "added",
+        "reason": "Full generated raster: large hexagonal nut with central through-hole and internal threads; smaller bolt supplies context without hiding nut. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Slate/amber technical product drawing with steel material and crisp geometric faces."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "234ccc245898cce8c351faf61f1f11e9edf7172c1e913e5c5c70b223afb6ac95",
+          "inspectedAt": "2026-10-27T11:56:05.956410+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "The selected medical device, vessel or workshop tool is recognizable and distinct at 120px; clinical mint/ivory or engineering slate/amber style matches its category."
+        }
+      }
+    },
+    {
+      "entryId": "washer",
+      "sourceWord": "washer",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "washer:meaning-1",
+          "pos": "n.",
+          "en": "A flat ring placed under a nut or bolt head to spread its force over a wider surface."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The washer lies between the nut and the plate.",
+          "senseId": "washer:meaning-1"
+        },
+        {
+          "en": "The steel washer has a smooth central hole.",
+          "senseId": "washer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/washer.webp",
+        "sha256": "4bcc8842c347142ec73f76b835c50ee8c6dd4a571ae4a2ae4ad0abfa321e7a59"
+      },
+      "visual": {
+        "expectedCue": "Flat thin metal ring with smooth unthreaded central hole; small assembly locates washer between nut and plate.",
+        "decision": "added",
+        "reason": "Full generated raster: dominant flat steel ring has smooth unthreaded central hole; background assembly places another washer between nut and plate with aligned shaft. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Slate/amber precise technical product drawing, steel ring geometry and restrained cutaway shading."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4bcc8842c347142ec73f76b835c50ee8c6dd4a571ae4a2ae4ad0abfa321e7a59",
+          "inspectedAt": "2026-10-27T11:58:38.190645+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected structure or component remains distinct at 120px; its body connection, material or lead count and the category visual style are coherent."
+        }
+      }
+    },
+    {
+      "entryId": "screw",
+      "sourceWord": "screw",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "screw:meaning-1",
+          "pos": "n.",
+          "en": "A fastener with a spiral thread that is turned into material or a matching threaded hole to hold parts together."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The screw has a pointed tip and a spiral thread.",
+          "senseId": "screw:meaning-1"
+        },
+        {
+          "en": "She turned the screw with a screwdriver.",
+          "senseId": "screw:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/screw.webp",
+        "sha256": "817d76357eb0c29290c42ecd0c439eac81e1c79222b8428a0e7f5a34d3e2cdda"
+      },
+      "visual": {
+        "expectedCue": "Pointed tapered threaded wood screw with recessed driver head, distinct from blunt bolt.",
+        "decision": "added",
+        "reason": "Full generated raster: countersunk cross-recess head, coarse spiral threads, tapered shaft and sharp point; clearly distinct from blunt machine bolt. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Crisp steel technical drawing on slate ground with amber edge light; one dominant fastener."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "817d76357eb0c29290c42ecd0c439eac81e1c79222b8428a0e7f5a34d3e2cdda",
+          "inspectedAt": "2026-10-27T11:58:38.190688+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected structure or component remains distinct at 120px; its body connection, material or lead count and the category visual style are coherent."
+        }
+      }
+    },
+    {
+      "entryId": "rivet",
+      "sourceWord": "rivet",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "rivet:meaning-1",
+          "pos": "n.",
+          "en": "A fastener with a smooth shaft that makes a lasting joint when its end is formed into a second head."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The rivet joins the two thin metal sheets.",
+          "senseId": "rivet:meaning-1"
+        },
+        {
+          "en": "The rivet has no spiral thread.",
+          "senseId": "rivet:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/rivet.webp",
+        "sha256": "3b63630b229568bf8720754f9b7eed6f8c9012c728a94aa30e2be425cb919002"
+      },
+      "visual": {
+        "expectedCue": "Solid smooth-shaft rivet joins two sheets between original domed head and formed second head; no threads or nut.",
+        "decision": "added",
+        "reason": "Full generated raster: continuous smooth unthreaded shaft passes through two stacked metal plates; original domed head above and formed mushroom head below trap the plates; no nut or threads. Converted512px WebP and120px thumbnail inspected: exact noun cue retained and clear at both sizes; accepted as AI-assisted preview, independent human and specialist approval pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Slate/amber technical cutaway with coherent solid rivet, sectioned plate edges and restrained hatching."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3b63630b229568bf8720754f9b7eed6f8c9012c728a94aa30e2be425cb919002",
+          "inspectedAt": "2026-10-27T11:58:38.190689+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected structure or component remains distinct at 120px; its body connection, material or lead count and the category visual style are coherent."
+        }
+      }
+    },
+    {
+      "entryId": "brain",
+      "sourceWord": "brain",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "brain:meaning-1",
+          "pos": "n.",
+          "en": "the organ inside the head that processes information and controls many body activities"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The brain is protected by the skull.",
+          "senseId": "brain:meaning-1"
+        },
+        {
+          "en": "This model shows the two sides of the brain.",
+          "senseId": "brain:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/brain.webp",
+        "sha256": "7f26da6359d1c3859f1ebf86a2036973649fca559b99237aa0d9d4c9b6e017da"
+      },
+      "visual": {
+        "expectedCue": "Two rounded external cerebral hemispheres separated by a central groove, with cortical folds.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed 512x512 WebP and actual 120x120 thumbnail: Two cerebral hemispheres and the deep central groove remain clear; rounded external cortical folds are readable at 120px; no invented interior or labels. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical anatomical rendering on a cool white/mint field; restrained precise forms and natural organ colors. Clean, non-graphic, no text, logos or unrelated props; teaching focus remains readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7f26da6359d1c3859f1ebf86a2036973649fca559b99237aa0d9d4c9b6e017da",
+          "inspectedAt": "2026-10-27T11:53:18.788080+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "lung",
+      "sourceWord": "lung",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "lung:meaning-1",
+          "pos": "n.",
+          "en": "one of the two organs in the chest where oxygen from the air enters the blood"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The model shows a lung inside the chest.",
+          "senseId": "lung:meaning-1"
+        },
+        {
+          "en": "Air reaches each lung through a branching airway.",
+          "senseId": "lung:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/lung.webp",
+        "sha256": "8d9c826dcaeb3807d8bfd8a3ce8e861a66bcff22d27c6ee702383310680727a8"
+      },
+      "visual": {
+        "expectedCue": "One recognizable lung with apex, broad base and plausible left-lung form; no invented internal branches.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed 512x512 WebP and actual 120x120 thumbnail: One left lung has a tapered apex, broad concave base, medial notch and one oblique fissure; external surface avoids invented bronchial branches and reads as a singular lung at 120px. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical anatomical rendering on a cool white/mint field; restrained precise forms and natural organ colors. Clean, non-graphic, no text, logos or unrelated props; teaching focus remains readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "8d9c826dcaeb3807d8bfd8a3ce8e861a66bcff22d27c6ee702383310680727a8",
+          "inspectedAt": "2026-10-27T11:53:18.788109+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "kidney",
+      "sourceWord": "kidney",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "kidney:meaning-1",
+          "pos": "n.",
+          "en": "one of the two bean-shaped organs that filter the blood and produce urine"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Each kidney filters blood.",
+          "senseId": "kidney:meaning-1"
+        },
+        {
+          "en": "The diagram places the kidneys on either side of the spine.",
+          "senseId": "kidney:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/kidney.webp",
+        "sha256": "723350820f0e82703ec7a9b0c684c67fd856b1a3150f2c4ab48242a8f6634ceb"
+      },
+      "visual": {
+        "expectedCue": "Single bean-shaped organ with medial indentation and short exiting ureter.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed 512x512 WebP and actual 120x120 thumbnail: The corrected image has a clear bean-shaped kidney, concave hilum and single pale ureter. Removed unnecessary blue vessel from rejected draft; final silhouette remains distinct at 120px. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical anatomical rendering on a cool white/mint field; restrained precise forms and natural organ colors. Clean, non-graphic, no text, logos or unrelated props; teaching focus remains readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "723350820f0e82703ec7a9b0c684c67fd856b1a3150f2c4ab48242a8f6634ceb",
+          "inspectedAt": "2026-10-27T11:53:18.788136+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "liver",
+      "sourceWord": "liver",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "liver:meaning-1",
+          "pos": "n.",
+          "en": "a large organ in the upper abdomen that processes substances in the blood and makes bile"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The liver makes bile for digestion.",
+          "senseId": "liver:meaning-1"
+        },
+        {
+          "en": "The liver sits mainly on the right side of the upper abdomen.",
+          "senseId": "liver:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/liver.webp",
+        "sha256": "daa3e763da31cd8269ec9eb8b11e25c3d980e3c76a05b0f344f6bc5787f43c16"
+      },
+      "visual": {
+        "expectedCue": "Broad wedge-shaped solid liver with larger right lobe, smaller left lobe and tapered lower margin.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed 512x512 WebP and actual 120x120 thumbnail: Broad reddish-brown solid wedge with unequal lobes and pale dividing ligament is recognizably liver, distinct from the kidney bean and stomach sac, including at 120px. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical anatomical rendering on a cool white/mint field; restrained precise forms and natural organ colors. Clean, non-graphic, no text, logos or unrelated props; teaching focus remains readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "daa3e763da31cd8269ec9eb8b11e25c3d980e3c76a05b0f344f6bc5787f43c16",
+          "inspectedAt": "2026-10-27T11:53:18.788160+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "stomach",
+      "sourceWord": "stomach",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "stomach:meaning-1",
+          "pos": "n.",
+          "en": "a hollow organ that receives food from the food pipe and mixes it with digestive juices"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The stomach mixes food with digestive juices.",
+          "senseId": "stomach:meaning-1"
+        },
+        {
+          "en": "Food passes from the stomach into the small intestine.",
+          "senseId": "stomach:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/stomach.webp",
+        "sha256": "49cd12133a22a8573492a2489165959cd1e18a4b3b6f82adcaf19dc0b97ed243"
+      },
+      "visual": {
+        "expectedCue": "J-shaped stomach sac with upper food-pipe inlet and narrower lower outlet.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed 512x512 WebP and actual 120x120 thumbnail: Asymmetric curved stomach sac has a continuous upper food-pipe inlet and narrow lower outlet; J-like silhouette remains recognizable at 120px; no graphic interior. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical anatomical rendering on a cool white/mint field; restrained precise forms and natural organ colors. Clean, non-graphic, no text, logos or unrelated props; teaching focus remains readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "49cd12133a22a8573492a2489165959cd1e18a4b3b6f82adcaf19dc0b97ed243",
+          "inspectedAt": "2026-10-27T11:53:18.788183+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "intestine",
+      "sourceWord": "intestine",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "intestine:meaning-1",
+          "pos": "n.",
+          "en": "a section of the digestive tube after the stomach, where nutrients or water are absorbed"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The small intestine absorbs most nutrients from food.",
+          "senseId": "intestine:meaning-1"
+        },
+        {
+          "en": "The large intestine absorbs water from the remaining material.",
+          "senseId": "intestine:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/intestine.webp",
+        "sha256": "8938a8884458e46ea6fd03bb65a18622784256c2e4f490718c938afb77dcbb78"
+      },
+      "visual": {
+        "expectedCue": "Continuous-looking coiled digestive tube, finer small bowel framed by the thicker colon.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed 512x512 WebP and actual 120x120 thumbnail: Narrow rounded small-bowel loops sit within a thicker haustrated colon frame with lower rectal continuation. Digestive-tube structure remains clear at 120px; exact loop paths are simplified. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical anatomical rendering on a cool white/mint field; restrained precise forms and natural organ colors. Clean, non-graphic, no text, logos or unrelated props; teaching focus remains readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "8938a8884458e46ea6fd03bb65a18622784256c2e4f490718c938afb77dcbb78",
+          "inspectedAt": "2026-10-27T11:53:18.788210+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "bone",
+      "sourceWord": "bone",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "bone:meaning-1",
+          "pos": "n.",
+          "en": "one of the hard, living parts that form the skeleton and support the body"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This bone is part of the upper arm.",
+          "senseId": "bone:meaning-1"
+        },
+        {
+          "en": "Bones work with muscles to help the body move.",
+          "senseId": "bone:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bone.webp",
+        "sha256": "28c69111020a3ec3b8a8b8140edf0be1cc8e74b9405b06eb6c3c73930ea6be3d"
+      },
+      "visual": {
+        "expectedCue": "One rigid ivory long bone with shaft and widened ends; a bone rather than a joint.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed 512x512 WebP and actual 120x120 thumbnail: One ivory long bone shows a continuous shaft with rounded proximal head and broadened distal end. It remains a single bone rather than a joint at 120px. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical anatomical rendering on a cool white/mint field; restrained precise forms and natural organ colors. Clean, non-graphic, no text, logos or unrelated props; teaching focus remains readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "28c69111020a3ec3b8a8b8140edf0be1cc8e74b9405b06eb6c3c73930ea6be3d",
+          "inspectedAt": "2026-10-27T11:53:18.788231+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "joint",
+      "sourceWord": "joint",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "joint:meaning-1",
+          "pos": "n.",
+          "en": "a place in the body where two or more bones meet"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The elbow is a joint in the arm.",
+          "senseId": "joint:meaning-1"
+        },
+        {
+          "en": "This model shows how the bones meet at the knee joint.",
+          "senseId": "joint:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/joint.webp",
+        "sha256": "d891690f17c26ced1e20c84ad862fd014ef819e1a944293cbea72f1299c03e2b"
+      },
+      "visual": {
+        "expectedCue": "Bone ends meet at a coherent bent elbow with the joint area highlighted.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed 512x512 WebP and actual 120x120 thumbnail: Lower humerus meets the ulna and radius at a bent elbow; pale cartilage and mint joint-space emphasis distinguish the meeting point at both card and 120px sizes. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical anatomical rendering on a cool white/mint field; restrained precise forms and natural organ colors. Clean, non-graphic, no text, logos or unrelated props; teaching focus remains readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d891690f17c26ced1e20c84ad862fd014ef819e1a944293cbea72f1299c03e2b",
+          "inspectedAt": "2026-10-27T11:53:18.788257+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Two forearm bones articulate with the humerus; smooth opposing articular surfaces define the elbow joint."
+        }
+      }
+    },
+    {
+      "entryId": "muscle",
+      "sourceWord": "muscle",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "muscle:meaning-1",
+          "pos": "n.",
+          "en": "a body structure made of tissue that can tighten and relax to produce force or movement"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This muscle helps bend the arm.",
+          "senseId": "muscle:meaning-1"
+        },
+        {
+          "en": "The model shows a muscle attached to a bone by a tendon.",
+          "senseId": "muscle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/muscle.webp",
+        "sha256": "904cbb5614870d651fa24195de48475e108ac5fd0bf1553e7225d3ff73ab0730"
+      },
+      "visual": {
+        "expectedCue": "Broad red upper-arm muscle belly in continuous scapula, humerus and elbow context, tapering into a distal pale tendon that contacts the radius.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed512x512 WebP and actual120x120 thumbnail: final correction2 shows a large red upper-arm muscle belly with coherent shoulder blade, humerus and bent elbow. Distal tendon visibly reaches the upper thinner radius, separated from the lower hooked ulna. Root second-review accepted512; rejected isolated bone-fragment draft and correction1 retained privately. Accepted editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical anatomical rendering on a cool white/mint field; restrained precise forms and natural organ colors. Clean, non-graphic, no text, logos or unrelated props; teaching focus remains readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "904cbb5614870d651fa24195de48475e108ac5fd0bf1553e7225d3ff73ab0730",
+          "inspectedAt": "2026-10-27T11:58:38.190690+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "After two rejected anatomy drafts, the final arm view shows a muscle in front of the humerus with a white tendon crossing the elbow to the radius, separately from the hooked ulna."
+        }
+      }
+    },
+    {
+      "entryId": "tendon",
+      "sourceWord": "tendon",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "tendon:meaning-1",
+          "pos": "n.",
+          "en": "a strong band of tissue that joins a muscle to a bone and transfers its pull"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A tendon connects this muscle to the bone.",
+          "senseId": "tendon:meaning-1"
+        },
+        {
+          "en": "The Achilles tendon attaches the calf muscles to the heel bone.",
+          "senseId": "tendon:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tendon.webp",
+        "sha256": "7ba7e9f994c343e0177d9910edaf2d16ae355920c19ee73177db093ee96c41ef"
+      },
+      "visual": {
+        "expectedCue": "Pale Achilles tendon continuously joins calf muscle to heel bone.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed 512x512 WebP and actual 120x120 thumbnail: Pale Achilles tendon runs continuously from red calf muscle into the rear heel bone, with foot context subdued. Muscle-to-bone relationship stays legible at 120px. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical anatomical rendering on a cool white/mint field; restrained precise forms and natural organ colors. Clean, non-graphic, no text, logos or unrelated props; teaching focus remains readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7ba7e9f994c343e0177d9910edaf2d16ae355920c19ee73177db093ee96c41ef",
+          "inspectedAt": "2026-10-27T11:53:18.788304+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Continuous white Achilles tendon joins calf muscle to the posterior calcaneus; distinct from a bone-to-bone ligament."
+        }
+      }
+    },
+    {
+      "entryId": "ligament",
+      "sourceWord": "ligament",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "ligament:meaning-1",
+          "pos": "n.",
+          "en": "a strong band of tissue that joins bones and helps keep a joint stable"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This ligament joins two bones at the knee.",
+          "senseId": "ligament:meaning-1"
+        },
+        {
+          "en": "The model shows a ligament beside the joint.",
+          "senseId": "ligament:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ligament.webp",
+        "sha256": "d6593ef549014d9429bf3a74622e88cb466c8ffad84495164ba43f2c635dad6c"
+      },
+      "visual": {
+        "expectedCue": "A short strong band visibly attaches bone to bone across the knee joint.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed 512x512 WebP and actual 120x120 thumbnail: One broad pale mint band visibly anchors on the two bones beside the knee joint. No muscle enters the band; bone-to-bone cue remains readable at 120px. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical anatomical rendering on a cool white/mint field; restrained precise forms and natural organ colors. Clean, non-graphic, no text, logos or unrelated props; teaching focus remains readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d6593ef549014d9429bf3a74622e88cb466c8ffad84495164ba43f2c635dad6c",
+          "inspectedAt": "2026-10-27T11:53:18.788328+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "A broad collateral band crosses the knee from femur to tibia; distinct from the separate muscle-to-bone Achilles image."
+        }
+      }
+    },
+    {
+      "entryId": "artery",
+      "sourceWord": "artery",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "artery:meaning-1",
+          "pos": "n.",
+          "en": "a blood vessel that carries blood away from the heart"
+        }
+      ],
+      "examples": [
+        {
+          "en": "An artery carries blood away from the heart.",
+          "senseId": "artery:meaning-1"
+        },
+        {
+          "en": "The diagram shows an artery branching into smaller vessels.",
+          "senseId": "artery:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/artery.webp",
+        "sha256": "ac6d8595a1f127afd45aa0c5e0937568b25835645a4a418d88fe975f1bd4aa81"
+      },
+      "visual": {
+        "expectedCue": "Thick-walled red vessel connected to a heart; arrow points away from the heart.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed 512x512 WebP and actual 120x120 thumbnail: Bright red blood fills a thick-walled vessel connected to the small heart at left; the single large mint arrow points away from the heart to the right. Direction and red lumen remain clear at 120px. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical anatomical rendering on a cool white/mint field; restrained precise forms and natural organ colors. Clean, non-graphic, no text, logos or unrelated props; teaching focus remains readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ac6d8595a1f127afd45aa0c5e0937568b25835645a4a418d88fe975f1bd4aa81",
+          "inspectedAt": "2026-10-27T11:56:05.956411+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Arrow visibly travels away from the heart through a thick-walled red vessel; blood is red and definition uses direction rather than oxygen color."
+        }
+      }
+    },
+    {
+      "entryId": "vein",
+      "sourceWord": "vein",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "vein:meaning-1",
+          "pos": "n.",
+          "en": "a blood vessel that carries blood toward the heart"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A vein carries blood toward the heart.",
+          "senseId": "vein:meaning-1"
+        },
+        {
+          "en": "Some veins have valves that help keep blood moving in one direction.",
+          "senseId": "vein:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/vein.webp",
+        "sha256": "6ffac67235fb35fd67a59ab1c408b0ce7cbdef3242b9a1c6a97fc8f5bcb4031b"
+      },
+      "visual": {
+        "expectedCue": "Thin-walled dark-red vessel with valve; arrow points toward the connected heart.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed512x512 WebP and actual120x120 thumbnail: Dark-red blood remains visible in a wide thin-walled lumen; paired valve leaflets permit rightward flow and the mint arrow points toward the connected heart on the right. All main cues survive120px. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical educational forms on a cool white/mint field, natural muted anatomical colors and restrained highlighting. Clean and non-graphic; no text, logos, diagnostic readings or unrelated props; readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6ffac67235fb35fd67a59ab1c408b0ce7cbdef3242b9a1c6a97fc8f5bcb4031b",
+          "inspectedAt": "2026-10-27T11:58:38.190691+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Red blood travels toward the heart on the right, with visible vessel valves; complements the opposite-flow artery image without teaching venous blood as blue."
+        }
+      }
+    },
+    {
+      "entryId": "nerve",
+      "sourceWord": "nerve",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "nerve:meaning-1",
+          "pos": "n.",
+          "en": "a bundle of nerve fibers that carries signals between the central nervous system and other parts of the body"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A nerve carries signals between the spinal cord and the hand.",
+          "senseId": "nerve:meaning-1"
+        },
+        {
+          "en": "This drawing shows several fibers inside one nerve.",
+          "senseId": "nerve:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/nerve.webp",
+        "sha256": "615645263ab0e1efeb0cf1f43a0dc8f052f1063647cee9dfe6e8799c3d5a15a9"
+      },
+      "visual": {
+        "expectedCue": "One sheathed peripheral nerve visibly contains multiple fibers; no lone neuron.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed512x512 WebP and actual120x120 thumbnail: An ivory-gold sheathed biological cable contains multiple distinct parallel fiber bundles and a restrained continuous side branch. It is not a lone neuron or electrical wire; bundle is legible at120px. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical educational forms on a cool white/mint field, natural muted anatomical colors and restrained highlighting. Clean and non-graphic; no text, logos, diagnostic readings or unrelated props; readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "615645263ab0e1efeb0cf1f43a0dc8f052f1063647cee9dfe6e8799c3d5a15a9",
+          "inspectedAt": "2026-10-27T11:58:38.190692+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected structure or component remains distinct at 120px; its body connection, material or lead count and the category visual style are coherent."
+        }
+      }
+    },
+    {
+      "entryId": "skin",
+      "sourceWord": "skin",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "skin:meaning-1",
+          "pos": "n.",
+          "en": "the flexible outer covering of the body that protects the tissues underneath"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The skin covers the outside of the body.",
+          "senseId": "skin:meaning-1"
+        },
+        {
+          "en": "This diagram shows the layers beneath the surface of the skin.",
+          "senseId": "skin:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/skin.webp",
+        "sha256": "a07ec44633928fcd682a7687093aa48b85056906ce7b4c8508e35a4ab1b0e407"
+      },
+      "visual": {
+        "expectedCue": "Intact skin covers a hand; small simplified layer inset reinforces the outer covering.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed512x512 WebP and actual120x120 thumbnail: A five-digit hand has intact natural skin as its main focus; the small clean schematic block shows layered covering without wounds or invented glands. Skin texture and layer inset remain readable at120px. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical educational forms on a cool white/mint field, natural muted anatomical colors and restrained highlighting. Clean and non-graphic; no text, logos, diagnostic readings or unrelated props; readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a07ec44633928fcd682a7687093aa48b85056906ce7b4c8508e35a4ab1b0e407",
+          "inspectedAt": "2026-10-27T11:58:38.190693+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected structure or component remains distinct at 120px; its body connection, material or lead count and the category visual style are coherent."
+        }
+      }
+    },
+    {
+      "entryId": "spine",
+      "sourceWord": "spine",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "spine:meaning-1",
+          "pos": "n.",
+          "en": "the column of connected bones along the back that supports the body and protects the spinal cord"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The spine is made of a series of bones.",
+          "senseId": "spine:meaning-1"
+        },
+        {
+          "en": "The spinal cord runs inside the spine.",
+          "senseId": "spine:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/spine.webp",
+        "sha256": "4ac2540c2463502a2b4bdab2cd9e983e20168b8d777a219b702b7a93387a121b"
+      },
+      "visual": {
+        "expectedCue": "Connected bony vertebral column with gentle curves and sacrum, rather than a spinal cord.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed512x512 WebP and actual120x120 thumbnail: A connected ivory vertebral column has pale discs, gentle side curves, larger lower vertebrae, fused sacral base and a short coccyx. Bony column is visibly distinct from a spinal cord at120px. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical educational forms on a cool white/mint field, natural muted anatomical colors and restrained highlighting. Clean and non-graphic; no text, logos, diagnostic readings or unrelated props; readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4ac2540c2463502a2b4bdab2cd9e983e20168b8d777a219b702b7a93387a121b",
+          "inspectedAt": "2026-10-27T11:58:38.190694+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected structure or component remains distinct at 120px; its body connection, material or lead count and the category visual style are coherent."
+        }
+      }
+    },
+    {
+      "entryId": "rib",
+      "sourceWord": "rib",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "rib:meaning-1",
+          "pos": "n.",
+          "en": "one of the curved bones around the chest that help protect the heart and lungs"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The model highlights one rib in the chest.",
+          "senseId": "rib:meaning-1"
+        },
+        {
+          "en": "The ribs form a protective cage around the chest organs.",
+          "senseId": "rib:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/rib.webp",
+        "sha256": "d7bf04df0727f02a6cc4c78244bf2f87d411e58ce48561287972991547d0e60b"
+      },
+      "visual": {
+        "expectedCue": "Single curved chest bone with subdued rib-cage context.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed512x512 WebP and actual120x120 thumbnail: A single broad C-curved ivory rib dominates; subdued rib-cage context behind contains a mint-highlighted matching chest bone. Single rib remains readable at120px. Accepted as editorial preview; qualified domain and independent human review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Observed soft clinical educational forms on a cool white/mint field, natural muted anatomical colors and restrained highlighting. Clean and non-graphic; no text, logos, diagnostic readings or unrelated props; readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d7bf04df0727f02a6cc4c78244bf2f87d411e58ce48561287972991547d0e60b",
+          "inspectedAt": "2026-10-27T11:58:38.190695+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected structure or component remains distinct at 120px; its body connection, material or lead count and the category visual style are coherent."
+        }
+      }
+    },
+    {
+      "entryId": "bearing",
+      "sourceWord": "bearing",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "bearing:meaning-1",
+          "pos": "n.",
+          "en": "a machine part that supports a moving shaft and helps it turn with less friction"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bearing supports the rotating shaft.",
+          "senseId": "bearing:meaning-1"
+        },
+        {
+          "en": "Small steel balls roll between the rings of this bearing.",
+          "senseId": "bearing:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bearing.webp",
+        "sha256": "668f27e63bcc8fcdfa24fdbac8234d2c393565a990f4f68fe0edaca270330c6b"
+      },
+      "visual": {
+        "expectedCue": "Steel balls are held by a cage in the circular track between real inner and outer bearing rings.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed512x512 WebP and actual120x120 thumbnail: Two real steel rings enclose a circular ball race. Separate steel balls contact both tracks and an amber cage spaces them; open central bore and concentric relation remain recognizable at120px. Accepted editorial preview; qualified domain and independent human review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Observed precise technical product drawing with controlled contours, subtle cutaway/metal shading, slate ground, amber highlights and pale steel. Clear single teaching focus, no text, logos, fake readings or decorative labels; readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "668f27e63bcc8fcdfa24fdbac8234d2c393565a990f4f68fe0edaca270330c6b",
+          "inspectedAt": "2026-10-27T12:01:22.075322+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected motion part or electrical device remains recognizable at 120px with coherent connections and the engineering slate/amber palette."
+        }
+      }
+    },
+    {
+      "entryId": "shaft",
+      "sourceWord": "shaft",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "shaft:meaning-1",
+          "pos": "n.",
+          "en": "a rod in a machine that turns to transfer motion or power between connected parts"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The shaft connects the motor to the wheel.",
+          "senseId": "shaft:meaning-1"
+        },
+        {
+          "en": "Two bearings support the shaft as it turns.",
+          "senseId": "shaft:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/shaft.webp",
+        "sha256": "c2f74d61806580577ec55db29b8ca0f13ec3f94560d1ff6afb8b4d376d7b8378"
+      },
+      "visual": {
+        "expectedCue": "One continuous supported rotating rod connects motor coupling to wheel hub.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed512x512 WebP and actual120x120 thumbnail: A continuous amber shaft runs through two mounted bearing blocks on a solid base. Motor coupling connects at left and wheel hub at right; no floating rod or disconnected support. Shaft remains the highlighted120px teaching focus. Accepted editorial preview; qualified domain and independent human review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Observed precise technical product drawing with controlled contours, subtle cutaway/metal shading, slate ground, amber highlights and pale steel. Clear single teaching focus, no text, logos, fake readings or decorative labels; readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c2f74d61806580577ec55db29b8ca0f13ec3f94560d1ff6afb8b4d376d7b8378",
+          "inspectedAt": "2026-10-27T12:01:22.075495+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected motion part or electrical device remains recognizable at 120px with coherent connections and the engineering slate/amber palette."
+        }
+      }
+    },
+    {
+      "entryId": "pulley",
+      "sourceWord": "pulley",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "pulley:meaning-1",
+          "pos": "n.",
+          "en": "a wheel with a groove that guides a rope or belt to change the direction of a pull or transmit motion"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The rope runs over the pulley.",
+          "senseId": "pulley:meaning-1"
+        },
+        {
+          "en": "Pulling down on the rope lifts the load on the other side of the pulley.",
+          "senseId": "pulley:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pulley.webp",
+        "sha256": "b45ab9416ee3162a2772548a7df259d5ee057cf21f45774057f647d1810e3bf7"
+      },
+      "visual": {
+        "expectedCue": "Rope seated in the groove of a supported wheel, with a hanging load on one side.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed512x512 WebP and actual120x120 thumbnail: Amber rope follows the grooved rim over one wheel, with both rope legs continuous; left leg is tied to load and right free end hangs lower. Central axle connects to overhead bracket. Wheel/rope/load relation remains readable at120px. Accepted editorial preview; qualified domain and independent human review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Observed precise technical product drawing with controlled contours, subtle cutaway/metal shading, slate ground, amber highlights and pale steel. Clear single teaching focus, no text, logos, fake readings or decorative labels; readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b45ab9416ee3162a2772548a7df259d5ee057cf21f45774057f647d1810e3bf7",
+          "inspectedAt": "2026-10-27T12:01:22.075497+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected motion part or electrical device remains recognizable at 120px with coherent connections and the engineering slate/amber palette."
+        }
+      }
+    },
+    {
+      "entryId": "lever",
+      "sourceWord": "lever",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "lever:meaning-1",
+          "pos": "n.",
+          "en": "a rigid bar that turns around a support point to move or lift something"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The lever rests on a support point.",
+          "senseId": "lever:meaning-1"
+        },
+        {
+          "en": "Pushing one end of the lever down raises the other end.",
+          "senseId": "lever:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/lever.webp",
+        "sha256": "f40832d1a40d267935550035a6b476abdff948d4a280796598196267dbed32af"
+      },
+      "visual": {
+        "expectedCue": "Rigid bar contacts a pivot; load on short arm and downward force on long arm.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed512x512 WebP and actual120x120 thumbnail: Rigid amber bar physically rests on the triangular fulcrum. A grey load contacts the shorter left arm; a downward arrow touches the longer right end. Support and load contacts remain legible at120px. Accepted editorial preview; qualified domain and independent human review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Observed precise technical product drawing with controlled contours, subtle cutaway/metal shading, slate ground, amber highlights and pale steel. Clear single teaching focus, no text, logos, fake readings or decorative labels; readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f40832d1a40d267935550035a6b476abdff948d4a280796598196267dbed32af",
+          "inspectedAt": "2026-10-27T12:01:22.075498+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected motion part or electrical device remains recognizable at 120px with coherent connections and the engineering slate/amber palette."
+        }
+      }
+    },
+    {
+      "entryId": "piston",
+      "sourceWord": "piston",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "piston:meaning-1",
+          "pos": "n.",
+          "en": "a close-fitting part that moves back and forth inside a cylinder to transfer force"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The piston moves inside the cylinder.",
+          "senseId": "piston:meaning-1"
+        },
+        {
+          "en": "A connecting rod joins this piston to the crankshaft.",
+          "senseId": "piston:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/piston.webp",
+        "sha256": "8e4d69e97a999feec5c1d0350c354ef4378767d971025c846a67045b360cbde4"
+      },
+      "visual": {
+        "expectedCue": "Ringed piston fits inside cutaway cylinder and connects by rod to a crank.",
+        "decision": "added",
+        "reason": "AI pixel inspection of generated original, compressed512x512 WebP and actual120x120 thumbnail: Ringed piston sits close inside a cutaway cylinder; wrist-pin joint connects continuously to one connecting rod and the lower crank assembly. Amber crown and dark rings remain clear at120px, with no free-floating parts. Accepted editorial preview; qualified domain and independent human review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Observed precise technical product drawing with controlled contours, subtle cutaway/metal shading, slate ground, amber highlights and pale steel. Clear single teaching focus, no text, logos, fake readings or decorative labels; readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "8e4d69e97a999feec5c1d0350c354ef4378767d971025c846a67045b360cbde4",
+          "inspectedAt": "2026-10-27T12:01:22.075499+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected motion part or electrical device remains recognizable at 120px with coherent connections and the engineering slate/amber palette."
+        }
+      }
+    },
+    {
+      "entryId": "cylinder",
+      "sourceWord": "cylinder",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "cylinder:meaning-1",
+          "pos": "n.",
+          "en": "The round chamber in an engine in which a piston moves."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The piston moves inside the cylinder.",
+          "senseId": "cylinder:meaning-1"
+        },
+        {
+          "en": "This engine has four cylinders.",
+          "senseId": "cylinder:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cylinder.webp",
+        "sha256": "0437f14839d9df15f1d534c65bafa682cc607ebfb77320e41958dfaf09bbb1ff"
+      },
+      "visual": {
+        "expectedCue": "Amber cylindrical engine bore surrounds a fitted piston inside a cutaway block.",
+        "decision": "added",
+        "reason": "Full source, converted 512px WebP and 120px thumbnail inspected: the continuous bore wall and piston are clear; engine block, piston and connected rod identify the selected engine sense. Illustrative internals remain preview, with qualified engineering review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver technical cutaway, slate ground and amber bore highlight match the engineering brief; focal chamber remains legible at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0437f14839d9df15f1d534c65bafa682cc607ebfb77320e41958dfaf09bbb1ff",
+          "inspectedAt": "2026-10-27T11:53:18.787801+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "pump",
+      "sourceWord": "pump",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "pump:meaning-1",
+          "pos": "n.",
+          "en": "A machine that pushes liquid through a pipe or system."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pump moves water into the tank.",
+          "senseId": "pump:meaning-1"
+        },
+        {
+          "en": "A small leak appeared beside the pump.",
+          "senseId": "pump:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pump.webp",
+        "sha256": "f953835636eb2b57e9511aa4d999d11cb3102c418bb3dfc8ca75c3fafe6af000"
+      },
+      "visual": {
+        "expectedCue": "Water enters the center of a housed impeller and leaves through the upper volute outlet.",
+        "decision": "added",
+        "reason": "Full generated source, final 512px WebP and 120px thumbnail inspected: blue liquid is continuous through attached pipes and amber impeller casing; both flow arrows follow the pictured inlet/outlet. Coherent mounted pump is distinct from air compressor.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Silver mechanical cutaway on slate with amber impeller/casing accents; liquid and pump remain readable at thumbnail size."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f953835636eb2b57e9511aa4d999d11cb3102c418bb3dfc8ca75c3fafe6af000",
+          "inspectedAt": "2026-10-27T11:53:18.787835+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "compressor",
+      "sourceWord": "compressor",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "compressor:meaning-1",
+          "pos": "n.",
+          "en": "A machine that raises the pressure of a gas by squeezing it into a smaller space."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The compressor supplies air to the workshop.",
+          "senseId": "compressor:meaning-1"
+        },
+        {
+          "en": "The technician checked the compressor housing.",
+          "senseId": "compressor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/compressor.webp",
+        "sha256": "54b1e5e4b6418515254b192718681bdd9491c24b1ddbb20f63e7307468b54616"
+      },
+      "visual": {
+        "expectedCue": "Piston compression chamber feeds a receiver tank through its top outlet; blue dots stand for air.",
+        "decision": "added",
+        "reason": "Full source and final 512px/120px outputs inspected. One targeted correction removed an erroneous extra mid-cylinder tube. Accepted image has a single top outlet pipe into the tank and a visible crank-driven piston, with gaseous dots rather than liquid. Gas density is illustrative, not a measurement.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver cutaway, slate field and amber compression chamber fit the engineering brief; compressor-plus-tank silhouette remains distinct at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "54b1e5e4b6418515254b192718681bdd9491c24b1ddbb20f63e7307468b54616",
+          "inspectedAt": "2026-10-27T11:53:18.787869+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "turbine",
+      "sourceWord": "turbine",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "turbine:meaning-1",
+          "pos": "n.",
+          "en": "A machine whose blades turn when a moving fluid pushes against them."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Water turns the turbine beneath the dam.",
+          "senseId": "turbine:meaning-1"
+        },
+        {
+          "en": "The turbine drives a generator.",
+          "senseId": "turbine:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/turbine.webp",
+        "sha256": "15faed3d6f2a68a966f3aaef992bff2bae0270d0da78d432ab378af03c1ad1c3"
+      },
+      "visual": {
+        "expectedCue": "An inlet water jet visibly pushes curved wheel blades connected to an output shaft and drains below.",
+        "decision": "added",
+        "reason": "Full source, final 512px WebP and 120px thumbnail inspected: water contacts the blades and exits below; rotor and shaft are physically connected. The flow arrow is in the inlet and curved rotation cue is beside the shaft. Distinct from the contained impeller water pump.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Slate/silver technical cutaway with amber blade wheel and coherent blue water; primary fluid-to-rotation cue readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "15faed3d6f2a68a966f3aaef992bff2bae0270d0da78d432ab378af03c1ad1c3",
+          "inspectedAt": "2026-10-27T11:53:18.787907+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "nozzle",
+      "sourceWord": "nozzle",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "nozzle:meaning-1",
+          "pos": "n.",
+          "en": "A shaped outlet that directs or controls a flow of liquid or gas."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Water leaves the nozzle in a narrow stream.",
+          "senseId": "nozzle:meaning-1"
+        },
+        {
+          "en": "The nozzle is attached to the end of the hose.",
+          "senseId": "nozzle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/nozzle.webp",
+        "sha256": "ec6858fbcdb60c484ea9bc90dbabea1fffa552797335c1f8f806fc0ba87a493a"
+      },
+      "visual": {
+        "expectedCue": "An attached hose feeds a narrowing shaped outlet with one continuous directed water jet.",
+        "decision": "added",
+        "reason": "Generated full image and actual 512px WebP/120px thumbnail inspected: nozzle wall tapers around a continuous liquid path and the jet emerges through its narrow opening; hose coupling is attached.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Silver precise cutaway and amber tip on slate, with blue water, match the brief; simple taper and jet legible at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ec6858fbcdb60c484ea9bc90dbabea1fffa552797335c1f8f806fc0ba87a493a",
+          "inspectedAt": "2026-10-27T11:53:18.787940+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "seal",
+      "sourceWord": "seal",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "seal:meaning-1",
+          "pos": "n.",
+          "en": "A part fitted around a moving shaft to limit fluid leakage."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The seal fits around the rotating shaft.",
+          "senseId": "seal:meaning-1"
+        },
+        {
+          "en": "Oil leaked past the worn seal.",
+          "senseId": "seal:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/seal.webp",
+        "sha256": "d8c01eb51ffe82cc8984eb184bf76ac3c87da508c617f94072aa35d6d02d2c8e"
+      },
+      "visual": {
+        "expectedCue": "An annular sealing lip seated in a housing contacts a rotating shaft while retaining blue fluid.",
+        "decision": "added",
+        "reason": "Full source, actual 512px WebP and 120px thumbnail inspected: amber ring is seated in housing and its inner lip contacts the continuous shaft; retained fluid is on the housing side. Rotation cue is on shaft end. Distinct from flat flange gasket.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver/slate cutaway with amber lip seal matches brief; shaft-through-ring relationship stays clear at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d8c01eb51ffe82cc8984eb184bf76ac3c87da508c617f94072aa35d6d02d2c8e",
+          "inspectedAt": "2026-10-27T11:53:18.787977+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Annular shaft seal lip contacts the shaft within a stationary housing; blue fluid stays behind the lip and curved arrow indicates rotation."
+        }
+      }
+    },
+    {
+      "entryId": "gasket",
+      "sourceWord": "gasket",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "gasket:meaning-1",
+          "pos": "n.",
+          "en": "A layer fitted between two joined surfaces to stop fluid escaping through the joint."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The gasket sits between the two flanges.",
+          "senseId": "gasket:meaning-1"
+        },
+        {
+          "en": "The old gasket had a crack near the edge.",
+          "senseId": "gasket:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/gasket.webp",
+        "sha256": "1e740c63ac150d8430fe08b8b2e2c0e0a564e2a14a653f7a80c26bb7c4c0f9b3"
+      },
+      "visual": {
+        "expectedCue": "Thin amber flat ring layer sits between bolted mating pipe flange faces around an empty bore.",
+        "decision": "added",
+        "reason": "Full source and final 512px WebP/120px thumbnail inspected: amber sealing layer is between coherent bolted fixed flange faces; no moving shaft. Cutaway reveals its flat ring cross-section and clear central bore.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver pipe-flange cutaway on slate with amber gasket; contrast with rotary shaft seal remains clear at small size."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1e740c63ac150d8430fe08b8b2e2c0e0a564e2a14a653f7a80c26bb7c4c0f9b3",
+          "inspectedAt": "2026-10-27T11:53:18.788010+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Flat amber gasket is sandwiched between static flanges, with through-bolts outside the open pipe bore."
+        }
+      }
+    },
+    {
+      "entryId": "hinge",
+      "sourceWord": "hinge",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "hinge:meaning-1",
+          "pos": "n.",
+          "en": "A joint that lets one part swing around a fixed line relative to another part."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The hinge allows the lid to open.",
+          "senseId": "hinge:meaning-1"
+        },
+        {
+          "en": "A pin joins the two leaves of the hinge.",
+          "senseId": "hinge:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hinge.webp",
+        "sha256": "835dc54277a766a16cdfc735b94de66c3ebfb686169ca90914500607de5075c8"
+      },
+      "visual": {
+        "expectedCue": "Two screwed hinge leaves join a partly open panel to a frame along one shared pin axis.",
+        "decision": "added",
+        "reason": "Full source, 512px WebP and 120px output inspected: two supported leaves, coherent alternating knuckles and single central pin link the panel/frame. No floating connection or clamp-like grip.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Clear technical silver drawing with restrained amber hinge pin against slate, primary pivot joint readable at thumbnail size."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "835dc54277a766a16cdfc735b94de66c3ebfb686169ca90914500607de5075c8",
+          "inspectedAt": "2026-10-27T11:53:18.788040+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected object, anatomy or mechanism remains distinct and legible at thumbnail size; clinical mint/ivory or engineering slate/amber style matches its category brief."
+        }
+      }
+    },
+    {
+      "entryId": "clamp",
+      "sourceWord": "clamp",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "clamp:meaning-1",
+          "pos": "n.",
+          "en": "A tool that presses parts together to hold them firmly in place."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clamp holds the two boards together.",
+          "senseId": "clamp:meaning-1"
+        },
+        {
+          "en": "A rubber pad protects the wood beneath the clamp.",
+          "senseId": "clamp:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/clamp.webp",
+        "sha256": "aea40215136e91bd35d6ddb4dfb13b477496cc3f4f0733ff5632fa941e58b6ec"
+      },
+      "visual": {
+        "expectedCue": "One portable C-clamp presses two boards together between a fixed jaw and screw pad.",
+        "decision": "added",
+        "reason": "Full source, final 512px WebP and 120px thumbnail inspected: fixed jaw and threaded swivel pad touch opposite outside faces of two stacked boards, with coherent screw-to-frame and sliding handle geometry.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise amber/silver C-clamp on slate, wood only as functional context; silhouette distinct from bench vise at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "aea40215136e91bd35d6ddb4dfb13b477496cc3f4f0733ff5632fa941e58b6ec",
+          "inspectedAt": "2026-10-27T11:56:05.956412+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "The selected medical device, vessel or workshop tool is recognizable and distinct at 120px; clinical mint/ivory or engineering slate/amber style matches its category."
+        }
+      }
+    },
+    {
+      "entryId": "vise",
+      "sourceWord": "vise",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "vise:meaning-1",
+          "pos": "n.",
+          "en": "A tool with two jaws, usually fixed to a workbench, that holds a piece while it is worked on."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The vise holds the metal block on the workbench.",
+          "senseId": "vise:meaning-1"
+        },
+        {
+          "en": "The jaws of the vise have soft covers.",
+          "senseId": "vise:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/vise.webp",
+        "sha256": "5c50ef4874d7bdaaf5f175125138ee6da5a05603c485b09d483a5883421f11a0"
+      },
+      "visual": {
+        "expectedCue": "A workbench-mounted vise grips a metal block between two parallel jaws driven by a horizontal screw.",
+        "decision": "added",
+        "reason": "Full source, actual 512px WebP and 120px thumbnail inspected: jaws contact opposite block faces; horizontal screw and T-handle form a coherent drive; base is bolted to workbench. Distinct from portable C-clamp.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Amber cast body and silver jaws on slate match engineering brief; parallel-jaw bench-mounted outline remains readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5c50ef4874d7bdaaf5f175125138ee6da5a05603c485b09d483a5883421f11a0",
+          "inspectedAt": "2026-10-27T11:56:05.956413+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "The selected medical device, vessel or workshop tool is recognizable and distinct at 120px; clinical mint/ivory or engineering slate/amber style matches its category."
+        }
+      }
+    },
+    {
+      "entryId": "wrench",
+      "sourceWord": "wrench",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "wrench:meaning-1",
+          "pos": "n.",
+          "en": "A hand tool with a shaped opening that grips a nut or bolt head so it can be turned."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The wrench fits the nut on the bracket.",
+          "senseId": "wrench:meaning-1"
+        },
+        {
+          "en": "She chose an adjustable wrench from the toolbox.",
+          "senseId": "wrench:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/wrench.webp",
+        "sha256": "e5950507967bb5fb439c557c27c842e57637dc747f3c9e153455ea5cb548f2f8"
+      },
+      "visual": {
+        "expectedCue": "Adjustable wrench jaws fit the outside flat faces of a nut on a bracket.",
+        "decision": "added",
+        "reason": "Full source and final 512px/120px inspected: recognizable adjustable open jaws and seated adjustment worm, with jaws contacting the hex nut; supported nut/bolt and bracket. Distinct from screwdriver blade-slot contact.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver tool with amber handle inset and slate background; large open-jaw silhouette stays recognizable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e5950507967bb5fb439c557c27c842e57637dc747f3c9e153455ea5cb548f2f8",
+          "inspectedAt": "2026-10-27T11:56:05.956415+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "The selected medical device, vessel or workshop tool is recognizable and distinct at 120px; clinical mint/ivory or engineering slate/amber style matches its category."
+        }
+      }
+    },
+    {
+      "entryId": "screwdriver",
+      "sourceWord": "screwdriver",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "screwdriver:meaning-1",
+          "pos": "n.",
+          "en": "A hand tool whose tip fits a screw head so the screw can be turned."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The screwdriver fits the slot in the screw head.",
+          "senseId": "screwdriver:meaning-1"
+        },
+        {
+          "en": "He put the screwdriver back in the toolbox.",
+          "senseId": "screwdriver:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/screwdriver.webp",
+        "sha256": "100692c32f6e7137acc351c0887939a31589e7f64130d94981d0068ba6b7cb89"
+      },
+      "visual": {
+        "expectedCue": "A single flat blade on a handled shaft meets the straight slot in a supported screw head.",
+        "decision": "added",
+        "reason": "Full source, 512px WebP and 120px thumbnail inspected: amber handle, straight shaft and single flat blade are continuous; blade visibly meets the screw slot on the bracket. At thumbnail size slot detail is small, while tool silhouette remains unmistakable.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver tool and amber handle against slate match engineering profile; uncluttered diagonal composition remains legible at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "100692c32f6e7137acc351c0887939a31589e7f64130d94981d0068ba6b7cb89",
+          "inspectedAt": "2026-10-27T11:56:05.956416+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "The selected medical device, vessel or workshop tool is recognizable and distinct at 120px; clinical mint/ivory or engineering slate/amber style matches its category."
+        }
+      }
+    },
+    {
+      "entryId": "caliper",
+      "sourceWord": "caliper",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "caliper:meaning-1",
+          "pos": "n.",
+          "en": "A measuring tool with jaws that slide to fit around or inside an object."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The caliper measures the width of the block.",
+          "senseId": "caliper:meaning-1"
+        },
+        {
+          "en": "The inside jaws of the caliper fit into the opening.",
+          "senseId": "caliper:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/caliper.webp",
+        "sha256": "d11e687ce2fdbd78e50e74fa58f2e42ebdc0343dee9605d1b6fb9b98ac22958f"
+      },
+      "visual": {
+        "expectedCue": "A vernier caliper has sliding external jaws contacting opposite sides of a block and smaller internal jaws above the beam.",
+        "decision": "added",
+        "reason": "Full source, converted 512px WebP and 120px output inspected: outside jaws touch the amber block; fixed beam/sliding carriage and inside jaws identify a measuring caliper. Unnumbered illustrative ticks assert no measured reading. Clearly not a brake caliper.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver instrument on slate with amber workpiece, readable measuring-jaw silhouette at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d11e687ce2fdbd78e50e74fa58f2e42ebdc0343dee9605d1b6fb9b98ac22958f",
+          "inspectedAt": "2026-10-27T11:56:05.956417+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "External measuring jaws contact an amber block; sliding scale, fixed beam and smaller inside jaws identify a measuring caliper rather than a brake component."
+        }
+      }
+    },
+    {
+      "entryId": "micrometer",
+      "sourceWord": "micrometer",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "micrometer:meaning-1",
+          "pos": "n.",
+          "en": "A measuring instrument that uses a fine screw to set the gap between two contact faces."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The micrometer measures the thickness of the sheet.",
+          "senseId": "micrometer:meaning-1"
+        },
+        {
+          "en": "The part rests between the anvil and spindle of the micrometer.",
+          "senseId": "micrometer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/micrometer.webp",
+        "sha256": "037c139f9b39f296ab5728bbafc038470a2b40693c34d6694aee32c0b617882a"
+      },
+      "visual": {
+        "expectedCue": "A C-frame micrometer measures a sheet between coaxial fixed anvil and screw-driven spindle.",
+        "decision": "added",
+        "reason": "Full source, final 512px WebP and 120px thumbnail inspected: C-frame, opposing flat contact faces, sheet, sleeve, thimble and ratchet knob form a coherent recognizable micrometer; no numeric reading asserted.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver/amber instrument on slate with simple side-view screw-anvil geometry, recognizable at thumbnail size."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "037c139f9b39f296ab5728bbafc038470a2b40693c34d6694aee32c0b617882a",
+          "inspectedAt": "2026-10-27T11:56:05.956418+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "A rigid C-frame has opposed anvil and screw spindle with sleeve/thimble; the part reads as an outside micrometer rather than a unit symbol."
+        }
+      }
+    },
+    {
+      "entryId": "multimeter",
+      "sourceWord": "multimeter",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "multimeter:meaning-1",
+          "pos": "n.",
+          "en": "An instrument that can measure several electrical quantities, such as voltage and resistance."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The multimeter has two test leads.",
+          "senseId": "multimeter:meaning-1"
+        },
+        {
+          "en": "The technician used a multimeter to check the battery voltage.",
+          "senseId": "multimeter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/multimeter.webp",
+        "sha256": "0c5c67a1202eda5b54408c2237ec48650afe33325ad038c0b3fd98ca3c86fd97"
+      },
+      "visual": {
+        "expectedCue": "Blank-display multimeter with one selector dial and two traceable plugged-in test leads.",
+        "decision": "added",
+        "reason": "Full source, final 512px WebP and 120px thumbnail inspected: exactly two separate black/red plugs enter matching sockets; each continuous cord reaches its matching capped probe. Display and selector are blank, with no fake readings or live equipment.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise amber-cased technical product on slate, red/black leads as functional colors; full instrument and leads readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0c5c67a1202eda5b54408c2237ec48650afe33325ad038c0b3fd98ca3c86fd97",
+          "inspectedAt": "2026-10-27T11:58:38.190696+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected structure or component remains distinct at 120px; its body connection, material or lead count and the category visual style are coherent."
+        }
+      }
+    },
+    {
+      "entryId": "resistor",
+      "sourceWord": "resistor",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "resistor:meaning-1",
+          "pos": "n.",
+          "en": "An electrical component that opposes current and dissipates energy as heat."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The resistor has a wire lead at each end.",
+          "senseId": "resistor:meaning-1"
+        },
+        {
+          "en": "The circuit includes a resistor beside the diode.",
+          "senseId": "resistor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/resistor.webp",
+        "sha256": "e88c2445dc97dde944985af559b78a0505cbd0b139bf68aa280db7f65aa26b8d"
+      },
+      "visual": {
+        "expectedCue": "An axial resistor has a beige banded body and one lead from each end.",
+        "decision": "added",
+        "reason": "Full generated source, converted 512px WebP and 120px output inspected: four wrapped brown/black/red/gold bands and two opposite axial leads are clear; no printed values or circuit claims.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise ceramic/silver component with restrained amber rim on slate; banded resistor distinct from single-band diode at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e88c2445dc97dde944985af559b78a0505cbd0b139bf68aa280db7f65aa26b8d",
+          "inspectedAt": "2026-10-27T11:58:38.190697+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected structure or component remains distinct at 120px; its body connection, material or lead count and the category visual style are coherent."
+        }
+      }
+    },
+    {
+      "entryId": "capacitor",
+      "sourceWord": "capacitor",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "capacitor:meaning-1",
+          "pos": "n.",
+          "en": "An electrical component that stores energy in an electric field between separated conductors."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The capacitor has two terminals.",
+          "senseId": "capacitor:meaning-1"
+        },
+        {
+          "en": "A capacitor stores energy in an electric field.",
+          "senseId": "capacitor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/capacitor.webp",
+        "sha256": "817c009be2538277827c4acfd8f5f7eba3d71c7524678b1267cd3a083b8854da"
+      },
+      "visual": {
+        "expectedCue": "One ceramic disc capacitor has exactly two separate wire terminals below a thin coated disc.",
+        "decision": "added",
+        "reason": "Full source, final 512px WebP and 120px output inspected: two separate silver leads emerge from the same amber ceramic disc; no third lead, numerical rating, battery silhouette or fake reading.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise shaded technical product with amber ceramic/silver leads on slate; clean two-terminal disc silhouette readable at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "817c009be2538277827c4acfd8f5f7eba3d71c7524678b1267cd3a083b8854da",
+          "inspectedAt": "2026-10-27T11:58:38.190698+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected structure or component remains distinct at 120px; its body connection, material or lead count and the category visual style are coherent."
+        }
+      }
+    },
+    {
+      "entryId": "diode",
+      "sourceWord": "diode",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "diode:meaning-1",
+          "pos": "n.",
+          "en": "An electronic component that lets current pass much more easily in one direction than the other."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The diode has a band near one end.",
+          "senseId": "diode:meaning-1"
+        },
+        {
+          "en": "The circuit uses a diode to control the direction of current.",
+          "senseId": "diode:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/diode.webp",
+        "sha256": "e969eb9bc29985dbda0765f7b576ac2354ddaaaec6be19e8e13418fbfdf9d798"
+      },
+      "visual": {
+        "expectedCue": "One black axial diode body has a single band near an end and two opposite leads.",
+        "decision": "added",
+        "reason": "Full source and final 512px/120px inspected: exactly one pale band on black cylinder and one lead from each end; no multiple resistor bands, printed rating or third lead.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise black/silver component with restrained amber edge on slate; single-band diode recognizable beside resistor at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e969eb9bc29985dbda0765f7b576ac2354ddaaaec6be19e8e13418fbfdf9d798",
+          "inspectedAt": "2026-10-27T11:58:38.190699+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected structure or component remains distinct at 120px; its body connection, material or lead count and the category visual style are coherent."
+        }
+      }
+    },
+    {
+      "entryId": "transistor",
+      "sourceWord": "transistor",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "transistor:meaning-1",
+          "pos": "n.",
+          "en": "A semiconductor component used to switch or amplify electrical signals."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The transistor in the picture has three leads.",
+          "senseId": "transistor:meaning-1"
+        },
+        {
+          "en": "A transistor controls the signal in this amplifier.",
+          "senseId": "transistor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/transistor.webp",
+        "sha256": "6749328803425f318cc36e617489a3b129c47bfb0691f34d466977a8a6d035fa"
+      },
+      "visual": {
+        "expectedCue": "One flat-front rounded TO-92 transistor body has exactly three separate metal leads.",
+        "decision": "added",
+        "reason": "Full source, converted 512px WebP and 120px output inspected: black rounded-back/flat-front package and precisely three separated leads form one continuous component. No fourth lead, print or bands.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise black/silver technical object with subtle amber rim on slate; three-lead cue remains visible at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6749328803425f318cc36e617489a3b129c47bfb0691f34d466977a8a6d035fa",
+          "inspectedAt": "2026-10-27T11:58:38.190700+00:00",
+          "inspectedSizes": [
+            120
+          ],
+          "finding": "Selected structure or component remains distinct at 120px; its body connection, material or lead count and the category visual style are coherent."
+        }
+      }
+    },
+    {
+      "entryId": "transformer",
+      "sourceWord": "transformer",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "transformer:meaning-1",
+          "pos": "n.",
+          "en": "A device that transfers electrical energy between coils through a changing magnetic field, often to change AC voltage."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The transformer has two coils around a shared core.",
+          "senseId": "transformer:meaning-1"
+        },
+        {
+          "en": "This transformer lowers the AC voltage.",
+          "senseId": "transformer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/transformer.webp",
+        "sha256": "d8f0a5052083f5ee89f9e4c1bb203673f76d06abb76ef91acbe49f1fdaefb715"
+      },
+      "visual": {
+        "expectedCue": "Two electrically separate coils wrap opposite legs of one closed connected magnetic core.",
+        "decision": "added",
+        "reason": "Full generated source, 512px WebP and 120px thumbnail inspected: one continuous rectangular laminated core links two separate windings; each has two terminals and no direct inter-coil wire. No current/voltage values asserted.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise laminated silver core, copper-amber coils, slate background; core-and-two-coils relationship visible at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d8f0a5052083f5ee89f9e4c1bb203673f76d06abb76ef91acbe49f1fdaefb715",
+          "inspectedAt": "2026-10-27T12:01:22.075500+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Two separate copper coils have two leads each and share a closed laminated magnetic core; there is no direct electrical connection between coils."
+        }
+      }
+    },
+    {
+      "entryId": "motor",
+      "sourceWord": "motor",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "motor:meaning-1",
+          "pos": "n.",
+          "en": "A machine that uses electrical energy to produce mechanical movement."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The motor turns the fan.",
+          "senseId": "motor:meaning-1"
+        },
+        {
+          "en": "Wires carry power from the battery to the motor.",
+          "senseId": "motor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/motor.webp",
+        "sha256": "9b178d3d17e533904bdfb6f46db0c789a844ea65e67ec1da0efed59ec0eb2573"
+      },
+      "visual": {
+        "expectedCue": "A connected battery supplies electrical input to a motor that turns a shaft-mounted fan.",
+        "decision": "added",
+        "reason": "Full source, final 512px WebP and 120px thumbnail inspected: two intact wires join distinct battery and motor terminals; fan sits on continuous output shaft. Straight arrow points battery-to-motor and curved arrow denotes fan rotation. Distinct energy direction from generator.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver/amber cutaway on slate, red/black wires used functionally; electrical-input-to-rotation relationship remains legible at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9b178d3d17e533904bdfb6f46db0c789a844ea65e67ec1da0efed59ec0eb2573",
+          "inspectedAt": "2026-10-27T12:01:22.075501+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Battery positive and negative terminals connect separately to a cutaway electric motor that rotates a fan; input energy arrow points toward the motor."
+        }
+      }
+    },
+    {
+      "entryId": "generator",
+      "sourceWord": "generator",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "generator:meaning-1",
+          "pos": "n.",
+          "en": "A machine that converts mechanical movement into electrical energy."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The generator produces electricity when its shaft turns.",
+          "senseId": "generator:meaning-1"
+        },
+        {
+          "en": "A turbine drives the generator at the power station.",
+          "senseId": "generator:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/generator.webp",
+        "sha256": "3b2d4c8f01ced7bbd9df67856441288226545b2b30a8d847a96350213a142561"
+      },
+      "visual": {
+        "expectedCue": "A hand crank drives the generator shaft, and separate wires carry output to an illuminated lamp.",
+        "decision": "added",
+        "reason": "Full source and actual 512px WebP/120px thumbnail inspected. Two targeted corrections fixed both leads initially meeting one lamp post, then replaced a conductive-looking lamp plinth with an insulating ceramic holder/collars. Accepted image has distinct red/black terminal connections, crank input and lamp output. Internal electrical contacts are simplified illustrative preview, qualified review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver/amber cutaway on slate; crank rotation and generator-to-lamp arrow show mechanical-to-electrical direction, distinct from motor at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3b2d4c8f01ced7bbd9df67856441288226545b2b30a8d847a96350213a142561",
+          "inspectedAt": "2026-10-27T12:03:05.818974+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Hand crank supplies mechanical rotation to a cutaway generator; separate red/black output leads power a lit lamp mounted on an insulating plinth."
+        }
+      }
+    },
+    {
+      "entryId": "sensor",
+      "sourceWord": "sensor",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "sensor:meaning-1",
+          "pos": "n.",
+          "en": "A device that detects a physical condition or object and produces a signal."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sensor detects the box on the conveyor.",
+          "senseId": "sensor:meaning-1"
+        },
+        {
+          "en": "The sensor sends a signal to the controller.",
+          "senseId": "sensor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sensor.webp",
+        "sha256": "7caf486d0d8703fcb53a4f07a859a3dc066cf87970ed10036f9305d6e91c6ea9"
+      },
+      "visual": {
+        "expectedCue": "A securely mounted photoelectric sensor detects a box on a conveyor using a short lens-to-box beam.",
+        "decision": "added",
+        "reason": "Full source, actual 512px WebP and 120px thumbnail inspected: cylindrical sensor is mounted on a bracket, a short beam meets the box face, and rear cable leads to a mounted control box. Detection context is clear and no readings are invented.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver conveyor/sensor product drawing with amber lens/beam on slate; focal detection relationship remains clear at 120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7caf486d0d8703fcb53a4f07a859a3dc066cf87970ed10036f9305d6e91c6ea9",
+          "inspectedAt": "2026-10-27T12:03:05.819211+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "A mounted photoelectric sensor detects a box on a conveyor; its cable is continuous to the control enclosure and the amber beam makes the detection cue clear."
+        }
+      }
     }
   ]
 }

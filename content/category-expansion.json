@@ -15,8 +15,8 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "cooking-food-drink",
-  "nextCategoryId": "medicine-healthcare",
+  "currentCategoryId": "medicine-healthcare",
+  "nextCategoryId": "engineering",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -1080,7 +1080,207 @@
           ]
         }
       ]
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 16,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "syringe",
+        "medical-mask",
+        "surgical-glove",
+        "gauze",
+        "adhesive-plaster",
+        "crutch",
+        "wheelchair",
+        "stretcher",
+        "hospital-bed",
+        "examination-table",
+        "otoscope",
+        "blood-pressure-cuff",
+        "pulse-oximeter",
+        "reflex-hammer",
+        "scalpel",
+        "forceps",
+        "medicine-bottle",
+        "brain",
+        "lung",
+        "kidney",
+        "liver",
+        "stomach",
+        "intestine",
+        "bone",
+        "joint",
+        "muscle",
+        "tendon",
+        "ligament",
+        "artery",
+        "vein",
+        "nerve",
+        "skin",
+        "spine",
+        "rib"
+      ],
+      "units": [
+        {
+          "id": "medical-tools",
+          "entryIds": [
+            "syringe",
+            "medical-mask",
+            "surgical-glove",
+            "gauze",
+            "adhesive-plaster",
+            "crutch",
+            "wheelchair",
+            "stretcher",
+            "hospital-bed",
+            "examination-table",
+            "otoscope",
+            "blood-pressure-cuff",
+            "pulse-oximeter",
+            "reflex-hammer",
+            "scalpel",
+            "forceps",
+            "medicine-bottle"
+          ],
+          "title": "Medical tools"
+        },
+        {
+          "id": "medical-anatomy",
+          "entryIds": [
+            "brain",
+            "lung",
+            "kidney",
+            "liver",
+            "stomach",
+            "intestine",
+            "bone",
+            "joint",
+            "muscle",
+            "tendon",
+            "ligament",
+            "artery",
+            "vein",
+            "nerve",
+            "skin",
+            "spine",
+            "rib"
+          ],
+          "title": "Medical anatomy"
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-foundation-1",
+      "releaseId": "2026-10-preview-6",
+      "status": "published-preview",
+      "objective": "Recognize core specialist objects, structures and mechanisms in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 17,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "bolt",
+        "nut",
+        "washer",
+        "screw",
+        "rivet",
+        "bearing",
+        "shaft",
+        "pulley",
+        "lever",
+        "piston",
+        "cylinder",
+        "pump",
+        "compressor",
+        "turbine",
+        "nozzle",
+        "seal",
+        "gasket",
+        "hinge",
+        "clamp",
+        "vise",
+        "wrench",
+        "screwdriver",
+        "caliper",
+        "micrometer",
+        "multimeter",
+        "resistor",
+        "capacitor",
+        "diode",
+        "transistor",
+        "transformer",
+        "motor",
+        "generator",
+        "sensor"
+      ],
+      "units": [
+        {
+          "id": "engineering-fasteners",
+          "entryIds": [
+            "bolt",
+            "nut",
+            "washer",
+            "screw",
+            "rivet"
+          ],
+          "title": "Engineering fasteners"
+        },
+        {
+          "id": "engineering-motion-parts",
+          "entryIds": [
+            "bearing",
+            "shaft",
+            "pulley",
+            "lever",
+            "piston"
+          ],
+          "title": "Engineering motion parts"
+        },
+        {
+          "id": "engineering-core",
+          "entryIds": [
+            "cylinder",
+            "pump",
+            "compressor",
+            "turbine",
+            "nozzle",
+            "seal",
+            "gasket",
+            "hinge",
+            "clamp",
+            "vise",
+            "wrench",
+            "screwdriver",
+            "caliper",
+            "micrometer",
+            "multimeter",
+            "resistor",
+            "capacitor",
+            "diode",
+            "transistor",
+            "transformer",
+            "motor",
+            "generator",
+            "sensor"
+          ],
+          "title": "Engineering core"
+        }
+      ],
+      "id": "engineering-specialist-500-foundation-1",
+      "releaseId": "2026-10-preview-6",
+      "status": "published-preview",
+      "objective": "Recognize core specialist objects, structures and mechanisms in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "all-categories-visual-foundations-1"
+  "activePassId": "specialist-500-foundation-1"
 }

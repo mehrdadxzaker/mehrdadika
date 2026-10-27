@@ -13,9 +13,9 @@
     "modifications": "Latin-American Spanish preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-5",
-    "manifest": "content/releases/2026-10-preview-5-402e0d2089d7/manifest.json",
-    "sha256": "402e0d2089d7fc3b2f2e8d8d75cae0ae2f7368f5286d0f97f486abe9b05cfe1d"
+    "id": "2026-10-preview-6",
+    "manifest": "content/releases/2026-10-preview-6-bdacaae1127a/manifest.json",
+    "sha256": "bdacaae1127a433a6d90922181ab487cf1e4cf2b44e907284e018b0d196f699d"
   },
   "categories": {
     "everyday-life": {
@@ -7041,6 +7041,2284 @@
         }
       ],
       "tip": "Un pixel es una celda de color; la imagen completa está formada por muchos píxeles."
+    },
+    "syringe": {
+      "sourceWord": "syringe",
+      "senses": {
+        "syringe:meaning-1": {
+          "gloss": "jeringa",
+          "definition": "Tubo estrecho con un émbolo que permite aspirar o expulsar una cantidad medida de líquido."
+        }
+      },
+      "examples": [
+        {
+          "en": "The syringe has a clear barrel and a white plunger.",
+          "translation": "La jeringa tiene un cilindro transparente y un émbolo blanco."
+        },
+        {
+          "en": "The nurse counted the unopened syringes on the tray.",
+          "translation": "La enfermera contó las jeringas sin abrir que estaban en la bandeja."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a disposable syringe",
+          "translation": "una jeringa desechable"
+        },
+        {
+          "en": "a syringe plunger",
+          "translation": "el émbolo de una jeringa"
+        },
+        {
+          "en": "a syringe barrel",
+          "translation": "el cilindro de una jeringa"
+        }
+      ],
+      "tip": "Syringe es la jeringa completa, con cilindro y émbolo; needle es solo la aguja."
+    },
+    "medical-mask": {
+      "sourceWord": "medical mask",
+      "senses": {
+        "medical-mask:meaning-1": {
+          "gloss": "mascarilla médica",
+          "definition": "Cubierta que se usa sobre la nariz y la boca en la atención sanitaria para ayudar a limitar la dispersión de gotículas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The medical mask covers her nose and mouth.",
+          "translation": "La mascarilla médica le cubre la nariz y la boca."
+        },
+        {
+          "en": "A box of medical masks stood beside the clinic door.",
+          "translation": "Había una caja de mascarillas médicas junto a la puerta de la clínica."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "wear a medical mask",
+          "translation": "usar una mascarilla médica"
+        },
+        {
+          "en": "a disposable medical mask",
+          "translation": "una mascarilla médica desechable"
+        },
+        {
+          "en": "medical mask straps",
+          "translation": "las tiras de la mascarilla médica"
+        }
+      ],
+      "tip": "Medical mask es una mascarilla de uso sanitario; face shield es una pantalla transparente frente al rostro."
+    },
+    "surgical-glove": {
+      "sourceWord": "surgical glove",
+      "senses": {
+        "surgical-glove:meaning-1": {
+          "gloss": "guante quirúrgico",
+          "definition": "Guante estéril y ajustado que usa un integrante del equipo quirúrgico durante una operación."
+        }
+      },
+      "examples": [
+        {
+          "en": "The surgical glove has a long cuff.",
+          "translation": "El guante quirúrgico tiene un puño largo."
+        },
+        {
+          "en": "The sealed packet contains a pair of surgical gloves.",
+          "translation": "El paquete sellado contiene un par de guantes quirúrgicos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a sterile surgical glove",
+          "translation": "un guante quirúrgico estéril"
+        },
+        {
+          "en": "a surgical glove cuff",
+          "translation": "el puño de un guante quirúrgico"
+        },
+        {
+          "en": "a pair of surgical gloves",
+          "translation": "un par de guantes quirúrgicos"
+        }
+      ],
+      "tip": "Surgical glove es un guante estéril para cirugía; examination glove es un guante de exploración y no siempre es estéril."
+    },
+    "gauze": {
+      "sourceWord": "gauze",
+      "senses": {
+        "gauze:meaning-1": {
+          "gloss": "gasa",
+          "definition": "Tejido fino de trama abierta que se usa en la atención sanitaria para cubrir una herida o absorber líquidos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The gauze has a loose, open weave.",
+          "translation": "La gasa tiene un tejido suelto y abierto."
+        },
+        {
+          "en": "The supply cupboard contains rolls of gauze and small gauze pads.",
+          "translation": "El armario de materiales contiene rollos de gasa y pequeñas compresas de gasa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a gauze pad",
+          "translation": "una compresa de gasa"
+        },
+        {
+          "en": "a roll of gauze",
+          "translation": "un rollo de gasa"
+        },
+        {
+          "en": "sterile gauze",
+          "translation": "gasa estéril"
+        }
+      ],
+      "tip": "Gauze nombra el material de trama abierta y normalmente es incontable en inglés; bandage puede ser una venda que sujeta el apósito."
+    },
+    "adhesive-plaster": {
+      "sourceWord": "adhesive plaster",
+      "senses": {
+        "adhesive-plaster:meaning-1": {
+          "gloss": "curita",
+          "definition": "Tira adhesiva pequeña con una almohadilla en el centro, hecha para cubrir una herida leve."
+        }
+      },
+      "examples": [
+        {
+          "en": "The adhesive plaster has a soft pad in the middle.",
+          "translation": "La curita tiene una almohadilla suave en el centro."
+        },
+        {
+          "en": "I found an adhesive plaster in the first-aid box.",
+          "translation": "Encontré una curita en el botiquín."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a waterproof adhesive plaster",
+          "translation": "una curita impermeable"
+        },
+        {
+          "en": "a box of adhesive plasters",
+          "translation": "una caja de curitas"
+        },
+        {
+          "en": "an adhesive plaster strip",
+          "translation": "una tira de apósito adhesivo"
+        }
+      ],
+      "tip": "Adhesive plaster es habitual en inglés británico; en Estados Unidos suele decirse adhesive bandage. Aquí plaster no significa yeso."
+    },
+    "crutch": {
+      "sourceWord": "crutch",
+      "senses": {
+        "crutch:meaning-1": {
+          "gloss": "muleta",
+          "definition": "Apoyo para caminar que se sostiene al lado del cuerpo, con soporte bajo la axila o alrededor del antebrazo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The crutch has a rubber tip at the bottom.",
+          "translation": "La muleta tiene una punta de goma en la parte inferior."
+        },
+        {
+          "en": "He left his pair of crutches beside the chair.",
+          "translation": "Dejó su par de muletas junto a la silla."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a pair of crutches",
+          "translation": "un par de muletas"
+        },
+        {
+          "en": "a forearm crutch",
+          "translation": "una muleta de antebrazo"
+        },
+        {
+          "en": "walk with crutches",
+          "translation": "caminar con muletas"
+        }
+      ],
+      "tip": "Crutch tiene un apoyo bajo la axila o alrededor del antebrazo; walking stick suele tener solo una empuñadura."
+    },
+    "wheelchair": {
+      "sourceWord": "wheelchair",
+      "senses": {
+        "wheelchair:meaning-1": {
+          "gloss": "silla de ruedas",
+          "definition": "Silla con ruedas que permite a una persona desplazarse sentada."
+        }
+      },
+      "examples": [
+        {
+          "en": "The wheelchair has two large rear wheels.",
+          "translation": "La silla de ruedas tiene dos ruedas grandes en la parte trasera."
+        },
+        {
+          "en": "There is enough space for her wheelchair beside the table.",
+          "translation": "Hay espacio suficiente para su silla de ruedas junto a la mesa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a manual wheelchair",
+          "translation": "una silla de ruedas manual"
+        },
+        {
+          "en": "a powered wheelchair",
+          "translation": "una silla de ruedas eléctrica"
+        },
+        {
+          "en": "a wheelchair ramp",
+          "translation": "una rampa para silla de ruedas"
+        }
+      ],
+      "tip": "Wheelchair permite desplazarse sentado; stretcher transporta a la persona acostada."
+    },
+    "stretcher": {
+      "sourceWord": "stretcher",
+      "senses": {
+        "stretcher:meaning-1": {
+          "gloss": "camilla de traslado",
+          "definition": "Plataforma estrecha para transportar a una persona acostada, a veces equipada con ruedas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The stretcher has handles at both ends.",
+          "translation": "La camilla de traslado tiene asas en ambos extremos."
+        },
+        {
+          "en": "The team moved the empty stretcher down the corridor.",
+          "translation": "El equipo llevó la camilla de traslado vacía por el pasillo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a wheeled stretcher",
+          "translation": "una camilla de traslado con ruedas"
+        },
+        {
+          "en": "stretcher handles",
+          "translation": "las asas de la camilla de traslado"
+        },
+        {
+          "en": "carry a stretcher",
+          "translation": "cargar una camilla de traslado"
+        }
+      ],
+      "tip": "Stretcher sirve para trasladar a una persona acostada; hospital bed es una cama para descanso y cuidados en el hospital."
+    },
+    "hospital-bed": {
+      "sourceWord": "hospital bed",
+      "senses": {
+        "hospital-bed:meaning-1": {
+          "gloss": "cama de hospital",
+          "definition": "Cama diseñada para la atención hospitalaria, a menudo con secciones ajustables y barandales laterales."
+        }
+      },
+      "examples": [
+        {
+          "en": "The hospital bed has raised side rails.",
+          "translation": "La cama de hospital tiene los barandales laterales levantados."
+        },
+        {
+          "en": "A clean pillow rested on the hospital bed.",
+          "translation": "Una almohada limpia estaba sobre la cama de hospital."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an adjustable hospital bed",
+          "translation": "una cama de hospital ajustable"
+        },
+        {
+          "en": "hospital bed rails",
+          "translation": "los barandales de la cama de hospital"
+        },
+        {
+          "en": "an empty hospital bed",
+          "translation": "una cama de hospital vacía"
+        }
+      ],
+      "tip": "Hospital bed es una cama para hospitalización y cuidados; examination table es una mesa usada durante una exploración clínica."
+    },
+    "examination-table": {
+      "sourceWord": "examination table",
+      "senses": {
+        "examination-table:meaning-1": {
+          "gloss": "mesa de exploración",
+          "definition": "Superficie elevada y acolchada donde una persona se sienta o se acuesta durante una exploración médica."
+        }
+      },
+      "examples": [
+        {
+          "en": "The examination table has a padded top.",
+          "translation": "La mesa de exploración tiene una superficie acolchada."
+        },
+        {
+          "en": "The clinician replaced the paper on the examination table.",
+          "translation": "El profesional de salud cambió el papel de la mesa de exploración."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an adjustable examination table",
+          "translation": "una mesa de exploración ajustable"
+        },
+        {
+          "en": "examination table paper",
+          "translation": "papel para mesa de exploración"
+        },
+        {
+          "en": "sit on the examination table",
+          "translation": "sentarse en la mesa de exploración"
+        }
+      ],
+      "tip": "Examination table es la mesa o camilla de exploración; hospital bed es la cama destinada a hospitalización."
+    },
+    "otoscope": {
+      "sourceWord": "otoscope",
+      "senses": {
+        "otoscope:meaning-1": {
+          "gloss": "otoscopio",
+          "definition": "Instrumento médico de mano con luz y lente para observar el conducto auditivo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The otoscope has a small cone-shaped tip.",
+          "translation": "El otoscopio tiene una punta pequeña con forma de cono."
+        },
+        {
+          "en": "The clinician placed the otoscope back in its case.",
+          "translation": "El profesional de salud volvió a guardar el otoscopio en su estuche."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an otoscope tip",
+          "translation": "una punta de otoscopio"
+        },
+        {
+          "en": "an otoscope light",
+          "translation": "la luz del otoscopio"
+        },
+        {
+          "en": "an otoscope handle",
+          "translation": "el mango del otoscopio"
+        }
+      ],
+      "tip": "Otoscope permite observar el conducto auditivo; stethoscope permite escuchar sonidos internos del cuerpo."
+    },
+    "blood-pressure-cuff": {
+      "sourceWord": "blood pressure cuff",
+      "senses": {
+        "blood-pressure-cuff:meaning-1": {
+          "gloss": "brazalete de presión arterial",
+          "definition": "Banda inflable que rodea una extremidad y forma parte de un aparato para medir la presión arterial."
+        }
+      },
+      "examples": [
+        {
+          "en": "The blood pressure cuff is connected to a tube.",
+          "translation": "El brazalete de presión arterial está conectado a un tubo."
+        },
+        {
+          "en": "The clinic keeps blood pressure cuffs in several sizes.",
+          "translation": "La clínica tiene brazaletes de presión arterial de varios tamaños."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an upper-arm blood pressure cuff",
+          "translation": "un brazalete de presión arterial para el brazo"
+        },
+        {
+          "en": "a blood pressure cuff tube",
+          "translation": "el tubo del brazalete de presión arterial"
+        },
+        {
+          "en": "an inflatable blood pressure cuff",
+          "translation": "un brazalete de presión arterial inflable"
+        }
+      ],
+      "tip": "Blood pressure cuff es la banda inflable; blood pressure monitor es el aparato completo."
+    },
+    "pulse-oximeter": {
+      "sourceWord": "pulse oximeter",
+      "senses": {
+        "pulse-oximeter:meaning-1": {
+          "gloss": "oxímetro de pulso",
+          "definition": "Aparato electrónico que usa luz para estimar la saturación de oxígeno en la sangre y la frecuencia del pulso, a menudo mediante una pinza en el dedo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pulse oximeter clips onto a fingertip.",
+          "translation": "El oxímetro de pulso se sujeta a la punta de un dedo."
+        },
+        {
+          "en": "The pulse oximeter has a screen on its upper surface.",
+          "translation": "El oxímetro de pulso tiene una pantalla en la parte superior."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a fingertip pulse oximeter",
+          "translation": "un oxímetro de pulso de dedo"
+        },
+        {
+          "en": "a pulse oximeter sensor",
+          "translation": "un sensor de oxímetro de pulso"
+        },
+        {
+          "en": "a pulse oximeter display",
+          "translation": "la pantalla del oxímetro de pulso"
+        }
+      ],
+      "tip": "Pulse oximeter estima la saturación de oxígeno en la sangre; blood pressure monitor mide la presión arterial."
+    },
+    "reflex-hammer": {
+      "sourceWord": "reflex hammer",
+      "senses": {
+        "reflex-hammer:meaning-1": {
+          "gloss": "martillo de reflejos",
+          "definition": "Instrumento médico pequeño con cabeza de goma que un profesional de salud usa para comprobar los reflejos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The reflex hammer has a triangular rubber head.",
+          "translation": "El martillo de reflejos tiene una cabeza triangular de goma."
+        },
+        {
+          "en": "The doctor kept a reflex hammer in a coat pocket.",
+          "translation": "El médico guardaba un martillo de reflejos en el bolsillo de la bata."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a rubber reflex hammer",
+          "translation": "un martillo de reflejos de goma"
+        },
+        {
+          "en": "a reflex hammer head",
+          "translation": "la cabeza del martillo de reflejos"
+        },
+        {
+          "en": "a reflex hammer handle",
+          "translation": "el mango del martillo de reflejos"
+        }
+      ],
+      "tip": "Reflex hammer es un instrumento ligero de exploración con cabeza de goma; un hammer de taller se usa para clavar y tareas similares."
+    },
+    "scalpel": {
+      "sourceWord": "scalpel",
+      "senses": {
+        "scalpel:meaning-1": {
+          "gloss": "bisturí",
+          "definition": "Cuchillo quirúrgico pequeño con una hoja muy afilada para hacer cortes precisos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The scalpel has a short blade and a long handle.",
+          "translation": "El bisturí tiene una hoja corta y un mango largo."
+        },
+        {
+          "en": "The sealed scalpel lay on the clean tray.",
+          "translation": "El bisturí sellado estaba en la bandeja limpia."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a scalpel blade",
+          "translation": "una hoja de bisturí"
+        },
+        {
+          "en": "a scalpel handle",
+          "translation": "un mango de bisturí"
+        },
+        {
+          "en": "a disposable scalpel",
+          "translation": "un bisturí desechable"
+        }
+      ],
+      "tip": "Scalpel es un pequeño cuchillo quirúrgico; scissors tiene dos hojas que se mueven una contra la otra."
+    },
+    "forceps": {
+      "sourceWord": "forceps",
+      "senses": {
+        "forceps:meaning-1": {
+          "gloss": "pinza médica",
+          "definition": "Instrumento médico con dos brazos para sujetar objetos pequeños o tejidos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The forceps have two narrow metal tips.",
+          "translation": "La pinza médica tiene dos puntas estrechas de metal."
+        },
+        {
+          "en": "A pair of forceps rested beside a folded gauze pad.",
+          "translation": "Había una pinza médica junto a una compresa de gasa doblada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a pair of forceps",
+          "translation": "una pinza médica"
+        },
+        {
+          "en": "forceps tips",
+          "translation": "las puntas de la pinza médica"
+        },
+        {
+          "en": "dressing forceps",
+          "translation": "pinza de curación"
+        }
+      ],
+      "tip": "Forceps suele tener forma plural en inglés: a pair of forceps. Aquí se refiere a la pinza para sujetar objetos, no al instrumento obstétrico."
+    },
+    "medicine-bottle": {
+      "sourceWord": "medicine bottle",
+      "senses": {
+        "medicine-bottle:meaning-1": {
+          "gloss": "frasco de medicamento",
+          "definition": "Frasco pequeño hecho para guardar un medicamento líquido o sólido."
+        }
+      },
+      "examples": [
+        {
+          "en": "The medicine bottle has a plain white cap.",
+          "translation": "El frasco de medicamento tiene una tapa blanca lisa."
+        },
+        {
+          "en": "The empty medicine bottle stood on the pharmacy counter.",
+          "translation": "El frasco de medicamento vacío estaba sobre el mostrador de la farmacia."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a medicine bottle cap",
+          "translation": "la tapa de un frasco de medicamento"
+        },
+        {
+          "en": "a medicine bottle label",
+          "translation": "la etiqueta de un frasco de medicamento"
+        },
+        {
+          "en": "an empty medicine bottle",
+          "translation": "un frasco de medicamento vacío"
+        }
+      ],
+      "tip": "Medicine bottle es el frasco del medicamento; pill es una pastilla, no el recipiente."
+    },
+    "bolt": {
+      "sourceWord": "bolt",
+      "senses": {
+        "bolt:meaning-1": {
+          "gloss": "perno",
+          "definition": "Elemento metálico de fijación con cabeza y rosca, que normalmente se asegura con una tuerca."
+        }
+      },
+      "examples": [
+        {
+          "en": "The bolt passes through both metal plates.",
+          "translation": "El perno atraviesa las dos placas de metal."
+        },
+        {
+          "en": "A nut holds the bolt in place.",
+          "translation": "Una tuerca mantiene el perno en su sitio."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a steel bolt",
+          "translation": "un perno de acero"
+        },
+        {
+          "en": "a bolt head",
+          "translation": "la cabeza del perno"
+        },
+        {
+          "en": "a bolt and nut",
+          "translation": "un perno y una tuerca"
+        }
+      ],
+      "tip": "Bolt suele sujetarse con una nut, la tuerca; screw suele entrar en el material o en un orificio roscado. Aquí bolt se traduce como perno."
+    },
+    "nut": {
+      "sourceWord": "nut",
+      "senses": {
+        "nut:meaning-1": {
+          "gloss": "tuerca",
+          "definition": "Pieza pequeña con un orificio roscado que se enrosca en un perno para unir piezas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The nut fits the thread on this bolt.",
+          "translation": "La tuerca encaja en la rosca de este perno."
+        },
+        {
+          "en": "She put the nut beside the washer.",
+          "translation": "Puso la tuerca junto a la arandela."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a hexagonal nut",
+          "translation": "una tuerca hexagonal"
+        },
+        {
+          "en": "tighten a nut",
+          "translation": "apretar una tuerca"
+        },
+        {
+          "en": "a nut and bolt",
+          "translation": "una tuerca y un perno"
+        }
+      ],
+      "tip": "Nut, en ingeniería, significa tuerca; washer es una arandela sin rosca. En alimentos, nut tiene otro significado."
+    },
+    "washer": {
+      "sourceWord": "washer",
+      "senses": {
+        "washer:meaning-1": {
+          "gloss": "arandela",
+          "definition": "Aro plano que se coloca bajo una tuerca o la cabeza de un perno para repartir la fuerza sobre una superficie mayor."
+        }
+      },
+      "examples": [
+        {
+          "en": "The washer lies between the nut and the plate.",
+          "translation": "La arandela está entre la tuerca y la placa."
+        },
+        {
+          "en": "The steel washer has a smooth central hole.",
+          "translation": "La arandela de acero tiene un orificio central liso."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a flat washer",
+          "translation": "una arandela plana"
+        },
+        {
+          "en": "a steel washer",
+          "translation": "una arandela de acero"
+        },
+        {
+          "en": "a washer under a nut",
+          "translation": "una arandela bajo la tuerca"
+        }
+      ],
+      "tip": "Washer aquí es la arandela plana sin rosca; nut es la tuerca con orificio roscado. En otro contexto, washer puede ser una lavadora."
+    },
+    "screw": {
+      "sourceWord": "screw",
+      "senses": {
+        "screw:meaning-1": {
+          "gloss": "tornillo",
+          "definition": "Elemento de fijación con rosca en espiral que se gira para introducirlo en un material o un orificio roscado y unir piezas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The screw has a pointed tip and a spiral thread.",
+          "translation": "El tornillo tiene una punta afilada y una rosca en espiral."
+        },
+        {
+          "en": "She turned the screw with a screwdriver.",
+          "translation": "Giró el tornillo con un destornillador."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a wood screw",
+          "translation": "un tornillo para madera"
+        },
+        {
+          "en": "a screw head",
+          "translation": "la cabeza de un tornillo"
+        },
+        {
+          "en": "tighten a screw",
+          "translation": "apretar un tornillo"
+        }
+      ],
+      "tip": "Screw se fija al girarlo; nail se introduce a golpes. No todos los screw tienen punta afilada; la imagen muestra un tornillo para madera."
+    },
+    "rivet": {
+      "sourceWord": "rivet",
+      "senses": {
+        "rivet:meaning-1": {
+          "gloss": "remache",
+          "definition": "Elemento de fijación con vástago liso que crea una unión permanente cuando su extremo se deforma para formar una segunda cabeza."
+        }
+      },
+      "examples": [
+        {
+          "en": "The rivet joins the two thin metal sheets.",
+          "translation": "El remache une las dos láminas delgadas de metal."
+        },
+        {
+          "en": "The rivet has no spiral thread.",
+          "translation": "El remache no tiene rosca en espiral."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a solid rivet",
+          "translation": "un remache macizo"
+        },
+        {
+          "en": "a rivet head",
+          "translation": "la cabeza de un remache"
+        },
+        {
+          "en": "a riveted joint",
+          "translation": "una unión remachada"
+        }
+      ],
+      "tip": "Rivet une las piezas al deformar uno de sus extremos; bolt suele apretarse y soltarse con una tuerca. La imagen muestra un remache macizo."
+    },
+    "brain": {
+      "sourceWord": "brain",
+      "senses": {
+        "brain:meaning-1": {
+          "gloss": "cerebro",
+          "definition": "Órgano dentro de la cabeza que procesa información y controla muchas actividades del cuerpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The brain is protected by the skull.",
+          "translation": "El cráneo protege el cerebro."
+        },
+        {
+          "en": "This model shows the two sides of the brain.",
+          "translation": "Este modelo muestra los dos lados del cerebro."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the human brain",
+          "translation": "el cerebro humano"
+        },
+        {
+          "en": "brain activity",
+          "translation": "actividad cerebral"
+        },
+        {
+          "en": "a brain scan",
+          "translation": "un estudio por imágenes del cerebro"
+        }
+      ],
+      "tip": "Brain nombra el órgano; mind se refiere a la mente y los pensamientos."
+    },
+    "lung": {
+      "sourceWord": "lung",
+      "senses": {
+        "lung:meaning-1": {
+          "gloss": "pulmón",
+          "definition": "Uno de los dos órganos del pecho donde el oxígeno del aire pasa a la sangre."
+        }
+      },
+      "examples": [
+        {
+          "en": "The model shows a lung inside the chest.",
+          "translation": "El modelo muestra un pulmón dentro del pecho."
+        },
+        {
+          "en": "Air reaches each lung through a branching airway.",
+          "translation": "El aire llega a cada pulmón por una vía respiratoria que se ramifica."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the left lung",
+          "translation": "el pulmón izquierdo"
+        },
+        {
+          "en": "lung tissue",
+          "translation": "tejido pulmonar"
+        },
+        {
+          "en": "lung function",
+          "translation": "función pulmonar"
+        }
+      ],
+      "tip": "Lung es singular y lungs es plural; chest es el pecho, no el pulmón."
+    },
+    "kidney": {
+      "sourceWord": "kidney",
+      "senses": {
+        "kidney:meaning-1": {
+          "gloss": "riñón",
+          "definition": "Uno de los dos órganos con forma de frijol que filtran la sangre y producen orina."
+        }
+      },
+      "examples": [
+        {
+          "en": "Each kidney filters blood.",
+          "translation": "Cada riñón filtra la sangre."
+        },
+        {
+          "en": "The diagram places the kidneys on either side of the spine.",
+          "translation": "El diagrama muestra los riñones a ambos lados de la columna."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the right kidney",
+          "translation": "el riñón derecho"
+        },
+        {
+          "en": "kidney function",
+          "translation": "función renal"
+        },
+        {
+          "en": "a kidney model",
+          "translation": "un modelo de riñón"
+        }
+      ],
+      "tip": "Kidney es riñón; liver es hígado. El plural en inglés es kidneys."
+    },
+    "liver": {
+      "sourceWord": "liver",
+      "senses": {
+        "liver:meaning-1": {
+          "gloss": "hígado",
+          "definition": "Órgano grande de la parte superior del abdomen que procesa sustancias de la sangre y produce bilis."
+        }
+      },
+      "examples": [
+        {
+          "en": "The liver makes bile for digestion.",
+          "translation": "El hígado produce bilis para la digestión."
+        },
+        {
+          "en": "The liver sits mainly on the right side of the upper abdomen.",
+          "translation": "El hígado se encuentra principalmente en el lado derecho de la parte superior del abdomen."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "liver function",
+          "translation": "función hepática"
+        },
+        {
+          "en": "liver cells",
+          "translation": "células del hígado"
+        },
+        {
+          "en": "the human liver",
+          "translation": "el hígado humano"
+        }
+      ],
+      "tip": "Liver es hígado; stomach es estómago. Son órganos distintos."
+    },
+    "stomach": {
+      "sourceWord": "stomach",
+      "senses": {
+        "stomach:meaning-1": {
+          "gloss": "estómago",
+          "definition": "Órgano hueco que recibe alimentos del esófago y los mezcla con jugos digestivos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The stomach mixes food with digestive juices.",
+          "translation": "El estómago mezcla los alimentos con jugos digestivos."
+        },
+        {
+          "en": "Food passes from the stomach into the small intestine.",
+          "translation": "Los alimentos pasan del estómago al intestino delgado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "stomach acid",
+          "translation": "ácido del estómago"
+        },
+        {
+          "en": "an empty stomach",
+          "translation": "el estómago vacío"
+        },
+        {
+          "en": "the stomach lining",
+          "translation": "el revestimiento del estómago"
+        }
+      ],
+      "tip": "Aquí stomach es el órgano. En el habla cotidiana también puede referirse a la zona del abdomen."
+    },
+    "intestine": {
+      "sourceWord": "intestine",
+      "senses": {
+        "intestine:meaning-1": {
+          "gloss": "intestino",
+          "definition": "Parte del tubo digestivo que sigue al estómago, donde se absorben nutrientes o agua."
+        }
+      },
+      "examples": [
+        {
+          "en": "The small intestine absorbs most nutrients from food.",
+          "translation": "El intestino delgado absorbe la mayoría de los nutrientes de los alimentos."
+        },
+        {
+          "en": "The large intestine absorbs water from the remaining material.",
+          "translation": "El intestino grueso absorbe agua del material restante."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the small intestine",
+          "translation": "el intestino delgado"
+        },
+        {
+          "en": "the large intestine",
+          "translation": "el intestino grueso"
+        },
+        {
+          "en": "the wall of the intestine",
+          "translation": "la pared del intestino"
+        }
+      ],
+      "tip": "Small intestine es intestino delgado y large intestine es intestino grueso; intestines es plural."
+    },
+    "bone": {
+      "sourceWord": "bone",
+      "senses": {
+        "bone:meaning-1": {
+          "gloss": "hueso",
+          "definition": "Una de las partes duras y vivas que forman el esqueleto y sostienen el cuerpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "This bone is part of the upper arm.",
+          "translation": "Este hueso forma parte del brazo."
+        },
+        {
+          "en": "Bones work with muscles to help the body move.",
+          "translation": "Los huesos trabajan con los músculos para ayudar al cuerpo a moverse."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a long bone",
+          "translation": "un hueso largo"
+        },
+        {
+          "en": "bone tissue",
+          "translation": "tejido óseo"
+        },
+        {
+          "en": "a broken bone",
+          "translation": "un hueso roto"
+        }
+      ],
+      "tip": "Bone es un hueso; skeleton es el esqueleto y joint es una articulación."
+    },
+    "joint": {
+      "sourceWord": "joint",
+      "senses": {
+        "joint:meaning-1": {
+          "gloss": "articulación",
+          "definition": "Lugar del cuerpo donde se unen dos o más huesos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The elbow is a joint in the arm.",
+          "translation": "El codo es una articulación del brazo."
+        },
+        {
+          "en": "This model shows how the bones meet at the knee joint.",
+          "translation": "Este modelo muestra cómo se unen los huesos en la articulación de la rodilla."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the knee joint",
+          "translation": "la articulación de la rodilla"
+        },
+        {
+          "en": "a shoulder joint",
+          "translation": "una articulación del hombro"
+        },
+        {
+          "en": "joint movement",
+          "translation": "movimiento articular"
+        }
+      ],
+      "tip": "Aquí joint es una articulación del cuerpo; en ingeniería también puede ser la unión de piezas."
+    },
+    "muscle": {
+      "sourceWord": "muscle",
+      "senses": {
+        "muscle:meaning-1": {
+          "gloss": "músculo",
+          "definition": "Estructura del cuerpo formada por tejido que se contrae y se relaja para producir fuerza o movimiento."
+        }
+      },
+      "examples": [
+        {
+          "en": "This muscle helps bend the arm.",
+          "translation": "Este músculo ayuda a doblar el brazo."
+        },
+        {
+          "en": "The model shows a muscle attached to a bone by a tendon.",
+          "translation": "El modelo muestra un músculo unido a un hueso por un tendón."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a calf muscle",
+          "translation": "un músculo de la pantorrilla"
+        },
+        {
+          "en": "muscle tissue",
+          "translation": "tejido muscular"
+        },
+        {
+          "en": "muscle contraction",
+          "translation": "contracción muscular"
+        }
+      ],
+      "tip": "Muscle se contrae; tendon une el músculo al hueso. La c de muscle no se pronuncia."
+    },
+    "tendon": {
+      "sourceWord": "tendon",
+      "senses": {
+        "tendon:meaning-1": {
+          "gloss": "tendón",
+          "definition": "Banda resistente de tejido que une un músculo a un hueso y transmite su fuerza de tracción."
+        }
+      },
+      "examples": [
+        {
+          "en": "A tendon connects this muscle to the bone.",
+          "translation": "Un tendón une este músculo al hueso."
+        },
+        {
+          "en": "The Achilles tendon attaches the calf muscles to the heel bone.",
+          "translation": "El tendón de Aquiles une los músculos de la pantorrilla al hueso del talón."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the Achilles tendon",
+          "translation": "el tendón de Aquiles"
+        },
+        {
+          "en": "tendon tissue",
+          "translation": "tejido del tendón"
+        },
+        {
+          "en": "a tendon attachment",
+          "translation": "una inserción del tendón"
+        }
+      ],
+      "tip": "Tendon une músculo con hueso; ligament generalmente une un hueso con otro."
+    },
+    "ligament": {
+      "sourceWord": "ligament",
+      "senses": {
+        "ligament:meaning-1": {
+          "gloss": "ligamento",
+          "definition": "Banda resistente de tejido que une huesos y ayuda a mantener estable una articulación."
+        }
+      },
+      "examples": [
+        {
+          "en": "This ligament joins two bones at the knee.",
+          "translation": "Este ligamento une dos huesos en la rodilla."
+        },
+        {
+          "en": "The model shows a ligament beside the joint.",
+          "translation": "El modelo muestra un ligamento junto a la articulación."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a knee ligament",
+          "translation": "un ligamento de la rodilla"
+        },
+        {
+          "en": "ligament tissue",
+          "translation": "tejido del ligamento"
+        },
+        {
+          "en": "a torn ligament",
+          "translation": "un ligamento desgarrado"
+        }
+      ],
+      "tip": "Ligament une huesos y estabiliza la articulación; tendon une músculo con hueso."
+    },
+    "artery": {
+      "sourceWord": "artery",
+      "senses": {
+        "artery:meaning-1": {
+          "gloss": "arteria",
+          "definition": "Vaso sanguíneo que lleva la sangre desde el corazón hacia otras partes."
+        }
+      },
+      "examples": [
+        {
+          "en": "An artery carries blood away from the heart.",
+          "translation": "Una arteria lleva la sangre desde el corazón hacia otras partes."
+        },
+        {
+          "en": "The diagram shows an artery branching into smaller vessels.",
+          "translation": "El diagrama muestra una arteria que se ramifica en vasos más pequeños."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an artery wall",
+          "translation": "una pared arterial"
+        },
+        {
+          "en": "a major artery",
+          "translation": "una arteria principal"
+        },
+        {
+          "en": "blood in an artery",
+          "translation": "sangre en una arteria"
+        }
+      ],
+      "tip": "Artery se define por la dirección de la sangre desde el corazón, no por su oxígeno. El plural es arteries."
+    },
+    "vein": {
+      "sourceWord": "vein",
+      "senses": {
+        "vein:meaning-1": {
+          "gloss": "vena",
+          "definition": "Vaso sanguíneo que lleva la sangre hacia el corazón."
+        }
+      },
+      "examples": [
+        {
+          "en": "A vein carries blood toward the heart.",
+          "translation": "Una vena lleva la sangre hacia el corazón."
+        },
+        {
+          "en": "Some veins have valves that help keep blood moving in one direction.",
+          "translation": "Algunas venas tienen válvulas que ayudan a que la sangre avance en una sola dirección."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a vein in the arm",
+          "translation": "una vena del brazo"
+        },
+        {
+          "en": "a vein wall",
+          "translation": "una pared venosa"
+        },
+        {
+          "en": "blood in a vein",
+          "translation": "sangre en una vena"
+        }
+      ],
+      "tip": "Vein lleva la sangre al corazón. La sangre venosa también es roja; el azul de algunos diagramas es una convención."
+    },
+    "nerve": {
+      "sourceWord": "nerve",
+      "senses": {
+        "nerve:meaning-1": {
+          "gloss": "nervio",
+          "definition": "Conjunto de fibras nerviosas que lleva señales entre el sistema nervioso central y otras partes del cuerpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "A nerve carries signals between the spinal cord and the hand.",
+          "translation": "Un nervio lleva señales entre la médula espinal y la mano."
+        },
+        {
+          "en": "This drawing shows several fibers inside one nerve.",
+          "translation": "Este dibujo muestra varias fibras dentro de un nervio."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a nerve signal",
+          "translation": "una señal nerviosa"
+        },
+        {
+          "en": "nerve fibers",
+          "translation": "fibras nerviosas"
+        },
+        {
+          "en": "a peripheral nerve",
+          "translation": "un nervio periférico"
+        }
+      ],
+      "tip": "Nerve es un conjunto de fibras; neuron es una célula nerviosa. Nerves también puede expresar nerviosismo."
+    },
+    "skin": {
+      "sourceWord": "skin",
+      "senses": {
+        "skin:meaning-1": {
+          "gloss": "piel",
+          "definition": "Cubierta externa y flexible del cuerpo que protege los tejidos que están debajo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The skin covers the outside of the body.",
+          "translation": "La piel cubre la parte externa del cuerpo."
+        },
+        {
+          "en": "This diagram shows the layers beneath the surface of the skin.",
+          "translation": "Este diagrama muestra las capas debajo de la superficie de la piel."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "skin surface",
+          "translation": "superficie de la piel"
+        },
+        {
+          "en": "skin cells",
+          "translation": "células de la piel"
+        },
+        {
+          "en": "a layer of skin",
+          "translation": "una capa de piel"
+        }
+      ],
+      "tip": "Skin suele ser incontable al hablar de la piel del cuerpo; una zona es a patch of skin."
+    },
+    "spine": {
+      "sourceWord": "spine",
+      "senses": {
+        "spine:meaning-1": {
+          "gloss": "columna vertebral",
+          "definition": "Conjunto de huesos unidos a lo largo de la espalda que sostiene el cuerpo y protege la médula espinal."
+        }
+      },
+      "examples": [
+        {
+          "en": "The spine is made of a series of bones.",
+          "translation": "La columna vertebral está formada por una serie de huesos."
+        },
+        {
+          "en": "The spinal cord runs inside the spine.",
+          "translation": "La médula espinal pasa por dentro de la columna vertebral."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the human spine",
+          "translation": "la columna vertebral humana"
+        },
+        {
+          "en": "the base of the spine",
+          "translation": "la base de la columna vertebral"
+        },
+        {
+          "en": "a spine model",
+          "translation": "un modelo de columna vertebral"
+        }
+      ],
+      "tip": "Spine es la columna de huesos; spinal cord es la médula espinal en su interior. Backbone también significa columna vertebral."
+    },
+    "rib": {
+      "sourceWord": "rib",
+      "senses": {
+        "rib:meaning-1": {
+          "gloss": "costilla",
+          "definition": "Uno de los huesos curvos del pecho que ayudan a proteger el corazón y los pulmones."
+        }
+      },
+      "examples": [
+        {
+          "en": "The model highlights one rib in the chest.",
+          "translation": "El modelo destaca una costilla en el pecho."
+        },
+        {
+          "en": "The ribs form a protective cage around the chest organs.",
+          "translation": "Las costillas forman una caja protectora alrededor de los órganos del pecho."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a curved rib",
+          "translation": "una costilla curva"
+        },
+        {
+          "en": "the rib cage",
+          "translation": "la caja torácica"
+        },
+        {
+          "en": "a broken rib",
+          "translation": "una costilla rota"
+        }
+      ],
+      "tip": "Rib es una costilla; rib cage nombra la estructura ósea de la caja torácica."
+    },
+    "bearing": {
+      "sourceWord": "bearing",
+      "senses": {
+        "bearing:meaning-1": {
+          "gloss": "cojinete; rodamiento",
+          "definition": "Pieza que sostiene un eje móvil y facilita su giro al reducir la fricción."
+        }
+      },
+      "examples": [
+        {
+          "en": "The bearing supports the rotating shaft.",
+          "translation": "El cojinete sostiene el eje que gira."
+        },
+        {
+          "en": "Small steel balls roll between the rings of this bearing.",
+          "translation": "Pequeñas bolas de acero ruedan entre los anillos de este rodamiento."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a ball bearing",
+          "translation": "un rodamiento de bolas"
+        },
+        {
+          "en": "a bearing ring",
+          "translation": "un anillo de rodamiento"
+        },
+        {
+          "en": "replace a bearing",
+          "translation": "cambiar un rodamiento"
+        }
+      ],
+      "tip": "Aquí bearing es una pieza de apoyo del eje. Ball bearing es el tipo con bolas, llamado rodamiento de bolas."
+    },
+    "shaft": {
+      "sourceWord": "shaft",
+      "senses": {
+        "shaft:meaning-1": {
+          "gloss": "eje",
+          "definition": "Barra de una máquina que gira para transmitir movimiento o potencia entre piezas conectadas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The shaft connects the motor to the wheel.",
+          "translation": "El eje conecta el motor con la rueda."
+        },
+        {
+          "en": "Two bearings support the shaft as it turns.",
+          "translation": "Dos cojinetes sostienen el eje mientras gira."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a drive shaft",
+          "translation": "un eje de transmisión"
+        },
+        {
+          "en": "a rotating shaft",
+          "translation": "un eje giratorio"
+        },
+        {
+          "en": "shaft rotation",
+          "translation": "rotación del eje"
+        }
+      ],
+      "tip": "Aquí shaft es un eje que transmite giro; también puede nombrar el mango largo de una herramienta o un pozo vertical."
+    },
+    "pulley": {
+      "sourceWord": "pulley",
+      "senses": {
+        "pulley:meaning-1": {
+          "gloss": "polea",
+          "definition": "Rueda con una ranura que guía una cuerda o correa para cambiar la dirección de una fuerza o transmitir movimiento."
+        }
+      },
+      "examples": [
+        {
+          "en": "The rope runs over the pulley.",
+          "translation": "La cuerda pasa por la polea."
+        },
+        {
+          "en": "Pulling down on the rope lifts the load on the other side of the pulley.",
+          "translation": "Al tirar de la cuerda hacia abajo, la carga del otro lado de la polea sube."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a fixed pulley",
+          "translation": "una polea fija"
+        },
+        {
+          "en": "a pulley wheel",
+          "translation": "una rueda de polea"
+        },
+        {
+          "en": "a pulley system",
+          "translation": "un sistema de poleas"
+        }
+      ],
+      "tip": "Pulley es la rueda con ranura; rope es la cuerda. Una polea fija puede limitarse a cambiar la dirección de la fuerza."
+    },
+    "lever": {
+      "sourceWord": "lever",
+      "senses": {
+        "lever:meaning-1": {
+          "gloss": "palanca",
+          "definition": "Barra rígida que gira sobre un punto de apoyo para mover o levantar algo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The lever rests on a support point.",
+          "translation": "La palanca descansa sobre un punto de apoyo."
+        },
+        {
+          "en": "Pushing one end of the lever down raises the other end.",
+          "translation": "Empujar hacia abajo un extremo de la palanca hace subir el otro."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a lever arm",
+          "translation": "un brazo de palanca"
+        },
+        {
+          "en": "a simple lever",
+          "translation": "una palanca simple"
+        },
+        {
+          "en": "push the lever",
+          "translation": "empujar la palanca"
+        }
+      ],
+      "tip": "Lever es la palanca; fulcrum es su punto de apoyo. La pronunciación estadounidense habitual difiere de la británica."
+    },
+    "piston": {
+      "sourceWord": "piston",
+      "senses": {
+        "piston:meaning-1": {
+          "gloss": "pistón",
+          "definition": "Pieza ajustada al interior de un cilindro que se mueve de un lado a otro para transmitir fuerza."
+        }
+      },
+      "examples": [
+        {
+          "en": "The piston moves inside the cylinder.",
+          "translation": "El pistón se mueve dentro del cilindro."
+        },
+        {
+          "en": "A connecting rod joins this piston to the crankshaft.",
+          "translation": "Una biela une este pistón con el cigüeñal."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a piston ring",
+          "translation": "un anillo de pistón"
+        },
+        {
+          "en": "piston movement",
+          "translation": "movimiento del pistón"
+        },
+        {
+          "en": "an engine piston",
+          "translation": "un pistón de motor"
+        }
+      ],
+      "tip": "Piston es la pieza móvil; cylinder es el cilindro que la rodea y connecting rod es la biela."
+    },
+    "cylinder": {
+      "sourceWord": "cylinder",
+      "senses": {
+        "cylinder:meaning-1": {
+          "gloss": "cilindro del motor",
+          "definition": "Cámara circular de un motor en la que se mueve un pistón."
+        }
+      },
+      "examples": [
+        {
+          "en": "The piston moves inside the cylinder.",
+          "translation": "El pistón se mueve dentro del cilindro."
+        },
+        {
+          "en": "This engine has four cylinders.",
+          "translation": "Este motor tiene cuatro cilindros."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "engine cylinder",
+          "translation": "cilindro del motor"
+        },
+        {
+          "en": "cylinder wall",
+          "translation": "pared del cilindro"
+        },
+        {
+          "en": "cylinder head",
+          "translation": "culata del cilindro"
+        }
+      ],
+      "tip": "Aquí, cylinder es la cámara del pistón en un motor; en geometría también significa cilindro."
+    },
+    "pump": {
+      "sourceWord": "pump",
+      "senses": {
+        "pump:meaning-1": {
+          "gloss": "bomba",
+          "definition": "Máquina que impulsa un líquido por una tubería o un sistema."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pump moves water into the tank.",
+          "translation": "La bomba lleva agua al tanque."
+        },
+        {
+          "en": "A small leak appeared beside the pump.",
+          "translation": "Apareció una pequeña fuga junto a la bomba."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "water pump",
+          "translation": "bomba de agua"
+        },
+        {
+          "en": "pump housing",
+          "translation": "carcasa de la bomba"
+        },
+        {
+          "en": "pump inlet",
+          "translation": "entrada de la bomba"
+        }
+      ],
+      "tip": "En este uso, pump mueve líquidos; compressor comprime gases."
+    },
+    "compressor": {
+      "sourceWord": "compressor",
+      "senses": {
+        "compressor:meaning-1": {
+          "gloss": "compresor",
+          "definition": "Máquina que aumenta la presión de un gas al comprimirlo en un espacio menor."
+        }
+      },
+      "examples": [
+        {
+          "en": "The compressor supplies air to the workshop.",
+          "translation": "El compresor suministra aire al taller."
+        },
+        {
+          "en": "The technician checked the compressor housing.",
+          "translation": "La técnica revisó la carcasa del compresor."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "air compressor",
+          "translation": "compresor de aire"
+        },
+        {
+          "en": "compressor outlet",
+          "translation": "salida del compresor"
+        },
+        {
+          "en": "compressor housing",
+          "translation": "carcasa del compresor"
+        }
+      ],
+      "tip": "Un compressor aumenta la presión del gas; una turbine obtiene energía de un fluido en movimiento."
+    },
+    "turbine": {
+      "sourceWord": "turbine",
+      "senses": {
+        "turbine:meaning-1": {
+          "gloss": "turbina",
+          "definition": "Máquina cuyas aspas giran cuando un fluido en movimiento las empuja."
+        }
+      },
+      "examples": [
+        {
+          "en": "Water turns the turbine beneath the dam.",
+          "translation": "El agua hace girar la turbina debajo de la presa."
+        },
+        {
+          "en": "The turbine drives a generator.",
+          "translation": "La turbina acciona un generador."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "steam turbine",
+          "translation": "turbina de vapor"
+        },
+        {
+          "en": "turbine blade",
+          "translation": "aspa de la turbina"
+        },
+        {
+          "en": "wind turbine",
+          "translation": "turbina eólica"
+        }
+      ],
+      "tip": "Una turbine recibe energía del movimiento de un fluido; el generator convierte energía mecánica en electricidad."
+    },
+    "nozzle": {
+      "sourceWord": "nozzle",
+      "senses": {
+        "nozzle:meaning-1": {
+          "gloss": "boquilla",
+          "definition": "Salida con una forma diseñada para dirigir o controlar un flujo de líquido o gas."
+        }
+      },
+      "examples": [
+        {
+          "en": "Water leaves the nozzle in a narrow stream.",
+          "translation": "El agua sale de la boquilla en un chorro estrecho."
+        },
+        {
+          "en": "The nozzle is attached to the end of the hose.",
+          "translation": "La boquilla está unida al extremo de la manguera."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "spray nozzle",
+          "translation": "boquilla de pulverización"
+        },
+        {
+          "en": "nozzle opening",
+          "translation": "abertura de la boquilla"
+        },
+        {
+          "en": "nozzle tip",
+          "translation": "punta de la boquilla"
+        }
+      ],
+      "tip": "Nozzle es la pieza de salida que dirige el flujo; no es cualquier agujero."
+    },
+    "seal": {
+      "sourceWord": "seal",
+      "senses": {
+        "seal:meaning-1": {
+          "gloss": "sello de eje",
+          "definition": "Pieza colocada alrededor de un eje en movimiento para limitar las fugas de fluido."
+        }
+      },
+      "examples": [
+        {
+          "en": "The seal fits around the rotating shaft.",
+          "translation": "El sello rodea el eje giratorio."
+        },
+        {
+          "en": "Oil leaked past the worn seal.",
+          "translation": "El aceite se filtró por el sello desgastado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "shaft seal",
+          "translation": "sello de eje"
+        },
+        {
+          "en": "rotary seal",
+          "translation": "sello rotativo"
+        },
+        {
+          "en": "seal lip",
+          "translation": "labio del sello"
+        }
+      ],
+      "tip": "Aquí, seal rodea un eje móvil; gasket suele colocarse entre dos superficies fijas."
+    },
+    "gasket": {
+      "sourceWord": "gasket",
+      "senses": {
+        "gasket:meaning-1": {
+          "gloss": "junta de sellado",
+          "definition": "Capa colocada entre dos superficies unidas para evitar que el fluido escape por la unión."
+        }
+      },
+      "examples": [
+        {
+          "en": "The gasket sits between the two flanges.",
+          "translation": "La junta queda entre las dos bridas."
+        },
+        {
+          "en": "The old gasket had a crack near the edge.",
+          "translation": "La junta vieja tenía una grieta cerca del borde."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "rubber gasket",
+          "translation": "junta de goma"
+        },
+        {
+          "en": "flange gasket",
+          "translation": "junta de brida"
+        },
+        {
+          "en": "gasket material",
+          "translation": "material de la junta"
+        }
+      ],
+      "tip": "Gasket es una junta de sellado; washer puede ser una arandela que distribuye la fuerza de un tornillo."
+    },
+    "hinge": {
+      "sourceWord": "hinge",
+      "senses": {
+        "hinge:meaning-1": {
+          "gloss": "bisagra",
+          "definition": "Articulación que permite que una pieza gire alrededor de una línea fija con respecto a otra."
+        }
+      },
+      "examples": [
+        {
+          "en": "The hinge allows the lid to open.",
+          "translation": "La bisagra permite abrir la tapa."
+        },
+        {
+          "en": "A pin joins the two leaves of the hinge.",
+          "translation": "Un pasador une las dos hojas de la bisagra."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "door hinge",
+          "translation": "bisagra de puerta"
+        },
+        {
+          "en": "hinge pin",
+          "translation": "pasador de bisagra"
+        },
+        {
+          "en": "hinge joint",
+          "translation": "articulación de bisagra"
+        }
+      ],
+      "tip": "Hinge permite girar sobre un eje definido; clamp sujeta una pieza para mantenerla fija."
+    },
+    "clamp": {
+      "sourceWord": "clamp",
+      "senses": {
+        "clamp:meaning-1": {
+          "gloss": "prensa de sujeción",
+          "definition": "Herramienta que aprieta piezas entre sí para mantenerlas firmes en su lugar."
+        }
+      },
+      "examples": [
+        {
+          "en": "The clamp holds the two boards together.",
+          "translation": "La prensa mantiene juntas las dos tablas."
+        },
+        {
+          "en": "A rubber pad protects the wood beneath the clamp.",
+          "translation": "Una almohadilla de goma protege la madera bajo la prensa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "screw clamp",
+          "translation": "prensa de tornillo"
+        },
+        {
+          "en": "clamp jaw",
+          "translation": "mordaza de la prensa"
+        },
+        {
+          "en": "clamp pressure",
+          "translation": "presión de la prensa"
+        }
+      ],
+      "tip": "Clamp suele ser una prensa móvil; vise generalmente es un tornillo de banco fijado a la mesa."
+    },
+    "vise": {
+      "sourceWord": "vise",
+      "senses": {
+        "vise:meaning-1": {
+          "gloss": "tornillo de banco",
+          "definition": "Herramienta con dos mordazas, normalmente fijada a una mesa de trabajo, que sujeta una pieza mientras se trabaja en ella."
+        }
+      },
+      "examples": [
+        {
+          "en": "The vise holds the metal block on the workbench.",
+          "translation": "El tornillo de banco sujeta el bloque de metal sobre la mesa de trabajo."
+        },
+        {
+          "en": "The jaws of the vise have soft covers.",
+          "translation": "Las mordazas del tornillo de banco tienen cubiertas blandas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "bench vise",
+          "translation": "tornillo de banco"
+        },
+        {
+          "en": "vise jaws",
+          "translation": "mordazas del tornillo de banco"
+        },
+        {
+          "en": "vise handle",
+          "translation": "manivela del tornillo de banco"
+        }
+      ],
+      "tip": "Vise es la escritura estadounidense de esta herramienta; en inglés británico suele escribirse vice."
+    },
+    "wrench": {
+      "sourceWord": "wrench",
+      "senses": {
+        "wrench:meaning-1": {
+          "gloss": "llave de tuercas",
+          "definition": "Herramienta manual con una abertura que sujeta una tuerca o la cabeza de un tornillo para girarla."
+        }
+      },
+      "examples": [
+        {
+          "en": "The wrench fits the nut on the bracket.",
+          "translation": "La llave encaja en la tuerca del soporte."
+        },
+        {
+          "en": "She chose an adjustable wrench from the toolbox.",
+          "translation": "Ella eligió una llave ajustable de la caja de herramientas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "adjustable wrench",
+          "translation": "llave ajustable"
+        },
+        {
+          "en": "socket wrench",
+          "translation": "llave de dado"
+        },
+        {
+          "en": "wrench size",
+          "translation": "tamaño de la llave"
+        }
+      ],
+      "tip": "Wrench es común en inglés estadounidense; en británico muchas de estas herramientas se llaman spanner."
+    },
+    "screwdriver": {
+      "sourceWord": "screwdriver",
+      "senses": {
+        "screwdriver:meaning-1": {
+          "gloss": "destornillador",
+          "definition": "Herramienta manual cuya punta encaja en la cabeza de un tornillo para girarlo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The screwdriver fits the slot in the screw head.",
+          "translation": "El destornillador encaja en la ranura de la cabeza del tornillo."
+        },
+        {
+          "en": "He put the screwdriver back in the toolbox.",
+          "translation": "Él volvió a guardar el destornillador en la caja de herramientas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "flat-head screwdriver",
+          "translation": "destornillador plano"
+        },
+        {
+          "en": "screwdriver tip",
+          "translation": "punta del destornillador"
+        },
+        {
+          "en": "screwdriver handle",
+          "translation": "mango del destornillador"
+        }
+      ],
+      "tip": "Screwdriver gira un tornillo con la punta dentro de su cabeza; wrench sujeta la parte exterior de una tuerca o cabeza."
+    },
+    "caliper": {
+      "sourceWord": "caliper",
+      "senses": {
+        "caliper:meaning-1": {
+          "gloss": "calibrador",
+          "definition": "Instrumento de medición con mordazas deslizantes que se ajustan por fuera o por dentro de un objeto."
+        }
+      },
+      "examples": [
+        {
+          "en": "The caliper measures the width of the block.",
+          "translation": "El calibrador mide el ancho del bloque."
+        },
+        {
+          "en": "The inside jaws of the caliper fit into the opening.",
+          "translation": "Las mordazas interiores del calibrador caben en la abertura."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "vernier caliper",
+          "translation": "calibrador vernier"
+        },
+        {
+          "en": "caliper jaws",
+          "translation": "mordazas del calibrador"
+        },
+        {
+          "en": "digital caliper",
+          "translation": "calibrador digital"
+        }
+      ],
+      "tip": "Aquí, caliper es un instrumento de medición; brake caliper es una pieza del freno."
+    },
+    "micrometer": {
+      "sourceWord": "micrometer",
+      "senses": {
+        "micrometer:meaning-1": {
+          "gloss": "micrómetro",
+          "definition": "Instrumento de medición que usa un tornillo de paso fino para ajustar la distancia entre dos caras de contacto."
+        }
+      },
+      "examples": [
+        {
+          "en": "The micrometer measures the thickness of the sheet.",
+          "translation": "El micrómetro mide el espesor de la lámina."
+        },
+        {
+          "en": "The part rests between the anvil and spindle of the micrometer.",
+          "translation": "La pieza queda entre el yunque y el husillo del micrómetro."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "outside micrometer",
+          "translation": "micrómetro de exteriores"
+        },
+        {
+          "en": "micrometer spindle",
+          "translation": "husillo del micrómetro"
+        },
+        {
+          "en": "micrometer anvil",
+          "translation": "yunque del micrómetro"
+        }
+      ],
+      "tip": "Aquí, micrometer es el instrumento; la unidad de longitud se escribe micrometre en inglés británico."
+    },
+    "multimeter": {
+      "sourceWord": "multimeter",
+      "senses": {
+        "multimeter:meaning-1": {
+          "gloss": "multímetro",
+          "definition": "Instrumento que puede medir varias magnitudes eléctricas, como voltaje y resistencia."
+        }
+      },
+      "examples": [
+        {
+          "en": "The multimeter has two test leads.",
+          "translation": "El multímetro tiene dos cables de prueba."
+        },
+        {
+          "en": "The technician used a multimeter to check the battery voltage.",
+          "translation": "El técnico usó un multímetro para revisar el voltaje de la batería."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "digital multimeter",
+          "translation": "multímetro digital"
+        },
+        {
+          "en": "multimeter display",
+          "translation": "pantalla del multímetro"
+        },
+        {
+          "en": "multimeter test leads",
+          "translation": "cables de prueba del multímetro"
+        }
+      ],
+      "tip": "Multimeter mide diferentes magnitudes; voltmeter se usa para medir voltaje."
+    },
+    "resistor": {
+      "sourceWord": "resistor",
+      "senses": {
+        "resistor:meaning-1": {
+          "gloss": "resistencia",
+          "definition": "Componente eléctrico que se opone a la corriente y disipa energía en forma de calor."
+        }
+      },
+      "examples": [
+        {
+          "en": "The resistor has a wire lead at each end.",
+          "translation": "La resistencia tiene un terminal de alambre en cada extremo."
+        },
+        {
+          "en": "The circuit includes a resistor beside the diode.",
+          "translation": "El circuito incluye una resistencia junto al diodo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "fixed resistor",
+          "translation": "resistencia fija"
+        },
+        {
+          "en": "resistor value",
+          "translation": "valor de la resistencia"
+        },
+        {
+          "en": "resistor lead",
+          "translation": "terminal de la resistencia"
+        }
+      ],
+      "tip": "Resistor nombra el componente; resistance nombra la magnitud de resistencia eléctrica."
+    },
+    "capacitor": {
+      "sourceWord": "capacitor",
+      "senses": {
+        "capacitor:meaning-1": {
+          "gloss": "capacitor",
+          "definition": "Componente eléctrico que almacena energía en un campo eléctrico entre conductores separados."
+        }
+      },
+      "examples": [
+        {
+          "en": "The capacitor has two terminals.",
+          "translation": "El capacitor tiene dos terminales."
+        },
+        {
+          "en": "A capacitor stores energy in an electric field.",
+          "translation": "Un capacitor almacena energía en un campo eléctrico."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "ceramic capacitor",
+          "translation": "capacitor cerámico"
+        },
+        {
+          "en": "capacitor terminals",
+          "translation": "terminales del capacitor"
+        },
+        {
+          "en": "capacitor value",
+          "translation": "valor del capacitor"
+        }
+      ],
+      "tip": "Capacitor es el componente y capacitance es su capacitancia; no equivale a battery."
+    },
+    "diode": {
+      "sourceWord": "diode",
+      "senses": {
+        "diode:meaning-1": {
+          "gloss": "diodo",
+          "definition": "Componente electrónico que deja pasar la corriente con mucha más facilidad en un sentido que en el otro."
+        }
+      },
+      "examples": [
+        {
+          "en": "The diode has a band near one end.",
+          "translation": "El diodo tiene una banda cerca de uno de sus extremos."
+        },
+        {
+          "en": "The circuit uses a diode to control the direction of current.",
+          "translation": "El circuito usa un diodo para controlar el sentido de la corriente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "silicon diode",
+          "translation": "diodo de silicio"
+        },
+        {
+          "en": "diode terminals",
+          "translation": "terminales del diodo"
+        },
+        {
+          "en": "diode band",
+          "translation": "banda del diodo"
+        }
+      ],
+      "tip": "Un diode común tiene dos terminales; un transistor común tiene tres y cumple otra función en el circuito."
+    },
+    "transistor": {
+      "sourceWord": "transistor",
+      "senses": {
+        "transistor:meaning-1": {
+          "gloss": "transistor",
+          "definition": "Componente semiconductor que se usa para conmutar o amplificar señales eléctricas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The transistor in the picture has three leads.",
+          "translation": "El transistor de la imagen tiene tres terminales."
+        },
+        {
+          "en": "A transistor controls the signal in this amplifier.",
+          "translation": "Un transistor controla la señal en este amplificador."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "transistor switch",
+          "translation": "interruptor con transistor"
+        },
+        {
+          "en": "transistor amplifier",
+          "translation": "amplificador con transistor"
+        },
+        {
+          "en": "transistor leads",
+          "translation": "terminales del transistor"
+        }
+      ],
+      "tip": "Transistor controla o amplifica señales; no toda pieza con tres terminales es un transistor."
+    },
+    "transformer": {
+      "sourceWord": "transformer",
+      "senses": {
+        "transformer:meaning-1": {
+          "gloss": "transformador",
+          "definition": "Dispositivo que transfiere energía eléctrica entre bobinas mediante un campo magnético variable, a menudo para cambiar el voltaje alterno."
+        }
+      },
+      "examples": [
+        {
+          "en": "The transformer has two coils around a shared core.",
+          "translation": "El transformador tiene dos bobinas alrededor de un núcleo compartido."
+        },
+        {
+          "en": "This transformer lowers the AC voltage.",
+          "translation": "Este transformador reduce el voltaje alterno."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "step-down transformer",
+          "translation": "transformador reductor"
+        },
+        {
+          "en": "transformer core",
+          "translation": "núcleo del transformador"
+        },
+        {
+          "en": "transformer winding",
+          "translation": "devanado del transformador"
+        }
+      ],
+      "tip": "Transformer funciona mediante un campo magnético variable; no significa cualquier convertidor de energía."
+    },
+    "motor": {
+      "sourceWord": "motor",
+      "senses": {
+        "motor:meaning-1": {
+          "gloss": "motor eléctrico",
+          "definition": "Máquina que usa energía eléctrica para producir movimiento mecánico."
+        }
+      },
+      "examples": [
+        {
+          "en": "The motor turns the fan.",
+          "translation": "El motor hace girar el ventilador."
+        },
+        {
+          "en": "Wires carry power from the battery to the motor.",
+          "translation": "Los cables llevan energía de la batería al motor."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "electric motor",
+          "translation": "motor eléctrico"
+        },
+        {
+          "en": "motor shaft",
+          "translation": "eje del motor"
+        },
+        {
+          "en": "motor winding",
+          "translation": "devanado del motor"
+        }
+      ],
+      "tip": "En este uso, motor transforma electricidad en movimiento; generator transforma movimiento en electricidad."
+    },
+    "generator": {
+      "sourceWord": "generator",
+      "senses": {
+        "generator:meaning-1": {
+          "gloss": "generador",
+          "definition": "Máquina que convierte movimiento mecánico en energía eléctrica."
+        }
+      },
+      "examples": [
+        {
+          "en": "The generator produces electricity when its shaft turns.",
+          "translation": "El generador produce electricidad cuando gira su eje."
+        },
+        {
+          "en": "A turbine drives the generator at the power station.",
+          "translation": "Una turbina acciona el generador en la central eléctrica."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "electric generator",
+          "translation": "generador eléctrico"
+        },
+        {
+          "en": "generator shaft",
+          "translation": "eje del generador"
+        },
+        {
+          "en": "backup generator",
+          "translation": "generador de respaldo"
+        }
+      ],
+      "tip": "Generator produce electricidad a partir de energía mecánica; una batería entrega energía almacenada."
+    },
+    "sensor": {
+      "sourceWord": "sensor",
+      "senses": {
+        "sensor:meaning-1": {
+          "gloss": "sensor",
+          "definition": "Dispositivo que detecta una condición física o un objeto y produce una señal."
+        }
+      },
+      "examples": [
+        {
+          "en": "The sensor detects the box on the conveyor.",
+          "translation": "El sensor detecta la caja en la cinta transportadora."
+        },
+        {
+          "en": "The sensor sends a signal to the controller.",
+          "translation": "El sensor envía una señal al controlador."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "proximity sensor",
+          "translation": "sensor de proximidad"
+        },
+        {
+          "en": "sensor signal",
+          "translation": "señal del sensor"
+        },
+        {
+          "en": "sensor housing",
+          "translation": "carcasa del sensor"
+        }
+      ],
+      "tip": "Sensor detecta condiciones u objetos; controller toma decisiones de control con las señales recibidas."
     }
   }
 }

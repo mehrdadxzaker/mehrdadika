@@ -256,8 +256,11 @@ export function compileLocale(overlay, published) {
   };
 }
 
-/** Load only hash-verified artifacts selected by public/content/current.json. No authoring corpus is read. */
-export function loadPublishedRelease({ root = process.cwd() } = {}) {
+/** Load hash-verified current or explicitly pinned immutable artifacts. Never read the authoring corpus. */
+export function loadPublishedRelease({
+  root = process.cwd(),
+  pointer: pinnedPointer,
+} = {}) {
   const publicRoot = fs.realpathSync(path.join(root, "public"));
   let totalBytes = 0;
   const readJson = (relative, expectedHash, verify = true) => {
@@ -292,7 +295,8 @@ export function loadPublishedRelease({ root = process.cwd() } = {}) {
       );
     return JSON.parse(bytes.toString("utf8"));
   };
-  const pointer = readJson("content/current.json", undefined, false);
+  const pointer =
+    pinnedPointer ?? readJson("content/current.json", undefined, false);
   requireValue(
     pointer.schemaVersion === 1,
     "Unsupported published pointer schema",

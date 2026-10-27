@@ -1,0 +1,31 @@
+# Ongoing vocabulary production
+
+The current campaign takes **medicine and healthcare to 500 published English entries and engineering to 500**, then continues the other 30 categories in the existing queue. For those later categories, the existing 50/150/400 milestones remain configured; only the first two categories currently have an explicit 500-entry target. These are corpus-size targets, not claims of a complete professional curriculum.
+
+`content/expansion-campaign.json` records the targets, editorial topic allocations, publication ledger and resource limits. Planning slots, drafts, translations and additional meanings do not count as new English entries. Existing legitimate shared category memberships are counted once per category and once globally.
+
+Medicine's 500 planning slots span anatomy, physiology, symptoms/examination, roles/communication, diagnostics, equipment, pharmacy, dentistry, rehabilitation and public health. Engineering spans measurement, mechanical systems, materials/manufacturing, electrical/electronics, civil structures, fluids, thermal/energy systems, control/automation and design/quality. These allocations guide balanced coverage; they are not already-authored vocabulary.
+
+## Each automatic continuation
+
+1. Reuse this chat's suitable isolated worktree. The primary checkout may contain unrelated work; do not reset, overwrite or stage it. Read Git status, fetch public main and preserve any new published work before editing.
+2. Read this protocol, `content/expansion-campaign.json`, `docs/illustration-guidelines.md`, and the relevant profiles in `content/visual-languages.json`. Run `npm run campaign:status` against the actual hash-verified published release.
+3. Resume `activeWorkBatchId` from the private `.local/vocabulary-production/` checkpoint before selecting another batch. Select at most **24 new entries** per run, usually 12 medical and 12 engineering while both remain below 500. Cap each addition by its remaining target. After both reach 500, take the next under-target category from the configured queue/milestones. Do not pad counts with duplicate headwords, inflections, placeholder records or gratuitous phrases.
+4. Author original English/Persian source and complete Brazilian Portuguese and Latin American Spanish overlays together: selected sense, IPA, approximate editorial CEFR, two meaningful examples, three collocations and usage distinctions. Preserve all prior word/sense identities, course content and learner progress. Keep unfinished records as drafts.
+5. Refresh up to two older specialist illustrations per continuation when their inherited artwork lacks the current category style or a precise word cue. Preserve their lexical/sense identities and old immutable assets. Before either priority category is declared finished at 500, inspect its entire existing collection against the current brief, including starter artwork. Generate each new illustration with the built-in image tool, using its category's medium/palette and an exact semantic cue. Do not substitute generic icons or reuse unrelated pictures. Inspect the actual full image and the final 512px WebP and 120px thumbnail, then obtain a second AI check. Verify anatomy, part contact, wiring, force/flow direction and distinctions from neighboring terms. Correct failed candidates before publication; retain rejected drafts privately. Keep clinical and engineering examples neutral and check uncertain facts against primary authoritative sources. Do not copy protected dictionaries or artwork.
+6. Record final prompts, rights, hashes, expected cues, actual semantic/style inspections and exact category-profile hash. Keep AI assistance and pending independent human/domain review explicit. No fake audio, review identities or stable-channel promotion.
+7. Add the completed batch to this campaign ledger and the category expansion ledger. Use a fresh preview release ID, build the English release and both vocabulary/reading snapshots, then run the complete tests, `npm run check:content`, `npm run check:campaign` and a production build under `/mehrdadika/`. Verify representative new cards in all three editions and desktop/phone layouts. Software proves bindings and integrity, not semantic truth or human approval.
+8. Commit only the coherent completed batch and required generated artifacts. Push without force, check CI on that exact source revision, dispatch the existing Pages workflow, then verify both live `build-info.json` revision and the published content pointer and actual new pictures. Do not report a source commit as a live deployment.
+9. Report only a complete published batch/milestone or a problem requiring input. If no complete batch is available, preserve drafts and continue useful work on the next run. Do not manufacture progress by weakening checks.
+
+Keep resource use bounded: maximum three concurrent agents, eight outbound requests across the task, one image request per worker, explicit timeouts and at most three backoff retries. Stop on repeated service failure or address exhaustion. Use one owned preview server and close it and temporary tabs after verification. No load tests or network tuning. Do not install or enable new skills without explicit user approval. Do not replace built-in image generation with a paid API/CLI path without the user's explicit choice.
+
+The initial user-triggered milestone batch is larger than the recurring bound: 34 medical and 33 engineering additions, reaching 50 entries in each category. Future unattended runs use the 24-entry limit.
+
+```sh
+npm run campaign:status
+npm run campaign:status -- --json
+npm run check:campaign
+```
+
+Independent human language and specialist review remain required before stable publication. Automatic publication is limited to honestly labeled editorial previews. The recurring workflow should stop only on completion, an explicit user pause/stop, or a concrete condition that cannot be safely resolved; do not loop on the same failure or silently skip the image/language requirements.

@@ -1,6 +1,6 @@
 # Category-by-category vocabulary expansion
 
-We grow through coherent small category modules. Catalog-wide passes increase breadth, while focused passes build depth in one subject at a time. The [64-word visual foundation pass](category-visual-foundations.md) adds two entries to every category. The first pass targets **50 words per category**, followed by later passes toward **150** and **400**. These are editorial milestones, not completed-course claims or scheduled publication dates.
+We grow through coherent small category modules. Catalog-wide passes increase breadth, while focused passes build depth in one subject at a time. The [64-word visual foundation pass](category-visual-foundations.md) adds two entries to every category. The first pass targets **50 words per category**, followed by later passes toward **150** and **400**. These are editorial milestones, not completed-course claims or scheduled publication dates. The [active specialist campaign](specialist-expansion.md) takes medicine and healthcare and engineering to **500 each first**, then resumes this queue.
 
 ## First module: cooking foundations
 
@@ -24,7 +24,7 @@ Later cooking passes still need drinks, cuisines and dishes, dining, food storag
 
 ## Expansion queue
 
-Medicine and healthcare comes next, then engineering. Each starts with useful everyday vocabulary and a distinct-sense plan before moving into specialist terminology. Specialist records need appropriate professional review before a stable professional curriculum can be claimed.
+Medicine and healthcare and engineering now have 50 words each. They remain the active priorities until each reaches 500, before the remaining queue resumes. Each starts with useful everyday vocabulary and a distinct-sense plan before moving into specialist terminology. Specialist records need appropriate professional review before a stable professional curriculum can be claimed.
 
 1. Cooking, food and drink
 2. Medicine and healthcare
@@ -61,12 +61,12 @@ Medicine and healthcare comes next, then engineering. Each starts with useful ev
 
 ## Repeatable publishing process
 
-1. Inspect the published coverage and choose the next category. Work toward its next milestone with small, coherent batches, usually 12–36 additions. Avoid duplicating existing English words; add a new sense identity when a genuinely different meaning is required.
+1. Inspect the published coverage and choose the next category. Work toward its next milestone with small, coherent batches, at most 24 additions per automatic continuation (the initial user-triggered specialist milestone contains 67). Avoid duplicating existing English words; add a new sense identity when a genuinely different meaning is required.
 2. Author original learner definitions, approximate editorial CEFR levels, examples, collocations and contrast notes in all three native editions together. Preserve exact English source bindings.
 3. Create sense-specific pictures. Inspect the full image and a 120px thumbnail, checking visible action, relevant objects, physical plausibility and distinction from neighboring concepts. Use a visual style suited to the subject. Record byte hashes, prompts, rights and honest review status.
 4. Keep incomplete content as drafts. Complete provenance and illustration audit records before including a word in a preview module. Obtain independent language and specialist review before promoting content to stable.
 5. Build the versioned English release, vocabulary overlays and reading snapshots. Check IDs, source bindings, media integrity, old-word preservation, and the module's complete membership. Inspect the production app in Persian, Portuguese and Spanish, then publish and verify the exact deployed source revision.
-6. Update the coverage report and select the next category. These modules share the existing publisher; there is no separate per-module publishing command or automatic background content generation.
+6. Update the coverage report and select the next category. These modules share the existing publisher; there is no separate per-module publishing command. The approved recurring workflow follows the [bounded production protocol](vocabulary-production.md), and every published batch still passes the existing publisher and verification steps.
 
 `content/category-expansion.json` is the machine-readable queue and module ledger. Its category IDs must cover all 32 taxonomy domains exactly once, and each published module must resolve to real published words. Inspect coverage with:
 

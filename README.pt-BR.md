@@ -6,7 +6,7 @@ Um projeto de código aberto para aprender vocabulário de inglês com imagens e
 
 ## O que já está disponível
 
-- 191 palavras, 192 sentidos, 384 exemplos, 573 combinações frequentes e 191 notas de uso em português brasileiro.
+- 258 palavras, 259 sentidos, 518 exemplos, 774 combinações frequentes e 258 notas de uso em português brasileiro.
 - 32 categorias e 348 subcategorias traduzidas, com conteúdo publicado aos poucos, incluindo culinária, medicina e engenharia.
 - Introdução ao estudo, metas diárias, recordação ativa e revisão espaçada com FSRS.
 - Atlas com cartões ilustrados, busca, filtros, palavras salvas e galáxia de progresso.
@@ -16,7 +16,7 @@ Um projeto de código aberto para aprender vocabulário de inglês com imagens e
 
 As traduções tiveram apoio de IA e ainda aguardam revisão humana independente. O vocabulário especializado também precisa de revisão por profissionais da área. A presença de uma categoria não significa que todo o seu conteúdo já está publicado.
 
-O progresso, as sessões e os dados de leitura ficam separados por edição. As palavras salvas na prévia anterior em português são migradas para esta edição. Esta etapa acrescenta 64 entradas: duas em cada uma das 32 categorias, com uma linguagem visual adequada a cada tema. A culinária agora reúne 52 palavras. Medicina e engenharia continuam como prioridades para ampliar a profundidade. Veja as [bases visuais por categoria](docs/category-visual-foundations.md). Veja o [plano das 32 categorias](docs/category-expansion.md). As palavras novas incluem ilustrações originais; quando ainda não há gravação licenciada, a pronúncia usa a voz inglesa disponível no dispositivo. A narração de textos e livros também depende do dispositivo. O português europeu continua previsto como uma localização distinta.
+O progresso, as sessões e os dados de leitura ficam separados por edição. As palavras salvas na prévia anterior em português são migradas para esta edição. Esta etapa acrescenta 64 entradas: duas em cada uma das 32 categorias, com uma linguagem visual adequada a cada tema. A culinária agora reúne 52 palavras. A expansão mais recente acrescenta 34 palavras de medicina e 33 de engenharia, levando cada categoria a 50 entradas. A produção continua até 500 em cada uma, antes de avançar pelas demais categorias. Veja a [expansão especializada](docs/specialist-expansion.md). Veja as [bases visuais por categoria](docs/category-visual-foundations.md). Veja o [plano das 32 categorias](docs/category-expansion.md). As palavras novas incluem ilustrações originais; quando ainda não há gravação licenciada, a pronúncia usa a voz inglesa disponível no dispositivo. A narração de textos e livros também depende do dispositivo. O português europeu continua previsto como uma localização distinta.
 
 ## Executar e contribuir
 

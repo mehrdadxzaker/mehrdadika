@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "id": "specialist-500",
+  "status": "active",
+  "objective": "Publish 500 distinct English lexical entries in medicine and healthcare and 500 in engineering, then continue the remaining category queue.",
+  "priorityTargets": [
+    {
+      "categoryId": "medicine-healthcare",
+      "targetWords": 500
+    },
+    {
+      "categoryId": "engineering",
+      "targetWords": 500
+    }
+  ],
+  "priorityMilestones": [
+    50,
+    100,
+    150,
+    250,
+    350,
+    500
+  ],
+  "remainingCategoryOrder": [
+    "cooking-food-drink",
+    "everyday-life",
+    "home-gardening-diy",
+    "people-relationships",
+    "travel-tourism-hospitality",
+    "transport-vehicles",
+    "computing-technology",
+    "education-academic",
+    "natural-sciences-mathematics",
+    "careers-workplace",
+    "business-management",
+    "economics-finance",
+    "languages-communication",
+    "retail-ecommerce",
+    "safety-emergencies",
+    "architecture-infrastructure",
+    "trades-practical-work",
+    "manufacturing-logistics",
+    "energy-utilities-resources",
+    "environment-agriculture",
+    "geography-places-cultures",
+    "animals-pets-wildlife",
+    "parenting-family-care",
+    "wellbeing-daily-habits",
+    "sports-recreation",
+    "arts-media",
+    "humanities-society",
+    "law-public-affairs",
+    "fashion-beauty-personal-care",
+    "gaming-digital-culture"
+  ],
+  "remainingCategoryMilestones": [
+    50,
+    150,
+    400
+  ],
+  "production": {
+    "maxNewEntriesPerAutomaticRun": 24,
+    "preferredEntriesPerPriorityCategory": 12,
+    "maxConcurrentAgents": 3,
+    "maxOutboundRequests": 8,
+    "requiredLocales": [
+      "fa",
+      "pt-BR",
+      "es-419"
+    ],
+    "requiredImageSizes": [
+      512,
+      120
+    ],
+    "imageMethod": "Built-in image generation with individual actual-pixel inspection and a second AI review.",
+    "publicationChannel": "preview",
+    "independentHumanReviewRecorded": false,
+    "workingDraftDirectory": ".local/vocabulary-production"
+  },
+  "editorialCoverage": {
+    "medicine-healthcare": [
+      {
+        "id": "anatomy",
+        "label": "Anatomy",
+        "plannedVocabularySlots": 80
+      },
+      {
+        "id": "physiology",
+        "label": "Physiology",
+        "plannedVocabularySlots": 40
+      },
+      {
+        "id": "symptoms-examination",
+        "label": "Symptoms and examination vocabulary",
+        "plannedVocabularySlots": 60
+      },
+      {
+        "id": "people-communication",
+        "label": "Clinical roles and communication",
+        "plannedVocabularySlots": 50
+      },
+      {
+        "id": "diagnostics",
+        "label": "Diagnostic tests and imaging vocabulary",
+        "plannedVocabularySlots": 60
+      },
+      {
+        "id": "equipment",
+        "label": "Medical equipment and supplies",
+        "plannedVocabularySlots": 80
+      },
+      {
+        "id": "pharmacy",
+        "label": "Pharmacy vocabulary",
+        "plannedVocabularySlots": 40
+      },
+      {
+        "id": "dentistry",
+        "label": "Dentistry",
+        "plannedVocabularySlots": 25
+      },
+      {
+        "id": "rehabilitation",
+        "label": "Rehabilitation vocabulary",
+        "plannedVocabularySlots": 25
+      },
+      {
+        "id": "public-health",
+        "label": "Public health and care settings",
+        "plannedVocabularySlots": 40
+      }
+    ],
+    "engineering": [
+      {
+        "id": "measurement",
+        "label": "Mathematics and measurement",
+        "plannedVocabularySlots": 60
+      },
+      {
+        "id": "mechanical",
+        "label": "Mechanical parts and motion",
+        "plannedVocabularySlots": 75
+      },
+      {
+        "id": "materials",
+        "label": "Materials and manufacturing",
+        "plannedVocabularySlots": 65
+      },
+      {
+        "id": "electrical",
+        "label": "Electrical and electronic engineering",
+        "plannedVocabularySlots": 90
+      },
+      {
+        "id": "civil",
+        "label": "Civil engineering and structures",
+        "plannedVocabularySlots": 60
+      },
+      {
+        "id": "fluids",
+        "label": "Fluid systems",
+        "plannedVocabularySlots": 45
+      },
+      {
+        "id": "thermal-energy",
+        "label": "Thermal and energy systems",
+        "plannedVocabularySlots": 45
+      },
+      {
+        "id": "automation",
+        "label": "Control and automation",
+        "plannedVocabularySlots": 35
+      },
+      {
+        "id": "design-quality",
+        "label": "Design, quality and safety vocabulary",
+        "plannedVocabularySlots": 25
+      }
+    ]
+  },
+  "counting": "Only distinct published lexical IDs with legitimate category membership count. Native editions, added senses, inflections, drafts and plans do not multiply the English entry total. Topic allocations are planning targets, not authored or published content.",
+  "batches": [
+    {
+      "id": "specialist-500-foundation-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-6",
+      "initialManualMilestone": true,
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 16,
+          "targetCategoryWords": 50,
+          "entryIds": [
+            "syringe",
+            "medical-mask",
+            "surgical-glove",
+            "gauze",
+            "adhesive-plaster",
+            "crutch",
+            "wheelchair",
+            "stretcher",
+            "hospital-bed",
+            "examination-table",
+            "otoscope",
+            "blood-pressure-cuff",
+            "pulse-oximeter",
+            "reflex-hammer",
+            "scalpel",
+            "forceps",
+            "medicine-bottle",
+            "brain",
+            "lung",
+            "kidney",
+            "liver",
+            "stomach",
+            "intestine",
+            "bone",
+            "joint",
+            "muscle",
+            "tendon",
+            "ligament",
+            "artery",
+            "vein",
+            "nerve",
+            "skin",
+            "spine",
+            "rib"
+          ],
+          "units": [
+            {
+              "id": "medical-tools",
+              "entryIds": [
+                "syringe",
+                "medical-mask",
+                "surgical-glove",
+                "gauze",
+                "adhesive-plaster",
+                "crutch",
+                "wheelchair",
+                "stretcher",
+                "hospital-bed",
+                "examination-table",
+                "otoscope",
+                "blood-pressure-cuff",
+                "pulse-oximeter",
+                "reflex-hammer",
+                "scalpel",
+                "forceps",
+                "medicine-bottle"
+              ],
+              "title": "Medical tools"
+            },
+            {
+              "id": "medical-anatomy",
+              "entryIds": [
+                "brain",
+                "lung",
+                "kidney",
+                "liver",
+                "stomach",
+                "intestine",
+                "bone",
+                "joint",
+                "muscle",
+                "tendon",
+                "ligament",
+                "artery",
+                "vein",
+                "nerve",
+                "skin",
+                "spine",
+                "rib"
+              ],
+              "title": "Medical anatomy"
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 17,
+          "targetCategoryWords": 50,
+          "entryIds": [
+            "bolt",
+            "nut",
+            "washer",
+            "screw",
+            "rivet",
+            "bearing",
+            "shaft",
+            "pulley",
+            "lever",
+            "piston",
+            "cylinder",
+            "pump",
+            "compressor",
+            "turbine",
+            "nozzle",
+            "seal",
+            "gasket",
+            "hinge",
+            "clamp",
+            "vise",
+            "wrench",
+            "screwdriver",
+            "caliper",
+            "micrometer",
+            "multimeter",
+            "resistor",
+            "capacitor",
+            "diode",
+            "transistor",
+            "transformer",
+            "motor",
+            "generator",
+            "sensor"
+          ],
+          "units": [
+            {
+              "id": "engineering-fasteners",
+              "entryIds": [
+                "bolt",
+                "nut",
+                "washer",
+                "screw",
+                "rivet"
+              ],
+              "title": "Engineering fasteners"
+            },
+            {
+              "id": "engineering-motion-parts",
+              "entryIds": [
+                "bearing",
+                "shaft",
+                "pulley",
+                "lever",
+                "piston"
+              ],
+              "title": "Engineering motion parts"
+            },
+            {
+              "id": "engineering-core",
+              "entryIds": [
+                "cylinder",
+                "pump",
+                "compressor",
+                "turbine",
+                "nozzle",
+                "seal",
+                "gasket",
+                "hinge",
+                "clamp",
+                "vise",
+                "wrench",
+                "screwdriver",
+                "caliper",
+                "micrometer",
+                "multimeter",
+                "resistor",
+                "capacitor",
+                "diode",
+                "transistor",
+                "transformer",
+                "motor",
+                "generator",
+                "sensor"
+              ],
+              "title": "Engineering core"
+            }
+          ]
+        }
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-5",
+        "manifest": "content/releases/2026-10-preview-5-402e0d2089d7/manifest.json",
+        "manifestSha256": "402e0d2089d7fc3b2f2e8d8d75cae0ae2f7368f5286d0f97f486abe9b05cfe1d",
+        "words": 191
+      },
+      "completedAt": "2026-10-27T12:03:21.105448+00:00"
+    }
+  ],
+  "activeWorkBatchId": null,
+  "baseline": {
+    "releaseId": "2026-10-preview-5",
+    "manifest": "content/releases/2026-10-preview-5-402e0d2089d7/manifest.json",
+    "manifestSha256": "402e0d2089d7fc3b2f2e8d8d75cae0ae2f7368f5286d0f97f486abe9b05cfe1d",
+    "words": 191
+  }
+}

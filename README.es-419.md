@@ -6,7 +6,7 @@ Un proyecto de código abierto para aprender inglés con imágenes, ejemplos y p
 
 ## Qué incluye
 
-- 191 palabras, 192 sentidos, 384 ejemplos, 573 combinaciones frecuentes y 191 notas de uso traducidos al español.
+- 258 palabras, 259 sentidos, 518 ejemplos, 774 combinaciones frecuentes y 258 notas de uso traducidos al español.
 - 32 categorías y 348 subcategorías, incluidas cocina, medicina e ingeniería, con contenido que se publica poco a poco.
 - Configuración inicial, metas diarias, recuerdo activo y repaso espaciado con FSRS.
 - Atlas ilustrado con búsqueda, filtros, palabras guardadas y una galaxia de progreso.
@@ -16,7 +16,7 @@ Un proyecto de código abierto para aprender inglés con imágenes, ejemplos y p
 
 El contenido y las traducciones son una **vista previa editorial con ayuda de IA**. Aún requieren revisión humana independiente y, en los temas especializados, revisión por profesionales del área. Las etiquetas completas no significan que todas las categorías tengan cursos completos. El vocabulario profesional puede necesitar variantes regionales.
 
-El progreso, las sesiones, las palabras guardadas y los datos de lectura se mantienen separados por edición. Esta etapa añade 64 entradas: dos en cada una de las 32 categorías, con un lenguaje visual adecuado a cada tema. Cocina ahora reúne 52 palabras. Medicina e ingeniería siguen siendo prioridades para ampliar la profundidad. Consulta las [bases visuales por categoría](docs/category-visual-foundations.md). Consulta el [plan de las 32 categorías](docs/category-expansion.md). Las palabras nuevas tienen ilustraciones originales; cuando falta una grabación licenciada, la pronunciación usa la voz inglesa disponible en el dispositivo. La narración de textos y libros también depende del dispositivo.
+El progreso, las sesiones, las palabras guardadas y los datos de lectura se mantienen separados por edición. Esta etapa añade 64 entradas: dos en cada una de las 32 categorías, con un lenguaje visual adecuado a cada tema. Cocina ahora reúne 52 palabras. La expansión más reciente añade 34 palabras de medicina y 33 de ingeniería: cada categoría llega a 50 entradas. La producción continúa hasta 500 en cada una, antes de avanzar por las demás categorías. Consulta la [expansión especializada](docs/specialist-expansion.md). Consulta las [bases visuales por categoría](docs/category-visual-foundations.md). Consulta el [plan de las 32 categorías](docs/category-expansion.md). Las palabras nuevas tienen ilustraciones originales; cuando falta una grabación licenciada, la pronunciación usa la voz inglesa disponible en el dispositivo. La narración de textos y libros también depende del dispositivo.
 
 ## Ejecutar y contribuir
 

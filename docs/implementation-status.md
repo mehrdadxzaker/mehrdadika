@@ -1,6 +1,6 @@
 # Mehrdadika implementation status
 
-Implementation snapshot, October 26, 2026. Mehrdadika adapts the public Word Atlas application into a Persian-first English-learning website, with full shared application flows for Brazilian Portuguese and a first Latin American Spanish edition. It retains the reference’s visual foundation and five main destinations, with new reading and specialist practice features implemented over the public source.
+Implementation snapshot, October 27, 2026. Mehrdadika adapts the public Word Atlas application into a Persian-first English-learning website, with full shared application flows for Brazilian Portuguese and a first Latin American Spanish edition. It retains the reference’s visual foundation and five main destinations, with new reading and specialist practice features implemented over the public source.
 
 The [public source repository](https://github.com/mehrdadxzaker/mehrdadika) and [GitHub Pages website](https://mehrdadxzaker.github.io/mehrdadika/) are available. The [implementation plan](../IMPLEMENTATION_PLAN.md) remains the broader requirements and continuing roadmap; this document distinguishes current implementation from corpus readiness and release qualification.
 
@@ -8,18 +8,18 @@ The [public source repository](https://github.com/mehrdadxzaker/mehrdadika) and 
 
 | Item | Current scope |
 | --- | --- |
-| Vocabulary | 191 lexical items and 192 independently scheduled meanings. `pressure` has separate medical and engineering learning contexts under one public word card. |
+| Vocabulary | 258 lexical items and 259 independently scheduled meanings. `pressure` has separate medical and engineering learning contexts under one public word card. |
 | Subject taxonomy | All 32 domains, organized into six discovery groups, with category-specific visual briefs for the 64-word expansion. |
 | Subcategory display | 348 native subcategory labels in each of Persian, Brazilian Portuguese and Latin American Spanish, parallel to the English catalog. |
-| Starter focus | All 32 categories have two new visual-foundation entries; cooking has 52 words. Medicine and engineering remain the next focused depth priorities. |
+| Starter focus | All 32 categories have two new visual-foundation entries; cooking has 52 words. Medicine and engineering now have 50 words each; the ongoing campaign targets 500 each before the remaining category queue. |
 | Short reading | Three original bilingual passages with comprehension questions. |
 | Book reading | One original short book with three chapters. |
 | Additional exercises | Two paraphrase levels and three confusable-word groups. |
 | Science through English | Water and Weather: eight lessons, 32 closed activities, eight writing tasks, 22 target senses and complete Persian/Portuguese/Spanish support. |
 | Review channel | AI-assisted editorial preview. No independent human or specialist approval is claimed. |
-| Portuguese and Spanish previews | Each edition has 191 words, 192 senses, 384 translated examples, 573 collocations, 191 usage notes, 32 category labels, 348 subcategory labels and six group labels, plus the reading/practice catalog above. |
+| Portuguese and Spanish previews | Each edition has 258 words, 259 senses, 518 translated examples, 774 collocations, 258 usage notes, 32 category labels, 348 subcategory labels and six group labels, plus the reading/practice catalog above. |
 
-The [category expansion ledger and queue](category-expansion.md) tracks coherent publication batches, with foundation/core/depth targets of 50/150/400 words per category. `npm run content:coverage` reports current unique word and category counts.
+The [category expansion ledger and queue](category-expansion.md) tracks coherent publication batches, with foundation/core/depth targets of 50/150/400 words per category. `npm run content:coverage` reports current unique word and category counts. The [specialist campaign](specialist-expansion.md) overrides the immediate medicine and engineering target to 500 each; `npm run campaign:status` measures the remaining work from the published release.
 
 Category and subcategory presence describes intended coverage. It does not mean that every branch already contains authored lessons. A shared sense can appear through multiple category routes without becoming a second learning record.
 
