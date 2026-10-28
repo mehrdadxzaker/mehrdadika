@@ -1908,6 +1908,123 @@
       ],
       "imageRefreshEntryIds": [],
       "completedAt": "2026-10-28T10:16:26.241823+00:00"
+    },
+    {
+      "id": "specialist-500-batch-15",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-20",
+      "baseline": {
+        "releaseId": "2026-10-preview-19",
+        "manifest": "content/releases/2026-10-preview-19-b0e96f895848/manifest.json",
+        "manifestSha256": "b0e96f895848357401233cc6c0ecb0ad58b12c8a00ae7ecf7f8db590a009c9f2",
+        "words": 570
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 206,
+          "targetCategoryWords": 218,
+          "entryIds": [
+            "wrist",
+            "ankle",
+            "knee",
+            "shoulder",
+            "hip",
+            "heel",
+            "palm",
+            "thumb",
+            "fingernail",
+            "forearm",
+            "calf",
+            "toe"
+          ],
+          "units": [
+            {
+              "id": "upper-limb-regions",
+              "title": "Upper limb surface anatomy",
+              "entryIds": [
+                "shoulder",
+                "wrist",
+                "palm",
+                "thumb",
+                "fingernail",
+                "forearm"
+              ]
+            },
+            {
+              "id": "lower-limb-regions",
+              "title": "Lower limb surface anatomy",
+              "entryIds": [
+                "hip",
+                "knee",
+                "ankle",
+                "heel",
+                "calf",
+                "toe"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 206,
+          "targetCategoryWords": 218,
+          "entryIds": [
+            "drill-press",
+            "grinding-wheel",
+            "cutting-tool",
+            "tool-holder",
+            "workpiece",
+            "chuck",
+            "collet",
+            "tailstock",
+            "boring-bar",
+            "welding-torch",
+            "soldering-iron",
+            "bench-grinder"
+          ],
+          "units": [
+            {
+              "id": "machine-workholding",
+              "title": "Workholding and machine context",
+              "entryIds": [
+                "workpiece",
+                "chuck",
+                "collet",
+                "tailstock",
+                "tool-holder"
+              ]
+            },
+            {
+              "id": "machining-tools",
+              "title": "Machining and grinding tools",
+              "entryIds": [
+                "drill-press",
+                "grinding-wheel",
+                "cutting-tool",
+                "boring-bar",
+                "bench-grinder"
+              ]
+            },
+            {
+              "id": "joining-hand-tools",
+              "title": "Joining tools",
+              "entryIds": [
+                "welding-torch",
+                "soldering-iron"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "completedAt": "2026-10-28T13:40:33.667070+00:00"
     }
   ],
   "activeWorkBatchId": null,

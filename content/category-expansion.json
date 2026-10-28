@@ -2732,7 +2732,121 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 206,
+      "targetCategoryWords": 218,
+      "entryIds": [
+        "wrist",
+        "ankle",
+        "knee",
+        "shoulder",
+        "hip",
+        "heel",
+        "palm",
+        "thumb",
+        "fingernail",
+        "forearm",
+        "calf",
+        "toe"
+      ],
+      "units": [
+        {
+          "id": "upper-limb-regions",
+          "title": "Upper limb surface anatomy",
+          "entryIds": [
+            "shoulder",
+            "wrist",
+            "palm",
+            "thumb",
+            "fingernail",
+            "forearm"
+          ]
+        },
+        {
+          "id": "lower-limb-regions",
+          "title": "Lower limb surface anatomy",
+          "entryIds": [
+            "hip",
+            "knee",
+            "ankle",
+            "heel",
+            "calf",
+            "toe"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-15",
+      "releaseId": "2026-10-preview-20",
+      "status": "published-preview",
+      "objective": "Describe surface body anatomy and machining, workholding and joining tools in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 206,
+      "targetCategoryWords": 218,
+      "entryIds": [
+        "drill-press",
+        "grinding-wheel",
+        "cutting-tool",
+        "tool-holder",
+        "workpiece",
+        "chuck",
+        "collet",
+        "tailstock",
+        "boring-bar",
+        "welding-torch",
+        "soldering-iron",
+        "bench-grinder"
+      ],
+      "units": [
+        {
+          "id": "machine-workholding",
+          "title": "Workholding and machine context",
+          "entryIds": [
+            "workpiece",
+            "chuck",
+            "collet",
+            "tailstock",
+            "tool-holder"
+          ]
+        },
+        {
+          "id": "machining-tools",
+          "title": "Machining and grinding tools",
+          "entryIds": [
+            "drill-press",
+            "grinding-wheel",
+            "cutting-tool",
+            "boring-bar",
+            "bench-grinder"
+          ]
+        },
+        {
+          "id": "joining-hand-tools",
+          "title": "Joining tools",
+          "entryIds": [
+            "welding-torch",
+            "soldering-iron"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-15",
+      "releaseId": "2026-10-preview-20",
+      "status": "published-preview",
+      "objective": "Describe surface body anatomy and machining, workholding and joining tools in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-14"
+  "activePassId": "specialist-500-batch-15"
 }

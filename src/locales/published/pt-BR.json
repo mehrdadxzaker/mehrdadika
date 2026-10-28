@@ -13,9 +13,9 @@
     "modifications": "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-19",
-    "manifest": "content/releases/2026-10-preview-19-b0e96f895848/manifest.json",
-    "sha256": "b0e96f895848357401233cc6c0ecb0ad58b12c8a00ae7ecf7f8db590a009c9f2"
+    "id": "2026-10-preview-20",
+    "manifest": "content/releases/2026-10-preview-20-09b1e89cb818/manifest.json",
+    "sha256": "09b1e89cb818bba8317e674e2ac6b9b6827ce47c6fbe9eaf965f88eb9a870d2a"
   },
   "categories": {
     "everyday-life": {
@@ -19927,6 +19927,822 @@
         }
       ],
       "tip": "Emergency stop neste verbete é o comando de parada de emergência da máquina; a imagem mostra o tipo com botão cogumelo. Não é um dispositivo de isolamento de energia nem um bloqueio para manutenção e não desliga necessariamente todas as fontes de energia. A aparência vermelha e amarela não é certificação de segurança, aprovação do circuito nem instrução de uso de um equipamento real."
+    },
+    "wrist": {
+      "sourceWord": "wrist",
+      "senses": {
+        "wrist:meaning-1": {
+          "gloss": "punho; região do punho",
+          "definition": "A região onde a mão se une ao antebraço, incluindo as articulações do punho e os tecidos próximos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The wrist lies between the hand and the forearm.",
+          "translation": "O punho fica entre a mão e o antebraço."
+        },
+        {
+          "en": "Her sleeve ends just above the wrist.",
+          "translation": "A manga dela termina logo acima do punho."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the wrist joint",
+          "translation": "a articulação do punho"
+        },
+        {
+          "en": "the back of the wrist",
+          "translation": "o dorso do punho"
+        },
+        {
+          "en": "wrist movement",
+          "translation": "o movimento do punho"
+        }
+      ],
+      "tip": "Wrist aqui é o punho, não ankle, o tornozelo. A letra w não é pronunciada. A região não é toda a mão nem todo o antebraço; a cor localizada apenas indica a posição e não representa lesão."
+    },
+    "ankle": {
+      "sourceWord": "ankle",
+      "senses": {
+        "ankle:meaning-1": {
+          "gloss": "tornozelo",
+          "definition": "A região onde a perna se une ao pé, ao redor da articulação do tornozelo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The ankle lies between the lower leg and the foot.",
+          "translation": "O tornozelo fica entre a perna e o pé."
+        },
+        {
+          "en": "The inner and outer bony prominences help mark the ankle region.",
+          "translation": "As saliências ósseas interna e externa ajudam a marcar a região do tornozelo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the ankle joint",
+          "translation": "a articulação do tornozelo"
+        },
+        {
+          "en": "the inner ankle",
+          "translation": "a parte interna do tornozelo"
+        },
+        {
+          "en": "ankle movement",
+          "translation": "o movimento do tornozelo"
+        }
+      ],
+      "tip": "Ankle é o tornozelo; wrist é o punho. Heel é o calcanhar, na parte posterior do pé e abaixo da região do tornozelo. A imagem mostra a superfície; o limite colorido não é um mapa exato de todas as articulações nem um sinal de inchaço."
+    },
+    "knee": {
+      "sourceWord": "knee",
+      "senses": {
+        "knee:meaning-1": {
+          "gloss": "joelho",
+          "definition": "A região articular entre a coxa e a perna, incluindo a frente coberta pela patela."
+        }
+      },
+      "examples": [
+        {
+          "en": "The knee connects the thigh with the lower leg.",
+          "translation": "O joelho conecta a coxa à perna."
+        },
+        {
+          "en": "The kneecap lies at the front of the knee.",
+          "translation": "A patela fica na frente do joelho."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the knee joint",
+          "translation": "a articulação do joelho"
+        },
+        {
+          "en": "the front of the knee",
+          "translation": "a frente do joelho"
+        },
+        {
+          "en": "a bent knee",
+          "translation": "um joelho dobrado"
+        }
+      ],
+      "tip": "Knee é toda a região do joelho; kneecap ou patella é a patela na frente dele. A letra k não é pronunciada. Joelho não é coxa nem perna inteira; a posição dobrada apenas esclarece orientação e localização, sem ser exercício ou recomendação de movimento."
+    },
+    "shoulder": {
+      "sourceWord": "shoulder",
+      "senses": {
+        "shoulder:meaning-1": {
+          "gloss": "ombro",
+          "definition": "A região do corpo onde o braço se une ao tronco, ao redor da articulação do ombro."
+        }
+      },
+      "examples": [
+        {
+          "en": "The shoulder is where the upper arm meets the trunk.",
+          "translation": "O ombro é onde o braço se encontra com o tronco."
+        },
+        {
+          "en": "The sleeve seam runs across the top of the shoulder.",
+          "translation": "A costura da manga passa pela parte superior do ombro."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the shoulder joint",
+          "translation": "a articulação do ombro"
+        },
+        {
+          "en": "the top of the shoulder",
+          "translation": "a parte superior do ombro"
+        },
+        {
+          "en": "shoulder movement",
+          "translation": "o movimento do ombro"
+        }
+      ],
+      "tip": "Shoulder aqui é o ombro do corpo, não o acostamento de uma estrada nem uma parte de ferramenta. Não é apenas shoulder blade, a escápula, nem todo o braço. A imagem indica a região superficial; não é uma vista óssea nem um exame."
+    },
+    "hip": {
+      "sourceWord": "hip",
+      "senses": {
+        "hip:meaning-1": {
+          "gloss": "quadril; região do quadril",
+          "definition": "A região ao redor da articulação onde a extremidade superior do fêmur se encontra com a pelve."
+        }
+      },
+      "examples": [
+        {
+          "en": "The hip is the region where the thigh joins the pelvis.",
+          "translation": "O quadril é a região onde a coxa se une à pelve."
+        },
+        {
+          "en": "The hip joint lies beneath the surrounding skin and muscles.",
+          "translation": "A articulação do quadril fica sob a pele e os músculos ao redor."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the hip joint",
+          "translation": "a articulação do quadril"
+        },
+        {
+          "en": "the hip region",
+          "translation": "a região do quadril"
+        },
+        {
+          "en": "hip movement",
+          "translation": "o movimento do quadril"
+        }
+      ],
+      "tip": "Hip aqui é a região de união entre coxa e pelve, não toda a pelvis nem a linha estreita da waist, a cintura. A cor superficial indica a localização aproximada; a articulação em si é profunda. A cor não representa dor nem lesão."
+    },
+    "heel": {
+      "sourceWord": "heel",
+      "senses": {
+        "heel:meaning-1": {
+          "gloss": "calcanhar",
+          "definition": "A parte arredondada posterior do pé humano, incluindo a parte de trás da sola."
+        }
+      },
+      "examples": [
+        {
+          "en": "The heel forms the rounded rear part of the foot.",
+          "translation": "O calcanhar forma a parte posterior arredondada do pé."
+        },
+        {
+          "en": "The heel lies behind the arch of the foot.",
+          "translation": "O calcanhar fica atrás do arco do pé."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the back of the heel",
+          "translation": "a parte de trás do calcanhar"
+        },
+        {
+          "en": "the heel of the foot",
+          "translation": "o calcanhar do pé"
+        },
+        {
+          "en": "the heel pad",
+          "translation": "a almofada do calcanhar"
+        }
+      ],
+      "tip": "Heel aqui é o calcanhar do corpo, não o salto do sapato. Calcaneus nomeia o osso; heel também indica a região e os tecidos que o recobrem. O tendão de Aquiles se fixa na parte posterior dessa região e não é o próprio calcanhar nem o tornozelo."
+    },
+    "palm": {
+      "sourceWord": "palm",
+      "senses": {
+        "palm:meaning-1": {
+          "gloss": "palma da mão",
+          "definition": "A superfície interna da mão entre o punho e as bases dos dedos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The palm faces upward when she opens her hand.",
+          "translation": "A palma fica voltada para cima quando ela abre a mão."
+        },
+        {
+          "en": "Natural creases cross the skin of the palm.",
+          "translation": "Pregas naturais atravessam a pele da palma."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the palm of the hand",
+          "translation": "a palma da mão"
+        },
+        {
+          "en": "an open palm",
+          "translation": "uma palma aberta"
+        },
+        {
+          "en": "palm creases",
+          "translation": "as pregas da palma"
+        }
+      ],
+      "tip": "Palm aqui é a palma da mão, não uma palmeira. Não é toda a hand nem os próprios dedos; back of the hand é o dorso. Palmar é o adjetivo correspondente. As pregas variam entre pessoas, e a imagem não interpreta linhas da mão."
+    },
+    "thumb": {
+      "sourceWord": "thumb",
+      "senses": {
+        "thumb:meaning-1": {
+          "gloss": "polegar",
+          "definition": "O primeiro dedo curto da mão, separado dos outros quatro e capaz de se mover sobre a palma."
+        }
+      },
+      "examples": [
+        {
+          "en": "The thumb can move across the palm to meet a fingertip.",
+          "translation": "O polegar pode se mover sobre a palma para encontrar a ponta de outro dedo."
+        },
+        {
+          "en": "The thumb is shorter and broader than the index finger.",
+          "translation": "O polegar é mais curto e largo que o indicador."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the base of the thumb",
+          "translation": "a base do polegar"
+        },
+        {
+          "en": "the tip of the thumb",
+          "translation": "a ponta do polegar"
+        },
+        {
+          "en": "thumb movement",
+          "translation": "o movimento do polegar"
+        }
+      ],
+      "tip": "Na expressão four fingers and a thumb, o polegar é nomeado separadamente dos outros quatro; todos são digits. Big toe é o hálux, não thumb. O b final não é pronunciado. A imagem indica a região e não é um teste de movimento ou força."
+    },
+    "fingernail": {
+      "sourceWord": "fingernail",
+      "senses": {
+        "fingernail:meaning-1": {
+          "gloss": "unha da mão",
+          "definition": "A placa dura de queratina no dorso da ponta de um dedo da mão, incluindo o polegar."
+        }
+      },
+      "examples": [
+        {
+          "en": "The fingernail covers the back of the fingertip.",
+          "translation": "A unha da mão cobre o dorso da ponta do dedo."
+        },
+        {
+          "en": "Its free edge projects beyond the nail bed.",
+          "translation": "Sua borda livre se projeta além do leito ungueal."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the fingernail plate",
+          "translation": "a lâmina da unha da mão"
+        },
+        {
+          "en": "the edge of a fingernail",
+          "translation": "a borda de uma unha da mão"
+        },
+        {
+          "en": "fingernail growth",
+          "translation": "o crescimento da unha da mão"
+        }
+      ],
+      "tip": "Fingernail é unha da mão; toenail é unha do pé. Nail como ferramenta é prego. A placa dura não é a pele sob ela, o nail bed, leito ungueal. A cor e a meia-lua clara variam entre pessoas; a imagem não diagnostica saúde ou doença."
+    },
+    "forearm": {
+      "sourceWord": "forearm",
+      "senses": {
+        "forearm:meaning-1": {
+          "gloss": "antebraço",
+          "definition": "A parte do membro superior entre o cotovelo e o punho."
+        }
+      },
+      "examples": [
+        {
+          "en": "The forearm extends from the elbow to the wrist.",
+          "translation": "O antebraço se estende do cotovelo ao punho."
+        },
+        {
+          "en": "The radius and ulna lie within the forearm.",
+          "translation": "O rádio e a ulna ficam no antebraço."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the inner forearm",
+          "translation": "a parte interna do antebraço"
+        },
+        {
+          "en": "the outer forearm",
+          "translation": "a parte externa do antebraço"
+        },
+        {
+          "en": "forearm muscles",
+          "translation": "os músculos do antebraço"
+        }
+      ],
+      "tip": "Forearm é o antebraço, não todo o arm no uso cotidiano. Na anatomia, upper arm ou braço fica entre ombro e cotovelo. Não é a própria mão nem o punho; a cor apenas delimita a extensão da região e não representa dor."
+    },
+    "calf": {
+      "sourceWord": "calf",
+      "senses": {
+        "calf:meaning-1": {
+          "gloss": "panturrilha",
+          "definition": "A parte posterior arredondada e muscular da perna, abaixo do joelho e acima do tornozelo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The calf forms the rounded back of the lower leg.",
+          "translation": "A panturrilha forma a parte posterior arredondada da perna."
+        },
+        {
+          "en": "The shin is at the front, opposite the calf.",
+          "translation": "A canela fica na frente, oposta à panturrilha."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the calf muscles",
+          "translation": "os músculos da panturrilha"
+        },
+        {
+          "en": "the lower calf",
+          "translation": "a parte inferior da panturrilha"
+        },
+        {
+          "en": "the upper calf",
+          "translation": "a parte superior da panturrilha"
+        }
+      ],
+      "tip": "Calf aqui é a panturrilha, não um bezerro. Não é toda a lower leg e difere de shin, a canela na frente. O plural é calves. A imagem mostra a superfície da região muscular, sem afirmar lesão nem diagnosticar câimbra."
+    },
+    "toe": {
+      "sourceWord": "toe",
+      "senses": {
+        "toe:meaning-1": {
+          "gloss": "dedo do pé",
+          "definition": "Qualquer um dos cinco dedos na extremidade anterior de um pé humano típico."
+        }
+      },
+      "examples": [
+        {
+          "en": "The big toe is the broad digit on the inner side of the foot.",
+          "translation": "O dedão é o dedo largo do lado interno do pé."
+        },
+        {
+          "en": "Each toe has a nail on its upper surface near the tip.",
+          "translation": "Cada dedo do pé tem uma unha na superfície superior perto da ponta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the big toe",
+          "translation": "o dedão do pé"
+        },
+        {
+          "en": "the little toe",
+          "translation": "o dedo mínimo do pé"
+        },
+        {
+          "en": "the tip of a toe",
+          "translation": "a ponta de um dedo do pé"
+        }
+      ],
+      "tip": "Toe aqui é dedo do pé, enquanto finger normalmente indica dedo da mão. Big toe é o dedão do pé; thumb é o polegar da mão. O exemplo destaca o dedão, mas toe pode indicar qualquer dedo do pé; forma e comprimento variam entre pessoas."
+    },
+    "drill-press": {
+      "sourceWord": "drill press",
+      "senses": {
+        "drill-press:meaning-1": {
+          "gloss": "furadeira de bancada ou de coluna",
+          "definition": "Uma máquina de furação estacionária que guia uma broca giratória verticalmente até uma peça apoiada em uma mesa."
+        }
+      },
+      "examples": [
+        {
+          "en": "The drill press holds its chuck above an adjustable worktable.",
+          "translation": "A furadeira de coluna mantém seu mandril acima de uma mesa de trabalho ajustável."
+        },
+        {
+          "en": "The column connects the head and table support to the base.",
+          "translation": "A coluna conecta o cabeçote e o suporte da mesa à base."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a drill press table",
+          "translation": "uma mesa de furadeira de coluna"
+        },
+        {
+          "en": "a drill press spindle",
+          "translation": "um eixo-árvore de furadeira de coluna"
+        },
+        {
+          "en": "a bench drill press",
+          "translation": "uma furadeira de bancada"
+        }
+      ],
+      "tip": "Drill press é a máquina estacionária de furação, não uma furadeira manual nem uma prensa de conformação. A imagem mostra um exemplo vertical desligado; a proteção e seus componentes são ilustrativos, não comprovam certificação de segurança. A imagem não especifica velocidade, ajustes, instalação nem operação de uma máquina real."
+    },
+    "grinding-wheel": {
+      "sourceWord": "grinding wheel",
+      "senses": {
+        "grinding-wheel:meaning-1": {
+          "gloss": "rebolo",
+          "definition": "Uma roda que contém material abrasivo e remove material de uma superfície ao girar em contato com ela."
+        }
+      },
+      "examples": [
+        {
+          "en": "The grinding wheel has an abrasive rim and a central mounting hole.",
+          "translation": "O rebolo tem uma borda abrasiva e um furo central de montagem."
+        },
+        {
+          "en": "The wheel is a replaceable component of the grinding machine.",
+          "translation": "O rebolo é um componente substituível da máquina de retificação."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an abrasive grinding wheel",
+          "translation": "um rebolo abrasivo"
+        },
+        {
+          "en": "a grinding wheel bore",
+          "translation": "um furo central de rebolo"
+        },
+        {
+          "en": "a grinding wheel guard",
+          "translation": "uma proteção de rebolo"
+        }
+      ],
+      "tip": "Grinding wheel é o rebolo abrasivo, não uma roda de transporte. O exemplo é um disco abrasivo; nem todos os rebolos têm o mesmo material, formato ou aplicação, e um disco de corte fino não deve ser considerado equivalente apenas pela aparência. A imagem não comprova compatibilidade, velocidade permitida nem integridade do rebolo."
+    },
+    "cutting-tool": {
+      "sourceWord": "cutting tool",
+      "senses": {
+        "cutting-tool:meaning-1": {
+          "gloss": "ferramenta de corte",
+          "definition": "Uma ferramenta com uma ou mais arestas que removem material de uma peça durante a usinagem."
+        }
+      },
+      "examples": [
+        {
+          "en": "The cutting tool has a replaceable insert secured at the end of its shank.",
+          "translation": "A ferramenta de corte tem uma pastilha substituível fixada na extremidade de sua haste."
+        },
+        {
+          "en": "In this turning example, one cutting edge forms the machined surface.",
+          "translation": "Neste exemplo de torneamento, uma aresta de corte forma a superfície usinada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a single-point cutting tool",
+          "translation": "uma ferramenta de corte de ponta única"
+        },
+        {
+          "en": "a cutting tool insert",
+          "translation": "uma pastilha de ferramenta de corte"
+        },
+        {
+          "en": "a cutting tool shank",
+          "translation": "uma haste de ferramenta de corte"
+        }
+      ],
+      "tip": "Cutting tool aqui é a ferramenta de usinagem, não qualquer utensílio doméstico de corte. A imagem mostra um exemplo de torneamento com ponta única e pastilha; brocas e fresas também são ferramentas de corte e nem todas têm essa forma. Tool holder segura a ferramenta; workpiece é o material usinado. O exemplo está parado e não fornece parâmetros de operação."
+    },
+    "tool-holder": {
+      "sourceWord": "tool holder",
+      "senses": {
+        "tool-holder:meaning-1": {
+          "gloss": "porta-ferramenta",
+          "definition": "Um componente da máquina que prende e posiciona com firmeza uma ferramenta de corte em relação à máquina."
+        }
+      },
+      "examples": [
+        {
+          "en": "The tool holder grips the cutter shank and locates it in the machine spindle.",
+          "translation": "O porta-ferramenta prende a haste da fresa e a posiciona no eixo-árvore da máquina."
+        },
+        {
+          "en": "The cutting end projects beyond the holder body.",
+          "translation": "A extremidade cortante se projeta além do corpo do porta-ferramenta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a spindle tool holder",
+          "translation": "um porta-ferramenta de eixo-árvore"
+        },
+        {
+          "en": "a tool holder body",
+          "translation": "um corpo de porta-ferramenta"
+        },
+        {
+          "en": "a tool holder taper",
+          "translation": "um cone de porta-ferramenta"
+        }
+      ],
+      "tip": "Em tool holder, o porta-ferramenta em si não precisa ter aresta cortante; sua função é prender e posicionar. A imagem mostra um exemplo de porta-ferramenta de eixo-árvore com uma ferramenta instalada; nem todos têm cone ou pinça. A forma ilustrada não determina norma de interface, precisão nem compatibilidade de peças reais."
+    },
+    "workpiece": {
+      "sourceWord": "workpiece",
+      "senses": {
+        "workpiece:meaning-1": {
+          "gloss": "peça de trabalho; peça",
+          "definition": "O material ou a peça que está sendo moldado ou processado em uma operação de fabricação."
+        }
+      },
+      "examples": [
+        {
+          "en": "The workpiece is clamped in the chuck, separate from the cutting tool.",
+          "translation": "A peça de trabalho está presa na placa, separada da ferramenta de corte."
+        },
+        {
+          "en": "Removing material changes the shape of the part.",
+          "translation": "A remoção de material muda o formato da peça."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a clamped workpiece",
+          "translation": "uma peça fixada"
+        },
+        {
+          "en": "a workpiece surface",
+          "translation": "uma superfície da peça"
+        },
+        {
+          "en": "workpiece material",
+          "translation": "o material da peça"
+        }
+      ],
+      "tip": "Workpiece é a peça que recebe o trabalho, não a ferramenta de corte nem o local de trabalho, workplace. Pode ser material bruto ou uma peça parcialmente pronta. A imagem é um exemplo estático de fixação em placa; a cor âmbar destaca a peça, não comprova que seja latão nem identifica seu material. Nem toda peça é presa em placa, e a imagem não é uma instrução de montagem nem uma garantia de segurança."
+    },
+    "chuck": {
+      "sourceWord": "chuck",
+      "senses": {
+        "chuck:meaning-1": {
+          "gloss": "placa de torno; mandril de castanhas",
+          "definition": "Um dispositivo de fixação com castanhas que prendem uma ferramenta ou peça ao redor de seu eixo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The chuck grips the cylindrical workpiece with three jaws.",
+          "translation": "A placa prende a peça cilíndrica com três castanhas."
+        },
+        {
+          "en": "Each jaw contacts the outside of the same workpiece.",
+          "translation": "Cada castanha toca a parte externa da mesma peça."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a three-jaw chuck",
+          "translation": "uma placa de três castanhas"
+        },
+        {
+          "en": "a chuck jaw",
+          "translation": "uma castanha de placa"
+        },
+        {
+          "en": "a lathe chuck",
+          "translation": "uma placa de torno"
+        }
+      ],
+      "tip": "Chuck aqui é o substantivo que nomeia o dispositivo de castanhas; o verbo coloquial inglês com sentido de jogar fora não faz parte deste verbete. A imagem mostra uma placa de torno de três castanhas; mandris de broca e placas de quatro castanhas têm outras formas. A pinça é uma luva fendida que se contrai, não as mesmas três castanhas separadas. Exemplo parado, sem instrução de aperto nem capacidade."
+    },
+    "collet": {
+      "sourceWord": "collet",
+      "senses": {
+        "collet:meaning-1": {
+          "gloss": "pinça de fixação",
+          "definition": "Uma luva de fixação fendida que se contrai ao redor da haste de uma ferramenta ou de uma peça quando é pressionada em um assento compatível."
+        }
+      },
+      "examples": [
+        {
+          "en": "The collet has longitudinal slots that allow it to contract around a shank.",
+          "translation": "A pinça tem fendas longitudinais que permitem sua contração ao redor de uma haste."
+        },
+        {
+          "en": "The central bore receives the part being held.",
+          "translation": "O furo central recebe a parte que será presa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a spring collet",
+          "translation": "uma pinça elástica"
+        },
+        {
+          "en": "a collet bore",
+          "translation": "um furo de pinça"
+        },
+        {
+          "en": "a collet chuck",
+          "translation": "um porta-pinça"
+        }
+      ],
+      "tip": "Collet é a luva fendida que se contrai; não é uma placa de três castanhas nem um anel simples. A imagem mostra um exemplo cônico; quantidade de fendas e geometria variam entre famílias. Collet chuck é o conjunto que segura a pinça. A aparência não comprova faixa de diâmetros, precisão nem compatibilidade."
+    },
+    "tailstock": {
+      "sourceWord": "tailstock",
+      "senses": {
+        "tailstock:meaning-1": {
+          "gloss": "contraponto; cabeçote móvel",
+          "definition": "Um conjunto ajustável do torno, oposto ao cabeçote fixo, que pode apoiar a extremidade livre de uma peça por meio de uma ponta."
+        }
+      },
+      "examples": [
+        {
+          "en": "The tailstock supports the end of the shaft with a centre aligned to its axis.",
+          "translation": "O contraponto apoia a extremidade do eixo com uma ponta alinhada ao seu eixo geométrico."
+        },
+        {
+          "en": "Its body sits on the lathe bed opposite the headstock.",
+          "translation": "Seu corpo fica sobre o barramento do torno, oposto ao cabeçote fixo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a lathe tailstock",
+          "translation": "um contraponto de torno"
+        },
+        {
+          "en": "a tailstock centre",
+          "translation": "uma ponta de contraponto"
+        },
+        {
+          "en": "a tailstock quill",
+          "translation": "uma manga de contraponto"
+        }
+      ],
+      "tip": "Tailstock é o conjunto de apoio; centre é sua ponta de apoio. No exemplo, a ponta está coaxial com a extremidade da peça e não faz o papel da placa motriz do cabeçote fixo. Alguns contrapontos também seguram ferramentas; este verbete foca o apoio da peça. A imagem não especifica força de fixação nem método de alinhamento."
+    },
+    "boring-bar": {
+      "sourceWord": "boring bar",
+      "senses": {
+        "boring-bar:meaning-1": {
+          "gloss": "barra de mandrilar",
+          "definition": "Uma barra com uma aresta de corte para usinar a superfície interna de um furo já existente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The boring bar places its cutting edge against the inside wall of the existing hole.",
+          "translation": "A barra de mandrilar posiciona sua aresta de corte em contato com a parede interna do furo existente."
+        },
+        {
+          "en": "Its shank extends into the bore while the holder remains outside.",
+          "translation": "Sua haste entra no furo enquanto o suporte permanece do lado de fora."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an internal boring bar",
+          "translation": "uma barra de mandrilamento interno"
+        },
+        {
+          "en": "a boring bar insert",
+          "translation": "uma pastilha de barra de mandrilar"
+        },
+        {
+          "en": "a boring bar holder",
+          "translation": "um suporte de barra de mandrilar"
+        }
+      ],
+      "tip": "Boring bar usina a parede de um furo existente; aqui não é uma broca para criar o furo inicial, e boring não significa entediante. A imagem mostra um exemplo de mandrilamento em torno parado; o corte revela a aresta. Nem todas as ferramentas de mandrilamento têm a mesma forma ou movimento; a imagem não fornece procedimento de corte nem ajustes."
+    },
+    "welding-torch": {
+      "sourceWord": "welding torch",
+      "senses": {
+        "welding-torch:meaning-1": {
+          "gloss": "tocha de soldagem",
+          "definition": "Uma ferramenta de soldagem manual que direciona energia geradora de calor e, em alguns processos, gás de proteção para a junta."
+        }
+      },
+      "examples": [
+        {
+          "en": "The welding torch shown has a ceramic cup around a tungsten electrode.",
+          "translation": "A tocha de soldagem mostrada tem um bocal cerâmico ao redor de um eletrodo de tungstênio."
+        },
+        {
+          "en": "This TIG example uses an electric arc rather than a fuel-gas flame.",
+          "translation": "Este exemplo TIG usa um arco elétrico, não uma chama de gás combustível."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a TIG welding torch",
+          "translation": "uma tocha de soldagem TIG"
+        },
+        {
+          "en": "a welding torch handle",
+          "translation": "um cabo de tocha de soldagem"
+        },
+        {
+          "en": "a welding torch nozzle",
+          "translation": "um bocal de tocha de soldagem"
+        }
+      ],
+      "tip": "Welding torch aqui é a ferramenta de soldagem, não uma lanterna. A imagem mostra uma tocha TIG desligada com eletrodo não consumível de tungstênio; tipos MIG e a gás têm outros componentes e nem todos produzem chama. Soldering iron tem uma ponta aquecida de contato para solda branda. A imagem não fornece conexões, regulagem de gás, corrente nem operação."
+    },
+    "soldering-iron": {
+      "sourceWord": "soldering iron",
+      "senses": {
+        "soldering-iron:meaning-1": {
+          "gloss": "ferro de solda",
+          "definition": "Uma ferramenta manual com ponta aquecida que transfere calor para derreter solda e unir peças."
+        }
+      },
+      "examples": [
+        {
+          "en": "The soldering iron has an insulated handle and a narrow metal tip.",
+          "translation": "O ferro de solda tem um cabo isolado e uma ponta metálica estreita."
+        },
+        {
+          "en": "Heat passes from the tip to the joint during soldering.",
+          "translation": "O calor passa da ponta para a junta durante a soldagem branda."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a soldering iron tip",
+          "translation": "uma ponta de ferro de solda"
+        },
+        {
+          "en": "a soldering iron stand",
+          "translation": "um suporte de ferro de solda"
+        },
+        {
+          "en": "a soldering iron handle",
+          "translation": "um cabo de ferro de solda"
+        }
+      ],
+      "tip": "Soldering iron é o ferro de solda; iron neste composto não é um ferro de passar roupa. A ponta quente toca a junta, diferente do arco de uma tocha TIG. A solda é o material de adição, não o próprio ferro. A imagem mostra uma ferramenta desligada no suporte; não especifica temperatura, alimentação elétrica nem procedimento de soldagem."
+    },
+    "bench-grinder": {
+      "sourceWord": "bench grinder",
+      "senses": {
+        "bench-grinder:meaning-1": {
+          "gloss": "esmeril de bancada; motoesmeril",
+          "definition": "Uma máquina de esmerilhar estacionária, acionada por motor e montada em bancada, usada com rebolos para dar forma ou afiar peças."
+        }
+      },
+      "examples": [
+        {
+          "en": "The bench grinder shown has two guarded abrasive wheels on one motor.",
+          "translation": "O esmeril de bancada mostrado tem dois rebolos protegidos ligados a um motor."
+        },
+        {
+          "en": "A separate tool rest sits in front of each wheel.",
+          "translation": "Um apoio de ferramenta separado fica diante de cada rebolo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a bench grinder wheel",
+          "translation": "um rebolo de esmeril de bancada"
+        },
+        {
+          "en": "a bench grinder guard",
+          "translation": "uma proteção de esmeril de bancada"
+        },
+        {
+          "en": "a bench grinder tool rest",
+          "translation": "um apoio de ferramenta do esmeril de bancada"
+        }
+      ],
+      "tip": "Bench grinder é a própria máquina estacionária; grinding wheel é seu rebolo. A imagem mostra um exemplo de dois rebolos desligado, com proteções e apoios, não uma esmerilhadeira portátil nem uma lixadeira de cinta. Quantidade e tipo de rodas variam entre modelos. O exemplo não fornece folga de ajuste do apoio, velocidade permitida, instrução de uso nem certificação de segurança."
     }
   }
 }
