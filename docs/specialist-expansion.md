@@ -1,6 +1,6 @@
 # Medicine and engineering expansion
 
-The latest published batch is documented in [Specialist batch 17](specialist-expansion-17.md), taking each priority category to 242. This page records the first 50-word milestone.
+The latest published batch is documented in [Specialist batch 18](specialist-expansion-18.md), taking each priority category to 254. This page records the first 50-word milestone.
 
 The active goal is **500 published English entries in medicine and healthcare and 500 in engineering**, with full Persian, Brazilian Portuguese and Latin American Spanish teaching content. The first milestone, release `2026-10-preview-6`, adds **67 entries** and takes medicine from 16 to **50** and engineering from 17 to **50**. The atlas grows from 191 to **258 distinct English entries and 259 meanings**. Reaching 50 is progress toward the goal; that milestone left 450 in each category.
 

@@ -3038,7 +3038,103 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 242,
+      "targetCategoryWords": 254,
+      "entryIds": [
+        "bacterium",
+        "virus",
+        "fungus",
+        "antibody",
+        "antigen",
+        "vaccine",
+        "allergy",
+        "allergen",
+        "parasite",
+        "lymph-node",
+        "tonsil",
+        "bone-marrow"
+      ],
+      "units": [
+        {
+          "id": "medical-microbiology-immunity",
+          "title": "Microbiology and immune-system vocabulary",
+          "entryIds": [
+            "bacterium",
+            "virus",
+            "fungus",
+            "antibody",
+            "antigen",
+            "vaccine",
+            "allergy",
+            "allergen",
+            "parasite",
+            "lymph-node",
+            "tonsil",
+            "bone-marrow"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-18",
+      "releaseId": "2026-10-preview-23",
+      "status": "published-preview",
+      "objective": "Describe microbiology, immune-system and thermal engineering vocabulary in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 242,
+      "targetCategoryWords": 254,
+      "entryIds": [
+        "evaporator",
+        "condenser",
+        "expansion-valve",
+        "steam-trap",
+        "heating-element",
+        "combustion-chamber",
+        "fuel-injector",
+        "exhaust-manifold",
+        "exhaust-pipe",
+        "heat-pump",
+        "heat-pipe",
+        "fin"
+      ],
+      "units": [
+        {
+          "id": "engineering-thermal-energy",
+          "title": "Thermal and engine systems",
+          "entryIds": [
+            "evaporator",
+            "condenser",
+            "expansion-valve",
+            "steam-trap",
+            "heating-element",
+            "combustion-chamber",
+            "fuel-injector",
+            "exhaust-manifold",
+            "exhaust-pipe",
+            "heat-pump",
+            "heat-pipe",
+            "fin"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-18",
+      "releaseId": "2026-10-preview-23",
+      "status": "published-preview",
+      "objective": "Describe microbiology, immune-system and thermal engineering vocabulary in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-17"
+  "activePassId": "specialist-500-batch-18"
 }

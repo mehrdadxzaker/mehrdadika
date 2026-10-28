@@ -2223,6 +2223,105 @@
       ],
       "imageRefreshEntryIds": [],
       "completedAt": "2026-10-28T16:53:45.996202+00:00"
+    },
+    {
+      "id": "specialist-500-batch-18",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-23",
+      "baseline": {
+        "releaseId": "2026-10-preview-22",
+        "manifest": "content/releases/2026-10-preview-22-73c4d667faf0/manifest.json",
+        "manifestSha256": "73c4d667faf0e1f1232c0ee19b2b674c4a72ef66f1940186967a61c35a66d558",
+        "words": 642
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 242,
+          "targetCategoryWords": 254,
+          "entryIds": [
+            "bacterium",
+            "virus",
+            "fungus",
+            "antibody",
+            "antigen",
+            "vaccine",
+            "allergy",
+            "allergen",
+            "parasite",
+            "lymph-node",
+            "tonsil",
+            "bone-marrow"
+          ],
+          "units": [
+            {
+              "id": "medical-microbiology-immunity",
+              "title": "Microbiology and immune-system vocabulary",
+              "entryIds": [
+                "bacterium",
+                "virus",
+                "fungus",
+                "antibody",
+                "antigen",
+                "vaccine",
+                "allergy",
+                "allergen",
+                "parasite",
+                "lymph-node",
+                "tonsil",
+                "bone-marrow"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 242,
+          "targetCategoryWords": 254,
+          "entryIds": [
+            "evaporator",
+            "condenser",
+            "expansion-valve",
+            "steam-trap",
+            "heating-element",
+            "combustion-chamber",
+            "fuel-injector",
+            "exhaust-manifold",
+            "exhaust-pipe",
+            "heat-pump",
+            "heat-pipe",
+            "fin"
+          ],
+          "units": [
+            {
+              "id": "engineering-thermal-energy",
+              "title": "Thermal and engine systems",
+              "entryIds": [
+                "evaporator",
+                "condenser",
+                "expansion-valve",
+                "steam-trap",
+                "heating-element",
+                "combustion-chamber",
+                "fuel-injector",
+                "exhaust-manifold",
+                "exhaust-pipe",
+                "heat-pump",
+                "heat-pipe",
+                "fin"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "completedAt": "2026-10-28T18:40:38.289431+00:00"
     }
   ],
   "activeWorkBatchId": null,

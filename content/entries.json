@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-22",
+  "releaseId": "2026-10-preview-23",
   "channel": "preview",
-  "createdAt": "2026-10-28T16:53:45.996202+00:00",
+  "createdAt": "2026-10-28T18:40:38.289431+00:00",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -40198,6 +40198,1544 @@
       "tip": "clearance در این معنی فاصلهٔ آزادِ قطعات است، نه مجوزِ رسمی، تخفیفِ فروش یا فضای بالای سر. تصویر شکافِ شعاعیِ کیفیِ محور و بوش را نشان می‌دهد؛ با تلرانسِ مجازِ اندازه یا انطباقِ تداخلی یکی نیست. شکاف برای دیده‌شدن بزرگ‌نمایی شده و اندازه، روان‌کاری، جاگذاری یا کارکردِ واقعی را تعیین نمی‌کند.",
       "media": {
         "img": "atlas/img/clearance.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "bacterium",
+      "w": "bacterium",
+      "uk": "/bækˈtɪəriəm/",
+      "us": "/bækˈtɪriəm/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "bacterium:meaning-1",
+          "pos": "n.",
+          "fa": "باکتری؛ جاندارِ تک‌سلولیِ بدونِ هستهٔ غشادار",
+          "en": "A single-celled organism whose genetic material is not enclosed in a membrane-bound nucleus.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The bacterium in this model is a single rod-shaped cell.",
+          "fa": "باکتریِ این مدل یک سلولِ میله‌ای‌شکل است.",
+          "senseId": "bacterium:meaning-1"
+        },
+        {
+          "en": "Its genetic material lies within the cell without a surrounding nuclear membrane.",
+          "fa": "مادهٔ ژنتیکیِ آن درونِ سلول است، بی‌آنکه غشای هسته‌ای آن را در بر بگیرد.",
+          "senseId": "bacterium:meaning-1"
+        }
+      ],
+      "col": [
+        "a rod-shaped bacterium｜باکتریِ میله‌ای‌شکل",
+        "a bacterial cell｜سلولِ باکتریایی",
+        "a single bacterium｜یک باکتری"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "bacterium مفرد و bacteria جمع است. باکتری با ویروس یکی نیست؛ همهٔ باکتری‌ها بیماری‌زا نیستند. مدل، یک نمونهٔ میله‌ای با تاژک را نشان می‌دهد، نه شکلِ همهٔ باکتری‌ها. رنگ‌ها و بزرگ‌نمایی توضیحی‌اند و گونه، اندازه یا فعالیتِ سلول را تعیین نمی‌کنند.",
+      "media": {
+        "img": "atlas/img/bacterium.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK20370/",
+            "use": "Primary NIH curriculum factual differences between bacterial cells, host-dependent viruses and fungal organisms; selected schematic examples not species identification or culture instructions. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          },
+          {
+            "url": "https://stacks.cdc.gov/view/cdc/47621/cdc_47621_DS1.pdf",
+            "use": "Primary CDC bacterial cell lacks membrane-bound nucleus; no protected definition reused. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "virus",
+      "w": "virus",
+      "uk": "/ˈvaɪərəs/",
+      "us": "/ˈvaɪrəs/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "virus:meaning-1",
+          "pos": "n.",
+          "fa": "ویروس؛ عاملِ عفونیِ وابسته به سلولِ میزبان",
+          "en": "An infectious agent containing genetic material in a protein coat that makes copies of itself using a host cell.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The virus in this model has an outer envelope around its protein coat.",
+          "fa": "ویروسِ این مدل پوششی بیرونی دورِ پوستهٔ پروتئینیِ خود دارد.",
+          "senseId": "virus:meaning-1"
+        },
+        {
+          "en": "Its genetic material is shown inside the particle, not in a cell nucleus.",
+          "fa": "مادهٔ ژنتیکیِ آن داخلِ ذره نشان داده شده است، نه در هستهٔ سلول.",
+          "senseId": "virus:meaning-1"
+        }
+      ],
+      "col": [
+        "an enveloped virus｜ویروسِ پوشش‌دار",
+        "a virus particle｜ذرهٔ ویروسی",
+        "the genetic material of a virus｜مادهٔ ژنتیکیِ ویروس"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "virus اینجا عاملِ زیستی است، نه بدافزارِ رایانه. ویروس برای تکثیر از سلولِ میزبان استفاده می‌کند و سلولی مانندِ باکتری نیست. مدل نمونه‌ای پوشش‌دار است؛ همهٔ ویروس‌ها پوشش ندارند. تعدادِ برجستگی‌ها، رنگ و شکلِ ژنوم توضیحی‌اند و گونه یا نوعِ دقیقِ ژنوم را مشخص نمی‌کنند.",
+      "media": {
+        "img": "atlas/img/virus.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK20370/",
+            "use": "Primary NIH curriculum factual differences between bacterial cells, host-dependent viruses and fungal organisms; selected schematic examples not species identification or culture instructions. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fungus",
+      "w": "fungus",
+      "uk": "/ˈfʌŋɡəs/",
+      "us": "/ˈfʌŋɡəs/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "fungus:meaning-1",
+          "pos": "n.",
+          "fa": "قارچ؛ جانداری از گروهِ مخمرها، کپک‌ها و قارچ‌های کلاهک‌دار",
+          "en": "An organism belonging to the group that includes yeasts, moulds and mushrooms, whose cells contain nuclei.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The fungus in this model is a yeast cell with a small bud.",
+          "fa": "قارچِ این مدل یک سلولِ مخمر با جوانه‌ای کوچک است.",
+          "senseId": "fungus:meaning-1"
+        },
+        {
+          "en": "The mother cell contains a nucleus within its outer cell wall.",
+          "fa": "سلولِ مادر درونِ دیوارهٔ بیرونیِ خود هسته دارد.",
+          "senseId": "fungus:meaning-1"
+        }
+      ],
+      "col": [
+        "a yeast fungus｜قارچِ مخمری",
+        "a fungal cell｜سلولِ قارچی",
+        "a type of fungus｜نوعی قارچ"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "fungus مفرد و fungi جمعِ رایج است. قارچ با باکتری یکی نیست و همهٔ قارچ‌ها بیماری‌زا نیستند. تصویر نمونهٔ تک‌سلولیِ مخمر را نشان می‌دهد؛ قارچ‌ها می‌توانند رشته‌ای یا چندسلولی هم باشند. جوانه‌زنی و رنگ‌ها در این مدل توضیحی‌اند، نه دستورِ کشت یا تشخیصِ گونه.",
+      "media": {
+        "img": "atlas/img/fungus.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK20370/",
+            "use": "Primary NIH curriculum factual differences between bacterial cells, host-dependent viruses and fungal organisms; selected schematic examples not species identification or culture instructions. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "antibody",
+      "w": "antibody",
+      "uk": "/ˈæntɪbɒdi/",
+      "us": "/ˈæntibɑːdi/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "antibody:meaning-1",
+          "pos": "n.",
+          "fa": "پادتن؛ پروتئینِ شناسایی‌کنندهٔ آنتی‌ژن",
+          "en": "A protein made by immune cells that binds to a particular antigen or part of an antigen.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The antibody in this IgG model has two matching binding sites at its tips.",
+          "fa": "پادتنِ این مدلِ IgG دو جایگاهِ اتصالِ همسان در نوک‌های خود دارد.",
+          "senseId": "antibody:meaning-1"
+        },
+        {
+          "en": "Two heavy chains and two light chains form the illustrated molecule.",
+          "fa": "دو زنجیرهٔ سنگین و دو زنجیرهٔ سبک مولکولِ نشان‌داده‌شده را می‌سازند.",
+          "senseId": "antibody:meaning-1"
+        }
+      ],
+      "col": [
+        "an antibody binding site｜جایگاهِ اتصالِ پادتن",
+        "a specific antibody｜پادتنِ اختصاصی",
+        "an antibody molecule｜مولکولِ پادتن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "antibody پادتن است؛ antigen ماده یا ساختاری است که شناسایی می‌شود. پادتن را سلول‌های پلاسما از دودمانِ سلولِ B می‌سازند، نه هر سلولِ ایمنی. مدل، تک‌واحدِ Yشکلِ IgG است؛ همهٔ رده‌های پادتن همین آرایش را ندارند. رنگ‌ها و شکلِ اتصال مفهومی‌اند و اثرِ محافظتی یا اندازهٔ واقعی را نشان نمی‌دهند.",
+      "media": {
+        "img": "atlas/img/antibody.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://medlineplus.gov/ency/article/000821.htm",
+            "use": "Primary NIH immune-response antigen recognition/antibody binding facts; no immune outcome or patient advice copied. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          },
+          {
+            "url": "https://openstax.org/books/microbiology/pages/18-1-overview-of-specific-adaptive-immunity",
+            "use": "Factual check only: generic antibody monomer four-chain structure and two heavy/light variable-tip binding sites. Original wording and artwork, no source figure copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "antigen",
+      "w": "antigen",
+      "uk": "/ˈæntɪdʒən/",
+      "us": "/ˈæntɪdʒən/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "antigen:meaning-1",
+          "pos": "n.",
+          "fa": "آنتی‌ژن؛ ماده یا ساختارِ شناسایی‌شونده توسطِ دستگاهِ ایمنی",
+          "en": "A substance or molecular feature that can be specifically recognized by antibodies or immune-cell receptors.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The antigen in this diagram is a protein with a highlighted binding region.",
+          "fa": "آنتی‌ژنِ این نمودار پروتئینی با ناحیهٔ اتصالِ مشخص‌شده است.",
+          "senseId": "antigen:meaning-1"
+        },
+        {
+          "en": "One tip of the smaller antibody binds to that region.",
+          "fa": "یک نوکِ پادتنِ کوچک‌تر به آن ناحیه متصل می‌شود.",
+          "senseId": "antigen:meaning-1"
+        }
+      ],
+      "col": [
+        "a protein antigen｜آنتی‌ژنِ پروتئینی",
+        "a surface antigen｜آنتی‌ژنِ سطحی",
+        "recognition of an antigen｜شناساییِ آنتی‌ژن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "antigen خودِ پادتن نیست و الزاماً یک میکروبِ کامل، مادهٔ خطرناک یا مادهٔ بیگانه نیست. تصویر نمونهٔ پروتئینی با ناحیه‌ای برای شناساییِ اختصاصی را نشان می‌دهد؛ شکل و نسبتِ اندازه‌ها مفهومی‌اند. allergen آنتی‌ژنی است که در فردِ حساس واکنشِ آلرژیک برمی‌انگیزد؛ هر آنتی‌ژن آلرژن نیست.",
+      "media": {
+        "img": "atlas/img/antigen.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://medlineplus.gov/ency/article/000821.htm",
+            "use": "Primary NIH immune-response antigen recognition/antibody binding facts; no immune outcome or patient advice copied. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          },
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK26884/",
+            "use": "Factual check only: molecular epitopes recognized at antibody arm-tip sites; protein antigen selected as one example. Original wording and artwork."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vaccine",
+      "w": "vaccine",
+      "uk": "/ˈvæksiːn/",
+      "us": "/vækˈsiːn/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "vaccine:meaning-1",
+          "pos": "n.",
+          "fa": "واکسن؛ فرآوردهٔ ایجادِ شناساییِ ایمنیِ اختصاصی",
+          "en": "A preparation designed to stimulate immune recognition of a particular disease-causing agent or its antigens.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The vaccine is represented by a vial beside a simplified immune-recognition diagram.",
+          "fa": "واکسن با یک ویال در کنارِ نمودارِ ساده‌شدهٔ شناساییِ ایمنی نشان داده شده است.",
+          "senseId": "vaccine:meaning-1"
+        },
+        {
+          "en": "The inset links an antigen example with immune recognition and memory.",
+          "fa": "نمایِ کوچک یک نمونهٔ آنتی‌ژن را به شناسایی و حافظهٔ ایمنی پیوند می‌دهد.",
+          "senseId": "vaccine:meaning-1"
+        }
+      ],
+      "col": [
+        "a vaccine preparation｜فرآوردهٔ واکسن",
+        "a vaccine antigen｜آنتی‌ژنِ واکسن",
+        "a vaccine vial｜ویالِ واکسن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "vaccine فرآورده است؛ vaccination عملِ واکسیناسیون و syringe ابزارِ تزریق است. واکسن‌ها ممکن است آنتی‌ژن یا دستورِ ساختِ آن را فراهم کنند؛ نمودار فقط یک مثالِ مفهومی است و ویروسِ زنده را پیش‌فرض نمی‌گیرد. تصویر دوز، روش، برنامهٔ مصرف یا محافظتِ تضمینی را نشان نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/vaccine.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-1-principles-of-vaccination.html",
+            "use": "Primary CDC vaccination stimulates antigen-directed immune recognition and memory; no dose/schedule/efficacy guarantee or clinical instruction adopted. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          },
+          {
+            "url": "https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-what-is-vaccination?topicsurvey=ht7j2q%29",
+            "use": "Primary WHO vaccine antigen or genetic-instruction variants; schematic preparation example does not imply live whole virus or all formulations identical. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "allergy",
+      "w": "allergy",
+      "uk": "/ˈælədʒi/",
+      "us": "/ˈælərdʒi/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "allergy:meaning-1",
+          "pos": "n.",
+          "fa": "آلرژی؛ واکنشِ ایمنی به ماده‌ای معمولاً بی‌ضرر",
+          "en": "An immune reaction to a substance that is usually harmless to most people.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "An allergy to pollen can cause an itchy nose and watery eyes.",
+          "fa": "آلرژی به گرده می‌تواند خارشِ بینی و اشک‌ریزش ایجاد کند.",
+          "senseId": "allergy:meaning-1"
+        },
+        {
+          "en": "The illustration shows one possible nasal and eye reaction, not every form of allergy.",
+          "fa": "تصویر یک واکنشِ احتمالیِ بینی و چشم را نشان می‌دهد، نه همهٔ شکل‌های آلرژی.",
+          "senseId": "allergy:meaning-1"
+        }
+      ],
+      "col": [
+        "a pollen allergy｜آلرژی به گرده",
+        "an allergic reaction｜واکنشِ آلرژیک",
+        "allergy symptoms｜نشانه‌های آلرژی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "allergy واکنشِ بدن است؛ allergen مادهٔ برانگیزانندهٔ آن است. حساسیتِ آلرژیک با هر نوعِ عدمِ تحمل یا عفونت یکی نیست. تصویر نشانه‌های یک مثالِ مرتبط با گرده را نشان می‌دهد؛ ظاهرِ شخص علت یا تشخیص را ثابت نمی‌کند و شدت، درمان یا اقدامِ بالینی تعیین نشده است.",
+      "media": {
+        "img": "atlas/img/allergy.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.medlineplus.gov/allergy.html",
+            "use": "Primary NIH immune reaction to usually harmless substance; selected nasal/eye example not diagnostic or comprehensive. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "allergen",
+      "w": "allergen",
+      "uk": "/ˈælədʒən/",
+      "us": "/ˈælərdʒən/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "allergen:meaning-1",
+          "pos": "n.",
+          "fa": "آلرژن؛ مادهٔ برانگیزانندهٔ واکنشِ آلرژیک",
+          "en": "A substance that can trigger an allergic immune reaction in a person who is sensitive to it.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Pollen can be an allergen for a person who is sensitive to it.",
+          "fa": "گرده می‌تواند برای فردی که به آن حساس است آلرژن باشد.",
+          "senseId": "allergen:meaning-1"
+        },
+        {
+          "en": "The enlarged grain represents one possible source of allergy-triggering material.",
+          "fa": "دانهٔ بزرگ‌شده نمایندهٔ یک منبعِ احتمالیِ مادهٔ برانگیزانندهٔ آلرژی است.",
+          "senseId": "allergen:meaning-1"
+        }
+      ],
+      "col": [
+        "a pollen allergen｜آلرژنِ گرده",
+        "exposure to an allergen｜مواجهه با آلرژن",
+        "a specific allergen｜آلرژنِ مشخص"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "allergen عامل است؛ allergy واکنش است. تصویر گرده را به‌عنوانِ یک مثال نشان می‌دهد، نه واکنشِ بدن. پروتئین‌های گرده می‌توانند آلرژن باشند؛ همهٔ گرده‌ها یا همهٔ افراد یکسان نیستند. رنگ و اندازهٔ نمایِ بزرگ‌شده توضیحی‌اند و گونه یا تشخیصِ حساسیت را مشخص نمی‌کنند.",
+      "media": {
+        "img": "atlas/img/allergen.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://medlineplus.gov/ency/article/002229.htm",
+            "use": "Primary NIH triggering substance/sensitized person distinction, pollen example; no identification test or treatment instructions copied. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "parasite",
+      "w": "parasite",
+      "uk": "/ˈpærəsaɪt/",
+      "us": "/ˈpærəsaɪt/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "parasite:meaning-1",
+          "pos": "n.",
+          "fa": "انگل؛ جاندارِ بهره‌بردار از میزبان",
+          "en": "An organism that lives on or in a host and obtains resources at the host’s expense.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The parasite in the illustration is a head louse attached to human hair.",
+          "fa": "انگلِ تصویر یک شپشِ سر است که به موی انسان چسبیده است.",
+          "senseId": "parasite:meaning-1"
+        },
+        {
+          "en": "This insect depends on its human host for blood meals.",
+          "fa": "این حشره برای تغذیه از خون به میزبانِ انسانیِ خود وابسته است.",
+          "senseId": "parasite:meaning-1"
+        }
+      ],
+      "col": [
+        "a human parasite｜انگلِ انسان",
+        "an external parasite｜انگلِ خارجی",
+        "the host of a parasite｜میزبانِ انگل"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "parasite اینجا معنای زیستی دارد، نه کاربردِ توهین‌آمیز دربارهٔ افراد. تصویر یک انگلِ خارجیِ شش‌پایِ سر را روی موی میزبان نشان می‌دهد؛ همهٔ انگل‌ها حشره نیستند و برخی داخلِ بدن زندگی می‌کنند. بزرگ‌نمایی، گونه‌سنجی یا تشخیصِ آلودگیِ فرد نیست و روشِ انتقال یا درمان نشان داده نشده است.",
+      "media": {
+        "img": "atlas/img/parasite.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.cdc.gov/parasites/about/",
+            "use": "Primary CDC host-dependent resource relationship; selected external louse is only one parasite example. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          },
+          {
+            "url": "https://www.cdc.gov/lice/about/head-lice.html",
+            "use": "Primary CDC human-host blood feeding fact; no transmission/diagnosis/treatment steps reproduced. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          },
+          {
+            "url": "https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/HeadLiceFactSheet.pdf",
+            "use": "Primary state public-health adult head louse six legs; no source artwork or size scale copied. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lymph-node",
+      "w": "lymph node",
+      "uk": "/ˈlɪmf nəʊd/",
+      "us": "/ˈlɪmf noʊd/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "lymph-node:meaning-1",
+          "pos": "n.",
+          "fa": "گرهٔ لنفاوی؛ ساختارِ ایمنی در مسیرِ لنف",
+          "en": "A small immune-system organ along lymphatic vessels that filters lymph and contains immune cells.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The lymph node in this cutaway has a bean-shaped outline and a surrounding capsule.",
+          "fa": "گرهٔ لنفاویِ این نمایِ برش، طرحی لوبیایی و کپسولی پیرامونی دارد.",
+          "senseId": "lymph-node:meaning-1"
+        },
+        {
+          "en": "Lymph enters through incoming vessels and leaves through an outgoing vessel at the indented side.",
+          "fa": "لنف از رگ‌های ورودی وارد و از رگِ خروجی در سمتِ فرورفته خارج می‌شود.",
+          "senseId": "lymph-node:meaning-1"
+        }
+      ],
+      "col": [
+        "a lymph node capsule｜کپسولِ گرهٔ لنفاوی",
+        "a cervical lymph node｜گرهٔ لنفاویِ گردن",
+        "a lymph node in the groin｜گرهٔ لنفاوی در کشالهٔ ران"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "lymph node گرهٔ لنفاوی است؛ با رگِ لنفاوی یا غدهٔ بزاقی یکی نیست. spleen خون را پالایش می‌کند، نه لنف را مانندِ این گره. مدل، رگ‌های ورودی در سطحِ محدب و خروجی در نافِ گره را ساده می‌کند؛ رنگ، تعدادِ فولیکول‌ها و نسبت‌ها واقعی یا تشخیصی نیستند.",
+      "media": {
+        "img": "atlas/img/lymph-node.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/lymph-node",
+            "use": "Primary NCI immune tissue along lymphatic vessels and filtering function facts only; independently authored learner meaning, no protected wording reused. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          },
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+            "use": "Primary textbook afferent/efferent lymph and red/yellow marrow distinction; no figure copied, proportions are conceptual not histology. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          },
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557717/",
+            "use": "Primary NIH-hosted anatomical outer-convex entry and hilum exit location facts; original simplified cutaway not complete vessel atlas. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "tonsil",
+      "w": "tonsil",
+      "uk": "/ˈtɒnsəl/",
+      "us": "/ˈtɑːnsəl/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "tonsil:meaning-1",
+          "pos": "n.",
+          "fa": "لوزه؛ تودهٔ بافتِ لنفاوی در حلق",
+          "en": "A mass of lymphoid tissue near the throat that forms part of the immune system.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The tonsil highlighted in this mouth view is one of the two palatine tonsils.",
+          "fa": "لوزهٔ مشخص‌شده در این نمایِ دهان یکی از دو لوزهٔ کامی است.",
+          "senseId": "tonsil:meaning-1"
+        },
+        {
+          "en": "It lies at the side of the throat, not in the central hanging uvula.",
+          "fa": "این لوزه در کنارِ حلق قرار دارد، نه در زبانکِ آویختهٔ میانی.",
+          "senseId": "tonsil:meaning-1"
+        }
+      ],
+      "col": [
+        "a palatine tonsil｜لوزهٔ کامی",
+        "tonsil tissue｜بافتِ لوزه",
+        "the surface of a tonsil｜سطحِ لوزه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "tonsil لوزه است؛ tonsillitis التهابِ لوزه است. تصویر یک لوزهٔ کامی را میانِ قوس‌های کنارهٔ حلق نشان می‌دهد؛ با زبانک یا غدهٔ بزاقی یکی نیست. بافت‌های لوزه‌ایِ دیگری هم وجود دارند. خطِ رنگی فقط محل را مشخص می‌کند و نشانهٔ تورم، عفونت یا نتیجهٔ معاینه نیست.",
+      "media": {
+        "img": "atlas/img/tonsil.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/mesh/D014066",
+            "use": "Primary NLM palatine tonsil location on each lateral oropharyngeal side between soft-palate pillars; no disease or examination claim. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bone-marrow",
+      "w": "bone marrow",
+      "uk": "/ˈbəʊn ˌmærəʊ/",
+      "us": "/ˈboʊn ˌmæroʊ/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "bone-marrow:meaning-1",
+          "pos": "n.",
+          "fa": "مغزِ استخوان؛ بافتِ نرمِ درونِ استخوان",
+          "en": "Soft tissue within the spaces inside bones, including red marrow that produces blood cells and yellow marrow rich in fat.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The bone marrow occupies spaces between the bony struts in this cutaway.",
+          "fa": "مغزِ استخوان در این نمایِ برش، فضاهای میانِ تیغه‌های استخوانی را پُر می‌کند.",
+          "senseId": "bone-marrow:meaning-1"
+        },
+        {
+          "en": "Red marrow produces blood cells, while yellow marrow contains much more fat.",
+          "fa": "مغزِ قرمز سلول‌های خونی می‌سازد، درحالی‌که مغزِ زرد چربیِ بسیار بیشتری دارد.",
+          "senseId": "bone-marrow:meaning-1"
+        }
+      ],
+      "col": [
+        "red bone marrow｜مغزِ قرمزِ استخوان",
+        "yellow bone marrow｜مغزِ زردِ استخوان",
+        "bone marrow cells｜سلول‌های مغزِ استخوان"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "bone marrow بافتِ نرمِ درونِ استخوان است، نه خودِ استخوان یا نخاع. تصویر نمونه‌ای از مغزِ قرمز میانِ تیغه‌های استخوانِ اسفنجیِ لگن را نشان می‌دهد؛ همهٔ مغزِ استخوانِ بزرگسال قرمز نیست. رنگ و بزرگ‌نمایی توضیحی‌اند و تصویر نمونه‌برداری، شمارشِ سلول یا تشخیصِ بیماری نیست.",
+      "media": {
+        "img": "atlas/img/bone-marrow.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+            "use": "Primary textbook afferent/efferent lymph and red/yellow marrow distinction; no figure copied, proportions are conceptual not histology. Original independent wording and original AI-assisted art; no source prose/art copied. Human language/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "evaporator",
+      "w": "evaporator",
+      "uk": "/ɪˈvæpəreɪtə/",
+      "us": "/ɪˈvæpəreɪtər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "evaporator:meaning-1",
+          "pos": "n.",
+          "fa": "تبخیرکننده؛ اواپراتور",
+          "en": "A device in which liquid absorbs heat and changes into vapor.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The evaporator converts part of the liquid feed into vapor.",
+          "fa": "تبخیرکننده بخشی از مایعِ ورودی را به بخار تبدیل می‌کند.",
+          "senseId": "evaporator:meaning-1"
+        },
+        {
+          "en": "Heat crosses the exchanger wall into the liquid.",
+          "fa": "گرما از دیوارهٔ مبدل به درونِ مایع منتقل می‌شود.",
+          "senseId": "evaporator:meaning-1"
+        }
+      ],
+      "col": [
+        "an evaporator coil｜کویلِ تبخیرکننده",
+        "an evaporator inlet｜ورودیِ تبخیرکننده",
+        "heat transfer in an evaporator｜انتقالِ گرما در تبخیرکننده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "evaporator محلِ جذبِ گرما و تبدیلِ مایع به بخار است؛ condenser در جهتِ تغییرِ فازِ برعکس عمل می‌کند. نمونهٔ تصویر یک تبخیرکنندهٔ مخزنیِ توضیحی است؛ تبخیرکننده‌های کویلی و شکل‌های دیگر هم وجود دارند. رنگ‌ها مقدارِ دما، فشار، نوعِ سیال یا میزانِ تبخیر را تعیین نمی‌کنند و دو مسیرِ سیال از هم جدا می‌مانند.",
+      "media": {
+        "img": "atlas/img/evaporator.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://natural-resources.canada.ca/energy-efficiency/energy-star/heating-cooling-heat-pump",
+            "use": "Checked heat absorption and liquid-to-vapor direction; original process-vessel example, not copied heat-pump artwork or a refrigerant phase/color specification."
+          }
+        ]
+      }
+    },
+    {
+      "id": "condenser",
+      "w": "condenser",
+      "uk": "/kənˈdensə/",
+      "us": "/kənˈdensər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "condenser:meaning-1",
+          "pos": "n.",
+          "fa": "چگالنده؛ کندانسور",
+          "en": "A device in which vapor releases heat and changes into liquid.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The condenser releases heat as vapor becomes liquid.",
+          "fa": "چگالنده هنگامِ تبدیلِ بخار به مایع، گرما پس می‌دهد.",
+          "senseId": "condenser:meaning-1"
+        },
+        {
+          "en": "Condensed liquid collects below the cooling surface.",
+          "fa": "مایعِ چگالیده در زیرِ سطحِ خنک‌کننده جمع می‌شود.",
+          "senseId": "condenser:meaning-1"
+        }
+      ],
+      "col": [
+        "a condenser coil｜کویلِ چگالنده",
+        "a condenser outlet｜خروجیِ چگالنده",
+        "heat released by a condenser｜گرمای پس‌داده‌شده از چگالنده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "condenser در این معنی وسیلهٔ چگالشِ بخار است، نه خازنِ الکتریکی که در برخی کاربردها همین نام را دارد. بخار گرما از دست می‌دهد و به مایع تبدیل می‌شود؛ evaporator تغییرِ فازِ مخالف دارد. تصویر دو مسیرِ جدا برای سیالِ فرایندی و سیالِ خنک‌کننده را توضیح می‌دهد و دما، فشار، ظرفیت یا نرخِ چگالشِ واقعی ارائه نمی‌کند.",
+      "media": {
+        "img": "atlas/img/condenser.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.trane.com/commercial/north-america/us/en/about-us/newsroom/glossary/refrigeration-cycle.html",
+            "use": "Checked heat rejection and vapor-to-liquid cycle role; original separated-fluid cutaway, no copied product diagram or operating values."
+          }
+        ]
+      }
+    },
+    {
+      "id": "expansion-valve",
+      "w": "expansion valve",
+      "uk": "/ɪkˈspænʃən vælv/",
+      "us": "/ɪkˈspænʃən vælv/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "expansion-valve:meaning-1",
+          "pos": "n.",
+          "fa": "شیرِ انبساط",
+          "en": "A valve that meters refrigerant toward an evaporator while reducing its pressure.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The expansion valve meters refrigerant toward the evaporator.",
+          "fa": "شیرِ انبساط مقدارِ عبورِ مبرد به سوی تبخیرکننده را کنترل می‌کند.",
+          "senseId": "expansion-valve:meaning-1"
+        },
+        {
+          "en": "Pressure drops across the valve’s restricted passage.",
+          "fa": "فشار در گذر از مجرای محدودِ شیر کاهش می‌یابد.",
+          "senseId": "expansion-valve:meaning-1"
+        }
+      ],
+      "col": [
+        "a refrigerant expansion valve｜شیرِ انبساطِ مبرد",
+        "an expansion valve inlet｜ورودیِ شیرِ انبساط",
+        "an expansion valve opening｜دهانهٔ شیرِ انبساط"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "expansion valve وسیلهٔ مقداردهی و افتِ فشارِ مبرد است، نه کمپرسور یا هر شیرِ آبِ معمولی. تصویر مسیر و محدودشدنِ گذرگاه را توضیح می‌دهد؛ سازوکارِ کنترل می‌تواند ترموستاتیکی، الکترونیکی یا از نوعِ دیگری باشد. نشانه‌های فشار فقط مقایسه‌ای‌اند و عدد، تنظیم، فشارِ کاری یا دستورِ سرویس ارائه نمی‌شود.",
+      "media": {
+        "img": "atlas/img/expansion-valve.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.danfoss.com/en-us/service-and-support/case-stories/dcs/how-thermostatic-expansion-valves-work/",
+            "use": "Checked refrigerant metering and throttling role; original generic valve study, no copied dimensions, tuning or superheat setting."
+          },
+          {
+            "url": "https://www.eaton.com/us/en-us/products/thermal-management-solutions/chillers/compressor-based-refrigeration-basics.html",
+            "use": "Checked pressure-drop device between condenser and evaporator; no universal pure-vapor outlet, cooling amount or phase-color claim."
+          }
+        ]
+      }
+    },
+    {
+      "id": "steam-trap",
+      "w": "steam trap",
+      "uk": "/ˈstiːm træp/",
+      "us": "/ˈstiːm træp/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "steam-trap:meaning-1",
+          "pos": "n.",
+          "fa": "تلهٔ بخار",
+          "en": "An automatic device that discharges condensate from a steam system while limiting the escape of live steam.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The steam trap discharges condensate from the steam line.",
+          "fa": "تلهٔ بخار، آبِ چگالیده را از خطِ بخار تخلیه می‌کند.",
+          "senseId": "steam-trap:meaning-1"
+        },
+        {
+          "en": "An internal mechanism opens a discharge path when condensate collects.",
+          "fa": "وقتی آبِ چگالیده جمع می‌شود، سازوکاری داخلی مسیرِ تخلیه را باز می‌کند.",
+          "senseId": "steam-trap:meaning-1"
+        }
+      ],
+      "col": [
+        "a steam trap outlet｜خروجیِ تلهٔ بخار",
+        "steam trap condensate｜آبِ چگالیدهٔ تلهٔ بخار",
+        "a float steam trap｜تلهٔ بخارِ شناوری"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "steam trap تلهٔ خودکارِ تخلیهٔ آبِ چگالیدهٔ سامانهٔ بخار است، نه سیفونِ فاضلاب یا مخزنِ تولیدِ بخار. تله‌های شناوری، ترموستاتیکی و انواعِ دیگر رفتارِ متفاوت دارند. تصویر یک نمونهٔ توضیحی است و نبودِ نشتی، جهتِ نصب، فشار، ظرفیت یا عملکردِ واقعی را تضمین نمی‌کند.",
+      "media": {
+        "img": "atlas/img/steam-trap.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/mechanical-steam-traps?sc_lang=en-FI",
+            "use": "Primary manufacturer factual check only: ball-float condensate-discharge principle; original qualitative generic cutaway, no commercial drawing copied or installation dimensions used."
+          }
+        ]
+      }
+    },
+    {
+      "id": "heating-element",
+      "w": "heating element",
+      "uk": "/ˈhiːtɪŋ ˌelɪmənt/",
+      "us": "/ˈhiːtɪŋ ˌelɪmənt/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "heating-element:meaning-1",
+          "pos": "n.",
+          "fa": "عنصرِ گرم‌کن؛ المنتِ حرارتی",
+          "en": "A component that produces heat through electrical resistance.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The heating element converts electrical energy into heat.",
+          "fa": "المنتِ حرارتی انرژیِ الکتریکی را به گرما تبدیل می‌کند.",
+          "senseId": "heating-element:meaning-1"
+        },
+        {
+          "en": "Ceramic bushings insulate the two terminals in this example.",
+          "fa": "بوش‌های سرامیکی در این نمونه دو پایانه را عایق می‌کنند.",
+          "senseId": "heating-element:meaning-1"
+        }
+      ],
+      "col": [
+        "a resistive heating element｜المنتِ گرم‌کنِ مقاومتی",
+        "a heating element terminal｜پایانهٔ المنتِ حرارتی",
+        "a sheathed heating element｜المنتِ حرارتیِ غلاف‌دار"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "heating element در این معنی قطعهٔ گرم‌کنِ مقاومتیِ الکتریکی است، نه مبدلِ گرما یا شعلهٔ مشعل. تصویر یک نمونهٔ مارپیچیِ غلاف‌دار با دو پایانه و بوش‌های عایقِ سرامیکی را نشان می‌دهد؛ سیمِ مقاومتیِ درونی دیده نمی‌شود. شکلِ عناصر متفاوت است. رنگِ کهربایی نشانهٔ انتخاب است، نه دمای واقعی؛ تصویر مدارِ قابلِ ساخت، ولتاژ، توان، دمای کاری یا دستورِ اتصالِ برق ارائه نمی‌کند.",
+      "media": {
+        "img": "atlas/img/heating-element.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "combustion-chamber",
+      "w": "combustion chamber",
+      "uk": "/kəmˈbʌstʃən ˌtʃeɪmbə/",
+      "us": "/kəmˈbʌstʃən ˌtʃeɪmbər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "combustion-chamber:meaning-1",
+          "pos": "n.",
+          "fa": "محفظهٔ احتراق",
+          "en": "A space in an engine or burner where fuel burns and releases heat.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The combustion chamber is above the piston in this engine.",
+          "fa": "محفظهٔ احتراق در این موتور، بالای پیستون قرار دارد.",
+          "senseId": "combustion-chamber:meaning-1"
+        },
+        {
+          "en": "The spark plug projects into the space below the cylinder head.",
+          "fa": "شمعِ جرقه به فضای زیرِ سرسیلندر وارد شده است.",
+          "senseId": "combustion-chamber:meaning-1"
+        }
+      ],
+      "col": [
+        "an engine combustion chamber｜محفظهٔ احتراقِ موتور",
+        "a combustion chamber wall｜دیوارهٔ محفظهٔ احتراق",
+        "combustion chamber volume｜حجمِ محفظهٔ احتراق"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "combustion chamber فضای انجامِ احتراق است، نه کلِ موتور یا هر فضای خالیِ داخلِ سیلندر. تصویر یک نمونهٔ پیستونی با شمع را انتخاب می‌کند؛ موتورِ دیزل، توربین و مشعل شکل‌های دیگری دارند. انتخابِ رنگی فقط حجمِ محفظه را مشخص می‌کند و به معنای شعلهٔ واقعی، زمانِ جرقه، نسبتِ تراکم یا روشِ کار نیست.",
+      "media": {
+        "img": "atlas/img/combustion-chamber.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.bosch-mobility.com/en/solutions/powertrain/gasoline/gasoline-direct-injection/",
+            "use": "Checked combustion-chamber interface and distinction from fuel-delivery device; original selected spark-ignition piston-engine section, no copied engine artwork or timing specification."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fuel-injector",
+      "w": "fuel injector",
+      "uk": "/ˈfjuːəl ɪnˌdʒektə/",
+      "us": "/ˈfjuːəl ɪnˌdʒektər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "fuel-injector:meaning-1",
+          "pos": "n.",
+          "fa": "انژکتورِ سوخت؛ افشانکِ سوخت",
+          "en": "A device that delivers a controlled amount of fuel through a nozzle.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The fuel injector delivers a controlled amount of fuel through its nozzle.",
+          "fa": "انژکتورِ سوخت، مقدارِ کنترل‌شده‌ای سوخت را از نازلِ خود خارج می‌کند.",
+          "senseId": "fuel-injector:meaning-1"
+        },
+        {
+          "en": "A valve needle controls the outlet in this illustrated design.",
+          "fa": "در این طرحِ توضیحی، سوزنِ شیر دهانهٔ خروجی را کنترل می‌کند.",
+          "senseId": "fuel-injector:meaning-1"
+        }
+      ],
+      "col": [
+        "a fuel injector nozzle｜نازلِ انژکتورِ سوخت",
+        "a fuel injector needle｜سوزنِ انژکتورِ سوخت",
+        "an engine fuel injector｜انژکتورِ سوختِ موتور"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "fuel injector مقدارِ سوختِ ورودی را کنترل می‌کند؛ با پمپِ سوخت یا شمعِ جرقه یکی نیست. تصویر یک نمونهٔ نازلِ سوزنی را توضیح می‌دهد؛ کنترلِ انژکتورها و محلِ پاشش متفاوت است. قطره‌ها نشانهٔ کیفیِ پاشش‌اند، نه رنگِ واقعیِ سوخت، اندازهٔ قطره، فشار، نرخِ تزریق یا دستورِ آزمون.",
+      "media": {
+        "img": "atlas/img/fuel-injector.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.bosch-mobility.com/en/solutions/powertrain/gasoline/gasoline-port-fuel-injection/",
+            "use": "Checked fuel delivery/spray role and that injection location differs across systems; original generic needle/nozzle depiction, no copied product geometry, pressure or fuel quantities."
+          },
+          {
+            "url": "https://www.bosch-mobility.com/en/solutions/injectors/solenoid-valve-injector-cri2/",
+            "use": "Checked controlled injector/needle component context; no copied specifications or actual test values."
+          }
+        ]
+      }
+    },
+    {
+      "id": "exhaust-manifold",
+      "w": "exhaust manifold",
+      "uk": "/ɪɡˈzɔːst ˌmænɪfəʊld/",
+      "us": "/ɪɡˈzɔːst ˌmænɪfoʊld/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "exhaust-manifold:meaning-1",
+          "pos": "n.",
+          "fa": "منیفولدِ دود؛ چندراههٔ خروجِ گازهای موتور",
+          "en": "A set of connected passages that collects exhaust gas from several engine cylinders.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The exhaust manifold combines gas from several engine cylinders.",
+          "fa": "منیفولدِ دود، گازِ خروجیِ چند سیلندرِ موتور را جمع می‌کند.",
+          "senseId": "exhaust-manifold:meaning-1"
+        },
+        {
+          "en": "Separate branches join one collector before the exhaust pipe.",
+          "fa": "شاخه‌های جدا پیش از لولهٔ اگزوز به یک جمع‌کننده می‌پیوندند.",
+          "senseId": "exhaust-manifold:meaning-1"
+        }
+      ],
+      "col": [
+        "an engine exhaust manifold｜منیفولدِ دودِ موتور",
+        "an exhaust manifold branch｜شاخهٔ منیفولدِ دود",
+        "an exhaust manifold outlet｜خروجیِ منیفولدِ دود"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "exhaust manifold گازهای خروجیِ سیلندرها را جمع می‌کند؛ intake manifold هوای ورودی یا مخلوط را توزیع می‌کند. تصویر یک نمونهٔ چندشاخه با خروجیِ مشترک است، نه لولهٔ اگزوزِ منفرد. تعدادِ شاخه‌ها و خروجی‌ها در موتورهای دیگر فرق دارد. پیکان‌ها فقط مسیرِ کیفیِ گاز را نشان می‌دهند، نه دما، دبی، تنظیمِ موتور یا طرحِ قابلِ ساخت.",
+      "media": {
+        "img": "atlas/img/exhaust-manifold.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://parts.cat.com/en/catcorp/product/200-4506",
+            "use": "Checked collecting cylinder exhaust into the exhaust path, distinct from intake distribution; original multi-branch example, no copied part shape or compatibility claim."
+          }
+        ]
+      }
+    },
+    {
+      "id": "exhaust-pipe",
+      "w": "exhaust pipe",
+      "uk": "/ɪɡˈzɔːst paɪp/",
+      "us": "/ɪɡˈzɔːst paɪp/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "exhaust-pipe:meaning-1",
+          "pos": "n.",
+          "fa": "لولهٔ اگزوز؛ لولهٔ خروجِ گازهای موتور",
+          "en": "A pipe that carries exhaust gas away from an engine.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The exhaust pipe carries exhaust gas away from the engine.",
+          "fa": "لولهٔ اگزوز، گازِ خروجی را از موتور دور می‌کند.",
+          "senseId": "exhaust-pipe:meaning-1"
+        },
+        {
+          "en": "The curved tube has an inlet connection and an open outlet.",
+          "fa": "لولهٔ خمیده یک اتصالِ ورودی و یک دهانهٔ خروجیِ باز دارد.",
+          "senseId": "exhaust-pipe:meaning-1"
+        }
+      ],
+      "col": [
+        "an engine exhaust pipe｜لولهٔ اگزوزِ موتور",
+        "an exhaust pipe outlet｜دهانهٔ خروجیِ لولهٔ اگزوز",
+        "a curved exhaust pipe｜لولهٔ اگزوزِ خمیده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "exhaust pipe مجرای خروجِ گازهای موتور است، نه لولهٔ آب، ورودیِ هوا یا کلِ سامانهٔ اگزوز. منیفولد، صداخفه‌کن و قطعاتِ دیگر نقش‌های جدا دارند. تصویر فقط یک مسیرِ ساده را نشان می‌دهد و رنگِ دود، دما، آلایندگی، ایمنیِ تماس یا سازگاریِ قطعه با موتورِ واقعی را تعیین نمی‌کند.",
+      "media": {
+        "img": "atlas/img/exhaust-pipe.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "heat-pump",
+      "w": "heat pump",
+      "uk": "/ˈhiːt pʌmp/",
+      "us": "/ˈhiːt pʌmp/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "heat-pump:meaning-1",
+          "pos": "n.",
+          "fa": "پمپِ گرمایی؛ پمپِ حرارتی",
+          "en": "A device that uses supplied energy to transfer heat from a cooler place to a warmer place.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The heat pump uses supplied energy to move heat toward a warmer space.",
+          "fa": "پمپِ گرمایی با مصرفِ انرژیِ ورودی، گرما را به سوی فضایی گرم‌تر منتقل می‌کند.",
+          "senseId": "heat-pump:meaning-1"
+        },
+        {
+          "en": "The compressor, two heat exchangers and expansion device form a connected circuit.",
+          "fa": "کمپرسور، دو مبدلِ گرما و وسیلهٔ انبساط یک مدارِ پیوسته تشکیل می‌دهند.",
+          "senseId": "heat-pump:meaning-1"
+        }
+      ],
+      "col": [
+        "a heat pump cycle｜چرخهٔ پمپِ گرمایی",
+        "a heat pump compressor｜کمپرسورِ پمپِ گرمایی",
+        "heat pump input energy｜انرژیِ ورودیِ پمپِ گرمایی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "heat pump گرما را با مصرفِ انرژی جابه‌جا می‌کند؛ مولدِ انرژیِ بی‌ورودی یا صرفاً المنتِ مقاومتی نیست. تصویر یک چرخهٔ فشرده‌سازیِ بخار در حالتِ گرمایش را انتخاب می‌کند؛ سامانه‌ها و حالت‌های دیگر وجود دارند. مسیرها و پیکان‌ها کیفی‌اند و نوعِ مبرد، حالتِ فاز از روی رنگ، دما، فشار، بازده یا طرحِ نصب را تعیین نمی‌کنند.",
+      "media": {
+        "img": "atlas/img/heat-pump.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nist.gov/programs-projects/refrigerants-and-working-fluids",
+            "use": "Checked reverse-Rankine working-fluid circuit through compressor, condenser, expansion device and evaporator; original connected-loop illustration, no refrigerant properties or measured performance."
+          },
+          {
+            "url": "https://www.energy.gov/sites/prod/files/2013/11/f5/hvac_guide.pdf",
+            "use": "Checked supplied-energy heat-transfer principle and heating-mode compressor/condensing/expansion/evaporating order; no copied cycle diagram, efficiency rating or installation guidance."
+          }
+        ]
+      }
+    },
+    {
+      "id": "heat-pipe",
+      "w": "heat pipe",
+      "uk": "/ˈhiːt paɪp/",
+      "us": "/ˈhiːt paɪp/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "heat-pipe:meaning-1",
+          "pos": "n.",
+          "fa": "لولهٔ گرمایی",
+          "en": "A sealed heat-transfer device in which a working fluid evaporates at a warmer region and condenses at a cooler region.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The heat pipe transfers heat through evaporation and condensation inside a sealed tube.",
+          "fa": "لولهٔ گرمایی با تبخیر و چگالش درونِ لوله‌ای بسته، گرما را منتقل می‌کند.",
+          "senseId": "heat-pipe:meaning-1"
+        },
+        {
+          "en": "A wick can return liquid from the cooler end toward the warmer end.",
+          "fa": "فتیله می‌تواند مایع را از انتهای خنک‌تر به سوی انتهای گرم‌تر بازگرداند.",
+          "senseId": "heat-pipe:meaning-1"
+        }
+      ],
+      "col": [
+        "a sealed heat pipe｜لولهٔ گرماییِ بسته",
+        "a heat pipe wick｜فتیلهٔ لولهٔ گرمایی",
+        "a heat pipe evaporator end｜انتهای تبخیرِ لولهٔ گرمایی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "heat pipe وسیلهٔ انتقالِ گرمای دو‌فازیِ بسته است، نه لولهٔ رفتِ آبِ گرم یا خودِ پمپِ گرمایی. تصویر نوعِ فتیله‌دار را توضیح می‌دهد؛ برخی دستگاه‌های مشابه از گرانش برای بازگشتِ مایع کمک می‌گیرند. این لوله گرما را میانِ ناحیهٔ دریافت و ناحیهٔ دفعِ گرما جابه‌جا می‌کند و خودِ آن مولدِ گرما نیست. رنگ‌ها یا پیکان‌ها ظرفیت، سیال، جهتِ نصب یا طراحیِ واقعی را تعیین نمی‌کنند.",
+      "media": {
+        "img": "atlas/img/heat-pipe.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://info.boydcorp.com/hubfs/Thermal/Two-Phase-Cooling/Boyd-Heat-Pipes-Brochure.pdf",
+            "use": "Primary manufacturer factual check only: sealed hollow tube, porous wick, evaporation/condensation transport and capillary liquid return. Original schematic artwork; no brochure figure or dimensions copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fin",
+      "w": "fin",
+      "uk": "/fɪn/",
+      "us": "/fɪn/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "fin:meaning-1",
+          "pos": "n.",
+          "fa": "پرهٔ تبادلِ گرما",
+          "en": "A projecting surface added to increase the area available for heat transfer.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The fin extends the heat-transfer surface of the metal body.",
+          "fa": "پره، سطحِ تبادلِ گرمای بدنهٔ فلزی را افزایش می‌دهد.",
+          "senseId": "fin:meaning-1"
+        },
+        {
+          "en": "Several thin plates are joined to the same base.",
+          "fa": "چند صفحهٔ نازک به یک پایهٔ مشترک متصل‌اند.",
+          "senseId": "fin:meaning-1"
+        }
+      ],
+      "col": [
+        "a cooling fin｜پرهٔ خنک‌کننده",
+        "a heat-transfer fin｜پرهٔ تبادلِ گرما",
+        "an aluminum fin｜پرهٔ آلومینیومی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "fin در اینجا پرهٔ افزایش‌دهندهٔ سطحِ تبادلِ گرماست، نه بالهٔ ماهی یا سکانِ هواگرد. تصویر نمونه‌ای صفحه‌ای روی پایهٔ مشترک را انتخاب می‌کند؛ پره‌های سوزنی و شکل‌های دیگر هم وجود دارند. افزایشِ سطح به‌تنهایی عملکردِ مشخصی را تضمین نمی‌کند؛ تصویر نرخِ گرما، دما، جریانِ هوا یا طرحِ خنک‌کاریِ واقعی ارائه نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/fin.webp"
       },
       "provenance": {
         "license": "CC-BY-4.0",

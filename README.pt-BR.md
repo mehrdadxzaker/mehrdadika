@@ -25,10 +25,10 @@ Mehrdadika é um aplicativo web gratuito e de código aberto para aprender ingl�
 
 **27 de outubro de 2026 · Prévia em desenvolvimento**
 
-- **Expansão de vocabulário mais recente:** 24 entradas ilustradas acrescentam 12 termos de medicina e 12 de engenharia. Veja a [expansão especializada mais recente](docs/specialist-expansion-17.md).
+- **Expansão de vocabulário mais recente:** 24 entradas ilustradas acrescentam 12 termos de medicina e 12 de engenharia. Veja a [expansão especializada mais recente](docs/specialist-expansion-18.md).
 - **Ciências em inglês:** _Water and Weather_ reúne oito lições ilustradas, 32 atividades de prática, oito propostas de escrita e 19 novas palavras de ciências, com apoio em persa, português e espanhol.
 - **Três edições no mesmo aplicativo:** estudo diário, revisão espaçada, leitura, prática, configurações e backups compartilham a mesma aplicação, com progresso separado por edição.
-- **Um atlas ilustrado em expansão:** o acervo atual tem 642 palavras e 643 sentidos. Todas as 32 categorias têm entradas ilustradas iniciais; culinária reúne 52 palavras, e medicina e engenharia têm 242 cada. A etapa anterior de bases visuais acrescentou duas entradas por categoria, com estilos de ilustração adequados a cada tema.
+- **Um atlas ilustrado em expansão:** o acervo atual tem 666 palavras e 667 sentidos. Todas as 32 categorias têm entradas ilustradas iniciais; culinária reúne 52 palavras, e medicina e engenharia têm 254 cada. A etapa anterior de bases visuais acrescentou duas entradas por categoria, com estilos de ilustração adequados a cada tema.
 
 O conteúdo e as traduções são uma **prévia editorial com apoio de IA**, ainda à espera de revisão humana independente. O material especializado também precisa de revisão por pessoas qualificadas na área. Estes destaques descrevem o código e o conteúdo atuais do repositório; o aplicativo publicado acompanha a última implantação manual. Consulte o [estado da implementação](docs/implementation-status.md) e o [registro de verificação](docs/verification.md) para mais detalhes.
 
@@ -133,7 +133,7 @@ Use `ATLAS_BASE=/` para hospedar na raiz de um domínio. O repositório inclui o
 | Guia                                                                                                                                                                                 | Finalidade                                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
 | [Estado da implementação](docs/implementation-status.md) · [Verificação](docs/verification.md)                                                                                       | Escopo atual, verificações registradas e limitações conhecidas.                 |
-| [Expansão de vocabulário](docs/category-expansion.md) · [Bases visuais](docs/category-visual-foundations.md) · [Expansão especializada mais recente](docs/specialist-expansion-17.md) | Cobertura das categorias e adições recentes de vocabulário e imagens.           |
+| [Expansão de vocabulário](docs/category-expansion.md) · [Bases visuais](docs/category-visual-foundations.md) · [Expansão especializada mais recente](docs/specialist-expansion-18.md) | Cobertura das categorias e adições recentes de vocabulário e imagens.           |
 | [Curso de ciências](docs/science-course.md)                                                                                                                                          | Estrutura do curso, progresso, autoria e revisão.                               |
 | [Contribuições de conteúdo](docs/contributing-content.md) · [Ilustrações](docs/illustration-guidelines.md)                                                                           | Revisão editorial, fontes, direitos de uso e imagens didáticas.                 |
 | [Localização do vocabulário](docs/portuguese-content.md) · [Localização das leituras](docs/localized-reading-content.md)                                                             | Traduções vinculadas ao conteúdo-fonte e edições de idioma no mesmo aplicativo. |
