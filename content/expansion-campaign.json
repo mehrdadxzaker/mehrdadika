@@ -2124,6 +2124,105 @@
       ],
       "imageRefreshEntryIds": [],
       "completedAt": "2026-10-28T14:51:38.834568+00:00"
+    },
+    {
+      "id": "specialist-500-batch-17",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-22",
+      "baseline": {
+        "releaseId": "2026-10-preview-21",
+        "manifest": "content/releases/2026-10-preview-21-96f64ee8c901/manifest.json",
+        "manifestSha256": "96f64ee8c9011326ab5d783f87d154ecbcd328409723ef77690f5c337b74e859",
+        "words": 618
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 230,
+          "targetCategoryWords": 242,
+          "entryIds": [
+            "petri-dish",
+            "microscope-slide",
+            "coverslip",
+            "test-tube-rack",
+            "cuvette",
+            "specimen-bag",
+            "lancet",
+            "blood-collection-tube",
+            "centrifuge-tube",
+            "capillary-tube",
+            "inoculating-loop",
+            "pipette-tip"
+          ],
+          "units": [
+            {
+              "id": "medical-laboratory",
+              "title": "Clinical laboratory supplies",
+              "entryIds": [
+                "petri-dish",
+                "microscope-slide",
+                "coverslip",
+                "test-tube-rack",
+                "cuvette",
+                "specimen-bag",
+                "lancet",
+                "blood-collection-tube",
+                "centrifuge-tube",
+                "capillary-tube",
+                "inoculating-loop",
+                "pipette-tip"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 230,
+          "targetCategoryWords": 242,
+          "entryIds": [
+            "vernier-scale",
+            "dial-indicator",
+            "gauge-block",
+            "surface-plate",
+            "straightedge",
+            "plumb-bob",
+            "strain-gauge",
+            "load-cell",
+            "extensometer",
+            "torque",
+            "tolerance",
+            "clearance"
+          ],
+          "units": [
+            {
+              "id": "engineering-metrology",
+              "title": "Metrology and engineering quantities",
+              "entryIds": [
+                "vernier-scale",
+                "dial-indicator",
+                "gauge-block",
+                "surface-plate",
+                "straightedge",
+                "plumb-bob",
+                "strain-gauge",
+                "load-cell",
+                "extensometer",
+                "torque",
+                "tolerance",
+                "clearance"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "completedAt": "2026-10-28T16:53:45.996202+00:00"
     }
   ],
   "activeWorkBatchId": null,

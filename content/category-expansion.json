@@ -2942,7 +2942,103 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 230,
+      "targetCategoryWords": 242,
+      "entryIds": [
+        "petri-dish",
+        "microscope-slide",
+        "coverslip",
+        "test-tube-rack",
+        "cuvette",
+        "specimen-bag",
+        "lancet",
+        "blood-collection-tube",
+        "centrifuge-tube",
+        "capillary-tube",
+        "inoculating-loop",
+        "pipette-tip"
+      ],
+      "units": [
+        {
+          "id": "medical-laboratory",
+          "title": "Clinical laboratory supplies",
+          "entryIds": [
+            "petri-dish",
+            "microscope-slide",
+            "coverslip",
+            "test-tube-rack",
+            "cuvette",
+            "specimen-bag",
+            "lancet",
+            "blood-collection-tube",
+            "centrifuge-tube",
+            "capillary-tube",
+            "inoculating-loop",
+            "pipette-tip"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-17",
+      "releaseId": "2026-10-preview-22",
+      "status": "published-preview",
+      "objective": "Describe clinical laboratory supplies, metrology and engineering quantities in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 230,
+      "targetCategoryWords": 242,
+      "entryIds": [
+        "vernier-scale",
+        "dial-indicator",
+        "gauge-block",
+        "surface-plate",
+        "straightedge",
+        "plumb-bob",
+        "strain-gauge",
+        "load-cell",
+        "extensometer",
+        "torque",
+        "tolerance",
+        "clearance"
+      ],
+      "units": [
+        {
+          "id": "engineering-metrology",
+          "title": "Metrology and engineering quantities",
+          "entryIds": [
+            "vernier-scale",
+            "dial-indicator",
+            "gauge-block",
+            "surface-plate",
+            "straightedge",
+            "plumb-bob",
+            "strain-gauge",
+            "load-cell",
+            "extensometer",
+            "torque",
+            "tolerance",
+            "clearance"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-17",
+      "releaseId": "2026-10-preview-22",
+      "status": "published-preview",
+      "objective": "Describe clinical laboratory supplies, metrology and engineering quantities in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-16"
+  "activePassId": "specialist-500-batch-17"
 }
