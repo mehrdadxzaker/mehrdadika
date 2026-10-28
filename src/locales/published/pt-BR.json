@@ -13,9 +13,9 @@
     "modifications": "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-14",
-    "manifest": "content/releases/2026-10-preview-14-2e9f965fb9c8/manifest.json",
-    "sha256": "2e9f965fb9c880c095b93cefb4e94767fbe3fa3d8a6d69059708ca0eda71f35a"
+    "id": "2026-10-preview-15",
+    "manifest": "content/releases/2026-10-preview-15-5798ce6d2d39/manifest.json",
+    "sha256": "5798ce6d2d39d833e89986b1015be52fa3ed4f23154612fc31a55f9785fe7ef8"
   },
   "categories": {
     "everyday-life": {
@@ -15847,6 +15847,822 @@
         }
       ],
       "tip": "O flywheel armazena energia cinética por sua inércia de rotação; não é simplesmente uma engrenagem ou polia. Formas e fixações variam; a imagem não fornece energia armazenada nem velocidade permitida."
+    },
+    "ampoule": {
+      "sourceWord": "ampoule",
+      "senses": {
+        "ampoule:meaning-1": {
+          "gloss": "ampola",
+          "definition": "Um pequeno recipiente de vidro selado que conserva um líquido de uso médico até a abertura do gargalo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The ampoule has a narrow neck and a sealed glass tip.",
+          "translation": "A ampola tem um gargalo estreito e uma ponta de vidro selada."
+        },
+        {
+          "en": "The tray contains several unopened ampoules.",
+          "translation": "A bandeja contém várias ampolas fechadas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a glass ampoule",
+          "translation": "uma ampola de vidro"
+        },
+        {
+          "en": "an unopened ampoule",
+          "translation": "uma ampola fechada"
+        },
+        {
+          "en": "the neck of an ampoule",
+          "translation": "o gargalo de uma ampola"
+        }
+      ],
+      "tip": "Ampoule é comum no inglês britânico; ampule é uma grafia americana. Aqui, a palavra indica o recipiente de vidro, não a seringa nem a aplicação de uma injeção. Um vial geralmente tem tampa; a ampola ilustrada tem uma ponta de vidro selada."
+    },
+    "vial": {
+      "sourceWord": "vial",
+      "senses": {
+        "vial:meaning-1": {
+          "gloss": "frasco-ampola",
+          "definition": "Um pequeno recipiente de uso médico, geralmente com rolha de borracha e tampa protetora, para conter líquido ou pó."
+        }
+      },
+      "examples": [
+        {
+          "en": "The vial has a rubber stopper beneath its protective cap.",
+          "translation": "O frasco-ampola tem uma rolha de borracha sob a tampa protetora."
+        },
+        {
+          "en": "The illustration shows a vial beside a sealed glass ampoule.",
+          "translation": "A ilustração mostra um frasco-ampola ao lado de uma ampola de vidro selada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a glass vial",
+          "translation": "um frasco-ampola de vidro"
+        },
+        {
+          "en": "a vial stopper",
+          "translation": "uma rolha de frasco-ampola"
+        },
+        {
+          "en": "a sealed vial",
+          "translation": "um frasco-ampola selado"
+        }
+      ],
+      "tip": "Vial é o recipiente pequeno, não o nome do medicamento nem sua quantidade. O modelo comum ilustrado tem rolha de borracha e tampa; ampoule é um recipiente de vidro com ponta selada. Os frascos não têm todos o mesmo formato ou conteúdo."
+    },
+    "syrup": {
+      "sourceWord": "syrup",
+      "senses": {
+        "syrup:meaning-1": {
+          "gloss": "xarope medicinal",
+          "definition": "Uma forma líquida de medicamento, doce e geralmente espessa."
+        }
+      },
+      "examples": [
+        {
+          "en": "The syrup is shown in a small medicine bottle.",
+          "translation": "O xarope aparece em um pequeno frasco de medicamento."
+        },
+        {
+          "en": "The pharmacist described syrup as one possible liquid form of medicine.",
+          "translation": "O farmacêutico descreveu o xarope como uma das possíveis formas líquidas de medicamento."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a medicinal syrup",
+          "translation": "um xarope medicinal"
+        },
+        {
+          "en": "a syrup bottle",
+          "translation": "um frasco de xarope"
+        },
+        {
+          "en": "a sugar-free syrup",
+          "translation": "um xarope sem açúcar"
+        }
+      ],
+      "tip": "Aqui, syrup é xarope medicinal, não calda culinária. A doçura pode vir de açúcar ou de outro adoçante. A aparência e a cor do líquido não identificam o ingrediente medicinal nem sua finalidade."
+    },
+    "lozenge": {
+      "sourceWord": "lozenge",
+      "senses": {
+        "lozenge:meaning-1": {
+          "gloss": "pastilha medicinal",
+          "definition": "Uma pequena forma sólida de medicamento feita para se dissolver lentamente na boca."
+        }
+      },
+      "examples": [
+        {
+          "en": "The lozenge has a smooth oval shape in the illustration.",
+          "translation": "A pastilha tem formato oval e superfície lisa na ilustração."
+        },
+        {
+          "en": "The package contains individually wrapped lozenges.",
+          "translation": "A embalagem contém pastilhas embrulhadas individualmente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a medicated lozenge",
+          "translation": "uma pastilha medicamentosa"
+        },
+        {
+          "en": "a wrapped lozenge",
+          "translation": "uma pastilha embrulhada"
+        },
+        {
+          "en": "a lozenge wrapper",
+          "translation": "um invólucro de pastilha"
+        }
+      ],
+      "tip": "Lozenge aqui é a forma medicinal de dissolução na boca, não qualquer bala nem a forma geométrica de losango. As pastilhas nem sempre têm formato de losango; cor e forma, sozinhas, não identificam o medicamento."
+    },
+    "suppository": {
+      "sourceWord": "suppository",
+      "senses": {
+        "suppository:meaning-1": {
+          "gloss": "supositório",
+          "definition": "Uma forma sólida de medicamento cuja base amolece ou se dissolve dentro de uma cavidade do corpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The illustration shows a generic bullet-shaped suppository.",
+          "translation": "A ilustração mostra um supositório genérico em formato de projétil."
+        },
+        {
+          "en": "Each suppository has its own protective wrapper.",
+          "translation": "Cada supositório tem seu próprio invólucro protetor."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a suppository base",
+          "translation": "uma base de supositório"
+        },
+        {
+          "en": "a wrapped suppository",
+          "translation": "um supositório embalado"
+        },
+        {
+          "en": "a suppository mould",
+          "translation": "um molde de supositório"
+        }
+      ],
+      "tip": "Suppository é o nome de uma forma farmacêutica, não de uma substância medicinal. Existem formatos diferentes; a imagem mostra apenas um exemplo em formato de projétil. A aparência não identifica sua finalidade nem sua composição."
+    },
+    "pill-organizer": {
+      "sourceWord": "pill organizer",
+      "senses": {
+        "pill-organizer:meaning-1": {
+          "gloss": "organizador de comprimidos; porta-comprimidos",
+          "definition": "Um recipiente com divisórias que mantém comprimidos ou cápsulas separados para um esquema de medicação acordado."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pill organizer has separate compartments with individual lids.",
+          "translation": "O organizador tem compartimentos separados com tampas individuais."
+        },
+        {
+          "en": "The empty pill organizer is open on the counter.",
+          "translation": "O organizador de comprimidos vazio está aberto sobre o balcão."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a weekly pill organizer",
+          "translation": "um organizador semanal de comprimidos"
+        },
+        {
+          "en": "a pill organizer compartment",
+          "translation": "um compartimento do organizador de comprimidos"
+        },
+        {
+          "en": "an empty pill organizer",
+          "translation": "um organizador de comprimidos vazio"
+        }
+      ],
+      "tip": "Pill organizer é o recipiente com divisórias, não um dispositivo que escolhe medicamentos ou determina quantidades. No inglês britânico, a grafia organiser também é comum. A imagem mostra o recipiente vazio e não propõe um esquema de uso."
+    },
+    "tongue-depressor": {
+      "sourceWord": "tongue depressor",
+      "senses": {
+        "tongue-depressor:meaning-1": {
+          "gloss": "abaixador de língua",
+          "definition": "Um instrumento plano e sem ponta afiada usado para manter a língua abaixada durante um exame da boca ou da garganta."
+        }
+      },
+      "examples": [
+        {
+          "en": "The tongue depressor has a broad flat surface and rounded ends.",
+          "translation": "O abaixador de língua tem uma superfície larga e plana e extremidades arredondadas."
+        },
+        {
+          "en": "The clinic stores wrapped tongue depressors with its examination supplies.",
+          "translation": "A clínica guarda abaixadores de língua embalados junto aos materiais de exame."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a wooden tongue depressor",
+          "translation": "um abaixador de língua de madeira"
+        },
+        {
+          "en": "a disposable tongue depressor",
+          "translation": "um abaixador de língua descartável"
+        },
+        {
+          "en": "a wrapped tongue depressor",
+          "translation": "um abaixador de língua embalado"
+        }
+      ],
+      "tip": "Tongue depressor é um instrumento de exame, diferente de palito de dente ou colher. A imagem mostra um modelo plano de madeira; também existem modelos de plástico ou metal. O nome descreve o instrumento e não é uma instrução de exame."
+    },
+    "hearing-aid": {
+      "sourceWord": "hearing aid",
+      "senses": {
+        "hearing-aid:meaning-1": {
+          "gloss": "aparelho auditivo",
+          "definition": "Um pequeno dispositivo eletrônico usado dentro ou atrás da orelha que amplifica o som para uma pessoa com perda auditiva."
+        }
+      },
+      "examples": [
+        {
+          "en": "The hearing aid has a small microphone and a sound outlet.",
+          "translation": "O aparelho auditivo tem um pequeno microfone e uma saída de som."
+        },
+        {
+          "en": "The illustration shows a hearing aid that sits behind the ear.",
+          "translation": "A ilustração mostra um aparelho auditivo que fica atrás da orelha."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a behind-the-ear hearing aid",
+          "translation": "um aparelho auditivo retroauricular"
+        },
+        {
+          "en": "a hearing aid microphone",
+          "translation": "um microfone de aparelho auditivo"
+        },
+        {
+          "en": "a hearing aid fitting",
+          "translation": "uma adaptação de aparelho auditivo"
+        }
+      ],
+      "tip": "Hearing aid é um dispositivo de auxílio à audição, diferente de earplug, que reduz o som, e de fones para música. A imagem mostra um modelo retroauricular; os modelos variam, e amplificar o som não significa restaurar completamente a audição."
+    },
+    "eye-patch": {
+      "sourceWord": "eye patch",
+      "senses": {
+        "eye-patch:meaning-1": {
+          "gloss": "tampão ocular",
+          "definition": "Uma cobertura usada sobre um olho em um contexto médico ou de proteção."
+        }
+      },
+      "examples": [
+        {
+          "en": "The eye patch covers one eye while the other eye remains visible.",
+          "translation": "O tampão cobre um olho enquanto o outro permanece visível."
+        },
+        {
+          "en": "The model shows a soft eye patch with a narrow strap.",
+          "translation": "O modelo mostra um tampão ocular macio com uma tira estreita."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a soft eye patch",
+          "translation": "um tampão ocular macio"
+        },
+        {
+          "en": "an eye patch strap",
+          "translation": "uma tira de tampão ocular"
+        },
+        {
+          "en": "an adhesive eye patch",
+          "translation": "um tampão ocular adesivo"
+        }
+      ],
+      "tip": "Eye patch geralmente cobre um olho; sleep mask cobre os dois para dormir. O modelo ilustrado tem tira; também existem modelos adesivos. O nome identifica a cobertura e não recomenda um uso terapêutico individual."
+    },
+    "earplug": {
+      "sourceWord": "earplug",
+      "senses": {
+        "earplug:meaning-1": {
+          "gloss": "protetor auricular de inserção",
+          "definition": "Um pequeno objeto protetor feito para caber no canal auditivo externo, geralmente para reduzir sons indesejados."
+        }
+      },
+      "examples": [
+        {
+          "en": "The earplug is made of soft foam with a rounded end.",
+          "translation": "O protetor é feito de espuma macia e tem uma extremidade arredondada."
+        },
+        {
+          "en": "A pair of earplugs rests beside its small storage case.",
+          "translation": "Um par de protetores auriculares está ao lado de seu pequeno estojo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a foam earplug",
+          "translation": "um protetor auricular de espuma"
+        },
+        {
+          "en": "a pair of earplugs",
+          "translation": "um par de protetores auriculares"
+        },
+        {
+          "en": "an earplug case",
+          "translation": "um estojo de protetores auriculares"
+        }
+      ],
+      "tip": "Earplug é o pequeno protetor que fica no canal auditivo; hearing aid amplifica o som, e earbud reproduz áudio. A imagem mostra um modelo de espuma; não é possível determinar o nível de proteção pela aparência."
+    },
+    "dental-floss": {
+      "sourceWord": "dental floss",
+      "senses": {
+        "dental-floss:meaning-1": {
+          "gloss": "fio dental",
+          "definition": "Um fio ou fita fina usado para remover placa e partículas de alimentos de entre os dentes."
+        }
+      },
+      "examples": [
+        {
+          "en": "The dental floss comes from a small spool inside the dispenser.",
+          "translation": "O fio dental sai de um pequeno carretel dentro do dispensador."
+        },
+        {
+          "en": "The illustration shows a length of dental floss beside its open container.",
+          "translation": "A ilustração mostra um pedaço de fio dental ao lado de seu recipiente aberto."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "waxed dental floss",
+          "translation": "fio dental encerado"
+        },
+        {
+          "en": "a dental floss dispenser",
+          "translation": "um dispensador de fio dental"
+        },
+        {
+          "en": "a length of dental floss",
+          "translation": "um pedaço de fio dental"
+        }
+      ],
+      "tip": "Dental floss normalmente é um substantivo incontável; a length of floss indica um pedaço. Não é linha de costura nem escova interdental. Floss também pode ser verbo; esta entrada ensina o nome do material."
+    },
+    "denture": {
+      "sourceWord": "denture",
+      "senses": {
+        "denture:meaning-1": {
+          "gloss": "prótese dentária removível; dentadura",
+          "definition": "Uma prótese removível com dentes artificiais que substitui alguns ou todos os dentes de uma arcada superior ou inferior."
+        }
+      },
+      "examples": [
+        {
+          "en": "The denture has artificial teeth set in a gum-coloured base.",
+          "translation": "A prótese tem dentes artificiais fixados em uma base da cor da gengiva."
+        },
+        {
+          "en": "A complete upper denture replaces the teeth of the upper arch.",
+          "translation": "Uma prótese superior completa substitui os dentes da arcada superior."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a complete denture",
+          "translation": "uma prótese total"
+        },
+        {
+          "en": "a partial denture",
+          "translation": "uma prótese parcial"
+        },
+        {
+          "en": "a denture base",
+          "translation": "uma base de prótese dentária"
+        }
+      ],
+      "tip": "Denture é uma prótese dentária; dentures é o plural frequente. Complete denture substitui uma arcada inteira, e partial denture substitui parte dos dentes. Não confunda este sentido com um implante ou uma coroa fixa; a imagem mostra um modelo removível."
+    },
+    "ball-valve": {
+      "sourceWord": "ball valve",
+      "senses": {
+        "ball-valve:meaning-1": {
+          "gloss": "válvula de esfera",
+          "definition": "Uma válvula que controla uma passagem ao girar uma esfera com um furo que a atravessa."
+        }
+      },
+      "examples": [
+        {
+          "en": "The cutaway of the ball valve shows a straight bore through its ball.",
+          "translation": "O corte da válvula de esfera mostra um furo reto que atravessa a esfera."
+        },
+        {
+          "en": "In the open position, the bore of the ball valve lines up with the pipe.",
+          "translation": "Na posição aberta, o furo da válvula de esfera fica alinhado com o tubo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a ball valve",
+          "translation": "uma válvula de esfera"
+        },
+        {
+          "en": "the valve bore",
+          "translation": "o furo de passagem da válvula"
+        },
+        {
+          "en": "a quarter-turn ball valve",
+          "translation": "uma válvula de esfera de um quarto de volta"
+        }
+      ],
+      "tip": "Ball valve abre ou fecha a passagem girando uma esfera perfurada. Ball check valve é uma válvula de retenção com uma esfera de vedação. A imagem mostra um exemplo simplificado aberto; não é um guia de operação."
+    },
+    "gate-valve": {
+      "sourceWord": "gate valve",
+      "senses": {
+        "gate-valve:meaning-1": {
+          "gloss": "válvula de gaveta",
+          "definition": "Uma válvula que abre ou fecha uma passagem ao mover uma gaveta através do caminho do fluxo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The gate valve has a sliding closure inside its body.",
+          "translation": "A válvula de gaveta tem um elemento de fechamento deslizante dentro do corpo."
+        },
+        {
+          "en": "The gate moves clear of the passage when the valve is fully open.",
+          "translation": "A gaveta fica fora da passagem quando a válvula está totalmente aberta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a gate valve",
+          "translation": "uma válvula de gaveta"
+        },
+        {
+          "en": "the valve stem",
+          "translation": "a haste da válvula"
+        },
+        {
+          "en": "the valve gate",
+          "translation": "a gaveta da válvula"
+        }
+      ],
+      "tip": "Gate valve costuma ser usada para abrir ou interromper o fluxo. A gaveta se desloca, em vez de girar como a esfera ou o disco de uma válvula borboleta. O formato da gaveta e o movimento da haste variam conforme o projeto."
+    },
+    "butterfly-valve": {
+      "sourceWord": "butterfly valve",
+      "senses": {
+        "butterfly-valve:meaning-1": {
+          "gloss": "válvula borboleta",
+          "definition": "Uma válvula com um disco que gira em um eixo atravessando a passagem de um tubo para controlar o fluxo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The butterfly valve has a circular disc inside a short ring-shaped body.",
+          "translation": "A válvula borboleta tem um disco circular dentro de um corpo curto em forma de anel."
+        },
+        {
+          "en": "The shaft turns the disc within the passage of the butterfly valve.",
+          "translation": "O eixo gira o disco dentro da passagem da válvula borboleta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a butterfly valve",
+          "translation": "uma válvula borboleta"
+        },
+        {
+          "en": "the valve disc",
+          "translation": "o disco da válvula"
+        },
+        {
+          "en": "the disc shaft",
+          "translation": "o eixo do disco"
+        }
+      ],
+      "tip": "Butterfly valve tem um disco giratório, não asas. O disco permanece dentro da passagem mesmo quando aberto; a posição do eixo varia nos projetos concêntricos e excêntricos. A imagem mostra um exemplo concêntrico simplificado."
+    },
+    "check-valve": {
+      "sourceWord": "check valve",
+      "senses": {
+        "check-valve:meaning-1": {
+          "gloss": "válvula de retenção",
+          "definition": "Uma válvula que permite o fluxo direto e se fecha automaticamente para impedir o fluxo no sentido inverso."
+        }
+      },
+      "examples": [
+        {
+          "en": "The check valve closes when fluid tries to flow backwards.",
+          "translation": "A válvula de retenção se fecha quando o fluido tenta escoar para trás."
+        },
+        {
+          "en": "The cutaway shows the closure and seat inside a check valve.",
+          "translation": "O corte mostra o elemento de fechamento e a sede dentro de uma válvula de retenção."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a check valve",
+          "translation": "uma válvula de retenção"
+        },
+        {
+          "en": "reverse flow",
+          "translation": "o fluxo reverso"
+        },
+        {
+          "en": "the valve seat",
+          "translation": "a sede da válvula"
+        }
+      ],
+      "tip": "Check valve também é chamada non-return valve; check aqui não significa inspeção. Ela responde ao fluxo e à pressão e pode ter portinhola articulada, esfera ou mola. A imagem mostra apenas um exemplo com portinhola articulada."
+    },
+    "pressure-regulator": {
+      "sourceWord": "pressure regulator",
+      "senses": {
+        "pressure-regulator:meaning-1": {
+          "gloss": "regulador de pressão; redutor de pressão",
+          "definition": "Um dispositivo que reduz a pressão de alimentação de um fluido e controla a pressão a jusante."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pressure regulator is positioned between the supply and the downstream line.",
+          "translation": "O regulador de pressão fica entre a alimentação e a linha a jusante."
+        },
+        {
+          "en": "A pressure regulator changes its valve opening in response to pressure changes.",
+          "translation": "Um regulador de pressão altera a abertura de sua válvula em resposta a mudanças de pressão."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a pressure regulator",
+          "translation": "um regulador de pressão"
+        },
+        {
+          "en": "downstream pressure",
+          "translation": "a pressão a jusante"
+        },
+        {
+          "en": "a regulator diaphragm",
+          "translation": "um diafragma de regulador"
+        }
+      ],
+      "tip": "Aqui, pressure regulator é do tipo redutor de pressão; back-pressure regulator controla a pressão a montante. Pressure gauge indica a pressão, mas não a regula por si só. A imagem mostra um exemplo com diafragma, não instruções de ajuste."
+    },
+    "pressure-gauge": {
+      "sourceWord": "pressure gauge",
+      "senses": {
+        "pressure-gauge:meaning-1": {
+          "gloss": "manômetro",
+          "definition": "Um instrumento que indica a pressão de um gás ou líquido."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pressure gauge connects to the pipe through a small fitting.",
+          "translation": "O manômetro se conecta ao tubo por uma pequena conexão."
+        },
+        {
+          "en": "The dial pressure gauge uses a pointer to indicate pressure.",
+          "translation": "O manômetro de mostrador usa um ponteiro para indicar a pressão."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a pressure gauge",
+          "translation": "um manômetro"
+        },
+        {
+          "en": "a gauge dial",
+          "translation": "um mostrador de manômetro"
+        },
+        {
+          "en": "a pressure reading",
+          "translation": "uma leitura de pressão"
+        }
+      ],
+      "tip": "Pressure gauge indica pressão; pressure regulator controla pressão e flowmeter mede vazão. A imagem mostra um tipo analógico com marcas sem números; não permite ler uma pressão real. Também existem modelos digitais."
+    },
+    "flowmeter": {
+      "sourceWord": "flowmeter",
+      "senses": {
+        "flowmeter:meaning-1": {
+          "gloss": "medidor de vazão",
+          "definition": "Um instrumento que mede quanto fluido passa por um ponto por unidade de tempo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The flowmeter measures the rate of flow through the pipe.",
+          "translation": "O medidor de vazão mede a taxa de escoamento pelo tubo."
+        },
+        {
+          "en": "The illustrated turbine flowmeter has a rotor inside its measuring passage.",
+          "translation": "O medidor de vazão de turbina ilustrado tem um rotor dentro da passagem de medição."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a flowmeter",
+          "translation": "um medidor de vazão"
+        },
+        {
+          "en": "a flow rate",
+          "translation": "uma vazão"
+        },
+        {
+          "en": "a turbine flowmeter",
+          "translation": "um medidor de vazão de turbina"
+        }
+      ],
+      "tip": "Flowmeter é o nome geral do instrumento que mede vazão, que pode ser volumétrica ou mássica e não é pressão. Também se escreve flow meter. A imagem mostra apenas um modelo de turbina; nem todo medidor tem rotor, e rotameter é outro tipo."
+    },
+    "rotameter": {
+      "sourceWord": "rotameter",
+      "senses": {
+        "rotameter:meaning-1": {
+          "gloss": "rotâmetro",
+          "definition": "Um medidor de vazão em que um flutuador sobe dentro de um tubo cônico vertical à medida que a vazão aumenta."
+        }
+      },
+      "examples": [
+        {
+          "en": "The rotameter has a float inside a tube that widens towards the top.",
+          "translation": "O rotâmetro tem um flutuador dentro de um tubo que se alarga em direção ao topo."
+        },
+        {
+          "en": "The position of the float in the rotameter indicates the flow rate.",
+          "translation": "A posição do flutuador no rotâmetro indica a vazão."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a rotameter float",
+          "translation": "um flutuador de rotâmetro"
+        },
+        {
+          "en": "a tapered tube",
+          "translation": "um tubo cônico"
+        },
+        {
+          "en": "a variable-area flowmeter",
+          "translation": "um medidor de vazão de área variável"
+        }
+      ],
+      "tip": "No rotâmetro simples, o fluido sobe de baixo para cima e a área de passagem ao redor do flutuador aumenta quando ele sobe. O flutuador não precisa ficar na superfície de um líquido. Não é um manômetro; a escala sem números da imagem não fornece uma leitura real."
+    },
+    "hydraulic-jack": {
+      "sourceWord": "hydraulic jack",
+      "senses": {
+        "hydraulic-jack:meaning-1": {
+          "gloss": "macaco hidráulico",
+          "definition": "Um dispositivo de elevação que usa líquido pressurizado para mover um êmbolo ou pistão."
+        }
+      },
+      "examples": [
+        {
+          "en": "The hydraulic jack has a lifting ram above a broad base.",
+          "translation": "O macaco hidráulico tem um êmbolo de elevação acima de uma base larga."
+        },
+        {
+          "en": "A pump supplies liquid to the lifting cylinder of the hydraulic jack.",
+          "translation": "Uma bomba fornece líquido ao cilindro de elevação do macaco hidráulico."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a hydraulic jack",
+          "translation": "um macaco hidráulico"
+        },
+        {
+          "en": "a lifting ram",
+          "translation": "um êmbolo de elevação"
+        },
+        {
+          "en": "a jack base",
+          "translation": "uma base de macaco"
+        }
+      ],
+      "tip": "Aqui, jack é um dispositivo de elevação, não um conector elétrico. Hydraulic jack usa pressão de líquido; screw jack usa um parafuso. A imagem mostra um modelo tipo garrafa sem carga e não orienta a escolha da capacidade nem um procedimento de elevação."
+    },
+    "hydraulic-cylinder": {
+      "sourceWord": "hydraulic cylinder",
+      "senses": {
+        "hydraulic-cylinder:meaning-1": {
+          "gloss": "cilindro hidráulico",
+          "definition": "Um atuador em que líquido pressurizado move um pistão para produzir movimento em linha reta."
+        }
+      },
+      "examples": [
+        {
+          "en": "The cutaway of the hydraulic cylinder shows a piston connected to a rod.",
+          "translation": "O corte do cilindro hidráulico mostra um pistão ligado a uma haste."
+        },
+        {
+          "en": "The rod passes through a sealed opening at one end of the hydraulic cylinder.",
+          "translation": "A haste passa por uma abertura vedada em uma extremidade do cilindro hidráulico."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a hydraulic cylinder",
+          "translation": "um cilindro hidráulico"
+        },
+        {
+          "en": "a piston rod",
+          "translation": "uma haste de pistão"
+        },
+        {
+          "en": "a cylinder seal",
+          "translation": "uma vedação de cilindro"
+        }
+      ],
+      "tip": "Aqui se ensina o cilindro hidráulico com pistão, não qualquer objeto cilíndrico nem um reservatório de gás. Existem tipos de simples e dupla ação; a imagem mostra um exemplo simplificado de dupla ação com duas passagens de líquido. A cor do líquido é explicativa, não uma especificação do óleo."
+    },
+    "accumulator": {
+      "sourceWord": "accumulator",
+      "senses": {
+        "accumulator:meaning-1": {
+          "gloss": "acumulador hidráulico",
+          "definition": "Um dispositivo que armazena energia hidráulica ao manter líquido sob pressão para uso posterior."
+        }
+      },
+      "examples": [
+        {
+          "en": "The accumulator can supply pressurized liquid back to the hydraulic circuit.",
+          "translation": "O acumulador pode devolver líquido pressurizado ao circuito hidráulico."
+        },
+        {
+          "en": "In the illustrated bladder accumulator, a flexible bladder separates the gas and liquid.",
+          "translation": "No acumulador de bexiga ilustrado, uma bexiga flexível separa o gás do líquido."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a hydraulic accumulator",
+          "translation": "um acumulador hidráulico"
+        },
+        {
+          "en": "a bladder accumulator",
+          "translation": "um acumulador de bexiga"
+        },
+        {
+          "en": "stored hydraulic energy",
+          "translation": "a energia hidráulica armazenada"
+        }
+      ],
+      "tip": "Accumulator aqui é hidráulico, não uma bateria recarregável. O tipo com gás armazena energia ao comprimir o gás; um pistão ou uma bexiga pode separar gás e líquido. A imagem mostra o tipo com bexiga, sem indicar pressão nem procedimento de carga."
+    },
+    "pneumatic-actuator": {
+      "sourceWord": "pneumatic actuator",
+      "senses": {
+        "pneumatic-actuator:meaning-1": {
+          "gloss": "atuador pneumático; atuador linear a ar",
+          "definition": "Um atuador que usa ar comprimido para produzir movimento mecânico, aqui o movimento retilíneo de uma haste de pistão."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pneumatic actuator turns compressed-air energy into motion.",
+          "translation": "O atuador pneumático transforma a energia do ar comprimido em movimento."
+        },
+        {
+          "en": "The illustrated pneumatic actuator has a rod that extends from its cylinder body.",
+          "translation": "O atuador pneumático ilustrado tem uma haste que se projeta para fora do corpo do cilindro."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a pneumatic actuator",
+          "translation": "um atuador pneumático"
+        },
+        {
+          "en": "compressed air",
+          "translation": "o ar comprimido"
+        },
+        {
+          "en": "a linear actuator",
+          "translation": "um atuador linear"
+        }
+      ],
+      "tip": "Pneumatic se refere ao uso de gás, geralmente ar comprimido; hydraulic usa líquido. Também existem atuadores pneumáticos rotativos, mas este verbete e a imagem se concentram no tipo linear com pistão. A imagem não é um circuito de ar completo nem um guia de partida."
     }
   }
 }

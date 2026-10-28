@@ -1300,6 +1300,126 @@
         "recover"
       ],
       "completedAt": "2026-10-27T23:26:50.676283+00:00"
+    },
+    {
+      "id": "specialist-500-batch-10",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-15",
+      "baseline": {
+        "releaseId": "2026-10-preview-14",
+        "manifest": "content/releases/2026-10-preview-14-2e9f965fb9c8/manifest.json",
+        "manifestSha256": "2e9f965fb9c880c095b93cefb4e94767fbe3fa3d8a6d69059708ca0eda71f35a",
+        "words": 450
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 146,
+          "targetCategoryWords": 158,
+          "entryIds": [
+            "ampoule",
+            "vial",
+            "syrup",
+            "lozenge",
+            "suppository",
+            "pill-organizer",
+            "tongue-depressor",
+            "hearing-aid",
+            "eye-patch",
+            "earplug",
+            "dental-floss",
+            "denture"
+          ],
+          "units": [
+            {
+              "id": "pharmacy-forms-containers",
+              "title": "Pharmaceutical containers, forms and organization",
+              "entryIds": [
+                "ampoule",
+                "vial",
+                "syrup",
+                "lozenge",
+                "suppository",
+                "pill-organizer"
+              ]
+            },
+            {
+              "id": "clinical-hearing-oral-aids",
+              "title": "Examination, sensory protection and oral-care aids",
+              "entryIds": [
+                "tongue-depressor",
+                "hearing-aid",
+                "eye-patch",
+                "earplug",
+                "dental-floss",
+                "denture"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 146,
+          "targetCategoryWords": 158,
+          "entryIds": [
+            "ball-valve",
+            "gate-valve",
+            "butterfly-valve",
+            "check-valve",
+            "pressure-regulator",
+            "pressure-gauge",
+            "flowmeter",
+            "rotameter",
+            "hydraulic-jack",
+            "hydraulic-cylinder",
+            "accumulator",
+            "pneumatic-actuator"
+          ],
+          "units": [
+            {
+              "id": "valve-types",
+              "title": "Four valve closure mechanisms",
+              "entryIds": [
+                "ball-valve",
+                "gate-valve",
+                "butterfly-valve",
+                "check-valve"
+              ]
+            },
+            {
+              "id": "fluid-control-measurement",
+              "title": "Pressure control and fluid measurement",
+              "entryIds": [
+                "pressure-regulator",
+                "pressure-gauge",
+                "flowmeter",
+                "rotameter"
+              ]
+            },
+            {
+              "id": "fluid-power-components",
+              "title": "Hydraulic storage and fluid-powered movement",
+              "entryIds": [
+                "hydraulic-jack",
+                "hydraulic-cylinder",
+                "accumulator",
+                "pneumatic-actuator"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [
+        "material",
+        "mechanism"
+      ],
+      "completedAt": "2026-10-28T01:06:37.514766+00:00"
     }
   ],
   "activeWorkBatchId": null,

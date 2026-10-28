@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-14",
+  "releaseId": "2026-10-preview-15",
   "channel": "preview",
-  "createdAt": "2026-10-27T23:26:50.676283+00:00",
+  "createdAt": "2026-10-28T01:06:37.514766+00:00",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -3586,7 +3586,7 @@
       ],
       "tip": "material در این کارت مادهٔ سازندهٔ یک چیز است؛ study materials به منابع مطالعه اشاره دارد.",
       "media": {
-        "img": "atlas/img/material-v2.webp",
+        "img": "atlas/img/material-v3.webp",
         "uk": "atlas/audio/uk/material.mp3",
         "us": "atlas/audio/us/material.mp3"
       },
@@ -3651,7 +3651,7 @@
       "ant": [],
       "tip": "mechanism در این کارت اجزایی است که با هم کاری انجام می‌دهند؛ این واژه برای فرایندهای انتزاعی هم به کار می‌رود.",
       "media": {
-        "img": "atlas/img/mechanism-v2.webp",
+        "img": "atlas/img/mechanism-v3.webp",
         "uk": "atlas/audio/uk/mechanism.mp3",
         "us": "atlas/audio/us/mechanism.mp3"
       },
@@ -27827,6 +27827,1532 @@
           {
             "url": "https://openstax.org/books/university-physics-volume-1/pages/10-4-moment-of-inertia-and-rotational-kinetic-energy",
             "use": "Primary physics reference checked for rotational energy and inertia; no speed or energy rating is represented."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ampoule",
+      "w": "ampoule",
+      "uk": "/ˈæmpuːl/",
+      "us": "/ˈæmpjuːl/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "ampoule:meaning-1",
+          "pos": "n.",
+          "fa": "آمپول؛ ظرفِ شیشه‌ایِ دربستهٔ دارو",
+          "en": "A small sealed glass container that holds a medical liquid until its neck is opened.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The ampoule has a narrow neck and a sealed glass tip.",
+          "fa": "آمپول گردنی باریک و نوکی شیشه‌ای و بسته دارد.",
+          "senseId": "ampoule:meaning-1"
+        },
+        {
+          "en": "The tray contains several unopened ampoules.",
+          "fa": "سینی چند آمپولِ بازنشده در خود دارد.",
+          "senseId": "ampoule:meaning-1"
+        }
+      ],
+      "col": [
+        "a glass ampoule｜آمپولِ شیشه‌ای",
+        "an unopened ampoule｜آمپولِ بازنشده",
+        "the neck of an ampoule｜گردنِ آمپول"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "ampoule املای رایجِ بریتانیایی و ampule از املاهای آمریکایی است. اینجا واژه به ظرفِ شیشه‌ای اشاره دارد، نه سرنگ یا عملِ تزریق. ویال معمولاً درپوش دارد؛ آمپولِ شیشه‌ایِ تصویر نوکِ شیشه‌ایِ بسته دارد.",
+      "media": {
+        "img": "atlas/img/ampoule.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/clinical-nursing-skills/pages/12-key-terms",
+            "use": "Primary educational reference checked for the named form or device and its basic distinction. Original independently worded learner content; no source text or artwork reproduced. No diagnosis, dose, treatment or administration guidance. Human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vial",
+      "w": "vial",
+      "uk": "/ˈvaɪəl/",
+      "us": "/ˈvaɪəl/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "vial:meaning-1",
+          "pos": "n.",
+          "fa": "ویال؛ ظرفِ کوچکِ دارو با درپوش",
+          "en": "A small medical container, often with a rubber stopper and protective cap, for holding a liquid or powder.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The vial has a rubber stopper beneath its protective cap.",
+          "fa": "ویال زیرِ کلاهکِ محافظِ خود یک درپوشِ لاستیکی دارد.",
+          "senseId": "vial:meaning-1"
+        },
+        {
+          "en": "The illustration shows a vial beside a sealed glass ampoule.",
+          "fa": "تصویر یک ویال را کنارِ آمپولی شیشه‌ای و دربسته نشان می‌دهد.",
+          "senseId": "vial:meaning-1"
+        }
+      ],
+      "col": [
+        "a glass vial｜ویالِ شیشه‌ای",
+        "a vial stopper｜درپوشِ ویال",
+        "a sealed vial｜ویالِ دربسته"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "vial ظرفِ کوچک است، نه نامِ دارو یا مقدارِ آن. ویالِ معمولِ تصویر درپوشِ لاستیکی و کلاهک دارد؛ ampoule ظرفِ شیشه‌ای با نوکِ بسته است. همهٔ ویال‌ها شکل یا محتوای یکسانی ندارند.",
+      "media": {
+        "img": "atlas/img/vial.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/clinical-nursing-skills/pages/12-key-terms",
+            "use": "Primary educational reference checked for the named form or device and its basic distinction. Original independently worded learner content; no source text or artwork reproduced. No diagnosis, dose, treatment or administration guidance. Human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "syrup",
+      "w": "syrup",
+      "uk": "/ˈsɪrəp/",
+      "us": "/ˈsɪrəp/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "syrup:meaning-1",
+          "pos": "n.",
+          "fa": "شربتِ دارویی",
+          "en": "A sweet, usually thick liquid form of medicine.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The syrup is shown in a small medicine bottle.",
+          "fa": "شربت در یک بطریِ کوچکِ دارو نشان داده شده است.",
+          "senseId": "syrup:meaning-1"
+        },
+        {
+          "en": "The pharmacist described syrup as one possible liquid form of medicine.",
+          "fa": "داروساز شربت را یکی از شکل‌های مایعِ دارو توصیف کرد.",
+          "senseId": "syrup:meaning-1"
+        }
+      ],
+      "col": [
+        "a medicinal syrup｜شربتِ دارویی",
+        "a syrup bottle｜بطریِ شربت",
+        "a sugar-free syrup｜شربتِ بدونِ قند"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "در این مدخل، syrup شربتِ دارویی است، نه شیره یا سیروپِ خوراکی. شیرینی می‌تواند از قند یا شیرین‌کنندهٔ دیگر باشد. ظاهر و رنگِ مایع، مادهٔ دارویی یا کاربردِ آن را مشخص نمی‌کند.",
+      "media": {
+        "img": "atlas/img/syrup.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/clinical-nursing-skills/pages/12-key-terms",
+            "use": "Primary educational reference checked for the named form or device and its basic distinction. Original independently worded learner content; no source text or artwork reproduced. No diagnosis, dose, treatment or administration guidance. Human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lozenge",
+      "w": "lozenge",
+      "uk": "/ˈlɒzɪndʒ/",
+      "us": "/ˈlɑːzɪndʒ/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "lozenge:meaning-1",
+          "pos": "n.",
+          "fa": "قرصِ مکیدنیِ دارویی",
+          "en": "A small solid medicine form made to dissolve slowly in the mouth.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The lozenge has a smooth oval shape in the illustration.",
+          "fa": "قرصِ مکیدنی در تصویر شکلی بیضی و سطحی صاف دارد.",
+          "senseId": "lozenge:meaning-1"
+        },
+        {
+          "en": "The package contains individually wrapped lozenges.",
+          "fa": "بسته، قرص‌های مکیدنی با لفاف‌های جداگانه در خود دارد.",
+          "senseId": "lozenge:meaning-1"
+        }
+      ],
+      "col": [
+        "a medicated lozenge｜قرصِ مکیدنیِ دارویی",
+        "a wrapped lozenge｜قرصِ مکیدنیِ لفاف‌دار",
+        "a lozenge wrapper｜لفافِ قرصِ مکیدنی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "lozenge اینجا شکلِ داروییِ مکیدنی است، نه هر آب‌نبات و نه شکلِ هندسیِ لوزی. قرص‌های مکیدنی همیشه لوزی‌شکل نیستند؛ رنگ یا شکل به‌تنهایی نوعِ دارو را مشخص نمی‌کند.",
+      "media": {
+        "img": "atlas/img/lozenge.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/clinical-nursing-skills/pages/12-key-terms",
+            "use": "Primary educational reference checked for the named form or device and its basic distinction. Original independently worded learner content; no source text or artwork reproduced. No diagnosis, dose, treatment or administration guidance. Human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "suppository",
+      "w": "suppository",
+      "uk": "/səˈpɒzɪtəri/",
+      "us": "/səˈpɑːzətɔːri/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "suppository:meaning-1",
+          "pos": "n.",
+          "fa": "شیاف؛ شکلِ جامدِ دارویی",
+          "en": "A solid medicine form with a base that softens or dissolves within a body cavity.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The illustration shows a generic bullet-shaped suppository.",
+          "fa": "تصویر یک شیافِ عمومی با شکلِ گلوله‌مانند نشان می‌دهد.",
+          "senseId": "suppository:meaning-1"
+        },
+        {
+          "en": "Each suppository has its own protective wrapper.",
+          "fa": "هر شیاف لفافِ محافظِ جداگانهٔ خود را دارد.",
+          "senseId": "suppository:meaning-1"
+        }
+      ],
+      "col": [
+        "a suppository base｜پایهٔ شیاف",
+        "a wrapped suppository｜شیافِ لفاف‌دار",
+        "a suppository mould｜قالبِ شیاف"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "suppository نامِ یک شکلِ دارویی است، نه نامِ مادهٔ دارو. شکل‌های مختلفی دارد؛ تصویر فقط یک نمونهٔ گلوله‌مانند است. ظاهرِ آن کاربرد یا ترکیبش را مشخص نمی‌کند.",
+      "media": {
+        "img": "atlas/img/suppository.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/suppository",
+            "use": "Primary educational reference checked for the named form or device and its basic distinction. Original independently worded learner content; no source text or artwork reproduced. No diagnosis, dose, treatment or administration guidance. Human language and specialist review pending."
+          },
+          {
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/suppository",
+            "use": "Primary pharmaceutical-form facts checked; original learner wording and generic non-administration artwork."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pill-organizer",
+      "w": "pill organizer",
+      "uk": "/ˈpɪl ˌɔːɡənaɪzə/",
+      "us": "/ˈpɪl ˌɔːrɡənaɪzər/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "pill-organizer:meaning-1",
+          "pos": "n.",
+          "fa": "جعبهٔ بخش‌بندی‌شدهٔ قرص",
+          "en": "A compartmented container that keeps tablets or capsules separated for an agreed medicine schedule.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The pill organizer has separate compartments with individual lids.",
+          "fa": "جعبهٔ قرص خانه‌های جدا با درهای مستقل دارد.",
+          "senseId": "pill-organizer:meaning-1"
+        },
+        {
+          "en": "The empty pill organizer is open on the counter.",
+          "fa": "جعبهٔ خالیِ قرص روی پیشخوان باز است.",
+          "senseId": "pill-organizer:meaning-1"
+        }
+      ],
+      "col": [
+        "a weekly pill organizer｜جعبهٔ هفتگیِ قرص",
+        "a pill organizer compartment｜خانهٔ جعبهٔ قرص",
+        "an empty pill organizer｜جعبهٔ خالیِ قرص"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "pill organizer ظرفِ بخش‌بندی‌شده است، نه دستگاهِ انتخابِ دارو یا تعیینِ مقدارِ آن. در انگلیسیِ بریتانیایی املای organiser هم رایج است. تصویر جعبهٔ خالی را نشان می‌دهد و برنامهٔ مصرف پیشنهاد نمی‌کند.",
+      "media": {
+        "img": "atlas/img/pill-organizer.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "tongue-depressor",
+      "w": "tongue depressor",
+      "uk": "/tʌŋ dɪˈpresə/",
+      "us": "/ˈtʌŋ dɪˌpresər/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "tongue-depressor:meaning-1",
+          "pos": "n.",
+          "fa": "آبسلانگ؛ چوبِ معاینهٔ زبان",
+          "en": "A flat blunt instrument used to hold the tongue down during an examination of the mouth or throat.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The tongue depressor has a broad flat surface and rounded ends.",
+          "fa": "آبسلانگ سطحی پهن و صاف و دو سرِ گرد دارد.",
+          "senseId": "tongue-depressor:meaning-1"
+        },
+        {
+          "en": "The clinic stores wrapped tongue depressors with its examination supplies.",
+          "fa": "درمانگاه آبسلانگ‌های لفاف‌دار را کنارِ لوازمِ معاینه نگه می‌دارد.",
+          "senseId": "tongue-depressor:meaning-1"
+        }
+      ],
+      "col": [
+        "a wooden tongue depressor｜آبسلانگِ چوبی",
+        "a disposable tongue depressor｜آبسلانگِ یک‌بارمصرف",
+        "a wrapped tongue depressor｜آبسلانگِ لفاف‌دار"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "tongue depressor ابزارِ معاینه است؛ با خلالِ دندان یا قاشق یکی نیست. تصویر نمونهٔ چوبیِ تخت را نشان می‌دهد؛ نمونه‌های پلاستیکی یا فلزی نیز وجود دارند. این نام، توصیفِ ابزار است و دستورِ معاینه نیست.",
+      "media": {
+        "img": "atlas/img/tongue-depressor.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.collinsdictionary.com/dictionary/english/tongue-depressor",
+            "use": "British pronunciation stress checked against the original publisher entry. UK IPA field corrected only; independently authored definitions/examples/translations and original artwork unchanged. No dictionary definition, example or audio copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hearing-aid",
+      "w": "hearing aid",
+      "uk": "/ˈhɪərɪŋ eɪd/",
+      "us": "/ˈhɪrɪŋ eɪd/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "hearing-aid:meaning-1",
+          "pos": "n.",
+          "fa": "سمعک",
+          "en": "A small electronic device worn in or behind the ear that amplifies sound for a person with hearing loss.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The hearing aid has a small microphone and a sound outlet.",
+          "fa": "سمعک یک میکروفنِ کوچک و یک خروجیِ صدا دارد.",
+          "senseId": "hearing-aid:meaning-1"
+        },
+        {
+          "en": "The illustration shows a hearing aid that sits behind the ear.",
+          "fa": "تصویر سمعکی را نشان می‌دهد که پشتِ گوش قرار می‌گیرد.",
+          "senseId": "hearing-aid:meaning-1"
+        }
+      ],
+      "col": [
+        "a behind-the-ear hearing aid｜سمعکِ پشت‌گوشی",
+        "a hearing aid microphone｜میکروفنِ سمعک",
+        "a hearing aid fitting｜تنظیم و برازشِ سمعک"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "hearing aid وسیلهٔ کمک‌شنوایی است، نه earplug برای کاهشِ صدا و نه هدفونِ پخشِ موسیقی. تصویر یک نوعِ پشت‌گوشی را نشان می‌دهد؛ همهٔ مدل‌ها یکسان نیستند و تقویتِ صدا به معنیِ بازگرداندنِ کاملِ شنوایی نیست.",
+      "media": {
+        "img": "atlas/img/hearing-aid.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nidcd.nih.gov/health/hearing-aids",
+            "use": "Primary educational reference checked for the named form or device and its basic distinction. Original independently worded learner content; no source text or artwork reproduced. No diagnosis, dose, treatment or administration guidance. Human language and specialist review pending."
+          },
+          {
+            "url": "https://www.nidcd.nih.gov/health/hearing-aids",
+            "use": "Primary educational reference checked for behind-the-ear case, sound tube and earmold placement; no copied art or personal device advice."
+          }
+        ]
+      }
+    },
+    {
+      "id": "eye-patch",
+      "w": "eye patch",
+      "uk": "/ˈaɪ pætʃ/",
+      "us": "/ˈaɪ pætʃ/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "eye-patch:meaning-1",
+          "pos": "n.",
+          "fa": "چشم‌بندِ تک‌چشمی",
+          "en": "A covering worn over one eye in a medical or protective context.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The eye patch covers one eye while the other eye remains visible.",
+          "fa": "چشم‌بند یک چشم را می‌پوشاند و چشمِ دیگر دیده می‌شود.",
+          "senseId": "eye-patch:meaning-1"
+        },
+        {
+          "en": "The model shows a soft eye patch with a narrow strap.",
+          "fa": "مدل چشم‌بندی نرم با بندی باریک نشان می‌دهد.",
+          "senseId": "eye-patch:meaning-1"
+        }
+      ],
+      "col": [
+        "a soft eye patch｜چشم‌بندِ نرم",
+        "an eye patch strap｜بندِ چشم‌بند",
+        "an adhesive eye patch｜پدِ چسبیِ تک‌چشمی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "eye patch معمولاً یک چشم را می‌پوشاند؛ sleep mask هر دو چشم را برای خواب می‌پوشاند. نمونهٔ تصویر بندی است؛ نوعِ چسبی هم وجود دارد. این نام، نوعِ پوشش را مشخص می‌کند و کاربردِ درمانیِ شخصی پیشنهاد نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/eye-patch.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "earplug",
+      "w": "earplug",
+      "uk": "/ˈɪəplʌɡ/",
+      "us": "/ˈɪrplʌɡ/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "earplug:meaning-1",
+          "pos": "n.",
+          "fa": "گوش‌گیر؛ پلاگِ محافظِ گوش",
+          "en": "A small protective object made to fit in the outer ear canal, commonly to reduce unwanted sound.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The earplug is made of soft foam with a rounded end.",
+          "fa": "گوش‌گیر از فومِ نرم ساخته شده و سری گرد دارد.",
+          "senseId": "earplug:meaning-1"
+        },
+        {
+          "en": "A pair of earplugs rests beside its small storage case.",
+          "fa": "یک جفت گوش‌گیر کنارِ جعبهٔ کوچکِ نگهداریِ خود قرار دارد.",
+          "senseId": "earplug:meaning-1"
+        }
+      ],
+      "col": [
+        "a foam earplug｜گوش‌گیرِ فومی",
+        "a pair of earplugs｜یک جفت گوش‌گیر",
+        "an earplug case｜جعبهٔ گوش‌گیر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "earplug محافظِ کوچکِ داخلِ مجرای گوش است؛ hearing aid صدا را تقویت می‌کند و earbud وسیلهٔ پخشِ صداست. تصویر نوعِ فومی را نشان می‌دهد؛ میزانِ حفاظت از ظاهرِ آن قابلِ تعیین نیست.",
+      "media": {
+        "img": "atlas/img/earplug.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "dental-floss",
+      "w": "dental floss",
+      "uk": "/ˈdentəl flɒs/",
+      "us": "/ˈdentəl flɑːs/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "dental-floss:meaning-1",
+          "pos": "n.",
+          "fa": "نخِ دندان",
+          "en": "A thin thread or tape used to remove plaque and food particles from between teeth.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The dental floss comes from a small spool inside the dispenser.",
+          "fa": "نخِ دندان از قرقرهٔ کوچکی درونِ جعبهٔ نگهدارنده بیرون می‌آید.",
+          "senseId": "dental-floss:meaning-1"
+        },
+        {
+          "en": "The illustration shows a length of dental floss beside its open container.",
+          "fa": "تصویر یک تکه نخِ دندان را کنارِ جعبهٔ بازِ آن نشان می‌دهد.",
+          "senseId": "dental-floss:meaning-1"
+        }
+      ],
+      "col": [
+        "waxed dental floss｜نخِ دندانِ موم‌دار",
+        "a dental floss dispenser｜جعبهٔ نخِ دندان",
+        "a length of dental floss｜یک تکه نخِ دندان"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "dental floss معمولاً اسمِ غیرقابل‌شمارش است؛ a length of floss یک تکه از آن است. با نخِ خیاطی یا مسواکِ بین‌دندانی یکی نیست. floss می‌تواند به صورتِ فعل نیز به کار رود؛ این مدخل نامِ ماده را می‌آموزد.",
+      "media": {
+        "img": "atlas/img/dental-floss.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nidcr.nih.gov/health-info/oral-hygiene",
+            "use": "Primary educational reference checked for the named form or device and its basic distinction. Original independently worded learner content; no source text or artwork reproduced. No diagnosis, dose, treatment or administration guidance. Human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "denture",
+      "w": "denture",
+      "uk": "/ˈdentʃə/",
+      "us": "/ˈdentʃər/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "denture:meaning-1",
+          "pos": "n.",
+          "fa": "دندانِ مصنوعی؛ پروتزِ دندانیِ متحرک",
+          "en": "A removable dental appliance with artificial teeth that replaces some or all teeth in an upper or lower arch.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The denture has artificial teeth set in a gum-coloured base.",
+          "fa": "دندانِ مصنوعی دندان‌هایی ساختگی دارد که در پایه‌ای به رنگِ لثه قرار گرفته‌اند.",
+          "senseId": "denture:meaning-1"
+        },
+        {
+          "en": "A complete upper denture replaces the teeth of the upper arch.",
+          "fa": "دندانِ مصنوعیِ کاملِ بالا جایگزینِ دندان‌های قوسِ بالایی می‌شود.",
+          "senseId": "denture:meaning-1"
+        }
+      ],
+      "col": [
+        "a complete denture｜دندانِ مصنوعیِ کامل",
+        "a partial denture｜دندانِ مصنوعیِ پارسیل",
+        "a denture base｜پایهٔ دندانِ مصنوعی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "denture یک پروتزِ دندانی است؛ dentures جمعِ رایجِ آن است. complete denture یک قوسِ کامل و partial denture بخشی از دندان‌ها را جایگزین می‌کند. این معنی را با یک ایمپلنت یا روکشِ ثابت یکی نگیرید؛ تصویر یک نمونهٔ متحرک است.",
+      "media": {
+        "img": "atlas/img/denture.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nhs.uk/tests-and-treatments/dentures/",
+            "use": "Primary educational reference checked for the named form or device and its basic distinction. Original independently worded learner content; no source text or artwork reproduced. No diagnosis, dose, treatment or administration guidance. Human language and specialist review pending."
+          },
+          {
+            "url": "https://www.nhs.uk/tests-and-treatments/dentures/",
+            "use": "Primary reference checked for removable complete versus partial dentures; original upper-appliance illustration, no fitting or care instructions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ball-valve",
+      "w": "ball valve",
+      "uk": "/ˈbɔːl vælv/",
+      "us": "/ˈbɔːl vælv/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "ball-valve:meaning-1",
+          "pos": "n.",
+          "fa": "شیرِ توپی",
+          "en": "A valve that controls a passage by turning a ball with a hole through it.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The cutaway of the ball valve shows a straight bore through its ball.",
+          "fa": "نمایِ برش‌خوردهٔ شیرِ توپی، مجرایی مستقیم را درونِ توپیِ آن نشان می‌دهد.",
+          "senseId": "ball-valve:meaning-1"
+        },
+        {
+          "en": "In the open position, the bore of the ball valve lines up with the pipe.",
+          "fa": "در وضعیتِ باز، مجرای شیرِ توپی با لوله هم‌راستا می‌شود.",
+          "senseId": "ball-valve:meaning-1"
+        }
+      ],
+      "col": [
+        "a ball valve｜شیرِ توپی",
+        "the valve bore｜مجرای شیر",
+        "a quarter-turn ball valve｜شیرِ توپیِ ربع‌گرد"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "ball valve با چرخشِ توپیِ سوراخ‌دار مسیر را باز یا بسته می‌کند؛ ball check valve نوعی شیرِ یک‌طرفه با گویِ مسدودکننده است. تصویر یک نمونهٔ ساده در حالتِ باز است و راهنمایِ بهره‌برداری نیست.",
+      "media": {
+        "img": "atlas/img/ball-valve.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.swagelok.com/~/media/Distributor%20Media/T-Z/Westny/Products/SWNY%20Swagelok%20Valve%20Brochure.ashx",
+            "use": "Checked on-off ball valve versus directional check valve classification; original wording and original generated art, not copied artwork or operating specifications."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gate-valve",
+      "w": "gate valve",
+      "uk": "/ˈɡeɪt vælv/",
+      "us": "/ˈɡeɪt vælv/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "gate-valve:meaning-1",
+          "pos": "n.",
+          "fa": "شیرِ کشویی",
+          "en": "A valve that opens or closes a passage by moving a gate across the flow path.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The gate valve has a sliding closure inside its body.",
+          "fa": "شیرِ کشویی درونِ بدنهٔ خود یک قطعهٔ مسدودکنندهٔ لغزنده دارد.",
+          "senseId": "gate-valve:meaning-1"
+        },
+        {
+          "en": "The gate moves clear of the passage when the valve is fully open.",
+          "fa": "وقتی شیر کاملاً باز است، کشویی از مسیرِ عبور کنار می‌رود.",
+          "senseId": "gate-valve:meaning-1"
+        }
+      ],
+      "col": [
+        "a gate valve｜شیرِ کشویی",
+        "the valve stem｜ساقهٔ شیر",
+        "the valve gate｜کشوییِ شیر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "gate valve معمولاً برای قطع و وصلِ جریان به کار می‌رود؛ کشویی جابه‌جا می‌شود و مانندِ توپی یا دیسکِ پروانه‌ای در مسیر نمی‌چرخد. شکلِ کشویی و شیوهٔ حرکتِ ساقه در طرح‌های گوناگون فرق دارد.",
+      "media": {
+        "img": "atlas/img/gate-valve.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.slb.com/valves/gate-valves",
+            "use": "Checked gate valve on-off family; original simplified mechanism teaching text and generated image, without copied design or performance claims."
+          }
+        ]
+      }
+    },
+    {
+      "id": "butterfly-valve",
+      "w": "butterfly valve",
+      "uk": "/ˈbʌtəflaɪ vælv/",
+      "us": "/ˈbʌtərflaɪ vælv/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "butterfly-valve:meaning-1",
+          "pos": "n.",
+          "fa": "شیرِ پروانه‌ای",
+          "en": "A valve with a disc that turns on a shaft across a pipe passage to control flow.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The butterfly valve has a circular disc inside a short ring-shaped body.",
+          "fa": "شیرِ پروانه‌ای درونِ بدنه‌ای کوتاه و حلقه‌شکل یک دیسکِ دایره‌ای دارد.",
+          "senseId": "butterfly-valve:meaning-1"
+        },
+        {
+          "en": "The shaft turns the disc within the passage of the butterfly valve.",
+          "fa": "محور، دیسک را درونِ مسیرِ عبورِ شیرِ پروانه‌ای می‌چرخاند.",
+          "senseId": "butterfly-valve:meaning-1"
+        }
+      ],
+      "col": [
+        "a butterfly valve｜شیرِ پروانه‌ای",
+        "the valve disc｜دیسکِ شیر",
+        "the disc shaft｜محورِ دیسک"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "butterfly valve شیرِ دارای دیسکِ چرخان است، نه وسیله‌ای با بال. دیسک حتی در حالتِ باز درونِ مسیر می‌ماند؛ جایِ محور در طرح‌های مرکزی و خارج‌ازمرکز یکسان نیست. تصویر یک نمونهٔ سادهٔ مرکزی است.",
+      "media": {
+        "img": "atlas/img/butterfly-valve.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.slb.com/valves/butterfly-valves",
+            "use": "Checked butterfly valve family and offset variants; selected simplified concentric disc example, no copied artwork."
+          }
+        ]
+      }
+    },
+    {
+      "id": "check-valve",
+      "w": "check valve",
+      "uk": "/ˈtʃek vælv/",
+      "us": "/ˈtʃek vælv/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "check-valve:meaning-1",
+          "pos": "n.",
+          "fa": "شیرِ یک‌طرفه",
+          "en": "A valve that allows forward flow and closes automatically to resist flow in the reverse direction.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The check valve closes when fluid tries to flow backwards.",
+          "fa": "وقتی سیال می‌خواهد به عقب جریان یابد، شیرِ یک‌طرفه بسته می‌شود.",
+          "senseId": "check-valve:meaning-1"
+        },
+        {
+          "en": "The cutaway shows the closure and seat inside a check valve.",
+          "fa": "نمایِ برش‌خورده، قطعهٔ مسدودکننده و نشیمنگاه را درونِ یک شیرِ یک‌طرفه نشان می‌دهد.",
+          "senseId": "check-valve:meaning-1"
+        }
+      ],
+      "col": [
+        "a check valve｜شیرِ یک‌طرفه",
+        "reverse flow｜جریانِ معکوس",
+        "the valve seat｜نشیمنگاهِ شیر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "check valve همان non-return valve است؛ check در این ترکیب به معنیِ «بازرسی» نیست. این شیر به جریان و فشار پاسخ می‌دهد؛ شکل‌های لولایی، گوی‌دار و فنردار دارد. تصویر فقط یک نمونهٔ لولایی را نشان می‌دهد.",
+      "media": {
+        "img": "atlas/img/check-valve.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.slb.com/resource-library/article/valve-insights/how-it-works-check-valves",
+            "use": "Checked automatic directional function, swing-disc/ball variants and valve seat relationship; no operating values reproduced."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pressure-regulator",
+      "w": "pressure regulator",
+      "uk": "/ˈpreʃə ˌreɡjʊleɪtə/",
+      "us": "/ˈpreʃər ˌreɡjəleɪtər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "pressure-regulator:meaning-1",
+          "pos": "n.",
+          "fa": "تنظیم‌کنندهٔ فشار؛ رگولاتورِ کاهندهٔ فشار",
+          "en": "A device that reduces a fluid supply pressure and controls the downstream pressure.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The pressure regulator is positioned between the supply and the downstream line.",
+          "fa": "تنظیم‌کنندهٔ فشار میانِ منبعِ تأمین و خطِ پایین‌دست قرار دارد.",
+          "senseId": "pressure-regulator:meaning-1"
+        },
+        {
+          "en": "A pressure regulator changes its valve opening in response to pressure changes.",
+          "fa": "تنظیم‌کنندهٔ فشار در پاسخ به تغییراتِ فشار، بازشدگیِ شیرِ خود را تغییر می‌دهد.",
+          "senseId": "pressure-regulator:meaning-1"
+        }
+      ],
+      "col": [
+        "a pressure regulator｜تنظیم‌کنندهٔ فشار",
+        "downstream pressure｜فشارِ پایین‌دست",
+        "a regulator diaphragm｜دیافراگمِ تنظیم‌کننده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "این مدخل pressure regulator را در معنیِ نوعِ کاهندهٔ فشار می‌آموزد؛ back-pressure regulator فشارِ بالادست را کنترل می‌کند. pressure gauge فشار را نشان می‌دهد، اما به‌تنهایی آن را تنظیم نمی‌کند. تصویر نمونهٔ دیافراگمی است، نه دستورِ تنظیم.",
+      "media": {
+        "img": "atlas/img/pressure-regulator.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://safst.swagelok.com/en/resources/weekly-column/pressure-regulators-the-basics",
+            "use": "Checked pressure-reducing regulator downstream control versus back-pressure upstream control; no setting instructions or copied product figure."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pressure-gauge",
+      "w": "pressure gauge",
+      "uk": "/ˈpreʃə ɡeɪdʒ/",
+      "us": "/ˈpreʃər ɡeɪdʒ/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "pressure-gauge:meaning-1",
+          "pos": "n.",
+          "fa": "فشارسنج؛ مانومتر",
+          "en": "An instrument that indicates the pressure of a gas or liquid.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The pressure gauge connects to the pipe through a small fitting.",
+          "fa": "فشارسنج از راهِ یک اتصالِ کوچک به لوله وصل می‌شود.",
+          "senseId": "pressure-gauge:meaning-1"
+        },
+        {
+          "en": "The dial pressure gauge uses a pointer to indicate pressure.",
+          "fa": "فشارسنجِ صفحه‌ای برای نشان‌دادنِ فشار از عقربه استفاده می‌کند.",
+          "senseId": "pressure-gauge:meaning-1"
+        }
+      ],
+      "col": [
+        "a pressure gauge｜فشارسنج",
+        "a gauge dial｜صفحهٔ فشارسنج",
+        "a pressure reading｜خوانشِ فشار"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "pressure gauge ابزارِ نمایشِ فشار است؛ pressure regulator فشار را کنترل می‌کند و flowmeter دبی را می‌سنجد. تصویر یک نوعِ عقربه‌ای با درجه‌بندیِ بدونِ عدد است؛ از آن نمی‌توان فشارِ واقعی خواند. نوع‌های دیجیتال نیز وجود دارند.",
+      "media": {
+        "img": "atlas/img/pressure-gauge.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.wika.com/en-us/pressure_gauges.WIKA",
+            "use": "Checked mechanical pressure indication and pointer/dial distinction; original unnumbered illustration, no copied product art or calibration data."
+          }
+        ]
+      }
+    },
+    {
+      "id": "flowmeter",
+      "w": "flowmeter",
+      "uk": "/ˈfləʊˌmiːtə/",
+      "us": "/ˈfloʊˌmiːtər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "flowmeter:meaning-1",
+          "pos": "n.",
+          "fa": "دبی‌سنج؛ جریان‌سنج",
+          "en": "An instrument that measures how much fluid passes a point per unit of time.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The flowmeter measures the rate of flow through the pipe.",
+          "fa": "دبی‌سنج، آهنگِ عبورِ سیال از لوله را اندازه می‌گیرد.",
+          "senseId": "flowmeter:meaning-1"
+        },
+        {
+          "en": "The illustrated turbine flowmeter has a rotor inside its measuring passage.",
+          "fa": "دبی‌سنجِ توربینیِ نشان‌داده‌شده درونِ مجرای اندازه‌گیریِ خود روتور دارد.",
+          "senseId": "flowmeter:meaning-1"
+        }
+      ],
+      "col": [
+        "a flowmeter｜دبی‌سنج",
+        "a flow rate｜دبی؛ آهنگِ جریان",
+        "a turbine flowmeter｜دبی‌سنجِ توربینی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "flowmeter نامِ کلیِ ابزارِ سنجشِ دبی است؛ دبی می‌تواند حجمی یا جرمی باشد و با فشار یکسان نیست. flow meter نیز نوشته می‌شود. تصویر فقط نمونهٔ توربینی است؛ همهٔ دبی‌سنج‌ها روتور ندارند و روتامتر نوعِ دیگری است.",
+      "media": {
+        "img": "atlas/img/flowmeter.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://mx.omega.com/prodinfo_eng/flowmeters.html",
+            "use": "Checked general flow-measurement instrument category versus the variable-area subtype; illustrated turbine example is explicitly qualified."
+          },
+          {
+            "url": "https://www.nist.gov/pml/sensor-science/fluid-metrology/calibration-turbine-meters",
+            "use": "Checked turbine meter rotor-based measurement as one qualified flowmeter example; no copied artwork, calibration factor or measured flow claim."
+          }
+        ]
+      }
+    },
+    {
+      "id": "rotameter",
+      "w": "rotameter",
+      "uk": "/ˈrəʊtəˌmiːtə/",
+      "us": "/roʊˈtæmɪtər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "rotameter:meaning-1",
+          "pos": "n.",
+          "fa": "روتامتر؛ دبی‌سنجِ سطحِ متغیر",
+          "en": "A flowmeter in which a float rises within an upright tapered tube as flow increases.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The rotameter has a float inside a tube that widens towards the top.",
+          "fa": "روتامتر درونِ لوله‌ای که به سمتِ بالا گشاد می‌شود یک شناور دارد.",
+          "senseId": "rotameter:meaning-1"
+        },
+        {
+          "en": "The position of the float in the rotameter indicates the flow rate.",
+          "fa": "جایِ شناور در روتامتر دبی را نشان می‌دهد.",
+          "senseId": "rotameter:meaning-1"
+        }
+      ],
+      "col": [
+        "a rotameter float｜شناورِ روتامتر",
+        "a tapered tube｜لولهٔ مخروطی",
+        "a variable-area flowmeter｜دبی‌سنجِ سطحِ متغیر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "در روتامترِ ساده، سیال از پایین به بالا می‌رود و با بالا رفتنِ شناور، فضایِ عبورِ پیرامونِ آن بیشتر می‌شود. شناور الزاماً روی سطحِ مایع نیست. این ابزار فشارسنج نیست؛ درجه‌بندیِ بی‌عددِ تصویر خوانشِ واقعی نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/rotameter.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://assets.omega.com/l-omega/manuals/manualpdf/xDE-M1173.pdf",
+            "use": "Checked upright widening tube, freely moving float and bottom-to-top flow; no copied illustration, calibration values or reading instruction."
+          },
+          {
+            "url": "https://www.collinsdictionary.com/us/dictionary/english/rotameter",
+            "use": "British pronunciation checked by root reviewer; only original IPA field revised. No dictionary definition, example, artwork or audio copied."
+          },
+          {
+            "url": "https://krohne.com/en/products/flow-measurement/flowmeters/variable-area-flowmeters/",
+            "use": "Manufacturer principle checked for upright widening tube, free float and upward flow; no dimensions, calibration or working values copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hydraulic-jack",
+      "w": "hydraulic jack",
+      "uk": "/haɪˌdrɒlɪk ˈdʒæk/",
+      "us": "/haɪˌdrɔːlɪk ˈdʒæk/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "hydraulic-jack:meaning-1",
+          "pos": "n.",
+          "fa": "جکِ هیدرولیکی",
+          "en": "A lifting device that uses pressurized liquid to move a ram or piston.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The hydraulic jack has a lifting ram above a broad base.",
+          "fa": "جکِ هیدرولیکی بالای یک پایهٔ پهن، پیستونِ بالابر دارد.",
+          "senseId": "hydraulic-jack:meaning-1"
+        },
+        {
+          "en": "A pump supplies liquid to the lifting cylinder of the hydraulic jack.",
+          "fa": "پمپ، مایع را به سیلندرِ بالابرِ جکِ هیدرولیکی می‌رساند.",
+          "senseId": "hydraulic-jack:meaning-1"
+        }
+      ],
+      "col": [
+        "a hydraulic jack｜جکِ هیدرولیکی",
+        "a lifting ram｜پیستونِ بالابر",
+        "a jack base｜پایهٔ جک"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "این معنی jack ابزارِ بالابردن است، نه سوکتِ برق. hydraulic jack با فشارِ مایع کار می‌کند؛ screw jack با پیچ. تصویر نمونهٔ بطری‌شکلِ بدونِ بار است و برای انتخابِ ظرفیت یا روشِ بلندکردنِ بار راهنما نیست.",
+      "media": {
+        "img": "atlas/img/hydraulic-jack.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.enerpac.com/en-US/resources/education/safety-handbook-for-hydraulic-systems",
+            "use": "Checked pump/reservoir/cylinder distinction for a neutral unloaded jack object study; no lifting procedure, capacity or support instruction reproduced."
+          },
+          {
+            "url": "https://www.enerpac.com/en-US/product/gbj020a-22-ton-591-in-stroke-hydraulic-industrial-bottle-jack/p/GBJ020A",
+            "use": "Manufacturer external component relation checked; original generic unloaded bottle-jack study, no ratings or operating instructions reproduced."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hydraulic-cylinder",
+      "w": "hydraulic cylinder",
+      "uk": "/haɪˌdrɒlɪk ˈsɪlɪndə/",
+      "us": "/haɪˌdrɔːlɪk ˈsɪlɪndər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "hydraulic-cylinder:meaning-1",
+          "pos": "n.",
+          "fa": "سیلندرِ هیدرولیکی؛ جکِ خطیِ هیدرولیکی",
+          "en": "An actuator in which pressurized liquid moves a piston to produce straight-line motion.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The cutaway of the hydraulic cylinder shows a piston connected to a rod.",
+          "fa": "نمایِ برش‌خوردهٔ سیلندرِ هیدرولیکی، پیستونی متصل به یک میله را نشان می‌دهد.",
+          "senseId": "hydraulic-cylinder:meaning-1"
+        },
+        {
+          "en": "The rod passes through a sealed opening at one end of the hydraulic cylinder.",
+          "fa": "میله از دهانه‌ای آب‌بندی‌شده در یک سرِ سیلندرِ هیدرولیکی عبور می‌کند.",
+          "senseId": "hydraulic-cylinder:meaning-1"
+        }
+      ],
+      "col": [
+        "a hydraulic cylinder｜سیلندرِ هیدرولیکی",
+        "a piston rod｜میلهٔ پیستون",
+        "a cylinder seal｜آب‌بندِ سیلندر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "این مدخل نوعِ پیستون‌دارِ سیلندرِ هیدرولیکی را می‌آموزد، نه هر جسمِ استوانه‌ای یا مخزنِ گاز. نوع‌های یک‌طرفه و دوطرفه وجود دارند؛ تصویر نمونهٔ سادهٔ دوطرفه با دو مجرای مایع است. رنگِ مایع توضیحی است و مشخصاتِ روغن نیست.",
+      "media": {
+        "img": "atlas/img/hydraulic-cylinder.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.festo.com/gb/en/c/products/actuators/pneumatic-cylinders-id_pim135",
+            "use": "Checked piston/rod/gland continuity and two-port double-acting hydraulic-cylinder contrast in the manufacturer explanation; no copied figure or operating data."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accumulator",
+      "w": "accumulator",
+      "uk": "/əˈkjuːmjʊleɪtə/",
+      "us": "/əˈkjuːmjəleɪtər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "accumulator:meaning-1",
+          "pos": "n.",
+          "fa": "آکومولاتور؛ انبارهٔ هیدرولیکی",
+          "en": "A device that stores hydraulic energy by holding liquid under pressure for later use.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The accumulator can supply pressurized liquid back to the hydraulic circuit.",
+          "fa": "آکومولاتور می‌تواند مایعِ تحتِ فشار را دوباره به مدارِ هیدرولیکی برساند.",
+          "senseId": "accumulator:meaning-1"
+        },
+        {
+          "en": "In the illustrated bladder accumulator, a flexible bladder separates the gas and liquid.",
+          "fa": "در آکومولاتورِ کیسه‌ایِ نشان‌داده‌شده، کیسه‌ای انعطاف‌پذیر گاز و مایع را از هم جدا می‌کند.",
+          "senseId": "accumulator:meaning-1"
+        }
+      ],
+      "col": [
+        "a hydraulic accumulator｜آکومولاتورِ هیدرولیکی",
+        "a bladder accumulator｜آکومولاتورِ کیسه‌ای",
+        "stored hydraulic energy｜انرژیِ هیدرولیکیِ ذخیره‌شده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "accumulator اینجا انبارهٔ هیدرولیکی است، نه باتریِ شارژی. نوعِ گازدار انرژی را با فشرده‌شدنِ گاز ذخیره می‌کند؛ پیستون یا کیسه می‌تواند گاز و مایع را جدا کند. تصویر نوعِ کیسه‌ای است؛ فشار یا روشِ شارژ را نشان نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/accumulator.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://archive.epa.gov/otaq/technology/web/html/accumulator.html",
+            "use": "Checked hydraulic energy storage and bladder/piston separation of compressed gas from liquid; no copied media, numeric pressures or gas-charging instructions."
+          },
+          {
+            "url": "https://www.parker.com/content/dam/Parker-com/Literature/Accumulator---Cooler-Division---Americas/Catalogs---Bulletins/Bladder_Accumulator_Catalog_HY10-2300.pdf",
+            "use": "Manufacturer gas/fluid separator and top gas/bottom fluid port relation checked; original simplified conceptual illustration, no source artwork, dimensions or charge procedure copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pneumatic-actuator",
+      "w": "pneumatic actuator",
+      "uk": "/njuːˌmætɪk ˈæktʃueɪtə/",
+      "us": "/nuːˌmætɪk ˈæktʃueɪtər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "pneumatic-actuator:meaning-1",
+          "pos": "n.",
+          "fa": "عملگرِ پنوماتیکی؛ عملگرِ بادیِ خطی",
+          "en": "An actuator that uses compressed air to produce mechanical motion, here the straight-line movement of a piston rod.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The pneumatic actuator turns compressed-air energy into motion.",
+          "fa": "عملگرِ پنوماتیکی انرژیِ هوای فشرده را به حرکت تبدیل می‌کند.",
+          "senseId": "pneumatic-actuator:meaning-1"
+        },
+        {
+          "en": "The illustrated pneumatic actuator has a rod that extends from its cylinder body.",
+          "fa": "عملگرِ پنوماتیکیِ نشان‌داده‌شده میله‌ای دارد که از بدنهٔ سیلندر بیرون می‌آید.",
+          "senseId": "pneumatic-actuator:meaning-1"
+        }
+      ],
+      "col": [
+        "a pneumatic actuator｜عملگرِ پنوماتیکی",
+        "compressed air｜هوای فشرده",
+        "a linear actuator｜عملگرِ خطی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "pneumatic به کار با گاز، معمولاً هوای فشرده، اشاره دارد؛ hydraulic با مایع کار می‌کند. عملگرهای بادیِ چرخشی هم وجود دارند، اما این مدخل و تصویر بر نمونهٔ خطیِ پیستون‌دار تمرکز دارند. تصویر مدارِ هوای کامل یا دستورِ راه‌اندازی نیست.",
+      "media": {
+        "img": "atlas/img/pneumatic-actuator.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.festo.com/us/en/c/products/actuators-and-drives-id_pim5",
+            "use": "Checked air-powered actuator category and linear/rotary distinction; linear piston-rod example explicitly selected, no circuit or setup instructions."
           }
         ]
       }

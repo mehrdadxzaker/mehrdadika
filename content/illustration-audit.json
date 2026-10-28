@@ -2143,22 +2143,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/material-v2.webp",
-        "sha256": "93f2e3b87f189d706d5da9d6b2fd6b96583f3195f07efddc883e8c8687a2ea2a"
+        "path": "atlas/img/material-v3.webp",
+        "sha256": "3a4a3bfea5326e6baa0ade6b69fe990687f1c7494e96a0301adda626cc6f3c5a"
       },
       "visual": {
-        "expectedCue": "Distinct raw wood, metal, concrete and textile samples show substances from which objects can be made.",
+        "expectedCue": "Distinct wood, metal, concrete and woven-cloth samples show materials as substances used to make things.",
         "decision": "replaced",
-        "reason": "The prior cloth-working scene was valid but narrow; varied raw samples better represent the broader engineering sense.",
-        "inspectionNotes": "Raw wood, steel, concrete and woven textile samples broaden the substance sense and remain visually distinct."
+        "reason": "Actual full source and final512/120 inspected: believable wood end grain/longitudinal texture, brushed metal faces, concrete aggregate and a folded woven/frayed cloth swatch form one supported comparison group. No alloy/mineral identity or property value is asserted. The new slate study retains the including-cloth meaning while replacing inherited cream-ground styling.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical product/cutaway study on slate with silver and restrained amber teaching highlights; selected mechanism or material distinction remains readable at120px."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
-      },
-      "generation": {
-        "method": "OpenAI built-in image generation",
-        "prompt": "Use case: scientific-educational. Create one square educational vocabulary image for MATERIAL: the substance something is made from. A clean axonometric materials sample display, four large raw material specimens arranged in a balanced2x2 composition with generous separation on pale ivory paper. Show: a sawn block of wood with clear end grain; a piece of steel stock with a clean brushed silver/slate-blue metallic cut face; a small rough grey concrete cube showing aggregate; and a folded square of thick woven fabric with visible threads and a frayed raw edge. These are unfinished sample substances, not furniture, buildings, machines or clothing. Each texture and edge should distinguish the material immediately, including at a120px thumbnail. Soft grounded shadows, accurate physical material surfaces, restrained slate-blue/ochre/wood palette, attractive editorial engineering illustration, no people, no hands, no labels, no text, no brand marks, no watermark."
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3a4a3bfea5326e6baa0ade6b69fe990687f1c7494e96a0301adda626cc6f3c5a",
+          "inspectedAt": "2026-10-28T00:25:23.256664+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: four separate teaching samples show wood end grain, brushed solid metal, aggregate-containing concrete and folded woven fabric. Their distinct textures and silhouettes remain separable at120px, preserving the broad material sense including fabric. There are no floating elements, decorative text, false material labels or test results. Precise material product studies on a dark slate ground with silver and warm amber highlights fit the engineering brief. Second AI inspection only; independent human language and qualified specialist review remain pending."
+        }
       }
     },
     {
@@ -2183,22 +2193,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/mechanism-v2.webp",
-        "sha256": "f316c7a90f05625d7afce4f6a0569a82f46fb72d7174c174bde28efec1067420"
+        "path": "atlas/img/mechanism-v3.webp",
+        "sha256": "24c6c8060eaa6bd32003fb3871916719e237c3dea1e056969a6ee72cea33476a"
       },
       "visual": {
-        "expectedCue": "A crank, off-center pivot, connecting rod and slider are visibly connected, showing input rotation producing output movement.",
+        "expectedCue": "A connected slider-crank assembly links a wheel's offset pin to a guided slider, with rotation and reciprocation cues.",
         "decision": "replaced",
-        "reason": "The prior greenhouse-watering scene did not clearly reveal connected moving parts and their function.",
-        "inspectionNotes": "Crank disk, off-center pivot, connecting rod and slider are visibly connected. Rotation and translation arrows show function. Illustrative model rather than a manufacturing drawing."
+        "reason": "Actual full source and final512/120 inspected: supported central wheel shaft is distinct from an offset crankpin. One connecting rod has engaged pivots at that pin and the slider face; two parallel guide rails and all supports meet a shared rigid base. Rod sits in front of the guide supports. Curved wheel arrow and horizontal double-headed slider arrow indicate movement over a cycle, not force. New slate/silver/amber study replaces inherited white-ground illustration without changing lexical/audio identities.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical product/cutaway study on slate with silver and restrained amber teaching highlights; selected mechanism or material distinction remains readable at120px."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
-      },
-      "generation": {
-        "method": "OpenAI built-in image generation",
-        "prompt": "Use case: scientific-educational. One square educational vocabulary illustration for MECHANISM: connected moving parts that work together. Clean almost-front-view engineering cutaway on pale ivory background, slate blue metal and restrained amber motion arrows. Show a simple physically correct slider-crank mechanism on a small base: a large circular crank disk at left rotates on a fixed central axle; an offset pin near its rim attaches by a single straight connecting rod to a rectangular sliding block at right, constrained by two straight horizontal guide rails. Both ends of the rod visibly attach with separate pivot joints, one at the off-center disk pin and one at the slider. The rod should slope slightly as it bridges disk pin to slider, with no broken connections or impossible overlaps. A small hand-crank handle is fixed to the disk, an amber curved arrow around the disk indicates rotation and an amber double-headed horizontal arrow above the slider indicates back-and-forth translation. The assembled device fills most of the square, every connection readable at a120px thumbnail. No people, no greenhouse, no pipes, no detached gears, no fake teeth, no motor or combustion engine, no text, no labels, no watermark. A precise attractive explanatory teaching illustration, physically simple rather than busy."
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "24c6c8060eaa6bd32003fb3871916719e237c3dea1e056969a6ee72cea33476a",
+          "inspectedAt": "2026-10-28T00:25:23.256791+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: a supported rotary wheel has an offset pin joined by one rigid rod to a pin on the slider; the slider lies on two parallel guide rails supported at both ends on the common base. Circular and bidirectional straight arrows refer to rotation and reciprocation, without numerical timing/force claims. Visible pins and rod connections are coherent, and one frame illustrates a linked mechanism rather than an isolated gear. Slate/silver structure with amber joints/arrows matches the brief and remains readable at120px. Second AI inspection only; independent human language and qualified specialist review remain pending."
+        }
       }
     },
     {
@@ -20202,6 +20222,1206 @@
             120
           ],
           "finding": "Actually inspected full original and final512/120: a substantial continuous rim joins the spokes and coaxial hub to the supported shaft. Two bearing pedestals support that shaft and the rim has ground clearance. There is no tire, toothed gear rim, belt groove or unconnected shaft. Rim mass is the clear120px teaching cue; silver structure and amber rim treatment on slate match the brief. This is an illustrative form, not a speed or energy rating. Second AI review only; independent human specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "ampoule",
+      "sourceWord": "ampoule",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "ampoule:meaning-1",
+          "pos": "n.",
+          "en": "A small sealed glass container that holds a medical liquid until its neck is opened."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ampoule has a narrow neck and a sealed glass tip.",
+          "senseId": "ampoule:meaning-1"
+        },
+        {
+          "en": "The tray contains several unopened ampoules.",
+          "senseId": "ampoule:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ampoule.webp",
+        "sha256": "e41dcdc792473973ee15e627c984c36e1717637df23985e49f6edbda13032c5f"
+      },
+      "visual": {
+        "expectedCue": "Three intact sealed-glass ampoules have narrow necks and fused glass tips, with the foreground container dominant.",
+        "decision": "added",
+        "reason": "Actual full1254 source, encoded512WebP and120PNG inspected. Three glass bodies stand on a shallow medical tray; each narrows into an elongated fully closed glass tip. The foreground neck and rounded fused end are visible, distinct from a rubber-stopper vial or syringe. Clear liquid has normal unnumbered menisci. No broken glass, opening action, dose, label or substance claim. Container silhouette stays legible at120px; specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical glass rendering on cool-white/pale-blue, with a restrained mint tray that physically supports the containers. No irrelevant decoration or textual readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e41dcdc792473973ee15e627c984c36e1717637df23985e49f6edbda13032c5f",
+          "inspectedAt": "2026-10-28T00:23:38.956432+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: sealed fused narrow glass tips and necks above small liquid chambers distinguish three unopened ampoules on a mint tray from stoppered vials or syringes. Continuous glass, coherent reflections and no fabricated markings or administration step; cool precise clinical style stays clear at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "vial",
+      "sourceWord": "vial",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "vial:meaning-1",
+          "pos": "n.",
+          "en": "A small medical container, often with a rubber stopper and protective cap, for holding a liquid or powder."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The vial has a rubber stopper beneath its protective cap.",
+          "senseId": "vial:meaning-1"
+        },
+        {
+          "en": "The illustration shows a vial beside a sealed glass ampoule.",
+          "senseId": "vial:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/vial.webp",
+        "sha256": "2022a77ec440d48f36179a5a9ca4b0ec2d8eec8b41abd229fdb82fdd396e11b0"
+      },
+      "visual": {
+        "expectedCue": "A squat glass vial has a metal collar around an intact rubber stopper, with its protective cap beside it and a narrow sealed ampoule behind.",
+        "decision": "added",
+        "reason": "Actual full1254 source and final512/120 inspected. Main vial has a coherent short neck, crimp-style metal collar and central grey rubber stopper. Protective flip cap is separate beside it, not a fused-glass tip. Background ampoule provides a direct narrower sealed-glass comparison matching the example; liquid is clear and unnumbered. No needle, puncture, dose or opening procedure. Stopper/collar and squat silhouette remain clear at120px. Model is generic rather than a specific package specification.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise transparent glass/metal on empty cool-white/mint, with restrained mint protective cap. Relevant comparison container only; no decorative props, labels or readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2022a77ec440d48f36179a5a9ca4b0ec2d8eec8b41abd229fdb82fdd396e11b0",
+          "inspectedAt": "2026-10-28T00:23:38.976715+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: a short clear medical vial has a visible central rubber stopper retained by a metal collar, with its protective cap removed beside it. A sealed-neck glass ampoule is smaller contextual comparison, matching the example. Continuous container walls and isolated clinical still life, without drug identity, volume or injection claim."
+        }
+      }
+    },
+    {
+      "entryId": "syrup",
+      "sourceWord": "syrup",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "syrup:meaning-1",
+          "pos": "n.",
+          "en": "A sweet, usually thick liquid form of medicine."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The syrup is shown in a small medicine bottle.",
+          "senseId": "syrup:meaning-1"
+        },
+        {
+          "en": "The pharmacist described syrup as one possible liquid form of medicine.",
+          "senseId": "syrup:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/syrup.webp",
+        "sha256": "e8399f966c17da4b2561e120cc96f68172cf832f2b55b30105e93368a25ae33e"
+      },
+      "visual": {
+        "expectedCue": "A generic medicine bottle and still viscous amber liquid in a plain unmarked clinical spoon identify medicinal syrup.",
+        "decision": "added",
+        "reason": "Actual full1254 source and encoded512/120 inspected. Closed amber medicine bottle has a genuinely blank label; a resting unmarked white medicine spoon shows smooth thick amber liquid with a rounded meniscus. No pouring, person, quantity mark, drug name or administration sequence. Spoon and bottle are physically supported; no culinary fruit/honey props. Static generic form remains readable at120px. Colour and appearance do not identify an ingredient or treatment; usage notes make that limit explicit.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical still life, pale cool-white/mint background and cap with restrained amber liquid contrast. No irrelevant decoration, logos or readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e8399f966c17da4b2561e120cc96f68172cf832f2b55b30105e93368a25ae33e",
+          "inspectedAt": "2026-10-28T00:23:38.997051+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: closed amber medicine-style bottle with blank label stands behind an unmarked spoon holding visibly viscous amber liquid. Static product study, no pouring, person, dose scale or ingredient claim. Generic pharmaceutical-liquid context matches selected sense; appearance alone does not assert drug identity, as all editions explain."
+        }
+      }
+    },
+    {
+      "entryId": "lozenge",
+      "sourceWord": "lozenge",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "lozenge:meaning-1",
+          "pos": "n.",
+          "en": "A small solid medicine form made to dissolve slowly in the mouth."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The lozenge has a smooth oval shape in the illustration.",
+          "senseId": "lozenge:meaning-1"
+        },
+        {
+          "en": "The package contains individually wrapped lozenges.",
+          "senseId": "lozenge:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/lozenge.webp",
+        "sha256": "4f4b883dc3eab56c422c3072d1507bbef8011e14dde071d5bff453f54b2ed08a"
+      },
+      "visual": {
+        "expectedCue": "Smooth solid oval lozenges are shown unwrapped and in individual transparent protective wrappers.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Front example is one intact thick oval translucent solid; two matching forms sit in coherent separate blank wrappers behind it. No liquid drop, hollow capsule, gemstone or culinary/candy-flavour decoration. Shape and wrapper relation survive120px. A photograph cannot establish a medicinal ingredient or distinguish an unlabelled medicinal lozenge from an otherwise similar sweet; the selected sense and all native tips explicitly supply that context and avoid drug-identification claims.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical object study on empty cool-white/mint. Restrained amber solid contrasts with the pale field; no decorative props, text, dosages or consuming scene."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4f4b883dc3eab56c422c3072d1507bbef8011e14dde071d5bff453f54b2ed08a",
+          "inspectedAt": "2026-10-28T00:26:29.747238+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: smooth oval translucent amber solids are shown unwrapped and in separate sealed wrappers, with flat pastille-like surfaces rather than capsule seams or injection packaging. Precise cool-white clinical still life without ingredients, drug identity, dose or administration action. Medicinal-form scope and the limit of recognizing drug identity from appearance are explicitly stated in all editions."
+        }
+      }
+    },
+    {
+      "entryId": "suppository",
+      "sourceWord": "suppository",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "suppository:meaning-1",
+          "pos": "n.",
+          "en": "A solid medicine form with a base that softens or dissolves within a body cavity."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The illustration shows a generic bullet-shaped suppository.",
+          "senseId": "suppository:meaning-1"
+        },
+        {
+          "en": "Each suppository has its own protective wrapper.",
+          "senseId": "suppository:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/suppository.webp",
+        "sha256": "756f806ff8156827149989fb407f3b872ac315ed9f0e3a6c66ca53b1048c877d"
+      },
+      "visual": {
+        "expectedCue": "A generic torpedo-shaped solid medicine has a rounded tapered end and blunt base, with individually molded protective packaging.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: one smooth ivory solid has a tapered rounded end, blunt base and no capsule half-seam. Matching strip has two enclosed solids and an empty peeled cavity. No body, administration action, drug identity, dosage or chemical claim. The torpedo silhouette remains distinct from a flat tablet and capsule.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical precise product/anatomical forms on cool white with restrained mint/pale blue; selected object silhouette remains recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "756f806ff8156827149989fb407f3b872ac315ed9f0e3a6c66ca53b1048c877d",
+          "inspectedAt": "2026-10-28T00:12:49.028726+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 inspected. Generic ivory solid has a continuous rounded tapered bullet form and flat base; matching individual strip cavities include two wrapped examples and one empty peeled cavity. No tablet/capsule confusion, ingredient text, dose, body insertion or administration sequence. One form dominates at120px; no claim that every suppository has this shape. Soft precise clinical still life on empty cool-white/mint. AI review only; independent human/specialist approval pending."
+        }
+      }
+    },
+    {
+      "entryId": "pill-organizer",
+      "sourceWord": "pill organizer",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pill-organizer:meaning-1",
+          "pos": "n.",
+          "en": "A compartmented container that keeps tablets or capsules separated for an agreed medicine schedule."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pill organizer has separate compartments with individual lids.",
+          "senseId": "pill-organizer:meaning-1"
+        },
+        {
+          "en": "The empty pill organizer is open on the counter.",
+          "senseId": "pill-organizer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pill-organizer.webp",
+        "sha256": "02195f43a178b298c836dc4803c6ef2595e4bc6dea5f2bbf885131593840a14a"
+      },
+      "visual": {
+        "expectedCue": "One empty seven-compartment organizer has a matching separate hinged lid for each compartment.",
+        "decision": "added",
+        "reason": "Actual full1254 and encoded512/120 inspected. Counted seven empty compartments and seven independently attached transparent lids in a single coherent row. Hinges align with each corresponding box; walls and flat bottoms remain visible and no pills, day labels, dose symbols or electronic schedule is supplied. Overall weekly-style storage layout remains clear at120px. This is an empty organizer illustration, not a proposed medication plan.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise softly shaded mint transparent clinical storage object on empty cool-white field. No decorative props, text or readings; all parts fit within frame."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "02195f43a178b298c836dc4803c6ef2595e4bc6dea5f2bbf885131593840a14a",
+          "inspectedAt": "2026-10-28T00:30:24.901917+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: exactly seven empty compartments have seven individual matching hinged lids, with continuous partition walls and coherent hinges. No pills, weekday regimen, numbers or dose instructions. Transparent mint product study on cool white remains distinct from a medicine bottle and recognizable as a partitioned organizer at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "tongue-depressor",
+      "sourceWord": "tongue depressor",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "tongue-depressor:meaning-1",
+          "pos": "n.",
+          "en": "A flat blunt instrument used to hold the tongue down during an examination of the mouth or throat."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tongue depressor has a broad flat surface and rounded ends.",
+          "senseId": "tongue-depressor:meaning-1"
+        },
+        {
+          "en": "The clinic stores wrapped tongue depressors with its examination supplies.",
+          "senseId": "tongue-depressor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tongue-depressor.webp",
+        "sha256": "c3bc2fc8df9122695761b90fd6eed1fea72cf3d2d4d4dd31a646cd710637c5a3"
+      },
+      "visual": {
+        "expectedCue": "A broad flat wooden examination spatula has two rounded blunt ends; a matching wrapped example gives clinical-supply context.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Main wooden instrument is one thin flat rounded rectangle, with straight parallel sides and both ends blunt; length and broad surface differ from a pointed toothpick, spoon or cylindrical skewer. Matching instrument is enclosed in a coherent blank peel-style pouch behind. Both fully in frame; no hands, mouth procedure or food. Shape and examination-supply context stay legible at120px. Plain packaging implies no named certification or verified sterility.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise soft clinical material study on empty cool-white/pale-mint. Fine natural wood grain and restrained transparent pouch shading, no decorative props, labels or readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c3bc2fc8df9122695761b90fd6eed1fea72cf3d2d4d4dd31a646cd710637c5a3",
+          "inspectedAt": "2026-10-28T00:30:24.925329+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: broad thin flat wooden instrument has two smooth rounded blunt ends; a second matching instrument is enclosed in an unmarked individual pouch. No toothpick point, spoon bowl, ice cream or examination action. Natural wood texture and precise clinical cool-white presentation retain the selected tool cue at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "hearing-aid",
+      "sourceWord": "hearing aid",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "hearing-aid:meaning-1",
+          "pos": "n.",
+          "en": "A small electronic device worn in or behind the ear that amplifies sound for a person with hearing loss."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The hearing aid has a small microphone and a sound outlet.",
+          "senseId": "hearing-aid:meaning-1"
+        },
+        {
+          "en": "The illustration shows a hearing aid that sits behind the ear.",
+          "senseId": "hearing-aid:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hearing-aid.webp",
+        "sha256": "f1bd7de487087cba83d046b8d1b5cc55aac47b22ca7338faf9ac40df3c60b61b"
+      },
+      "visual": {
+        "expectedCue": "A behind-the-ear electronic aid connects through an earhook and clear tube to an earmold, with a correct outer-ear placement inset.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: compact electronic case with microphone aperture/control joins a clear earhook, continuous sound tube and translucent earmold. Inset places the case behind the pinna, hook over the top and earmold in the concha/canal entrance. No headphone, implant coil, detached tube or promise of restored hearing.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical precise product/anatomical forms on cool white with restrained mint/pale blue; selected object silhouette remains recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f1bd7de487087cba83d046b8d1b5cc55aac47b22ca7338faf9ac40df3c60b61b",
+          "inspectedAt": "2026-10-28T00:12:49.028726+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 inspected. Behind-the-ear case has a visible microphone opening and coherent transparent earhook leading continuously into a sound tube and earmold. Locator inset places the case behind the pinna with hook over the ear and tube leading into the conchal/canal mold, rather than a disconnected device or earbud. Main continuous sound path is visible at512; overall BTE form and worn location remain legible at120px. Interior electronics are not falsely exposed. Clean precise silver/mint clinical rendering without logos/readings or irrelevant props. AI review only; independent human/specialist approval pending."
+        }
+      }
+    },
+    {
+      "entryId": "eye-patch",
+      "sourceWord": "eye patch",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "eye-patch:meaning-1",
+          "pos": "n.",
+          "en": "A covering worn over one eye in a medical or protective context."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The eye patch covers one eye while the other eye remains visible.",
+          "senseId": "eye-patch:meaning-1"
+        },
+        {
+          "en": "The model shows a soft eye patch with a narrow strap.",
+          "senseId": "eye-patch:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/eye-patch.webp",
+        "sha256": "c493bd3873ffbc53ff91b51d364f4689e3e3c62d9b7e768cae1002a166ab5efb"
+      },
+      "visual": {
+        "expectedCue": "One opaque soft patch covers a single eye, with a plausible attached head strap and the opposite eye open.",
+        "decision": "added",
+        "reason": "Actual corrected full1254 source and final512/120 inspected. Soft opaque mint patch covers one eye/lid region completely; the other eye is naturally open and uncovered. One targeted edit corrected an incomplete medial attachment by adding a visible diagonal strap continuation above the opposite eyebrow into the far hairline; lateral strap remains attached and passes above the visible ear around the head. No strap crosses the open eye, cuts through the nose or enters skin. Original rejected full/512/120 and finding retained privately. Patch silhouette and single-eye distinction remain clear at120px; no injury or treatment claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise calm clinical face and fabric rendering with soft cool-white/mint background and no costume, jewelry, decorations, labels or readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c493bd3873ffbc53ff91b51d364f4689e3e3c62d9b7e768cae1002a166ab5efb",
+          "inspectedAt": "2026-10-28T00:49:06.094318+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: soft mint covering fully occludes one eye while the other eye and brow remain visible. The medial strap continues diagonally above the uncovered brow into the hairline; lateral strap passes above the ear toward the back of the head, with coherent patch tabs. Initial abrupt strap ending was corrected and retained. Natural single-face anatomy and clinical cool-white rendering distinguish this from a two-eye sleep mask or pirate costume."
+        }
+      }
+    },
+    {
+      "entryId": "earplug",
+      "sourceWord": "earplug",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "earplug:meaning-1",
+          "pos": "n.",
+          "en": "A small protective object made to fit in the outer ear canal, commonly to reduce unwanted sound."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The earplug is made of soft foam with a rounded end.",
+          "senseId": "earplug:meaning-1"
+        },
+        {
+          "en": "A pair of earplugs rests beside its small storage case.",
+          "senseId": "earplug:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/earplug.webp",
+        "sha256": "895ac4ca6f5c491e51215a58779209f1e2fedc89d9667ff86b5e10e08de49c95"
+      },
+      "visual": {
+        "expectedCue": "A pair of small rounded tapered solid foam plugs sits beside a simple two-recess storage case.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Two matching mint foam plugs have rounded tips, slightly tapered cylindrical bodies and flat bases. Visible porous material suggests compressible foam; no speaker hole, electronic stem, wire or hearing-aid tube. Empty case has coherent hinge/lid and two recesses. Small-protection-object pair remains legible at120px. Surface texture is illustrative, not a materials or attenuation specification; no insertion action or protection rating claimed.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical object rendering in mint/pale-blue on empty cool-white, with relevant storage case only. No logos, labels, measurements or decorative props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "895ac4ca6f5c491e51215a58779209f1e2fedc89d9667ff86b5e10e08de49c95",
+          "inspectedAt": "2026-10-28T00:59:27.785964+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: two matching soft porous foam plugs have rounded ends and flat bases, beside an empty two-recess storage case with coherent hinge/lid. No speaker aperture, wiring, electronic stem or hearing-aid tube. Mint/pale-blue clinical product study makes passive protective plugs distinct at thumbnail size, without insertion instructions or an attenuation rating."
+        }
+      }
+    },
+    {
+      "entryId": "dental-floss",
+      "sourceWord": "dental floss",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "dental-floss:meaning-1",
+          "pos": "n.",
+          "en": "A thin thread or tape used to remove plaque and food particles from between teeth."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The dental floss comes from a small spool inside the dispenser.",
+          "senseId": "dental-floss:meaning-1"
+        },
+        {
+          "en": "The illustration shows a length of dental floss beside its open container.",
+          "senseId": "dental-floss:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/dental-floss.webp",
+        "sha256": "e37244b11cc84be64cce995e2857fd5eb66c63057bbe110101ec41672be2685d"
+      },
+      "visual": {
+        "expectedCue": "An open dental-floss dispenser contains a visible fine-thread spool and releases one continuous thin strand beside its cutting tab.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Mint hinged lid attaches to a coherent dispenser with a single white floss spool visible through its side. One continuous fine strand extends from the top outlet/cutter region to a loose foreground curve; no disconnected duplicate thread, rope, wire or floating blade. Small feed detail is partly occluded beneath the raised metal tab, so the image does not claim a complete internal threading diagram. Device/spool are clear at120px; thin white strand is subtler but visible with its shadow. No flossing procedure or dental treatment claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical product rendering on empty cool-white/mint with restrained transparent plastic and metal shading. No other dental props, text, dose or fake reading."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e37244b11cc84be64cce995e2857fd5eb66c63057bbe110101ec41672be2685d",
+          "inspectedAt": "2026-10-28T00:59:27.806207+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: one floss spool is visible in the dispenser side; a single continuous fine strand leaves the top outlet/cutter region and curves into the foreground. Hinged lid and metal cutter tab connect coherently. Tiny feed detail is partly occluded, and the white thumbnail strand is subtle but visible by contour/shadow; this is not a complete internal threading diagram. Clear spool/dispenser/loose-thread cue, no rope, wire, duplicate strand or flossing procedure. Cool-white/mint clinical style matches the brief."
+        }
+      }
+    },
+    {
+      "entryId": "denture",
+      "sourceWord": "denture",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "denture:meaning-1",
+          "pos": "n.",
+          "en": "A removable dental appliance with artificial teeth that replaces some or all teeth in an upper or lower arch."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The denture has artificial teeth set in a gum-coloured base.",
+          "senseId": "denture:meaning-1"
+        },
+        {
+          "en": "A complete upper denture replaces the teeth of the upper arch.",
+          "senseId": "denture:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/denture.webp",
+        "sha256": "7c501f8d7c66f6825e3805e5e64d2ae2db5bc7c732671b130a5ec7d872745be8"
+      },
+      "visual": {
+        "expectedCue": "A removable complete upper denture has a closed pink palatal plate and14 anchored teeth with distinct anterior, premolar and molar forms.",
+        "decision": "added",
+        "reason": "Actual corrected full source and final512/120 inspected: four incisors, two pointed canines, four smaller two-main-cusp premolars and four broader posterior molars form one row fixed to a closed pink upper palatal plate. Initial molar-like premolar crowns were rejected and selectively corrected. No jawbone, implants, floating teeth, second row or fitting instruction.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean clinical precise product/anatomical forms on cool white with restrained mint/pale blue; selected object silhouette remains recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7c501f8d7c66f6825e3805e5e64d2ae2db5bc7c732671b130a5ec7d872745be8",
+          "inspectedAt": "2026-10-28T00:18:57.039130+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual corrected full1254 source denture-corrected-1.png and encoded512WebP/120PNG inspected. Four incisors and two pointed canines remain intact; the next two teeth on each side now have smaller crowns with two dominant cusp regions separated by a central groove, contrasting with the broader last two multi-cusp molars per side. Total14 crowns and continuous closed upper palatal plate remain coherent. This reads as a removable complete upper denture rather than a jawbone or detached natural teeth. Overall appliance and crown-type progression survive120px; detailed cusps are clearest at512. Clean precise cool-white/mint clinical object rendering, no labels or procedure. AI review only; independent human/specialist approval pending."
+        }
+      }
+    },
+    {
+      "entryId": "ball-valve",
+      "sourceWord": "ball valve",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "ball-valve:meaning-1",
+          "pos": "n.",
+          "en": "A valve that controls a passage by turning a ball with a hole through it."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cutaway of the ball valve shows a straight bore through its ball.",
+          "senseId": "ball-valve:meaning-1"
+        },
+        {
+          "en": "In the open position, the bore of the ball valve lines up with the pipe.",
+          "senseId": "ball-valve:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ball-valve.webp",
+        "sha256": "4a4d23e479692624ba215d725e4f5fa3c88fa47d1465215c6edc266a3979fa43"
+      },
+      "visual": {
+        "expectedCue": "A spherical valve member has a straight bore aligned with both pipe openings in the open position.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: amber spherical member sits between two pale ring seats, with a continuous left-to-right bore aligned to both pipe passages. Removed housing/ball front sectors expose that bore; the top stem joins the ball above the flow path and the lever is parallel to the pipe. The selected sphere and open path remain visible at120px. No number, working pressure or operating procedure is implied. Silver/slate technical section with restrained amber focus matches the brief. First example rephrased to include the complete headword for cloze; same visible bore and image bytes actually rechecked.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4a4d23e479692624ba215d725e4f5fa3c88fa47d1465215c6edc266a3979fa43",
+          "inspectedAt": "2026-10-28T01:16:57.659944+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full source and512/120: amber spherical member sits between two seats; its exposed concave lower bore wall aligns continuously with both pipe bores. Stem meets the ball above the path and lever aligns with the pipe in this open-position study. No solid blocking plug, detached valve stem or working pressure claim; slate/silver/amber cutaway preserves the selected ball mechanism. Actually rechecked unchanged512/120 pixels against the rewritten first example: the cutaway of the ball valve shows a straight bore through its ball. Same selected meaning, visible bore and asset hash; only the sentence wording now includes the complete headword for cloze."
+        }
+      }
+    },
+    {
+      "entryId": "gate-valve",
+      "sourceWord": "gate valve",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "gate-valve:meaning-1",
+          "pos": "n.",
+          "en": "A valve that opens or closes a passage by moving a gate across the flow path."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The gate valve has a sliding closure inside its body.",
+          "senseId": "gate-valve:meaning-1"
+        },
+        {
+          "en": "The gate moves clear of the passage when the valve is fully open.",
+          "senseId": "gate-valve:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/gate-valve.webp",
+        "sha256": "7f490a486cc189cc41740e0bee57a360be880b86d619d9fa913fa52f7dd0bc3e"
+      },
+      "visual": {
+        "expectedCue": "A gate connected to a vertical stem slides across a horizontal pipe passage.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: the amber gate is attached to a continuous vertical stem below the handwheel and lies between two side seat/guide surfaces. It is partly lifted, leaving a continuous open lower passage between the two pipe ports. A tall bonnet provides clearance above it; no rotating ball, hinged disc or stem through the lower flow gap is shown. Tall gate-valve silhouette and amber sliding gate remain legible at120px; silver technical cutaway on slate matches the brief.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7f490a486cc189cc41740e0bee57a360be880b86d619d9fa913fa52f7dd0bc3e",
+          "inspectedAt": "2026-10-28T00:23:39.037637+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: amber sliding gate is attached to the vertical stem beneath the handwheel and partly raised between guides/seats, leaving a lower open passage. It is a partly open illustrative state, not a claim that the entire gate clears the bore. Tall bonnet supplies upward travel clearance. No rotating ball or hinged closure; precise slate technical style remains clear at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "butterfly-valve",
+      "sourceWord": "butterfly valve",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "butterfly-valve:meaning-1",
+          "pos": "n.",
+          "en": "A valve with a disc that turns on a shaft across a pipe passage to control flow."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The butterfly valve has a circular disc inside a short ring-shaped body.",
+          "senseId": "butterfly-valve:meaning-1"
+        },
+        {
+          "en": "The shaft turns the disc within the passage of the butterfly valve.",
+          "senseId": "butterfly-valve:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/butterfly-valve.webp",
+        "sha256": "fd3bc3427678f16a86862d0c2c811716c2772d4235ab6122bcb7220db32a2cb7"
+      },
+      "visual": {
+        "expectedCue": "A circular disc turns on a supported shaft inside a short annular valve body.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: one amber circular disc, elliptical in perspective, is partly turned within a short silver wafer body. A continuous vertical shaft joins its diameter through two visible attachments and is supported at the upper and lower body; the top lever connects to that shaft. Open side crescents distinguish the partly open disc from a solid plug. No wings, propeller or detached pivot. Selected disc/body silhouette stays clear at120px and follows the slate/silver/amber technical brief.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "fd3bc3427678f16a86862d0c2c811716c2772d4235ab6122bcb7220db32a2cb7",
+          "inspectedAt": "2026-10-28T00:23:39.056943+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: partly turned amber circular disc appears elliptical within a short lined ring body. Through-shaft follows the disc diameter with visible top/bottom attachments and housing support; side crescent gaps remain open. Continuous lever/shaft connection, no propeller or floating disc. Slate/silver/amber palette and disc-versus-ball/gate distinction survive thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "check-valve",
+      "sourceWord": "check valve",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "check-valve:meaning-1",
+          "pos": "n.",
+          "en": "A valve that allows forward flow and closes automatically to resist flow in the reverse direction."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The check valve closes when fluid tries to flow backwards.",
+          "senseId": "check-valve:meaning-1"
+        },
+        {
+          "en": "The cutaway shows the closure and seat inside a check valve.",
+          "senseId": "check-valve:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/check-valve.webp",
+        "sha256": "31dde69b8b882b97d3cefc8935f85d52f9ac14908a67e54223be644b1bd38702"
+      },
+      "visual": {
+        "expectedCue": "A hinged clapper opens downstream away from its seat and can swing back against reverse flow.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full original and final512/120: the hinge is fixed just above the left seat and its short arm joins the upper edge of one amber clapper. The open clapper slopes down to the right, so forward left-to-right flow can pass below it and it can rotate back left onto the matching seat. The arrow remains in the free lower passage. This corrects the initial reversed clapper lean and remote hinge, whose source and rejection are retained. Closure/seat relation remains legible at120px; slate/silver/amber technical style matches the brief.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "31dde69b8b882b97d3cefc8935f85d52f9ac14908a67e54223be644b1bd38702",
+          "inspectedAt": "2026-10-28T00:26:29.769768+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: short arm/hinge is anchored above the left circular seat and joins the upper edge of a clapper whose lower edge swings downstream to the right. Forward arrow occupies the free lower passage; the plate can return toward the seat to resist reverse flow. Earlier reversed lean/remote hinge was corrected and retained privately. Coherent swing-check example and slate/silver/amber styling remain clear at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "pressure-regulator",
+      "sourceWord": "pressure regulator",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "pressure-regulator:meaning-1",
+          "pos": "n.",
+          "en": "A device that reduces a fluid supply pressure and controls the downstream pressure."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pressure regulator is positioned between the supply and the downstream line.",
+          "senseId": "pressure-regulator:meaning-1"
+        },
+        {
+          "en": "A pressure regulator changes its valve opening in response to pressure changes.",
+          "senseId": "pressure-regulator:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pressure-regulator.webp",
+        "sha256": "d8401005749bff738bc26fc46a3adfa471b0eb9dbe796a6d4d45ff7dae5a5cef"
+      },
+      "visual": {
+        "expectedCue": "A spring-loaded diaphragm controls a downstream pressure chamber through a linked poppet and seat.",
+        "decision": "added",
+        "reason": "Actually inspected final full source and512/120 after two bounded corrections: the knob screw now stops at the upper spring seat, leaving the coil center free so the diaphragm can respond. A central rod joins diaphragm to a mushroom poppet BELOW a fixed annular seat; inlet chamber is below the seat, while outlet chamber above it reaches the diaphragm underside and right port. There is space below the poppet for downward opening travel; no rigid pedestal or inlet/outlet bypass remains. Small seat clearances are illustrative, not dimensional. Diaphragm/spring/control stack is readable at120px and distinct from a gauge. Initial blocked-path and rigid-bridge drafts retained privately. Slate/silver/amber technical section meets the brief.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d8401005749bff738bc26fc46a3adfa471b0eb9dbe796a6d4d45ff7dae5a5cef",
+          "inspectedAt": "2026-10-28T00:26:29.792170+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: adjustment screw ends at upper coil seat, leaving spring center free; diaphragm and central rod join a poppet below the annular fixed seat. Inlet reaches lower chamber, passes around the poppet and up the seat opening to the outlet chamber/diaphragm underside and right port. No lower travel-blocking pedestal or rigid screw bridge remains. This simplified pressure-reducing mechanism has no setpoint, operating instruction or dimensioned engineering claim; control stack remains clear at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "pressure-gauge",
+      "sourceWord": "pressure gauge",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "pressure-gauge:meaning-1",
+          "pos": "n.",
+          "en": "An instrument that indicates the pressure of a gas or liquid."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pressure gauge connects to the pipe through a small fitting.",
+          "senseId": "pressure-gauge:meaning-1"
+        },
+        {
+          "en": "The dial pressure gauge uses a pointer to indicate pressure.",
+          "senseId": "pressure-gauge:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pressure-gauge.webp",
+        "sha256": "eba0392241ed189bda33fc8a2e5c977ff366faffcfd2a02fe0b1d9279a4f9ca6"
+      },
+      "visual": {
+        "expectedCue": "An analog pressure gauge has a round dial, one pointer and an integral process connection.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: a round silver case encloses one amber pointer and an unnumbered arc of radial ticks; a hexagonal fitting and threaded process stem extend from the bottom. No second reading needle, unit, numeric value, stopwatch button or adjustment regulator knob appears. Dial/fitting silhouette is recognizable at120px, with silver material and amber focus against slate. It is an illustrative pressure instrument, without a usable pressure reading.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "eba0392241ed189bda33fc8a2e5c977ff366faffcfd2a02fe0b1d9279a4f9ca6",
+          "inspectedAt": "2026-10-28T00:29:24.727268+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: round analog case has one pointer and nonnumeric tick arc, with one connected threaded pressure fitting beneath it. No clock hands, digital values, invented pressure reading or calibration claim. The unnumbered schematic display is explained in all editions; silver/slate/amber product style and fitting silhouette preserve the pressure-gauge cue at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "flowmeter",
+      "sourceWord": "flowmeter",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "flowmeter:meaning-1",
+          "pos": "n.",
+          "en": "An instrument that measures how much fluid passes a point per unit of time."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The flowmeter measures the rate of flow through the pipe.",
+          "senseId": "flowmeter:meaning-1"
+        },
+        {
+          "en": "The illustrated turbine flowmeter has a rotor inside its measuring passage.",
+          "senseId": "flowmeter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/flowmeter.webp",
+        "sha256": "417de730d7928158966022b3cc62836df1779a8bc2c5e90b4679cf479939cc0d"
+      },
+      "visual": {
+        "expectedCue": "One qualified turbine flowmeter has a supported axial rotor and a sensor in an inline pipe body.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full source and final512/120: one amber rotor with curved pitched blades is fixed to a coaxial shaft supported by bearing spiders at both ends. Rotor tips clear the pipe wall and the pickup now has an explicit noncontact gap above its swept envelope. Flanged pipe body and blank display identify an inline measuring instrument without a fabricated value. The qualified turbine example differs clearly from the vertical float rotameter; rotor/body/display remain readable at120px. Initial ambiguous blade/pickup draft retained. Silver/slate technical cutaway with amber rotor matches the brief.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "417de730d7928158966022b3cc62836df1779a8bc2c5e90b4679cf479939cc0d",
+          "inspectedAt": "2026-10-28T00:39:37.651797+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: inline flanged pipe contains one pitched-blade rotor on a coaxial shaft, supported by bearing spiders at both ends. Flow space remains around the blades, and the top pickup has a visible noncontact gap above the rotor envelope. Blank display and connected body identify a measuring instrument without a fabricated value. This qualified turbine example is clearly distinct from the vertical float rotameter; precise slate/silver/amber style remains legible at thumbnail size."
+        }
+      }
+    },
+    {
+      "entryId": "rotameter",
+      "sourceWord": "rotameter",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "rotameter:meaning-1",
+          "pos": "n.",
+          "en": "A flowmeter in which a float rises within an upright tapered tube as flow increases."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The rotameter has a float inside a tube that widens towards the top.",
+          "senseId": "rotameter:meaning-1"
+        },
+        {
+          "en": "The position of the float in the rotameter indicates the flow rate.",
+          "senseId": "rotameter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/rotameter.webp",
+        "sha256": "c9aebe08539e9251d6f4d0359e9dad8f053cb6657c9d3c36543933af4fe4e56f"
+      },
+      "visual": {
+        "expectedCue": "A free float sits in one upright tapered flow tube, wider at the top, with a bottom-to-top flow arrow and nonnumeric scale.",
+        "decision": "added",
+        "reason": "Actual corrected full source and final512/120 inspected: one continuous transparent taper connects directly to both end fittings, wide above and narrow below. A free spool float has visible peripheral clearance; a single upward arrow shows this example's flow direction. Original free top ellipse/open-funnel ambiguity was rejected and corrected. No rod, spring, fluid-level surface, number or working reading.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical product/cutaway study on slate with silver and restrained amber teaching highlights; selected mechanism or material distinction remains readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c9aebe08539e9251d6f4d0359e9dad8f053cb6657c9d3c36543933af4fe4e56f",
+          "inspectedAt": "2026-10-28T00:25:23.256091+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected corrected full source rotameter-corrected-1.png and final512/120. The single clear tapered bore now runs from narrow bottom fitting to wide top fitting without a free upper meniscus or disconnected funnel. One free internal float, upward external arrow and unnumbered ticks identify the variable-area meter. No central rod, numeric flow reading or liquid-level claim remains. Slender silhouette and float remain readable at120px in the slate/silver/amber style. Initial rejected hash and findings retained. Second AI inspection only; independent human language and qualified specialist review remain pending."
+        }
+      }
+    },
+    {
+      "entryId": "hydraulic-jack",
+      "sourceWord": "hydraulic jack",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "hydraulic-jack:meaning-1",
+          "pos": "n.",
+          "en": "A lifting device that uses pressurized liquid to move a ram or piston."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The hydraulic jack has a lifting ram above a broad base.",
+          "senseId": "hydraulic-jack:meaning-1"
+        },
+        {
+          "en": "A pump supplies liquid to the lifting cylinder of the hydraulic jack.",
+          "senseId": "hydraulic-jack:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hydraulic-jack.webp",
+        "sha256": "cc3293eb3f52903bdceff635fa539f0ff4328c757cd223a160a9d3d3689c5387"
+      },
+      "visual": {
+        "expectedCue": "An unloaded hydraulic bottle jack has a broad base, vertical smooth lifting ram, saddle and connected side hand-pump/handle.",
+        "decision": "added",
+        "reason": "Actual full source and final512/120 inspected: bottle body and side pump share one stable base; a smooth ram projects vertically to a grooved saddle. Handle fits its hinged socket with a connected pivot/plunger linkage. Entire external object is visible, without a load, person, under-vehicle scene, speculative fluid cutaway or capacity/pressure rating.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical product/cutaway study on slate with silver and restrained amber teaching highlights; selected mechanism or material distinction remains readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "cc3293eb3f52903bdceff635fa539f0ff4328c757cd223a160a9d3d3689c5387",
+          "inspectedAt": "2026-10-28T00:25:23.256349+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: an unloaded bottle-jack body has a broad continuous base, extended vertical lifting ram and top saddle, plus a side pump piston linked to the handle socket through visible pivots. No supported vehicle, capacity claim or operating sequence is depicted. The jack form is distinct from the separate cylinder/accumulator and remains recognizable at120px. Silver/amber technical product treatment on slate matches the brief. Second AI inspection only; independent human language and qualified specialist review remain pending."
+        }
+      }
+    },
+    {
+      "entryId": "hydraulic-cylinder",
+      "sourceWord": "hydraulic cylinder",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "hydraulic-cylinder:meaning-1",
+          "pos": "n.",
+          "en": "An actuator in which pressurized liquid moves a piston to produce straight-line motion."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cutaway of the hydraulic cylinder shows a piston connected to a rod.",
+          "senseId": "hydraulic-cylinder:meaning-1"
+        },
+        {
+          "en": "The rod passes through a sealed opening at one end of the hydraulic cylinder.",
+          "senseId": "hydraulic-cylinder:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hydraulic-cylinder.webp",
+        "sha256": "ac839d07d83b2b55761696197545fc4df0ed523706ea2e37c5014ebbdcc15e59"
+      },
+      "visual": {
+        "expectedCue": "A sealed piston drives one continuous rod through the gland and outside a two-port hydraulic cylinder.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full original and final512/120: piston and dark bore seal separate two amber liquid chambers, each with its own visible port. A continuous silver rod joins piston center, passes through the dark right gland seal and extends clearly outside the fixed end cap to its separate moving eye. The left eye belongs to the closed fixed cap. This corrects the initial missing exposed rod/fixed-eye error. Both complete endpoints fit, and piston/rod/chambers remain identifiable at120px despite the naturally long profile. No hydraulic values or operating circuit claimed; precise slate/silver/amber cutaway meets the brief.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ac839d07d83b2b55761696197545fc4df0ed523706ea2e37c5014ebbdcc15e59",
+          "inspectedAt": "2026-10-28T00:49:06.075630+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: cutaway shows two liquid chambers separated by a sealed piston attached to one continuous rod. The rod passes through the right gland and extends outside to its own moving eye; left body attachment eye remains separate. Each top port reaches its respective chamber, with no piston bypass or eye attached only to a fixed cap. Corrected exposed rod is clear; slate/silver/amber technical study has no pressures or oil specification."
+        }
+      }
+    },
+    {
+      "entryId": "accumulator",
+      "sourceWord": "accumulator",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "accumulator:meaning-1",
+          "pos": "n.",
+          "en": "A device that stores hydraulic energy by holding liquid under pressure for later use."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The accumulator can supply pressurized liquid back to the hydraulic circuit.",
+          "senseId": "accumulator:meaning-1"
+        },
+        {
+          "en": "In the illustrated bladder accumulator, a flexible bladder separates the gas and liquid.",
+          "senseId": "accumulator:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/accumulator.webp",
+        "sha256": "cbd6ef7230077d4ffe93c83cc8bc4ba5aa8db2fdd74f1840e7366e5d6a5177d0"
+      },
+      "visual": {
+        "expectedCue": "A hydraulic bladder accumulator separates gas inside a top-connected rubber bladder from hydraulic fluid outside it and the bottom fluid connection.",
+        "decision": "added",
+        "reason": "Actual corrected full source and final512/120 inspected: black bladder neck joins the top gas-charge valve; gray gas stays inside the membrane. Blue fluid fills all outer space, including side/upper annulus, and connects to the bottom port. Original free fluid level/second outer gas pocket and obstructive detailed port internals were rejected; final concept omits internal valve detail. Lower threaded connection is shown externally. No pressure, charge setting or complete manufacturing design is claimed.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical product/cutaway study on slate with silver and restrained amber teaching highlights; selected mechanism or material distinction remains readable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "cbd6ef7230077d4ffe93c83cc8bc4ba5aa8db2fdd74f1840e7366e5d6a5177d0",
+          "inspectedAt": "2026-10-28T00:25:23.256476+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected corrected full original and final512/120: a black flexible bladder is continuously necked into the top gas connection and encloses the gray gas region. Blue explanatory liquid fills all space outside it, including upper annulus, and opens into the lower fluid port. No free liquid surface or empty external gas annulus remains. The lower fitting is partly exterior rather than a claim of complete anti-extrusion-valve internals. Partition and gas-versus-fluid connection are clear at120px. Slate/silver vessel and restrained amber fittings preserve engineering styling; blue is a purposeful fluid distinction, not a rating. Second AI inspection only; independent human language and qualified specialist review remain pending."
+        }
+      }
+    },
+    {
+      "entryId": "pneumatic-actuator",
+      "sourceWord": "pneumatic actuator",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "pneumatic-actuator:meaning-1",
+          "pos": "n.",
+          "en": "An actuator that uses compressed air to produce mechanical motion, here the straight-line movement of a piston rod."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pneumatic actuator turns compressed-air energy into motion.",
+          "senseId": "pneumatic-actuator:meaning-1"
+        },
+        {
+          "en": "The illustrated pneumatic actuator has a rod that extends from its cylinder body.",
+          "senseId": "pneumatic-actuator:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pneumatic-actuator.webp",
+        "sha256": "2aac0c7068b6fc66afc724e1fbe0fd9f0164d4a782d65b334e52f9567c377e28"
+      },
+      "visual": {
+        "expectedCue": "A linear pneumatic cylinder has a sealed piston, exposed rod, tie-rod frame and air fitting at each end.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full source and final512/120: a single amber piston and dark seal fit the silver bore; the centered continuous rod passes through a separate right gland seal to a complete exposed flat tip. Square end caps connect through external tie rods, with one air fitting per end and empty air chambers rather than an oil pool. This is the selected linear piston-rod actuator example, not a full pneumatic circuit. Correction reveals the formerly cropped rod endpoint; all parts now fit within frame. Piston/rod and lightweight frame remain clear at120px in the exact slate/silver/amber product language.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T01:06:37.514766+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2aac0c7068b6fc66afc724e1fbe0fd9f0164d4a782d65b334e52f9567c377e28",
+          "inspectedAt": "2026-10-28T00:55:28.614522+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected512/120: a tie-rod pneumatic cylinder has a sealed piston attached to one coaxial rod, which passes through the right gland and ends fully within frame. Both top air ports reach their respective clear chambers; end caps and tie rods connect coherently without an exposed liquid fill or floating shaft. Corrected framing retains the complete rod tip. This qualified linear actuator example uses slate/silver/amber technical style and makes no pressure, circuit or operating-state claim."
         }
       }
     }
