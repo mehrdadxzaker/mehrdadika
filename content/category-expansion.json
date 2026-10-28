@@ -2846,7 +2846,103 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 218,
+      "targetCategoryWords": 230,
+      "entryIds": [
+        "dental-crown",
+        "dental-bridge",
+        "dental-implant",
+        "orthodontic-bracket",
+        "dental-arch",
+        "dental-impression",
+        "dental-tray",
+        "dental-drill",
+        "dental-scaler",
+        "saliva-ejector",
+        "mouthguard",
+        "retainer"
+      ],
+      "units": [
+        {
+          "id": "medical-dentistry",
+          "title": "Dental devices and structures",
+          "entryIds": [
+            "dental-crown",
+            "dental-bridge",
+            "dental-implant",
+            "orthodontic-bracket",
+            "dental-arch",
+            "dental-impression",
+            "dental-tray",
+            "dental-drill",
+            "dental-scaler",
+            "saliva-ejector",
+            "mouthguard",
+            "retainer"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-16",
+      "releaseId": "2026-10-preview-21",
+      "status": "published-preview",
+      "objective": "Describe dental devices, dental structures and civil engineering components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 218,
+      "targetCategoryWords": 230,
+      "entryIds": [
+        "keystone",
+        "buttress",
+        "pier",
+        "footing",
+        "slab",
+        "deck",
+        "parapet",
+        "culvert",
+        "formwork",
+        "reinforcing-mesh",
+        "gusset-plate",
+        "anchor-bolt"
+      ],
+      "units": [
+        {
+          "id": "engineering-civil",
+          "title": "Civil structures and connections",
+          "entryIds": [
+            "keystone",
+            "buttress",
+            "pier",
+            "footing",
+            "slab",
+            "deck",
+            "parapet",
+            "culvert",
+            "formwork",
+            "reinforcing-mesh",
+            "gusset-plate",
+            "anchor-bolt"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-16",
+      "releaseId": "2026-10-preview-21",
+      "status": "published-preview",
+      "objective": "Describe dental devices, dental structures and civil engineering components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-15"
+  "activePassId": "specialist-500-batch-16"
 }

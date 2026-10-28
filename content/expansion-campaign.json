@@ -2025,6 +2025,105 @@
       ],
       "imageRefreshEntryIds": [],
       "completedAt": "2026-10-28T13:40:33.667070+00:00"
+    },
+    {
+      "id": "specialist-500-batch-16",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-21",
+      "baseline": {
+        "releaseId": "2026-10-preview-20",
+        "manifest": "content/releases/2026-10-preview-20-09b1e89cb818/manifest.json",
+        "manifestSha256": "09b1e89cb818bba8317e674e2ac6b9b6827ce47c6fbe9eaf965f88eb9a870d2a",
+        "words": 594
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 218,
+          "targetCategoryWords": 230,
+          "entryIds": [
+            "dental-crown",
+            "dental-bridge",
+            "dental-implant",
+            "orthodontic-bracket",
+            "dental-arch",
+            "dental-impression",
+            "dental-tray",
+            "dental-drill",
+            "dental-scaler",
+            "saliva-ejector",
+            "mouthguard",
+            "retainer"
+          ],
+          "units": [
+            {
+              "id": "medical-dentistry",
+              "title": "Dental devices and structures",
+              "entryIds": [
+                "dental-crown",
+                "dental-bridge",
+                "dental-implant",
+                "orthodontic-bracket",
+                "dental-arch",
+                "dental-impression",
+                "dental-tray",
+                "dental-drill",
+                "dental-scaler",
+                "saliva-ejector",
+                "mouthguard",
+                "retainer"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 218,
+          "targetCategoryWords": 230,
+          "entryIds": [
+            "keystone",
+            "buttress",
+            "pier",
+            "footing",
+            "slab",
+            "deck",
+            "parapet",
+            "culvert",
+            "formwork",
+            "reinforcing-mesh",
+            "gusset-plate",
+            "anchor-bolt"
+          ],
+          "units": [
+            {
+              "id": "engineering-civil",
+              "title": "Civil structures and connections",
+              "entryIds": [
+                "keystone",
+                "buttress",
+                "pier",
+                "footing",
+                "slab",
+                "deck",
+                "parapet",
+                "culvert",
+                "formwork",
+                "reinforcing-mesh",
+                "gusset-plate",
+                "anchor-bolt"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "completedAt": "2026-10-28T14:51:38.834568+00:00"
     }
   ],
   "activeWorkBatchId": null,
