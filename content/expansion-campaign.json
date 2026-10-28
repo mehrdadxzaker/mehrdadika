@@ -2421,6 +2421,103 @@
       ],
       "imageRefreshEntryIds": [],
       "completedAt": "2026-10-28T20:27:32.664921+00:00"
+    },
+    {
+      "id": "specialist-500-batch-20",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-25",
+      "baseline": {
+        "releaseId": "2026-10-preview-24",
+        "manifest": "content/releases/2026-10-preview-24-4fd0af7d4e0f/manifest.json",
+        "manifestSha256": "4fd0af7d4e0fd2dd3c19a836f2315d1b6af461c44a0fb638139699601dd70b0c",
+        "words": 690
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 266,
+          "targetCategoryWords": 278,
+          "entryIds": [
+            "cream",
+            "gel",
+            "transdermal-patch",
+            "oral-suspension",
+            "sachet",
+            "nasal-spray",
+            "eye-drops",
+            "oral-syringe",
+            "effervescent-tablet",
+            "pill-cutter",
+            "dispensing-label",
+            "patient-information-leaflet"
+          ],
+          "units": [
+            {
+              "id": "medical-pharmacy-forms-tools",
+              "title": "Pharmaceutical forms, packaging and medicine tools",
+              "entryIds": [
+                "cream",
+                "gel",
+                "transdermal-patch",
+                "oral-suspension",
+                "sachet",
+                "nasal-spray",
+                "eye-drops",
+                "oral-syringe",
+                "effervescent-tablet",
+                "pill-cutter",
+                "dispensing-label",
+                "patient-information-leaflet"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 266,
+          "targetCategoryWords": 277,
+          "entryIds": [
+            "shim",
+            "o-ring",
+            "piston-ring",
+            "retaining-ring",
+            "bearing-housing",
+            "thrust-bearing",
+            "casting",
+            "forging",
+            "extrusion",
+            "injection-moulding",
+            "rolling"
+          ],
+          "units": [
+            {
+              "id": "engineering-fittings-manufacturing",
+              "title": "Mechanical fittings and manufacturing processes",
+              "entryIds": [
+                "shim",
+                "o-ring",
+                "piston-ring",
+                "retaining-ring",
+                "bearing-housing",
+                "thrust-bearing",
+                "casting",
+                "forging",
+                "extrusion",
+                "injection-moulding",
+                "rolling"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "completedAt": "2026-10-28T22:28:16.801626+00:00"
     }
   ],
   "activeWorkBatchId": null,

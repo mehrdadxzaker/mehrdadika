@@ -3230,7 +3230,101 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 266,
+      "targetCategoryWords": 278,
+      "entryIds": [
+        "cream",
+        "gel",
+        "transdermal-patch",
+        "oral-suspension",
+        "sachet",
+        "nasal-spray",
+        "eye-drops",
+        "oral-syringe",
+        "effervescent-tablet",
+        "pill-cutter",
+        "dispensing-label",
+        "patient-information-leaflet"
+      ],
+      "units": [
+        {
+          "id": "medical-pharmacy-forms-tools",
+          "title": "Pharmaceutical forms, packaging and medicine tools",
+          "entryIds": [
+            "cream",
+            "gel",
+            "transdermal-patch",
+            "oral-suspension",
+            "sachet",
+            "nasal-spray",
+            "eye-drops",
+            "oral-syringe",
+            "effervescent-tablet",
+            "pill-cutter",
+            "dispensing-label",
+            "patient-information-leaflet"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-20",
+      "releaseId": "2026-10-preview-25",
+      "status": "published-preview",
+      "objective": "Describe pharmaceutical forms and tools, mechanical fittings and manufacturing processes in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 266,
+      "targetCategoryWords": 277,
+      "entryIds": [
+        "shim",
+        "o-ring",
+        "piston-ring",
+        "retaining-ring",
+        "bearing-housing",
+        "thrust-bearing",
+        "casting",
+        "forging",
+        "extrusion",
+        "injection-moulding",
+        "rolling"
+      ],
+      "units": [
+        {
+          "id": "engineering-fittings-manufacturing",
+          "title": "Mechanical fittings and manufacturing processes",
+          "entryIds": [
+            "shim",
+            "o-ring",
+            "piston-ring",
+            "retaining-ring",
+            "bearing-housing",
+            "thrust-bearing",
+            "casting",
+            "forging",
+            "extrusion",
+            "injection-moulding",
+            "rolling"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-20",
+      "releaseId": "2026-10-preview-25",
+      "status": "published-preview",
+      "objective": "Describe pharmaceutical forms and tools, mechanical fittings and manufacturing processes in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-19"
+  "activePassId": "specialist-500-batch-20"
 }
