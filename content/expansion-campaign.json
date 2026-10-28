@@ -1785,6 +1785,129 @@
         "pressure"
       ],
       "completedAt": "2026-10-28T08:13:54.112851+00:00"
+    },
+    {
+      "id": "specialist-500-batch-14",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-19",
+      "baseline": {
+        "releaseId": "2026-10-preview-18",
+        "manifest": "content/releases/2026-10-preview-18-44b178ff0468/manifest.json",
+        "manifestSha256": "44b178ff04688da35bfe7fe5aada7367f59813d5b27bdfd13e81da81da8f2538",
+        "words": 546
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 194,
+          "targetCategoryWords": 206,
+          "entryIds": [
+            "cough",
+            "sneeze",
+            "fever",
+            "headache",
+            "dizziness",
+            "nausea",
+            "fatigue",
+            "itch",
+            "pain",
+            "tremor",
+            "stiffness",
+            "shortness-of-breath"
+          ],
+          "units": [
+            {
+              "id": "airway-and-temperature-symptoms",
+              "title": "Cough, sneeze, fever and breathing symptoms",
+              "entryIds": [
+                "cough",
+                "sneeze",
+                "fever",
+                "shortness-of-breath"
+              ]
+            },
+            {
+              "id": "subjective-symptoms",
+              "title": "Headache, dizziness, nausea, fatigue and pain",
+              "entryIds": [
+                "headache",
+                "dizziness",
+                "nausea",
+                "fatigue",
+                "pain"
+              ]
+            },
+            {
+              "id": "skin-and-movement-symptoms",
+              "title": "Itch, tremor and stiffness",
+              "entryIds": [
+                "itch",
+                "tremor",
+                "stiffness"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 194,
+          "targetCategoryWords": 206,
+          "entryIds": [
+            "actuator",
+            "encoder",
+            "limit-switch",
+            "proximity-sensor",
+            "photoelectric-sensor",
+            "servomotor",
+            "stepper-motor",
+            "programmable-logic-controller",
+            "control-panel",
+            "feedback",
+            "setpoint",
+            "emergency-stop"
+          ],
+          "units": [
+            {
+              "id": "industrial-sensing-actuation",
+              "title": "Sensing, discrete and controlled movement",
+              "entryIds": [
+                "actuator",
+                "encoder",
+                "limit-switch",
+                "proximity-sensor",
+                "photoelectric-sensor",
+                "servomotor",
+                "stepper-motor"
+              ]
+            },
+            {
+              "id": "control-automation",
+              "title": "Programmable control, reference and feedback",
+              "entryIds": [
+                "programmable-logic-controller",
+                "control-panel",
+                "feedback",
+                "setpoint"
+              ]
+            },
+            {
+              "id": "emergency-machine-control",
+              "title": "Emergency stop control vocabulary",
+              "entryIds": [
+                "emergency-stop"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "completedAt": "2026-10-28T10:16:26.241823+00:00"
     }
   ],
   "activeWorkBatchId": null,

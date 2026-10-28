@@ -20150,6 +20150,822 @@
         }
       ],
       "tip": "Voltage regulator não é retificador nem indicador de tensão. A imagem mostra um exemplo linear conceitual com entrada suficiente e saída aproximadamente constante; nem todo regulador é linear. A regulação depende dos limites de entrada, carga e temperatura; a linha lisa não garante uma saída perfeita em qualquer condição."
+    },
+    "cough": {
+      "sourceWord": "cough",
+      "senses": {
+        "cough:meaning-1": {
+          "gloss": "tosse",
+          "definition": "Uma expulsão súbita e forte de ar das vias respiratórias, geralmente com um som característico."
+        }
+      },
+      "examples": [
+        {
+          "en": "A cough interrupts his sentence as he raises his bent elbow.",
+          "translation": "Uma tosse interrompe a frase dele enquanto ele levanta o cotovelo dobrado."
+        },
+        {
+          "en": "She describes the cough as dry, without bringing up mucus.",
+          "translation": "Ela descreve a tosse como seca, sem expelir muco."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a dry cough",
+          "translation": "uma tosse seca"
+        },
+        {
+          "en": "a persistent cough",
+          "translation": "uma tosse persistente"
+        },
+        {
+          "en": "a bout of coughing",
+          "translation": "um acesso de tosse"
+        }
+      ],
+      "tip": "Cough aqui é o substantivo tosse; to cough é o verbo. Não é o mesmo que sneeze, o espirro com contexto nasal. Dry cough descreve tosse sem expectoração de muco. O cotovelo é um exemplo; a imagem não revela causa, caráter infeccioso nem intensidade."
+    },
+    "sneeze": {
+      "sourceWord": "sneeze",
+      "senses": {
+        "sneeze:meaning-1": {
+          "gloss": "espirro",
+          "definition": "Uma saída súbita e involuntária de ar pelo nariz e pela boca."
+        }
+      },
+      "examples": [
+        {
+          "en": "A sneeze makes her close her eyes as she holds a tissue over her nose and mouth.",
+          "translation": "Um espirro faz com que ela feche os olhos enquanto segura um lenço sobre o nariz e a boca."
+        },
+        {
+          "en": "He reports several sneezes in a row.",
+          "translation": "Ele relata vários espirros seguidos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a sudden sneeze",
+          "translation": "um espirro repentino"
+        },
+        {
+          "en": "a series of sneezes",
+          "translation": "uma sequência de espirros"
+        },
+        {
+          "en": "to let out a sneeze",
+          "translation": "soltar um espirro"
+        }
+      ],
+      "tip": "Sneeze aqui é substantivo e também pode ser verbo. O contexto nasal e o lenço distinguem o espirro da tosse ilustrada; o lenço sozinho não basta. Espirrar não significa necessariamente alergia ou infecção, e a imagem não comprova a causa."
+    },
+    "fever": {
+      "sourceWord": "fever",
+      "senses": {
+        "fever:meaning-1": {
+          "gloss": "febre",
+          "definition": "Uma elevação da temperatura corporal acima de sua faixa habitual, como sinal de um processo subjacente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The clinician asks when the fever began.",
+          "translation": "O profissional de saúde pergunta quando a febre começou."
+        },
+        {
+          "en": "Feeling warm alone does not establish that a person has a fever.",
+          "translation": "Sentir calor, por si só, não comprova que uma pessoa está com febre."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "to have a fever",
+          "translation": "ter febre"
+        },
+        {
+          "en": "the onset of fever",
+          "translation": "o início da febre"
+        },
+        {
+          "en": "a persistent fever",
+          "translation": "uma febre persistente"
+        }
+      ],
+      "tip": "Fever é febre; feverish descreve sensação ou estado febril. Tocar a testa, ver rubor ou olhar uma imagem não determina temperatura nem causa. O símbolo térmico é qualitativo, não uma medição; febre não é igual a toda forma de elevação da temperatura."
+    },
+    "headache": {
+      "sourceWord": "headache",
+      "senses": {
+        "headache:meaning-1": {
+          "gloss": "dor de cabeça",
+          "definition": "Dor sentida na cabeça, que pode variar de localização, caráter e duração."
+        }
+      },
+      "examples": [
+        {
+          "en": "She describes the headache as a dull pain across her forehead.",
+          "translation": "Ela descreve a dor de cabeça como uma dor surda ao longo da testa."
+        },
+        {
+          "en": "The clinician asks where the pain is and how long it lasts.",
+          "translation": "O profissional de saúde pergunta onde dói e quanto tempo a dor dura."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a dull headache",
+          "translation": "uma dor de cabeça surda"
+        },
+        {
+          "en": "a throbbing headache",
+          "translation": "uma dor de cabeça latejante"
+        },
+        {
+          "en": "a recurring headache",
+          "translation": "uma dor de cabeça recorrente"
+        }
+      ],
+      "tip": "Headache é um sintoma doloroso; nem toda dor de cabeça é migraine, enxaqueca. Throbbing descreve o caráter latejante, não a causa. Tocar as têmporas e a marca localizada apenas ilustram a experiência, não uma lesão ou doença específica."
+    },
+    "dizziness": {
+      "sourceWord": "dizziness",
+      "senses": {
+        "dizziness:meaning-1": {
+          "gloss": "tontura",
+          "definition": "Uma sensação de cabeça leve, instabilidade ou equilíbrio alterado."
+        }
+      },
+      "examples": [
+        {
+          "en": "She reports dizziness and says she feels unsteady while seated.",
+          "translation": "Ela relata tontura e diz que se sente instável enquanto está sentada."
+        },
+        {
+          "en": "The clinician asks whether the room seems to spin or whether she feels faint.",
+          "translation": "O profissional de saúde pergunta se o ambiente parece girar ou se ela sente que vai desmaiar."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a spell of dizziness",
+          "translation": "um episódio de tontura"
+        },
+        {
+          "en": "to experience dizziness",
+          "translation": "sentir tontura"
+        },
+        {
+          "en": "persistent dizziness",
+          "translation": "a tontura persistente"
+        }
+      ],
+      "tip": "Dizziness é amplo e pode indicar cabeça leve ou instabilidade. Vertigo é especificamente a sensação de giro ou movimento; fainting é a perda de consciência. A imagem ilustra uma sensação relatada e não comprova alteração do ouvido, queda de pressão nem outra causa. Os contornos do ambiente representam esquematicamente uma percepção de instabilidade."
+    },
+    "nausea": {
+      "sourceWord": "nausea",
+      "senses": {
+        "nausea:meaning-1": {
+          "gloss": "náusea; enjoo",
+          "definition": "Uma sensação desagradável de mal-estar no estômago, muitas vezes com vontade de vomitar."
+        }
+      },
+      "examples": [
+        {
+          "en": "She reports nausea but says she has not vomited.",
+          "translation": "Ela relata náusea, mas diz que não vomitou."
+        },
+        {
+          "en": "The empty basin is nearby while she describes the queasy feeling.",
+          "translation": "A bacia vazia está por perto enquanto ela descreve a sensação de enjoo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a feeling of nausea",
+          "translation": "uma sensação de náusea"
+        },
+        {
+          "en": "persistent nausea",
+          "translation": "a náusea persistente"
+        },
+        {
+          "en": "nausea and vomiting",
+          "translation": "náuseas e vômitos"
+        }
+      ],
+      "tip": "Nausea é a sensação de enjoo e vomiting é o ato de vomitar; pode haver náusea sem vômito. Queasy é um adjetivo para esse mal-estar. A bacia vazia remete à sensação e não indica gravidez, intoxicação nem outra causa."
+    },
+    "fatigue": {
+      "sourceWord": "fatigue",
+      "senses": {
+        "fatigue:meaning-1": {
+          "gloss": "fadiga",
+          "definition": "Uma sensação de cansaço, desgaste ou falta de energia que pode limitar atividades habituais."
+        }
+      },
+      "examples": [
+        {
+          "en": "He describes fatigue as a lack of energy even while he is awake.",
+          "translation": "Ele descreve a fadiga como falta de energia mesmo estando acordado."
+        },
+        {
+          "en": "She says ordinary tasks feel unusually tiring today.",
+          "translation": "Ela diz que tarefas habituais parecem cansativas de forma incomum hoje."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "persistent fatigue",
+          "translation": "a fadiga persistente"
+        },
+        {
+          "en": "physical fatigue",
+          "translation": "a fadiga física"
+        },
+        {
+          "en": "to experience fatigue",
+          "translation": "sentir fadiga"
+        }
+      ],
+      "tip": "Fatigue aqui é a experiência de cansaço e pouca energia, não a falha por fadiga de um metal na engenharia. Drowsiness é vontade de dormir e não é igual à fadiga. A pessoa está acordada; a postura não comprova preguiça, falta de sono nem uma doença específica."
+    },
+    "itch": {
+      "sourceWord": "itch",
+      "senses": {
+        "itch:meaning-1": {
+          "gloss": "coceira; prurido",
+          "definition": "Uma sensação irritante na pele que provoca vontade de coçar."
+        }
+      },
+      "examples": [
+        {
+          "en": "She feels an itch on her forearm and lightly scratches the spot.",
+          "translation": "Ela sente uma coceira no antebraço e coça levemente o local."
+        },
+        {
+          "en": "He describes itching without a visible rash.",
+          "translation": "Ele descreve coceira sem erupção cutânea visível."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a persistent itch",
+          "translation": "uma coceira persistente"
+        },
+        {
+          "en": "an itch on the skin",
+          "translation": "uma coceira na pele"
+        },
+        {
+          "en": "an urge to scratch",
+          "translation": "uma vontade de coçar"
+        }
+      ],
+      "tip": "Itch aqui é o substantivo da sensação; scratch é o ato de coçar e itchy é o adjetivo. Pode haver coceira sem lesões ou vermelhidão visíveis. O contato dos dedos não comprova alergia nem doença da pele e não é uma recomendação para coçar."
+    },
+    "pain": {
+      "sourceWord": "pain",
+      "senses": {
+        "pain:meaning-1": {
+          "gloss": "dor",
+          "definition": "Uma sensação corporal desagradável que pode ser descrita como aguda, surda, em queimação ou dolorida de modo contínuo."
+        }
+      },
+      "examples": [
+        {
+          "en": "He reports pain in his forearm and supports it with his other hand.",
+          "translation": "Ele relata dor no antebraço e o apoia com a outra mão."
+        },
+        {
+          "en": "She describes where it hurts and whether the feeling is sharp or dull.",
+          "translation": "Ela descreve onde dói e se a sensação é aguda ou surda."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "sharp pain",
+          "translation": "a dor aguda"
+        },
+        {
+          "en": "dull pain",
+          "translation": "a dor surda"
+        },
+        {
+          "en": "pain intensity",
+          "translation": "a intensidade da dor"
+        }
+      ],
+      "tip": "Pain aqui é dor corporal, não sofrimento emocional. Ache costuma expressar uma dor mais surda ou persistente; nem toda dor é ache. O antebraço é apenas um exemplo; a marca colorida não comprova fratura, lesão tecidual nem intensidade."
+    },
+    "tremor": {
+      "sourceWord": "tremor",
+      "senses": {
+        "tremor:meaning-1": {
+          "gloss": "tremor",
+          "definition": "Um movimento de sacudida rítmico e involuntário de uma parte do corpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The tremor makes the supported hand move back and forth.",
+          "translation": "O tremor faz a mão apoiada se mover para a frente e para trás."
+        },
+        {
+          "en": "The repeated outlines represent different positions of the same hand.",
+          "translation": "Os contornos repetidos representam posições diferentes da mesma mão."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a hand tremor",
+          "translation": "um tremor nas mãos"
+        },
+        {
+          "en": "a rhythmic tremor",
+          "translation": "um tremor rítmico"
+        },
+        {
+          "en": "an involuntary tremor",
+          "translation": "um tremor involuntário"
+        }
+      ],
+      "tip": "Tremor aqui é o movimento involuntário do corpo, não um abalo sísmico nem a vibração de uma máquina. A imagem exemplifica a mão; contornos claros representam movimento no tempo, não dedos extras. Esse sinal sozinho não comprova Parkinson’s disease nem outro transtorno."
+    },
+    "stiffness": {
+      "sourceWord": "stiffness",
+      "senses": {
+        "stiffness:meaning-1": {
+          "gloss": "rigidez",
+          "definition": "Uma sensação de menor facilidade de movimento em uma articulação ou região do corpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "She reports stiffness when trying to turn her neck.",
+          "translation": "Ela relata rigidez ao tentar virar o pescoço."
+        },
+        {
+          "en": "The small movement cue illustrates limited turning, not a measured joint angle.",
+          "translation": "A pequena indicação de movimento ilustra rotação limitada, não um ângulo articular medido."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "neck stiffness",
+          "translation": "a rigidez no pescoço"
+        },
+        {
+          "en": "joint stiffness",
+          "translation": "a rigidez articular"
+        },
+        {
+          "en": "a feeling of stiffness",
+          "translation": "uma sensação de rigidez"
+        }
+      ],
+      "tip": "Stiffness aqui é dificuldade de movimento corporal, não rigidez de um material em engenharia nem pele seca. Não é igual a fraqueza ou paralisia. O exemplo do pescoço não determina causa, artrite nem resultado de avaliação de amplitude; a imagem não é um exercício."
+    },
+    "shortness-of-breath": {
+      "sourceWord": "shortness of breath",
+      "senses": {
+        "shortness-of-breath:meaning-1": {
+          "gloss": "falta de ar",
+          "definition": "Uma sensação subjetiva de que respirar é difícil, desconfortável ou exige esforço incomum."
+        }
+      },
+      "examples": [
+        {
+          "en": "The patient describes shortness of breath while sitting.",
+          "translation": "A paciente descreve falta de ar enquanto está sentada."
+        },
+        {
+          "en": "She says breathing feels unusually effortful, rather than simply feeling sleepy.",
+          "translation": "Ela diz que respirar exige um esforço incomum, em vez de apenas sentir sono."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "to experience shortness of breath",
+          "translation": "sentir falta de ar"
+        },
+        {
+          "en": "shortness of breath at rest",
+          "translation": "a falta de ar em repouso"
+        },
+        {
+          "en": "a feeling of breathlessness",
+          "translation": "uma sensação de falta de ar"
+        }
+      ],
+      "tip": "Shortness of breath é uma sensação respiratória; breathlessness também é usado. Não é igual a cansaço geral, sonolência nem um valor de oxigênio. A imagem apenas ilustra uma experiência relatada; não comprova causa pulmonar, cardíaca ou ansiosa nem intensidade e não orienta avaliação ou tratamento."
+    },
+    "actuator": {
+      "sourceWord": "actuator",
+      "senses": {
+        "actuator:meaning-1": {
+          "gloss": "atuador",
+          "definition": "Um dispositivo que usa energia fornecida para produzir movimento mecânico controlado em uma máquina ou sistema."
+        }
+      },
+      "examples": [
+        {
+          "en": "The actuator extends its rod in a straight line.",
+          "translation": "O atuador estende sua haste em linha reta."
+        },
+        {
+          "en": "In this electric example, a motor turns a screw that moves the rod.",
+          "translation": "Neste exemplo elétrico, um motor gira um fuso que movimenta a haste."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a linear actuator",
+          "translation": "um atuador linear"
+        },
+        {
+          "en": "an electric actuator",
+          "translation": "um atuador elétrico"
+        },
+        {
+          "en": "actuator movement",
+          "translation": "o movimento do atuador"
+        }
+      ],
+      "tip": "Actuator produz movimento; sensor detecta uma condição. A imagem mostra um atuador linear elétrico por fuso; nem todo atuador é elétrico ou linear, e também existem tipos pneumáticos, hidráulicos e rotativos. A imagem não especifica força permitida, curso nem instalação."
+    },
+    "encoder": {
+      "sourceWord": "encoder",
+      "senses": {
+        "encoder:meaning-1": {
+          "gloss": "encoder; codificador de posição",
+          "definition": "Um dispositivo sensor que converte posição ou movimento mecânico em sinal elétrico."
+        }
+      },
+      "examples": [
+        {
+          "en": "The encoder produces pulses as slots in its rotating disc pass the optical detector.",
+          "translation": "O encoder produz pulsos quando as fendas de seu disco giratório passam pelo detector óptico."
+        },
+        {
+          "en": "A controller can use these pulses to track changes in shaft position.",
+          "translation": "Um controlador pode usar esses pulsos para acompanhar mudanças na posição do eixo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a rotary encoder",
+          "translation": "um encoder rotativo"
+        },
+        {
+          "en": "encoder feedback",
+          "translation": "a realimentação do encoder"
+        },
+        {
+          "en": "encoder pulses",
+          "translation": "os pulsos do encoder"
+        }
+      ],
+      "tip": "Encoder aqui é o sensor de movimento, não uma ferramenta de codificação de texto ou vídeo. A imagem mostra um encoder óptico rotativo incremental; também existem tipos absolutos e outras tecnologias. A quantidade de pulsos ilustrada não especifica resolução, ângulo real, direção nem pinagem de um aparelho."
+    },
+    "limit-switch": {
+      "sourceWord": "limit switch",
+      "senses": {
+        "limit-switch:meaning-1": {
+          "gloss": "chave fim de curso",
+          "definition": "Uma chave acionada mecanicamente que muda seu estado elétrico quando uma peça em movimento toca fisicamente seu mecanismo de acionamento."
+        }
+      },
+      "examples": [
+        {
+          "en": "The limit switch is operated when the moving block presses its roller lever.",
+          "translation": "A chave fim de curso é acionada quando o bloco móvel pressiona sua alavanca com rolete."
+        },
+        {
+          "en": "The switch can signal that a machine part has reached a chosen position.",
+          "translation": "A chave pode sinalizar que uma peça da máquina chegou a uma posição escolhida."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a roller-lever limit switch",
+          "translation": "uma chave fim de curso com alavanca e rolete"
+        },
+        {
+          "en": "a limit switch contact",
+          "translation": "um contato da chave fim de curso"
+        },
+        {
+          "en": "limit switch operation",
+          "translation": "o acionamento da chave fim de curso"
+        }
+      ],
+      "tip": "Limit switch neste verbete atua por contato físico; proximity sensor detecta sem contato. A imagem é apenas um exemplo com alavanca e rolete; outras chaves fim de curso têm mecanismos diferentes. O exemplo não é um circuito de proteção certificado, uma parada garantida nem uma instrução de ajuste."
+    },
+    "proximity-sensor": {
+      "sourceWord": "proximity sensor",
+      "senses": {
+        "proximity-sensor:meaning-1": {
+          "gloss": "sensor de proximidade",
+          "definition": "Um sensor que detecta um objeto próximo sem tocá-lo fisicamente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The proximity sensor detects the metal target across a small gap.",
+          "translation": "O sensor de proximidade detecta o alvo metálico através de um pequeno espaço."
+        },
+        {
+          "en": "The selected inductive type responds to metal rather than to every material.",
+          "translation": "O tipo indutivo selecionado responde a metal, não a qualquer material."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an inductive proximity sensor",
+          "translation": "um sensor de proximidade indutivo"
+        },
+        {
+          "en": "a proximity sensor target",
+          "translation": "um alvo do sensor de proximidade"
+        },
+        {
+          "en": "proximity sensor detection",
+          "translation": "a detecção pelo sensor de proximidade"
+        }
+      ],
+      "tip": "Proximity sensor é uma família de sensores sem contato. O exemplo cilíndrico é indutivo e tem um alvo metálico; isso não significa detectar todos os materiais. Tipos capacitivos e outras tecnologias têm propriedades diferentes. A distância e o halo são conceituais, não alcance garantido nem um feixe de luz real."
+    },
+    "photoelectric-sensor": {
+      "sourceWord": "photoelectric sensor",
+      "senses": {
+        "photoelectric-sensor:meaning-1": {
+          "gloss": "sensor fotoelétrico",
+          "definition": "Um sensor que detecta um objeto ou mudança ao perceber luz interrompida ou refletida."
+        }
+      },
+      "examples": [
+        {
+          "en": "The photoelectric sensor detects the block when it interrupts the light path.",
+          "translation": "O sensor fotoelétrico detecta o bloco quando ele interrompe o caminho da luz."
+        },
+        {
+          "en": "In this through-beam example, the emitter and receiver face each other.",
+          "translation": "Neste exemplo de barreira, o emissor e o receptor ficam frente a frente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a through-beam photoelectric sensor",
+          "translation": "um sensor fotoelétrico de barreira"
+        },
+        {
+          "en": "a photoelectric sensor emitter",
+          "translation": "um emissor de sensor fotoelétrico"
+        },
+        {
+          "en": "a photoelectric sensor receiver",
+          "translation": "um receptor de sensor fotoelétrico"
+        }
+      ],
+      "tip": "Photoelectric sensor usa luz, não ultrassom nem apenas calor. A imagem mostra um exemplo de barreira com emissor e receptor separados; também existem tipos reflexivos. A cor âmbar do feixe é uma indicação didática; a luz pode ser invisível e a imagem não especifica alcance nem função de proteção."
+    },
+    "servomotor": {
+      "sourceWord": "servomotor",
+      "senses": {
+        "servomotor:meaning-1": {
+          "gloss": "servomotor",
+          "definition": "Um motor usado com controle por realimentação para regular sua posição, velocidade ou outra variável de movimento."
+        }
+      },
+      "examples": [
+        {
+          "en": "The servomotor sends shaft-position feedback to its controller through an encoder.",
+          "translation": "O servomotor envia a realimentação da posição do eixo ao controlador por meio de um encoder."
+        },
+        {
+          "en": "The controller compares measured motion with the command and adjusts the drive.",
+          "translation": "O controlador compara o movimento medido com o comando e ajusta o acionamento."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a servomotor drive",
+          "translation": "um acionamento de servomotor"
+        },
+        {
+          "en": "servomotor feedback",
+          "translation": "a realimentação do servomotor"
+        },
+        {
+          "en": "servomotor position control",
+          "translation": "o controle de posição do servomotor"
+        }
+      ],
+      "tip": "Servomotor não pode ser identificado apenas pela aparência; importa a relação entre motor, sensor e controlador. A imagem mostra um exemplo industrial com realimentação por encoder, não afirma que todos os servos tenham três fios ou a mesma forma. A malha conceitual não garante precisão ilimitada nem é um diagrama de ligação."
+    },
+    "stepper-motor": {
+      "sourceWord": "stepper motor",
+      "senses": {
+        "stepper-motor:meaning-1": {
+          "gloss": "motor de passo",
+          "definition": "Um motor elétrico projetado para girar em uma sequência de passos angulares discretos em resposta a pulsos de controle."
+        }
+      },
+      "examples": [
+        {
+          "en": "The stepper motor turns its shaft through a series of separate steps.",
+          "translation": "O motor de passo gira seu eixo em uma série de passos separados."
+        },
+        {
+          "en": "The controller sends pulses to command the movement.",
+          "translation": "O controlador envia pulsos para comandar o movimento."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a stepper motor driver",
+          "translation": "um driver de motor de passo"
+        },
+        {
+          "en": "stepper motor steps",
+          "translation": "os passos do motor de passo"
+        },
+        {
+          "en": "a stepper motor shaft",
+          "translation": "um eixo de motor de passo"
+        }
+      ],
+      "tip": "Stepper motor tem movimento angular discreto; as posições igualmente espaçadas são apenas uma indicação conceitual, sem um ângulo especificado. Passos e micropassos dependem do projeto e do acionamento. Muitos sistemas trabalham sem sensor de posição, mas também há versões em malha fechada, e cada pulso não garante um movimento bem-sucedido."
+    },
+    "programmable-logic-controller": {
+      "sourceWord": "programmable logic controller",
+      "senses": {
+        "programmable-logic-controller:meaning-1": {
+          "gloss": "controlador lógico programável; CLP",
+          "definition": "Um controlador eletrônico industrial que lê entradas, executa um programa de controle armazenado e atualiza saídas para controlar máquinas ou processos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The programmable logic controller reads sensor inputs and updates its outputs according to the program.",
+          "translation": "O controlador lógico programável lê entradas de sensores e atualiza suas saídas conforme o programa."
+        },
+        {
+          "en": "Its input and output modules connect the controller to field devices.",
+          "translation": "Seus módulos de entrada e saída conectam o controlador aos dispositivos de campo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a programmable logic controller program",
+          "translation": "um programa de controlador lógico programável"
+        },
+        {
+          "en": "programmable logic controller inputs",
+          "translation": "as entradas do controlador lógico programável"
+        },
+        {
+          "en": "programmable logic controller outputs",
+          "translation": "as saídas do controlador lógico programável"
+        }
+      ],
+      "tip": "Programmable logic controller costuma ser abreviado PLC; em português, CLP. Este verbete é o controlador industrial, não um chip microcontrolador isolado nem um computador pessoal. Os blocos IN, Logic e OUT são conceituais; não são pinagem, programa real nem aprovação para uma aplicação de segurança."
+    },
+    "control-panel": {
+      "sourceWord": "control panel",
+      "senses": {
+        "control-panel:meaning-1": {
+          "gloss": "painel de controle",
+          "definition": "Um conjunto físico de controles e indicadores usado para operar ou monitorar uma máquina ou processo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The control panel has pushbuttons, selector switches and indicator lights.",
+          "translation": "O painel de controle tem botões, chaves seletoras e luzes indicadoras."
+        },
+        {
+          "en": "The operator can view the machine status at the panel.",
+          "translation": "O operador pode consultar o estado da máquina no painel."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a machine control panel",
+          "translation": "um painel de controle de máquina"
+        },
+        {
+          "en": "control panel indicators",
+          "translation": "os indicadores do painel de controle"
+        },
+        {
+          "en": "control panel buttons",
+          "translation": "os botões do painel de controle"
+        }
+      ],
+      "tip": "Control panel aqui é o conjunto físico de controles da máquina, não uma tela de configurações de software. O arranjo é um exemplo sem marca; cores e posições dos botões não determinam sua função real sem a documentação do equipamento. Não há fiação exposta nem procedimento de partida."
+    },
+    "feedback": {
+      "sourceWord": "feedback",
+      "senses": {
+        "feedback:meaning-1": {
+          "gloss": "realimentação",
+          "definition": "Informação sobre a saída de um sistema que retorna a um controlador e é usada para ajustar o sistema."
+        }
+      },
+      "examples": [
+        {
+          "en": "The feedback returns the measured output to the controller for comparison with the target.",
+          "translation": "A realimentação devolve a saída medida ao controlador para comparação com a referência."
+        },
+        {
+          "en": "The controller uses the difference to adjust the actuator command.",
+          "translation": "O controlador usa a diferença para ajustar o comando do atuador."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a feedback loop",
+          "translation": "uma malha de realimentação"
+        },
+        {
+          "en": "a feedback signal",
+          "translation": "um sinal de realimentação"
+        },
+        {
+          "en": "closed-loop feedback",
+          "translation": "a realimentação em malha fechada"
+        }
+      ],
+      "tip": "Feedback aqui é a realimentação da engenharia de controle, não uma opinião pessoal sobre um trabalho. No exemplo em malha fechada, um sensor mede a saída e a informação volta à comparação. Realimentação por si só não garante estabilidade, eliminação completa do erro nem resposta instantânea; as setas representam informação, não fiação. O exemplo usa realimentação negativa; nem toda realimentação é negativa."
+    },
+    "setpoint": {
+      "sourceWord": "setpoint",
+      "senses": {
+        "setpoint:meaning-1": {
+          "gloss": "referência; valor de ajuste",
+          "definition": "O valor de referência desejado de uma variável que um sistema de controle procura manter ou atingir."
+        }
+      },
+      "examples": [
+        {
+          "en": "The setpoint is the target against which the measured response is compared.",
+          "translation": "A referência é o alvo com o qual a resposta medida é comparada."
+        },
+        {
+          "en": "The actual process value may differ from the reference.",
+          "translation": "O valor real do processo pode diferir da referência."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a control setpoint",
+          "translation": "uma referência de controle"
+        },
+        {
+          "en": "a temperature setpoint",
+          "translation": "uma referência de temperatura"
+        },
+        {
+          "en": "setpoint tracking",
+          "translation": "o seguimento da referência"
+        }
+      ],
+      "tip": "Setpoint é o valor desejado ou de referência, não a própria medição. A linha-alvo e a curva de resposta são uma comparação qualitativa; não especificam unidade, ajuste recomendado, tempo para atingir o alvo nem desempenho garantido. Também se escreve set point."
+    },
+    "emergency-stop": {
+      "sourceWord": "emergency stop",
+      "senses": {
+        "emergency-stop:meaning-1": {
+          "gloss": "parada de emergência; comando de parada de emergência",
+          "definition": "Um comando de máquina destinado a iniciar uma função de parada de emergência quando um perigo urgente a exige."
+        }
+      },
+      "examples": [
+        {
+          "en": "The emergency stop shown has a red mushroom-shaped button on a yellow background.",
+          "translation": "A parada de emergência mostrada tem um botão vermelho em forma de cogumelo sobre fundo amarelo."
+        },
+        {
+          "en": "This control is distinct from the machine's normal stop button.",
+          "translation": "Esse comando é diferente do botão de parada normal da máquina."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an emergency stop button",
+          "translation": "um botão de parada de emergência"
+        },
+        {
+          "en": "an emergency stop control",
+          "translation": "um comando de parada de emergência"
+        },
+        {
+          "en": "an emergency stop function",
+          "translation": "uma função de parada de emergência"
+        }
+      ],
+      "tip": "Emergency stop neste verbete é o comando de parada de emergência da máquina; a imagem mostra o tipo com botão cogumelo. Não é um dispositivo de isolamento de energia nem um bloqueio para manutenção e não desliga necessariamente todas as fontes de energia. A aparência vermelha e amarela não é certificação de segurança, aprovação do circuito nem instrução de uso de um equipamento real."
     }
   }
 }

@@ -2612,7 +2612,127 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 194,
+      "targetCategoryWords": 206,
+      "entryIds": [
+        "cough",
+        "sneeze",
+        "fever",
+        "headache",
+        "dizziness",
+        "nausea",
+        "fatigue",
+        "itch",
+        "pain",
+        "tremor",
+        "stiffness",
+        "shortness-of-breath"
+      ],
+      "units": [
+        {
+          "id": "airway-and-temperature-symptoms",
+          "title": "Cough, sneeze, fever and breathing symptoms",
+          "entryIds": [
+            "cough",
+            "sneeze",
+            "fever",
+            "shortness-of-breath"
+          ]
+        },
+        {
+          "id": "subjective-symptoms",
+          "title": "Headache, dizziness, nausea, fatigue and pain",
+          "entryIds": [
+            "headache",
+            "dizziness",
+            "nausea",
+            "fatigue",
+            "pain"
+          ]
+        },
+        {
+          "id": "skin-and-movement-symptoms",
+          "title": "Itch, tremor and stiffness",
+          "entryIds": [
+            "itch",
+            "tremor",
+            "stiffness"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-14",
+      "releaseId": "2026-10-preview-19",
+      "status": "published-preview",
+      "objective": "Describe common clinical symptoms and industrial sensing, actuation and control in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 194,
+      "targetCategoryWords": 206,
+      "entryIds": [
+        "actuator",
+        "encoder",
+        "limit-switch",
+        "proximity-sensor",
+        "photoelectric-sensor",
+        "servomotor",
+        "stepper-motor",
+        "programmable-logic-controller",
+        "control-panel",
+        "feedback",
+        "setpoint",
+        "emergency-stop"
+      ],
+      "units": [
+        {
+          "id": "industrial-sensing-actuation",
+          "title": "Sensing, discrete and controlled movement",
+          "entryIds": [
+            "actuator",
+            "encoder",
+            "limit-switch",
+            "proximity-sensor",
+            "photoelectric-sensor",
+            "servomotor",
+            "stepper-motor"
+          ]
+        },
+        {
+          "id": "control-automation",
+          "title": "Programmable control, reference and feedback",
+          "entryIds": [
+            "programmable-logic-controller",
+            "control-panel",
+            "feedback",
+            "setpoint"
+          ]
+        },
+        {
+          "id": "emergency-machine-control",
+          "title": "Emergency stop control vocabulary",
+          "entryIds": [
+            "emergency-stop"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-14",
+      "releaseId": "2026-10-preview-19",
+      "status": "published-preview",
+      "objective": "Describe common clinical symptoms and industrial sensing, actuation and control in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-13"
+  "activePassId": "specialist-500-batch-14"
 }
