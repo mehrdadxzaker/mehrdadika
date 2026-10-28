@@ -2264,7 +2264,121 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 158,
+      "targetCategoryWords": 170,
+      "entryIds": [
+        "orthosis",
+        "sling",
+        "walking-boot",
+        "compression-stocking",
+        "ankle-brace",
+        "knee-brace",
+        "wrist-brace",
+        "cervical-collar",
+        "exercise-band",
+        "balance-board",
+        "parallel-bars",
+        "goniometer"
+      ],
+      "units": [
+        {
+          "id": "orthotic-supports",
+          "title": "Orthoses and body supports",
+          "entryIds": [
+            "orthosis",
+            "sling",
+            "walking-boot",
+            "compression-stocking",
+            "ankle-brace",
+            "knee-brace",
+            "wrist-brace",
+            "cervical-collar"
+          ]
+        },
+        {
+          "id": "rehabilitation-equipment",
+          "title": "Rehabilitation equipment and joint-angle measurement",
+          "entryIds": [
+            "exercise-band",
+            "balance-board",
+            "parallel-bars",
+            "goniometer"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-11",
+      "releaseId": "2026-10-preview-16",
+      "status": "published-preview",
+      "objective": "Describe orthotic supports, rehabilitation equipment, heat-transfer equipment and temperature-sensing components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 158,
+      "targetCategoryWords": 170,
+      "entryIds": [
+        "radiator",
+        "boiler",
+        "furnace",
+        "fan",
+        "blower",
+        "thermostat",
+        "thermocouple",
+        "thermistor",
+        "bimetallic-strip",
+        "insulation",
+        "expansion-joint",
+        "cooling-tower"
+      ],
+      "units": [
+        {
+          "id": "thermal-air-equipment",
+          "title": "Heat and air-moving equipment",
+          "entryIds": [
+            "radiator",
+            "boiler",
+            "furnace",
+            "fan",
+            "blower"
+          ]
+        },
+        {
+          "id": "thermal-sensing-materials",
+          "title": "Temperature sensing, insulation and thermal movement",
+          "entryIds": [
+            "thermostat",
+            "thermocouple",
+            "thermistor",
+            "bimetallic-strip",
+            "insulation",
+            "expansion-joint"
+          ]
+        },
+        {
+          "id": "heat-rejection",
+          "title": "Cooling-tower heat rejection",
+          "entryIds": [
+            "cooling-tower"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-11",
+      "releaseId": "2026-10-preview-16",
+      "status": "published-preview",
+      "objective": "Describe orthotic supports, rehabilitation equipment, heat-transfer equipment and temperature-sensing components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-10"
+  "activePassId": "specialist-500-batch-11"
 }

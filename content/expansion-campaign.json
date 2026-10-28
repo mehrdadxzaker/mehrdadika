@@ -1420,6 +1420,126 @@
         "mechanism"
       ],
       "completedAt": "2026-10-28T01:06:37.514766+00:00"
+    },
+    {
+      "id": "specialist-500-batch-11",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-16",
+      "baseline": {
+        "releaseId": "2026-10-preview-15",
+        "manifest": "content/releases/2026-10-preview-15-5798ce6d2d39/manifest.json",
+        "manifestSha256": "5798ce6d2d39d833e89986b1015be52fa3ed4f23154612fc31a55f9785fe7ef8",
+        "words": 474
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 158,
+          "targetCategoryWords": 170,
+          "entryIds": [
+            "orthosis",
+            "sling",
+            "walking-boot",
+            "compression-stocking",
+            "ankle-brace",
+            "knee-brace",
+            "wrist-brace",
+            "cervical-collar",
+            "exercise-band",
+            "balance-board",
+            "parallel-bars",
+            "goniometer"
+          ],
+          "units": [
+            {
+              "id": "orthotic-supports",
+              "title": "Orthoses and body supports",
+              "entryIds": [
+                "orthosis",
+                "sling",
+                "walking-boot",
+                "compression-stocking",
+                "ankle-brace",
+                "knee-brace",
+                "wrist-brace",
+                "cervical-collar"
+              ]
+            },
+            {
+              "id": "rehabilitation-equipment",
+              "title": "Rehabilitation equipment and joint-angle measurement",
+              "entryIds": [
+                "exercise-band",
+                "balance-board",
+                "parallel-bars",
+                "goniometer"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 158,
+          "targetCategoryWords": 170,
+          "entryIds": [
+            "radiator",
+            "boiler",
+            "furnace",
+            "fan",
+            "blower",
+            "thermostat",
+            "thermocouple",
+            "thermistor",
+            "bimetallic-strip",
+            "insulation",
+            "expansion-joint",
+            "cooling-tower"
+          ],
+          "units": [
+            {
+              "id": "thermal-air-equipment",
+              "title": "Heat and air-moving equipment",
+              "entryIds": [
+                "radiator",
+                "boiler",
+                "furnace",
+                "fan",
+                "blower"
+              ]
+            },
+            {
+              "id": "thermal-sensing-materials",
+              "title": "Temperature sensing, insulation and thermal movement",
+              "entryIds": [
+                "thermostat",
+                "thermocouple",
+                "thermistor",
+                "bimetallic-strip",
+                "insulation",
+                "expansion-joint"
+              ]
+            },
+            {
+              "id": "heat-rejection",
+              "title": "Cooling-tower heat rejection",
+              "entryIds": [
+                "cooling-tower"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [
+        "measure",
+        "valve"
+      ],
+      "completedAt": "2026-10-28T03:38:26.429486+00:00"
     }
   ],
   "activeWorkBatchId": null,

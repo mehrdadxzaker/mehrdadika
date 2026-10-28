@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-15",
+  "releaseId": "2026-10-preview-16",
   "channel": "preview",
-  "createdAt": "2026-10-28T01:06:37.514766+00:00",
+  "createdAt": "2026-10-28T03:38:26.429486+00:00",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -3516,7 +3516,7 @@
       "ant": [],
       "tip": "measure در این کارت فعل اندازه‌گیری است؛ a measure در کاربردی دیگر می‌تواند به معنی یک اقدام باشد.",
       "media": {
-        "img": "atlas/img/measure-v2.webp",
+        "img": "atlas/img/measure-v3.webp",
         "uk": "atlas/audio/uk/measure.mp3",
         "us": "atlas/audio/us/measure.mp3"
       },
@@ -4719,7 +4719,7 @@
       "ant": [],
       "tip": "valve در این کارت وسیلهٔ کنترل جریان است؛ در بافت پزشکی این واژه می‌تواند به دریچهٔ بدن اشاره کند.",
       "media": {
-        "img": "atlas/img/valve.svg"
+        "img": "atlas/img/valve-v2.webp"
       },
       "provenance": {
         "license": "CC-BY-4.0",
@@ -29353,6 +29353,1528 @@
           {
             "url": "https://www.festo.com/us/en/c/products/actuators-and-drives-id_pim5",
             "use": "Checked air-powered actuator category and linear/rotary distinction; linear piston-rod example explicitly selected, no circuit or setup instructions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "orthosis",
+      "w": "orthosis",
+      "uk": "/ɔːˈθəʊsɪs/",
+      "us": "/ɔːrˈθoʊsɪs/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "orthosis:meaning-1",
+          "pos": "n.",
+          "fa": "اُرتوز؛ وسیلهٔ حمایت‌کنندهٔ بیرونیِ بدن",
+          "en": "An external device that supports, aligns or assists an existing part of the body.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The orthosis has a calf shell joined to a footplate.",
+          "fa": "اُرتوز پوسته‌ای برای ساق دارد که به صفحهٔ زیرِ پا متصل است.",
+          "senseId": "orthosis:meaning-1"
+        },
+        {
+          "en": "An orthosis can support a body part without replacing it.",
+          "fa": "اُرتوز می‌تواند بخشی از بدن را بدونِ جایگزین‌کردنِ آن حمایت کند.",
+          "senseId": "orthosis:meaning-1"
+        }
+      ],
+      "col": [
+        "an ankle-foot orthosis｜اُرتوزِ مچ و کفِ پا",
+        "a custom-made orthosis｜اُرتوزِ سفارشی",
+        "an orthosis fitting｜برازشِ اُرتوز"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "orthosis وسیلهٔ حمایت از بخشِ موجودِ بدن است؛ prosthesis جایگزینِ بخشِ از‌دست‌رفته می‌شود. جمعِ orthosis، orthoses است. تصویر نمونهٔ مچ و کفِ پا را نشان می‌دهد؛ اُرتوز فقط مخصوصِ پا نیست.",
+      "media": {
+        "img": "atlas/img/orthosis.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.ottobockcare.us/en-us/services/orthotics",
+            "use": "Primary fact reference checked by root reviewer and supplied for authoring; original definitions, examples, translations and artwork. No source text, figures, patient advice, fitting or exercise instructions reproduced. Independent human/specialist review pending."
+          },
+          {
+            "url": "https://www.ottobockcare.us/en-us/services/orthotics",
+            "use": "Checked external support/alignment role; original generic ankle-foot shell morphology, no fitting or patient-specific guidance."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sling",
+      "w": "sling",
+      "uk": "/slɪŋ/",
+      "us": "/slɪŋ/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "sling:meaning-1",
+          "pos": "n.",
+          "fa": "آویزِ دست؛ وسیلهٔ نگهدارندهٔ ساعد",
+          "en": "A fabric support that holds the forearm against the front of the body.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The sling supports the forearm in a fabric pouch.",
+          "fa": "آویزِ دست ساعد را در محفظه‌ای پارچه‌ای نگه می‌دارد.",
+          "senseId": "sling:meaning-1"
+        },
+        {
+          "en": "The sling has a strap that passes over the opposite shoulder.",
+          "fa": "آویزِ دست بندی دارد که از روی شانهٔ مقابل می‌گذرد.",
+          "senseId": "sling:meaning-1"
+        }
+      ],
+      "col": [
+        "an arm sling｜آویزِ دست",
+        "a sling strap｜بندِ آویزِ دست",
+        "a fabric sling｜آویزِ پارچه‌ایِ دست"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "sling در اینجا آویزِ حمایتیِ دست است، نه بندِ حملِ بار یا فلاخن. ساعد در محفظهٔ پارچه‌ای قرار دارد؛ این وسیله با گچِ دورِ دست یکسان نیست.",
+      "media": {
+        "img": "atlas/img/sling.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "walking-boot",
+      "w": "walking boot",
+      "uk": "/ˈwɔːkɪŋ buːt/",
+      "us": "/ˈwɔːkɪŋ buːt/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "walking-boot:meaning-1",
+          "pos": "n.",
+          "fa": "بوتِ پزشکیِ حمایتیِ پا و مچ",
+          "en": "A removable medical boot with a rigid base and supports around the foot and ankle.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The walking boot has a rigid sole and padded lower-leg supports.",
+          "fa": "بوتِ پزشکی کفیِ سخت و تکیه‌گاه‌های بالشتک‌دار برای بخشِ پایینیِ ساق دارد.",
+          "senseId": "walking-boot:meaning-1"
+        },
+        {
+          "en": "Broad straps hold the walking boot around its padded liner.",
+          "fa": "بندهای پهن، بوتِ پزشکی را دورِ آسترِ بالشتک‌دارِ آن نگه می‌دارند.",
+          "senseId": "walking-boot:meaning-1"
+        }
+      ],
+      "col": [
+        "a medical walking boot｜بوتِ پزشکیِ حمایتی",
+        "a walking boot liner｜آسترِ بوتِ پزشکی",
+        "a walking boot strap｜بندِ بوتِ پزشکی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "walking boot در این معنی بوتِ پزشکی است، نه کفشِ کوه‌پیمایی. walker boot و CAM boot نیز برای برخی مدل‌ها به کار می‌روند. شکلِ تصویر به‌تنهایی میزانِ مجازِ تحملِ وزن را مشخص نمی‌کند.",
+      "media": {
+        "img": "atlas/img/walking-boot.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.cuh.nhs.uk/patient-information/walker-boot-patient-care-leaflet/",
+            "use": "Primary clinical reference checked for basic support structure and named device; original definitions, examples, translations and artwork. No source text, figures, patient advice, fitting or exercise instructions reproduced. Independent human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "compression-stocking",
+      "w": "compression stocking",
+      "uk": "/kəmˈpreʃən ˌstɒkɪŋ/",
+      "us": "/kəmˈpreʃən ˌstɑːkɪŋ/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "compression-stocking:meaning-1",
+          "pos": "n.",
+          "fa": "جورابِ فشاریِ پزشکی",
+          "en": "An elastic medical leg garment designed to apply pressure to the leg.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The compression stocking follows the shape of the calf, ankle and foot.",
+          "fa": "جورابِ فشاری شکلِ ساق، مچ و کفِ پا را دنبال می‌کند.",
+          "senseId": "compression-stocking:meaning-1"
+        },
+        {
+          "en": "The illustration shows a knee-high compression stocking.",
+          "fa": "تصویر جورابِ فشاریِ زیرِ زانو را نشان می‌دهد.",
+          "senseId": "compression-stocking:meaning-1"
+        }
+      ],
+      "col": [
+        "a graduated compression stocking｜جورابِ فشاری با فشارِ تدریجی",
+        "a knee-high compression stocking｜جورابِ فشاریِ زیرِ زانو",
+        "compression stocking fabric｜پارچهٔ جورابِ فشاری"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "compression stocking لباسِ پزشکیِ کشسان است، نه هر جورابِ تنگ. در نوعِ graduated فشار در مچ بیشتر است و به سمتِ بالا کاهش می‌یابد. پیکان‌های تصویر فقط مفهومِ فشار را نشان می‌دهند، نه اندازه، درجهٔ فشار یا روشِ پوشیدن.",
+      "media": {
+        "img": "atlas/img/compression-stocking.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.cuh.nhs.uk/patient-information/anti-embolic-stockings-aes/",
+            "use": "Primary clinical reference checked for basic support structure and named device; original definitions, examples, translations and artwork. No source text, figures, patient advice, fitting or exercise instructions reproduced. Independent human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ankle-brace",
+      "w": "ankle brace",
+      "uk": "/ˈæŋkəl breɪs/",
+      "us": "/ˈæŋkəl breɪs/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "ankle-brace:meaning-1",
+          "pos": "n.",
+          "fa": "مچ‌بندِ حمایتیِ پا",
+          "en": "An external support worn around the ankle joint to support it or limit selected movements.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The ankle brace sits around the joint between the leg and foot.",
+          "fa": "مچ‌بندِ حمایتیِ پا دورِ مفصلِ میانِ ساق و پا قرار می‌گیرد.",
+          "senseId": "ankle-brace:meaning-1"
+        },
+        {
+          "en": "The ankle brace leaves the toes uncovered in the illustration.",
+          "fa": "مچ‌بندِ پا در تصویر انگشتانِ پا را باز می‌گذارد.",
+          "senseId": "ankle-brace:meaning-1"
+        }
+      ],
+      "col": [
+        "an ankle brace strap｜بندِ مچ‌بندِ پا",
+        "a wraparound ankle brace｜مچ‌بندِ دورپیچِ پا",
+        "a rigid ankle brace｜مچ‌بندِ سختِ پا"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "ankle brace مچِ پا را حمایت می‌کند؛ wrist brace برای مچِ دست است. تصویر نمونهٔ دورپیچ را نشان می‌دهد. همهٔ مچ‌بندها کفیِ سختِ بوتِ پزشکی ندارند و میزانِ محدودکردنِ حرکت به مدل وابسته است.",
+      "media": {
+        "img": "atlas/img/ankle-brace.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.gloshospitals.nhs.uk/our-services/services-we-offer/trauma-orthopaedics/plaster-room/splints/",
+            "use": "Primary clinical reference checked for basic support structure and named device; original definitions, examples, translations and artwork. No source text, figures, patient advice, fitting or exercise instructions reproduced. Independent human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "knee-brace",
+      "w": "knee brace",
+      "uk": "/ˈniː breɪs/",
+      "us": "/ˈniː breɪs/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "knee-brace:meaning-1",
+          "pos": "n.",
+          "fa": "زانوبندِ حمایتی",
+          "en": "An external support fitted around the knee to support the joint or limit selected movements.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The illustrated knee brace has hinges at the sides of the knee.",
+          "fa": "زانوبندِ نشان‌داده‌شده در دو سوی زانو لولا دارد.",
+          "senseId": "knee-brace:meaning-1"
+        },
+        {
+          "en": "The knee brace has padded straps above and below the joint.",
+          "fa": "زانوبند بالا و پایینِ مفصل، بندهای بالشتک‌دار دارد.",
+          "senseId": "knee-brace:meaning-1"
+        }
+      ],
+      "col": [
+        "a hinged knee brace｜زانوبندِ لولادار",
+        "a knee brace hinge｜لولای زانوبند",
+        "a knee brace strap｜بندِ زانوبند"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "knee brace با زانوبندِ ضربه‌گیرِ ورزشی یکسان نیست. تصویر نوعِ لولادار را نشان می‌دهد؛ نمونه‌های نرم و بدونِ لولا هم وجود دارند. از تصویر نمی‌توان تنظیمِ مجازِ دامنهٔ حرکت را تعیین کرد.",
+      "media": {
+        "img": "atlas/img/knee-brace.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.gloshospitals.nhs.uk/our-services/services-we-offer/trauma-orthopaedics/plaster-room/splints/",
+            "use": "Primary clinical reference checked for basic support structure and named device; original definitions, examples, translations and artwork. No source text, figures, patient advice, fitting or exercise instructions reproduced. Independent human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "wrist-brace",
+      "w": "wrist brace",
+      "uk": "/ˈrɪst breɪs/",
+      "us": "/ˈrɪst breɪs/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "wrist-brace:meaning-1",
+          "pos": "n.",
+          "fa": "مچ‌بندِ حمایتیِ دست",
+          "en": "An external support that steadies the wrist or limits selected wrist movements.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The wrist brace leaves the fingers free.",
+          "fa": "مچ‌بندِ دست انگشتان را آزاد می‌گذارد.",
+          "senseId": "wrist-brace:meaning-1"
+        },
+        {
+          "en": "The wrist brace extends from the lower forearm towards the palm.",
+          "fa": "مچ‌بند از بخشِ پایینیِ ساعد به سوی کفِ دست امتداد دارد.",
+          "senseId": "wrist-brace:meaning-1"
+        }
+      ],
+      "col": [
+        "a wrist brace strap｜بندِ مچ‌بندِ دست",
+        "a splint-style wrist brace｜مچ‌بندِ آتل‌دارِ دست",
+        "an adjustable wrist brace｜مچ‌بندِ قابل‌تنظیمِ دست"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "wrist brace از مچِ دست حمایت می‌کند؛ ankle brace برای مچِ پاست. تصویر یک نمونهٔ آتل‌دار با انگشتانِ آزاد است. wrist splint اصطلاحی نزدیک است، اما شکل و سختیِ تکیه‌گاه‌ها در مدل‌های مختلف فرق دارد.",
+      "media": {
+        "img": "atlas/img/wrist-brace.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.southtees.nhs.uk/resources/wrist-brace-or-activity-splint/",
+            "use": "Primary clinical reference checked for basic support structure and named device; original definitions, examples, translations and artwork. No source text, figures, patient advice, fitting or exercise instructions reproduced. Independent human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cervical-collar",
+      "w": "cervical collar",
+      "uk": "/ˈsɜːvɪkəl ˌkɒlə/",
+      "us": "/ˈsɜːrvɪkəl ˌkɑːlər/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "cervical-collar:meaning-1",
+          "pos": "n.",
+          "fa": "گردن‌بندِ طبی؛ کولارِ گردنی",
+          "en": "A support around the neck that limits selected movement of the head and neck.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The cervical collar has a contoured area beneath the chin.",
+          "fa": "گردن‌بندِ طبی زیرِ چانه بخشی شکل‌داده‌شده دارد.",
+          "senseId": "cervical-collar:meaning-1"
+        },
+        {
+          "en": "The soft cervical collar is made of padded foam.",
+          "fa": "گردن‌بندِ طبیِ نرم از فومِ بالشتک‌دار ساخته شده است.",
+          "senseId": "cervical-collar:meaning-1"
+        }
+      ],
+      "col": [
+        "a soft cervical collar｜گردن‌بندِ طبیِ نرم",
+        "a rigid cervical collar｜گردن‌بندِ طبیِ سخت",
+        "a cervical collar strap｜بندِ گردن‌بندِ طبی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "cervical در این ترکیب به گردن مربوط است؛ collar یقهٔ لباس نیست. تصویر نمونهٔ نرمِ فومی را نشان می‌دهد؛ نوع‌های سخت هم وجود دارند و میزانِ حمایتِ آن‌ها یکسان نیست.",
+      "media": {
+        "img": "atlas/img/cervical-collar.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.guysandstthomas.nhs.uk/health-information/cervical-collar-neck-support",
+            "use": "Primary clinical reference checked for basic support structure and named device; original definitions, examples, translations and artwork. No source text, figures, patient advice, fitting or exercise instructions reproduced. Independent human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "exercise-band",
+      "w": "exercise band",
+      "uk": "/ˈeksəsaɪz bænd/",
+      "us": "/ˈeksərsaɪz bænd/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "exercise-band:meaning-1",
+          "pos": "n.",
+          "fa": "کشِ تمرین؛ نوارِ مقاومتیِ تمرین",
+          "en": "An elastic strip or loop that provides resistance when stretched during exercise or rehabilitation.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The exercise band provides resistance when stretched.",
+          "fa": "کشِ تمرین هنگامِ کشیده‌شدن مقاومت ایجاد می‌کند.",
+          "senseId": "exercise-band:meaning-1"
+        },
+        {
+          "en": "The illustration shows a flat exercise band with two free ends.",
+          "fa": "تصویر کشِ تمرینِ تختی با دو سرِ آزاد نشان می‌دهد.",
+          "senseId": "exercise-band:meaning-1"
+        }
+      ],
+      "col": [
+        "an elastic exercise band｜کشِ تمرینِ کشسان",
+        "a flat exercise band｜کشِ تمرینِ تخت",
+        "exercise band resistance｜مقاومتِ کشِ تمرین"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "exercise band یا resistance band وسیلهٔ مقاومتیِ کشسان است، نه بندِ حمل یا نوارِ چسب. تصویر یک نوارِ تخت است؛ مدل‌های حلقه‌ای و لوله‌ای هم وجود دارند. رنگ، معیارِ یکسانِ مقاومت در همهٔ برندها نیست.",
+      "media": {
+        "img": "atlas/img/exercise-band.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "balance-board",
+      "w": "balance board",
+      "uk": "/ˈbæləns bɔːd/",
+      "us": "/ˈbæləns bɔːrd/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "balance-board:meaning-1",
+          "pos": "n.",
+          "fa": "تختهٔ تعادل",
+          "en": "A platform with an unstable support underneath, used for balance practice.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The balance board has a rounded support under its platform.",
+          "fa": "تختهٔ تعادل زیرِ صفحهٔ خود تکیه‌گاهی گرد دارد.",
+          "senseId": "balance-board:meaning-1"
+        },
+        {
+          "en": "The balance board can tilt in different directions.",
+          "fa": "تختهٔ تعادل می‌تواند در جهت‌های مختلف کج شود.",
+          "senseId": "balance-board:meaning-1"
+        }
+      ],
+      "col": [
+        "a balance board platform｜صفحهٔ تختهٔ تعادل",
+        "a wobble balance board｜تختهٔ تعادلِ لق‌زن",
+        "a balance board surface｜سطحِ تختهٔ تعادل"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "balance board در اینجا وسیلهٔ تمرینِ تعادل است، نه اسکیت‌بورد یا صفحهٔ ترازوی وزن‌کشی. تصویر نوعِ گرد با تکیه‌گاهِ نیم‌کره‌ای است؛ همهٔ مدل‌ها در یک تعداد جهت حرکت نمی‌کنند.",
+      "media": {
+        "img": "atlas/img/balance-board.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "parallel-bars",
+      "w": "parallel bars",
+      "uk": "/ˌpærəlel ˈbɑːz/",
+      "us": "/ˌpærəlel ˈbɑːrz/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "parallel-bars:meaning-1",
+          "pos": "n.",
+          "fa": "میله‌های موازیِ توان‌بخشی؛ پارالل",
+          "en": "Two parallel handrails used to provide hand support during rehabilitation activities.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The parallel bars form two handrails at the same height.",
+          "fa": "میله‌های موازی دو نردهٔ دستی در ارتفاعی یکسان تشکیل می‌دهند.",
+          "senseId": "parallel-bars:meaning-1"
+        },
+        {
+          "en": "The space between the parallel bars remains clear.",
+          "fa": "فضایِ میانِ میله‌های موازی باز می‌ماند.",
+          "senseId": "parallel-bars:meaning-1"
+        }
+      ],
+      "col": [
+        "rehabilitation parallel bars｜میله‌های موازیِ توان‌بخشی",
+        "the handrails of the parallel bars｜نرده‌های دستیِ پارالل",
+        "adjustable parallel bars｜میله‌های موازیِ قابل‌تنظیم"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "parallel bars در این معنی وسیلهٔ توان‌بخشی است، نه وسیله یا رشتهٔ ژیمناستیک. این ترکیب معمولاً جمع است و با فعلِ جمع می‌آید: the parallel bars are. تصویر فقط ساختارِ نرده‌ها را نشان می‌دهد، نه روشِ تمرین.",
+      "media": {
+        "img": "atlas/img/parallel-bars.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.hausmann.com/wp-content/uploads/2022/01/ReturntoMobility-Brochure-D_MKTH3004.pdf",
+            "use": "Manufacturer primary description confirms rehabilitation mobility/balance handrail equipment; original generic geometry, no copied artwork or exercise steps."
+          }
+        ]
+      }
+    },
+    {
+      "id": "goniometer",
+      "w": "goniometer",
+      "uk": "/ˌɡəʊniˈɒmɪtə/",
+      "us": "/ˌɡoʊniˈɑːmətər/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "goniometer:meaning-1",
+          "pos": "n.",
+          "fa": "گونیومتر؛ زاویه‌سنجِ مفصل",
+          "en": "An instrument used to measure joint angles or a joint's range of motion.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The goniometer has two arms joined at a central pivot.",
+          "fa": "گونیومتر دو بازو دارد که در یک محورِ مرکزی به هم متصل‌اند.",
+          "senseId": "goniometer:meaning-1"
+        },
+        {
+          "en": "A clinician uses a goniometer to measure a joint angle.",
+          "fa": "متخصصِ بالینی از گونیومتر برای اندازه‌گیریِ زاویهٔ مفصل استفاده می‌کند.",
+          "senseId": "goniometer:meaning-1"
+        }
+      ],
+      "col": [
+        "a joint goniometer｜گونیومترِ مفصل",
+        "a goniometer arm｜بازوی گونیومتر",
+        "goniometer measurement｜اندازه‌گیری با گونیومتر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "goniometer در این مدخل ابزارِ اندازه‌گیریِ زاویهٔ مفصل است. با dynamometer که نیرو را می‌سنجد فرق دارد. تصویر نوعِ دوبازوییِ ساده با خط‌های بی‌عدد است؛ از آن نمی‌توان زاویهٔ واقعیِ یک مفصل را خواند.",
+      "media": {
+        "img": "atlas/img/goniometer.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10684565/",
+            "use": "Primary fact reference checked by root reviewer and supplied for authoring; original definitions, examples, translations and artwork. No source text, figures, patient advice, fitting or exercise instructions reproduced. Independent human/specialist review pending."
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10684565/",
+            "use": "Primary clinical goniometric-device validation checked for joint-angle/range-of-motion role; isolated two-arm instrument avoids body-placement claims."
+          }
+        ]
+      }
+    },
+    {
+      "id": "radiator",
+      "w": "radiator",
+      "uk": "/ˈreɪdieɪtə/",
+      "us": "/ˈreɪdieɪtər/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "radiator:meaning-1",
+          "pos": "n.",
+          "fa": "رادیاتورِ گرمایشی؛ شوفاژ",
+          "en": "A heat exchanger that transfers warmth from hot water or steam into the surrounding room.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The radiator has connected metal sections through which hot water can circulate.",
+          "fa": "رادیاتور بخش‌های فلزیِ به‌هم‌پیوسته‌ای دارد که آبِ گرم می‌تواند در آن‌ها گردش کند.",
+          "senseId": "radiator:meaning-1"
+        },
+        {
+          "en": "The metal surface transfers heat from the water to the room.",
+          "fa": "سطحِ فلزی، گرما را از آب به اتاق منتقل می‌کند.",
+          "senseId": "radiator:meaning-1"
+        }
+      ],
+      "col": [
+        "a heating radiator｜رادیاتورِ گرمایشی",
+        "radiator sections｜بخش‌های رادیاتور",
+        "a radiator valve｜شیرِ رادیاتور"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "radiator اینجا وسیلهٔ گرمایشِ اتاق است؛ رادیاتورِ خودرو معنیِ دیگری دارد. تصویر نمونهٔ آب‌گرم را نشان می‌دهد. با وجودِ نامش، گرما هم با تابش و هم با همرفت منتقل می‌شود؛ خودِ رادیاتور معمولاً دیگِ گرم‌کنندهٔ آب نیست.",
+      "media": {
+        "img": "atlas/img/radiator.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://energysaver.vermont.gov/heating-cooling/central-heating",
+            "use": "Checked boiler water/steam distribution to room radiators; original hydronic example, not copied text, artwork or heat-output specification."
+          }
+        ]
+      }
+    },
+    {
+      "id": "boiler",
+      "w": "boiler",
+      "uk": "/ˈbɔɪlə/",
+      "us": "/ˈbɔɪlər/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "boiler:meaning-1",
+          "pos": "n.",
+          "fa": "دیگِ گرم‌کنندهٔ آب؛ بویلر",
+          "en": "Equipment that heats water to supply hot water or steam for heating or a process.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The boiler heats water before it enters the heating circuit.",
+          "fa": "بویلر آب را پیش از ورود به مدارِ گرمایش گرم می‌کند.",
+          "senseId": "boiler:meaning-1"
+        },
+        {
+          "en": "The illustrated unit contains water passages around a separate combustion chamber.",
+          "fa": "دستگاهِ نشان‌داده‌شده مجراهای آب در اطرافِ یک محفظهٔ احتراقِ جداگانه دارد.",
+          "senseId": "boiler:meaning-1"
+        }
+      ],
+      "col": [
+        "a hot-water boiler｜دیگِ آب‌گرم",
+        "a boiler heat exchanger｜مبدلِ حرارتیِ بویلر",
+        "a boiler water circuit｜مدارِ آبِ بویلر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "boiler دستگاهِ گرم‌کنندهٔ آب است؛ همهٔ بویلرها بخار تولید نمی‌کنند. تصویر نمونهٔ سادهٔ آب‌گرم با محفظهٔ احتراقِ جدا از آب است، نه راهنمایِ ساخت یا راه‌اندازی. furnace در معنیِ گرمایشِ ساختمان، هوا را گرم می‌کند؛ kettle کتری است.",
+      "media": {
+        "img": "atlas/img/boiler.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.regulations.doe.gov/product-lookup/furnaces-and-boilers",
+            "use": "Checked water/steam versus furnace air heating distinction; original simplified water-heating example, without installation or operating instructions."
+          }
+        ]
+      }
+    },
+    {
+      "id": "furnace",
+      "w": "furnace",
+      "uk": "/ˈfɜːnɪs/",
+      "us": "/ˈfɜːrnɪs/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "furnace:meaning-1",
+          "pos": "n.",
+          "fa": "کورهٔ گرم‌کنِ هوا؛ دستگاهِ گرمایشِ هوای اجباری",
+          "en": "A building-heating unit that heats air and sends it through ducts to rooms.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The furnace sends heated air into the supply duct.",
+          "fa": "دستگاهِ گرم‌کنِ هوا، هوای گرم‌شده را به کانالِ رفت می‌فرستد.",
+          "senseId": "furnace:meaning-1"
+        },
+        {
+          "en": "A blower moves room air across the outside of the heat exchanger.",
+          "fa": "دمنده، هوای اتاق را از رویِ سطحِ بیرونیِ مبدلِ حرارتی عبور می‌دهد.",
+          "senseId": "furnace:meaning-1"
+        }
+      ],
+      "col": [
+        "a forced-air furnace｜دستگاهِ گرمایشِ هوای اجباری",
+        "a furnace heat exchanger｜مبدلِ حرارتیِ گرم‌کنِ هوا",
+        "a furnace blower｜دمندهٔ گرم‌کنِ هوا"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "furnace اینجا دستگاهِ گرمایشِ ساختمان با هواست؛ معنیِ کورهٔ ذوب در این مدخل نیست. در نمونهٔ احتراقیِ تصویر، هوای اتاق از گازهای احتراق با دیوارهٔ مبدل جداست. boiler آب را گرم می‌کند؛ این مدخل دستورِ نصب یا بررسیِ ایمنی نیست.",
+      "media": {
+        "img": "atlas/img/furnace.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://extension.colostate.edu/resource/heating-colorado-homes/",
+            "use": "Checked forced-air furnace blower/heat-exchanger separation from water boiler; original definition and diagram brief, no copied figure or performance claim."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fan",
+      "w": "fan",
+      "uk": "/fæn/",
+      "us": "/fæn/",
+      "cefr": "A2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "fan:meaning-1",
+          "pos": "n.",
+          "fa": "فن؛ بادزنِ محوری",
+          "en": "A machine with rotating blades that moves air, here an axial type with airflow along its shaft.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The fan has pitched blades arranged around a central hub.",
+          "fa": "فن پره‌های زاویه‌داری دارد که دورِ یک توپیِ مرکزی چیده شده‌اند.",
+          "senseId": "fan:meaning-1"
+        },
+        {
+          "en": "Air passes through the illustrated unit in the direction of its shaft.",
+          "fa": "هوا از دستگاهِ نشان‌داده‌شده در راستای محورش عبور می‌کند.",
+          "senseId": "fan:meaning-1"
+        }
+      ],
+      "col": [
+        "an axial fan｜فنِ محوری",
+        "fan blades｜پره‌های فن",
+        "a fan hub｜توپیِ فن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "fan اینجا ماشینِ جابه‌جاکنندهٔ هواست، نه هوادارِ یک تیم و نه بادبزنِ دستی. تصویر نوعِ محوری را نشان می‌دهد؛ فن‌های گریز از مرکز هم وجود دارند. جهتِ واقعیِ جریان به طرحِ پره و جهتِ چرخش بستگی دارد؛ تصویر مقدارِ دبی نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/fan.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.ebmpapst.com/au/en/newsroom/fanwiki/axial-panel-fan.html",
+            "use": "Checked axial inflow/outflow and centrifugal direction contrast; axial type explicitly qualified, no copied geometry or airflow rating."
+          }
+        ]
+      }
+    },
+    {
+      "id": "blower",
+      "w": "blower",
+      "uk": "/ˈbləʊə/",
+      "us": "/ˈbloʊər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "blower:meaning-1",
+          "pos": "n.",
+          "fa": "دمنده؛ دمندهٔ گریز از مرکز",
+          "en": "A machine that drives a stream of air, here a centrifugal type with an impeller inside a scroll-shaped casing.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The blower has a bladed impeller inside its scroll-shaped casing.",
+          "fa": "دمنده درونِ پوستهٔ حلزونیِ خود یک پروانهٔ پره‌دار دارد.",
+          "senseId": "blower:meaning-1"
+        },
+        {
+          "en": "Air enters near the centre and leaves through the tangential outlet.",
+          "fa": "هوا از نزدیکیِ مرکز وارد می‌شود و از خروجیِ مماسی بیرون می‌رود.",
+          "senseId": "blower:meaning-1"
+        }
+      ],
+      "col": [
+        "a centrifugal blower｜دمندهٔ گریز از مرکز",
+        "a blower impeller｜پروانهٔ دمنده",
+        "a blower outlet｜خروجیِ دمنده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "blower نوعی ماشینِ راندنِ هواست؛ این مدخل نمونهٔ گریز از مرکز را انتخاب می‌کند، نه سشوار یا برگ‌روب. کاربردِ fan و blower در صنعت هم‌پوشانی دارد؛ همهٔ دمنده‌ها حلزونی نیستند. تصویر مسیرِ ورودیِ محوری و خروجیِ مماسیِ این نمونه را نشان می‌دهد.",
+      "media": {
+        "img": "atlas/img/blower.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.ebmpapst.com/de/en/newsroom/fanwiki/centrifugal-fan.html",
+            "use": "Checked centrifugal impeller/airflow principle; qualified volute example and overlapping fan/blower terminology, without universal pressure threshold or copied artwork."
+          }
+        ]
+      }
+    },
+    {
+      "id": "thermostat",
+      "w": "thermostat",
+      "uk": "/ˈθɜːməstæt/",
+      "us": "/ˈθɜːrməstæt/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "thermostat:meaning-1",
+          "pos": "n.",
+          "fa": "ترموستات؛ کنترل‌کنندهٔ دما",
+          "en": "A controller that responds to temperature and switches or adjusts heating or cooling to maintain a chosen temperature.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The thermostat controls the heating system in response to room temperature.",
+          "fa": "ترموستات در پاسخ به دمای اتاق، سامانهٔ گرمایش را کنترل می‌کند.",
+          "senseId": "thermostat:meaning-1"
+        },
+        {
+          "en": "Its setting is a target temperature, not necessarily the current room temperature.",
+          "fa": "تنظیمِ آن دمای هدف است، نه لزوماً دمای فعلیِ اتاق.",
+          "senseId": "thermostat:meaning-1"
+        }
+      ],
+      "col": [
+        "a room thermostat｜ترموستاتِ اتاق",
+        "a thermostat setting｜تنظیمِ ترموستات",
+        "temperature control｜کنترلِ دما"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "thermostat دما را کنترل می‌کند؛ thermometer فقط دما را اندازه می‌گیرد یا نشان می‌دهد. نوع‌های مکانیکی و الکترونیکی وجود دارند. تصویر نمونهٔ دیواری با گردونهٔ بی‌عدد است و دمای واقعی یا تنظیمِ توصیه‌شده‌ای را نشان نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/thermostat.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://energysaver.vermont.gov/heating-cooling/central-heating",
+            "use": "Checked thermostat role in building heating context; original controller-versus-thermometer distinction, no numeric setting recommendation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "thermocouple",
+      "w": "thermocouple",
+      "uk": "/ˈθɜːməʊˌkʌpəl/",
+      "us": "/ˈθɜːrmoʊˌkʌpəl/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "thermocouple:meaning-1",
+          "pos": "n.",
+          "fa": "ترموکوپل؛ حسگرِ دمای دوفلزی",
+          "en": "A temperature sensor made from two different metal conductors joined at a sensing junction.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The thermocouple has two different metal wires joined at the sensing end.",
+          "fa": "ترموکوپل دو سیمِ فلزیِ متفاوت دارد که در سرِ حسگر به هم وصل شده‌اند.",
+          "senseId": "thermocouple:meaning-1"
+        },
+        {
+          "en": "The measured voltage depends on temperatures at both the sensing and reference junctions.",
+          "fa": "ولتاژِ اندازه‌گیری‌شده به دما در هر دو اتصالِ حسگر و مرجع بستگی دارد.",
+          "senseId": "thermocouple:meaning-1"
+        }
+      ],
+      "col": [
+        "a thermocouple junction｜اتصالِ ترموکوپل",
+        "a reference junction｜اتصالِ مرجع",
+        "thermocouple wires｜سیم‌های ترموکوپل"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "thermocouple با thermistor یکسان نیست: ترمیستور مقاومتِ وابسته به دما دارد. ولتاژِ ترموکوپل را بدونِ درنظرگرفتنِ اتصالِ مرجع نباید دمای مطلقِ سرِ حسگر دانست. تصویر فقط دو سیم و اتصالِ حسگر را نشان می‌دهد، نه مدارِ اندازه‌گیریِ کامل.",
+      "media": {
+        "img": "atlas/img/thermocouple.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/mercury-thermometer-alternatives/mercury-thermometer-5",
+            "use": "Root checked dissimilar-metal sensor and sensing/reference junction temperature relation; original learner wording and image, no calibration values or copied artwork."
+          },
+          {
+            "url": "https://sea.omega.com/prodinfo/thermocouples.html",
+            "use": "Checked two distinct metal leads joined at sensing end and relation to temperature difference/reference junction; no absolute reading claim."
+          },
+          {
+            "url": "https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/mercury-thermometer-alternatives/mercury-thermometer-5",
+            "use": "Primary metrology reference checked for two dissimilar conductors and temperature-gradient measurement; original vocabulary wording."
+          }
+        ]
+      }
+    },
+    {
+      "id": "thermistor",
+      "w": "thermistor",
+      "uk": "/θɜːˈmɪstə/",
+      "us": "/θɜːrˈmɪstər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "thermistor:meaning-1",
+          "pos": "n.",
+          "fa": "ترمیستور؛ مقاومتِ حساس به دما",
+          "en": "A resistor whose resistance changes strongly with temperature, used for sensing or control.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The thermistor senses temperature through changes in its electrical resistance.",
+          "fa": "ترمیستور با تغییراتِ مقاومتِ الکتریکیِ خود دما را حس می‌کند.",
+          "senseId": "thermistor:meaning-1"
+        },
+        {
+          "en": "The illustrated bead sensor has two leads and contacts a metal surface.",
+          "fa": "حسگرِ مهره‌ایِ نشان‌داده‌شده دو سیمِ رابط دارد و با سطحی فلزی در تماس است.",
+          "senseId": "thermistor:meaning-1"
+        }
+      ],
+      "col": [
+        "a bead thermistor｜ترمیستورِ مهره‌ای",
+        "thermistor resistance｜مقاومتِ ترمیستور",
+        "a temperature sensor｜حسگرِ دما"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "thermistor یک نوعِ مقاومتِ حساس به دماست، نه هر مقاومتِ ثابت و نه ترموکوپل. در نوعِ NTC با افزایشِ دما مقاومت کاهش می‌یابد؛ در نوعِ PTC در محدودهٔ مربوط افزایش می‌یابد. تصویر حسگرِ تماسیِ مهره‌ای را نشان می‌دهد، نه مدارِ سیم‌بندی یا خوانشِ دما.",
+      "media": {
+        "img": "atlas/img/thermistor.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.te.com/en/products/sensors/temperature-sensors/ntc-sensors.html",
+            "use": "Checked resistance-dependent temperature sensor and bead/contact example; no electrical values or product specifications reproduced."
+          },
+          {
+            "url": "https://www.te.com/en/products/sensors/temperature-sensors/resources/faqs-ntc-thermistors.html",
+            "use": "Checked thermally conductive attachment to a metal surface for the qualified contact-sensing illustration; not an installation guide or copied design."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bimetallic-strip",
+      "w": "bimetallic strip",
+      "uk": "/ˌbaɪməˈtælɪk strɪp/",
+      "us": "/ˌbaɪməˈtælɪk strɪp/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "bimetallic-strip:meaning-1",
+          "pos": "n.",
+          "fa": "نوارِ دوفلزی؛ تیغهٔ بی‌متال",
+          "en": "A strip of two bonded metal layers with different thermal expansion, causing it to bend as temperature changes.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The bimetallic strip has two metal layers bonded along their length.",
+          "fa": "نوارِ دوفلزی دو لایهٔ فلزی دارد که در امتدادِ طولِ خود به هم پیوند خورده‌اند.",
+          "senseId": "bimetallic-strip:meaning-1"
+        },
+        {
+          "en": "Different expansion of the two layers bends the strip when it is heated.",
+          "fa": "انبساطِ متفاوتِ دو لایه هنگامِ گرم‌شدن، نوار را خم می‌کند.",
+          "senseId": "bimetallic-strip:meaning-1"
+        }
+      ],
+      "col": [
+        "a bimetallic strip｜نوارِ دوفلزی",
+        "bonded metal layers｜لایه‌های فلزیِ به‌هم‌پیوسته",
+        "thermal expansion｜انبساطِ حرارتی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "bimetallic strip دو لایهٔ چسبیده دارد، نه دو سیمِ جدا مانندِ ترموکوپل. در حالتِ گرم‌تر، لایهٔ دارای انبساطِ بیشتر در بیرونِ قوسِ خمیده قرار می‌گیرد. تصویر یک نوارِ خمیده با یک سرِ مهارشده است؛ مقدارِ خمش یا آستانهٔ قطعِ واقعی نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/bimetallic-strip.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps?sc_lang=en-GB",
+            "use": "Root checked bonded dissimilar layers and different thermal expansion causing deflection; original simplified strip, no operating threshold or copied media."
+          },
+          {
+            "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps?sc_lang=en-GB",
+            "use": "Manufacturer explanation checked for bonded dissimilar-metal element and thermal deflection; no operating settings or copied diagrams."
+          }
+        ]
+      }
+    },
+    {
+      "id": "insulation",
+      "w": "insulation",
+      "uk": "/ˌɪnsjʊˈleɪʃən/",
+      "us": "/ˌɪnsəˈleɪʃən/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "insulation:meaning-1",
+          "pos": "n.",
+          "fa": "عایقِ حرارتی؛ مادهٔ کاهش‌دهندهٔ انتقالِ گرما",
+          "en": "Material used to reduce heat transfer between objects or spaces.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The insulation forms a thick layer around the hot-water pipe.",
+          "fa": "عایقِ حرارتی لایه‌ای ضخیم دورِ لولهٔ آب‌گرم تشکیل می‌دهد.",
+          "senseId": "insulation:meaning-1"
+        },
+        {
+          "en": "The cutaway exposes the fibrous material beneath the outer jacket.",
+          "fa": "نمایِ برش‌خورده، مادهٔ الیافیِ زیرِ روکشِ بیرونی را آشکار می‌کند.",
+          "senseId": "insulation:meaning-1"
+        }
+      ],
+      "col": [
+        "thermal insulation｜عایقِ حرارتی",
+        "pipe insulation｜عایقِ لوله",
+        "a layer of insulation｜لایه‌ای از عایق"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "insulation اینجا مادهٔ عایقِ گرماست؛ عایقِ برق یا صدا کاربردهای دیگری هستند. insulation معمولاً غیرقابل‌شمارش است؛ برای یک بخش می‌توان گفت a layer of insulation. عایق انتقالِ گرما را کاهش می‌دهد و آن را کاملاً متوقف نمی‌کند؛ تصویر مشخصاتِ نصب یا جنسِ تجاری نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/insulation.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.planningportal.nsw.gov.au/basix-thermal-comfort/design-principles/insulation",
+            "use": "Checked reducing heat-flow rate rather than stopping all transfer; original pipe-insulation teaching example without product/installation specification."
+          }
+        ]
+      }
+    },
+    {
+      "id": "expansion-joint",
+      "w": "expansion joint",
+      "uk": "/ɪkˈspænʃən dʒɔɪnt/",
+      "us": "/ɪkˈspænʃən dʒɔɪnt/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "expansion-joint:meaning-1",
+          "pos": "n.",
+          "fa": "اتصالِ انبساطی؛ اتصالِ آکاردئونیِ لوله",
+          "en": "A flexible connection that accommodates movement between connected parts, here a metal bellows in a pipe system.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The expansion joint has metal bellows between its two pipe connections.",
+          "fa": "اتصالِ انبساطی میانِ دو اتصالِ لوله، بخشِ آکاردئونیِ فلزی دارد.",
+          "senseId": "expansion-joint:meaning-1"
+        },
+        {
+          "en": "The folds allow the connection to accommodate movement as the pipe changes length.",
+          "fa": "چین‌ها به اتصال اجازه می‌دهند هنگامِ تغییرِ طولِ لوله با جابه‌جایی سازگار شود.",
+          "senseId": "expansion-joint:meaning-1"
+        }
+      ],
+      "col": [
+        "a bellows expansion joint｜اتصالِ انبساطیِ آکاردئونی",
+        "pipe movement｜جابه‌جاییِ لوله",
+        "metal bellows｜بخشِ آکاردئونیِ فلزی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "expansion joint اینجا اتصالِ انعطاف‌پذیرِ لوله با چین‌های فلزی است؛ درزِ انبساطِ ساختمان معنیِ دیگری دارد. این قطعه فنرِ توپر یا خرطومِ آزاد نیست. نوع و دامنهٔ حرکت به طراحی بستگی دارد؛ تصویر ظرفیتِ فشار یا جابه‌جاییِ مجاز را تعیین نمی‌کند.",
+      "media": {
+        "img": "atlas/img/expansion-joint.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.eagleburgmann.com/en/products/expansion-joints/metal-expansion-joints",
+            "use": "Checked metal bellows connection and movement depending on joint design; no copied proprietary hardware or permitted displacement/pressure claim."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cooling-tower",
+      "w": "cooling tower",
+      "uk": "/ˈkuːlɪŋ ˌtaʊə/",
+      "us": "/ˈkuːlɪŋ ˌtaʊər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "cooling-tower:meaning-1",
+          "pos": "n.",
+          "fa": "برجِ خنک‌کننده",
+          "en": "Equipment that removes heat from circulating water by contact with air, often using evaporation of some of the water.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The cooling tower passes air through falling water to remove heat.",
+          "fa": "برجِ خنک‌کننده برای گرفتنِ گرما، هوا را از میانِ آبِ در حالِ ریزش عبور می‌دهد.",
+          "senseId": "cooling-tower:meaning-1"
+        },
+        {
+          "en": "The basin collects cooled water at the bottom of the tower.",
+          "fa": "حوضچه، آبِ خنک‌شده را در پایینِ برج جمع می‌کند.",
+          "senseId": "cooling-tower:meaning-1"
+        }
+      ],
+      "col": [
+        "a cooling tower｜برجِ خنک‌کننده",
+        "cooling-tower fill｜پکینگِ برجِ خنک‌کننده",
+        "a collection basin｜حوضچهٔ جمع‌آوری"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "cooling tower دودکش نیست. تصویر نمونهٔ جریانِ مخالف را نشان می‌دهد: آب از بالا رویِ پکینگ می‌ریزد، هوا از پایین‌تر وارد و به بالا کشیده می‌شود. بخارِ آب را نباید دودِ احتراق دانست؛ همهٔ برج‌ها شکلِ بزرگِ هذلولی ندارند. تصویر نقشهٔ طراحی یا ادعای بازده نیست.",
+      "media": {
+        "img": "atlas/img/cooling-tower.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://spxcooling.com/coolingtowers/",
+            "use": "Root checked cooling-tower water/air heat rejection and selected counterflow illustration; no copied artwork, operating conditions or efficiency values."
+          },
+          {
+            "url": "https://spxcooling.com/coolingtowers/",
+            "use": "Manufacturer primary reference checked for induced-draft fan location, counterflow rising air/falling water, spray header and fill/basin paths; original simplified cutaway."
           }
         ]
       }

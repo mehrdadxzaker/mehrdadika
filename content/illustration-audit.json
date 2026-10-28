@@ -2103,22 +2103,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/measure-v2.webp",
-        "sha256": "1b43590c1e8e21e6c0f26356b87af65475f3f0b049b045595c35f13ce54af01d"
+        "path": "atlas/img/measure-v3.webp",
+        "sha256": "aa285f192bd8120af2d9bde5f1b88331f2f6511d36eeee7baf49f0df4add3790"
       },
       "visual": {
-        "expectedCue": "A ruler's zero aligns with one end of a wood piece and a hand identifies the tick at the other end.",
+        "expectedCue": "Hands actively align a ruler origin and an endpoint with the two ends of a wooden beam; a dimension line spans the same ends.",
         "decision": "replaced",
-        "reason": "The prior distant workshop scene lacked a clear measuring reference and active reading cue.",
-        "inspectionNotes": "Hand points to the ruler tick at the end of a wood piece; ruler origin aligns with its other end. No numerical measurement claim; active measuring is the focus."
+        "reason": "Actual corrected1254source,512WebP,120PNG inspected. Ruler is adjacent and parallel to beam; left hand holds its origin at the beam left end, right index points at the amber endpoint aligned to the beam right end. Amber witness lines and double-ended dimension line span those two ends. Initial small endpoint drift was corrected with a targeted built-in edit and retained privately. At120px hands/ruler/end references remain visible. Ticks intentionally unnumbered, no precise numerical result claimed.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Slate workbench replaces inherited cream tabletop, silver tool and amber endpoints retain the engineering category language while hands teach the verb."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
-      },
-      "generation": {
-        "method": "OpenAI built-in image generation",
-        "prompt": "Use case: scientific-educational. One square educational vocabulary illustration for the VERB MEASURE: actively checking the length of a wooden piece. Close-up slightly overhead engineering/workshop illustration, pale ivory background, clean slate-blue steel ruler, honey-colored wood, crisp realistic hand anatomy, subtle paper texture. A long rectangular wood offcut lies horizontally on a clear workbench. A straight metal ruler lies flush against its long upper edge, its zero starting line aligned EXACTLY with the left end of the wood. The wood ends around three-quarters of the way along the ruler. One hand gently holds the ruler flat, and the index finger of a second hand points precisely to the tick at the right end of the wooden piece, showing the act of reading the length. On the ruler use evenly spaced fine tick marks, longer regular interval marks; no numbers, no invented units, no written labels. Add a fine restrained amber double-headed dimension arrow parallel to the wood between extension lines at its two ends. Keep all target objects large and immediately recognizable at120px; ruler and both ends fully visible. No saw, no tape bending in the air, no cutting action, no gloves, no extra hands/fingers, no text, no watermark."
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "aa285f192bd8120af2d9bde5f1b88331f2f6511d36eeee7baf49f0df4add3790",
+          "inspectedAt": "2026-10-28T02:32:30.152136+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected corrected full original and final512/120: hands hold an unnumbered ruler parallel and directly alongside a wooden bar, with the left scale start and amber endpoint extensions aligned to the bar ends. The right finger indicates the corresponding end mark; minor line thickness/occlusion does not change endpoint identity. The bidirectional lower arrow spans the same two endpoints rather than indicating force or motion. Coherent fingers/tool contact and actual measuring action remain readable at120px. Silver ruler, amber dimensional cue and slate work surface meet the brief; no invented numeric measurement. Second AI inspection only; independent human specialist review remains pending."
+        }
       }
     },
     {
@@ -2848,17 +2858,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/valve.svg",
-        "sha256": "afb839f26040b44ca26ce2399f221a08449aa591eef5da66a37d33a2524269cb"
+        "path": "atlas/img/valve-v2.webp",
+        "sha256": "ba2095b15c5ee5d90ab8f62dd653a1a476e7f71d839104ebc9e876f25fe60e5f"
       },
       "visual": {
-        "expectedCue": "A wheel-operated gate in a pipe controls the visible fluid passage.",
-        "decision": "retained",
-        "reason": "Retained after pixel inspection: A wheel-operated gate in a pipe controls the visible fluid passage."
+        "expectedCue": "A handwheel and connected threaded stem lift a gate inside a cutaway pipe body, leaving a lower passage for left-to-right water flow.",
+        "decision": "replaced",
+        "reason": "Actual1254source,512WebP,120PNG inspected. The amber wheel, continuously connected threaded stem and raised gate form a coherent control assembly. Both aligned pipe bores join the flanged body; the lower clear opening beneath the gate connects them. Two blue flow arrows point left-to-right through the open passage and do not cross the gate metal. Full body/handwheel are visible, extending pipe ends represent connected external piping. At120px wheel/stem/gate/open path remain distinct. A generic gate-valve example teaches flow control, not a calibrated operating state.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver cutaway on slate with amber handwheel and restrained blue flow cue; replaces inherited warm flat SVG without losing prior assets."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ba2095b15c5ee5d90ab8f62dd653a1a476e7f71d839104ebc9e876f25fe60e5f",
+          "inspectedAt": "2026-10-28T02:32:30.152181+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: a connected handwheel/threaded stem joins the raised gate within a two-port pipe body. The visible blue flow strip and rightward arrows occupy the open passage beneath the gate, never through its solid plate or seat guides. Gate/body/pipe connections are continuous and clear; the generic valve sense is illustrated by a qualified gate-style example rather than an unrelated faucet. No pressure, capacity or operating instruction is claimed. Slate/silver cutaway with amber handwheel and purposeful blue flow remains readable at120px. Second AI inspection only; independent human specialist review remains pending."
+        }
       }
     },
     {
@@ -21422,6 +21447,1206 @@
             120
           ],
           "finding": "Actually inspected512/120: a tie-rod pneumatic cylinder has a sealed piston attached to one coaxial rod, which passes through the right gland and ends fully within frame. Both top air ports reach their respective clear chambers; end caps and tie rods connect coherently without an exposed liquid fill or floating shaft. Corrected framing retains the complete rod tip. This qualified linear actuator example uses slate/silver/amber technical style and makes no pressure, circuit or operating-state claim."
+        }
+      }
+    },
+    {
+      "entryId": "orthosis",
+      "sourceWord": "orthosis",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "orthosis:meaning-1",
+          "pos": "n.",
+          "en": "An external device that supports, aligns or assists an existing part of the body."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The orthosis has a calf shell joined to a footplate.",
+          "senseId": "orthosis:meaning-1"
+        },
+        {
+          "en": "An orthosis can support a body part without replacing it.",
+          "senseId": "orthosis:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/orthosis.webp",
+        "sha256": "8bd85fcf3585da11cedf01c7da684b59590b98e4d2f4d76a268fcca711aa3be1"
+      },
+      "visual": {
+        "expectedCue": "An empty molded ankle-foot orthosis has a broad calf shell, continuous posterior ankle/heel cup, full footplate and external calf strap.",
+        "decision": "added",
+        "reason": "Actual1254 source, final512WebP and120PNG inspected. The continuous rigid posterior shell curves into the heel cup and open-toe footplate; the broad mint strap spans the upper calf opening. No actual leg or replacement foot is present, so this reads as an external support rather than a prosthesis. The pale shell edge remains distinct at120px; no treatment/fitting directions or branded anatomy claims.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Cool-white clinical rendering with pale-blue molded contours and restrained mint calf strap; uncluttered grounded product view."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "8bd85fcf3585da11cedf01c7da684b59590b98e4d2f4d76a268fcca711aa3be1",
+          "inspectedAt": "2026-10-28T02:26:31.971323+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 inspected. One-piece external ankle-foot shell has a continuous calf support narrowing through the ankle into a heel cup and full forefoot plate, with a coherent attached calf closure. Empty receiving cavity and absence of artificial toes/joint identify an external support rather than a replacement limb. Main shell-to-footplate relation remains clear at120px. This is a generic AFO example, not all orthoses or a prescribed fit. Soft precise ivory/mint clinical product, empty cool-white background and no labels or readings. AI inspection only; independent human language and qualified specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "sling",
+      "sourceWord": "sling",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "sling:meaning-1",
+          "pos": "n.",
+          "en": "A fabric support that holds the forearm against the front of the body."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sling supports the forearm in a fabric pouch.",
+          "senseId": "sling:meaning-1"
+        },
+        {
+          "en": "The sling has a strap that passes over the opposite shoulder.",
+          "senseId": "sling:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sling.webp",
+        "sha256": "d9ebe8819f21304d70a44b2f394838ca2d542249936cf91bbc4050b2c60dc579"
+      },
+      "visual": {
+        "expectedCue": "A fabric pouch supports a bent forearm from elbow through wrist, suspended from the opposite shoulder.",
+        "decision": "added",
+        "reason": "Actual full1254 source and encoded512/120 inspected. Forearm and elbow rest inside one continuous mint pouch, with the wrist supported at its hand-end and a relaxed anatomically coherent hand extending beyond. Broad attached strap runs over opposite shoulder; no throat crossing, unsupported dangling wrist or cast. Rear route is occluded by the torso, not falsely diagrammed. Supporting-pouch cue stays clear at120px; no patient diagnosis or fitting instruction.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise neutral clinical person/fabric rendering, pale-blue clothing and empty cool-white/mint field; no props, text, wounds or readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d9ebe8819f21304d70a44b2f394838ca2d542249936cf91bbc4050b2c60dc579",
+          "inspectedAt": "2026-10-28T02:54:09.920676+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. Fabric pouch continuously supports the bent forearm from elbow through wrist; one hand projects from its open end and the strap runs over the opposite shoulder. Arm/hand anatomy is coherent, the elbow is contained and the sling is visibly a support rather than a cast. Mint textile and pale-blue clothing/cool-white background follow the clinical brief. Whole teaching cue remains clear120px, with no fitting steps or patient-specific claim."
+        }
+      }
+    },
+    {
+      "entryId": "walking-boot",
+      "sourceWord": "walking boot",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "walking-boot:meaning-1",
+          "pos": "n.",
+          "en": "A removable medical boot with a rigid base and supports around the foot and ankle."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The walking boot has a rigid sole and padded lower-leg supports.",
+          "senseId": "walking-boot:meaning-1"
+        },
+        {
+          "en": "Broad straps hold the walking boot around its padded liner.",
+          "senseId": "walking-boot:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/walking-boot.webp",
+        "sha256": "136c6ee75194085b5a49ccef184e353e3a00e978fa369f1cf2f6fe9e5626fa42"
+      },
+      "visual": {
+        "expectedCue": "A removable medical boot combines a rigid sole/side supports, padded liner and coherent broad closure straps.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Empty orthotic boot has thick rigid mildly rocker-shaped sole under a complete padded footbed, firm lower-leg side shell/supports, open toe and broad attached calf/ankle/forefoot straps. Liner and top cavity are coherent; no hiking laces or outdoor footwear styling. Tall medical support silhouette stays clear at120px. Generic device only; no permitted weight-bearing or fit inferred.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise softly shaded clinical product in ivory/mint/pale-blue on empty cool-white. No irrelevant props, labels, numbers or procedure."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "136c6ee75194085b5a49ccef184e353e3a00e978fa369f1cf2f6fe9e5626fa42",
+          "inspectedAt": "2026-10-28T02:54:09.920676+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. Rigid contoured base and side uprights connect to one medical boot around a padded liner, with two leg straps and a foot strap. Open toe/liner and rocker-like medical sole distinguish it from a hiking shoe; no invented exposed patient anatomy or weight-bearing instructions. Precise clinical cool white/mint/pale-blue study reads at120px."
+        }
+      }
+    },
+    {
+      "entryId": "compression-stocking",
+      "sourceWord": "compression stocking",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "compression-stocking:meaning-1",
+          "pos": "n.",
+          "en": "An elastic medical leg garment designed to apply pressure to the leg."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The compression stocking follows the shape of the calf, ankle and foot.",
+          "senseId": "compression-stocking:meaning-1"
+        },
+        {
+          "en": "The illustration shows a knee-high compression stocking.",
+          "senseId": "compression-stocking:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/compression-stocking.webp",
+        "sha256": "182a8c5e501ac4e73fdd93f884c46867c32b63c41c696435f76843fa08ff3be4"
+      },
+      "visual": {
+        "expectedCue": "A thin fitted knee-high medical elastic stocking covers calf/ankle/foot; restrained inward arrows indicate compression.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Fine beige elastic garment follows natural calf/ankle/heel/foot contours with reinforced top band and shaped heel/toe region, distinct from a bulky sports sock. Four restrained arrows point inward toward the leg at calf/ankle, not upward as fluid-flow instructions. No compression class, numbers, disease or force magnitude implied; tips explicitly explain arrows only represent the pressure concept. Main medical-garment outline and arrows remain readable at120px; no fit recommendation.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise softly lit clinical garment rendering on empty cool-white/mint, restrained teal explanatory arrows and no irrelevant props or labels."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "182a8c5e501ac4e73fdd93f884c46867c32b63c41c696435f76843fa08ff3be4",
+          "inspectedAt": "2026-10-28T02:54:09.920676+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. Thin fitted knee-high style garment follows calf/ankle/foot contours, with a broad top band and continuous fabric heel/toe coverage. Paired inward mint arrows teach compression rather than an ordinary fashion sock. Arrow sizes are not pressure calibration and no pressure class, body diagnosis or application method is claimed. Clinical cool-white rendering and recognizable garment/arrow silhouette persist120px."
+        }
+      }
+    },
+    {
+      "entryId": "ankle-brace",
+      "sourceWord": "ankle brace",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "ankle-brace:meaning-1",
+          "pos": "n.",
+          "en": "An external support worn around the ankle joint to support it or limit selected movements."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ankle brace sits around the joint between the leg and foot.",
+          "senseId": "ankle-brace:meaning-1"
+        },
+        {
+          "en": "The ankle brace leaves the toes uncovered in the illustration.",
+          "senseId": "ankle-brace:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ankle-brace.webp",
+        "sha256": "a532eb7dc7fa6b544ac1dff61dd3648cc828495f380151879c5f32b2e409dcb9"
+      },
+      "visual": {
+        "expectedCue": "A wrap support with side stays is centred around the ankle, with open heel/toes and no rigid boot sole.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Soft ankle/instep sleeve has coherent broad crossed wrap straps and modest side stays. Heel is open and all five toes are normal and uncovered; ankle and foot alignment are plausible. No long leg shell or walking-boot sole. Joint-centred wrap remains clear at120px; no fit, restriction angle or patient claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise mint/ivory clinical fabric model on empty cool-white, no labels, settings, decorative props or exercise sequence."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a532eb7dc7fa6b544ac1dff61dd3648cc828495f380151879c5f32b2e409dcb9",
+          "inspectedAt": "2026-10-28T02:54:09.920676+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. Support is centered around the ankle, with continuous crossed wrap straps and side stays; open heel and five exposed toes are anatomically coherent. No rigid medical-boot sole or wrist-support ambiguity. White/pale-blue/mint clinical treatment, connected closures and ankle-specific silhouette remain clear120px; no fitted movement limit claimed."
+        }
+      }
+    },
+    {
+      "entryId": "knee-brace",
+      "sourceWord": "knee brace",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "knee-brace:meaning-1",
+          "pos": "n.",
+          "en": "An external support fitted around the knee to support the joint or limit selected movements."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The illustrated knee brace has hinges at the sides of the knee.",
+          "senseId": "knee-brace:meaning-1"
+        },
+        {
+          "en": "The knee brace has padded straps above and below the joint.",
+          "senseId": "knee-brace:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/knee-brace.webp",
+        "sha256": "e4f3089ddf4ed5101c28418e26cf06d525ceb8489133663101f27b99bcb58931"
+      },
+      "visual": {
+        "expectedCue": "A bilateral hinged support spans the knee, with padded straps above/below and an open patella region.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Natural knee is framed by a padded support with open kneecap area, two side bars and circular unnumbered hinges at the knee sides. Above/below straps attach coherently through side hardware; support is centred on knee rather than shin or ankle. No angle setting, imposed range or injured patient depicted. Bilateral hinge/patella cues remain visible at120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical fabric/metal product rendering in mint/ivory/pale-gray on empty cool-white, no decorative props, labels, readings or exercise action."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e4f3089ddf4ed5101c28418e26cf06d525ceb8489133663101f27b99bcb58931",
+          "inspectedAt": "2026-10-28T02:54:09.920676+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. Two side hinges lie at the knee region, connected to upper/lower stays and straps above/below the joint; a large open patellar region shows knee location. Anatomy has coherent thigh-to-lower-leg continuity, with no fake joint angles or prescribed hinge settings. Cool-white/mint clinical rendering and hinged-brace cue remain readable120px."
+        }
+      }
+    },
+    {
+      "entryId": "wrist-brace",
+      "sourceWord": "wrist brace",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "wrist-brace:meaning-1",
+          "pos": "n.",
+          "en": "An external support that steadies the wrist or limits selected wrist movements."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The wrist brace leaves the fingers free.",
+          "senseId": "wrist-brace:meaning-1"
+        },
+        {
+          "en": "The wrist brace extends from the lower forearm towards the palm.",
+          "senseId": "wrist-brace:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/wrist-brace.webp",
+        "sha256": "345e6c33651c61eb5e8bd009a81039cf66c5c78db089838ab0324baff7f84347"
+      },
+      "visual": {
+        "expectedCue": "A splint-style support spans distal forearm and wrist while a separate thumb opening and four fingers remain free.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. One support covers lower forearm/wrist to palm base with coherent broad straps and a reinforced pale panel. Separate thumb opening and all four other normal fingers remain uncovered; no glove or elbow brace. Wrist/hand alignment is natural, no extra digits or strap through tissue. Support location and free-hand cue remain clear at120px. Internal stay is covered, not falsely shown as an exposed mechanism; no therapeutic fit claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise softly lit clinical person/product rendering, restrained mint/ivory textile and empty cool-white backdrop, no labels, readings, props or exercise sequence."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "345e6c33651c61eb5e8bd009a81039cf66c5c78db089838ab0324baff7f84347",
+          "inspectedAt": "2026-10-28T02:54:09.920676+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. Splint-style body spans lower forearm through wrist toward palm, with continuous fastening straps; the thumb emerges separately and all four fingers remain free. Hand orientation/finger count are coherent and the wrist-support cue differs from the ankle brace. Mint/white precise clinical rendering remains legible120px, no movement prescription."
+        }
+      }
+    },
+    {
+      "entryId": "cervical-collar",
+      "sourceWord": "cervical collar",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "cervical-collar:meaning-1",
+          "pos": "n.",
+          "en": "A support around the neck that limits selected movement of the head and neck."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cervical collar has a contoured area beneath the chin.",
+          "senseId": "cervical-collar:meaning-1"
+        },
+        {
+          "en": "The soft cervical collar is made of padded foam.",
+          "senseId": "cervical-collar:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cervical-collar.webp",
+        "sha256": "1e88966bf380cef7244bfcd846dae92dfe9b013896e7e684f2553c90ad34e4cb"
+      },
+      "visual": {
+        "expectedCue": "An upright padded neck-support band has a hollow neck opening, front chin contour and coherent rear closure.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Empty foam-style collar forms a broad upright wrap around one neck opening, with a gentle upper-front chin recess, wider lower edge and attached rear closure. Shape reads as a soft clinical neck orthosis rather than a flat travel cushion, clothing collar or rolled towel. No human fitting, tracheal port or force/angle setting claimed. Collar contour and opening stay clear at120px.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise mint/pale-blue clinical foam/fabric product on empty cool-white, no props, labels, logos or readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1e88966bf380cef7244bfcd846dae92dfe9b013896e7e684f2553c90ad34e4cb",
+          "inspectedAt": "2026-10-28T02:59:29.004156+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. One upright padded clinical collar forms a hollow neck opening with a shallow front chin contour and coherent rear overlap/closure. Fabric/foam body is distinct from a garment collar or travel cushion; no invented patient anatomy or rigid-spine immobilization claim. Restrained mint and pale blue on cool white follow the medical brief and the neck-support silhouette stays readable120px."
+        }
+      }
+    },
+    {
+      "entryId": "exercise-band",
+      "sourceWord": "exercise band",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "exercise-band:meaning-1",
+          "pos": "n.",
+          "en": "An elastic strip or loop that provides resistance when stretched during exercise or rehabilitation."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The exercise band provides resistance when stretched.",
+          "senseId": "exercise-band:meaning-1"
+        },
+        {
+          "en": "The illustration shows a flat exercise band with two free ends.",
+          "senseId": "exercise-band:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/exercise-band.webp",
+        "sha256": "84c727b81eea2453973ef7edf13811dc6daa04777b827205a980a55165b10431"
+      },
+      "visual": {
+        "expectedCue": "One continuous flat elastic strip has two free ends and gentle flexible bends, without handles or load instructions.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Smooth uniform-width elastomer strip forms a loose S curve with both rectangular ends visible. Flat cross-section and flexible bends are coherent; no sewn webbing, buckle, rope, tape roll or tied fashion bow. This depicts the flat-band example; actual resistance/material rating cannot be inferred from appearance or mint colour, as native tips state. Entire strip and ends stay clear at120px; no exercise action or force claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise soft clinical product rendering, restrained mint on empty cool-white with subtle material shading and no props, text or calibration values."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "84c727b81eea2453973ef7edf13811dc6daa04777b827205a980a55165b10431",
+          "inspectedAt": "2026-10-28T03:01:31.227286+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. One continuous flat elastic strip makes broad flexible bends with exactly two free cut ends, no adhesive backing, buckles or load instructions. Its thin uniform rubber-like surface and relaxed S silhouette teach the selected resistance-band form; no color-based force rating is claimed. Restrained mint on cool white with precise soft clinical shading stays legible120px."
+        }
+      }
+    },
+    {
+      "entryId": "balance-board",
+      "sourceWord": "balance board",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "balance-board:meaning-1",
+          "pos": "n.",
+          "en": "A platform with an unstable support underneath, used for balance practice."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The balance board has a rounded support under its platform.",
+          "senseId": "balance-board:meaning-1"
+        },
+        {
+          "en": "The balance board can tilt in different directions.",
+          "senseId": "balance-board:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/balance-board.webp",
+        "sha256": "b2339df767d94b236b9f9dc582903468c39151518acdfa9d24728d517e2923d4"
+      },
+      "visual": {
+        "expectedCue": "A rigid round platform rests tilted on one attached rounded central fulcrum, explaining its wobble.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Round nonslip deck has a coherent thick edge and one attached hemispherical support beneath its centre. Curved support contacts the floor while the lower deck edge also rests plausibly; no floating platform, loose roller, wheels or extra ball. Visible unstable underside distinguishes balance board from a plain step or scale. Platform/fulcrum cue remains clear at120px. No person or exercise/ability claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical product rendering in restrained mint/pale-blue on empty cool-white, clean material shading with no labels, numbers or irrelevant props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b2339df767d94b236b9f9dc582903468c39151518acdfa9d24728d517e2923d4",
+          "inspectedAt": "2026-10-28T03:09:42.878046+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. One rigid round textured platform is coherently attached to a central hemispherical fulcrum. The board tilts with a lower rim near ground and the rounded support in ground contact, so the unstable support/wobble cue is visible without a loose ball or person. No prescribed exercise, load or balance outcome is shown. Mint top, pale-blue structure and cool-white clinical backdrop follow the category brief; rounded underside and tilt remain readable120px."
+        }
+      }
+    },
+    {
+      "entryId": "parallel-bars",
+      "sourceWord": "parallel bars",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "parallel-bars:meaning-1",
+          "pos": "n.",
+          "en": "Two parallel handrails used to provide hand support during rehabilitation activities."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The parallel bars form two handrails at the same height.",
+          "senseId": "parallel-bars:meaning-1"
+        },
+        {
+          "en": "The space between the parallel bars remains clear.",
+          "senseId": "parallel-bars:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/parallel-bars.webp",
+        "sha256": "240589c45eddc26a2683bf38e554dbc188ccd6806fb7929709b2ec70cfd14063"
+      },
+      "visual": {
+        "expectedCue": "Two parallel level rehabilitation handrails on four supported uprights frame one open walkway on a flat clinic platform.",
+        "decision": "added",
+        "reason": "Actual1254 source, final512WebP and120PNG inspected. Exactly two continuous straight rails are supported by four fixed uprights along the platform sides. The platform walkway between rails is unobstructed; both rounded rail ends and complete unit are in frame. Three-quarter perspective preserves parallel direction and paired height. No gymnastics rungs or user exercise scene. At120px paired rails and open path remain clear.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise soft clinical product rendering on cool white with pale-blue posts and restrained mint feet, no irrelevant decor."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "240589c45eddc26a2683bf38e554dbc188ccd6806fb7929709b2ec70cfd14063",
+          "inspectedAt": "2026-10-28T02:26:31.971323+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 inspected. Two long parallel handrails are supported on four firmly attached uprights on one flat platform. Rail heights and perspective are coherent, ends rounded, and the central passage remains clear with no crossbar obstructing it. Telescoping-looking supports have no numbered settings or operational claims. Rehabilitation hand-support structure is readable at120px, distinct from a gymnastics performance scene. Precise cool-white/mint/pale-blue clinical product rendering, no patient, exercise instructions or irrelevant props. AI inspection only; independent human language and qualified specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "goniometer",
+      "sourceWord": "goniometer",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "goniometer:meaning-1",
+          "pos": "n.",
+          "en": "An instrument used to measure joint angles or a joint's range of motion."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The goniometer has two arms joined at a central pivot.",
+          "senseId": "goniometer:meaning-1"
+        },
+        {
+          "en": "A clinician uses a goniometer to measure a joint angle.",
+          "senseId": "goniometer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/goniometer.webp",
+        "sha256": "c9701f62483a925b8b46629bb44034d72771c72070baed6ed247ec73c29ba8fe"
+      },
+      "visual": {
+        "expectedCue": "A transparent universal clinical goniometer has two long arms sharing a central pivot and circular unnumbered angle ticks.",
+        "decision": "added",
+        "reason": "Actual1254 source, final512WebP and120PNG inspected. Two independent translucent arms meet at one round metal pivot; one extends right and the other up-left. Their central alignment lines converge at that pivot. Circular ticks belong to the pivot disc and have no invented numerical reading. At120px two-arm/protractor silhouette remains recognizable. No joint placement or clinical result is claimed.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean pale-blue translucent instrument with cool-white clinical ground and soft precise shading; uncluttered overhead presentation."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c9701f62483a925b8b46629bb44034d72771c72070baed6ed247ec73c29ba8fe",
+          "inspectedAt": "2026-10-28T02:26:31.971323+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 inspected. Two long transparent arms meet at one coherent central pivot; each reference line leads toward that pivot and a central circular arc has unnumbered tick marks. This reads as a joint-angle goniometer rather than a ruler, force dynamometer or disconnected protractor. No body/joint alignment or numeric measurement is implied; fine tick spacing is illustrative and usage tips correctly say no actual joint angle can be read. Clear two-arm silhouette remains visible at120px. Soft precise pale-blue clinical rendering on empty cool-white/mint, no labels or extra props. AI inspection only; independent human language and qualified specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "radiator",
+      "sourceWord": "radiator",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "radiator:meaning-1",
+          "pos": "n.",
+          "en": "A heat exchanger that transfers warmth from hot water or steam into the surrounding room."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The radiator has connected metal sections through which hot water can circulate.",
+          "senseId": "radiator:meaning-1"
+        },
+        {
+          "en": "The metal surface transfers heat from the water to the room.",
+          "senseId": "radiator:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/radiator.webp",
+        "sha256": "3e71fa2a224efb388113179fa3de5a17e397662794993e07619b6c9bd8939174"
+      },
+      "visual": {
+        "expectedCue": "Connected hollow radiator sections transfer water heat to room air.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: connected vertical metal sections join upper and lower manifolds, with a lower inlet valve, opposite return fitting and two attached stable feet. The complete radiator fits; only a contextual supply-pipe continuation leaves the left edge. Small separated amber heat-wave marks suggest warmth, without steam escaping or an exposed flame. It reads as a room radiator rather than a car cooling core at120px. Precise silver/slate product study with restrained amber warm-edge highlights follows the brief; no water temperature or heat-output claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3e71fa2a224efb388113179fa3de5a17e397662794993e07619b6c9bd8939174",
+          "inspectedAt": "2026-10-28T02:57:31.889284+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. Connected vertical sectional bodies join upper/lower manifolds and are supported on two attached feet. Lower valve/inlet and opposite return fitting are connected. Amber warm highlights and separated heat-wave marks teach room heating, with no escaping steam, car radiator core or operating readings. Complete radiator silhouette remains clear120px in precise silver/slate style."
+        }
+      }
+    },
+    {
+      "entryId": "boiler",
+      "sourceWord": "boiler",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "boiler:meaning-1",
+          "pos": "n.",
+          "en": "Equipment that heats water to supply hot water or steam for heating or a process."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The boiler heats water before it enters the heating circuit.",
+          "senseId": "boiler:meaning-1"
+        },
+        {
+          "en": "The illustrated unit contains water passages around a separate combustion chamber.",
+          "senseId": "boiler:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/boiler.webp",
+        "sha256": "cdbc0c556915385598274c61e7e9f1e001dade0d31f40a346f82e6b47583480f"
+      },
+      "visual": {
+        "expectedCue": "A filled water jacket surrounds a separate combustion chamber with a visibly open throat into the flue.",
+        "decision": "added",
+        "reason": "Actually inspected final full original and512/120 after two bounded corrections: blue water fills the closed jacket and remains separated by continuous metal walls from the burner chamber. Small flames are confined to the bottom. Root second review identified an ambiguous oval throat lip in edit1; original-size reinspection withdrew that candidate. Final edit removes that plate/ellipse entirely and shows smooth inward sidewalls with an uninterrupted warm-dark gas space continuing into the vertical flue. This open passage remains visible at120px. Both rejected sources/hash findings are retained. Silver/slate cutaway, amber burner and purposeful blue water follow the brief; no pressure, construction or operating claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "cdbc0c556915385598274c61e7e9f1e001dade0d31f40a346f82e6b47583480f",
+          "inspectedAt": "2026-10-28T03:16:32.359605+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually re-inspected final corrected full1254/512/120 pixels. The ambiguous oval shelf at the chamber/flue transition is removed: continuous sloping metal walls now form an unmistakably open gas throat from the small burner into the upper flue. Blue water fills the closed surrounding jacket, with walls separating water from combustion gas and two water connection stubs. No inconsistent water free surface or oversized flame remains. Boiler/water-versus-flue cue is clear120px in precise slate/silver/amber style. Generic simplified hot-water unit, no complete burner-design/installation or numeric claim. Earlier ambiguous candidate c06662fc2ee25958d68897aeabbd349cdcbabfa50efcb3140dd74b79b0dfc901 was withheld, corrected and retained privately."
+        }
+      }
+    },
+    {
+      "entryId": "furnace",
+      "sourceWord": "furnace",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "furnace:meaning-1",
+          "pos": "n.",
+          "en": "A building-heating unit that heats air and sends it through ducts to rooms."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The furnace sends heated air into the supply duct.",
+          "senseId": "furnace:meaning-1"
+        },
+        {
+          "en": "A blower moves room air across the outside of the heat exchanger.",
+          "senseId": "furnace:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/furnace.webp",
+        "sha256": "111bd5f7efadae6da555d8fa17d92abb8a96d3c266d680e4704556731fc2b5f8"
+      },
+      "visual": {
+        "expectedCue": "A blower sends room air outside a sealed combustion heat exchanger into the supply duct.",
+        "decision": "added",
+        "reason": "Actually inspected final full original and512/120 after two bounded corrections: the lower return arrow enters the blower eye, and a separate upward discharge neck delivers room air to the cabinet and broad upper supply opening. The combustion path is deliberately simplified to one sealed L-shaped metal exchanger from burner to separate right flue, removing the initial untraceable serpentine dead ends. Flame is confined to the inlet; blue room-air arrows stay outside or behind the solid exchanger rather than inside its gas passage. No water jacket. Separate gas/air relationship and furnace/blower silhouette remain legible at120px. Initial and edit1 failures retained. Silver/slate product cutaway with amber heat and blue explanatory air arrows fits the brief; not a commercial design or efficiency claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "111bd5f7efadae6da555d8fa17d92abb8a96d3c266d680e4704556731fc2b5f8",
+          "inspectedAt": "2026-10-28T02:57:31.889284+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual final full1254/512/120 pixels inspected. Lower centrifugal blower eye takes the blue room-air path and its upward discharge feeds the cabinet/supply opening. The selected simplified sealed L-shaped metal exchanger connects burner at left to a separate right flue; blue room air stays outside/behind its solid wall. No water jacket or gas/room-air mixing is depicted. Upper duct and separate flue are distinct120px. This qualified simplified vocabulary cutaway fits silver/slate/amber style and does not claim a complete commercial burner design."
+        }
+      }
+    },
+    {
+      "entryId": "fan",
+      "sourceWord": "fan",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "fan:meaning-1",
+          "pos": "n.",
+          "en": "A machine with rotating blades that moves air, here an axial type with airflow along its shaft."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The fan has pitched blades arranged around a central hub.",
+          "senseId": "fan:meaning-1"
+        },
+        {
+          "en": "Air passes through the illustrated unit in the direction of its shaft.",
+          "senseId": "fan:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/fan.webp",
+        "sha256": "490978c1efeda3ff8bb991c22eea87e51ff036f4af3b9dddc4df8431de57e2cb"
+      },
+      "visual": {
+        "expectedCue": "A supported hub carries pitched propeller blades in an axial through-flow shroud.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: five pitched amber blades join a central rotor hub, with a supported motor and struts behind the blade plane inside the silver shroud. Tips have wall clearance; no fixed strut visibly crosses a rotating blade. Two attached feet support the complete assembly. Axial opening/propeller silhouette remains clear at120px and differs from the centrifugal volute blower. No rotation or airflow direction is claimed by unverified arrows. Exact slate/silver/amber technical product language, no speed/flow value.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "490978c1efeda3ff8bb991c22eea87e51ff036f4af3b9dddc4df8431de57e2cb",
+          "inspectedAt": "2026-10-28T02:57:31.889284+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. Five consistently pitched blades connect to one central hub/motor within a circular axial shroud, with rear supporting struts and stable feet. Clear air-through-axis geometry differs from the scroll blower; no unsupported floating hub or fabricated direction/flow numbers. Amber blades/silver body on slate follow the technical style and remain recognizable120px."
+        }
+      }
+    },
+    {
+      "entryId": "blower",
+      "sourceWord": "blower",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "blower:meaning-1",
+          "pos": "n.",
+          "en": "A machine that drives a stream of air, here a centrifugal type with an impeller inside a scroll-shaped casing."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The blower has a bladed impeller inside its scroll-shaped casing.",
+          "senseId": "blower:meaning-1"
+        },
+        {
+          "en": "Air enters near the centre and leaves through the tangential outlet.",
+          "senseId": "blower:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/blower.webp",
+        "sha256": "b803be8edef2e036494945cde185ad2a6c9589bc0bb857db46186ecb35e6ca04"
+      },
+      "visual": {
+        "expectedCue": "A single centrifugal impeller sits inside a scroll with central axial inlet and tangential outlet.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full original and final512/120: one uniform drum-like cage of curved blades surrounds a hollow central intake and joins the shaft/rear motor; the initial nested smaller cage was removed. Clearance between rotor and scroll leads into the upper tangential outlet. One arrow enters the central eye and one leaves the outlet without crossing housing solids. Feet/motor supports are continuous. Centrifugal volute and many-blade rotor remain distinct from axial fan at120px. Silver/slate technical cutaway with amber rotor/arrows meets the brief; no pressure or airflow value claimed.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b803be8edef2e036494945cde185ad2a6c9589bc0bb857db46186ecb35e6ca04",
+          "inspectedAt": "2026-10-28T02:57:31.889284+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual corrected full1254/512/120 pixels inspected. One centrifugal cage impeller connects through its hub/shaft to the rear motor inside a coherent scroll casing. The central round axial inlet and upper tangential rectangular outlet are separate connected passages with inward/outward amber arrows. No ambiguous nested rotating cage remains. Stable feet and silver/slate technical cutaway keep the airflow cue legible120px, no rated pressure/flow claim."
+        }
+      }
+    },
+    {
+      "entryId": "thermostat",
+      "sourceWord": "thermostat",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "thermostat:meaning-1",
+          "pos": "n.",
+          "en": "A controller that responds to temperature and switches or adjusts heating or cooling to maintain a chosen temperature."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The thermostat controls the heating system in response to room temperature.",
+          "senseId": "thermostat:meaning-1"
+        },
+        {
+          "en": "Its setting is a target temperature, not necessarily the current room temperature.",
+          "senseId": "thermostat:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/thermostat.webp",
+        "sha256": "2071e571388e2ae4a4f4d474919fc26c8eac6ca592cff6c4705bf5ad31a72c76"
+      },
+      "visual": {
+        "expectedCue": "A wall temperature controller has an adjustable rotary knob rather than a measuring needle.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: the wall-mounted plate has ventilation slots, a clearly turnable textured knob with integral amber setting marker, unnumbered ticks and a simple temperature pictogram. It has no gauge needle under glass, process fitting, numerical temperature or claimed recommended setting. Knob/controller and temperature context remain recognizable at120px, distinct from a pressure gauge or loose thermometer. Precise silver device on slate with restrained amber setting details follows the brief.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2071e571388e2ae4a4f4d474919fc26c8eac6ca592cff6c4705bf5ad31a72c76",
+          "inspectedAt": "2026-10-28T02:57:31.889284+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. Wall-mounted controller has a large adjustable ridged knob with an index and unnumbered setting marks, ventilation slots and a small temperature symbol. There is no gauge needle, clinical thermometer, digital reading or prescribed setting. Silver controller on slate with restrained amber cues stays recognizable120px; text explains control versus measurement."
+        }
+      }
+    },
+    {
+      "entryId": "thermocouple",
+      "sourceWord": "thermocouple",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "thermocouple:meaning-1",
+          "pos": "n.",
+          "en": "A temperature sensor made from two different metal conductors joined at a sensing junction."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The thermocouple has two different metal wires joined at the sensing end.",
+          "senseId": "thermocouple:meaning-1"
+        },
+        {
+          "en": "The measured voltage depends on temperatures at both the sensing and reference junctions.",
+          "senseId": "thermocouple:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/thermocouple.webp",
+        "sha256": "546cbd47d6113d3328a6a184de15bdd723072fffe8d51c188bf1fe3d16ed6b0b"
+      },
+      "visual": {
+        "expectedCue": "Two distinct metal leads meet at one welded sensing junction, with their opposite ends separate.",
+        "decision": "added",
+        "reason": "Actual1254source,final512WebP,120PNG inspected. Both silver and copper-colored lead paths are continuous from free lower-left terminals through separate insulation sleeves to one welded upper-right bead. No extra touching junction, power supply, meter or absolute-temperature reading is invented. The two converging wires and common bead stay legible120px. Colors are illustrative, not a wiring-code claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise slate-ground metallic product study, silver and amber distinction with subtle technical shading."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "546cbd47d6113d3328a6a184de15bdd723072fffe8d51c188bf1fe3d16ed6b0b",
+          "inspectedAt": "2026-10-28T02:32:30.151595+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: two separately traceable metallic conductors with different illustrative metal colors join only at a single welded sensing bead; their opposite ends remain free and separate. No meter, completed reference-junction circuit or absolute-temperature voltage reading is invented. The joined tip and separate wires are recognizable at120px. Silver/amber conductive materials on slate match the precise product brief. Second AI inspection only; independent human specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "thermistor",
+      "sourceWord": "thermistor",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "thermistor:meaning-1",
+          "pos": "n.",
+          "en": "A resistor whose resistance changes strongly with temperature, used for sensing or control."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The thermistor senses temperature through changes in its electrical resistance.",
+          "senseId": "thermistor:meaning-1"
+        },
+        {
+          "en": "The illustrated bead sensor has two leads and contacts a metal surface.",
+          "senseId": "thermistor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/thermistor.webp",
+        "sha256": "7930ae4299fb1cdfc72d2acc9f8498a6839914d3b5adff7bf0901769378583ac"
+      },
+      "visual": {
+        "expectedCue": "A two-lead bead thermistor contacts a warm surface for temperature sensing.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: one amber bead sits on a small contact adhesive patch on the silver plate; two distinct leads leave the bead separately into insulated wires with free ends contained in frame. Bare lead sections rise from the bead rather than forming a complete electrical circuit. Heat-wave strokes belong to the plate and are visually separate from wires. Bead/contact/thermal context remain visible at120px; not a color-banded fixed resistor or thermocouple weld. Only the contextual plate is partly cropped. Silver/slate product study with amber sensor/warmth follows the brief, without data or wiring instruction.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7930ae4299fb1cdfc72d2acc9f8498a6839914d3b5adff7bf0901769378583ac",
+          "inspectedAt": "2026-10-28T03:01:31.227286+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. Two separate insulated leads terminate in one small coated bead whose underside contacts a metal surface through a thin transparent mounting layer. Heat-wave marks come from the metal; no mercury tube, thermocouple welded bare-wire junction, fixed resistor bands or numerical readout is shown. Contact/sensor cue and two leads remain distinguishable120px in silver/slate/amber technical style. Actual resistance and type cannot be identified from image alone; text defines that mechanism."
+        }
+      }
+    },
+    {
+      "entryId": "bimetallic-strip",
+      "sourceWord": "bimetallic strip",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "bimetallic-strip:meaning-1",
+          "pos": "n.",
+          "en": "A strip of two bonded metal layers with different thermal expansion, causing it to bend as temperature changes."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bimetallic strip has two metal layers bonded along their length.",
+          "senseId": "bimetallic-strip:meaning-1"
+        },
+        {
+          "en": "Different expansion of the two layers bends the strip when it is heated.",
+          "senseId": "bimetallic-strip:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bimetallic-strip.webp",
+        "sha256": "b6186751b1d26d19696fe2a1837a9ca23d4ce049835fbbc41b449cc9423a4570"
+      },
+      "visual": {
+        "expectedCue": "Two continuously bonded metal layers form one clamped strip that curves when warmed, with the amber layer on the outside of the bend.",
+        "decision": "added",
+        "reason": "Actual1254source,512WebP,120PNG inspected. Silver upper/inside layer and amber lower/outside layer remain bonded along the full visible length to the curved free tip. The opposite end is secured in one clamp on a stable base. Heat-wave marks communicate warming without flame or numerical temperature. The outside amber arc is longer than the inner silver arc. Clear two-layer/curvature cue at120px; no thermostat circuit or alloy identity claimed.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Silver/amber section contrast, restrained slate base/ground and precise technical product shading."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b6186751b1d26d19696fe2a1837a9ca23d4ce049835fbbc41b449cc9423a4570",
+          "inspectedAt": "2026-10-28T02:32:30.151892+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: one end is clamped on a stable base; silver and amber layers remain bonded along the strip and through its curved free end. Amber is the outside of the upward bend and therefore the longer arc, consistent with the greater-expansion layer in a heated example. Heat-wave strokes provide context without a flame or numeric switching threshold. Two-layer/one-clamped-end cue remains visible at120px in the exact technical palette. Second AI inspection only; independent human specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "insulation",
+      "sourceWord": "insulation",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "insulation:meaning-1",
+          "pos": "n.",
+          "en": "Material used to reduce heat transfer between objects or spaces."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The insulation forms a thick layer around the hot-water pipe.",
+          "senseId": "insulation:meaning-1"
+        },
+        {
+          "en": "The cutaway exposes the fibrous material beneath the outer jacket.",
+          "senseId": "insulation:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/insulation.webp",
+        "sha256": "cb5d5ddf2bd9b42cf337cd08ac8305ad12cec3571d10f4a5de0a93a800686092"
+      },
+      "visual": {
+        "expectedCue": "A thick fibrous thermal layer surrounds the outside of a hollow metal pipe under a protective jacket.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: three distinct concentric layers are visible—hollow metal pipe, thick amber fibrous insulation outside its wall and thin silver jacket. Cutaway removes only part of jacket/material to reveal contact; no insulation fills the flow bore and no layer floats separately. Material texture/annular thickness remain clear at120px, teaching thermal material rather than electrical wire coating or a bare pipe. Entire sample fits on slate with silver/amber technical shading; no installation specification, material brand or thermal rating claimed.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "cb5d5ddf2bd9b42cf337cd08ac8305ad12cec3571d10f4a5de0a93a800686092",
+          "inspectedAt": "2026-10-28T03:24:40.241447+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. A thick continuous fibrous annulus surrounds the outside of one hollow metal pipe; the cutaway outer silver jacket reveals the insulating layer without filling or blocking the pipe bore. The visible thickness/fiber cue distinguishes insulation from the metal conductor or outer cover alone. Precise slate/silver with restrained amber-toned material follows the category brief and annular layer stays legible120px. Thermal role is selected in text, no material certification or installation dimensions claimed."
+        }
+      }
+    },
+    {
+      "entryId": "expansion-joint",
+      "sourceWord": "expansion joint",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "expansion-joint:meaning-1",
+          "pos": "n.",
+          "en": "A flexible connection that accommodates movement between connected parts, here a metal bellows in a pipe system."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The expansion joint has metal bellows between its two pipe connections.",
+          "senseId": "expansion-joint:meaning-1"
+        },
+        {
+          "en": "The folds allow the connection to accommodate movement as the pipe changes length.",
+          "senseId": "expansion-joint:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/expansion-joint.webp",
+        "sha256": "fce4130678c7abc7657e8d5be2569e759263345b1946611e0463e26d1c3fa4ef"
+      },
+      "visual": {
+        "expectedCue": "Hollow metal bellows join two pipe-end collars and flanges to accommodate movement.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: a sequence of continuous annular metal convolutions joins silver end collars/flanges, with a clear hollow front pipe bore. Small front cutaway exposes a thin folded wall at the first convolution; the far internal passage is naturally occluded rather than claimed as a full manufacturing section. It reads as corrugated hollow bellows rather than a solid helical spring, disconnected rings or free hose. No external rod locks the two ends together and no displacement/load claim is shown. Complete assembly fits and bellows-versus-flange cue remains clear at120px in slate/silver/amber product language.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "fce4130678c7abc7657e8d5be2569e759263345b1946611e0463e26d1c3fa4ef",
+          "inspectedAt": "2026-10-28T03:29:54.562806+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actual full1254/512/120 pixels inspected. Continuous hollow annular corrugations join two metal end collars/flanges, with a clearly open front pipe bore. The small cutaway shows the thin first folded wall; the far inner passage is occluded, not claimed as fully inspected. These are annular bellows rather than disconnected rings or a solid helical spring, with no external rod rigidly locking both ends. Silver/slate technical shading and amber fold edges make the selected flexible-pipe-connection cue legible120px. No pressure rating or allowed displacement is asserted."
+        }
+      }
+    },
+    {
+      "entryId": "cooling-tower",
+      "sourceWord": "cooling tower",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "cooling-tower:meaning-1",
+          "pos": "n.",
+          "en": "Equipment that removes heat from circulating water by contact with air, often using evaporation of some of the water."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cooling tower passes air through falling water to remove heat.",
+          "senseId": "cooling-tower:meaning-1"
+        },
+        {
+          "en": "The basin collects cooled water at the bottom of the tower.",
+          "senseId": "cooling-tower:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cooling-tower.webp",
+        "sha256": "75ecf58f7c391de4ff3a6f2f848df71b4cef43803fe703d04ea048efd989cb6a"
+      },
+      "visual": {
+        "expectedCue": "An induced-draft counterflow tower sprays water downward through fill into a basin while lower-side air rises through the fill to the top fan.",
+        "decision": "added",
+        "reason": "Actual1254source,512WebP,120PNG inspected. Supported top fan and upward exit arrow sit above the connected spray header. Down-facing nozzles distribute blue droplets onto porous fill and into the visible bottom collection basin. Lower louvered air entrances lie above water level/below fill; amber arrows enter horizontally and turn upward through fill. Inlet and basin outlet join visible pipes; cutaway retains coherent frame/supports. At120px fan/fill/basin and opposing air/water cues remain recognizable. Explicit counterflow example, not a complete cooling circuit or smoke tower.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Slate/silver technical cutaway with restrained blue water and amber air arrows; primary paths visible without labels/readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T03:38:26.429486+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "75ecf58f7c391de4ff3a6f2f848df71b4cef43803fe703d04ea048efd989cb6a",
+          "inspectedAt": "2026-10-28T02:32:30.152081+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: connected top header sprays blue water down onto fill and into the lower basin, whose outlet is separate from the incoming header. Side air inlets are above the water basin and below fill; amber arrows turn upward through the fill to the induced-draft fan discharge, illustrating the selected counterflow example. Top arrow represents bulk exhaust airflow, not flow through motor internals. No chimney smoke or combustion source is depicted. Frame/header/fan supports are coherent; water/air direction contrast survives120px. Silver/slate equipment and amber arrows with purposeful blue water match the engineering diagram language. Second AI inspection only; independent human specialist review remains pending."
         }
       }
     }
