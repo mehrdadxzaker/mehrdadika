@@ -3134,7 +3134,103 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 254,
+      "targetCategoryWords": 266,
+      "entryIds": [
+        "outpatient",
+        "inpatient",
+        "referral",
+        "appointment",
+        "consent",
+        "discharge",
+        "admission",
+        "medical-record",
+        "prescription",
+        "screening",
+        "triage",
+        "follow-up"
+      ],
+      "units": [
+        {
+          "id": "medical-care-communication",
+          "title": "Clinical care journeys and communication",
+          "entryIds": [
+            "outpatient",
+            "inpatient",
+            "referral",
+            "appointment",
+            "consent",
+            "discharge",
+            "admission",
+            "medical-record",
+            "prescription",
+            "screening",
+            "triage",
+            "follow-up"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-19",
+      "releaseId": "2026-10-preview-24",
+      "status": "published-preview",
+      "objective": "Describe clinical care journeys, communication, mechanical deformation and oscillation vocabulary in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 254,
+      "targetCategoryWords": 266,
+      "entryIds": [
+        "stress",
+        "strain",
+        "tension",
+        "compression",
+        "shear",
+        "bending",
+        "torsion",
+        "deflection",
+        "vibration",
+        "frequency",
+        "amplitude",
+        "resonance"
+      ],
+      "units": [
+        {
+          "id": "engineering-mechanics-quantities",
+          "title": "Mechanical deformation and oscillation",
+          "entryIds": [
+            "stress",
+            "strain",
+            "tension",
+            "compression",
+            "shear",
+            "bending",
+            "torsion",
+            "deflection",
+            "vibration",
+            "frequency",
+            "amplitude",
+            "resonance"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-19",
+      "releaseId": "2026-10-preview-24",
+      "status": "published-preview",
+      "objective": "Describe clinical care journeys, communication, mechanical deformation and oscillation vocabulary in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-18"
+  "activePassId": "specialist-500-batch-19"
 }

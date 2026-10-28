@@ -2322,6 +2322,105 @@
       ],
       "imageRefreshEntryIds": [],
       "completedAt": "2026-10-28T18:40:38.289431+00:00"
+    },
+    {
+      "id": "specialist-500-batch-19",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-24",
+      "baseline": {
+        "releaseId": "2026-10-preview-23",
+        "manifest": "content/releases/2026-10-preview-23-a627b8aab0b0/manifest.json",
+        "manifestSha256": "a627b8aab0b0951b5b0b10cec9b1c951881ddcc4827c91476f4679b65cfb8acc",
+        "words": 666
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 254,
+          "targetCategoryWords": 266,
+          "entryIds": [
+            "outpatient",
+            "inpatient",
+            "referral",
+            "appointment",
+            "consent",
+            "discharge",
+            "admission",
+            "medical-record",
+            "prescription",
+            "screening",
+            "triage",
+            "follow-up"
+          ],
+          "units": [
+            {
+              "id": "medical-care-communication",
+              "title": "Clinical care journeys and communication",
+              "entryIds": [
+                "outpatient",
+                "inpatient",
+                "referral",
+                "appointment",
+                "consent",
+                "discharge",
+                "admission",
+                "medical-record",
+                "prescription",
+                "screening",
+                "triage",
+                "follow-up"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 254,
+          "targetCategoryWords": 266,
+          "entryIds": [
+            "stress",
+            "strain",
+            "tension",
+            "compression",
+            "shear",
+            "bending",
+            "torsion",
+            "deflection",
+            "vibration",
+            "frequency",
+            "amplitude",
+            "resonance"
+          ],
+          "units": [
+            {
+              "id": "engineering-mechanics-quantities",
+              "title": "Mechanical deformation and oscillation",
+              "entryIds": [
+                "stress",
+                "strain",
+                "tension",
+                "compression",
+                "shear",
+                "bending",
+                "torsion",
+                "deflection",
+                "vibration",
+                "frequency",
+                "amplitude",
+                "resonance"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "completedAt": "2026-10-28T20:27:32.664921+00:00"
     }
   ],
   "activeWorkBatchId": null,

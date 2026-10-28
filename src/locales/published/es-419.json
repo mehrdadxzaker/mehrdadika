@@ -13,9 +13,9 @@
     "modifications": "Latin-American Spanish preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-23",
-    "manifest": "content/releases/2026-10-preview-23-a627b8aab0b0/manifest.json",
-    "sha256": "a627b8aab0b0951b5b0b10cec9b1c951881ddcc4827c91476f4679b65cfb8acc"
+    "id": "2026-10-preview-24",
+    "manifest": "content/releases/2026-10-preview-24-4fd0af7d4e0f/manifest.json",
+    "sha256": "4fd0af7d4e0fd2dd3c19a836f2315d1b6af461c44a0fb638139699601dd70b0c"
   },
   "categories": {
     "everyday-life": {
@@ -23191,6 +23191,822 @@
         }
       ],
       "tip": "Aquí, fin es la aleta que amplía el área de transferencia térmica, no una aleta de pez ni una superficie direccional de aeronave. La imagen selecciona placas sobre una base común; también existen aletas de espiga y otras formas. Aumentar el área por sí solo no garantiza un rendimiento específico; la figura no proporciona tasa de calor, temperatura, flujo de aire ni un diseño real de enfriamiento."
+    },
+    "outpatient": {
+      "sourceWord": "outpatient",
+      "senses": {
+        "outpatient:meaning-1": {
+          "gloss": "paciente ambulatorio",
+          "definition": "Un paciente que recibe atención en una clínica u hospital sin ingresar para una estancia hospitalaria."
+        }
+      },
+      "examples": [
+        {
+          "en": "The outpatient attends the clinic and leaves after the visit.",
+          "translation": "El paciente ambulatorio acude a la clínica y sale después de la consulta."
+        },
+        {
+          "en": "This visit does not include a stay in an inpatient bed.",
+          "translation": "Esta visita no incluye una estancia en una cama de hospitalización."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an outpatient clinic",
+          "translation": "una clínica de atención ambulatoria"
+        },
+        {
+          "en": "an outpatient visit",
+          "translation": "una consulta ambulatoria"
+        },
+        {
+          "en": "outpatient care",
+          "translation": "atención ambulatoria"
+        }
+      ],
+      "tip": "Aquí, outpatient es el paciente ambulatorio; en expresiones como outpatient care también funciona como modificador. Inpatient es el paciente hospitalizado. La imagen muestra una visita y la salida de la misma persona; caminar, la apariencia o una visita corta no demuestran la clasificación administrativa. Las definiciones y categorías de atención de día varían entre sistemas de salud."
+    },
+    "inpatient": {
+      "sourceWord": "inpatient",
+      "senses": {
+        "inpatient:meaning-1": {
+          "gloss": "paciente hospitalizado",
+          "definition": "Un paciente ingresado en un hospital para recibir atención durante una estancia hospitalaria."
+        }
+      },
+      "examples": [
+        {
+          "en": "The inpatient receives care in a hospital bed during the stay.",
+          "translation": "El paciente hospitalizado recibe atención en una cama del hospital durante su estancia."
+        },
+        {
+          "en": "The same person remains in the ward as day changes to night in the illustration.",
+          "translation": "En la ilustración, la misma persona permanece en la sala mientras el día pasa a la noche."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an inpatient ward",
+          "translation": "una sala de hospitalización"
+        },
+        {
+          "en": "an inpatient stay",
+          "translation": "una estancia hospitalaria"
+        },
+        {
+          "en": "inpatient care",
+          "translation": "atención hospitalaria con ingreso"
+        }
+      ],
+      "tip": "Aquí, inpatient es el paciente hospitalizado, no cualquier persona dentro del edificio del hospital. La imagen muestra una estancia nocturna como ejemplo; la cama, ropa o duración por sí solas no determinan todas las clasificaciones administrativas. Un paciente hospitalizado puede volver después para atención ambulatoria."
+    },
+    "referral": {
+      "sourceWord": "referral",
+      "senses": {
+        "referral:meaning-1": {
+          "gloss": "derivación médica; referencia médica",
+          "definition": "Una solicitud o gestión que dirige a un paciente a otro profesional o servicio de salud para evaluación o atención."
+        }
+      },
+      "examples": [
+        {
+          "en": "The referral connects the first clinician with another healthcare service.",
+          "translation": "La derivación médica conecta al primer profesional clínico con otro servicio de salud."
+        },
+        {
+          "en": "The same patient brings the referral letter to a different clinician in the second scene.",
+          "translation": "La misma persona lleva la carta de referencia a un profesional clínico diferente en la segunda escena."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a specialist referral",
+          "translation": "una derivación a un especialista"
+        },
+        {
+          "en": "a referral letter",
+          "translation": "una carta de referencia"
+        },
+        {
+          "en": "a referral for assessment",
+          "translation": "una derivación para evaluación"
+        }
+      ],
+      "tip": "Referral es la solicitud o gestión de derivación, no la propia cita programada ni una receta de medicamento. La imagen muestra el paso de una carta entre dos servicios; no toda derivación es en papel y no demuestra horario, diagnóstico ni aceptación definitiva. El texto ilustrativo no contiene datos de pacientes."
+    },
+    "appointment": {
+      "sourceWord": "appointment",
+      "senses": {
+        "appointment:meaning-1": {
+          "gloss": "cita médica",
+          "definition": "Una hora acordada para que un paciente se reúna con un profesional o acuda a un servicio de salud."
+        }
+      },
+      "examples": [
+        {
+          "en": "The appointment reserves a future slot for the patient’s visit.",
+          "translation": "La cita reserva un espacio futuro para la visita del paciente."
+        },
+        {
+          "en": "The receptionist points to one selected space in the appointment book.",
+          "translation": "La recepcionista señala un espacio seleccionado en la agenda de citas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a medical appointment",
+          "translation": "una cita médica"
+        },
+        {
+          "en": "an appointment slot",
+          "translation": "un horario de cita"
+        },
+        {
+          "en": "an appointment booking",
+          "translation": "una reserva de cita"
+        }
+      ],
+      "tip": "Aquí, appointment es la cita de atención, no el nombramiento para un cargo. Programar la cita es distinto de realizar la consulta. La cuadrícula de la imagen solo muestra un espacio seleccionado, sin fecha, hora ni datos personales; no se ha reservado una cita real."
+    },
+    "consent": {
+      "sourceWord": "consent",
+      "senses": {
+        "consent:meaning-1": {
+          "gloss": "consentimiento",
+          "definition": "El acuerdo informado y voluntario de una persona con un examen, tratamiento u otra atención propuesta."
+        }
+      },
+      "examples": [
+        {
+          "en": "Consent is discussed before the patient makes a decision about the proposed care.",
+          "translation": "Se habla del consentimiento antes de que el paciente decida sobre la atención propuesta."
+        },
+        {
+          "en": "An unsigned form alone does not show that permission has been given.",
+          "translation": "Un formulario sin firma por sí solo no muestra que se haya dado autorización."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "informed consent",
+          "translation": "consentimiento informado"
+        },
+        {
+          "en": "voluntary consent",
+          "translation": "consentimiento voluntario"
+        },
+        {
+          "en": "a consent discussion",
+          "translation": "una conversación sobre consentimiento"
+        }
+      ],
+      "tip": "Aquí, consent es el sustantivo consentimiento; hacer preguntas o firmar por sí solos no constituyen todo el proceso. La imagen muestra una conversación y un formulario sin firma, no una decisión final ni validez jurídica. El consentimiento puede ser verbal o expresarse de otras formas; los requisitos y la evaluación de capacidad dependen del contexto y del sistema jurídico."
+    },
+    "discharge": {
+      "sourceWord": "discharge",
+      "senses": {
+        "discharge:meaning-1": {
+          "gloss": "alta hospitalaria",
+          "definition": "El proceso de finalizar la estancia hospitalaria de un paciente y organizar su salida o traslado."
+        }
+      },
+      "examples": [
+        {
+          "en": "The discharge includes a discussion of the patient’s next steps after the hospital stay.",
+          "translation": "El alta hospitalaria incluye una conversación sobre los siguientes pasos del paciente después de la estancia."
+        },
+        {
+          "en": "The same patient later leaves the ward in everyday clothes with a bag.",
+          "translation": "La misma persona después sale de la sala con ropa cotidiana y una bolsa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "hospital discharge",
+          "translation": "alta hospitalaria"
+        },
+        {
+          "en": "a discharge plan",
+          "translation": "un plan de alta"
+        },
+        {
+          "en": "a discharge summary",
+          "translation": "un resumen de alta"
+        }
+      ],
+      "tip": "En este sentido, discharge es el sustantivo alta hospitalaria, no una secreción corporal ni una descarga eléctrica. El alta no significa necesariamente curación completa ni fin de toda atención y puede incluir traslado o seguimiento. La imagen explica una salida planificada, sin dar orientación individual ni instrucciones de alta."
+    },
+    "admission": {
+      "sourceWord": "admission",
+      "senses": {
+        "admission:meaning-1": {
+          "gloss": "ingreso hospitalario",
+          "definition": "El proceso de aceptar a un paciente en un hospital para una estancia con atención."
+        }
+      },
+      "examples": [
+        {
+          "en": "The admission begins with arrangements for the patient’s hospital stay.",
+          "translation": "El ingreso hospitalario comienza con los preparativos para la estancia del paciente."
+        },
+        {
+          "en": "The same person moves from the arrival desk to a bed in the ward.",
+          "translation": "La misma persona pasa del mostrador de llegada a una cama en la sala."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "hospital admission",
+          "translation": "ingreso hospitalario"
+        },
+        {
+          "en": "an admission assessment",
+          "translation": "una evaluación de ingreso hospitalario"
+        },
+        {
+          "en": "an admission to a ward",
+          "translation": "un ingreso en una sala de hospitalización"
+        }
+      ],
+      "tip": "Aquí, admission es el ingreso para hospitalización, no una confesión, entrada o solo el registro de una consulta ambulatoria. La imagen muestra un recorrido planificado; el ingreso también puede ser urgente o seguir otros caminos. El formulario y la cama no determinan motivo, diagnóstico ni clasificación real del paciente."
+    },
+    "medical-record": {
+      "sourceWord": "medical record",
+      "senses": {
+        "medical-record:meaning-1": {
+          "gloss": "expediente médico; historia clínica",
+          "definition": "Una colección registrada de información sobre la salud, evaluaciones y atención de una persona."
+        }
+      },
+      "examples": [
+        {
+          "en": "The medical record brings information from different care visits together.",
+          "translation": "El expediente médico reúne información de distintas visitas de atención."
+        },
+        {
+          "en": "The illustrated chart has separate sections for history, medicines and visits.",
+          "translation": "El expediente ilustrado tiene secciones separadas para antecedentes, medicamentos y consultas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an electronic medical record",
+          "translation": "un expediente médico electrónico"
+        },
+        {
+          "en": "a medical record entry",
+          "translation": "una anotación en el expediente médico"
+        },
+        {
+          "en": "a patient’s medical record",
+          "translation": "el expediente médico de un paciente"
+        }
+      ],
+      "tip": "Medical record es la información registrada de atención, no solo una hoja vacía, diploma o receta. La imagen es una plantilla de expediente en papel organizada en secciones con campos vacíos, sin datos, resultados ni antecedentes reales. Los expedientes también pueden ser electrónicos y el texto ilustrativo no autoriza acceso ni intercambio de información."
+    },
+    "prescription": {
+      "sourceWord": "prescription",
+      "senses": {
+        "prescription:meaning-1": {
+          "gloss": "receta médica; prescripción de medicamento",
+          "definition": "Una orden de un profesional autorizado para el medicamento de un paciente, registrada en papel o electrónicamente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The prescription passes from the clinician to the pharmacy as an order for medicine.",
+          "translation": "La receta médica pasa del profesional clínico a la farmacia como una orden de medicamento."
+        },
+        {
+          "en": "The same patient later presents the paper order while a pharmacist prepares a plain package.",
+          "translation": "La misma persona después presenta la orden de papel mientras un farmacéutico prepara un paquete sencillo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a written prescription",
+          "translation": "una receta por escrito"
+        },
+        {
+          "en": "an electronic prescription",
+          "translation": "una receta electrónica"
+        },
+        {
+          "en": "a prescription order",
+          "translation": "una orden de prescripción"
+        }
+      ],
+      "tip": "Aquí, prescription es la orden de medicamento, no el propio fármaco ni cualquier recomendación general. Prescriber puede ser un médico u otro profesional autorizado; las reglas varían. La imagen solo muestra el recorrido de una orden en papel hasta la farmacia, sin nombre de medicamento, dosis, firma ni receta utilizable."
+    },
+    "screening": {
+      "sourceWord": "screening",
+      "senses": {
+        "screening:meaning-1": {
+          "gloss": "tamizaje; cribado de salud",
+          "definition": "Una evaluación ofrecida a personas sin síntomas de la condición investigada para identificar a quienes podrían necesitar más estudios."
+        }
+      },
+      "examples": [
+        {
+          "en": "The screening offers an initial assessment to people without symptoms of the condition.",
+          "translation": "El tamizaje ofrece una evaluación inicial a personas sin síntomas de la condición."
+        },
+        {
+          "en": "A person may be offered further tests after this initial check.",
+          "translation": "A una persona se le pueden ofrecer más pruebas después de esta revisión inicial."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a screening programme",
+          "translation": "un programa de tamizaje"
+        },
+        {
+          "en": "a screening assessment",
+          "translation": "una evaluación de tamizaje"
+        },
+        {
+          "en": "a screening invitation",
+          "translation": "una invitación al tamizaje"
+        }
+      ],
+      "tip": "Aquí, screening es el tamizaje de salud, no la proyección de una película ni una malla de ventana. Es distinto del diagnóstico definitivo o de investigar síntomas ya presentes. La imagen explica la invitación y evaluación inicial; la apariencia saludable no demuestra elegibilidad ni resultado, y no se recomienda prueba, intervalo ni programa individual."
+    },
+    "triage": {
+      "sourceWord": "triage",
+      "senses": {
+        "triage:meaning-1": {
+          "gloss": "triaje; clasificación por urgencia",
+          "definition": "La evaluación y priorización de pacientes según la urgencia de sus necesidades de atención."
+        }
+      },
+      "examples": [
+        {
+          "en": "The triage gives priority according to urgency rather than arrival order alone.",
+          "translation": "El triaje da prioridad según la urgencia, no solo por el orden de llegada."
+        },
+        {
+          "en": "In this example, a later arrival is taken for assessment while another person continues to wait.",
+          "translation": "En este ejemplo, alguien que llegó después es llevado a evaluación mientras otra persona sigue esperando."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a triage assessment",
+          "translation": "una evaluación de triaje"
+        },
+        {
+          "en": "triage priority",
+          "translation": "prioridad de triaje"
+        },
+        {
+          "en": "a triage clinician",
+          "translation": "un profesional clínico de triaje"
+        }
+      ],
+      "tip": "Triage es la priorización de necesidades de atención, no solo recepción administrativa ni fila por llegada. La imagen muestra una decisión ilustrativa del equipo; la expresión facial, silla de ruedas o señal específica no son reglas de prioridad. No enseña algoritmos, categorías de colores, umbrales ni tratamientos."
+    },
+    "follow-up": {
+      "sourceWord": "follow-up",
+      "senses": {
+        "follow-up:meaning-1": {
+          "gloss": "seguimiento; consulta de seguimiento",
+          "definition": "Una consulta o evaluación posterior que revisa al paciente después de una visita, estudio o tratamiento anterior."
+        }
+      },
+      "examples": [
+        {
+          "en": "The follow-up reviews the patient’s progress after an earlier visit.",
+          "translation": "El seguimiento revisa la evolución del paciente después de una visita anterior."
+        },
+        {
+          "en": "The same patient returns to the clinician, who refers back to the earlier notes.",
+          "translation": "La misma persona vuelve al profesional clínico, que consulta las notas anteriores."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a follow-up appointment",
+          "translation": "una cita de seguimiento"
+        },
+        {
+          "en": "a follow-up assessment",
+          "translation": "una evaluación de seguimiento"
+        },
+        {
+          "en": "a clinical follow-up",
+          "translation": "un seguimiento clínico"
+        }
+      ],
+      "tip": "Aquí, follow-up es el sustantivo seguimiento; el verbo follow up suele escribirse en dos palabras. Es la continuación de la atención, no necesariamente primera consulta, enfermedad nueva ni prueba de curación. La imagen muestra el regreso de la misma persona, sin determinar plazo, resultado ni necesidad individual. El seguimiento puede ser presencial o a distancia."
+    },
+    "stress": {
+      "sourceWord": "stress",
+      "senses": {
+        "stress:meaning-1": {
+          "gloss": "esfuerzo mecánico",
+          "definition": "Fuerza interna por unidad de área que actúa a través de una superficie dentro de un material."
+        }
+      },
+      "examples": [
+        {
+          "en": "The average stress increases when the same axial force acts across a smaller area.",
+          "translation": "El esfuerzo mecánico promedio aumenta cuando la misma fuerza axial actúa sobre un área menor."
+        },
+        {
+          "en": "A cross-section helps explain how force is transmitted through the bar.",
+          "translation": "Una sección transversal ayuda a explicar cómo se transmite la fuerza a través de la barra."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "axial stress",
+          "translation": "esfuerzo axial"
+        },
+        {
+          "en": "average normal stress",
+          "translation": "esfuerzo normal promedio"
+        },
+        {
+          "en": "stress in a material",
+          "translation": "esfuerzo en un material"
+        }
+      ],
+      "tip": "Stress aquí es esfuerzo mecánico interno, no estrés emocional, la propia fuerza ni la deformación. En el ejemplo axial, la fuerza perpendicular a la sección dividida entre su área da el esfuerzo normal promedio; la distribución real puede no ser uniforme. Las flechas y colores no indican valores, límites admisibles, seguridad ni concentraciones reales de esfuerzo."
+    },
+    "strain": {
+      "sourceWord": "strain",
+      "senses": {
+        "strain:meaning-1": {
+          "gloss": "deformación unitaria",
+          "definition": "Una medida de la deformación respecto de una longitud o forma inicial."
+        }
+      },
+      "examples": [
+        {
+          "en": "Axial strain compares the change in length with the specimen’s original length.",
+          "translation": "La deformación unitaria axial compara el cambio de longitud con la longitud inicial de la probeta."
+        },
+        {
+          "en": "The elongated outline shows a change from the starting shape.",
+          "translation": "El contorno alargado muestra un cambio respecto de la forma inicial."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "axial strain",
+          "translation": "deformación unitaria axial"
+        },
+        {
+          "en": "tensile strain",
+          "translation": "deformación unitaria de tracción"
+        },
+        {
+          "en": "strain measurement",
+          "translation": "medición de deformación unitaria"
+        }
+      ],
+      "tip": "Strain es una medida relativa de deformación y no es stress, el esfuerzo mecánico. La deformación unitaria axial ilustrativa es el cambio de longitud dividido entre la longitud inicial; el alargamiento es positivo con esta convención. Un desplazamiento o la longitud final por sí solos no son deformación unitaria. La imagen no proporciona mediciones, porcentajes, comportamiento elástico ni límites reales de rotura."
+    },
+    "tension": {
+      "sourceWord": "tension",
+      "senses": {
+        "tension:meaning-1": {
+          "gloss": "tracción",
+          "definition": "Acción de tirar transmitida por un elemento, que tiende a alargarlo."
+        }
+      },
+      "examples": [
+        {
+          "en": "Tension pulls the two ends of the specimen away from each other.",
+          "translation": "La tracción tira de los dos extremos de la probeta en sentidos opuestos, separándolos."
+        },
+        {
+          "en": "The grips transfer pulling forces to the attached bar.",
+          "translation": "Las mordazas transmiten fuerzas de tracción a la barra sujeta entre ellas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "axial tension",
+          "translation": "tracción axial"
+        },
+        {
+          "en": "a member in tension",
+          "translation": "un elemento sometido a tracción"
+        },
+        {
+          "en": "tension in a cable",
+          "translation": "tracción en un cable"
+        }
+      ],
+      "tip": "Tension aquí es tracción mecánica, no tensión emocional ni voltaje. Los extremos se tiran en sentidos opuestos, alejándolos; compression tiende a acortar el elemento. La fuerza de tracción, el esfuerzo de tracción y la deformación unitaria de tracción son magnitudes distintas. El esquema no mide carga, alargamiento, resistencia ni seguridad reales."
+    },
+    "compression": {
+      "sourceWord": "compression",
+      "senses": {
+        "compression:meaning-1": {
+          "gloss": "compresión",
+          "definition": "Acción de empujar que tiende a acortar un elemento en la dirección de la carga."
+        }
+      },
+      "examples": [
+        {
+          "en": "Compression pushes the two ends of the specimen toward each other.",
+          "translation": "La compresión empuja los dos extremos de la probeta uno hacia el otro."
+        },
+        {
+          "en": "The loading plates remain in contact with the specimen’s end faces.",
+          "translation": "Las placas de carga permanecen en contacto con las caras de los extremos de la probeta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "axial compression",
+          "translation": "compresión axial"
+        },
+        {
+          "en": "a member in compression",
+          "translation": "un elemento sometido a compresión"
+        },
+        {
+          "en": "compression loading",
+          "translation": "carga de compresión"
+        }
+      ],
+      "tip": "Compression aquí es carga mecánica que tiende a acortar, no compresión de archivos ni simplemente presión de un fluido. Se distingue de tension, que tira del elemento. Un elemento comprimido también puede pandearse según las condiciones, pero la imagen elige un ejemplo recto entre dos placas; no muestra acortamiento, carga crítica ni capacidad reales."
+    },
+    "shear": {
+      "sourceWord": "shear",
+      "senses": {
+        "shear:meaning-1": {
+          "gloss": "cizallamiento",
+          "definition": "Carga que tiende a deslizar partes vecinas de un material unas respecto de otras."
+        }
+      },
+      "examples": [
+        {
+          "en": "Shear shifts the top of the block sideways relative to its base.",
+          "translation": "El cizallamiento desplaza lateralmente la parte superior del bloque respecto de su base."
+        },
+        {
+          "en": "The opposed forces act parallel to the loaded faces.",
+          "translation": "Las fuerzas opuestas actúan paralelas a las caras cargadas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "shear loading",
+          "translation": "carga de cizallamiento"
+        },
+        {
+          "en": "shear deformation",
+          "translation": "deformación por cizallamiento"
+        },
+        {
+          "en": "a shear force",
+          "translation": "una fuerza cortante"
+        }
+      ],
+      "tip": "Shear aquí es cizallamiento del material, no la tijera ni necesariamente corte o separación. Las fuerzas actúan paralelas a la superficie y pueden cambiar los ángulos de la forma; tension y compression axiales tienen otros efectos. La imagen muestra un bloque continuo con deformación cualitativa, no rotura, un ángulo medido ni esfuerzo admisible."
+    },
+    "bending": {
+      "sourceWord": "bending",
+      "senses": {
+        "bending:meaning-1": {
+          "gloss": "flexión",
+          "definition": "Deformación que curva la longitud de un elemento bajo cargas transversales o momentos aplicados."
+        }
+      },
+      "examples": [
+        {
+          "en": "Bending curves the supported beam under the central load.",
+          "translation": "La flexión curva la viga apoyada bajo la carga central."
+        },
+        {
+          "en": "The beam remains in contact with both end supports.",
+          "translation": "La viga permanece en contacto con ambos apoyos de los extremos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "beam bending",
+          "translation": "flexión de vigas"
+        },
+        {
+          "en": "bending deformation",
+          "translation": "deformación por flexión"
+        },
+        {
+          "en": "a bending moment",
+          "translation": "un momento flector"
+        }
+      ],
+      "tip": "Bending es la curvatura a lo largo del elemento; torsion es la torsión alrededor del eje longitudinal. Deflection describe el desplazamiento de un punto respecto de su posición de referencia, no el propio nombre de la flexión. La imagen muestra una viga simplemente apoyada con carga central y curvatura ilustrativa exagerada; no determina deformación permanente, deflexión, resistencia ni seguridad."
+    },
+    "torsion": {
+      "sourceWord": "torsion",
+      "senses": {
+        "torsion:meaning-1": {
+          "gloss": "torsión",
+          "definition": "Deformación de un elemento que se retuerce alrededor de su eje longitudinal por un par torsor."
+        }
+      },
+      "examples": [
+        {
+          "en": "Torsion twists one end of the shaft relative to the other.",
+          "translation": "La torsión gira un extremo del eje respecto del otro."
+        },
+        {
+          "en": "The fixed support resists the torque applied at the free end.",
+          "translation": "El apoyo fijo resiste al par aplicado en el extremo libre."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "shaft torsion",
+          "translation": "torsión de ejes"
+        },
+        {
+          "en": "torsion under load",
+          "translation": "torsión bajo carga"
+        },
+        {
+          "en": "an angle of torsion",
+          "translation": "un ángulo de torsión"
+        }
+      ],
+      "tip": "Torsion es deformación por torsión, distinta de la rotación rígida de todo el elemento o de bending. Torque es el par aplicado; torsion describe su efecto de retorcer el elemento. La línea superficial ilustrativa muestra el giro relativo de las secciones y no es un cable ni una ranura real; no se indican ángulos, esfuerzos, límites de fluencia ni capacidad reales."
+    },
+    "deflection": {
+      "sourceWord": "deflection",
+      "senses": {
+        "deflection:meaning-1": {
+          "gloss": "deflexión",
+          "definition": "Desplazamiento de un punto de un elemento cargado respecto de su posición de referencia."
+        }
+      },
+      "examples": [
+        {
+          "en": "The tip deflection is measured from the beam’s unloaded reference position.",
+          "translation": "La deflexión de la punta se mide desde la posición de referencia de la viga sin carga."
+        },
+        {
+          "en": "The cantilever remains attached to the fixed support at its left end.",
+          "translation": "La viga en voladizo permanece sujeta al apoyo fijo en su extremo izquierdo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "tip deflection",
+          "translation": "deflexión de la punta"
+        },
+        {
+          "en": "beam deflection",
+          "translation": "deflexión de la viga"
+        },
+        {
+          "en": "deflection under load",
+          "translation": "deflexión bajo carga"
+        }
+      ],
+      "tip": "Deflection aquí es el desplazamiento de un punto del elemento respecto de la referencia, no la fuerza aplicada. La imagen compara la punta de una viga en voladizo con el contorno sin carga; bending se refiere a la curvatura del elemento. La representación cualitativa no determina medidas reales, límites admisibles, recuperación elástica ni rotura."
+    },
+    "vibration": {
+      "sourceWord": "vibration",
+      "senses": {
+        "vibration:meaning-1": {
+          "gloss": "vibración",
+          "definition": "Movimiento mecánico repetido de ida y vuelta alrededor de una posición de referencia o equilibrio."
+        }
+      },
+      "examples": [
+        {
+          "en": "Vibration moves the mounted body back and forth about its resting position.",
+          "translation": "La vibración mueve el cuerpo montado de un lado a otro alrededor de su posición de reposo."
+        },
+        {
+          "en": "Faint outlines show successive positions of the same attached body.",
+          "translation": "Los contornos tenues muestran posiciones sucesivas del mismo cuerpo sujeto al conjunto."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "mechanical vibration",
+          "translation": "vibración mecánica"
+        },
+        {
+          "en": "vibration of a machine",
+          "translation": "vibración de una máquina"
+        },
+        {
+          "en": "vibration damping",
+          "translation": "amortiguamiento de vibraciones"
+        }
+      ],
+      "tip": "Vibration es movimiento mecánico de ida y vuelta, no desplazamiento en un solo sentido ni varias máquinas separadas. Los contornos tenues representan el mismo cuerpo en instantes distintos. Amplitude es la extensión máxima del movimiento y frequency es el número de ciclos por unidad de tiempo; la imagen no mide frecuencia, amplitud, fuente de excitación, estabilidad ni eficacia del aislamiento."
+    },
+    "frequency": {
+      "sourceWord": "frequency",
+      "senses": {
+        "frequency:meaning-1": {
+          "gloss": "frecuencia",
+          "definition": "El número de ciclos completos de oscilación por unidad de tiempo."
+        }
+      },
+      "examples": [
+        {
+          "en": "Frequency describes how many complete cycles occur in a unit of time.",
+          "translation": "La frecuencia describe cuántos ciclos completos ocurren por unidad de tiempo."
+        },
+        {
+          "en": "More cycles within the same time interval indicate a higher repetition rate.",
+          "translation": "Más ciclos en el mismo intervalo de tiempo indican una mayor tasa de repetición."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "vibration frequency",
+          "translation": "frecuencia de vibración"
+        },
+        {
+          "en": "a natural frequency",
+          "translation": "una frecuencia natural"
+        },
+        {
+          "en": "frequency of oscillation",
+          "translation": "frecuencia de oscilación"
+        }
+      ],
+      "tip": "Frequency aquí es el número de ciclos por unidad de tiempo; no es amplitude ni period, el tiempo de un ciclo. La comparación gráfica solo tiene sentido con intervalos de tiempo iguales. Las líneas ilustrativas no proporcionan valores, unidades, lecturas de instrumentos ni la frecuencia real de una máquina; la repetición regular es un ejemplo elegido."
+    },
+    "amplitude": {
+      "sourceWord": "amplitude",
+      "senses": {
+        "amplitude:meaning-1": {
+          "gloss": "amplitud",
+          "definition": "El mayor desplazamiento respecto del equilibrio en la oscilación descrita."
+        }
+      },
+      "examples": [
+        {
+          "en": "Amplitude measures the largest displacement from the equilibrium position.",
+          "translation": "La amplitud mide el mayor desplazamiento respecto de la posición de equilibrio."
+        },
+        {
+          "en": "The highlighted distance runs from the center line to one extreme.",
+          "translation": "La distancia resaltada va de la línea central a una de las posiciones extremas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "vibration amplitude",
+          "translation": "amplitud de vibración"
+        },
+        {
+          "en": "oscillation amplitude",
+          "translation": "amplitud de oscilación"
+        },
+        {
+          "en": "an amplitude measurement",
+          "translation": "una medición de amplitud"
+        }
+      ],
+      "tip": "Amplitude aquí se mide desde el equilibrio hasta un extremo de la oscilación; la distancia pico a pico equivale al doble de la amplitud en una oscilación simétrica. No es frequency ni velocidad de movimiento. La imagen muestra una distancia cualitativa y no determina valores, unidades, lecturas, variación de la amplitud en el tiempo ni seguridad real."
+    },
+    "resonance": {
+      "sourceWord": "resonance",
+      "senses": {
+        "resonance:meaning-1": {
+          "gloss": "resonancia",
+          "definition": "Una respuesta oscilatoria intensificada cuando una excitación periódica está cerca de una frecuencia natural del sistema."
+        }
+      },
+      "examples": [
+        {
+          "en": "Resonance can produce a large response when the driving frequency is near a natural frequency.",
+          "translation": "La resonancia puede producir una respuesta grande cuando la frecuencia de excitación está cerca de una frecuencia natural."
+        },
+        {
+          "en": "Damping affects the height and width of the response peak.",
+          "translation": "El amortiguamiento afecta la altura y el ancho del pico de respuesta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "mechanical resonance",
+          "translation": "resonancia mecánica"
+        },
+        {
+          "en": "a resonance peak",
+          "translation": "un pico de resonancia"
+        },
+        {
+          "en": "resonance in a structure",
+          "translation": "resonancia en una estructura"
+        }
+      ],
+      "tip": "Resonance aquí es resonancia mecánica bajo excitación periódica, no cualquier vibración ni simplemente un sonido fuerte. La gráfica cualitativa de respuesta frente a frecuencia de excitación muestra un pico finito cerca de la frecuencia natural; lo afectan el amortiguamiento, el tipo de respuesta y las condiciones de excitación. El pico no tiene que coincidir exactamente con la frecuencia natural y no garantiza amplitud infinita, rotura, eficiencia ni valores medidos."
     }
   }
 }
