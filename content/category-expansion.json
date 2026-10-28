@@ -2378,7 +2378,121 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 170,
+      "targetCategoryWords": 182,
+      "entryIds": [
+        "cerebrum",
+        "cerebellum",
+        "brainstem",
+        "spinal-cord",
+        "vertebra",
+        "intervertebral-disc",
+        "meniscus",
+        "achilles-tendon",
+        "neuron",
+        "synapse",
+        "red-blood-cell",
+        "white-blood-cell"
+      ],
+      "units": [
+        {
+          "id": "nervous-system-anatomy",
+          "title": "Brain, cord and nerve-cell anatomy",
+          "entryIds": [
+            "cerebrum",
+            "cerebellum",
+            "brainstem",
+            "spinal-cord",
+            "neuron",
+            "synapse"
+          ]
+        },
+        {
+          "id": "musculoskeletal-anatomy",
+          "title": "Vertebral and knee/ankle structures",
+          "entryIds": [
+            "vertebra",
+            "intervertebral-disc",
+            "meniscus",
+            "achilles-tendon"
+          ]
+        },
+        {
+          "id": "blood-cells",
+          "title": "Red and white blood cells",
+          "entryIds": [
+            "red-blood-cell",
+            "white-blood-cell"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-12",
+      "releaseId": "2026-10-preview-17",
+      "status": "published-preview",
+      "objective": "Describe nervous-system, musculoskeletal and blood-cell anatomy, plus engineering materials in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 170,
+      "targetCategoryWords": 182,
+      "entryIds": [
+        "steel",
+        "aluminium",
+        "copper",
+        "brass",
+        "bronze",
+        "stainless-steel",
+        "cast-iron",
+        "alloy",
+        "composite",
+        "ceramic",
+        "polymer",
+        "plywood"
+      ],
+      "units": [
+        {
+          "id": "engineering-metals",
+          "title": "Common engineering metals and alloys",
+          "entryIds": [
+            "steel",
+            "aluminium",
+            "copper",
+            "brass",
+            "bronze",
+            "stainless-steel",
+            "cast-iron",
+            "alloy"
+          ]
+        },
+        {
+          "id": "structured-materials",
+          "title": "Composites, ceramics, polymers and wood laminations",
+          "entryIds": [
+            "composite",
+            "ceramic",
+            "polymer",
+            "plywood"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-12",
+      "releaseId": "2026-10-preview-17",
+      "status": "published-preview",
+      "objective": "Describe nervous-system, musculoskeletal and blood-cell anatomy, plus engineering materials in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-11"
+  "activePassId": "specialist-500-batch-12"
 }

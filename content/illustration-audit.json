@@ -1964,21 +1964,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/energy-v2.svg",
-        "sha256": "09b5bdb52e3adc9f1b6e5f1e4ac3e91efd7f07d513a7b1d29fdd8f6624f273c2"
+        "path": "atlas/img/energy-v3.webp",
+        "sha256": "c1131bab5ccb6031139e8a62fe6d01e7b57cbabdc45d533732f5204ce399bfdd"
       },
       "visual": {
-        "expectedCue": "One pendulum is shown at a raised position and at its lowest moving position, with an equal-length arc and common pivot showing stored energy becoming motion.",
+        "expectedCue": "An earlier raised ghost sphere becomes the same rolling sphere lower on a track, with equal-height potential-to-total-kinetic energy bars in an idealized comparison.",
         "decision": "replaced",
-        "reason": "The prior playground scene suggested being energetic rather than an observable physical energy transformation."
+        "reason": "Actual final1254source,512WebP and120PNG inspected. Same-sized earlier dashed amber and current silver spheres touch the supported descending/flattening track; the first is a ghost time state, not a second moving mass. Descending trajectory and rightward motion arrows refer to that transition. Equal-width/equal-height bars share one baseline and labels are exactly E_p and E_k, rendered with subscripts. At120px the raised/lower positions and equal energy bars remain visible. The invalid generated height dimension and all witness guides were removed; no false Δh survives. Earlier pendulum candidates with unequal radii/masses and an intermediate ramp candidate with wrong height annotation remain rejected privately. This is an ideal lossless rolling example with total kinetic energy including rotation, not measured data, power or energy creation.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver mechanical teaching model on slate with restrained amber prior-state/motion and energy cues, replacing inherited cream flat SVG without changing lexical/sense/audio identities."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
-      },
-      "generation": {
-        "method": "AI-assisted code-authored SVG diagram",
-        "design": "A common pendulum pivot, equal cord lengths and an explicit circular motion arc make the two positions geometrically consistent."
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c1131bab5ccb6031139e8a62fe6d01e7b57cbabdc45d533732f5204ce399bfdd",
+          "inspectedAt": "2026-10-28T06:01:10.464401+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: equal-size dashed/faded raised and solid lower spheres show successive positions on one supported descending track; a dashed center-path cue and rightward arrow indicate motion. Lower bars marked E_p and E_k have equal heights on one common baseline, correctly illustrating an ideal loss-free potential-to-total-kinetic transfer, with total rolling kinetic energy including translation and rotation. No numerical speed, height or measured-energy value is claimed. The track/support/contact geometry is coherent and no erroneous vertical drop guide remains. Symbols and conversion cue remain readable at120px in slate/silver/amber; this is an idealized teaching example, not an experimental result. Second AI review only; independent human specialist and language review remain pending."
+        }
       }
     },
     {
@@ -2823,17 +2834,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/bandage.svg",
-        "sha256": "d954e95d5d8985a803a60ff1aa64bc0fe0992968ac3e8915f3782e64f94a8292"
+        "path": "atlas/img/bandage-v2.webp",
+        "sha256": "2aa22e564ee01d26947fcdd92002e66bd6068b45bf047f32b267efdb5b207670"
       },
       "visual": {
-        "expectedCue": "A gauze roll has a visible unrolled woven strip used to cover or support an injury.",
-        "decision": "retained",
-        "reason": "Retained after pixel inspection: A gauze roll has a visible unrolled woven strip used to cover or support an injury."
+        "expectedCue": "Two clean woven bandage rolls sit in a clinical supply tray, with one continuous strip unrolling from the outside of the foreground roll.",
+        "decision": "replaced",
+        "reason": "Actual1254source,512WebP and120PNG inspected. Two coherent rolled textile strips are grounded on a shallow tray. Foreground woven strip visibly continues from the roll outer winding to a broad gently curved free end; it does not emerge from a cardboard center. The width/roll/strip cue distinguishes bandage from a small adhesive plaster or cotton ball. No wound, application technique, staining, medical cross or branded packaging. At120px the rolls and continuous strip remain clear.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Cool-white clinical textile rendering with a restrained pale-mint tray, replacing inherited warm flat SVG while preserving the selected noun sense."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2aa22e564ee01d26947fcdd92002e66bd6068b45bf047f32b267efdb5b207670",
+          "inspectedAt": "2026-10-28T05:36:00.087353+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full source, 512px WebP and 120px thumbnail. The foreground woven gauze roll has a continuous unrolled strip emerging from its outer layer and resting on the relevant mint clinical tray; a smaller closed roll reinforces the same material. Coil, woven texture and strip remain readable at120px, with no detached floating fabric or treatment steps. Cool-white/mint restrained clinical rendering, no unrelated props or branding; independent human review remains pending."
+        }
       }
     },
     {
@@ -22647,6 +22673,1206 @@
             120
           ],
           "finding": "Actually inspected full original and final512/120: connected top header sprays blue water down onto fill and into the lower basin, whose outlet is separate from the incoming header. Side air inlets are above the water basin and below fill; amber arrows turn upward through the fill to the induced-draft fan discharge, illustrating the selected counterflow example. Top arrow represents bulk exhaust airflow, not flow through motor internals. No chimney smoke or combustion source is depicted. Frame/header/fan supports are coherent; water/air direction contrast survives120px. Silver/slate equipment and amber arrows with purposeful blue water match the engineering diagram language. Second AI inspection only; independent human specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "cerebrum",
+      "sourceWord": "cerebrum",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "cerebrum:meaning-1",
+          "pos": "n.",
+          "en": "The largest brain region, formed by two cerebral hemispheres and involved in thought, sensation and voluntary movement."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cerebrum has two large hemispheres separated by a deep fissure.",
+          "senseId": "cerebrum:meaning-1"
+        },
+        {
+          "en": "The folded outer surface of the cerebrum is the cerebral cortex.",
+          "senseId": "cerebrum:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cerebrum.webp",
+        "sha256": "0f06433c1b9c998a13da3b76944a1414d1d2921d1ea26d7c0ea93b3081860282"
+      },
+      "visual": {
+        "expectedCue": "Two dominant mint cerebral hemispheres with a deep midline fissure are distinct from subdued inferior brain context.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Two large broad-folded cerebral hemispheres are separated by a continuous longitudinal fissure. Smaller finely folded cerebellar tissue and short brainstem context remain subdued ivory inferiorly rather than sharing the mint teaching highlight. No arbitrary functional map, vessel web, detached cortex or all-brain single-colour icon. Hemisphere/selected-region contrast remains clear at120px. Surface gyri are simplified gross educational anatomy, not an exact individual cortical map; specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise organic clinical model on empty cool-white/mint, with restrained selected-region tint and no labels, props or readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0f06433c1b9c998a13da3b76944a1414d1d2921d1ea26d7c0ea93b3081860282",
+          "inspectedAt": "2026-10-28T05:56:58.778474+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. Two dominant mint cerebral hemispheres have a deep midline longitudinal fissure and broad simplified gyri. Inferior finely folded cerebellar tissue and short stem are subdued ivory. Actual view is posterior/upper oblique rather than a claimed frontal map; selected-region hierarchy remains clear at120. No detached cortex or arbitrary functional maps. Clean precise clinical educational rendering, no text, fake readings or decorative props. Independent human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "cerebellum",
+      "sourceWord": "cerebellum",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "cerebellum:meaning-1",
+          "pos": "n.",
+          "en": "The lower rear brain region that helps coordinate movement and balance."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cerebellum lies below the rear of the cerebral hemispheres.",
+          "senseId": "cerebellum:meaning-1"
+        },
+        {
+          "en": "The cerebellum has fine closely spaced folds on its surface.",
+          "senseId": "cerebellum:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cerebellum.webp",
+        "sha256": "9d42f6e4a48599e195f240523e5ec1eb6b88a9a2ba52b7f3c086718f1c8daf66"
+      },
+      "visual": {
+        "expectedCue": "Mint fine-folded cerebellar hemispheres and central vermis lie behind the stem and below subdued cerebral hemispheres.",
+        "decision": "added",
+        "reason": "Actual full1254 and final512/120 inspected. Selected cerebellum is a smaller posterior-inferior paired structure with closely spaced transverse folia and a narrower central vermis. Larger broad-folded cerebral hemispheres above and anterior brainstem/cord continuation are subdued ivory. Cerebellum is attached behind the stem rather than floating or placed atop cerebrum. Regional position and fine-versus-broad fold distinction stay clear at120px. Gross model only, not a functional map or exact individual folial pattern; specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical organic model, pale-mint selected tissue/ivory context on empty cool-white. No fake vessel web, labels, props or readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9d42f6e4a48599e195f240523e5ec1eb6b88a9a2ba52b7f3c086718f1c8daf66",
+          "inspectedAt": "2026-10-28T05:56:58.778474+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. Paired mint cerebellar hemispheres and central vermis sit posteroinferior to subdued cerebral hemispheres, with visibly finer folia than the broad cerebral gyri. Brainstem lies anterior, not above the cerebrum. Selection remains distinct at120; transparent context is an educational model. Clean precise clinical educational rendering, no text, fake readings or decorative props. Independent human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "brainstem",
+      "sourceWord": "brainstem",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "brainstem:meaning-1",
+          "pos": "n.",
+          "en": "The brain region formed by the midbrain, pons and medulla, connecting higher brain regions with the spinal cord."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The brainstem continues downwards into the spinal cord.",
+          "senseId": "brainstem:meaning-1"
+        },
+        {
+          "en": "The pons forms a bulge on the front of the brainstem.",
+          "senseId": "brainstem:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/brainstem.webp",
+        "sha256": "dbc3b47fa50036e65f4c7d0d52d232fc74ecad365eb7f6b0b28a9510483ec5b6"
+      },
+      "visual": {
+        "expectedCue": "A continuous mint brainstem with upper midbrain, anterior pons bulge and tapering medulla between subdued cerebral context and spinal cord.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full source and converted 512px WebP and 120px thumbnail. The front-left pons bulge and tapering medulla/cord are coherent, with the cerebellum posterior-right. The small anterior upper-stem protrusion in candidate1 has been removed; rejected full/512/120 files and finding remain private. This is a simplified gross lateral model, not a precise nuclear or cranial-nerve map. Independent human anatomical review remains pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Cool-white/mint precise organic clinical rendering, one highlighted continuous region with quiet ivory anatomy context; no decorative props, labels, disease or invented vessel networks."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "dbc3b47fa50036e65f4c7d0d52d232fc74ecad365eb7f6b0b28a9510483ec5b6",
+          "inspectedAt": "2026-10-28T05:56:58.778474+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. Mint upper stalk, rounded anterior pontine bulge and tapering medulla form a continuous connection toward the cord, anterior to the subdued cerebellum. Upper stalk has no competing detached nub. Midline context is simplified and no tiny nuclei or diagnostic anatomy are claimed. Clean precise clinical educational rendering, no text, fake readings or decorative props. Independent human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "spinal-cord",
+      "sourceWord": "spinal cord",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "spinal-cord:meaning-1",
+          "pos": "n.",
+          "en": "The cord of nervous tissue within the vertebral canal that carries signals and helps organise reflexes."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The spinal cord lies inside the vertebral canal.",
+          "senseId": "spinal-cord:meaning-1"
+        },
+        {
+          "en": "A cross-section of the spinal cord has central grey matter surrounded by white matter.",
+          "senseId": "spinal-cord:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/spinal-cord.webp",
+        "sha256": "2cdca98d690d485c52c5838a98788494666e100870bfa8efb0820d1a312126e5"
+      },
+      "visual": {
+        "expectedCue": "A short mint neural cord inside a ghosted vertebral canal, with paired nerve-root bundles and a cut face showing central H-shaped grey matter surrounded by white matter.",
+        "decision": "added",
+        "reason": "Actually inspected full source and converted512/120 pixels. The mint soft cord is continuous through a short three-vertebra context and remains distinct from ivory bone. Its top transverse cut shows central butterfly/H grey matter within peripheral pale matter, with small paired root bundles leaving laterally. Bone is intentionally cut away/ghosted to reveal the canal; this is not a complete spinal-column length or a detailed root/ganglion map. Human anatomical review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise cool-white/mint clinical anatomy rendering, quiet ivory context, no decorative objects, labels, diagnostic data or disease."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2cdca98d690d485c52c5838a98788494666e100870bfa8efb0820d1a312126e5",
+          "inspectedAt": "2026-10-28T05:56:58.778474+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. A continuous mint cord is visibly inside an opened bony vertebral canal, with paired emerging nerve roots and an exposed cross-section showing central butterfly gray matter within paler white matter. The selected nervous tissue remains distinct from the surrounding vertebrae at120. This is a short educational cutaway, not the entire adult column or surgical exposure. Clean precise clinical educational rendering, no text, fake readings or decorative props. Independent human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "vertebra",
+      "sourceWord": "vertebra",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "vertebra:meaning-1",
+          "pos": "n.",
+          "en": "A single bone of the vertebral column, typically with a body and an arch around a central opening."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The vertebra has a broad body and an arch around an opening.",
+          "senseId": "vertebra:meaning-1"
+        },
+        {
+          "en": "The illustration shows one lumbar vertebra rather than a whole spine.",
+          "senseId": "vertebra:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/vertebra.webp",
+        "sha256": "6a6435a77e60caf2ce46577e3f3e6d416ac21e50f58510636bf4d26ef40859cb"
+      },
+      "visual": {
+        "expectedCue": "One isolated lumbar vertebra with a broad body, complete arch around a single vertebral foramen, paired transverse processes and a short broad posterior spinous process.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full source, 512px WebP and120px thumbnail. The single broad lumbar body lies anterior to one enclosed vertebral foramen; pedicles/arch, two lateral transverse processes and paired superior facets are coherent. One targeted correction shortened and broadened the previously narrow posterior spinous projection into a stout blunt lumbar form. Candidate1 and negative finding retained privately. No ribs, dens or extra cervical foramina. Simplified teaching model; human anatomical review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise ivory bone on cool-white/mint background, one object, no labels, decorative props or disease."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6a6435a77e60caf2ce46577e3f3e6d416ac21e50f58510636bf4d26ef40859cb",
+          "inspectedAt": "2026-10-28T05:56:58.778474+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. One isolated lumbar-type vertebra has a large anterior body, arch enclosing a single vertebral foramen, paired transverse/articular projections and short broad posterior spinous process. No stacked column or cervical transverse holes. Body and open arch are still recognizable at120; regional anatomy varies. Clean precise clinical educational rendering, no text, fake readings or decorative props. Independent human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "intervertebral-disc",
+      "sourceWord": "intervertebral disc",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "intervertebral-disc:meaning-1",
+          "pos": "n.",
+          "en": "A pad with a fibrous outer ring and a softer centre between adjacent vertebral bodies."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The intervertebral disc lies between two vertebral bodies.",
+          "senseId": "intervertebral-disc:meaning-1"
+        },
+        {
+          "en": "The outer ring of the intervertebral disc encloses its softer centre.",
+          "senseId": "intervertebral-disc:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/intervertebral-disc.webp",
+        "sha256": "ae3ca48f8761a654c8f056f837dbf82b6c8f988113b5e0e9fd449f7fd5d46cbb"
+      },
+      "visual": {
+        "expectedCue": "A single horizontal intervertebral disc between vertebral bodies, with concentric annular lamellae surrounding a contained softer nucleus in the same transverse plane.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full source,512px WebP and120px thumbnail. The upper vertebral body has an explanatory translucent/cutaway anterior region, exposing the disc top. Mint annulus rings now surround a peach central nucleus on a flattened horizontal plane between the bodies, rather than the first candidate's misleading front-facing vertical ellipses. Nucleus remains contained; no extrusion, tear or canal migration. First candidate and finding preserved. Colors and cutaway simplify tissue, with human specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise cool-white/mint clinical model with subdued ivory vertebral support, no decorative props, labels, fake readings or treatment imagery."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ae3ca48f8761a654c8f056f837dbf82b6c8f988113b5e0e9fd449f7fd5d46cbb",
+          "inspectedAt": "2026-10-28T05:56:58.778474+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. Blue fibrous concentric annular lamellae surround one softer central peach nucleus on the exposed horizontal disc surface between two vertebral bodies. Cartilaginous interfaces remain below and above; no nucleus extrusion or nerve-canal substitution. Cutaway is explanatory and grossly simplified, not a diagnostic scan. Clean precise clinical educational rendering, no text, fake readings or decorative props. Independent human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "meniscus",
+      "sourceWord": "meniscus",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "meniscus:meaning-1",
+          "pos": "n.",
+          "en": "A curved fibrocartilage pad between the femur and tibia in the knee."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The meniscus forms a curved pad between the thighbone and shinbone.",
+          "senseId": "meniscus:meaning-1"
+        },
+        {
+          "en": "The knee has a medial meniscus and a lateral meniscus.",
+          "senseId": "meniscus:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/meniscus.webp",
+        "sha256": "703529d14789db436b03e7b83f371d5931d2462bd24aff32a237447ae295d29b"
+      },
+      "visual": {
+        "expectedCue": "Two crescent wedge-shaped meniscal pads rest on the proximal tibial joint surfaces, with their open inner horns directed toward the central region.",
+        "decision": "added",
+        "reason": "Actual1254source,512WebP and120PNG inspected. Two separate mint crescent pads sit on the tibial plateau rather than float; each has a thick outer rim and thinner inner free edge. One is a more open C and the other rounder, both with open medial-facing horns, not closed discs. Pale plateau/intercondylar eminences and a short tibial-shaft continuation locate the knee fibrocartilage. At120px the paired crescents remain distinct. Simplified isolated upper-tibia model without injury/operation or side-specific diagnostic claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical anatomical model on cool white, mint meniscal focus and pale-blue/ivory supporting bone; no irrelevant props or measurements."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "703529d14789db436b03e7b83f371d5931d2462bd24aff32a237447ae295d29b",
+          "inspectedAt": "2026-10-28T05:36:00.086956+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full source, 512px WebP and 120px thumbnail. Two mint crescent fibrocartilage pads lie on the proximal tibial plateau with open separated horn ends toward the intercondylar region; the viewer-left pad is more open C-shaped and the viewer-right pad rounder but remains open. Outer raised rims taper toward thinner inner margins. Neither is a complete ring, floating doughnut or femoral attachment. Clean cool-white/mint clinical model; gross normal anatomy is simplified and independent human specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "achilles-tendon",
+      "sourceWord": "Achilles tendon",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "achilles-tendon:meaning-1",
+          "pos": "n.",
+          "en": "The strong tendon joining the calf muscles to the back of the heel bone."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The Achilles tendon joins the calf muscles to the heel bone.",
+          "senseId": "achilles-tendon:meaning-1"
+        },
+        {
+          "en": "The Achilles tendon runs behind the ankle.",
+          "senseId": "achilles-tendon:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/achilles-tendon.webp",
+        "sha256": "edb2ae696fbaec87cf3e1c3ef7428fdb94d41fda85b6905c482345a6a924eb00"
+      },
+      "visual": {
+        "expectedCue": "One broad white Achilles tendon runs from the posterior calf muscle complex behind the ankle to the posterior heel bone, in a quiet posterior-lateral cutaway.",
+        "decision": "added",
+        "reason": "Actually inspected full source and512/120 conversions. Paired upper gastrocnemius contours and deeper calf context converge toward a broad continuous fibrous white tendon behind the ankle, ending on the posterior calcaneus. It is distinct from bone and the thinner structures across the foot/sole. No rupture, stretch instruction, treatment or pathology is depicted. Context is a simplified gross muscle/tendon model; fine neighbouring ligaments are not a labeled atlas. Human anatomical review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise nongraphic clinical organic rendering with natural restrained muscle color, white tendon and cool-white/mint quiet background; no decorative props, labels or fake readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "edb2ae696fbaec87cf3e1c3ef7428fdb94d41fda85b6905c482345a6a924eb00",
+          "inspectedAt": "2026-10-28T05:56:58.778474+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. One broad white tendon is continuous from the calf muscle complex to the posterior calcaneal heel insertion, distinct from smaller ankle ligaments and plantar tissues. The calf/heel connection is clear at120. Natural tissue colors sit on cool-white clinical ground; no rupture, procedure or invented measurement. Clean precise clinical educational rendering, no text, fake readings or decorative props. Independent human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "neuron",
+      "sourceWord": "neuron",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "neuron:meaning-1",
+          "pos": "n.",
+          "en": "A nerve cell specialised for receiving and transmitting signals."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The illustrated neuron has a cell body, branching dendrites and one long axon.",
+          "senseId": "neuron:meaning-1"
+        },
+        {
+          "en": "Neurons carry electrical signals along their membranes.",
+          "senseId": "neuron:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/neuron.webp",
+        "sha256": "fe8e388d71df5e54a92e93ab463584217edcd9a5aabf51aa89964290e1d8dfd5"
+      },
+      "visual": {
+        "expectedCue": "A typical multipolar neuron has one nucleus-containing cell body, branching dendrites, one continuous myelinated axon with gaps and a terminal arbor.",
+        "decision": "added",
+        "reason": "Actual1254source,512WebP and120PNG inspected. One soma with one nucleus/nucleolus is continuous with shorter branching dendrites and one long axon. Four pale-blue myelin sleeves wrap that same continuous mint axon; exposed segments separate sleeves. At the far end one terminal arbor has fine twigs/boutons, not a second cell body or extra parallel axon. All cell processes stay in frame and the body/long-axon/arbor relationship survives120px. This is an explicit typical multipolar example, not universal neuron geometry or a measured signal.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise mint/pale-blue cellular teaching rendering on cool white with restrained warm nucleus accent, no lightning or decorative symbols."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "fe8e388d71df5e54a92e93ab463584217edcd9a5aabf51aa89964290e1d8dfd5",
+          "inspectedAt": "2026-10-28T05:36:00.087279+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full source, 512px WebP and 120px thumbnail. One soma with one visible nucleus and branching dendrites feeds one continuous long axon, segmented pale-blue myelin with visible intervening gaps, then distal terminal branches. No second competing axon or disconnected cable is visible. A typical multipolar myelinated neuron is clearly presented; shapes and myelination are not universal. Clean mint clinical rendering with quiet background; AI review only, independent human review pending."
+        }
+      }
+    },
+    {
+      "entryId": "synapse",
+      "sourceWord": "synapse",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "synapse:meaning-1",
+          "pos": "n.",
+          "en": "A junction where a neuron passes a signal to another cell."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The synapse shown here has a small gap between two cell membranes.",
+          "senseId": "synapse:meaning-1"
+        },
+        {
+          "en": "In a chemical synapse, a released messenger can bind to receptors on the receiving cell.",
+          "senseId": "synapse:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/synapse.webp",
+        "sha256": "7cb42cc839ba5b7e6762aca5365a227775a4241f8153f2fd69840c380fce4562"
+      },
+      "visual": {
+        "expectedCue": "A chemical terminal releases small transmitter symbols from a fused vesicle across a visible cleft toward receptors in a separate postsynaptic membrane.",
+        "decision": "added",
+        "reason": "Actual1254source,512WebP and120PNG inspected. The upper axon terminal cutaway contains small transmitter-filled vesicles and one omega-shaped fusion opening continuous with its lower membrane. Only small amber transmitter dots cross the clearly open cleft; intact vesicles stay in the terminal. Receptor shapes are embedded in the separate lower membrane facing the gap, with no fused cell bridge or invented nucleus in the terminal. Terminal/cleft/receptors remain clear120px. Deliberately magnified chemical-synapse example, no molecular identity/actual scale or electrical-synapse claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise mint terminal and pale-blue postsynaptic membrane on cool white, restrained purposeful amber transmitter symbols, clean clinical cutaway."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7cb42cc839ba5b7e6762aca5365a227775a4241f8153f2fd69840c380fce4562",
+          "inspectedAt": "2026-10-28T05:36:00.087318+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full source, 512px WebP and 120px thumbnail. The cutaway presynaptic terminal contains membrane-bound vesicles. One vesicle forms a fusion opening continuous with its membrane; small gold messenger dots emerge into a clear cleft and approach stylized receptors on a separate postsynaptic membrane. Whole vesicles do not cross the gap, and the two cell membranes are not fused or bridged. Scale and receptor forms are intentionally simplified educational cues. Cool-white/mint/blue clinical style; human specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "red-blood-cell",
+      "sourceWord": "red blood cell",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "red-blood-cell:meaning-1",
+          "pos": "n.",
+          "en": "A haemoglobin-containing blood cell that carries oxygen; mature human examples are biconcave and lack a nucleus."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The red blood cell has a thin centre and a thicker rounded rim.",
+          "senseId": "red-blood-cell:meaning-1"
+        },
+        {
+          "en": "A mature human red blood cell has no nucleus.",
+          "senseId": "red-blood-cell:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/red-blood-cell.webp",
+        "sha256": "ca683223622bd36d1d1a8b5a9a77058b9047caa70e1a8eb50d1cbef6f9b139bb"
+      },
+      "visual": {
+        "expectedCue": "A visibly red mature human erythrocyte with a thick rounded rim and a closed thinner depressed centre, with a smaller tilted cell for profile context.",
+        "decision": "added",
+        "reason": "Actually inspected full source and512px/120px conversions. The main red disc has a continuous red recessed centre, not an open doughnut hole; rounded thicker rim and tilted secondary cell provide a biconcave-disc cue. There is no nucleus, spiny projection or organelle drawn. Stylized enlarged membrane texture and shading are educational, not microscopy or a diagnostic reading. Human specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Blood remains visibly red as required, against cool-white/mint clinical background; one dominant subject with relevant same-cell profile, no decorative props, labels or invented readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ca683223622bd36d1d1a8b5a9a77058b9047caa70e1a8eb50d1cbef6f9b139bb",
+          "inspectedAt": "2026-10-28T05:56:58.778474+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. Two normal mature-human examples are biconcave red discs with continuous depressed centers and thicker rims; neither has a through-hole or visible nucleus. Oblique smaller background cell supports the disc shape without comparison to another cell type. This is a color educational rendering rather than an unstained micrograph. Clean precise clinical educational rendering, no text, fake readings or decorative props. Independent human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "white-blood-cell",
+      "sourceWord": "white blood cell",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "white-blood-cell:meaning-1",
+          "pos": "n.",
+          "en": "A nucleated blood cell belonging to the body's immune defence system."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The white blood cell shown here is a neutrophil.",
+          "senseId": "white-blood-cell:meaning-1"
+        },
+        {
+          "en": "Different types of white blood cell have different nuclear shapes.",
+          "senseId": "white-blood-cell:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/white-blood-cell.webp",
+        "sha256": "6f06fee2d6b547aaa96059b3a4716b9331a5bd3bab6e758c6747aa995d9b7c3b"
+      },
+      "visual": {
+        "expectedCue": "One example mature neutrophil with pale cytoplasm, fine subtle granules and one four-lobed nucleus connected by three thin chromatin bridges.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full source,512px WebP and120px thumbnail. Four purple nuclear lobes form one open connected chain with three visible thin bridges; clear cytoplasm separates lower lobes, avoiding the initial closed-ring cue. Coarse granule beads were replaced by finer pale-lilac granules, and the optional small RBC was removed to avoid implying a misleading relative scale. Candidate1 full/512/120 and negative finding remain private. This is one neutrophil example, not the morphology of every white blood cell; color/cutaway are educational, human specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise pale clinical cell rendering on cool-white/mint with restrained lilac nuclear contrast; no action scene, labels, diagnostic values, decorative props or extra cells."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6f06fee2d6b547aaa96059b3a4716b9331a5bd3bab6e758c6747aa995d9b7c3b",
+          "inspectedAt": "2026-10-28T05:56:58.778474+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. A selected neutrophil example has pale finely granular cytoplasm and four purple nuclear lobes connected by three narrow bridges in one open chain. No closed nuclear ring, separate multiple nuclei, large eosinophil-like granules or RBC size comparison. Its cell/nucleus cue survives120; other leukocyte types differ. Clean precise clinical educational rendering, no text, fake readings or decorative props. Independent human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "steel",
+      "sourceWord": "steel",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "steel:meaning-1",
+          "pos": "n.",
+          "en": "An iron-based alloy containing carbon and often other elements, used to make structural and machine parts."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The steel beam has a web between two broad flanges.",
+          "senseId": "steel:meaning-1"
+        },
+        {
+          "en": "Different grades are selected for different mechanical properties and working conditions.",
+          "senseId": "steel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/steel.webp",
+        "sha256": "a044edc76fcd88afea2b3354ef30ec9da88c9db7281d3f24c17561f062a19e7d"
+      },
+      "visual": {
+        "expectedCue": "A qualified typical structural I-beam illustrates steel as a material.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: one gray I-section segment has a continuous web joining two parallel flanges, with consistent cross-section and coherent rolled-corner fillets. Both ends and the whole beam fit; no impossible supports, labels or load/test claims. I-section and material finish read clearly at120px in slate/silver with restrained amber edge light. This is only a typical steel-product illustration: pixels cannot establish iron/carbon composition, purity, grade, strength or fitness; all native tips preserve this limit.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a044edc76fcd88afea2b3354ef30ec9da88c9db7281d3f24c17561f062a19e7d",
+          "inspectedAt": "2026-10-28T06:02:01.252639+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. An isolated silver-gray steel I-section has continuous upper/lower flanges and web with a consistent section along its length; no floating load or failed connection. Amber edge light on slate preserves the engineering style. Structural example only; appearance cannot establish composition or grade. Independent human engineering/material specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "aluminium",
+      "sourceWord": "aluminium",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "aluminium:meaning-1",
+          "pos": "n.",
+          "en": "A lightweight silvery metallic element used, often in alloys, to make many engineering products."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The aluminium profile has the same cross-section along its length.",
+          "senseId": "aluminium:meaning-1"
+        },
+        {
+          "en": "Extrusion can produce long components with complex cross-sections.",
+          "senseId": "aluminium:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/aluminium.webp",
+        "sha256": "0da939abb289ceebd788a3f7fb064f63f299a448f566c87c0d41cd8df1a91d2b"
+      },
+      "visual": {
+        "expectedCue": "A qualified typical aluminium extrusion has a constant T-slot cross-section.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: one bright-silver profile has a coherent square central chamber and four external T-shaped slots; visible slots run parallel through its length without twists or mid-length stops. Near cut face and complete length are contained and the extrusion silhouette stays readable at120px. Precise neutral silver/slate material rendering matches the technical brief. This example cannot establish aluminium purity, alloy chemistry, grade, density or strength; native tips explicitly qualify the product study.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0da939abb289ceebd788a3f7fb064f63f299a448f566c87c0d41cd8df1a91d2b",
+          "inspectedAt": "2026-10-28T06:02:01.252639+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. A silver extruded profile has a coherent square central hollow and four longitudinal open slots with continuous rails. Section remains legible at120 and geometry does not mutate along the length. This is an illustrative profile, not proof of alloy, temper, mass or grade. Independent human engineering/material specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "copper",
+      "sourceWord": "copper",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "copper:meaning-1",
+          "pos": "n.",
+          "en": "A reddish metallic element widely used to conduct electricity or heat and to make tubing."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The copper tube is formed into a coil with an open end.",
+          "senseId": "copper:meaning-1"
+        },
+        {
+          "en": "The metal is used in electrical conductors and heat-exchange equipment.",
+          "senseId": "copper:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/copper.webp",
+        "sha256": "82eb8a1106cf81a0bd99baf701ec88218c7239a6b114a5c716b2b5517e90dfcf"
+      },
+      "visual": {
+        "expectedCue": "A reddish hollow tube coil is a qualified typical copper-product example.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: one continuous coiled tube has separated readable turns and two contained free ends, both showing hollow bores and credible metal wall thickness. No fused branches, solid-wire ends, fittings or material stamps. Reddish copper-like color and coil form remain clear at120px against slate, using purposeful natural material color within the technical style. Color is not analytical evidence: purity, chemistry, grade, conductivity and suitability are explicitly not established by this illustration.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "82eb8a1106cf81a0bd99baf701ec88218c7239a6b114a5c716b2b5517e90dfcf",
+          "inspectedAt": "2026-10-28T06:02:01.252639+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. One reddish copper tube forms a traceable open coil with two hollow ends and consistent visible wall thickness. Turns do not fuse into a torus or branch. Slate technical study; no pressure rating, purity or soldering instruction inferred. Independent human engineering/material specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "brass",
+      "sourceWord": "brass",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "brass:meaning-1",
+          "pos": "n.",
+          "en": "A family of alloys in which copper and zinc are the main metals."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The brass fitting has a machined thread around its opening.",
+          "senseId": "brass:meaning-1"
+        },
+        {
+          "en": "Changing the alloy composition changes the properties of the material.",
+          "senseId": "brass:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/brass.webp",
+        "sha256": "56ed03c8788e516ed6fa66c293cbb55c51e62fc1baca379cee5ceccd59c514f1"
+      },
+      "visual": {
+        "expectedCue": "A golden machined elbow fitting is a qualified typical brass-product example.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: one coherent elbow body joins a male threaded hollow end and a perpendicular hexagonal female threaded opening. Open bores, thread grooves and wrench flats are visible; no fused loose nuts, blocked mouths, stamps or test symbols. Whole fitting is contained and legible at120px. Purposeful natural golden color on slate matches the material-study technical style. Gold color/shape do not prove copper-zinc content, exact alloy/grade, pressure rating or fitness; native tips explicitly preserve that limit.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "56ed03c8788e516ed6fa66c293cbb55c51e62fc1baca379cee5ceccd59c514f1",
+          "inspectedAt": "2026-10-28T06:02:01.252639+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. A yellow-gold elbow fitting has two hollow threaded ends, one male and one female with a wrenching hex, joined by a continuous curved body. Open passages and material-example cue remain recognizable at120. Threads are illustrative rather than a specified compatible thread standard; color cannot certify brass composition. Independent human engineering/material specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "bronze",
+      "sourceWord": "bronze",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "bronze:meaning-1",
+          "pos": "n.",
+          "en": "A copper-based alloy, traditionally one in which tin is the main added element."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bronze bushing has a smooth bore for a sliding shaft.",
+          "senseId": "bronze:meaning-1"
+        },
+        {
+          "en": "The selected alloy affects the bearing properties of the component.",
+          "senseId": "bronze:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bronze.webp",
+        "sha256": "e068e7239ccd404ddab94c1ffedbd189c93e49f37418657caadc415d73a1efca"
+      },
+      "visual": {
+        "expectedCue": "A darker warm-metal flanged sleeve is a qualified typical bronze bearing-product example.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: one integral flange and short cylindrical sleeve surround a concentric smooth through-bore, with a visible back opening and credible wall thickness. No rolling elements, threads, seals, labels or wear-test imagery. Darker reddish-brown metal separates the example visually from the bright brass fitting but is not chemical proof. Complete bushing silhouette remains clear at120px in the slate-ground material-product language. Tin content, bronze family, grade and bearing performance cannot be established from these pixels; all native tips retain that qualification.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e068e7239ccd404ddab94c1ffedbd189c93e49f37418657caadc415d73a1efca",
+          "inspectedAt": "2026-10-28T06:02:01.252639+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. A warm bronze-colored flanged bushing has one coaxial open bore through its continuous sleeve; no fake rolling elements or closed back. Machined form and slate technical rendering remain clear at120. Selected example does not identify actual alloy chemistry from color. Independent human engineering/material specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "stainless-steel",
+      "sourceWord": "stainless steel",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "stainless-steel:meaning-1",
+          "pos": "n.",
+          "en": "Steel containing enough chromium to form a protective surface layer that resists corrosion."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The stainless steel sheet has a smooth polished surface.",
+          "senseId": "stainless-steel:meaning-1"
+        },
+        {
+          "en": "Its corrosion resistance depends on the grade and the environment.",
+          "senseId": "stainless-steel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/stainless-steel.webp",
+        "sha256": "a1851818c791c2c95cae44ef2cb88704beefc1a932981d8f83f89272181053dc"
+      },
+      "visual": {
+        "expectedCue": "A polished sheet and separate fasteners illustrate a qualified stainless-steel product group.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: a continuous thin metal sheet has a gently curled corner, with one separate threaded bolt and open threaded hex nut beside it. No object pierces another; sheet thickness and fasteners remain visible at120px. Silver/slate material rendering and restrained amber reflections match the technical style. A thin neutral outer border is incidental, not a label or mark. No corrosion-test symbol, grade or certification appears; shine cannot establish chromium content, alloy identity or corrosion resistance, and native tips explicitly say so.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a1851818c791c2c95cae44ef2cb88704beefc1a932981d8f83f89272181053dc",
+          "inspectedAt": "2026-10-28T06:02:01.252639+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. Silver sheet with one bent corner and separate bolt/nut give recognizable material-use examples on slate with restrained amber reflections. No rust-proof claim, grade stamp, invented measurement or unsupported load. Thread details are illustrative; appearance alone cannot distinguish stainless grade from other polished metals. Independent human engineering/material specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "cast-iron",
+      "sourceWord": "cast iron",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "cast-iron:meaning-1",
+          "pos": "n.",
+          "en": "An iron-carbon alloy generally containing more carbon than steel and commonly shaped by casting."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cast iron housing has a rough outer surface and a machined bore.",
+          "senseId": "cast-iron:meaning-1"
+        },
+        {
+          "en": "Machining produces a smooth bearing surface inside the casting.",
+          "senseId": "cast-iron:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cast-iron.webp",
+        "sha256": "5bfc6936d1e97f4511c5719b3c2e7873746dbb2fb54bb315f19b67392d620ed2"
+      },
+      "visual": {
+        "expectedCue": "A rough cast housing with a machined bore is a qualified cast-iron product example.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: one coherent dark housing has integral ribs/feet, two open mounting holes and a concentric through-bore with smoother machined face/interior. Rough-versus-machined surface contrast remains clear at120px; no random fracture, detached pieces, fake graphite microscope or stamp. Whole part fits in the slate/silver/amber technical product language. Surface finish cannot prove carbon content, grey-versus-ductile microstructure, grade or test performance; this example is explicitly qualified in all native tips.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5bfc6936d1e97f4511c5719b3c2e7873746dbb2fb54bb315f19b67392d620ed2",
+          "inspectedAt": "2026-10-28T06:02:01.252639+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. A dark rough cast housing has an open machined central bore, reinforced sides and two coherent mounting feet with holes. Silver machined faces contrast with rough casting, avoiding a smooth sheet-metal substitute. Slate technical rendering stays legible at120; no exact cast-iron type or strength inferred. Independent human engineering/material specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "alloy",
+      "sourceWord": "alloy",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "alloy:meaning-1",
+          "pos": "n.",
+          "en": "A metallic material made by combining a metal with one or more other elements."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The alloy contains a base metal and other elements.",
+          "senseId": "alloy:meaning-1"
+        },
+        {
+          "en": "Steel combines iron with carbon and may contain additional alloying elements.",
+          "senseId": "alloy:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/alloy.webp",
+        "sha256": "593a539d642e798be4f1f37515749774b500dd33de4fc3ff58ea280d18818c65"
+      },
+      "visual": {
+        "expectedCue": "A metallic block is linked to a magnified conceptual lattice containing interspersed atoms of two different elements.",
+        "decision": "added",
+        "reason": "Actual1254source,512WebP and120PNG inspected. One silver block is connected by a clear magnified guide to a close-packed sphere cluster with amber atoms occupying positions among silver atoms in the same lattice. It is not separate layers, loose ingredient piles or an ionic molecule with stick bonds. Block plus mixed-lattice cue survives120px. Explicit conceptual substitutional-alloy example: colors/counts do not establish an actual composition, ratio, phase map or grade from appearance.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise silver product shading on slate, restrained amber atom contrast and a clean technical magnified inset."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "593a539d642e798be4f1f37515749774b500dd33de4fc3ff58ea280d18818c65",
+          "inspectedAt": "2026-10-28T06:01:10.464130+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: a solid silver block is linked to a clear schematic inset of differently colored spheres occupying neighbouring sites. This conveys a conceptual substitutional-alloy example, not a photographed atom arrangement or measured stoichiometry; inset colors/ratios must not be interpreted as an actual grade or universal alloy phase. No formula, test data or composition stamp appears. Block/inset distinction remains legible at120px and matches slate/silver/amber technical style. Native tips explicitly preserve the conceptual/appearance limit. Second AI review only; independent human specialist and language review remain pending."
+        }
+      }
+    },
+    {
+      "entryId": "composite",
+      "sourceWord": "composite",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "composite:meaning-1",
+          "pos": "n.",
+          "en": "A material made from two or more distinct constituent materials that retain their identities within the combined structure."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The composite has reinforcing fibres embedded in a surrounding matrix.",
+          "senseId": "composite:meaning-1"
+        },
+        {
+          "en": "The cutaway shows the fibres held together by the resin matrix.",
+          "senseId": "composite:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/composite.webp",
+        "sha256": "3dd633604f93b4297dcff2f0d958c67fd463d77e0f4eefc1ac629f66cccb5930"
+      },
+      "visual": {
+        "expectedCue": "A cutaway fibre-reinforced sample shows dark woven fibres embedded and bonded in a continuous translucent matrix.",
+        "decision": "added",
+        "reason": "Actual1254source,512WebP and120PNG inspected. The close-cropped coherent sample shows dark woven reinforcement beneath a smooth resin surface; stepped cutaway exposes bonded fibre plies surrounded by continuous amber matrix, with no detached dry cloth or open layer gaps. Bright resin highlights do not form an open fracture through the block. Reinforcement/matrix distinction remains clear120px. The sample is an illustrative fibre/polymer example, not a verified grade, actual ply schedule or claimed strength.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Slate-ground technical macro cutaway with charcoal woven fibres, precise translucent amber matrix and silver edge highlights; cropped material section keeps the teaching cue dominant."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3dd633604f93b4297dcff2f0d958c67fd463d77e0f4eefc1ac629f66cccb5930",
+          "inspectedAt": "2026-10-28T06:01:10.464320+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: woven dark fibre tows lie within a continuous amber resin-like matrix, exposed at a step cutaway. The bundle layers are embedded/bonded rather than loose fabric or separated floating sheets; the near sample edge is intentionally closely cropped while the constituent relation remains clear at120px. Resin highlights do not provide an analytical cross-section or tested strength claim. This is a qualified fibre/matrix example, not every composite; native tips retain that limit. Slate ground and restrained material cutaway shading match the brief. Second AI review only; independent human specialist and language review remain pending."
+        }
+      }
+    },
+    {
+      "entryId": "ceramic",
+      "sourceWord": "ceramic",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "ceramic:meaning-1",
+          "pos": "n.",
+          "en": "An inorganic nonmetallic material, often shaped and consolidated using heat."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ceramic insulator has a smooth outer surface around a central opening.",
+          "senseId": "ceramic:meaning-1"
+        },
+        {
+          "en": "Its application depends on the particular material and how it is processed.",
+          "senseId": "ceramic:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ceramic.webp",
+        "sha256": "572fade51e3c2e1273a5fb2ebae079b305c207a0371f830c060cbb78f21e1622"
+      },
+      "visual": {
+        "expectedCue": "A ribbed insulating-component form illustrates one qualified engineering ceramic example.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: one ivory ribbed component has a clear axial mouth, continuous rounded ribs and a small base section exposing a matte textured interior beneath the smooth outer surface. No energized conductor, impossible floating rib, candle wick, metal spring or test instrument appears. Complete silhouette and outer/interior surface contrast remain readable at120px. Natural ivory/silver-neutral highlights on slate fit the technical material style. The surface/cutaway is illustrative, not microscopy or proof of chemical grade, electrical insulation, fracture strength or material performance; all native tips preserve this limit.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "572fade51e3c2e1273a5fb2ebae079b305c207a0371f830c060cbb78f21e1622",
+          "inspectedAt": "2026-10-28T06:16:45.783546+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. One cream glazed ceramic insulator example has a coherent central axial opening and three integral sheds. A small cutaway exposes a contrasting nonglossy body without implying a powered circuit or measured breakdown strength. No disconnected rings, conductive bridge, fake formula or ratings. Slate technical study with restrained amber reflections; selected form is not universal ceramic or proof of composition/electrical insulation. Human specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "polymer",
+      "sourceWord": "polymer",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "polymer:meaning-1",
+          "pos": "n.",
+          "en": "A substance composed of very large molecules built from repeating structural units."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The polymer consists of macromolecules with repeating structural units.",
+          "senseId": "polymer:meaning-1"
+        },
+        {
+          "en": "The pellets in the illustration represent one example of polymer feedstock.",
+          "senseId": "polymer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/polymer.webp",
+        "sha256": "89dfdcde4d0f7f9bf72c07153fe359f4bf8b61359c57d791d8d8e805c2308739"
+      },
+      "visual": {
+        "expectedCue": "Synthetic material granules are linked to a magnified conceptual model of long chains made from repeating units.",
+        "decision": "added",
+        "reason": "Actual1254source,512WebP and120PNG inspected. Pale translucent granules connect by a magnification guide to two separate continuous curved chains of repeated amber units and short silver links. No crosslinking between the chains, molecular formula or chemical reading is invented. The lower chain ends at the inset boundary; the schematic does not claim to show a complete actual macromolecule. Each bead denotes a repeat unit, not an elemental atom. Granules/chain relationship is legible120px; appearance does not identify a particular resin.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise engineering educational schematic/product combination on slate with silver guides and restrained amber repeat units, uncluttered and text-free."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "89dfdcde4d0f7f9bf72c07153fe359f4bf8b61359c57d791d8d8e805c2308739",
+          "inspectedAt": "2026-10-28T06:01:10.464365+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full original and final512/120: a pile of translucent pellets is linked to an inset with two wavy chains of connected repeating bead symbols. The inset reads as a conceptual macromolecular/repeating-unit model, with no atomic valence, exact formula or actual chain-length claim. Multiple chains support the substance-of-macromolecules wording rather than equating polymer with one molecule. Pellets/chain cue survives120px; slate/silver/amber diagram style matches the brief. Native tips explicitly qualify the model and distinguish natural/synthetic polymers from one rigid plastic example. Second AI review only; independent human specialist and language review remain pending."
+        }
+      }
+    },
+    {
+      "entryId": "plywood",
+      "sourceWord": "plywood",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "plywood:meaning-1",
+          "pos": "n.",
+          "en": "A panel made by bonding thin wood veneers in layers, usually with neighbouring grain directions at right angles."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The plywood panel has thin wood layers bonded together.",
+          "senseId": "plywood:meaning-1"
+        },
+        {
+          "en": "The cut edge exposes the alternating orientation of neighbouring veneers.",
+          "senseId": "plywood:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/plywood.webp",
+        "sha256": "1e8dd2f9ff15512d450ae7f7d3bff3b017ab7e36226131ab591da1fda32e41e1"
+      },
+      "visual": {
+        "expectedCue": "Bonded wood plies and alternating grain terraces illustrate plywood construction.",
+        "decision": "added",
+        "reason": "Actually inspected full original and final512/120: one bonded panel has regular thin veneer bands in its cut edges and a contiguous two-step corner cutaway. Exposed middle terrace grain runs across the top/lower-face grain, clearly showing cross-lamination rather than loose floating sheets, chipboard particles or MDF. The layer count/thickness is illustrative, not a product specification. Complete panel and step/layer cue remain readable at120px in natural pale wood/amber on slate. Species, adhesive, grade, moisture resistance and tested structural properties cannot be inferred; native tips explicitly retain those limits.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T06:23:07.560301+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1e8dd2f9ff15512d450ae7f7d3bff3b017ab7e36226131ab591da1fda32e41e1",
+          "inspectedAt": "2026-10-28T06:22:19.419091+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. One bonded wood-veneer panel has visible continuous edge plies and a stepped cutaway exposing neighbouring grain directions at right angles. No loose floating sheets, chipboard particles or open delamination. Layer count/thickness/color are explanatory rather than a specified layup; species, adhesive, grade and moisture resistance cannot be established from the rendering. Panel/cross-ply cue survives120px and slate technical background matches the brief. Independent human engineering/material specialist review pending."
         }
       }
     }
