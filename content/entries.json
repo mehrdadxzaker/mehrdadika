@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-17",
+  "releaseId": "2026-10-preview-18",
   "channel": "preview",
-  "createdAt": "2026-10-28T06:23:07.560301+00:00",
+  "createdAt": "2026-10-28T08:13:54.112851+00:00",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -2969,7 +2969,7 @@
       "ant": [],
       "tip": "بافت جمله مهم است: blood pressure به فشار خون و pressure gauge به ابزار اندازه‌گیری فشار اشاره دارد. این دو بافت در مرور، سابقهٔ مستقل دارند.",
       "media": {
-        "img": "atlas/img/pressure.svg",
+        "img": "atlas/img/pressure-v2.webp",
         "uk": "atlas/audio/uk/pressure.mp3",
         "us": "atlas/audio/us/pressure.mp3"
       },
@@ -2978,7 +2978,17 @@
         "source": "https://github.com/designfuchen/word-atlas/blob/e7b44629230a470e6b664826ced4af2c367b44c2/data/word-atlas.json",
         "attribution": "Word Atlas contributors — CC BY 4.0",
         "aiAssisted": true,
-        "modifications": "Source headword, pronunciation and media retained; two contextual English definitions/examples and Persian translations newly written to distinguish blood-pressure and force-per-area learning contexts. No independent human or clinical review claimed."
+        "modifications": "Source headword, pronunciation and media retained; two contextual English definitions/examples and Persian translations newly written to distinguish blood-pressure and force-per-area learning contexts. No independent human or clinical review claimed.",
+        "factualReferences": [
+          {
+            "url": "https://www.nhlbi.nih.gov/health/heart",
+            "use": "Blood moves through vessel network; existing bloodpressure sense retained, no readings/instructions."
+          },
+          {
+            "url": "https://openstax.org/books/university-physics-volume-1/pages/14-1-fluids-density-and-pressure",
+            "use": "Factual check of normalforceperperpendiculararea andaveragepressure; no numerical result copied."
+          }
+        ]
       }
     },
     {
@@ -32437,6 +32447,1572 @@
           {
             "url": "https://www.apawood.org/engineered-wood-products/plywood-osb/plywood/",
             "use": "Checked bonded veneer/cross-grain construction; original educational layer example without product grade, moisture rating or structural test claim."
+          }
+        ]
+      }
+    },
+    {
+      "id": "atrium",
+      "w": "atrium",
+      "uk": "/ˈeɪtriəm/",
+      "us": "/ˈeɪtriəm/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "atrium:meaning-1",
+          "pos": "n.",
+          "fa": "دهلیز؛ حفرهٔ بالاییِ دریافت‌کنندهٔ خون در قلب",
+          "en": "Either of the two upper heart chambers that receive blood before it passes into a ventricle.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The right atrium receives blood through the superior and inferior vena cava.",
+          "fa": "دهلیزِ راست از راهِ بزرگ‌سیاهرگِ زبرین و زیرین خون دریافت می‌کند.",
+          "senseId": "atrium:meaning-1"
+        },
+        {
+          "en": "Each atrium communicates with the ventricle on the same side of the heart.",
+          "fa": "هر دهلیز با بطنِ همان سمتِ قلب ارتباط دارد.",
+          "senseId": "atrium:meaning-1"
+        }
+      ],
+      "col": [
+        "the right atrium｜دهلیزِ راست",
+        "the left atrium｜دهلیزِ چپ",
+        "the atrial wall｜دیوارهٔ دهلیزی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "atrium اینجا دهلیزِ قلب است، نه تالارِ ساختمان؛ جمعِ آن atria است. تصویر دهلیزِ راست را برجسته می‌کند. atrial صفتِ مربوط به دهلیز است؛ ventricle بطنِ زیرِ آن است.",
+      "media": {
+        "img": "atlas/img/atrium.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          },
+          {
+            "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ventricle",
+      "w": "ventricle",
+      "uk": "/ˈventrɪkəl/",
+      "us": "/ˈventrɪkəl/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "ventricle:meaning-1",
+          "pos": "n.",
+          "fa": "بطن؛ حفرهٔ پایینیِ پمپاژکنندهٔ قلب",
+          "en": "Either of the two lower heart chambers that pump blood into the pulmonary artery or the aorta.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The left ventricle pumps blood into the aorta.",
+          "fa": "بطنِ چپ خون را به آئورت پمپ می‌کند.",
+          "senseId": "ventricle:meaning-1"
+        },
+        {
+          "en": "The muscular wall of the left ventricle is thicker than that of the right ventricle.",
+          "fa": "دیوارهٔ عضلانیِ بطنِ چپ از دیوارهٔ بطنِ راست ضخیم‌تر است.",
+          "senseId": "ventricle:meaning-1"
+        }
+      ],
+      "col": [
+        "the left ventricle｜بطنِ چپ",
+        "the right ventricle｜بطنِ راست",
+        "the ventricular wall｜دیوارهٔ بطنی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "ventricle اینجا بطنِ قلب است؛ بطن‌های مغز معنیِ دیگری دارند. تصویر بطنِ چپ را نشان می‌دهد. بطنِ راست خون را به گردشِ ریوی و بطنِ چپ به گردشِ عمومی می‌فرستد؛ atrium دهلیزِ بالایی است.",
+      "media": {
+        "img": "atlas/img/ventricle.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          },
+          {
+            "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "aorta",
+      "w": "aorta",
+      "uk": "/eɪˈɔːtə/",
+      "us": "/eɪˈɔːrtə/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "aorta:meaning-1",
+          "pos": "n.",
+          "fa": "آئورت؛ سرخرگِ اصلیِ گردشِ عمومی",
+          "en": "The main artery carrying blood from the left ventricle into the systemic circulation.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The aorta rises from the left ventricle and curves into an arch.",
+          "fa": "آئورت از بطنِ چپ بالا می‌رود و به شکلِ قوس خم می‌شود.",
+          "senseId": "aorta:meaning-1"
+        },
+        {
+          "en": "The descending part continues through the chest towards the abdomen.",
+          "fa": "بخشِ نزولی از قفسهٔ سینه به سوی شکم ادامه می‌یابد.",
+          "senseId": "aorta:meaning-1"
+        }
+      ],
+      "col": [
+        "the aortic arch｜قوسِ آئورت",
+        "the ascending aorta｜آئورتِ صعودی",
+        "the descending aorta｜آئورتِ نزولی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "aorta آئورت است، نه pulmonary artery که از بطنِ راست به ریه می‌رود. aortic صفتِ آن است. تصویر مسیرِ اصلی و شاخه‌های عمدهٔ قوس را ساده می‌کند؛ نقشهٔ کاملِ تمامِ شاخه‌ها نیست.",
+      "media": {
+        "img": "atlas/img/aorta.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          },
+          {
+            "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vena-cava",
+      "w": "vena cava",
+      "uk": "/ˌviːnə ˈkeɪvə/",
+      "us": "/ˌviːnə ˈkeɪvə/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "vena-cava:meaning-1",
+          "pos": "n.",
+          "fa": "بزرگ‌سیاهرگ؛ هر یک از دو سیاهرگِ اصلیِ ورودی به دهلیزِ راست",
+          "en": "Either of the two large veins returning systemic blood to the right atrium of the heart.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The superior vena cava enters the right atrium from above.",
+          "fa": "بزرگ‌سیاهرگِ زبرین از بالا واردِ دهلیزِ راست می‌شود.",
+          "senseId": "vena-cava:meaning-1"
+        },
+        {
+          "en": "The inferior vena cava returns blood from regions below the diaphragm.",
+          "fa": "بزرگ‌سیاهرگِ زیرین خون را از نواحیِ زیرِ دیافراگم بازمی‌گرداند.",
+          "senseId": "vena-cava:meaning-1"
+        }
+      ],
+      "col": [
+        "the superior vena cava｜بزرگ‌سیاهرگِ زبرین",
+        "the inferior vena cava｜بزرگ‌سیاهرگِ زیرین",
+        "the opening of a vena cava｜دهانهٔ بزرگ‌سیاهرگ"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "vena cava مفرد است و venae cavae جمعِ آن است. SVC و IVC به دو رگِ زبرین و زیرین اشاره دارند؛ هر دو به دهلیزِ راست می‌رسند. pulmonary veins خونِ ریه را به دهلیزِ چپ می‌آورند. رنگِ آبیِ مدل قراردادی است؛ خونِ سیاهرگی آبی نیست.",
+      "media": {
+        "img": "atlas/img/vena-cava.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          },
+          {
+            "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "capillary",
+      "w": "capillary",
+      "uk": "/kəˈpɪləri/",
+      "us": "/ˈkæpəleri/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "capillary:meaning-1",
+          "pos": "n.",
+          "fa": "مویرگ؛ رگِ خونیِ بسیار ریز با دیوارهٔ نازک",
+          "en": "A microscopic thin-walled blood vessel in which substances can pass between blood and surrounding tissue.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The capillary has a narrow lumen lined by a thin layer of cells.",
+          "fa": "مویرگ مجرای باریکی دارد که لایهٔ نازکی از سلول‌ها آن را می‌پوشاند.",
+          "senseId": "capillary:meaning-1"
+        },
+        {
+          "en": "Capillary networks connect small arterial vessels with small venous vessels.",
+          "fa": "شبکه‌های مویرگی رگ‌های سرخرگیِ کوچک را به رگ‌های سیاهرگیِ کوچک وصل می‌کنند.",
+          "senseId": "capillary:meaning-1"
+        }
+      ],
+      "col": [
+        "a capillary network｜شبکهٔ مویرگی",
+        "a capillary wall｜دیوارهٔ مویرگ",
+        "capillary exchange｜تبادلِ مویرگی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "capillary اینجا مویرگِ خونی است، نه لولهٔ آزمایشگاهیِ باریک یا پدیدهٔ مویینگی. دیوارهٔ آن مانندِ سرخرگ لایهٔ عضلانیِ ضخیم ندارد. نمایِ بزرگ‌شدهٔ تصویر شماتیک است؛ مویرگ‌ها از نظرِ نفوذپذیری و شکل متفاوت‌اند.",
+      "media": {
+        "img": "atlas/img/capillary.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "heart-valve",
+      "w": "heart valve",
+      "uk": "/ˈhɑːt vælv/",
+      "us": "/ˈhɑːrt vælv/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "heart-valve:meaning-1",
+          "pos": "n.",
+          "fa": "دریچهٔ قلب؛ ساختارِ هدایت‌کنندهٔ جریانِ یک‌طرفه",
+          "en": "A structure with movable leaflets or cusps that helps blood flow in one direction through the heart.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The heart valve shown here is an aortic valve with three cusps.",
+          "fa": "دریچهٔ قلبِ این تصویر، دریچهٔ آئورتی با سه لَت است.",
+          "senseId": "heart-valve:meaning-1"
+        },
+        {
+          "en": "The cusps meet when the valve closes to limit backward flow.",
+          "fa": "هنگامِ بسته‌شدنِ دریچه، لَت‌ها به هم می‌رسند تا جریانِ برگشتی را محدود کنند.",
+          "senseId": "heart-valve:meaning-1"
+        }
+      ],
+      "col": [
+        "a heart valve｜دریچهٔ قلب",
+        "an aortic valve｜دریچهٔ آئورتی",
+        "a valve leaflet｜لَتِ دریچه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "heart valve دریچهٔ زیستیِ قلب است، نه شیرِ صنعتی. نمونهٔ تصویر دریچهٔ نیمه‌هلالیِ آئورتی است؛ دریچه‌های قلب همه ساختارِ یکسانی ندارند. لَت‌های آئورتی به طناب‌های وتری وصل نیستند؛ این طناب‌ها به دریچه‌های بینِ دهلیز و بطن مربوط‌اند.",
+      "media": {
+        "img": "atlas/img/heart-valve.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          },
+          {
+            "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          },
+          {
+            "url": "https://www.heart.org/en/health-topics/heart-valve-problems-and-disease/about-heart-valves/",
+            "use": "Factual check of normal aortic3cusps and opening/closing; original illustration, no copiedart."
+          }
+        ]
+      }
+    },
+    {
+      "id": "platelet",
+      "w": "platelet",
+      "uk": "/ˈpleɪtlət/",
+      "us": "/ˈpleɪtlət/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "platelet:meaning-1",
+          "pos": "n.",
+          "fa": "پلاکت؛ قطعهٔ سلولیِ کوچکِ دخیل در بندآمدنِ خون",
+          "en": "A small nucleus-free cell fragment in human blood that helps form a platelet plug and supports blood clotting.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The platelet is a small cell fragment without a nucleus.",
+          "fa": "پلاکت قطعهٔ سلولیِ کوچکی است که هسته ندارد.",
+          "senseId": "platelet:meaning-1"
+        },
+        {
+          "en": "Platelets can adhere to a damaged vessel surface and gather together.",
+          "fa": "پلاکت‌ها می‌توانند به سطحِ آسیب‌دیدهٔ رگ بچسبند و کنارِ هم جمع شوند.",
+          "senseId": "platelet:meaning-1"
+        }
+      ],
+      "col": [
+        "a platelet plug｜پلاگِ پلاکتی",
+        "platelet adhesion｜چسبندگیِ پلاکتی",
+        "platelet aggregation｜تجمعِ پلاکتی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "platelet در خونِ انسان قطعهٔ سلولی است، نه گلبولِ سفیدِ هسته‌دار. پلاکتِ در حالِ استراحت معمولاً دیسکی است و هنگامِ فعال‌شدن می‌تواند زوائد پیدا کند. تصویر نمونه‌ای بزرگ‌شده و ساده‌شده است؛ رنگ یا اندازهٔ آن نتیجهٔ آزمایش یا شمارش نیست.",
+      "media": {
+        "img": "atlas/img/platelet.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "plasma",
+      "w": "plasma",
+      "uk": "/ˈplæzmə/",
+      "us": "/ˈplæzmə/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "plasma:meaning-1",
+          "pos": "n.",
+          "fa": "پلاسمای خون؛ بخشِ مایعِ خون",
+          "en": "The liquid part of blood, containing water, dissolved substances and proteins including clotting factors.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The plasma forms the upper straw-coloured layer in this separated anticoagulated blood sample.",
+          "fa": "پلاسما در این نمونهٔ جداشدهٔ خونِ ضدانعقادشده، لایهٔ زردِ کاهیِ بالایی را تشکیل می‌دهد.",
+          "senseId": "plasma:meaning-1"
+        },
+        {
+          "en": "Blood cells and platelets are suspended in plasma in circulating blood.",
+          "fa": "سلول‌های خونی و پلاکت‌ها در خونِ در گردش، در پلاسما معلق‌اند.",
+          "senseId": "plasma:meaning-1"
+        }
+      ],
+      "col": [
+        "blood plasma｜پلاسمای خون",
+        "plasma proteins｜پروتئین‌های پلاسما",
+        "a plasma sample｜نمونهٔ پلاسما"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "plasma اینجا پلاسمای خون است، نه حالتِ یونیدهٔ ماده. serum مایعِ باقی‌مانده پس از لخته‌شدن است و با پلاسما یکی نیست. لولهٔ تصویر یک نمونهٔ ضدانعقادشده و سانتریفیوژشده را نشان می‌دهد؛ نسبتِ لایه‌ها شماتیک است و عددِ آزمایشگاهی نیست.",
+      "media": {
+        "img": "atlas/img/plasma.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-1-an-overview-of-blood",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          },
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK531504/?report=classic",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "haemoglobin",
+      "w": "haemoglobin",
+      "uk": "/ˌhiːməˈɡləʊbɪn/",
+      "us": "/ˌhiːməˈɡloʊbɪn/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "haemoglobin:meaning-1",
+          "pos": "n.",
+          "fa": "هموگلوبین؛ پروتئینِ متصل‌شونده به اکسیژن در گلبولِ قرمز",
+          "en": "The iron-containing protein in red blood cells that binds oxygen and helps transport it around the body.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The haemoglobin model shows four protein chains, each with a haem group.",
+          "fa": "مدلِ هموگلوبین چهار زنجیرهٔ پروتئینی را نشان می‌دهد که هر کدام یک گروهِ هِم دارند.",
+          "senseId": "haemoglobin:meaning-1"
+        },
+        {
+          "en": "Oxygen binds reversibly to iron in the haem groups.",
+          "fa": "اکسیژن به‌طورِ برگشت‌پذیر به آهنِ گروه‌های هِم متصل می‌شود.",
+          "senseId": "haemoglobin:meaning-1"
+        }
+      ],
+      "col": [
+        "a haemoglobin molecule｜مولکولِ هموگلوبین",
+        "oxygen binding｜اتصالِ اکسیژن",
+        "a haem group｜گروهِ هِم"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "haemoglobin املای بریتانیایی است؛ آمریکایی hemoglobin است. مدل نمونهٔ اصلیِ هموگلوبینِ بزرگسال را با چهار زنجیره و چهار گروهِ هِم ساده می‌کند. رنگ‌ها و شکل‌های آموزشی، ساختارِ اتمیِ دقیق یا نتیجهٔ آزمایش را نشان نمی‌دهند؛ پروتئین با خودِ گلبولِ قرمز یکی نیست.",
+      "media": {
+        "img": "atlas/img/haemoglobin.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          },
+          {
+            "url": "https://www.ebi.ac.uk/pdbe/articles/blood-protein",
+            "use": "Factual check of adult2alpha/2beta subunits and haem/iron oxygenbinding; original explicitlyconceptual model."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pulse",
+      "w": "pulse",
+      "uk": "/pʌls/",
+      "us": "/pʌls/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "pulse:meaning-1",
+          "pos": "n.",
+          "fa": "نبض؛ اتساعِ ضربانیِ سرخرگ بر اثرِ ضربانِ قلب",
+          "en": "The rhythmic expansion of an artery associated with pressure waves produced by the heartbeat.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The clinician feels the pulse at the thumb side of the wrist.",
+          "fa": "متخصصِ بالینی نبض را در سمتِ شستِ مچِ دست لمس می‌کند.",
+          "senseId": "pulse:meaning-1"
+        },
+        {
+          "en": "The finger pads rest over the radial artery in this illustration.",
+          "fa": "در این تصویر، نرمهٔ انگشت‌ها روی سرخرگِ رادیال قرار دارد.",
+          "senseId": "pulse:meaning-1"
+        }
+      ],
+      "col": [
+        "a radial pulse｜نبضِ رادیال",
+        "a pulse rate｜تعدادِ نبض",
+        "to feel the pulse｜لمس‌کردنِ نبض"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "pulse اینجا نبضِ سرخرگی است، نه پالسِ الکتریکی یا حبوبات. تصویر محلِ رادیال را با نرمهٔ انگشت‌ها، نه شست، نشان می‌دهد. pulse rate تعدادِ ضربان‌ها در زمان است؛ این مدخل عددِ طبیعی، تشخیص یا دستورِ ارزیابی ارائه نمی‌کند.",
+      "media": {
+        "img": "atlas/img/pulse.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-2-blood-flow-blood-pressure-and-resistance",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          },
+          {
+            "url": "https://www.medlineplus.gov/ency/imagepages/19974.htm",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "circulation",
+      "w": "circulation",
+      "uk": "/ˌsɜːkjəˈleɪʃən/",
+      "us": "/ˌsɜːrkjəˈleɪʃən/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "circulation:meaning-1",
+          "pos": "n.",
+          "fa": "گردشِ خون؛ حرکتِ پیوستهٔ خون در قلب و رگ‌ها",
+          "en": "The continuous movement of blood through the heart and blood vessels, including the pulmonary and systemic circuits.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The circulation carries blood through the lungs and then through the rest of the body.",
+          "fa": "گردشِ خون، خون را از ریه‌ها و سپس از دیگر بخش‌های بدن عبور می‌دهد.",
+          "senseId": "circulation:meaning-1"
+        },
+        {
+          "en": "The pulmonary circuit returns oxygenated blood to the left side of the heart.",
+          "fa": "مدارِ ریوی خونِ اکسیژن‌دار را به سمتِ چپِ قلب بازمی‌گرداند.",
+          "senseId": "circulation:meaning-1"
+        }
+      ],
+      "col": [
+        "blood circulation｜گردشِ خون",
+        "pulmonary circulation｜گردشِ ریوی",
+        "systemic circulation｜گردشِ عمومی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "circulation اینجا گردشِ خون است، نه انتشارِ روزنامه یا جابه‌جاییِ هوا. سرخرگِ ریوی خونِ کم‌اکسیژن را به ریه می‌برد و سیاهرگِ ریوی خونِ اکسیژن‌دار را برمی‌گرداند. رنگ‌های مدل قراردادی‌اند؛ خونِ کم‌اکسیژن هم سرخ است. طرح، مدارها را ساده می‌کند نه همهٔ شاخه‌ها را.",
+      "media": {
+        "img": "atlas/img/circulation.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          },
+          {
+            "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          },
+          {
+            "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+            "use": "Factual check of pulmonary/systemic flow and chamber sequence; original simplified diagram."
+          }
+        ]
+      }
+    },
+    {
+      "id": "respiration",
+      "w": "respiration",
+      "uk": "/ˌrespəˈreɪʃən/",
+      "us": "/ˌrespəˈreɪʃən/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "respiration:meaning-1",
+          "pos": "n.",
+          "fa": "تنفس؛ نفس‌کشیدن و تبادلِ گازهای تنفسی",
+          "en": "The processes of breathing and exchanging oxygen and carbon dioxide between the air and the blood.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Respiration includes moving air into and out of the lungs.",
+          "fa": "تنفس شاملِ ورود و خروجِ هوا به ریه‌هاست.",
+          "senseId": "respiration:meaning-1"
+        },
+        {
+          "en": "During inhalation, the diaphragm moves down and the lungs expand.",
+          "fa": "هنگامِ دم، دیافراگم پایین می‌رود و ریه‌ها گسترش می‌یابند.",
+          "senseId": "respiration:meaning-1"
+        }
+      ],
+      "col": [
+        "external respiration｜تنفسِ خارجی",
+        "the respiratory system｜دستگاهِ تنفسی",
+        "a respiratory cycle｜چرخهٔ تنفسی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "respiration در این مدخل معنیِ تنفسیِ بیرونی دارد، نه cellular respiration یعنی واکنش‌های شیمیاییِ آزادکنندهٔ انرژی در سلول. ventilation جابه‌جاییِ هواست؛ external respiration در کاربردِ دقیقِ فیزیولوژی، تبادلِ گاز میانِ کیسه‌های هوایی و خون است. تصویر دو مرحلهٔ دم و بازدم را ساده می‌کند و تمرینِ تنفسی نیست.",
+      "media": {
+        "img": "atlas/img/respiration.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          },
+          {
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-4-gas-exchange",
+            "use": "Primary anatomical/physiological facts actually checked for selected sense and visual cue. Original independently worded learning content and translations; no source prose, artwork, diagnostic numbers or procedure instructions copied. Human language and specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "rectifier",
+      "w": "rectifier",
+      "uk": "/ˈrektɪfaɪə/",
+      "us": "/ˈrektɪfaɪər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "rectifier:meaning-1",
+          "pos": "n.",
+          "fa": "یک‌سوساز؛ مدارِ تبدیلِ جریانِ متناوب به یک‌سویه",
+          "en": "An electronic device or circuit that converts alternating current into current flowing in one direction.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The rectifier produces pulses that remain on one side of the zero line.",
+          "fa": "یک‌سوساز پالس‌هایی تولید می‌کند که در یک سوی خطِ صفر می‌مانند.",
+          "senseId": "rectifier:meaning-1"
+        },
+        {
+          "en": "A filter can reduce the ripple after the bridge.",
+          "fa": "فیلتر می‌تواند ریپل را پس از پل کاهش دهد.",
+          "senseId": "rectifier:meaning-1"
+        }
+      ],
+      "col": [
+        "a bridge rectifier｜یک‌سوسازِ پل",
+        "rectifier output｜خروجیِ یک‌سوساز",
+        "a rectifier diode｜دیودِ یک‌سوساز"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "rectifier جهتِ جریان را یک‌سویه می‌کند؛ خروجی لازم نیست کاملاً صاف باشد. تصویر، خروجیِ ضربانیِ یک نمونهٔ پل را به‌صورتِ مفهومی نشان می‌دهد؛ فیلتر و تنظیم‌کننده نقش‌های دیگری دارند. موج‌ها نتیجهٔ اندازه‌گیری یا دستورِ سیم‌کشی نیستند.",
+      "media": {
+        "img": "atlas/img/rectifier.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://techweb.rohm.com/product/power-ic/acdc/12619/",
+            "use": "Checked rectification versus smoothing and unidirectional pulsating output; original wording and conceptual artwork, no copied definitions, diagrams or readings."
+          }
+        ]
+      }
+    },
+    {
+      "id": "inverter",
+      "w": "inverter",
+      "uk": "/ɪnˈvɜːtə/",
+      "us": "/ɪnˈvɜːrtər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "inverter:meaning-1",
+          "pos": "n.",
+          "fa": "اینورتر؛ مبدلِ توانِ جریانِ مستقیم به متناوب",
+          "en": "An electronic power converter that changes direct-current electrical power into alternating-current electrical power.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The inverter changes a direct-current input into an alternating output.",
+          "fa": "اینورتر ورودیِ جریانِ مستقیم را به خروجیِ متناوب تبدیل می‌کند.",
+          "senseId": "inverter:meaning-1"
+        },
+        {
+          "en": "Different designs produce different output waveforms.",
+          "fa": "طرح‌های گوناگون شکلِ موج‌های خروجیِ متفاوتی تولید می‌کنند.",
+          "senseId": "inverter:meaning-1"
+        }
+      ],
+      "col": [
+        "a power inverter｜اینورترِ توان",
+        "inverter output｜خروجیِ اینورتر",
+        "a DC-to-AC inverter｜اینورترِ مستقیم به متناوب"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "inverter در اینجا مبدلِ توانِ DC به AC است، نه گیتِ منطقیِ NOT. موجِ سینوسیِ تصویر فقط یک نمونهٔ توضیحی است؛ همهٔ اینورترها خروجیِ سینوسیِ یکسان ندارند. تصویر، ولتاژ، فرکانس، توان یا شیوهٔ اتصالِ ایمنِ دستگاهی واقعی را تعیین نمی‌کند.",
+      "media": {
+        "img": "atlas/img/inverter.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.ti.com/lit/ug/tidud05b/tidud05b.pdf",
+            "use": "Checked power conversion DC to AC and differing possible output waveforms; no copied ratings, circuit topology or artwork."
+          }
+        ]
+      }
+    },
+    {
+      "id": "oscillator",
+      "w": "oscillator",
+      "uk": "/ˈɒsɪleɪtə/",
+      "us": "/ˈɑːsəleɪtər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "oscillator:meaning-1",
+          "pos": "n.",
+          "fa": "نوسان‌ساز؛ مدارِ تولیدِ سیگنالِ دوره‌ای",
+          "en": "An electronic circuit that uses supplied energy to generate a signal that repeats periodically.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The oscillator generates a repeating signal from a direct-current supply.",
+          "fa": "نوسان‌ساز با انرژیِ منبعِ جریانِ مستقیم سیگنالی تکرارشونده تولید می‌کند.",
+          "senseId": "oscillator:meaning-1"
+        },
+        {
+          "en": "Its output can provide a timing signal for another circuit.",
+          "fa": "خروجیِ آن می‌تواند سیگنالِ زمان‌بندیِ مدارِ دیگری را فراهم کند.",
+          "senseId": "oscillator:meaning-1"
+        }
+      ],
+      "col": [
+        "an electronic oscillator｜نوسان‌سازِ الکترونیکی",
+        "oscillator frequency｜فرکانسِ نوسان‌ساز",
+        "oscillator output｜خروجیِ نوسان‌ساز"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "oscillator سیگنالِ دوره‌ای تولید می‌کند؛ amplifier معمولاً سیگنالِ ورودی را تقویت می‌کند. نمونهٔ تصویر خروجیِ سینوسی دارد، اما نوسان‌ساز می‌تواند موج‌های دیگری هم بسازد. منبعِ انرژی لازم است؛ موجِ مفهومی مقدارِ اندازه‌گیری‌شده یا مدارِ قابلِ ساخت نیست.",
+      "media": {
+        "img": "atlas/img/oscillator.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.analog.com/en/resources/glossary/oscillator.html",
+            "use": "Checked periodic electronic signal generation; original learner wording and conceptual waveform, no copied artwork."
+          }
+        ]
+      }
+    },
+    {
+      "id": "amplifier",
+      "w": "amplifier",
+      "uk": "/ˈæmplɪfaɪə/",
+      "us": "/ˈæmpləfaɪər/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "amplifier:meaning-1",
+          "pos": "n.",
+          "fa": "تقویت‌کننده؛ مدارِ افزایشِ دامنهٔ سیگنال",
+          "en": "An electronic device or circuit that uses energy from a power supply to increase the amplitude of an input signal.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The amplifier produces a larger signal with the same frequency in this linear example.",
+          "fa": "تقویت‌کننده در این نمونهٔ خطی سیگنالی بزرگ‌تر با همان فرکانس تولید می‌کند.",
+          "senseId": "amplifier:meaning-1"
+        },
+        {
+          "en": "The extra energy comes from the power supply.",
+          "fa": "انرژیِ اضافی از منبعِ تغذیه می‌آید.",
+          "senseId": "amplifier:meaning-1"
+        }
+      ],
+      "col": [
+        "a signal amplifier｜تقویت‌کنندهٔ سیگنال",
+        "amplifier gain｜بهرهٔ تقویت‌کننده",
+        "an amplifier input｜ورودیِ تقویت‌کننده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "amplifier در اینجا تقویت‌کنندهٔ الکترونیکیِ سیگنال است. بزرگ‌ترشدنِ دامنه با افزایشِ فرکانس یکی نیست. تصویر یک نمونهٔ خطیِ ایده‌آل است؛ توان از منبع می‌آید و بهره، پهنای باند و دامنهٔ خروجی محدودند. مثلثِ مفهومی، مدارِ عملیاتیِ سیم‌کشی‌شده نیست.",
+      "media": {
+        "img": "atlas/img/amplifier.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://wiki.analog.com/university/courses/electronics/text/glossary",
+            "use": "Checked signal amplitude versus frequency; original definitions and examples, no copied diagrams."
+          }
+        ]
+      }
+    },
+    {
+      "id": "integrated-circuit",
+      "w": "integrated circuit",
+      "uk": "/ˌɪntɪɡreɪtɪd ˈsɜːkɪt/",
+      "us": "/ˌɪntəɡreɪtɪd ˈsɜːrkɪt/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "integrated-circuit:meaning-1",
+          "pos": "n.",
+          "fa": "مدارِ مجتمع؛ آی‌سی",
+          "en": "An electronic circuit whose components and interconnections are formed together on a small piece of semiconductor material.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The integrated circuit contains many electronic elements on one semiconductor chip.",
+          "fa": "مدارِ مجتمع عناصرِ الکترونیکیِ بسیاری را روی یک تراشهٔ نیمه‌رسانا دارد.",
+          "senseId": "integrated-circuit:meaning-1"
+        },
+        {
+          "en": "Fine bond wires connect the die to the package leads in this example.",
+          "fa": "در این نمونه، سیم‌های اتصالِ ظریف تراشه را به پایه‌های محفظه متصل می‌کنند.",
+          "senseId": "integrated-circuit:meaning-1"
+        }
+      ],
+      "col": [
+        "an integrated circuit package｜محفظهٔ مدارِ مجتمع",
+        "an integrated circuit chip｜تراشهٔ مدارِ مجتمع",
+        "integrated circuit design｜طراحیِ مدارِ مجتمع"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "integrated circuit یا IC مدارِ مجتمع است؛ PCB بردی است که قطعات روی آن نصب می‌شوند. همهٔ آی‌سی‌ها ریزکنترل‌گر نیستند. نمایِ بازشدهٔ تصویر یک بسته‌بندیِ نمونه و الگوی مفهومیِ تراشه است؛ نقشهٔ واقعیِ سیلیکون یا اثباتِ کارکرد و تعدادِ ترانزیستورها نیست.",
+      "media": {
+        "img": "atlas/img/integrated-circuit.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.analog.com/en/resources/glossary/ic-integrated-circuit.html",
+            "use": "Checked electronic elements and interconnects integrated on semiconductor material; illustrative package/die, no copied chip layout."
+          }
+        ]
+      }
+    },
+    {
+      "id": "microcontroller",
+      "w": "microcontroller",
+      "uk": "/ˌmaɪkrəʊkənˈtrəʊlə/",
+      "us": "/ˌmaɪkroʊkənˈtroʊlər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "microcontroller:meaning-1",
+          "pos": "n.",
+          "fa": "ریزکنترل‌گر؛ میکروکنترلر",
+          "en": "An integrated circuit that combines a processor, memory and peripherals to control functions in an embedded system.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The microcontroller contains a processor, memory and input-output peripherals on one chip.",
+          "fa": "ریزکنترل‌گر پردازنده، حافظه و واحدهای جانبیِ ورودی‌ـ‌خروجی را روی یک تراشه دارد.",
+          "senseId": "microcontroller:meaning-1"
+        },
+        {
+          "en": "A stored program controls how it responds to sensor inputs.",
+          "fa": "برنامه‌ای ذخیره‌شده نحوهٔ پاسخِ آن به ورودی‌های حسگر را کنترل می‌کند.",
+          "senseId": "microcontroller:meaning-1"
+        }
+      ],
+      "col": [
+        "a microcontroller chip｜تراشهٔ ریزکنترل‌گر",
+        "a microcontroller program｜برنامهٔ ریزکنترل‌گر",
+        "microcontroller peripherals｜واحدهای جانبیِ ریزکنترل‌گر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "microcontroller نوعی IC با پردازنده، حافظه و واحدهای جانبیِ یکپارچه است؛ با پردازندهٔ تنها یا بردِ توسعه یکی نیست. بلوک‌های CPU، Memory و I/O در تصویر مفهومی‌اند، نه نقشهٔ واقعیِ تراشه یا فهرستِ کاملِ واحدهای آن.",
+      "media": {
+        "img": "atlas/img/microcontroller.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://developerhelp.microchip.com/xwiki/bin/view/products/mcu-mpu/32bit-mpu/differences-between-mcu-and-mpu-development/",
+            "use": "Checked processor, memory and peripherals on one chip versus MPU; original conceptual blocks, no copied device design."
+          }
+        ]
+      }
+    },
+    {
+      "id": "breadboard",
+      "w": "breadboard",
+      "uk": "/ˈbredbɔːd/",
+      "us": "/ˈbredbɔːrd/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "breadboard:meaning-1",
+          "pos": "n.",
+          "fa": "بِردبُرد؛ بردِ آزمایشِ بدونِ لحیم",
+          "en": "A reusable board with internally connected contacts for building and testing temporary electronic circuits without soldering.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The breadboard has separate groups of five connected contacts on either side of the central gap.",
+          "fa": "بردبُرد در هر سوی شکافِ میانی گروه‌های جداگانهٔ پنج‌تایی از کنتاکت‌های متصل دارد.",
+          "senseId": "breadboard:meaning-1"
+        },
+        {
+          "en": "The long side rails can distribute power to the circuit.",
+          "fa": "ریل‌های بلندِ کناری می‌توانند تغذیه را در مدار توزیع کنند.",
+          "senseId": "breadboard:meaning-1"
+        }
+      ],
+      "col": [
+        "a solderless breadboard｜بردبُردِ بدونِ لحیم",
+        "breadboard contacts｜کنتاکت‌های بردبُرد",
+        "a breadboard power rail｜ریلِ تغذیهٔ بردبُرد"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "breadboard اینجا بردِ آزمایشِ الکترونیک است، نه تختهٔ برشِ نان. در نمونهٔ تصویر هر گروهِ پنج‌تایی مستقل است و دو سوی شکاف به هم وصل نیستند. ریل‌ها ممکن است در مدل‌های دیگر قطع یا تقسیم شوند؛ شکلِ ظاهری، اتصالِ همهٔ سوراخ‌ها یا ریل‌های دو طرف به یکدیگر را ثابت نمی‌کند.",
+      "media": {
+        "img": "atlas/img/breadboard.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://cdn.sparkfun.com/assets/resources/4/4/breadboard_primer.pdf",
+            "use": "Checked five-contact groups separated across central gap and separate power rails; original simplified cutaway, no copied artwork."
+          }
+        ]
+      }
+    },
+    {
+      "id": "jumper-wire",
+      "w": "jumper wire",
+      "uk": "/ˈdʒʌmpə ˌwaɪə/",
+      "us": "/ˈdʒʌmpər ˌwaɪər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "jumper-wire:meaning-1",
+          "pos": "n.",
+          "fa": "سیمِ جامپر؛ سیمِ رابطِ کوتاه",
+          "en": "A short insulated wire with connector ends used to make temporary electrical connections between circuit points.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The jumper wire has a connector at each end of its insulated conductor.",
+          "fa": "سیمِ جامپر در هر انتهای رسانای عایق‌شدهٔ خود یک اتصال‌دهنده دارد.",
+          "senseId": "jumper-wire:meaning-1"
+        },
+        {
+          "en": "Its pin can fit into a matching prototyping-board contact.",
+          "fa": "پینِ آن می‌تواند در کنتاکتِ سازگارِ بردِ نمونه‌سازی قرار بگیرد.",
+          "senseId": "jumper-wire:meaning-1"
+        }
+      ],
+      "col": [
+        "a male-to-male jumper wire｜سیمِ جامپرِ نری به نری",
+        "a jumper wire connector｜اتصال‌دهندهٔ سیمِ جامپر",
+        "an insulated jumper wire｜سیمِ جامپرِ عایق‌شده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "jumper wire در این مدخل سیمِ رابطِ موقت با سرِ اتصال است. نمونهٔ تصویر دو سرِ پینِ نری دارد؛ نوع‌های مادگی یا ترکیبی هم وجود دارند. شکلِ ظاهری، ظرفیتِ جریان یا سازگاریِ اتصال را تعیین نمی‌کند و این نمونه کابلِ شارژ نیست.",
+      "media": {
+        "img": "atlas/img/jumper-wire.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "logic-gate",
+      "w": "logic gate",
+      "uk": "/ˈlɒdʒɪk ˌɡeɪt/",
+      "us": "/ˈlɑːdʒɪk ˌɡeɪt/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "logic-gate:meaning-1",
+          "pos": "n.",
+          "fa": "گیتِ منطقی؛ دروازهٔ منطقِ دیجیتال",
+          "en": "An electronic circuit that produces a logical output according to a Boolean rule applied to its logical inputs.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The logic gate shown is an AND gate with two inputs.",
+          "fa": "گیتِ منطقیِ نشان‌داده‌شده از نوعِ AND با دو ورودی است.",
+          "senseId": "logic-gate:meaning-1"
+        },
+        {
+          "en": "Both inputs must be high for this gate to produce a high output.",
+          "fa": "برای اینکه این گیت خروجیِ سطحِ بالا بدهد، هر دو ورودی باید در سطحِ بالا باشند.",
+          "senseId": "logic-gate:meaning-1"
+        }
+      ],
+      "col": [
+        "an AND logic gate｜گیتِ منطقیِ AND",
+        "a logic gate input｜ورودیِ گیتِ منطقی",
+        "a logic gate output｜خروجیِ گیتِ منطقی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "logic gate اینجا مدارِ منطقِ دیجیتال است؛ همهٔ گیت‌ها AND نیستند و گیتِ NOT یک ورودی دارد. تصویر فقط نمونهٔ AND با دو ورودیِ ۱ و خروجیِ ۱ است. صفر و یک حالتِ منطقی‌اند، نه ولتاژهای اندازه‌گیری‌شده؛ آستانه‌های واقعی به خانوادهٔ منطقی بستگی دارند.",
+      "media": {
+        "img": "atlas/img/logic-gate.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.ti.com/product/SN74HC08",
+            "use": "Root checked two-input AND function; conceptual Boolean states, no electrical ratings or copied artwork."
+          },
+          {
+            "url": "https://www.ti.com/product/SN74HC08",
+            "use": "Factual check of selected2inputANDpositiveBooleanfunction; original diagramwith1,1→1."
+          }
+        ]
+      }
+    },
+    {
+      "id": "operational-amplifier",
+      "w": "operational amplifier",
+      "uk": "/ˌɒpəˈreɪʃənəl ˈæmplɪfaɪə/",
+      "us": "/ˌɑːpəˈreɪʃənəl ˈæmpləfaɪər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "operational-amplifier:meaning-1",
+          "pos": "n.",
+          "fa": "تقویت‌کنندهٔ عملیاتی؛ اُپ‌اَمپ",
+          "en": "A high-gain electronic amplifier that responds to the voltage difference between its non-inverting and inverting inputs.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The operational amplifier symbol has two signal inputs and one output.",
+          "fa": "نمادِ تقویت‌کنندهٔ عملیاتی دو ورودیِ سیگنال و یک خروجی دارد.",
+          "senseId": "operational-amplifier:meaning-1"
+        },
+        {
+          "en": "Its supply connections provide the energy needed for operation.",
+          "fa": "اتصال‌های تغذیهٔ آن انرژیِ لازم برای کار را فراهم می‌کنند.",
+          "senseId": "operational-amplifier:meaning-1"
+        }
+      ],
+      "col": [
+        "an operational amplifier circuit｜مدارِ تقویت‌کنندهٔ عملیاتی",
+        "an inverting input｜ورودیِ معکوس‌کننده",
+        "a non-inverting input｜ورودیِ غیرمعکوس‌کننده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "operational amplifier یا op-amp اختلافِ ولتاژِ دو ورودی را تقویت می‌کند. علامت‌های + و − کنارِ ورودی‌ها، غیرمعکوس و معکوس را مشخص می‌کنند؛ با دو پایهٔ تغذیه یکی نیستند. نمادِ تصویر مدارِ کامل نیست؛ بهره و خروجیِ واقعی به تغذیه، بازخورد و محدودیت‌های قطعه بستگی دارند.",
+      "media": {
+        "img": "atlas/img/operational-amplifier.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.ti.com/document-viewer/lit/html/SSZT348",
+            "use": "Root checked two signal inputs, output and supply connections; original isolated conceptual symbol, no working circuit claim."
+          },
+          {
+            "url": "https://www.ti.com/document-viewer/lit/html/SSZT348",
+            "use": "Factual check of2signalinputs1output2powersupplies; originalisolatedsymbol."
+          }
+        ]
+      }
+    },
+    {
+      "id": "optocoupler",
+      "w": "optocoupler",
+      "uk": "/ˈɒptəʊˌkʌplə/",
+      "us": "/ˈɑːptoʊˌkʌplər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "optocoupler:meaning-1",
+          "pos": "n.",
+          "fa": "اپتوکوپلر؛ کوپل‌کنندهٔ نوریِ ایزوله",
+          "en": "A device that transfers a signal by light between electrically isolated input and output sides.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The optocoupler uses light to transfer a signal across an insulating barrier.",
+          "fa": "اپتوکوپلر با نور سیگنال را از سدِ عایق عبور می‌دهد.",
+          "senseId": "optocoupler:meaning-1"
+        },
+        {
+          "en": "In this example an LED illuminates a phototransistor without an electrical connection between the two sides.",
+          "fa": "در این نمونه، ال‌ای‌دی یک فوتوترانزیستور را بدونِ اتصالِ الکتریکیِ میانِ دو طرف روشن می‌کند.",
+          "senseId": "optocoupler:meaning-1"
+        }
+      ],
+      "col": [
+        "an optocoupler input｜ورودیِ اپتوکوپلر",
+        "an optocoupler output｜خروجیِ اپتوکوپلر",
+        "an optocoupler isolation barrier｜سدِ ایزولاسیونِ اپتوکوپلر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "optocoupler با نور سیگنال را منتقل می‌کند، نه با سیمی که دو سوی سد را به هم وصل کند. نمونهٔ تصویر LED و فوتوترانزیستور دارد؛ آشکارسازهای دیگری هم وجود دارند. تصویرِ مفهومی، رتبهٔ عایقی، ایمنی یا مناسب‌بودن برای ولتاژی خاص را ثابت نمی‌کند.",
+      "media": {
+        "img": "atlas/img/optocoupler.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://docs.broadcom.com/doc/AV02-0835EN",
+            "use": "Root checked optically coupled LED and detector across dielectric isolation; conceptual model, no copied art or isolation rating claim."
+          },
+          {
+            "url": "https://docs.broadcom.com/doc/AV02-0835EN",
+            "use": "Factual check ofLED/photodetector optical transfer across electricallyinsulatingseparation; original selectedschematic."
+          }
+        ]
+      }
+    },
+    {
+      "id": "voltage-regulator",
+      "w": "voltage regulator",
+      "uk": "/ˈvəʊltɪdʒ ˌreɡjʊleɪtə/",
+      "us": "/ˈvoʊltɪdʒ ˌreɡjəleɪtər/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "voltage-regulator:meaning-1",
+          "pos": "n.",
+          "fa": "تنظیم‌کنندهٔ ولتاژ؛ رگولاتورِ ولتاژ",
+          "en": "An electronic device or circuit that controls an output voltage near a set value while operating within specified limits.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The voltage regulator keeps the output near its set value as the input changes within the allowed range.",
+          "fa": "تنظیم‌کنندهٔ ولتاژ با تغییرِ ورودی در محدودهٔ مجاز، خروجی را نزدیکِ مقدارِ تعیین‌شده نگه می‌دارد.",
+          "senseId": "voltage-regulator:meaning-1"
+        },
+        {
+          "en": "A linear design needs enough input voltage above the output to stay in regulation.",
+          "fa": "طرحِ خطی برای حفظِ تنظیم به اختلافِ کافیِ ولتاژِ ورودی نسبت به خروجی نیاز دارد.",
+          "senseId": "voltage-regulator:meaning-1"
+        }
+      ],
+      "col": [
+        "a linear voltage regulator｜تنظیم‌کنندهٔ خطیِ ولتاژ",
+        "voltage regulator output｜خروجیِ تنظیم‌کنندهٔ ولتاژ",
+        "voltage regulator dropout｜افتِ حداقلیِ تنظیم‌کنندهٔ ولتاژ"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "voltage regulator با یک‌سوساز یا نشان‌دهندهٔ ولتاژ یکی نیست. تصویر یک نمونهٔ خطیِ مفهومی با ورودیِ کافی و خروجیِ تقریباً ثابت است؛ همهٔ تنظیم‌کننده‌ها خطی نیستند. تنظیم به حدودِ ورودی، بار و دما وابسته است؛ موجِ صاف تضمینِ خروجیِ بی‌نقص در هر شرایطی نیست.",
+      "media": {
+        "img": "atlas/img/voltage-regulator.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.ti.com/lit/an/slva079/slva079.pdf",
+            "use": "Checked linear regulator operating limits and dropout versus maintained regulation; original qualitative example, no copied curves or numeric readings."
           }
         ]
       }

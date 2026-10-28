@@ -2492,7 +2492,127 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 182,
+      "targetCategoryWords": 194,
+      "entryIds": [
+        "atrium",
+        "ventricle",
+        "aorta",
+        "vena-cava",
+        "capillary",
+        "heart-valve",
+        "platelet",
+        "plasma",
+        "haemoglobin",
+        "pulse",
+        "circulation",
+        "respiration"
+      ],
+      "units": [
+        {
+          "id": "cardiovascular-anatomy",
+          "title": "Heart chambers, major vessels and valve",
+          "entryIds": [
+            "atrium",
+            "ventricle",
+            "aorta",
+            "vena-cava",
+            "capillary",
+            "heart-valve"
+          ]
+        },
+        {
+          "id": "blood-components",
+          "title": "Platelets, blood plasma and haemoglobin",
+          "entryIds": [
+            "platelet",
+            "plasma",
+            "haemoglobin"
+          ]
+        },
+        {
+          "id": "cardiorespiratory-physiology",
+          "title": "Pulse, circulation and respiration",
+          "entryIds": [
+            "pulse",
+            "circulation",
+            "respiration"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-13",
+      "releaseId": "2026-10-preview-18",
+      "status": "published-preview",
+      "objective": "Describe cardiovascular anatomy, blood components and cardiorespiratory physiology, plus electronic signal conversion and components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 182,
+      "targetCategoryWords": 194,
+      "entryIds": [
+        "rectifier",
+        "inverter",
+        "oscillator",
+        "amplifier",
+        "integrated-circuit",
+        "microcontroller",
+        "breadboard",
+        "jumper-wire",
+        "logic-gate",
+        "operational-amplifier",
+        "optocoupler",
+        "voltage-regulator"
+      ],
+      "units": [
+        {
+          "id": "electronic-signal-conversion",
+          "title": "Signal generation, amplification and conversion",
+          "entryIds": [
+            "rectifier",
+            "inverter",
+            "oscillator",
+            "amplifier",
+            "voltage-regulator"
+          ]
+        },
+        {
+          "id": "electronic-components-prototyping",
+          "title": "Integrated devices and prototyping connections",
+          "entryIds": [
+            "integrated-circuit",
+            "microcontroller",
+            "breadboard",
+            "jumper-wire"
+          ]
+        },
+        {
+          "id": "logic-and-isolation",
+          "title": "Logic, differential amplification and optical isolation",
+          "entryIds": [
+            "logic-gate",
+            "operational-amplifier",
+            "optocoupler"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-13",
+      "releaseId": "2026-10-preview-18",
+      "status": "published-preview",
+      "objective": "Describe cardiovascular anatomy, blood components and cardiorespiratory physiology, plus electronic signal conversion and components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-12"
+  "activePassId": "specialist-500-batch-13"
 }

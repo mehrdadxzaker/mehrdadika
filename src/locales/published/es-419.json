@@ -13,9 +13,9 @@
     "modifications": "Latin-American Spanish preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-17",
-    "manifest": "content/releases/2026-10-preview-17-a205f03985c3/manifest.json",
-    "sha256": "a205f03985c3ac9316cd7eb886673ebd1a563992dada1d5f0b7e9d4f004caf38"
+    "id": "2026-10-preview-18",
+    "manifest": "content/releases/2026-10-preview-18-44b178ff0468/manifest.json",
+    "sha256": "44b178ff04688da35bfe7fe5aada7367f59813d5b27bdfd13e81da81da8f2538"
   },
   "categories": {
     "everyday-life": {
@@ -18295,6 +18295,822 @@
         }
       ],
       "tip": "Plywood está hecho de chapas finas de madera; particleboard usa partículas y MDF usa fibras de madera. Las fibras de capas vecinas suelen ser perpendiculares. La imagen ilustrativa no demuestra especie de madera, adhesivo, grado, resistencia a la humedad ni resultado de ensayo del panel."
+    },
+    "atrium": {
+      "sourceWord": "atrium",
+      "senses": {
+        "atrium:meaning-1": {
+          "gloss": "aurícula cardíaca",
+          "definition": "Una de las dos cavidades superiores del corazón que reciben sangre antes de que pase a un ventrículo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The right atrium receives blood through the superior and inferior vena cava.",
+          "translation": "La aurícula derecha recibe sangre por las venas cavas superior e inferior."
+        },
+        {
+          "en": "Each atrium communicates with the ventricle on the same side of the heart.",
+          "translation": "Cada aurícula se comunica con el ventrículo del mismo lado del corazón."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the right atrium",
+          "translation": "la aurícula derecha"
+        },
+        {
+          "en": "the left atrium",
+          "translation": "la aurícula izquierda"
+        },
+        {
+          "en": "the atrial wall",
+          "translation": "la pared auricular"
+        }
+      ],
+      "tip": "Atrium aquí es la aurícula cardíaca, no el vestíbulo de un edificio; el plural es atria. La imagen destaca la aurícula derecha. Atrial es el adjetivo correspondiente; ventricle es el ventrículo debajo de ella."
+    },
+    "ventricle": {
+      "sourceWord": "ventricle",
+      "senses": {
+        "ventricle:meaning-1": {
+          "gloss": "ventrículo cardíaco",
+          "definition": "Una de las dos cavidades inferiores del corazón que bombean sangre hacia la arteria pulmonar o la aorta."
+        }
+      },
+      "examples": [
+        {
+          "en": "The left ventricle pumps blood into the aorta.",
+          "translation": "El ventrículo izquierdo bombea sangre hacia la aorta."
+        },
+        {
+          "en": "The muscular wall of the left ventricle is thicker than that of the right ventricle.",
+          "translation": "La pared muscular del ventrículo izquierdo es más gruesa que la del derecho."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the left ventricle",
+          "translation": "el ventrículo izquierdo"
+        },
+        {
+          "en": "the right ventricle",
+          "translation": "el ventrículo derecho"
+        },
+        {
+          "en": "the ventricular wall",
+          "translation": "la pared ventricular"
+        }
+      ],
+      "tip": "Ventricle aquí es el ventrículo cardíaco; los ventrículos cerebrales son otro sentido. La imagen muestra el izquierdo. El derecho envía sangre a la circulación pulmonar y el izquierdo a la sistémica; atrium es la aurícula superior."
+    },
+    "aorta": {
+      "sourceWord": "aorta",
+      "senses": {
+        "aorta:meaning-1": {
+          "gloss": "aorta",
+          "definition": "La arteria principal que lleva sangre del ventrículo izquierdo a la circulación sistémica."
+        }
+      },
+      "examples": [
+        {
+          "en": "The aorta rises from the left ventricle and curves into an arch.",
+          "translation": "La aorta asciende desde el ventrículo izquierdo y se curva formando un arco."
+        },
+        {
+          "en": "The descending part continues through the chest towards the abdomen.",
+          "translation": "La parte descendente continúa por el tórax hacia el abdomen."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the aortic arch",
+          "translation": "el arco aórtico"
+        },
+        {
+          "en": "the ascending aorta",
+          "translation": "la aorta ascendente"
+        },
+        {
+          "en": "the descending aorta",
+          "translation": "la aorta descendente"
+        }
+      ],
+      "tip": "Aorta no es pulmonary artery, que sale del ventrículo derecho hacia los pulmones. Aortic es el adjetivo. La imagen simplifica el trayecto principal y las ramas mayores del arco; no es un mapa de todas las ramificaciones."
+    },
+    "vena-cava": {
+      "sourceWord": "vena cava",
+      "senses": {
+        "vena-cava:meaning-1": {
+          "gloss": "vena cava",
+          "definition": "Una de las dos grandes venas que devuelven sangre de la circulación sistémica a la aurícula derecha."
+        }
+      },
+      "examples": [
+        {
+          "en": "The superior vena cava enters the right atrium from above.",
+          "translation": "La vena cava superior entra en la aurícula derecha desde arriba."
+        },
+        {
+          "en": "The inferior vena cava returns blood from regions below the diaphragm.",
+          "translation": "La vena cava inferior devuelve sangre de las regiones situadas debajo del diafragma."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the superior vena cava",
+          "translation": "la vena cava superior"
+        },
+        {
+          "en": "the inferior vena cava",
+          "translation": "la vena cava inferior"
+        },
+        {
+          "en": "the opening of a vena cava",
+          "translation": "la abertura de una vena cava"
+        }
+      ],
+      "tip": "Vena cava es singular; venae cavae es plural. SVC e IVC indican las venas superior e inferior, ambas conectadas a la aurícula derecha. Pulmonary veins llevan sangre de los pulmones a la aurícula izquierda. El azul del modelo es una convención; la sangre venosa no es azul."
+    },
+    "capillary": {
+      "sourceWord": "capillary",
+      "senses": {
+        "capillary:meaning-1": {
+          "gloss": "capilar sanguíneo",
+          "definition": "Un vaso sanguíneo microscópico de pared delgada por el que pueden pasar sustancias entre la sangre y el tejido circundante."
+        }
+      },
+      "examples": [
+        {
+          "en": "The capillary has a narrow lumen lined by a thin layer of cells.",
+          "translation": "El capilar tiene una luz estrecha revestida por una capa delgada de células."
+        },
+        {
+          "en": "Capillary networks connect small arterial vessels with small venous vessels.",
+          "translation": "Las redes capilares conectan pequeños vasos arteriales con pequeños vasos venosos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a capillary network",
+          "translation": "una red capilar"
+        },
+        {
+          "en": "a capillary wall",
+          "translation": "una pared capilar"
+        },
+        {
+          "en": "capillary exchange",
+          "translation": "el intercambio capilar"
+        }
+      ],
+      "tip": "Capillary aquí es un capilar sanguíneo, no un tubo fino de laboratorio ni el fenómeno de capilaridad. Su pared no tiene la capa muscular gruesa de una arteria. La ampliación es esquemática; la forma y la permeabilidad varían entre capilares."
+    },
+    "heart-valve": {
+      "sourceWord": "heart valve",
+      "senses": {
+        "heart-valve:meaning-1": {
+          "gloss": "válvula cardíaca",
+          "definition": "Una estructura con valvas o cúspides móviles que ayuda a que la sangre fluya en una sola dirección por el corazón."
+        }
+      },
+      "examples": [
+        {
+          "en": "The heart valve shown here is an aortic valve with three cusps.",
+          "translation": "La válvula cardíaca mostrada aquí es una válvula aórtica con tres cúspides."
+        },
+        {
+          "en": "The cusps meet when the valve closes to limit backward flow.",
+          "translation": "Las cúspides se juntan cuando la válvula se cierra para limitar el flujo de retorno."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a heart valve",
+          "translation": "una válvula cardíaca"
+        },
+        {
+          "en": "an aortic valve",
+          "translation": "una válvula aórtica"
+        },
+        {
+          "en": "a valve leaflet",
+          "translation": "una valva"
+        }
+      ],
+      "tip": "Heart valve es una válvula biológica del corazón, no una válvula industrial. La imagen ejemplifica la válvula semilunar aórtica; no todas las válvulas cardíacas tienen la misma estructura. Las cúspides aórticas no se unen a cuerdas tendinosas; esas cuerdas pertenecen a las válvulas entre aurículas y ventrículos."
+    },
+    "platelet": {
+      "sourceWord": "platelet",
+      "senses": {
+        "platelet:meaning-1": {
+          "gloss": "plaqueta",
+          "definition": "Un pequeño fragmento celular sin núcleo en la sangre humana que ayuda a formar el tapón plaquetario y participa en la coagulación."
+        }
+      },
+      "examples": [
+        {
+          "en": "The platelet is a small cell fragment without a nucleus.",
+          "translation": "La plaqueta es un pequeño fragmento celular sin núcleo."
+        },
+        {
+          "en": "Platelets can adhere to a damaged vessel surface and gather together.",
+          "translation": "Las plaquetas pueden adherirse a la superficie de un vaso dañado y agruparse."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a platelet plug",
+          "translation": "un tapón plaquetario"
+        },
+        {
+          "en": "platelet adhesion",
+          "translation": "la adhesión plaquetaria"
+        },
+        {
+          "en": "platelet aggregation",
+          "translation": "la agregación plaquetaria"
+        }
+      ],
+      "tip": "Platelet en la sangre humana es un fragmento celular, no un glóbulo blanco con núcleo. En reposo suele tener forma discoide y al activarse puede formar prolongaciones. La imagen es una ampliación simplificada; el color y el tamaño no son resultados de análisis ni un recuento."
+    },
+    "plasma": {
+      "sourceWord": "plasma",
+      "senses": {
+        "plasma:meaning-1": {
+          "gloss": "plasma sanguíneo",
+          "definition": "La parte líquida de la sangre, con agua, sustancias disueltas y proteínas, incluidos factores de coagulación."
+        }
+      },
+      "examples": [
+        {
+          "en": "The plasma forms the upper straw-coloured layer in this separated anticoagulated blood sample.",
+          "translation": "El plasma forma la capa superior de color amarillo pajizo en esta muestra de sangre anticoagulada y separada."
+        },
+        {
+          "en": "Blood cells and platelets are suspended in plasma in circulating blood.",
+          "translation": "Las células sanguíneas y las plaquetas están suspendidas en el plasma de la sangre circulante."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "blood plasma",
+          "translation": "el plasma sanguíneo"
+        },
+        {
+          "en": "plasma proteins",
+          "translation": "las proteínas plasmáticas"
+        },
+        {
+          "en": "a plasma sample",
+          "translation": "una muestra de plasma"
+        }
+      ],
+      "tip": "Plasma aquí es el plasma sanguíneo, no el estado ionizado de la materia. Serum es el líquido que queda tras la coagulación y no es igual al plasma. El tubo representa una muestra anticoagulada y centrifugada; las proporciones de las capas son esquemáticas, no valores de análisis."
+    },
+    "haemoglobin": {
+      "sourceWord": "haemoglobin",
+      "senses": {
+        "haemoglobin:meaning-1": {
+          "gloss": "hemoglobina",
+          "definition": "La proteína con hierro de los glóbulos rojos que se une al oxígeno y ayuda a transportarlo por el cuerpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The haemoglobin model shows four protein chains, each with a haem group.",
+          "translation": "El modelo de hemoglobina muestra cuatro cadenas proteicas, cada una con un grupo hemo."
+        },
+        {
+          "en": "Oxygen binds reversibly to iron in the haem groups.",
+          "translation": "El oxígeno se une de forma reversible al hierro de los grupos hemo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a haemoglobin molecule",
+          "translation": "una molécula de hemoglobina"
+        },
+        {
+          "en": "oxygen binding",
+          "translation": "la unión de oxígeno"
+        },
+        {
+          "en": "a haem group",
+          "translation": "un grupo hemo"
+        }
+      ],
+      "tip": "Haemoglobin es la grafía británica; la estadounidense es hemoglobin. El modelo simplifica la principal hemoglobina adulta con cuatro cadenas y cuatro grupos hemo. Los colores y las formas educativas no representan la estructura atómica exacta ni un resultado de análisis; la proteína no es el propio glóbulo rojo."
+    },
+    "pulse": {
+      "sourceWord": "pulse",
+      "senses": {
+        "pulse:meaning-1": {
+          "gloss": "pulso arterial",
+          "definition": "La expansión rítmica de una arteria asociada a las ondas de presión producidas por los latidos del corazón."
+        }
+      },
+      "examples": [
+        {
+          "en": "The clinician feels the pulse at the thumb side of the wrist.",
+          "translation": "El profesional de salud siente el pulso en el lado del pulgar de la muñeca."
+        },
+        {
+          "en": "The finger pads rest over the radial artery in this illustration.",
+          "translation": "Las yemas de los dedos descansan sobre la arteria radial en esta ilustración."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a radial pulse",
+          "translation": "un pulso radial"
+        },
+        {
+          "en": "a pulse rate",
+          "translation": "una frecuencia del pulso"
+        },
+        {
+          "en": "to feel the pulse",
+          "translation": "sentir el pulso"
+        }
+      ],
+      "tip": "Pulse aquí es el pulso arterial, no un pulso eléctrico ni legumbres. La imagen muestra el lugar radial con las yemas de los dedos, no con el pulgar. Pulse rate es el número de latidos por tiempo; esta entrada no ofrece valores normales, diagnóstico ni instrucciones de evaluación."
+    },
+    "circulation": {
+      "sourceWord": "circulation",
+      "senses": {
+        "circulation:meaning-1": {
+          "gloss": "circulación sanguínea",
+          "definition": "El movimiento continuo de la sangre por el corazón y los vasos, incluidos los circuitos pulmonar y sistémico."
+        }
+      },
+      "examples": [
+        {
+          "en": "The circulation carries blood through the lungs and then through the rest of the body.",
+          "translation": "La circulación lleva sangre por los pulmones y luego por el resto del cuerpo."
+        },
+        {
+          "en": "The pulmonary circuit returns oxygenated blood to the left side of the heart.",
+          "translation": "El circuito pulmonar devuelve sangre oxigenada al lado izquierdo del corazón."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "blood circulation",
+          "translation": "la circulación sanguínea"
+        },
+        {
+          "en": "pulmonary circulation",
+          "translation": "la circulación pulmonar"
+        },
+        {
+          "en": "systemic circulation",
+          "translation": "la circulación sistémica"
+        }
+      ],
+      "tip": "Circulation aquí es la circulación sanguínea, no el tiraje de un periódico ni el movimiento del aire. La arteria pulmonar lleva sangre con poco oxígeno a los pulmones y la vena pulmonar trae sangre oxigenada de vuelta. Los colores son convencionales; la sangre con poco oxígeno también es roja. El esquema simplifica circuitos, no todas las ramificaciones."
+    },
+    "respiration": {
+      "sourceWord": "respiration",
+      "senses": {
+        "respiration:meaning-1": {
+          "gloss": "respiración",
+          "definition": "Los procesos de respirar e intercambiar oxígeno y dióxido de carbono entre el aire y la sangre."
+        }
+      },
+      "examples": [
+        {
+          "en": "Respiration includes moving air into and out of the lungs.",
+          "translation": "La respiración incluye mover aire hacia dentro y fuera de los pulmones."
+        },
+        {
+          "en": "During inhalation, the diaphragm moves down and the lungs expand.",
+          "translation": "Durante la inhalación, el diafragma desciende y los pulmones se expanden."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "external respiration",
+          "translation": "la respiración externa"
+        },
+        {
+          "en": "the respiratory system",
+          "translation": "el sistema respiratorio"
+        },
+        {
+          "en": "a respiratory cycle",
+          "translation": "un ciclo respiratorio"
+        }
+      ],
+      "tip": "Respiration aquí tiene el sentido respiratorio externo, no cellular respiration, las reacciones químicas que liberan energía en las células. Ventilation es el movimiento del aire; en el uso fisiológico preciso, external respiration es el intercambio gaseoso entre alvéolos y sangre. La imagen simplifica inhalación y exhalación; no es un ejercicio respiratorio."
+    },
+    "rectifier": {
+      "sourceWord": "rectifier",
+      "senses": {
+        "rectifier:meaning-1": {
+          "gloss": "rectificador",
+          "definition": "Un dispositivo o circuito electrónico que convierte corriente alterna en corriente que fluye en un solo sentido."
+        }
+      },
+      "examples": [
+        {
+          "en": "The rectifier produces pulses that remain on one side of the zero line.",
+          "translation": "El rectificador produce pulsos que permanecen de un lado de la línea de cero."
+        },
+        {
+          "en": "A filter can reduce the ripple after the bridge.",
+          "translation": "Un filtro puede reducir el rizado después del puente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a bridge rectifier",
+          "translation": "un rectificador de puente"
+        },
+        {
+          "en": "rectifier output",
+          "translation": "la salida del rectificador"
+        },
+        {
+          "en": "a rectifier diode",
+          "translation": "un diodo rectificador"
+        }
+      ],
+      "tip": "Rectifier hace que la corriente sea unidireccional; la salida no tiene que ser perfectamente lisa. La imagen representa conceptualmente la salida pulsante de un puente; el filtro y el regulador tienen otras funciones. Las curvas no son mediciones ni instrucciones de conexión."
+    },
+    "inverter": {
+      "sourceWord": "inverter",
+      "senses": {
+        "inverter:meaning-1": {
+          "gloss": "inversor de potencia",
+          "definition": "Un convertidor electrónico de potencia que transforma energía eléctrica de corriente continua en energía eléctrica de corriente alterna."
+        }
+      },
+      "examples": [
+        {
+          "en": "The inverter changes a direct-current input into an alternating output.",
+          "translation": "El inversor transforma una entrada de corriente continua en una salida alterna."
+        },
+        {
+          "en": "Different designs produce different output waveforms.",
+          "translation": "Los distintos diseños producen formas de onda de salida diferentes."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a power inverter",
+          "translation": "un inversor de potencia"
+        },
+        {
+          "en": "inverter output",
+          "translation": "la salida del inversor"
+        },
+        {
+          "en": "a DC-to-AC inverter",
+          "translation": "un inversor CC-CA"
+        }
+      ],
+      "tip": "Inverter aquí es el convertidor de potencia CC-CA, no la compuerta lógica NOT. La senoide ilustrada es solo un ejemplo; no todos los inversores tienen la misma salida senoidal. La imagen no especifica tensión, frecuencia, potencia ni la conexión segura de un aparato real."
+    },
+    "oscillator": {
+      "sourceWord": "oscillator",
+      "senses": {
+        "oscillator:meaning-1": {
+          "gloss": "oscilador",
+          "definition": "Un circuito electrónico que usa energía suministrada para generar una señal que se repite periódicamente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The oscillator generates a repeating signal from a direct-current supply.",
+          "translation": "El oscilador genera una señal repetitiva a partir de una fuente de corriente continua."
+        },
+        {
+          "en": "Its output can provide a timing signal for another circuit.",
+          "translation": "Su salida puede proporcionar una señal de temporización para otro circuito."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an electronic oscillator",
+          "translation": "un oscilador electrónico"
+        },
+        {
+          "en": "oscillator frequency",
+          "translation": "la frecuencia del oscilador"
+        },
+        {
+          "en": "oscillator output",
+          "translation": "la salida del oscilador"
+        }
+      ],
+      "tip": "Oscillator genera una señal periódica; amplifier normalmente amplifica una señal de entrada. El ejemplo muestra una senoide, pero los osciladores también producen otras formas de onda. Se necesita una fuente de energía; la curva conceptual no es una medición ni un circuito listo para construir."
+    },
+    "amplifier": {
+      "sourceWord": "amplifier",
+      "senses": {
+        "amplifier:meaning-1": {
+          "gloss": "amplificador",
+          "definition": "Un dispositivo o circuito electrónico que usa energía de una fuente de alimentación para aumentar la amplitud de una señal de entrada."
+        }
+      },
+      "examples": [
+        {
+          "en": "The amplifier produces a larger signal with the same frequency in this linear example.",
+          "translation": "El amplificador produce una señal mayor con la misma frecuencia en este ejemplo lineal."
+        },
+        {
+          "en": "The extra energy comes from the power supply.",
+          "translation": "La energía adicional proviene de la fuente de alimentación."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a signal amplifier",
+          "translation": "un amplificador de señal"
+        },
+        {
+          "en": "amplifier gain",
+          "translation": "la ganancia del amplificador"
+        },
+        {
+          "en": "an amplifier input",
+          "translation": "una entrada del amplificador"
+        }
+      ],
+      "tip": "Amplifier aquí es el amplificador electrónico de señal. Aumentar la amplitud no es aumentar la frecuencia. La imagen es un ejemplo lineal idealizado; la energía proviene de la fuente y la ganancia, el ancho de banda y la excursión de salida tienen límites. El triángulo conceptual no es un circuito funcional con conexiones completas."
+    },
+    "integrated-circuit": {
+      "sourceWord": "integrated circuit",
+      "senses": {
+        "integrated-circuit:meaning-1": {
+          "gloss": "circuito integrado",
+          "definition": "Un circuito electrónico cuyos componentes e interconexiones se forman juntos en un pequeño fragmento de material semiconductor."
+        }
+      },
+      "examples": [
+        {
+          "en": "The integrated circuit contains many electronic elements on one semiconductor chip.",
+          "translation": "El circuito integrado contiene muchos elementos electrónicos en un solo chip semiconductor."
+        },
+        {
+          "en": "Fine bond wires connect the die to the package leads in this example.",
+          "translation": "En este ejemplo, hilos de conexión finos unen el dado a los terminales del encapsulado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an integrated circuit package",
+          "translation": "un encapsulado de circuito integrado"
+        },
+        {
+          "en": "an integrated circuit chip",
+          "translation": "un chip de circuito integrado"
+        },
+        {
+          "en": "integrated circuit design",
+          "translation": "el diseño de circuitos integrados"
+        }
+      ],
+      "tip": "Integrated circuit, o IC, es circuito integrado; PCB es la placa donde se montan los componentes. No todos los IC son microcontroladores. La vista abierta muestra un encapsulado de ejemplo y un patrón conceptual del dado; no es un diseño real del silicio ni demuestra función o cantidad de transistores."
+    },
+    "microcontroller": {
+      "sourceWord": "microcontroller",
+      "senses": {
+        "microcontroller:meaning-1": {
+          "gloss": "microcontrolador",
+          "definition": "Un circuito integrado que reúne procesador, memoria y periféricos para controlar funciones en un sistema embebido."
+        }
+      },
+      "examples": [
+        {
+          "en": "The microcontroller contains a processor, memory and input-output peripherals on one chip.",
+          "translation": "El microcontrolador contiene procesador, memoria y periféricos de entrada y salida en un solo chip."
+        },
+        {
+          "en": "A stored program controls how it responds to sensor inputs.",
+          "translation": "Un programa almacenado controla cómo responde a las entradas de los sensores."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a microcontroller chip",
+          "translation": "un chip microcontrolador"
+        },
+        {
+          "en": "a microcontroller program",
+          "translation": "un programa de microcontrolador"
+        },
+        {
+          "en": "microcontroller peripherals",
+          "translation": "los periféricos del microcontrolador"
+        }
+      ],
+      "tip": "Microcontroller es un IC con procesador, memoria y periféricos integrados; no es solo un procesador ni una placa de desarrollo. Los bloques CPU, Memory e I/O de la imagen son conceptuales, no un diseño real ni una lista completa de las unidades del chip."
+    },
+    "breadboard": {
+      "sourceWord": "breadboard",
+      "senses": {
+        "breadboard:meaning-1": {
+          "gloss": "protoboard; placa de pruebas",
+          "definition": "Una placa reutilizable con contactos conectados internamente para montar y probar circuitos electrónicos temporales sin soldadura."
+        }
+      },
+      "examples": [
+        {
+          "en": "The breadboard has separate groups of five connected contacts on either side of the central gap.",
+          "translation": "La protoboard tiene grupos separados de cinco contactos conectados a cada lado de la ranura central."
+        },
+        {
+          "en": "The long side rails can distribute power to the circuit.",
+          "translation": "Los rieles laterales largos pueden distribuir alimentación al circuito."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a solderless breadboard",
+          "translation": "una protoboard sin soldadura"
+        },
+        {
+          "en": "breadboard contacts",
+          "translation": "los contactos de la protoboard"
+        },
+        {
+          "en": "a breadboard power rail",
+          "translation": "un riel de alimentación de la protoboard"
+        }
+      ],
+      "tip": "Breadboard aquí es la placa de prototipado electrónico, no una tabla para cortar pan. En el ejemplo, cada grupo de cinco es independiente y los dos lados de la ranura no se conectan. Otros modelos pueden tener rieles interrumpidos o divididos; la apariencia no demuestra que todos los orificios o los rieles de ambos lados estén interconectados."
+    },
+    "jumper-wire": {
+      "sourceWord": "jumper wire",
+      "senses": {
+        "jumper-wire:meaning-1": {
+          "gloss": "cable puente; jumper",
+          "definition": "Un cable corto y aislado con conectores en los extremos, usado para hacer conexiones eléctricas temporales entre puntos de un circuito."
+        }
+      },
+      "examples": [
+        {
+          "en": "The jumper wire has a connector at each end of its insulated conductor.",
+          "translation": "El cable puente tiene un conector en cada extremo de su conductor aislado."
+        },
+        {
+          "en": "Its pin can fit into a matching prototyping-board contact.",
+          "translation": "Su pin puede entrar en un contacto compatible de una placa de prototipado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a male-to-male jumper wire",
+          "translation": "un cable puente macho-macho"
+        },
+        {
+          "en": "a jumper wire connector",
+          "translation": "un conector de cable puente"
+        },
+        {
+          "en": "an insulated jumper wire",
+          "translation": "un cable puente aislado"
+        }
+      ],
+      "tip": "Jumper wire aquí es el cable de conexión temporal con conectores. El ejemplo tiene dos pines machos; también hay versiones hembra o mixtas. La apariencia no determina la capacidad de corriente ni la compatibilidad de los conectores, y el ejemplo no es un cable de carga."
+    },
+    "logic-gate": {
+      "sourceWord": "logic gate",
+      "senses": {
+        "logic-gate:meaning-1": {
+          "gloss": "compuerta lógica",
+          "definition": "Un circuito electrónico que produce una salida lógica según una regla booleana aplicada a sus entradas lógicas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The logic gate shown is an AND gate with two inputs.",
+          "translation": "La compuerta lógica mostrada es una compuerta AND con dos entradas."
+        },
+        {
+          "en": "Both inputs must be high for this gate to produce a high output.",
+          "translation": "Las dos entradas deben estar en nivel alto para que esta compuerta produzca una salida en nivel alto."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an AND logic gate",
+          "translation": "una compuerta lógica AND"
+        },
+        {
+          "en": "a logic gate input",
+          "translation": "una entrada de compuerta lógica"
+        },
+        {
+          "en": "a logic gate output",
+          "translation": "una salida de compuerta lógica"
+        }
+      ],
+      "tip": "Logic gate aquí es el circuito de lógica digital; no todas las compuertas son AND y la compuerta NOT tiene una entrada. La imagen muestra solo un ejemplo AND con dos entradas 1 y salida 1. Cero y uno son estados lógicos, no tensiones medidas; los umbrales reales dependen de la familia lógica."
+    },
+    "operational-amplifier": {
+      "sourceWord": "operational amplifier",
+      "senses": {
+        "operational-amplifier:meaning-1": {
+          "gloss": "amplificador operacional",
+          "definition": "Un amplificador electrónico de alta ganancia que responde a la diferencia de tensión entre sus entradas no inversora e inversora."
+        }
+      },
+      "examples": [
+        {
+          "en": "The operational amplifier symbol has two signal inputs and one output.",
+          "translation": "El símbolo del amplificador operacional tiene dos entradas de señal y una salida."
+        },
+        {
+          "en": "Its supply connections provide the energy needed for operation.",
+          "translation": "Sus conexiones de alimentación proporcionan la energía necesaria para funcionar."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an operational amplifier circuit",
+          "translation": "un circuito con amplificador operacional"
+        },
+        {
+          "en": "an inverting input",
+          "translation": "una entrada inversora"
+        },
+        {
+          "en": "a non-inverting input",
+          "translation": "una entrada no inversora"
+        }
+      ],
+      "tip": "Operational amplifier, u op-amp, amplifica la diferencia de tensión entre dos entradas. Los signos + y − junto a las entradas indican no inversora e inversora; no son los dos terminales de alimentación. El símbolo no es un circuito completo; la ganancia y la salida reales dependen de la alimentación, la realimentación y los límites del componente."
+    },
+    "optocoupler": {
+      "sourceWord": "optocoupler",
+      "senses": {
+        "optocoupler:meaning-1": {
+          "gloss": "optoacoplador",
+          "definition": "Un dispositivo que transfiere una señal mediante luz entre los lados de entrada y salida eléctricamente aislados."
+        }
+      },
+      "examples": [
+        {
+          "en": "The optocoupler uses light to transfer a signal across an insulating barrier.",
+          "translation": "El optoacoplador usa luz para transferir una señal a través de una barrera aislante."
+        },
+        {
+          "en": "In this example an LED illuminates a phototransistor without an electrical connection between the two sides.",
+          "translation": "En este ejemplo, un LED ilumina un fototransistor sin conexión eléctrica entre los dos lados."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an optocoupler input",
+          "translation": "una entrada de optoacoplador"
+        },
+        {
+          "en": "an optocoupler output",
+          "translation": "una salida de optoacoplador"
+        },
+        {
+          "en": "an optocoupler isolation barrier",
+          "translation": "una barrera de aislamiento de optoacoplador"
+        }
+      ],
+      "tip": "Optocoupler transfiere la señal mediante luz, no mediante un cable que une los lados de la barrera. El ejemplo tiene LED y fototransistor; existen otros tipos de detector. La imagen conceptual no demuestra una clasificación de aislamiento, seguridad ni aptitud para una tensión específica."
+    },
+    "voltage-regulator": {
+      "sourceWord": "voltage regulator",
+      "senses": {
+        "voltage-regulator:meaning-1": {
+          "gloss": "regulador de tensión",
+          "definition": "Un dispositivo o circuito electrónico que controla una tensión de salida cercana a un valor fijado, operando dentro de límites especificados."
+        }
+      },
+      "examples": [
+        {
+          "en": "The voltage regulator keeps the output near its set value as the input changes within the allowed range.",
+          "translation": "El regulador de tensión mantiene la salida cerca del valor fijado mientras la entrada cambia dentro del intervalo permitido."
+        },
+        {
+          "en": "A linear design needs enough input voltage above the output to stay in regulation.",
+          "translation": "Un diseño lineal necesita una tensión de entrada suficientemente mayor que la salida para mantener la regulación."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a linear voltage regulator",
+          "translation": "un regulador lineal de tensión"
+        },
+        {
+          "en": "voltage regulator output",
+          "translation": "la salida del regulador de tensión"
+        },
+        {
+          "en": "voltage regulator dropout",
+          "translation": "la caída mínima de tensión del regulador"
+        }
+      ],
+      "tip": "Voltage regulator no es rectificador ni indicador de tensión. La imagen muestra un ejemplo lineal conceptual con entrada suficiente y salida aproximadamente constante; no todos los reguladores son lineales. La regulación depende de los límites de entrada, carga y temperatura; la línea lisa no garantiza una salida perfecta en cualquier condición."
     }
   }
 }

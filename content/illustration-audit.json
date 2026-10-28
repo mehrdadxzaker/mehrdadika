@@ -1729,17 +1729,32 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/pressure.svg",
-        "sha256": "4831e7f60ed1f5bd54fb4879e2fc467bff5a2f20ef3d279d3ea770301fce6cc4"
+        "path": "atlas/img/pressure-v2.webp",
+        "sha256": "28860b80e33d0f19280cdb78efa2731055637205ed10c8987fb68ec681249c27"
       },
       "visual": {
-        "expectedCue": "A force-over-area diagram and a blood-vessel-wall diagram jointly cover the mechanical and medical meanings.",
-        "decision": "retained",
-        "reason": "Retained after pixel inspection: A force-over-area diagram and a blood-vessel-wall diagram jointly cover the mechanical and medical meanings."
+        "expectedCue": "A vessel shows redblood exerting outwardwallpressure; a separate supportedplaten shows mean forceoverarea with exactF,A,P=F/A.",
+        "decision": "replaced",
+        "reason": "Actual full1254 and512/120 inspected after correcting the wrong area annotation. Uppercutaway has visiblyredblood/biconcavecells and radial arrows directed fromlumen towardinnerwall, no rupture/readings. Lowerplaten sits flush onblock; outlined wholeTOPface labeledA is congruent projection of undersidecontactarea, not an unloaded exposedfrontpatch. ForceF pointsdown perpendicular and equationP=F/A is correct. Qualitative averagepressure, no localstressmap or clinicalvalue. Purposeful coolclinical frame and slate/silver/amber inset preserve both published senses without changing4examples.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise cool-white clinical educational forms with restrained mint/paleblue; purposeful red blood or schematic oxygenation colors where essential. Pressure includes a controlled slate/amber inset for its preserved engineering sense. No decorative labels, logos or fake readings."
       },
       "review": {
         "method": "AI visual inspection",
-        "humanReviewed": false
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "28860b80e33d0f19280cdb78efa2731055637205ed10c8987fb68ec681249c27",
+          "inspectedAt": "2026-10-28T07:43:40.246782+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254 source,512pxWebP and120pxthumbnail. Upper red vessel cutaway uses outward arrows from lumen toward surrounding wall, not longitudinal flow arrows; blood remains red. Lower slate/amber panel shows a flat platen in full contact on a block, downward force F and area A marked on the whole top face congruent with its lower contact footprint. No misleading tiny front-face area patch remains. Formula characters read P=F/A; this depicts average normal force over area, not uniform local contact stress or a diagnostic blood-pressure reading. Category-specific clinical/engineering panels preserve both existing senses. Human specialist review pending."
+        }
       }
     },
     {
@@ -23873,6 +23888,1206 @@
             120
           ],
           "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. One bonded wood-veneer panel has visible continuous edge plies and a stepped cutaway exposing neighbouring grain directions at right angles. No loose floating sheets, chipboard particles or open delamination. Layer count/thickness/color are explanatory rather than a specified layup; species, adhesive, grade and moisture resistance cannot be established from the rendering. Panel/cross-ply cue survives120px and slate technical background matches the brief. Independent human engineering/material specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "atrium",
+      "sourceWord": "atrium",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "atrium:meaning-1",
+          "pos": "n.",
+          "en": "Either of the two upper heart chambers that receive blood before it passes into a ventricle."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The right atrium receives blood through the superior and inferior vena cava.",
+          "senseId": "atrium:meaning-1"
+        },
+        {
+          "en": "Each atrium communicates with the ventricle on the same side of the heart.",
+          "senseId": "atrium:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/atrium.webp",
+        "sha256": "2e89b0b477db9c58c500f54aa3dd58902a84e70e1fc514fd9ff94d16c024c5c4"
+      },
+      "visual": {
+        "expectedCue": "Mint upper right-atrial receiving chamber with separate superior and inferior vena-cava openings and lower ventricular context.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full1254 source,512WebP and120thumbnail. SVC enters highlighted right atrium from above and IVC from below; both openings face the same cavity, with lower right-ventricular/atrioventricular context. First candidate's ambiguous unrelated great-vessel background was removed in one targeted edit; rejected evidence retained. Selective cutaway omits other great vessels and simplifies fine valve detail. AI-only review, human anatomical review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise cool-white/mint clinical forms and subdued ivory cardiac context; no labels, decorative props, readings or clinical claims."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2e89b0b477db9c58c500f54aa3dd58902a84e70e1fc514fd9ff94d16c024c5c4",
+          "inspectedAt": "2026-10-28T08:04:51.730577+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. Mint upper right-atrial chamber is continuous with separate superior/inferior cava openings and opens toward a subdued right ventricle through AV-valve context. No unrelated highlighted chamber or atrial arterial outlet. Other chambers remain translucent. Chamber-selection cue survives120; cavae blue is schematic, not literal bloodcolor. Independent human language and medical specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "ventricle",
+      "sourceWord": "ventricle",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "ventricle:meaning-1",
+          "pos": "n.",
+          "en": "Either of the two lower heart chambers that pump blood into the pulmonary artery or the aorta."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The left ventricle pumps blood into the aorta.",
+          "senseId": "ventricle:meaning-1"
+        },
+        {
+          "en": "The muscular wall of the left ventricle is thicker than that of the right ventricle.",
+          "senseId": "ventricle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ventricle.webp",
+        "sha256": "2abb13172eae2295e3d0f4349d411d1a5bd3c85e28b97e48e3b83764f64b6b9c"
+      },
+      "visual": {
+        "expectedCue": "An open left-ventricular chamber with thick mint-highlighted muscular wall tapering to apex, atrial/mitral inflow above and aortic outflow alongside.",
+        "decision": "added",
+        "reason": "Actually inspected full1254 source,512WebP and120thumbnail. The lower left ventricular cavity remains hollow with markedly thick muscular wall and apex. Mitral leaflets/chordae connect to papillary muscles within it; a short adjacent aortic outflow arises from ventricular outflow, with no aortic chordae. Smaller atrial context lies above and other chambers are subdued. Fine intracardiac detail is simplified, not a procedural or surgical atlas; human anatomical review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical cardiac rendering on cool-white/mint, selected wall highlight with restrained normal tissue, no labels, numbers or irrelevant props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2abb13172eae2295e3d0f4349d411d1a5bd3c85e28b97e48e3b83764f64b6b9c",
+          "inspectedAt": "2026-10-28T08:04:51.730577+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. The selected lower left ventricle has a thick mint muscular wall and large cavity beneath left atrium/mitral leaflets with chordae/papillary context. Adjacent aortic outflow is coherent; right-heart context is subdued. Cavity/wall and lower pumping chamber remain clear120; cropped upper vessels are context rather than a full vessel map. Independent human language and medical specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "aorta",
+      "sourceWord": "aorta",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "aorta:meaning-1",
+          "pos": "n.",
+          "en": "The main artery carrying blood from the left ventricle into the systemic circulation."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The aorta rises from the left ventricle and curves into an arch.",
+          "senseId": "aorta:meaning-1"
+        },
+        {
+          "en": "The descending part continues through the chest towards the abdomen.",
+          "senseId": "aorta:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/aorta.webp",
+        "sha256": "5407e280ab3e31075bb5776689516a6b6d7485b840c2f8aa28889d190e4e2d7b"
+      },
+      "visual": {
+        "expectedCue": "One muted-red ascending aorta curves into an arch with three superior branch origins and continues as descending aorta behind the heart.",
+        "decision": "added",
+        "reason": "Actually inspected full1254 source,512WebP and120thumbnail. Main ascending-to-arch-to-descending course is continuous; arch has three distinct branch origins, the first branching into two, with descending segment behind anatomical left/viewer-right. The pale pulmonary context remains distinct from the red aorta. Aortic root is partly visible while intracardiac left-ventricular attachment is mostly hidden by anterior context; this is a gross course model, not a complete outflow cutaway or exact branch map. Small descending branches are simplified. Human anatomical review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise normal cardiac educational rendering on cool-white/mint, restrained red aortic emphasis and quieter tissue context; no decorative props, labels, measurements or diagnosis."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5407e280ab3e31075bb5776689516a6b6d7485b840c2f8aa28889d190e4e2d7b",
+          "inspectedAt": "2026-10-28T08:04:51.730577+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. Ascending red aorta arches to descending course on anatomical left/viewer right. Three arch-branch origins are visible, with first bifurcating into two terminal stumps rather than four separate arch origins. Descending segment and quiet heart context distinguish systemic artery from pulmonary trunk. Gross external model occludes detailed intracardiac LV junction; it does not prove a surgically exposed connection or depict every branch. Natural-red selected artery on clinicalground, clear120. Independent human language and medical specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "vena-cava",
+      "sourceWord": "vena cava",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "vena-cava:meaning-1",
+          "pos": "n.",
+          "en": "Either of the two large veins returning systemic blood to the right atrium of the heart."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The superior vena cava enters the right atrium from above.",
+          "senseId": "vena-cava:meaning-1"
+        },
+        {
+          "en": "The inferior vena cava returns blood from regions below the diaphragm.",
+          "senseId": "vena-cava:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/vena-cava.webp",
+        "sha256": "a7e7ded21ec0d5db7de56de42acf94686f12e498a5defddafd641975587ae26f"
+      },
+      "visual": {
+        "expectedCue": "Superior and inferior pale-blue vena-cava segments open separately into one cutaway right-atrial receiving chamber.",
+        "decision": "added",
+        "reason": "Actually inspected full1254 source,512WebP and120thumbnail. Superior segment enters the upper right-atrial opening, inferior segment the lower opening in the same cavity. The segments do not bypass the chamber or enter the left atrium or ventricle. The remainder of heart/great-vessel context is subdued; tributaries and fine internal atrial detail are simplified. Blue vessel-wall highlight is conventional, not literal blue blood. Human anatomical review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise cool-white clinical anatomical model, pale-blue selected vessels and restrained normal tissue; no labels, readings, irrelevant props or treatment imagery."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a7e7ded21ec0d5db7de56de42acf94686f12e498a5defddafd641975587ae26f",
+          "inspectedAt": "2026-10-28T08:04:51.730577+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. Blue superior and inferior vena cava have two separate open entries into the same exposed right-atrial chamber; no tube crosses into LV or substitutes for pulmonary return. Quiet cardiac context and two large venous paths remain clear120. Schematic vesselcolor, gross educational cutaway, no literal blueblood or procedural view claimed. Independent human language and medical specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "capillary",
+      "sourceWord": "capillary",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "capillary:meaning-1",
+          "pos": "n.",
+          "en": "A microscopic thin-walled blood vessel in which substances can pass between blood and surrounding tissue."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The capillary has a narrow lumen lined by a thin layer of cells.",
+          "senseId": "capillary:meaning-1"
+        },
+        {
+          "en": "Capillary networks connect small arterial vessels with small venous vessels.",
+          "senseId": "capillary:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/capillary.webp",
+        "sha256": "75c26c5168e69d4df54a036675830e08287e993b26e740ff0ba13995e72cefb6"
+      },
+      "visual": {
+        "expectedCue": "A microscopic single thin-walled vessel with three red erythrocytes nearly single-file inside its narrow lumen, seen through a controlled wall cutaway.",
+        "decision": "added",
+        "reason": "Actually inspected full1254 source,512WebP and120thumbnail. Intact tubular wall at both ends joins the cutaway middle; thin endothelial lining with flattened wall nuclei encloses red nonnucleated discs almost single-file. No thick muscular artery tunics or escaped red cells are visible. Quiet extracellular/cellular tissue context is simplified; wall thickness and cutaway shading are explanatory, not a micrograph or specific permeability subtype. Human specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise microscopic clinical rendering, visible red blood with pale mint tissue/cool white context, no labels, diagnostic data, needles or unrelated decoration."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "75c26c5168e69d4df54a036675830e08287e993b26e740ff0ba13995e72cefb6",
+          "inspectedAt": "2026-10-28T08:04:51.730577+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. Three red biconcave cells fit nearly single-file within a narrow thin endothelial tube. The exposed wall shows one thin lining layer with flattened nuclei, no thick arterial muscular coat. Surrounding tissue/cutaway is simplified; shape/permeability vary and no exact microscopic scale or clinical image claimed. Clear red lumen and thin-wall relation survive120. Independent human language and medical specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "heart-valve",
+      "sourceWord": "heart valve",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "heart-valve:meaning-1",
+          "pos": "n.",
+          "en": "A structure with movable leaflets or cusps that helps blood flow in one direction through the heart."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The heart valve shown here is an aortic valve with three cusps.",
+          "senseId": "heart-valve:meaning-1"
+        },
+        {
+          "en": "The cusps meet when the valve closes to limit backward flow.",
+          "senseId": "heart-valve:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/heart-valve.webp",
+        "sha256": "13ee193e65a5cf25de610c1d94bcc54d6d1a012c5d255fd6cec7b249badef0fa"
+      },
+      "visual": {
+        "expectedCue": "Two matched three-cusp aortic semilunar valve views show an open central passage and a closed Y-shaped coaptation.",
+        "decision": "added",
+        "reason": "Actual full1254 and512/120 inspected. Left has exactly3 attached pocket cusps folded aside from a clear central triangular passage; right3cusps meet in a closed centralY seam. No fourth cusp, chordae, detached petals or prosthesis. Same-view vessel roots provide context; outer left context closely crops at card edge, while all selected cusp surfaces remain visible. Simplified selected aortic example, not universal valve anatomy.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise cool-white clinical educational forms with restrained mint/paleblue; purposeful red blood or schematic oxygenation colors where essential. Pressure includes a controlled slate/amber inset for its preserved engineering sense. No decorative labels, logos or fake readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "13ee193e65a5cf25de610c1d94bcc54d6d1a012c5d255fd6cec7b249badef0fa",
+          "inspectedAt": "2026-10-28T07:43:40.244275+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254 source,512pxWebP and120pxthumbnail. The same circular aortic-root model shows three semilunar cusps retracted around an open central orifice on the left, and three cusps meeting along central coaptation lines on the right. No chordae, mechanical hardware, duplicated extra cusps or contradictory second valve type appear. Educational open/closed states, simplified leaflet thickness and no exact flow measurement. Cool-white/mint precise clinical forms; human specialist review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "platelet",
+      "sourceWord": "platelet",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "platelet:meaning-1",
+          "pos": "n.",
+          "en": "A small nucleus-free cell fragment in human blood that helps form a platelet plug and supports blood clotting."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The platelet is a small cell fragment without a nucleus.",
+          "senseId": "platelet:meaning-1"
+        },
+        {
+          "en": "Platelets can adhere to a damaged vessel surface and gather together.",
+          "senseId": "platelet:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/platelet.webp",
+        "sha256": "1b66274f351e4610936d36dba2f2592caff73e0151f8a517bd2e535a9595fccf"
+      },
+      "visual": {
+        "expectedCue": "A flattened resting platelet fragment with translucent pale cytoplasm and multiple small internal granules, without a nucleus.",
+        "decision": "added",
+        "reason": "Actually inspected full1254 source,512WebP and120thumbnail. One flattened irregular discoid fragment has a controlled near-surface cutaway exposing many smaller granules; no large central nucleus, nucleolus or red-cell doughnut is present. It is not an activated spiny form and no wound/clot treatment is shown. Organelles/granules, colors and membrane gloss are simplified teaching cues, not a calibrated micrograph or count. Human specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Soft precise clinical microscopic object on cool-white/mint, restrained lilac/blue internal contrast, no labels, data or decorative props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1b66274f351e4610936d36dba2f2592caff73e0151f8a517bd2e535a9595fccf",
+          "inspectedAt": "2026-10-28T08:04:51.730577+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. One enlarged small discoid fragment has a pale lilac membrane/cutaway and many small granules without a large nucleus. No wound, clot-treatment action, RBC size comparison or active pseudopod claim. Resting fragment rather than nucleated leukocyte is explicit in text; granule shapes/colors are illustrative, not ultrastructural measurement. Clinicalrendering remainsclear120. Independent human language and medical specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "plasma",
+      "sourceWord": "plasma",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "plasma:meaning-1",
+          "pos": "n.",
+          "en": "The liquid part of blood, containing water, dissolved substances and proteins including clotting factors."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The plasma forms the upper straw-coloured layer in this separated anticoagulated blood sample.",
+          "senseId": "plasma:meaning-1"
+        },
+        {
+          "en": "Blood cells and platelets are suspended in plasma in circulating blood.",
+          "senseId": "plasma:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/plasma.webp",
+        "sha256": "1681cdbb0136492de04b5fda8ac43b9cae50d634ab4fd9accf0de0bd2af56bb5"
+      },
+      "visual": {
+        "expectedCue": "One separated anticoagulated blood tube with transparent straw-yellow upper plasma, a very thin pale interface and lower red packed cells.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full1254 source,512WebP and120thumbnail. Broad straw-yellow upper fluid remains transparent above red packed cells; targeted correction reduced the first candidate's opaque thick intermediate band to a thin interface, avoiding gel/clot confusion. Plain cap/base, no label, graduations or patient data. Image alone cannot prove anticoagulant chemistry or distinguish serum; source definition/examples/tips explicitly identify anticoagulated sample and contrast serum. Layer proportions are illustrative, not diagnostic. Human specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise simple clinical object on cool-white/mint background, yellow plasma and red blood retained, no irrelevant props or fake readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1681cdbb0136492de04b5fda8ac43b9cae50d634ab4fd9accf0de0bd2af56bb5",
+          "inspectedAt": "2026-10-28T08:04:51.730577+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. A capped sample tube shows a dominant upper straw-yellow liquid layer over red packed cells and a very thin pale buffy boundary after correction. No thickgel-separator band, clot or serum designation. Anticoagulated/centrifuged context comes from reviewed text, not capcolor alone. Ratios are schematic and unnumbered; clear yellow-over-red teaching cue survives120. Independent human language and medical specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "haemoglobin",
+      "sourceWord": "haemoglobin",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "haemoglobin:meaning-1",
+          "pos": "n.",
+          "en": "The iron-containing protein in red blood cells that binds oxygen and helps transport it around the body."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The haemoglobin model shows four protein chains, each with a haem group.",
+          "senseId": "haemoglobin:meaning-1"
+        },
+        {
+          "en": "Oxygen binds reversibly to iron in the haem groups.",
+          "senseId": "haemoglobin:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/haemoglobin.webp",
+        "sha256": "13ab665a811a0d39c33c2cc4d6916188ff5137788618582413a59752b8664e29"
+      },
+      "visual": {
+        "expectedCue": "A conceptual adult HbA tetramer has2mint/2blue protein subunits and4haem/centraliron cues, linked to a quiet redcell.",
+        "decision": "added",
+        "reason": "Actual full1254 and512/120 inspected. Exactly4 touching globular schematic protein subunits (2mint/2blue) each have1darkredhaem cue and1amberiron cue, four total. A red biconcave cell links by magnification leaders; no nucleus/through-hole. No atomic coordinates, chemical bonding formula, saturation value or residue map claimed. Four-part relation survives120; molecular shapes/colors/haem positions are explicitly conceptual rather than a structural determination.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise cool-white clinical educational forms with restrained mint/paleblue; purposeful red blood or schematic oxygenation colors where essential. Pressure includes a controlled slate/amber inset for its preserved engineering sense. No decorative labels, logos or fake readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "13ab665a811a0d39c33c2cc4d6916188ff5137788618582413a59752b8664e29",
+          "inspectedAt": "2026-10-28T07:43:40.246687+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254 source,512pxWebP and120pxthumbnail. Four globular protein subunits, two mint and two blue, each contain one red haem cue with one gold central iron cue: four sites total. A small red-cell locator and magnification lines explain intracellular context. Subunit shapes, exposed pockets and flower-like haem symbols are conceptual, not an atom-resolved molecular structure or true scale; the lexical tips explicitly identify the principal adult example and conceptual limits. Clean cool-white/mint clinical rendering. Human biochemical/anatomical review remains pending."
+        }
+      }
+    },
+    {
+      "entryId": "pulse",
+      "sourceWord": "pulse",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pulse:meaning-1",
+          "pos": "n.",
+          "en": "The rhythmic expansion of an artery associated with pressure waves produced by the heartbeat."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clinician feels the pulse at the thumb side of the wrist.",
+          "senseId": "pulse:meaning-1"
+        },
+        {
+          "en": "The finger pads rest over the radial artery in this illustration.",
+          "senseId": "pulse:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pulse.webp",
+        "sha256": "58e67d54493e3fdd5c8a4fa216554b6624c910e88be441f2be67e0b55864783a"
+      },
+      "visual": {
+        "expectedCue": "Clinician's index/middle finger pads contact the thumb-side volar wrist over the radial artery; the clinician's thumb stays away.",
+        "decision": "added",
+        "reason": "Actually inspected full1254 source,512WebP and120thumbnail. Receiving palm is up with thumb clearly separated on the radial side; two finger pads rest just proximal to its base at volar wrist, while examiner thumb is visibly lifted away and remaining fingers curl naturally. No extra digits or skin penetration are visible. Restrained inset shows one red artery under contact, not a measured pulse trace. Contact/location illustration only; no counts, diagnostic interpretation or procedural timing. Human specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean cool-white/mint clinical hand scene with precise natural skin forms, quiet sleeve, one useful anatomical inset and no irrelevant props/readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "58e67d54493e3fdd5c8a4fa216554b6624c910e88be441f2be67e0b55864783a",
+          "inspectedAt": "2026-10-28T08:04:51.730577+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. Clinician index/middle finger pads contact palmar wrist on thumb/radial side; thumb is separate and does not palpate. Controlled inset shows an arterial path at contact. Hands have coherent digits/contact and no invented rate/ECG/diagnostic values. Calm clinical scene teaches arterial-pulse context without evaluation instructions, readable120. Independent human language and medical specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "circulation",
+      "sourceWord": "circulation",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "circulation:meaning-1",
+          "pos": "n.",
+          "en": "The continuous movement of blood through the heart and blood vessels, including the pulmonary and systemic circuits."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The circulation carries blood through the lungs and then through the rest of the body.",
+          "senseId": "circulation:meaning-1"
+        },
+        {
+          "en": "The pulmonary circuit returns oxygenated blood to the left side of the heart.",
+          "senseId": "circulation:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/circulation.webp",
+        "sha256": "08460a5c5fd3a32b6fc1beb34e2e0bb8b44902877df52cf67567dd20b02303f2"
+      },
+      "visual": {
+        "expectedCue": "A closed pulmonary/systemic loop passes sequentially through4heartchambers, lungs and body tissue with correct schematicoxygenationcolors/directions.",
+        "decision": "added",
+        "reason": "Actual full1254 and512/120 inspected after one targeted correction. Blue systemic return enters upper viewer-left right atrium, descends into RV, then ONE distinct foreground blue pulmonary trunk begins inside lowerRV and ascends to lungs without an atrial junction. Red lung return enters upper viewer-right LA, descends toLV, whose lower outlet returns to systemic tissue bed and bluevenousreturn. No extra upperblue shortcut remains. Fourchambers/arrows visible; vessel route is intentionally schematic, not a literal anatomical map. Blue indicates lower oxygenation and realbloodremainsred.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise cool-white clinical educational forms with restrained mint/paleblue; purposeful red blood or schematic oxygenation colors where essential. Pressure includes a controlled slate/amber inset for its preserved engineering sense. No decorative labels, logos or fake readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "08460a5c5fd3a32b6fc1beb34e2e0bb8b44902877df52cf67567dd20b02303f2",
+          "inspectedAt": "2026-10-28T07:43:40.246740+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254 source,512pxWebP and120pxthumbnail and traced the entire route. Systemic blue return enters the upper right atrial chamber, then a downward arrow goes into the lower right ventricle. One outlined pulmonary trunk originates in the lower right ventricle and passes anterior to the atrium without a junction; upward arrows reach lung capillary context. Red pulmonary return enters left atrium, then left ventricle; lower ventricular outlet leads through systemic tissue bed and back to blue return. Both circuits form one closed continuous route. Chamber/vessel placement is deliberately schematic, including low LV outlet and merged lung-bed representation, not a literal anatomy map. No blue-blood claim: tips state conventional oxygen coding and blood remains red. Cool-white clinical style; independent human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "respiration",
+      "sourceWord": "respiration",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "respiration:meaning-1",
+          "pos": "n.",
+          "en": "The processes of breathing and exchanging oxygen and carbon dioxide between the air and the blood."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Respiration includes moving air into and out of the lungs.",
+          "senseId": "respiration:meaning-1"
+        },
+        {
+          "en": "During inhalation, the diaphragm moves down and the lungs expand.",
+          "senseId": "respiration:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/respiration.webp",
+        "sha256": "383635b99122ec27705ed231447be564a968f6e845cfa3f1a7b54e62e369d571"
+      },
+      "visual": {
+        "expectedCue": "Same thorax in two phases: larger lungs/lower flatter diaphragm with inward tracheal arrow, then smaller lungs/higher domed diaphragm with outward arrow.",
+        "decision": "added",
+        "reason": "Actually inspected full1254 source,512WebP and120thumbnail. Left tracheal arrow points into lungs, paired lungs are larger and diaphragm lower/flatter. Right arrow points outward, lungs smaller and continuous diaphragm higher/domed. Both use same torso scale and coherent tracheal bifurcation; no bronchus enters abdomen or split diaphragm domes. This illustrates the ventilation component of the selected respiratory sense, not microscopic alveolar exchange or cellular respiration; source notes distinguish those terms. Lung lobes/mediastinal context are simplified/omitted intentionally. Human specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise cool-white/mint clinical two-state model with only necessary verified directional arrows, no labels, pressure numbers, disease claims, exercise instructions or decoration."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "383635b99122ec27705ed231447be564a968f6e845cfa3f1a7b54e62e369d571",
+          "inspectedAt": "2026-10-28T08:04:51.730577+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. Two matched simplified torso views show inhalation with downward tracheal airflow, larger lungvolume and lower flatter diaphragm, followed by exhalation with upward airflow, smaller lungs and higher domed diaphragm. Lung/diaphragm relation coherent and arrows opposite as intended; remaining tissues subdued. It illustrates breathing phase, while text distinguishes gasexchange/cellularrespiration; not a breath exercise. Cues survive120. Independent human language and medical specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "rectifier",
+      "sourceWord": "rectifier",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "rectifier:meaning-1",
+          "pos": "n.",
+          "en": "An electronic device or circuit that converts alternating current into current flowing in one direction."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The rectifier produces pulses that remain on one side of the zero line.",
+          "senseId": "rectifier:meaning-1"
+        },
+        {
+          "en": "A filter can reduce the ripple after the bridge.",
+          "senseId": "rectifier:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/rectifier.webp",
+        "sha256": "1595b0f648226168454a9706ae93811292e0271db764788a1cde3a015dacecba"
+      },
+      "visual": {
+        "expectedCue": "Bridge-rectifier product example with alternating input and full-wave unidirectional pulsating output.",
+        "decision": "added",
+        "reason": "Actually inspected full1254px source,512px WebP and120px thumbnail. Black mounting-hole bridge package has three visible separated silver terminals; rear terminal is occluded by perspective, so this view is not a terminal pinout. The two-cycle AC trace crosses its zero baseline and the four DC lobes stay at or above theirs, touching between lobes; no false smoothing. AC/DC text and conversion arrow remain clear. Conceptual output, no measured ratings or wiring claim. AI author inspection only; independent human specialist review remains pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1595b0f648226168454a9706ae93811292e0271db764788a1cde3a015dacecba",
+          "inspectedAt": "2026-10-28T08:12:01.399302+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. A bridge-module example with an insulated body/terminal tabs is paired with a two-cycle alternating input and four same-sign half-sine output pulses, correctly illustrating full-wave rectification to pulsating DC rather than claiming smoothing/regulation. No pinout, actual voltage or measured waveform inferred; rear hardware may be occluded. Slate technicalstyle and conversioncue survive120. Independent human language and engineering specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "inverter",
+      "sourceWord": "inverter",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "inverter:meaning-1",
+          "pos": "n.",
+          "en": "An electronic power converter that changes direct-current electrical power into alternating-current electrical power."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The inverter changes a direct-current input into an alternating output.",
+          "senseId": "inverter:meaning-1"
+        },
+        {
+          "en": "Different designs produce different output waveforms.",
+          "senseId": "inverter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/inverter.webp",
+        "sha256": "df0cd931319487894b0c75254c54e2f4ca9bde007c4dd8dd1f65cd89a25e73b3"
+      },
+      "visual": {
+        "expectedCue": "Power-converter example with steady DC input changing to alternating positive-negative AC output.",
+        "decision": "added",
+        "reason": "Actually inspected full1254px source,512px WebP and120px thumbnail. Ribbed silver power-electronics enclosure and distinct terminal pairs sit above clear DC-to-AC conceptual strip. Left trace stays at a positive level; right sine crosses its baseline in two full cycles. Text DC/AC and direction are correct at512 and still recognizable at120. Simplified cutaway components are illustrative, not a validated topology or terminal pinout; coloured terminal housings do not specify polarity or ratings. No mains wiring or measured values shown. AI author only, independent human specialist review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "df0cd931319487894b0c75254c54e2f4ca9bde007c4dd8dd1f65cd89a25e73b3",
+          "inspectedAt": "2026-10-28T08:12:01.399302+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. A generic power-module cutaway accompanies a flat DC input and bipolar AC output with a clear conversion arrow. No +/−output label wrongly claims DC, and no frequency/power rating is invented. Internal component layout is illustrative rather than a verified functioning schematic; sinusoid is one outputexample, not universal. Correct DC→ACcue remainsclear120. Independent human language and engineering specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "oscillator",
+      "sourceWord": "oscillator",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "oscillator:meaning-1",
+          "pos": "n.",
+          "en": "An electronic circuit that uses supplied energy to generate a signal that repeats periodically."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The oscillator generates a repeating signal from a direct-current supply.",
+          "senseId": "oscillator:meaning-1"
+        },
+        {
+          "en": "Its output can provide a timing signal for another circuit.",
+          "senseId": "oscillator:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/oscillator.webp",
+        "sha256": "83dd9adef7503e65d64b7c0ff784aa1a6425046a4d5f3e7e476948ccabcbf3a1"
+      },
+      "visual": {
+        "expectedCue": "Oscillator module with supplied DC energy entering a conceptual generator and repeated periodic output.",
+        "decision": "added",
+        "reason": "Actually inspected full1254px source,512px WebP and120px thumbnail. Isolated silver metal-can module has separated visible leads. Lower conceptual chain reads DC source into oscillator block, then repeating three-cycle sine output; there is no periodic input signal. Arrows and DC label are clear. The abstract diagram specifies neither frequency nor pinout and is not a working circuit. Slate/silver product and amber waveform remain recognizable at120. AI author review only; independent human specialist review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "83dd9adef7503e65d64b7c0ff784aa1a6425046a4d5f3e7e476948ccabcbf3a1",
+          "inspectedAt": "2026-10-28T08:12:01.399302+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. A metal-can oscillator-package example accompanies DC energy entering a conceptual periodic-signal block and a repeating output wave, with no periodic input signal needed. It is not presented as passive amplification. No timebase/frequency/fabrication circuit claimed; package pins are illustrative and some may be occluded. Periodic-generation cue staysclear120. Independent human language and engineering specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "amplifier",
+      "sourceWord": "amplifier",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "amplifier:meaning-1",
+          "pos": "n.",
+          "en": "An electronic device or circuit that uses energy from a power supply to increase the amplitude of an input signal."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The amplifier produces a larger signal with the same frequency in this linear example.",
+          "senseId": "amplifier:meaning-1"
+        },
+        {
+          "en": "The extra energy comes from the power supply.",
+          "senseId": "amplifier:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/amplifier.webp",
+        "sha256": "b7aee85bc27f147f7c938cb98a3e00983fa550e7f504fe452232e5b86e9dd863"
+      },
+      "visual": {
+        "expectedCue": "Small input sine becomes larger same-frequency output; separate DC supply provides energy to conceptual amplifier.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full1254px source,512px WebP and120px thumbnail. Simple clean right-pointing triangle has one input and one output, no inversion bubble or invented internal circuit. Both waveforms have two cycles across comparable widths; output amplitude is larger. Separate DC block and downward amber supply arrow avoid a passive energy-creation cue. All remains visible at120. Initial candidate with superfluous nested circuitry and circular output node was rejected and retained. Conceptual linear example only; AI review, independent human specialist pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b7aee85bc27f147f7c938cb98a3e00983fa550e7f504fe452232e5b86e9dd863",
+          "inspectedAt": "2026-10-28T08:12:01.399302+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. A source labeledDC supplies a generic amplifier triangle; the input and output each show two aligned sinusoidal cycles while output amplitude is visibly larger. No outputcircle/extra nestedcircuit remains after correction. Qualitative same-frequency signal amplification uses external energy; not unlimitedgain or a functioning wiring diagram. Cues readable120. Independent human language and engineering specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "integrated-circuit",
+      "sourceWord": "integrated circuit",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "integrated-circuit:meaning-1",
+          "pos": "n.",
+          "en": "An electronic circuit whose components and interconnections are formed together on a small piece of semiconductor material."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The integrated circuit contains many electronic elements on one semiconductor chip.",
+          "senseId": "integrated-circuit:meaning-1"
+        },
+        {
+          "en": "Fine bond wires connect the die to the package leads in this example.",
+          "senseId": "integrated-circuit:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/integrated-circuit.webp",
+        "sha256": "5631a9d215d959faa8657e868e7df9c842b5ca27d40effe50454bcc88e86c445"
+      },
+      "visual": {
+        "expectedCue": "Single packaged IC cutaway reveals one integrated semiconductor die and bond wires to separated package leads.",
+        "decision": "added",
+        "reason": "Actually inspected full1254px source,512px WebP and120px thumbnail. One dual-inline package contains a flat patterned die, with fine amber bonds reaching separate lead-frame fingers and silver external legs. Pattern lies on the same die, not a circuit board with discrete components; no logos or fictitious part numbers. Individual tiny elements are illustrative and not a validated chip layout or transistor count. At120 the central die, opened package and legs remain clear. AI author review only; qualified human specialist review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5631a9d215d959faa8657e868e7df9c842b5ca27d40effe50454bcc88e86c445",
+          "inspectedAt": "2026-10-28T08:12:01.399302+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. An opened DIP package contains one integrated semiconductor die, separate lead-frame contacts and curved bondwires to die pads, distinct from a PCB carrying separate components. Die pattern is original conceptual circuitry, not an actual photomask/transistorcount or provenfunction. Precision slate/silver/cutaway remainsclear120. Independent human language and engineering specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "microcontroller",
+      "sourceWord": "microcontroller",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "microcontroller:meaning-1",
+          "pos": "n.",
+          "en": "An integrated circuit that combines a processor, memory and peripherals to control functions in an embedded system."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The microcontroller contains a processor, memory and input-output peripherals on one chip.",
+          "senseId": "microcontroller:meaning-1"
+        },
+        {
+          "en": "A stored program controls how it responds to sensor inputs.",
+          "senseId": "microcontroller:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/microcontroller.webp",
+        "sha256": "970696abeeeace17fa3cbbf18980bfbd4419982acc7b8091f930882aa4a5f74e"
+      },
+      "visual": {
+        "expectedCue": "One chip combines CPU, memory and input-output peripherals, shown in a clearly conceptual internal block inset.",
+        "decision": "added",
+        "reason": "Actually inspected full1254px source,512px WebP and120px thumbnail. Single square gullwing-pin package is connected by a leader to one bounded three-block diagram; CPU, Memory and I/O are spelled correctly at full and512. Amber buses connect the three functions within one boundary rather than separate chips. At120 package silhouette and three-block structure are clear while fine inset text is small. Diagram is conceptual, not a physical die layout or complete peripheral list. No development board or fabricated part number. AI author review only; independent human specialist pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "970696abeeeace17fa3cbbf18980bfbd4419982acc7b8091f930882aa4a5f74e",
+          "inspectedAt": "2026-10-28T08:12:01.399302+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. One leaded chip package links to a controlled block inset labeled exactlyCPU,Memory,I/O within one boundary. This conveys integrated processor/memory/peripherals, without claiming exact die floorplan or that these are its only units. No developmentboard or standaloneCPU substitution. Labels and concept remainreadable120. Independent human language and engineering specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "breadboard",
+      "sourceWord": "breadboard",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "breadboard:meaning-1",
+          "pos": "n.",
+          "en": "A reusable board with internally connected contacts for building and testing temporary electronic circuits without soldering."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The breadboard has separate groups of five connected contacts on either side of the central gap.",
+          "senseId": "breadboard:meaning-1"
+        },
+        {
+          "en": "The long side rails can distribute power to the circuit.",
+          "senseId": "breadboard:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/breadboard.webp",
+        "sha256": "e190b55aaf9187b2b43ca9a916235fc4afb498a6bf14a143e3b93644aaced584"
+      },
+      "visual": {
+        "expectedCue": "Solderless board with independent five-contact groups separated across central insulating trench and isolated lengthwise power rails.",
+        "decision": "added",
+        "reason": "Actually inspected full1254px source,512px WebP and120px thumbnail. Actual image has seven visible five-socket rows on each side, with the front row cut away; row count is illustrative, not a standard-size claim. Front cutaway reveals a single connected five-contact strip on left and a separate one on right; wide unbridged trench isolates them. Four lengthwise amber side rails remain physically separate from each other and transverse contact strips. No false all-row bridge or wiring. At120 board, center gap, side rails and exposed strips remain recognizable; fine contacts are assessed atfull/512. AI author review only; human specialist pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e190b55aaf9187b2b43ca9a916235fc4afb498a6bf14a143e3b93644aaced584",
+          "inspectedAt": "2026-10-28T08:12:01.399302+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. Exposed front-row contacts form two separate horizontal five-contact metal groups split by an insulating center trench. Four outer longitudinal power rails remain separate and no across-trench/whole-board short appears. Seven rows and exposedrail geometry are illustrative, not a universal manufacturedboard layout; hidden rows are not independently tested. Group/center-gap relation readable120. Independent human language and engineering specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "jumper-wire",
+      "sourceWord": "jumper wire",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "jumper-wire:meaning-1",
+          "pos": "n.",
+          "en": "A short insulated wire with connector ends used to make temporary electrical connections between circuit points."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The jumper wire has a connector at each end of its insulated conductor.",
+          "senseId": "jumper-wire:meaning-1"
+        },
+        {
+          "en": "Its pin can fit into a matching prototyping-board contact.",
+          "senseId": "jumper-wire:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/jumper-wire.webp",
+        "sha256": "e8ed75eb5473b47b85345eb45c2550573be0efc0f7aa8c141643ce023c225523"
+      },
+      "visual": {
+        "expectedCue": "One continuous insulated male-to-male jumper wire with a separate connector housing and protruding pin at each end.",
+        "decision": "added",
+        "reason": "Actually inspected full1254px source,512px WebP and120px thumbnail. Amber insulation traces an unbroken U between two slate rectangular housings; each has one visibly continuous square-section silver male pin. Both complete ends remain within frame, with no exposed strands, extra splices, duplicate wires or USB/charging connectors. Simple precise product form remains clear at120. Image does not establish current rating or connector compatibility. AI author review only; human specialist pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e8ed75eb5473b47b85345eb45c2550573be0efc0f7aa8c141643ce023c225523",
+          "inspectedAt": "2026-10-28T08:12:01.399302+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. One continuous insulated amber conductor ends in two separate black connector housings and two male pins. No third end, charging plug or unrelated cable. The complete temporary-connection example remainsclear120; no currentrating or fit/capacity inferred. Independent human language and engineering specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "logic-gate",
+      "sourceWord": "logic gate",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "logic-gate:meaning-1",
+          "pos": "n.",
+          "en": "An electronic circuit that produces a logical output according to a Boolean rule applied to its logical inputs."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The logic gate shown is an AND gate with two inputs.",
+          "senseId": "logic-gate:meaning-1"
+        },
+        {
+          "en": "Both inputs must be high for this gate to produce a high output.",
+          "senseId": "logic-gate:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/logic-gate.webp",
+        "sha256": "1a8ea30fc0b9ce01dc63230fe69724f448917da758847eb66f1dd696752e0ca6"
+      },
+      "visual": {
+        "expectedCue": "A two-input AND gate has correct D-shaped boundary and selected Boolean1,1→1.",
+        "decision": "added",
+        "reason": "Actual full1254 and512/120 inspected. One flat-left/rounded-right ANSI AND outline has exactly2separate inputs and1output, no inversionbubble or ORconcavity. Three logical1s label twohighinputs and highoutput correctly. Terminaldots are at remote conductor ends, not inversionbubbles. Logical states are illustrative, not measuredvoltages. Amber/slate/silver technicalstyle remainsclear120; selectedANDdoesnotstandforallgates.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical explanatory diagram on slate with silver boundaries and purposeful amber logic/light signal cues; no decorative background, fake readings or ratings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1a8ea30fc0b9ce01dc63230fe69724f448917da758847eb66f1dd696752e0ca6",
+          "inspectedAt": "2026-10-28T07:43:50.301621+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected the full1254px source,512px WebP and120px thumbnail. Standard D-shaped AND outline has two distinct left inputs and one midpoint right output. Exactly three digits1 show both logical inputs high and output high; no input short, gate-edge inversion bubble or false voltage reading. Solid end dots lie at free terminals, not at the gate boundary. Silver outline/slate ground/amber paths remain clear at120. Selected AND example, not a universal logic-gate truth claim. Second AI only; human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "operational-amplifier",
+      "sourceWord": "operational amplifier",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "operational-amplifier:meaning-1",
+          "pos": "n.",
+          "en": "A high-gain electronic amplifier that responds to the voltage difference between its non-inverting and inverting inputs."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The operational amplifier symbol has two signal inputs and one output.",
+          "senseId": "operational-amplifier:meaning-1"
+        },
+        {
+          "en": "Its supply connections provide the energy needed for operation.",
+          "senseId": "operational-amplifier:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/operational-amplifier.webp",
+        "sha256": "157e048481d7a799323ad915b3098ea8598c3e584467f921c520559d005d43de"
+      },
+      "visual": {
+        "expectedCue": "One standard opamp triangle distinguishes2polaritysignalinputs,1output and2powersupplyterminals.",
+        "decision": "added",
+        "reason": "Actual full1254 and512/120 inspected. Right-pointing triangle has upper+ andlower− inputs onleft,1output atapex, V+top andV−bottom separate supplyleads, five terminals total. No commonshort or mistaken supply-as-signallead. Precise symbols survive120; isolatedsymbol is not an operatingcircuit, wiring instruction or unlimitedgain claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical explanatory diagram on slate with silver boundaries and purposeful amber logic/light signal cues; no decorative background, fake readings or ratings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "157e048481d7a799323ad915b3098ea8598c3e584467f921c520559d005d43de",
+          "inspectedAt": "2026-10-28T07:43:50.301814+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source,512px WebP and120px thumbnail. Right-facing triangle has two separate left signal leads with correctly placed + and minus input signs, one apex output, and distinct upper/lower supply leads labelled V+ and Vminus. All five terminals fit the frame and do not short. Open endpoint circles are remote terminals, not inversion bubbles. Symbol is explicitly isolated, not a powered working circuit or unlimited-gain claim. Amber signal/silver supply geometry stays clear at120. Second AI only; human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "optocoupler",
+      "sourceWord": "optocoupler",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "optocoupler:meaning-1",
+          "pos": "n.",
+          "en": "A device that transfers a signal by light between electrically isolated input and output sides."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The optocoupler uses light to transfer a signal across an insulating barrier.",
+          "senseId": "optocoupler:meaning-1"
+        },
+        {
+          "en": "In this example an LED illuminates a phototransistor without an electrical connection between the two sides.",
+          "senseId": "optocoupler:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/optocoupler.webp",
+        "sha256": "fe82460cd9343e0e5630de8b63481487d72e5a45d39edf6bd6328f1237a85472"
+      },
+      "visual": {
+        "expectedCue": "A selected LED/phototransistor optocoupler transfers light across an electrically unconnected gap, with distinctanode/cathode and2outputleads.",
+        "decision": "added",
+        "reason": "Actual final full1254 square and512/120 inspected after one focused correction. Upperleftlead connectsLEDanode atleftbase; lowerleftlead routesbelow andupinto its separate cathodebar, no anode short/floatingcathode. Two opticalarrowscrossdielectricgap toward rightNPNbase, no galvanicwire/common ground. Rightcollectorupper/emitterlowerareseparate, emitterarrowpointsoutward. Fourexternalterminals and packageboundarygaps remainclear. Firstcandidate topology/aspectfailure retained; finalsquare adds paddingwithoutstretching. Selectedphototransistorvariant and schematicdielectric, not constructiongeometry or certifiedisolationrating.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical explanatory diagram on slate with silver boundaries and purposeful amber logic/light signal cues; no decorative background, fake readings or ratings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "fe82460cd9343e0e5630de8b63481487d72e5a45d39edf6bd6328f1237a85472",
+          "inspectedAt": "2026-10-28T07:49:08.810993+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source,512px WebP and120px thumbnail. Upper left conductor reaches LED anode triangle at its left base; lower left conductor routes separately below it and up to cathode bar. They do not form an anode short. Two amber light arrows cross the central insulating band toward a separate phototransistor symbol; no electrical trace crosses the optical gap. Upper detector branch reaches collector, lower outward-arrow branch reaches emitter, four external terminals remain separate. Package outline is contextual and interrupted at lead passages, not a conductive bridge. Square slate/silver/amber composition keeps optical isolation and symbol shapes recognizable at120; fine wiring assessed atfull/512. Conceptual LED/phototransistor example only, no isolation rating or functioning-circuit claim. Second AI only; human specialist review pending."
+        }
+      }
+    },
+    {
+      "entryId": "voltage-regulator",
+      "sourceWord": "voltage regulator",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "voltage-regulator:meaning-1",
+          "pos": "n.",
+          "en": "An electronic device or circuit that controls an output voltage near a set value while operating within specified limits."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The voltage regulator keeps the output near its set value as the input changes within the allowed range.",
+          "senseId": "voltage-regulator:meaning-1"
+        },
+        {
+          "en": "A linear design needs enough input voltage above the output to stay in regulation.",
+          "senseId": "voltage-regulator:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/voltage-regulator.webp",
+        "sha256": "86feff2ce64b526503542907a436836cb861e5650a2724e61264f6f40ef3d8e8"
+      },
+      "visual": {
+        "expectedCue": "Linear regulator example: varying positive input remains above lower approximately constant output within allowed operating range.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full1254px source,512px WebP and120px thumbnail. Three separated package leads and mounting tab are coherent. Aligned chart baselines show the entire varying input curve higher than the lower flat output level, with visible headroom even at input minimum. IN/OUT labels and central conversion arrow are correct, no measured values. Initial candidate had output above input at the extremes and was rejected/retained; one narrow built-in edit lowered output and removed the misleading connector. At120 package and varying-versus-flat comparison remain clear; limits are qualified in all native tips. AI author only; human specialist pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual full source, 512px WebP and 120px thumbnail inspected: precise engineering product drawing on slate, silver material shading and restrained amber detail; the principal component silhouette and teaching cue remain recognizable at120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-28T08:13:54.112851+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "86feff2ce64b526503542907a436836cb861e5650a2724e61264f6f40ef3d8e8",
+          "inspectedAt": "2026-10-28T08:12:01.399302+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254px source, final512px WebP and120px thumbnail. An illustrative three-lead linear-regulator package accompanies a varying input trace whose minimum is consistently ABOVE the lower flat output on equal-baseline qualitative axes. Thus the selected step-down example has visible input headroom after correction. No numericvoltages, pinout, unlimited operatingrange or perfectoutputguarantee. IN/OUT/conversioncue clear120. Independent human language and engineering specialist review pending."
         }
       }
     }
