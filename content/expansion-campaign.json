@@ -2914,6 +2914,105 @@
       ],
       "imageRefreshEntryIds": [],
       "completedAt": "2026-10-29T09:01:21.143188+00:00"
+    },
+    {
+      "id": "specialist-500-batch-25",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-30",
+      "baseline": {
+        "releaseId": "2026-10-preview-29",
+        "manifest": "content/releases/2026-10-preview-29-08deaffba20b/manifest.json",
+        "manifestSha256": "08deaffba20bae23361fee401a830d2386c00529bd7ca068136630399c209d1e",
+        "words": 809
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 326,
+          "targetCategoryWords": 338,
+          "entryIds": [
+            "fracture",
+            "sprain",
+            "dislocation",
+            "abrasion",
+            "laceration",
+            "burn",
+            "scald",
+            "dehydration",
+            "anaemia",
+            "jaundice",
+            "cyanosis",
+            "pallor"
+          ],
+          "units": [
+            {
+              "id": "medical-injuries-visible-signs",
+              "title": "Injuries, hydration and visible clinical signs",
+              "entryIds": [
+                "fracture",
+                "sprain",
+                "dislocation",
+                "abrasion",
+                "laceration",
+                "burn",
+                "scald",
+                "dehydration",
+                "anaemia",
+                "jaundice",
+                "cyanosis",
+                "pallor"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 325,
+          "targetCategoryWords": 337,
+          "entryIds": [
+            "chamfer",
+            "fillet",
+            "groove",
+            "slot",
+            "notch",
+            "thread",
+            "countersink",
+            "counterbore",
+            "blind-hole",
+            "through-hole",
+            "taper",
+            "spline"
+          ],
+          "units": [
+            {
+              "id": "engineering-machined-features",
+              "title": "Machined edges, recesses, holes and shaft features",
+              "entryIds": [
+                "chamfer",
+                "fillet",
+                "groove",
+                "slot",
+                "notch",
+                "thread",
+                "countersink",
+                "counterbore",
+                "blind-hole",
+                "through-hole",
+                "taper",
+                "spline"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "completedAt": "2026-10-29T10:35:50.148891+00:00"
     }
   ],
   "activeWorkBatchId": null,

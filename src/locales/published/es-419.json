@@ -13,9 +13,9 @@
     "modifications": "Latin-American Spanish preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-29",
-    "manifest": "content/releases/2026-10-preview-29-08deaffba20b/manifest.json",
-    "sha256": "08deaffba20bae23361fee401a830d2386c00529bd7ca068136630399c209d1e"
+    "id": "2026-10-preview-30",
+    "manifest": "content/releases/2026-10-preview-30-98fbb6557ae6/manifest.json",
+    "sha256": "98fbb6557ae68a82075c947c1d3a9ed765bb39a074aab04aee3c358f70ee7bbc"
   },
   "categories": {
     "everyday-life": {
@@ -28053,6 +28053,822 @@
         }
       ],
       "tip": "Aquí, damper es una compuerta de control de aire, no un amortiguador ni un dispositivo de disipación estructural. La imagen elige una placa circular giratoria; también hay modelos de varios álabes. El ángulo ilustrado no valida caudal, fugas, cierre completo ni clasificación contra incendios."
+    },
+    "fracture": {
+      "sourceWord": "fracture",
+      "senses": {
+        "fracture:meaning-1": {
+          "gloss": "fractura",
+          "definition": "Una fisura o rotura en un hueso."
+        }
+      },
+      "examples": [
+        {
+          "en": "The fracture is visible on the X-ray.",
+          "translation": "La fractura es visible en la radiografía."
+        },
+        {
+          "en": "The report describes a small crack in the lower leg bone.",
+          "translation": "El informe describe una pequeña fisura en el hueso de la pierna."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a bone fracture",
+          "translation": "una fractura ósea"
+        },
+        {
+          "en": "a closed fracture",
+          "translation": "una fractura cerrada"
+        },
+        {
+          "en": "a fracture line",
+          "translation": "una línea de fractura"
+        }
+      ],
+      "tip": "Aquí, fracture es una fractura ósea, no solo el desplazamiento de una articulación. Puede ser una fisura incompleta o una rotura completa; closed fracture indica que la piel sobre la zona no está abierta. El modelo educativo no es una radiografía de un paciente ni determina la gravedad o el tipo de cualquier fractura."
+    },
+    "sprain": {
+      "sourceWord": "sprain",
+      "senses": {
+        "sprain:meaning-1": {
+          "gloss": "esguince",
+          "definition": "Una lesión en la que un ligamento de una articulación se estira demasiado o se desgarra."
+        }
+      },
+      "examples": [
+        {
+          "en": "The sprain affects a ligament on the outside of her ankle.",
+          "translation": "El esguince afecta un ligamento en la parte externa de su tobillo."
+        },
+        {
+          "en": "The clinician asks how the joint twisted during the fall.",
+          "translation": "El profesional de salud pregunta cómo se torció la articulación durante la caída."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an ankle sprain",
+          "translation": "un esguince de tobillo"
+        },
+        {
+          "en": "a ligament sprain",
+          "translation": "un esguince de ligamento"
+        },
+        {
+          "en": "a severe sprain",
+          "translation": "un esguince grave"
+        }
+      ],
+      "tip": "Sprain afecta el ligamento que une huesos en una articulación; strain es una lesión de músculo o tendón. Sprain no equivale a fracture ni a dislocation, aunque estas lesiones pueden coexistir. Un modelo de ligamento lesionado no determina el grado de la lesión ni un diagnóstico. La imagen elige una lesión del ligamento colateral lateral de la rodilla; otros tejidos se han simplificado para destacar el ligamento."
+    },
+    "dislocation": {
+      "sourceWord": "dislocation",
+      "senses": {
+        "dislocation:meaning-1": {
+          "gloss": "luxación",
+          "definition": "Una lesión en la que los extremos de los huesos de una articulación se desplazan de sus posiciones normales."
+        }
+      },
+      "examples": [
+        {
+          "en": "The dislocation involves the shoulder joint.",
+          "translation": "La luxación afecta la articulación del hombro."
+        },
+        {
+          "en": "The imaging report describes the position of the displaced bone.",
+          "translation": "El informe de imagen describe la posición del hueso desplazado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a shoulder dislocation",
+          "translation": "una luxación de hombro"
+        },
+        {
+          "en": "a joint dislocation",
+          "translation": "una luxación articular"
+        },
+        {
+          "en": "a recurrent dislocation",
+          "translation": "una luxación recurrente"
+        }
+      ],
+      "tip": "Dislocation es la pérdida de la relación normal entre las superficies óseas de una articulación; fracture es una rotura del propio hueso. Ambas pueden coexistir. El modelo localizado del hombro muestra la cabeza del húmero desplazada; los bordes lisos de la sección de la escápula son límites del modelo, no fracturas, y la imagen no enseña a recolocar la articulación ni permite diagnosticar por su apariencia."
+    },
+    "abrasion": {
+      "sourceWord": "abrasion",
+      "senses": {
+        "abrasion:meaning-1": {
+          "gloss": "abrasión cutánea; escoriación",
+          "definition": "Una herida superficial de la piel causada por roce o raspado que elimina parte de la superficie."
+        }
+      },
+      "examples": [
+        {
+          "en": "The abrasion covers a small area of his knee.",
+          "translation": "La abrasión cubre una pequeña zona de su rodilla."
+        },
+        {
+          "en": "She scraped her elbow against the rough wall.",
+          "translation": "Se raspó el codo contra la pared áspera."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a skin abrasion",
+          "translation": "una abrasión de la piel"
+        },
+        {
+          "en": "a superficial abrasion",
+          "translation": "una abrasión superficial"
+        },
+        {
+          "en": "an abrasion on the knee",
+          "translation": "una abrasión en la rodilla"
+        }
+      ],
+      "tip": "El sentido elegido es una abrasión superficial de la piel; abrasion también significa desgaste por fricción en ingeniería. Difiere de laceration, un corte o desgarro abierto en la piel. Una abrasión superficial no implica ausencia de sangrado; el modelo simplificado no determina la profundidad ni el estado de una herida real."
+    },
+    "laceration": {
+      "sourceWord": "laceration",
+      "senses": {
+        "laceration:meaning-1": {
+          "gloss": "laceración",
+          "definition": "Un corte o desgarro abierto en la piel, a menudo con bordes irregulares."
+        }
+      },
+      "examples": [
+        {
+          "en": "The laceration has uneven edges along the forearm.",
+          "translation": "La laceración tiene bordes irregulares a lo largo del antebrazo."
+        },
+        {
+          "en": "The clinician records the length and location of the wound.",
+          "translation": "El profesional de salud registra la longitud y la ubicación de la herida."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a skin laceration",
+          "translation": "una laceración de la piel"
+        },
+        {
+          "en": "a deep laceration",
+          "translation": "una laceración profunda"
+        },
+        {
+          "en": "the edges of a laceration",
+          "translation": "los bordes de una laceración"
+        }
+      ],
+      "tip": "Laceration es un corte o desgarro abierto; los bordes suelen ser irregulares, pero no todo corte tiene bordes dentados. El modelo muestra una abertura que alcanza la capa bajo la superficie para distinguirla de una abrasion superficial; no todas las laceraciones tienen la misma profundidad. El color y la forma no determinan la gravedad ni el tratamiento."
+    },
+    "burn": {
+      "sourceWord": "burn",
+      "senses": {
+        "burn:meaning-1": {
+          "gloss": "quemadura",
+          "definition": "Una lesión de la piel u otro tejido causada por calor, sustancias químicas, electricidad o radiación."
+        }
+      },
+      "examples": [
+        {
+          "en": "The burn affects a small patch of skin on her forearm.",
+          "translation": "La quemadura afecta una pequeña zona de la piel de su antebrazo."
+        },
+        {
+          "en": "The clinician asks whether the injury involved dry heat or a hot liquid.",
+          "translation": "El profesional de salud pregunta si la lesión se produjo por calor seco o por un líquido caliente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a thermal burn",
+          "translation": "una quemadura térmica"
+        },
+        {
+          "en": "a chemical burn",
+          "translation": "una quemadura química"
+        },
+        {
+          "en": "a burn injury",
+          "translation": "una lesión por quemadura"
+        }
+      ],
+      "tip": "Aquí, burn es el sustantivo que nombra la lesión, no el verbo quemar. La imagen ilustra solo un ejemplo de contacto con calor seco; no toda quemadura es roja o presenta ampollas, y su aspecto varía con el tono de piel y la profundidad. Scald es una quemadura por líquido caliente o vapor. La imagen no clasifica la lesión ni indica un tratamiento."
+    },
+    "scald": {
+      "sourceWord": "scald",
+      "senses": {
+        "scald:meaning-1": {
+          "gloss": "escaldadura",
+          "definition": "Una quemadura causada por un líquido caliente o vapor."
+        }
+      },
+      "examples": [
+        {
+          "en": "The scald occurred when hot tea spilled onto his arm.",
+          "translation": "La escaldadura se produjo cuando se derramó té caliente sobre su brazo."
+        },
+        {
+          "en": "The report records steam as the cause of the burn.",
+          "translation": "El informe registra el vapor como causa de la quemadura."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a scald injury",
+          "translation": "una lesión por escaldadura"
+        },
+        {
+          "en": "a hot-water scald",
+          "translation": "una escaldadura por agua caliente"
+        },
+        {
+          "en": "a steam scald",
+          "translation": "una escaldadura por vapor"
+        }
+      ],
+      "tip": "Scald es un sustantivo en esta entrada y especifica una quemadura causada por un líquido caliente o vapor. Burn es el término más amplio e incluye contacto con objetos calientes y otras causas. La escena simplificada de un derrame explica la causa; el color de la piel no determina la profundidad ni la gravedad de la lesión."
+    },
+    "dehydration": {
+      "sourceWord": "dehydration",
+      "senses": {
+        "dehydration:meaning-1": {
+          "gloss": "deshidratación",
+          "definition": "Una falta de líquido en el organismo que se desarrolla cuando la pérdida de líquido supera la ingesta."
+        }
+      },
+      "examples": [
+        {
+          "en": "The clinician checks for signs of dehydration.",
+          "translation": "El profesional de salud busca signos de deshidratación."
+        },
+        {
+          "en": "Prolonged fluid loss can lead to dehydration.",
+          "translation": "La pérdida prolongada de líquidos puede causar deshidratación."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "signs of dehydration",
+          "translation": "signos de deshidratación"
+        },
+        {
+          "en": "mild dehydration",
+          "translation": "deshidratación leve"
+        },
+        {
+          "en": "the risk of dehydration",
+          "translation": "el riesgo de deshidratación"
+        }
+      ],
+      "tip": "Dehydration es falta de líquido en el organismo, no solo sed o un vaso vacío. Signos como la boca seca no son exclusivos de esta condición. El esquema cualitativo de disminución del líquido explica un desequilibrio; el cuerpo no es un depósito de agua libre y la imagen no muestra una cantidad, un porcentaje ni un diagnóstico."
+    },
+    "anaemia": {
+      "sourceWord": "anaemia",
+      "senses": {
+        "anaemia:meaning-1": {
+          "gloss": "anemia",
+          "definition": "Una condición en la que la concentración de hemoglobina en la sangre es menor de lo esperado."
+        }
+      },
+      "examples": [
+        {
+          "en": "The blood test helps the clinician assess anaemia.",
+          "translation": "El análisis de sangre ayuda al profesional de salud a evaluar la anemia."
+        },
+        {
+          "en": "Iron deficiency is one possible cause of anaemia.",
+          "translation": "La deficiencia de hierro es una de las posibles causas de anemia."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "iron-deficiency anaemia",
+          "translation": "anemia por deficiencia de hierro"
+        },
+        {
+          "en": "an assessment of anaemia",
+          "translation": "una evaluación de anemia"
+        },
+        {
+          "en": "a cause of anaemia",
+          "translation": "una causa de anemia"
+        }
+      ],
+      "tip": "Anaemia es la grafía británica; anemia es la forma habitual en Estados Unidos. La definición se basa en la concentración de hemoglobina: el número de glóbulos rojos no es necesariamente bajo en todos los tipos y no toda causa es deficiencia de hierro. El valor esperado depende del contexto de la persona. El símbolo Hb y la comparación cualitativa solo explican el concepto; no representan un recuento de células, un resultado de laboratorio ni un diagnóstico por el aspecto. En la sangre, la hemoglobina se encuentra principalmente dentro de los glóbulos rojos; este esquema no muestra su ubicación intracelular."
+    },
+    "jaundice": {
+      "sourceWord": "jaundice",
+      "senses": {
+        "jaundice:meaning-1": {
+          "gloss": "ictericia",
+          "definition": "Coloración amarillenta de la piel o de la parte blanca de los ojos asociada a una acumulación de bilirrubina."
+        }
+      },
+      "examples": [
+        {
+          "en": "Jaundice can affect the whites of the eyes.",
+          "translation": "La ictericia puede afectar la parte blanca de los ojos."
+        },
+        {
+          "en": "The clinician asks when the yellowing first appeared.",
+          "translation": "El profesional de salud pregunta cuándo apareció por primera vez la coloración amarillenta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "signs of jaundice",
+          "translation": "signos de ictericia"
+        },
+        {
+          "en": "the onset of jaundice",
+          "translation": "el inicio de la ictericia"
+        },
+        {
+          "en": "a cause of jaundice",
+          "translation": "una causa de ictericia"
+        }
+      ],
+      "tip": "Jaundice nombra la coloración amarillenta asociada a la bilirrubina, no cualquier matiz amarillo natural ni la luz amarilla de una foto. Su visibilidad varía con el tono de piel y la iluminación y puede ser mayor en la parte blanca de los ojos. La imagen ficticia explica un posible signo; no determina la causa, el nivel de bilirrubina ni un diagnóstico individual."
+    },
+    "cyanosis": {
+      "sourceWord": "cyanosis",
+      "senses": {
+        "cyanosis:meaning-1": {
+          "gloss": "cianosis",
+          "definition": "Una coloración azulada o grisácea de la piel o de las mucosas asociada a una oxigenación insuficiente de la sangre o a una circulación reducida."
+        }
+      },
+      "examples": [
+        {
+          "en": "The clinician checks the lips for cyanosis.",
+          "translation": "El profesional de salud examina los labios en busca de cianosis."
+        },
+        {
+          "en": "The bluish change may be easier to see in the mouth lining than on the skin.",
+          "translation": "El cambio azulado puede ser más fácil de observar en la mucosa de la boca que en la piel."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "signs of cyanosis",
+          "translation": "signos de cianosis"
+        },
+        {
+          "en": "central cyanosis",
+          "translation": "cianosis central"
+        },
+        {
+          "en": "peripheral cyanosis",
+          "translation": "cianosis periférica"
+        }
+      ],
+      "tip": "Cyanosis se refiere a una coloración inusual azulada o grisácea de la piel o de las mucosas; no equivale a un moretón por un golpe. Las formas central y periférica no tienen causas idénticas y el flujo sanguíneo también importa. El color de los labios se ha destacado con fines educativos; su visibilidad varía entre tonos de piel y la imagen no muestra un nivel de oxígeno ni un diagnóstico."
+    },
+    "pallor": {
+      "sourceWord": "pallor",
+      "senses": {
+        "pallor:meaning-1": {
+          "gloss": "palidez",
+          "definition": "Palidez inusual o pérdida de color en la piel o en las mucosas en comparación con el aspecto habitual de la persona."
+        }
+      },
+      "examples": [
+        {
+          "en": "The clinician notices pallor around the patient's lips.",
+          "translation": "El profesional de salud observa palidez alrededor de los labios del paciente."
+        },
+        {
+          "en": "She says her face looks paler than it usually does.",
+          "translation": "Ella dice que su rostro se ve más pálido de lo habitual."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "facial pallor",
+          "translation": "palidez facial"
+        },
+        {
+          "en": "noticeable pallor",
+          "translation": "palidez perceptible"
+        },
+        {
+          "en": "pallor of the mucous membranes",
+          "translation": "palidez de las mucosas"
+        }
+      ],
+      "tip": "Pallor es un cambio respecto al color habitual de la misma persona, no simplemente tener piel clara. En algunos tonos de piel, la mucosa de la boca o de los ojos puede mostrar mejor el cambio. La comparación ficticia debe mostrar a la misma persona con la misma iluminación; la palidez por sí sola no equivale a anaemia y la imagen no determina una causa ni un diagnóstico."
+    },
+    "chamfer": {
+      "sourceWord": "chamfer",
+      "senses": {
+        "chamfer:meaning-1": {
+          "gloss": "chaflán",
+          "definition": "Una cara plana e inclinada que sustituye una arista viva entre dos superficies."
+        }
+      },
+      "examples": [
+        {
+          "en": "The chamfer forms a narrow sloping face along the edge of the block.",
+          "translation": "El chaflán forma una cara estrecha e inclinada a lo largo de la arista del bloque."
+        },
+        {
+          "en": "A small chamfer at a hole entrance can help a pin enter.",
+          "translation": "Un pequeño chaflán en la entrada de un agujero puede facilitar la entrada de un pasador."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an edge chamfer",
+          "translation": "un chaflán de arista"
+        },
+        {
+          "en": "a machined chamfer",
+          "translation": "un chaflán mecanizado"
+        },
+        {
+          "en": "a chamfer width",
+          "translation": "un ancho de chaflán"
+        }
+      ],
+      "tip": "En este sentido, chamfer es una cara plana e inclinada en la arista; fillet es una transición redondeada. Un chaflán no tiene necesariamente un único ángulo estándar; la imagen muestra la forma, no dimensiones ni especificaciones de fabricación."
+    },
+    "fillet": {
+      "sourceWord": "fillet",
+      "senses": {
+        "fillet:meaning-1": {
+          "gloss": "redondeo de esquina interior",
+          "definition": "Una transición redondeada donde dos superficies se unen en una esquina interior."
+        }
+      },
+      "examples": [
+        {
+          "en": "The fillet blends the upright wall into the base at the inside corner.",
+          "translation": "El redondeo une suavemente la pared vertical con la base en la esquina interior."
+        },
+        {
+          "en": "The drawing specifies a fillet radius instead of a sharp internal corner.",
+          "translation": "El plano especifica un radio de redondeo en lugar de una esquina interior viva."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an internal fillet",
+          "translation": "un redondeo interior"
+        },
+        {
+          "en": "a fillet radius",
+          "translation": "un radio de redondeo"
+        },
+        {
+          "en": "a smooth fillet",
+          "translation": "un redondeo suave"
+        }
+      ],
+      "tip": "Aquí, fillet es el redondeo cóncavo de una esquina interior, no un filete de comida ni una soldadura de filete. Algunos programas CAD también usan el término para redondeos exteriores; la imagen elige el sentido interior. A diferencia de chamfer, la transición es curva."
+    },
+    "groove": {
+      "sourceWord": "groove",
+      "senses": {
+        "groove:meaning-1": {
+          "gloss": "ranura superficial",
+          "definition": "Un canal estrecho y rebajado en la superficie de una pieza."
+        }
+      },
+      "examples": [
+        {
+          "en": "The groove runs around the shaft and holds a retaining ring.",
+          "translation": "La ranura rodea el eje y aloja un anillo de retención."
+        },
+        {
+          "en": "A seal sits in the groove on the mating surface.",
+          "translation": "Un sello se aloja en la ranura de la superficie de contacto."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a retaining-ring groove",
+          "translation": "una ranura para anillo de retención"
+        },
+        {
+          "en": "a seal groove",
+          "translation": "una ranura para sello"
+        },
+        {
+          "en": "a circumferential groove",
+          "translation": "una ranura circunferencial"
+        }
+      ],
+      "tip": "Aquí, groove es un canal rebajado en la superficie; la imagen elige una ranura circunferencial con fondo, no una rosca helicoidal. Groove y slot a veces se superponen en el uso técnico; distinga esta forma de la abertura alargada elegida en la tarjeta slot."
+    },
+    "slot": {
+      "sourceWord": "slot",
+      "senses": {
+        "slot:meaning-1": {
+          "gloss": "ranura alargada",
+          "definition": "Una abertura o cavidad estrecha y alargada en una pieza."
+        }
+      },
+      "examples": [
+        {
+          "en": "The slot lets the bolt move along the plate before tightening.",
+          "translation": "La ranura permite que el perno se desplace a lo largo de la placa antes del apriete."
+        },
+        {
+          "en": "The mounting bracket has a slot with two rounded ends.",
+          "translation": "El soporte de montaje tiene una ranura con dos extremos redondeados."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a mounting slot",
+          "translation": "una ranura de montaje"
+        },
+        {
+          "en": "an elongated slot",
+          "translation": "una ranura alargada"
+        },
+        {
+          "en": "a through slot",
+          "translation": "una ranura pasante"
+        }
+      ],
+      "tip": "Aquí, slot es una característica geométrica de la pieza, no un horario disponible. La imagen muestra una ranura pasante con ambos extremos dentro de la placa; un slot también puede tener fondo o estar abierto en un extremo. Notch normalmente se abre desde un borde."
+    },
+    "notch": {
+      "sourceWord": "notch",
+      "senses": {
+        "notch:meaning-1": {
+          "gloss": "muesca",
+          "definition": "Un pequeño recorte o entrante que se abre desde el borde de una pieza."
+        }
+      },
+      "examples": [
+        {
+          "en": "The notch opens from the edge of the metal strip.",
+          "translation": "La muesca se abre desde el borde de la tira metálica."
+        },
+        {
+          "en": "The locating tab fits into the notch in the bracket.",
+          "translation": "La lengüeta de posicionamiento encaja en la muesca del soporte."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an edge notch",
+          "translation": "una muesca de borde"
+        },
+        {
+          "en": "a V-shaped notch",
+          "translation": "una muesca en V"
+        },
+        {
+          "en": "a locating notch",
+          "translation": "una muesca de posicionamiento"
+        }
+      ],
+      "tip": "En este sentido, notch es un recorte abierto desde el borde; no tiene que ser siempre en V. La imagen elige un ejemplo en V, no un agujero rodeado de material ni una ranura interior alargada. El nombre no determina un ensayo de impacto ni la resistencia admisible."
+    },
+    "thread": {
+      "sourceWord": "thread",
+      "senses": {
+        "thread:meaning-1": {
+          "gloss": "rosca",
+          "definition": "Un resalte helicoidal sobre una superficie cilíndrica o cónica que puede acoplarse con una rosca correspondiente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The thread winds around the shaft in a continuous helix.",
+          "translation": "La rosca rodea el eje en una hélice continua."
+        },
+        {
+          "en": "The nut engages the external thread on the bolt.",
+          "translation": "La tuerca se acopla a la rosca exterior del perno."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an external thread",
+          "translation": "una rosca exterior"
+        },
+        {
+          "en": "an internal thread",
+          "translation": "una rosca interior"
+        },
+        {
+          "en": "a thread pitch",
+          "translation": "un paso de rosca"
+        }
+      ],
+      "tip": "Aquí, thread es una rosca helicoidal mecánica, no un hilo textil ni una conversación. Los anillos separados no forman una rosca. La imagen elige una rosca exterior; también hay roscas interiores. El paso, el sentido y la compatibilidad reales no se determinan con esta vista sin dimensiones."
+    },
+    "countersink": {
+      "sourceWord": "countersink",
+      "senses": {
+        "countersink:meaning-1": {
+          "gloss": "avellanado cónico",
+          "definition": "Un rebaje cónico en la entrada de un agujero, que suele alojar una cabeza de tornillo correspondiente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The countersink forms a conical recess around the hole entrance.",
+          "translation": "El avellanado forma un rebaje cónico alrededor de la entrada del agujero."
+        },
+        {
+          "en": "The flat-head screw seats in the countersink rather than above the plate.",
+          "translation": "El tornillo de cabeza avellanada se asienta en el avellanado, en vez de quedar por encima de la placa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a conical countersink",
+          "translation": "un avellanado cónico"
+        },
+        {
+          "en": "a countersink angle",
+          "translation": "un ángulo de avellanado"
+        },
+        {
+          "en": "a countersink recess",
+          "translation": "un rebaje avellanado"
+        }
+      ],
+      "tip": "Aquí, countersink es el propio rebaje cónico, no la herramienta ni la operación de avellanar. Counterbore tiene pared cilíndrica y asiento plano. El asiento real de la cabeza exige geometría compatible; la imagen no especifica un ángulo ni compatibilidad normalizada."
+    },
+    "counterbore": {
+      "sourceWord": "counterbore",
+      "senses": {
+        "counterbore:meaning-1": {
+          "gloss": "cajeado cilíndrico de fondo plano",
+          "definition": "Un ensanchamiento cilíndrico de fondo plano en la entrada de un agujero menor."
+        }
+      },
+      "examples": [
+        {
+          "en": "The counterbore provides a flat shoulder around the smaller hole.",
+          "translation": "El cajeado cilíndrico proporciona un asiento plano alrededor del agujero menor."
+        },
+        {
+          "en": "The socket-head screw fits inside the counterbore below the top surface.",
+          "translation": "El tornillo de cabeza cilíndrica con hexágono interior cabe en el cajeado por debajo de la superficie superior."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a flat-bottomed counterbore",
+          "translation": "un cajeado cilíndrico de fondo plano"
+        },
+        {
+          "en": "a counterbore depth",
+          "translation": "una profundidad de cajeado cilíndrico"
+        },
+        {
+          "en": "a counterbore diameter",
+          "translation": "un diámetro de cajeado cilíndrico"
+        }
+      ],
+      "tip": "En este sentido, counterbore es el rebaje mayor con pared cilíndrica y asiento plano alrededor del agujero menor. Difiere del countersink cónico; el agujero central puede continuar, por lo que fondo plano se refiere al asiento anular, no al cierre de todo el agujero."
+    },
+    "blind-hole": {
+      "sourceWord": "blind hole",
+      "senses": {
+        "blind-hole:meaning-1": {
+          "gloss": "agujero ciego",
+          "definition": "Un agujero que termina dentro de una pieza en lugar de atravesarla por completo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The blind hole ends above the bottom surface of the block.",
+          "translation": "El agujero ciego termina por encima de la superficie inferior del bloque."
+        },
+        {
+          "en": "A threaded blind hole can receive a screw without opening through the opposite face.",
+          "translation": "Un agujero ciego roscado puede recibir un tornillo sin abrirse en la cara opuesta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a drilled blind hole",
+          "translation": "un agujero ciego taladrado"
+        },
+        {
+          "en": "a threaded blind hole",
+          "translation": "un agujero ciego roscado"
+        },
+        {
+          "en": "a blind hole depth",
+          "translation": "una profundidad de agujero ciego"
+        }
+      ],
+      "tip": "Blind hole indica que el agujero no alcanza la cara opuesta; el fondo puede ser plano o cónico. El corte ilustrativo muestra material continuo debajo del final del agujero; la sección retirada no es una salida. El agujero de la imagen no tiene rosca."
+    },
+    "through-hole": {
+      "sourceWord": "through hole",
+      "senses": {
+        "through-hole:meaning-1": {
+          "gloss": "agujero pasante",
+          "definition": "Un agujero que atraviesa por completo una pieza y se abre en ambos lados."
+        }
+      },
+      "examples": [
+        {
+          "en": "The through hole connects the top and bottom faces of the block.",
+          "translation": "El agujero pasante conecta las caras superior e inferior del bloque."
+        },
+        {
+          "en": "The bolt passes through the through hole before the nut is fitted.",
+          "translation": "El perno atraviesa el agujero pasante antes de colocar la tuerca."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a drilled through hole",
+          "translation": "un agujero pasante taladrado"
+        },
+        {
+          "en": "a through hole diameter",
+          "translation": "un diámetro de agujero pasante"
+        },
+        {
+          "en": "a through hole opening",
+          "translation": "una abertura de agujero pasante"
+        }
+      ],
+      "tip": "Through hole se abre en ambos lados de la pieza; blind hole termina dentro del material. La vista en corte muestra el recorrido completo del agujero, no una ranura abierta desde el borde. Aquí se trata del sentido mecánico general, no de la tecnología de montaje de componentes electrónicos en placas."
+    },
+    "taper": {
+      "sourceWord": "taper",
+      "senses": {
+        "taper:meaning-1": {
+          "gloss": "conicidad",
+          "definition": "Una disminución gradual del ancho o del diámetro de una pieza a lo largo de su longitud."
+        }
+      },
+      "examples": [
+        {
+          "en": "The taper narrows the shaft smoothly toward its smaller end.",
+          "translation": "La conicidad reduce suavemente el diámetro del eje hacia su extremo menor."
+        },
+        {
+          "en": "The tool shank has a taper that matches the socket.",
+          "translation": "El mango de la herramienta tiene una conicidad que coincide con el alojamiento."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a shaft taper",
+          "translation": "una conicidad de eje"
+        },
+        {
+          "en": "a matching taper",
+          "translation": "una conicidad coincidente"
+        },
+        {
+          "en": "a taper angle",
+          "translation": "un ángulo de conicidad"
+        }
+      ],
+      "tip": "Aquí, taper es el nombre de la geometría que se estrecha, no el verbo reducir. La imagen elige una superficie cónica continua; un cambio de diámetro en escalones no es un taper. La forma por sí sola no establece el ángulo, la relación de conicidad ni el autobloqueo de la unión."
+    },
+    "spline": {
+      "sourceWord": "spline",
+      "senses": {
+        "spline:meaning-1": {
+          "gloss": "estría",
+          "definition": "Un resalte longitudinal en un eje que encaja en una ranura correspondiente del cubo para transmitir rotación."
+        }
+      },
+      "examples": [
+        {
+          "en": "The spline runs along the shaft rather than around it.",
+          "translation": "La estría se extiende a lo largo del eje en lugar de rodearlo."
+        },
+        {
+          "en": "The mating hub engages the shaft’s splines to transmit rotation.",
+          "translation": "El cubo correspondiente se acopla a las estrías del eje para transmitir rotación."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a shaft spline",
+          "translation": "una estría de eje"
+        },
+        {
+          "en": "a spline tooth",
+          "translation": "un diente de estría"
+        },
+        {
+          "en": "a spline connection",
+          "translation": "una unión estriada"
+        }
+      ],
+      "tip": "En este sentido, spline es uno de los resaltes longitudinales del eje; el conjunto forma una unión estriada. La imagen elige estrías rectas con un diente destacado, no una rosca helicoidal ni una curva matemática spline. Hay varios perfiles; la pieza correspondiente no se muestra en esta vista aislada."
     }
   }
 }

@@ -38343,6 +38343,1230 @@
           "finding": "Actually inspected original, 512px WebP and 120px PNG. One amber round air-duct blade is clamped at two points to a continuous transverse shaft. The shaft meets both casing-side supports and continues to the same attached exterior manual lever. A bounded casing cutaway exposes the blade, with surrounding free passage; no flow direction, numerical value or shutoff-performance claim. Clearly an airflow plate rather than a shock absorber; blade/shaft/lever remain recognizable at 120px in the required precise slate/silver/amber technical style."
         }
       }
+    },
+    {
+      "entryId": "fracture",
+      "sourceWord": "fracture",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "fracture:meaning-1",
+          "pos": "n.",
+          "en": "A crack or break in a bone."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The fracture is visible on the X-ray.",
+          "senseId": "fracture:meaning-1"
+        },
+        {
+          "en": "The report describes a small crack in the lower leg bone.",
+          "senseId": "fracture:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/fracture.webp",
+        "sha256": "12560364267ba61a7984e8db447dd5436ad979627dbfa871b2294e92b159ef75"
+      },
+      "visual": {
+        "expectedCue": "An irregular break interrupts the middle shaft of one long bone.",
+        "decision": "added",
+        "reason": "Actually viewed full1254,512WebP,120PNG. One pale long-bone model has natural intact articular ends and an irregular branching fracture line interrupting shaft cortical continuity. Main fragments remain near one another with a small wedge-like branch, not a clean saw cut or displaced joint. Clear120 shaft-break cue; no fracture grade, exact named bone, healing stage or treatment claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise soft clinical educational rendering, cool-white #EEF7F3 with restrained mint #387E78/pale-blue #A6C7D6 and anatomically meaningful red injury surfaces; controlled local model/inset and clear120px meaning, no diagnostic readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "12560364267ba61a7984e8db447dd5436ad979627dbfa871b2294e92b159ef75",
+          "inspectedAt": "2026-10-29T10:11:08.744514+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254,512WebP,120PNG. Isolated intact long-bone model has conspicuous mid-shaft interrupted cortex/fracture gap with uneven adjacent edges; distinct from joint displacement. Break remains legible120. No radiograph, actual patient, open-skin wound or severity/type claim. Clean precise cool-white/mint clinical rendering; anatomical end context simplified, selected teaching target is bone discontinuity."
+        }
+      }
+    },
+    {
+      "entryId": "sprain",
+      "sourceWord": "sprain",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "sprain:meaning-1",
+          "pos": "n.",
+          "en": "An injury in which a ligament at a joint is stretched too far or torn."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sprain affects a ligament on the outside of her ankle.",
+          "senseId": "sprain:meaning-1"
+        },
+        {
+          "en": "The clinician asks how the joint twisted during the fall.",
+          "senseId": "sprain:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sprain.webp",
+        "sha256": "40364fed8136d13f2cd043438615dd40f62b82a169fad92b209e81e85f0c3b2c"
+      },
+      "visual": {
+        "expectedCue": "A partly torn cord-like lateral collateral ligament joins the lateral femoral epicondyle to fibular head beside an aligned knee joint.",
+        "decision": "added",
+        "reason": "Actually viewed corrected original1254,512WebP,120PNG. Narrow cord-like ligament originates at the side of the femoral epicondylar/condylar region and attaches to the fibular head; local partial fibre tear retains continuous fibres and is magnified in a controlled inset. Central tibiofemoral joint stays aligned and bone uncracked. Incorrect broad/high-origin sheet from first candidate was actually rejected by medical peer and corrected once; negative full/512/120 retained. Clear120 ligament-injury cue. Selected LCL example, not complete knee anatomy, severity grading or test/treatment instruction.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise soft clinical educational rendering, cool-white #EEF7F3 with restrained mint #387E78/pale-blue #A6C7D6 and anatomically meaningful red injury surfaces; controlled local model/inset and clear120px meaning, no diagnostic readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "40364fed8136d13f2cd043438615dd40f62b82a169fad92b209e81e85f0c3b2c",
+          "inspectedAt": "2026-10-29T10:22:04.450669+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually reinspected corrected original1254,512WebP,120PNG. Injured band is now a narrow cord-like LCL spanning lateral femoral epicondylar region to fibular head, separate from central aligned articular surfaces. Partial frayed fibres and intact remaining fibres repeated in enlarged inset, still legible120. Prior high-origin broad sheet anatomical defect corrected; rejected prior review and root3size evidence retained. Local simplified knee context, not full joint map, injury grade, diagnosis or treatment. Clean precise cool-white/mint clinical rendering."
+        }
+      }
+    },
+    {
+      "entryId": "dislocation",
+      "sourceWord": "dislocation",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "dislocation:meaning-1",
+          "pos": "n.",
+          "en": "An injury in which the ends of bones at a joint move out of their normal positions."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The dislocation involves the shoulder joint.",
+          "senseId": "dislocation:meaning-1"
+        },
+        {
+          "en": "The imaging report describes the position of the displaced bone.",
+          "senseId": "dislocation:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/dislocation.webp",
+        "sha256": "1167660744f4154846d4f3fd72b34346280dde4d53d62d34ae5920d462e129d7"
+      },
+      "visual": {
+        "expectedCue": "An intact humeral head is displaced below and away from an empty shallow shoulder glenoid.",
+        "decision": "added",
+        "reason": "Actually viewed corrected full1254,512,120. Rounded intact humeral head lies lower/away from the empty shallow glenoid; opposing articular centers no longer align. Local scapular fragment has smooth explanatory section boundaries away from the joint, not irregular fracture surfaces. Ambiguous upper bony arch/foramen of first candidate removed with one builtin edit; negative original retained. No full-shoulder anatomy, exact displacement classification or reduction instruction claim. Joint-gap/misalignment cue clear120.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise soft clinical educational rendering, cool-white #EEF7F3 with restrained mint #387E78/pale-blue #A6C7D6 and anatomically meaningful red injury surfaces; controlled local model/inset and clear120px meaning, no diagnostic readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1167660744f4154846d4f3fd72b34346280dde4d53d62d34ae5920d462e129d7",
+          "inspectedAt": "2026-10-29T10:11:08.744899+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected corrected original1254,512WebP,120PNG. Intact humeral-head-like ball is separated from localized shallow oval glenoid/socket model; both bones continuous, selected displacement clear120. Upper ambiguous bony arch removed; clean model-section bounds exclude full shoulder anatomy rather than invent a bony bridge. No manipulation or patient/procedure claim. Soft precise clinical cool-white/mint forms."
+        }
+      }
+    },
+    {
+      "entryId": "abrasion",
+      "sourceWord": "abrasion",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "abrasion:meaning-1",
+          "pos": "n.",
+          "en": "A superficial skin wound caused by rubbing or scraping away part of the surface."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The abrasion covers a small area of his knee.",
+          "senseId": "abrasion:meaning-1"
+        },
+        {
+          "en": "She scraped her elbow against the rough wall.",
+          "senseId": "abrasion:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/abrasion.webp",
+        "sha256": "b137cca19f7ef6bfd436706aead15a753aa96b70aa1ba2dd8994ab86eaca2740"
+      },
+      "visual": {
+        "expectedCue": "A broad superficial rubbed scrape interrupts the skin surface without a deep gaping cut.",
+        "decision": "added",
+        "reason": "Actually viewed full1254,512,120. Medium-brown skin model has one shallow broad reddish scuffed oval with fine scrape texture. Controlled inset shows shallow surface loss above retained underlying skin layers, distinct from a deep irregular laceration, thin scratch, bruise or rash. Small red surface points are not a pool/stream or exposed subcutaneous tissue. Clear120 superficial-scrape cue; illustrative depth and appearance do not diagnose a real wound.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise soft clinical educational rendering, cool-white #EEF7F3 with restrained mint #387E78/pale-blue #A6C7D6 and anatomically meaningful red injury surfaces; controlled local model/inset and clear120px meaning, no diagnostic readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b137cca19f7ef6bfd436706aead15a753aa96b70aa1ba2dd8994ab86eaca2740",
+          "inspectedAt": "2026-10-29T10:11:08.745086+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254,512WebP,120PNG. Broad rubbed red superficial skin patch with small scrape tracks; inset shallow surface loss leaves deeper dermal layer continuous, unlike deep laceration gap. Skin-tone/appearance one illustrative example, no depth classification from photo or actual diagnosis. No gore/pooling blood or treatment. Restrained clinical natural forms and mint explanatory inset readable120."
+        }
+      }
+    },
+    {
+      "entryId": "laceration",
+      "sourceWord": "laceration",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "laceration:meaning-1",
+          "pos": "n.",
+          "en": "An open cut or tear in the skin, often with irregular edges."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The laceration has uneven edges along the forearm.",
+          "senseId": "laceration:meaning-1"
+        },
+        {
+          "en": "The clinician records the length and location of the wound.",
+          "senseId": "laceration:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/laceration.webp",
+        "sha256": "dccfb870c0b18980a1c094f45245e706644756e1ffab153ccb9bd62321f5a408"
+      },
+      "visual": {
+        "expectedCue": "Irregular open skin tear with separated uneven edges extending below surface; not a rubbed superficial abrasion.",
+        "decision": "added",
+        "reason": "Actually inspected original1254,512WebP and120PNG. The skin-model top has one open irregular branching-edge fissure; the explanatory front face shows epidermal discontinuity and a deeper tear through pink dermal tissue toward superficial adipose. Depth is a selected deep example, not a universal laceration depth. No pooling blood, instruments or treatment. At120 the open jagged gap remains distinct from a flat scrape.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical tissue model on mint base and cool-white field; soft natural forms, restrained colors and no irrelevant decoration or labels."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "dccfb870c0b18980a1c094f45245e706644756e1ffab153ccb9bd62321f5a408",
+          "inspectedAt": "2026-10-29T10:23:04.957495+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed full1254,512WebP,120PNG. Clean isolated medium-brown skin teaching block has an irregular jagged tear through skin layers toward the underlying fat, with separated uneven edges. Depth and tearing distinguish it from broad superficial abrasion or thin scratch. It is a bounded explanatory model on a mint base, not a photographed open patient injury, depth grade, diagnosis or suturing instruction. Clear120 deep-tear cue, clinical precise rendering with meaningful red tissue and no blood pool."
+        }
+      }
+    },
+    {
+      "entryId": "burn",
+      "sourceWord": "burn",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "burn:meaning-1",
+          "pos": "n.",
+          "en": "An injury to skin or other tissue caused by heat, chemicals, electricity or radiation."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The burn affects a small patch of skin on her forearm.",
+          "senseId": "burn:meaning-1"
+        },
+        {
+          "en": "The clinician asks whether the injury involved dry heat or a hot liquid.",
+          "senseId": "burn:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/burn.webp",
+        "sha256": "86a3b5d8f1cc97e464f6e4d1afde3bc1e4066ceecd41ac22d17a4ce580fc37b7"
+      },
+      "visual": {
+        "expectedCue": "Noun burn, selected accidental dry-heat contact injury; contact cause followed by localized intact-skin patch.",
+        "decision": "added",
+        "reason": "Actually inspected1254/512/120. Smaller panel shows the same five-digit hand/forearm contacting the kettle side; no spilled fluid. Arrow leads to withdrawn volar forearm with localized red-brown intact patch. The kettle steam is background heat context, not directed at the arm. Both panels retain coherent wrist/hand anatomy; contact patch remains readable120. No wound depth, severity, actual diagnosis or treatment inferred.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Two restrained mint/pale-blue clinical panels, cool-white surroundings, precise natural forms, no decorative props or labels."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "86a3b5d8f1cc97e464f6e4d1afde3bc1e4066ceecd41ac22d17a4ce580fc37b7",
+          "inspectedAt": "2026-10-29T10:23:04.957495+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed full1254,512WebP,120PNG. Two-stage selected hot-solid contact example: same-looking medium-brown forearm meets the dry side of a kettle, then a localized reddish patch appears on corresponding forearm context. Kettle steam is away from the contact; no spilled liquid at the arm. Rightward arrow indicates descriptive cause/result, not treatment. Full anatomy/fingers plausible and120 retains contact/result. Clean clinical cool-white/mint/pale-blue style; no actual patient diagnosis or burn grade."
+        }
+      }
+    },
+    {
+      "entryId": "scald",
+      "sourceWord": "scald",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "scald:meaning-1",
+          "pos": "n.",
+          "en": "A burn caused by hot liquid or steam."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The scald occurred when hot tea spilled onto his arm.",
+          "senseId": "scald:meaning-1"
+        },
+        {
+          "en": "The report records steam as the cause of the burn.",
+          "senseId": "scald:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/scald.webp",
+        "sha256": "7c9d2011d3552a3aafed2c06b1347fca75f9c5c186d1c0c4823adb2421206318"
+      },
+      "visual": {
+        "expectedCue": "Noun scald: hot-liquid spill with steam cue leads to a localized irregular skin burn patch.",
+        "decision": "added",
+        "reason": "Actually inspected1254/512/120. Left panel shows tipped cup, clear splashing liquid reaching forearm and rising heat/steam cue; right same tan forearm/hand has five coherent digits and an irregular pink-red splash-shaped patch. No deliberate pouring, exposed tissue or treatment. Smaller cue distinguishes liquid scald from dry kettle contact. Patch color and shape are one illustrative appearance and imply no severity or diagnosis.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Controlled two-panel cool-white/mint clinical story, precise natural skin forms; only essential cup/table/contact context and no decoration/text."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7c9d2011d3552a3aafed2c06b1347fca75f9c5c186d1c0c4823adb2421206318",
+          "inspectedAt": "2026-10-29T10:23:04.957495+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed full1254,512WebP,120PNG. Two-stage selected hot-liquid example: overturned mug and visible liquid splash reach the forearm, with heat-vapor cue; corresponding forearm shows a broad irregular reddish patch in result panel. Liquid contact differs from dry-solid burn example. Descriptive transition arrow, no care/treatment sequence or diagnostic grade. Hands and skin identity coherent, cue remains legible120 in soft precise clinical palette."
+        }
+      }
+    },
+    {
+      "entryId": "dehydration",
+      "sourceWord": "dehydration",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "dehydration:meaning-1",
+          "pos": "n.",
+          "en": "A shortage of fluid in the body that develops when fluid loss exceeds fluid intake."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clinician checks for signs of dehydration.",
+          "senseId": "dehydration:meaning-1"
+        },
+        {
+          "en": "Prolonged fluid loss can lead to dehydration.",
+          "senseId": "dehydration:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/dehydration.webp",
+        "sha256": "262df3ab06d48379129e20486234b4715a3ae712fe6057f8ad0007d8a86450a2"
+      },
+      "visual": {
+        "expectedCue": "Body fluid deficit from greater loss than replacement, with qualitative reservoir comparison and nonspecific dry-lip context.",
+        "decision": "added",
+        "reason": "Actually inspected corrected original1254/512/120. Awake adult touches dry lip; anatomy and five-digit hand coherent. Separate rounded inset reservoirs decrease left→right; left one downward arrow indicates input, right three UPWARD arrows indicate greater output. No fake volume, percentage or clinical readings. Initial reversed right arrows were rejected and all3sizes/meta retained. Reservoir is conceptual, not a literal body-water cavity; portrait alone does not diagnose dehydration.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Cool-white/mint/pale-blue clinical educational inset beside natural adult, no irrelevant props, devices or decoration; reservoir decrease remains readable120."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "262df3ab06d48379129e20486234b4715a3ae712fe6057f8ad0007d8a86450a2",
+          "inspectedAt": "2026-10-29T10:23:04.957495+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed full1254,512WebP,120PNG. Conceptual body-fluid diagram pairs a fuller reservoir/one input arrow with a lower reservoir/three outward upward arrows, and a person with dry-lip/tired context. The corrected arrows actually point OUT above the lower reservoir; first reversed-arrow candidate retained. Body silhouette links deficit to body fluid rather than just an empty drinking glass. Clear120 declining balance; reservoirs/drop counts are qualitative symbols, not body tanks, measured ratios or proof of diagnosis. Cool-white/mint/pale-blue clinical style."
+        }
+      }
+    },
+    {
+      "entryId": "anaemia",
+      "sourceWord": "anaemia",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "anaemia:meaning-1",
+          "pos": "n.",
+          "en": "A condition in which the concentration of haemoglobin in the blood is lower than expected."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The blood test helps the clinician assess anaemia.",
+          "senseId": "anaemia:meaning-1"
+        },
+        {
+          "en": "Iron deficiency is one possible cause of anaemia.",
+          "senseId": "anaemia:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/anaemia.webp",
+        "sha256": "8c749befa9823914438dc429a75b7879640ef73acfbea5b56ca69942e414abec"
+      },
+      "visual": {
+        "expectedCue": "Lower haemoglobin concentration concept using equal red-fluid volumes and qualitative Hb-symbol density, without universal low RBC-count claim.",
+        "decision": "added",
+        "reason": "Actually inspected1254/512/120. Equal-sized chambers contain equal red-fluid levels; linked same-sized conceptual windows show many four-lobed Hb symbols left and fewer right. Essential Hb text exactly spelled and readable120. The symbols represent haemoglobin amount qualitatively, not red blood cells, free circulating protein location, an actual assay or calibrated values. No pale-person diagnostic shortcut or treatment.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise soft clinical concept on cool-white/mint/pale-blue, red blood stays red in both samples, no irrelevant decoration or numbers."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "8c749befa9823914438dc429a75b7879640ef73acfbea5b56ca69942e414abec",
+          "inspectedAt": "2026-10-29T10:13:20.780122Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254,512WebP and120PNG. Equal-size sample chambers contain equal volumes of red fluid; equal-sized linked conceptual windows show markedly fewer red four-lobed Hb symbols on right. Essential text Hb is exactly legible, including120. Accepted qualitative lower-haemoglobin concentration cue, not red-cell count, free-protein cellular location, actual assay, numerical range or diagnosis. Both liquids stay red; clean cool-white/mint/pale-blue clinical concept matches category."
+        }
+      }
+    },
+    {
+      "entryId": "jaundice",
+      "sourceWord": "jaundice",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "jaundice:meaning-1",
+          "pos": "n.",
+          "en": "Yellowing of the skin or whites of the eyes associated with a build-up of bilirubin."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Jaundice can affect the whites of the eyes.",
+          "senseId": "jaundice:meaning-1"
+        },
+        {
+          "en": "The clinician asks when the yellowing first appeared.",
+          "senseId": "jaundice:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/jaundice.webp",
+        "sha256": "a9bc1bb486a5f9ec100d4e70ea875257cfcaa4add38ca48030f9fbbc30ced122"
+      },
+      "visual": {
+        "expectedCue": "Yellowing of sclera and skin, with intact dark iris/pupil and enlarged same-eye detail; not yellow ambient illumination.",
+        "decision": "added",
+        "reason": "Actually inspected1254/512/120. Fictional medium-brown adult has bilateral yellow sclera, distinct brown irises/black pupils; enlarged eye repeats scleral yellowing. Background/shirt stay neutral cool-white so yellow is localized to person rather than scene lighting. Coherent facial/eye anatomy, no actual patient or bilirubin result. Exaggerated illustrative sign remains readable120; no cause/severity or diagnosis inferred.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical portrait plus restrained mint explanatory inset; natural forms, no decorative props or equipment."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a9bc1bb486a5f9ec100d4e70ea875257cfcaa4add38ca48030f9fbbc30ced122",
+          "inspectedAt": "2026-10-29T10:13:20.780292Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254,512WebP and120PNG. Fictional adult has bilateral yellow sclera while irises remain brown and pupils dark; enlarged matching eye detail makes localized yellowing clear120. Cool neutral background/shirt are not yellow, so cue is person-specific rather than yellow illumination. Face and eye anatomy coherent, restrained clinical crop/inset; no cause, bilirubin value, severity or actual diagnosis established."
+        }
+      }
+    },
+    {
+      "entryId": "cyanosis",
+      "sourceWord": "cyanosis",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "cyanosis:meaning-1",
+          "pos": "n.",
+          "en": "A bluish or greyish colour of skin or mucous membranes associated with insufficient oxygenation of blood or reduced circulation."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clinician checks the lips for cyanosis.",
+          "senseId": "cyanosis:meaning-1"
+        },
+        {
+          "en": "The bluish change may be easier to see in the mouth lining than on the skin.",
+          "senseId": "cyanosis:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cyanosis.webp",
+        "sha256": "a2b31079fa7cc52983c9093c4da0eb83313436ff6214307d83c47fc66b114fb3"
+      },
+      "visual": {
+        "expectedCue": "Unusual localized blue-grey lips/mucosal margin on natural brown skin, distinct from traumatic bruise or globally blue skin.",
+        "decision": "added",
+        "reason": "Actually inspected1254/512/120. Lip surfaces show muted blue-grey change while adjacent deep-brown skin retains natural undertone; mouth gently parted, off-white teeth and coherent nose/lip anatomy. Circular detail repeats same lip cue. No trauma, swelling, oxygen equipment or readings. Color highlighted for teaching and visibility varies; image establishes neither oxygen concentration nor actual diagnosis/cause.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean precise clinical crop on neutral cool-white, restrained explanatory inset and no irrelevant props, makeup presentation or decorative elements."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a2b31079fa7cc52983c9093c4da0eb83313436ff6214307d83c47fc66b114fb3",
+          "inspectedAt": "2026-10-29T10:13:20.780455Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254,512WebP and120PNG. Muted blue-grey color is localized to lips/inner-lip margin on otherwise naturally brown skin; off-white teeth and coherent nose/lip anatomy remain visible. Matching enlarged detail reinforces lip cue120. No bruised injury, swelling, blue ambient lighting or whole-blue face. Clean clinical illustration; accepted qualitative discoloration cue only, no oxygen concentration, cause or diagnosis."
+        }
+      }
+    },
+    {
+      "entryId": "pallor",
+      "sourceWord": "pallor",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pallor:meaning-1",
+          "pos": "n.",
+          "en": "Unusual paleness or loss of colour in skin or mucous membranes compared with a person's usual appearance."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clinician notices pallor around the patient's lips.",
+          "senseId": "pallor:meaning-1"
+        },
+        {
+          "en": "She says her face looks paler than it usually does.",
+          "senseId": "pallor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pallor.webp",
+        "sha256": "fcd60b74b4d7da12fc806f18988e91f6954bcb40c52a4f303aab411ca96f75a3"
+      },
+      "visual": {
+        "expectedCue": "Relative loss of usual skin/lip colour in the same fictional person under matching lighting, not a universal light skin tone.",
+        "decision": "added",
+        "reason": "Actually inspected1254/512/120. Matched side-by-side fictional adult retains same hair, eyes, nose, brown skin identity, clothing and lighting. Right lips/inner lip lose normal reddish colour and face becomes modestly ashen; left warmer lip redness remains distinct120. Coherent facial/oral anatomy, no unrelated complexion change or disease icon. Comparison explains relative pallor and cannot establish anaemia, cause or diagnosis.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Cool-white/mint clinical comparison, single restrained divider and pale-blue clothing, precise natural forms without decoration or labels."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "fcd60b74b4d7da12fc806f18988e91f6954bcb40c52a4f303aab411ca96f75a3",
+          "inspectedAt": "2026-10-29T10:13:20.780504Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254,512WebP and120PNG. Paired views retain the same fictional person's facial features, hair, brown skin identity, pose, shirt and neutral lighting. Right lips show less usual red coloration and face is relatively ashen; contrast remains visible120 without changing person into a different complexion. Clean cool-white/mint clinical comparison. Accepted relative pallor cue, not a universal normal skin tone or evidence of anaemia/cause/diagnosis."
+        }
+      }
+    },
+    {
+      "entryId": "chamfer",
+      "sourceWord": "chamfer",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "chamfer:meaning-1",
+          "pos": "n.",
+          "en": "A flat sloping face that replaces a sharp edge between two surfaces."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The chamfer forms a narrow sloping face along the edge of the block.",
+          "senseId": "chamfer:meaning-1"
+        },
+        {
+          "en": "A small chamfer at a hole entrance can help a pin enter.",
+          "senseId": "chamfer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/chamfer.webp",
+        "sha256": "0d633f9b192c9d411deb12302ac7b5728f3d75160e17dbbfa55ad3518debc6af"
+      },
+      "visual": {
+        "expectedCue": "One flat planar bevel replaces a sharp edge between two block faces.",
+        "decision": "added",
+        "reason": "Actually viewed full1254,512,120. Silver rectangular block has one straight flat sloped amber bevel face between intact top and end faces, bounded by crisp parallel straight edges. Not a curved fillet, detached strip or chipped notch. Clear120 planar edge-change cue; amber is selection, not a separate material or dimension/angle claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical product drawing on slate #263645 with silver #CAD4DB and restrained amber #D7A64B feature selection. Solid/void geometry clear120px, no labels, numbers, ratings or decorative arrows."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0d633f9b192c9d411deb12302ac7b5728f3d75160e17dbbfa55ad3518debc6af",
+          "inspectedAt": "2026-10-29T10:13:20.779419Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254,512WebP and120PNG. One flat amber sloping face replaces the sharp edge between intact planar top/front faces; straight borders and planar shading distinguish it from rounded fillet. The block is one coherent solid, no detached strip or notch. Selected edge face remains clear120 in precise slate/silver/amber category style; no angle/dimensions or manufacturing qualification."
+        }
+      }
+    },
+    {
+      "entryId": "fillet",
+      "sourceWord": "fillet",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "fillet:meaning-1",
+          "pos": "n.",
+          "en": "A rounded transition where two surfaces meet at an inside corner."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The fillet blends the upright wall into the base at the inside corner.",
+          "senseId": "fillet:meaning-1"
+        },
+        {
+          "en": "The drawing specifies a fillet radius instead of a sharp internal corner.",
+          "senseId": "fillet:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/fillet.webp",
+        "sha256": "ed2bd2d173f5b8b71d5cf2543bb8ff9631ba70452bcdace74ba2a52f0ccd6eb8"
+      },
+      "visual": {
+        "expectedCue": "A smooth concave internal radius blends the inner faces of an L-shaped block.",
+        "decision": "added",
+        "reason": "Actually viewed full1254,512,120. Continuous L-shaped silver solid has a visibly curved concave inner transition between perpendicular faces. Amber selection extends along adjacent flat portions but curvature is clear at the inner corner and front profile, unlike a flat chamfer or exterior-only round. No separate inserted bead, fish or exact radius qualification. Strong120 internal rounded-corner cue.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical product drawing on slate #263645 with silver #CAD4DB and restrained amber #D7A64B feature selection. Solid/void geometry clear120px, no labels, numbers, ratings or decorative arrows."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ed2bd2d173f5b8b71d5cf2543bb8ff9631ba70452bcdace74ba2a52f0ccd6eb8",
+          "inspectedAt": "2026-10-29T10:13:20.779656Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254,512WebP and120PNG. Continuous concave curved internal transition joins the upright and base of one thick L-shaped solid; the amber inner band follows the rounded corner, unlike a flat diagonal chamfer. Coherent thickness/contacts, no separate inserted bead or exterior-only round. Internal-radius cue clear120; precise slate/silver/amber technical rendering, no radius or welding claim."
+        }
+      }
+    },
+    {
+      "entryId": "groove",
+      "sourceWord": "groove",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "groove:meaning-1",
+          "pos": "n.",
+          "en": "A narrow recessed channel in the surface of a part."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The groove runs around the shaft and holds a retaining ring.",
+          "senseId": "groove:meaning-1"
+        },
+        {
+          "en": "A seal sits in the groove on the mating surface.",
+          "senseId": "groove:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/groove.webp",
+        "sha256": "035ee7c765085341a91051e12d726aa4518b34bfd140e775fa42237728f4ec9c"
+      },
+      "visual": {
+        "expectedCue": "A single recessed circumferential channel lies below the outer diameter of a shaft.",
+        "decision": "added",
+        "reason": "Actually viewed full1254,512,120. One continuous cylindrical shaft has a lower-diameter annular channel with visible floor and side shoulders, amber selecting the recessed floor below both silver outer diameters. Not a raised ring, helix or shaft break. Clear120 bottomed channel cue; color is explanatory selection and does not establish separate material, groove dimensions or functional fit.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical product drawing on slate #263645 with silver #CAD4DB and restrained amber #D7A64B feature selection. Solid/void geometry clear120px, no labels, numbers, ratings or decorative arrows."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "035ee7c765085341a91051e12d726aa4518b34bfd140e775fa42237728f4ec9c",
+          "inspectedAt": "2026-10-29T10:13:20.779805Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254,512WebP and120PNG. Amber channel floor is recessed below the two surrounding silver shaft shoulders and wraps circumferentially around a continuous core. Sidewall depth is visible; no raised attached ring, helical advance or shaft break. Clear bottomed annular groove cue120 in exact technical palette; no retaining-ring fit or groove dimension claim."
+        }
+      }
+    },
+    {
+      "entryId": "slot",
+      "sourceWord": "slot",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "slot:meaning-1",
+          "pos": "n.",
+          "en": "An elongated narrow opening or recess in a part."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The slot lets the bolt move along the plate before tightening.",
+          "senseId": "slot:meaning-1"
+        },
+        {
+          "en": "The mounting bracket has a slot with two rounded ends.",
+          "senseId": "slot:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/slot.webp",
+        "sha256": "2caf6854121e6d7b690c96501c84525b0cfaa03b619a54a7a2abd1bccb1b6030"
+      },
+      "visual": {
+        "expectedCue": "One elongated closed-ended through opening is fully enclosed within a plate.",
+        "decision": "added",
+        "reason": "Actually viewed full1254,512,120. Rectangular silver plate surrounds a long oblong opening on all sides; straight parallel walls meet semicircular ends, visible sidewall thickness and dark slate void distinguish the opening from an inserted pill. No edge-open notch, round hole or bright blind floor shown. Thin amber rim selects the void; elongated-hole cue clear120, no machining tolerance or exact dimensions claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Precise technical product drawing on slate #263645 with silver #CAD4DB and restrained amber #D7A64B feature selection. Solid/void geometry clear120px, no labels, numbers, ratings or decorative arrows."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2caf6854121e6d7b690c96501c84525b0cfaa03b619a54a7a2abd1bccb1b6030",
+          "inspectedAt": "2026-10-29T10:13:20.779938Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254,512WebP and120PNG. Long narrow opening with parallel sides and two rounded ends lies entirely within a continuous silver plate; dark slate is visible beyond the opening, with inner wall thickness and thin amber rim. Both ends surrounded by material, unlike edge-open notch. Through-slot cue readable120; precise slate/silver/amber rendering without tools, dimensions or attachment claims."
+        }
+      }
+    },
+    {
+      "entryId": "notch",
+      "sourceWord": "notch",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "notch:meaning-1",
+          "pos": "n.",
+          "en": "A small cut or indentation that opens from the edge of a part."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The notch opens from the edge of the metal strip.",
+          "senseId": "notch:meaning-1"
+        },
+        {
+          "en": "The locating tab fits into the notch in the bracket.",
+          "senseId": "notch:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/notch.webp",
+        "sha256": "ba0a7b386215fa39672fc4d156fecdb6adb38b9cba36cae754ba78b6a49a94e7"
+      },
+      "visual": {
+        "expectedCue": "Single V-shaped indentation opening from a metal strip edge, intact material below.",
+        "decision": "added",
+        "reason": "Actually inspected original1254 and converted512WebP/120PNG. An open V cut interrupts the upper strip edge; two amber sloping cut faces join intact material below the tip, with slate visible in removed space. No enclosed hole, added triangular solid or crack. Clear edge-open notch at120; not a full strip separation or internal slot. Qualitative geometry only, no impact-test or strength claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source, 512px WebP and 120px PNG: precise technical product drawing, restrained slate/silver/amber palette, clear selected geometry at thumbnail size. No text, fake numerical readings, copied product art or certified-design claim."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ba0a7b386215fa39672fc4d156fecdb6adb38b9cba36cae754ba78b6a49a94e7",
+          "inspectedAt": "2026-10-29T10:23:04.957495+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed full1254,512WebP,120PNG. A V-shaped recess opens directly into the top edge of a continuous silver block; two amber sloped walls meet below that edge with intact material beneath. Clearly edge-open, unlike enclosed slot or round hole. Simple precise slate/silver/amber product cue clear120, no stress-concentration magnitude or dimensions claimed."
+        }
+      }
+    },
+    {
+      "entryId": "thread",
+      "sourceWord": "thread",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "thread:meaning-1",
+          "pos": "n.",
+          "en": "A helical ridge on a cylindrical or conical surface that can engage a matching thread."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The thread winds around the shaft in a continuous helix.",
+          "senseId": "thread:meaning-1"
+        },
+        {
+          "en": "The nut engages the external thread on the bolt.",
+          "senseId": "thread:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/thread.webp",
+        "sha256": "4aa6d875ed17273b92e4b5c1b49aa499afcfd616b275621a1ca56e28034bef7a"
+      },
+      "visual": {
+        "expectedCue": "External integral helical screw ridge with visible axial advance; one oblique front ridge segment highlighted.",
+        "decision": "added",
+        "reason": "Actually inspected final original1254 and512WebP/120PNG. Silver integral coarse thread crests advance visibly along the horizontal core across the front surface; amber marks only an oblique front segment from an upper-left crest position to a lower-right position, rather than closing as a ring. Repeated crest geometry joins the same solid core and has continuous helical advance with the rear portion occluded. No separate washers, open spring or longitudinal spline. Recognizable external screw thread120; no standard profile, exact turn count, pitch, handedness or mating-fit qualification. Two earlier dense/collar candidates remain rejected privately.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source, 512px WebP and 120px PNG: precise technical product drawing, restrained slate/silver/amber palette, clear selected geometry at thumbnail size. No text, fake numerical readings, copied product art or certified-design claim."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4aa6d875ed17273b92e4b5c1b49aa499afcfd616b275621a1ca56e28034bef7a",
+          "inspectedAt": "2026-10-29T10:23:04.957495+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed full1254,512WebP,120PNG. Final corrected shaft has conventional integrated screw ridge/root geometry on a continuous core. The highlighted FRONT crest advances obliquely along the axis from upper-left to lower-right and continues behind the neighboring turn, unlike the rejected gold closed collars. Remaining turns are silver; not an open coil spring or separate rings. Helical cue clear120 in technical style; hidden rear surface, pitch/handedness, fit or machining quality not qualified. Two rejected prior candidates retained."
+        }
+      }
+    },
+    {
+      "entryId": "countersink",
+      "sourceWord": "countersink",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "countersink:meaning-1",
+          "pos": "n.",
+          "en": "A conical recess at the opening of a hole, often used to receive a matching screw head."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The countersink forms a conical recess around the hole entrance.",
+          "senseId": "countersink:meaning-1"
+        },
+        {
+          "en": "The flat-head screw seats in the countersink rather than above the plate.",
+          "senseId": "countersink:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/countersink.webp",
+        "sha256": "f2bfe75eb0836d5d445775be08931885b0307ff561de12b1142b0fcb96ac5dcc"
+      },
+      "visual": {
+        "expectedCue": "Conical enlarged recess at a smaller hole entrance, straight sloping sides rather than a flat annular shoulder.",
+        "decision": "added",
+        "reason": "Actually inspected original1254 and512WebP/120PNG. The amber enlarged mouth tapers continuously down straight conical sides into a narrower silver bore; the bounded front section exposes slope, with no cylindrical enlarged pocket or flat annular shoulder. Cone and smaller bore distinguish countersink from counterbore at120. The bore reaches the bottom plane in the drawing, but its underside is not fully exposed; accepted selected conical entrance cue, no screw fit, cone angle or complete-hole performance claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source, 512px WebP and 120px PNG: precise technical product drawing, restrained slate/silver/amber palette, clear selected geometry at thumbnail size. No text, fake numerical readings, copied product art or certified-design claim."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f2bfe75eb0836d5d445775be08931885b0307ff561de12b1142b0fcb96ac5dcc",
+          "inspectedAt": "2026-10-29T10:23:04.957495+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed full1254,512WebP,120PNG. Controlled front cutaway exposes a conical amber enlargement at a circular hole mouth, tapering into a narrower cylindrical bore. Conical wall distinct from flat annular counterbore shelf; remaining block is continuous. Lower hole face is not fully exposed and through/blind status is not asserted. Clear120 conical recess in slate/silver/amber precise section; no angle, size or fastener-fit qualification."
+        }
+      }
+    },
+    {
+      "entryId": "counterbore",
+      "sourceWord": "counterbore",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "counterbore:meaning-1",
+          "pos": "n.",
+          "en": "A cylindrical flat-bottomed enlargement at the opening of a smaller hole."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The counterbore provides a flat shoulder around the smaller hole.",
+          "senseId": "counterbore:meaning-1"
+        },
+        {
+          "en": "The socket-head screw fits inside the counterbore below the top surface.",
+          "senseId": "counterbore:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/counterbore.webp",
+        "sha256": "f4ae6073802145df93cb4ff1a393ef761a01ac4d2366ca305e80e8bc0d8467d4"
+      },
+      "visual": {
+        "expectedCue": "Larger cylindrical recess with a flat annular shoulder around a smaller central hole.",
+        "decision": "added",
+        "reason": "Actually inspected original1254 and512WebP/120PNG. Enlarged amber cylindrical wall meets a broad flat horizontal annular shoulder around an unobstructed smaller central bore. The bounded removed section exposes a definite step rather than a conical funnel. Main counterbore cue is distinct from countersink at120. Smaller bore extends toward the bottom plane, whose underside is not exposed; no complete-through-hole or screw-fit qualification is inferred. No dimensions or manufacturing parameters.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source, 512px WebP and 120px PNG: precise technical product drawing, restrained slate/silver/amber palette, clear selected geometry at thumbnail size. No text, fake numerical readings, copied product art or certified-design claim."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f4ae6073802145df93cb4ff1a393ef761a01ac4d2366ca305e80e8bc0d8467d4",
+          "inspectedAt": "2026-10-29T10:23:04.957495+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed full1254,512WebP,120PNG. Controlled section exposes a larger cylindrical upper recess with a flat annular amber shoulder around the smaller bore. Vertical recess wall/flat shelf distinct from conical countersink. Lower-hole underside not fully exposed, no through-hole state or seat-performance claim. Stepped recess cue clear120 and coherent precise slate/silver/amber geometry."
+        }
+      }
+    },
+    {
+      "entryId": "blind-hole",
+      "sourceWord": "blind hole",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "blind-hole:meaning-1",
+          "pos": "n.",
+          "en": "A hole that ends within a part instead of passing all the way through it."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The blind hole ends above the bottom surface of the block.",
+          "senseId": "blind-hole:meaning-1"
+        },
+        {
+          "en": "A threaded blind hole can receive a screw without opening through the opposite face.",
+          "senseId": "blind-hole:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/blind-hole.webp",
+        "sha256": "d37e4914b55c0bc351084a11c68a4a401196f6bff32f8b9fbf775122e697c235"
+      },
+      "visual": {
+        "expectedCue": "Top-entered cylindrical hole ending at a closed conical tip, thick continuous material below.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/512WebP/120PNG. Amber cylindrical bore ends at a clearly closed conical bottom well above block base; thick uninterrupted silver material continues below it. Bounded section reveals finite depth, without a bottom outlet, insert or thread. Closed-bottom distinction from through hole remains clear120. No dimensions, drilling instructions or strength/pressure claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source, 512px WebP and 120px PNG: precise technical product drawing, restrained slate/silver/amber palette, clear selected geometry at thumbnail size. No text, fake numerical readings, copied product art or certified-design claim."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d37e4914b55c0bc351084a11c68a4a401196f6bff32f8b9fbf775122e697c235",
+          "inspectedAt": "2026-10-29T10:15:37.237824+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254,512WebP,120PNG. Sectioned solid block has one cylindrical bore terminating in a closed conical drill-point bottom; thick material continues below. Amber inside face is semantic highlight, not a specified liner or dimension. Closed end remains readable120 and distinguishes through-hole. Clean precise slate/steel/amber technical cutaway; no labels/readings or machining instructions."
+        }
+      }
+    },
+    {
+      "entryId": "through-hole",
+      "sourceWord": "through hole",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "through-hole:meaning-1",
+          "pos": "n.",
+          "en": "A hole that passes completely through a part and opens on both sides."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The through hole connects the top and bottom faces of the block.",
+          "senseId": "through-hole:meaning-1"
+        },
+        {
+          "en": "The bolt passes through the through hole before the nut is fitted.",
+          "senseId": "through-hole:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/through-hole.webp",
+        "sha256": "cba92359158125e9efe427e3e0f281467cf3a5bd767c0c3014b93db7956bb345"
+      },
+      "visual": {
+        "expectedCue": "Straight cylindrical bore from top opening to open bottom exit, no material closure.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/512WebP/120PNG. Amber back semicylindrical bore wall extends uninterrupted from the top opening to the lower open arc at block underside. A clear slate gap lies directly below exit, between separate attached outer support feet; no cap, cone or floor crosses bore. Front section is explanatory, not a physical edge-open slot. Both-end opening contrasts with blind hole at120. No dimensions, thread or fitting performance claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source, 512px WebP and 120px PNG: precise technical product drawing, restrained slate/silver/amber palette, clear selected geometry at thumbnail size. No text, fake numerical readings, copied product art or certified-design claim."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "cba92359158125e9efe427e3e0f281467cf3a5bd767c0c3014b93db7956bb345",
+          "inspectedAt": "2026-10-29T10:15:37.238249+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254,512WebP,120PNG. Sectioned bore extends from top opening through bottom with visible slate-background gap, no closed conical floor. Small supports keep exit visible; amber bore wall highlights selected path. Open exit legible120. Cutaway is explanatory rather than a front slot in actual part. Precise steel/slate/amber technical style, no dimensions, data or irrelevant props."
+        }
+      }
+    },
+    {
+      "entryId": "taper",
+      "sourceWord": "taper",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "taper:meaning-1",
+          "pos": "n.",
+          "en": "A gradual decrease in the width or diameter of a part along its length."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The taper narrows the shaft smoothly toward its smaller end.",
+          "senseId": "taper:meaning-1"
+        },
+        {
+          "en": "The tool shank has a taper that matches the socket.",
+          "senseId": "taper:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/taper.webp",
+        "sha256": "3ce5e260fe1335eb6e37d83c33e049ffb2ae26346b40f0e6685091f1e2a6aa82"
+      },
+      "visual": {
+        "expectedCue": "Continuous conical decrease from large solid shaft end to smaller solid end, without diameter steps.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/512WebP/120PNG. Solid truncated-conical body narrows smoothly and continuously from broad silver left end to smaller silver right end, with amber outer sloped surface. Both ends are closed solid faces; no pipe lumen, step, thread or attached fitting. Gradual diameter change obvious120. Generic conical taper only, no mating socket, angle, taper ratio or self-locking claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source, 512px WebP and 120px PNG: precise technical product drawing, restrained slate/silver/amber palette, clear selected geometry at thumbnail size. No text, fake numerical readings, copied product art or certified-design claim."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3ce5e260fe1335eb6e37d83c33e049ffb2ae26346b40f0e6685091f1e2a6aa82",
+          "inspectedAt": "2026-10-29T10:15:37.238386+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254,512WebP,120PNG. One solid smooth truncated-cone form gradually reduces from large left circular end to smaller right end along length, not a stepped shoulder or pointed tip. Amber lateral surface and steel ends clearly distinguish gradual narrowing at120. No angle, ratio, fit standard or manufacturing tolerance inferred. Precise slate/steel/amber technical study without labels/props."
+        }
+      }
+    },
+    {
+      "entryId": "spline",
+      "sourceWord": "spline",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "spline:meaning-1",
+          "pos": "n.",
+          "en": "A lengthwise ridge on a shaft that engages a matching groove in a hub to transmit rotation."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The spline runs along the shaft rather than around it.",
+          "senseId": "spline:meaning-1"
+        },
+        {
+          "en": "The mating hub engages the shaft’s splines to transmit rotation.",
+          "senseId": "spline:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/spline.webp",
+        "sha256": "9b20f6ce6de694a7d35a4f0a34354320e65dda054a27769e11bde685b75e868c"
+      },
+      "visual": {
+        "expectedCue": "Straight longitudinal integral shaft ridges, one raised axial tooth highlighted, no helix.",
+        "decision": "added",
+        "reason": "Actually inspected corrected original1254 and512WebP/120PNG. Parallel straight raised teeth run lengthwise along central shaft core, and a single amber raised tooth follows the same axial direction. Smooth solid cylindrical end stubs remain continuous with core. Initial unintended gearlike teeth at near stub tip were removed by built-in edit, with rejected original preserved. No circumferential rings, helical thread, thin disk gear or disconnected floating tooth. One highlighted straight spline cue clear120; mating hub absent, no profile standard, count, fit or torque claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source, 512px WebP and 120px PNG: precise technical product drawing, restrained slate/silver/amber palette, clear selected geometry at thumbnail size. No text, fake numerical readings, copied product art or certified-design claim."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T10:35:50.148891+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9b20f6ce6de694a7d35a4f0a34354320e65dda054a27769e11bde685b75e868c",
+          "inspectedAt": "2026-10-29T10:15:37.238524+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected corrected original1254,512WebP,120PNG. Shaft has coherent repeated straight axial raised teeth/grooves around central portion and smooth cylindrical ends. One complete raised axial tooth is amber-highlighted; it is not a loose separate key or mathematical curve. No extra discontinuous near-tip teeth seen. Tooth detail remains legible120. No mating-hub engagement/load qualification claimed. Precise slate/steel/amber technical product rendering."
+        }
+      }
     }
   ]
 }

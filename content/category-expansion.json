@@ -3708,7 +3708,103 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 326,
+      "targetCategoryWords": 338,
+      "entryIds": [
+        "fracture",
+        "sprain",
+        "dislocation",
+        "abrasion",
+        "laceration",
+        "burn",
+        "scald",
+        "dehydration",
+        "anaemia",
+        "jaundice",
+        "cyanosis",
+        "pallor"
+      ],
+      "units": [
+        {
+          "id": "medical-injuries-visible-signs",
+          "title": "Injuries, hydration and visible clinical signs",
+          "entryIds": [
+            "fracture",
+            "sprain",
+            "dislocation",
+            "abrasion",
+            "laceration",
+            "burn",
+            "scald",
+            "dehydration",
+            "anaemia",
+            "jaundice",
+            "cyanosis",
+            "pallor"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-25",
+      "releaseId": "2026-10-preview-30",
+      "status": "published-preview",
+      "objective": "Describe injuries, visible clinical signs and machined component features in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 325,
+      "targetCategoryWords": 337,
+      "entryIds": [
+        "chamfer",
+        "fillet",
+        "groove",
+        "slot",
+        "notch",
+        "thread",
+        "countersink",
+        "counterbore",
+        "blind-hole",
+        "through-hole",
+        "taper",
+        "spline"
+      ],
+      "units": [
+        {
+          "id": "engineering-machined-features",
+          "title": "Machined edges, recesses, holes and shaft features",
+          "entryIds": [
+            "chamfer",
+            "fillet",
+            "groove",
+            "slot",
+            "notch",
+            "thread",
+            "countersink",
+            "counterbore",
+            "blind-hole",
+            "through-hole",
+            "taper",
+            "spline"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-25",
+      "releaseId": "2026-10-preview-30",
+      "status": "published-preview",
+      "objective": "Describe injuries, visible clinical signs and machined component features in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-24"
+  "activePassId": "specialist-500-batch-25"
 }

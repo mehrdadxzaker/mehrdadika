@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-29",
+  "releaseId": "2026-10-preview-30",
   "channel": "preview",
-  "createdAt": "2026-10-29T09:01:21.143188+00:00",
+  "createdAt": "2026-10-29T10:35:50.148891+00:00",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -50832,6 +50832,1530 @@
           {
             "url": "https://www.belimo.com/mam/americas/technical_documents/Support%20material/belimo_damper-applications_guide_en-us.pdf",
             "use": "Primary airflow-control manufacturer distinguishes damper blade position and system-dependent airflow. Original circular blade/shaft example, no airflow curves/ratings or certified fire-control claims."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fracture",
+      "w": "fracture",
+      "uk": "/ˈfræk.tʃə/",
+      "us": "/ˈfræk.tʃɚ/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "fracture:meaning-1",
+          "pos": "n.",
+          "fa": "شکستگیِ استخوان",
+          "en": "A crack or break in a bone.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The fracture is visible on the X-ray.",
+          "fa": "شکستگی در تصویرِ رادیوگرافی دیده می‌شود.",
+          "senseId": "fracture:meaning-1"
+        },
+        {
+          "en": "The report describes a small crack in the lower leg bone.",
+          "fa": "گزارش یک ترکِ کوچک در استخوانِ ساقِ پا را توصیف می‌کند.",
+          "senseId": "fracture:meaning-1"
+        }
+      ],
+      "col": [
+        "a bone fracture｜شکستگیِ استخوان",
+        "a closed fracture｜شکستگیِ بسته",
+        "a fracture line｜خطِ شکستگی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "اینجا fracture شکستگیِ استخوان است، نه صرفاً جابه‌جاییِ مفصل. شکستگی می‌تواند ترکِ ناکامل یا شکستِ کامل باشد؛ closed fracture یعنی پوست روی محلِ شکستگی باز نشده است. مدلِ آموزشی نتیجهٔ رادیوگرافیِ یک بیمار نیست و شدت یا نوعِ هر شکستگی را نشان نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/fracture.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://medlineplus.gov/fractures.html",
+            "use": "Bone fracture, incomplete/complete break and closed/open distinction. Primary factual anatomy check only; no protected prose, diagrams or artwork copied. All learner wording and generated pictures original AI-assisted editorial previews; human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sprain",
+      "w": "sprain",
+      "uk": "/spreɪn/",
+      "us": "/spreɪn/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "sprain:meaning-1",
+          "pos": "n.",
+          "fa": "پیچ‌خوردگیِ مفصل؛ آسیبِ رباط",
+          "en": "An injury in which a ligament at a joint is stretched too far or torn.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The sprain affects a ligament on the outside of her ankle.",
+          "fa": "پیچ‌خوردگی به رباطی در سمتِ بیرونیِ مچِ پای او آسیب زده است.",
+          "senseId": "sprain:meaning-1"
+        },
+        {
+          "en": "The clinician asks how the joint twisted during the fall.",
+          "fa": "متخصصِ درمان می‌پرسد مفصل هنگامِ افتادن چگونه پیچیده است.",
+          "senseId": "sprain:meaning-1"
+        }
+      ],
+      "col": [
+        "an ankle sprain｜پیچ‌خوردگیِ مچِ پا",
+        "a ligament sprain｜آسیبِ پیچ‌خوردگیِ رباط",
+        "a severe sprain｜پیچ‌خوردگیِ شدید"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "sprain به رباطِ پیونددهندهٔ استخوان‌ها در مفصل مربوط است؛ strain آسیبِ عضله یا تاندون است. sprain با fracture یا dislocation یکی نیست، هرچند این آسیب‌ها ممکن است هم‌زمان رخ دهند. یک مدلِ رباطِ آسیب‌دیده، درجهٔ آسیب یا تشخیصِ بیمار را تعیین نمی‌کند. تصویر نمونه‌ای از آسیبِ رباطِ جانبیِ خارجیِ زانو را انتخاب می‌کند؛ بافت‌های دیگر برای تمرکز بر رباط ساده شده‌اند.",
+      "media": {
+        "img": "atlas/img/sprain.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nhs.uk/conditions/sprains-and-strains/",
+            "use": "Ligament sprain contrasted with muscle strain; no treatment steps copied. Primary factual anatomy check only; no protected prose, diagrams or artwork copied. All learner wording and generated pictures original AI-assisted editorial previews; human/specialist review pending."
+          },
+          {
+            "url": "https://www.orthoinfo.aaos.org/diseases--conditions/collateral-ligament-injuries/",
+            "use": "Primary factual check of LCL femur-to-fibula attachment for selected corrected illustration; no protected wording, diagrams or artwork copied."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dislocation",
+      "w": "dislocation",
+      "uk": "/ˌdɪs.ləˈkeɪ.ʃən/",
+      "us": "/ˌdɪs.loʊˈkeɪ.ʃən/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "dislocation:meaning-1",
+          "pos": "n.",
+          "fa": "دررفتگیِ مفصل",
+          "en": "An injury in which the ends of bones at a joint move out of their normal positions.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The dislocation involves the shoulder joint.",
+          "fa": "دررفتگی در مفصلِ شانه رخ داده است.",
+          "senseId": "dislocation:meaning-1"
+        },
+        {
+          "en": "The imaging report describes the position of the displaced bone.",
+          "fa": "گزارشِ تصویربرداری جایگاهِ استخوانِ جابه‌جا‌شده را توصیف می‌کند.",
+          "senseId": "dislocation:meaning-1"
+        }
+      ],
+      "col": [
+        "a shoulder dislocation｜دررفتگیِ شانه",
+        "a joint dislocation｜دررفتگیِ مفصل",
+        "a recurrent dislocation｜دررفتگیِ عودکننده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "dislocation جابه‌جاییِ سطوحِ استخوانیِ مفصل از رابطهٔ طبیعیِ آن‌هاست؛ fracture شکستنِ خودِ استخوان است. این دو می‌توانند با هم رخ دهند. مدلِ موضعیِ شانه سرِ جابه‌جا‌شدهٔ استخوانِ بازو را نشان می‌دهد؛ لبه‌های صافِ بخشِ کتف مرزِ مدل‌اند، نه شکستگی، و تصویر روشِ جااندازی یا تشخیص از ظاهر نیست.",
+      "media": {
+        "img": "atlas/img/dislocation.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://medlineplus.gov/ency/article/000014.htm",
+            "use": "Normal joint relationship disrupted; distinction from fracture. Primary factual anatomy check only; no protected prose, diagrams or artwork copied. All learner wording and generated pictures original AI-assisted editorial previews; human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "abrasion",
+      "w": "abrasion",
+      "uk": "/əˈbreɪ.ʒən/",
+      "us": "/əˈbreɪ.ʒən/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "abrasion:meaning-1",
+          "pos": "n.",
+          "fa": "خراشِ سایشیِ پوست",
+          "en": "A superficial skin wound caused by rubbing or scraping away part of the surface.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The abrasion covers a small area of his knee.",
+          "fa": "خراشِ سایشی بخشِ کوچکی از زانوی او را پوشانده است.",
+          "senseId": "abrasion:meaning-1"
+        },
+        {
+          "en": "She scraped her elbow against the rough wall.",
+          "fa": "آرنجِ او به دیوارِ زبر ساییده و خراشیده شد.",
+          "senseId": "abrasion:meaning-1"
+        }
+      ],
+      "col": [
+        "a skin abrasion｜خراشِ سایشیِ پوست",
+        "a superficial abrasion｜خراشِ سطحی",
+        "an abrasion on the knee｜خراشِ سایشی روی زانو"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "معنای انتخاب‌شده زخمِ سایشیِ سطحیِ پوست است؛ abrasion در مهندسی نیز معنای سایش دارد. با laceration، یعنی بریدگی یا پارگیِ بازِ پوست، فرق دارد. خراشِ سطحی الزاماً بدونِ خون‌ریزی نیست؛ مدلِ سادهٔ پوست عمق یا وضعیتِ زخمِ واقعی را تعیین نمی‌کند.",
+      "media": {
+        "img": "atlas/img/abrasion.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.facs.org/media/x04ddnc5/wound_lacerations.pdf",
+            "use": "Superficial scraped skin injury contrasted with open laceration; no care instructions copied. Primary factual anatomy check only; no protected prose, diagrams or artwork copied. All learner wording and generated pictures original AI-assisted editorial previews; human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "laceration",
+      "w": "laceration",
+      "uk": "/ˌlæs.əˈreɪ.ʃən/",
+      "us": "/ˌlæs.əˈreɪ.ʃən/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "laceration:meaning-1",
+          "pos": "n.",
+          "fa": "بریدگی یا پارگیِ بازِ پوست",
+          "en": "An open cut or tear in the skin, often with irregular edges.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The laceration has uneven edges along the forearm.",
+          "fa": "بریدگی در امتدادِ ساعد لبه‌های نامنظم دارد.",
+          "senseId": "laceration:meaning-1"
+        },
+        {
+          "en": "The clinician records the length and location of the wound.",
+          "fa": "متخصصِ درمان طول و محلِ زخم را ثبت می‌کند.",
+          "senseId": "laceration:meaning-1"
+        }
+      ],
+      "col": [
+        "a skin laceration｜پارگیِ پوست",
+        "a deep laceration｜بریدگیِ عمیق",
+        "the edges of a laceration｜لبه‌های بریدگی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "laceration یک بریدگی یا پارگیِ باز است؛ لبه‌ها اغلب نامنظم‌اند، اما هر بریدگی الزاماً دندانه‌دار نیست. مدل، نمونه‌ای با شکاف تا لایهٔ زیرِ سطح را نشان می‌دهد تا از abrasion سطحی متمایز شود؛ همهٔ پارگی‌ها عمقِ یکسان ندارند. رنگ و شکل، شدت یا درمانِ لازم را تعیین نمی‌کند.",
+      "media": {
+        "img": "atlas/img/laceration.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://medlineplus.gov/ency/article/000043.htm",
+            "use": "Cuts/lacerations may be smooth or jagged and vary in depth; selected irregular example only. Primary factual anatomy check only; no protected prose, diagrams or artwork copied. All learner wording and generated pictures original AI-assisted editorial previews; human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "burn",
+      "w": "burn",
+      "uk": "/bɜːn/",
+      "us": "/bɝːn/",
+      "cefr": "B1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "burn:meaning-1",
+          "pos": "n.",
+          "fa": "سوختگی",
+          "en": "An injury to skin or other tissue caused by heat, chemicals, electricity or radiation.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The burn affects a small patch of skin on her forearm.",
+          "fa": "سوختگی بخشِ کوچکی از پوستِ ساعدِ او را درگیر کرده است.",
+          "senseId": "burn:meaning-1"
+        },
+        {
+          "en": "The clinician asks whether the injury involved dry heat or a hot liquid.",
+          "fa": "متخصصِ درمان می‌پرسد آسیب بر اثرِ گرمای خشک بوده یا مایعِ داغ.",
+          "senseId": "burn:meaning-1"
+        }
+      ],
+      "col": [
+        "a thermal burn｜سوختگیِ حرارتی",
+        "a chemical burn｜سوختگیِ شیمیایی",
+        "a burn injury｜آسیبِ سوختگی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "اینجا burn اسمِ آسیبِ سوختگی است، نه فعلِ «سوختن». تصویر فقط نمونهٔ تماس با گرمای خشک را توضیح می‌دهد؛ همهٔ سوختگی‌ها قرمز یا دارای تاول نیستند و ظاهر در رنگ‌های پوست و عمق‌های مختلف فرق می‌کند. scald نوعِ سوختگی با مایعِ داغ یا بخار است. تصویر درجه‌بندیِ آسیب یا راهنمای درمان نیست.",
+      "media": {
+        "img": "atlas/img/burn.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nhs.uk/conditions/Burns-and-scalds/",
+            "use": "Thermal, chemical and electrical causes and scald distinction; no treatment details copied. Primary factual anatomy check only; no protected prose, diagrams or artwork copied. All learner wording and generated pictures original AI-assisted editorial previews; human/specialist review pending."
+          },
+          {
+            "url": "https://medlineplus.gov/burns.html",
+            "use": "Broad injury category including radiation; factual definition only. Primary factual anatomy check only; no protected prose, diagrams or artwork copied. All learner wording and generated pictures original AI-assisted editorial previews; human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "scald",
+      "w": "scald",
+      "uk": "/skɔːld/",
+      "us": "/skɑːld/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "scald:meaning-1",
+          "pos": "n.",
+          "fa": "سوختگی با مایعِ داغ یا بخار",
+          "en": "A burn caused by hot liquid or steam.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The scald occurred when hot tea spilled onto his arm.",
+          "fa": "سوختگی زمانی رخ داد که چایِ داغ روی بازوی او ریخت.",
+          "senseId": "scald:meaning-1"
+        },
+        {
+          "en": "The report records steam as the cause of the burn.",
+          "fa": "گزارش بخار را علتِ سوختگی ثبت می‌کند.",
+          "senseId": "scald:meaning-1"
+        }
+      ],
+      "col": [
+        "a scald injury｜آسیبِ سوختگی با مایعِ داغ یا بخار",
+        "a hot-water scald｜سوختگی با آبِ داغ",
+        "a steam scald｜سوختگی با بخار"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "scald در این مدخل اسم است و علتِ سوختگی را مایعِ داغ یا بخار مشخص می‌کند. burn واژهٔ گسترده‌تر است و تماس با جسمِ داغ یا علت‌های دیگر را هم در بر می‌گیرد. صحنهٔ سادهٔ ریختنِ مایع، علت را توضیح می‌دهد؛ از رنگِ پوست نمی‌توان عمق یا شدتِ سوختگی را تعیین کرد.",
+      "media": {
+        "img": "atlas/img/scald.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nhs.uk/conditions/Burns-and-scalds/",
+            "use": "Scald caused by hot liquid or steam, contrasted with dry heat. Primary factual anatomy check only; no protected prose, diagrams or artwork copied. All learner wording and generated pictures original AI-assisted editorial previews; human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dehydration",
+      "w": "dehydration",
+      "uk": "/ˌdiː.haɪˈdreɪ.ʃən/",
+      "us": "/ˌdiː.haɪˈdreɪ.ʃən/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "dehydration:meaning-1",
+          "pos": "n.",
+          "fa": "کم‌آبیِ بدن",
+          "en": "A shortage of fluid in the body that develops when fluid loss exceeds fluid intake.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The clinician checks for signs of dehydration.",
+          "fa": "متخصصِ درمان نشانه‌های کم‌آبیِ بدن را بررسی می‌کند.",
+          "senseId": "dehydration:meaning-1"
+        },
+        {
+          "en": "Prolonged fluid loss can lead to dehydration.",
+          "fa": "از دست دادنِ طولانی‌مدتِ مایعات می‌تواند به کم‌آبیِ بدن منجر شود.",
+          "senseId": "dehydration:meaning-1"
+        }
+      ],
+      "col": [
+        "signs of dehydration｜نشانه‌های کم‌آبیِ بدن",
+        "mild dehydration｜کم‌آبیِ خفیفِ بدن",
+        "the risk of dehydration｜خطرِ کم‌آبیِ بدن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "dehydration کمبودِ مایعِ بدن است، نه صرفاً تشنگی یا خالی‌بودنِ لیوان. نشانه‌هایی مانند خشکیِ دهان اختصاصیِ این وضعیت نیستند. نمودارِ کیفیِ کاهشِ مایع، مفهومِ عدمِ تعادل را توضیح می‌دهد؛ بدن مخزنِ آبِ آزاد نیست و تصویر مقدار، درصد یا تشخیصِ کم‌آبی را نشان نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/dehydration.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nhs.uk/conditions/dehydration/",
+            "use": "Body fluid loss greater than intake; nonspecific signs, no treatment amounts copied. Primary factual anatomy check only; no protected prose, diagrams or artwork copied. All learner wording and generated pictures original AI-assisted editorial previews; human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "anaemia",
+      "w": "anaemia",
+      "uk": "/əˈniː.mi.ə/",
+      "us": "/əˈniː.mi.ə/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "anaemia:meaning-1",
+          "pos": "n.",
+          "fa": "کم‌خونی",
+          "en": "A condition in which the concentration of haemoglobin in the blood is lower than expected.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The blood test helps the clinician assess anaemia.",
+          "fa": "آزمایشِ خون به متخصصِ درمان در ارزیابیِ کم‌خونی کمک می‌کند.",
+          "senseId": "anaemia:meaning-1"
+        },
+        {
+          "en": "Iron deficiency is one possible cause of anaemia.",
+          "fa": "کمبودِ آهن یکی از علت‌های ممکنِ کم‌خونی است.",
+          "senseId": "anaemia:meaning-1"
+        }
+      ],
+      "col": [
+        "iron-deficiency anaemia｜کم‌خونیِ ناشی از کمبودِ آهن",
+        "an assessment of anaemia｜ارزیابیِ کم‌خونی",
+        "a cause of anaemia｜علتِ کم‌خونی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "anaemia املای بریتانیایی و anemia املای رایجِ آمریکایی است. تعریف بر غلظتِ هموگلوبین تکیه دارد؛ تعدادِ گلبول‌های قرمز در همهٔ انواع الزاماً کم نیست و همهٔ علت‌ها کمبودِ آهن نیستند. مقدارِ موردِ انتظار با زمینهٔ فرد فرق دارد. نمادِ Hb و مقایسهٔ کیفی فقط مفهوم را توضیح می‌دهد؛ شمارشِ سلول، نتیجهٔ آزمایش یا تشخیص از چهره نیست. هموگلوبینِ خون عمدتاً در گلبول‌های قرمز قرار دارد؛ این طرح جایگاهِ درون‌سلولیِ آن را نشان نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/anaemia.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.who.int/news-room/fact-sheets/detail/ANAEMIA",
+            "use": "Haemoglobin concentration assessment and multiple causes, not universal low cell count or iron deficiency; no numerical thresholds copied. Primary factual anatomy check only; no protected prose, diagrams or artwork copied. All learner wording and generated pictures original AI-assisted editorial previews; human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "jaundice",
+      "w": "jaundice",
+      "uk": "/ˈdʒɔːn.dɪs/",
+      "us": "/ˈdʒɑːn.dɪs/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "jaundice:meaning-1",
+          "pos": "n.",
+          "fa": "زردی؛ یرقان",
+          "en": "Yellowing of the skin or whites of the eyes associated with a build-up of bilirubin.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Jaundice can affect the whites of the eyes.",
+          "fa": "زردی می‌تواند سفیدیِ چشم‌ها را درگیر کند.",
+          "senseId": "jaundice:meaning-1"
+        },
+        {
+          "en": "The clinician asks when the yellowing first appeared.",
+          "fa": "متخصصِ درمان می‌پرسد زردشدگی نخستین بار چه زمانی ظاهر شده است.",
+          "senseId": "jaundice:meaning-1"
+        }
+      ],
+      "col": [
+        "signs of jaundice｜نشانه‌های زردی",
+        "the onset of jaundice｜آغازِ زردی",
+        "a cause of jaundice｜علتِ زردی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "jaundice نامِ زردشدگیِ مرتبط با بیلی‌روبین است، نه هر ته‌رنگِ زردِ طبیعی یا نورِ زردِ عکس. دیده‌شدنِ آن با رنگِ پوست و نور فرق می‌کند و ممکن است در سفیدیِ چشم روشن‌تر باشد. تصویرِ ساختگی، یک نشانهٔ احتمالی را توضیح می‌دهد؛ علت، مقدارِ بیلی‌روبین یا تشخیصِ فرد را تعیین نمی‌کند.",
+      "media": {
+        "img": "atlas/img/jaundice.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nhs.uk/conditions/jaundice/",
+            "use": "Bilirubin-associated yellowing of skin/sclera and visibility across skin tones; no treatment or diagnosis instructions. Primary factual anatomy check only; no protected prose, diagrams or artwork copied. All learner wording and generated pictures original AI-assisted editorial previews; human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cyanosis",
+      "w": "cyanosis",
+      "uk": "/ˌsaɪ.əˈnəʊ.sɪs/",
+      "us": "/ˌsaɪ.əˈnoʊ.sɪs/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "cyanosis:meaning-1",
+          "pos": "n.",
+          "fa": "سیانوز؛ رنگ‌گرفتگیِ آبی یا خاکستریِ پوست یا مخاط",
+          "en": "A bluish or greyish colour of skin or mucous membranes associated with insufficient oxygenation of blood or reduced circulation.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The clinician checks the lips for cyanosis.",
+          "fa": "متخصصِ درمان لب‌ها را از نظرِ سیانوز بررسی می‌کند.",
+          "senseId": "cyanosis:meaning-1"
+        },
+        {
+          "en": "The bluish change may be easier to see in the mouth lining than on the skin.",
+          "fa": "تغییرِ رنگِ مایل به آبی ممکن است در مخاطِ دهان آسان‌تر از پوست دیده شود.",
+          "senseId": "cyanosis:meaning-1"
+        }
+      ],
+      "col": [
+        "signs of cyanosis｜نشانه‌های سیانوز",
+        "central cyanosis｜سیانوزِ مرکزی",
+        "peripheral cyanosis｜سیانوزِ محیطی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "cyanosis با رنگِ آبی یا خاکستریِ غیرمعمولِ پوست یا مخاط مرتبط است؛ با کبودیِ ناشی از ضربه یکی نیست. نوعِ مرکزی و محیطی علت‌های یکسانی ندارند و جریانِ خون نیز اهمیت دارد. رنگِ نموداریِ لب‌ها در تصویر برای آموزش برجسته شده است؛ دیده‌شدن در رنگ‌های مختلفِ پوست متفاوت است و عکس مقدارِ اکسیژن یا تشخیص را نشان نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/cyanosis.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.nhs.uk/symptoms/blue-skin-or-lips-cyanosis/",
+            "use": "Blue/grey skin or lips and oxygen/circulation associations, variable visibility. Primary factual anatomy check only; no protected prose, diagrams or artwork copied. All learner wording and generated pictures original AI-assisted editorial previews; human/specialist review pending."
+          },
+          {
+            "url": "https://medlineplus.gov/ency/article/003215.htm",
+            "use": "Mucosal and skin cyanosis and visibility differences; no numerical readings or advice copied. Primary factual anatomy check only; no protected prose, diagrams or artwork copied. All learner wording and generated pictures original AI-assisted editorial previews; human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pallor",
+      "w": "pallor",
+      "uk": "/ˈpæl.ə/",
+      "us": "/ˈpæl.ɚ/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "pallor:meaning-1",
+          "pos": "n.",
+          "fa": "رنگ‌پریدگی",
+          "en": "Unusual paleness or loss of colour in skin or mucous membranes compared with a person's usual appearance.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The clinician notices pallor around the patient's lips.",
+          "fa": "متخصصِ درمان رنگ‌پریدگی را اطرافِ لب‌های بیمار مشاهده می‌کند.",
+          "senseId": "pallor:meaning-1"
+        },
+        {
+          "en": "She says her face looks paler than it usually does.",
+          "fa": "او می‌گوید چهره‌اش از حالتِ معمول رنگ‌پریده‌تر به نظر می‌رسد.",
+          "senseId": "pallor:meaning-1"
+        }
+      ],
+      "col": [
+        "facial pallor｜رنگ‌پریدگیِ چهره",
+        "noticeable pallor｜رنگ‌پریدگیِ محسوس",
+        "pallor of the mucous membranes｜رنگ‌پریدگیِ مخاط‌ها"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "pallor تغییری نسبت به رنگِ معمولِ همان فرد است، نه داشتنِ پوستِ روشن. در بعضی رنگ‌های پوست، مخاطِ دهان یا چشم تغییر را بهتر نشان می‌دهد. مقایسهٔ ساختگی باید همان فرد را زیرِ نورِ یکسان نشان دهد؛ رنگ‌پریدگی به‌تنهایی معادلِ anaemia نیست و تصویر علت یا تشخیص را تعیین نمی‌کند.",
+      "media": {
+        "img": "atlas/img/pallor.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://medlineplus.gov/ency/article/003244.htm",
+            "use": "Loss of usual skin/mucosal colour, visibility variation and multiple causes; no diagnostic inference. Primary factual anatomy check only; no protected prose, diagrams or artwork copied. All learner wording and generated pictures original AI-assisted editorial previews; human/specialist review pending."
+          }
+        ]
+      }
+    },
+    {
+      "id": "chamfer",
+      "w": "chamfer",
+      "uk": "/ˈtʃæmfə/",
+      "us": "/ˈtʃæmfɚ/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "chamfer:meaning-1",
+          "pos": "n.",
+          "fa": "پخِ لبه",
+          "en": "A flat sloping face that replaces a sharp edge between two surfaces.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The chamfer forms a narrow sloping face along the edge of the block.",
+          "fa": "پخ، سطحی باریک و شیب‌دار در امتدادِ لبهٔ قطعه ایجاد می‌کند.",
+          "senseId": "chamfer:meaning-1"
+        },
+        {
+          "en": "A small chamfer at a hole entrance can help a pin enter.",
+          "fa": "پخِ کوچکی در ورودیِ سوراخ می‌تواند به ورودِ پین کمک کند.",
+          "senseId": "chamfer:meaning-1"
+        }
+      ],
+      "col": [
+        "an edge chamfer｜پخِ لبه",
+        "a machined chamfer｜یک پخِ ماشین‌کاری‌شده",
+        "a chamfer width｜عرضِ پخ"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "chamfer در این معنا سطحِ تخت و موربِ لبه است؛ fillet اتصالِ گرد دارد. پخ الزاماً زاویهٔ ثابتی ندارد؛ تصویر شکل را نشان می‌دهد، نه اندازه یا مشخصاتِ ساخت.",
+      "media": {
+        "img": "atlas/img/chamfer.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://help.autodesk.com/cloudhelp/2026/ENU/AutoCAD-Core/files/GUID-B1DCF991-90A7-4DB0-96FC-BDA3FB76337C.htm",
+            "use": "Primary CAD documentation distinguishes a sloped face between adjacent surfaces; original noun sense, no copied geometry or angle specification."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fillet",
+      "w": "fillet",
+      "uk": "/ˈfɪlɪt/",
+      "us": "/ˈfɪlɪt/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "fillet:meaning-1",
+          "pos": "n.",
+          "fa": "گردیِ گوشهٔ داخلی",
+          "en": "A rounded transition where two surfaces meet at an inside corner.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The fillet blends the upright wall into the base at the inside corner.",
+          "fa": "گردیِ گوشهٔ داخلی، دیوارهٔ عمودی را در محلِ گوشه به پایه پیوند می‌دهد.",
+          "senseId": "fillet:meaning-1"
+        },
+        {
+          "en": "The drawing specifies a fillet radius instead of a sharp internal corner.",
+          "fa": "نقشه به‌جای گوشهٔ داخلیِ تیز، شعاعِ گردی را مشخص می‌کند.",
+          "senseId": "fillet:meaning-1"
+        }
+      ],
+      "col": [
+        "an internal fillet｜گردیِ گوشهٔ داخلی",
+        "a fillet radius｜شعاعِ گردیِ گوشه",
+        "a smooth fillet｜یک گردیِ هموار"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "fillet اینجا گردیِ مقعرِ گوشهٔ داخلی است، نه فیلهٔ خوراکی یا جوشِ گوشه. برخی نرم‌افزارهای CAD برای گردیِ بیرونی هم همین نام را به کار می‌برند؛ تصویر معنای داخلی را انتخاب می‌کند. برخلاف chamfer، سطحِ گذار منحنی است.",
+      "media": {
+        "img": "atlas/img/fillet.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/How-to-add-a-fillet-into-internal-corners-when-steep-shallow-finishing-in-Fusion-360.html",
+            "use": "Primary CAD manufacturer explicitly discusses internal-corner fillets; selected concave noun sense, no machining parameters or copied text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "groove",
+      "w": "groove",
+      "uk": "/ɡruːv/",
+      "us": "/ɡruːv/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "groove:meaning-1",
+          "pos": "n.",
+          "fa": "شیارِ سطحی",
+          "en": "A narrow recessed channel in the surface of a part.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The groove runs around the shaft and holds a retaining ring.",
+          "fa": "شیار به دورِ محور می‌گردد و خارِ نگهدارنده را در خود جای می‌دهد.",
+          "senseId": "groove:meaning-1"
+        },
+        {
+          "en": "A seal sits in the groove on the mating surface.",
+          "fa": "یک آب‌بند در شیارِ روی سطحِ جفت‌شونده قرار می‌گیرد.",
+          "senseId": "groove:meaning-1"
+        }
+      ],
+      "col": [
+        "a retaining-ring groove｜شیارِ خارِ نگهدارنده",
+        "a seal groove｜شیارِ آب‌بند",
+        "a circumferential groove｜شیارِ محیطی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "groove اینجا فرورفتگیِ کانالی در سطح است؛ تصویر شیارِ محیطی با کفِ بسته را انتخاب می‌کند، نه رزوهٔ مارپیچ. groove و slot در کاربردهای فنی گاهی هم‌پوشانی دارند؛ شکلِ برگزیده را از سوراخِ کشیدهٔ کارتِ slot تشخیص دهید.",
+      "media": {
+        "img": "atlas/img/groove.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.sandvik.coromant.com/en-us/knowledge/milling/groove-or-slot-milling",
+            "use": "Primary machining manufacturer discusses grooves, slots and retaining/seal-ring grooves, with overlap in terminology. Original selected circumferential surface-channel sense."
+          }
+        ]
+      }
+    },
+    {
+      "id": "slot",
+      "w": "slot",
+      "uk": "/slɒt/",
+      "us": "/slɑːt/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "slot:meaning-1",
+          "pos": "n.",
+          "fa": "شکافِ کشیده",
+          "en": "An elongated narrow opening or recess in a part.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The slot lets the bolt move along the plate before tightening.",
+          "fa": "شکافِ کشیده به پیچ اجازه می‌دهد پیش از سفت‌شدن، در امتدادِ صفحه جابه‌جا شود.",
+          "senseId": "slot:meaning-1"
+        },
+        {
+          "en": "The mounting bracket has a slot with two rounded ends.",
+          "fa": "براکتِ نصب شکافی کشیده با دو انتهای گرد دارد.",
+          "senseId": "slot:meaning-1"
+        }
+      ],
+      "col": [
+        "a mounting slot｜شکافِ نصب",
+        "an elongated slot｜یک شکافِ کشیده",
+        "a through slot｜یک شکافِ سرتاسری"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "slot اینجا ویژگیِ هندسیِ قطعه است، نه نوبت یا جایگاهِ زمانی. تصویر شکافی سرتاسری با دو انتهای بسته در محدودهٔ صفحه را نشان می‌دهد؛ slot می‌تواند کف‌دار یا در یک انتها باز هم باشد. notch معمولاً از لبه باز می‌شود.",
+      "media": {
+        "img": "atlas/img/slot.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.sandvik.coromant.com/en-us/knowledge/milling/groove-or-slot-milling",
+            "use": "Primary tool manufacturer describes elongated slots, open/closed ends and groove overlap. Original opening sense; illustrated closed-ended through-slot is one selected example."
+          }
+        ]
+      }
+    },
+    {
+      "id": "notch",
+      "w": "notch",
+      "uk": "/nɒtʃ/",
+      "us": "/nɑːtʃ/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "notch:meaning-1",
+          "pos": "n.",
+          "fa": "بریدگیِ لبه",
+          "en": "A small cut or indentation that opens from the edge of a part.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The notch opens from the edge of the metal strip.",
+          "fa": "بریدگی از لبهٔ نوارِ فلزی باز می‌شود.",
+          "senseId": "notch:meaning-1"
+        },
+        {
+          "en": "The locating tab fits into the notch in the bracket.",
+          "fa": "زبانهٔ موقعیت‌دهنده در بریدگیِ براکت جا می‌گیرد.",
+          "senseId": "notch:meaning-1"
+        }
+      ],
+      "col": [
+        "an edge notch｜بریدگیِ لبه",
+        "a V-shaped notch｜بریدگیِ وی‌شکل",
+        "a locating notch｜بریدگیِ موقعیت‌دهنده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "notch در این معنا بریدگیِ باز از لبهٔ قطعه است؛ لازم نیست همیشه وی‌شکل باشد. تصویر نمونهٔ وی‌شکل را انتخاب می‌کند، نه سوراخِ محصور یا شکافِ کشیدهٔ داخلی. این نام به‌تنهایی کاربردِ آزمایشِ ضربه یا استحکامِ مجاز را تعیین نمی‌کند.",
+      "media": {
+        "img": "atlas/img/notch.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://cdn.sandvik.coromant.com/files/sitecollectiondocuments/tailor_made/en-gb/udrillshd.pdf",
+            "use": "Primary tooling manufacturer includes a physical notch feature on tool shanks. Original generic edge-cut sense; no proprietary notch geometry, test standard or tool dimensions reproduced."
+          }
+        ]
+      }
+    },
+    {
+      "id": "thread",
+      "w": "thread",
+      "uk": "/θred/",
+      "us": "/θred/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "thread:meaning-1",
+          "pos": "n.",
+          "fa": "رزوه",
+          "en": "A helical ridge on a cylindrical or conical surface that can engage a matching thread.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The thread winds around the shaft in a continuous helix.",
+          "fa": "رزوه به‌شکلِ مارپیچی پیوسته به دورِ محور می‌پیچد.",
+          "senseId": "thread:meaning-1"
+        },
+        {
+          "en": "The nut engages the external thread on the bolt.",
+          "fa": "مهره با رزوهٔ بیرونیِ پیچ درگیر می‌شود.",
+          "senseId": "thread:meaning-1"
+        }
+      ],
+      "col": [
+        "an external thread｜رزوهٔ بیرونی",
+        "an internal thread｜رزوهٔ داخلی",
+        "a thread pitch｜گامِ رزوه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "thread اینجا رزوهٔ مارپیچِ مکانیکی است، نه نخ یا رشتهٔ گفتگو. حلقه‌های جداگانه رزوه نیستند. تصویر رزوهٔ بیرونی را انتخاب می‌کند؛ نوعِ داخلی هم وجود دارد. گام، جهت و سازگاریِ واقعی از این نمایِ بی‌اندازه تعیین نمی‌شوند.",
+      "media": {
+        "img": "atlas/img/thread.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.sandvik.coromant.com/en-us/knowledge/threading/thread-turning/thread-turning-application-tips",
+            "use": "Primary threading manufacturer describes helical thread grooves, lead and pitch. Original ridge sense; no machining instructions, dimensions or exact thread-class claim."
+          }
+        ]
+      }
+    },
+    {
+      "id": "countersink",
+      "w": "countersink",
+      "uk": "/ˈkaʊntəsɪŋk/",
+      "us": "/ˈkaʊntɚsɪŋk/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "countersink:meaning-1",
+          "pos": "n.",
+          "fa": "خزینهٔ مخروطی",
+          "en": "A conical recess at the opening of a hole, often used to receive a matching screw head.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The countersink forms a conical recess around the hole entrance.",
+          "fa": "خزینهٔ مخروطی فرورفتگی‌ای مخروطی در اطرافِ ورودیِ سوراخ ایجاد می‌کند.",
+          "senseId": "countersink:meaning-1"
+        },
+        {
+          "en": "The flat-head screw seats in the countersink rather than above the plate.",
+          "fa": "پیچِ سرخزینه در خزینهٔ مخروطی می‌نشیند، به‌جای آنکه بالای صفحه قرار بگیرد.",
+          "senseId": "countersink:meaning-1"
+        }
+      ],
+      "col": [
+        "a conical countersink｜خزینهٔ مخروطی",
+        "a countersink angle｜زاویهٔ خزینهٔ مخروطی",
+        "a countersink recess｜فرورفتگیِ خزینهٔ مخروطی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "countersink اینجا خودِ فرورفتگیِ مخروطی است، نه ابزار یا فعلِ خزینه‌کاری. counterbore دیوارهٔ استوانه‌ای و نشیمنِ تخت دارد. نشستنِ واقعیِ سرپیچ به هندسهٔ سازگار وابسته است؛ تصویر زاویه یا سازگاریِ استاندارد را مشخص نمی‌کند.",
+      "media": {
+        "img": "atlas/img/countersink.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.protolabs.com/en-gb/resources/blog/cnc-hole-design-through-blind-tapped-and-more/",
+            "use": "Primary machining service distinguishes conical countersink from cylindrical flat-bottom counterbore. Original feature definition and use, no dimensions or copied illustrations."
+          }
+        ]
+      }
+    },
+    {
+      "id": "counterbore",
+      "w": "counterbore",
+      "uk": "/ˈkaʊntəbɔː/",
+      "us": "/ˈkaʊntɚbɔːr/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "counterbore:meaning-1",
+          "pos": "n.",
+          "fa": "خزینهٔ استوانه‌ایِ کف‌تخت",
+          "en": "A cylindrical flat-bottomed enlargement at the opening of a smaller hole.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The counterbore provides a flat shoulder around the smaller hole.",
+          "fa": "خزینهٔ استوانه‌ای، نشیمنی تخت در اطرافِ سوراخِ کوچک‌تر فراهم می‌کند.",
+          "senseId": "counterbore:meaning-1"
+        },
+        {
+          "en": "The socket-head screw fits inside the counterbore below the top surface.",
+          "fa": "پیچِ سرآلن درونِ خزینهٔ استوانه‌ای و پایین‌تر از سطحِ بالایی جا می‌گیرد.",
+          "senseId": "counterbore:meaning-1"
+        }
+      ],
+      "col": [
+        "a flat-bottomed counterbore｜خزینهٔ استوانه‌ایِ کف‌تخت",
+        "a counterbore depth｜عمقِ خزینهٔ استوانه‌ای",
+        "a counterbore diameter｜قطرِ خزینهٔ استوانه‌ای"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "counterbore در این معنا فرورفتگیِ بزرگ‌تر با دیوارهٔ استوانه‌ای و شانهٔ تخت در اطرافِ سوراخِ کوچک‌تر است. با countersink مخروطی فرق دارد؛ سوراخِ مرکزی می‌تواند ادامه پیدا کند، پس «کف‌تخت» به شانهٔ حلقوی اشاره دارد، نه بسته‌بودنِ کلِ سوراخ.",
+      "media": {
+        "img": "atlas/img/counterbore.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.protolabs.com/en-gb/resources/blog/cnc-hole-design-through-blind-tapped-and-more/",
+            "use": "Primary machining service distinguishes flat-bottom cylindrical counterbore from conical countersink. Selected noun feature, no assumed screw size or copied geometry."
+          }
+        ]
+      }
+    },
+    {
+      "id": "blind-hole",
+      "w": "blind hole",
+      "uk": "/ˈblaɪnd həʊl/",
+      "us": "/ˈblaɪnd hoʊl/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "blind-hole:meaning-1",
+          "pos": "n.",
+          "fa": "سوراخِ بن‌بست",
+          "en": "A hole that ends within a part instead of passing all the way through it.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The blind hole ends above the bottom surface of the block.",
+          "fa": "سوراخِ بن‌بست بالاتر از سطحِ زیرینِ قطعه پایان می‌یابد.",
+          "senseId": "blind-hole:meaning-1"
+        },
+        {
+          "en": "A threaded blind hole can receive a screw without opening through the opposite face.",
+          "fa": "سوراخِ بن‌بستِ رزوه‌دار می‌تواند پیچ را بپذیرد، بدون آنکه به سطحِ مقابل راه داشته باشد.",
+          "senseId": "blind-hole:meaning-1"
+        }
+      ],
+      "col": [
+        "a drilled blind hole｜سوراخِ بن‌بستِ سوراخ‌کاری‌شده",
+        "a threaded blind hole｜سوراخِ بن‌بستِ رزوه‌دار",
+        "a blind hole depth｜عمقِ سوراخِ بن‌بست"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "blind hole به نرسیدنِ سوراخ به سطحِ مقابل اشاره دارد؛ کف می‌تواند تخت یا مخروطی باشد. تصویرِ برش‌خورده، مادهٔ پیوستهٔ زیرِ انتهای سوراخ را نشان می‌دهد؛ بریدگیِ نمایشی به معنای سوراخِ خروجی نیست. سوراخِ تصویر رزوه ندارد.",
+      "media": {
+        "img": "atlas/img/blind-hole.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.protolabs.com/en-gb/resources/blog/cnc-hole-design-through-blind-tapped-and-more/",
+            "use": "Primary machining service distinguishes holes ending within material from through holes and threaded variants. Original non-through sense, no depth specification."
+          }
+        ]
+      }
+    },
+    {
+      "id": "through-hole",
+      "w": "through hole",
+      "uk": "/ˈθruː həʊl/",
+      "us": "/ˈθruː hoʊl/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "through-hole:meaning-1",
+          "pos": "n.",
+          "fa": "سوراخِ سرتاسری",
+          "en": "A hole that passes completely through a part and opens on both sides.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The through hole connects the top and bottom faces of the block.",
+          "fa": "سوراخِ سرتاسری، سطحِ بالا و پایینِ قطعه را به هم راه می‌دهد.",
+          "senseId": "through-hole:meaning-1"
+        },
+        {
+          "en": "The bolt passes through the through hole before the nut is fitted.",
+          "fa": "پیچ پیش از نصبِ مهره از سوراخِ سرتاسری عبور می‌کند.",
+          "senseId": "through-hole:meaning-1"
+        }
+      ],
+      "col": [
+        "a drilled through hole｜سوراخِ سرتاسریِ سوراخ‌کاری‌شده",
+        "a through hole diameter｜قطرِ سوراخِ سرتاسری",
+        "a through hole opening｜دهانهٔ سوراخِ سرتاسری"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "through hole از دو طرفِ قطعه باز است؛ blind hole درونِ ماده پایان می‌یابد. تصویرِ برشی مسیرِ کاملِ سوراخ را نشان می‌دهد، نه شیارِ باز از لبهٔ قطعه. اینجا معنای عمومیِ مکانیکی است، نه فناوریِ نصبِ قطعاتِ الکترونیکی روی برد.",
+      "media": {
+        "img": "atlas/img/through-hole.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.protolabs.com/en-gb/resources/blog/cnc-hole-design-through-blind-tapped-and-more/",
+            "use": "Primary machining service defines through holes as passing through the workpiece. Original mechanical hole sense distinct from electronic mounting terminology."
+          }
+        ]
+      }
+    },
+    {
+      "id": "taper",
+      "w": "taper",
+      "uk": "/ˈteɪpə/",
+      "us": "/ˈteɪpɚ/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "taper:meaning-1",
+          "pos": "n.",
+          "fa": "باریک‌شدگیِ تدریجی",
+          "en": "A gradual decrease in the width or diameter of a part along its length.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The taper narrows the shaft smoothly toward its smaller end.",
+          "fa": "باریک‌شدگیِ تدریجی، محور را به‌نرمی به‌سوی انتهای کوچک‌تر باریک می‌کند.",
+          "senseId": "taper:meaning-1"
+        },
+        {
+          "en": "The tool shank has a taper that matches the socket.",
+          "fa": "دنبالهٔ ابزار باریک‌شدگی‌ای تدریجی دارد که با جایگاهِ مخروطی جفت می‌شود.",
+          "senseId": "taper:meaning-1"
+        }
+      ],
+      "col": [
+        "a shaft taper｜باریک‌شدگیِ تدریجیِ محور",
+        "a matching taper｜باریک‌شدگیِ تدریجیِ جفت‌شونده",
+        "a taper angle｜زاویهٔ مخروطی‌شدن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "taper اینجا اسمِ هندسهٔ باریک‌شوندهٔ قطعه است، نه فعلِ کاهش‌دادن. تصویر یک سطحِ مخروطیِ پیوسته را انتخاب می‌کند؛ تغییرِ قطرِ پله‌ای taper نیست. شکل به‌تنهایی زاویه، نسبتِ مخروطی‌شدن یا خودقفل‌شوندگیِ اتصال را ثابت نمی‌کند.",
+      "media": {
+        "img": "atlas/img/taper.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://www.sandvik.coromant.cn/zh-cn/greater-flexibility-from-new-heads--cutters-and-integrated-tool-holders-with-exchangeable-head-coupling",
+            "use": "Primary tooling manufacturer identifies taper contacts in tool-holder couplings. Original gradual diameter-change sense; no holding force, angle or self-locking claim."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spline",
+      "w": "spline",
+      "uk": "/splaɪn/",
+      "us": "/splaɪn/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "spline:meaning-1",
+          "pos": "n.",
+          "fa": "دندانهٔ طولیِ محورِ هزارخار",
+          "en": "A lengthwise ridge on a shaft that engages a matching groove in a hub to transmit rotation.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The spline runs along the shaft rather than around it.",
+          "fa": "دندانهٔ طولیِ محورِ هزارخار در امتدادِ محور است، نه به دورِ آن.",
+          "senseId": "spline:meaning-1"
+        },
+        {
+          "en": "The mating hub engages the shaft’s splines to transmit rotation.",
+          "fa": "توپیِ جفت‌شونده با دندانه‌های طولیِ محور درگیر می‌شود تا چرخش را منتقل کند.",
+          "senseId": "spline:meaning-1"
+        }
+      ],
+      "col": [
+        "a shaft spline｜دندانهٔ طولیِ محور",
+        "a spline tooth｜یک دندانهٔ هزارخار",
+        "a spline connection｜اتصالِ هزارخار"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "spline در این معنا یکی از دندانه‌های طولیِ محور است؛ مجموعهٔ آن‌ها اتصالِ هزارخار می‌سازد. تصویر نوعِ مستقیم و یک دندانهٔ برجسته‌شده را انتخاب می‌کند، نه رزوهٔ مارپیچ یا منحنیِ ریاضیِ spline. شکل‌های پروفیل گوناگون‌اند؛ اتصالِ جفت‌شونده در این نمایِ تنها نشان داده نشده است.",
+      "media": {
+        "img": "atlas/img/spline.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending.",
+        "factualReferences": [
+          {
+            "url": "https://dpk3n3gg92jwt.cloudfront.net/domains/khk/splines.pdf",
+            "use": "Primary KHK gear-manufacturer catalogue describes spline shafts and mating hubs. Original single longitudinal tooth sense, selected straight profile; no tooth count, standard fit or torque rating reproduced."
           }
         ]
       }
