@@ -4184,7 +4184,99 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 386,
+      "targetCategoryWords": 397,
+      "entryIds": [
+        "drainage-bag",
+        "emesis-bag",
+        "hot-water-bottle",
+        "cold-pack",
+        "infusion-pump",
+        "syringe-pump",
+        "patient-monitor",
+        "bag-valve-mask",
+        "oxygen-cylinder",
+        "oxygen-concentrator",
+        "suction-machine"
+      ],
+      "units": [
+        {
+          "id": "medical-care-equipment-and-supplies",
+          "title": "Care equipment and supportive supplies",
+          "entryIds": [
+            "drainage-bag",
+            "emesis-bag",
+            "hot-water-bottle",
+            "cold-pack",
+            "infusion-pump",
+            "syringe-pump",
+            "patient-monitor",
+            "bag-valve-mask",
+            "oxygen-cylinder",
+            "oxygen-concentrator",
+            "suction-machine"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-30",
+      "releaseId": "2026-10-preview-35",
+      "status": "published-preview",
+      "objective": "Describe care equipment and supportive supplies alongside electronics assembly and cable components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 383,
+      "targetCategoryWords": 394,
+      "entryIds": [
+        "wire-stripping-pliers",
+        "solder-flux",
+        "desoldering-pump",
+        "solder-wick",
+        "wire-ferrule",
+        "ic-socket",
+        "edge-connector",
+        "ribbon-cable",
+        "coaxial-cable",
+        "twisted-pair",
+        "crimping-tool"
+      ],
+      "units": [
+        {
+          "id": "engineering-electronics-assembly-and-cabling",
+          "title": "Electronics assembly and cable components",
+          "entryIds": [
+            "wire-stripping-pliers",
+            "solder-flux",
+            "desoldering-pump",
+            "solder-wick",
+            "wire-ferrule",
+            "ic-socket",
+            "edge-connector",
+            "ribbon-cable",
+            "coaxial-cable",
+            "twisted-pair",
+            "crimping-tool"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-30",
+      "releaseId": "2026-10-preview-35",
+      "status": "published-preview",
+      "objective": "Describe care equipment and supportive supplies alongside electronics assembly and cable components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-29"
+  "activePassId": "specialist-500-batch-30"
 }

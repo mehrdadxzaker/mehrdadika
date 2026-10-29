@@ -3413,6 +3413,101 @@
       ],
       "scopeDecision": "Publish23completeentries; tapping remainsprivate after three candidates and unresolved rotation/threadhand, no relaxed semanticgate.",
       "completedAt": "2026-10-29T20:03:25.930015+00:00"
+    },
+    {
+      "id": "specialist-500-batch-30",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-35",
+      "baseline": {
+        "releaseId": "2026-10-preview-34",
+        "manifest": "content/releases/2026-10-preview-34-0d5da2a6a388/manifest.json",
+        "manifestSha256": "0d5da2a6a388771a887185d359100cdc718bad192d136aefe24bab68f41e63d3",
+        "words": 927
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 386,
+          "targetCategoryWords": 397,
+          "entryIds": [
+            "drainage-bag",
+            "emesis-bag",
+            "hot-water-bottle",
+            "cold-pack",
+            "infusion-pump",
+            "syringe-pump",
+            "patient-monitor",
+            "bag-valve-mask",
+            "oxygen-cylinder",
+            "oxygen-concentrator",
+            "suction-machine"
+          ],
+          "units": [
+            {
+              "id": "medical-care-equipment-and-supplies",
+              "title": "Care equipment and supportive supplies",
+              "entryIds": [
+                "drainage-bag",
+                "emesis-bag",
+                "hot-water-bottle",
+                "cold-pack",
+                "infusion-pump",
+                "syringe-pump",
+                "patient-monitor",
+                "bag-valve-mask",
+                "oxygen-cylinder",
+                "oxygen-concentrator",
+                "suction-machine"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 383,
+          "targetCategoryWords": 394,
+          "entryIds": [
+            "wire-stripping-pliers",
+            "solder-flux",
+            "desoldering-pump",
+            "solder-wick",
+            "wire-ferrule",
+            "ic-socket",
+            "edge-connector",
+            "ribbon-cable",
+            "coaxial-cable",
+            "twisted-pair",
+            "crimping-tool"
+          ],
+          "units": [
+            {
+              "id": "engineering-electronics-assembly-and-cabling",
+              "title": "Electronics assembly and cable components",
+              "entryIds": [
+                "wire-stripping-pliers",
+                "solder-flux",
+                "desoldering-pump",
+                "solder-wick",
+                "wire-ferrule",
+                "ic-socket",
+                "edge-connector",
+                "ribbon-cable",
+                "coaxial-cable",
+                "twisted-pair",
+                "crimping-tool"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "completedAt": "2026-10-29T22:17:33.251741+00:00"
     }
   ],
   "activeWorkBatchId": null,

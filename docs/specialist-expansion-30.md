@@ -1,0 +1,31 @@
+# Specialist expansion 30: care equipment and electronics assembly
+
+This editorial preview adds 22 distinct English entries, each with complete Persian, Brazilian Portuguese and Latin American Spanish content, explicit sense identity, two meaningful examples, three collocations and useful distinctions. The atlas reaches 949 words and 950 meanings across 32 categories. Medicine and healthcare reaches 397/500; engineering reaches 394/500. Drafts, additional meanings and planning slots do not multiply English-entry counts.
+
+Medical additions: drainage bag, emesis bag, hot-water bottle, cold pack, infusion pump, syringe pump, patient monitor, bag-valve mask, oxygen cylinder, oxygen concentrator and suction machine.
+
+Engineering additions: wire-stripping pliers, solder flux, desoldering pump, solder wick, wire ferrule, IC socket, edge connector, ribbon cable, coaxial cable, twisted pair and crimping tool.
+
+## Illustration and language review
+
+Every accepted picture is an individual original built-in image-tool generation, inspected by its author and a different AI reviewer at original full size, converted 512px WebP and 120px thumbnail sizes. Literal generation/edit prompts, exact file hashes, selected teaching cues, actual findings and category-profile hashes bind each image assessment to its source. Medical pictures use the cool-white, mint and pale-blue clinical brief; engineering uses precise technical product drawings and controlled cutaways on slate with silver and amber accents.
+
+Clinical pictures distinguish an empty urinary collection pouch with a lower drain tap from an intravenous fluid bag, a rigid-mouth emesis bag from a drainage pouch, a capped rubber warming vessel from a sealed cooling-gel pack, and a volumetric infusion device from a syringe-driven pump. The patient monitor shows separate external sensor accessories with a blank screen. Gas storage and oxygen concentration remain distinct device concepts. No displayed numerical readings, dosage instructions, patient procedure or actual clinical performance is established. Cylinder wording received a narrow Spanish equipment-team idiom correction and three tip corrections to describe the actual blank dial rather than a nonexistent pointer; English senses, examples and collocations were preserved.
+
+Technical pictures distinguish insulation stripping, crimping and suction removal from cutting or heating. The flux picture initially lacked a soldering cue; a targeted built-in edit added a meaningful copper-pad context while keeping the gel as its main subject. Copper desoldering braid has a short silver-loaded end consistent with its selected example. A ferrule cutaway initially left its front sleeve hollow; the corrected version continues the same strand bundle to a visibly filled mouth. The empty IC socket, card-edge contacts, parallel ribbon conductors, concentric coaxial layers and two separately insulated twisted conductors show their specific physical relations. Static placement, explanatory cutaways and pictured materials do not establish pinout, electrical rating, proper termination, circuit operation or manufacturing tolerances.
+
+Two complete original entries remain private. Enteral feeding pump retained misleading embossed opposing channel arrows after three bounded candidates. Heat-shrink tubing improved its wire-joint cue, but the before/after sleeve-length relation remained ambiguous after three candidates. Both authors and an additional AI inspection withheld these pictures. Their full English/Persian source, both native overlays, literal prompts, rejected actual pixels and negative findings are preserved; no fourth generation was attempted and neither entry counts among these 22 additions. Older held entries remain private as well.
+
+Existing prosthesis and chisel pictures were actually re-inspected at 512px and 120px. Their selected physical cues and category styles remained coherent, so both were retained unchanged. All earlier immutable media, English/native records, audio and sense identities, science course content and learner behavior remain preserved. Factual references inform original descriptions; reference artwork is not copied.
+
+All content and imagery remain AI-assisted editorial previews under CC BY 4.0. Independent human language and qualified medical/engineering review are pending. Pixel inspections and software integrity checks provide bounded evidence rather than clinical or engineering qualification.
+
+## Validation
+
+All 164 automated tests passed. Full content, native vocabulary and reading snapshot, illustration binding, category style and campaign checks passed. The production build passed under `/mehrdadika/` with fresh release `2026-10-preview-35`, containing 949 words and 950 meanings. Each Portuguese and Spanish edition contains 949 words, 950 senses, 1,900 examples, 2,847 collocations and 949 tips.
+
+Six settled local production cards were inspected: a medical desktop card at 1280px and an engineering phone card at 390px in each of Persian, Brazilian Portuguese and Latin American Spanish. The actual 512px pictures loaded, full localized examples/collocations/tips matched the edition, text direction was correct, no horizontal overflow appeared and browser warning/error logs were empty. Temporary preview tabs, viewport overrides and the owned server were cleaned up.
+
+The strict preservation gate covers the exact 67-file public scope, all 13 frozen production inputs, 927 earlier English/native records, 1,097 earlier immutable media files, 977 earlier canonical images, 138 older release JSON files and five science-course guards. It checks both complete held 12-entry drafts and their exact 11-entry projections, 33 rejected/support evidence files, the earlier tapping hold and every accepted image/review/source binding. Exact source-head CI, Pages and actual live content/media verification remain separate publication gates.
+
+Vite retains its existing bundle-size advisory: Portuguese and Spanish chunks are 927.22 kB and 942.70 kB minified. No application code, tests or thresholds were changed. These checks and actual AI image inspections remain bounded editorial evidence; independent human language and qualified specialist approval are pending.
