@@ -3324,7 +3324,103 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 278,
+      "targetCategoryWords": 290,
+      "entryIds": [
+        "epidermis",
+        "dermis",
+        "subcutaneous-tissue",
+        "mucous-membrane",
+        "salivary-gland",
+        "hair-follicle",
+        "sweat-gland",
+        "sebaceous-gland",
+        "thyroid-gland",
+        "pituitary-gland",
+        "adrenal-gland",
+        "lymphatic-vessel"
+      ],
+      "units": [
+        {
+          "id": "medical-skin-glands",
+          "title": "Skin layers, glands and lymphatic vessels",
+          "entryIds": [
+            "epidermis",
+            "dermis",
+            "subcutaneous-tissue",
+            "mucous-membrane",
+            "salivary-gland",
+            "hair-follicle",
+            "sweat-gland",
+            "sebaceous-gland",
+            "thyroid-gland",
+            "pituitary-gland",
+            "adrenal-gland",
+            "lymphatic-vessel"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-21",
+      "releaseId": "2026-10-preview-26",
+      "status": "published-preview",
+      "objective": "Describe skin layers, glands, lymphatic vessels, mechanical fasteners and motion transmission in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 277,
+      "targetCategoryWords": 289,
+      "entryIds": [
+        "dowel-pin",
+        "set-screw",
+        "stud",
+        "clevis",
+        "turnbuckle",
+        "eye-bolt",
+        "cotter-pin",
+        "ball-bearing",
+        "needle-bearing",
+        "timing-belt",
+        "universal-joint",
+        "worm-gear"
+      ],
+      "units": [
+        {
+          "id": "engineering-fasteners-motion",
+          "title": "Fasteners, bearings and motion transmission",
+          "entryIds": [
+            "dowel-pin",
+            "set-screw",
+            "stud",
+            "clevis",
+            "turnbuckle",
+            "eye-bolt",
+            "cotter-pin",
+            "ball-bearing",
+            "needle-bearing",
+            "timing-belt",
+            "universal-joint",
+            "worm-gear"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-21",
+      "releaseId": "2026-10-preview-26",
+      "status": "published-preview",
+      "objective": "Describe skin layers, glands, lymphatic vessels, mechanical fasteners and motion transmission in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-20"
+  "activePassId": "specialist-500-batch-21"
 }

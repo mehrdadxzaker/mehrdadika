@@ -13,9 +13,9 @@
     "modifications": "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-25",
-    "manifest": "content/releases/2026-10-preview-25-acc2c33e1b38/manifest.json",
-    "sha256": "acc2c33e1b3818497bcf8db5f997c9fae1fc34f0a5357484b44c7fb4d3ad0a01"
+    "id": "2026-10-preview-26",
+    "manifest": "content/releases/2026-10-preview-26-f3d7908d9bd4/manifest.json",
+    "sha256": "f3d7908d9bd49f023ce8ebd155b3e91756b3bab91e132c4d2ad4d8f36ea1ea2a"
   },
   "categories": {
     "everyday-life": {
@@ -24789,6 +24789,822 @@
         }
       ],
       "tip": "Rolling aqui é o processo de laminação de metal, não o simples rolar de uma roda nem enrolar uma chapa em um cilindro. A imagem explica a redução de espessura em uma passagem entre dois cilindros; também existem laminação de perfis e processos a quente ou a frio. As setas indicam apenas direção, não redução, velocidade, temperatura, força, torque ou propriedades finais."
+    },
+    "epidermis": {
+      "sourceWord": "epidermis",
+      "senses": {
+        "epidermis:meaning-1": {
+          "gloss": "epiderme",
+          "definition": "A camada epitelial externa da pele, situada acima da derme."
+        }
+      },
+      "examples": [
+        {
+          "en": "The epidermis forms the outer covering above the dermis.",
+          "translation": "A epiderme forma o revestimento externo acima da derme."
+        },
+        {
+          "en": "The highlighted surface layer is thinner than the underlying connective tissue in this model.",
+          "translation": "Neste modelo, a camada superficial destacada é mais fina que o tecido conjuntivo abaixo dela."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the epidermis of the skin",
+          "translation": "a epiderme da pele"
+        },
+        {
+          "en": "the basal epidermis",
+          "translation": "a região basal da epiderme"
+        },
+        {
+          "en": "epidermis thickness",
+          "translation": "espessura da epiderme"
+        }
+      ],
+      "tip": "Epidermis é a camada externa da própria pele, não a pele inteira nem apenas células mortas da superfície. A derme fica abaixo dela, e o tecido subcutâneo é mais profundo. A cor e as espessuras do modelo são explicativas, não indicam tipo de pele, medidas reais ou lesão."
+    },
+    "dermis": {
+      "sourceWord": "dermis",
+      "senses": {
+        "dermis:meaning-1": {
+          "gloss": "derme",
+          "definition": "A camada de tecido conjuntivo da pele abaixo da epiderme, que sustenta vasos, nervos e estruturas cutâneas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The dermis lies between the epidermis and the subcutaneous tissue.",
+          "translation": "A derme fica entre a epiderme e o tecido subcutâneo."
+        },
+        {
+          "en": "Its connective tissue supports structures such as small vessels and hair follicles.",
+          "translation": "Seu tecido conjuntivo sustenta estruturas como pequenos vasos e folículos pilosos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the dermis of the skin",
+          "translation": "a derme da pele"
+        },
+        {
+          "en": "dermis structure",
+          "translation": "estrutura da derme"
+        },
+        {
+          "en": "the epidermis and dermis",
+          "translation": "a epiderme e a derme"
+        }
+      ],
+      "tip": "Dermis fica abaixo da epiderme e não é a pele inteira nem a gordura subcutânea. O modelo destaca a região conjuntiva intermediária; fibras e pequenas estruturas estão simplificadas. Cor, espessura ou número de componentes não permitem inferir medidas, diagnóstico ou estado real da pele."
+    },
+    "subcutaneous-tissue": {
+      "sourceWord": "subcutaneous tissue",
+      "senses": {
+        "subcutaneous-tissue:meaning-1": {
+          "gloss": "tecido subcutâneo",
+          "definition": "A camada abaixo da pele propriamente dita, com tecido conjuntivo frouxo e quantidades variáveis de gordura."
+        }
+      },
+      "examples": [
+        {
+          "en": "The subcutaneous tissue lies below the dermis.",
+          "translation": "O tecido subcutâneo fica abaixo da derme."
+        },
+        {
+          "en": "Fat lobules and connective tissue occupy the lower region of the model.",
+          "translation": "Lóbulos de gordura e tecido conjuntivo ocupam a região inferior do modelo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "subcutaneous tissue layers",
+          "translation": "camadas de tecido subcutâneo"
+        },
+        {
+          "en": "fat in subcutaneous tissue",
+          "translation": "gordura no tecido subcutâneo"
+        },
+        {
+          "en": "subcutaneous tissue structure",
+          "translation": "estrutura do tecido subcutâneo"
+        }
+      ],
+      "tip": "Subcutaneous significa abaixo da pele; esse tecido também é chamado de hipoderme. Na definição estrita da pele propriamente dita, fica abaixo da epiderme e da derme. Não é apenas gordura, e seu conteúdo adiposo varia entre locais e pessoas. O modelo simplificado não mede gordura nem indica local de injeção ou intervenção."
+    },
+    "mucous-membrane": {
+      "sourceWord": "mucous membrane",
+      "senses": {
+        "mucous-membrane:meaning-1": {
+          "gloss": "membrana mucosa; mucosa",
+          "definition": "Um revestimento úmido, com superfície epitelial e tecido conjuntivo de apoio, em passagens que se abrem para o exterior."
+        }
+      },
+      "examples": [
+        {
+          "en": "The mucous membrane lines the inner cheek in this example.",
+          "translation": "A membrana mucosa reveste o interior da bochecha neste exemplo."
+        },
+        {
+          "en": "The enlarged section shows a surface epithelium supported by connective tissue.",
+          "translation": "A seção ampliada mostra um epitélio superficial apoiado por tecido conjuntivo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the oral mucous membrane",
+          "translation": "a mucosa oral"
+        },
+        {
+          "en": "a mucous membrane lining",
+          "translation": "um revestimento de membrana mucosa"
+        },
+        {
+          "en": "mucous membrane tissue",
+          "translation": "tecido da membrana mucosa"
+        }
+      ],
+      "tip": "Mucous é o adjetivo; mucus é a secreção, e mucosa também nomeia a membrana. O exemplo da bochecha não é a mucosa respiratória ciliada; a estrutura varia conforme o local. Cor e corte simplificado não diagnosticam doença nem mostram espessuras reais."
+    },
+    "salivary-gland": {
+      "sourceWord": "salivary gland",
+      "senses": {
+        "salivary-gland:meaning-1": {
+          "gloss": "glândula salivar",
+          "definition": "Uma glândula que produz saliva e a conduz à boca por um ducto."
+        }
+      },
+      "examples": [
+        {
+          "en": "The salivary gland shown near the ear sends saliva toward the mouth through its duct.",
+          "translation": "A glândula salivar mostrada perto da orelha conduz saliva em direção à boca por seu ducto."
+        },
+        {
+          "en": "The parotid example opens into the cheek beside an upper molar.",
+          "translation": "O exemplo da parótida se abre na bochecha junto a um molar superior."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a major salivary gland",
+          "translation": "uma glândula salivar maior"
+        },
+        {
+          "en": "a salivary gland duct",
+          "translation": "um ducto de glândula salivar"
+        },
+        {
+          "en": "salivary gland tissue",
+          "translation": "tecido de glândula salivar"
+        }
+      ],
+      "tip": "A imagem escolhe a parótida e seu ducto; a abertura fica junto ao segundo molar superior, não ao canino. Também existem glândulas submandibulares, sublinguais e salivares menores. A glândula não é a própria saliva, um linfonodo ou uma glândula endócrina; trajeto e cor são explicativos."
+    },
+    "hair-follicle": {
+      "sourceWord": "hair follicle",
+      "senses": {
+        "hair-follicle:meaning-1": {
+          "gloss": "folículo piloso",
+          "definition": "Uma estrutura tubular da pele que envolve a raiz do pelo e sustenta seu crescimento."
+        }
+      },
+      "examples": [
+        {
+          "en": "The hair follicle surrounds the root below the skin surface.",
+          "translation": "O folículo piloso envolve a raiz abaixo da superfície da pele."
+        },
+        {
+          "en": "The hair shaft continues upward from the root through the follicle opening.",
+          "translation": "A haste do pelo continua para cima a partir da raiz, atravessando a abertura do folículo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a hair follicle opening",
+          "translation": "uma abertura de folículo piloso"
+        },
+        {
+          "en": "hair follicle structure",
+          "translation": "estrutura do folículo piloso"
+        },
+        {
+          "en": "a growing hair follicle",
+          "translation": "um folículo piloso em crescimento"
+        }
+      ],
+      "tip": "Hair follicle não é a própria haste nem apenas o bulbo terminal; é uma estrutura ao redor da raiz, contínua com a superfície. O modelo escolhe um folículo com raiz e haste, simplificando camadas microscópicas e fases de crescimento. Cor e tamanho do corte não indicam doença, densidade ou velocidade de crescimento."
+    },
+    "sweat-gland": {
+      "sourceWord": "sweat gland",
+      "senses": {
+        "sweat-gland:meaning-1": {
+          "gloss": "glândula sudorípara",
+          "definition": "Uma glândula da pele que produz suor e o libera por um ducto."
+        }
+      },
+      "examples": [
+        {
+          "en": "The sweat gland has a coiled secretory tube beneath the skin surface.",
+          "translation": "A glândula sudorípara tem um tubo secretor enovelado abaixo da superfície da pele."
+        },
+        {
+          "en": "In this eccrine example, its duct opens directly onto the skin rather than into a hair follicle.",
+          "translation": "Neste exemplo écrino, o ducto se abre diretamente na superfície da pele, não em um folículo piloso."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an eccrine sweat gland",
+          "translation": "uma glândula sudorípara écrina"
+        },
+        {
+          "en": "a sweat gland duct",
+          "translation": "um ducto de glândula sudorípara"
+        },
+        {
+          "en": "sweat gland secretion",
+          "translation": "secreção da glândula sudorípara"
+        }
+      ],
+      "tip": "Sweat gland difere da glândula sebácea. O exemplo écrino liga o tubo enovelado a um ducto com abertura superficial. Algumas glândulas sudoríparas apócrinas desembocam no folículo piloso; nem todas seguem a via ilustrada. A gota e a cor explicativas não indicam quantidade de suor, temperatura ou doença."
+    },
+    "sebaceous-gland": {
+      "sourceWord": "sebaceous gland",
+      "senses": {
+        "sebaceous-gland:meaning-1": {
+          "gloss": "glândula sebácea",
+          "definition": "Uma glândula da pele que libera uma secreção oleosa chamada sebo, geralmente em um folículo piloso."
+        }
+      },
+      "examples": [
+        {
+          "en": "The sebaceous gland connects to the side of a hair follicle through a short duct.",
+          "translation": "A glândula sebácea se conecta à lateral de um folículo piloso por um ducto curto."
+        },
+        {
+          "en": "Its lobules differ from the tightly coiled tube of the sweat gland example.",
+          "translation": "Seus lóbulos diferem do tubo fortemente enovelado do exemplo de glândula sudorípara."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a sebaceous gland duct",
+          "translation": "um ducto de glândula sebácea"
+        },
+        {
+          "en": "sebaceous gland lobules",
+          "translation": "lóbulos da glândula sebácea"
+        },
+        {
+          "en": "sebaceous gland secretion",
+          "translation": "secreção da glândula sebácea"
+        }
+      ],
+      "tip": "Sebaceous gland secreta sebo, não é uma célula de armazenamento de gordura nem uma glândula sudorípara. O exemplo lobulado se abre no folículo; algumas glândulas sebáceas têm saída direta na superfície. Ducto, cores e gotas são explicativos, não comprovam oleosidade excessiva, obstrução, acne ou quantidades reais."
+    },
+    "thyroid-gland": {
+      "sourceWord": "thyroid gland",
+      "senses": {
+        "thyroid-gland:meaning-1": {
+          "gloss": "glândula tireoide",
+          "definition": "Uma glândula endócrina na frente do pescoço, com dois lobos principais ao lado da traqueia superior, que libera hormônios tireoidianos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The thyroid gland has two main lobes joined across the front of the upper trachea.",
+          "translation": "A glândula tireoide tem dois lobos principais unidos à frente da parte superior da traqueia."
+        },
+        {
+          "en": "The gland sits below the larynx in this simplified front view.",
+          "translation": "A glândula fica abaixo da laringe nesta vista frontal simplificada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a thyroid gland lobe",
+          "translation": "um lobo da glândula tireoide"
+        },
+        {
+          "en": "thyroid gland tissue",
+          "translation": "tecido da glândula tireoide"
+        },
+        {
+          "en": "thyroid gland anatomy",
+          "translation": "anatomia da glândula tireoide"
+        }
+      ],
+      "tip": "Thyroid gland é a tireoide, não a cartilagem tireóidea da laringe nem as paratireoides. Dois lobos e o istmo mostram o padrão habitual; tamanho e forma variam. A glândula endócrina não tem ducto de saída para a traqueia. Cor e vista simplificada não indicam aumento anormal ou nível hormonal."
+    },
+    "pituitary-gland": {
+      "sourceWord": "pituitary gland",
+      "senses": {
+        "pituitary-gland:meaning-1": {
+          "gloss": "hipófise; glândula pituitária",
+          "definition": "Uma pequena glândula endócrina na base do cérebro, ligada ao hipotálamo por uma haste."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pituitary gland connects to the hypothalamus through a short stalk.",
+          "translation": "A hipófise se conecta ao hipotálamo por uma haste curta."
+        },
+        {
+          "en": "The enlarged model distinguishes its anterior and posterior regions.",
+          "translation": "O modelo ampliado distingue suas regiões anterior e posterior."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the anterior pituitary gland",
+          "translation": "a região anterior da hipófise"
+        },
+        {
+          "en": "the posterior pituitary gland",
+          "translation": "a região posterior da hipófise"
+        },
+        {
+          "en": "the pituitary gland stalk",
+          "translation": "a haste da hipófise"
+        }
+      ],
+      "tip": "Pituitary gland, ou hipófise, não é o hipotálamo; fica abaixo do cérebro, em uma cavidade óssea chamada sela túrcica. A região anterior produz hormônios; a posterior libera hormônios produzidos no hipotálamo. Haste e regiões estão simplificadas; cor, tamanho e forma não determinam níveis hormonais ou doença."
+    },
+    "adrenal-gland": {
+      "sourceWord": "adrenal gland",
+      "senses": {
+        "adrenal-gland:meaning-1": {
+          "gloss": "glândula suprarrenal",
+          "definition": "Uma das duas glândulas endócrinas acima dos rins, cada uma com córtex externo e medula interna."
+        }
+      },
+      "examples": [
+        {
+          "en": "The adrenal gland lies above the upper part of the kidney.",
+          "translation": "A glândula suprarrenal fica acima da parte superior do rim."
+        },
+        {
+          "en": "The cutaway distinguishes the outer cortex from the inner medulla.",
+          "translation": "O corte distingue o córtex externo da medula interna."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the adrenal gland cortex",
+          "translation": "o córtex da glândula suprarrenal"
+        },
+        {
+          "en": "the adrenal gland medulla",
+          "translation": "a medula da glândula suprarrenal"
+        },
+        {
+          "en": "adrenal gland hormones",
+          "translation": "hormônios da glândula suprarrenal"
+        }
+      ],
+      "tip": "Adrenal gland é a suprarrenal, não parte do rim nem apenas o nome da adrenalina. Córtex e medula têm tecidos e secreções diferentes. As glândulas dos dois lados não têm a mesma forma; o modelo escolhe um exemplo simplificado. Cor e corte não indicam níveis hormonais, estresse ou doença, nem uma via de secreção para a urina."
+    },
+    "lymphatic-vessel": {
+      "sourceWord": "lymphatic vessel",
+      "senses": {
+        "lymphatic-vessel:meaning-1": {
+          "gloss": "vaso linfático",
+          "definition": "Um canal que transporta linfa pelo sistema linfático em direção ao retorno à corrente sanguínea."
+        }
+      },
+      "examples": [
+        {
+          "en": "The lymphatic vessel carries lymph along the direction shown by the arrow.",
+          "translation": "O vaso linfático transporta linfa no sentido indicado pela seta."
+        },
+        {
+          "en": "In this collecting-vessel example, valve leaflets help limit backward flow.",
+          "translation": "Neste exemplo de vaso coletor, as cúspides da válvula ajudam a limitar o fluxo retrógrado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a collecting lymphatic vessel",
+          "translation": "um vaso linfático coletor"
+        },
+        {
+          "en": "a lymphatic vessel valve",
+          "translation": "uma válvula de vaso linfático"
+        },
+        {
+          "en": "lymphatic vessel flow",
+          "translation": "fluxo em vaso linfático"
+        }
+      ],
+      "tip": "Lymphatic vessel é um canal de linfa, não um linfonodo nem um vaso de sangue. A imagem escolhe um segmento coletor com válvula; os capilares iniciais têm outra estrutura. Verde, partículas e seta são explicativos, não a cor constante da linfa nem velocidade ou pressão reais. Não mostra a circulação completa, diagnóstico ou intervenção."
+    },
+    "dowel-pin": {
+      "sourceWord": "dowel pin",
+      "senses": {
+        "dowel-pin:meaning-1": {
+          "gloss": "pino de posicionamento",
+          "definition": "Um pino cilíndrico usado para posicionar peças acopladas uma em relação à outra."
+        }
+      },
+      "examples": [
+        {
+          "en": "A dowel pin keeps the two mating parts aligned.",
+          "translation": "Um pino de posicionamento mantém as duas peças acopladas alinhadas."
+        },
+        {
+          "en": "Its cylindrical surface fits into matching holes in the parts.",
+          "translation": "Sua superfície cilíndrica se encaixa em furos correspondentes nas peças."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a locating dowel pin",
+          "translation": "um pino-guia de posicionamento"
+        },
+        {
+          "en": "a dowel pin hole",
+          "translation": "um furo para pino de posicionamento"
+        },
+        {
+          "en": "dowel pin alignment",
+          "translation": "alinhamento por pino de posicionamento"
+        }
+      ],
+      "tip": "Neste sentido, dowel pin é um pino cilíndrico de posicionamento, não um parafuso nem uma cavilha de madeira. O tipo simples tem superfície externa sem rosca; algumas variantes têm furo roscado para extração. A imagem não determina tolerâncias nem um procedimento de montagem."
+    },
+    "set-screw": {
+      "sourceWord": "set screw",
+      "senses": {
+        "set-screw:meaning-1": {
+          "gloss": "parafuso de fixação sem cabeça",
+          "definition": "Um parafuso usado para fixar uma peça pressionando sua ponta contra outra peça."
+        }
+      },
+      "examples": [
+        {
+          "en": "The set screw presses against the shaft to hold the hub in place.",
+          "translation": "O parafuso de fixação pressiona o eixo para manter o cubo no lugar."
+        },
+        {
+          "en": "The illustrated screw has a recessed drive and no projecting head.",
+          "translation": "O parafuso ilustrado tem um encaixe rebaixado para a ferramenta e não tem cabeça saliente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a headless set screw",
+          "translation": "um parafuso de fixação sem cabeça"
+        },
+        {
+          "en": "a set screw tip",
+          "translation": "a ponta de um parafuso de fixação"
+        },
+        {
+          "en": "set screw contact",
+          "translation": "contato do parafuso de fixação"
+        }
+      ],
+      "tip": "Neste uso, set screw fixa uma peça pela pressão da ponta; o tipo sem cabeça também é chamado de grub screw no inglês britânico. A ponta e a forma de transmissão de força variam. A imagem não valida torque, capacidade de retenção nem a escolha da união."
+    },
+    "stud": {
+      "sourceWord": "stud",
+      "senses": {
+        "stud:meaning-1": {
+          "gloss": "prisioneiro roscado",
+          "definition": "Um elemento de fixação sem cabeça com rosca externa nas duas extremidades ou ao longo do comprimento."
+        }
+      },
+      "examples": [
+        {
+          "en": "A stud provides threaded ends for a fastening connection.",
+          "translation": "Um prisioneiro fornece extremidades roscadas para uma união de fixação."
+        },
+        {
+          "en": "Unlike a headed bolt, it has no enlarged head at one end.",
+          "translation": "Ao contrário de um parafuso com cabeça, ele não tem uma cabeça alargada em uma extremidade."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a threaded stud",
+          "translation": "um prisioneiro roscado"
+        },
+        {
+          "en": "a double-ended stud",
+          "translation": "um prisioneiro de duas extremidades roscadas"
+        },
+        {
+          "en": "stud threads",
+          "translation": "roscas do prisioneiro"
+        }
+      ],
+      "tip": "Aqui, stud é um elemento de fixação sem cabeça, não um montante de parede nem um brinco. Existem tipos com rosca nas duas pontas e tipos totalmente roscados. A palavra, por si só, não define a rosca, o comprimento de engate nem a carga admissível."
+    },
+    "clevis": {
+      "sourceWord": "clevis",
+      "senses": {
+        "clevis:meaning-1": {
+          "gloss": "garfo de articulação",
+          "definition": "Um conector em forma de garfo com furos alinhados em duas abas para um pino de união."
+        }
+      },
+      "examples": [
+        {
+          "en": "The clevis has two ears that receive the connecting pin.",
+          "translation": "O garfo de articulação tem duas abas que recebem o pino de união."
+        },
+        {
+          "en": "A mating eye fits in the space between the ears.",
+          "translation": "O olhal da peça acoplada fica no espaço entre as abas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a clevis pin",
+          "translation": "um pino de articulação"
+        },
+        {
+          "en": "a clevis end",
+          "translation": "uma extremidade tipo garfo"
+        },
+        {
+          "en": "a clevis connection",
+          "translation": "uma união com garfo"
+        }
+      ],
+      "tip": "Clevis é o próprio conector em forma de garfo; clevis pin é o pino que atravessa suas abas e a peça acoplada. Não é qualquer gancho ou manilha. A imagem explica a forma da união, sem determinar carga admissível ou faixa de movimento."
+    },
+    "turnbuckle": {
+      "sourceWord": "turnbuckle",
+      "senses": {
+        "turnbuckle:meaning-1": {
+          "gloss": "esticador",
+          "definition": "Um conector ajustável cujo corpo recebe terminais com roscas de sentidos opostos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The turnbuckle joins two threaded end fittings in one body.",
+          "translation": "O esticador une dois terminais roscados em um único corpo."
+        },
+        {
+          "en": "With the ends restrained from rotating, turning the body changes the effective length.",
+          "translation": "Com os terminais impedidos de girar, a rotação do corpo altera o comprimento efetivo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a turnbuckle body",
+          "translation": "o corpo de um esticador"
+        },
+        {
+          "en": "a turnbuckle end fitting",
+          "translation": "um terminal de esticador"
+        },
+        {
+          "en": "turnbuckle adjustment",
+          "translation": "ajuste do esticador"
+        }
+      ],
+      "tip": "O turnbuckle usa terminais com roscas direita e esquerda para ajustar o comprimento efetivo de uma união e pode integrar um sistema tracionado. Não é um parafuso comum nem uma cinta com catraca. A imagem não determina o sentido de ajuste, a tensão nem um procedimento real de amarração."
+    },
+    "eye-bolt": {
+      "sourceWord": "eye bolt",
+      "senses": {
+        "eye-bolt:meaning-1": {
+          "gloss": "parafuso olhal",
+          "definition": "Um elemento de fixação roscado com cabeça em forma de olhal para conexão a outro componente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The eye bolt has a closed eye above its threaded shank.",
+          "translation": "O parafuso olhal tem um olhal fechado acima de sua haste roscada."
+        },
+        {
+          "en": "A shoulder separates the eye from the shank in this example.",
+          "translation": "Um ressalto separa o olhal da haste neste exemplo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a shoulder eye bolt",
+          "translation": "um parafuso olhal com ressalto"
+        },
+        {
+          "en": "an eye bolt shank",
+          "translation": "a haste de um parafuso olhal"
+        },
+        {
+          "en": "a threaded eye bolt",
+          "translation": "um parafuso olhal roscado"
+        }
+      ],
+      "tip": "A imagem escolhe um eye bolt de peça única, com ressalto e haste de rosca de máquina; não é um gancho aberto, uma porca olhal nem um parafuso para madeira. O formato do olhal não aprova uma aplicação de içamento; capacidade, direção da carga e montagem exigem avaliação separada."
+    },
+    "cotter-pin": {
+      "sourceWord": "cotter pin",
+      "senses": {
+        "cotter-pin:meaning-1": {
+          "gloss": "contrapino",
+          "definition": "Um pino fendido cujas duas pernas atravessam um furo e podem ser dobradas para lados diferentes para reter um componente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The cotter pin passes through the cross-hole in the larger pin.",
+          "translation": "O contrapino atravessa o furo transversal do pino maior."
+        },
+        {
+          "en": "Its looped head and spread legs keep it from sliding straight out.",
+          "translation": "Sua cabeça em laço e as pernas abertas impedem que ele deslize diretamente para fora."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a split cotter pin",
+          "translation": "um contrapino fendido"
+        },
+        {
+          "en": "cotter pin legs",
+          "translation": "as pernas do contrapino"
+        },
+        {
+          "en": "a cotter pin hole",
+          "translation": "um furo para contrapino"
+        }
+      ],
+      "tip": "Aqui, cotter pin tem o sentido americano de split pin; no inglês britânico, split pin é o nome usual. A cabeça em laço e as duas pernas dobráveis distinguem esse tipo de um grampo em R ou de um pino elástico. A imagem não valida um procedimento de montagem nem reutilização."
+    },
+    "ball-bearing": {
+      "sourceWord": "ball bearing",
+      "senses": {
+        "ball-bearing:meaning-1": {
+          "gloss": "rolamento de esferas",
+          "definition": "Um rolamento que usa esferas entre suas pistas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The ball bearing has spherical rolling elements between two rings.",
+          "translation": "O rolamento de esferas tem elementos rolantes esféricos entre dois anéis."
+        },
+        {
+          "en": "The curved raceways guide the balls as the rings move relative to each other.",
+          "translation": "As pistas curvas guiam as esferas quando os anéis se movem um em relação ao outro."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a ball bearing raceway",
+          "translation": "uma pista de rolamento de esferas"
+        },
+        {
+          "en": "a radial ball bearing",
+          "translation": "um rolamento radial de esferas"
+        },
+        {
+          "en": "a ball bearing cage",
+          "translation": "uma gaiola de rolamento de esferas"
+        }
+      ],
+      "tip": "O ball bearing usa esferas, diferentemente do roller bearing, que usa rolos. A imagem escolhe um tipo radial de sulcos profundos; nem todo rolamento de esferas tem essa disposição, e também existem tipos axiais. A imagem não determina carga admissível, folga, velocidade ou vida útil."
+    },
+    "needle-bearing": {
+      "sourceWord": "needle bearing",
+      "senses": {
+        "needle-bearing:meaning-1": {
+          "gloss": "rolamento de agulhas",
+          "definition": "Um rolamento que utiliza rolos cilíndricos longos e finos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The needle bearing uses slender rollers instead of balls.",
+          "translation": "O rolamento de agulhas usa rolos finos em vez de esferas."
+        },
+        {
+          "en": "In this radial example, the rollers lie parallel to the shaft axis.",
+          "translation": "Neste exemplo radial, os rolos ficam paralelos ao eixo de rotação."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a needle bearing roller",
+          "translation": "um rolo de rolamento de agulhas"
+        },
+        {
+          "en": "a radial needle bearing",
+          "translation": "um rolamento radial de agulhas"
+        },
+        {
+          "en": "a needle bearing cage",
+          "translation": "uma gaiola de rolamento de agulhas"
+        }
+      ],
+      "tip": "O needle bearing não contém agulhas pontiagudas; o nome se refere aos rolos cilíndricos alongados. A imagem mostra uma disposição radial; também existem tipos axiais e tipos sem anel interno. O esquema não determina folga nem capacidade real."
+    },
+    "timing-belt": {
+      "sourceWord": "timing belt",
+      "senses": {
+        "timing-belt:meaning-1": {
+          "gloss": "correia dentada sincronizadora",
+          "definition": "Uma correia dentada que se engrena com polias dentadas para transmitir rotação sincronizada."
+        }
+      },
+      "examples": [
+        {
+          "en": "The timing belt meshes with the teeth of both pulleys.",
+          "translation": "A correia dentada sincronizadora engrena com os dentes das duas polias."
+        },
+        {
+          "en": "Its teeth provide positive engagement rather than relying only on friction.",
+          "translation": "Seus dentes proporcionam engate positivo, em vez de depender apenas do atrito."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "timing belt teeth",
+          "translation": "dentes da correia sincronizadora"
+        },
+        {
+          "en": "a timing belt pulley",
+          "translation": "uma polia de correia sincronizadora"
+        },
+        {
+          "en": "a timing belt drive",
+          "translation": "uma transmissão por correia sincronizadora"
+        }
+      ],
+      "tip": "A timing belt é uma correia dentada sincronizadora, diferente de uma correia em V por atrito ou de uma corrente. Seu uso não se limita a motores automotivos. A imagem não determina relação de transmissão, ajuste de sincronismo, tensão, velocidade nem garantia contra salto de dentes."
+    },
+    "universal-joint": {
+      "sourceWord": "universal joint",
+      "senses": {
+        "universal-joint:meaning-1": {
+          "gloss": "junta universal",
+          "definition": "Um acoplamento que transmite rotação entre eixos cujas linhas de centro se encontram em um ângulo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The universal joint links two rotating shafts.",
+          "translation": "A junta universal liga dois eixos giratórios."
+        },
+        {
+          "en": "In this cross-and-yoke type, a central cross links two forked yokes.",
+          "translation": "Neste tipo de cruzeta e garfos, uma cruzeta central une dois garfos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a universal joint cross",
+          "translation": "uma cruzeta de junta universal"
+        },
+        {
+          "en": "a universal joint yoke",
+          "translation": "um garfo de junta universal"
+        },
+        {
+          "en": "a universal joint angle",
+          "translation": "um ângulo de junta universal"
+        }
+      ],
+      "tip": "A imagem escolhe uma universal joint simples, de cruzeta e garfos; a cruzeta é apenas uma das peças do conjunto. Os eixos aparecem próximos do alinhamento neutro. A união pode acomodar desalinhamento angular, mas o desenho estático não valida ângulo admissível nem uniformidade de velocidade e não representa uma junta homocinética de esferas."
+    },
+    "worm-gear": {
+      "sourceWord": "worm gear",
+      "senses": {
+        "worm-gear:meaning-1": {
+          "gloss": "conjunto sem-fim e coroa",
+          "definition": "Um dispositivo de engrenagens em que um sem-fim em forma de parafuso engrena com uma coroa em um eixo não concorrente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The worm gear pairs a screw-shaped worm with a toothed wheel.",
+          "translation": "O conjunto sem-fim e coroa combina um sem-fim em forma de parafuso com uma roda dentada."
+        },
+        {
+          "en": "The two shaft axes are offset rather than intersecting at the tooth contact.",
+          "translation": "As linhas de centro dos dois eixos são deslocadas, em vez de se cruzarem no contato dos dentes."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a worm gear drive",
+          "translation": "uma transmissão por sem-fim e coroa"
+        },
+        {
+          "en": "a worm gear pair",
+          "translation": "um par sem-fim e coroa"
+        },
+        {
+          "en": "worm gear meshing",
+          "translation": "engrenamento do conjunto sem-fim e coroa"
+        }
+      ],
+      "tip": "Aqui, worm gear designa o conjunto sem-fim e coroa: worm é a peça em forma de parafuso e worm wheel é a roda correspondente. Os eixos do exemplo ficam próximos de um ângulo reto, mas suas linhas de centro não se encontram. A imagem não garante redução, eficiência, sentido de movimento nem autotravamento."
     }
   }
 }

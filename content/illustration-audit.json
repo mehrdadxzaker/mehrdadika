@@ -33467,6 +33467,1220 @@
           "finding": "Actualfull1254/512/120: amberstrip passes continuously through upper/lower opposedrollnip, thickerleft narrows withincontactzone and constantthinright exits withrightwardmaterialarrow. Rollshafts meet sidebearings/frame; lowerroll has visible clearancewell instead ofintersectingfloor. No detachedstrip, free-airthinning or operatingvalues. Technicalslate/silver/amber processcue readable120, actualrotationdirection notspecifiedbycurvedarrows."
         }
       }
+    },
+    {
+      "entryId": "epidermis",
+      "sourceWord": "epidermis",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "epidermis:meaning-1",
+          "pos": "n.",
+          "en": "The outer epithelial layer of the skin, lying above the dermis."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The epidermis forms the outer covering above the dermis.",
+          "senseId": "epidermis:meaning-1"
+        },
+        {
+          "en": "The highlighted surface layer is thinner than the underlying connective tissue in this model.",
+          "senseId": "epidermis:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/epidermis.webp",
+        "sha256": "d64345303cae689f5d8e117814aebfe6eebaee2bc6a8e0db8cda165589fed08a"
+      },
+      "visual": {
+        "expectedCue": "Thin outer epithelial layer highlighted above thicker dermis and subcutaneous fat.",
+        "decision": "added",
+        "reason": "Actual square original1254,512WebP and120PNG inspected: mint superficial cell band lies above fibrous dermis and pale fatty lobules. Essential label EPIDERMIS spelled correctly with leader terminating in selected top layer; no vessels in that layer. Color and relative thickness schematic.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual cool white clinical rendering with restrained mint/pale blue and anatomically selected cue, readable512and120; no unrelated decorative props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d64345303cae689f5d8e117814aebfe6eebaee2bc6a8e0db8cda165589fed08a",
+          "inspectedAt": "2026-10-29T01:20:08.818Z",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254 source,512WebP and120PNG. Mint outer epithelial layer lies above fibrous dermis and lower fat; pointer ends within outer layer, exact EPIDERMIS text verified full/512. At120 layer/pointer remain clear. Nucleated basal and flattened surface forms are simplified, not a complete histological stratum count or real thickness. Not all skin/dead cells only. Clean cool-white/mint/pale-blue clinical model, no diagnostic/treatment or decoration."
+        }
+      }
+    },
+    {
+      "entryId": "dermis",
+      "sourceWord": "dermis",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "dermis:meaning-1",
+          "pos": "n.",
+          "en": "The connective-tissue layer of the skin beneath the epidermis that supports vessels, nerves and skin structures."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The dermis lies between the epidermis and the subcutaneous tissue.",
+          "senseId": "dermis:meaning-1"
+        },
+        {
+          "en": "Its connective tissue supports structures such as small vessels and hair follicles.",
+          "senseId": "dermis:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/dermis.webp",
+        "sha256": "b2d970e34c02e2de042906b088b4da173adf587e26bc5677cafe2f2d61b71bdd"
+      },
+      "visual": {
+        "expectedCue": "Highlighted fibrous middle skin layer beneath epidermis and above fat, containing small vessel context.",
+        "decision": "added",
+        "reason": "Full original512120 show mint interwoven connective fibres and small red/blue vessels confined below neutral epidermis; one arrow selects middle layer. Underlying adipose remains distinct. Schematic proportions and vascular detail not histologic measurements.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual cool white clinical rendering with restrained mint/pale blue and anatomically selected cue, readable512and120; no unrelated decorative props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b2d970e34c02e2de042906b088b4da173adf587e26bc5677cafe2f2d61b71bdd",
+          "inspectedAt": "2026-10-29T01:20:08.818Z",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254,512WebP and120PNG. Arrow selects fibrous mint middle connective layer beneath epidermal covering and above adipose context. Simplified vessels stay in connective layer, not epidermis; fibers/cells/vessel outlines illustrative, not measured microanatomy or actual blood-fluid sample. Mid-layer selection legible120, distinct from outer epidermis and lower subcutaneous fat. Restrained precise clinical palette, no labels/ornament/disease claim."
+        }
+      }
+    },
+    {
+      "entryId": "subcutaneous-tissue",
+      "sourceWord": "subcutaneous tissue",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "subcutaneous-tissue:meaning-1",
+          "pos": "n.",
+          "en": "The layer beneath the skin proper containing loose connective tissue and varying amounts of fat."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The subcutaneous tissue lies below the dermis.",
+          "senseId": "subcutaneous-tissue:meaning-1"
+        },
+        {
+          "en": "Fat lobules and connective tissue occupy the lower region of the model.",
+          "senseId": "subcutaneous-tissue:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/subcutaneous-tissue.webp",
+        "sha256": "0dc1f78be9ee22aac54e77808bf4933b8c8b5147677d7345e7d6757b2c1cda09"
+      },
+      "visual": {
+        "expectedCue": "Adipose-rich tissue band below the dermis, selected by mint bracket and arrow.",
+        "decision": "added",
+        "reason": "Full original512120 show lower yellow fat lobules separated by connective partitions below two neutral skin layers. Brackets and pointer isolate lower band; no muscle, wound or injection site. Variable fat content simplified.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual cool white clinical rendering with restrained mint/pale blue and anatomically selected cue, readable512and120; no unrelated decorative props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0dc1f78be9ee22aac54e77808bf4933b8c8b5147677d7345e7d6757b2c1cda09",
+          "inspectedAt": "2026-10-29T01:20:08.818Z",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254,512WebP and120PNG. Lower region has adipose lobules separated by connecting tissue septa, beneath separate epidermis/dermis; brackets select that full lower region and arrow locates it. Coherent fat-plus-connective context, not assertion all tissue is fat or exact body-fat measurement. Region legible120. Natural muted tissue with cool-white/mint clinical cues; no injection, injury, procedure or diagnostic label."
+        }
+      }
+    },
+    {
+      "entryId": "mucous-membrane",
+      "sourceWord": "mucous membrane",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "mucous-membrane:meaning-1",
+          "pos": "n.",
+          "en": "A moist tissue lining, with an epithelial surface and supporting connective tissue, in passages that open to the outside."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The mucous membrane lines the inner cheek in this example.",
+          "senseId": "mucous-membrane:meaning-1"
+        },
+        {
+          "en": "The enlarged section shows a surface epithelium supported by connective tissue.",
+          "senseId": "mucous-membrane:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/mucous-membrane.webp",
+        "sha256": "a1a232bda81e26d7d62c7ad9570cb4c57303e3a5ac3de88a8a220070443027e3"
+      },
+      "visual": {
+        "expectedCue": "Moist inner cheek lining with enlarged non-ciliated epithelial and connective-tissue section.",
+        "decision": "added",
+        "reason": "Full original512120 show an open mouth, highlighted INNER cheek rather than external skin or teeth, and connected magnification with moist surface over epithelial cells and deeper connective tissue. Not a respiratory ciliated membrane; microscopic proportions schematic.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual cool white clinical rendering with restrained mint/pale blue and anatomically selected cue, readable512and120; no unrelated decorative props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a1a232bda81e26d7d62c7ad9570cb4c57303e3a5ac3de88a8a220070443027e3",
+          "inspectedAt": "2026-10-29T01:20:08.818Z",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254,512WebP and120PNG. Highlight on inner cheek connects to controlled inset with layered nonciliated epithelium over supporting connective tissue and moist surface. Intact mouth/ordinary teeth/tongue context; no respiratory cilia or false universal mucosal structure. Cheek-to-lining relation clear120; microscopic layers/color/scale simplified, not disease assessment. Clean clinical cool-white/mint/pale-blue rendering without irrelevant props."
+        }
+      }
+    },
+    {
+      "entryId": "salivary-gland",
+      "sourceWord": "salivary gland",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "salivary-gland:meaning-1",
+          "pos": "n.",
+          "en": "A gland that makes saliva and sends it into the mouth through a duct."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The salivary gland shown near the ear sends saliva toward the mouth through its duct.",
+          "senseId": "salivary-gland:meaning-1"
+        },
+        {
+          "en": "The parotid example opens into the cheek beside an upper molar.",
+          "senseId": "salivary-gland:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/salivary-gland.webp",
+        "sha256": "aa536a88ce45ea4eb572119c6a12fb6317bcf5b44d46c11a9affcc0e63ca735e"
+      },
+      "visual": {
+        "expectedCue": "Parotid example in front of ear, continuous duct across cheek to posterior upper-molar cheek opening.",
+        "decision": "added",
+        "reason": "Initial full image opened too far anteriorly near canine and was rejected. Built-in edit corrected posterior cheek opening. Corrected full source512120 observed: lobulated mint parotid in front/below ear, continuous duct over masseter to oral posterior upper molar region with small illustrative saliva drop. One gland example, not complete map.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actual cool white clinical rendering with restrained mint/pale blue and anatomically selected cue, readable512and120; no unrelated decorative props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "aa536a88ce45ea4eb572119c6a12fb6317bcf5b44d46c11a9affcc0e63ca735e",
+          "inspectedAt": "2026-10-29T01:20:08.818Z",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually inspected current corrected full1254,512WebP and120PNG. Parotid-like lobulated gland near ear connects continuously across masseter context, duct bends into cheek in posterior upper-molar region rather than canine/front tooth. Small droplet at oral opening illustrates saliva, no actual flow amount. Gland/duct/mouth route legible120; no microscopic acinar/tooth-count certification or all-salivary-glands location claim. Cool-white/pale-blue anatomy with restrained mint gland selection, no labels, disease or treatment. Earlier wrong-front-opening candidate retained by root."
+        }
+      }
+    },
+    {
+      "entryId": "hair-follicle",
+      "sourceWord": "hair follicle",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "hair-follicle:meaning-1",
+          "pos": "n.",
+          "en": "A tube-like skin structure that surrounds the hair root and supports hair growth."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The hair follicle surrounds the root below the skin surface.",
+          "senseId": "hair-follicle:meaning-1"
+        },
+        {
+          "en": "The hair shaft continues upward from the root through the follicle opening.",
+          "senseId": "hair-follicle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hair-follicle.webp",
+        "sha256": "f611ca793bae97fc09f83777e5abd153e3cfdb00364e648d453f626cff362a85"
+      },
+      "visual": {
+        "expectedCue": "Mint tubular follicle sheath surrounds continuous brown hair root/shaft from bulb to surface opening.",
+        "decision": "added",
+        "reason": "Actually inspected1254 source,512WebP and120PNG. One continuous brown hair passes through skin surface and expands at bulb, surrounded by a separate mint-highlighted tubular follicle continuous with epidermal invagination. Small pale papilla-like base context and dermis/adipose boundary are simplified; no microscopic layer/count or vascular map claimed. At120 sheath/root/surface relationship clear, distinct from merely a visible hair strand. No disease, injury, growth-rate or intervention.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise non-graphic clinical skin model, natural muted tissue with restrained mint follicle selection and cool-white backdrop; no decorative props, labels or diagnostic readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f611ca793bae97fc09f83777e5abd153e3cfdb00364e648d453f626cff362a85",
+          "inspectedAt": "2026-10-29T00:50:29.858738+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual full1254square,512WebP,120PNG inspected: mint epithelial sheath surrounds continuous brown root/bulb and shaft emerging through surface opening, lower bulb enclosing dermal papilla. Selected whole follicle distinct from hair shaft alone. Soft clinical white/mint pale skin sections, schematic microscopic detail and scale."
+        }
+      }
+    },
+    {
+      "entryId": "sweat-gland",
+      "sourceWord": "sweat gland",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "sweat-gland:meaning-1",
+          "pos": "n.",
+          "en": "A skin gland that produces sweat and releases it through a duct."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sweat gland has a coiled secretory tube beneath the skin surface.",
+          "senseId": "sweat-gland:meaning-1"
+        },
+        {
+          "en": "In this eccrine example, its duct opens directly onto the skin rather than into a hair follicle.",
+          "senseId": "sweat-gland:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sweat-gland.webp",
+        "sha256": "f082b86ec050ecb129351e538af70e617ad5ae3ee2d9933aaeb3cd8057f75da8"
+      },
+      "visual": {
+        "expectedCue": "Coiled eccrine secretory tubule connects to independent duct and surface pore/drop, separate from any hair follicle.",
+        "decision": "added",
+        "reason": "Actually inspected1254 source,512WebP and120PNG. Mint coiled tubular secretory portion sits at deep dermis/upper fatty region and continues into one rising duct, with short epidermal spiral and clear drop at surface pore. No hair/follicular drainage or solid grape lobules. Coil/duct/pore continuity legible120; overlapping coil segments are illustrative, not a full microscopic lumen trace. Background tissue texture not a vessel map. Selected eccrine example only, no sweat-rate, temperature, diagnosis or treatment.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise non-graphic clinical skin block, natural muted tissues with restrained mint gland selection, cool-white background, no decoration, labels or readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f082b86ec050ecb129351e538af70e617ad5ae3ee2d9933aaeb3cd8057f75da8",
+          "inspectedAt": "2026-10-29T00:50:29.858798+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual full1254square,512WebP,120PNG inspected: mint coiled secretory tube at deep dermal/subcutaneous region connects to rising duct and a separate surface pore with illustrative moisture drop. No hair follicle connection in selected eccrine example; coil/pore cue readable120. Clinical pale tissue/mint matches brief, no measured rate or disease claim."
+        }
+      }
+    },
+    {
+      "entryId": "sebaceous-gland",
+      "sourceWord": "sebaceous gland",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "sebaceous-gland:meaning-1",
+          "pos": "n.",
+          "en": "A skin gland that releases an oily secretion called sebum, usually into a hair follicle."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sebaceous gland connects to the side of a hair follicle through a short duct.",
+          "senseId": "sebaceous-gland:meaning-1"
+        },
+        {
+          "en": "Its lobules differ from the tightly coiled tube of the sweat gland example.",
+          "senseId": "sebaceous-gland:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sebaceous-gland.webp",
+        "sha256": "357c6d099001fc07c47bb0bd086a3c6f92c2a8db9479a8a4636af9f83e4b23d8"
+      },
+      "visual": {
+        "expectedCue": "Lobulated oil gland connects through short duct to upper hair-follicle space beneath epidermis.",
+        "decision": "added",
+        "reason": "Actually inspected1254 source,512WebP and120PNG. Rounded gland lobules are grouped within mint outlines, join a short duct that opens into the side of upper follicle beside continuous hair, rather than directly to skin surface. Distinct from eccrine tubular coil and lower adipose context. Duct/follicle connection clear120; tiny background vessels are illustrative outlines, not calibrated vascular anatomy or a blood-fluid sample. Selected usual follicular gland, not universal outlet or acne/obstruction claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise non-graphic clinical skin model, natural muted tissue and restrained mint focal gland/duct; no labels, decorative objects, numerical readings or treatment."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "357c6d099001fc07c47bb0bd086a3c6f92c2a8db9479a8a4636af9f83e4b23d8",
+          "inspectedAt": "2026-10-29T00:50:29.858862+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual full1254square,512WebP,120PNG inspected: lobulated pale secretory cluster highlighted by mint outline and continuous short duct into side of upper hair follicle. Brown hair/root continuous to surface, distinct from eccrine coil and adipose storage. Clinical white/mint/pale anatomical context; background vessel section outlines and cell layers simplified."
+        }
+      }
+    },
+    {
+      "entryId": "thyroid-gland",
+      "sourceWord": "thyroid gland",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "thyroid-gland:meaning-1",
+          "pos": "n.",
+          "en": "An endocrine gland in the front of the neck, with two main lobes beside the upper trachea, that releases thyroid hormones."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The thyroid gland has two main lobes joined across the front of the upper trachea.",
+          "senseId": "thyroid-gland:meaning-1"
+        },
+        {
+          "en": "The gland sits below the larynx in this simplified front view.",
+          "senseId": "thyroid-gland:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/thyroid-gland.webp",
+        "sha256": "2a41d43eb930f77a81616335c8779a8d348086671f17e65eb6db87dcf805cda1"
+      },
+      "visual": {
+        "expectedCue": "Two thyroid lobes flank upper trachea and join by anterior isthmus below laryngeal context.",
+        "decision": "added",
+        "reason": "Actually inspected1254 source,512WebP and120PNG. Two pink gland lobes with mint selection edge flank trachea, narrower superior poles rise laterally; connecting isthmus crosses anterior upper tracheal supports. Pale laryngeal cartilage above is separate, no gland-airway duct or posterior isthmus. Neck locator and partial airway are coherent, not full ring-count map. Two-lobe/isthmus cue clear120; no enlargement, hormone level or disease claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise non-graphic cool-white clinical anatomy model with natural muted tissue and restrained mint selection, no decorative objects, labels or diagnostic readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2a41d43eb930f77a81616335c8779a8d348086671f17e65eb6db87dcf805cda1",
+          "inspectedAt": "2026-10-29T00:57:53.030708+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254square,512WebP,120PNG: two thyroid lobes flank upper trachea and continuous isthmus crosses front below laryngeal cartilage; distinct from larynx/parathyroids. Mint outline and pale clinical neck context make gland readable120, no duct to airway. Shape/size simplified and not diagnostic enlargement or hormone evidence."
+        }
+      }
+    },
+    {
+      "entryId": "pituitary-gland",
+      "sourceWord": "pituitary gland",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pituitary-gland:meaning-1",
+          "pos": "n.",
+          "en": "A small endocrine gland at the base of the brain, connected by a stalk to the hypothalamus."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pituitary gland connects to the hypothalamus through a short stalk.",
+          "senseId": "pituitary-gland:meaning-1"
+        },
+        {
+          "en": "The enlarged model distinguishes its anterior and posterior regions.",
+          "senseId": "pituitary-gland:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pituitary-gland.webp",
+        "sha256": "88009502136fdba64eba6107d05930b57bdfe908837c37e830c64b238ed78206"
+      },
+      "visual": {
+        "expectedCue": "Pituitary below hypothalamus connected by stalk, larger anterior region and smaller posterior region in sella context.",
+        "decision": "added",
+        "reason": "Actually inspected1254 source,512WebP and120PNG. Single gland has larger anterior mint region viewer-left and smaller posterior pale-blue region viewer-right, contiguous under stalk that continues chiefly posteriorly to contextual hypothalamic underside. Pale bone saddle supports gland, stalk not trapped in bone. Small midsagittal brain locator places it at base anterior to brainstem. Main stalk/two-region cue clear120; tissue colors/scale and microscopic boundaries schematic, no hormone production map or disease inferred.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean non-graphic clinical anatomy on cool-white, restrained mint/pale-blue selection with muted tissue/bone, no decorative props, labels or diagnostic data."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "88009502136fdba64eba6107d05930b57bdfe908837c37e830c64b238ed78206",
+          "inspectedAt": "2026-10-29T01:02:03.491532+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual full1254square,512WebP,120PNG inspected: mint larger anterior region and pale-blue posterior region form pituitary in bony sellar context, posterior region continuous with stalk toward basal brain. Whole-brain inset locates it below hypothalamic region anterior to brainstem. Clinical white/mint style and stalk/gland cue readable120. Microstructure, proportions and anterior/portal pathways simplified, no hormone production or diagnosis inferred from colors."
+        }
+      }
+    },
+    {
+      "entryId": "adrenal-gland",
+      "sourceWord": "adrenal gland",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "adrenal-gland:meaning-1",
+          "pos": "n.",
+          "en": "One of a pair of endocrine glands above the kidneys, each with an outer cortex and an inner medulla."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The adrenal gland lies above the upper part of the kidney.",
+          "senseId": "adrenal-gland:meaning-1"
+        },
+        {
+          "en": "The cutaway distinguishes the outer cortex from the inner medulla.",
+          "senseId": "adrenal-gland:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/adrenal-gland.webp",
+        "sha256": "c39c785608899c18dd074fd89b87f6493e482f23e23456c432d4a196d9e3d18d"
+      },
+      "visual": {
+        "expectedCue": "Small right adrenal above kidney, enlarged cutaway separates outer cortex from central medulla.",
+        "decision": "added",
+        "reason": "Actually inspected1254 source,512WebP and120PNG. Triangular/wedge adrenal sits separately at superior kidney region; controlled enlargement retains surrounding capsule/cortical region and contrasting central medulla. Kidney faded context, renal collecting/vessel outlines not an adrenal urine conduit; no adrenal-to-ureter connection. Main location/cortex-medulla cue clear120. Tissue colors, relative scale and fine cell/vessel details illustrative, not exact microscopic architecture, bilateral shape identity or hormone/disease result.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Precise non-graphic clinical model on cool-white with restrained mint/pale-blue focal tones and natural muted tissue; no ornament, labels, treatment or readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c39c785608899c18dd074fd89b87f6493e482f23e23456c432d4a196d9e3d18d",
+          "inspectedAt": "2026-10-29T01:07:32.873476+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254square,512WebP,120PNG: small selected pyramidal adrenal above kidney with magnification showing outer cortex around central medulla, distinct from kidney tissue/renal pelvis. Soft clinical neutral organ, mint medulla and fine mint inset on cool white match brief. Not an adrenal-to-urine duct, hormone quantity or stress diagnosis. Single simplified shape not both-side identical anatomy."
+        }
+      }
+    },
+    {
+      "entryId": "lymphatic-vessel",
+      "sourceWord": "lymphatic vessel",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "lymphatic-vessel:meaning-1",
+          "pos": "n.",
+          "en": "A channel that carries lymph through the lymphatic system toward its return to the bloodstream."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The lymphatic vessel carries lymph along the direction shown by the arrow.",
+          "senseId": "lymphatic-vessel:meaning-1"
+        },
+        {
+          "en": "In this collecting-vessel example, valve leaflets help limit backward flow.",
+          "senseId": "lymphatic-vessel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/lymphatic-vessel.webp",
+        "sha256": "764c9ed99bfa98a5b6fbc2391776bced1231194af20e25174509b82363fcc885"
+      },
+      "visual": {
+        "expectedCue": "Collecting lymphatic vessel cutaway shows opposed valve leaflets and rightward lymph flow toward small node context.",
+        "decision": "added",
+        "reason": "Actually inspected1254 source,512WebP and120PNG. Main thin-walled green-tinted lumen contains clear fluid, one opposed leaflet pair attached to walls and projecting downstream right, with a narrow open passage and same-direction arrow. Main collector leads into convex side of smaller contextual node, with hilar outflow at right; extra edge branches are only partial context, not complete network. At120 valve/arrow and vessel larger than node remain legible. No red cells or blue blood sample; green and enlarged fluid/leaflet geometry schematic, no pressure/speed or capillary-universal claim. Node interior is simplified context, not histological map.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Clean cool-white/mint/pale-blue clinical schematic with precise soft vessel forms, no labels, decorative props, numerical readings or disease/treatment claims."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "764c9ed99bfa98a5b6fbc2391776bced1231194af20e25174509b82363fcc885",
+          "inspectedAt": "2026-10-29T01:12:18.779943+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual full1254square,512WebP,120PNG inspected: large mint collecting-vessel cutaway with paired wall-attached leaflets directed toward rightward arrow and continuous downstream conduit toward smaller node context. Collector dominates120 and is distinct from node; clean clinical white/mint. Leaflet opening/particles/edge branches/node section simplified, no complete histology, flow rate, blood color or diagnostic claim."
+        }
+      }
+    },
+    {
+      "entryId": "dowel-pin",
+      "sourceWord": "dowel pin",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "dowel-pin:meaning-1",
+          "pos": "n.",
+          "en": "A cylindrical pin used to locate mating parts relative to one another."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A dowel pin keeps the two mating parts aligned.",
+          "senseId": "dowel-pin:meaning-1"
+        },
+        {
+          "en": "Its cylindrical surface fits into matching holes in the parts.",
+          "senseId": "dowel-pin:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/dowel-pin.webp",
+        "sha256": "e03b9d79acbb6bb350ead6ebcb2715031f54d14d26e9bcc5c83436cf5408c38d"
+      },
+      "visual": {
+        "expectedCue": "Smooth solid cylindrical locating dowel without head or thread, with aligned-plate cutaway context.",
+        "decision": "added",
+        "reason": "Full source512120 observed: plain straight shank, flat chamfered ends, no split/thread/head; inset continuous smooth dowel spans aligned holes across two plate interface. Enlarged clearance and cutaway schematic, no fit or load specification.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual precise silver technical product/cutaway drawing on slate with amber accents, object silhouette and connected parts readable512and120; no unrelated props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e03b9d79acbb6bb350ead6ebcb2715031f54d14d26e9bcc5c83436cf5408c38d",
+          "inspectedAt": "2026-10-29T00:44:32.918663+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually viewed full1254/512WebP/120PNG: main smooth solid cylinder has flat chamfered ends, no head/thread/split; cutaway context locates two mating plates on one continuous pin crossing their interface. Schematic clearance, no fit specification. Silver/slate/amber brief and pin cue readable120."
+        }
+      }
+    },
+    {
+      "entryId": "set-screw",
+      "sourceWord": "set screw",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "set-screw:meaning-1",
+          "pos": "n.",
+          "en": "A screw used to secure a part by pressing its tip against another part."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The set screw presses against the shaft to hold the hub in place.",
+          "senseId": "set-screw:meaning-1"
+        },
+        {
+          "en": "The illustrated screw has a recessed drive and no projecting head.",
+          "senseId": "set-screw:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/set-screw.webp",
+        "sha256": "b585697c80d96bda8c88b3a0fcedc6f02df9036f908ff9aef8c4b289d42a965a"
+      },
+      "visual": {
+        "expectedCue": "Headless hex-socket threaded screw with radial hub-to-shaft contact in cutaway.",
+        "decision": "added",
+        "reason": "Full source512120 show entire main fastener threaded and headless, recessed hex socket, secondary radial threaded hole in hub with tip contacting continuous shaft surface. Context end is slightly proud of hub, so not represented as universally flush. No holding-force or installation claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual precise silver technical product/cutaway drawing on slate with amber accents, object silhouette and connected parts readable512and120; no unrelated props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b585697c80d96bda8c88b3a0fcedc6f02df9036f908ff9aef8c4b289d42a965a",
+          "inspectedAt": "2026-10-29T00:44:32.918818+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually viewed full1254/512WebP/120PNG: headless externally threaded fastener with recessed hex drive. Context radial tip contacts continuous shaft surface through threaded hub hole; top slightly proud, not asserting universal flushness. No shaft penetration or detached fastener. Contact/drive cue readable120, precise silver/slate/amber."
+        }
+      }
+    },
+    {
+      "entryId": "stud",
+      "sourceWord": "stud",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "stud:meaning-1",
+          "pos": "n.",
+          "en": "A headless fastener with external threads at both ends or along its length."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A stud provides threaded ends for a fastening connection.",
+          "senseId": "stud:meaning-1"
+        },
+        {
+          "en": "Unlike a headed bolt, it has no enlarged head at one end.",
+          "senseId": "stud:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/stud.webp",
+        "sha256": "a5575d185efff713999d6bee842ea9f71e113e1aac8cc96e16ac28127ae1cf3d"
+      },
+      "visual": {
+        "expectedCue": "Headless fastening rod with threaded ends and smooth middle, plus anchored end/nut context.",
+        "decision": "added",
+        "reason": "Full source512120 show machine threads at both ends, smooth centre and no bolt head; small context lower thread in base and upper end through plate with separate nut seated on plate. Flange gap schematic; no tightened assembly/load approval.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual precise silver technical product/cutaway drawing on slate with amber accents, object silhouette and connected parts readable512and120; no unrelated props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a5575d185efff713999d6bee842ea9f71e113e1aac8cc96e16ac28127ae1cf3d",
+          "inspectedAt": "2026-10-29T00:44:32.918861+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually viewed full1254/512WebP/120PNG: headless rod with threads on both ends and smooth middle. Context lower threaded end seated in cutaway base, upper through flange with separate nut seated on top. Flange gap schematic, no load/clamping qualification. No bolt head;120 silhouette and two threaded ends clear."
+        }
+      }
+    },
+    {
+      "entryId": "clevis",
+      "sourceWord": "clevis",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "clevis:meaning-1",
+          "pos": "n.",
+          "en": "A fork-shaped connector with aligned holes in two ears for a connecting pin."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clevis has two ears that receive the connecting pin.",
+          "senseId": "clevis:meaning-1"
+        },
+        {
+          "en": "A mating eye fits in the space between the ears.",
+          "senseId": "clevis:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/clevis.webp",
+        "sha256": "6d27c1f53ad0fc702b5beaa33ffdea79bdd720fa92094c236584cea890e57a78"
+      },
+      "visual": {
+        "expectedCue": "Two-ear U-shaped fork around central lug with one common transverse pin and retainer.",
+        "decision": "added",
+        "reason": "Full source512120 show two connected ears and amber central lug, common silver pin axis spanning ear-lug-ear, head at one side and split retainer at other; stem continues behind U. Connection mechanically traceable; no rated load/fit implied.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual precise silver technical product/cutaway drawing on slate with amber accents, object silhouette and connected parts readable512and120; no unrelated props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6d27c1f53ad0fc702b5beaa33ffdea79bdd720fa92094c236584cea890e57a78",
+          "inspectedAt": "2026-10-29T00:44:32.918906+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually viewed full1254/512WebP/120PNG: U-body has two connected parallel ears, central amber eye/lug in gap, common transverse pin spans ear-lug-ear with head and split retainer outside. Coaxial connection traceable, no shackle/hook confusion. Generic qualitative pivot, no load/fit claim. Style and cue readable120."
+        }
+      }
+    },
+    {
+      "entryId": "turnbuckle",
+      "sourceWord": "turnbuckle",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "turnbuckle:meaning-1",
+          "pos": "n.",
+          "en": "An adjustable connector whose body engages end fittings with opposite-handed threads."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The turnbuckle joins two threaded end fittings in one body.",
+          "senseId": "turnbuckle:meaning-1"
+        },
+        {
+          "en": "With the ends restrained from rotating, turning the body changes the effective length.",
+          "senseId": "turnbuckle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/turnbuckle.webp",
+        "sha256": "2392c20c7778e584e0d35edf19f6ca83e1bde3d223d2903762e6955467894423"
+      },
+      "visual": {
+        "expectedCue": "Open-body turnbuckle with closed eye-ended rods and visibly opposite-pitch threaded end fittings.",
+        "decision": "added",
+        "reason": "Initial diagonal source literal thread handedness ambiguous/same, rejected after independent review. Corrected built-in front-orthographic full1254source,512WebP,120PNG actually viewed: continuous left and right rods engage opposite end blocks, front thread slants visibly opposite, tips separated in open window, eye ends closed. Whole connector/body window recognizable120; individual helices verified full/512, not legible as handedness at120. No effective-length range, tension or force claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Silver precise technical product drawing on slate with amber thread-engagement highlights; square composition, clear connector silhouette120, empty background no unrelated props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2392c20c7778e584e0d35edf19f6ca83e1bde3d223d2903762e6955467894423",
+          "inspectedAt": "2026-10-29T00:44:32.918941+00:00",
+          "inspectedSizes": [
+            512,
+            120
+          ],
+          "finding": "Actually viewed corrected full1254/512WebP/120PNG: open body and two distinct coaxial threaded eye rods engage opposite end blocks; tips separated in window. Near/front helical ridge slopes now visibly oppose left / versus right backslash in orthographic view, unlike rejected diagonal candidate whose handedness was unverified. No rotation direction or thread specification inferred. Thin complete connector identifiable120, opposed-hand detail best512/full. Slate/silver restrained amber, no labels."
+        }
+      }
+    },
+    {
+      "entryId": "eye-bolt",
+      "sourceWord": "eye bolt",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "eye-bolt:meaning-1",
+          "pos": "n.",
+          "en": "A threaded fastener with an eye-shaped head for connection to another component."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The eye bolt has a closed eye above its threaded shank.",
+          "senseId": "eye-bolt:meaning-1"
+        },
+        {
+          "en": "A shoulder separates the eye from the shank in this example.",
+          "senseId": "eye-bolt:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/eye-bolt.webp",
+        "sha256": "5b525e1f361af037522076393d05a02c6df762249b40f294c07cc84a42ee6f3e"
+      },
+      "visual": {
+        "expectedCue": "Closed integral eye, shoulder and machine-threaded shank of a shoulder eye bolt.",
+        "decision": "added",
+        "reason": "Actually inspected generated full1254 source and converted512WebP/120PNG. Unbroken closed eye and slate through-hole, neck connected to broad circular shoulder, threaded straight shank with flat chamfered end; no open hook/nut/wood-screw point. Shoulder color change is highlighting of integral part, not a separate nut. Whole product remains identifiable120. Static qualitative geometry only, no lifting capacity, thread specification or installation approval.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source,512WebP and120PNG: original precise technical drawing on slate with silver material and restrained amber meaning/force cue, connected parts and clear teaching focus120. No logos, copied product art, numeric engineering readings or certified design claims."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5b525e1f361af037522076393d05a02c6df762249b40f294c07cc84a42ee6f3e",
+          "inspectedAt": "2026-10-29T00:26:59.047718+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254square,512WebP,120PNG: closed integral eye continuous with shoulder and machine-threaded blunt shank. Eye dominates small view and is distinct from headed bolt/open hook; silver/slate with amber eye consistent technical profile. No lifting rating or use approval."
+        }
+      }
+    },
+    {
+      "entryId": "cotter-pin",
+      "sourceWord": "cotter pin",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "cotter-pin:meaning-1",
+          "pos": "n.",
+          "en": "A split pin whose two legs pass through a hole and can be bent apart to retain a component."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cotter pin passes through the cross-hole in the larger pin.",
+          "senseId": "cotter-pin:meaning-1"
+        },
+        {
+          "en": "Its looped head and spread legs keep it from sliding straight out.",
+          "senseId": "cotter-pin:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cotter-pin.webp",
+        "sha256": "df3594d6cbb0a54f2509a2464c7f19de9cd24d86bf34f2a0ce59db28fc33e706"
+      },
+      "visual": {
+        "expectedCue": "US split cotter pin with closed loop and two splayed legs passing through a larger pin cross-hole; washer inboard of cotter.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full1254 source and512WebP/120PNG. Amber split pin has looped head, paired straight legs through one vertical cross-hole and two splayed lower ends; silver washer is now inboard/left of pin, cotter provides outboard stop, unlike rejected initial layout. Passage through larger cylindrical clevis pin visually coherent. Loop and two legs remain visible120, no R-clip/spring coil. Qualitative retention example only; no dimensions, installation or reuse approval.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source,512WebP and120PNG: original precise technical drawing on slate with silver material and restrained amber meaning/force cue, connected parts and clear teaching focus120. No logos, copied product art, numeric engineering readings or certified design claims."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "df3594d6cbb0a54f2509a2464c7f19de9cd24d86bf34f2a0ce59db28fc33e706",
+          "inspectedAt": "2026-10-29T00:26:59.047880+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected corrected full1254square,512WebP,120PNG: US split cotter has closed loop above coherent transverse hole of larger pin, two legs visibly emerge and splay below. Washer sits INBOARD of cotter and catches it under withdrawal. Amber small retainer distinct120/slate silver context; not tapered UK cotter. No reuse or load claim."
+        }
+      }
+    },
+    {
+      "entryId": "ball-bearing",
+      "sourceWord": "ball bearing",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "ball-bearing:meaning-1",
+          "pos": "n.",
+          "en": "A rolling bearing that uses balls between its raceways."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ball bearing has spherical rolling elements between two rings.",
+          "senseId": "ball-bearing:meaning-1"
+        },
+        {
+          "en": "The curved raceways guide the balls as the rings move relative to each other.",
+          "senseId": "ball-bearing:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ball-bearing.webp",
+        "sha256": "5f91066c2a8a7df0fac4168778671f8761baec86baf00c5eb806121513553731"
+      },
+      "visual": {
+        "expectedCue": "Radial deep-groove ball bearing: spherical balls between inner and outer raceways, spaced by a cage, with a small outer-ring cutaway.",
+        "decision": "added",
+        "reason": "Actually inspected full1254 source and512WebP/120PNG. Concentric inner/outer rings and open shaft bore coherent, amber spherical rolling elements contact corresponding curved grooves, thin connected cage spaces them. Upper-right outer-ring cutaway exposes groove/ball rather than a floating exploded element; remaining ring and balls continuous. Clear bearing silhouette and balls at120. Selected radial example, no exact ball count, clearance, load rating or certified operating geometry inferred.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source,512WebP and120PNG: original precise technical drawing on slate with silver material and restrained amber meaning/force cue, connected parts and clear teaching focus120. No logos, copied product art, numeric engineering readings or certified design claims."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5f91066c2a8a7df0fac4168778671f8761baec86baf00c5eb806121513553731",
+          "inspectedAt": "2026-10-29T00:26:59.047927+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected full1254square,512WebP,120PNG: spherical amber balls spaced in cage between inner/outer ring raceways, central bore and small outer-ring cutaway; contact region/ring distinction clear. Radial ball-bearing example distinct from needles/plain bushing/thrust style. Slate/silver technical style; no capacity or operation proof."
+        }
+      }
+    },
+    {
+      "entryId": "needle-bearing",
+      "sourceWord": "needle bearing",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "needle-bearing:meaning-1",
+          "pos": "n.",
+          "en": "A rolling bearing that uses long, slender cylindrical rollers."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The needle bearing uses slender rollers instead of balls.",
+          "senseId": "needle-bearing:meaning-1"
+        },
+        {
+          "en": "In this radial example, the rollers lie parallel to the shaft axis.",
+          "senseId": "needle-bearing:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/needle-bearing.webp",
+        "sha256": "f338107b1e844788d12da8ed31d9ed6fdb17649157a27839a203ecdfd2846737"
+      },
+      "visual": {
+        "expectedCue": "Long narrow cylindrical rollers parallel to radial bearing axis, with cutaway outer ring exposing roller sides.",
+        "decision": "added",
+        "reason": "Actually inspected full1254 source and512WebP/120PNG. Inner ring open bore, surrounding outer ring and thin cage coherent. Amber rollers have round flat front ends and visibly elongated cylindrical sides in upper-right cutaway; long axes follow bore/shaft axis, no pointed needles or spherical balls. Roller sides seated between concentric inner/outer cylindrical races; cut edges are illustrative removals. Cutaway and slender parallel rollers remain readable120. Selected radial type only, no exact roller proportion, count, clearance or load capacity asserted.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source,512WebP and120PNG: original precise technical drawing on slate with silver material and restrained amber meaning/force cue, connected parts and clear teaching focus120. No logos, copied product art, numeric engineering readings or certified design claims."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f338107b1e844788d12da8ed31d9ed6fdb17649157a27839a203ecdfd2846737",
+          "inspectedAt": "2026-10-29T00:32:31.818798+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual full1254square,512WebP,120PNG inspected: slender cylindrical rollers shown axially long in cutaway, parallel to central bore axis, kept by cage between radial rings. Distinct from spherical ball bearing and thrust orientation; consistent silver/slate with amber roller emphasis. Schematic counts and clearances carry no rating."
+        }
+      }
+    },
+    {
+      "entryId": "timing-belt",
+      "sourceWord": "timing belt",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "timing-belt:meaning-1",
+          "pos": "n.",
+          "en": "A toothed belt that meshes with toothed pulleys to transmit synchronized rotation."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The timing belt meshes with the teeth of both pulleys.",
+          "senseId": "timing-belt:meaning-1"
+        },
+        {
+          "en": "Its teeth provide positive engagement rather than relying only on friction.",
+          "senseId": "timing-belt:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/timing-belt.webp",
+        "sha256": "58e72a3701c1ec409502af009b9a1cc508b2688cc11c8c77827af58d4c58579d"
+      },
+      "visual": {
+        "expectedCue": "Continuous inward-toothed belt engaging two toothed pulleys, straight upper/lower spans, positive tooth contact.",
+        "decision": "added",
+        "reason": "Actually inspected full1254 source and512WebP/120PNG. Continuous amber loop encloses two silver pulleys with connected hubs/stubs, upper teeth point inward/down, lower upward; contact arcs show teeth entering corresponding grooves rather than V-belt friction or chain. Belt spans do not cross/twist and outer face smooth. No need infer exact tooth count, synchronous phase, ratio or installed tension. Small120 still distinguishes toothed loop/two pulleys, detail best512.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source,512WebP and120PNG: original precise technical drawing on slate with silver material and restrained amber meaning/force cue, connected parts and clear teaching focus120. No logos, copied product art, numeric engineering readings or certified design claims."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "58e72a3701c1ec409502af009b9a1cc508b2688cc11c8c77827af58d4c58579d",
+          "inspectedAt": "2026-10-29T00:32:31.818973+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual full1254square,512WebP,120PNG inspected: one continuous inward-toothed belt wraps both toothed pulleys with straight spans and recognizable intermeshing wrap contacts. Belt teeth, not chain links or smooth friction belt, remain visible120. Silver pulleys/slate amber belt match profile; diagram not proof of exact tooth pitch or engineering performance."
+        }
+      }
+    },
+    {
+      "entryId": "universal-joint",
+      "sourceWord": "universal joint",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "universal-joint:meaning-1",
+          "pos": "n.",
+          "en": "A coupling that transmits rotation between shafts whose axes meet at an angle."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The universal joint links two rotating shafts.",
+          "senseId": "universal-joint:meaning-1"
+        },
+        {
+          "en": "In this cross-and-yoke type, a central cross links two forked yokes.",
+          "senseId": "universal-joint:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/universal-joint.webp",
+        "sha256": "f7eeaa64e28c6176bdb3cf1bee59970122d607421f9438064071653b9e72d771"
+      },
+      "visual": {
+        "expectedCue": "Neutral-position single Cardan cross-and-yoke joint with silver top/bottom fork and pale-silver left/right fork, bounded cutaway exposes rear ear.",
+        "decision": "added",
+        "reason": "Actually inspected final full1254 source and512WebP/120PNG. Final pale-blue-silver right fork visibly connects left/right cups, its rear ear exposed through bounded cutaway in obstructing silver hub; left silver fork connects top/bottom cups. One continuous amber cross connects four orthogonal journal regions. Shafts appear near neutral alignment in projection, explicitly not a pictured operating-angle claim; text example/tips revised accordingly. Distinct connected fork paths materially clearer than two privately rejected candidates.120 reads complete joint and cross; topology best512/full. No internal bearing qualification, constant velocity, angular capacity or rating claimed. Root independently actual inspected all three and accepted this bounded neutral-position cue.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source,512WebP and120PNG: original precise technical drawing on slate with silver material and restrained amber meaning/force cue, connected parts and clear teaching focus120. No logos, copied product art, numeric engineering readings or certified design claims."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f7eeaa64e28c6176bdb3cf1bee59970122d607421f9438064071653b9e72d771",
+          "inspectedAt": "2026-10-29T00:50:29.858495+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Final built-in correction f7eeaa… actual1254square/512WebP/120PNG inspected after rejecting previous topology. Silver left fork now reaches opposed top/bottom journals; pale-blue right fork's rear arm visible through bounded hub cutaway reaches left journal and its foreground ear reaches right journal. Four-way amber cross and two separate fork paths readable. Shafts shown near neutral alignment; source example revised to links two rotating shafts rather than asserting a pictured bend. Simplified section is not internal-bearing, kinematic or constant-velocity qualification."
+        }
+      }
+    },
+    {
+      "entryId": "worm-gear",
+      "sourceWord": "worm gear",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "worm-gear:meaning-1",
+          "pos": "n.",
+          "en": "A gear device in which a screw-shaped worm meshes with a toothed wheel on a non-intersecting axis."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The worm gear pairs a screw-shaped worm with a toothed wheel.",
+          "senseId": "worm-gear:meaning-1"
+        },
+        {
+          "en": "The two shaft axes are offset rather than intersecting at the tooth contact.",
+          "senseId": "worm-gear:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/worm-gear.webp",
+        "sha256": "bad383a48184ee4bceb0db18e06effcdd59aa7d9c02084cf606d0b3ad4ef9a19"
+      },
+      "visual": {
+        "expectedCue": "Screw-shaped worm contacts concave-toothed wheel at tangent on offset non-intersecting axes; both shafts have connected supports.",
+        "decision": "added",
+        "reason": "Actually inspected corrected full1254 source and512WebP/120PNG. Silver helical worm thread engages amber wheel rim grooves at upper tangent, axes visibly offset (worm above wheel center) and nearly perpendicular. Worm's two bearing blocks now connect down rigid pedestals to common base, with visible edge clearance rather than floating unsupported blocks; wheel shaft supported by front pedestal. Thread lead and wheel curvature are qualitative, no exact ratio/profile/load/self-locking claim. Whole supported worm/wheel pair distinct120. Rejected unsupported first candidate retained privately.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected full1254 source,512WebP and120PNG: original precise technical drawing on slate with silver material and restrained amber meaning/force cue, connected parts and clear teaching focus120. No logos, copied product art, numeric engineering readings or certified design claims."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-29T01:33:23.680171+00:00",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "bad383a48184ee4bceb0db18e06effcdd59aa7d9c02084cf606d0b3ad4ef9a19",
+          "inspectedAt": "2026-10-29T00:50:29.858669+00:00",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual corrected full1254square,512WebP,120PNG inspected: screw-shaped worm engages wheel rim at upper tangential region; horizontal worm shaft offset above transverse wheel shaft, axes do not intersect. Both high worm bearing supports connect to common grounded base; front wheel bearing grounded. Wheel/housing topology readable120, slate/silver/amber profile coherent. Static schematic not exact conjugate tooth-surface or efficiency/self-locking proof."
+        }
+      }
     }
   ]
 }

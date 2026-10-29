@@ -2518,6 +2518,105 @@
       ],
       "imageRefreshEntryIds": [],
       "completedAt": "2026-10-28T22:28:16.801626+00:00"
+    },
+    {
+      "id": "specialist-500-batch-21",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-26",
+      "baseline": {
+        "releaseId": "2026-10-preview-25",
+        "manifest": "content/releases/2026-10-preview-25-acc2c33e1b38/manifest.json",
+        "manifestSha256": "acc2c33e1b3818497bcf8db5f997c9fae1fc34f0a5357484b44c7fb4d3ad0a01",
+        "words": 713
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 278,
+          "targetCategoryWords": 290,
+          "entryIds": [
+            "epidermis",
+            "dermis",
+            "subcutaneous-tissue",
+            "mucous-membrane",
+            "salivary-gland",
+            "hair-follicle",
+            "sweat-gland",
+            "sebaceous-gland",
+            "thyroid-gland",
+            "pituitary-gland",
+            "adrenal-gland",
+            "lymphatic-vessel"
+          ],
+          "units": [
+            {
+              "id": "medical-skin-glands",
+              "title": "Skin layers, glands and lymphatic vessels",
+              "entryIds": [
+                "epidermis",
+                "dermis",
+                "subcutaneous-tissue",
+                "mucous-membrane",
+                "salivary-gland",
+                "hair-follicle",
+                "sweat-gland",
+                "sebaceous-gland",
+                "thyroid-gland",
+                "pituitary-gland",
+                "adrenal-gland",
+                "lymphatic-vessel"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 277,
+          "targetCategoryWords": 289,
+          "entryIds": [
+            "dowel-pin",
+            "set-screw",
+            "stud",
+            "clevis",
+            "turnbuckle",
+            "eye-bolt",
+            "cotter-pin",
+            "ball-bearing",
+            "needle-bearing",
+            "timing-belt",
+            "universal-joint",
+            "worm-gear"
+          ],
+          "units": [
+            {
+              "id": "engineering-fasteners-motion",
+              "title": "Fasteners, bearings and motion transmission",
+              "entryIds": [
+                "dowel-pin",
+                "set-screw",
+                "stud",
+                "clevis",
+                "turnbuckle",
+                "eye-bolt",
+                "cotter-pin",
+                "ball-bearing",
+                "needle-bearing",
+                "timing-belt",
+                "universal-joint",
+                "worm-gear"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "completedAt": "2026-10-29T01:33:23.680171+00:00"
     }
   ],
   "activeWorkBatchId": null,
