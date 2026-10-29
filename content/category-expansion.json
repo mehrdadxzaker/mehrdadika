@@ -3516,7 +3516,103 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 302,
+      "targetCategoryWords": 314,
+      "entryIds": [
+        "nostril",
+        "nasal-septum",
+        "uvula",
+        "palate",
+        "epiglottis",
+        "pharynx",
+        "bronchus",
+        "bronchiole",
+        "alveolus",
+        "pleura",
+        "sinus",
+        "vocal-cord"
+      ],
+      "units": [
+        {
+          "id": "medical-upper-airway-respiratory-anatomy",
+          "title": "Upper airway and respiratory anatomy",
+          "entryIds": [
+            "nostril",
+            "nasal-septum",
+            "uvula",
+            "palate",
+            "epiglottis",
+            "pharynx",
+            "bronchus",
+            "bronchiole",
+            "alveolus",
+            "pleura",
+            "sinus",
+            "vocal-cord"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-23",
+      "releaseId": "2026-10-preview-28",
+      "status": "published-preview",
+      "objective": "Describe upper-airway and respiratory anatomy, electrical connections, switching and installation components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 301,
+      "targetCategoryWords": 313,
+      "entryIds": [
+        "din-rail",
+        "cable-tray",
+        "cable-gland",
+        "cable-lug",
+        "fuse-holder",
+        "contactor",
+        "push-button",
+        "toggle-switch",
+        "distribution-board",
+        "earthing-rod",
+        "residual-current-device",
+        "crimp-connector"
+      ],
+      "units": [
+        {
+          "id": "engineering-electrical-installation-components",
+          "title": "Electrical connection, switching and installation components",
+          "entryIds": [
+            "din-rail",
+            "cable-tray",
+            "cable-gland",
+            "cable-lug",
+            "fuse-holder",
+            "contactor",
+            "push-button",
+            "toggle-switch",
+            "distribution-board",
+            "earthing-rod",
+            "residual-current-device",
+            "crimp-connector"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-23",
+      "releaseId": "2026-10-preview-28",
+      "status": "published-preview",
+      "objective": "Describe upper-airway and respiratory anatomy, electrical connections, switching and installation components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-22"
+  "activePassId": "specialist-500-batch-23"
 }

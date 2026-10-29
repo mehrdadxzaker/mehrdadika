@@ -2716,6 +2716,105 @@
       ],
       "imageRefreshEntryIds": [],
       "completedAt": "2026-10-29T04:21:48.193338+00:00"
+    },
+    {
+      "id": "specialist-500-batch-23",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-28",
+      "baseline": {
+        "releaseId": "2026-10-preview-27",
+        "manifest": "content/releases/2026-10-preview-27-e03a45372f50/manifest.json",
+        "manifestSha256": "e03a45372f50edbcedf5fec72f0a6dc9e0759d8f4a758a6e3107b0f10ae50ce6",
+        "words": 761
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 302,
+          "targetCategoryWords": 314,
+          "entryIds": [
+            "nostril",
+            "nasal-septum",
+            "uvula",
+            "palate",
+            "epiglottis",
+            "pharynx",
+            "bronchus",
+            "bronchiole",
+            "alveolus",
+            "pleura",
+            "sinus",
+            "vocal-cord"
+          ],
+          "units": [
+            {
+              "id": "medical-upper-airway-respiratory-anatomy",
+              "title": "Upper airway and respiratory anatomy",
+              "entryIds": [
+                "nostril",
+                "nasal-septum",
+                "uvula",
+                "palate",
+                "epiglottis",
+                "pharynx",
+                "bronchus",
+                "bronchiole",
+                "alveolus",
+                "pleura",
+                "sinus",
+                "vocal-cord"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 301,
+          "targetCategoryWords": 313,
+          "entryIds": [
+            "din-rail",
+            "cable-tray",
+            "cable-gland",
+            "cable-lug",
+            "fuse-holder",
+            "contactor",
+            "push-button",
+            "toggle-switch",
+            "distribution-board",
+            "earthing-rod",
+            "residual-current-device",
+            "crimp-connector"
+          ],
+          "units": [
+            {
+              "id": "engineering-electrical-installation-components",
+              "title": "Electrical connection, switching and installation components",
+              "entryIds": [
+                "din-rail",
+                "cable-tray",
+                "cable-gland",
+                "cable-lug",
+                "fuse-holder",
+                "contactor",
+                "push-button",
+                "toggle-switch",
+                "distribution-board",
+                "earthing-rod",
+                "residual-current-device",
+                "crimp-connector"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "completedAt": "2026-10-29T06:25:19.395701+00:00"
     }
   ],
   "activeWorkBatchId": null,
