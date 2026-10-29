@@ -3211,6 +3211,107 @@
       ],
       "imageRefreshEntryIds": [],
       "completedAt": "2026-10-29T15:04:42.502730+00:00"
+    },
+    {
+      "id": "specialist-500-batch-28",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-33",
+      "baseline": {
+        "releaseId": "2026-10-preview-32",
+        "manifest": "content/releases/2026-10-preview-32-f7c6a1303b8e/manifest.json",
+        "manifestSha256": "f7c6a1303b8e552dfec6db83435c7e2a26b7bc5d70099a5c1a20e3e28ec30e46",
+        "words": 881
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 362,
+          "targetCategoryWords": 374,
+          "entryIds": [
+            "ureter",
+            "urethra",
+            "renal-pelvis",
+            "nephron",
+            "glomerulus",
+            "renal-cortex",
+            "renal-medulla",
+            "renal-tubule",
+            "renal-capsule",
+            "bowmans-capsule",
+            "renal-artery",
+            "renal-vein"
+          ],
+          "units": [
+            {
+              "id": "medical-renal-anatomy",
+              "title": "Kidney structures and urinary passages",
+              "entryIds": [
+                "ureter",
+                "urethra",
+                "renal-pelvis",
+                "nephron",
+                "glomerulus",
+                "renal-cortex",
+                "renal-medulla",
+                "renal-tubule",
+                "renal-capsule",
+                "bowmans-capsule",
+                "renal-artery",
+                "renal-vein"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 361,
+          "targetCategoryWords": 372,
+          "entryIds": [
+            "depth-gauge",
+            "height-gauge",
+            "bore-gauge",
+            "thread-gauge",
+            "radius-gauge",
+            "pin-gauge",
+            "plug-gauge",
+            "ring-gauge",
+            "sine-bar",
+            "v-block",
+            "combination-square"
+          ],
+          "units": [
+            {
+              "id": "engineering-workshop-metrology",
+              "title": "Inspection gauges and workshop layout tools",
+              "entryIds": [
+                "depth-gauge",
+                "height-gauge",
+                "bore-gauge",
+                "thread-gauge",
+                "radius-gauge",
+                "pin-gauge",
+                "plug-gauge",
+                "ring-gauge",
+                "sine-bar",
+                "v-block",
+                "combination-square"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [
+        "marking-gauge"
+      ],
+      "scopeDecision": "Publish23 complete entries; marking gauge retained privately after three failed image candidates, no relaxed semantic gate.",
+      "completedAt": "2026-10-29T16:41:20.446358+00:00"
     }
   ],
   "activeWorkBatchId": null,
