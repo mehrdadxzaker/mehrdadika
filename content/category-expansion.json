@@ -3420,7 +3420,103 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 290,
+      "targetCategoryWords": 302,
+      "entryIds": [
+        "surgeon",
+        "radiologist",
+        "midwife",
+        "optometrist",
+        "dietitian",
+        "anaesthetist",
+        "occupational-therapist",
+        "audiologist",
+        "speech-therapist",
+        "medical-interpreter",
+        "caregiver",
+        "paediatrician"
+      ],
+      "units": [
+        {
+          "id": "medical-roles-specialist-care",
+          "title": "Clinical professions and care roles",
+          "entryIds": [
+            "surgeon",
+            "radiologist",
+            "midwife",
+            "optometrist",
+            "dietitian",
+            "anaesthetist",
+            "occupational-therapist",
+            "audiologist",
+            "speech-therapist",
+            "medical-interpreter",
+            "caregiver",
+            "paediatrician"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-22",
+      "releaseId": "2026-10-preview-27",
+      "status": "published-preview",
+      "objective": "Describe clinical care professions, structural forms, roof members and civil construction systems in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 289,
+      "targetCategoryWords": 301,
+      "entryIds": [
+        "voussoir",
+        "dome",
+        "vault",
+        "cantilever",
+        "batter-pile",
+        "purlin",
+        "diagonal-brace",
+        "shear-wall",
+        "gabion",
+        "weep-hole",
+        "cofferdam",
+        "caisson"
+      ],
+      "units": [
+        {
+          "id": "engineering-civil-components",
+          "title": "Civil structural forms and construction systems",
+          "entryIds": [
+            "voussoir",
+            "dome",
+            "vault",
+            "cantilever",
+            "batter-pile",
+            "purlin",
+            "diagonal-brace",
+            "shear-wall",
+            "gabion",
+            "weep-hole",
+            "cofferdam",
+            "caisson"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-22",
+      "releaseId": "2026-10-preview-27",
+      "status": "published-preview",
+      "objective": "Describe clinical care professions, structural forms, roof members and civil construction systems in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-21"
+  "activePassId": "specialist-500-batch-22"
 }

@@ -2617,6 +2617,105 @@
       ],
       "imageRefreshEntryIds": [],
       "completedAt": "2026-10-29T01:33:23.680171+00:00"
+    },
+    {
+      "id": "specialist-500-batch-22",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-27",
+      "baseline": {
+        "releaseId": "2026-10-preview-26",
+        "manifest": "content/releases/2026-10-preview-26-f3d7908d9bd4/manifest.json",
+        "manifestSha256": "f3d7908d9bd49f023ce8ebd155b3e91756b3bab91e132c4d2ad4d8f36ea1ea2a",
+        "words": 737
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 290,
+          "targetCategoryWords": 302,
+          "entryIds": [
+            "surgeon",
+            "radiologist",
+            "midwife",
+            "optometrist",
+            "dietitian",
+            "anaesthetist",
+            "occupational-therapist",
+            "audiologist",
+            "speech-therapist",
+            "medical-interpreter",
+            "caregiver",
+            "paediatrician"
+          ],
+          "units": [
+            {
+              "id": "medical-roles-specialist-care",
+              "title": "Clinical professions and care roles",
+              "entryIds": [
+                "surgeon",
+                "radiologist",
+                "midwife",
+                "optometrist",
+                "dietitian",
+                "anaesthetist",
+                "occupational-therapist",
+                "audiologist",
+                "speech-therapist",
+                "medical-interpreter",
+                "caregiver",
+                "paediatrician"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 289,
+          "targetCategoryWords": 301,
+          "entryIds": [
+            "voussoir",
+            "dome",
+            "vault",
+            "cantilever",
+            "batter-pile",
+            "purlin",
+            "diagonal-brace",
+            "shear-wall",
+            "gabion",
+            "weep-hole",
+            "cofferdam",
+            "caisson"
+          ],
+          "units": [
+            {
+              "id": "engineering-civil-components",
+              "title": "Civil structural forms and construction systems",
+              "entryIds": [
+                "voussoir",
+                "dome",
+                "vault",
+                "cantilever",
+                "batter-pile",
+                "purlin",
+                "diagonal-brace",
+                "shear-wall",
+                "gabion",
+                "weep-hole",
+                "cofferdam",
+                "caisson"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "completedAt": "2026-10-29T04:21:48.193338+00:00"
     }
   ],
   "activeWorkBatchId": null,
