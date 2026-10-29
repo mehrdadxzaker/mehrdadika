@@ -3612,7 +3612,103 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 314,
+      "targetCategoryWords": 326,
+      "entryIds": [
+        "ophthalmoscope",
+        "penlight",
+        "tuning-fork",
+        "eye-chart",
+        "endoscope",
+        "laryngoscope",
+        "electrode",
+        "defibrillator",
+        "cannula",
+        "catheter",
+        "surgical-cap",
+        "hospital-gown"
+      ],
+      "units": [
+        {
+          "id": "medical-diagnostic-tools-clinical-supplies",
+          "title": "Diagnostic instruments and clinical supplies",
+          "entryIds": [
+            "ophthalmoscope",
+            "penlight",
+            "tuning-fork",
+            "eye-chart",
+            "endoscope",
+            "laryngoscope",
+            "electrode",
+            "defibrillator",
+            "cannula",
+            "catheter",
+            "surgical-cap",
+            "hospital-gown"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-24",
+      "releaseId": "2026-10-preview-29",
+      "status": "published-preview",
+      "objective": "Describe diagnostic tools, clinical supplies and fluid-system components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 313,
+      "targetCategoryWords": 325,
+      "entryIds": [
+        "reducer",
+        "pipe-union",
+        "hose-reel",
+        "sight-glass",
+        "pressure-vessel",
+        "venturi",
+        "orifice-plate",
+        "strainer",
+        "needle-valve",
+        "diaphragm-valve",
+        "bellows",
+        "damper"
+      ],
+      "units": [
+        {
+          "id": "engineering-fluid-system-components",
+          "title": "Fluid-system fittings, observation and control",
+          "entryIds": [
+            "reducer",
+            "pipe-union",
+            "hose-reel",
+            "sight-glass",
+            "pressure-vessel",
+            "venturi",
+            "orifice-plate",
+            "strainer",
+            "needle-valve",
+            "diaphragm-valve",
+            "bellows",
+            "damper"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-24",
+      "releaseId": "2026-10-preview-29",
+      "status": "published-preview",
+      "objective": "Describe diagnostic tools, clinical supplies and fluid-system components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-23"
+  "activePassId": "specialist-500-batch-24"
 }

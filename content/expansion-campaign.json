@@ -2815,6 +2815,105 @@
       ],
       "imageRefreshEntryIds": [],
       "completedAt": "2026-10-29T06:25:19.395701+00:00"
+    },
+    {
+      "id": "specialist-500-batch-24",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-29",
+      "baseline": {
+        "releaseId": "2026-10-preview-28",
+        "manifest": "content/releases/2026-10-preview-28-274d9f915647/manifest.json",
+        "manifestSha256": "274d9f9156473e0b91d630655bb6eb8ee20caa4943cd3cc1859118d9efa7360f",
+        "words": 785
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 314,
+          "targetCategoryWords": 326,
+          "entryIds": [
+            "ophthalmoscope",
+            "penlight",
+            "tuning-fork",
+            "eye-chart",
+            "endoscope",
+            "laryngoscope",
+            "electrode",
+            "defibrillator",
+            "cannula",
+            "catheter",
+            "surgical-cap",
+            "hospital-gown"
+          ],
+          "units": [
+            {
+              "id": "medical-diagnostic-tools-clinical-supplies",
+              "title": "Diagnostic instruments and clinical supplies",
+              "entryIds": [
+                "ophthalmoscope",
+                "penlight",
+                "tuning-fork",
+                "eye-chart",
+                "endoscope",
+                "laryngoscope",
+                "electrode",
+                "defibrillator",
+                "cannula",
+                "catheter",
+                "surgical-cap",
+                "hospital-gown"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 313,
+          "targetCategoryWords": 325,
+          "entryIds": [
+            "reducer",
+            "pipe-union",
+            "hose-reel",
+            "sight-glass",
+            "pressure-vessel",
+            "venturi",
+            "orifice-plate",
+            "strainer",
+            "needle-valve",
+            "diaphragm-valve",
+            "bellows",
+            "damper"
+          ],
+          "units": [
+            {
+              "id": "engineering-fluid-system-components",
+              "title": "Fluid-system fittings, observation and control",
+              "entryIds": [
+                "reducer",
+                "pipe-union",
+                "hose-reel",
+                "sight-glass",
+                "pressure-vessel",
+                "venturi",
+                "orifice-plate",
+                "strainer",
+                "needle-valve",
+                "diaphragm-valve",
+                "bellows",
+                "damper"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "completedAt": "2026-10-29T09:01:21.143188+00:00"
     }
   ],
   "activeWorkBatchId": null,
