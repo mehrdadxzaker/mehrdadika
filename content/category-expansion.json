@@ -3804,7 +3804,103 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 338,
+      "targetCategoryWords": 350,
+      "entryIds": [
+        "sclera",
+        "conjunctiva",
+        "lens",
+        "optic-nerve",
+        "optic-disc",
+        "macula",
+        "fovea",
+        "vitreous-humour",
+        "aqueous-humour",
+        "lacrimal-gland",
+        "tear-duct",
+        "ciliary-muscle"
+      ],
+      "units": [
+        {
+          "id": "medical-ocular-anatomy",
+          "title": "Ocular layers, optics and tear structures",
+          "entryIds": [
+            "sclera",
+            "conjunctiva",
+            "lens",
+            "optic-nerve",
+            "optic-disc",
+            "macula",
+            "fovea",
+            "vitreous-humour",
+            "aqueous-humour",
+            "lacrimal-gland",
+            "tear-duct",
+            "ciliary-muscle"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-26",
+      "releaseId": "2026-10-preview-31",
+      "status": "published-preview",
+      "objective": "Describe ocular anatomy, solar conversion and drivetrain components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 337,
+      "targetCategoryWords": 349,
+      "entryIds": [
+        "photovoltaic-cell",
+        "solar-collector",
+        "nacelle",
+        "blade",
+        "rotor",
+        "stator",
+        "alternator",
+        "gearbox",
+        "clutch",
+        "disc-brake",
+        "brake-pad",
+        "drive-shaft"
+      ],
+      "units": [
+        {
+          "id": "engineering-energy-drivetrain-components",
+          "title": "Solar conversion, rotating machines and drivetrains",
+          "entryIds": [
+            "photovoltaic-cell",
+            "solar-collector",
+            "nacelle",
+            "blade",
+            "rotor",
+            "stator",
+            "alternator",
+            "gearbox",
+            "clutch",
+            "disc-brake",
+            "brake-pad",
+            "drive-shaft"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-26",
+      "releaseId": "2026-10-preview-31",
+      "status": "published-preview",
+      "objective": "Describe ocular anatomy, solar conversion and drivetrain components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-25"
+  "activePassId": "specialist-500-batch-26"
 }

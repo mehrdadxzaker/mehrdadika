@@ -3013,6 +3013,105 @@
       ],
       "imageRefreshEntryIds": [],
       "completedAt": "2026-10-29T10:35:50.148891+00:00"
+    },
+    {
+      "id": "specialist-500-batch-26",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-31",
+      "baseline": {
+        "releaseId": "2026-10-preview-30",
+        "manifest": "content/releases/2026-10-preview-30-98fbb6557ae6/manifest.json",
+        "manifestSha256": "98fbb6557ae68a82075c947c1d3a9ed765bb39a074aab04aee3c358f70ee7bbc",
+        "words": 833
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 338,
+          "targetCategoryWords": 350,
+          "entryIds": [
+            "sclera",
+            "conjunctiva",
+            "lens",
+            "optic-nerve",
+            "optic-disc",
+            "macula",
+            "fovea",
+            "vitreous-humour",
+            "aqueous-humour",
+            "lacrimal-gland",
+            "tear-duct",
+            "ciliary-muscle"
+          ],
+          "units": [
+            {
+              "id": "medical-ocular-anatomy",
+              "title": "Ocular layers, optics and tear structures",
+              "entryIds": [
+                "sclera",
+                "conjunctiva",
+                "lens",
+                "optic-nerve",
+                "optic-disc",
+                "macula",
+                "fovea",
+                "vitreous-humour",
+                "aqueous-humour",
+                "lacrimal-gland",
+                "tear-duct",
+                "ciliary-muscle"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 337,
+          "targetCategoryWords": 349,
+          "entryIds": [
+            "photovoltaic-cell",
+            "solar-collector",
+            "nacelle",
+            "blade",
+            "rotor",
+            "stator",
+            "alternator",
+            "gearbox",
+            "clutch",
+            "disc-brake",
+            "brake-pad",
+            "drive-shaft"
+          ],
+          "units": [
+            {
+              "id": "engineering-energy-drivetrain-components",
+              "title": "Solar conversion, rotating machines and drivetrains",
+              "entryIds": [
+                "photovoltaic-cell",
+                "solar-collector",
+                "nacelle",
+                "blade",
+                "rotor",
+                "stator",
+                "alternator",
+                "gearbox",
+                "clutch",
+                "disc-brake",
+                "brake-pad",
+                "drive-shaft"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "completedAt": "2026-10-29T12:43:50.821301+00:00"
     }
   ],
   "activeWorkBatchId": null,
