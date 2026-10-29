@@ -24,7 +24,7 @@ Later cooking passes still need drinks, cuisines and dishes, dining, food storag
 
 ## Expansion queue
 
-Medicine and healthcare and engineering now have 350 and 349 words respectively. They remain the active priorities until each reaches 500, before the remaining queue resumes. Each starts with useful everyday vocabulary and a distinct-sense plan before moving into specialist terminology. Specialist records need appropriate professional review before a stable professional curriculum can be claimed.
+Medicine and healthcare and engineering now have 362 and 361 words respectively. They remain the active priorities until each reaches 500, before the remaining queue resumes. Each starts with useful everyday vocabulary and a distinct-sense plan before moving into specialist terminology. Specialist records need appropriate professional review before a stable professional curriculum can be claimed.
 
 1. Cooking, food and drink
 2. Medicine and healthcare

@@ -3900,7 +3900,103 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 350,
+      "targetCategoryWords": 362,
+      "entryIds": [
+        "handwashing",
+        "hand-sanitizer",
+        "disinfectant",
+        "autoclave",
+        "sterilization-pouch",
+        "surgical-drape",
+        "face-shield",
+        "shoe-cover",
+        "sterile-field",
+        "isolation-gown",
+        "disposable-apron",
+        "clinical-waste-bin"
+      ],
+      "units": [
+        {
+          "id": "medical-infection-control-supplies",
+          "title": "Infection control actions, barriers and supplies",
+          "entryIds": [
+            "handwashing",
+            "hand-sanitizer",
+            "disinfectant",
+            "autoclave",
+            "sterilization-pouch",
+            "surgical-drape",
+            "face-shield",
+            "shoe-cover",
+            "sterile-field",
+            "isolation-gown",
+            "disposable-apron",
+            "clinical-waste-bin"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-27",
+      "releaseId": "2026-10-preview-32",
+      "status": "published-preview",
+      "objective": "Describe infection-control supplies and linear-motion/linkage components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 349,
+      "targetCategoryWords": 361,
+      "entryIds": [
+        "bevel-gear",
+        "helical-gear",
+        "lead-screw",
+        "ball-screw",
+        "linear-guide",
+        "linear-bearing",
+        "ratchet",
+        "pawl",
+        "eccentric",
+        "roller-bearing",
+        "flexible-coupling",
+        "chain-tensioner"
+      ],
+      "units": [
+        {
+          "id": "engineering-linear-motion-and-linkages",
+          "title": "Linear motion, gear forms and mechanical linkages",
+          "entryIds": [
+            "bevel-gear",
+            "helical-gear",
+            "lead-screw",
+            "ball-screw",
+            "linear-guide",
+            "linear-bearing",
+            "ratchet",
+            "pawl",
+            "eccentric",
+            "roller-bearing",
+            "flexible-coupling",
+            "chain-tensioner"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-27",
+      "releaseId": "2026-10-preview-32",
+      "status": "published-preview",
+      "objective": "Describe infection-control supplies and linear-motion/linkage components in English.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-26"
+  "activePassId": "specialist-500-batch-27"
 }
