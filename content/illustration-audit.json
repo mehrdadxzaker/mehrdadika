@@ -50359,6 +50359,1278 @@
           "reviewerId": "/root/batch4_engineering"
         }
       }
+    },
+    {
+      "entryId": "digestion",
+      "sourceWord": "digestion",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "digestion:meaning-1",
+          "pos": "n.",
+          "en": "The mechanical and chemical breakdown of food into smaller parts that the body can absorb and use."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Digestion begins before food reaches the stomach.",
+          "senseId": "digestion:meaning-1"
+        },
+        {
+          "en": "Enzymes help break large food molecules into smaller parts.",
+          "senseId": "digestion:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/digestion.webp",
+        "sha256": "c52d72d841c34873c91e57651c9be8619dbf15d47f65bc6702b0779258b955c5"
+      },
+      "visual": {
+        "expectedCue": "Mechanical food fragmentation and qualitative linked-chain→smaller separated-unit breakdown inset, with continuous narrowed pyloric outlet and no cross-lumen tissue bridge; no cross-wall uptake.",
+        "decision": "added",
+        "reason": "Actually viewed corrected original1254/512WebP/120PNG: stomach luminal food changes from large pieces to smaller mixed fragments with internal mixing arrows; separate explanatory panel shows connected colored chains becoming smaller unlinked units across transformation arrow, not intact chains merely transported. Open narrowed pyloric passage now continuous, false tissue bridge removed. Both breakdown cues survive120; no cross-wall nutrient uptake. Qualitative stomach mixing example plus general chemical-breakdown symbols, not all digestive stages or complete molecular digestion located solely in stomach; not exact chemistry, particle counts, scale or rate. Clean precise clinical organ/inset on cool white with restrained blue/mint and meaningful tissue/food colors, no readings/text/props. Rejected1pixels/finding preserved.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed corrected original1254/512WebP/120PNG: stomach luminal food changes from large pieces to smaller mixed fragments with internal mixing arrows; separate explanatory panel shows connected colored chains becoming smaller unlinked units across transformation arrow, not intact chains merely transported. Open narrowed pyloric passage now continuous, false tissue bridge removed. Both breakdown cues survive120; no cross-wall nutrient uptake. Qualitative stomach mixing example plus general chemical-breakdown symbols, not all digestive stages or complete molecular digestion located solely in stomach; not exact chemistry, particle counts, scale or rate. Clean precise clinical organ/inset on cool white with restrained blue/mint and meaningful tissue/food colors, no readings/text/props. Rejected1pixels/finding preserved."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:13:51.321Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c52d72d841c34873c91e57651c9be8619dbf15d47f65bc6702b0779258b955c5",
+          "inspectedAt": "2026-10-30T13:50:39.948Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually inspected current2 original1254/512/120 against selected breakdown sense and clinical profile. Stomach/duodenal lumen remains continuously open through narrowed pyloric region with no cross-lumen tissue bridge. Large food pieces become smaller fragments, internal arrows indicate mixing, and separate linked-chain→separated-unit inset provides chemical-breakdown cue. No uptake arrows across wall, so distinct from absorption. Cool-white/mint/pale-blue educational style readable120. Food/molecular icons are qualitative: no exact molecular anatomy, count/scale, complete digestive-tract map, rate or dietary/clinical instruction. Primary NIDDK breakdown-versus-uptake distinction checked; previous correction evidence retained.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "absorption",
+      "sourceWord": "absorption",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "absorption:meaning-1",
+          "pos": "n.",
+          "en": "The passage of digested nutrients through the intestinal lining into the body for transport and use."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The small intestine is a major site of nutrient absorption.",
+          "senseId": "absorption:meaning-1"
+        },
+        {
+          "en": "After crossing the intestinal lining, many nutrients enter the blood.",
+          "senseId": "absorption:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/absorption.webp",
+        "sha256": "fc27f0d3b8d7f137c9141e03b51caeb26e22d8ec199ba1d4fcfd689d85248494"
+      },
+      "visual": {
+        "expectedCue": "Nutrient symbols cross intact intestinal epithelial barrier; final orange arrowhead visibly ends INSIDE red connected capillary-loop lumen, one blood-directed pathway only.",
+        "decision": "added",
+        "reason": "Actually viewed final original1254/512WebP/120PNG. Orange nutrient symbols cross an intact brush-border epithelial layer into a red connected U-shaped capillary loop; both narrow arms continue below crop, red cells and nutrient symbols lie within the blood lumen. Final solid arrow extends into red capillary arch; its triangle is inside the blood-filled arch with tip near the inner endothelial boundary, no dangling leader into tissue. Crossing-to-blood cue survives120. One qualitative blood-directed intestinal uptake example only; not complete villus microanatomy, transport chemistry, exact cell/particle counts or scale, and not all nutrients use this route (lymph pathway qualified in native tips). Cool white/mint/pale-blue precise clinical cutaway with meaningful blood/nutrient colors, no readings/labels/props. Prior two rejected candidates and concrete vascular/arrow findings preserved.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed final original1254/512WebP/120PNG. Orange nutrient symbols cross an intact brush-border epithelial layer into a red connected U-shaped capillary loop; both narrow arms continue below crop, red cells and nutrient symbols lie within the blood lumen. Final solid arrow extends into red capillary arch; its triangle is inside the blood-filled arch with tip near the inner endothelial boundary, no dangling leader into tissue. Crossing-to-blood cue survives120. One qualitative blood-directed intestinal uptake example only; not complete villus microanatomy, transport chemistry, exact cell/particle counts or scale, and not all nutrients use this route (lymph pathway qualified in native tips). Cool white/mint/pale-blue precise clinical cutaway with meaningful blood/nutrient colors, no readings/labels/props. Prior two rejected candidates and concrete vascular/arrow findings preserved."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:41:28.221Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "fc27f0d3b8d7f137c9141e03b51caeb26e22d8ec199ba1d4fcfd689d85248494",
+          "inspectedAt": "2026-10-30T13:50:39.965Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually inspected FINAL3 original1254/512/120 against selected intestinal-uptake sense and clinical profile. Intact epithelial/brush-border layer surrounds connective villus core; one red capillary U-loop is connected across its arch with blood-cell/nutrient symbols. Orange path crosses epithelial barrier and its triangular endpoint lies within the red arch lumen just above inner endothelial boundary, not central blue tissue. At512/120 arrow still terminates in red vessel region. This teaches one blood-directed nutrient pathway only; no universal fat/lymph route, literal molecular size, full villus microvascular anatomy, transport rate or clinical qualification. NIDDK blood/lymph distinction checked; earlier two failures remain, no further calls.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "clot",
+      "sourceWord": "clot",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "clot:meaning-1",
+          "pos": "n.",
+          "en": "A cohesive mass formed when blood changes from a flowing liquid into a semisolid state."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The laboratory sample contained a small clot.",
+          "senseId": "clot:meaning-1"
+        },
+        {
+          "en": "Blood cells can become trapped in the protein mesh of this mass.",
+          "senseId": "clot:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/clot.webp",
+        "sha256": "6b545dff1a4cc96ff70a3f1014eb2ffec33e37c59d2efef3e1d7cd144e50c862"
+      },
+      "visual": {
+        "expectedCue": "Dominant cohesive semisolid red clot mass, with conceptual fibrin mesh trapping red blood cells in an explanatory inset; distinct flowing blood or post-clot serum liquid.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: dominant cohesive dark-red semisolid irregular mass sits above clear watch-glass surface, not a flowing red puddle. Same-material explanatory inset has interconnected pale fibrin-like mesh trapping red biconcave nonnucleated cells and occasional pale fragments; leader correctly targets mass. Both material and mesh cues survive120. Clean isolated clinical material study, no wound/body/vascular blockage or spilled blood. Red tissue/material color meaningful on cool-white/mint/pale-blue backdrop. Conceptual protein mesh rather than actual microscopy, exact fibrin structure/cell counts, clot composition for every clot, location/cause or clinical importance; no disease/sterility claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: dominant cohesive dark-red semisolid irregular mass sits above clear watch-glass surface, not a flowing red puddle. Same-material explanatory inset has interconnected pale fibrin-like mesh trapping red biconcave nonnucleated cells and occasional pale fragments; leader correctly targets mass. Both material and mesh cues survive120. Clean isolated clinical material study, no wound/body/vascular blockage or spilled blood. Red tissue/material color meaningful on cool-white/mint/pale-blue backdrop. Conceptual protein mesh rather than actual microscopy, exact fibrin structure/cell counts, clot composition for every clot, location/cause or clinical importance; no disease/sterility claim."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:49:56.535Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6b545dff1a4cc96ff70a3f1014eb2ffec33e37c59d2efef3e1d7cd144e50c862",
+          "inspectedAt": "2026-10-30T13:58:29.661Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/card512/thumb120. Cohesive dark-red raised semisolid mass on glass, contrasted with mesh inset trapping red biconcave cells; mass and connected fibrin-like network distinguish clot from flowing blood or separated serum. Leader links inset to mass; no wound or blocked organ. Mesh/cells qualitative, not exact microscopy/composition/cause/location or clinical significance. Cool-white/mint clinical material study remains readable120. Independent human language/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "inflammation",
+      "sourceWord": "inflammation",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "inflammation:meaning-1",
+          "pos": "n.",
+          "en": "A response involving immune activity in tissues, often following injury or infection, that can cause local redness, heat, swelling or pain."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clinician noted inflammation around the injured tissue.",
+          "senseId": "inflammation:meaning-1"
+        },
+        {
+          "en": "The team discussed whether the response followed an injury or an infection.",
+          "senseId": "inflammation:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/inflammation.webp",
+        "sha256": "34a73c4648eebcb557db7f972e78462f141098c16662dd173122b9acdc740c35"
+      },
+      "visual": {
+        "expectedCue": "Localized tissue swelling plus white-cell recruitment from thin-walled venule into adjacent tissue, with red cells retained inside; inflammatory response distinct infection organism or abscess pocket.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: continuous skin surface has localized pink raised swelling; below it red cells remain within a thin endothelial-lined vessel. One pale immune cell adheres inside, one pinches through an endothelial gap into tissue, and another lies outside toward the swollen area; mint arrow stays within surrounding tissue. White-cell recruitment/tissue response survives120, no visible microorganism, abscess/pus cavity or wound spill. Blue rounded symbols are schematic interstitial fluid accents, not actual gas, organelles or discrete cysts; microscopic structures/cell and fluid scales deliberately qualitative. One local acute inflammatory-response model, not all inflammation, cause/infection, clinical severity or diagnosis by appearance. Precise soft clinical section with meaningful restrained tissue/blood colors and cool-white/mint/pale-blue background; no readings/props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: continuous skin surface has localized pink raised swelling; below it red cells remain within a thin endothelial-lined vessel. One pale immune cell adheres inside, one pinches through an endothelial gap into tissue, and another lies outside toward the swollen area; mint arrow stays within surrounding tissue. White-cell recruitment/tissue response survives120, no visible microorganism, abscess/pus cavity or wound spill. Blue rounded symbols are schematic interstitial fluid accents, not actual gas, organelles or discrete cysts; microscopic structures/cell and fluid scales deliberately qualitative. One local acute inflammatory-response model, not all inflammation, cause/infection, clinical severity or diagnosis by appearance. Precise soft clinical section with meaningful restrained tissue/blood colors and cool-white/mint/pale-blue background; no readings/props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:52:29.336Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "34a73c4648eebcb557db7f972e78462f141098c16662dd173122b9acdc740c35",
+          "inspectedAt": "2026-10-30T13:58:29.678Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/card512/thumb120. Local pink raised tissue swelling, thin-walled venule with red cells retained in lumen, adhering/pinching-through/outside pale leukocyte stages and tissue-directed arrow teach an inflammatory response. No organisms or abscess cavity asserting infection. Blue interstitial fluid symbols and cell scales are explanatory, not literal gas bubbles or exact histology; pictured acute local response does not cover every inflammation or diagnose cause/severity. Clinical soft anatomy style and swelling/recruitment cue remain readable120. Independent human language/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "dermatoscope",
+      "sourceWord": "dermatoscope",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "dermatoscope:meaning-1",
+          "pos": "n.",
+          "en": "A handheld optical instrument that lights and magnifies skin structures for closer examination."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The dermatologist used a dermatoscope to examine the skin lesion.",
+          "senseId": "dermatoscope:meaning-1"
+        },
+        {
+          "en": "The magnified view helped the clinician document surface features.",
+          "senseId": "dermatoscope:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/dermatoscope.webp",
+        "sha256": "f7243e738778657625f37f0b742cee1ccd4cc0b99be143408896f0ea15b9d04e"
+      },
+      "visual": {
+        "expectedCue": "Complete handheld dermatoscope with transparent broad circular viewing lens and surrounding illumination ring, physically joined battery handle; no otoscope cone or diagnostic claim.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/card512/thumb120. Broad transparent central optical aperture and discrete white illumination ring in round mint/silver head, physically joined to complete short battery handle. No ear cone, scope tube, simulated lesion or fake readings. Generic illuminated skin-viewer silhouette distinct120 in cool white/mint clinical style. Exact optical performance and diagnostic capability unqualified; human/specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually inspected original1254/card512/thumb120. Broad transparent central optical aperture and discrete white illumination ring in round mint/silver head, physically joined to complete short battery handle. No ear cone, scope tube, simulated lesion or fake readings. Generic illuminated skin-viewer silhouette distinct120 in cool white/mint clinical style. Exact optical performance and diagnostic capability unqualified; human/specialist review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:52:21.255Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f7243e738778657625f37f0b742cee1ccd4cc0b99be143408896f0ea15b9d04e",
+          "inspectedAt": "2026-10-30T13:58:47.582Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original,512WebP,120PNG. Complete handheld instrument has a broad transparent circular viewing lens, a surrounding ring of separate illumination elements and a physically joined battery-style handle. Head/handle remain whole and readable at120, with no ear-speculum cone, lesion, diagnostic result or invented scale. Cool mint/white clinical rendering fits the category. Acceptance is the generic optical examination-device cue; no precise illumination circuit, magnification or diagnostic capability is verified.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "slit-lamp",
+      "sourceWord": "slit lamp",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "slit-lamp:meaning-1",
+          "pos": "n.",
+          "en": "An eye-examination instrument combining a microscope with an adjustable narrow beam of light."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The optometrist examined the eye with a slit lamp.",
+          "senseId": "slit-lamp:meaning-1"
+        },
+        {
+          "en": "She rested her chin on the support while the clinician looked through the eyepieces.",
+          "senseId": "slit-lamp:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/slit-lamp.webp",
+        "sha256": "904e3925c51a12029809a3967ab1799e402fcc05780fe40aab7c8310f2bcce79"
+      },
+      "visual": {
+        "expectedCue": "Tabletop binocular eye-examination microscope plus separate adjustable slit-illumination column, opposite aligned chin/forehead support frame; distinct ordinary lamp or handheld ophthalmoscope.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: two clinician oculars merge into one supported microscope body, objective faces patient headrest; separate vertical illumination column/prism assembly sits beside it. Two headrest uprights connect lower chin cup and upper forehead band with open eye space plausibly at objective height. One tabletop/base and joystick, all visible components physically supported, no patient/beam/readings. Whole binocular microscope-plus-light/headrest arrangement remains recognizable120, distinct handheld ophthalmoscope or ordinary lamp. Precise soft clinical white/mint/pale-blue product with no labels/props. Generic unloaded tabletop slit-lamp example only, not exact optical ray tracing, manufacturer construction, calibrated distance/illumination, valid examination setup or clinical findings.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: two clinician oculars merge into one supported microscope body, objective faces patient headrest; separate vertical illumination column/prism assembly sits beside it. Two headrest uprights connect lower chin cup and upper forehead band with open eye space plausibly at objective height. One tabletop/base and joystick, all visible components physically supported, no patient/beam/readings. Whole binocular microscope-plus-light/headrest arrangement remains recognizable120, distinct handheld ophthalmoscope or ordinary lamp. Precise soft clinical white/mint/pale-blue product with no labels/props. Generic unloaded tabletop slit-lamp example only, not exact optical ray tracing, manufacturer construction, calibrated distance/illumination, valid examination setup or clinical findings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:54:45.824Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "904e3925c51a12029809a3967ab1799e402fcc05780fe40aab7c8310f2bcce79",
+          "inspectedAt": "2026-10-30T14:01:12.054Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently inspected actual1254 original,512WebP and120PNG. Whole tabletop apparatus shows paired binocular eyepieces and supported microscope arm opposite a chin cup/forehead support frame; the separate vertical illumination column, adjustment bodies, carriage and common base are physically joined and grounded. These major relationships remain readable at120 and distinguish it from a plain lamp or handheld ophthalmoscope. Restrained clinical mint/white style matches the category. Static apparatus cue only: exact internal optical path, beam alignment/slit settings, patient positioning and examination findings are not demonstrated.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "ultrasound-probe",
+      "sourceWord": "ultrasound probe",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "ultrasound-probe:meaning-1",
+          "pos": "n.",
+          "en": "The handpiece of an ultrasound imaging system that sends sound waves into the body and detects returning echoes."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sonographer positioned the ultrasound probe over the abdomen.",
+          "senseId": "ultrasound-probe:meaning-1"
+        },
+        {
+          "en": "A cable connected the handpiece to the imaging console.",
+          "senseId": "ultrasound-probe:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ultrasound-probe.webp",
+        "sha256": "d0d330b955e3529e04d0a67076c791bcc9a1f3a78785c8d0f80aecffdbbc8632"
+      },
+      "visual": {
+        "expectedCue": "Complete external curved-array ultrasound handpiece with broad convex acoustic contact face, continuous ergonomic body and joined cable/connector, distinct from scanner or invasive wand.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/card512/thumb120. Entire external handpiece has broad convex dark acoustic contact face, continuous ergonomic white/mint/pale-blue body, connected strain relief/cable loop and complete generic console connector. Clearly a transducer handpiece rather than whole scanner or invasive wand; no fake scan, measurements or patient intervention. Face/body/cable junctions coherent; clinical category silhouette remains clear120. Exact connector specification, internal array/performance and clinical settings unqualified; human/specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually inspected original1254/card512/thumb120. Entire external handpiece has broad convex dark acoustic contact face, continuous ergonomic white/mint/pale-blue body, connected strain relief/cable loop and complete generic console connector. Clearly a transducer handpiece rather than whole scanner or invasive wand; no fake scan, measurements or patient intervention. Face/body/cable junctions coherent; clinical category silhouette remains clear120. Exact connector specification, internal array/performance and clinical settings unqualified; human/specialist review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:53:43.648Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d0d330b955e3529e04d0a67076c791bcc9a1f3a78785c8d0f80aecffdbbc8632",
+          "inspectedAt": "2026-10-30T14:00:00.654Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual original1254px,512WebP and120PNG independently viewed. Broad gently convex dark acoustic contact face is continuous with a complete ergonomic external handpiece; a joined cable loops into a whole plug housing with strain relief at both ends. Clear selected external curved-array probe cue, without console, invasive shaft, patient, displayed scan or invented settings. Clinical mint/white palette and thumbnail readability fit the brief. The drawing does not qualify exact internal transducer array, connector pinout, imaging performance or clinical positioning.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "microplate",
+      "sourceWord": "microplate",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "microplate:meaning-1",
+          "pos": "n.",
+          "en": "A laboratory plate containing an array of small wells for holding separate samples or test mixtures."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The technician placed the samples in separate wells of the microplate.",
+          "senseId": "microplate:meaning-1"
+        },
+        {
+          "en": "The laboratory reader measured a signal from each selected well.",
+          "senseId": "microplate:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/microplate.webp",
+        "sha256": "b11a6fa040a6dc01f4f86bed7a626ebcfd9dd8635dbf99ae64ba1452ad0cf515"
+      },
+      "visual": {
+        "expectedCue": "One low rectangular laboratory plate with regular array of open empty integral molded wells, distinct from separate test tubes/rack; no well-count/volume/results claim.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: a single low rectangular translucent molded plate contains a regular array of open empty cup-shaped wells, connected through the integral deck/body rather than separate tubes in a rack. Well array and thin perimeter remain recognizable120; no liquid levels, colored test results, numbered coordinates or supplied count claim. Cool-white/mint/pale-blue precise clinical lab object, subtle transparent shading, no props/text/readings. Qualitative microplate form only, not well-volume, format, sterility or assay qualification.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: a single low rectangular translucent molded plate contains a regular array of open empty cup-shaped wells, connected through the integral deck/body rather than separate tubes in a rack. Well array and thin perimeter remain recognizable120; no liquid levels, colored test results, numbered coordinates or supplied count claim. Cool-white/mint/pale-blue precise clinical lab object, subtle transparent shading, no props/text/readings. Qualitative microplate form only, not well-volume, format, sterility or assay qualification."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T12:40:46.807Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b11a6fa040a6dc01f4f86bed7a626ebcfd9dd8635dbf99ae64ba1452ad0cf515",
+          "inspectedAt": "2026-10-30T13:07:26.660Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed currentoriginal1254,512WebP and120PNG independently. One integral low translucent molded plate contains open empty wells connected through common deck/body, not separate tubes/rack. Array and perimeter clear120, precise cool-white/mint/pale-blue lab object. No assay result, numbered coordinates, exact count, volume or sterility claim.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "retractor",
+      "sourceWord": "retractor",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "retractor:meaning-1",
+          "pos": "n.",
+          "en": "A surgical instrument that holds tissue aside so an area can be seen or reached during a procedure."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The surgeon asked for a retractor before inspecting the deeper tissue.",
+          "senseId": "retractor:meaning-1"
+        },
+        {
+          "en": "The assistant held the instrument steady while the team examined the site.",
+          "senseId": "retractor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/retractor.webp",
+        "sha256": "d749247b33e4e61b111ad0a2077b0a761af9e2e6b650a90b0556891bea6c1b89"
+      },
+      "visual": {
+        "expectedCue": "One continuous handheld surgical retractor with grip and blunt broad right-angle concave blades for holding tissue aside, distinct from cutting or gripping instruments.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: one continuous handheld metal retractor has a flat central grip and two broad smoothly curved concave right-angle blade ends, with blunt rounded lips rather than cutting or gripping jaws. Complete handle-to-blade continuity clear120, no extra mechanism, wound or procedure. Soft precise brushed steel clinical study on cool-white/pale-blue with subtle mint-tinted blade; no readings/props/text. One unloaded double-ended bladed example, not a universal design, material gauge, sterility or use technique.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: one continuous handheld metal retractor has a flat central grip and two broad smoothly curved concave right-angle blade ends, with blunt rounded lips rather than cutting or gripping jaws. Complete handle-to-blade continuity clear120, no extra mechanism, wound or procedure. Soft precise brushed steel clinical study on cool-white/pale-blue with subtle mint-tinted blade; no readings/props/text. One unloaded double-ended bladed example, not a universal design, material gauge, sterility or use technique."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T12:47:24.686Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d749247b33e4e61b111ad0a2077b0a761af9e2e6b650a90b0556891bea6c1b89",
+          "inspectedAt": "2026-10-30T13:16:08.179Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG independently. One continuous flat central grip joins two blunt broad concave right-angle blade ends. Complete unloaded double-ended handheld retractor distinct from cutting blade or clamping jaws, clear120. Soft precise brushed steel/cool-white/pale-blue with restrained mint tint fits clinical profile, no wound/props/text. Qualitative example, not universal design, sterility or clinical contact/use instruction.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "haemostat",
+      "sourceWord": "haemostat",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "haemostat:meaning-1",
+          "pos": "n.",
+          "en": "A surgical clamp used to compress a blood vessel to help control bleeding."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tray contained a straight haemostat and a needle holder.",
+          "senseId": "haemostat:meaning-1"
+        },
+        {
+          "en": "The ratchet kept the jaws closed after the handles were brought together.",
+          "senseId": "haemostat:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/haemostat.webp",
+        "sha256": "2deb888ab0e177c0408ef987322c2ec1d17c2813e65542d7dddb2c5a8fcde8cc"
+      },
+      "visual": {
+        "expectedCue": "Ring-handled hemostatic clamp with two crossed shanks/one pivot, blunt opposing serrated jaws slightly open and ratchet disengaged; distinct cutting scissors or needle holder.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: two complete ring handles join continuous crossed shanks at one visible pivot; long blunt opposed serrated jaws are slightly open and ratchet tabs are visibly separated/disengaged. No cutting-blade edge, needle, tissue or extra jaw. Clamp silhouette remains clear120; fine serrations readable larger sizes. Clean soft precise brushed-metal clinical product with subtle mint jaw accent/cool-white pale-blue, no markings/props. Generic straight ring-handled hemostatic instrument only, not proprietary box-lock geometry, exact jaw proportions, grip strength, sterility or use technique.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: two complete ring handles join continuous crossed shanks at one visible pivot; long blunt opposed serrated jaws are slightly open and ratchet tabs are visibly separated/disengaged. No cutting-blade edge, needle, tissue or extra jaw. Clamp silhouette remains clear120; fine serrations readable larger sizes. Clean soft precise brushed-metal clinical product with subtle mint jaw accent/cool-white pale-blue, no markings/props. Generic straight ring-handled hemostatic instrument only, not proprietary box-lock geometry, exact jaw proportions, grip strength, sterility or use technique."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T12:53:57.792Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2deb888ab0e177c0408ef987322c2ec1d17c2813e65542d7dddb2c5a8fcde8cc",
+          "inspectedAt": "2026-10-30T13:16:08.188Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG independently. Two complete rings/shanks cross through one pivot into long opposing blunt serrated jaws. Jaws slightly open, ratchet tabs disengaged, no cutting edge/needle/tissue. Generic straight haemostatic-clamp silhouette clear120, subtle mint/steel on cool-white precise clinical form. Not exact proprietary box-lock geometry, dimensions, force or clinical-use qualification. Potential ring/pivot reference only; needle-holder jaws must be genuinely reshaped/reinspected.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "needle-holder",
+      "sourceWord": "needle holder",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "needle-holder:meaning-1",
+          "pos": "n.",
+          "en": "A surgical instrument designed to grip and control a needle used for suturing."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The surgeon grasped the curved needle with a needle holder.",
+          "senseId": "needle-holder:meaning-1"
+        },
+        {
+          "en": "The short jaws held the needle steady while the thread remained free.",
+          "senseId": "needle-holder:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/needle-holder.webp",
+        "sha256": "45fb08a2c48e88b92f406d727ab5b63b9783e352997f705c34f5dcdfb2d123b6"
+      },
+      "visual": {
+        "expectedCue": "Ring-handled needle holder has short broad blunt gripping jaws actually contacting curved needle BODY, with free pointed tip/thread; distinct long-jawed haemostat or scissors.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: complete two-ring/crossed-shank/one-pivot tool now has shorter broader blunt jaws gripping the BODY of one curved needle, sharp tip free to one side and thread connection/free blue strand to other. Ratchet tabs engage while jaws close on needle. Enlarged same-contact inset agrees; no tissue/procedure, cutting blades or extra needle. Needle and compact jaw contact visible120 (fine serration details larger only). Clinical cool-white/steel/mint/pale-blue precise soft rendering, no props/readings. Generic ring-handled needle-holder example only, not exact Mayo-Hegar proprietary geometry, force, needle size/angle or clinical technique; distinct long slender haemostat jaws. Fresh derivative inspection, no template approval inherited.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: complete two-ring/crossed-shank/one-pivot tool now has shorter broader blunt jaws gripping the BODY of one curved needle, sharp tip free to one side and thread connection/free blue strand to other. Ratchet tabs engage while jaws close on needle. Enlarged same-contact inset agrees; no tissue/procedure, cutting blades or extra needle. Needle and compact jaw contact visible120 (fine serration details larger only). Clinical cool-white/steel/mint/pale-blue precise soft rendering, no props/readings. Generic ring-handled needle-holder example only, not exact Mayo-Hegar proprietary geometry, force, needle size/angle or clinical technique; distinct long slender haemostat jaws. Fresh derivative inspection, no template approval inherited."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:44:28.334Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "45fb08a2c48e88b92f406d727ab5b63b9783e352997f705c34f5dcdfb2d123b6",
+          "inspectedAt": "2026-10-30T13:56:45.012Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual original 1254px, converted 512px WebP and 120px PNG. Complete ring-handled instrument, pivot, engaged ratchet and short stout opposed jaws are readable; the curved needle body passes between contacting jaw faces with its pointed end free on the left and swaged thread end free on the right. The inset repeats that same local contact without tissue. Distinct from a long-jawed haemostat in selected focus, with restrained mint clinical rendering at all sizes. Acceptance is the static instrument/needle-grasping cue only; exact grip force, jaw insert details, sterility and a suturing technique are not demonstrated.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "curette",
+      "sourceWord": "curette",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "curette:meaning-1",
+          "pos": "n.",
+          "en": "A small surgical instrument with a shaped working edge for scraping or scooping tissue."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The surgeon selected a curette with a small oval tip.",
+          "senseId": "curette:meaning-1"
+        },
+        {
+          "en": "The instrument list distinguished the scoop-shaped tool from the scalpel.",
+          "senseId": "curette:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/curette.webp",
+        "sha256": "080f84bd441b411eee2c3673a51063c0a2fc2fa4ca116b7e4ccf3c775ba99c2d"
+      },
+      "visual": {
+        "expectedCue": "Long fine surgical handle/shaft ends in a small shallow oval cup; enlarged same-tip inset makes concavity clear, distinct scalpel or household spoon.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: full thin surgical shaft connects tiny shallow oval concave cup to shaped ridged handle; matching enlarged tip inset shows continuous thin rim/interior, no detached component. Tiny surgical scoop versus long fine shaft is distinct from ordinary spoon/scalpel. Tip/inset remains clear120. No tissue, scraping action, sharp hook/teeth, readings or extraneous tools. Clean precise brushed-steel soft product on cool-white with pale-blue/mint, no decoration. Selected spoon-ended curette only, not all curette variants, exact cup dimensions, edge performance, sterility or clinical technique.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: full thin surgical shaft connects tiny shallow oval concave cup to shaped ridged handle; matching enlarged tip inset shows continuous thin rim/interior, no detached component. Tiny surgical scoop versus long fine shaft is distinct from ordinary spoon/scalpel. Tip/inset remains clear120. No tissue, scraping action, sharp hook/teeth, readings or extraneous tools. Clean precise brushed-steel soft product on cool-white with pale-blue/mint, no decoration. Selected spoon-ended curette only, not all curette variants, exact cup dimensions, edge performance, sterility or clinical technique."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:46:59.810Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "080f84bd441b411eee2c3673a51063c0a2fc2fa4ca116b7e4ccf3c775ba99c2d",
+          "inspectedAt": "2026-10-30T13:57:30.496Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently inspected actual original1254, 512WebP and120PNG. Complete slender instrument has a continuous fine shaft, textured central grip and tiny oval concave working cup, repeated consistently in a large tip inset; there is no scalpel blade or household-spoon proportion. Concavity remains legible in the120 thumbnail through the inset, with cool-white/mint clinical style. This accepts the selected spoon-ended curette noun example only, not edge sharpness, sterility or a clinical scraping technique.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "burner",
+      "sourceWord": "burner",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "burner:meaning-1",
+          "pos": "n.",
+          "en": "A device that supplies and burns fuel with air to produce heat in equipment such as a furnace."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The burner supplies heat to the furnace chamber.",
+          "senseId": "burner:meaning-1"
+        },
+        {
+          "en": "Its head receives fuel and combustion air through separate connections.",
+          "senseId": "burner:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/burner.webp",
+        "sha256": "13eeca881df78d576d517f57915f3742fe807526f511ecdbbcc78139319e1e2a"
+      },
+      "visual": {
+        "expectedCue": "Complete industrial fuel/air burner mounted through chamber wall, joined air housing/head/fuel connection and short flame only from nozzle inside chamber; device distinct from whole furnace.",
+        "decision": "added",
+        "reason": "Actually viewed original1254 and converted512WebP/120PNG. Entire amber industrial burner housing/motor and joined cylindrical head are supported on a grounded stand and bolted chamber flange; smaller pipe joins underside head. Nozzle projects through same wall aperture into firebrick chamber and short flame begins at nozzle inside, not through solid wall. Burner device distinct from grey whole chamber120. Slate/silver/amber precise technical section, no labels/readings. Qualitative connected heating-device example; concealed blower/fuel internals, exact combustion-air inlet, fuel-train safety, flame chemistry and heat output not qualified.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed original1254 and converted512WebP/120PNG. Entire amber industrial burner housing/motor and joined cylindrical head are supported on a grounded stand and bolted chamber flange; smaller pipe joins underside head. Nozzle projects through same wall aperture into firebrick chamber and short flame begins at nozzle inside, not through solid wall. Burner device distinct from grey whole chamber120. Slate/silver/amber precise technical section, no labels/readings. Qualitative connected heating-device example; concealed blower/fuel internals, exact combustion-air inlet, fuel-train safety, flame chemistry and heat output not qualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T12:49:18.849Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "13eeca881df78d576d517f57915f3742fe807526f511ecdbbcc78139319e1e2a",
+          "inspectedAt": "2026-10-30T12:52:55.406Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually inspected original1254/512/120. Complete burner assembly is visually distinct from furnace: motor/blower housing and head are continuously supported on a bolted stand, head flange joins chamber wall, lower pipe joins head, and nozzle/flame region lies inside the refractory-lined chamber context. Amber burner selected against silver/slate equipment, teaching focus remains clear120. Exact air-inlet route and concealed mixing/nozzle mechanics are not exposed; illustrative flame is not evidence of real operation, efficiency, emissions or thermal/safety qualification.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "flue",
+      "sourceWord": "flue",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "flue:meaning-1",
+          "pos": "n.",
+          "en": "An enclosed passage that carries combustion gases from heating equipment to the outside."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The flue carries combustion gases from the boiler to the outdoors.",
+          "senseId": "flue:meaning-1"
+        },
+        {
+          "en": "The chimney surrounds the inner gas passage in this system.",
+          "senseId": "flue:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/flue.webp",
+        "sha256": "b4186c08ee1ead5ae8042b6d7723e897f94a455bca326a8e8331fc0a1cf1b074"
+      },
+      "visual": {
+        "expectedCue": "One continuous hollow combustion-gas flue from heating-appliance chamber through lined chimney/roof to open exterior termination; bounded section distinguishes passage from chimney and indoor ventilation.",
+        "decision": "added",
+        "reason": "Actually viewed distinct builtin derivative original1254,512WebP and120PNG. Dark hollow passage starts at heating-chamber upper outlet, curves into lined chimney and continues through roof to open exterior mouth beneath ventilated cap. Amber walls/rim and two upward lumen arrows distinguish passage from outer neutral masonry and burner context; no blind cap or room outlet. Route visible120. Bounded cutaway explanatory, not leak. Slate/silver/amber precise technical style. Generic heating appliance rather than exact boiler design; no draft rate, combustion, clearances, building-code or installation qualification.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed distinct builtin derivative original1254,512WebP and120PNG. Dark hollow passage starts at heating-chamber upper outlet, curves into lined chimney and continues through roof to open exterior mouth beneath ventilated cap. Amber walls/rim and two upward lumen arrows distinguish passage from outer neutral masonry and burner context; no blind cap or room outlet. Route visible120. Bounded cutaway explanatory, not leak. Slate/silver/amber precise technical style. Generic heating appliance rather than exact boiler design; no draft rate, combustion, clearances, building-code or installation qualification."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:29:13.263Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b4186c08ee1ead5ae8042b6d7723e897f94a455bca326a8e8331fc0a1cf1b074",
+          "inspectedAt": "2026-10-30T13:33:36.224Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually inspected original1254/512/120. Hollow dark passage opens from upper heating-chamber region, turns through connected lined elbow, rises continuously inside neutral chimney and ends outdoors below an open-sided cap above roof. Two upward arrows stay within same lumen; no blind top cap, room outlet or arrows through solid wall. Amber liner/inner-wall focus distinguishes flue passage from outer chimney and neutral burner, readable120. Explanatory cutaway and generic heating context, no boiler internals, draft, clearance, code or installation/performance qualification. Fresh derivative review, no inherited template acceptance.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "heat-shield",
+      "sourceWord": "heat shield",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "heat-shield:meaning-1",
+          "pos": "n.",
+          "en": "A barrier placed between a heat source and another part or space to reduce the heat reaching it."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The heat shield separates the cable harness from the hot exhaust manifold.",
+          "senseId": "heat-shield:meaning-1"
+        },
+        {
+          "en": "A reflective surface can reduce radiant heat reaching the protected part.",
+          "senseId": "heat-shield:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/heat-shield.webp",
+        "sha256": "90ddb8b32a99747113a48578d8ae36664c4952448f54910175cb27f5fbcb377c"
+      },
+      "visual": {
+        "expectedCue": "Supported continuous metal barrier physically between exhaust manifold and cable harness, visible air gap and stand-off brackets, not insulation bulk or cooling device.",
+        "decision": "added",
+        "reason": "Actually inspected original1254, card512 and thumbnail120. Continuous formed amber sheet lies between grey exhaust manifold and separate dark cable harness, supported by two stand-off brackets with visible air gap. Whole shield within frame; distinguishable thin barrier rather than bulk wrap or cooling device. Bracket bolts and cable clip coherent; no heat performance or exact vehicle design qualification. Slate/silver/amber engineering style remains clear at120. AI editorial inspection only; specialist/human review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254, card512 and thumbnail120. Continuous formed amber sheet lies between grey exhaust manifold and separate dark cable harness, supported by two stand-off brackets with visible air gap. Whole shield within frame; distinguishable thin barrier rather than bulk wrap or cooling device. Bracket bolts and cable clip coherent; no heat performance or exact vehicle design qualification. Slate/silver/amber engineering style remains clear at120. AI editorial inspection only; specialist/human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:43:28.235Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "90ddb8b32a99747113a48578d8ae36664c4952448f54910175cb27f5fbcb377c",
+          "inspectedAt": "2026-10-30T13:46:21.943Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually inspected original1254/512/120. Continuous amber thin shield plate physically interposes between grey exhaust-manifold branches and dark protected cable harness, with visible air gap behind plate and two joined stand-off bracket/bolt contacts. Separate harness clip is supported on protected side. Shield fully framed/readable120 while manifold/harness context edges crop; no floating plate, bulk insulation or cooling device. Precise slate/silver/amber style. No measured radiation reduction, full thermal isolation, material/fastener capacity or installation/safety qualification.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "thermowell",
+      "sourceWord": "thermowell",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "thermowell:meaning-1",
+          "pos": "n.",
+          "en": "A closed-ended protective fitting that houses a temperature probe while separating it from the process fluid."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The thermowell separates the temperature probe from fluid inside the pipe.",
+          "senseId": "thermowell:meaning-1"
+        },
+        {
+          "en": "Heat passes through its closed tip to the sensing element.",
+          "senseId": "thermowell:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/thermowell.webp",
+        "sha256": "79bbf3a7cce92ee6af42f5ae970b45987ee5d309b2c0154aa45742eca14ec5c9"
+      },
+      "visual": {
+        "expectedCue": "Amber closed-ended protective well houses distinct thin silver temperature probe; cutaway exposes blind bore and intact closed process-side metal tip, no through passage or probe crossing.",
+        "decision": "added",
+        "reason": "Actually inspected original1254,512WebP,120PNG. Distinct thin silver probe runs continuously inside the blind bore; amber section wall ends in a clearly intact solid rounded process-side floor, and neither probe nor bore crosses it. Hex/threaded mounting region and full protective well are visible; only the probe's remote rear extension leaves the frame. Cutaway is explanatory, not an open fluid route. Closed protective boundary and inner probe remain distinct120 in slate/silver/amber language. Exact clearance, thermal response, thread fit, pressure integrity or operation is not qualified.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254,512WebP,120PNG. Distinct thin silver probe runs continuously inside the blind bore; amber section wall ends in a clearly intact solid rounded process-side floor, and neither probe nor bore crosses it. Hex/threaded mounting region and full protective well are visible; only the probe's remote rear extension leaves the frame. Cutaway is explanatory, not an open fluid route. Closed protective boundary and inner probe remain distinct120 in slate/silver/amber language. Exact clearance, thermal response, thread fit, pressure integrity or operation is not qualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T12:25:44.906Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "79bbf3a7cce92ee6af42f5ae970b45987ee5d309b2c0154aa45742eca14ec5c9",
+          "inspectedAt": "2026-10-30T12:36:25.505Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Distinct thin silver probe runs inside one blind bore; amber section wall continues into intact rounded closed process-side floor, no through-fluid hole or probe crossing. Full well/hex/thread visible; remote probe extension alone leaves frame. Closed protective fitting distinct120 and precise slate/silver/amber style. No exact clearance, fit, thermal response or pressure-integrity claim.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "pressure-switch",
+      "sourceWord": "pressure switch",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "pressure-switch:meaning-1",
+          "pos": "n.",
+          "en": "An electrical switch that changes state when the pressure acting on it reaches a specified switching point."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pressure switch sends an on-off signal when the tank pressure reaches its switching point.",
+          "senseId": "pressure-switch:meaning-1"
+        },
+        {
+          "en": "In a mechanical type, a diaphragm moves a contact mechanism.",
+          "senseId": "pressure-switch:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pressure-switch.webp",
+        "sha256": "7e30cc341320d7a64d1a4b78a7983c7bd5063575349e08467678b6c8da208ae7"
+      },
+      "visual": {
+        "expectedCue": "Upper terminal connects by visible flexible braid to moving metal contact carried by insulating actuation lever; isolated fixed contact connects lower terminal. Pressure diaphragm/spring mechanism remains coherent and contact gap open.",
+        "decision": "added",
+        "reason": "Actually inspected edit2 original1254/512/120. New continuous copper braid visibly joins upper terminal fastener to the moving metal contact holder; that holder sits on a dark insulating actuation lever, separating its electrical route from pivot/pushrod. Lower fixed button has a visible metal route to lower terminal on dark supports. Open contact gap remains, with braid clear of lower contact and spring. Pressure chamber/continuous diaphragm/centre rod/seated spring retained. Basic contact/terminal distinctions checked against OMRON primary technical terms; original geometry, not copied drawing. No energized operation, insulation rating, setpoint or force qualification. Candidate1 disconnected-route negative retained.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected edit2 original1254/512/120. New continuous copper braid visibly joins upper terminal fastener to the moving metal contact holder; that holder sits on a dark insulating actuation lever, separating its electrical route from pivot/pushrod. Lower fixed button has a visible metal route to lower terminal on dark supports. Open contact gap remains, with braid clear of lower contact and spring. Pressure chamber/continuous diaphragm/centre rod/seated spring retained. Basic contact/terminal distinctions checked against OMRON primary technical terms; original geometry, not copied drawing. No energized operation, insulation rating, setpoint or force qualification. Candidate1 disconnected-route negative retained."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T12:44:06.574Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7e30cc341320d7a64d1a4b78a7983c7bd5063575349e08467678b6c8da208ae7",
+          "inspectedAt": "2026-10-30T13:07:26.668Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed currentoriginal1254,512WebP and120PNG independently. Corrected copper braid visibly joins upper terminal to moving metal contact holder on dark insulating actuation lever. Separate lower fixed contact route reaches lower terminal on dark supports; contact gap remains, no braid short. Intact diaphragm/dead-end pressure chamber/pushrod/seated spring retained. Relationships clear120, slate/silver/amber technical section. No setpoint, force, energized operation or rated insulation qualification; prior negative preserved.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "float-switch",
+      "sourceWord": "float switch",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "float-switch:meaning-1",
+          "pos": "n.",
+          "en": "A liquid-level switch operated by a buoyant float that moves as the liquid level changes."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The float switch detects a change in the liquid level in the tank.",
+          "senseId": "float-switch:meaning-1"
+        },
+        {
+          "en": "In this stem-mounted type, a magnet in the float operates a switch inside the stem.",
+          "senseId": "float-switch:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/float-switch.webp",
+        "sha256": "00bb089319226cf1ec792213ce48d178f8b798d1b588b9603039c36713f78f95"
+      },
+      "visual": {
+        "expectedCue": "Buoyant amber annular float straddles liquid level around mounted closed vertical stem, embedded magnet distinct from small reed contact inside stem; no float valve or ungrounded parts.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/512/120. Complete fixed top-mounted stem extends to a closed submerged tip, annular amber float straddles liquid level with visible clearance and retaining collar below. Sectional reveals distinguish a magnet embedded in float from a glass reed within stem. This static float level is not claimed to actuate the reed at the pictured relative positions; exact magnetic coupling, switch state and concealed wiring are unqualified. Tank and stem contacts/level context coherent, float cue clear120. Predominant slate/silver/amber with restrained blue-grey liquid; top cable/context edge crops do not remove the sensor.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254/512/120. Complete fixed top-mounted stem extends to a closed submerged tip, annular amber float straddles liquid level with visible clearance and retaining collar below. Sectional reveals distinguish a magnet embedded in float from a glass reed within stem. This static float level is not claimed to actuate the reed at the pictured relative positions; exact magnetic coupling, switch state and concealed wiring are unqualified. Tank and stem contacts/level context coherent, float cue clear120. Predominant slate/silver/amber with restrained blue-grey liquid; top cable/context edge crops do not remove the sensor."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T12:33:34.423Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "00bb089319226cf1ec792213ce48d178f8b798d1b588b9603039c36713f78f95",
+          "inspectedAt": "2026-10-30T13:44:48.618Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/card512/thumb120. Amber annular float straddles waterline around fixed top-mounted closed-tip stem with clearance and lower retaining collar. Embedded float magnet distinct from stem reed reveal; no valve or disconnected floating sensor. Current relative magnet/reed heights do not assert triggered state, switching distance or hidden wiring. Buoyancy/level cue remains clear120; engineering slate silver amber with subdued water. AI editorial review only; human/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "reed-switch",
+      "sourceWord": "reed switch",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "reed-switch:meaning-1",
+          "pos": "n.",
+          "en": "An electrical switch with flexible metal contacts enclosed in a sealed capsule and operated by a magnetic field."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The reed switch changes contact state when a magnet approaches.",
+          "senseId": "reed-switch:meaning-1"
+        },
+        {
+          "en": "Its sealed glass capsule surrounds two overlapping metal reeds.",
+          "senseId": "reed-switch:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/reed-switch.webp",
+        "sha256": "10c0423c7ec8c0180ebc4efd15f342248bf26b509572c70b8102233edb9d6963"
+      },
+      "visual": {
+        "expectedCue": "Two opposite-lead reeds now overlap lengthwise one above the other with a small vertical open contact gap inside sealed capsule; source overlapping-reeds sense must be actual.",
+        "decision": "added",
+        "reason": "Actually inspected corrected original1254/512/120. Two independent amber blades remain continuous to opposite sealed leads and now overlap lengthwise, upper blade above lower with a visible narrow gap in original/card. Glass capsule stays intact, no crossed contacts or coil. At120 the sealed two-contact component remains clear though the tiny contact gap is not a calibrated reading. Separate unmarked magnet is context only, not proof of a trigger distance/state. Candidate1 end-to-end gap rejection retained; slate/silver/amber style consistent.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected corrected original1254/512/120. Two independent amber blades remain continuous to opposite sealed leads and now overlap lengthwise, upper blade above lower with a visible narrow gap in original/card. Glass capsule stays intact, no crossed contacts or coil. At120 the sealed two-contact component remains clear though the tiny contact gap is not a calibrated reading. Separate unmarked magnet is context only, not proof of a trigger distance/state. Candidate1 end-to-end gap rejection retained; slate/silver/amber style consistent."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T12:41:12.705Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "10c0423c7ec8c0180ebc4efd15f342248bf26b509572c70b8102233edb9d6963",
+          "inspectedAt": "2026-10-30T13:44:48.630Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected corrected2 original1254/card512/thumb120. Continuous opposite leads enter sealed glass capsule and separate upper/lower amber reeds visibly overlap with a narrow open vertical gap, correcting end-to-end1. At120 component silhouette and sealed contacts remain legible; not precision gap reading. Separate unmarked magnet is context without field/state claim; no relay coil. Engineering slate silver amber coherent. AI editorial review only; human/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "pressure-transmitter",
+      "sourceWord": "pressure transmitter",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "pressure-transmitter:meaning-1",
+          "pos": "n.",
+          "en": "An instrument that measures pressure and sends a corresponding electrical measurement signal to another device."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pressure transmitter sends a measurement signal to the controller.",
+          "senseId": "pressure-transmitter:meaning-1"
+        },
+        {
+          "en": "A threaded process connection couples the instrument to the pipe.",
+          "senseId": "pressure-transmitter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pressure-transmitter.webp",
+        "sha256": "7471808ebe78a6daea6ac0c318c0ccab634cdbc83f2e217410c425bfb822880b"
+      },
+      "visual": {
+        "expectedCue": "Sensing pad flat underside visibly bonds directly to dry diaphragm centre with no gap, fine leads to supported electronics; open pressure inlet and intact diaphragm retained.",
+        "decision": "added",
+        "reason": "Actually inspected FINAL3 original1254/512/120. Small sensing pad now has a flat underside abutting the gold dry diaphragm surface, with no visible slate air gap beneath; both fine leads join supported electronics and upper output leads continue to cable connector. Continuous bottom inlet remains open up to intact diaphragm, keeping wet/dry boundary. Qualitative sensing attachment/output route is now shown; exact die construction, circuit, bonding process, calibration/pressure integrity and operation are not qualified. Prior blocked-inlet1 and floating-pad2 negatives retained. No further calls allowed.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected FINAL3 original1254/512/120. Small sensing pad now has a flat underside abutting the gold dry diaphragm surface, with no visible slate air gap beneath; both fine leads join supported electronics and upper output leads continue to cable connector. Continuous bottom inlet remains open up to intact diaphragm, keeping wet/dry boundary. Qualitative sensing attachment/output route is now shown; exact die construction, circuit, bonding process, calibration/pressure integrity and operation are not qualified. Prior blocked-inlet1 and floating-pad2 negatives retained. No further calls allowed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:15:54.276Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7471808ebe78a6daea6ac0c318c0ccab634cdbc83f2e217410c425bfb822880b",
+          "inspectedAt": "2026-10-30T13:44:48.604Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected FINAL3 original1254/card512/thumb120. Open threaded bottom bore reaches intact amber diaphragm; sensing pad flat underside now touches its dry face with no slate gap, two fine leads meet supported electronics, output conductors reach connector. Distinct pressure input and electrical output teaching cue; not a gauge or radio. Prior capped inlet1/floating pad2 negatives retained. No calibration, pressure integrity or exact circuit qualification. Slate silver amber clear across sizes. AI editorial review only; human/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "pneumatic-gripper",
+      "sourceWord": "pneumatic gripper",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "pneumatic-gripper:meaning-1",
+          "pos": "n.",
+          "en": "A mechanical gripping device whose jaws or fingers are moved by compressed air to hold and release a workpiece."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pneumatic gripper holds the workpiece between two jaws.",
+          "senseId": "pneumatic-gripper:meaning-1"
+        },
+        {
+          "en": "Compressed air drives the internal mechanism that opens and closes the fingers.",
+          "senseId": "pneumatic-gripper:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pneumatic-gripper.webp",
+        "sha256": "7cad3ca683cfbebe0431cf2f073a69b1be170e0d2b5d17035c1e34bd290c9a93"
+      },
+      "visual": {
+        "expectedCue": "Two guided jaw carriers/fingers on a pneumatic body visibly contact opposite faces of one workpiece; real guide/mount connections, side air fittings, no vacuum pad, plier handle or ungrounded parts.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/512/120. Two separate seated sliding carriers support bolted upright fingers, and both inner pads meet opposite faces of the single rectangular workpiece. Body rests on a common base; two side air fittings are distinct, with a tube attached to upper fitting. External mechanical grip/pneumatic context is clear120 and differs from vacuum cup/chuck/pliers. Internal piston/guide transmission and operating force/pressure are concealed and unqualified; no fake circuit/readings. Slate/silver/amber product language consistent.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254/512/120. Two separate seated sliding carriers support bolted upright fingers, and both inner pads meet opposite faces of the single rectangular workpiece. Body rests on a common base; two side air fittings are distinct, with a tube attached to upper fitting. External mechanical grip/pneumatic context is clear120 and differs from vacuum cup/chuck/pliers. Internal piston/guide transmission and operating force/pressure are concealed and unqualified; no fake circuit/readings. Slate/silver/amber product language consistent."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T12:57:51.052Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7cad3ca683cfbebe0431cf2f073a69b1be170e0d2b5d17035c1e34bd290c9a93",
+          "inspectedAt": "2026-10-30T13:46:29.056Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/card512/thumb120. Two seated guided carriers support bolted upright fingers, both inner pads contact opposite faces of one block. Air fittings and joined tube distinguish pneumatic mechanical grip; common base and guides coherent. No vacuum pad, hand pliers or loose floating jaws. Hidden piston transmission/force/pressure unqualified. External grip and amber silver slate category cue remain clear120. AI editorial review only; human/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "suction-cup",
+      "sourceWord": "suction cup",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "suction-cup:meaning-1",
+          "pos": "n.",
+          "en": "A flexible cup that grips a surface by a pressure difference between its interior and the surrounding air."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The suction cup grips the flat sheet through a sealed contact at its rim.",
+          "senseId": "suction-cup:meaning-1"
+        },
+        {
+          "en": "A vacuum line removes air from the space beneath the cup.",
+          "senseId": "suction-cup:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/suction-cup.webp",
+        "sha256": "a3285e43f58fe5705e4386d60ec9fb3c1dc5703df0dc3ec4811dae8e3de724a6"
+      },
+      "visual": {
+        "expectedCue": "Open-bottom amber cup cavity bounded underneath by the same neutral silver workpiece plate; no amber membrane/floor, lip touches plate and vacuum bore reaches airspace.",
+        "decision": "added",
+        "reason": "Actually inspected corrected original1254/512/120. The same neutral metal sheet is now clearly visible across the open cup cavity floor, with no amber membrane. Amber elastomer wall/lip meets sheet on intact boundary; top connector bore leads into hollow airspace and tube is joined. Removed front section is explanatory, not an actual open leaking cup. Contact/void relation and slate/silver/amber style read120; exact sealing, vacuum, material compliance and grip force are unqualified. Candidate1 ambiguous amber floor retained.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected corrected original1254/512/120. The same neutral metal sheet is now clearly visible across the open cup cavity floor, with no amber membrane. Amber elastomer wall/lip meets sheet on intact boundary; top connector bore leads into hollow airspace and tube is joined. Removed front section is explanatory, not an actual open leaking cup. Contact/void relation and slate/silver/amber style read120; exact sealing, vacuum, material compliance and grip force are unqualified. Candidate1 ambiguous amber floor retained."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:07:25.013Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a3285e43f58fe5705e4386d60ec9fb3c1dc5703df0dc3ec4811dae8e3de724a6",
+          "inspectedAt": "2026-10-30T13:46:29.070Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected corrected2 original1254/card512/thumb120. Hollow amber elastomer wall opens onto the same silver workpiece sheet, no amber floor across cavity; continuous lip meets sheet and top hollow connector joins airspace/tube. Removed front quarter is explanatory section, not literal leaking cup. Distinct flexible cup vs gripper/pump. No vacuum or seal-force performance claim; prior floor ambiguity1 retained. Slate silver amber teaching cue clear120. AI editorial review only; human/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "pneumatic-silencer",
+      "sourceWord": "pneumatic silencer",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "pneumatic-silencer:meaning-1",
+          "pos": "n.",
+          "en": "A component fitted to a compressed-air exhaust to reduce noise as the air is released."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pneumatic silencer reduces noise at the valve exhaust.",
+          "senseId": "pneumatic-silencer:meaning-1"
+        },
+        {
+          "en": "Air passes through the porous body of this compact type.",
+          "senseId": "pneumatic-silencer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pneumatic-silencer.webp",
+        "sha256": "d72fc74c02bb42e36a0b56621b88ed6a6a4edcbba5baec449dbc86fd2db84f63"
+      },
+      "visual": {
+        "expectedCue": "Silencer lower threaded connector section exposes open bottom bore continuous into inner cavity; porous metallic wall/top joined, no blind-floor blockage.",
+        "decision": "added",
+        "reason": "Actually inspected corrected original1254/512/120. Front section now continues through the entire threaded shank to an open bottom inlet, joining the hollow inner body cavity without former blind floor. Porous wall and rounded porous top are one connected amber metallic body, joined to hex mount; no second port or mesh basket. Texture is an explanatory enlarged porosity cue, not a measured sintered microstructure/grain/pore size. Distinct exhaust-silencer form clear120 in slate/silver/amber style. No sound attenuation, filtration, flow or pressure-drop performance claim; candidate1 blockage negative retained.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected corrected original1254/512/120. Front section now continues through the entire threaded shank to an open bottom inlet, joining the hollow inner body cavity without former blind floor. Porous wall and rounded porous top are one connected amber metallic body, joined to hex mount; no second port or mesh basket. Texture is an explanatory enlarged porosity cue, not a measured sintered microstructure/grain/pore size. Distinct exhaust-silencer form clear120 in slate/silver/amber style. No sound attenuation, filtration, flow or pressure-drop performance claim; candidate1 blockage negative retained."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:21:04.969Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d72fc74c02bb42e36a0b56621b88ed6a6a4edcbba5baec449dbc86fd2db84f63",
+          "inspectedAt": "2026-10-30T13:46:29.082Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected corrected2 original1254/card512/thumb120. Section shows threaded inlet bore open through lower connector into hollow porous rounded body; no former blind blocking floor. Porous amber walls/top connected to silver hex mount, one inlet distinct from inline filter. Porosity qualitative enlarged cue, not sintered micrograph/flow/sound rating. Open cavity and engineering silhouette legible120; prior blockage1 retained. AI editorial review only; human/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "solenoid-valve",
+      "sourceWord": "solenoid valve",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "solenoid-valve:meaning-1",
+          "pos": "n.",
+          "en": "A valve that uses an electromagnetic solenoid to control the passage of a liquid or gas."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The solenoid valve opens or closes the fluid passage in response to an electrical signal.",
+          "senseId": "solenoid-valve:meaning-1"
+        },
+        {
+          "en": "In this direct-acting type, the moving core lifts the seal from its seat.",
+          "senseId": "solenoid-valve:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/solenoid-valve.webp",
+        "sha256": "ed8cb73108c10f78e5ce3ec2d9a1c76d2283bf47276b187601be35ec5e21b15c"
+      },
+      "visual": {
+        "expectedCue": "Sectioned annular valve seat exposes real vertical orifice continuous from lower inlet cavity to underside of closed seal; right upper chamber separate, no solid post or bypass.",
+        "decision": "added",
+        "reason": "Actually inspected corrected original1254/512/120. Section now exposes a real central vertical orifice continuous from the lower inlet cavity to the underside of the closed black seal; seat is annular, not former solid post. Upper right chamber joins right port above partition, no evident main-chamber bypass. Continuous core reaches seal, spring has end seats, windings are outside joined guide tube, electrical connector distinct. Other casting recess/hidden geometry is not assigned a flow function. Static qualitative valve construction only, no energized state, leak/pressure or full magnetic/kinematic certification. Candidate1 seat ambiguity retained; exact slate/silver/amber cue legible120.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected corrected original1254/512/120. Section now exposes a real central vertical orifice continuous from the lower inlet cavity to the underside of the closed black seal; seat is annular, not former solid post. Upper right chamber joins right port above partition, no evident main-chamber bypass. Continuous core reaches seal, spring has end seats, windings are outside joined guide tube, electrical connector distinct. Other casting recess/hidden geometry is not assigned a flow function. Static qualitative valve construction only, no energized state, leak/pressure or full magnetic/kinematic certification. Candidate1 seat ambiguity retained; exact slate/silver/amber cue legible120."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T13:29:42.246Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ed8cb73108c10f78e5ce3ec2d9a1c76d2283bf47276b187601be35ec5e21b15c",
+          "inspectedAt": "2026-10-30T13:46:29.093Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected corrected2 original1254/card512/thumb120. Lower left inlet cavity rises through genuine central vertical orifice to underside of closed black seal; annular seat replaces solid post. Upper right chamber joins right port and is separated from lower inlet. Plunger reaches seal, spring seated, coil surrounds joined guide tube, separate connector; no main bypass apparent. Static illustrative construction only, not energized operation/leak/circuit qualification. Slate silver amber coherent120; prior seat1 negative retained. AI editorial review only; human/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
     }
   ]
 }

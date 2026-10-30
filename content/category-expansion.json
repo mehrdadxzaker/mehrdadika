@@ -4736,7 +4736,127 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 442,
+      "targetCategoryWords": 454,
+      "entryIds": [
+        "digestion",
+        "absorption",
+        "clot",
+        "inflammation",
+        "dermatoscope",
+        "slit-lamp",
+        "ultrasound-probe",
+        "microplate",
+        "retractor",
+        "haemostat",
+        "needle-holder",
+        "curette"
+      ],
+      "units": [
+        {
+          "id": "medical-basic-physiology",
+          "title": "Basic physiology",
+          "entryIds": [
+            "digestion",
+            "absorption",
+            "clot",
+            "inflammation"
+          ]
+        },
+        {
+          "id": "medical-diagnostic-laboratory-devices",
+          "title": "Diagnostic and laboratory devices",
+          "entryIds": [
+            "dermatoscope",
+            "slit-lamp",
+            "ultrasound-probe",
+            "microplate"
+          ]
+        },
+        {
+          "id": "medical-surgical-instruments",
+          "title": "Surgical instruments",
+          "entryIds": [
+            "retractor",
+            "haemostat",
+            "needle-holder",
+            "curette"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-35-ready-1",
+      "releaseId": "2026-10-preview-41",
+      "status": "published-preview",
+      "objective": "Learn Basic physiology; Diagnostic and laboratory devices; Surgical instruments in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 441,
+      "targetCategoryWords": 453,
+      "entryIds": [
+        "burner",
+        "flue",
+        "heat-shield",
+        "thermowell",
+        "pressure-switch",
+        "float-switch",
+        "reed-switch",
+        "pressure-transmitter",
+        "pneumatic-gripper",
+        "suction-cup",
+        "pneumatic-silencer",
+        "solenoid-valve"
+      ],
+      "units": [
+        {
+          "id": "thermal-components-and-protection",
+          "title": "Thermal components and protection",
+          "entryIds": [
+            "burner",
+            "flue",
+            "heat-shield",
+            "thermowell"
+          ]
+        },
+        {
+          "id": "process-switches-and-transmitters",
+          "title": "Process switches and transmitters",
+          "entryIds": [
+            "pressure-switch",
+            "float-switch",
+            "reed-switch",
+            "pressure-transmitter"
+          ]
+        },
+        {
+          "id": "pneumatic-handling-and-control",
+          "title": "Pneumatic handling and control",
+          "entryIds": [
+            "pneumatic-gripper",
+            "suction-cup",
+            "pneumatic-silencer",
+            "solenoid-valve"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-35-ready-1",
+      "releaseId": "2026-10-preview-41",
+      "status": "published-preview",
+      "objective": "Learn Thermal components and protection; Process switches and transmitters; Pneumatic handling and control in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-34-ready-1"
+  "activePassId": "specialist-500-batch-35-ready-1"
 }
