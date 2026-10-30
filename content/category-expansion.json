@@ -4276,7 +4276,101 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 397,
+      "targetCategoryWords": 409,
+      "entryIds": [
+        "caecum",
+        "appendix",
+        "colon",
+        "rectum",
+        "duodenum",
+        "jejunum",
+        "ileum",
+        "peritoneum",
+        "mesentery",
+        "common-bile-duct",
+        "hepatic-portal-vein",
+        "ileocaecal-valve"
+      ],
+      "units": [
+        {
+          "id": "medical-digestive-anatomy",
+          "title": "Digestive tract and supporting anatomy",
+          "entryIds": [
+            "caecum",
+            "appendix",
+            "colon",
+            "rectum",
+            "duodenum",
+            "jejunum",
+            "ileum",
+            "peritoneum",
+            "mesentery",
+            "common-bile-duct",
+            "hepatic-portal-vein",
+            "ileocaecal-valve"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-31-ready-1",
+      "releaseId": "2026-10-preview-36",
+      "status": "published-preview",
+      "objective": "Describe gastrointestinal anatomy and fluid-system components and properties in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 394,
+      "targetCategoryWords": 405,
+      "entryIds": [
+        "diffuser",
+        "globe-valve",
+        "plug-valve",
+        "centrifugal-pump",
+        "gear-pump",
+        "diaphragm-pump",
+        "pressure-relief-valve",
+        "foot-valve",
+        "ventilation",
+        "viscosity",
+        "cavitation"
+      ],
+      "units": [
+        {
+          "id": "engineering-pumps-valves-and-flow",
+          "title": "Pumps, valves and fluid-system concepts",
+          "entryIds": [
+            "diffuser",
+            "globe-valve",
+            "plug-valve",
+            "centrifugal-pump",
+            "gear-pump",
+            "diaphragm-pump",
+            "pressure-relief-valve",
+            "foot-valve",
+            "ventilation",
+            "viscosity",
+            "cavitation"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-31-ready-1",
+      "releaseId": "2026-10-preview-36",
+      "status": "published-preview",
+      "objective": "Describe gastrointestinal anatomy and fluid-system components and properties in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-30"
+  "activePassId": "specialist-500-batch-31-ready-1"
 }
