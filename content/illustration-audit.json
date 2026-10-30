@@ -46702,6 +46702,483 @@
           "reviewerId": "/root"
         }
       }
+    },
+    {
+      "entryId": "inspection",
+      "sourceWord": "inspection",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "inspection:meaning-1",
+          "pos": "n.",
+          "en": "The part of a clinical examination in which a clinician carefully looks at the body or a body region."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The nurse began the examination with inspection of the patient’s hands.",
+          "senseId": "inspection:meaning-1"
+        },
+        {
+          "en": "The clinician recorded the skin colour and shape before touching the arm.",
+          "senseId": "inspection:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/inspection.webp",
+        "sha256": "0d237af22ea3b19ddcd855e4753697c0f52182dd2d96742b68ccc26918961767"
+      },
+      "visual": {
+        "expectedCue": "Clinician visually examines an intact supported forearm with gaze directed to skin and hands kept away; clinical inspection distinct from touch.",
+        "decision": "added",
+        "reason": "Actually viewed original1254, converted512WebP and120PNG: clinician bends with gaze directed to patient's supported palm-up forearm; both clinician hands remain on own knee/clipboard, visibly separate from skin. Forearm/hand and two adults are coherent; no palpation, instrument, lesion or diagnostic result. Clear clinical looking cue survives thumbnail; blank clipboard is essential observation context, no plant/art/labels or fake readings. AI visual inspection only, not medical qualification.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254, converted512WebP and120PNG: clinician bends with gaze directed to patient's supported palm-up forearm; both clinician hands remain on own knee/clipboard, visibly separate from skin. Forearm/hand and two adults are coherent; no palpation, instrument, lesion or diagnostic result. Clear clinical looking cue survives thumbnail; blank clipboard is essential observation context, no plant/art/labels or fake readings. AI visual inspection only, not medical qualification."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T03:55:37.335Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0d237af22ea3b19ddcd855e4753697c0f52182dd2d96742b68ccc26918961767",
+          "inspectedAt": "2026-10-30T03:56:09.890Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual original1254,512WebP and120PNG. Clinician gaze and head are directed at intact supported palm-up forearm; both hands remain visibly away on own knee/clipboard. Two people and visible limbs/hands are coherent; no contact, device, lesion or diagnosis competes with looking. Cool-white clinical scene, restrained mint clothing/pale-blue context and soft precise human forms stay readable at thumbnail. Accepted only for clinical visual inspection; not human medical approval.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "palpation",
+      "sourceWord": "palpation",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "palpation:meaning-1",
+          "pos": "n.",
+          "en": "Examination of a body region with the hands to assess features such as texture, size or tenderness."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Palpation helped the clinician assess the lump beneath the skin.",
+          "senseId": "palpation:meaning-1"
+        },
+        {
+          "en": "The patient described where the arm felt tender during the examination.",
+          "senseId": "palpation:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/palpation.webp",
+        "sha256": "f7642ee2290e40d213b2f4390010d3c0f43a8cfbd5d0338fdc9ef499a4247fe6"
+      },
+      "visual": {
+        "expectedCue": "Examining finger pads contact supported forearm while other hand supports wrist; palpation distinct from inspection, percussion or massage.",
+        "decision": "added",
+        "reason": "Actually inspected original1254, converted512WebP and120PNG: clinician's relaxed examining finger pads rest visibly against volar forearm while other hand cups/supports wrist from below. Patient's open palm and clinician's hands are anatomically coherent; contact cue remains clear at120. No rubbing, squeezing, tapping, instruments, lesions or claimed result. Clinical soft realistic forms, cool-white/mint-blue setting without irrelevant props. This supports palpation as examination by touch, not certification of a particular technique.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually inspected original1254, converted512WebP and120PNG: clinician's relaxed examining finger pads rest visibly against volar forearm while other hand cups/supports wrist from below. Patient's open palm and clinician's hands are anatomically coherent; contact cue remains clear at120. No rubbing, squeezing, tapping, instruments, lesions or claimed result. Clinical soft realistic forms, cool-white/mint-blue setting without irrelevant props. This supports palpation as examination by touch, not certification of a particular technique."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T03:56:41.160Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f7642ee2290e40d213b2f4390010d3c0f43a8cfbd5d0338fdc9ef499a4247fe6",
+          "inspectedAt": "2026-10-30T03:57:16.299Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently inspected original1254, actual512WebP and120PNG. Examining finger pads make localized contact on the patient forearm while the other hand supports the wrist from below. Clinician looks at contact; patient arm/palm and hand connections are coherent, no instrument, strike, rubbing arrow or treatment cue. Touch distinction remains legible at120; cool-white precise clinical scene with mint/pale-blue matches brief. Qualitative exam context only, no prescribed pressure or diagnostic finding.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "auscultation",
+      "sourceWord": "auscultation",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "auscultation:meaning-1",
+          "pos": "n.",
+          "en": "Listening to sounds from inside the body as part of a clinical examination, usually with a stethoscope."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Auscultation allowed the clinician to listen to the patient’s breathing.",
+          "senseId": "auscultation:meaning-1"
+        },
+        {
+          "en": "The student practised recognising heart sounds with a stethoscope.",
+          "senseId": "auscultation:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/auscultation.webp",
+        "sha256": "4070a2101595389bc8356b6a16361d98302038ea9215fe8c220aa7ba21be9757"
+      },
+      "visual": {
+        "expectedCue": "Clinician listens through connected stethoscope with chestpiece contacting plain clinical training torso; simulation example of listening, not real patient results.",
+        "decision": "added",
+        "reason": "Actually inspected original1254, converted512WebP and120PNG: smooth molded training torso clearly distinguishable from a patient. Clinician's visible near-ear tip and far-side ear tube lead into Y and single tube ending behind holding hand at chestpiece; circular chestpiece rests against mannequin chest. Listening action and continuous device connection remain legible120. No anatomical finding, diagnostic reading, label or irrelevant prop. This is a clinical simulation example, not an actual patient examination or claim of real sound findings. Attempt1 produced no image after output moderation; exact failure preserved, this is attempt2.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually inspected original1254, converted512WebP and120PNG: smooth molded training torso clearly distinguishable from a patient. Clinician's visible near-ear tip and far-side ear tube lead into Y and single tube ending behind holding hand at chestpiece; circular chestpiece rests against mannequin chest. Listening action and continuous device connection remain legible120. No anatomical finding, diagnostic reading, label or irrelevant prop. This is a clinical simulation example, not an actual patient examination or claim of real sound findings. Attempt1 produced no image after output moderation; exact failure preserved, this is attempt2."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T04:00:11.040Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4070a2101595389bc8356b6a16361d98302038ea9215fe8c220aa7ba21be9757",
+          "inspectedAt": "2026-10-30T04:00:54.959Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254original/512WebP/120PNG. Clinician wears near-ear tip with far ear tube visible, Y merges into one tube traced to chestpiece behind the natural holding-hand occlusion. Chestpiece touches a smooth obviously molded training torso; this depicts clinical listening practice, not patient findings. Human hand/arm and device geometry coherent, no invented reading or disease, mint/cool-white brief and listening cue clear at120. Acceptance is limited to a simulation illustration; no claim the shown unbranded mannequin produces real body sounds.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "engineering-drawing",
+      "sourceWord": "engineering drawing",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "engineering-drawing:meaning-1",
+          "pos": "n.",
+          "en": "A technical representation that communicates a part or assembly through defined views, lines and related design information."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The engineering drawing shows the part from several directions.",
+          "senseId": "engineering-drawing:meaning-1"
+        },
+        {
+          "en": "The machinist checked the hole positions against the drawing.",
+          "senseId": "engineering-drawing:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/engineering-drawing.webp",
+        "sha256": "e92a3a655462d6ccbeffbfcc084dd64f3c33c7301d70853856d5c35b28b5b0f2"
+      },
+      "visual": {
+        "expectedCue": "Two aligned orthographic views of the same hollow sleeve: concentric-circle plan above a matching-width rectangular front elevation with aligned hidden bore edges; technical drawing line conventions, no invented dimensions.",
+        "decision": "added",
+        "reason": "Actually inspected original1254px,512WebP and120PNG. The upper plan is two concentric circles and the lower elevation a two-dimensional rectangle of the same outer width, with a common vertical centre axis. The inner circle's left/right extremes align with the two hidden bore-edge lines inside that elevation. There is no perspective ellipse or extra angled face. Silver outlines and hidden-line treatment, amber centre axes and unnumbered dimensional guide arrows establish an engineering drawing cue; no numerical dimension or production specification is asserted. Whole aligned views remain distinct at120px in the current slate/silver/amber brief. Projection guides are explanatory; this is a qualitative teaching drawing, not a complete standard-qualified manufacturing document.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254px,512WebP and120PNG. The upper plan is two concentric circles and the lower elevation a two-dimensional rectangle of the same outer width, with a common vertical centre axis. The inner circle's left/right extremes align with the two hidden bore-edge lines inside that elevation. There is no perspective ellipse or extra angled face. Silver outlines and hidden-line treatment, amber centre axes and unnumbered dimensional guide arrows establish an engineering drawing cue; no numerical dimension or production specification is asserted. Whole aligned views remain distinct at120px in the current slate/silver/amber brief. Projection guides are explanatory; this is a qualitative teaching drawing, not a complete standard-qualified manufacturing document."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T04:02:13.513Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e92a3a655462d6ccbeffbfcc084dd64f3c33c7301d70853856d5c35b28b5b0f2",
+          "inspectedAt": "2026-10-30T04:03:04.906Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed original1254,512WebP and120PNG. Circular outer/bore end view above rectangular elevation has matching outer width, common amber centre axis and hidden bore boundaries aligned to inner-circle extremes. Both views remain flat orthographic, no perspective ellipse or contradictory solid bore. Slate/silver/amber technical line language and qualitative unnumbered guides are legible120. Accepted as an instructional engineering drawing, not full standard-qualified manufacturing documentation; no numerical dimensions are invented.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "assembly-drawing",
+      "sourceWord": "assembly drawing",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "assembly-drawing:meaning-1",
+          "pos": "n.",
+          "en": "A technical drawing showing how the components of an assembly fit together in their assembled positions."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The assembly drawing shows how the bracket and fastener fit together.",
+          "senseId": "assembly-drawing:meaning-1"
+        },
+        {
+          "en": "Item numbers connect the components to a parts list.",
+          "senseId": "assembly-drawing:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/assembly-drawing.webp",
+        "sha256": "1ce421f10b1d50d1486f912eba7e9e76201910d774caaba5bd8e3382605617d3"
+      },
+      "visual": {
+        "expectedCue": "Corrected three-part assembly drawing: head and nut bearing faces actually seat on opposite bracket-web faces, no unexplained extra sliver;1/2/3 leaders remain exact.",
+        "decision": "added",
+        "reason": "Actually inspected corrected original1254px,512WebP and120PNG. The L bracket is one connected hatched solid; a continuous bolt passes through its upright web, with the head's right bearing boundary seated on the web's left face and the nut's left boundary seated on the opposite face. The earlier long exposed shank gap and unexplained pointed silver sliver are absent. Callouts1/2/3 each appear once and actually lead to bracket/bolt/nut respectively; no fourth component or washer is shown. The fasteners remain unhatched, the bracket's solid cut material hatched, and all three assembled relationships are readable120px in slate/silver/amber. Hidden thread engagement, preload, load rating, torque and manufacturing-standard completeness remain unqualified.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected corrected original1254px,512WebP and120PNG. The L bracket is one connected hatched solid; a continuous bolt passes through its upright web, with the head's right bearing boundary seated on the web's left face and the nut's left boundary seated on the opposite face. The earlier long exposed shank gap and unexplained pointed silver sliver are absent. Callouts1/2/3 each appear once and actually lead to bracket/bolt/nut respectively; no fourth component or washer is shown. The fasteners remain unhatched, the bracket's solid cut material hatched, and all three assembled relationships are readable120px in slate/silver/amber. Hidden thread engagement, preload, load rating, torque and manufacturing-standard completeness remain unqualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T04:06:10.325Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1ce421f10b1d50d1486f912eba7e9e76201910d774caaba5bd8e3382605617d3",
+          "inspectedAt": "2026-10-30T04:07:24.975Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently inspected corrected original1254,512WebP and120PNG. One continuous hatched L bracket surrounds the bolt hole; head bears on left web face and nut on opposite right face without the earlier reported floating gap. Bolt shank is continuous through web and protruding threaded end, with no unexplained extra part. Exact labels1/2/3 leaders point to bracket/bolt/nut; cut material hatch differs from unhatched fastener. Assembled relationship remains clear120 in slate/silver/amber. Hidden thread engagement, preload and manufacturing-standard approval are not established or claimed.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "exploded-view",
+      "sourceWord": "exploded view",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "exploded-view:meaning-1",
+          "pos": "n.",
+          "en": "A drawing in which assembly components are shown separated but arranged to explain their relative positions and connections."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The exploded view separates the parts along their assembly axis.",
+          "senseId": "exploded-view:meaning-1"
+        },
+        {
+          "en": "The technician identified the nut before looking at the assembled unit.",
+          "senseId": "exploded-view:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/exploded-view.webp",
+        "sha256": "e53ef04e3b35671a54ef3be4934a438e1f6ef0e2a7a41eef13e50510dcae757c"
+      },
+      "visual": {
+        "expectedCue": "Exactly3 complete joint components deliberately separated but coaxial: bolt→L-bracket through-hole→nut, with one shared explanatory assembly centreline.",
+        "decision": "added",
+        "reason": "Actually inspected original1254px,512WebP and120PNG. Exactly three complete components are deliberately separated: a continuous hex-head threaded bolt, one connected L bracket with an open upright bore, and one hex nut with a visible central opening. The amber assembly guide crosses the bolt axis and the central regions of both openings, making their intended mating relationship clear; the sequence has real air gaps rather than falsely seated contacts. The bracket and nut have shallow explanatory depth, not a measured CAD alignment or qualified fit. The solid parts and shared guide remain clear at120px in slate/silver/amber; no washer, debris, labels or numerical manufacturing information is added. This is a schematic exploded relationship, not a loaded connection, exact thread/pitch specification or assembly procedure.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254px,512WebP and120PNG. Exactly three complete components are deliberately separated: a continuous hex-head threaded bolt, one connected L bracket with an open upright bore, and one hex nut with a visible central opening. The amber assembly guide crosses the bolt axis and the central regions of both openings, making their intended mating relationship clear; the sequence has real air gaps rather than falsely seated contacts. The bracket and nut have shallow explanatory depth, not a measured CAD alignment or qualified fit. The solid parts and shared guide remain clear at120px in slate/silver/amber; no washer, debris, labels or numerical manufacturing information is added. This is a schematic exploded relationship, not a loaded connection, exact thread/pitch specification or assembly procedure."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T04:08:46.843Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e53ef04e3b35671a54ef3be4934a438e1f6ef0e2a7a41eef13e50510dcae757c",
+          "inspectedAt": "2026-10-30T04:10:00.602Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/512WebP/120PNG. Exactly a continuous head/shank bolt, connected L bracket with genuinely open bore and separate threaded nut are arranged with visible air gaps on one explanatory amber axis through their central openings. This clearly depicts deliberately separated assembly relationships rather than debris, a failed joint or assembled contact. The schematic shallow-depth views support intended alignment but do not establish measured fit, thread pitch or preload. Clear120 composition matches slate/silver/amber technical brief, with no extra washer or invented numbers.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "cross-section",
+      "sourceWord": "cross-section",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "cross-section:meaning-1",
+          "pos": "n.",
+          "en": "A view of a part's interior exposed by an imagined cutting plane through it."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cross-section reveals the hollow centre of the sleeve.",
+          "senseId": "cross-section:meaning-1"
+        },
+        {
+          "en": "Hatching marks the solid material cut by the plane.",
+          "senseId": "cross-section:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cross-section.webp",
+        "sha256": "b2beec067c5e362838f40669bc3d2edd2ef9a27deedc358fcc1c7259414f23da"
+      },
+      "visual": {
+        "expectedCue": "Transverse annular material section hatched only between concentric circles; hollow bore unhatched, linked byA/A-A to one cutting plane across the same sleeve elevation.",
+        "decision": "added",
+        "reason": "Actually inspected fresh derivative original1254px,512WebP and120PNG. The upper transverse annulus is hatched only in the solid sleeve wall; the central bore and exterior remain unhatched. Its outer/inner diameters still align with the lower elevation's outer edges and two hidden bore-edge lines. One horizontal cutting plane across the lower sleeve has two upward arrows labelledA, and exact captionA-A identifies the upper section; all fourA characters and hyphen were checked at original/512px. The lower elevation is not falsely filled with hatch. This shows an imagined transverse cut and material-versus-void distinction; no production dimension or drawing-standard qualification is claimed. The parent template supplied geometry/style only; this new section/hatching was separately inspected and remains clear120px.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected fresh derivative original1254px,512WebP and120PNG. The upper transverse annulus is hatched only in the solid sleeve wall; the central bore and exterior remain unhatched. Its outer/inner diameters still align with the lower elevation's outer edges and two hidden bore-edge lines. One horizontal cutting plane across the lower sleeve has two upward arrows labelledA, and exact captionA-A identifies the upper section; all fourA characters and hyphen were checked at original/512px. The lower elevation is not falsely filled with hatch. This shows an imagined transverse cut and material-versus-void distinction; no production dimension or drawing-standard qualification is claimed. The parent template supplied geometry/style only; this new section/hatching was separately inspected and remains clear120px."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T04:11:32.897Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b2beec067c5e362838f40669bc3d2edd2ef9a27deedc358fcc1c7259414f23da",
+          "inspectedAt": "2026-10-30T04:13:32.155Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed the new derivative original1254/512WebP/120PNG. The annular sleeve wall alone is diagonally hatched; bore/exterior stay unhatched. Lower sleeve outer and hidden inner boundaries align to section diameters. A transverse lower cutting-plane line has two upward A arrows; exact A-A caption links the upper section. All four A letters and hyphen are correct at original/512, and ring/void distinction survives120. Slate/silver/amber style and parent geometry retained; fresh hatching/section meaning separately reviewed, no inherited approval or production dimensions.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "isometric-view",
+      "sourceWord": "isometric view",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "isometric-view:meaning-1",
+          "pos": "n.",
+          "en": "A three-dimensional drawing view that uses the same scale along three principal axes shown at equal angles."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The isometric view shows the block along three equally scaled axes.",
+          "senseId": "isometric-view:meaning-1"
+        },
+        {
+          "en": "Parallel edges remain parallel instead of meeting at a vanishing point.",
+          "senseId": "isometric-view:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/isometric-view.webp",
+        "sha256": "731b9d22a46d737ba17231c10a58e9f5a9e886804c262e05537bcd706379c5eb"
+      },
+      "visual": {
+        "expectedCue": "Simple stepped block in genuine parallel isometric projection: vertical and two equally inclined line families, no converging edges; equal-length three-axis construction inset, no dimensions.",
+        "decision": "added",
+        "reason": "Actually inspected original1254px,512WebP and120PNG. The stepped block is made from three consistent parallel line families: verticals and two equally inclined diagonal directions; matching edges do not converge toward a vanishing point. The step corners and connected solid faces are coherent, and the surrounding construction cage follows those same directions. The small three-ray inset shows a vertical direction and two symmetric downward diagonals; it is an orientation cue, not a calibrated unit-length reference or dimensioned coordinate system. No numerical angle, length, scale or manufacturing claim is printed. The true parallel isometric-looking projection and stepped form remain clear120px in the slate/silver/amber technical brief; this is an illustrative view, not a measurement drawing.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254px,512WebP and120PNG. The stepped block is made from three consistent parallel line families: verticals and two equally inclined diagonal directions; matching edges do not converge toward a vanishing point. The step corners and connected solid faces are coherent, and the surrounding construction cage follows those same directions. The small three-ray inset shows a vertical direction and two symmetric downward diagonals; it is an orientation cue, not a calibrated unit-length reference or dimensioned coordinate system. No numerical angle, length, scale or manufacturing claim is printed. The true parallel isometric-looking projection and stepped form remain clear120px in the slate/silver/amber technical brief; this is an illustrative view, not a measurement drawing."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T04:14:40.600Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "731b9d22a46d737ba17231c10a58e9f5a9e886804c262e05537bcd706379c5eb",
+          "inspectedAt": "2026-10-30T04:20:57.647Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed original1254/512WebP/120PNG. Connected stepped block and construction cage use vertical edges and two approximately symmetric inclined parallel-looking families without a vanishing-point perspective cue; visible step corners/faces are coherent and legible120. The small three-ray inset conveys axis directions only: its rendered arms are not calibrated equal-unit lengths, so neither that inset nor this unscaled raster establishes measured dimensions. Accepted for qualitative isometric-view vocabulary, not exact CAD projection or measurement. Slate/silver/amber technical style is maintained; no numeric scale or fabricated readings appear.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "bill-of-materials",
+      "sourceWord": "bill of materials",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "bill-of-materials:meaning-1",
+          "pos": "n.",
+          "en": "A structured list identifying the components or materials and their quantities needed for a particular product or assembly."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bill of materials lists the parts and quantities for the assembly.",
+          "senseId": "bill-of-materials:meaning-1"
+        },
+        {
+          "en": "The item numbers match the callouts beside the components.",
+          "senseId": "bill-of-materials:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bill-of-materials.webp",
+        "sha256": "cc11e932aa69003ff5c873c7bc217ec6031b7a42ef6ed7bda1dcbe0cf2c4b73a"
+      },
+      "visual": {
+        "expectedCue": "Dominant exact ITEM/PART/QTY table lists1BRACKET1,2BOLT1,3NUT1 and matches the sole three visible assembly components/callouts with real seated contacts.",
+        "decision": "added",
+        "reason": "Actually inspected fresh derivative original1254px,512WebP and120PNG. I read every printed table cell: headerITEM/PART/QTY; rows1/BRACKET/1,2/BOLT/1,3/NUT/1. Exactly one connected L bracket, one continuous bolt and one nut are shown below; their sole1/2/3 leaders actually point to the matching parts. Corrected head/nut bearing contacts remain seated on opposite web faces, no washer or unlisted fourth part appears. The table is now the dominant structured-list cue and its three rows/quantities remain legible at120px. These are fictional part identifiers/counts, not measurements, prices or manufacturing approval. The separately reviewed original assembly supplied geometry only; new table text, correspondence and all derivative pixels were actually inspected in this run.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected fresh derivative original1254px,512WebP and120PNG. I read every printed table cell: headerITEM/PART/QTY; rows1/BRACKET/1,2/BOLT/1,3/NUT/1. Exactly one connected L bracket, one continuous bolt and one nut are shown below; their sole1/2/3 leaders actually point to the matching parts. Corrected head/nut bearing contacts remain seated on opposite web faces, no washer or unlisted fourth part appears. The table is now the dominant structured-list cue and its three rows/quantities remain legible at120px. These are fictional part identifiers/counts, not measurements, prices or manufacturing approval. The separately reviewed original assembly supplied geometry only; new table text, correspondence and all derivative pixels were actually inspected in this run."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T04:17:39.770Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "cc11e932aa69003ff5c873c7bc217ec6031b7a42ef6ed7bda1dcbe0cf2c4b73a",
+          "inspectedAt": "2026-10-30T04:22:26.224Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently inspected new derivative original1254/512WebP/120PNG. Read every header and cell at original/512: ITEM/PART/QTY,1/BRACKET/1,2/BOLT/1,3/NUT/1. Exactly one connected bracket, continuous bolt and seated nut appear below, with leaders1/2/3 terminating on the matching parts and no unlisted fourth component. Structured three-row list and correspondence remain clear120, without claiming tiny lettering is calibrated dimensional data. Head/nut contacts on opposite web faces retained; slate/silver/amber style matches. Template was geometry reference only; table text/new pixels separately reviewed.",
+          "reviewerId": "/root"
+        }
+      }
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-36",
+  "releaseId": "2026-10-preview-37",
   "channel": "preview",
-  "createdAt": "2026-10-30T03:16:19.183Z",
+  "createdAt": "2026-10-30T04:24:48.154Z",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -61118,6 +61118,519 @@
       "tip": "معنای انتخاب‌شده کاویتاسیونِ بخاری است: افتِ فشار به تشکیلِ حفره‌های بخار و بازیابیِ فشار به فروپاشیِ آن‌ها می‌انجامد. با هوای واردشده از بیرون یا گرم‌کردنِ ظرف تا جوشیدن یکی نیست. توالیِ بزرگ‌نمایی‌شدهٔ تصویر، فشار، شدتِ آسیب یا تشخیصِ یک پمپِ واقعی را تعیین نمی‌کند.",
       "media": {
         "img": "atlas/img/cavitation.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "inspection",
+      "w": "inspection",
+      "uk": "/ɪnˈspekʃən/",
+      "us": "/ɪnˈspekʃən/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "inspection:meaning-1",
+          "pos": "n.",
+          "fa": "معاینه با مشاهده",
+          "en": "The part of a clinical examination in which a clinician carefully looks at the body or a body region.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The nurse began the examination with inspection of the patient’s hands.",
+          "fa": "پرستار معاینه را با مشاهدهٔ دقیقِ دست‌های بیمار آغاز کرد.",
+          "senseId": "inspection:meaning-1"
+        },
+        {
+          "en": "The clinician recorded the skin colour and shape before touching the arm.",
+          "fa": "درمانگر پیش از لمسِ بازو، رنگ و شکلِ پوست را ثبت کرد.",
+          "senseId": "inspection:meaning-1"
+        }
+      ],
+      "col": [
+        "visual inspection｜بررسی با مشاهده",
+        "inspection of the skin｜معاینهٔ پوست با مشاهده",
+        "inspection and palpation｜مشاهده و لمس در معاینه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "inspection در این معنا مشاهدهٔ دقیق در معاینهٔ بالینی است؛ لمس با دست palpation نام دارد. این واژه در زمینه‌های دیگر بازرسی هم معنی می‌دهد. نگاه کردن به‌تنهایی تشخیصِ بیماری را ثابت نمی‌کند؛ تصویر یک نمونهٔ مشاهدهٔ بالینی است.",
+      "media": {
+        "img": "atlas/img/inspection.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "palpation",
+      "w": "palpation",
+      "uk": "/pælˈpeɪʃən/",
+      "us": "/pælˈpeɪʃən/",
+      "cefr": "C2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "palpation:meaning-1",
+          "pos": "n.",
+          "fa": "لمس در معاینه",
+          "en": "Examination of a body region with the hands to assess features such as texture, size or tenderness.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Palpation helped the clinician assess the lump beneath the skin.",
+          "fa": "لمس در معاینه به درمانگر کمک کرد تودهٔ زیرِ پوست را ارزیابی کند.",
+          "senseId": "palpation:meaning-1"
+        },
+        {
+          "en": "The patient described where the arm felt tender during the examination.",
+          "fa": "بیمار هنگام معاینه توضیح داد کدام بخشِ بازو به لمس حساس بود.",
+          "senseId": "palpation:meaning-1"
+        }
+      ],
+      "col": [
+        "gentle palpation｜لمسِ ملایم در معاینه",
+        "abdominal palpation｜لمسِ شکم در معاینه",
+        "tenderness on palpation｜حساسیت به لمس در معاینه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "palpation لمسِ هدفمند برای معاینه است، نه ماساژ یا درمان. tenderness on palpation یعنی ناحیه هنگام لمس حساس یا دردناک است؛ نامِ علتِ آن نیست. تصویرِ تماسِ دست روی ساعد فقط این نوع بررسی را نشان می‌دهد و دستورِ فشار یا روشِ معاینه نیست.",
+      "media": {
+        "img": "atlas/img/palpation.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "auscultation",
+      "w": "auscultation",
+      "uk": "/ˌɔːskəlˈteɪʃən/",
+      "us": "/ˌɔːskəlˈteɪʃən/",
+      "cefr": "C2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "auscultation:meaning-1",
+          "pos": "n.",
+          "fa": "سمع؛ گوش دادن در معاینه",
+          "en": "Listening to sounds from inside the body as part of a clinical examination, usually with a stethoscope.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Auscultation allowed the clinician to listen to the patient’s breathing.",
+          "fa": "سمع به درمانگر امکان داد به صدای تنفسِ بیمار گوش دهد.",
+          "senseId": "auscultation:meaning-1"
+        },
+        {
+          "en": "The student practised recognising heart sounds with a stethoscope.",
+          "fa": "دانشجو تشخیصِ صداهای قلب را با گوشیِ پزشکی تمرین کرد.",
+          "senseId": "auscultation:meaning-1"
+        }
+      ],
+      "col": [
+        "chest auscultation｜سمعِ قفسهٔ سینه",
+        "cardiac auscultation｜سمعِ قلب",
+        "auscultation of breath sounds｜سمعِ صداهای تنفسی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "auscultation عملِ گوش دادن در معاینه است؛ stethoscope نامِ ابزار است. سمع با percussion، یعنی بررسیِ صداهای حاصل از ضربهٔ معاینه‌ای، فرق دارد. اتصالِ گوشی و تماسِ آن با بدن باید روشن باشد؛ تصویر نتیجهٔ سمع یا تشخیص را نشان نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/auscultation.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "engineering-drawing",
+      "w": "engineering drawing",
+      "uk": "/ˌendʒɪˈnɪərɪŋ ˈdrɔːɪŋ/",
+      "us": "/ˌendʒəˈnɪrɪŋ ˈdrɔːɪŋ/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "engineering-drawing:meaning-1",
+          "pos": "n.",
+          "fa": "نقشهٔ مهندسی",
+          "en": "A technical representation that communicates a part or assembly through defined views, lines and related design information.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The engineering drawing shows the part from several directions.",
+          "fa": "نقشهٔ مهندسی قطعه را از چند جهت نشان می‌دهد.",
+          "senseId": "engineering-drawing:meaning-1"
+        },
+        {
+          "en": "The machinist checked the hole positions against the drawing.",
+          "fa": "ماشین‌کار موقعیتِ سوراخ‌ها را با نقشه مقایسه کرد.",
+          "senseId": "engineering-drawing:meaning-1"
+        }
+      ],
+      "col": [
+        "an engineering drawing｜یک نقشهٔ مهندسی",
+        "read an engineering drawing｜خواندنِ نقشهٔ مهندسی",
+        "engineering drawing conventions｜قراردادهای نقشه‌کشیِ مهندسی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "engineering drawing طرحِ فنی برای انتقالِ اطلاعاتِ قطعه یا مجموعه است، نه صرفاً یک تصویرِ هنری. چند نما می‌توانند شکل را روشن کنند؛ ابعاد، یادداشت‌ها و قراردادهای لازم به کاربرد بستگی دارند. تصویرِ آموزشی بدونِ اندازه‌های ساخت، نقشهٔ آمادهٔ تولید نیست.",
+      "media": {
+        "img": "atlas/img/engineering-drawing.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "assembly-drawing",
+      "w": "assembly drawing",
+      "uk": "/əˈsembli ˈdrɔːɪŋ/",
+      "us": "/əˈsembli ˈdrɔːɪŋ/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "assembly-drawing:meaning-1",
+          "pos": "n.",
+          "fa": "نقشهٔ مونتاژ",
+          "en": "A technical drawing showing how the components of an assembly fit together in their assembled positions.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The assembly drawing shows how the bracket and fastener fit together.",
+          "fa": "نقشهٔ مونتاژ نشان می‌دهد پایهٔ اتصال و بست چگونه در کنار هم قرار می‌گیرند.",
+          "senseId": "assembly-drawing:meaning-1"
+        },
+        {
+          "en": "Item numbers connect the components to a parts list.",
+          "fa": "شماره‌های اقلام، اجزا را به فهرستِ قطعات مرتبط می‌کنند.",
+          "senseId": "assembly-drawing:meaning-1"
+        }
+      ],
+      "col": [
+        "an assembly drawing｜یک نقشهٔ مونتاژ",
+        "an assembly drawing view｜یک نما در نقشهٔ مونتاژ",
+        "assembly drawing details｜جزئیاتِ نقشهٔ مونتاژ"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "assembly drawing رابطهٔ قطعاتِ سرهم‌شده را نشان می‌دهد؛ نقشهٔ تک‌قطعه بر مشخصاتِ یک جزء تمرکز دارد. نمای مونتاژ با exploded view، که قطعات را برای نمایشِ رابطه از هم جدا می‌کند، یکسان نیست. شکلِ آموزشی گشتاور، تلرانس یا تأییدِ اتصال تعیین نمی‌کند.",
+      "media": {
+        "img": "atlas/img/assembly-drawing.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "exploded-view",
+      "w": "exploded view",
+      "uk": "/ɪkˈspləʊdɪd vjuː/",
+      "us": "/ɪkˈsploʊdɪd vjuː/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "exploded-view:meaning-1",
+          "pos": "n.",
+          "fa": "نمای انفجاری",
+          "en": "A drawing in which assembly components are shown separated but arranged to explain their relative positions and connections.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The exploded view separates the parts along their assembly axis.",
+          "fa": "نمای انفجاری قطعات را در امتدادِ محورِ مونتاژشان از هم جدا نشان می‌دهد.",
+          "senseId": "exploded-view:meaning-1"
+        },
+        {
+          "en": "The technician identified the nut before looking at the assembled unit.",
+          "fa": "تکنسین پیش از نگاه‌کردن به مجموعهٔ سرهم‌شده، مهره را شناسایی کرد.",
+          "senseId": "exploded-view:meaning-1"
+        }
+      ],
+      "col": [
+        "an exploded view｜یک نمای انفجاری",
+        "an exploded view drawing｜یک نقشه با نمای انفجاری",
+        "an exploded view of an assembly｜نمای انفجاریِ یک مجموعه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "exploded view قطعات را عمداً جدا و هم‌راستا می‌چیند تا رابطهٔ مونتاژ روشن شود؛ انفجار یا خرابیِ واقعی نیست. همهٔ مجموعه‌ها فقط یک محور ندارند؛ جداسازیِ یک‌محوره مربوط به نمونهٔ سادهٔ این مدخل است. این نما ترتیبِ ایمنِ کار یا روشِ بستنِ اتصال را تعیین نمی‌کند.",
+      "media": {
+        "img": "atlas/img/exploded-view.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "cross-section",
+      "w": "cross-section",
+      "uk": "/ˈkrɒs sekʃən/",
+      "us": "/ˈkrɔːs sekʃən/",
+      "cefr": "B2",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "cross-section:meaning-1",
+          "pos": "n.",
+          "fa": "مقطع؛ نمای مقطعی",
+          "en": "A view of a part's interior exposed by an imagined cutting plane through it.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The cross-section reveals the hollow centre of the sleeve.",
+          "fa": "نمای مقطعی مرکزِ توخالیِ بوش را آشکار می‌کند.",
+          "senseId": "cross-section:meaning-1"
+        },
+        {
+          "en": "Hatching marks the solid material cut by the plane.",
+          "fa": "هاشور مادهٔ جامدی را مشخص می‌کند که صفحه از آن بریده است.",
+          "senseId": "cross-section:meaning-1"
+        }
+      ],
+      "col": [
+        "a cross-section view｜یک نمای مقطعی",
+        "a cross-section of a part｜مقطعِ یک قطعه",
+        "draw a cross-section｜ترسیمِ یک مقطع"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "cross-section در این معنا نمای داخلیِ حاصل از یک برشِ فرضی است؛ به معنی شکستنِ واقعیِ قطعه نیست. در نمونهٔ بوش، حلقهٔ هاشورخورده مادهٔ جامد و مرکزِ خالی سوراخ است. در قراردادهای نقشه‌کشی، هاشورِ مادهٔ بریده با فضای خالی فرق دارد؛ تصویر اندازه یا تأییدِ ساخت ارائه نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/cross-section.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "isometric-view",
+      "w": "isometric view",
+      "uk": "/ˌaɪsəˈmetrɪk vjuː/",
+      "us": "/ˌaɪsəˈmetrɪk vjuː/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "isometric-view:meaning-1",
+          "pos": "n.",
+          "fa": "نمای ایزومتریک",
+          "en": "A three-dimensional drawing view that uses the same scale along three principal axes shown at equal angles.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The isometric view shows the block along three equally scaled axes.",
+          "fa": "نمای ایزومتریک قطعه را در امتدادِ سه محور با مقیاسِ یکسان نشان می‌دهد.",
+          "senseId": "isometric-view:meaning-1"
+        },
+        {
+          "en": "Parallel edges remain parallel instead of meeting at a vanishing point.",
+          "fa": "لبه‌های موازی به‌جای رسیدن به نقطهٔ گریز، موازی می‌مانند.",
+          "senseId": "isometric-view:meaning-1"
+        }
+      ],
+      "col": [
+        "an isometric view｜یک نمای ایزومتریک",
+        "an isometric view of a part｜نمای ایزومتریکِ یک قطعه",
+        "create an isometric view｜ایجادِ نمای ایزومتریک"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "isometric view سه راستای اصلی را با مقیاسِ برابر و زاویه‌های برابرِ تصویرشده نشان می‌دهد؛ هر تصویرِ سه‌بعدی ایزومتریک نیست. لبه‌های موازی به نقطهٔ گریز همگرا نمی‌شوند. اندازه‌های واقعی فقط از یک تصویرِ آموزشیِ بی‌مقیاس قابل استخراج نیستند.",
+      "media": {
+        "img": "atlas/img/isometric-view.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "bill-of-materials",
+      "w": "bill of materials",
+      "uk": "/ˌbɪl əv məˈtɪəriəlz/",
+      "us": "/ˌbɪl əv məˈtɪriəlz/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "bill-of-materials:meaning-1",
+          "pos": "n.",
+          "fa": "فهرستِ قطعات و مواد",
+          "en": "A structured list identifying the components or materials and their quantities needed for a particular product or assembly.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The bill of materials lists the parts and quantities for the assembly.",
+          "fa": "فهرستِ قطعات و مواد، اجزا و تعدادِ موردنیازِ مجموعه را مشخص می‌کند.",
+          "senseId": "bill-of-materials:meaning-1"
+        },
+        {
+          "en": "The item numbers match the callouts beside the components.",
+          "fa": "شماره‌های اقلام با نشانه‌های کنارِ اجزا مطابقت دارند.",
+          "senseId": "bill-of-materials:meaning-1"
+        }
+      ],
+      "col": [
+        "a bill of materials｜یک فهرستِ قطعات و مواد",
+        "a bill of materials item｜یک قلم در فهرستِ قطعات و مواد",
+        "update the bill of materials｜به‌روزرسانیِ فهرستِ قطعات و مواد"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "bill of materials یا BOM فهرستِ اجزا و مقدارهای مربوط به محصول است، نه صورت‌حسابِ پرداخت و نه خودِ نقشهٔ مونتاژ. شناسه‌های فهرست باید با قطعاتِ نشان‌داده‌شده یکسان باشند. جدولِ سادهٔ این تصویر فقط اقلامِ همان نمونه را پوشش می‌دهد؛ مقدارها اندازه، تلرانس یا دستورِ ساخت نیستند.",
+      "media": {
+        "img": "atlas/img/bill-of-materials.webp"
       },
       "provenance": {
         "license": "CC-BY-4.0",

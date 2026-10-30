@@ -4370,7 +4370,73 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 409,
+      "targetCategoryWords": 412,
+      "entryIds": [
+        "inspection",
+        "palpation",
+        "auscultation"
+      ],
+      "units": [
+        {
+          "id": "medical-examination-reasoning",
+          "title": "Examination and clinical reasoning",
+          "entryIds": [
+            "inspection",
+            "palpation",
+            "auscultation"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-32-ready-1",
+      "releaseId": "2026-10-preview-37",
+      "status": "published-preview",
+      "objective": "Describe gastrointestinal anatomy and fluid-system components and properties in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 405,
+      "targetCategoryWords": 411,
+      "entryIds": [
+        "engineering-drawing",
+        "assembly-drawing",
+        "exploded-view",
+        "cross-section",
+        "isometric-view",
+        "bill-of-materials"
+      ],
+      "units": [
+        {
+          "id": "engineering-drawings-quality",
+          "title": "Drawings references and quality",
+          "entryIds": [
+            "engineering-drawing",
+            "assembly-drawing",
+            "exploded-view",
+            "cross-section",
+            "isometric-view",
+            "bill-of-materials"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-32-ready-1",
+      "releaseId": "2026-10-preview-37",
+      "status": "published-preview",
+      "objective": "Describe gastrointestinal anatomy and fluid-system components and properties in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-31-ready-1"
+  "activePassId": "specialist-500-batch-32-ready-1"
 }
