@@ -54069,6 +54069,1225 @@
           "reviewerId": "/root/batch5_medical"
         }
       }
+    },
+    {
+      "entryId": "blood-smear",
+      "sourceWord": "blood smear",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "blood-smear:meaning-1",
+          "pos": "n.",
+          "en": "A thin layer of blood spread on a microscope slide so that its cells can be examined."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The laboratory scientist examined the blood smear under a microscope.",
+          "senseId": "blood-smear:meaning-1"
+        },
+        {
+          "en": "Staining helped the individual cells stand out against the glass background.",
+          "senseId": "blood-smear:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/blood-smear.webp",
+        "sha256": "7364ba9a14a16680ef3478cf37082777e9e571be9624873ff451420a8afb65c5"
+      },
+      "visual": {
+        "expectedCue": "A thin blood film on a glass slide linked to representative dispersed blood cells for microscopic examination, not a blood puddle or invented laboratory result.",
+        "decision": "added",
+        "reason": "Actually viewed original1254 and converted512WebP/120PNG. A thin pink-red film lies on a transparent rectangular slide and tapers to a feathered edge; linked inset shows dispersed non-nucleated red-cell examples with central pallor, a larger segmented-nucleus white-cell example and smaller platelet fragments. Leader ends on the film, so preparation and magnified cells are related rather than a thick blood puddle/tube. The film/inset relationship remains clear120. Qualitative cell morphology, not a patient micrograph, cell count, calibrated stain/scale or diagnostic result. Actual precise soft clinical rendering with cool-white/mint/pale-blue frame and natural muted blood-cell colors, no text, fake readings, logos or irrelevant props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254 and converted512WebP/120PNG. A thin pink-red film lies on a transparent rectangular slide and tapers to a feathered edge; linked inset shows dispersed non-nucleated red-cell examples with central pallor, a larger segmented-nucleus white-cell example and smaller platelet fragments. Leader ends on the film, so preparation and magnified cells are related rather than a thick blood puddle/tube. The film/inset relationship remains clear120. Qualitative cell morphology, not a patient micrograph, cell count, calibrated stain/scale or diagnostic result. Actual precise soft clinical rendering with cool-white/mint/pale-blue frame and natural muted blood-cell colors, no text, fake readings, logos or irrelevant props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T20:33:07.978Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7364ba9a14a16680ef3478cf37082777e9e571be9624873ff451420a8afb65c5",
+          "inspectedAt": "2026-10-30T20:47:26.980Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254,512WebP,120PNG. Thin pink-red film tapers across transparent rectangular slide; leader joins film to one magnified field with non-nucleated central-pallor red cells, a larger segmented-nucleus leukocyte example and much smaller purple platelet-like fragments. No blood-filled tube, thick free puddle or invented values. Slide/film/cell relationship clear120. Clinical cool-white/mint/pale-blue framing and natural blood-cell colors appropriate. Representative qualitative morphology only, not calibrated cell size/count, normal range, real stain/micrograph or diagnosis.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "urine-dipstick",
+      "sourceWord": "urine dipstick",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "urine-dipstick:meaning-1",
+          "pos": "n.",
+          "en": "A narrow test strip with reagent pads that react with substances in a urine sample."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The nurse checked the expiry date on the urine dipstick container.",
+          "senseId": "urine-dipstick:meaning-1"
+        },
+        {
+          "en": "The strip carries separate pads for different chemical checks.",
+          "senseId": "urine-dipstick:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/urine-dipstick.webp",
+        "sha256": "4797d2459b732b42b7ea33b0dd8ab88759151c0dfffc83f65cb1e7643fde7897"
+      },
+      "visual": {
+        "expectedCue": "Unused flat pad-bearing urine reagent strip in sample context, not an interpreted result, pregnancy cartridge or oil dipstick.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG. One narrow flat strip carries separate attached reagent pads along its end and a long blank handle; a capped pale-amber sample cup and closed strip tube establish urine-test context. Exact URINE DIPSTICK caption is correct and readable120. Pads are presented as unused product colors, with no comparison chart, timing, positive/negative pattern or interpreted result. Product display pose does not qualify operation, calibration or actual specimen content. Precise soft cool-white/mint/pale-blue clinical product rendering, essential caption only, no readings, patient data, decorative props or logos.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG. One narrow flat strip carries separate attached reagent pads along its end and a long blank handle; a capped pale-amber sample cup and closed strip tube establish urine-test context. Exact URINE DIPSTICK caption is correct and readable120. Pads are presented as unused product colors, with no comparison chart, timing, positive/negative pattern or interpreted result. Product display pose does not qualify operation, calibration or actual specimen content. Precise soft cool-white/mint/pale-blue clinical product rendering, essential caption only, no readings, patient data, decorative props or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T20:52:01.284Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4797d2459b732b42b7ea33b0dd8ab88759151c0dfffc83f65cb1e7643fde7897",
+          "inspectedAt": "2026-10-30T20:54:52.466Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254,512WebP,120PNG. One continuous flat white strip carries separate reagent-pad examples and a long clear holding end; capped urine-sample cup and closed strip container provide bounded context. Strip is not immersed/used, no color chart, scale, reading or diagnostic mapping. Exact URINE DIPSTICK text correct and readable120; pad-bearing strip remains focal and distinct from cartridge/oil dipstick. Soft cool-white/mint/pale-blue clinical drawing appropriate; no exact pad chemistry/count, expiry reading, result or sterility qualified.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "biopsy",
+      "sourceWord": "biopsy",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "biopsy:meaning-1",
+          "pos": "n.",
+          "en": "A procedure in which cells or tissue are removed from the body for laboratory examination."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clinician explained why a biopsy had been requested.",
+          "senseId": "biopsy:meaning-1"
+        },
+        {
+          "en": "The removed sample was sent to the pathology laboratory.",
+          "senseId": "biopsy:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/biopsy.webp",
+        "sha256": "ef4a6c545a2d0e052f9c75656c3881767ebffc5468b6c5f19182eb91c28d832a"
+      },
+      "visual": {
+        "expectedCue": "A small specimen is visibly separated from a tissue-model source and carried by a coherent sample-to-container-to-microscopic-examination relation, teaching collection/removal for examination rather than generic surgery or a diagnostic result.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/card512/thumb120. Clean qualitative tissue-model source has a small corresponding missing region, visibly separated small specimen and specimen-to-container-to-laboratory microscope relation. Specimen appearance remains consistent across sequential representations; not a count of multiple biopsies. Microscopic examination purpose shown by coherent slide/stage/connected microscope, not diagnosis/treatment. Exact SAMPLE FOR EXAMINATION checked/readable120. Coolwhite/mint/paleblue clinical educational style with pink tissue, no invasive tool, patient identity, graphic wound, size/procedure/dose/result claim. Model is one representative tissue-sample pathway, not all biopsy methods or a practical procedure; human/specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/card512/thumb120. Clean qualitative tissue-model source has a small corresponding missing region, visibly separated small specimen and specimen-to-container-to-laboratory microscope relation. Specimen appearance remains consistent across sequential representations; not a count of multiple biopsies. Microscopic examination purpose shown by coherent slide/stage/connected microscope, not diagnosis/treatment. Exact SAMPLE FOR EXAMINATION checked/readable120. Coolwhite/mint/paleblue clinical educational style with pink tissue, no invasive tool, patient identity, graphic wound, size/procedure/dose/result claim. Model is one representative tissue-sample pathway, not all biopsy methods or a practical procedure; human/specialist review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T20:41:58.506Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ef4a6c545a2d0e052f9c75656c3881767ebffc5468b6c5f19182eb91c28d832a",
+          "inspectedAt": "2026-10-30T21:12:58.838Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. Small corresponding source-block region is missing, matching separated tissue cube links to specimen container and then coherent slide/microscope examination context. Same qualitative sample across sequential representations, not multiplication or organ removal. Sample and missing-region cues remain visible120; exact SAMPLE FOR EXAMINATION caption verified. Non-graphic clinical model, no invasive tools/steps, cancer result, measured size or practical procedure claim. Tissue and prepared slide are qualitative different stages, not exact histology/stain.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "tissue-section",
+      "sourceWord": "tissue section",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "tissue-section:meaning-1",
+          "pos": "n.",
+          "en": "A thin slice cut from a tissue sample for microscopic examination."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The technician placed the tissue section on a glass slide.",
+          "senseId": "tissue-section:meaning-1"
+        },
+        {
+          "en": "The thin slice preserves a view of neighbouring cells and their arrangement.",
+          "senseId": "tissue-section:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tissue-section.webp",
+        "sha256": "5de5345a51c402c450bdb0ce1579d4f6e360e1da1ebbaa863e60808e4382bbb3"
+      },
+      "visual": {
+        "expectedCue": "A thin physical slice prepared from a tissue block and placed flat on a glass slide for microscopic examination, distinct from the study of histology or isolated cells.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG. A representative layered tissue block is linked by a conceptual arrow to one thin, flat corresponding tissue slice on a transparent glass slide. The section preserves the broad layer arrangement rather than becoming a thick second block, blood film or detached individual cells. Exact TISSUE SECTION caption remains legible120. This qualifies the physical prepared slice only, not a real stain/patient sample, measured thickness, preparation protocol or histological diagnosis. Clean precise soft tissue forms with muted pink cellular layers on cool-white/mint/pale-blue, essential exact caption only, no readings, tools, procedural hands, logos or decoration.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG. A representative layered tissue block is linked by a conceptual arrow to one thin, flat corresponding tissue slice on a transparent glass slide. The section preserves the broad layer arrangement rather than becoming a thick second block, blood film or detached individual cells. Exact TISSUE SECTION caption remains legible120. This qualifies the physical prepared slice only, not a real stain/patient sample, measured thickness, preparation protocol or histological diagnosis. Clean precise soft tissue forms with muted pink cellular layers on cool-white/mint/pale-blue, essential exact caption only, no readings, tools, procedural hands, logos or decoration."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T21:03:59.777Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5de5345a51c402c450bdb0ce1579d4f6e360e1da1ebbaa863e60808e4382bbb3",
+          "inspectedAt": "2026-10-30T21:17:41.784Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. A layered representative tissue block is linked to one visibly thin flat slice supported on glass, preserving the broad epithelial/connective/fat-like arrangement rather than isolated cells or a blood film. Slice is distinct from the bulky block; exact TISSUE SECTION caption checked/readable120. Clinical soft precise tissue forms, cool-white/mint/pale-blue field. Qualitative preparation concept only: no real stain, calibrated thickness, actual specimen diagnosis or universal cell anatomy claim.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "cytology",
+      "sourceWord": "cytology",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "cytology:meaning-1",
+          "pos": "n.",
+          "en": "The study or examination of cells, especially their appearance under a microscope."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Cytology focuses on the cells present in the collected sample.",
+          "senseId": "cytology:meaning-1"
+        },
+        {
+          "en": "The laboratory specialist examined individual nuclei and cell outlines.",
+          "senseId": "cytology:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cytology.webp",
+        "sha256": "bf61bfb353a3e7ccdecc152010c5ddc05f4d68999551ff90430b0ab0632a8f12"
+      },
+      "visual": {
+        "expectedCue": "Coherent microscope examining a cell-smear slide beside a dominant illustrative field of separate nucleated individual cells, with no connected tissue architecture or false leader/ray attachment; large readable INDIVIDUAL CELLS caption.",
+        "decision": "added",
+        "reason": "Actually viewed new original1254/card512/thumb120. Connected supported microscope has glass cell-smear slide under objectives and adjacent dominant illustrative field of separate nucleated cells with continuous outlines, not intact tissue layers or microbes. No leaders/rays/arrows or false attachment to blank glass/objective. Exact INDIVIDUAL CELLS caption and separated cell/nucleus cue readable120. Coolwhite/mint/paleblue/pink clinical model; no exact cell count, stain, magnification, pathological result or patient diagnosis claimed. Genuinely new asset, not a held histology derivative/template; fullsource/native meaning retained, independent human/specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed new original1254/card512/thumb120. Connected supported microscope has glass cell-smear slide under objectives and adjacent dominant illustrative field of separate nucleated cells with continuous outlines, not intact tissue layers or microbes. No leaders/rays/arrows or false attachment to blank glass/objective. Exact INDIVIDUAL CELLS caption and separated cell/nucleus cue readable120. Coolwhite/mint/paleblue/pink clinical model; no exact cell count, stain, magnification, pathological result or patient diagnosis claimed. Genuinely new asset, not a held histology derivative/template; fullsource/native meaning retained, independent human/specialist review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T21:23:08.525Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "bf61bfb353a3e7ccdecc152010c5ddc05f4d68999551ff90430b0ab0632a8f12",
+          "inspectedAt": "2026-10-30T21:25:01.022Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. Connected supported microscope has a purple cell-smear patch on glass slide beneath objective assembly. Adjacent large field contains separated intact nucleated cells with visible continuous boundaries, not connected tissue layers. No leader/ray/arrow makes a false specimen/blank-glass connection. Exact INDIVIDUAL CELLS and separate nucleus/cell outlines clearly readable120. Original qualitative microscopic teaching field, not a real stain, exact count/scale, species, normality or patient diagnosis. Appropriate soft precise clinical cool-white/mint/pale-blue/pink style; fresh image approval independent of held histology.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "oral-solution",
+      "sourceWord": "oral solution",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "oral-solution:meaning-1",
+          "pos": "n.",
+          "en": "A liquid medicine intended to be swallowed, with its active ingredient or ingredients dissolved in a suitable liquid vehicle."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pharmacist described the medicine as an oral solution.",
+          "senseId": "oral-solution:meaning-1"
+        },
+        {
+          "en": "The dissolved substance was distributed throughout the liquid rather than forming a sediment.",
+          "senseId": "oral-solution:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/oral-solution.webp",
+        "sha256": "842d87d13f6f4f92edd3e161fc0587d7741480526a2c553e658288a5276d0597"
+      },
+      "visual": {
+        "expectedCue": "Unused oral-medicine bottle with uniform clear liquid linked to separate evenly distributed symbolic dissolved units; essential ORAL SOLUTION/DISSOLVED labels verified, no sediment, droplet emulsion, readings or dose claim.",
+        "decision": "added",
+        "reason": "Actually viewed original1254,512WebP,120PNG. Unused capped bottle has one clear uniform liquid phase with no sediment/layers; leader from liquid reaches explanatory field of separate evenly distributed units. Exact ORAL SOLUTION and DISSOLVED captions correct/readable120. Units explicitly symbolic dissolved substance, not a real molecular rendering or visible measured particles. Clinical cool-white/mint/pale-blue object/inset relation distinct from injection bag or prescribed product. No actual drug identity, chemistry, concentration, dose, sterility or stability qualification.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254,512WebP,120PNG. Unused capped bottle has one clear uniform liquid phase with no sediment/layers; leader from liquid reaches explanatory field of separate evenly distributed units. Exact ORAL SOLUTION and DISSOLVED captions correct/readable120. Units explicitly symbolic dissolved substance, not a real molecular rendering or visible measured particles. Clinical cool-white/mint/pale-blue object/inset relation distinct from injection bag or prescribed product. No actual drug identity, chemistry, concentration, dose, sterility or stability qualification."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T21:04:02.429Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "842d87d13f6f4f92edd3e161fc0587d7741480526a2c553e658288a5276d0597",
+          "inspectedAt": "2026-10-30T21:10:27.542Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. Capped medicine bottle contains a uniform clear liquid phase, without sediment or separate layer. Single leader starts inside the liquid and connects to an evenly dispersed group of separate identical symbolic units. Exact ORAL SOLUTION and DISSOLVED captions verified/readable120. Distinguishes selected dissolved preparation from droplet emulsion or solid suspension; spheres are explanatory symbols, not literal visible molecules, particle size/concentration or product-quality evidence. Coherent soft clinical cool-white/mint/pale-blue style, no dose, readings or administration.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "emulsion",
+      "sourceWord": "emulsion",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "emulsion:meaning-1",
+          "pos": "n.",
+          "en": "A preparation containing droplets of one liquid dispersed in another liquid with which it does not form a single mixed phase."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The emulsion contained small oil droplets dispersed through a water-based liquid.",
+          "senseId": "emulsion:meaning-1"
+        },
+        {
+          "en": "A stabilizing ingredient helped the droplets remain distributed.",
+          "senseId": "emulsion:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/emulsion.webp",
+        "sha256": "ef3f0160f0a968ff3fcc2232cb9143235c42121cda864199198eccb8da194b48"
+      },
+      "visual": {
+        "expectedCue": "Distinct oil-in-water pharmaceutical liquid: separate larger filled liquid droplets dispersed in continuous aqueous phase; no dissolved-solute dots/solid grain/airbubble/settled layer. Fresh EMULSION/OIL IN WATER labels, qualitative only.",
+        "decision": "added",
+        "reason": "Actually viewed distinct template derivative original1254/512WebP/120PNG. Unused capped bottle has one uniform mildly cloudy liquid phase linked to a pale-blue aqueous inset containing separate larger filled pale-gold liquid droplets. The base solution dots are absent, droplets have no nuclei or crystal facets, and no separated layer/sediment is shown. Exact EMULSION and OIL IN WATER text verified at every size including120. This is a qualitative oil-in-water pharmaceutical example, not a real measured dispersion, concentration, stability, chemistry or administration claim. No dissolution meaning/approval inherited from the bottle-layout template.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed distinct template derivative original1254/512WebP/120PNG. Unused capped bottle has one uniform mildly cloudy liquid phase linked to a pale-blue aqueous inset containing separate larger filled pale-gold liquid droplets. The base solution dots are absent, droplets have no nuclei or crystal facets, and no separated layer/sediment is shown. Exact EMULSION and OIL IN WATER text verified at every size including120. This is a qualitative oil-in-water pharmaceutical example, not a real measured dispersion, concentration, stability, chemistry or administration claim. No dissolution meaning/approval inherited from the bottle-layout template."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T21:16:49.557Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ef3f0160f0a968ff3fcc2232cb9143235c42121cda864199198eccb8da194b48",
+          "inspectedAt": "2026-10-30T21:18:05.104Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. Uniform mildly cloudy bottle contents connect from liquid interior to a fresh inset showing distinct filled pale-gold droplets separated by continuous blue water. No settled layer, solid grains, hollow bubble rims or original dissolved-unit dots remain. Exact EMULSION and OIL IN WATER captions checked/readable120; selected qualitative oil-in-water example, not all emulsions, measured droplet distribution, real molecular chemistry, stability or medicine-quality evidence. Coherent bottle/support/leader and clean cool-white/mint/pale-blue clinical style; no dose/route or administration steps.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "granule",
+      "sourceWord": "granule",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "granule:meaning-1",
+          "pos": "n.",
+          "en": "A small aggregate of powder particles forming a grain in a pharmaceutical preparation."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The technician examined a granule from the preparation.",
+          "senseId": "granule:meaning-1"
+        },
+        {
+          "en": "The packet contained many small aggregates rather than loose fine powder.",
+          "senseId": "granule:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/granule.webp",
+        "sha256": "2f8884d21917f909a856db08451e396fc7409a8b51099c971b8bbf874c50faaf"
+      },
+      "visual": {
+        "expectedCue": "Small grains in pharmaceutical sachet linked to ONE enlarged coherent aggregate built of finer powder particles; whole grain distinct from tablet/single powder particle, no actual size/chemistry/release/count claim.",
+        "decision": "added",
+        "reason": "Actually viewed original1254,512WebP,120PNG. Open plain sachet contains multiple small irregular grains; one selected grain is ringed/linked to enlarged single coherent rough aggregate, with visibly finer contacted powder particles rather than one smooth tablet or detached floating spheres. Exact PHARMACEUTICAL GRANULE text checked at all3sizes/readable120. No drug identity, counted dose, calibrated particle size, binder chemistry, coating/release or administration instruction inferred.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254,512WebP,120PNG. Open plain sachet contains multiple small irregular grains; one selected grain is ringed/linked to enlarged single coherent rough aggregate, with visibly finer contacted powder particles rather than one smooth tablet or detached floating spheres. Exact PHARMACEUTICAL GRANULE text checked at all3sizes/readable120. No drug identity, counted dose, calibrated particle size, binder chemistry, coating/release or administration instruction inferred."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T21:10:45.927Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2f8884d21917f909a856db08451e396fc7409a8b51099c971b8bbf874c50faaf",
+          "inspectedAt": "2026-10-30T21:14:46.065Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. Open unbranded packet contains small irregular pale grains; one selected grain is circled and linked to one coherent enlarged aggregate made of attached finer particles. Distinguishes pharmaceutical granule from loose powder particle, tablet or food seed, with no dosing/release/chemistry assumption. Exact PHARMACEUTICAL GRANULE caption checked across all3sizes including120. Precise clean clinical cool-white/mint rendering; qualitative particle hierarchy, no measured size, patient data or product-quality guarantee.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "pessary",
+      "sourceWord": "pessary",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pessary:meaning-1",
+          "pos": "n.",
+          "en": "A solid pharmaceutical preparation intended for placement in the vagina, in the selected British medical usage."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pharmacist distinguished the pessary from the oral tablet.",
+          "senseId": "pessary:meaning-1"
+        },
+        {
+          "en": "The packet described a solid vaginal preparation.",
+          "senseId": "pessary:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pessary.webp",
+        "sha256": "bda39c1dc733e152d7583438d138932a49d70178daa97ca120e725d91055dd89"
+      },
+      "visual": {
+        "expectedCue": "A generic unused solid vaginal pharmaceutical pessary with blister context and exact caption, distinct from a mechanical support ring or an administration procedure.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG. Unused pale-ivory ovoid solid beside coherent blister packaging, one corresponding enclosed ovoid and one empty recess; no ring or mechanical support appliance. Exact VAGINAL PESSARY caption clearly readable120. One representative British pharmaceutical form, not drug identification, every possible form, insertion/administration or a treatment recommendation. Clean precise soft product study on cool-white with mint caption/pale-blue blister, no branding, dose, strength, measurements, patient, hands or decorative props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG. Unused pale-ivory ovoid solid beside coherent blister packaging, one corresponding enclosed ovoid and one empty recess; no ring or mechanical support appliance. Exact VAGINAL PESSARY caption clearly readable120. One representative British pharmaceutical form, not drug identification, every possible form, insertion/administration or a treatment recommendation. Clean precise soft product study on cool-white with mint caption/pale-blue blister, no branding, dose, strength, measurements, patient, hands or decorative props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T21:09:10.736Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "bda39c1dc733e152d7583438d138932a49d70178daa97ca120e725d91055dd89",
+          "inspectedAt": "2026-10-30T21:18:01.066Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. One pale solid ovoid product and matching blister context establish the selected British pharmaceutical vaginal form, not a prolapse-support ring; form rests on surface, no anatomy or procedure. Exact VAGINAL PESSARY checked/readable120. Restrained clinical cool-white/mint/pale-blue, no brand, scoring, dose, ingredient or treatment result; representative packaging/shape only, not proof of actual product identity or every pessary form.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "enema",
+      "sourceWord": "enema",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "enema:meaning-1",
+          "pos": "n.",
+          "en": "A liquid preparation intended for introduction into the rectum, in the selected pharmaceutical sense."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The prescription specified an enema rather than an oral liquid.",
+          "senseId": "enema:meaning-1"
+        },
+        {
+          "en": "The preparation was supplied in a squeezable bottle with a capped nozzle.",
+          "senseId": "enema:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/enema.webp",
+        "sha256": "e25867ef141c141b399b90e1104ec238a33f624dd6667a089a10e0372590da24"
+      },
+      "visual": {
+        "expectedCue": "A generic unused capped squeezable bottle containing a rectal liquid preparation, explicitly distinguished by essential caption from an oral medicine, apparatus alone or an administration procedure.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG. One unused squeezable bottle has a flat supported base, visible clear-liquid meniscus and continuous narrow nozzle with fitted protective cap. Exact RECTAL ENEMA caption clear120 establishes selected liquid rectal preparation rather than generic empty apparatus. No body/use steps, quantities or therapeutic recommendation. Generic product form only, not every preparation/container. Precise soft clinical product study, cool-white/mint/pale-blue, essential exact text only, no brand, measurements, patient data or irrelevant props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG. One unused squeezable bottle has a flat supported base, visible clear-liquid meniscus and continuous narrow nozzle with fitted protective cap. Exact RECTAL ENEMA caption clear120 establishes selected liquid rectal preparation rather than generic empty apparatus. No body/use steps, quantities or therapeutic recommendation. Generic product form only, not every preparation/container. Precise soft clinical product study, cool-white/mint/pale-blue, essential exact text only, no brand, measurements, patient data or irrelevant props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T21:10:27.532Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e25867ef141c141b399b90e1104ec238a33f624dd6667a089a10e0372590da24",
+          "inspectedAt": "2026-10-30T21:18:17.206Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. Supported squeezable bottle contains a visible liquid level and has a continuous narrow nozzle under a fitted cap; exact RECTAL ENEMA caption checked/readable120 establishes chosen rectal liquid preparation. No needle, body, insertion/use directions, dosage, drug identity, result or implied need/effectiveness. Clinical cool-white/mint/pale-blue, precise soft generic product form only, not all container types or certification of actual contents.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "saline",
+      "sourceWord": "saline",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "saline:meaning-1",
+          "pos": "n.",
+          "en": "An aqueous sodium chloride solution prepared for medical use."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The label identified the fluid as saline.",
+          "senseId": "saline:meaning-1"
+        },
+        {
+          "en": "The specification stated the concentration of sodium chloride in the solution.",
+          "senseId": "saline:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/saline.webp",
+        "sha256": "a90526c001319fd046ed4aaaf107e6cc3f63207d1cb50fbc62fcecf40aea2536"
+      },
+      "visual": {
+        "expectedCue": "Clear medical sodium-chloride solution with a qualitative inset of separate dispersed sodium and chloride ions in water, not serum, solid salt, an exact concentration or administration instruction.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG. Clear capped medical bottle linked from its liquid to an aqueous symbolic inset. Three separate Na+ and three separate Cl− labelled units are dispersed, not bonded into molecules or deposited as solid salt. SALINE and all six ion symbols verified in original/card/120; sign and case identify sodium cations/chloride anions. One qualitative non-molecular-scale model only, not a measured concentration, formula structure, real microscope view or assurance of sterility/product identity/administration. Clean precise clinical educational forms on cool-white with mint/pale-blue, essential exact labels, no patient, route, dosage, graduations or decoration.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG. Clear capped medical bottle linked from its liquid to an aqueous symbolic inset. Three separate Na+ and three separate Cl− labelled units are dispersed, not bonded into molecules or deposited as solid salt. SALINE and all six ion symbols verified in original/card/120; sign and case identify sodium cations/chloride anions. One qualitative non-molecular-scale model only, not a measured concentration, formula structure, real microscope view or assurance of sterility/product identity/administration. Clean precise clinical educational forms on cool-white with mint/pale-blue, essential exact labels, no patient, route, dosage, graduations or decoration."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T21:11:00.585Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a90526c001319fd046ed4aaaf107e6cc3f63207d1cb50fbc62fcecf40aea2536",
+          "inspectedAt": "2026-10-30T21:18:44.374Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. Capped clear-liquid bottle linked from liquid to a conceptual aqueous field with three separate Na+ units and three separate Cl− units, unbonded and dispersed. SALINE plus each ion label/case/charge checked at all3sizes including120. Distinct from serum, salt crystals or molecular bonded pairs. Precise cool-white/mint/pale-blue clinical rendering; colors/sizes are symbolic, not chemistry-to-scale, concentration, real particle visualization, sterility, route, suitability or use instructions.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "winch",
+      "sourceWord": "winch",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "winch:meaning-1",
+          "pos": "n.",
+          "en": "A device that pulls a load by winding a rope or cable onto a driven drum."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The winch pulls the trolley along the track.",
+          "senseId": "winch:meaning-1"
+        },
+        {
+          "en": "The rope winds around the drum between its two side flanges.",
+          "senseId": "winch:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/winch.webp",
+        "sha256": "7e2a42c0efa9bf21d942c5f8ab1661d415309632bde3dcfc4673a2953a0ec68f"
+      },
+      "visual": {
+        "expectedCue": "Complete driven rope drum between two flanges with actual end supports/base and connected gearbox/motor; one continuous rope winds around barrel and exits tangentially. Distinct from passive hose reel; static qualitative product only.",
+        "decision": "added",
+        "reason": "Actually viewed original1254,512WebP,120PNG. Complete rope drum between amber end flanges is supported in two end brackets on connected base; right shaft/gearbox/motor housing relation visible. One rope winds on barrel and leaves toward closed terminal eye; no rope through solid flange, disconnected base or decorative arrow. Winch/drive cue remains readable120. Static product only: hidden gearing/brake, exact winding/termination, torque and load capacity not qualified.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed original1254,512WebP,120PNG. Complete rope drum between amber end flanges is supported in two end brackets on connected base; right shaft/gearbox/motor housing relation visible. One rope winds on barrel and leaves toward closed terminal eye; no rope through solid flange, disconnected base or decorative arrow. Winch/drive cue remains readable120. Static product only: hidden gearing/brake, exact winding/termination, torque and load capacity not qualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T20:15:02.955Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7e2a42c0efa9bf21d942c5f8ab1661d415309632bde3dcfc4673a2953a0ec68f",
+          "inspectedAt": "2026-10-30T21:00:12.872Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. A rope is visibly wound between two drum flanges and continues to one free tail; shaft/bearing pedestals, motor/drive housing and bolted base have coherent external support. The drum-winding cue remains clear120, distinct from a pulley alone. This is a static winch product model; hidden gearing/brake, anchorage, rope termination adequacy, pull rating or suspended-load suitability are not qualified. Slate/silver/amber engineering style matches, no invented readings or irrelevant props.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "shackle",
+      "sourceWord": "shackle",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "shackle:meaning-1",
+          "pos": "n.",
+          "en": "A metal rigging connector with a bow-shaped or U-shaped body whose open ends are joined by a removable pin."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The shackle connects the sling eye to the lifting lug.",
+          "senseId": "shackle:meaning-1"
+        },
+        {
+          "en": "Its pin passes through the eyes at both ends of the curved body.",
+          "senseId": "shackle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/shackle.webp",
+        "sha256": "3eb2a0bf624cce1fddaa428d5e0e2c34fe2cce2ebfbc5be3b612c8f6b379fba7"
+      },
+      "visual": {
+        "expectedCue": "Continuous bow body with two end eyes closed by one straight removable pin actually passing through both; head seated at near eye, far threaded engagement closed. No disconnected shaft or ring masquerading as shackle.",
+        "decision": "added",
+        "reason": "Actually viewed original1254,512WebP,120PNG. One continuous rounded bow terminates in two eyes; silver pin visibly bridges open gap and enters both, with head shoulder seated outside near eye. Interior remains open, no floating pin or disconnected eye. Shackle form and removable-head relation clear120. Far internal thread/fit and load, angle or certification not qualified.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed original1254,512WebP,120PNG. One continuous rounded bow terminates in two eyes; silver pin visibly bridges open gap and enters both, with head shoulder seated outside near eye. Interior remains open, no floating pin or disconnected eye. Shackle form and removable-head relation clear120. Far internal thread/fit and load, angle or certification not qualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T20:16:46.608Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3eb2a0bf624cce1fddaa428d5e0e2c34fe2cce2ebfbc5be3b612c8f6b379fba7",
+          "inspectedAt": "2026-10-30T21:08:01.241Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. Continuous bow terminates in two substantial aligned eyes; one silver shaft crosses the opening and visibly enters both, with turning head/shoulder seated outside the near eye. No disconnected pin or floating bow component. Bow/pin relation clear120; slate/silver/amber precise technical style. Hidden far internal thread, fit, strength, certification and load use are not demonstrated.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "hook",
+      "sourceWord": "hook",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "hook:meaning-1",
+          "pos": "n.",
+          "en": "A curved load-handling connector with a throat through which a ring, sling or other attachment can enter."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The hook engages the lifting ring on the container.",
+          "senseId": "hook:meaning-1"
+        },
+        {
+          "en": "A pivoting latch covers the throat in this example.",
+          "senseId": "hook:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hook.webp",
+        "sha256": "480836624393f75733f950a7a36933c1a10924fad4ed661f6300556f562ee199"
+      },
+      "visual": {
+        "expectedCue": "Complete industrial curved eye hook with visible throat and one supported pivot latch contacting inside of nose; distinguish latch from load-bearing bowl, no disconnected parts or rating claim.",
+        "decision": "added",
+        "reason": "Actually viewed original1254,512WebP,120PNG. Closed upper eye joins continuous neck and curved bowl; one silver latch pivots on supported neck pin, spring lies behind hinge and free end seats at inner nose. Empty interior/throat remains clear; no disconnected nose or floating pivot. Industrial hook versus general ring cue readable120. Static selected form, no latch rating, positive locking, exact spring force or load qualification.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed original1254,512WebP,120PNG. Closed upper eye joins continuous neck and curved bowl; one silver latch pivots on supported neck pin, spring lies behind hinge and free end seats at inner nose. Empty interior/throat remains clear; no disconnected nose or floating pivot. Industrial hook versus general ring cue readable120. Static selected form, no latch rating, positive locking, exact spring force or load qualification."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T20:19:45.995Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "480836624393f75733f950a7a36933c1a10924fad4ed661f6300556f562ee199",
+          "inspectedAt": "2026-10-30T21:09:10.745Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. Closed top eye is continuous with neck and thick curved bowl. One silver latch is supported by a visible pivot at neck and its free end contacts inside of nose, with spring behind hinge and open empty throat behind. Clear assembled noun at120; no floating latch, extra load or disconnected nose. Exact slate/silver/amber technical style. Static latch relation only, no positive-lock, load, strength or certification claim.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "swivel",
+      "sourceWord": "swivel",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "swivel:meaning-1",
+          "pos": "n.",
+          "en": "A rigging connector whose end fittings can turn relative to one another about a shared axis while remaining joined."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The swivel lets the lower eye turn relative to the upper eye.",
+          "senseId": "swivel:meaning-1"
+        },
+        {
+          "en": "Both end fittings remain joined through the central body.",
+          "senseId": "swivel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/swivel.webp",
+        "sha256": "04dac05d75f98f351338d3eaf97a2aa32b0eb9b49157a516411f61bb0802e8e0"
+      },
+      "visual": {
+        "expectedCue": "Two closed eye fittings remain joined through one short central barrel and retained coaxial shank, with qualitative relative-axis rotation cue; not open threaded turnbuckle or disconnected links. Hidden bearing and under-load rotation unqualified.",
+        "decision": "added",
+        "reason": "Actually viewed original1254,512WebP,120PNG. Two whole closed eyes remain joined along common vertical axis by barrel/shouldered lower shank; bottom eye has differing orientation and one curved explanatory arrow circles its axial joint. No open turnbuckle cage, separated rods or floating end fitting. Compact swivel form readable120. Closed housing deliberately does not prove hidden bearing/retention details, actual free rotation under load, torque or capacity.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed original1254,512WebP,120PNG. Two whole closed eyes remain joined along common vertical axis by barrel/shouldered lower shank; bottom eye has differing orientation and one curved explanatory arrow circles its axial joint. No open turnbuckle cage, separated rods or floating end fitting. Compact swivel form readable120. Closed housing deliberately does not prove hidden bearing/retention details, actual free rotation under load, torque or capacity."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T20:21:41.388Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "04dac05d75f98f351338d3eaf97a2aa32b0eb9b49157a516411f61bb0802e8e0",
+          "inspectedAt": "2026-10-30T21:11:32.899Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. Two closed eyes remain joined through a central cylindrical barrel and shouldered coaxial shank. One explanatory arrow wraps the shank axis, teaching relative rotation rather than hinge bending or turnbuckle adjustment. Noun shape survives120, with no disconnection or extra load. Hidden bearing/retention details and loaded operation are unqualified. Precise slate/silver/amber technical object style.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "wire-rope",
+      "sourceWord": "wire rope",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "wire-rope:meaning-1",
+          "pos": "n.",
+          "en": "A rope made from steel wires arranged into strands that are laid around a central core."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The wire rope runs from the winch drum to the trolley.",
+          "senseId": "wire-rope:meaning-1"
+        },
+        {
+          "en": "Each outer strand contains smaller wires laid together.",
+          "senseId": "wire-rope:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/wire-rope.webp",
+        "sha256": "2d9939fdead4e2d7fe81e6e0708b82bf90d7243e0fa06762871ae5ff6c5214fd"
+      },
+      "visual": {
+        "expectedCue": "Continuous steel rope with visibly helically laid multi-wire strands around a core; near cut face shows wire groups rather than empty tube/solid rod/electrical jacket. Qualitative example, no exact standard construction or strength.",
+        "decision": "added",
+        "reason": "Actually viewed original1254,512WebP,120PNG. Large continuous helical multi-wire strands surround highlighted core; foreground cut section visibly separates groups of small steel-wire circles and connects into outer helix. No polymer jacket, empty bore or single threaded solid rod. Rope and grouped-strand construction clear120; individual fine-wire paths are simplified at thumbnail, not a standardized strand/wire count, lay specification, core material/color or strength claim.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed original1254,512WebP,120PNG. Large continuous helical multi-wire strands surround highlighted core; foreground cut section visibly separates groups of small steel-wire circles and connects into outer helix. No polymer jacket, empty bore or single threaded solid rod. Rope and grouped-strand construction clear120; individual fine-wire paths are simplified at thumbnail, not a standardized strand/wire count, lay specification, core material/color or strength claim."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T20:23:54.678Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2d9939fdead4e2d7fe81e6e0708b82bf90d7243e0fa06762871ae5ff6c5214fd",
+          "inspectedAt": "2026-10-30T21:11:32.908Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. Fine wires form visibly grouped outer strands wound continuously around a distinct highlighted central core group; grouped cutface corresponds to longitudinal helical structure. No electrical jacket, empty tube or disconnected strand bundle. Hierarchy remains clear120 in precise slate/silver/amber rendering. Qualitative representative construction only; exact wire/strand count, lay, core material, dimensions and strength not qualified.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "gantry",
+      "sourceWord": "gantry",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "gantry:meaning-1",
+          "pos": "n.",
+          "en": "An overhead spanning frame supported on legs; in the selected workshop example it carries a trolley and hoist."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The gantry supports a hoist above the work area.",
+          "senseId": "gantry:meaning-1"
+        },
+        {
+          "en": "The trolley hangs from the crossbeam between the two leg frames.",
+          "senseId": "gantry:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/gantry.webp",
+        "sha256": "5d085f331c1f1e594812c214f378b566f72d64fdd1cfc6f12d94da6ddb9a3ad7"
+      },
+      "visual": {
+        "expectedCue": "Whole leg-supported spanning workshop frame with continuous beam/upright/brace/ground-foot joints; trolley actually seated on beam supports subordinate hoist. Distinguish gantry supporting frame from the hoist itself, no load/stability rating.",
+        "decision": "added",
+        "reason": "Actually viewed original1254,512WebP,120PNG. Complete overhead beam meets both upright frames; upper knee braces and lower braces connect into long feet with all floor pads grounded. Central hanger/trolley surrounds lower beam flange and visibly connects closed hoist housing to continuous short chain/hook. Supporting frame stays dominant and readable120; no floating bridge, free-standing hoist or loaded operating scene. Trolley wheel/flange contact is partly occluded by hanger plates; exact rolling profile, hidden hoist path, stability, brake and capacity not qualified.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed original1254,512WebP,120PNG. Complete overhead beam meets both upright frames; upper knee braces and lower braces connect into long feet with all floor pads grounded. Central hanger/trolley surrounds lower beam flange and visibly connects closed hoist housing to continuous short chain/hook. Supporting frame stays dominant and readable120; no floating bridge, free-standing hoist or loaded operating scene. Trolley wheel/flange contact is partly occluded by hanger plates; exact rolling profile, hidden hoist path, stability, brake and capacity not qualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T20:26:32.734Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5d085f331c1f1e594812c214f378b566f72d64fdd1cfc6f12d94da6ddb9a3ad7",
+          "inspectedAt": "2026-10-30T21:12:17.452Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. Full overhead beam connects two supported upright assemblies; knee/lower braces and transverse ground feet form continuous visible frame. Central hanger surrounds lower beam-flange region and supports hoist/chain, with visible wheel bodies adjacent to lower flange and no clear floating gap or detached hoist. Whole-frame teaching focus clear120. Exact hidden trolley-wheel/flange contacts, bearings, attachment ratings and operation are not qualified by this exterior view. Coherent static gantry noun, precise slate/silver/amber style.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "butt-joint",
+      "sourceWord": "butt joint",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "butt-joint:meaning-1",
+          "pos": "n.",
+          "en": "A joint in which an end or edge of one member meets another directly, without shaped interlocking profiles."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The butt joint joins the end of the rail to the face of the upright.",
+          "senseId": "butt-joint:meaning-1"
+        },
+        {
+          "en": "The square-cut end meets the adjacent face without an overlapping shoulder.",
+          "senseId": "butt-joint:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/butt-joint.webp",
+        "sha256": "4878757fdc4e541631d1011ad2a17f99e5f5d7cf5db58911b74ea595e792e705"
+      },
+      "visual": {
+        "expectedCue": "Preserved square rail end flush to unnotched upright side face, no overlapping/interlocking geometry; incorrect front-face screw heads actually removed, leaving generic joint without invented fastener route.",
+        "decision": "added",
+        "reason": "Actually viewed corrected original1254,512WebP,120PNG. Two wrongly directed front-face screw heads genuinely removed and continuous wood grain restored. Square rail end meets upright side face with clean thin seam; visible upright outline stays unnotched and there is no visible overlapping ledge, slope or finger profile. Simple end-to-face geometry readable120. This is an exterior qualitative joint model: hidden adhesive/fasteners/internal fit, bond strength and load support capacity not demonstrated. Contextual rail continues beyond right frame, selected interface complete.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed corrected original1254,512WebP,120PNG. Two wrongly directed front-face screw heads genuinely removed and continuous wood grain restored. Square rail end meets upright side face with clean thin seam; visible upright outline stays unnotched and there is no visible overlapping ledge, slope or finger profile. Simple end-to-face geometry readable120. This is an exterior qualitative joint model: hidden adhesive/fasteners/internal fit, bond strength and load support capacity not demonstrated. Contextual rail continues beyond right frame, selected interface complete."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T20:34:54.319Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4878757fdc4e541631d1011ad2a17f99e5f5d7cf5db58911b74ea595e792e705",
+          "inspectedAt": "2026-10-30T21:12:17.466Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed final2 original1254/512WebP/120PNG. Plain horizontal member terminates squarely against vertical member face, with visible simple exterior end-to-face boundary and no visible overlap, step, dovetail or scarf slope. Untraceable previous screwheads are absent; wood surfaces continuous. This qualifies generic exterior butt-joint geometry only: hidden glue, fasteners, internal mortise/tenon construction and strength cannot be established. Essential square-end relation clear120, natural wood within slate/amber technical palette.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "lap-joint",
+      "sourceWord": "lap joint",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "lap-joint:meaning-1",
+          "pos": "n.",
+          "en": "A joint formed where portions of two members overlap and are secured together."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The lap joint connects the two overlapping timber members.",
+          "senseId": "lap-joint:meaning-1"
+        },
+        {
+          "en": "The bolts pass through both members in the overlap.",
+          "senseId": "lap-joint:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/lap-joint.webp",
+        "sha256": "2ec94ea41ad0819a40d38edccc3539d0380720462e68f7da90b6c4dd04d56571"
+      },
+      "visual": {
+        "expectedCue": "Large readable orthographic unnotched bolted overlap: two constant-thickness rectangular wood members touch over a finite central shared length, full doubled overlap thickness, through-fasteners and a bold120px-legible OVERLAP bracket.",
+        "decision": "added",
+        "reason": "Actually viewed final original1254/card512/thumb120. Both wood members now have constant full thickness and touch at a common horizontal face only in finite overlap; upper member remains a full thickness above lower, no notches/halving or shared volume. Two continuous through-fasteners shown in a qualitative sectional overlay with top/bottom washer/head/nut contact. Exact OVERLAP caption and finite-length bracket are large/readable120 after final composition correction. Slate/silver/amber technical side elevation with restrained wood; small display-rest marks and bracket are qualitative, not a calibrated support/load or dimensional diagram. No angle, capacity, tolerance or clamp-force claim; independent human/specialist review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed final original1254/card512/thumb120. Both wood members now have constant full thickness and touch at a common horizontal face only in finite overlap; upper member remains a full thickness above lower, no notches/halving or shared volume. Two continuous through-fasteners shown in a qualitative sectional overlay with top/bottom washer/head/nut contact. Exact OVERLAP caption and finite-length bracket are large/readable120 after final composition correction. Slate/silver/amber technical side elevation with restrained wood; small display-rest marks and bracket are qualitative, not a calibrated support/load or dimensional diagram. No angle, capacity, tolerance or clamp-force claim; independent human/specialist review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T20:24:07.307Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2ec94ea41ad0819a40d38edccc3539d0380720462e68f7da90b6c4dd04d56571",
+          "inspectedAt": "2026-10-30T20:44:29.808Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed final original1254,512WebP,120PNG. Two separate constant-thickness rectangular wood members touch over a finite shared length; full doubled overlap thickness remains, no halving/rebate or shared wood volume. Two connected through-fasteners are explanatory sectional overlays, with top washers/heads and bottom washers/nuts meeting outer faces. Exact OVERLAP caption readable120; bracket denotes qualitative shared extent, not calibrated dimensions. Small rest marks are diagram context, not a grounded load rig. Correct selected unnotched lap relation; no measured fit, clamp force or strength qualified.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "mortise",
+      "sourceWord": "mortise",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "mortise:meaning-1",
+          "pos": "n.",
+          "en": "A cavity cut in a member to receive the projecting tenon of a mating joint."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The mortise receives the matching tenon in the chair frame.",
+          "senseId": "mortise:meaning-1"
+        },
+        {
+          "en": "This blind cavity stops inside the upright rather than opening through it.",
+          "senseId": "mortise:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/mortise.webp",
+        "sha256": "77796daa775d576ae3774b24abf3c4e38baf4c1476dd035617ccb3e17162ca1d"
+      },
+      "visual": {
+        "expectedCue": "Dominant named rectangular blind receiving pocket cut in a wood member, visible continuous walls and closed floor, highlighted inside the post; no mismatched contextual tenon or false fit demonstration.",
+        "decision": "added",
+        "reason": "Actually viewed corrected original1254/card512/thumb120. Selected rectangular blind receiving cavity is visible with continuous sidewalls, back and closedfloor; no through-opening/topslot. Exact MORTISE label remains readable120 and leader ends inside the cavity. Mismatched secondary tongue is genuinely removed, avoiding a false demonstration of matching fit. Single named feature, coherent naturalwood technical shading against slate with amber pocket focus; actual fit/clearance/strength not established. Source/tips retain receiving-tenon definition and blind/through distinction; no human/specialist approval.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed corrected original1254/card512/thumb120. Selected rectangular blind receiving cavity is visible with continuous sidewalls, back and closedfloor; no through-opening/topslot. Exact MORTISE label remains readable120 and leader ends inside the cavity. Mismatched secondary tongue is genuinely removed, avoiding a false demonstration of matching fit. Single named feature, coherent naturalwood technical shading against slate with amber pocket focus; actual fit/clearance/strength not established. Source/tips retain receiving-tenon definition and blind/through distinction; no human/specialist approval."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T20:16:52.912Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "77796daa775d576ae3774b24abf3c4e38baf4c1476dd035617ccb3e17162ca1d",
+          "inspectedAt": "2026-10-30T20:18:02.902Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254,512WebP,120PNG. Rectangular pocket has traceable sidewalls/back and a closed wooden bottom; wood continues below and around it, no through-hole or open-top slot. Amber cavity/leader selects receiving feature, exact MORTISE readable at120. No contextual mismatched tenon remains. Slate/amber precise wood-feature rendering fits category; cropped top is continuation of contextual post. No actual matching fit, dimensions, clearance or strength qualified.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "tenon",
+      "sourceWord": "tenon",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "tenon:meaning-1",
+          "pos": "n.",
+          "en": "A projecting part shaped to fit into the mortise of a mating joint."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tenon fits into the mortise in the upright.",
+          "senseId": "tenon:meaning-1"
+        },
+        {
+          "en": "The shoulders meet the surrounding face when the joint is assembled.",
+          "senseId": "tenon:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tenon.webp",
+        "sha256": "79e1cd08f82bdd18fd7f22770f43f1877221132c464eb54b137186198cd01056"
+      },
+      "visual": {
+        "expectedCue": "An integral solid rectangular tongue visibly projects from a single wood rail with clear surrounding shoulders, named TENON at the projection; no receiving cavity or false matching-fit demonstration.",
+        "decision": "added",
+        "reason": "Actually viewed distinct derivative original1254/card512/thumb120. A solid rectangular wood tongue projects from the end of one larger continuous rail, with visible surrounding shoulders and solid top/side/end surfaces; selected feature is projection, not receiving cavity or whole assembled joint. Mortise/reference cavity and old label are absent. Exact TENON leader ends on solid tongue and label readable120. Restrained naturalwood product study on slate/amber, consistent with scoped reference material/layout while earning its own pixel review; no proof of dimensions, grain microstructure, actual matching fit, capacity or human/specialist approval.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed distinct derivative original1254/card512/thumb120. A solid rectangular wood tongue projects from the end of one larger continuous rail, with visible surrounding shoulders and solid top/side/end surfaces; selected feature is projection, not receiving cavity or whole assembled joint. Mortise/reference cavity and old label are absent. Exact TENON leader ends on solid tongue and label readable120. Restrained naturalwood product study on slate/amber, consistent with scoped reference material/layout while earning its own pixel review; no proof of dimensions, grain microstructure, actual matching fit, capacity or human/specialist approval."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T21:15:02.576Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "79e1cd08f82bdd18fd7f22770f43f1877221132c464eb54b137186198cd01056",
+          "inspectedAt": "2026-10-30T21:17:28.048Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. One solid rectangular tongue projects from the end of a larger wood rail, with clear shoulders around its root and visible solid top, broad side and end. The receiving pocket/reference model is absent, so selected projection is distinct from mortise, loose peg or whole joint. Exact TENON label and leader onto the solid projection verified120. Naturalwood/slate/amber feature study, no inherited geometry approval from template and no measured fit, grain microstructure, hidden joint internals or strength claim.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "dovetail",
+      "sourceWord": "dovetail",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "dovetail:meaning-1",
+          "pos": "n.",
+          "en": "A woodworking joint in which flared tails on one member interlock with matching spaces between pins on another."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The dovetail connects the side and back of the drawer.",
+          "senseId": "dovetail:meaning-1"
+        },
+        {
+          "en": "The flared tails fit into complementary spaces between the pins.",
+          "senseId": "dovetail:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/dovetail.webp",
+        "sha256": "9c65ac9b849a7bbad00aeb26fea75dde4f038ba292c8c72c65873795560c5f66"
+      },
+      "visual": {
+        "expectedCue": "Nearly orthographic through-dovetail corner-face detail shows dark wood tails with narrow left necks and wider right outer ends, complementary light wood pins and subtle perpendicular return context; clear flared interlock rather than rectangular box fingers.",
+        "decision": "added",
+        "reason": "Actually viewed corrected original1254/card512/thumb120. Nearly orthographic corner-face detail now has obvious darkwood trapezoid tails with narrow necks at left strip and wider right outer ends; upper/lower edges diverge and fit complementary lightwood pin spaces. Dark board visibly returns perpendicular to the main light face, not inline puzzle boards; no rectangular box fingers, free metalpins, gaps or invented load arrows. Exact DOVETAIL label and tail-interface leader verified/readable120. Restrained wood/slate/amber technical rendering, qualitative fit only; no adhesive/tolerance/capacity or human/specialist qualification.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed corrected original1254/card512/thumb120. Nearly orthographic corner-face detail now has obvious darkwood trapezoid tails with narrow necks at left strip and wider right outer ends; upper/lower edges diverge and fit complementary lightwood pin spaces. Dark board visibly returns perpendicular to the main light face, not inline puzzle boards; no rectangular box fingers, free metalpins, gaps or invented load arrows. Exact DOVETAIL label and tail-interface leader verified/readable120. Restrained wood/slate/amber technical rendering, qualitative fit only; no adhesive/tolerance/capacity or human/specialist qualification."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T20:54:31.110Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9c65ac9b849a7bbad00aeb26fea75dde4f038ba292c8c72c65873795560c5f66",
+          "inspectedAt": "2026-10-30T20:58:41.876Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed corrected original1254,512WebP,120PNG. Three large dark wood tails visibly widen from narrow necks at left corner strip toward outer ends on the right; upper/lower edges diverge and meet complementary light wood spaces without gaps. Perpendicular dark-board return remains visible, not inline puzzle pieces or separate metal pins. Exact DOVETAIL label/leader verified readable120. Initial box-finger ambiguity genuinely resolved. Qualitative through-corner geometry only: no measured angle, tolerance, glue quality or strength qualification.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "scarf-joint",
+      "sourceWord": "scarf joint",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "scarf-joint:meaning-1",
+          "pos": "n.",
+          "en": "A lengthening joint that fits complementary sloping or shaped ends of two members together along their length."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The scarf joint extends the timber by joining two shorter lengths.",
+          "senseId": "scarf-joint:meaning-1"
+        },
+        {
+          "en": "The matching sloping ends meet along an extended contact face.",
+          "senseId": "scarf-joint:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/scarf-joint.webp",
+        "sha256": "884147e673540daf02a449fdfe66f1ba90f313f527ab1de32840732b93e1bbb8"
+      },
+      "visual": {
+        "expectedCue": "Two collinear wood members lengthened through complementary long sloping ends with a diagonal side seam and constant overall beam thickness, distinct from butt or doubled-thickness lap.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/card512/thumb120. Two collinear contrasting wood members continue through a long complementary oblique interface: visible side seam runs from top to bottom while overall top/bottom remain straight with constant qualitative beam thickness. Matching top-face seam is coherent, no gap, doubled-thickness lap or square butt interface. Exact SLOPING ENDS label and leader to interface clearly readable120. Restrained wood product shading/slate/amber technical style; no fixed bevel angle, actual repair capacity, adhesive quality or measured fit established. Original explanatory model, independent human/specialist review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed original1254/card512/thumb120. Two collinear contrasting wood members continue through a long complementary oblique interface: visible side seam runs from top to bottom while overall top/bottom remain straight with constant qualitative beam thickness. Matching top-face seam is coherent, no gap, doubled-thickness lap or square butt interface. Exact SLOPING ENDS label and leader to interface clearly readable120. Restrained wood product shading/slate/amber technical style; no fixed bevel angle, actual repair capacity, adhesive quality or measured fit established. Original explanatory model, independent human/specialist review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T20:27:38.441Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "884147e673540daf02a449fdfe66f1ba90f313f527ab1de32840732b93e1bbb8",
+          "inspectedAt": "2026-10-30T20:44:33.648Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254,512WebP,120PNG. Two contrasting collinear timber lengths meet along one long side-diagonal interface; matching top-face seam and continuous outer top/bottom profile make complementary sloping ends clear, not a square butt or doubled-thickness lap. Exact SLOPING ENDS label/leader clear120. Context beam extends outside frame while full selected interface stays visible. Precise wood/slate/amber drawing; no measured slope, hidden adhesive, fit, repair strength or load qualification.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
     }
   ]
 }

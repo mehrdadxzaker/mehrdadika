@@ -5074,7 +5074,113 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 478,
+      "targetCategoryWords": 489,
+      "entryIds": [
+        "blood-smear",
+        "urine-dipstick",
+        "biopsy",
+        "tissue-section",
+        "cytology",
+        "oral-solution",
+        "emulsion",
+        "granule",
+        "pessary",
+        "enema",
+        "saline"
+      ],
+      "units": [
+        {
+          "id": "medical-diagnostic-samples-and-microscopy",
+          "title": "Diagnostic samples and microscopic examination",
+          "entryIds": [
+            "blood-smear",
+            "urine-dipstick",
+            "biopsy",
+            "tissue-section",
+            "cytology"
+          ]
+        },
+        {
+          "id": "medical-pharmaceutical-preparations",
+          "title": "Pharmaceutical preparations",
+          "entryIds": [
+            "oral-solution",
+            "emulsion",
+            "granule",
+            "pessary",
+            "enema",
+            "saline"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-38-ready-1",
+      "releaseId": "2026-10-preview-44",
+      "status": "published-preview",
+      "objective": "Learn Diagnostic samples and microscopic examination; Pharmaceutical preparations in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 475,
+      "targetCategoryWords": 487,
+      "entryIds": [
+        "winch",
+        "shackle",
+        "hook",
+        "swivel",
+        "wire-rope",
+        "gantry",
+        "butt-joint",
+        "lap-joint",
+        "mortise",
+        "tenon",
+        "dovetail",
+        "scarf-joint"
+      ],
+      "units": [
+        {
+          "id": "lifting-and-rigging-components",
+          "title": "Lifting and rigging components",
+          "entryIds": [
+            "winch",
+            "shackle",
+            "hook",
+            "swivel",
+            "wire-rope",
+            "gantry"
+          ]
+        },
+        {
+          "id": "woodworking-joints-and-features",
+          "title": "Woodworking joints and features",
+          "entryIds": [
+            "butt-joint",
+            "lap-joint",
+            "mortise",
+            "tenon",
+            "dovetail",
+            "scarf-joint"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-38-ready-1",
+      "releaseId": "2026-10-preview-44",
+      "status": "published-preview",
+      "objective": "Learn Lifting and rigging components; Woodworking joints and features in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-37-ready-1"
+  "activePassId": "specialist-500-batch-38-ready-1"
 }

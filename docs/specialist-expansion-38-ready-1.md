@@ -1,0 +1,40 @@
+# Specialist expansion 38: samples, preparations, rigging and joinery
+
+This editorial preview adds **23 distinct English entries**, with complete Persian, Brazilian Portuguese and Latin American Spanish content: **11 medical and 12 engineering words**. The atlas contains **1,134 words and 1,135 senses**; medicine and healthcare contains **489 entries** and engineering **487**. The remaining targets are 11 and 13 words respectively. Drafts, extra senses and translations do not multiply these totals.
+
+## Included vocabulary
+
+- Diagnostic samples and microscopic examination: blood smear, urine dipstick, biopsy, tissue section and cytology.
+- Pharmaceutical preparations: oral solution, emulsion, granule, pessary, enema and saline.
+- Lifting and rigging components: winch, shackle, hook, swivel, wire rope and gantry.
+- Woodworking joints and features: butt joint, lap joint, mortise, tenon, dovetail and scarf joint.
+
+Each entry has an explicit stable sense, two meaningful examples, three collocations and useful distinctions in all three learner editions. English pronunciation and CEFR guidance are editorial. Original wording is AI-assisted; independent human language and qualified specialist review remain pending. All existing lexical/sense identities, native overlays, science-course content and immutable media are preserved.
+
+## What the pictures teach
+
+Medical illustrations use clean clinical forms on cool white with mint and pale-blue accents. Blood smear shows a thin film and a representative cell field; urine dipstick is an unused reagent-pad strip without an invented test result. Biopsy shows removal of a small representative tissue sample for laboratory examination; tissue section selects the thin slice itself. Cytology shows examination of separate nucleated cells rather than intact tissue architecture. Its new illustration has no leader lines or false optical connection and does not reuse the held histology picture.
+
+The pharmaceutical set distinguishes dissolved substances, dispersed liquid droplets and particle aggregates. These qualitative insets do not specify a formulation, concentration, dose, actual molecular count or therapeutic result. Pessary selects the British pharmaceutical solid vaginal preparation, not a prolapse-support device. Enema selects an unused liquid rectal preparation without showing administration. Saline describes sodium chloride in water without treating all saline solutions as the same concentration or indication.
+
+Engineering uses precise technical product studies and explanatory drawings in slate, silver and amber. Rigging pictures show coherent exterior components and connections; they do not establish load ratings, hidden brake/bearing geometry, suitability or a lifting procedure. Butt joint shows plain end-to-face contact without claiming unseen fastening. A first candidate with ambiguous front screws was replaced.
+
+Lap joint selects two unnotched, full-thickness members secured in a finite overlap. Its first picture looked rebated; the second corrected that geometry but made the cue too small. The final side elevation retains two complete rectangles and through-fastener overlays while enlarging the exact OVERLAP cue. Small display-rest marks and brackets are qualitative, not a calibrated load or dimensional diagram.
+
+Mortise selects a blind receiving cavity with walls and a closed floor. A mismatched contextual tongue was removed rather than presenting it as a correct fit. Tenon is a distinct new illustration of a solid integral projection with shoulders, made from a reviewed wood-feature/style reference and given fresh paired inspections. Dovetail was corrected from nearly rectangular box fingers to clearly flared tails, complementary wood pins and perpendicular corner context. Scarf joint shows complementary long sloping ends with a straight overall member profile. None establishes tolerances, adhesive quality, a design angle or structural capacity.
+
+## Actual inspections and the held draft
+
+All 23 included originals were individually inspected at their actual 1254px resolution and as the converted 512px WebP and 120px PNG. A different AI reviewer inspected every current triple. English/Persian source and both native overlays were actually read and bound to the selected senses and examples. Software validates those bindings and file integrity; it does not confer semantic truth or human approval.
+
+The 23 included pictures used 28 built-in generation/edit requests. Four included pictures needed corrections: butt joint, mortise, lap joint and dovetail; lap joint required two corrections. The selected parent used three additional histology requests. All three returned actual images, but their enlargement callout failed to attach to the tissue specimen. The second also introduced an unwanted objective-to-slide segment; the third removed that segment but retained the wrong callout origin. The initial author acceptance was corrected after a genuine independent finding; the earlier result and subsequent negatives are retained honestly. Histology remains private with complete source, both native overlays, all three literal requests and all nine original/card/thumbnail files. No fourth request or template approval was made.
+
+Across the parent, 31 requests produced 23 accepted pictures and eight retained rejected outputs. Histology is excluded from every published count. The earlier eleven manual-resolution holds are unchanged, bringing the private registry to twelve. Reusable templates retain their specific usage limits; acceptance of a reference never approves a derivative.
+
+Two bounded older-picture observations retained stethoscope and gear after actual published 512px and private 120px inspection: the listening instrument has coherent chestpiece/tubing/ear tubes, and the gear pair has supported shafts and visible tooth interleaving. Their original generation files were not reinspected. These observations are not fresh paired three-size or collection-wide approval; no old media changed. The full priority collections, including starter artwork, still require inspection against the current category briefs before either category is declared finished at 500.
+
+All source text and illustrations are honestly labeled AI-assisted CC BY 4.0 editorial previews. Primary factual references informed original wording and relationships; indexed-only, migrated or unavailable pages retain their access limitations in the reference ledger. Source prose and artwork were not copied.
+
+## Validation
+
+The production build passed under `/mehrdadika/`, all 194 tests passed, and the full content, native-language, reading, illustration, style and campaign checks passed. Fresh English and both native vocabulary/reading snapshots contain 1,134 words and 1,135 senses. Six settled local browser checks passed: biopsy on a 1280px desktop and dovetail on a 390px phone in Persian, Brazilian Portuguese and Latin American Spanish. Individual full-resolution viewport screenshots and complete dialog texts were actually inspected; loaded 512px image response bytes matched frozen reviewed hashes, directions and page widths were correct, and closing each edition’s sheet worked. The existing phone close control partly overlaps the dovetail image-caption corner; the word heading and distinguishing joint profiles remain visible. This is a bounded viewport observation, not a claim that every scrolled line or image-caption character is unobstructed. The existing isolated Playwright Chromium fallback was reused because the Browser tool remains unavailable; no installation or user-browser attachment was made. Its one exact configured service-worker-block warning was recorded separately from application errors. No application warnings/errors or HTTP failures were observed; service-worker/offline behavior was not tested. Owned browser contexts and the preview server were closed. Exact source-head CI, manual Pages deployment, live build/pointer/count/media hashes and settled live cards remain separate required release gates.

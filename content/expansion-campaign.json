@@ -7107,6 +7107,502 @@
           "use": "Actual primary explanatory text read for repeated loads that may cause progressive cracking when one application does not, and final loss of intact section. No copied crack illustration, numerical endurance claim or design advice."
         }
       ]
+    },
+    {
+      "id": "specialist-500-batch-38-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-44",
+      "baseline": {
+        "releaseId": "2026-10-preview-43",
+        "manifest": "content/releases/2026-10-preview-43-65af82e94838/manifest.json",
+        "manifestSha256": "65af82e94838e05d5bc79e31e13303fcfc4a0a1dae65b6ebfbaae12cb625d7cb",
+        "words": 1111
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "blood-smear",
+            "lexicalBinding": "7c146bb6083a95f3959d0f7bf6fade76a4b49ed2af9ca7c1988a6e3d1ee4b257",
+            "sourceImageSha256": "58ae075db034485aadac02190509cb8fc8e3a8d069d2189c93e51754ca8f293f",
+            "cardSha256": "7364ba9a14a16680ef3478cf37082777e9e571be9624873ff451420a8afb65c5",
+            "thumbnailSha256": "567c699773fa47d79dbf5019b81bb2e63795ac979111bb279433b9d62d2e2d1e",
+            "authorPixelBinding": "6eee60950ad174e12739e2c379b59492a09dfb90ca90425ad85e2da43bcac449",
+            "secondPixelBinding": "5d41e76516841f1b1c679aa0f9e5af5a7907f3fbd6d7d769907be857d9aaf3f3"
+          },
+          {
+            "entryId": "urine-dipstick",
+            "lexicalBinding": "6606ea32287d77ffb379c21868ef521d6f84b308d32cee1c77b9ebf2d186c5d4",
+            "sourceImageSha256": "dc38514730f6fa47db7687f86d46c83701957a8344a7ee8980bbccb49444b6b0",
+            "cardSha256": "4797d2459b732b42b7ea33b0dd8ab88759151c0dfffc83f65cb1e7643fde7897",
+            "thumbnailSha256": "48caf7f297d231d265acd37a0e4fe4d2fe9c9a556880892f7a2e01d4da52cb33",
+            "authorPixelBinding": "ee21cb5dcc042f6df640aef64313512fa6d5721070dcac48d0660af92299fac5",
+            "secondPixelBinding": "db8f93e59137ecaf1a4dd6976062b02c49df544ec7b8ea73c0157d5a0b0bd4d4"
+          },
+          {
+            "entryId": "biopsy",
+            "lexicalBinding": "7d376d3253e160c5f9bbd43e2467470173afc47b11e1dc81ad67f5fa8928eb74",
+            "sourceImageSha256": "f94160bb5b31374a55839cbb888fde9d7e7c9f4a738e682b5721395a182089d5",
+            "cardSha256": "ef4a6c545a2d0e052f9c75656c3881767ebffc5468b6c5f19182eb91c28d832a",
+            "thumbnailSha256": "ad5c04e42ec38822165c4f1b6ff4e04e28ee2eedb8dae92083c62074a045982a",
+            "authorPixelBinding": "e150628da889b2e505a52750d13f1dbabe68a233542ba11a411ed26cad8a77ea",
+            "secondPixelBinding": "05a84bce2dc26c1a2deba1d097571d9360df4e44cbcc8092aa7bda5f190b91d3"
+          },
+          {
+            "entryId": "tissue-section",
+            "lexicalBinding": "976698de3d3c5701b81b556eed2d34417a4a6d7c0aed03e99e4e6a36e25132c9",
+            "sourceImageSha256": "abead0cf913735655118d7e23b959340668d30c51817335d1e376bb8c9b4d626",
+            "cardSha256": "5de5345a51c402c450bdb0ce1579d4f6e360e1da1ebbaa863e60808e4382bbb3",
+            "thumbnailSha256": "17a0d58db255d4000ca785d09809f1d96bc365f1887dbde0a3cbd3dd06f26f41",
+            "authorPixelBinding": "b7ee8506f4081dcca56ca9afdadbf1e3ffa81ea5539f4fe46d8ad5c81259fd2d",
+            "secondPixelBinding": "a9307579333ed37947d73a3bc095c4e34e27a2c232a0ad744a142ab6732a8035"
+          },
+          {
+            "entryId": "cytology",
+            "lexicalBinding": "e5e4a9abde5fdd03fe9b508fd485895b2c41128dd0db8a8acec9bed71eb75237",
+            "sourceImageSha256": "c122a8b3616d6a2866b545ebdfbce5bb1da699a195009861915604a03233a791",
+            "cardSha256": "bf61bfb353a3e7ccdecc152010c5ddc05f4d68999551ff90430b0ab0632a8f12",
+            "thumbnailSha256": "cc2e5426563eb09a8113ac196ea2dc8e125ff6ebad7a530b25e8442312bc14f0",
+            "authorPixelBinding": "bc705379b205ec620b3d709464630e7c28afb7eb842bebc925cb961c3b176db6",
+            "secondPixelBinding": "415c83f067b7e738ea00746f8dcdcb40a75cc96c08fc334b0c78842279ac4aae"
+          },
+          {
+            "entryId": "oral-solution",
+            "lexicalBinding": "30fa55f4a532857cf95406c91fef648161841a826009ecd3eceb658a880c0850",
+            "sourceImageSha256": "44bb5eaefa5d3f48f82dc005c239817cf4ec7bc17cb49aac20a9110324b353f8",
+            "cardSha256": "842d87d13f6f4f92edd3e161fc0587d7741480526a2c553e658288a5276d0597",
+            "thumbnailSha256": "d461809a955f010fe64accfcc2a126635d85401b85b149597ab62438064d5d07",
+            "authorPixelBinding": "1cb7504552a7d7212a1f01e43d96d75ee342cd13b3dcbe8e50f5ecbf4876ce85",
+            "secondPixelBinding": "e17f7483b8e3d17005089a3318afe4ffd1d50ee742f38a7800a18ff03eaee0be"
+          },
+          {
+            "entryId": "emulsion",
+            "lexicalBinding": "f4698bdcd362302ddcd5ab44fef0f45c38b66ca983a4f89b6606d15a74325b3b",
+            "sourceImageSha256": "5d14e6b91ac783e93c5990155ee2a234403eca9aa8b139ff50bcab56bd3317dc",
+            "cardSha256": "ef3f0160f0a968ff3fcc2232cb9143235c42121cda864199198eccb8da194b48",
+            "thumbnailSha256": "279109b973c5ca32b230076176be149d11c13801ad5934dd5c11d5ec9b64e664",
+            "authorPixelBinding": "d226ddd5cfe68e38e3f53fc3012fad54098f13ba7151bbf2f16b24fac2fce519",
+            "secondPixelBinding": "5f0b995f8f1c820cf9957a092417c167e8cbe3e708af500a57ff34ac27827c80"
+          },
+          {
+            "entryId": "granule",
+            "lexicalBinding": "1cdb60b78063df920dbf91b443baa75fe69a0889d5b4e7c5277305f6c5a2750e",
+            "sourceImageSha256": "5038a8edf21bc946e92b4d121da8325e37aa56e8259df28e635747fe17a5fb9e",
+            "cardSha256": "2f8884d21917f909a856db08451e396fc7409a8b51099c971b8bbf874c50faaf",
+            "thumbnailSha256": "4aaba8b87fa33e950aea5bf8d1e0d52c9445b2883cc26f62e4f14122a25577dc",
+            "authorPixelBinding": "2e282779432c3dbd990c1f59b201f8f3f18f8fabaf47717f1e9b7ac4df936eeb",
+            "secondPixelBinding": "8fa4904fc2b718183e12d9b2de239d460e0f2d565f762d0153f49391c02bb299"
+          },
+          {
+            "entryId": "pessary",
+            "lexicalBinding": "e84934c7bb4fbcdb4c68ac9c54d3bc0e9765aaaf4988594c3f31f83fb0d8b89d",
+            "sourceImageSha256": "07637f33fa31811688f7c90076968afbaedabfadda6489aaa3e82821a1c0b57f",
+            "cardSha256": "bda39c1dc733e152d7583438d138932a49d70178daa97ca120e725d91055dd89",
+            "thumbnailSha256": "5612274df8d2cfa8cb9ddfa613765f99f9b33964be235509b9de9ed9ad0c0571",
+            "authorPixelBinding": "838ffa3abbf5be4a003877618e8c865d4e241bbd733b53bb2b3e63203c239c49",
+            "secondPixelBinding": "ecd0907aa8cb373f8637c386662efad118fc22cd59f7634aaea61f772d7a3486"
+          },
+          {
+            "entryId": "enema",
+            "lexicalBinding": "5da5d565e22599ee123cb8722e0ff9c3d5cfdbea6167c1c5ce8ac185ca5d7159",
+            "sourceImageSha256": "b9eacf8dcb99a2d4ee8978cd9d848839c21fe2e79c968012f549e82075c2faed",
+            "cardSha256": "e25867ef141c141b399b90e1104ec238a33f624dd6667a089a10e0372590da24",
+            "thumbnailSha256": "c5522ecf7d8aaedf80cda1c9111670c2e356d8b1917ca9260844a8718304a9bd",
+            "authorPixelBinding": "07928294f3707c3ec10ad9d5555d1a160eec60c8eaa6c0229a575c8c95503b82",
+            "secondPixelBinding": "136caefdb4ad034b29ff28bae22190cb72ba43533bbdc9ba815edd131011bb6e"
+          },
+          {
+            "entryId": "saline",
+            "lexicalBinding": "07b612045e6c90c30b7c121b972fd4da7fa8ff72f10f235416da56202cf9045c",
+            "sourceImageSha256": "1777981858597a7273f682ce43250d8f853ea08fd53de325877a1341206a0da3",
+            "cardSha256": "a90526c001319fd046ed4aaaf107e6cc3f63207d1cb50fbc62fcecf40aea2536",
+            "thumbnailSha256": "9f66c3ac4e94967da9bf66b9d2581af95900cebb7ec4c872bd380e5d34fea70b",
+            "authorPixelBinding": "f6be5113e58953f0126f9249b198beb1b2f3503a69f8391eb5db1801e499580f",
+            "secondPixelBinding": "9cbbde11823e5cb83afac0824022ced28545099d8b662a6f335ade6ea0eb256c"
+          },
+          {
+            "entryId": "winch",
+            "lexicalBinding": "4a98645febee27394d6e9133e83a98ddb9405ae0a426c4a1b258395a36a84397",
+            "sourceImageSha256": "739c1b9aefdf4f42567255e86401118d94f47e1d348a1a9bab48946729db9de0",
+            "cardSha256": "7e2a42c0efa9bf21d942c5f8ab1661d415309632bde3dcfc4673a2953a0ec68f",
+            "thumbnailSha256": "a3562e6d5c085e0ae22704f7371033956bfd28d8dc02afd900add8ec72f6ce72",
+            "authorPixelBinding": "011dbb2189c7ba0e98894759c3155eada0f23ca35be038e6c211caa7fe8e8ec3",
+            "secondPixelBinding": "b0b8c38efb8d8279bce0398d07a939dcb114c26d2c3d79907753317707476ffc"
+          },
+          {
+            "entryId": "shackle",
+            "lexicalBinding": "930fa388221312b01307c9051d0ebdb39258fb3307f354f955d1b15071acd3f5",
+            "sourceImageSha256": "83cfaa8905688776370e30350d50ea13948f27ad1bb5a3883e6a1f503a1abb17",
+            "cardSha256": "3eb2a0bf624cce1fddaa428d5e0e2c34fe2cce2ebfbc5be3b612c8f6b379fba7",
+            "thumbnailSha256": "d60565c31f749ac885ea13d75c8e7651cef9ca131238a049eb15fec206b78d97",
+            "authorPixelBinding": "fef20142e052612c4e62e3375b00e93cb2ec7ccf087c3953c5aac80e29a50d99",
+            "secondPixelBinding": "91a5f00ac26c95cc320ad118c4eea4149b6b0b1295e135ddce7231e871924173"
+          },
+          {
+            "entryId": "hook",
+            "lexicalBinding": "dafb52a29e1c6263e7bd03273fbcb84e3c3bbaa13e410dd2a2477711accd5377",
+            "sourceImageSha256": "67a0cc1cdbf538470b21086d504b3ac3d56739aff105d650347bfb9b95905110",
+            "cardSha256": "480836624393f75733f950a7a36933c1a10924fad4ed661f6300556f562ee199",
+            "thumbnailSha256": "5b05b9cc61b6a6d9e6229f4f7037b1e8539d4cb01b711bb2d0948bc413fa679b",
+            "authorPixelBinding": "f9756985a2b13cdbd10d4897cdea5954262df989a14872b2772a30c285e898b0",
+            "secondPixelBinding": "ff924850d7dc9fd3e6e4ba4aa4ac8e1b0ac3465f7deeb05d8a39b6560425e74a"
+          },
+          {
+            "entryId": "swivel",
+            "lexicalBinding": "e62857f4bd6a5cc7cd2f45b7c1bcfcfb42fbe92a6fa45cd898299915b2829103",
+            "sourceImageSha256": "90f8e97d01f7762d4df03614af7d4e30ca90112beac67eee24dc150d9f747a89",
+            "cardSha256": "04dac05d75f98f351338d3eaf97a2aa32b0eb9b49157a516411f61bb0802e8e0",
+            "thumbnailSha256": "1e6e590e0d0ada8f50b9db82b00120210c36e4aeedfd1eab14ff1a7ad4517334",
+            "authorPixelBinding": "f60389111c1bebb3ae000221fc4ca8711389f5e96dbe155acb608982bbded01d",
+            "secondPixelBinding": "31fa9e25dd438cccbc838607581bd9166bebb5fdfd0d40ba407cba0e627c4844"
+          },
+          {
+            "entryId": "wire-rope",
+            "lexicalBinding": "2267573530f45827f096d2756deaf36f29cea5b98e51ba64e755803427e2253c",
+            "sourceImageSha256": "30930f3bfce9383250482eec2701689fe51e9a7c2c169e26b03f85d9dfe9127e",
+            "cardSha256": "2d9939fdead4e2d7fe81e6e0708b82bf90d7243e0fa06762871ae5ff6c5214fd",
+            "thumbnailSha256": "dfc6a6c34d1e0052540baa31c877c912f6a9567dbced6254d975456eb4fa448a",
+            "authorPixelBinding": "8032a6cec02086135c33c372e18febacb7e8d2b7ab919f8af0384213db46fff1",
+            "secondPixelBinding": "469ea93ce0605314130a35956bf9138ec58acb217498641331b8df2217529426"
+          },
+          {
+            "entryId": "gantry",
+            "lexicalBinding": "265894b1b77910bfd73a8b9239cbd029dda3a2877d8049eaabf096572f93903f",
+            "sourceImageSha256": "3a5269f008b8769e8a4744530efeab09c36db6596ee435c5e2f5bf6e46401ed2",
+            "cardSha256": "5d085f331c1f1e594812c214f378b566f72d64fdd1cfc6f12d94da6ddb9a3ad7",
+            "thumbnailSha256": "6ae653815c51b48dda1fba26577b6eb1e9c85a41c9023ed32ffcd4b920b4924a",
+            "authorPixelBinding": "73a4805ce5efa5b39baacf468cc0e788b09bdad8e85c8ddc597e729f9309b5db",
+            "secondPixelBinding": "b968264e535a763caf8ef1f58660b96a7b49fa10805855014bb017ec3e30c49a"
+          },
+          {
+            "entryId": "butt-joint",
+            "lexicalBinding": "0bca52d11369a4b3ed3b85b55a8c9bff8e2c0faa243588e0b1ec1aeaa5836467",
+            "sourceImageSha256": "31eea58c611533b77ddfd864cd5a0b4e2450ba9771fec5f3b45babae2c2269eb",
+            "cardSha256": "4878757fdc4e541631d1011ad2a17f99e5f5d7cf5db58911b74ea595e792e705",
+            "thumbnailSha256": "d463f9e05449482486da0bf54adc0b0dfee2a2dca162de468a7faf23f203d948",
+            "authorPixelBinding": "88561cc6f1af4848338865b0c1f5cc7ea8b35943e07b416eba8eeb206f36c971",
+            "secondPixelBinding": "fb867a2b9c8541c6242d7aa39b32859f1836b37d491e883872f6269d96c7f47b"
+          },
+          {
+            "entryId": "lap-joint",
+            "lexicalBinding": "389d981cfdcb31d10e32c861ff7821b4f6be26fcd5374a1934ed54c2464ade39",
+            "sourceImageSha256": "f24637a21900b3643849962bfec957ff7d1f9fd6bc302ab3eedbbcb1f696637f",
+            "cardSha256": "2ec94ea41ad0819a40d38edccc3539d0380720462e68f7da90b6c4dd04d56571",
+            "thumbnailSha256": "e53adc19257efa5d4cb6e8e980248c1cd5b3657bb85dccc03663a549ef9d7029",
+            "authorPixelBinding": "d09a5bebfba5cbdbc4afb7a17637b19d080d593037300b051e0bf034918e4c21",
+            "secondPixelBinding": "6e8444e0c0d6aff20268c417fd81bc261b42f68d08b102566462f06ab8d7668f"
+          },
+          {
+            "entryId": "mortise",
+            "lexicalBinding": "b8e34ac06e4edb8b01d3f7dbde57a2c4333f45d7ef302eeeb6060b35984cafd6",
+            "sourceImageSha256": "ec4fd16c6bdde9ab946ff34d269536ddfa984a8efdb4abee5422cc962c11a175",
+            "cardSha256": "77796daa775d576ae3774b24abf3c4e38baf4c1476dd035617ccb3e17162ca1d",
+            "thumbnailSha256": "5055f5fdedc1022996bced4367181647b5be13b5d29b608f637addff1a9b00da",
+            "authorPixelBinding": "93a86e89712787ace58f90c8f714cd52f8bed58d7eec08b3ce2bc0f7538206e8",
+            "secondPixelBinding": "d45f86ca02c71b7eff345d1488ff7b5e324d47145bd442f5c4c62a80a3891b81"
+          },
+          {
+            "entryId": "tenon",
+            "lexicalBinding": "6c14be407bc578b8d13ee9ba3f3db7c0ffad81b1de7e304940ddb14292a1055e",
+            "sourceImageSha256": "8806a2a41336b47b1a9f6fa01a7b002bb0ec0ea19a8013381f98d710c2503c6f",
+            "cardSha256": "79e1cd08f82bdd18fd7f22770f43f1877221132c464eb54b137186198cd01056",
+            "thumbnailSha256": "f1d372d6e1d120ef8c721e45b96af478f3c6fb7db3b7d0153991e6f847eb3900",
+            "authorPixelBinding": "98530df2de2a87b9cafcf4ac291357d20c5730509aa68a13e5a207e3541b908a",
+            "secondPixelBinding": "7377231bc3f45a63e5916934864e5a650c4df3c2d773c18da3713d14178a75bb"
+          },
+          {
+            "entryId": "dovetail",
+            "lexicalBinding": "8879da1e97640fe7c013b5e06a11f13af56e6434cf632798e55c51f1fe2ba348",
+            "sourceImageSha256": "e03055db978be9e86c1f87bd864bd21378a165b7536e5d7294ae4a4b87005e83",
+            "cardSha256": "9c65ac9b849a7bbad00aeb26fea75dde4f038ba292c8c72c65873795560c5f66",
+            "thumbnailSha256": "db82d54102c1643ca211cc87a302316ae38cd6f6abcea230281eeb5a5ff609c0",
+            "authorPixelBinding": "07f2223b7ea0c6e0d759a3ee5721d827b9fd5b778e644208498c6bbdd9c6f845",
+            "secondPixelBinding": "f33365b484f156582b976d3f2b9af0a56ba46d877aacaf58db1acbfd5f097b7c"
+          },
+          {
+            "entryId": "scarf-joint",
+            "lexicalBinding": "ca393f2c01d75fd30ab76b0c3b2b062d071d7945049dbf191110aa91a1b25043",
+            "sourceImageSha256": "f8b33c8c1b8eb2a9cc5ecbc75be7047fcb8445fe4587253f8317f2156d0d3ba3",
+            "cardSha256": "884147e673540daf02a449fdfe66f1ba90f313f527ab1de32840732b93e1bbb8",
+            "thumbnailSha256": "9baf5c5d682d1e95e7d6576baea63bbd811abc8f3adf433d0051279df0f1a77a",
+            "authorPixelBinding": "6a95e007063ce496ac356fb9bc78beb0277eccb9aa7b66ce512e651f323781b7",
+            "secondPixelBinding": "1a92358309a4c8ed9eaa67fe95120b525852a82c9a9a0f0436a2ae691ab5e8ad"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 478,
+          "targetCategoryWords": 489,
+          "entryIds": [
+            "blood-smear",
+            "urine-dipstick",
+            "biopsy",
+            "tissue-section",
+            "cytology",
+            "oral-solution",
+            "emulsion",
+            "granule",
+            "pessary",
+            "enema",
+            "saline"
+          ],
+          "units": [
+            {
+              "id": "medical-diagnostic-samples-and-microscopy",
+              "title": "Diagnostic samples and microscopic examination",
+              "entryIds": [
+                "blood-smear",
+                "urine-dipstick",
+                "biopsy",
+                "tissue-section",
+                "cytology"
+              ]
+            },
+            {
+              "id": "medical-pharmaceutical-preparations",
+              "title": "Pharmaceutical preparations",
+              "entryIds": [
+                "oral-solution",
+                "emulsion",
+                "granule",
+                "pessary",
+                "enema",
+                "saline"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 475,
+          "targetCategoryWords": 487,
+          "entryIds": [
+            "winch",
+            "shackle",
+            "hook",
+            "swivel",
+            "wire-rope",
+            "gantry",
+            "butt-joint",
+            "lap-joint",
+            "mortise",
+            "tenon",
+            "dovetail",
+            "scarf-joint"
+          ],
+          "units": [
+            {
+              "id": "lifting-and-rigging-components",
+              "title": "Lifting and rigging components",
+              "entryIds": [
+                "winch",
+                "shackle",
+                "hook",
+                "swivel",
+                "wire-rope",
+                "gantry"
+              ]
+            },
+            {
+              "id": "woodworking-joints-and-features",
+              "title": "Woodworking joints and features",
+              "entryIds": [
+                "butt-joint",
+                "lap-joint",
+                "mortise",
+                "tenon",
+                "dovetail",
+                "scarf-joint"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "parentBatchId": "specialist-500-batch-38",
+      "completedAt": "2026-10-30T21:29:15.460Z",
+      "factualReferences": [
+        {
+          "entryId": "blood-smear",
+          "url": "https://medlineplus.gov/lab-tests/blood-smear/",
+          "title": "MedlinePlus — Blood Smear",
+          "use": "Actually checked: Blood spread on a glass slide, staining and microscopic cell examination; specimen/preparation versus test naming and limits of an isolated smear. Factual text only; no protected wording or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "urine-dipstick",
+          "url": "https://medlineplus.gov/ency/article/003579.htm",
+          "title": "MedlinePlus Medical Encyclopedia — Urinalysis",
+          "use": "Actually checked: Urine-chemistry strip with reagent pads and possible color change; original object explanation only, without copying test interpretation, preparation or clinical advice. Factual text only; no protected wording or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "biopsy",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/biopsy",
+          "title": "NCI Dictionary of Cancer Terms — Biopsy",
+          "use": "Actually checked: Removal of cells or tissue for examination, including differing biopsy methods; no procedural technique or disease-result assertion copied. Factual text only; no protected wording or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "tissue-section",
+          "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=65372&section=1.2",
+          "title": "The Open University OpenLearn — Histology, Microscopy, Anatomy and Disease",
+          "use": "Actually checked: Sectioning as cutting tissue into thin sections for microscope viewing and preservation of tissue organization; no preparation protocol, real specimen image or measured thickness copied. Factual text only; no protected wording or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "cytology",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cytology",
+          "title": "NCI Dictionary of Cancer Terms — Cytology",
+          "use": "Actually checked: Study of cells by microscopy; original distinctions from biopsy procedure and organized tissue examination, no diagnostic morphology or clinical result copied. Factual text only; no protected wording or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "oral-solution",
+          "url": "https://digicollections.net/phint/en/d/Jb/6.2.1.2.html",
+          "title": "WHO International Pharmacopoeia — Liquid Preparations for Oral Use",
+          "use": "Actually checked: Oral solution as oral liquid with dissolved active ingredients; distinction from solid-particle suspensions and liquid-droplet emulsions. No formulation recipe, dose or quality test copied. Factual text only; no protected wording or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "emulsion",
+          "url": "https://digicollections.net/phint/en/d/Jb/6.2.1.2.html",
+          "title": "WHO International Pharmacopoeia — Liquid Preparations for Oral Use",
+          "use": "Actually checked: Stabilized oil-in-water dispersions as a selected pharmaceutical emulsion example; liquid phases versus solutions/suspensions, without copying manufacture or stability procedures. Factual text only; no protected wording or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "granule",
+          "url": "https://digicollections.net/phint/en/d/Jb/6.2.1.2.html",
+          "title": "WHO International Pharmacopoeia — Liquid Preparations for Oral Use",
+          "use": "Actually checked: Pharmaceutical granules as dry aggregates of powder particles; broad particle sense without asserting one release behavior or preparation instruction. Factual text only; no protected wording or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "pessary",
+          "url": "https://www.buckshealthcare.nhs.uk/wp-content/uploads/2022/09/How-to-use-your-pessaries.pdf",
+          "title": "Buckinghamshire Healthcare NHS Trust — Pessaries Patient Information",
+          "use": "Actually checked: Actually checked the British pharmaceutical vaginal-solid meaning, distinct from a prolapse-support device; no drug, dose or administration steps copied. Factual text only; no protected wording or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "enema",
+          "url": "https://www.kingstonandrichmond.nhs.uk/patients-and-families/patient-leaflets/bowel-prep-enema-hospital",
+          "title": "Kingston and Richmond NHS Foundation Trust — Bowel Preparation with Enema",
+          "use": "Actually checked: Enema as rectally introduced liquid; selected preparation rather than procedure, without copying indications, administration, timing or treatment advice. Factual text only; no protected wording or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "saline",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/saline",
+          "title": "NCI Dictionary of Cancer Terms — Saline",
+          "use": "Actually checked: Saline as dissolved salt and water; medical sodium-chloride sense with no concentration, sterility or administration recommendation inferred. Factual text only; no protected wording or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "winch",
+          "url": "https://www.nsw.gov.au/employment/dogging-and-rigging/guide/part-1-general-rigging-principles/lifting-equipment/winches-sheaves-and-purchases-flexible-steel-wire-rope/winch-drums",
+          "title": "NSW Government — Dogging and Rigging guide: Winch drums",
+          "use": "Actual primary page read for drum as rope-pulling/storage mechanism and connection of drum/gearing/drive. Original qualitative learner wording; winding instructions, formulas, capacities and operating settings are not reproduced."
+        },
+        {
+          "entryId": "winch",
+          "url": "https://www.warn.com/pages/winch-rope-info",
+          "title": "WARN Industries — Winch Rope FAQ",
+          "use": "Actual manufacturer explanatory sections read for rope-on-drum relation, attachment and distinction of steel/synthetic rope. Original example, not a copied product, rigging arrangement or operating procedure."
+        },
+        {
+          "entryId": "shackle",
+          "url": "https://kitocrosby.com/product/crosby-g-209-s-209-screw-pin-anchor-shackles/",
+          "title": "Kito Crosby — G-209 / S-209 Screw Pin Anchor Shackles",
+          "use": "Actual current primary product text read for distinct shackle body/removable pin and selected screw-pin variant. Product dimensions, grades, load limits and certification claims are not transferred to the generic educational example."
+        },
+        {
+          "entryId": "hook",
+          "url": "https://kitocrosby.com/product/crosby-l-320n-l-320-eye-hooks/",
+          "title": "Kito Crosby — L-320N / L-320 Eye Hooks",
+          "use": "Actual current manufacturer product page read for eye-hook family and distinction of hook/latch components. Generic selected noun; no copied product art, model identity or capacity/safety-rating claim."
+        },
+        {
+          "entryId": "hook",
+          "url": "https://www.warn.com/pages/winch-rope-info",
+          "title": "WARN Industries — Winch Rope FAQ: Parts of a winch rope",
+          "use": "Actual manufacturer section read for rope-end hook/attachment relation. No handling instructions, replacement thresholds or load values are included in the learner content."
+        },
+        {
+          "entryId": "swivel",
+          "url": "https://kitocrosby.com/product/crosby-s-1-jaw-hook/",
+          "title": "Kito Crosby — S-1 Jaw & Hook swivel",
+          "use": "Actual manufacturer description read for relative rotation and specific bearing-supported model. Definition selects general rigging swivel; permission to rotate under load is explicitly design-dependent, with no inherited bearing or proof-test qualification."
+        },
+        {
+          "entryId": "wire-rope",
+          "url": "https://www.nsw.gov.au/employment/dogging-and-rigging/guide/part-1-general-rigging-principles/lifting-equipment/steel-wire-ropes/construction-steel-wire-ropes",
+          "title": "NSW Government — Construction of steel wire ropes",
+          "use": "Actual primary body read for individual wires, strands around a core and varying core/construction types. Learner wording is original; no standard strand count, discard criterion, capacity or installation instruction is copied."
+        },
+        {
+          "entryId": "gantry",
+          "url": "https://www.cmco.com/en-ca/resources/blog/overhead-crane-types-whats-best-for-your-application/",
+          "title": "Columbus McKinnon — Overhead Crane Types: Gantry cranes",
+          "use": "Actual manufacturer Gantry Cranes section read for leg-supported overhead bridge/trolley/hoist and distinction from runway-supported bridge cranes. Selected frame sense and workshop example only; no structural sizing, travel-under-load or capacity claim."
+        },
+        {
+          "entryId": "butt-joint",
+          "url": "https://msvs3-dei.vlabs.ac.in/exp/manufacturing-processes-1/simulation/Unit1lesson12.html",
+          "title": "Dayalbagh Educational Institute Virtual Labs — Manufacturing Processes-I, Wood Working Operations",
+          "use": "Actual primary educational sections read for direct butt-joint end/face contact and distinction from shaped interlocking joints. Original definition/example; no instructional steps, dimensions or blanket weakest/strongest-joint claim adopted."
+        },
+        {
+          "entryId": "butt-joint",
+          "url": "https://www.3m.co.uk/3M/en_GB/bonding-and-assembly-uk/training-education/science-of-adhesion/adhesive-joint-types/",
+          "title": "3M — The Science of Adhesion: Adhesive Joint Types",
+          "use": "Actual manufacturer taxonomy/body read for butt, lap and mortise-and-tenon as different assembly types. Used only as factual type cross-check; no copied diagram, adhesive recommendation or bond-performance claim."
+        },
+        {
+          "entryId": "lap-joint",
+          "url": "https://www.rockler.com/learn/edge-glue-thin-panels-using-lap-joints",
+          "title": "Rockler — Edge Glue Thin Panels Using Lap Joints",
+          "use": "Actual original manufacturer/expert article read for overlap as the distinguishing relation and existence of rebated variants. Our chosen example is a generic unnotched bolted overlap; article machining steps, dimensions and strength generalizations are not reproduced."
+        },
+        {
+          "entryId": "lap-joint",
+          "url": "https://www.3m.co.uk/3M/en_GB/bonding-and-assembly-uk/training-education/science-of-adhesion/adhesive-joint-types/",
+          "title": "3M — Adhesive Joint Types: Lap joint",
+          "use": "Actual primary type listing/body cross-checked for lap versus butt assembly. Definition remains broad overlap; picture example does not claim an adhesive joint or a particular load capacity."
+        },
+        {
+          "entryId": "mortise",
+          "url": "https://msvs3-dei.vlabs.ac.in/exp/manufacturing-processes-1/simulation/Unit1lesson12.html",
+          "title": "Dayalbagh Educational Institute Virtual Labs — Mortising and Tenoning",
+          "use": "Actual primary educational explanatory sections read for receiving cavity and corresponding projection; later stub-tenon section confirms a non-through cavity. Selected blind mortise example, no procedure, dimension or strength claim."
+        },
+        {
+          "entryId": "tenon",
+          "url": "https://www.rockler.com/learn/styles-types-mortise-tenon-joinery",
+          "title": "Rockler — Styles and Types of Mortise and Tenon Joinery",
+          "use": "Actual original expert/manufacturer article read for integral/loose and other tenon variants; core projection/cavity distinction also checked against the primary Virtual Labs lesson. Learner wording and shoulder example are original, not a copied plan or tool recipe."
+        },
+        {
+          "entryId": "tenon",
+          "url": "https://msvs3-dei.vlabs.ac.in/exp/manufacturing-processes-1/simulation/Unit1lesson12.html",
+          "title": "Dayalbagh Educational Institute Virtual Labs — Mortise and Tenon joint",
+          "use": "Actual explanatory passage read for tongue fitting receiving cavity and seating of shoulders around the joint. No manufacturing instructions, proportions or blanket strength comparison adopted."
+        },
+        {
+          "entryId": "dovetail",
+          "url": "https://www.rockler.com/learn/what-is-a-dovetail-joint",
+          "title": "Rockler — What Is a Dovetail Joint?",
+          "use": "Actual original expert/manufacturer Basics section read for complementary tails/pins and through versus half-blind forms. Selected noun is the whole woodworking joint; original definitions/examples do not copy artwork or infer universal strength."
+        },
+        {
+          "entryId": "scarf-joint",
+          "url": "https://www.rockler.com/learn/easiest-way-to-make-scarf-joint",
+          "title": "Rockler — Easiest Way to Make a Scarf Joint?",
+          "use": "Actual original expert answer read for joining short lengths end-to-end with matching long sloping faces. Original qualitative definition and plain-scarf example only; no cut angle, glue selection, workshop sequence or strength guarantee."
+        },
+        {
+          "entryId": "scarf-joint",
+          "url": "https://msvs3-dei.vlabs.ac.in/exp/manufacturing-processes-1/simulation/Unit1lesson12.html",
+          "title": "Dayalbagh Educational Institute Virtual Labs — Lengthening joints",
+          "use": "Actual primary classification passage read for scarf as a timber-lengthening joint. Not used to universalize a specific half-lap variant or prescribe support/fastening."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,

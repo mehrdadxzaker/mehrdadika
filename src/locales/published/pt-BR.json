@@ -13,9 +13,9 @@
     "modifications": "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-43",
-    "manifest": "content/releases/2026-10-preview-43-65af82e94838/manifest.json",
-    "sha256": "65af82e94838e05d5bc79e31e13303fcfc4a0a1dae65b6ebfbaae12cb625d7cb"
+    "id": "2026-10-preview-44",
+    "manifest": "content/releases/2026-10-preview-44-93fbb6ea1826/manifest.json",
+    "sha256": "93fbb6ea1826b9afc0b2a89baea809945a19a8fcbb1dda2debb0d9bc9ba24c2e"
   },
   "categories": {
     "everyday-life": {
@@ -38321,6 +38321,788 @@
         }
       ],
       "tip": "Fatigue failure envolve dano acumulado sob cargas repetidas; não é cansaço humano nem necessariamente uma única sobrecarga. A trinca pode crescer mesmo quando uma aplicação isolada da carga não causaria ruptura. A forma final quebrada, sozinha, não comprova fadiga; a sequência explica uma história qualitativa e não prevê vida nem número de ciclos."
+    },
+    "blood-smear": {
+      "sourceWord": "blood smear",
+      "senses": {
+        "blood-smear:meaning-1": {
+          "gloss": "esfregaço de sangue; esfregaço sanguíneo",
+          "definition": "Uma camada fina de sangue espalhada em uma lâmina de microscópio para permitir o exame de suas células."
+        }
+      },
+      "examples": [
+        {
+          "en": "The laboratory scientist examined the blood smear under a microscope.",
+          "translation": "O profissional do laboratório examinou o esfregaço de sangue ao microscópio."
+        },
+        {
+          "en": "Staining helped the individual cells stand out against the glass background.",
+          "translation": "A coloração ajudou a distinguir as células individuais do fundo de vidro."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a peripheral blood smear",
+          "translation": "um esfregaço de sangue periférico"
+        },
+        {
+          "en": "a stained blood smear",
+          "translation": "um esfregaço sanguíneo corado"
+        },
+        {
+          "en": "blood smear examination",
+          "translation": "o exame do esfregaço sanguíneo"
+        }
+      ],
+      "tip": "Blood smear designa aqui a própria camada de sangue sobre a lâmina; a expressão também nomeia o exame dessa preparação. Blood film é outro nome para ela. Não é uma mancha acidental de sangue nem sangue dentro de um tubo. As formas e cores celulares do esquema são exemplos educativos, não contagens ou resultados reais; um esfregaço isolado não estabelece um diagnóstico definitivo."
+    },
+    "urine-dipstick": {
+      "sourceWord": "urine dipstick",
+      "senses": {
+        "urine-dipstick:meaning-1": {
+          "gloss": "tira reagente para urina",
+          "definition": "Uma tira estreita de teste com áreas reagentes que reagem a substâncias em uma amostra de urina."
+        }
+      },
+      "examples": [
+        {
+          "en": "The nurse checked the expiry date on the urine dipstick container.",
+          "translation": "A enfermeira verificou a data de validade do recipiente de tiras reagentes para urina."
+        },
+        {
+          "en": "The strip carries separate pads for different chemical checks.",
+          "translation": "A tira contém áreas separadas para diferentes verificações químicas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a urine dipstick test",
+          "translation": "um teste com tira reagente para urina"
+        },
+        {
+          "en": "urine dipstick pads",
+          "translation": "as áreas reagentes da tira de urina"
+        },
+        {
+          "en": "a urine dipstick container",
+          "translation": "um recipiente de tiras reagentes para urina"
+        }
+      ],
+      "tip": "Urine dipstick é a tira usada na análise química da urina; não é uma vareta de nível de óleo nem um recipiente de coleta. As áreas reagentes podem mudar de cor, mas sua combinação e a leitura dependem do produto. A tira não utilizada da imagem não representa um resultado real, uma tabela de cores validada nem um diagnóstico."
+    },
+    "biopsy": {
+      "sourceWord": "biopsy",
+      "senses": {
+        "biopsy:meaning-1": {
+          "gloss": "biópsia",
+          "definition": "Um procedimento em que células ou tecido são retirados do corpo para exame laboratorial."
+        }
+      },
+      "examples": [
+        {
+          "en": "The clinician explained why a biopsy had been requested.",
+          "translation": "O profissional de saúde explicou por que uma biópsia havia sido solicitada."
+        },
+        {
+          "en": "The removed sample was sent to the pathology laboratory.",
+          "translation": "A amostra retirada foi enviada ao laboratório de patologia."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a tissue biopsy",
+          "translation": "uma biópsia de tecido"
+        },
+        {
+          "en": "a needle biopsy",
+          "translation": "uma biópsia por agulha"
+        },
+        {
+          "en": "a biopsy sample",
+          "translation": "uma amostra de biópsia"
+        }
+      ],
+      "tip": "Biopsy é aqui o procedimento de retirar células ou tecido para exame, não o resultado nem a confirmação de câncer. Biopsy sample é a amostra retirada; histology estuda a estrutura dos tecidos. Há diferentes métodos de biópsia, e a palavra não determina tamanho, instrumento ou resultado. A relação ilustrativa entre origem do tecido, amostra e laboratório não é uma instrução para realizar o procedimento."
+    },
+    "tissue-section": {
+      "sourceWord": "tissue section",
+      "senses": {
+        "tissue-section:meaning-1": {
+          "gloss": "corte de tecido; corte histológico",
+          "definition": "Uma fatia fina cortada de uma amostra de tecido para exame microscópico."
+        }
+      },
+      "examples": [
+        {
+          "en": "The technician placed the tissue section on a glass slide.",
+          "translation": "O técnico colocou o corte de tecido em uma lâmina de vidro."
+        },
+        {
+          "en": "The thin slice preserves a view of neighbouring cells and their arrangement.",
+          "translation": "A fatia fina preserva uma visão das células vizinhas e de sua organização."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a thin tissue section",
+          "translation": "um corte fino de tecido"
+        },
+        {
+          "en": "a stained tissue section",
+          "translation": "um corte de tecido corado"
+        },
+        {
+          "en": "a tissue section on a slide",
+          "translation": "um corte de tecido sobre uma lâmina"
+        }
+      ],
+      "tip": "Section nesta expressão é um corte fino real da amostra, não uma seção de um livro ou uma região do corpo. Biopsy se refere à obtenção da amostra; tissue section é o corte preparado para observá-la. A coloração e a espessura variam com o exame. O esquema do corte e da lâmina não estabelece espessura em micrômetros, imagem real de um paciente nem resultado patológico."
+    },
+    "cytology": {
+      "sourceWord": "cytology",
+      "senses": {
+        "cytology:meaning-1": {
+          "gloss": "citologia",
+          "definition": "O estudo ou exame das células, especialmente de sua aparência ao microscópio."
+        }
+      },
+      "examples": [
+        {
+          "en": "Cytology focuses on the cells present in the collected sample.",
+          "translation": "A citologia concentra-se nas células presentes na amostra coletada."
+        },
+        {
+          "en": "The laboratory specialist examined individual nuclei and cell outlines.",
+          "translation": "O especialista do laboratório examinou núcleos individuais e contornos celulares."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a cytology sample",
+          "translation": "uma amostra de citologia"
+        },
+        {
+          "en": "a cytology laboratory",
+          "translation": "um laboratório de citologia"
+        },
+        {
+          "en": "cytology examination",
+          "translation": "um exame citológico"
+        }
+      ],
+      "tip": "Cytology é o estudo ou exame das células; cyto- se refere a célula. Não é o mesmo que biopsy, obtenção da amostra, nem histology, estudo da estrutura dos tecidos. Algumas amostras contêm células isoladas ou pequenos grupos sem preservar toda a organização do tecido. O esquema celular é um exemplo qualitativo, não uma imagem microscópica real nem um resultado de doença."
+    },
+    "oral-solution": {
+      "sourceWord": "oral solution",
+      "senses": {
+        "oral-solution:meaning-1": {
+          "gloss": "solução oral",
+          "definition": "Um medicamento líquido destinado a ser engolido, com seu princípio ativo ou seus princípios ativos dissolvidos em um veículo líquido adequado."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pharmacist described the medicine as an oral solution.",
+          "translation": "O farmacêutico descreveu o medicamento como uma solução oral."
+        },
+        {
+          "en": "The dissolved substance was distributed throughout the liquid rather than forming a sediment.",
+          "translation": "A substância dissolvida estava distribuída por todo o líquido, sem formar sedimento."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an oral solution formulation",
+          "translation": "uma formulação de solução oral"
+        },
+        {
+          "en": "an oral solution bottle",
+          "translation": "um frasco de solução oral"
+        },
+        {
+          "en": "an ingredient in an oral solution",
+          "translation": "um ingrediente de uma solução oral"
+        }
+      ],
+      "tip": "Oral solution é uma solução medicinal para ser engolida; nem todo líquido ingerível ou medicamento líquido é uma solução. Em suspension há partículas sólidas dispersas; em solution, a substância está dissolvida. Transparente não significa incolor: uma solução pode ter cor. Os símbolos ampliados explicam a dissolução, não uma estrutura molecular exata, concentração, dose ou qualidade do medicamento."
+    },
+    "emulsion": {
+      "sourceWord": "emulsion",
+      "senses": {
+        "emulsion:meaning-1": {
+          "gloss": "emulsão",
+          "definition": "Uma preparação com gotículas de um líquido dispersas em outro líquido com o qual não forma uma única fase misturada."
+        }
+      },
+      "examples": [
+        {
+          "en": "The emulsion contained small oil droplets dispersed through a water-based liquid.",
+          "translation": "A emulsão continha pequenas gotículas de óleo dispersas em um líquido à base de água."
+        },
+        {
+          "en": "A stabilizing ingredient helped the droplets remain distributed.",
+          "translation": "Um ingrediente estabilizante ajudava a manter as gotículas distribuídas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an oil-in-water emulsion",
+          "translation": "uma emulsão de óleo em água"
+        },
+        {
+          "en": "a pharmaceutical emulsion",
+          "translation": "uma emulsão farmacêutica"
+        },
+        {
+          "en": "emulsion droplets",
+          "translation": "as gotículas da emulsão"
+        }
+      ],
+      "tip": "Emulsion é aqui uma preparação farmacêutica com duas fases líquidas, não partículas sólidas de uma suspension nem uma substância dissolvida em uma solution. Na oil-in-water emulsion, as gotículas de óleo estão na fase aquosa contínua; também existe o tipo inverso. O esquema é qualitativo e não comprova tamanho real, estabilidade, modo de uso ou adequação de um produto."
+    },
+    "granule": {
+      "sourceWord": "granule",
+      "senses": {
+        "granule:meaning-1": {
+          "gloss": "grânulo farmacêutico",
+          "definition": "Um pequeno agregado de partículas de pó que forma um grão em uma preparação farmacêutica."
+        }
+      },
+      "examples": [
+        {
+          "en": "The technician examined a granule from the preparation.",
+          "translation": "O técnico examinou um grânulo da preparação."
+        },
+        {
+          "en": "The packet contained many small aggregates rather than loose fine powder.",
+          "translation": "O pacote continha muitos pequenos agregados, em vez de pó fino solto."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a pharmaceutical granule",
+          "translation": "um grânulo farmacêutico"
+        },
+        {
+          "en": "a coated granule",
+          "translation": "um grânulo revestido"
+        },
+        {
+          "en": "granule size",
+          "translation": "o tamanho do grânulo"
+        }
+      ],
+      "tip": "Granule é aqui um grão formado pela união de partículas de pó em uma preparação farmacêutica; granules é o plural. Não é um comprimido inteiro nem uma única partícula de pó. Alguns produtos têm revestimentos ou características de liberação diferentes; a forma de um grão não determina quantidade de princípio ativo, dissolução ou modo de uso. A ampliação ilustrativa não é uma medição real."
+    },
+    "pessary": {
+      "sourceWord": "pessary",
+      "senses": {
+        "pessary:meaning-1": {
+          "gloss": "preparação vaginal sólida; óvulo vaginal",
+          "definition": "Uma preparação farmacêutica sólida destinada à colocação na vagina, no uso médico britânico selecionado."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pharmacist distinguished the pessary from the oral tablet.",
+          "translation": "O farmacêutico distinguiu o óvulo vaginal do comprimido oral."
+        },
+        {
+          "en": "The packet described a solid vaginal preparation.",
+          "translation": "A embalagem descrevia uma preparação vaginal sólida."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a medicated pessary",
+          "translation": "um óvulo vaginal medicamentoso"
+        },
+        {
+          "en": "a vaginal pessary",
+          "translation": "uma preparação vaginal sólida"
+        },
+        {
+          "en": "a pessary pack",
+          "translation": "uma embalagem de óvulos vaginais"
+        }
+      ],
+      "tip": "Pessary tem dois usos médicos diferentes: aqui foi escolhido o uso farmacêutico britânico, uma preparação vaginal sólida, não o dispositivo mecânico de suporte para prolapso. Em alguns textos em inglês, vaginal suppository ou vaginal tablet se refere a essa família de formas farmacêuticas. Forma e embalagem variam; o exemplo não utilizado não identifica uma substância, finalidade terapêutica ou instrução de uso."
+    },
+    "enema": {
+      "sourceWord": "enema",
+      "senses": {
+        "enema:meaning-1": {
+          "gloss": "enema; preparação líquida retal",
+          "definition": "Uma preparação líquida destinada à introdução no reto, no sentido farmacêutico selecionado."
+        }
+      },
+      "examples": [
+        {
+          "en": "The prescription specified an enema rather than an oral liquid.",
+          "translation": "A prescrição especificava um enema, e não um líquido oral."
+        },
+        {
+          "en": "The preparation was supplied in a squeezable bottle with a capped nozzle.",
+          "translation": "A preparação foi fornecida em um frasco compressível com um bico tampado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a liquid enema",
+          "translation": "um enema líquido"
+        },
+        {
+          "en": "an enema preparation",
+          "translation": "uma preparação para enema"
+        },
+        {
+          "en": "an enema bottle",
+          "translation": "um frasco de enema"
+        }
+      ],
+      "tip": "Enema pode indicar o procedimento ou seu líquido; aqui foi escolhida a própria preparação líquida para o reto. Não é medicamento oral nem suppository sólido. O frasco compressível é um exemplo de embalagem, não a definição de todos os tipos. O produto não utilizado do esquema não indica técnica, substância, quantidade, necessidade ou eficácia de uso."
+    },
+    "saline": {
+      "sourceWord": "saline",
+      "senses": {
+        "saline:meaning-1": {
+          "gloss": "solução salina de cloreto de sódio",
+          "definition": "Uma solução aquosa de cloreto de sódio preparada para uso médico."
+        }
+      },
+      "examples": [
+        {
+          "en": "The label identified the fluid as saline.",
+          "translation": "O rótulo identificava o líquido como solução salina."
+        },
+        {
+          "en": "The specification stated the concentration of sodium chloride in the solution.",
+          "translation": "A especificação informava a concentração de cloreto de sódio na solução."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a saline solution",
+          "translation": "uma solução salina"
+        },
+        {
+          "en": "sterile saline",
+          "translation": "solução salina estéril"
+        },
+        {
+          "en": "saline concentration",
+          "translation": "a concentração da solução salina"
+        }
+      ],
+      "tip": "Saline é aqui o substantivo que designa uma solução aquosa de cloreto de sódio para uso médico; sódio sozinho não é o mesmo que esse sal. Em inglês, saline também é adjetivo e, fora da medicina, pode descrever água salgada. Serum é o líquido após a coagulação do sangue, diferente desta solução. Nome ou transparência não comprovam esterilidade, concentração, via ou adequação de uso; o esquema não é uma receita de preparo ou uso."
+    },
+    "winch": {
+      "sourceWord": "winch",
+      "senses": {
+        "winch:meaning-1": {
+          "gloss": "guincho de tambor",
+          "definition": "Dispositivo que puxa uma carga ao enrolar uma corda ou cabo em um tambor acionado."
+        }
+      },
+      "examples": [
+        {
+          "en": "The winch pulls the trolley along the track.",
+          "translation": "O guincho puxa o carrinho ao longo do trilho."
+        },
+        {
+          "en": "The rope winds around the drum between its two side flanges.",
+          "translation": "A corda se enrola no tambor entre suas duas flanges laterais."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a winch drum",
+          "translation": "um tambor de guincho"
+        },
+        {
+          "en": "an electric winch",
+          "translation": "um guincho elétrico"
+        },
+        {
+          "en": "a winch cable",
+          "translation": "um cabo de guincho"
+        }
+      ],
+      "tip": "Winch é aqui o substantivo para um dispositivo com tambor que recolhe corda ou cabo. Hoist enfatiza elevar e baixar cargas; nem todo guincho é projetado para sustentar uma carga suspensa. Winch também pode ser verbo. O desenho não determina capacidade de tração, desempenho do freio nem aplicação permitida de um equipamento real."
+    },
+    "shackle": {
+      "sourceWord": "shackle",
+      "senses": {
+        "shackle:meaning-1": {
+          "gloss": "manilha",
+          "definition": "Conector metálico de movimentação de cargas com corpo em arco ou em U, fechado por um pino removível."
+        }
+      },
+      "examples": [
+        {
+          "en": "The shackle connects the sling eye to the lifting lug.",
+          "translation": "A manilha conecta o olhal da eslinga à orelha de içamento."
+        },
+        {
+          "en": "Its pin passes through the eyes at both ends of the curved body.",
+          "translation": "Seu pino atravessa os olhais nas duas extremidades do corpo curvo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a bow shackle",
+          "translation": "uma manilha curva"
+        },
+        {
+          "en": "a shackle pin",
+          "translation": "um pino de manilha"
+        },
+        {
+          "en": "a screw-pin shackle",
+          "translation": "uma manilha de pino roscado"
+        }
+      ],
+      "tip": "Shackle designa aqui a manilha de aparelhamento, não uma algema. O corpo e o pino removível a distinguem de um elo metálico inteiriço. Uma screw-pin shackle usa pino roscado; há outros tipos de pino. O desenho não confirma ângulo de carregamento, compatibilidade das peças nem capacidade permitida."
+    },
+    "hook": {
+      "sourceWord": "hook",
+      "senses": {
+        "hook:meaning-1": {
+          "gloss": "gancho de içamento",
+          "definition": "Conector curvo para movimentar cargas, com uma abertura pela qual entra um anel, uma eslinga ou outro acessório."
+        }
+      },
+      "examples": [
+        {
+          "en": "The hook engages the lifting ring on the container.",
+          "translation": "O gancho se encaixa no anel de içamento do recipiente."
+        },
+        {
+          "en": "A pivoting latch covers the throat in this example.",
+          "translation": "Neste exemplo, uma trava articulada cobre a abertura do gancho."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a lifting hook",
+          "translation": "um gancho de içamento"
+        },
+        {
+          "en": "a hook latch",
+          "translation": "uma trava de gancho"
+        },
+        {
+          "en": "the throat of a hook",
+          "translation": "a abertura de um gancho"
+        }
+      ],
+      "tip": "Hook é aqui o gancho para movimentação de cargas, não um anzol nem o verbo enganchar. A abertura permite a entrada do acessório; alguns ganchos têm trava. A presença da trava, por si só, não comprova capacidade, travamento positivo ou disposição correta da carga. O exemplo escolhido tem trava articulada."
+    },
+    "swivel": {
+      "sourceWord": "swivel",
+      "senses": {
+        "swivel:meaning-1": {
+          "gloss": "conector giratório; destorcedor",
+          "definition": "Conector de movimentação de cargas cujas extremidades podem girar uma em relação à outra em torno de um eixo comum, permanecendo unidas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The swivel lets the lower eye turn relative to the upper eye.",
+          "translation": "O conector giratório permite que o olhal inferior gire em relação ao superior."
+        },
+        {
+          "en": "Both end fittings remain joined through the central body.",
+          "translation": "As duas extremidades permanecem unidas pelo corpo central."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a rigging swivel",
+          "translation": "um destorcedor de aparelhamento"
+        },
+        {
+          "en": "a swivel eye",
+          "translation": "um olhal giratório"
+        },
+        {
+          "en": "a bearing swivel",
+          "translation": "um destorcedor com rolamento"
+        }
+      ],
+      "tip": "Swivel é aqui um conector mecânico giratório. A rotação relativa das extremidades difere da articulação por inclinação ou da abertura de uma manilha. Poder girar sob carga depende do projeto específico e não se deduz do nome ou da imagem. A vista externa não comprova o rolamento oculto nem o desempenho de uma peça real."
+    },
+    "wire-rope": {
+      "sourceWord": "wire rope",
+      "senses": {
+        "wire-rope:meaning-1": {
+          "gloss": "cabo de aço",
+          "definition": "Cabo formado por fios de aço reunidos em pernas dispostas ao redor de uma alma central."
+        }
+      },
+      "examples": [
+        {
+          "en": "The wire rope runs from the winch drum to the trolley.",
+          "translation": "O cabo de aço vai do tambor do guincho até o carrinho."
+        },
+        {
+          "en": "Each outer strand contains smaller wires laid together.",
+          "translation": "Cada perna externa contém fios menores dispostos em conjunto."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a wire rope sling",
+          "translation": "uma eslinga de cabo de aço"
+        },
+        {
+          "en": "wire rope construction",
+          "translation": "a construção do cabo de aço"
+        },
+        {
+          "en": "a wire rope core",
+          "translation": "uma alma de cabo de aço"
+        }
+      ],
+      "tip": "Wire rope é aqui o cabo de aço que transmite tração, não um cabo elétrico isolado. Wire é um fio individual; strand corresponde a uma perna formada por fios; as pernas ficam ao redor da alma, core. Quantidade e disposição das pernas e material da alma variam. A imagem não determina construção padronizada, capacidade ou compatibilidade com uma máquina."
+    },
+    "gantry": {
+      "sourceWord": "gantry",
+      "senses": {
+        "gantry:meaning-1": {
+          "gloss": "pórtico",
+          "definition": "Estrutura elevada que vence um vão e se apoia em pernas; no exemplo de oficina, sustenta um trole e uma talha."
+        }
+      },
+      "examples": [
+        {
+          "en": "The gantry supports a hoist above the work area.",
+          "translation": "O pórtico sustenta uma talha acima da área de trabalho."
+        },
+        {
+          "en": "The trolley hangs from the crossbeam between the two leg frames.",
+          "translation": "O trole fica suspenso na viga transversal entre as duas estruturas de apoio."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a portable gantry",
+          "translation": "um pórtico portátil"
+        },
+        {
+          "en": "a gantry crane",
+          "translation": "um guindaste de pórtico"
+        },
+        {
+          "en": "a gantry beam",
+          "translation": "uma viga de pórtico"
+        }
+      ],
+      "tip": "Gantry designa aqui a estrutura apoiada em pernas que passa sobre uma área de trabalho; hoist é a talha nela instalada. Em gantry crane, o pórtico integra o sistema do guindaste. Nem todo gantry tem rodas ou serve para içamento. O exemplo não comprova capacidade, estabilidade nem permissão para deslocamento sob carga."
+    },
+    "butt-joint": {
+      "sourceWord": "butt joint",
+      "senses": {
+        "butt-joint:meaning-1": {
+          "gloss": "junta de topo",
+          "definition": "União em que a extremidade ou borda de uma peça encosta diretamente em outra, sem perfis de encaixe."
+        }
+      },
+      "examples": [
+        {
+          "en": "The butt joint joins the end of the rail to the face of the upright.",
+          "translation": "A junta de topo une a extremidade da travessa à face do montante."
+        },
+        {
+          "en": "The square-cut end meets the adjacent face without an overlapping shoulder.",
+          "translation": "A extremidade cortada em esquadro encontra a face adjacente sem um ressalto sobreposto."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a simple butt joint",
+          "translation": "uma junta de topo simples"
+        },
+        {
+          "en": "a glued butt joint",
+          "translation": "uma junta de topo colada"
+        },
+        {
+          "en": "a reinforced butt joint",
+          "translation": "uma junta de topo reforçada"
+        }
+      ],
+      "tip": "Butt joint nomeia a geometria de encontro direto, não o método de fixação. O exemplo faz a extremidade de uma peça de madeira encontrar a face de outra; adesivo ou fixadores podem manter a união. Lap joint tem sobreposição; mortise-and-tenon tem caixa e espiga. O termo também existe em metalurgia, mas aqui não significa uma solda. A forma não determina resistência."
+    },
+    "lap-joint": {
+      "sourceWord": "lap joint",
+      "senses": {
+        "lap-joint:meaning-1": {
+          "gloss": "junta sobreposta",
+          "definition": "União formada onde partes de duas peças se sobrepõem e são fixadas uma à outra."
+        }
+      },
+      "examples": [
+        {
+          "en": "The lap joint connects the two overlapping timber members.",
+          "translation": "A junta sobreposta conecta as duas peças de madeira que se sobrepõem."
+        },
+        {
+          "en": "The bolts pass through both members in the overlap.",
+          "translation": "Os parafusos atravessam as duas peças na região de sobreposição."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a bolted lap joint",
+          "translation": "uma junta sobreposta aparafusada"
+        },
+        {
+          "en": "a half-lap joint",
+          "translation": "uma junta de meia-madeira"
+        },
+        {
+          "en": "lap joint fasteners",
+          "translation": "fixadores de junta sobreposta"
+        }
+      ],
+      "tip": "Lap joint se define pela sobreposição e não se limita a um encaixe rebaixado. No exemplo simples, as peças sem rebaixo ficam uma sobre a outra e os parafusos atravessam ambas. Em half-lap, ou meia-madeira, retira-se parte da espessura para deixar as faces alinhadas. A fixação pode usar adesivo ou elementos mecânicos; a sobreposição desenhada não é uma dimensão de projeto nem uma capacidade."
+    },
+    "mortise": {
+      "sourceWord": "mortise",
+      "senses": {
+        "mortise:meaning-1": {
+          "gloss": "caixa de encaixe",
+          "definition": "Cavidade aberta em uma peça para receber a espiga saliente da peça correspondente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The mortise receives the matching tenon in the chair frame.",
+          "translation": "A caixa de encaixe recebe a espiga correspondente na estrutura da cadeira."
+        },
+        {
+          "en": "This blind cavity stops inside the upright rather than opening through it.",
+          "translation": "Esta cavidade cega termina dentro do montante, sem atravessá-lo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a rectangular mortise",
+          "translation": "uma caixa de encaixe retangular"
+        },
+        {
+          "en": "a blind mortise",
+          "translation": "uma caixa de encaixe cega"
+        },
+        {
+          "en": "a mortise and tenon joint",
+          "translation": "uma união de caixa e espiga"
+        }
+      ],
+      "tip": "Mortise é a cavidade receptora; tenon é a espiga que nela se encaixa. Nem todo furo ou rasgo de madeira é uma mortise: importa sua função de receber a espiga. A caixa pode ser cega ou passante; o exemplo tem fundo fechado. Mortice é outra grafia, especialmente britânica. O desenho não determina folga nem resistência da união."
+    },
+    "tenon": {
+      "sourceWord": "tenon",
+      "senses": {
+        "tenon:meaning-1": {
+          "gloss": "espiga de encaixe",
+          "definition": "Parte saliente conformada para se encaixar na caixa de uma união."
+        }
+      },
+      "examples": [
+        {
+          "en": "The tenon fits into the mortise in the upright.",
+          "translation": "A espiga se encaixa na caixa do montante."
+        },
+        {
+          "en": "The shoulders meet the surrounding face when the joint is assembled.",
+          "translation": "Quando a união é montada, os ombros encontram a face ao redor da caixa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a tenon shoulder",
+          "translation": "um ombro de espiga"
+        },
+        {
+          "en": "a through tenon",
+          "translation": "uma espiga passante"
+        },
+        {
+          "en": "a loose tenon",
+          "translation": "uma espiga solta"
+        }
+      ],
+      "tip": "Tenon é a espiga da união, não a cavidade mortise nem o conjunto inteiro. O exemplo escolhe uma espiga integral na extremidade da peça; uma loose tenon é uma peça separada que entra nas caixas dos dois membros. Shoulder é o ombro ao redor da base da espiga. Uma vista explicativa não comprova dimensões nem qualidade do encaixe."
+    },
+    "dovetail": {
+      "sourceWord": "dovetail",
+      "senses": {
+        "dovetail:meaning-1": {
+          "gloss": "encaixe em cauda de andorinha",
+          "definition": "União de madeira em que caudas alargadas de uma peça se encaixam nos espaços correspondentes entre os pinos da outra."
+        }
+      },
+      "examples": [
+        {
+          "en": "The dovetail connects the side and back of the drawer.",
+          "translation": "O encaixe em cauda de andorinha conecta a lateral à parte traseira da gaveta."
+        },
+        {
+          "en": "The flared tails fit into complementary spaces between the pins.",
+          "translation": "As caudas alargadas se encaixam nos espaços complementares entre os pinos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a through dovetail",
+          "translation": "um encaixe passante em cauda de andorinha"
+        },
+        {
+          "en": "a dovetail joint",
+          "translation": "uma junta em cauda de andorinha"
+        },
+        {
+          "en": "dovetail pins and tails",
+          "translation": "pinos e caudas do encaixe"
+        }
+      ],
+      "tip": "Dovetail é aqui o encaixe de madeira com caudas alargadas e pinos complementares, não o verbo combinar-se. Os pins são saliências da própria madeira. As faces inclinadas o distinguem de uma box joint com dedos retangulares. Uma through dovetail atravessa as peças; a versão half-blind oculta um lado do encaixe. A imagem não comprova adesivo, folga ou resistência real."
+    },
+    "scarf-joint": {
+      "sourceWord": "scarf joint",
+      "senses": {
+        "scarf-joint:meaning-1": {
+          "gloss": "emenda em bisel",
+          "definition": "União para aumentar o comprimento, ajustando extremidades inclinadas ou conformadas e complementares de duas peças."
+        }
+      },
+      "examples": [
+        {
+          "en": "The scarf joint extends the timber by joining two shorter lengths.",
+          "translation": "A emenda em bisel aumenta o comprimento da madeira ao unir duas peças mais curtas."
+        },
+        {
+          "en": "The matching sloping ends meet along an extended contact face.",
+          "translation": "As extremidades inclinadas correspondentes se encontram ao longo de uma face de contato alongada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a timber scarf joint",
+          "translation": "uma emenda em bisel de madeira"
+        },
+        {
+          "en": "a glued scarf joint",
+          "translation": "uma emenda em bisel colada"
+        },
+        {
+          "en": "a scarf joint interface",
+          "translation": "a interface de uma emenda em bisel"
+        }
+      ],
+      "tip": "Scarf joint serve para prolongar uma peça em sua direção longitudinal. O exemplo une duas extremidades inclinadas complementares; também existem versões escalonadas ou com travamento. Butt joint tem encontro direto de topo; lap joint é o termo geral de sobreposição. O desenho não determina ângulo de corte, adesivo adequado ou resistência de uma peça reparada."
     }
   }
 }
