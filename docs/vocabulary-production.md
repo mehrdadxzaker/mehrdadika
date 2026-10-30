@@ -29,3 +29,42 @@ npm run check:campaign
 ```
 
 Independent human language and specialist review remain required before stable publication. Automatic publication is limited to honestly labeled editorial previews. The recurring workflow should stop only on completion, an explicit user pause/stop, or a concrete condition that cannot be safely resolved; do not loop on the same failure or silently skip the image/language requirements.
+
+## Persistent private production queue
+
+Use the reusable queue to resume an interrupted draft without regenerating pictures or repeating unchanged checks. It is an authoring aid: it does not replace the corpus release, independent inspection, publication or live-verification gates above.
+
+```sh
+npm run production:queue -- import --batch specialist-500-batch-31
+npm run production:queue -- status --batch specialist-500-batch-31
+npm run production:queue -- board --batch specialist-500-batch-31
+```
+
+Import reads the existing private batch drafts and stages a queue under `.local/vocabulary-production/pipeline/<batchId>/queue.json`. The original source drafts, prior candidate files, published pointers and immutable releases must remain intact. Repeating import reuses matching cached assets and retains valid current receipts. Existing prose such as “accepted” or “inspected” in a legacy draft is historical evidence, not a newly issued inspection receipt. An image-less legacy draft is not evidence of zero prior requests. Imported generation history that cannot establish the number of attempts must be reconciled explicitly against preserved prompts, outputs and failures before another request is allowed; import must not reset the three-attempt limit. Resolve that history before a record can become ready or enter a prepared subgroup, even if its actual inspection receipts are otherwise complete. A held entry stays held until its unresolved issue is explicitly addressed within the authorized workflow. Do not retry the existing manual holds automatically.
+
+The private review board is a read-only inspection aid. It shows source content, both native overlays, the actual original/512px/120px assets and existing findings. It has no approval or publication controls. Open each required image size and inspect the anatomy, device contact or mechanism itself; a board render, filename, hash, previous comment or attractive thumbnail is not evidence that the meaning is correct. Never record a pixel inspection from a prompt alone.
+
+Keep content, generation and review states separate. A record can need complete content, an image, attempt reconciliation, an author inspection, an independent second inspection, a lexical review or a correction. “Ready” means only that its current private authoring gates are satisfied. Both native overlays must remain complete and tied to the current source examples, collocations and selected sense. The author and second image reviewer must have distinct identities; each actual-pixel receipt identifies the exact current binding, a timestamp, all three inspected sizes and a concrete finding. The lexical receipt instead records an actual-text review of the source and both overlays. AI review remains labeled as AI review, with independent human language and specialist review pending.
+
+Bindings make cached reviews conditional. A changed meaning invalidates the related pixel and lexical receipts; a changed category brief, prompt or image invalidates the corresponding pixel receipts. A native wording change requires a current lexical review even when the picture still teaches the same meaning. Verify current file bytes as well as stored hashes when preparing a group. Preserve stale and rejected evidence in history rather than silently transferring approval to a replacement.
+
+For a genuine derivative, register the specific inspected picture as a template with its source identity, current hashes, category brief and usage limits. A template is a starting point for a new built-in generation or edit, not permission to reuse an unrelated picture or inherit an earlier approval. Keep the exact derivative prompt and parent relationship; inspect every new original and its converted sizes and obtain a fresh independent second review. The same bounded generation and no-paid-API rules apply to template derivatives.
+
+Prepare small coherent subgroups from ready entries, with an explicit group ID, preview release ID and automatic-run ID. An entry belongs to one prepared subgroup; aggregate additions for the same automatic run must still stay at or below 24, including across multiple groups. Held and incomplete records remain private and do not count. Group preparation produces a reviewable local artifact; it must not label the corpus or an entry as live. Finish the existing ledger, fresh English/native vocabulary and reading builds, tests/content/style/campaign checks, desktop/phone inspection, exact-head CI, manual Pages deployment and live revision/pointer/image verification before recording `live-verified` or reporting published counts.
+
+Advanced commands take a private JSON input file instead of shell-embedded review text:
+
+```sh
+npm run production:queue -- reconcile-attempts --batch <batchId> --word <wordId> --input <attempt-evidence.json>
+npm run production:queue -- begin-generation --batch <batchId> --word <wordId> --input <generation-request.json>
+npm run production:queue -- intake --batch <batchId> --word <wordId> --input <candidate-paths.json>
+npm run production:queue -- inspect --batch <batchId> --word <wordId> --receipt <inspection-receipt.json>
+npm run production:queue -- template --batch <batchId> --word <wordId> --input <template-notes.json>
+npm run production:queue -- prepare-group --batch <batchId> --input <group-request.json>
+```
+
+An attempt reconciliation supplies the verified `used` count and concrete `evidence`; a generation request supplies its literal `prompt`, `expectedCue` and optional `templateId`. Generation bookkeeping reserves a request token before the built-in tool is called. Candidate intake supplies the original `source` and, when already converted, its `card` and `thumbnail`; attach the matching token. A failed request uses `fail-generation` with that token and a concrete `reason`. These commands track work and validate local files; they do not call a paid image service or invent a tool result.
+
+An inspection receipt names its `role` (`author`, `second` or `lexical`), `reviewerId`, honest `accepted` result, `humanReviewed: false`, actual review `basis`, concrete `finding`, ISO `inspectedAt` and the current `binding` returned by the queue library's `bindingFor(record, role)`. Pixel receipts list all inspected `sizes`, including the original width, 512 and 120. Record the result only after the corresponding actual review; fixture receipts in software tests are not content reviews. Template input includes `templateId` and `usageNotes`; a group request includes `groupId`, `releaseId`, `runId` and the distinct ready `wordIds`. Keep every request and its evidence private with the batch.
+
+Original intake is limited to workspace files or the configured Codex `generated_images` tree used by the built-in image tool; arbitrary external paths and symlinks are rejected. Supplied card and thumbnail files must be inside the workspace. If those derivatives do not exist yet, supply an explicit already-installed Python/Pillow executable as `python` in the intake request; conversion is bounded to resizing/encoding. The queue does not install Pillow, invoke an image-generation API or treat successful conversion as inspection. Reimport after changing an on-disk category brief, and obtain fresh bound reviews before registering a template or preparing a group. An unchanged legacy import must preserve a newer candidate already produced through the queue.
