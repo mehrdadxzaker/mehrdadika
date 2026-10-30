@@ -4434,6 +4434,525 @@
           "use": "Primary measurement-manufacturer surface-texture guide distinguishes roughness profiles from waviness and other texture components; original qualitative explanation, no copied profile or numerical test result."
         }
       ]
+    },
+    {
+      "id": "specialist-500-batch-33-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-39",
+      "baseline": {
+        "releaseId": "2026-10-preview-38",
+        "manifest": "content/releases/2026-10-preview-38-f55a73458e2b/manifest.json",
+        "manifestSha256": "f55a73458e2b47aa277d523c42f3911b31a9603767957abadee337fdb641ce19",
+        "words": 993
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "scab",
+            "lexicalBinding": "7b2ec66dd77188e5df53764a33eebfad904e4c3b5203cfac47907ca00c81549e",
+            "sourceImageSha256": "60f16a195aff2f1ac3d2b0d2cb782355e005cd7b473db967c9404dd84b01e017",
+            "cardSha256": "bf6283c0d0adacb9bb29837e6e05eb2e3996f8b4aab12deabc79541e99a66cd2",
+            "thumbnailSha256": "0023da88eb9a6ffcc05ade2488f4ebf433332a77b16390ac22891fb5eb670936",
+            "authorPixelBinding": "2e549e085e165ba87ba02ac25fb83ee717a41d111a538c1351864a755095c258",
+            "secondPixelBinding": "1b12157327a925378332439232a3965cad9f489a1a28133d52e371881da084ee"
+          },
+          {
+            "entryId": "ulcer",
+            "lexicalBinding": "ef4ab9cc3e4c9f451049f481418b48873c3ae0362c91e0d0bfc8766464a0d75c",
+            "sourceImageSha256": "09f350b661da6c3075da8142291cb5dfa4e63f804398b16a24c604a4ba958fe9",
+            "cardSha256": "86df844c0a46a46ba17f587272a172bb0c31c4fc27f9491dda2954228a410d02",
+            "thumbnailSha256": "388c09511a89b6e7e10198f92d693d4b01044a575cf864a2b0948a1378ed4b0e",
+            "authorPixelBinding": "e43811eb4d595f9aaddfe36917a8a2e758615588a4b6a4b75fbdffb6406b6dcf",
+            "secondPixelBinding": "9e443d564ecc83f40a2ef0eb9056d1fa82d9f034116b22bea1688ada7898c28e"
+          },
+          {
+            "entryId": "cyst",
+            "lexicalBinding": "689d3cd7c1d722601b8e8ae7523400e56ec3f521dcf74aff62663aa0d6423f1b",
+            "sourceImageSha256": "148c59d4e7ab966baf8034ef0a33d583da64d0902467e7de81cfb6519571bc2d",
+            "cardSha256": "c972cb11010ff95934d73b92cea2a72f59e1ead8f4bbd4075e3eb4578f1870c6",
+            "thumbnailSha256": "d31c8d355e719efa152fc58c6fa03940722799d0920ec616d511028c091eb052",
+            "authorPixelBinding": "369dff370f1bde233c1d301434dbbc8d6e72f2937cddefc6786325715723dc87",
+            "secondPixelBinding": "a7fb9eebcfad3f517704208c0d02d40a556959f0c6be9c5a77aeecd6f815549c"
+          },
+          {
+            "entryId": "abscess",
+            "lexicalBinding": "0ee99cd47b0d9940c62d4814b84cd19ccd1fb64e6d9136f2cb618c3f222ac95b",
+            "sourceImageSha256": "3c8a32e855069208a3a81b5af87b824fb14a23a78ab933c576c8bdc4f540f2b7",
+            "cardSha256": "5c93467d58fd963149615d587e290acc0100688492d998c092219a9cc247de8c",
+            "thumbnailSha256": "9ac757552f49c958c33adf927357229b765dde78ba2f72f18648ee4e342bed78",
+            "authorPixelBinding": "02f04e0472861f296b7d13bd55a036e7440e05e28cb6331569174f8c4b73af31",
+            "secondPixelBinding": "c8aff90d9c7a992280732cc527bdb09c5938fdc62c82da3c8384d0ae125b2283"
+          },
+          {
+            "entryId": "wart",
+            "lexicalBinding": "c0fee04d37bd58fd22b42e801a5c3c1ebd1da03c86af13efe49536f35889de6a",
+            "sourceImageSha256": "b5501b33a106af835e837562d6741e3b5af6cab338d1718aa1cdd0fa0b3da971",
+            "cardSha256": "c7ffcdae26dc0bea51656fa263ac125a18b40dab26712803e6c05558d3d480a8",
+            "thumbnailSha256": "17b53c79518e479415499fb9b3e3884012dc4c5995fdee352d58676b4d03cdc4",
+            "authorPixelBinding": "f10ca21c53bc039e0b9c98cdf7622b37a7c85104573faafb4a5d1946cdd6bc6c",
+            "secondPixelBinding": "75d1beff01642afceaa791e061f7edd715700ff64159b873038a0dd6d4c6d1e4"
+          },
+          {
+            "entryId": "callus",
+            "lexicalBinding": "8db4b1504a292d8ed8b5d0dd57172e653da9184fb9cf8f85748dc38e3e1cf5f6",
+            "sourceImageSha256": "d772abcd0eb7b472a90edaddc322cb3eafcfdb6f1590c742b9da949bf1f4d3c7",
+            "cardSha256": "24be34eb5ab006d2eb8c34d31d6dd9198bbbdf4aa1f6b4a533ec29bc133d6c81",
+            "thumbnailSha256": "f5836e72e5ac2858227cc4a94fa58695cb5606f637c9559be2e2e90d41b3a014",
+            "authorPixelBinding": "149c436a97828a50d2ae13ceb2df851e93614493f8b7bbb0f8796177bd4424b9",
+            "secondPixelBinding": "db60264f43a6dc634a0721e6979a564d1b5c4736f690b74632ef4403bb82eb8b"
+          },
+          {
+            "entryId": "mucus",
+            "lexicalBinding": "7a55bfd436bee988e41f3fbfafa8894c79dfb169184b962c3d8525ef17a585c6",
+            "sourceImageSha256": "69ef580044ab71b8369f1774edd554fafb16116e77574b612e9eb56b1eb34503",
+            "cardSha256": "287e71e3d6ad64947cabfef93c4ea8461042fea91bdb07b9296c34a53e3ee499",
+            "thumbnailSha256": "86c2d115be82d12d8fba0bf4bd07aa7a46f3752956fc6b04cc7278b9f7293240",
+            "authorPixelBinding": "10d3e1e2558451630775919b04a77bfab6618fdf9cc917514acfe8acadd5563d",
+            "secondPixelBinding": "1af56066e252ec4dfc5514cf2dfbdacc6e808a85b31359e79baa790d01b69f14"
+          },
+          {
+            "entryId": "sputum",
+            "lexicalBinding": "ec01b4366ec3e8cff2b7c088debfb3ca24abcdaa2f5e99a782c6137750bc54ec",
+            "sourceImageSha256": "6a74d06e870eaaed4bc6dab45e9cd3911d1de05715e27d98d1a087da64422b96",
+            "cardSha256": "b7577b268e60266c816ad6ddddf3570a9c81e5f9b3e9c7a5e159918e6b0ad023",
+            "thumbnailSha256": "209075985e124a09e0d8ea9770c667ace5062330df60340a11b4dbe1ce2636a5",
+            "authorPixelBinding": "26196fd0ca7890028667a9064938e118472e0a10c9e83bf6e381b24fab2905be",
+            "secondPixelBinding": "3b97f7188a6594968dd8db7988440c56ddfcda488ce189a5016a100636559e17"
+          },
+          {
+            "entryId": "saliva",
+            "lexicalBinding": "36b0b6396c6cd42eb5e1081716d75e440e01372922d1dc03544ed4ff3c41568a",
+            "sourceImageSha256": "a6bebc4d339bcca54251fd8d9f8c3e12aa2120258237f49a26f1f57fbb9988d1",
+            "cardSha256": "85db2da722eb5f86936425fa54b25fff05f41f00bd3758b06a7e8309777f313e",
+            "thumbnailSha256": "136aaee90a1e335a91ddfab043a524937fdf92e60f88edcd61b4d0521131e7dc",
+            "authorPixelBinding": "97f37395a1dbb13d5a2f8782ac6371fac55fe1de4002aed4c296545cd9bdee34",
+            "secondPixelBinding": "84f4b96fc9d7320fad6cf4a19bfe73debb1c9138434c1eb291a337723aa6d9f2"
+          },
+          {
+            "entryId": "serum",
+            "lexicalBinding": "a0af0291fd82206e71a5d5d54fc583c8a8324375c4b3c9161295e0cbfe59df89",
+            "sourceImageSha256": "4f19fdba43bcf56f6597abcf7edaa3f8898b09c67910e06f998ee60dc52a8d27",
+            "cardSha256": "bc833624d3d06bb9a543640f73d9b1759565f57d6ee9f871335130a0402424a0",
+            "thumbnailSha256": "d5d1c6f8eb23c23bd6d25dd9b4247576d3f23f240b755ae7f4195a4bf8130446",
+            "authorPixelBinding": "932e55b10a9ac1f7a3cc99d561f6e28336263e63b4c6f51a1aa1cb430531800d",
+            "secondPixelBinding": "160e32d1f9356f2c179aaf07b805d27afb1f42875e8ed24ffe1e8d99a0f29580"
+          },
+          {
+            "entryId": "pus",
+            "lexicalBinding": "69a7623665ed513239afd4956ec90c7f88f4051348abf333a3aecacc071a2066",
+            "sourceImageSha256": "38054e48d04e49d5c804269dad3351f5e73e48c99e0769a88f18205c6080124a",
+            "cardSha256": "c6d77fa1c130d13e60a2c9ab2d7d6ab4478a9231568b401aa11197ac7177151b",
+            "thumbnailSha256": "a78a76a1a874818107886f3c98e6c82207eadb31323640de58b8d2b65804ab50",
+            "authorPixelBinding": "eb6bfc8a9936e7cb23f30f66dcab08d45c805924cf58bd1afbd64cbe37dfbf27",
+            "secondPixelBinding": "434cee433d137fb473b7309520466c73cc83f6ec8f698b4ee8cbb5f4c5de0b71"
+          },
+          {
+            "entryId": "sweat",
+            "lexicalBinding": "cccf0c298c11cfb47032ca11fd9811b63d64f75ab6d45754e3fdc4853071c1df",
+            "sourceImageSha256": "bb34752fb8478f61febcaeb83b3468d2ce60895cecefce279ba5c10bd6d12335",
+            "cardSha256": "2f04a67fc3aa6a16ffb70a01141280518012a03ec472bda793cd8eca58091bbe",
+            "thumbnailSha256": "98b1bef90928f8b2e6439339b6e30b0d18261f615cc6f723dd4be4a499b5faaa",
+            "authorPixelBinding": "e38c42ec04b61c321f9b7e5311597ccb72741cfb3803f03c5d7e496c3f4cf441",
+            "secondPixelBinding": "469cd079eee685a1cf453dd222179ab644cdd16ec276bd316bc9ee01225fecea"
+          },
+          {
+            "entryId": "commutator",
+            "lexicalBinding": "7572363495294cb01e553afa0b8102512a290fbcbf3c55ac31fccebf0535d488",
+            "sourceImageSha256": "38914de1ce793ca1e0b497e00f589d691ddb1cb285208f553e7dcbd050d9dc12",
+            "cardSha256": "2a3a7e487a7dac0bfa016ca935d74cd17459b826ac91129630813a13c1202ff4",
+            "thumbnailSha256": "32a064e52b903a2c524a888be3ebdd0ccd19a9efa855921965d24baef7b2568b",
+            "authorPixelBinding": "5a50b97ae91311e351b1180083c87e260611ad079fdef79418d49f3728fe2c72",
+            "secondPixelBinding": "a12330d6cea59dd29acb8524dcc1f707730c1a42f119bb82aeb765daabb5f789"
+          },
+          {
+            "entryId": "slip-ring",
+            "lexicalBinding": "3ad9e371272b2996ea4cb56439b86fb51544405b15f43f2d9758a071ce36a436",
+            "sourceImageSha256": "92a6bfbefa6f1393be5f3ee62d57662b4d124732cbf832ce3b22066a14613720",
+            "cardSha256": "b219b48640de160902e2a5b00c85d407cf2ec293f1ce5a8761afb10e08be00bb",
+            "thumbnailSha256": "eaa915d0f04f8e96e56a0e1b950a5dce5d7a1f0a8a602e342adcb30747bea052",
+            "authorPixelBinding": "e7e9c49ef56a7b308210c41106c26af6f7a99de24d18ecce9520fcf9600e2b94",
+            "secondPixelBinding": "4ea53fc4eb1dce314e6af4b920e5284ef248fed71efca616995336ad4c7a7599"
+          },
+          {
+            "entryId": "carbon-brush",
+            "lexicalBinding": "30905010bb6800e877e6ee62b86f98f6e9229bd05be8bbaa2bd00030f510bdd2",
+            "sourceImageSha256": "7159cacb75d19d550b55fc02f783478deda9203ba12caf0f9e522b9624f27ee3",
+            "cardSha256": "126112a3d991be2a102192682ca9e251c8a79fe27b3fd2029caaf347a7d37eec",
+            "thumbnailSha256": "d2bfe31136f83e9a00dd55afeb719247b858b1e5ac7a50e3b9a7cea37d7dc70e",
+            "authorPixelBinding": "49f4f73945630ae5c12fe1c346b18305ba5b2054e4163e58e3bff0bed36be508",
+            "secondPixelBinding": "f30b1a9a9fc83578f152100e6295b8ae3b520ad14f6b5588e931300a658d755b"
+          },
+          {
+            "entryId": "grommet",
+            "lexicalBinding": "086ec5ba6b7bce883ccf84d5d7ac2e72ad672db4579cb6c7d5b24282bb0b8224",
+            "sourceImageSha256": "55c0d5979046ba9ce884115f7fe9b9b6a238596a4aa4235ddc6725e29ec1cd7f",
+            "cardSha256": "32e1d897e95fb6492c2c8351907ee8ca7ea5fdcec9488e0ccd3586247fc62f0c",
+            "thumbnailSha256": "1f40a00d20be79fccc11eac9eb2290ec19a3146dbf8dcfb216e4612b956362a1",
+            "authorPixelBinding": "755ba7ca3a8d252ab4c224524de2d6663a22ff951653b74f45622d9ecc4ece1e",
+            "secondPixelBinding": "bca024a7c98b718d696adfa2a1568b4cb269406e2320a16abbc9387013cc6a79"
+          },
+          {
+            "entryId": "cable-tie",
+            "lexicalBinding": "a9474a0e4204dfd17fa48814e8a61d3c4495fd448f52f2ee9c08db962b476ae5",
+            "sourceImageSha256": "aed3a196968b08d79668f520818d9f884837079d6f438afd65e568bc487248df",
+            "cardSha256": "d25533edc1c7593e524e24842750d980d950075a7b7d4df3879414a9ab0e4768",
+            "thumbnailSha256": "54e50aa8de631d6c7b22732ed6f9d0c0854fe45666bd45e4f471c487c2615cef",
+            "authorPixelBinding": "405c0afb17d79e912d5a6c83da7334b08401c959c9236b44f9889e613f303ca0",
+            "secondPixelBinding": "7d15a8db5d0d423ec1a93a8c0addb90b810aa14b4102cb2b3326548c1f5f0bd8"
+          },
+          {
+            "entryId": "conduit",
+            "lexicalBinding": "099a81098b5a6424b36bdb228165d6fd2c85952fabdafe949487adea8b719037",
+            "sourceImageSha256": "b13dc540586a254cae73c1b75b6a45b6f0f0300e2e0ea652bdd1d0ceb343499f",
+            "cardSha256": "675a2dd8d1cbd78d2a05b33b094e74c0ef0e9330cb2ecf87187aa000735507f9",
+            "thumbnailSha256": "fca7e5c79ceb2a1463befc46aeb9754f503b03d3a298f19a7c2c6a6a88a9c023",
+            "authorPixelBinding": "fb22ef68cd63a198f7580eaeec6fb84442f24ca8e6f40c49ffdb1cd52a2b9c54",
+            "secondPixelBinding": "ae309e985c3fcab6ace14c4c8e3a58367e6e25a870388c48ba270dbeafc5dd84"
+          },
+          {
+            "entryId": "manhole",
+            "lexicalBinding": "c428e78e052dc84c2dff54be629dc50ac1296d923aad0e41268a18f5d783fe5b",
+            "sourceImageSha256": "1587ae3586d061dbfa68197d2bd245e58a565794ad6fbbc4fb07041e85062e4e",
+            "cardSha256": "354b4df3f4c6226dc6dff696b5bb8183a7619d3f8c9dd2d0551659674ae6f1b6",
+            "thumbnailSha256": "d652add8f2cfa527c90d74ea20582b1e8cb828b5204127a76a77fb56b3f00d12",
+            "authorPixelBinding": "3ed3984dc464204d45bfa8724c439598d22409c9aee2d9c4c98feece1330f809",
+            "secondPixelBinding": "c1e7508feb4386af02ececc9d18bfae3b95ed5857a6fad8b7212480936ccfa61"
+          },
+          {
+            "entryId": "weir",
+            "lexicalBinding": "cb7f0a28d43b90945cc2596ffd3c8482cdc305d9fe7936455d9716f52cf436ad",
+            "sourceImageSha256": "34a106c078020aaa60af7ca24fd5fe6af573fdabc8d8286fdbd6ac97571a915f",
+            "cardSha256": "4b9480102fc1b0930d1837bf20fcd2880c94b9b95444626931adaef61e7b3a63",
+            "thumbnailSha256": "3e871d766e72e07e357dd934396e947c265709d2bc30aae03bd0d883635c0b52",
+            "authorPixelBinding": "6495877b21d04b89c9f76c0f3c8533083f1f4c8723451b74932d4bedfc0e3dad",
+            "secondPixelBinding": "8dca9c51bc3f79a26fb84d1abde1486d32a0033321274898edc9400fea83f743"
+          },
+          {
+            "entryId": "spillway",
+            "lexicalBinding": "b9829bcadf3a65bf29469d928cea367fdd965843ae5e034683d9b84bd93eb47f",
+            "sourceImageSha256": "6c51d20b8b5942ba6eeee3733b8c15216970b5f175e2d5479b63ab1483a3fe57",
+            "cardSha256": "3c9eef72e2dc41e7548dc1b6ed1a1231a03d8be10ea09f42f2e27a29503846a3",
+            "thumbnailSha256": "e2ed45512d963a8822302ffd57e2aaec1b96af0475e55b5d3a611ef539aeacbe",
+            "authorPixelBinding": "9125e93e69d1935b3783de45dc0299b86679663a0b2c5fe6456e9855ab77f488",
+            "secondPixelBinding": "99084efc8756924c9f6d0a26cd20deed01e9dd2013b94f38ccb9c582422f6df1"
+          },
+          {
+            "entryId": "sluice-gate",
+            "lexicalBinding": "6bafe21a7fec76c56d308e5952fd5be84fc4d2c19426776f82451a7106bca5d7",
+            "sourceImageSha256": "3b4fa290f352e9b16430dc1ffc9a7256d0e83ff99912193e6ec3af72d8589b09",
+            "cardSha256": "405f53702e9ac78f48fbb65a98281a95df4ceeae726552680b2f1520ecbf7459",
+            "thumbnailSha256": "dd26c58eb16f74affd14b12756f2e94fab361085632f717350d4f26de911e7c4",
+            "authorPixelBinding": "a1f1ce5f15c5690d370401d07cfccbfa3ccad5a4d142d5daf4c9c96ca7f823d6",
+            "secondPixelBinding": "ca5d850c043f40319e0776195da8c5140140ee476b137574d07985eef8d44263"
+          },
+          {
+            "entryId": "geotextile",
+            "lexicalBinding": "2ab14652f71377e3e43d14ebe1470fa5d0531130ceeb67c373172b6958d66bee",
+            "sourceImageSha256": "e331d1c9d6eb7dc000cbdd24074ed12130702b8ebf68ef50fb22928901907f36",
+            "cardSha256": "feee3725509dfadfb48e06204a33937e8acdd237dc09fc4593acd1d474a8c711",
+            "thumbnailSha256": "a7fb8ac585b9eeae812b6117cb4b3e4c48a1b4e1d5e19fcdf8741db75793836d",
+            "authorPixelBinding": "dc9bb9ea5e2b22d8b094cfa58af017b6cab9eb34f2409acec82b3157b7269466",
+            "secondPixelBinding": "3419f3ec49a232247d0aa6d5ede8859507e7e551611ba3d3de510679fc078764"
+          },
+          {
+            "entryId": "riprap",
+            "lexicalBinding": "8711e97c6b88edec05514d07dab136573a419b054b2e477dfed46bfc5b70e38f",
+            "sourceImageSha256": "ce93361c3dc16700effe361c51f4791046c3b8b359709a258b65bc6a02423d32",
+            "cardSha256": "5cdcc4e146399b2e111b0e1b7ec28bc270ec6a588d6de99788eaae613df9e207",
+            "thumbnailSha256": "2bcd30b3a260c855f491fe911edebdbc3dc89c1cdb4e9a7d820fd1a7aa26bbad",
+            "authorPixelBinding": "765c468cd577ff74ff27f03fc32af8ef1ee4cd8d8bfaf8ba09154d5e4aeb14cc",
+            "secondPixelBinding": "6de996e05a101fa3c501b462d275eda971221545bd4cfbd4b2480680218b598a"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 418,
+          "targetCategoryWords": 430,
+          "entryIds": [
+            "scab",
+            "ulcer",
+            "cyst",
+            "abscess",
+            "wart",
+            "callus",
+            "mucus",
+            "sputum",
+            "saliva",
+            "serum",
+            "pus",
+            "sweat"
+          ],
+          "units": [
+            {
+              "id": "medical-skin-lesions-healing",
+              "title": "Skin lesions and healing",
+              "entryIds": [
+                "scab",
+                "ulcer",
+                "cyst",
+                "abscess",
+                "wart",
+                "callus"
+              ]
+            },
+            {
+              "id": "medical-secretions-specimen-materials",
+              "title": "Body secretions and specimen materials",
+              "entryIds": [
+                "mucus",
+                "sputum",
+                "saliva",
+                "serum",
+                "pus",
+                "sweat"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 417,
+          "targetCategoryWords": 429,
+          "entryIds": [
+            "commutator",
+            "slip-ring",
+            "carbon-brush",
+            "grommet",
+            "cable-tie",
+            "conduit",
+            "manhole",
+            "weir",
+            "spillway",
+            "sluice-gate",
+            "geotextile",
+            "riprap"
+          ],
+          "units": [
+            {
+              "id": "electrical-contacts-and-cable-management",
+              "title": "Electrical contacts and cable management",
+              "entryIds": [
+                "commutator",
+                "slip-ring",
+                "carbon-brush",
+                "grommet",
+                "cable-tie",
+                "conduit"
+              ]
+            },
+            {
+              "id": "civil-water-and-earthworks",
+              "title": "Civil water and earthworks",
+              "entryIds": [
+                "manhole",
+                "weir",
+                "spillway",
+                "sluice-gate",
+                "geotextile",
+                "riprap"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "parentBatchId": "specialist-500-batch-33",
+      "completedAt": "2026-10-30T07:36:57.623Z",
+      "factualReferences": [
+        {
+          "entryId": "scab",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000741.htm",
+          "title": "MedlinePlus — How wounds heal",
+          "use": "Checked scab formation as clotted blood dries and the distinction from later scar tissue. No healing-time thresholds or care instructions adopted. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending."
+        },
+        {
+          "entryId": "ulcer",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ulcer",
+          "title": "NCI — Ulcer",
+          "use": "Checked surface tissue breakdown in skin and internal linings; no clinical cause, stage or diagnosis inferred. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending."
+        },
+        {
+          "entryId": "cyst",
+          "url": "https://www.nhs.uk/conditions/skin-cyst/",
+          "title": "NHS — Skin cyst",
+          "use": "Checked selected cutaneous sense, rounded subskin location, variable contents and possible infection. Not all cyst contents are represented as clear liquid. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending."
+        },
+        {
+          "entryId": "abscess",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/abscess",
+          "title": "NCI — Abscess",
+          "use": "Checked localized pus collection in tissue/organs and usual surrounding inflammation; no procedure, cause assignment or patient diagnosis. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending."
+        },
+        {
+          "entryId": "wart",
+          "url": "https://medlineplus.gov/warts.html",
+          "title": "MedlinePlus — Warts",
+          "use": "Checked HPV-associated skin growth and common finger-wart example; appearance is not a diagnostic rule. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending."
+        },
+        {
+          "entryId": "callus",
+          "url": "https://www.nhs.uk/conditions/corns-and-calluses/",
+          "title": "NHS — Corns and calluses",
+          "use": "Checked broader thickened-skin patches associated with pressure/rubbing and contrast with smaller corns. No care/removal instructions copied. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending."
+        },
+        {
+          "entryId": "mucus",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/mucus",
+          "title": "NCI — Mucus",
+          "use": "Checked slippery secretion associated with mucosal linings across several body sites; airway example does not imply obstruction or disease. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending."
+        },
+        {
+          "entryId": "sputum",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/sputum",
+          "title": "NCI — Sputum",
+          "use": "Checked respiratory material brought up by coughing, distinct from saliva; no specimen collection procedure or color-based interpretation adopted. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending."
+        },
+        {
+          "entryId": "saliva",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/saliva",
+          "title": "NCI — Saliva",
+          "use": "Checked salivary-gland oral fluid and moistening function; no flow values, composition test or clinical result. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending."
+        },
+        {
+          "entryId": "serum",
+          "url": "https://www.scotblood.co.uk/media/2517/ab_serum_web_nov20-final.pdf",
+          "title": "Scottish National Blood Transfusion Service — AB Serum: Your questions answered",
+          "use": "Checked the primary service definition on PDF page2: serum remains after blood has clotted. Only the component distinction used, no donor eligibility, treatment, processing times or protocol copied. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending."
+        },
+        {
+          "entryId": "pus",
+          "url": "https://medlineplus.gov/ency/article/001353.htm",
+          "title": "MedlinePlus — Abscess",
+          "use": "Checked fluid, live/dead white cells, dead tissue and other material in pus. Pus material is distinct from abscess location; no microbe-specific image or diagnosis claim. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending."
+        },
+        {
+          "entryId": "sweat",
+          "url": "https://medlineplus.gov/ency/article/003218.htm",
+          "title": "MedlinePlus — Sweating",
+          "use": "Checked sweat-gland fluid and cooling role, with multiple possible triggers. No temperature, hydration, clinical threshold or diagnosis inferred from droplets. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending."
+        },
+        {
+          "entryId": "wart",
+          "url": "https://www.nhs.uk/conditions/warts-and-verrucas/",
+          "title": "NHS — Warts and verrucas",
+          "use": "Checked common rough finger-skin growth and variation across skin tones/types, without copying photographs or care advice. Factual check only; no copied prose or art."
+        },
+        {
+          "entryId": "abscess",
+          "url": "https://www.nhs.uk/conditions/skin-abscess/",
+          "title": "NHS — Skin abscess",
+          "use": "Checked cutaneous pocket example and variable visible color; no treatment/drainage instructions. Factual check only; no copied prose or art."
+        },
+        {
+          "entryId": "serum",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/serum",
+          "title": "NCI — Serum",
+          "use": "Checked liquid component after cells/clotting material are removed; distinction is not based on color alone. Factual check only; no copied prose or art."
+        },
+        {
+          "entryId": "mucus",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/sputum",
+          "title": "NCI — Sputum",
+          "use": "Cross-check for distinction between secretion lining and coughed-up lower-airway material. Factual check only; no copied prose or art."
+        },
+        {
+          "entryId": "saliva",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/sputum",
+          "title": "NCI — Sputum",
+          "use": "Cross-check respiratory origin of sputum to distinguish it from oral saliva. Factual check only; no copied prose or art."
+        },
+        {
+          "entryId": "commutator",
+          "url": "https://www.nidec.com/en/products/small-precision-motors/technology/motor/glossary/item/commutator/",
+          "title": "Nidec — Commutator",
+          "use": "Primary motor-manufacturer explanation of copper segments, insulated support and sliding brush contact; checked the current term page after following its relocated glossary. Original selected component wording and intended original artwork; no copied prose or diagram."
+        },
+        {
+          "entryId": "slip-ring",
+          "url": "https://www.mersen.com/en/products/mersen-slip-ring-assemblies",
+          "title": "Mersen — Slip Ring Assemblies",
+          "use": "Primary electrical-contact manufacturer page supports the rotating electrical interface with contacting carbon brushes. Original ring-versus-segment teaching distinction, no copied product appearance, ratings or performance claim."
+        },
+        {
+          "entryId": "carbon-brush",
+          "url": "https://www.mersen.com/en/products/carbon-brushes",
+          "title": "Mersen — Carbon brushes",
+          "use": "Primary manufacturer description confirms sliding current transfer between static and rotating machine parts. Original learner wording and generic holder/pigtail context; no selected material grade, service procedure or copied artwork."
+        },
+        {
+          "entryId": "grommet",
+          "url": "https://www.hellermanntyton.com/competences/cable-grommets",
+          "title": "HellermannTyton — Cable grommets and grommet edging",
+          "use": "Primary manufacturer explanation of open panel grommets protecting pass-through cables from edge abrasion. Selected plain edge-protection ring, distinct from a sealing cable gland; no installation specification or copied product drawing."
+        },
+        {
+          "entryId": "cable-tie",
+          "url": "https://www.hellermanntyton.com/products/cable-ties-with-fixing-elements/t50sl6/111-85460",
+          "title": "HellermannTyton — Inside-serrated cable tie with plastic-pawl closure",
+          "use": "Primary product data checked for serrated strap, plastic-pawl closure and cable-harness bundling role. Generic single-loop teaching example omits this product's mounting feature, ratings and identifiers; no copied design/artwork or installation procedure."
+        },
+        {
+          "entryId": "conduit",
+          "url": "https://www.atkore.com/products",
+          "title": "Atkore — Conduit and cable-management products",
+          "use": "Primary conduit manufacturer distinguishes electrical conduit materials/forms and cable-management products. Original selected enclosed electrical-wire protection sense, no copied product, certification or wiring instructions."
+        },
+        {
+          "entryId": "manhole",
+          "url": "https://louisvillemsd.org/programs/programs-and-projects/what-happens-after-you-flush/manholes",
+          "title": "Louisville MSD — Manholes",
+          "use": "Primary sewer-utility explanation supports access to underground lines and distinction between access structure and cover. Original neutral sewer example; no confined-space entry, lid removal or maintenance instructions."
+        },
+        {
+          "entryId": "weir",
+          "url": "https://www.usbr.gov/library/glossary/",
+          "title": "US Bureau of Reclamation — Weir glossary entry",
+          "use": "Primary water-engineering glossary supports overflow across an open-channel crest and distinguishes purpose-built flow-measurement applications. Original qualitative fixed-crest example with no copied diagram, calibration or flow value."
+        },
+        {
+          "entryId": "spillway",
+          "url": "https://www.gov.uk/guidance/reservoir-owner-and-operator-guidance-spillways",
+          "title": "Environment Agency — Spillway function and components",
+          "use": "Primary reservoir guidance supports the overflow route and inlet/chute component relationship. Only factual vocabulary context used; no copied engineering drawing, operational instructions or real flood-capacity approval."
+        },
+        {
+          "entryId": "sluice-gate",
+          "url": "https://www.usbr.gov/library/glossary/",
+          "title": "US Bureau of Reclamation — Sluice gate glossary entry",
+          "use": "Primary glossary confirms movement in supporting guides. Original selected rising gate in an open channel, with supported stem and under-gate opening; no gate setting, discharge value or watertightness claim."
+        },
+        {
+          "entryId": "geotextile",
+          "url": "https://iowadot.gov/design-manual/chapter-200-geotechnical-design/200f-9-geosynthetic-design",
+          "title": "Iowa DOT — Geosynthetic design: filtration and separation",
+          "use": "Primary transportation-agency indexed text actually checked for geotextile separation/filtration with water flow through the material; direct page retrieval returned HTTP 403. Original qualitative vocabulary wording only, no copied criteria, sizing equations or artwork."
+        },
+        {
+          "entryId": "riprap",
+          "url": "https://stormwater.pca.state.mn.us/erosion_prevention_practices_riprap",
+          "title": "Minnesota Pollution Control Agency — Riprap erosion prevention",
+          "use": "Primary agency manual checked for protective angular-stone layer and granular/geotextile filter context. Original ungrouted rock-layer example, distinct from wire-cage gabions; no copied site design, rock-size selection or performance approval."
+        },
+        {
+          "entryId": "commutator",
+          "url": "https://dictionary.cambridge.org/dictionary/english/commutator",
+          "title": "Cambridge University Press — Commutator pronunciation",
+          "use": "Publisher pronunciation checked for UK/US IPA; original definition, examples and translations authored independently rather than copied from the dictionary."
+        },
+        {
+          "entryId": "conduit",
+          "url": "https://dictionary.cambridge.org/pronunciation/english/conduit",
+          "title": "Cambridge University Press — Conduit pronunciation",
+          "use": "Publisher UK /dʒ/ versus US /d/ pronunciation checked; original electrical-conduit definition, examples and translations authored independently."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,

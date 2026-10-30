@@ -4508,7 +4508,115 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 418,
+      "targetCategoryWords": 430,
+      "entryIds": [
+        "scab",
+        "ulcer",
+        "cyst",
+        "abscess",
+        "wart",
+        "callus",
+        "mucus",
+        "sputum",
+        "saliva",
+        "serum",
+        "pus",
+        "sweat"
+      ],
+      "units": [
+        {
+          "id": "medical-skin-lesions-healing",
+          "title": "Skin lesions and healing",
+          "entryIds": [
+            "scab",
+            "ulcer",
+            "cyst",
+            "abscess",
+            "wart",
+            "callus"
+          ]
+        },
+        {
+          "id": "medical-secretions-specimen-materials",
+          "title": "Body secretions and specimen materials",
+          "entryIds": [
+            "mucus",
+            "sputum",
+            "saliva",
+            "serum",
+            "pus",
+            "sweat"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-33-ready-1",
+      "releaseId": "2026-10-preview-39",
+      "status": "published-preview",
+      "objective": "Learn Skin lesions and healing; Body secretions and specimen materials in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 417,
+      "targetCategoryWords": 429,
+      "entryIds": [
+        "commutator",
+        "slip-ring",
+        "carbon-brush",
+        "grommet",
+        "cable-tie",
+        "conduit",
+        "manhole",
+        "weir",
+        "spillway",
+        "sluice-gate",
+        "geotextile",
+        "riprap"
+      ],
+      "units": [
+        {
+          "id": "electrical-contacts-and-cable-management",
+          "title": "Electrical contacts and cable management",
+          "entryIds": [
+            "commutator",
+            "slip-ring",
+            "carbon-brush",
+            "grommet",
+            "cable-tie",
+            "conduit"
+          ]
+        },
+        {
+          "id": "civil-water-and-earthworks",
+          "title": "Civil water and earthworks",
+          "entryIds": [
+            "manhole",
+            "weir",
+            "spillway",
+            "sluice-gate",
+            "geotextile",
+            "riprap"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-33-ready-1",
+      "releaseId": "2026-10-preview-39",
+      "status": "published-preview",
+      "objective": "Learn Electrical contacts and cable management; Civil water and earthworks in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-32-ready-2"
+  "activePassId": "specialist-500-batch-33-ready-1"
 }

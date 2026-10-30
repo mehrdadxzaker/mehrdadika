@@ -47815,6 +47815,1278 @@
           "reviewerId": "/root"
         }
       }
+    },
+    {
+      "entryId": "scab",
+      "sourceWord": "scab",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "scab:meaning-1",
+          "pos": "n.",
+          "en": "A dry crust that forms over a surface wound as blood and other wound fluid dry."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A scab had formed over the small scrape on his knee.",
+          "senseId": "scab:meaning-1"
+        },
+        {
+          "en": "The nurse described the dry crust during the wound assessment.",
+          "senseId": "scab:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/scab.webp",
+        "sha256": "bf6283c0d0adacb9bb29837e6e05eb2e3996f8b4aab12deabc79541e99a66cd2"
+      },
+      "visual": {
+        "expectedCue": "Dry brown external crust caps a superficial healing surface wound above otherwise continuous skin, no deep pocket; distinct from smooth scar, pigment, active bleeding or ulcer.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: raised dry rough brown crust caps a shallow pink surface repair bed, visibly external to surrounding skin; no internal cyst/pus pocket remains. Dry-cap cue survives120 and differs from smooth healed scar, embedded pigment or open crater. No fresh bleeding, drainage, removal action, black char or tools. Qualitative healing-wound model only, not proof of complete healing or exact layer scale. Soft precise clinical skin architecture/cool-white backdrop without decor.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: raised dry rough brown crust caps a shallow pink surface repair bed, visibly external to surrounding skin; no internal cyst/pus pocket remains. Dry-cap cue survives120 and differs from smooth healed scar, embedded pigment or open crater. No fresh bleeding, drainage, removal action, black char or tools. Qualitative healing-wound model only, not proof of complete healing or exact layer scale. Soft precise clinical skin architecture/cool-white backdrop without decor."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:44:24.073Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "bf6283c0d0adacb9bb29837e6e05eb2e3996f8b4aab12deabc79541e99a66cd2",
+          "inspectedAt": "2026-10-30T06:48:01.454Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed derivative original1254,512WebP and120PNG. Dry rough brown crust lies externally over shallow pink repair bed, with otherwise continuous skin beneath and no internal cyst/pus sac. Raised dry cap contrasts smooth scar, pigment and open ulcer; brown surface cue remains recognizable120 in consistent cool-white clinical section. No fresh blood, removal action or tool. Qualitative healing-wound illustration, not exact tissue proportions or proof of complete healing.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "ulcer",
+      "sourceWord": "ulcer",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "ulcer:meaning-1",
+          "pos": "n.",
+          "en": "An open sore where the surface of skin or a mucous membrane has broken down."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clinician described an ulcer on the patient’s lower leg.",
+          "senseId": "ulcer:meaning-1"
+        },
+        {
+          "en": "The report recorded the location and appearance of the open sore.",
+          "senseId": "ulcer:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ulcer.webp",
+        "sha256": "86df844c0a46a46ba17f587272a172bb0c31c4fc27f9491dda2954228a410d02"
+      },
+      "visual": {
+        "expectedCue": "Localized open depressed surface sore with loss of epidermal/mucosal surface, no closed sac or pus pocket; one non-graphic skin-ulcer example without cause/depth stage.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: central epidermal surface is interrupted by a depressed open sore with muted pink base and sloping edges. Closed cyst wall/contents are gone; underlying dermis/fat remain continuous with no internal pocket, blood, pus, tool or drainage action. Surface-loss cue clear120 and distinct from smooth intact cyst/abscess or dry scab. Skin example is qualitative, not a claimed cause, microscopic scale, clinical depth/stage or patient diagnosis. Clean soft precise clinical skin model on cool white, no text/decoration.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: central epidermal surface is interrupted by a depressed open sore with muted pink base and sloping edges. Closed cyst wall/contents are gone; underlying dermis/fat remain continuous with no internal pocket, blood, pus, tool or drainage action. Surface-loss cue clear120 and distinct from smooth intact cyst/abscess or dry scab. Skin example is qualitative, not a claimed cause, microscopic scale, clinical depth/stage or patient diagnosis. Clean soft precise clinical skin model on cool white, no text/decoration."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:38:31.083Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "86df844c0a46a46ba17f587272a172bb0c31c4fc27f9491dda2954228a410d02",
+          "inspectedAt": "2026-10-30T06:41:32.226Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed this derivative original1254,512WebP and120PNG. Depressed open surface sore interrupts the epidermal layer and exposes a muted pink base, while underlying tissue continues without a closed cyst/pus pocket. No crust, bleeding, draining device or procedure. Surface-loss cue remains clear120 and distinct from intact cyst/abscess sections in consistent cool-white clinical style. One non-graphic skin-ulcer model; no clinical cause, depth/stage, exact histology or appearance-based diagnosis established.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "cyst",
+      "sourceWord": "cyst",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "cyst:meaning-1",
+          "pos": "n.",
+          "en": "A closed sac within or beneath the skin that contains fluid or other material."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cyst appeared as a round lump beneath the skin.",
+          "senseId": "cyst:meaning-1"
+        },
+        {
+          "en": "The clinician recorded the size and position of the lump.",
+          "senseId": "cyst:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cyst.webp",
+        "sha256": "c972cb11010ff95934d73b92cea2a72f59e1ead8f4bbd4075e3eb4578f1870c6"
+      },
+      "visual": {
+        "expectedCue": "One closed smoothly walled fluid-containing sac entirely beneath intact skin, separated from surface; cutaneous cyst example distinct from superficial blister, open ulcer or pus abscess.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: one rounded smoothly walled sac is fully enclosed below continuous intact epidermal surface, deeper than a blister; pale translucent contents contained inside wall, no open pore/ulcer or pus drainage. Clear explanatory skin layers and gentle surface bulge, no procedural tools or patient injury. Closed-sac/depth cue remains clear120. Tissue hues natural with cool-white backdrop and soft precise clinical forms. Contents/layer sizes are an illustrative cutaneous example, not universal cyst composition, exact microscopy or a diagnosis.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: one rounded smoothly walled sac is fully enclosed below continuous intact epidermal surface, deeper than a blister; pale translucent contents contained inside wall, no open pore/ulcer or pus drainage. Clear explanatory skin layers and gentle surface bulge, no procedural tools or patient injury. Closed-sac/depth cue remains clear120. Tissue hues natural with cool-white backdrop and soft precise clinical forms. Contents/layer sizes are an illustrative cutaneous example, not universal cyst composition, exact microscopy or a diagnosis."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:21:29.039Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c972cb11010ff95934d73b92cea2a72f59e1ead8f4bbd4075e3eb4578f1870c6",
+          "inspectedAt": "2026-10-30T06:24:01.503Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Smooth closed sac with pale contained material lies within the skin tissue below continuous intact surface, producing a gentle surface bulge. It is visibly deeper than a superficial blister and has no open ulcer or pus drainage. Closed wall/depth cue survives120; cool-white precise clinical explanatory section has no irrelevant props or readings. One illustrative cutaneous cyst example, not exact histology, size ratio, universal contents or an appearance-based patient diagnosis.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "abscess",
+      "sourceWord": "abscess",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "abscess:meaning-1",
+          "pos": "n.",
+          "en": "A localized pocket of pus within body tissue."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The scan showed an abscess within the surrounding tissue.",
+          "senseId": "abscess:meaning-1"
+        },
+        {
+          "en": "The clinician described the pocket and the inflammation around it.",
+          "senseId": "abscess:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/abscess.webp",
+        "sha256": "5c93467d58fd963149615d587e290acc0100688492d998c092219a9cc247de8c"
+      },
+      "visual": {
+        "expectedCue": "Irregular localized opaque pus-filled pocket beneath intact skin, mildly inflamed tissue rim rather than smooth cyst lining; pocket focus, not drainage or material alone.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/512WebP/120PNG: intact top skin overlies one irregular cavity/pocket of opaque cream-yellow material, with localized pink inflamed tissue rim. Smooth thin cyst sac lining and translucent contents are removed. Pus remains contained; cavity/pocket focus distinct from pus material alone and from open ulcer/blister. No bleeding, drainage action, tools or implied patient incision. Qualitative skin architecture/model colors, not exact histology, pathogen or diagnostic stage. All3sizes preserve the irregular pus-pocket teaching cue on clean cool-white clinical background.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually inspected original1254/512WebP/120PNG: intact top skin overlies one irregular cavity/pocket of opaque cream-yellow material, with localized pink inflamed tissue rim. Smooth thin cyst sac lining and translucent contents are removed. Pus remains contained; cavity/pocket focus distinct from pus material alone and from open ulcer/blister. No bleeding, drainage action, tools or implied patient incision. Qualitative skin architecture/model colors, not exact histology, pathogen or diagnostic stage. All3sizes preserve the irregular pus-pocket teaching cue on clean cool-white clinical background."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:32:48.545Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5c93467d58fd963149615d587e290acc0100688492d998c092219a9cc247de8c",
+          "inspectedAt": "2026-10-30T06:34:57.158Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed this new derivative original1254,512WebP and120PNG. Intact skin overlies localized irregular cavity filled with opaque cream material and a distinct inflammatory pink rim. Prior smooth translucent cyst wall/content is removed; enclosed pus-pocket focus contrasts open ulcer and material-only pus. Cavity/rim remain clear120 on cool-white precise clinical section. Explanatory cutaway is not an actual incision, drainage procedure, specific pathogen, microscopic specimen or patient diagnosis; shapes/colors are qualitative.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "wart",
+      "sourceWord": "wart",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "wart:meaning-1",
+          "pos": "n.",
+          "en": "A small skin growth caused by human papillomavirus, often with a rough surface."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The wart on his finger had a rough surface.",
+          "senseId": "wart:meaning-1"
+        },
+        {
+          "en": "The clinician distinguished the raised growth from the surrounding skin.",
+          "senseId": "wart:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/wart.webp",
+        "sha256": "c7ffcdae26dc0bea51656fa263ac125a18b40dab26712803e6c05558d3d480a8"
+      },
+      "visual": {
+        "expectedCue": "Small skin-coloured raised rough/papillated finger growth in coherent hand context, not clear blister, smooth cyst, flat callus or dark pigmented mole.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: one small skin-coloured raised finely papillated/rough growth on coherent dorsal finger between ordinary joints; normal nail visible, adjoining hand/finger crop anatomically connected. Not translucent blister, smooth cyst, flat callus, dark pigment or dry wound crust. Growth and finger context remain legible120. No bleeding, microbes, clinical procedure or real-patient diagnosis. One illustrative common finger-wart example; appearance variation and diagnostic limits remain in source/native tips. Soft precise clinical macro on cool-white background without props/text.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: one small skin-coloured raised finely papillated/rough growth on coherent dorsal finger between ordinary joints; normal nail visible, adjoining hand/finger crop anatomically connected. Not translucent blister, smooth cyst, flat callus, dark pigment or dry wound crust. Growth and finger context remain legible120. No bleeding, microbes, clinical procedure or real-patient diagnosis. One illustrative common finger-wart example; appearance variation and diagnostic limits remain in source/native tips. Soft precise clinical macro on cool-white background without props/text."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:49:55.779Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c7ffcdae26dc0bea51656fa263ac125a18b40dab26712803e6c05558d3d480a8",
+          "inspectedAt": "2026-10-30T06:52:29.832Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Small raised skin-coloured rough/papillated growth lies on connected dorsal finger with coherent joint/nail context. Surface texture and raised focus differ clear blister, smooth sac, broad flat callus or dry crust; lesion remains visible120. Clean cool-white clinical macro, no blood, tools, text or organism drawing. One common finger-wart illustration, not a diagnostic visual rule, universal morphology or treatment selection.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "callus",
+      "sourceWord": "callus",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "callus:meaning-1",
+          "pos": "n.",
+          "en": "An area of skin that becomes thick and hard after repeated pressure or friction."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A callus had developed on the heel where the shoe repeatedly rubbed.",
+          "senseId": "callus:meaning-1"
+        },
+        {
+          "en": "The clinician noted a broad patch of thickened skin on the palm.",
+          "senseId": "callus:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/callus.webp",
+        "sha256": "24be34eb5ab006d2eb8c34d31d6dd9198bbbdf4aa1f6b4a533ec29bc133d6c81"
+      },
+      "visual": {
+        "expectedCue": "Broad low rough hardened yellow-tan skin patch continuous with heel surface, distinct from focal corn/raised wart, loose scab or open ulcer.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: broad low rough yellow-tan thickened skin patch continuous with load-bearing heel surface; diffuse edges, no discrete central core or wart nodule, fluid blister, loose brown crust, deep crack/ulcer, bleeding or pus. Natural heel/arch crop, no impossible digit count or tool action. Broad hardened-skin cue survives120. One skin-callus example, not bone-healing callus or an appearance-based cause/severity diagnosis. Soft precise clinical macro on cool white, no labels/extra props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: broad low rough yellow-tan thickened skin patch continuous with load-bearing heel surface; diffuse edges, no discrete central core or wart nodule, fluid blister, loose brown crust, deep crack/ulcer, bleeding or pus. Natural heel/arch crop, no impossible digit count or tool action. Broad hardened-skin cue survives120. One skin-callus example, not bone-healing callus or an appearance-based cause/severity diagnosis. Soft precise clinical macro on cool white, no labels/extra props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:56:47.345Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "24be34eb5ab006d2eb8c34d31d6dd9198bbbdf4aa1f6b4a533ec29bc133d6c81",
+          "inspectedAt": "2026-10-30T06:59:38.710Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Broad low yellow-tan rough thickened area is continuous with heel skin, with diffuse boundary rather than focal corn core or raised wart. Natural heel/arch crop, no loose scab, fluid blister, open ulcer, tool or bleeding. Broad heel-skin focus clear120 in cool-white precise clinical macro. Selected skin callus, not fracture callus; appearance alone does not establish cause, severity, material thickness or patient diagnosis.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "mucus",
+      "sourceWord": "mucus",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "mucus:meaning-1",
+          "pos": "n.",
+          "en": "A slippery secretion that coats and helps protect mucous membranes."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Mucus coats the lining of the airways.",
+          "senseId": "mucus:meaning-1"
+        },
+        {
+          "en": "The clinician discussed a change in the amount of the secretion.",
+          "senseId": "mucus:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/mucus.webp",
+        "sha256": "287e71e3d6ad64947cabfef93c4ea8461042fea91bdb07b9296c34a53e3ee499"
+      },
+      "visual": {
+        "expectedCue": "Thin glistening secretion film on organic airway mucosal surface with open air space, leader MUCUS targets film; not wall tissue, sputum sample or obstructing plug.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: thin glistening faint-mint secretion coat follows inner surface of open airway cutaway; lumen remains large/empty, not obstructed by a plug. Enlarged ciliated-surface inset shows coat above epithelium and exact MUCUS leader targets film rather than tissue/lumen. Respiratory locator distinguishes airway example from gut; primary coating cue remains visible120. This is a qualitative ciliated-airway model, not universal mucosa, precise microscopic wall structure, normal thickness/amount, flow result or diagnosis. Cool-white/mint soft precise educational tissue rendering, no fake measurements/props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: thin glistening faint-mint secretion coat follows inner surface of open airway cutaway; lumen remains large/empty, not obstructed by a plug. Enlarged ciliated-surface inset shows coat above epithelium and exact MUCUS leader targets film rather than tissue/lumen. Respiratory locator distinguishes airway example from gut; primary coating cue remains visible120. This is a qualitative ciliated-airway model, not universal mucosa, precise microscopic wall structure, normal thickness/amount, flow result or diagnosis. Cool-white/mint soft precise educational tissue rendering, no fake measurements/props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T07:08:16.404Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "287e71e3d6ad64947cabfef93c4ea8461042fea91bdb07b9296c34a53e3ee499",
+          "inspectedAt": "2026-10-30T07:13:46.796Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Thin faint-mint glistening secretion film follows inner airway surface, leaving broad unobstructed lumen. Respiratory locator supports selected airway example; enlarged ciliated-surface inset and exact MUCUS leader point to film above tissue rather than lumen or wall. Coating/open-air-space distinction survives120 in cool-white/mint clinical rendering. Qualitative airway illustration, not exact wall histology, normal thickness/amount, universal mucosa, sputum specimen, measured flow or diagnosis.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "sputum",
+      "sourceWord": "sputum",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "sputum:meaning-1",
+          "pos": "n.",
+          "en": "Respiratory mucus and other material coughed up from the lower airways."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sputum sample was sent to the laboratory.",
+          "senseId": "sputum:meaning-1"
+        },
+        {
+          "en": "The clinician asked whether the material had come up with a cough.",
+          "senseId": "sputum:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sputum.webp",
+        "sha256": "b7577b268e60266c816ad6ddddf3570a9c81e5f9b3e9c7a5e159918e6b0ad023"
+      },
+      "visual": {
+        "expectedCue": "Lower respiratory airway model relates via dashed COUGHED UP origin arrow to isolated closed-container mucoid material labelled SPUTUM, no oral-saliva/nasal origin or collection procedure.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: lower bronchial branches highlighted in a simplified respiratory model relate by a dashed COUGHED UP conceptual arrow to a closed specimen cup containing irregular viscous grey-white material. LOWER AIRWAYS leader targets bronchial branches and SPUTUM leader targets material; every essential character verified and origin/material relation remains clear120. No oral-saliva/nasal source, actual person collecting, open cup at mouth, suction/needle, culture result, quantity or color diagnosis. Airway branching/support/lobe details are a qualitative locator, not a full quantitative anatomy atlas. Conceptual arrow is not a physical duct. Soft precise clinical model on cool white with restrained mint highlights.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: lower bronchial branches highlighted in a simplified respiratory model relate by a dashed COUGHED UP conceptual arrow to a closed specimen cup containing irregular viscous grey-white material. LOWER AIRWAYS leader targets bronchial branches and SPUTUM leader targets material; every essential character verified and origin/material relation remains clear120. No oral-saliva/nasal source, actual person collecting, open cup at mouth, suction/needle, culture result, quantity or color diagnosis. Airway branching/support/lobe details are a qualitative locator, not a full quantitative anatomy atlas. Conceptual arrow is not a physical duct. Soft precise clinical model on cool white with restrained mint highlights."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T07:27:41.827Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b7577b268e60266c816ad6ddddf3570a9c81e5f9b3e9c7a5e159918e6b0ad023",
+          "inspectedAt": "2026-10-30T07:33:17.744Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Highlighted lower bronchial branches relate by dashed COUGHED UP conceptual arrow to mucoid specimen in a closed cup. Exact LOWER AIRWAYS and SPUTUM leaders target respiratory origin and specimen material respectively; no mouth-saliva/nasal source is substituted. Origin/material relationship survives120 in cool-white/mint clinical diagram. Arrow is explanatory, not a physical duct or collection procedure. Simplified respiratory locator and variable specimen appearance are not a full lobe/branch atlas, quantity, culture result or color-based diagnosis.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "saliva",
+      "sourceWord": "saliva",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "saliva:meaning-1",
+          "pos": "n.",
+          "en": "The fluid released into the mouth by the salivary glands."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Saliva moistens food as it is chewed.",
+          "senseId": "saliva:meaning-1"
+        },
+        {
+          "en": "The dentist discussed the patient’s dry mouth and reduced saliva.",
+          "senseId": "saliva:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/saliva.webp",
+        "sha256": "85db2da722eb5f86936425fa54b25fff05f41f00bd3758b06a7e8309777f313e"
+      },
+      "visual": {
+        "expectedCue": "Small clear highlighted fluid film within coherent oral cavity around tongue/mouth floor; SALIVA leader targets fluid, no lower-airway cough or nasal secretion origin.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: small clear faint-blue highlighted oral fluid film/pool lies at mouth floor beside normally attached tongue; SALIVA leader targets fluid, not tissue. Coherent bounded lower-face/oral cutaway and partial tooth context, no whole-arch count claim or invented gland/duct route. Oral space remains open, no coughing/nasal/lung origin, spitting, blood, pus or flooding. Exact SALIVA verified and fluid cue legible120. Color/amount are illustrative selection, not measured flow, composition, result or patient diagnosis. Soft precise clinical model/cool white, no unrelated props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: small clear faint-blue highlighted oral fluid film/pool lies at mouth floor beside normally attached tongue; SALIVA leader targets fluid, not tissue. Coherent bounded lower-face/oral cutaway and partial tooth context, no whole-arch count claim or invented gland/duct route. Oral space remains open, no coughing/nasal/lung origin, spitting, blood, pus or flooding. Exact SALIVA verified and fluid cue legible120. Color/amount are illustrative selection, not measured flow, composition, result or patient diagnosis. Soft precise clinical model/cool white, no unrelated props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T07:14:32.122Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "85db2da722eb5f86936425fa54b25fff05f41f00bd3758b06a7e8309777f313e",
+          "inspectedAt": "2026-10-30T07:17:48.399Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Small clear faint-blue-highlighted fluid film lies on oral floor beside attached tongue in bounded lower-face/tooth cutaway; exact SALIVA leader points to fluid rather than tissue. Oral space remains open, not flooded, with no respiratory/cough/nasal origin or invented gland-duct route. Fluid location remains visible120 in clean cool-white clinical rendering. Illustrative oral-fluid cue, not a whole dental-arch/count model, measured secretion amount/composition, flow result or patient diagnosis.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "serum",
+      "sourceWord": "serum",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "serum:meaning-1",
+          "pos": "n.",
+          "en": "The liquid remaining from blood after it has clotted and the clot has been separated."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The laboratory measured the substance in serum.",
+          "senseId": "serum:meaning-1"
+        },
+        {
+          "en": "A clot had formed before the liquid portion was separated.",
+          "senseId": "serum:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/serum.webp",
+        "sha256": "bc833624d3d06bb9a543640f73d9b1759565f57d6ee9f871335130a0402424a0"
+      },
+      "visual": {
+        "expectedCue": "Pale liquid above/around one cohesive irregular red blood clot, essential SERUM/CLOT labels; post-clot liquid distinct from unclotted plasma/packed-cell layers.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: pale liquid lies above/around one cohesive irregular red-maroon clot in a supported flat-base sample vial. No three-cell layers, flat packed-cell pellet, buffy coat, gel separator or free red-cell band. Exact SERUM leader targets upper liquid and CLOT leader targets clot; both labels verified and legible120. Explicit post-clot component relation, not color-only plasma distinction. No graduation, quantity, timing, temperature, real label or clinical result. Precise clinical specimen-model rendering/cool-white backdrop; no procedure claim.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: pale liquid lies above/around one cohesive irregular red-maroon clot in a supported flat-base sample vial. No three-cell layers, flat packed-cell pellet, buffy coat, gel separator or free red-cell band. Exact SERUM leader targets upper liquid and CLOT leader targets clot; both labels verified and legible120. Explicit post-clot component relation, not color-only plasma distinction. No graduation, quantity, timing, temperature, real label or clinical result. Precise clinical specimen-model rendering/cool-white backdrop; no procedure claim."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T07:02:08.306Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "bc833624d3d06bb9a543640f73d9b1759565f57d6ee9f871335130a0402424a0",
+          "inspectedAt": "2026-10-30T07:05:07.938Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Pale liquid lies above and around one cohesive irregular red clot, with exact SERUM leader ending in liquid and CLOT leader on clot. No packed-cell layers, buffy-coat band or separator gel is substituted; post-clot relationship rather than yellow color alone distinguishes serum context. Both essential labels checked and readable120. Supported flat-base vial and cool-white/mint precise specimen rendering, no numeric result, processing time, specimen identity or clinical protocol claim.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "pus",
+      "sourceWord": "pus",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pus:meaning-1",
+          "pos": "n.",
+          "en": "Thick fluid containing inflammatory cells and tissue debris that can collect at a site of infection or inflammation."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The report described pus in the pocket beneath the skin.",
+          "senseId": "pus:meaning-1"
+        },
+        {
+          "en": "The clinician distinguished the thick material from clear, watery drainage.",
+          "senseId": "pus:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pus.webp",
+        "sha256": "c6d77fa1c130d13e60a2c9ab2d7d6ab4478a9231568b401aa11197ac7177151b"
+      },
+      "visual": {
+        "expectedCue": "Small contained tissue pocket provides context while enlarged cream inflammatory fluid/material dominates; PUS leader targets material, distinct from abscess cavity or drainage procedure.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: small intact skin-pocket context on left connects by a magnification leader to dominant enlarged cream inflammatory fluid/material on right. Exact PUS leader targets material, not cavity wall or a cell; cell/debris forms are qualitative, no species/count or diagnostic assertion. Material dominance and pocket-vs-material relation remain clear120, distinct from abscess illustration. No arrow draining from body, rupture, collection instrument, bleeding or clinical result. Soft precise non-graphic clinical rendering/cool-white mint presentation, only exact essential PUS text; newly generated derivative independently inspected, no inherited approval.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: small intact skin-pocket context on left connects by a magnification leader to dominant enlarged cream inflammatory fluid/material on right. Exact PUS leader targets material, not cavity wall or a cell; cell/debris forms are qualitative, no species/count or diagnostic assertion. Material dominance and pocket-vs-material relation remain clear120, distinct from abscess illustration. No arrow draining from body, rupture, collection instrument, bleeding or clinical result. Soft precise non-graphic clinical rendering/cool-white mint presentation, only exact essential PUS text; newly generated derivative independently inspected, no inherited approval."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T07:20:47.990Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c6d77fa1c130d13e60a2c9ab2d7d6ab4478a9231568b401aa11197ac7177151b",
+          "inspectedAt": "2026-10-30T07:24:23.884Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed this derivative original1254,512WebP and120PNG. Small intact skin-pocket context connects by magnification leader to dominant cream inflammatory fluid with illustrative cells/debris. Exact PUS leader targets material, not pocket wall or one cell. Material-versus-abscess-location distinction survives120; no draining arrow, rupture, collection tool or blood. Clean cool-white/mint non-graphic clinical rendering. Enlarged explanatory material only, not actual microscopy, cell/species counts, pathogen presence, measured composition or patient diagnosis.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "sweat",
+      "sourceWord": "sweat",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "sweat:meaning-1",
+          "pos": "n.",
+          "en": "Fluid made by sweat glands and released onto the skin."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Sweat formed on his forehead during the walk.",
+          "senseId": "sweat:meaning-1"
+        },
+        {
+          "en": "Evaporation from the skin helps the body lose heat.",
+          "senseId": "sweat:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sweat.webp",
+        "sha256": "2f04a67fc3aa6a16ffb70a01141280518012a03ec472bda793cd8eca58091bbe"
+      },
+      "visual": {
+        "expectedCue": "Clear small sweat beads on forehead/temples/upper lip of calm clothed adult after ordinary exertion, not tears, rain or a diagnostic sign.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: small clear beads attached to forehead/temples/upper lip with moist skin highlights on calm clothed adult. Eyes/cheeks lack tear trails, no rain/shower splash or wiping action; fluid bead cue remains visible120. Ordinary exertion is illustrative context, not a measured or diagnosed cause. No temperature/hydration claim, clinical readings or extra props. Cool-white/mint-blue precise clinical portrait, no text/logos.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: small clear beads attached to forehead/temples/upper lip with moist skin highlights on calm clothed adult. Eyes/cheeks lack tear trails, no rain/shower splash or wiping action; fluid bead cue remains visible120. Ordinary exertion is illustrative context, not a measured or diagnosed cause. No temperature/hydration claim, clinical readings or extra props. Cool-white/mint-blue precise clinical portrait, no text/logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:27:37.175Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2f04a67fc3aa6a16ffb70a01141280518012a03ec472bda793cd8eca58091bbe",
+          "inspectedAt": "2026-10-30T06:29:50.513Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Clear small beads lie on forehead, temples and upper lip with moist skin highlights; calm clothed adult has no tear track, rainfall or shower cue. Forehead/temple beads remain visible120 in a clean cool-white/pale-blue clinical portrait. Fluid rather than a generic exertion action is the teaching focus. Picture does not establish what caused sweating or any fever, hydration, quantity or clinical result.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "commutator",
+      "sourceWord": "commutator",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "commutator:meaning-1",
+          "pos": "n.",
+          "en": "A rotating assembly of insulated conductive segments that switches connections to motor or generator windings as brushes pass over the segments."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The commutator switches the armature connections as the motor turns.",
+          "senseId": "commutator:meaning-1"
+        },
+        {
+          "en": "Insulating gaps separate the copper segments from one another.",
+          "senseId": "commutator:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/commutator.webp",
+        "sha256": "2a3a7e487a7dac0bfa016ca935d74cd17459b826ac91129630813a13c1202ff4"
+      },
+      "visual": {
+        "expectedCue": "Insulated axial copper segments on a rotating-shaft cylinder visibly contacted by a separate stationary graphite brush, distinguishing commutator segmentation from a continuous slip ring; trace fixed holder and shaft supports.",
+        "decision": "added",
+        "reason": "Actual1254 original,512WebP and120PNG inspected. Copper axial bars have visible dark insulating separations around the cylinder and at the near end, rather than a smooth continuous ring. Graphite brush working end shares a boundary with the upper copper surface; holder/spring bracket is separate from the shaft, whose two bearing blocks share a base. Static generic component relationship accepted: no winding circuit, switching timing, exact segment count or operating performance is proven. Slate/silver/amber product drawing remains clear at120; no text/readings.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual1254 original,512WebP and120PNG inspected. Copper axial bars have visible dark insulating separations around the cylinder and at the near end, rather than a smooth continuous ring. Graphite brush working end shares a boundary with the upper copper surface; holder/spring bracket is separate from the shaft, whose two bearing blocks share a base. Static generic component relationship accepted: no winding circuit, switching timing, exact segment count or operating performance is proven. Slate/silver/amber product drawing remains clear at120; no text/readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:19:14.372Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2a3a7e487a7dac0bfa016ca935d74cd17459b826ac91129630813a13c1202ff4",
+          "inspectedAt": "2026-10-30T06:20:23.883Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Axial copper contact segments are separated by visible dark gaps around cylinder and end, with graphite brush face touching upper curved surface. Shaft lies in two aligned bearing supports on common base; separate stationary holder/spring and pigtail are coherent. Segmentation and contacting brush survive120 in slate/silver/amber brief. Static explanatory component assembly only: no complete winding/external circuit, commutation timing, energized operation or performance is established by this view.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "slip-ring",
+      "sourceWord": "slip ring",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "slip-ring:meaning-1",
+          "pos": "n.",
+          "en": "A continuous conductive ring that maintains an electrical connection between rotating and stationary parts through a sliding contact."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The slip ring maintains contact with the stationary brush as the shaft turns.",
+          "senseId": "slip-ring:meaning-1"
+        },
+        {
+          "en": "The ring has a continuous contact surface rather than separate commutator segments.",
+          "senseId": "slip-ring:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/slip-ring.webp",
+        "sha256": "b219b48640de160902e2a5b00c85d407cf2ec293f1ce5a8761afb10e08be00bb"
+      },
+      "visual": {
+        "expectedCue": "One uninterrupted conductive copper ring around an insulated sleeve/shaft contacted by a distinct stationary graphite brush; no commutator segmentation or switching claim.",
+        "decision": "added",
+        "reason": "Actual1254 original,512WebP and120PNG inspected. The new copper running surface is one smooth uninterrupted band, with ALL axial segmentation and end teeth from the commutator reference removed. Dark end/sleeve separates the band from the silver shaft; graphite face contacts the copper surface and its fixed holder remains separate from rotating components. Static ring/brush cue clearly differs from commutator at120. No ring-to-rotor lead, closed circuit, current path, switching or operating performance is qualified; no text/readings. Genuine template derivative received its own actual pixel review.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual1254 original,512WebP and120PNG inspected. The new copper running surface is one smooth uninterrupted band, with ALL axial segmentation and end teeth from the commutator reference removed. Dark end/sleeve separates the band from the silver shaft; graphite face contacts the copper surface and its fixed holder remains separate from rotating components. Static ring/brush cue clearly differs from commutator at120. No ring-to-rotor lead, closed circuit, current path, switching or operating performance is qualified; no text/readings. Genuine template derivative received its own actual pixel review."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:23:54.629Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b219b48640de160902e2a5b00c85d407cf2ec293f1ce5a8761afb10e08be00bb",
+          "inspectedAt": "2026-10-30T06:25:07.862Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed this derivative original1254,512WebP and120PNG. Copper contact band is uninterrupted around insulated hub, with all former commutator segments/end teeth removed. Stationary graphite face visibly contacts curved running surface; aligned shaft bearings and separate support coherent. Smooth ring versus segmented commutator distinction survives120 in matching slate/silver/amber style. New pixels independently inspected, no inherited approval; static component arrangement does not show a complete rotor-lead/external circuit, current path, switching or energized operation.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "carbon-brush",
+      "sourceWord": "carbon brush",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "carbon-brush:meaning-1",
+          "pos": "n.",
+          "en": "A carbon-based sliding contact that transfers electric current between a stationary circuit and a rotating commutator or slip ring."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The carbon brush presses against the rotating contact surface.",
+          "senseId": "carbon-brush:meaning-1"
+        },
+        {
+          "en": "A flexible copper lead connects the brush to the stationary circuit.",
+          "senseId": "carbon-brush:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/carbon-brush.webp",
+        "sha256": "126112a3d991be2a102192682ca9e251c8a79fe27b3fd2029caaf347a7d37eec"
+      },
+      "visual": {
+        "expectedCue": "Large graphite sliding-contact block inside bounded holder cutaway, copper pigtail directly embedded in graphite, spring-supported working face actually touches the rotating contact surface; not bristles/cleaning brush.",
+        "decision": "added",
+        "reason": "Actual1254 original,512WebP and120PNG inspected. Distinct close-up centers the graphite contact block rather than the neighboring ring. Copper braid visibly embeds directly into the graphite top; bounded holder section reveals the block, supported spring/cap presses on its top, and lower working face shares the smooth copper-ring boundary. Fixed holder bracket and rotating shaft/bearing are separate, with no bristles. Static selected contact cue accepted; holder sliding fit, wear, material grade, spring force, complete external circuit and operation are unqualified. Exact slate/silver/amber drawing readable at120; no labels/readings.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual1254 original,512WebP and120PNG inspected. Distinct close-up centers the graphite contact block rather than the neighboring ring. Copper braid visibly embeds directly into the graphite top; bounded holder section reveals the block, supported spring/cap presses on its top, and lower working face shares the smooth copper-ring boundary. Fixed holder bracket and rotating shaft/bearing are separate, with no bristles. Static selected contact cue accepted; holder sliding fit, wear, material grade, spring force, complete external circuit and operation are unqualified. Exact slate/silver/amber drawing readable at120; no labels/readings."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:28:24.763Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "126112a3d991be2a102192682ca9e251c8a79fe27b3fd2029caaf347a7d37eec",
+          "inspectedAt": "2026-10-30T06:30:22.279Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Large graphite block is focal, with braided copper lead visibly entering its top rather than merely touching the metal holder. Supported spring/cap above and bounded holder cutaway reveal the block; lower working end visibly meets copper contact surface. No bristles, complete external circuit, reading or false current arrow. Focus distinguishes carbon contact from neighboring ring at120 in slate/silver/amber. Static teaching relationship only, without exact working-face fit, wear, material grade, spring force or energized-operation qualification.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "grommet",
+      "sourceWord": "grommet",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "grommet:meaning-1",
+          "pos": "n.",
+          "en": "A ring fitted around the edge of a hole to protect a cable or wire passing through it from rubbing against the surrounding material."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The grommet protects the cable from the edge of the metal panel.",
+          "senseId": "grommet:meaning-1"
+        },
+        {
+          "en": "Its outer groove holds the ring around the opening.",
+          "senseId": "grommet:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/grommet.webp",
+        "sha256": "32e1d897e95fb6492c2c8351907ee8ca7ea5fdcec9488e0ccd3586247fc62f0c"
+      },
+      "visual": {
+        "expectedCue": "Continuous thick elastomer liner visibly separates insulated cable from every exposed metal panel edge; metal terminates only in the outer grommet groove, never inside cable bore.",
+        "decision": "added",
+        "reason": "Actual corrected1254 original,512WebP and120PNG inspected. Prior exposed silver intrusions into the bore are gone: top/bottom metal panel edges now end in the OUTER groove, separated from the grey cable by a broad continuous amber elastomer web and inner lining. Cable remains continuous and flexible through the retained annulus. This corrects the rejected bare-edge-rubbing cue; original candidate and actual negative are retained in history. Selected edge-protection geometry clear at120 in exact slate/silver/amber style; no sealing, strain-relief force, tolerances or installation qualification.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual corrected1254 original,512WebP and120PNG inspected. Prior exposed silver intrusions into the bore are gone: top/bottom metal panel edges now end in the OUTER groove, separated from the grey cable by a broad continuous amber elastomer web and inner lining. Cable remains continuous and flexible through the retained annulus. This corrects the rejected bare-edge-rubbing cue; original candidate and actual negative are retained in history. Selected edge-protection geometry clear at120 in exact slate/silver/amber style; no sealing, strain-relief force, tolerances or installation qualification."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:25:42.406Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "32e1d897e95fb6492c2c8351907ee8ca7ea5fdcec9488e0ccd3586247fc62f0c",
+          "inspectedAt": "2026-10-30T06:27:17.853Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed corrected original1254,512WebP and120PNG. Inward silver projections are removed; upper/lower panel edges terminate in outer annular groove, with broad continuous amber elastomer between all exposed metal and grey cable. Cable passes through protected bore continuously, so edge-protection cue is clear at120. Retains slate/silver/amber close technical style without threaded gland hardware. Earlier failed metal-contact candidate/negative retained; this view does not establish seal, retention force, clearance tolerance or installation qualification.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "cable-tie",
+      "sourceWord": "cable tie",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "cable-tie:meaning-1",
+          "pos": "n.",
+          "en": "A flexible fastening strap that forms a locked loop to hold cables or similar items together."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cable tie holds the insulated wires in a neat bundle.",
+          "senseId": "cable-tie:meaning-1"
+        },
+        {
+          "en": "The free tail passes through the locking head.",
+          "senseId": "cable-tie:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cable-tie.webp",
+        "sha256": "d25533edc1c7593e524e24842750d980d950075a7b7d4df3879414a9ab0e4768"
+      },
+      "visual": {
+        "expectedCue": "One continuous flexible strap loops around a cable bundle with its free tail visibly passing through the same integral locking head; clear tied rather than electrically connected cables.",
+        "decision": "added",
+        "reason": "Actual1254 original,512WebP and120PNG inspected. Single amber strap wraps the grey cable bundle and feeds into one locking head; its continuous serrated tail emerges through the head and remains wholly visible. Retained rear strap segment joins the head around the bundle, with no electrical connector or tool. Hidden pawl geometry, reusable mechanism, exact cable count and tie load capacity are not qualified. Static cable-management noun cue clear at120, exact slate/silver/amber palette, no text/readings; contextual cables extend beyond frame while entire selected tie is visible.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual1254 original,512WebP and120PNG inspected. Single amber strap wraps the grey cable bundle and feeds into one locking head; its continuous serrated tail emerges through the head and remains wholly visible. Retained rear strap segment joins the head around the bundle, with no electrical connector or tool. Hidden pawl geometry, reusable mechanism, exact cable count and tie load capacity are not qualified. Static cable-management noun cue clear at120, exact slate/silver/amber palette, no text/readings; contextual cables extend beyond frame while entire selected tie is visible."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:31:26.128Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d25533edc1c7593e524e24842750d980d950075a7b7d4df3879414a9ab0e4768",
+          "inspectedAt": "2026-10-30T06:33:10.163Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. One amber flexible serrated band wraps the insulated cable bundle; its free tail passes through and emerges from the same head, with rear strap continuing behind the bundle. Entire selected tie is in frame, with contextual cables extending out. Loop/head/tail relation clear120, no electrical connector or extra tie. Slate/silver/amber technical style. Hidden locking pawl, exact cable count, reusability and rated holding/lifting strength are not shown or qualified; reusable collocation is vocabulary rather than a pictured mechanism claim.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "conduit",
+      "sourceWord": "conduit",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "conduit:meaning-1",
+          "pos": "n.",
+          "en": "A protective tube that encloses and routes electrical wires or cables."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The conduit protects the wires along their route through the building.",
+          "senseId": "conduit:meaning-1"
+        },
+        {
+          "en": "Several insulated conductors share the enclosed passage.",
+          "senseId": "conduit:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/conduit.webp",
+        "sha256": "675a2dd8d1cbd78d2a05b33b094e74c0ef0e9330cb2ecf87187aa000735507f9"
+      },
+      "visual": {
+        "expectedCue": "An enclosed hollow protective electrical tube, full annular end faces and a bounded wall cutaway reveal continuous individually insulated copper conductors routed through its bore; no fluid/air or open-tray sense.",
+        "decision": "added",
+        "reason": "Actual1254 original,512WebP and120PNG inspected. Three individually insulated continuous conductors with copper ends run through both open annular end faces; the middle wall section exposes their uninterrupted route inside the hollow protective tube. No conductor crosses solid shell or terminates inside a wall, and the retained annular ends distinguish an enclosed conduit from an open tray. Exact electrical-cable cue, slate/silver/amber product cutaway and small-grid readability accepted; material grade, fill allowance, installation, bonding and energized operation remain unqualified.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual1254 original,512WebP and120PNG inspected. Three individually insulated continuous conductors with copper ends run through both open annular end faces; the middle wall section exposes their uninterrupted route inside the hollow protective tube. No conductor crosses solid shell or terminates inside a wall, and the retained annular ends distinguish an enclosed conduit from an open tray. Exact electrical-cable cue, slate/silver/amber product cutaway and small-grid readability accepted; material grade, fill allowance, installation, bonding and energized operation remain unqualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:34:28.671Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "675a2dd8d1cbd78d2a05b33b094e74c0ef0e9330cb2ecf87187aa000735507f9",
+          "inspectedAt": "2026-10-30T06:36:49.102Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Three individually insulated copper-ended conductors follow continuous parallel paths inside hollow protective tube. Full annular end bores and bounded central wall cutaway distinguish enclosed conduit from open tray; no conductor terminates in or crosses solid shell. Electrical routing rather than fluid/air cue survives120 in slate/silver/amber technical drawing. Demonstrative open cutaway is not an installation design or claim of permitted fill, bonding, material rating or energized safety.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "manhole",
+      "sourceWord": "manhole",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "manhole:meaning-1",
+          "pos": "n.",
+          "en": "An access opening, usually covered and connected to a shaft or chamber, leading to an underground utility."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The manhole provides access to the sewer below the street.",
+          "senseId": "manhole:meaning-1"
+        },
+        {
+          "en": "The inspection record identifies the chamber and its connecting pipes.",
+          "senseId": "manhole:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/manhole.webp",
+        "sha256": "354b4df3f4c6226dc6dff696b5bb8183a7619d3f8c9dd2d0551659674ae6f1b6"
+      },
+      "visual": {
+        "expectedCue": "Road-level cover over a continuous hollow access shaft/chamber connected to underground sewer pipe bores, clearly an access structure rather than just a lid or stormwater grate.",
+        "decision": "added",
+        "reason": "Actual1254 original,512WebP and120PNG inspected. Seated amber cover/rim at road level leads down a hollow shaft into a wider hollow chamber; opposite pipe bores visibly open through its lower walls into a shallow floor-channel context. Supported concrete walls/base are embedded in cut ground; a deliberate near section exposes the interior, not a broken live installation. Whole access-structure cue clear at120, not just cover/grate. Generic civil cutaway accepted with restrained amber/slate/silver and natural soil context; no chamber dimensions, detailed bench hydraulics, confined-space access or structural approval qualified.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual1254 original,512WebP and120PNG inspected. Seated amber cover/rim at road level leads down a hollow shaft into a wider hollow chamber; opposite pipe bores visibly open through its lower walls into a shallow floor-channel context. Supported concrete walls/base are embedded in cut ground; a deliberate near section exposes the interior, not a broken live installation. Whole access-structure cue clear at120, not just cover/grate. Generic civil cutaway accepted with restrained amber/slate/silver and natural soil context; no chamber dimensions, detailed bench hydraulics, confined-space access or structural approval qualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:37:39.576Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "354b4df3f4c6226dc6dff696b5bb8183a7619d3f8c9dd2d0551659674ae6f1b6",
+          "inspectedAt": "2026-10-30T06:40:32.233Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Seated road-surface cover above continuous hollow access shaft expands into supported underground chamber, with visible opposite pipe bores opening through lower walls. Ground/concrete section is coherent and access structure remains clear120, beyond merely showing a cover or storm grate. Slate/silver/amber emphasis and necessary soil context match civil technical brief. Qualitative cutaway only: no chamber sizes, detailed bench hydraulics, confined-space entry procedure or structural/operational qualification.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "weir",
+      "sourceWord": "weir",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "weir:meaning-1",
+          "pos": "n.",
+          "en": "A barrier across an open channel over whose crest water flows, used to influence the upstream level or, in a suitable design, measure flow."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The weir raises the upstream water level while water flows over its crest.",
+          "senseId": "weir:meaning-1"
+        },
+        {
+          "en": "The fixed crest differs from a gate that slides open.",
+          "senseId": "weir:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/weir.webp",
+        "sha256": "4b9480102fc1b0930d1837bf20fcd2880c94b9b95444626931adaef61e7b3a63"
+      },
+      "visual": {
+        "expectedCue": "Water from a higher upstream open-channel level passes continuously OVER a fixed supported broad crest into a lower downstream channel; no under-gate path or quantitative flow reading.",
+        "decision": "added",
+        "reason": "Actual1254 original,512WebP and120PNG inspected. Higher left upstream free surface continues as a sheet OVER the fixed amber-topped concrete crest and drops down the right face into the lower channel. Barrier connects to supported foundation with no opening beneath it; no sliding gate or pump. Front ground/water boundary is an explanatory section, not a real leak. Qualitative fixed-weir cue and exact civil technical palette readable at120; broad-crested hydraulic classification, discharge, calibration, dimensions and real flood performance are not qualified.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual1254 original,512WebP and120PNG inspected. Higher left upstream free surface continues as a sheet OVER the fixed amber-topped concrete crest and drops down the right face into the lower channel. Barrier connects to supported foundation with no opening beneath it; no sliding gate or pump. Front ground/water boundary is an explanatory section, not a real leak. Qualitative fixed-weir cue and exact civil technical palette readable at120; broad-crested hydraulic classification, discharge, calibration, dimensions and real flood performance are not qualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:41:36.639Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4b9480102fc1b0930d1837bf20fcd2880c94b9b95444626931adaef61e7b3a63",
+          "inspectedAt": "2026-10-30T06:45:12.540Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Higher upstream-left water surface runs continuously OVER the fixed amber crest and falls into lower downstream-right channel. Barrier meets supported bed/foundation with no lower opening, distinguishing weir from raised sluice gate. Sectioned front water/ground is explanatory, not a leak. Over-crest cue remains clear120 with slate/silver/amber technical treatment. No subtype dimensional ratio, discharge, calibrated flow value or actual flood performance is established.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "spillway",
+      "sourceWord": "spillway",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "spillway:meaning-1",
+          "pos": "n.",
+          "en": "A structure that provides an overflow route for water from a reservoir or dam to a downstream channel."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The spillway carries overflow from the reservoir to the downstream channel.",
+          "senseId": "spillway:meaning-1"
+        },
+        {
+          "en": "Water descends the chute beside the main body of the dam.",
+          "senseId": "spillway:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/spillway.webp",
+        "sha256": "3c9eef72e2dc41e7548dc1b6ed1a1231a03d8be10ea09f42f2e27a29503846a3"
+      },
+      "visual": {
+        "expectedCue": "Complete overflow route remains continuous, with the main dam visibly seated along its full base on continuous rock foundation/bed rather than floating above slate void.",
+        "decision": "added",
+        "reason": "Actual corrected1254 original,512WebP and120PNG inspected. Dam lower edge now visibly seats on continuous rocky foundation/bed rather than the rejected slate void. Reservoir water enters the selected amber-sided inlet beside the dam, descends continuously along a supported open chute and joins the lower downstream channel; no water crosses solid wall or unsupported floor. Whole overflow-route cue distinct from the isolated weir and readable at120. Civil model palette retained with muted rock/water context; no detailed dam design, capacity, structural or flood-safety qualification. Candidate1/negative preserved.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual corrected1254 original,512WebP and120PNG inspected. Dam lower edge now visibly seats on continuous rocky foundation/bed rather than the rejected slate void. Reservoir water enters the selected amber-sided inlet beside the dam, descends continuously along a supported open chute and joins the lower downstream channel; no water crosses solid wall or unsupported floor. Whole overflow-route cue distinct from the isolated weir and readable at120. Civil model palette retained with muted rock/water context; no detailed dam design, capacity, structural or flood-safety qualification. Candidate1/negative preserved."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:49:52.908Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3c9eef72e2dc41e7548dc1b6ed1a1231a03d8be10ea09f42f2e27a29503846a3",
+          "inspectedAt": "2026-10-30T06:53:44.313Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed corrected original1254,512WebP and120PNG. Reservoir water passes through selected right-hand inlet into continuous amber-sided supported chute and lower downstream channel, rather than crossing the solid dam. Main dam now visibly seats against continuous rock foundation and chute piers seat on supports; no earlier floating-base void remains. Whole overflow-route focus survives120, with slate/silver/amber technical emphasis and necessary landscape context. Independent review of corrected candidate only; no actual dam design, flood capacity or structural/operational safety qualification.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "sluice-gate",
+      "sourceWord": "sluice gate",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "sluice-gate:meaning-1",
+          "pos": "n.",
+          "en": "A gate that slides in supporting guides to control water passing through an opening."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sluice gate controls water passing beneath the raised plate.",
+          "senseId": "sluice-gate:meaning-1"
+        },
+        {
+          "en": "Guides at both sides keep the gate aligned with the opening.",
+          "senseId": "sluice-gate:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sluice-gate.webp",
+        "sha256": "405f53702e9ac78f48fbb65a98281a95df4ceeae726552680b2f1520ecbf7459"
+      },
+      "visual": {
+        "expectedCue": "Oblique open-channel projection puts higher upstream and lower downstream water on opposite sides of a guided vertical gate plate; continuous water passes only through the visible gap UNDER its bottom edge, not a fixed crest.",
+        "decision": "added",
+        "reason": "Actual1254 original,512WebP and120PNG inspected. New oblique projection places upstream-left and downstream-right water on opposite sides of the raised amber plate; continuous water emerges beneath its lower edge into the lower channel, with no over-top flow. Plate edges engage separate near/far guides; supported frame/crossbeam and connected center stem are traceable. Corrects rejected frontal projection, history preserved. Qualitative partly-open gate cue clear at120 in slate/silver/amber civil section. Exact thread motion, sealing, discharge, force and opening dimensions are unqualified.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual1254 original,512WebP and120PNG inspected. New oblique projection places upstream-left and downstream-right water on opposite sides of the raised amber plate; continuous water emerges beneath its lower edge into the lower channel, with no over-top flow. Plate edges engage separate near/far guides; supported frame/crossbeam and connected center stem are traceable. Corrects rejected frontal projection, history preserved. Qualitative partly-open gate cue clear at120 in slate/silver/amber civil section. Exact thread motion, sealing, discharge, force and opening dimensions are unqualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T06:59:42.603Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "405f53702e9ac78f48fbb65a98281a95df4ceeae726552680b2f1520ecbf7459",
+          "inspectedAt": "2026-10-30T07:04:00.639Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed corrected derivative original1254,512WebP and120PNG. Higher upstream-left and lower downstream-right water are on opposite sides of raised amber plate across the channel; water emerges beneath its bottom edge with no over-top route. Plate has near/far guides, supported crossframe and connected central stem. Under-gate gap versus fixed weir is clear120 in slate/silver/amber civil drawing. New projection corrects earlier author-rejected ambiguity; no exact opening, thread motion, sealing, force, discharge or actual hydraulic qualification.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "geotextile",
+      "sourceWord": "geotextile",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "geotextile:meaning-1",
+          "pos": "n.",
+          "en": "A permeable textile used with soil or aggregate for functions such as separation and filtration."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The geotextile separates the fine soil from the coarse aggregate.",
+          "senseId": "geotextile:meaning-1"
+        },
+        {
+          "en": "Water can pass through the fabric while the layers remain separated.",
+          "senseId": "geotextile:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/geotextile.webp",
+        "sha256": "feee3725509dfadfb48e06204a33937e8acdd237dc09fc4593acd1d474a8c711"
+      },
+      "visual": {
+        "expectedCue": "Dry fibrous sheet separates aggregate/soil; one clearly schematic inset shows a water-symbol arrow crossing the INTERIOR of a continuous textile sheet spanning the whole inset, not realistic runoff around a free edge.",
+        "decision": "added",
+        "reason": "Actual corrected1254 original,512WebP and120PNG inspected. Main layered sample is now dry: no realistic water spills over the front free edge. Thin flexible fibrous amber sheet still separates coarse aggregate from finer soil with lifted material corner. Separate round qualitative inset has a continuous fiber sheet spanning the circle, blue drop above and below, and a downward symbol crossing its INTERIOR; no around-edge route or fabricated pore-size/flow reading. Corrected permeability teaching cue clear at120 with separation/material focus intact. This is an explanatory symbol, not actual microscope imagery, filtration testing or site-performance qualification. All rejected candidate1 findings retained.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual corrected1254 original,512WebP and120PNG inspected. Main layered sample is now dry: no realistic water spills over the front free edge. Thin flexible fibrous amber sheet still separates coarse aggregate from finer soil with lifted material corner. Separate round qualitative inset has a continuous fiber sheet spanning the circle, blue drop above and below, and a downward symbol crossing its INTERIOR; no around-edge route or fabricated pore-size/flow reading. Corrected permeability teaching cue clear at120 with separation/material focus intact. This is an explanatory symbol, not actual microscope imagery, filtration testing or site-performance qualification. All rejected candidate1 findings retained."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T07:19:30.260Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "feee3725509dfadfb48e06204a33937e8acdd237dc09fc4593acd1d474a8c711",
+          "inspectedAt": "2026-10-30T07:23:29.025Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed corrected original1254,512WebP and120PNG. Main sample is dry; previous misleading water spilling around free edge is removed. Continuous fibrous amber sheet separates coarse aggregate from finer soil, with lifted corner exposing flexible material. Bounded inset shows a downward explanatory arrow crossing INTERIOR of continuous textile between water symbols above/below, with leader back to layer; this qualitative permeability cue survives120. No actual pore path, microscopy, measured filtration, material specification or site-performance claim. Prior rejected edge-runoff candidate/negative retained.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "riprap",
+      "sourceWord": "riprap",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "riprap:meaning-1",
+          "pos": "n.",
+          "en": "A protective layer of large stones placed on a bank, slope or other exposed surface to resist erosion."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The riprap protects the channel bank from erosion.",
+          "senseId": "riprap:meaning-1"
+        },
+        {
+          "en": "The angular stones rest on a filter layer above the soil.",
+          "senseId": "riprap:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/riprap.webp",
+        "sha256": "5cdcc4e146399b2e111b0e1b7ec28bc270ec6a588d6de99788eaae613df9e207"
+      },
+      "visual": {
+        "expectedCue": "Loose angular large-stone protective layer on a sloping water-channel bank, supported on visibly smaller granular filter above fine soil and continuing into the toe; no wire cage/gabion or mortar.",
+        "decision": "added",
+        "reason": "Actual1254 original,512WebP and120PNG inspected. Large irregular angular surface stones rest on a visibly smaller granular filter/bedding layer over fine bank soil; protection continues into a supported submerged toe beside water. No wire cage, mortar or regular masonry, clearly distinct from gabion. Selected rock-layer cue and civil section readable at120, silver/slate with amber face highlights and muted water. Generic erosion-protection noun illustration accepted; rock sizing, slope stability, exact filter gradation, site design and real flood performance are unqualified.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actual1254 original,512WebP and120PNG inspected. Large irregular angular surface stones rest on a visibly smaller granular filter/bedding layer over fine bank soil; protection continues into a supported submerged toe beside water. No wire cage, mortar or regular masonry, clearly distinct from gabion. Selected rock-layer cue and civil section readable at120, silver/slate with amber face highlights and muted water. Generic erosion-protection noun illustration accepted; rock sizing, slope stability, exact filter gradation, site design and real flood performance are unqualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T07:09:58.157Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5cdcc4e146399b2e111b0e1b7ec28bc270ec6a588d6de99788eaae613df9e207",
+          "inspectedAt": "2026-10-30T07:14:46.706Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Loose large angular stones cover sloping bank beside water, resting on visibly smaller filter/bedding material above fine soil; stone protection continues into a supported toe below water level. No enclosing wire cage, grout or regular masonry, distinguishing riprap from gabion. Bank-section noun cue clear120 in slate/silver/amber civil technical style. Qualitative erosion-protection arrangement, not a site design or verified stone size, filter grading, slope stability or flood performance.",
+          "reviewerId": "/root"
+        }
+      }
     }
   ]
 }
