@@ -1,0 +1,33 @@
+# Specialist expansion 34, ready group 1: hearing, reproductive anatomy, workholding and railway components
+
+This editorial preview adds 24 distinct English entries with complete Persian, Brazilian Portuguese and Latin American Spanish content. Each selected sense has two meaningful examples, three useful collocations and usage distinctions. The atlas reaches 1,041 words and 1,042 meanings across 32 categories. Medicine and healthcare reaches 442/500; engineering reaches 441/500. Drafts, translations and additional senses do not multiply the English-entry count.
+
+Medical additions: ear canal, ossicle, cochlea, semicircular canal, Eustachian tube, auditory nerve, uterus, ovary, fallopian tube, cervix, placenta, umbilical cord.
+
+Engineering additions: jig, fixture, mandrel, rivet gun, grease gun, hoist, rail, sleeper, ballast, kerb, bollard, grating.
+
+## Actual image and language inspections
+
+Every distinct original and edited derivative was produced with the built-in image tool and actually inspected at 1254px, as a converted 512px WebP card, and as a 120px PNG thumbnail by an author and a different AI reviewer. All complete English/Persian entries and both native overlays were actually read. Exact prompts, source/card/thumbnail hashes, category briefs and concrete findings remain bound in the illustration audit, media provenance and campaign ledger. Conversion, hashes and template registration never imply semantic acceptance.
+
+The medical pictures use soft precise clinical forms on cool white with restrained mint and pale blue. The ear canal ends at an intact eardrum. The ossicle picture selects one stapes within the connected eardrum-to-oval-window chain; a false malleus collar/joint was corrected. Separately generated cochlear and single-canal focuses distinguish the hearing spiral from the balance loops. The auditory-nerve picture selects a hearing bundle leaving the medial cochlear base toward brainstem context. The Eustachian picture connects the middle ear to the nasopharynx and was corrected to preserve an open contextual airway behind the soft palate. This combines lateral-ear and head-section projections; it is not a literal complete anatomical section or an exact microscopic/cranial-nerve map.
+
+Separate pelvic derivatives distinguish the uterus, one ovary, the uterine tube and the whole cervical region. Free fimbrial ends remain near, rather than fused to, the ovary; the uterine cavity, cervical canal and vaginal context remain continuous. The placental picture was corrected to show a smooth fetal-facing plate with branching surface vessels, attached to the uterine wall. A separately generated cord focus connects the fetal navel to that plate. These are qualitative explanatory organ relationships, not exact histology, internal vessel counts, dimensions, gestational ages, fertility or individual clinical assessments. Selection color does not imply disease.
+
+The engineering pictures use slate, silver and amber technical drawings. Jig was corrected to show a supported screw pad actually contacting the workpiece, alongside a seated hollow guide bushing. The fixture derivative retains locating and holding contacts while removing tool guidance. Mandrel was corrected so its core contacts the exposed bore instead of floating within it. Rivet gun selects a complete manual blind-rivet puller; grease gun has a connected barrel, pump head, lever, hose and coupler. Hoist shows a complete unloaded product with distinct hand-chain loop, load strand, tail and connected hooks; concealed mechanisms and operating performance are not inferred.
+
+The track reference was corrected to place both rail-end seat regions on one continuous foreground sleeper. Separately generated focus derivatives distinguish a steel rail, one complete transverse sleeper and coarse angular ballast beneath and around the supports. Kerb selects the supported raised edging between lower road and higher footway. Bollard shows one fixed street post with a continuous shaft embedded in a footing. Grating is an independent structural object noun, with connected open bars seated on a frame above a drain. Regional kerb/curb and sleeper/railroad tie are taught within single entries. These pictures do not establish forces, tolerances, pressure, capacities, fastening standards, track gauge, granular-layer specifications or construction/impact-safety qualification.
+
+Six assets required a second generation/edit attempt; their rejected candidates and genuine negative findings remain private. No asset exceeded three attempts. Reviewed original outer-labyrinth, pelvic, placental, workholding and track references were reused only within their recorded scopes. Every derivative received a distinct prompt and fresh paired pixel inspections. Nine earlier manual image-resolution holds remain private, unchanged and excluded. This group covers all 24 selected parent entries; parent reconciliation still requires live verification.
+
+Bounded older-picture observations retained syringe and ammeter artwork after actual published 512px and 120px inspection. Syringe has a coherent barrel, plunger, finger flanges and capped connector without a fake dose. Ammeter has a traceable series battery-meter-lamp loop with the exact A indicator and no fabricated numeric reading. Their originals were not reinspected, and these observations do not constitute fresh paired three-size approval or collection-wide qualification. No older image or immutable media was changed.
+
+All text and images are AI-assisted editorial previews under CC BY 4.0, pending independent human language and qualified medical/engineering review. Primary factual references support original wording; reference artwork was not copied.
+
+## Validation
+
+All 194 automated tests pass. Full content, native-vocabulary, reading, illustration, category-style and campaign checks pass against preview 40. The production build succeeds under /mehrdadika/ with Node 24; the existing large-chunk advisory remains. Each native edition has 1,041 words, 1,042 senses, 2,084 examples, 3,123 collocations and 1,041 usage tips. Existing 32 category labels, 348 subcategory labels and six group labels remain complete.
+
+Six settled browser samples cover corrected ossicle at 1280px and corrected rail at 390px in all three editions. Complete dialog text was read. Each sample loaded the expected 512px image, used the correct direction, had no horizontal page overflow and emitted no warning/error logs. The owned preview tab/server were closed and the viewport restored.
+
+Local validation is separate from publication. Exact source-head CI, manual Pages deployment, live build/pointer/count/media hashes and settled live cards remain required release gates.

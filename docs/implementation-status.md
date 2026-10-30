@@ -8,16 +8,16 @@ The [public source repository](https://github.com/mehrdadxzaker/mehrdadika) and 
 
 | Item | Current scope |
 | --- | --- |
-| Vocabulary | 1017 lexical items and 1018 independently scheduled meanings. `pressure` has separate medical and engineering learning contexts under one public word card. |
+| Vocabulary | 1041 lexical items and 1042 independently scheduled meanings. `pressure` has separate medical and engineering learning contexts under one public word card. |
 | Subject taxonomy | All 32 domains, organized into six discovery groups, with category-specific visual briefs for the 64-word expansion. |
 | Subcategory display | 348 native subcategory labels in each of Persian, Brazilian Portuguese and Latin American Spanish, parallel to the English catalog. |
-| Starter focus | All 32 categories have two new visual-foundation entries; cooking has 52 words. Medicine and engineering now have 430 and 429 words respectively; the ongoing campaign targets 500 each before the remaining category queue. |
+| Starter focus | All 32 categories have two new visual-foundation entries; cooking has 52 words. Medicine and engineering now have 442 and 441 words respectively; the ongoing campaign targets 500 each before the remaining category queue. |
 | Short reading | Three original bilingual passages with comprehension questions. |
 | Book reading | One original short book with three chapters. |
 | Additional exercises | Two paraphrase levels and three confusable-word groups. |
 | Science through English | Water and Weather: eight lessons, 32 closed activities, eight writing tasks, 22 target senses and complete Persian/Portuguese/Spanish support. |
 | Review channel | AI-assisted editorial preview. No independent human or specialist approval is claimed. |
-| Portuguese and Spanish previews | Each edition has 1017 words, 1018 senses, 2036 translated examples, 3051 collocations, 1017 usage notes, 32 category labels, 348 subcategory labels and six group labels, plus the reading/practice catalog above. |
+| Portuguese and Spanish previews | Each edition has 1041 words, 1042 senses, 2084 translated examples, 3123 collocations, 1041 usage notes, 32 category labels, 348 subcategory labels and six group labels, plus the reading/practice catalog above. |
 
 The [category expansion ledger and queue](category-expansion.md) tracks coherent publication batches, with foundation/core/depth targets of 50/150/400 words per category. `npm run content:coverage` reports current unique word and category counts. The [specialist campaign](specialist-expansion.md) overrides the immediate medicine and engineering target to 500 each; `npm run campaign:status` measures the remaining work from the published release.
 

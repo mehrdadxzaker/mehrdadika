@@ -4616,7 +4616,127 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 430,
+      "targetCategoryWords": 442,
+      "entryIds": [
+        "ear-canal",
+        "ossicle",
+        "cochlea",
+        "semicircular-canal",
+        "eustachian-tube",
+        "auditory-nerve",
+        "uterus",
+        "ovary",
+        "fallopian-tube",
+        "cervix",
+        "placenta",
+        "umbilical-cord"
+      ],
+      "units": [
+        {
+          "id": "medical-hearing-balance-anatomy",
+          "title": "Hearing and balance anatomy",
+          "entryIds": [
+            "ear-canal",
+            "ossicle",
+            "cochlea",
+            "semicircular-canal",
+            "eustachian-tube",
+            "auditory-nerve"
+          ]
+        },
+        {
+          "id": "medical-reproductive-pregnancy-anatomy",
+          "title": "Reproductive and pregnancy anatomy",
+          "entryIds": [
+            "uterus",
+            "ovary",
+            "fallopian-tube",
+            "cervix",
+            "placenta",
+            "umbilical-cord"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-34-ready-1",
+      "releaseId": "2026-10-preview-40",
+      "status": "published-preview",
+      "objective": "Learn Hearing and balance anatomy; Reproductive and pregnancy anatomy in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 429,
+      "targetCategoryWords": 441,
+      "entryIds": [
+        "jig",
+        "fixture",
+        "mandrel",
+        "rivet-gun",
+        "grease-gun",
+        "hoist",
+        "rail",
+        "sleeper",
+        "ballast",
+        "kerb",
+        "bollard",
+        "grating"
+      ],
+      "units": [
+        {
+          "id": "workholding-and-tool-guidance",
+          "title": "Workholding and tool guidance",
+          "entryIds": [
+            "jig",
+            "fixture",
+            "mandrel"
+          ]
+        },
+        {
+          "id": "workshop-equipment",
+          "title": "Workshop equipment",
+          "entryIds": [
+            "rivet-gun",
+            "grease-gun",
+            "hoist"
+          ]
+        },
+        {
+          "id": "railway-track-components",
+          "title": "Railway track components",
+          "entryIds": [
+            "rail",
+            "sleeper",
+            "ballast"
+          ]
+        },
+        {
+          "id": "street-edge-and-drainage-hardware",
+          "title": "Street edges and drainage hardware",
+          "entryIds": [
+            "kerb",
+            "bollard",
+            "grating"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-34-ready-1",
+      "releaseId": "2026-10-preview-40",
+      "status": "published-preview",
+      "objective": "Learn Workholding and tool guidance; Workshop equipment; Railway track components; Street edges and drainage hardware in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-33-ready-1"
+  "activePassId": "specialist-500-batch-34-ready-1"
 }
