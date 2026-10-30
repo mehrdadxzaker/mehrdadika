@@ -4968,7 +4968,113 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 466,
+      "targetCategoryWords": 478,
+      "entryIds": [
+        "adipose-tissue",
+        "connective-tissue",
+        "epithelial-tissue",
+        "smooth-muscle",
+        "skeletal-muscle",
+        "cardiac-muscle",
+        "quarantine",
+        "isolation",
+        "outbreak",
+        "epidemic",
+        "pandemic",
+        "immunity"
+      ],
+      "units": [
+        {
+          "id": "medical-tissues-and-muscle-types",
+          "title": "Tissues and muscle types",
+          "entryIds": [
+            "adipose-tissue",
+            "connective-tissue",
+            "epithelial-tissue",
+            "smooth-muscle",
+            "skeletal-muscle",
+            "cardiac-muscle"
+          ]
+        },
+        {
+          "id": "public-health-transmission-and-protection",
+          "title": "Public health transmission and protection",
+          "entryIds": [
+            "quarantine",
+            "isolation",
+            "outbreak",
+            "epidemic",
+            "pandemic",
+            "immunity"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-37-ready-1",
+      "releaseId": "2026-10-preview-43",
+      "status": "published-preview",
+      "objective": "Learn Tissues and muscle types; Public health transmission and protection in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 464,
+      "targetCategoryWords": 475,
+      "entryIds": [
+        "annealing",
+        "tempering",
+        "quenching",
+        "galvanizing",
+        "anodizing",
+        "heat-treatment",
+        "buckling",
+        "delamination",
+        "wear",
+        "erosion",
+        "fatigue-failure"
+      ],
+      "units": [
+        {
+          "id": "thermal-and-surface-treatment",
+          "title": "Thermal and surface treatment",
+          "entryIds": [
+            "annealing",
+            "tempering",
+            "quenching",
+            "galvanizing",
+            "anodizing",
+            "heat-treatment"
+          ]
+        },
+        {
+          "id": "materials-deformation-and-damage",
+          "title": "Material deformation and damage",
+          "entryIds": [
+            "buckling",
+            "delamination",
+            "wear",
+            "erosion",
+            "fatigue-failure"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-37-ready-1",
+      "releaseId": "2026-10-preview-43",
+      "status": "published-preview",
+      "objective": "Learn Thermal and surface treatment; Material deformation and damage in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-36-ready-1"
+  "activePassId": "specialist-500-batch-37-ready-1"
 }

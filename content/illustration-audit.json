@@ -52850,6 +52850,1225 @@
           "reviewerId": "/root/batch5_medical"
         }
       }
+    },
+    {
+      "entryId": "adipose-tissue",
+      "sourceWord": "adipose tissue",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "adipose-tissue:meaning-1",
+          "pos": "n.",
+          "en": "A connective tissue rich in cells that store lipid, with roles in energy storage, insulation and cushioning."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Adipose tissue beneath the skin helps insulate the body.",
+          "senseId": "adipose-tissue:meaning-1"
+        },
+        {
+          "en": "Some fat deposits cushion organs as well as storing energy.",
+          "senseId": "adipose-tissue:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/adipose-tissue.webp",
+        "sha256": "2989f3d98f33154e87bae1f1ea8701ed5909a2cfc79fbc0323415e31f250ca2b"
+      },
+      "visual": {
+        "expectedCue": "Representative white adipose tissue: packed lipid-filled adipocytes with one dominant droplet and displaced peripheral nuclei, not a generic fat blob or universal model of all adipose tissue.",
+        "decision": "added",
+        "reason": "Actually viewed the built-in original1254 and converted512WebP/120PNG. Packed polygonal white-adipocyte profiles contain large pale lipid spaces, thin peripheral cytoplasm and multiple visibly flattened peripheral nuclei; central lipid spaces are not filled with nuclei. Fine intercellular stroma and continuous cell boundaries distinguish tissue from separate plastic spheres. Some nuclei lie outside this section plane; not an exact cell count or universal adipose histology. Lipid-cell/peripheral-nucleus cue remains visible at120. Actual cool-white background, restrained mint/pale-blue cell boundaries and natural pale cream lipid, precise softly shaded tissue forms, no text, logos, clinical readings or irrelevant props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed the built-in original1254 and converted512WebP/120PNG. Packed polygonal white-adipocyte profiles contain large pale lipid spaces, thin peripheral cytoplasm and multiple visibly flattened peripheral nuclei; central lipid spaces are not filled with nuclei. Fine intercellular stroma and continuous cell boundaries distinguish tissue from separate plastic spheres. Some nuclei lie outside this section plane; not an exact cell count or universal adipose histology. Lipid-cell/peripheral-nucleus cue remains visible at120. Actual cool-white background, restrained mint/pale-blue cell boundaries and natural pale cream lipid, precise softly shaded tissue forms, no text, logos, clinical readings or irrelevant props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T17:52:04.634Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2989f3d98f33154e87bae1f1ea8701ed5909a2cfc79fbc0323415e31f250ca2b",
+          "inspectedAt": "2026-10-30T17:55:49.451Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected original1254,512WebP,120PNG. Packed adjoining white-adipocyte sections each show one large pale lipid space, thin peripheral rim and displaced flattened nuclei; visible stromal boundaries make tissue rather than loose plastic balls. At120 the large lipid/peripheral-nucleus relation remains clear. Representative white tissue model only, not all adipose types, measured histology or body-fat/diagnostic amount. Clinical cool-white/mint style coherent.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "connective-tissue",
+      "sourceWord": "connective tissue",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "connective-tissue:meaning-1",
+          "pos": "n.",
+          "en": "A broad class of body tissue whose cells and surrounding extracellular material provide support, binding or other specialized functions."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Connective tissue supports the small blood vessels beneath the lining.",
+          "senseId": "connective-tissue:meaning-1"
+        },
+        {
+          "en": "Bone, blood and cartilage belong to the same broad tissue class despite their different forms.",
+          "senseId": "connective-tissue:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/connective-tissue.webp",
+        "sha256": "61bd996fa7dc5e46eeef59a60cf7b4358f5db95e96b114bee5a6a95a4c554533"
+      },
+      "visual": {
+        "expectedCue": "A representative loose areolar connective tissue block with separated cells and fibres in extracellular matrix, distinct from packed epithelium; no claim it represents bone, blood or all connective tissue forms.",
+        "decision": "added",
+        "reason": "Actually viewed original1254 and converted512/120. Loose areolar example has separated spindle/stellate fibroblast profiles with enclosed nuclei, broad wavy pale collagen bundles and finer crossing fibres in continuous extracellular matrix. Matrix spaces remain between the cells, unlike an epithelial sheet. Small round translucencies are rendering of matrix texture, not claimed calibrated structures or actual histology; fibre/nucleus density is qualitative. Main matrix-versus-separated-cells cue survives120. Cool-white backdrop with mint cell/fine-fibre and pale-blue collagen accents, precise softly shaded tissue block, no text, labels, readings or decorative props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254 and converted512/120. Loose areolar example has separated spindle/stellate fibroblast profiles with enclosed nuclei, broad wavy pale collagen bundles and finer crossing fibres in continuous extracellular matrix. Matrix spaces remain between the cells, unlike an epithelial sheet. Small round translucencies are rendering of matrix texture, not claimed calibrated structures or actual histology; fibre/nucleus density is qualitative. Main matrix-versus-separated-cells cue survives120. Cool-white backdrop with mint cell/fine-fibre and pale-blue collagen accents, precise softly shaded tissue block, no text, labels, readings or decorative props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T17:54:02.181Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "61bd996fa7dc5e46eeef59a60cf7b4358f5db95e96b114bee5a6a95a4c554533",
+          "inspectedAt": "2026-10-30T18:05:44.074Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected original1254,512WebP,120PNG. Spaced nucleated stellate/spindle cells lie amid wavy thick fibres and thinner branching fibres in abundant continuous translucent extracellular matrix; distinct from packed epithelial sheet. Texture is schematic ground-substance rendering, not literal gas spaces or microscopy. Representative loose areolar example only, no complete tissue taxonomy, quantified fibre ratios or pathological diagnosis. Clinical cool-white/mint/pale-blue style readable120.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "epithelial-tissue",
+      "sourceWord": "epithelial tissue",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "epithelial-tissue:meaning-1",
+          "pos": "n.",
+          "en": "Tissue made of closely joined cells that cover body surfaces, line spaces or form glands."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Epithelial tissue lines the inside of the small intestine.",
+          "senseId": "epithelial-tissue:meaning-1"
+        },
+        {
+          "en": "The cells form a continuous barrier above the supporting basement membrane.",
+          "senseId": "epithelial-tissue:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/epithelial-tissue.webp",
+        "sha256": "65bfac5a9dc276ecdeb37262d400047c511b6be494a3c102f1aa2aed11d2c482"
+      },
+      "visual": {
+        "expectedCue": "A continuous packed one-cell-thick epithelial sheet with free apical side and basal basement membrane above supporting connective matrix, one representative epithelial subtype.",
+        "decision": "added",
+        "reason": "Actually viewed original1254 and converted512WebP/120PNG. One continuous row of joined cuboidal cells has individual nuclei, free apical surfaces above and basal contact with a distinct continuous basement-membrane strip. Subdued fibrous connective tissue lies below, with no vessels crossing into the epithelial sheet. The one-layer boundary remains clear at120 despite generous free-space margin. Representative simple cuboidal epithelium only; membrane thickness, stain, dimensions and all epithelial subtypes are not claimed. Actual cool-white field with mint epithelial cells and pale-blue supporting tissue, precise soft clinical forms, no text, values or irrelevant props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254 and converted512WebP/120PNG. One continuous row of joined cuboidal cells has individual nuclei, free apical surfaces above and basal contact with a distinct continuous basement-membrane strip. Subdued fibrous connective tissue lies below, with no vessels crossing into the epithelial sheet. The one-layer boundary remains clear at120 despite generous free-space margin. Representative simple cuboidal epithelium only; membrane thickness, stain, dimensions and all epithelial subtypes are not claimed. Actual cool-white field with mint epithelial cells and pale-blue supporting tissue, precise soft clinical forms, no text, values or irrelevant props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T17:56:26.093Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "65bfac5a9dc276ecdeb37262d400047c511b6be494a3c102f1aa2aed11d2c482",
+          "inspectedAt": "2026-10-30T18:05:44.090Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected original1254,512WebP,120PNG. Closely adjoining single row of cuboidal cells has one nucleus per visible cell, free upper surface and continuous lower basement-membrane band above distinct subdued fibrous connective matrix; no vessels invade epithelium. Row continues beyond side framing as a tissue sample, not a whole organ. Clear120 and clinical mint/white style; one simple subtype, not all epithelial arrangements or specific intestinal histology.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "smooth-muscle",
+      "sourceWord": "smooth muscle",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "smooth-muscle:meaning-1",
+          "pos": "n.",
+          "en": "Muscle tissue with non-striated, spindle-shaped cells that contracts involuntarily in many internal organs and passageways."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Smooth muscle in the intestinal wall helps move its contents along.",
+          "senseId": "smooth-muscle:meaning-1"
+        },
+        {
+          "en": "These tapered cells lack the cross-bands visible in skeletal muscle fibres.",
+          "senseId": "smooth-muscle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/smooth-muscle.webp",
+        "sha256": "b28662b1118d129779efaa84839879f37f9581ada49e7e0003d961fb1e8ec968"
+      },
+      "visual": {
+        "expectedCue": "Smooth muscle tissue: tapered spindle cells with a single central nucleus and no transverse striation, distinct from skeletal/cardiac fibres.",
+        "decision": "added",
+        "reason": "Actually viewed original1254 and converted512WebP/120PNG. Overlapping elongated cells have tapering spindle ends, one elongated central nucleus in each visible complete cell profile and no transverse cross-bands, branches or intercalated discs. The single-nucleus/spindle/non-striated cue remains clear at120. Fine longitudinal texture is rendering, not claimed visible cross-striation. Qualitative cell model only; dimensions, contractile state, speed and pathology are not inferred. Soft precise naturally pink tissue on clean cool-white/mint background, muted lavender nuclei; clinical educational rendering without text, logos, readings or extraneous props. Anatomical tissue color differs from the requested mint accent but preserves the clean category rendering.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254 and converted512WebP/120PNG. Overlapping elongated cells have tapering spindle ends, one elongated central nucleus in each visible complete cell profile and no transverse cross-bands, branches or intercalated discs. The single-nucleus/spindle/non-striated cue remains clear at120. Fine longitudinal texture is rendering, not claimed visible cross-striation. Qualitative cell model only; dimensions, contractile state, speed and pathology are not inferred. Soft precise naturally pink tissue on clean cool-white/mint background, muted lavender nuclei; clinical educational rendering without text, logos, readings or extraneous props. Anatomical tissue color differs from the requested mint accent but preserves the clean category rendering."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T17:58:07.846Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b28662b1118d129779efaa84839879f37f9581ada49e7e0003d961fb1e8ec968",
+          "inspectedAt": "2026-10-30T18:48:40.577Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected original1254,512WebP and120PNG. Separate overlapping tapered spindle cells each show a central elongated nucleus and smooth non-striated cytoplasm; no branching or intercalated-disc seams. Cell-form difference survives120. Natural pink tissue sits on clinical cool-white/mint ground with soft precise rendering; not a measured stain, cell count, contraction speed or disease claim.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "skeletal-muscle",
+      "sourceWord": "skeletal muscle",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "skeletal-muscle:meaning-1",
+          "pos": "n.",
+          "en": "Striated muscle tissue made of long fibres with many nuclei, responsible for most voluntary body movements and for functions such as posture."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Skeletal muscle contracts when she lifts her forearm.",
+          "senseId": "skeletal-muscle:meaning-1"
+        },
+        {
+          "en": "A single fibre contains many nuclei positioned near its outer edge.",
+          "senseId": "skeletal-muscle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/skeletal-muscle.webp",
+        "sha256": "bff5b135a01bf122c4b50b352f16ec6335d5b7c0ec08b58d59276e671b33bbf3"
+      },
+      "visual": {
+        "expectedCue": "Long parallel unbranched striated skeletal muscle fibres, each multinucleated with peripheral nuclei, not central-nucleated cardiac/smooth muscle.",
+        "decision": "added",
+        "reason": "Actually viewed corrected original1254 and converted512WebP/120PNG. Three parallel long unbranched fibres remain continuous with repeated side-surface cross-striations and multiple oval nuclei along their periphery. The misleading cross-banded end face from candidate1 is absent: the middle fibre now continues out of frame. This preserves the multinucleated peripheral-nucleus skeletal cue, distinct from central-nucleus smooth/cardiac cells. No exact sarcomere count, scale or cross-sectional histology is claimed. Soft precise naturally pink muscle forms, muted nuclei and clean cool-white/mint background, no labels, readings or irrelevant props; clinical tissue rendering rather than a generic icon.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed corrected original1254 and converted512WebP/120PNG. Three parallel long unbranched fibres remain continuous with repeated side-surface cross-striations and multiple oval nuclei along their periphery. The misleading cross-banded end face from candidate1 is absent: the middle fibre now continues out of frame. This preserves the multinucleated peripheral-nucleus skeletal cue, distinct from central-nucleus smooth/cardiac cells. No exact sarcomere count, scale or cross-sectional histology is claimed. Soft precise naturally pink muscle forms, muted nuclei and clean cool-white/mint background, no labels, readings or irrelevant props; clinical tissue rendering rather than a generic icon."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T18:03:53.933Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "bff5b135a01bf122c4b50b352f16ec6335d5b7c0ec08b58d59276e671b33bbf3",
+          "inspectedAt": "2026-10-30T18:48:40.593Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected corrected original1254,512WebP and120PNG. Long parallel unbranched cylindrical fibres extend through frame with transverse side-surface striations and multiple peripheral/surface nuclei. Former incorrect cut-end banding is absent because end sections are no longer shown. Distinct from smooth spindles and branched central-nucleus cardiac tissue at120. Natural pink clinical model, not calibrated histology, sarcomere dimensions or a whole-muscle organ representation.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "cardiac-muscle",
+      "sourceWord": "cardiac muscle",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "cardiac-muscle:meaning-1",
+          "pos": "n.",
+          "en": "The involuntary, striated muscle tissue of the heart, formed by branching cells joined at specialized junctions."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Cardiac muscle contracts to push blood out of the heart.",
+          "senseId": "cardiac-muscle:meaning-1"
+        },
+        {
+          "en": "Specialized junctions help neighbouring cells coordinate their activity.",
+          "senseId": "cardiac-muscle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cardiac-muscle.webp",
+        "sha256": "2fa9f2e5eda5bf10a404bfccf111bbd9d92867aabb17a3e403baf76b31468688"
+      },
+      "visual": {
+        "expectedCue": "Branched striated cardiomyocytes with typical central nuclei and junction discs between cells, distinct from multinucleated unbranched skeletal fibres.",
+        "decision": "added",
+        "reason": "Actually viewed original1254 and converted512WebP/120PNG. Branched cardiomyocyte profiles contain central oval nuclei and finer repeated cross-striations. Dark irregular intercalated-disc seams lie at joins between adjacent cell segments, visibly distinct from the cross-bands. Branching and central nuclei remain clear at120, unlike long unbranched multinucleated skeletal fibres. This is qualitative tissue geometry, not exact junction ultrastructure, a histology stain, measured rhythm or heart-health test. Soft precise naturally pink tissue with muted nuclei on a cool-white/mint field, clean clinical educational rendering; no text, measurements, logos or irrelevant props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254 and converted512WebP/120PNG. Branched cardiomyocyte profiles contain central oval nuclei and finer repeated cross-striations. Dark irregular intercalated-disc seams lie at joins between adjacent cell segments, visibly distinct from the cross-bands. Branching and central nuclei remain clear at120, unlike long unbranched multinucleated skeletal fibres. This is qualitative tissue geometry, not exact junction ultrastructure, a histology stain, measured rhythm or heart-health test. Soft precise naturally pink tissue with muted nuclei on a cool-white/mint field, clean clinical educational rendering; no text, measurements, logos or irrelevant props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T18:07:02.506Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2fa9f2e5eda5bf10a404bfccf111bbd9d92867aabb17a3e403baf76b31468688",
+          "inspectedAt": "2026-10-30T18:48:40.607Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected original1254,512WebP and120PNG. Joined branching striated cell segments show centered oval nuclei and darker irregular transverse junction seams, distinguishable from finer repeated bands; branch/junction relation remains readable120. No detached forks or blood-vessel substitution. Representative qualitative cell group only: exact nuclei-per-branch counting, junction ultrastructure, electrophysiology/heart rate or diagnosis unqualified. Natural tissue pink on clinical cool-white ground fits soft precise anatomy style.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "quarantine",
+      "sourceWord": "quarantine",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "quarantine:meaning-1",
+          "pos": "n.",
+          "en": "Separation and restriction of movement after possible exposure to a contagious infection, when the person is not yet known to be infected."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The public health team arranged quarantine for people who had been exposed.",
+          "senseId": "quarantine:meaning-1"
+        },
+        {
+          "en": "She stayed in contact with her family by phone during quarantine.",
+          "senseId": "quarantine:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/quarantine.webp",
+        "sha256": "62a06d820aa2e77a86776633c4e41a18ada611b32e6d722194a4c53a4234173e"
+      },
+      "visual": {
+        "expectedCue": "Possible exposure followed by temporary separation while infection status is unknown; same person, not a diagnosis, loneliness or isolation of a known infected person.",
+        "decision": "added",
+        "reason": "Actually viewed original1254 and converted512WebP/120PNG. The same teal-shirt adult is first near another person in conversation, then alone in a separate home room maintaining family contact by phone; the family is in a bounded communication bubble rather than physically in that room. Exact EXPOSED and STATUS UNKNOWN labels and the transition arrow remain clear120. These explanatory labels establish possible exposure/unknown infection rather than a diagnosed illness; appearance alone does not establish infection, duration or a legal/practical requirement. Clean softly precise people/room illustration with cool-white, mint and pale-blue clinical palette; essential correct labels only, no plants, wall art, patient data, test values, logos or decorative icons.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254 and converted512WebP/120PNG. The same teal-shirt adult is first near another person in conversation, then alone in a separate home room maintaining family contact by phone; the family is in a bounded communication bubble rather than physically in that room. Exact EXPOSED and STATUS UNKNOWN labels and the transition arrow remain clear120. These explanatory labels establish possible exposure/unknown infection rather than a diagnosed illness; appearance alone does not establish infection, duration or a legal/practical requirement. Clean softly precise people/room illustration with cool-white, mint and pale-blue clinical palette; essential correct labels only, no plants, wall art, patient data, test values, logos or decorative icons."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T18:12:44.096Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "62a06d820aa2e77a86776633c4e41a18ada611b32e6d722194a4c53a4234173e",
+          "inspectedAt": "2026-10-30T18:53:36.782Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected original1254,512WebP,120PNG. Same teal-shirt adult appears in exposed conversation then separately at home using phone; family is clearly contained in a remote-communication bubble, not physically in room. Exact EXPOSED/STATUS UNKNOWN labels and transition arrow read120. No symptom/test/positive diagnosis, duration or required procedure inferred. Selected possible-exposure noun relation, calm clinical mint/white rendering with natural people.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "isolation",
+      "sourceWord": "isolation",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "isolation:meaning-1",
+          "pos": "n.",
+          "en": "Separation of a person with a known or suspected contagious infection from other people to limit transmission."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ward arranged isolation for a patient with a suspected contagious infection.",
+          "senseId": "isolation:meaning-1"
+        },
+        {
+          "en": "Her care continued while she remained in isolation.",
+          "senseId": "isolation:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/isolation.webp",
+        "sha256": "646a5fa16b81536c57e65217cb90f3a8f94820ad5776a37726810878fcd54442"
+      },
+      "visual": {
+        "expectedCue": "A hypothetical patient with suspected contagious infection is separated from others while care continues; infection-control isolation rather than mere solitude or exposure-only quarantine.",
+        "decision": "added",
+        "reason": "Actually viewed original1254 and converted512WebP/120PNG. One patient is inside a distinct room boundary while other people remain in the hallway, and a masked clinician maintains contact from the doorway without touching the patient. Exact SUSPECTED INFECTION caption is correct and readable120, giving the hypothetical infection-control relation beyond mere solitude. Room appearance and facial expression are not used as proof of diagnosis or symptoms; communication/PPE arrangement is not a protocol recommendation. Precise softly rendered clinical room/people in cool-white, mint and pale-blue, with only essential text; no decorative plants/art, drug/device readings, actual patient information or logos.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254 and converted512WebP/120PNG. One patient is inside a distinct room boundary while other people remain in the hallway, and a masked clinician maintains contact from the doorway without touching the patient. Exact SUSPECTED INFECTION caption is correct and readable120, giving the hypothetical infection-control relation beyond mere solitude. Room appearance and facial expression are not used as proof of diagnosis or symptoms; communication/PPE arrangement is not a protocol recommendation. Precise softly rendered clinical room/people in cool-white, mint and pale-blue, with only essential text; no decorative plants/art, drug/device readings, actual patient information or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T18:18:40.824Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "646a5fa16b81536c57e65217cb90f3a8f94820ad5776a37726810878fcd54442",
+          "inspectedAt": "2026-10-30T18:53:36.797Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected original1254,512WebP,120PNG. Patient remains in a separate clinical room behind a clear boundary while clinician communicates from hallway and other people are outside. Exact SUSPECTED INFECTION caption readable120 supplies hypothetical status, rather than diagnosing from appearance; care continues, not abandonment. No specific PPE/procedure, disease, duration or facility-performance approval. Clinical mint/cool-white style and separation cue fit.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "outbreak",
+      "sourceWord": "outbreak",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "outbreak:meaning-1",
+          "pos": "n.",
+          "en": "An occurrence of more cases of a disease than expected in a particular population, place and period, often discussed as a localized event."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The team investigated an outbreak of gastroenteritis at the care home.",
+          "senseId": "outbreak:meaning-1"
+        },
+        {
+          "en": "Investigators compared the new cases with the number usually recorded in that community.",
+          "senseId": "outbreak:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/outbreak.webp",
+        "sha256": "976473a8b2b10593c109cb49fbfbda6718e8bbe423e51c97ff9d26c8e2e99158"
+      },
+      "visual": {
+        "expectedCue": "The same illustrative local population has more cases in an observed period than expected; selected disease-occurrence sense, no real surveillance or severity claim.",
+        "decision": "added",
+        "reason": "Actually viewed original1254 and converted512WebP/120PNG. Matched12person-marker populations at identical positions inside matching local community outlines: left2orange cases, right6orange, so OBSERVED visibly exceeds EXPECTED without changing denominator. Exact EXAMPLE, SAME COMMUNITY, SAME PERIOD, EXPECTED, OBSERVED and CASES labels correct and discernible120. One orange legend marker is outside the two populations. Clinical cool-white/mint/blue soft precise forms preserved. Hypothetical qualitative occurrence comparison only: no real surveillance, severity, diagnostic result, transmission chain or rigid outbreak/epidemic threshold.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254 and converted512WebP/120PNG. Matched12person-marker populations at identical positions inside matching local community outlines: left2orange cases, right6orange, so OBSERVED visibly exceeds EXPECTED without changing denominator. Exact EXAMPLE, SAME COMMUNITY, SAME PERIOD, EXPECTED, OBSERVED and CASES labels correct and discernible120. One orange legend marker is outside the two populations. Clinical cool-white/mint/blue soft precise forms preserved. Hypothetical qualitative occurrence comparison only: no real surveillance, severity, diagnostic result, transmission chain or rigid outbreak/epidemic threshold."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T17:52:22.404Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "976473a8b2b10593c109cb49fbfbda6718e8bbe423e51c97ff9d26c8e2e99158",
+          "inspectedAt": "2026-10-30T17:54:14.261Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected original1254,512WebP and120PNG. Both matched bounded community panels retain12 whole person markers in the same3x4 layout; left has2 orange cases, right6, with remaining markers blue. Exact EXAMPLE/SAME COMMUNITY/SAME PERIOD/EXPECTED/OBSERVED/CASES checked across sizes, readable120. Qualitative above-expected comparison for same population/place/period, no real surveillance, disease severity, universal case threshold or rigid outbreak/epidemic geographic boundary. Clinical mint/white style clear.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "epidemic",
+      "sourceWord": "epidemic",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "epidemic:meaning-1",
+          "pos": "n.",
+          "en": "An occurrence of disease cases above the expected level in a population or area during a period of time."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The epidemic placed extra pressure on clinics across the region.",
+          "senseId": "epidemic:meaning-1"
+        },
+        {
+          "en": "Health teams tracked the changing number of cases throughout the event.",
+          "senseId": "epidemic:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/epidemic.webp",
+        "sha256": "fef7e13b747bf19ab215bc7b05650e1235d10bc8210539aac97bbc8668b732e8"
+      },
+      "visual": {
+        "expectedCue": "Illustrative matched regional population/time comparison has more observed cases than expected. Regional context is a selected epidemic example, without a fixed size/count boundary from outbreak.",
+        "decision": "added",
+        "reason": "Fresh actual1254original/512WebP/120PNG inspection of this distinct derivative. Same12marker population/time layout remains matched; EXPECTED2orange cases and OBSERVED6orange cases with same CASES legend. Three small settlement clusters repeated at matched regional positions; exact new SAME REGION and retained SAME PERIOD/EXAMPLE/EXPECTED/OBSERVED/CASES all correct and discernible120. Cool-white/mint/blue soft clinical palette preserved. Above-expected occurrence is shared with outbreak; regional context is an illustrative choice, not a universal size/count cutoff, real surveillance, severity or transmission-chain claim. Source template approval was not inherited.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Fresh actual1254original/512WebP/120PNG inspection of this distinct derivative. Same12marker population/time layout remains matched; EXPECTED2orange cases and OBSERVED6orange cases with same CASES legend. Three small settlement clusters repeated at matched regional positions; exact new SAME REGION and retained SAME PERIOD/EXAMPLE/EXPECTED/OBSERVED/CASES all correct and discernible120. Cool-white/mint/blue soft clinical palette preserved. Above-expected occurrence is shared with outbreak; regional context is an illustrative choice, not a universal size/count cutoff, real surveillance, severity or transmission-chain claim. Source template approval was not inherited."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T17:57:43.293Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "fef7e13b747bf19ab215bc7b05650e1235d10bc8210539aac97bbc8668b732e8",
+          "inspectedAt": "2026-10-30T18:11:02.289Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected original1254,512WebP,120PNG. Fresh derivative has exact SAME REGION/SAME PERIOD/EXAMPLE/EXPECTED/OBSERVED/CASES labels and3 matched settlement clusters in both fictional-region panels. Same12-position population markers count2 orange expected versus6 observed; no routes or severity change. Qualitative above-baseline regional example, no fixed geographic/case-count threshold separating epidemic from outbreak and no actual data. Clinical mint/white style and readability fit; no inherited base review.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "pandemic",
+      "sourceWord": "pandemic",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "pandemic:meaning-1",
+          "pos": "n.",
+          "en": "An epidemic that extends across many countries or continents and affects large numbers of people."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pandemic affected health services on several continents.",
+          "senseId": "pandemic:meaning-1"
+        },
+        {
+          "en": "Researchers compared how the same disease spread in different countries.",
+          "senseId": "pandemic:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pandemic.webp",
+        "sha256": "92495ace2fb3505ed316e43612f2a064291e90d8dad7825a8a99ec80d98becdf"
+      },
+      "visual": {
+        "expectedCue": "Sparse orange disease-case clusters across several continents, explicitly keyed by DISEASE CASES and ILLUSTRATIVE legend, depict international epidemic extent rather than generic global presence.",
+        "decision": "added",
+        "reason": "Fresh actual corrected1254original,512WebP and120PNG inspected. Sparse separated orange clusters remain distributed across recognizable distant continental regions with large unmarked areas. Essential new orange-marker DISEASE CASES legend explicitly anchors clinical occurrence, and exact ACROSS CONTINENTS/ILLUSTRATIVE captions stay correct and legible120. No routes, all-people infection, severity, country counts or current surveillance claim. Cool-white, blue/mint soft precise educational globe remains within category palette; geographic depiction is simplified rather than calibrated. Earlier missing-disease-legend negative retained and no inherited derivative approval.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Fresh actual corrected1254original,512WebP and120PNG inspected. Sparse separated orange clusters remain distributed across recognizable distant continental regions with large unmarked areas. Essential new orange-marker DISEASE CASES legend explicitly anchors clinical occurrence, and exact ACROSS CONTINENTS/ILLUSTRATIVE captions stay correct and legible120. No routes, all-people infection, severity, country counts or current surveillance claim. Cool-white, blue/mint soft precise educational globe remains within category palette; geographic depiction is simplified rather than calibrated. Earlier missing-disease-legend negative retained and no inherited derivative approval."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T18:13:16.401Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "92495ace2fb3505ed316e43612f2a064291e90d8dad7825a8a99ec80d98becdf",
+          "inspectedAt": "2026-10-30T18:19:05.034Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected corrected original1254,512WebP,120PNG. Exact DISEASE CASES legend now keys orange cluster markers, alongside correct ACROSS CONTINENTS and ILLUSTRATIVE captions, readable120. Sparse clusters occupy several recognizable continents while broad areas remain unmarked; no routes, causal arrows, severity/all-person infection claim or real case dataset. Semantic generic-presence ambiguity corrected; first negative preserved. Qualitative disease-epidemic extent example in cool clinical educational rendering.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "immunity",
+      "sourceWord": "immunity",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "immunity:meaning-1",
+          "pos": "n.",
+          "en": "Protection against infection or disease provided by the body’s immune defenses."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Immunity involves more than the antibodies circulating in the blood.",
+          "senseId": "immunity:meaning-1"
+        },
+        {
+          "en": "Immune memory can help the body respond more quickly after a later encounter with the same antigen.",
+          "senseId": "immunity:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/immunity.webp",
+        "sha256": "d0a1e2c86f1b0a449ea24a6cf9c97108af06f77cd6b1607af9eea99869edf9eb"
+      },
+      "visual": {
+        "expectedCue": "One qualified protective immune response: antibodies recognize a target and a phagocyte encloses it; actual target/cell relationship, no impenetrable shield or guarantee.",
+        "decision": "added",
+        "reason": "Actually viewed corrected original1254 and converted512WebP/120PNG. Two blue antibodies now bind the lavender target through the two fork tips; the top molecule has a single outward/upward stem and the right molecule has a single outward/rightward stem. The initial Fc-stem binding defect is removed. A continuous phagocyte membrane cup wraps the target with coherent outside/inside relationship, and a cell nucleus remains within the phagocyte. Target/cup and two corrected Y orientations survive120. One qualitative antibody-assisted protective pathway only: no universal immunity mechanism, exact scale/species, assured protection or patient result. Precise soft organic microscopic model in cool-white/mint/pale-blue with restrained lavender target, no text, shield/checkmarks, readings, logos or irrelevant props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed corrected original1254 and converted512WebP/120PNG. Two blue antibodies now bind the lavender target through the two fork tips; the top molecule has a single outward/upward stem and the right molecule has a single outward/rightward stem. The initial Fc-stem binding defect is removed. A continuous phagocyte membrane cup wraps the target with coherent outside/inside relationship, and a cell nucleus remains within the phagocyte. Target/cup and two corrected Y orientations survive120. One qualitative antibody-assisted protective pathway only: no universal immunity mechanism, exact scale/species, assured protection or patient result. Precise soft organic microscopic model in cool-white/mint/pale-blue with restrained lavender target, no text, shield/checkmarks, readings, logos or irrelevant props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T18:27:00.731Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d0a1e2c86f1b0a449ea24a6cf9c97108af06f77cd6b1607af9eea99869edf9eb",
+          "inspectedAt": "2026-10-30T18:53:36.809Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected corrected original1254,512WebP,120PNG. Phagocyte membrane forms a coherent enclosing cup around target; exactly two visible blue Y antibodies bind lavender target bumps with their two fork tips, single stems point outward up/right. Fork-versus-stem relation remains visible120. One qualitative protective recognition/engulfment example only, not all immunity, exact cell/microbe sizes, Fc-receptor geometry, measured protection or permanent infection guarantee. Soft clinical mint/blue model fits; prior wrong-orientation negative retained.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "annealing",
+      "sourceWord": "annealing",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "annealing:meaning-1",
+          "pos": "n.",
+          "en": "A metal treatment using a controlled heating and cooling cycle, often to reduce work-hardening and make further shaping easier."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Annealing makes the cold-worked strip easier to shape.",
+          "senseId": "annealing:meaning-1"
+        },
+        {
+          "en": "The steel parts cool slowly in the furnace in this example.",
+          "senseId": "annealing:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/annealing.webp",
+        "sha256": "a5f7da50c833e2c49220855069705f6aef83d46ba6bcbf02aa4b9b19200a9280"
+      },
+      "visual": {
+        "expectedCue": "Supported solid steel part in furnace plus qualitative heat/hold/long slow-cool curve; no melting or rapid bath quench, no numbers.",
+        "decision": "added",
+        "reason": "Actually inspected original1254,512WebP and120PNG. Solid steel block rests on a supported tray in the bounded furnace; wall-mounted heater context coherent. Qualitative lower curve rises, holds, then cools on a substantially longer descending segment to original baseline; exact HEAT/HOLD/SLOW COOL verified all3 sizes. Selected slow-furnace-cooling steel example, not universal alloy behavior, numerical temperature/time program, hidden electrical circuit or measured material-property claim. Slate/silver/amber category style fits.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254,512WebP and120PNG. Solid steel block rests on a supported tray in the bounded furnace; wall-mounted heater context coherent. Qualitative lower curve rises, holds, then cools on a substantially longer descending segment to original baseline; exact HEAT/HOLD/SLOW COOL verified all3 sizes. Selected slow-furnace-cooling steel example, not universal alloy behavior, numerical temperature/time program, hidden electrical circuit or measured material-property claim. Slate/silver/amber category style fits."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T17:53:20.348Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a5f7da50c833e2c49220855069705f6aef83d46ba6bcbf02aa4b9b19200a9280",
+          "inspectedAt": "2026-10-30T17:54:33.773Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254,512WebP and120PNG. Solid rectangular steel part rests on the furnace tray; side elements and refractory chamber have coherent support, with no melted workpiece. Qualitative curve rises, holds and descends gradually over a visibly longer interval to its initial level. Exact HEAT/HOLD/SLOW COOL lettering remains legible at120 and stage positions agree with the curve. Accepts this selected steel slow-furnace-cooling example only, not an alloy recipe, measured temperature/time or universal annealing behavior. Slate/silver/amber clinical-technical style matches the engineering brief; no fake numeric readings.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "tempering",
+      "sourceWord": "tempering",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "tempering:meaning-1",
+          "pos": "n.",
+          "en": "Reheating previously hardened steel below its transformation range to adjust properties such as hardness and toughness."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Tempering follows quenching in this steel-treatment cycle.",
+          "senseId": "tempering:meaning-1"
+        },
+        {
+          "en": "The selected reheating stage changes the balance between hardness and toughness.",
+          "senseId": "tempering:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tempering.webp",
+        "sha256": "655c84c4a77cc6472be4d18e1ea822622c5e48556c184310a9abb5c253e7ae40"
+      },
+      "visual": {
+        "expectedCue": "Prior high-heat/quench event followed by a distinct LOWER reheating/holding/cooling stage, supported solid steel furnace part; no actual temperatures or universal schedule.",
+        "decision": "added",
+        "reason": "Actually inspected original1254,512WebP,120PNG. New qualitative cycle shows subdued prior high peak with steep quench drop, then a distinct lower amber reheat/hold/cool stage on same continuous time sequence. Exact QUENCH/REHEAT/HOLD/COOL labels checked; principal relations remain readable120. Supported solid furnace block unchanged. Selected previously hardened-steel example, no numerical temperatures, transformation-line proof, alloy recipe or measured properties. Genuine fresh furnace-template derivative, own inspections; category style coherent.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254,512WebP,120PNG. New qualitative cycle shows subdued prior high peak with steep quench drop, then a distinct lower amber reheat/hold/cool stage on same continuous time sequence. Exact QUENCH/REHEAT/HOLD/COOL labels checked; principal relations remain readable120. Supported solid furnace block unchanged. Selected previously hardened-steel example, no numerical temperatures, transformation-line proof, alloy recipe or measured properties. Genuine fresh furnace-template derivative, own inspections; category style coherent."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T18:11:02.272Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "655c84c4a77cc6472be4d18e1ea822622c5e48556c184310a9abb5c253e7ae40",
+          "inspectedAt": "2026-10-30T18:45:28.289Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. The prior neutral high-temperature stage drops rapidly at QUENCH, followed by a distinct lower amber REHEAT/HOLD/COOL cycle; the supported solid furnace piece remains intact. Exact labels are correct and readable120, and the qualitative sequence distinguishes tempering of previously hardened steel from the earlier annealing/generic cycles. No transformation-temperature value, execution recipe or measured hardness/toughness change is claimed. Slate/silver/amber style matches.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "quenching",
+      "sourceWord": "quenching",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "quenching:meaning-1",
+          "pos": "n.",
+          "en": "Rapid cooling of a heated material by transferring heat to a medium such as a liquid or gas."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Quenching cools the heated steel part rapidly in the bath.",
+          "senseId": "quenching:meaning-1"
+        },
+        {
+          "en": "The cooling medium removes heat from the metal.",
+          "senseId": "quenching:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/quenching.webp",
+        "sha256": "dc8c220b5431e55fab19c6f485bc09bc03f58b5896f5825ed8863595f5b64cec"
+      },
+      "visual": {
+        "expectedCue": "Solid hot steel bar partly immersed in liquid bath with continuous liquid contact and qualitative heat leaving bar, supported clamp/tank; no melted metal or recipe.",
+        "decision": "added",
+        "reason": "Actually inspected original1254,512WebP and120PNG. Continuous solid steel bar is partly immersed in liquid, held by a connected clamp/grounded gantry; tank and liquid boundaries coherent. Small local vapor context and arrows outward from immersed bar show heat removal, not melting/casting, liquid feed or a measured rate. At120 solid bar/bath/heat-arrow relationship clear. Generic selected steel liquid-quench example only, no fluid selection, hardening guarantee or operating qualification; slate/silver/amber style fits.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254,512WebP and120PNG. Continuous solid steel bar is partly immersed in liquid, held by a connected clamp/grounded gantry; tank and liquid boundaries coherent. Small local vapor context and arrows outward from immersed bar show heat removal, not melting/casting, liquid feed or a measured rate. At120 solid bar/bath/heat-arrow relationship clear. Generic selected steel liquid-quench example only, no fluid selection, hardening guarantee or operating qualification; slate/silver/amber style fits."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T17:59:14.386Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "dc8c220b5431e55fab19c6f485bc09bc03f58b5896f5825ed8863595f5b64cec",
+          "inspectedAt": "2026-10-30T18:08:07.611Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. One intact solid bar is held by a frame/clamp and partly immersed in a continuous liquid bath; liquid contacts the bar, with bubbles/steam and outward heat arrows illustrating transfer to the medium. No melting or detached unsupported workpiece is shown. The partly cooled submerged portion and medium relationship remain clear120. Accepts a qualitative bath-quenching example, not measured cooling rate, prescribed medium or guaranteed hardening. Slate/silver/amber technical style matches.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "galvanizing",
+      "sourceWord": "galvanizing",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "galvanizing:meaning-1",
+          "pos": "n.",
+          "en": "Applying a protective zinc coating to iron or steel; the selected example uses immersion in molten zinc."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Galvanizing adds a zinc coating to the steel bracket.",
+          "senseId": "galvanizing:meaning-1"
+        },
+        {
+          "en": "A local section distinguishes the outer coating from the steel beneath it.",
+          "senseId": "galvanizing:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/galvanizing.webp",
+        "sha256": "8d26c1763be46d42cc22b7abc62bb5b08872751653903d0fc43696c39c91f898"
+      },
+      "visual": {
+        "expectedCue": "Same coherent zinc-on-steel bath/section geometry with clearly readable ZINC/STEEL inset labels at120.",
+        "decision": "added",
+        "reason": "Actually inspected corrected original1254,512WebP,120PNG. Exact enlarged ZINC/STEEL inset labels now comfortably readable120 with leaders to continuous lighter outer coating and dark substrate; ZINC BATH caption remains correct. Solid bracket/clamp/bath contact and supported gantry coherent; main support continues at image edges, selected part fully visible. Silver coating/metallic bath distinct from blue-water quench or melted workpiece. No measured thickness, exact intermetallic layer structure, adhesion/lifetime or operating qualification. Negative1 preserved; annotation-only correction retained technical slate/silver/amber style.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected corrected original1254,512WebP,120PNG. Exact enlarged ZINC/STEEL inset labels now comfortably readable120 with leaders to continuous lighter outer coating and dark substrate; ZINC BATH caption remains correct. Solid bracket/clamp/bath contact and supported gantry coherent; main support continues at image edges, selected part fully visible. Silver coating/metallic bath distinct from blue-water quench or melted workpiece. No measured thickness, exact intermetallic layer structure, adhesion/lifetime or operating qualification. Negative1 preserved; annotation-only correction retained technical slate/silver/amber style."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T18:23:31.139Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "8d26c1763be46d42cc22b7abc62bb5b08872751653903d0fc43696c39c91f898",
+          "inspectedAt": "2026-10-30T18:45:28.308Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current original1254/512WebP/120PNG. A clamped intact steel bracket is partly immersed in the metal bath; coating/context and enlarged local section show continuous lighter zinc coating above darker steel substrate. Exact ZINC BATH/ZINC/STEEL lettering is correct; final enlarged inset labels and leaders are clear120. This selected hot-dip zinc-on-steel relation is distinct from paint or an anodic oxide layer. Qualitative coating thickness/texture only, with no durability/rating/process-temperature claim; slate/silver/amber technical style matches.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "anodizing",
+      "sourceWord": "anodizing",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "anodizing:meaning-1",
+          "pos": "n.",
+          "en": "An electrochemical surface treatment that grows an oxide layer on a metal component acting as the anode, commonly aluminium."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Anodizing forms an oxide layer on the aluminium part.",
+          "senseId": "anodizing:meaning-1"
+        },
+        {
+          "en": "The component is the anode, separate from the cathode in the bath.",
+          "senseId": "anodizing:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/anodizing.webp",
+        "sha256": "63d090d870682f5828d895ef181b6eab4193747126458c40b6c3c21e605e4925"
+      },
+      "visual": {
+        "expectedCue": "Exactly two traceable source-to-electrode wires connect positive workpiece anode and separate negative cathode; current oxide inset and essential polarity/oxide labels remain legible120.",
+        "decision": "added",
+        "reason": "Fresh actual corrected1254original,512WebP and120PNG inspected. Exactly two continuous uncrossed leads: front+ to left dry clip/workpiece anode, front− to separate right dry clip/cathode; prior rear-loop branches/stubs removed. Both plates partly immersed in one bath, visibly separated from each other and tank bottom, with clips touching above liquid. Controlled magnification points to attached oxide at left plate surface; no deposited metal on cathode. Unrequested tiny duplicate labels removed; exact DC, ANODE +, CATHODE − and OXIDE remain discernible120. Slate/silver/amber technical rendering coherent. Illustrative electrochemical relationship, not physical apparatus qualification, film/pore dimensions, recipes or performance; earlier negative retained.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Fresh actual corrected1254original,512WebP and120PNG inspected. Exactly two continuous uncrossed leads: front+ to left dry clip/workpiece anode, front− to separate right dry clip/cathode; prior rear-loop branches/stubs removed. Both plates partly immersed in one bath, visibly separated from each other and tank bottom, with clips touching above liquid. Controlled magnification points to attached oxide at left plate surface; no deposited metal on cathode. Unrequested tiny duplicate labels removed; exact DC, ANODE +, CATHODE − and OXIDE remain discernible120. Slate/silver/amber technical rendering coherent. Illustrative electrochemical relationship, not physical apparatus qualification, film/pore dimensions, recipes or performance; earlier negative retained."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T18:48:29.924Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "63d090d870682f5828d895ef181b6eab4193747126458c40b6c3c21e605e4925",
+          "inspectedAt": "2026-10-30T18:51:38.688Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed corrected original1254/512WebP/120PNG. Exactly two continuous front leads now run from DC + to the left anode clip and DC − to the right cathode clip; both clips are above the liquid, and distinct plates are partly immersed without a metal-to-metal short. The oxide leader targets the surface layer in the enlarged local inset. Extra rear loops and duplicate tiny aluminium labels are removed. Exact DC/ANODE+/CATHODE−/OXIDE text is correct and readable120. Qualitative selected aluminium anodizing relation only, not electrolyte recipe, calibrated oxide structure/thickness or guaranteed coating performance; slate/silver/amber style matches.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "heat-treatment",
+      "sourceWord": "heat treatment",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "heat-treatment:meaning-1",
+          "pos": "n.",
+          "en": "A planned sequence of heating and cooling used to change a material’s properties rather than its overall shape."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Heat treatment changes the properties of the steel component.",
+          "senseId": "heat-treatment:meaning-1"
+        },
+        {
+          "en": "The record distinguishes heating, holding and cooling stages.",
+          "senseId": "heat-treatment:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/heat-treatment.webp",
+        "sha256": "258fb11c86fea2a10a8e30554b93f9e7419c46fc8dd043abae8d76207f7461a8"
+      },
+      "visual": {
+        "expectedCue": "Supported solid part and generic intentional heat/hold/cool cycle without specific slow-cool or quench-rate claim; exact HEAT/HOLD/COOL labels.",
+        "decision": "added",
+        "reason": "Actually inspected original1254,512WebP,120PNG. Genuine fresh furnace-layout derivative retains supported solid block and tray. New lower curve has distinct comparable heat/hold/cool stages, exact HEAT/HOLD/COOL labels checked/readable120; former SLOW wording and long annealing tail removed. Generic intentional cycle only, no calibrated rate/program, universal alloy result, hidden electrical circuit or guaranteed dimensional stability; slate/silver/amber style fits.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254,512WebP,120PNG. Genuine fresh furnace-layout derivative retains supported solid block and tray. New lower curve has distinct comparable heat/hold/cool stages, exact HEAT/HOLD/COOL labels checked/readable120; former SLOW wording and long annealing tail removed. Generic intentional cycle only, no calibrated rate/program, universal alloy result, hidden electrical circuit or guaranteed dimensional stability; slate/silver/amber style fits."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T18:05:44.102Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "258fb11c86fea2a10a8e30554b93f9e7419c46fc8dd043abae8d76207f7461a8",
+          "inspectedAt": "2026-10-30T18:08:07.632Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. A supported solid furnace workpiece and rising/holding/falling qualitative cycle show heating, temperature holding and cooling without a shape-change/melting operation. Exact HEAT/HOLD/COOL labels are correct and readable120; comparable schematic stage spans avoid importing the annealing-specific long slow tail. No temperature/time values, alloy program or claimed material-property result. Slate/silver/amber style matches.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "buckling",
+      "sourceWord": "buckling",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "buckling:meaning-1",
+          "pos": "n.",
+          "en": "An instability in which a structural member develops a large sideways deflection under load, as in a slender column under compression."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Buckling makes the slender column bow sideways under compression.",
+          "senseId": "buckling:meaning-1"
+        },
+        {
+          "en": "Both ends remain supported while the middle moves away from the original axis.",
+          "senseId": "buckling:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/buckling.webp",
+        "sha256": "44a6d7040f9fe19bbe07ee2ff639e899232aeae3bc8241d9fa6f7ea938cfac17"
+      },
+      "visual": {
+        "expectedCue": "The original supported bowed column and inward axial compression are preserved, while essential COMPRESSION and ORIGINAL AXIS text becomes independently legible at120px.",
+        "decision": "added",
+        "reason": "Fresh actual corrected1254original/512WebP/120PNG inspection. Exact enlarged COMPRESSION and two-line ORIGINAL AXIS are now readable120; non-arrow leader still points to dashed straight reference, not the real bowed column. Continuous slender silver member remains connected to aligned upper/lower pins, both ends supported through loading screw/frame/grounded base. Amber arrows point axially inward with no lateral applied force; pronounced sideways bow and uniform unbroken section distinguish selected instability from crushing/fracture. Slate/silver/amber precise technical style preserved. No critical-load, capacity, yielding or calibrated boundary-condition claim; first typography negative retained.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Fresh actual corrected1254original/512WebP/120PNG inspection. Exact enlarged COMPRESSION and two-line ORIGINAL AXIS are now readable120; non-arrow leader still points to dashed straight reference, not the real bowed column. Continuous slender silver member remains connected to aligned upper/lower pins, both ends supported through loading screw/frame/grounded base. Amber arrows point axially inward with no lateral applied force; pronounced sideways bow and uniform unbroken section distinguish selected instability from crushing/fracture. Slate/silver/amber precise technical style preserved. No critical-load, capacity, yielding or calibrated boundary-condition claim; first typography negative retained."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T18:54:30.845Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "44a6d7040f9fe19bbe07ee2ff639e899232aeae3bc8241d9fa6f7ea938cfac17",
+          "inspectedAt": "2026-10-30T19:01:52.932Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed corrected original1254/512WebP/120PNG. The same continuous slender member bows sideways between attached upper/lower pinned supports; inward axial compression arrows, grounded frame and dashed original straight axis remain coherent. Enlarged exact COMPRESSION and stacked ORIGINAL/AXIS labels are now readable120 and point to the intended relation without obscuring the member. This resolves the prior typography rejection while preserving mechanics. Qualitative instability example only, not measured deflection, critical load, design capacity or evidence of material fracture/yield; slate/silver/amber style matches.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "delamination",
+      "sourceWord": "delamination",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "delamination:meaning-1",
+          "pos": "n.",
+          "en": "Separation along an interface between bonded layers of a laminated material."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Delamination separates two bonded layers inside the composite panel.",
+          "senseId": "delamination:meaning-1"
+        },
+        {
+          "en": "The local gap follows the interface rather than cutting across every layer.",
+          "senseId": "delamination:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/delamination.webp",
+        "sha256": "c7f0dda9690a6bf5d1563c11f0d199495518241afa699d697bfb793ad3197ac3"
+      },
+      "visual": {
+        "expectedCue": "Locally opened inter-ply bond interface in an otherwise coherent supported laminate, continuous plies joined beyond gap; not intact boundary, separate sheets or through-thickness fracture.",
+        "decision": "added",
+        "reason": "Actually inspected original1254,512WebP,120PNG. Supported composite laminate shows one dominant local inter-ply opening, continuous lifted upper group and lower stack, with the gap closing into joined material toward the left/back. Main opening follows interface instead of a through-thickness cut or removed wedge; selected amber edge remains clear120. Fine surrounding layer boundaries/texture are schematic, not an exact ply count, layup angle, micrograph, measured gap/depth or remaining-strength claim. Precise slate/silver/amber technical style fits.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254,512WebP,120PNG. Supported composite laminate shows one dominant local inter-ply opening, continuous lifted upper group and lower stack, with the gap closing into joined material toward the left/back. Main opening follows interface instead of a through-thickness cut or removed wedge; selected amber edge remains clear120. Fine surrounding layer boundaries/texture are schematic, not an exact ply count, layup angle, micrograph, measured gap/depth or remaining-strength claim. Precise slate/silver/amber technical style fits."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T19:15:52.160Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c7f0dda9690a6bf5d1563c11f0d199495518241afa699d697bfb793ad3197ac3",
+          "inspectedAt": "2026-10-30T19:20:26.031Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. The laminate rests on two supports; one dominant amber-edged opening follows an inter-ply interface, with the upper ply group lifting while the lower group remains continuous and the gap closes into bonded material toward the left. It is an interface separation, not a cut through the whole panel or merely an intact ply boundary. Main opening/continuity cue survives120; fine weave, ply count, gap thickness and remaining strength are not calibrated or claimed. Slate/silver/amber precise technical rendering matches; no fake values or extraneous props.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "wear",
+      "sourceWord": "wear",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "wear:meaning-1",
+          "pos": "n.",
+          "en": "Progressive surface damage or material loss caused by mechanical interaction during relative motion; the selected example is sliding contact."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Wear removes material from the track beneath the sliding block.",
+          "senseId": "wear:meaning-1"
+        },
+        {
+          "en": "Loose debris lies behind the contact area.",
+          "senseId": "wear:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/wear.webp",
+        "sha256": "49c067efd74e7e15d7c2f6bda6b8b3fb000cc8ce70acc3a04cbe28dd18dafad9"
+      },
+      "visual": {
+        "expectedCue": "Relative sliding contact removes surface material and leaves a worn track with debris; plain supported slider touches plate and is not a cutting or polishing tool.",
+        "decision": "added",
+        "reason": "Actually viewed full1254original and actual512WebP/120PNG. Plain silver slider visibly contacts supported plate, with shallow scored material-loss track behind it and distinct loose metallic debris. The arrow above slider points along relative motion; non-arrow leader targets worn surface. Exact SLIDING and MATERIAL LOSS are correct and discernible120. No blade/rotary tool, hovering contact, rust or fluid mechanism; clear selected sliding-wear example. Slate/silver/amber precise technical shading preserved. Does not calibrate material loss, force, exact cause of real damage or service life.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed full1254original and actual512WebP/120PNG. Plain silver slider visibly contacts supported plate, with shallow scored material-loss track behind it and distinct loose metallic debris. The arrow above slider points along relative motion; non-arrow leader targets worn surface. Exact SLIDING and MATERIAL LOSS are correct and discernible120. No blade/rotary tool, hovering contact, rust or fluid mechanism; clear selected sliding-wear example. Slate/silver/amber precise technical shading preserved. Does not calibrate material loss, force, exact cause of real damage or service life."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T17:50:39.964Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "49c067efd74e7e15d7c2f6bda6b8b3fb000cc8ce70acc3a04cbe28dd18dafad9",
+          "inspectedAt": "2026-10-30T18:02:42.008Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. A supported sliding block has direct basal contact with a lower metal track, with the worn groove trailing its rightward movement and loose debris beside/behind the contact region. MATERIAL LOSS leader ends within the groove; exact MATERIAL LOSS and SLIDING text verified in the original/512, with action/groove readable120. A qualitative sliding-wear example, not measured depth/rate, universal wear mechanism or proof of an actual failure cause. Slate/silver/amber technical style matches.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "erosion",
+      "sourceWord": "erosion",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "erosion:meaning-1",
+          "pos": "n.",
+          "en": "Loss of surface material through repeated impact by a moving fluid or particles carried in a flow."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Erosion removes material where the particle stream strikes the plate.",
+          "senseId": "erosion:meaning-1"
+        },
+        {
+          "en": "The damaged area faces the incoming stream.",
+          "senseId": "erosion:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/erosion.webp",
+        "sha256": "475760e0d966618ab02fb822fe5edefcb0757a2f229b4a2cb446a2fa172adeb2"
+      },
+      "visual": {
+        "expectedCue": "Particle-laden flowing stream strikes a supported metal surface and progressively removes material at impact, distinct from solid sliding wear or chemical corrosion.",
+        "decision": "added",
+        "reason": "Actually viewed full1254 and converted512WebP/120PNG. Particle-bearing pale-blue stream crosses visible gap from supported hollow nozzle and strikes a localized pitted material-loss patch on a separately supported silver plate. Amber direction arrow points along incoming stream toward target; non-arrow leader locates impact damage. Detached silver fragments differ from ochre incident particles. Exact PARTICLE IMPACT and MATERIAL LOSS labels correct and discernible120. No solid sliding contact, rust, fluid corrosion or cut-through jet; slate/silver/amber precise technical style preserved. Qualitative mechanical loss only, not measured velocity, wear rate, time or real damage diagnosis.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed full1254 and converted512WebP/120PNG. Particle-bearing pale-blue stream crosses visible gap from supported hollow nozzle and strikes a localized pitted material-loss patch on a separately supported silver plate. Amber direction arrow points along incoming stream toward target; non-arrow leader locates impact damage. Detached silver fragments differ from ochre incident particles. Exact PARTICLE IMPACT and MATERIAL LOSS labels correct and discernible120. No solid sliding contact, rust, fluid corrosion or cut-through jet; slate/silver/amber precise technical style preserved. Qualitative mechanical loss only, not measured velocity, wear rate, time or real damage diagnosis."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T18:04:01.261Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "475760e0d966618ab02fb822fe5edefcb0757a2f229b4a2cb446a2fa172adeb2",
+          "inspectedAt": "2026-10-30T18:08:07.648Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. A supported nozzle emits a particle-carrying stream that reaches the facing metal plate, where a visible local crater/debris and MATERIAL LOSS leader establish removed material. No solid sliding tool touches the surface and no rust is substituted for impact. Exact PARTICLE IMPACT and MATERIAL LOSS text is correct; the stream/contact/loss relationship survives120. Qualitative impact-erosion example only, not velocity, erosion rate or real-failure diagnosis; slate/silver/amber style matches.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "fatigue-failure",
+      "sourceWord": "fatigue failure",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "fatigue-failure:meaning-1",
+          "pos": "n.",
+          "en": "Failure caused by damage accumulating under repeated loading, often through initiation and growth of a crack."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Fatigue failure develops as the crack grows under repeated loading.",
+          "senseId": "fatigue-failure:meaning-1"
+        },
+        {
+          "en": "Only a small intact section remains before the final fracture.",
+          "senseId": "fatigue-failure:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/fatigue-failure.webp",
+        "sha256": "49f58c65bd3d3f6d82550afb18736d177368c27a7600d3471a995feea7f52e17"
+      },
+      "visual": {
+        "expectedCue": "Middle-stage crack ends above a clearly intact continuous lower silver ligament, first-stage crack is shorter, and only final stage fully fractures under repeated-load history.",
+        "decision": "added",
+        "reason": "Actually inspected corrected1254original,512WebP and120PNG. Initial edge crack is shorter; middle edge crack now stops visibly above the lower gauge boundary with a continuous silver bottom ligament joining both sides. Only final row fully separates, with complementary halves still held by end grips and no post-fracture load arrows. REPEATED LOAD/cycle context on first2rows distinguishes accumulated cyclic history; uniform unnecked gauge and exact SMALL CRACK/CRACK GROWTH/FRACTURE labels remain discernible120. Earlier full-gap middle-row negative preserved. Slate/silver/amber technical style coherent; no calibrated crack fractions, load values, life/cycle count or cause of real failure inferred.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected corrected1254original,512WebP and120PNG. Initial edge crack is shorter; middle edge crack now stops visibly above the lower gauge boundary with a continuous silver bottom ligament joining both sides. Only final row fully separates, with complementary halves still held by end grips and no post-fracture load arrows. REPEATED LOAD/cycle context on first2rows distinguishes accumulated cyclic history; uniform unnecked gauge and exact SMALL CRACK/CRACK GROWTH/FRACTURE labels remain discernible120. Earlier full-gap middle-row negative preserved. Slate/silver/amber technical style coherent; no calibrated crack fractions, load values, life/cycle count or cause of real failure inferred."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T18:08:07.411Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "49f58c65bd3d3f6d82550afb18736d177368c27a7600d3471a995feea7f52e17",
+          "inspectedAt": "2026-10-30T18:41:15.010Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed corrected original1254/512WebP/120PNG before refresh. First small crack is shallow, middle CRACK GROWTH crack now stops above the bottom edge with a visibly continuous silver material ligament, and only the final FRACTURE row fully separates. Repeated-load loop/axial arrows and supported coupon geometry remain coherent; exact labels correct and readable120. This corrects the previous full-depth middle crack rather than inheriting its approval. Qualitative progression only, not cycle count, life prediction, calibrated crack size or diagnosis from a final fracture alone; slate/silver/amber style matches.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
     }
   ]
 }
