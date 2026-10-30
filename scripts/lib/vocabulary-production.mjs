@@ -783,7 +783,13 @@ export async function importBatch(options) {
               });
             r.candidate = candidate;
             r.candidateOrigin = "legacy";
-            r.inspections = { author: null, second: null, lexical: null };
+            r.inspections = {
+              author: null,
+              second: null,
+              lexical: validReceipt(r, "lexical")
+                ? r.inspections.lexical
+                : null,
+            };
             r.generation.legacyUnreconciled = true;
             event(r, "legacy-candidate-imported", {
               finding: "Historical metadata is not an acceptance receipt.",
@@ -1145,7 +1151,11 @@ export async function intakeCandidate(options) {
         });
       r.candidate = c;
       r.candidateOrigin = "pipeline";
-      r.inspections = { author: null, second: null, lexical: null };
+      r.inspections = {
+        author: null,
+        second: null,
+        lexical: validReceipt(r, "lexical") ? r.inspections.lexical : null,
+      };
       event(r, "candidate-intaken", {
         candidateHash: candidateHash(r),
         token: options.token || null,

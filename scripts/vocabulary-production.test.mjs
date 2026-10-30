@@ -603,6 +603,12 @@ test("conflicting legacy pixels are preserved separately; actual queued replacem
   assert.notEqual(bindingFor(after, "author"), bindingFor(before, "author"));
   assert.equal(after.inspections.author, null);
   assert.equal(after.inspections.second, null);
+  assert.deepEqual(
+    after.inspections.lexical,
+    before.inspections.lexical,
+    "An image-only replacement reuses the exact genuine unchanged-text receipt",
+  );
+  assert.equal(after.inspections.lexical.binding, bindingFor(after, "lexical"));
   assert.notEqual(stateOf(after), "ready");
   assert.equal(
     sha(await fs.readFile(before.candidate.source.path)),
