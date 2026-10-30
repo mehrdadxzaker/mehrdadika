@@ -13,9 +13,9 @@
     "modifications": "Latin-American Spanish preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-41",
-    "manifest": "content/releases/2026-10-preview-41-e48cc993ab97/manifest.json",
-    "sha256": "e48cc993ab9701a39fed1dc0d3de2e84e204abe74b4078bd6231b40cb111007f"
+    "id": "2026-10-preview-42",
+    "manifest": "content/releases/2026-10-preview-42-46d5a532527c/manifest.json",
+    "sha256": "46d5a532527cf8f83ce2fa7e725d6ae3bfb11a288d3f3f21ede1e8844eb09de5"
   },
   "categories": {
     "everyday-life": {
@@ -36757,6 +36757,788 @@
         }
       ],
       "tip": "Solenoid valve es la válvula completa de control de fluido con accionamiento electromagnético; solenoid puede nombrar solo la bobina y la parte actuadora. El ejemplo seleccionado es de acción directa, donde el núcleo transmite fuerza al sello; un tipo pilotado también utiliza la presión del fluido para mover el elemento principal. Normally closed indica que el estado normal sin energía de ese tipo es cerrado, no que todas las válvulas solenoide estén siempre cerradas. Las conexiones de fluido son distintas del conector eléctrico; un corte no confirma la energización ni el sellado real."
+    },
+    "nutrient": {
+      "sourceWord": "nutrient",
+      "senses": {
+        "nutrient:meaning-1": {
+          "gloss": "nutriente",
+          "definition": "Una sustancia de los alimentos que el cuerpo utiliza para obtener energía, formar o reparar tejidos, o realizar otras funciones normales."
+        }
+      },
+      "examples": [
+        {
+          "en": "The dietitian explained how each nutrient helps meet the body’s needs.",
+          "translation": "La nutricionista explicó cómo cada nutriente ayuda a cubrir las necesidades del cuerpo."
+        },
+        {
+          "en": "Water and vitamins are nutrients even though they do not supply food energy.",
+          "translation": "El agua y las vitaminas son nutrientes, aunque no aportan energía alimentaria."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an essential nutrient",
+          "translation": "un nutriente esencial"
+        },
+        {
+          "en": "nutrient intake",
+          "translation": "la ingesta de nutrientes"
+        },
+        {
+          "en": "nutrient absorption",
+          "translation": "la absorción de nutrientes"
+        }
+      ],
+      "tip": "Nutrient designa una sustancia nutritiva, no un alimento completo. Nutrients es el plural y nutritious es el adjetivo inglés que significa nutritivo. No todos los nutrientes aportan energía: las vitaminas y el agua también pertenecen a este grupo. Una sustancia o un grupo de alimentos por sí solo no representa todas las necesidades nutricionales de cada persona."
+    },
+    "protein": {
+      "sourceWord": "protein",
+      "senses": {
+        "protein:meaning-1": {
+          "gloss": "proteína",
+          "definition": "Un nutriente formado por cadenas de aminoácidos que el cuerpo utiliza para mantener tejidos y realizar muchas funciones celulares."
+        }
+      },
+      "examples": [
+        {
+          "en": "Beans and eggs both contain protein.",
+          "translation": "Los frijoles y los huevos contienen proteína."
+        },
+        {
+          "en": "During digestion, these chains are broken down into amino acids.",
+          "translation": "Durante la digestión, estas cadenas se descomponen en aminoácidos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "dietary protein",
+          "translation": "la proteína alimentaria"
+        },
+        {
+          "en": "a protein molecule",
+          "translation": "una molécula de proteína"
+        },
+        {
+          "en": "protein synthesis",
+          "translation": "la síntesis de proteínas"
+        }
+      ],
+      "tip": "Protein puede indicar la proteína como nutriente o una molécula formada por cadenas de aminoácidos. La proteína alimentaria normalmente se descompone antes de la absorción, y el cuerpo utiliza sus componentes para producir sus propias proteínas. No toda proteína es una enzima; algunas cumplen funciones estructurales o de transporte. Una cadena plegada es un modelo conceptual, no una forma idéntica para todas las proteínas."
+    },
+    "carbohydrate": {
+      "sourceWord": "carbohydrate",
+      "senses": {
+        "carbohydrate:meaning-1": {
+          "gloss": "carbohidrato",
+          "definition": "Un integrante de un grupo de nutrientes que incluye azúcares, almidones y muchas fibras alimentarias."
+        }
+      },
+      "examples": [
+        {
+          "en": "Starch is a carbohydrate found in foods such as rice and potatoes.",
+          "translation": "El almidón es un carbohidrato presente en alimentos como el arroz y la papa."
+        },
+        {
+          "en": "Some members of this group have a single sugar unit, while others contain long chains.",
+          "translation": "Algunos integrantes de este grupo tienen una sola unidad de azúcar, mientras que otros contienen cadenas largas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "complex carbohydrate",
+          "translation": "un carbohidrato complejo"
+        },
+        {
+          "en": "carbohydrate digestion",
+          "translation": "la digestión de carbohidratos"
+        },
+        {
+          "en": "a source of carbohydrate",
+          "translation": "una fuente de carbohidratos"
+        }
+      ],
+      "tip": "Carbohydrate nombra un grupo de nutrientes; carbohydrates es el plural y carbs es una forma informal común. La palabra no se limita al pan o al azúcar añadido. Los azúcares y muchos almidones se descomponen para aportar energía, pero muchas fibras alimentarias resisten las enzimas digestivas humanas. Una unidad de azúcar y una cadena representan tipos distintos, no una estructura única de todo el grupo."
+    },
+    "fat": {
+      "sourceWord": "fat",
+      "senses": {
+        "fat:meaning-1": {
+          "gloss": "grasa alimentaria",
+          "definition": "Una sustancia lipídica de la alimentación, compuesta principalmente por triglicéridos, que aporta energía y cumple otras funciones en el cuerpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The food label lists the amount of fat in a serving.",
+          "translation": "La etiqueta del alimento indica la cantidad de grasa de una porción."
+        },
+        {
+          "en": "Oils and solid fats can both supply this nutrient.",
+          "translation": "Tanto los aceites como las grasas sólidas pueden aportar este nutriente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "dietary fat",
+          "translation": "la grasa alimentaria"
+        },
+        {
+          "en": "saturated fat",
+          "translation": "la grasa saturada"
+        },
+        {
+          "en": "fat digestion",
+          "translation": "la digestión de grasas"
+        }
+      ],
+      "tip": "Aquí fat es un sustantivo que significa grasa alimentaria, no el adjetivo relacionado con el tamaño corporal. Lipid es un grupo químico más amplio, y no todos los lípidos son triglicéridos. En un triglicérido, tres cadenas de ácidos grasos se unen al glicerol; este modelo representativo no determina una longitud o un tipo idéntico de todas las cadenas. Fat no se limita necesariamente a la grasa sólida."
+    },
+    "fibre": {
+      "sourceWord": "fibre",
+      "senses": {
+        "fibre:meaning-1": {
+          "gloss": "fibra alimentaria",
+          "definition": "Material de los alimentos, en gran parte de origen vegetal, que resiste la digestión por las enzimas humanas del intestino delgado."
+        }
+      },
+      "examples": [
+        {
+          "en": "Whole grains and beans provide dietary fibre.",
+          "translation": "Los cereales integrales y los frijoles aportan fibra alimentaria."
+        },
+        {
+          "en": "Some of this material is fermented by microbes in the large intestine.",
+          "translation": "Parte de este material es fermentada por microorganismos en el intestino grueso."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "dietary fibre",
+          "translation": "la fibra alimentaria"
+        },
+        {
+          "en": "soluble fibre",
+          "translation": "la fibra soluble"
+        },
+        {
+          "en": "insoluble fibre",
+          "translation": "la fibra insoluble"
+        }
+      ],
+      "tip": "Fibre es la grafía británica común; fiber es la estadounidense. Aquí significa fibra alimentaria, no fibra textil o nerviosa. Resistir las enzimas del intestino delgado no significa que toda fibra permanezca sin cambios en el intestino grueso: algunos tipos son fermentados por microorganismos. Soluble e insoluble indican soluble e insoluble, y los distintos tipos no se comportan todos igual."
+    },
+    "vitamin": {
+      "sourceWord": "vitamin",
+      "senses": {
+        "vitamin:meaning-1": {
+          "gloss": "vitamina",
+          "definition": "Un micronutriente orgánico necesario en pequeñas cantidades para determinadas funciones normales del cuerpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "Fruit and vegetables can provide more than one vitamin.",
+          "translation": "Las frutas y las verduras pueden aportar más de una vitamina."
+        },
+        {
+          "en": "Vitamin D supports calcium absorption, while vitamin C helps the body make collagen.",
+          "translation": "La vitamina D favorece la absorción de calcio, mientras que la vitamina C ayuda al cuerpo a producir colágeno."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a water-soluble vitamin",
+          "translation": "una vitamina soluble en agua"
+        },
+        {
+          "en": "a fat-soluble vitamin",
+          "translation": "una vitamina soluble en grasa"
+        },
+        {
+          "en": "vitamin deficiency",
+          "translation": "la deficiencia de una vitamina"
+        }
+      ],
+      "tip": "Vitamin es un tipo de micronutriente orgánico; mineral designa un nutriente mineral y no es la misma categoría. Las vitaminas no aportan energía alimentaria directamente, y cada una tiene funciones específicas. Organic tiene aquí sentido químico, no el de una etiqueta de producción orgánica. El nombre o la imagen de una vitamina no determina la necesidad individual, una deficiencia ni la necesidad de un suplemento."
+    },
+    "enzyme": {
+      "sourceWord": "enzyme",
+      "senses": {
+        "enzyme:meaning-1": {
+          "gloss": "enzima",
+          "definition": "Un catalizador biológico que acelera una reacción química sin consumirse como reactivo en esa reacción."
+        }
+      },
+      "examples": [
+        {
+          "en": "A digestive enzyme helps break starch into smaller sugars.",
+          "translation": "Una enzima digestiva ayuda a descomponer el almidón en azúcares más pequeños."
+        },
+        {
+          "en": "The catalyst can take part in another reaction after the products leave.",
+          "translation": "El catalizador puede participar en otra reacción después de que se separan los productos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "enzyme activity",
+          "translation": "la actividad enzimática"
+        },
+        {
+          "en": "a digestive enzyme",
+          "translation": "una enzima digestiva"
+        },
+        {
+          "en": "enzyme inhibition",
+          "translation": "la inhibición enzimática"
+        }
+      ],
+      "tip": "Enzyme es un catalizador biológico. La mayoría de las enzimas son proteínas, pero algunas moléculas de ARN también tienen actividad catalítica. La enzima es distinta del substrate, el sustrato sobre el que actúa, y del product, el producto. No consumirse en la reacción no significa ser inmutable o estar siempre activa. Romper un enlace es solo un ejemplo; no toda enzima realiza descomposición."
+    },
+    "hormone": {
+      "sourceWord": "hormone",
+      "senses": {
+        "hormone:meaning-1": {
+          "gloss": "hormona",
+          "definition": "Un mensajero químico liberado por células o glándulas que circula por la sangre e influye en células con receptores adecuados."
+        }
+      },
+      "examples": [
+        {
+          "en": "An endocrine gland releases a hormone into the bloodstream.",
+          "translation": "Una glándula endocrina libera una hormona en el torrente sanguíneo."
+        },
+        {
+          "en": "Only cells with a suitable receptor respond to that chemical message.",
+          "translation": "Solo las células con un receptor adecuado responden a ese mensaje químico."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "hormone secretion",
+          "translation": "la secreción hormonal"
+        },
+        {
+          "en": "a hormone receptor",
+          "translation": "un receptor hormonal"
+        },
+        {
+          "en": "hormone levels",
+          "translation": "los niveles hormonales"
+        }
+      ],
+      "tip": "Aquí hormone es un mensajero endocrino que llega a la célula diana por la sangre; hormonal es el adjetivo correspondiente. Las hormonas no tienen todas la misma estructura química ni el mismo receptor: este puede estar en la membrana celular o dentro de la célula. La secreción endocrina hacia la sangre difiere de la secreción exocrina por un conducto. Un modelo de mensaje y receptor no representa una vía o respuesta idéntica de todas las hormonas."
+    },
+    "insulin": {
+      "sourceWord": "insulin",
+      "senses": {
+        "insulin:meaning-1": {
+          "gloss": "insulina",
+          "definition": "Una hormona liberada por las células beta del páncreas que ayuda a regular el uso y el almacenamiento de glucosa, incluida su captación por células musculares y adiposas que responden a la hormona."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pancreas releases insulin into the blood after a meal.",
+          "translation": "El páncreas libera insulina en la sangre después de una comida."
+        },
+        {
+          "en": "Skeletal muscle cells can respond by taking up more glucose.",
+          "translation": "Las células del músculo esquelético pueden responder captando más glucosa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "insulin secretion",
+          "translation": "la secreción de insulina"
+        },
+        {
+          "en": "insulin sensitivity",
+          "translation": "la sensibilidad a la insulina"
+        },
+        {
+          "en": "insulin resistance",
+          "translation": "la resistencia a la insulina"
+        }
+      ],
+      "tip": "En esta entrada insulin es la hormona natural, no una preparación inyectable ni una instrucción de uso. La entrada de glucosa no depende de la insulina de la misma manera en todas las células. En el ejemplo muscular, la señal hormonal puede aumentar el transporte de glucosa; la propia insulina no es un canal por el que pasa el azúcar. Insulin resistance significa una respuesta reducida a la hormona, no necesariamente su ausencia."
+    },
+    "glucose": {
+      "sourceWord": "glucose",
+      "senses": {
+        "glucose:meaning-1": {
+          "gloss": "glucosa",
+          "definition": "Un azúcar simple que circula por la sangre y que muchas células utilizan como combustible."
+        }
+      },
+      "examples": [
+        {
+          "en": "Many cells use glucose as a source of energy.",
+          "translation": "Muchas células utilizan glucosa como fuente de energía."
+        },
+        {
+          "en": "The laboratory measured the concentration of this sugar in the blood sample.",
+          "translation": "El laboratorio midió la concentración de este azúcar en la muestra de sangre."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "blood glucose",
+          "translation": "la glucosa sanguínea"
+        },
+        {
+          "en": "glucose uptake",
+          "translation": "la captación de glucosa"
+        },
+        {
+          "en": "glucose metabolism",
+          "translation": "el metabolismo de la glucosa"
+        }
+      ],
+      "tip": "Glucose es un azúcar simple, o monosaccharide, no el nombre de todos los azúcares. Blood glucose es la glucosa sanguínea y glucose uptake es su captación por la célula. Glycogen es un polímero de almacenamiento formado por unidades de glucosa, distinto de una molécula aislada; insulin es una hormona reguladora, no el propio azúcar. El nombre de la sustancia no determina su nivel en la sangre, un diagnóstico ni una necesidad de tratamiento."
+    },
+    "glycogen": {
+      "sourceWord": "glycogen",
+      "senses": {
+        "glycogen:meaning-1": {
+          "gloss": "glucógeno",
+          "definition": "Un polímero de glucosa muy ramificado utilizado como reserva de energía, especialmente en las células del hígado y del músculo esquelético."
+        }
+      },
+      "examples": [
+        {
+          "en": "The liver stores some glucose as glycogen.",
+          "translation": "El hígado almacena parte de la glucosa en forma de glucógeno."
+        },
+        {
+          "en": "During activity, muscle cells can break down their own stores to help supply energy.",
+          "translation": "Durante la actividad, las células musculares pueden descomponer sus propias reservas para ayudar a obtener energía."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "glycogen stores",
+          "translation": "las reservas de glucógeno"
+        },
+        {
+          "en": "glycogen synthesis",
+          "translation": "la síntesis de glucógeno"
+        },
+        {
+          "en": "muscle glycogen",
+          "translation": "el glucógeno muscular"
+        }
+      ],
+      "tip": "Glycogen es un polímero de almacenamiento de glucosa con muchas ramificaciones; glucose es un azúcar simple y starch se refiere principalmente a la reserva de carbohidratos de las plantas. Los tres nombres no son sinónimos. Las ramas de un modelo muestran la relación entre unidades repetidas, no su cantidad real ni un mapa exacto de enlaces. Las reservas del hígado y del músculo tampoco tienen funciones totalmente idénticas."
+    },
+    "electrolyte": {
+      "sourceWord": "electrolyte",
+      "senses": {
+        "electrolyte:meaning-1": {
+          "gloss": "electrolito",
+          "definition": "Una sustancia que forma iones en el agua; estas partículas con carga participan en funciones como el equilibrio de líquidos y la actividad nerviosa o muscular del cuerpo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The clinician checked the patient’s electrolyte balance.",
+          "translation": "La profesional de salud revisó el equilibrio de electrolitos de la paciente."
+        },
+        {
+          "en": "Sodium ions carry a positive charge, while chloride ions carry a negative charge.",
+          "translation": "Los iones de sodio tienen carga positiva, mientras que los iones de cloruro tienen carga negativa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "electrolyte balance",
+          "translation": "el equilibrio de electrolitos"
+        },
+        {
+          "en": "an electrolyte solution",
+          "translation": "una solución de electrolitos"
+        },
+        {
+          "en": "electrolyte loss",
+          "translation": "la pérdida de electrolitos"
+        }
+      ],
+      "tip": "Electrolyte se refiere a una sustancia que produce iones en solución; en el uso médico, electrolytes suele indicar iones como sodio y cloruro en los líquidos corporales. No todos los iones tienen la misma carga, y una solución puede contener iones positivos y negativos. Disolver una sustancia, como la glucosa, no la convierte necesariamente en un electrolito. La representación de unos pocos iones es solo conceptual y no muestra una concentración ni un resultado de laboratorio."
+    },
+    "guard": {
+      "sourceWord": "guard",
+      "senses": {
+        "guard:meaning-1": {
+          "gloss": "resguardo de máquina",
+          "definition": "Barrera física colocada alrededor de una parte de una máquina para limitar el acceso a una zona peligrosa o contener material proyectado desde ella."
+        }
+      },
+      "examples": [
+        {
+          "en": "The guard covers the belt and pulleys.",
+          "translation": "El resguardo cubre la correa y las poleas."
+        },
+        {
+          "en": "Its mesh panel is fastened to the machine frame.",
+          "translation": "Su panel de malla está fijado a la estructura de la máquina."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a machine guard",
+          "translation": "un resguardo de máquina"
+        },
+        {
+          "en": "a fixed guard",
+          "translation": "un resguardo fijo"
+        },
+        {
+          "en": "an interlocked guard",
+          "translation": "un resguardo con enclavamiento"
+        }
+      ],
+      "tip": "Guard designa aquí el resguardo físico de una máquina, no a un vigilante ni a una señal de advertencia. Puede ser fijo o móvil; interlock establece una dependencia entre el funcionamiento y la condición del resguardo, no es el panel en sí. La apariencia del modelo no demuestra una cobertura suficiente, distancias ni desempeño protector."
+    },
+    "interlock": {
+      "sourceWord": "interlock",
+      "senses": {
+        "interlock:meaning-1": {
+          "gloss": "enclavamiento de resguardo",
+          "definition": "Dispositivo o conjunto que hace depender el funcionamiento de una máquina de una condición necesaria del resguardo, como una puerta de acceso cerrada."
+        }
+      },
+      "examples": [
+        {
+          "en": "The interlock monitors whether the access door is closed.",
+          "translation": "El enclavamiento supervisa si la puerta de acceso está cerrada."
+        },
+        {
+          "en": "The switch body is mounted on the frame, and its actuator is attached to the door.",
+          "translation": "El cuerpo del interruptor está montado en el marco y su actuador está unido a la puerta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a guard interlock",
+          "translation": "un enclavamiento de resguardo"
+        },
+        {
+          "en": "an interlock switch",
+          "translation": "un interruptor de enclavamiento"
+        },
+        {
+          "en": "an interlock condition",
+          "translation": "una condición de enclavamiento"
+        }
+      ],
+      "tip": "Interlock selecciona el enclavamiento asociado al resguardo, no una cerradura común ni un emergency stop. Un interruptor con actuador separado es solo un ejemplo. Una puerta cerrada no constituye necesariamente una orden de arranque. La imagen estática no demuestra el circuito completo, la detección de fallas ni una función real de parada."
+    },
+    "light-curtain": {
+      "sourceWord": "light curtain",
+      "senses": {
+        "light-curtain:meaning-1": {
+          "gloss": "cortina de luz",
+          "definition": "Dispositivo de detección óptica con varios haces de luz entre un emisor y un receptor que detecta la entrada de un objeto en el campo supervisado."
+        }
+      },
+      "examples": [
+        {
+          "en": "The light curtain detects an object crossing the monitored opening.",
+          "translation": "La cortina de luz detecta un objeto que cruza la abertura supervisada."
+        },
+        {
+          "en": "Its emitter and receiver stand on opposite sides of the opening.",
+          "translation": "Su emisor y su receptor están en lados opuestos de la abertura."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a safety light curtain",
+          "translation": "una cortina de luz de seguridad"
+        },
+        {
+          "en": "a light curtain emitter",
+          "translation": "un emisor de cortina de luz"
+        },
+        {
+          "en": "a light curtain receiver",
+          "translation": "un receptor de cortina de luz"
+        }
+      ],
+      "tip": "Light curtain no es una cortina de tela ni una barrera física; detecta la interrupción de trayectorias de luz. Está relacionada con el photoelectric sensor de una sola trayectoria, pero utiliza varios haces. Los haces infrarrojos de muchos modelos son invisibles a simple vista; las líneas luminosas del dibujo solo explican sus recorridos. La apariencia no demuestra resolución, distancia de instalación ni la parada segura de una máquina."
+    },
+    "enclosure": {
+      "sourceWord": "enclosure",
+      "senses": {
+        "enclosure:meaning-1": {
+          "gloss": "envolvente de equipo",
+          "definition": "Caja o carcasa que rodea un equipo para protegerlo y limitar el contacto involuntario con sus partes internas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The enclosure houses the electrical control components.",
+          "translation": "La envolvente aloja los componentes de control eléctrico."
+        },
+        {
+          "en": "A hinged door provides access to the mounting plate inside.",
+          "translation": "Una puerta con bisagras permite acceder a la placa de montaje interior."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an electrical enclosure",
+          "translation": "una envolvente eléctrica"
+        },
+        {
+          "en": "an enclosure door",
+          "translation": "una puerta de envolvente"
+        },
+        {
+          "en": "a metal enclosure",
+          "translation": "una envolvente metálica"
+        }
+      ],
+      "tip": "Enclosure designa aquí la propia envolvente protectora; distribution board es el conjunto de distribución eléctrica con sus componentes específicos. La envolvente puede estar vacía antes del montaje y no todas son metálicas. Enclosure es más general que cabinet, un gabinete de forma similar a un armario. La apariencia de la caja o de una junta de la puerta no demuestra un grado de protección contra agua y polvo ni seguridad eléctrica."
+    },
+    "welding-helmet": {
+      "sourceWord": "welding helmet",
+      "senses": {
+        "welding-helmet:meaning-1": {
+          "gloss": "careta de soldar",
+          "definition": "Protección que se lleva en la cabeza, con un filtro de visión, diseñada para proteger los ojos y el rostro durante la soldadura."
+        }
+      },
+      "examples": [
+        {
+          "en": "The welding helmet has a dark viewing filter and an adjustable headband.",
+          "translation": "La careta de soldar tiene un filtro de visión oscuro y una banda de cabeza ajustable."
+        },
+        {
+          "en": "The welder checked the shell and filter before the next job.",
+          "translation": "La soldadora revisó la carcasa y el filtro antes del siguiente trabajo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a welding helmet filter",
+          "translation": "un filtro de careta de soldar"
+        },
+        {
+          "en": "a welding helmet shell",
+          "translation": "una carcasa de careta de soldar"
+        },
+        {
+          "en": "an auto-darkening welding helmet",
+          "translation": "una careta de soldar de oscurecimiento automático"
+        }
+      ],
+      "tip": "Welding helmet designa la protección de cabeza y rostro con un filtro de visión para soldadura; no equivale a un face shield transparente común ni a un respirador. También se usa welder's helmet. El filtro puede tener un tono fijo u oscurecimiento automático; una imagen estática no muestra el cambio de tono. La forma no determina el grado del filtro, su adecuación a un trabajo ni conformidad protectora."
+    },
+    "filler-rod": {
+      "sourceWord": "filler rod",
+      "senses": {
+        "filler-rod:meaning-1": {
+          "gloss": "varilla de aporte",
+          "definition": "Varilla de metal de aporte que se añade a una unión durante un proceso como la soldadura o la soldadura fuerte."
+        }
+      },
+      "examples": [
+        {
+          "en": "The filler rod supplies extra metal to the joint.",
+          "translation": "La varilla de aporte suministra metal adicional a la unión."
+        },
+        {
+          "en": "In this TIG process, it is separate from the tungsten electrode.",
+          "translation": "En este proceso TIG, está separada del electrodo de tungsteno."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a TIG filler rod",
+          "translation": "una varilla de aporte para TIG"
+        },
+        {
+          "en": "an aluminium filler rod",
+          "translation": "una varilla de aporte de aluminio"
+        },
+        {
+          "en": "filler rod diameter",
+          "translation": "diámetro de la varilla de aporte"
+        }
+      ],
+      "tip": "Filler rod es la forma de varilla del metal de aporte; filler wire se alimenta como alambre, a menudo desde una bobina. La varilla TIG suele estar separada del electrodo de tungsteno no consumible; una varilla de aporte no es necesariamente un electrodo que conduce la corriente. Algunos procesos no añaden metal de aporte. La entrada no selecciona material, diámetro ni forma de alimentación para una unión."
+    },
+    "weld-bead": {
+      "sourceWord": "weld bead",
+      "senses": {
+        "weld-bead:meaning-1": {
+          "gloss": "cordón de soldadura",
+          "definition": "Franja de metal de soldadura solidificado que queda a lo largo de la trayectoria de soldadura."
+        }
+      },
+      "examples": [
+        {
+          "en": "The weld bead runs along the joint between the two plates.",
+          "translation": "El cordón de soldadura recorre la unión entre las dos placas."
+        },
+        {
+          "en": "The inspector recorded its width and surface shape.",
+          "translation": "La inspectora registró su ancho y la forma de su superficie."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a continuous weld bead",
+          "translation": "un cordón de soldadura continuo"
+        },
+        {
+          "en": "weld bead width",
+          "translation": "ancho del cordón de soldadura"
+        },
+        {
+          "en": "a weld bead profile",
+          "translation": "un perfil de cordón de soldadura"
+        }
+      ],
+      "tip": "Weld bead selecciona el cordón de metal de soldadura solidificado; weld pool es la región fundida durante la soldadura. Bead por sí solo también puede significar una cuenta decorativa, pero no en este término. El cordón puede ser liso o tener ondulaciones superficiales; no todos presentan un aspecto de escamas. La regularidad visual no demuestra por sí sola penetración, ausencia de defectos ni resistencia de la unión."
+    },
+    "weld-pool": {
+      "sourceWord": "weld pool",
+      "senses": {
+        "weld-pool:meaning-1": {
+          "gloss": "baño de fusión",
+          "definition": "Zona localizada de metal fundido que existe durante la soldadura por fusión, antes de que ese metal se solidifique."
+        }
+      },
+      "examples": [
+        {
+          "en": "The weld pool forms beneath the welding heat source.",
+          "translation": "El baño de fusión se forma bajo la fuente de calor de la soldadura."
+        },
+        {
+          "en": "As the torch moves on, metal behind the pool solidifies.",
+          "translation": "A medida que avanza la antorcha, el metal detrás del baño se solidifica."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "weld pool shape",
+          "translation": "forma del baño de fusión"
+        },
+        {
+          "en": "the edge of the weld pool",
+          "translation": "el borde del baño de fusión"
+        },
+        {
+          "en": "weld pool solidification",
+          "translation": "solidificación del baño de fusión"
+        }
+      ],
+      "tip": "Weld pool es la pequeña zona de metal líquido en la soldadura por fusión, no agua de enfriamiento, escoria ni el cordón ya sólido. En este ejemplo, la fuente de calor está sobre el baño y la trayectoria detrás ya se ha solidificado. No todos los procesos de soldadura forman un baño de metal fundido. El color brillante y el tamaño del modelo no determinan temperatura, velocidad ni calidad real de la soldadura."
+    },
+    "corrosion": {
+      "sourceWord": "corrosion",
+      "senses": {
+        "corrosion:meaning-1": {
+          "gloss": "corrosión",
+          "definition": "Deterioro de un material, especialmente de un metal, por interacción química o electroquímica con su entorno."
+        }
+      },
+      "examples": [
+        {
+          "en": "Corrosion has left pits in the surface of the steel plate.",
+          "translation": "La corrosión ha dejado picaduras en la superficie de la placa de acero."
+        },
+        {
+          "en": "The damage is deeper near the exposed edge.",
+          "translation": "El daño es más profundo cerca del borde expuesto."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "corrosion resistance",
+          "translation": "resistencia a la corrosión"
+        },
+        {
+          "en": "pitting corrosion",
+          "translation": "corrosión por picaduras"
+        },
+        {
+          "en": "a corrosion product",
+          "translation": "un producto de corrosión"
+        }
+      ],
+      "tip": "Corrosion es el proceso de corrosión; rust es el óxido del hierro o del acero y representa solo un ejemplo. Un rayón por desgaste mecánico no es por sí mismo corrosión, aunque ambos procesos pueden ocurrir juntos. El ejemplo visual explica óxidos y picaduras superficiales; el color y la apariencia no determinan por sí solos el mecanismo, la profundidad oculta ni la vida restante de la pieza."
+    },
+    "ductility": {
+      "sourceWord": "ductility",
+      "senses": {
+        "ductility:meaning-1": {
+          "gloss": "ductilidad",
+          "definition": "Capacidad de un material para experimentar alargamiento plástico bajo tensión antes de fracturarse."
+        }
+      },
+      "examples": [
+        {
+          "en": "Ductility allows the specimen to stretch plastically before it breaks.",
+          "translation": "La ductilidad permite que la probeta se alargue plásticamente antes de romperse."
+        },
+        {
+          "en": "The stretched section became longer and narrower.",
+          "translation": "La sección alargada se volvió más larga y más estrecha."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "high ductility",
+          "translation": "alta ductilidad"
+        },
+        {
+          "en": "a ductility test",
+          "translation": "un ensayo de ductilidad"
+        },
+        {
+          "en": "loss of ductility",
+          "translation": "pérdida de ductilidad"
+        }
+      ],
+      "tip": "Ductility es la capacidad de deformación permanente, especialmente bajo tensión; elasticity se refiere a la recuperación elástica después de retirar la carga. Malleability se relaciona más con la conformación bajo compresión. El estrechamiento localizado de una probeta es un ejemplo explicativo, no la definición de todo comportamiento dúctil. La propiedad depende del material y de las condiciones; el modelo no mide el porcentaje de alargamiento ni la resistencia mecánica."
+    },
+    "brittleness": {
+      "sourceWord": "brittleness",
+      "senses": {
+        "brittleness:meaning-1": {
+          "gloss": "fragilidad",
+          "definition": "Tendencia de un material a fracturarse con poca deformación plástica."
+        }
+      },
+      "examples": [
+        {
+          "en": "Brittleness can cause a specimen to break with little permanent stretching.",
+          "translation": "La fragilidad puede hacer que una probeta se rompa con poco alargamiento permanente."
+        },
+        {
+          "en": "The two broken pieces show almost no necking near the break.",
+          "translation": "Las dos partes rotas casi no presentan estricción cerca de la fractura."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "material brittleness",
+          "translation": "fragilidad del material"
+        },
+        {
+          "en": "increased brittleness",
+          "translation": "aumento de la fragilidad"
+        },
+        {
+          "en": "brittleness at low temperatures",
+          "translation": "fragilidad a bajas temperaturas"
+        }
+      ],
+      "tip": "Brittleness selecciona la fractura con poca deformación permanente; no significa baja resistencia ni alta dureza. Un material frágil puede deformarse elásticamente antes de romperse. Su comportamiento puede cambiar con la temperatura, la velocidad de carga y otras condiciones. El ejemplo visual muestra una fractura con poco alargamiento; no clasifica todos los metales o las cerámicas ni aporta un valor de tenacidad."
     }
   }
 }

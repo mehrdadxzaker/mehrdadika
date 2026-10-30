@@ -51631,6 +51631,1225 @@
           "reviewerId": "/root"
         }
       }
+    },
+    {
+      "entryId": "nutrient",
+      "sourceWord": "nutrient",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "nutrient:meaning-1",
+          "pos": "n.",
+          "en": "A substance in food that the body uses for energy, tissue growth or repair, or other normal functions."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The dietitian explained how each nutrient helps meet the body’s needs.",
+          "senseId": "nutrient:meaning-1"
+        },
+        {
+          "en": "Water and vitamins are nutrients even though they do not supply food energy.",
+          "senseId": "nutrient:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/nutrient.webp",
+        "sha256": "23008040716db43229d176a52746ca5c663bf6e7646b3f29e41b705bc29df790"
+      },
+      "visual": {
+        "expectedCue": "Nutrient class includes representative glucose→energy and water→fluid-balance relations, explicitly avoiding water supplying energy; connected class/use comparison rather than generic food photo.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: nutrient class bracket groups representative glucose and water, with separate role arrows glucose→energy and water→fluid balance. No crossing arrows or water-as-fuel claim; relation is more than food-only context. Exact NUTRIENT/GLUCOSE/ENERGY/WATER/FLUID BALANCE verified all3sizes and readable120. Sugar hexagon and water drop are whole-substance symbols, not exact atom structures; two representative uses, not every nutrient/function or dietary adequacy/concentration. Soft precise cool-white/mint/pale-blue clinical class/use diagram with subtle tissue backdrop, no measurements/props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: nutrient class bracket groups representative glucose and water, with separate role arrows glucose→energy and water→fluid balance. No crossing arrows or water-as-fuel claim; relation is more than food-only context. Exact NUTRIENT/GLUCOSE/ENERGY/WATER/FLUID BALANCE verified all3sizes and readable120. Sugar hexagon and water drop are whole-substance symbols, not exact atom structures; two representative uses, not every nutrient/function or dietary adequacy/concentration. Soft precise cool-white/mint/pale-blue clinical class/use diagram with subtle tissue backdrop, no measurements/props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T16:03:32.699Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "23008040716db43229d176a52746ca5c663bf6e7646b3f29e41b705bc29df790",
+          "inspectedAt": "2026-10-30T16:37:57.641Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/card512/thumb120. Class bracket groups representative glucose and water with separate contribution/use paths: glucose to ENERGY, water to FLUID BALANCE, no water-as-calorie arrow or crossed role. Exact NUTRIENT/GLUCOSE/ENERGY/WATER/FLUID BALANCE correctly spelled and readable120. Whole-substance symbols are explanatory, not atom diagrams or a food-only substitute; two examples do not exhaust nutrient roles or guarantee balance/adequacy. Soft coolwhite/mint/paleblue clinical class diagram. Independent human language/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "protein",
+      "sourceWord": "protein",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "protein:meaning-1",
+          "pos": "n.",
+          "en": "A nutrient made of amino-acid chains that the body uses to maintain tissues and carry out many cellular functions."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Beans and eggs both contain protein.",
+          "senseId": "protein:meaning-1"
+        },
+        {
+          "en": "During digestion, these chains are broken down into amino acids.",
+          "senseId": "protein:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/protein.webp",
+        "sha256": "ec1eb00c05904c20ee1cf1beb4e8cd02294109b9e408e524cbb1e563d3e0a6d4"
+      },
+      "visual": {
+        "expectedCue": "Dominant folded connected amino-acid chain model with visible linked units, subordinate dietary sources; protein structure/nutrient relation distinct glycogen branches or DNA.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG. Large folded linked-unit chain is dominant, with visible tail and linked beads rather than DNA double helix or food-only image. Inset reinforces connected units; bead colors and hidden crossings are conceptual, not an exact amino-acid sequence/count or mapped molecular-coordinate model. Subordinate egg/beans supply dietary context. Exact label PROTEIN verified letter-by-letter in original/card and readable120. No fake atom formula, readings, dosage or clinical claim. Soft precise cool-white/mint/pale-blue scientific teaching model, not all proteins share this compact fold. Fresh original author inspection only; separate second review required.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG. Large folded linked-unit chain is dominant, with visible tail and linked beads rather than DNA double helix or food-only image. Inset reinforces connected units; bead colors and hidden crossings are conceptual, not an exact amino-acid sequence/count or mapped molecular-coordinate model. Subordinate egg/beans supply dietary context. Exact label PROTEIN verified letter-by-letter in original/card and readable120. No fake atom formula, readings, dosage or clinical claim. Soft precise cool-white/mint/pale-blue scientific teaching model, not all proteins share this compact fold. Fresh original author inspection only; separate second review required."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:25:57.169Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ec1eb00c05904c20ee1cf1beb4e8cd02294109b9e408e524cbb1e563d3e0a6d4",
+          "inspectedAt": "2026-10-30T16:27:04.615Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/card512/thumb120. Dominant folded linked colored-unit protein model plus small egg/beans context; inset emphasizes serial linked units, not DNA double helix or only a food plate. Exact PROTEIN label correct/readable120. Dense overlaps are illustrative folds, not a qualified traceable backbone graph, residue sequence/positions/count, atom structure or universal protein conformation. No explicit isolated branch-valence chemistry asserted; no molecular-template qualification. Clinical soft coolwhite/mint/paleblue with meaningful food context. Independent human language/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "carbohydrate",
+      "sourceWord": "carbohydrate",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "carbohydrate:meaning-1",
+          "pos": "n.",
+          "en": "A member of a nutrient group that includes sugars, starches and many dietary fibres."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Starch is a carbohydrate found in foods such as rice and potatoes.",
+          "senseId": "carbohydrate:meaning-1"
+        },
+        {
+          "en": "Some members of this group have a single sugar unit, while others contain long chains.",
+          "senseId": "carbohydrate:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/carbohydrate.webp",
+        "sha256": "9c2569dca3d47923111c5f6570cd8a0d3bf34492c2e91e1565f02a59024fe1e3"
+      },
+      "visual": {
+        "expectedCue": "Single sugar-unit example versus linked starch-unit chain grouped as carbohydrate class, exact category/example labels; schematic units not atoms or complete carbohydrate taxonomy.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: grouped single sugar-unit symbol on left and connected short starch-chain symbols on right; all links continuous, no transformation arrow or glycogen-like branching. Exact CARBOHYDRATE/SUGAR/STARCH verified character-by-character, all readable120. Whole rounded hexagons are conceptual sugar units, not carbon atoms or a glucose-specific ring formula; short chain is representative starch example, not actual polymer length or exhaustive carbohydrate/fibre taxonomy. Clean soft precise cool-white/mint/pale-blue scientific class diagram, no food-only substitute or readings/props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: grouped single sugar-unit symbol on left and connected short starch-chain symbols on right; all links continuous, no transformation arrow or glycogen-like branching. Exact CARBOHYDRATE/SUGAR/STARCH verified character-by-character, all readable120. Whole rounded hexagons are conceptual sugar units, not carbon atoms or a glucose-specific ring formula; short chain is representative starch example, not actual polymer length or exhaustive carbohydrate/fibre taxonomy. Clean soft precise cool-white/mint/pale-blue scientific class diagram, no food-only substitute or readings/props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:40:07.455Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9c2569dca3d47923111c5f6570cd8a0d3bf34492c2e91e1565f02a59024fe1e3",
+          "inspectedAt": "2026-10-30T15:44:50.764Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/card512/thumb120. Exact CARBOHYDRATE/SUGAR/STARCH labels correctly spelled and readable120. Group bracket links one sugar-unit symbol to a short connected starch-chain example without a false conversion arrow. Hexagons represent whole sugar units, not atoms/ring formula; selected examples not full carbohydrate/fibre taxonomy or real chain length. Clean soft clinical coolwhite/mint/paleblue diagram. Human/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "fat",
+      "sourceWord": "fat",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "fat:meaning-1",
+          "pos": "n.",
+          "en": "A dietary lipid material, composed mainly of triglycerides, that supplies energy and serves other roles in the body."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The food label lists the amount of fat in a serving.",
+          "senseId": "fat:meaning-1"
+        },
+        {
+          "en": "Oils and solid fats can both supply this nutrient.",
+          "senseId": "fat:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/fat.webp",
+        "sha256": "36ad40e132d1b90a14469b45488efd1bd83b566bfb7fec440c625c1507e29443"
+      },
+      "visual": {
+        "expectedCue": "Representative triglyceride architecture with one glycerol backbone and exactly three attached fatty-acid tails, plus subordinate liquid/solid dietary material; fat nutrient sense, not body size or all lipids.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: one three-unit blue backbone has exactly three separate connected yellow tails, all countable120, no fourth tail or unattached strand. Oil droplet/solid butter give subordinate dietary-material context. Exact FAT verified in original/card/120. Architecture is qualitative glycerol-plus-three-fatty-acid representation, not individual atoms, ester-bond diagram, exact carbon counts, saturation or chain lengths; not every lipid is a triglyceride and liquid/solid examples do not establish dietary recommendations. Clean cool-white/pale-blue scientific clinical model with meaningful lipid yellow, no readings/logos/props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: one three-unit blue backbone has exactly three separate connected yellow tails, all countable120, no fourth tail or unattached strand. Oil droplet/solid butter give subordinate dietary-material context. Exact FAT verified in original/card/120. Architecture is qualitative glycerol-plus-three-fatty-acid representation, not individual atoms, ester-bond diagram, exact carbon counts, saturation or chain lengths; not every lipid is a triglyceride and liquid/solid examples do not establish dietary recommendations. Clean cool-white/pale-blue scientific clinical model with meaningful lipid yellow, no readings/logos/props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:29:55.769Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "36ad40e132d1b90a14469b45488efd1bd83b566bfb7fec440c625c1507e29443",
+          "inspectedAt": "2026-10-30T16:27:04.640Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/card512/thumb120. One connected three-unit blue backbone bears exactly THREE joined yellow tails, with subordinate oil-drop/butter dietary material. Exact FAT label correct/readable120; no detached fourth tail or body-size adjective cue. Qualitative triglyceride architecture, not atom/ester bond map, carbon count, saturation, chain lengths, all-lipid definition or nutrition recommendation. Soft coolwhite/mint/paleblue clinical model. Independent human language/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "fibre",
+      "sourceWord": "fibre",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "fibre:meaning-1",
+          "pos": "n.",
+          "en": "Food material, largely from plants, that resists digestion by human enzymes in the small intestine."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Whole grains and beans provide dietary fibre.",
+          "senseId": "fibre:meaning-1"
+        },
+        {
+          "en": "Some of this material is fermented by microbes in the large intestine.",
+          "senseId": "fibre:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/fibre.webp",
+        "sha256": "e53f8888bbe5d955bcf97c1175b7abb8c4bc1940496433fe4a82405a09886744"
+      },
+      "visual": {
+        "expectedCue": "Natural irregular plant-food wall fragment remains luminal as other small nutrients cross and a matching resistant fragment reaches colon; no manufactured ladder/rope/parasite cue.",
+        "decision": "added",
+        "reason": "Actually viewed corrected original1254/512WebP/120PNG: irregular torn olive/brown plant-wall fragment has natural polygonal mesh/frayed edges, no manufactured straight rails/rungs/knots. Matching recognizable material remains fully luminal in both small-bowel and colon panels; other small nutrient symbols cross epithelial boundary into red blood, not the plant fragment. Luminal spaces remain open. Exact FIBRE/SMALL BOWEL/COLON verified all3sizes and readable120. One enlarged resistant plant-wall food example, not literal cellulose microscopy, all dietary fibre types, complete gut geometry or proof no colonic fermentation occurs; native tips explicitly qualify microbial breakdown of some fibres. Soft precise clinical tissue/context cool-white/mint/pale-blue, no readings/props. Rejected ladder-like initial material preserved.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed corrected original1254/512WebP/120PNG: irregular torn olive/brown plant-wall fragment has natural polygonal mesh/frayed edges, no manufactured straight rails/rungs/knots. Matching recognizable material remains fully luminal in both small-bowel and colon panels; other small nutrient symbols cross epithelial boundary into red blood, not the plant fragment. Luminal spaces remain open. Exact FIBRE/SMALL BOWEL/COLON verified all3sizes and readable120. One enlarged resistant plant-wall food example, not literal cellulose microscopy, all dietary fibre types, complete gut geometry or proof no colonic fermentation occurs; native tips explicitly qualify microbial breakdown of some fibres. Soft precise clinical tissue/context cool-white/mint/pale-blue, no readings/props. Rejected ladder-like initial material preserved."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:59:04.658Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e53f8888bbe5d955bcf97c1175b7abb8c4bc1940496433fe4a82405a09886744",
+          "inspectedAt": "2026-10-30T16:35:45.417Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254,512WebP and120PNG. An irregular ragged olive plant-wall-like sheet with an uneven cellular network remains within the small-bowel lumen and appears recognizably again in the colon panel; it does not resemble the rejected regular rope ladder, parasite or fragment crossing the wall. Separate small nutrient symbols cross the epithelial boundary toward a red blood passage; these are generic examples, not all nutrient or fat routes. Labels are exactly FIBRE, SMALL BOWEL, COLON. Clinical mint/white tissue rendering and resistant-fragment sequence remain legible at120. This is a conceptual enlarged example, not exact histology, molecular pore structure or a claim that every fibre remains unfermented.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "vitamin",
+      "sourceWord": "vitamin",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "vitamin:meaning-1",
+          "pos": "n.",
+          "en": "An organic micronutrient needed in small amounts for particular normal body functions."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Fruit and vegetables can provide more than one vitamin.",
+          "senseId": "vitamin:meaning-1"
+        },
+        {
+          "en": "Vitamin D supports calcium absorption, while vitamin C helps the body make collagen.",
+          "senseId": "vitamin:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/vitamin.webp",
+        "sha256": "34aeee6096d909cd035460830f84e9b216dfb761829e2517dde43fb8fc76041d"
+      },
+      "visual": {
+        "expectedCue": "Vitamin class grouped into representative C supporting collagen production and D supporting calcium uptake; relational support arrows, not conversion, doses or a universal molecular/gating mechanism.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: class bracket groups representative C and D type symbols; dashed arrows explicitly labelled SUPPORTS point to collagen-fibre example and calcium-uptake inset respectively. D remains outside inset, not a pore or atom converted into calcium. Uptake arrow crosses epithelial boundary into red blood; C not physically stitched into fibres. Exact VITAMIN/C/D/SUPPORTS/COLLAGEN/CALCIUM ABSORPTION verified all3sizes, captions readable120. Two representative functions, not all vitamins, atomic structures, exact collagen microscopy, complete transport mechanism, dose/supplement efficacy or patient need. Clean soft clinical model on cool white/mint/pale-blue, no numeric readings/props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: class bracket groups representative C and D type symbols; dashed arrows explicitly labelled SUPPORTS point to collagen-fibre example and calcium-uptake inset respectively. D remains outside inset, not a pore or atom converted into calcium. Uptake arrow crosses epithelial boundary into red blood; C not physically stitched into fibres. Exact VITAMIN/C/D/SUPPORTS/COLLAGEN/CALCIUM ABSORPTION verified all3sizes, captions readable120. Two representative functions, not all vitamins, atomic structures, exact collagen microscopy, complete transport mechanism, dose/supplement efficacy or patient need. Clean soft clinical model on cool white/mint/pale-blue, no numeric readings/props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T16:09:46.005Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "34aeee6096d909cd035460830f84e9b216dfb761829e2517dde43fb8fc76041d",
+          "inspectedAt": "2026-10-30T16:37:57.659Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/card512/thumb120. Vitamin class groups C and D; dashed SUPPORTS arrows distinguish roles from conversion. C points to representative collagen fibres; D remains outside epithelial calcium-absorption inset, not a calcium particle/carrier or direct gate. Correct VITAMIN/C/D/SUPPORTS/COLLAGEN/CALCIUM ABSORPTION verified across sizes, caption readable120. Calcium path into red-blood context is schematic, not full villus/capillary histology or an atom/charge/complete transport mechanism. Two examples, not all vitamins, doses, supplement efficacy or clinical need. Clinical soft precise coolwhite/mint/paleblue with meaningful tissue colors. Independent human language/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "enzyme",
+      "sourceWord": "enzyme",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "enzyme:meaning-1",
+          "pos": "n.",
+          "en": "A biological catalyst that speeds a chemical reaction without being used up as a reactant in that reaction."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A digestive enzyme helps break starch into smaller sugars.",
+          "senseId": "enzyme:meaning-1"
+        },
+        {
+          "en": "The catalyst can take part in another reaction after the products leave.",
+          "senseId": "enzyme:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/enzyme.webp",
+        "sha256": "23a49109bc8adcdda94ad45f11edc5047dfec5d57f8057739ab36e419fbeadbe"
+      },
+      "visual": {
+        "expectedCue": "Intact dominant catalyst with active-site cleft, joined two-unit substrate approaching and same two units released separately; enzyme distinct reactant/products and not consumed, one cleavage example.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: dominant intact mint catalyst has a surface cleft; two connected orange/yellow substrate lobes approach on left, same two colored lobes depart separated on right. No connector remains between products and enzyme is not split/consumed. Arrows lead toward/out of cleft, exact ENZYME verified all3sizes including readable120. Qualitative protein-enzyme bond-cleavage example, not atomic structure/stoichiometry, exact binding geometry or every enzyme reaction; RNA exception and non-cleavage enzymes remain explicit in source/native tips. Soft precise clinical molecular model, cool-white/mint/pale-blue with meaningful reactant colors, no numerical readings/props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: dominant intact mint catalyst has a surface cleft; two connected orange/yellow substrate lobes approach on left, same two colored lobes depart separated on right. No connector remains between products and enzyme is not split/consumed. Arrows lead toward/out of cleft, exact ENZYME verified all3sizes including readable120. Qualitative protein-enzyme bond-cleavage example, not atomic structure/stoichiometry, exact binding geometry or every enzyme reaction; RNA exception and non-cleavage enzymes remain explicit in source/native tips. Soft precise clinical molecular model, cool-white/mint/pale-blue with meaningful reactant colors, no numerical readings/props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:32:20.051Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "23a49109bc8adcdda94ad45f11edc5047dfec5d57f8057739ab36e419fbeadbe",
+          "inspectedAt": "2026-10-30T16:27:04.659Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/card512/thumb120. Intact mint catalyst with surface cleft; joined orange/yellow substrate approaches via arrow, same two colored product units leave separated via distinct arrow. Catalyst remains intact rather than reactant consumed or cut apart. Exact ENZYME label correct/readable120. One qualitative cleavage/catalyst example, not atomistic balanced reaction, exact active-site shape, stoichiometry or every enzyme mechanism. Soft precise clinical scientific style. Independent human language/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "hormone",
+      "sourceWord": "hormone",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "hormone:meaning-1",
+          "pos": "n.",
+          "en": "A chemical messenger released by cells or glands that travels in blood to influence cells with suitable receptors."
+        }
+      ],
+      "examples": [
+        {
+          "en": "An endocrine gland releases a hormone into the bloodstream.",
+          "senseId": "hormone:meaning-1"
+        },
+        {
+          "en": "Only cells with a suitable receptor respond to that chemical message.",
+          "senseId": "hormone:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hormone.webp",
+        "sha256": "aedf87e8fb7376ecfd2eaee62d9eb623cd6e90eac99715498ac301eefb85b71e"
+      },
+      "visual": {
+        "expectedCue": "Endocrine messenger enters blood, then reaches an EXTRAVASCULAR target receptor across clearly separate continuous vessel wall/interstitial gap; no receptor fused into vessel boundary.",
+        "decision": "added",
+        "reason": "Actually viewed corrected original1254/512WebP/120PNG: endocrine-cell secretion enters red blood vessel; purple messenger travels in lumen, then appears in a clearly visible interstitial gap before binding a receptor on entirely separate blue target-cell membrane. Continuous lower endothelial wall restored; no target receptor fused to vessel lining or red-cell leak. Internal signal arrow stays within target cytoplasm. Exact HORMONE verified all3sizes/readable120. One qualitative surface-receptor endocrine example, not all receptor locations/hormone chemistries, exact transport pores, molecular counts or microscopic scale. Clean soft clinical cells/blood on cool white/mint/pale-blue, no readings/props. Initial boundary ambiguity retained with negative receipt/assets.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed corrected original1254/512WebP/120PNG: endocrine-cell secretion enters red blood vessel; purple messenger travels in lumen, then appears in a clearly visible interstitial gap before binding a receptor on entirely separate blue target-cell membrane. Continuous lower endothelial wall restored; no target receptor fused to vessel lining or red-cell leak. Internal signal arrow stays within target cytoplasm. Exact HORMONE verified all3sizes/readable120. One qualitative surface-receptor endocrine example, not all receptor locations/hormone chemistries, exact transport pores, molecular counts or microscopic scale. Clean soft clinical cells/blood on cool white/mint/pale-blue, no readings/props. Initial boundary ambiguity retained with negative receipt/assets."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:49:36.730Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "aedf87e8fb7376ecfd2eaee62d9eb623cd6e90eac99715498ac301eefb85b71e",
+          "inspectedAt": "2026-10-30T16:38:14.992Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original,512WebP,120PNG. Purple messenger examples pass from grouped endocrine cells into a continuous red blood vessel containing red cells; separate messenger symbols in a pale interstitial gap approach a surface receptor on a blue target cell outside the vessel. The receptor/cell are clearly separated from the endothelial boundary, with an intracellular response arrow remaining inside the cell. Exact HORMONE title and cool clinical palette read at120. Thin unlabeled pointer only selects a messenger, not another flow route. This accepts one conceptual endocrine/surface-receptor example, not complete histology, literal molecule sizes, universal hormone transport/receptor location, concentrations or clinical response.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "insulin",
+      "sourceWord": "insulin",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "insulin:meaning-1",
+          "pos": "n.",
+          "en": "A hormone released by pancreatic beta cells that helps regulate glucose use and storage, including uptake by responsive muscle and fat cells."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pancreas releases insulin into the blood after a meal.",
+          "senseId": "insulin:meaning-1"
+        },
+        {
+          "en": "Skeletal muscle cells can respond by taking up more glucose.",
+          "senseId": "insulin:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/insulin.webp",
+        "sha256": "d308ba7a6cb337d5f5a9d08a853a8af22b5e10f00e260973c777ecc0a7780ebb"
+      },
+      "visual": {
+        "expectedCue": "Beta-cell cluster fully outside continuous vessel with visible tissue gaps; upward endocrine secretion enters blood, insulin receptor and separate compact GLUT4 uptake schematic preserved.",
+        "decision": "added",
+        "reason": "Actually viewed final3 original1254/512WebP/120PNG: small beta-cell cluster is entirely OUTSIDE continuous blood vessel and outside muscle, separated by visible pale gaps; purple hormone secretion points upward across vessel wall into red blood. No duct/funnel or intravascular beta cells. Insulin then binds distinct blue membrane receptor; intracellular dashed signal relates to separate compact green GLUT4 carrier with one outward binding pocket, no continuous open pore or insulin-as-transporter. Orange glucose uptake uses that carrier, muscle shown only as membrane/myofibril patch not false round single-nucleus whole cell. Exact INSULIN/BETA CELLS/GLUCOSE/GLUT4/MUSCLE verified all3sizes, all identifiable120 after enlargement. Qualitative selected muscle physiology only, not atom-exact insulin/receptor/GLUT4 shapes, stoichiometry, rates, full vesicle-trafficking cascade or all-cell dependence; no injectable product/dose/diagnostic claim. Soft precise clinical palette/context. Two rejected boundary/carrier/text candidates preserved, no fourth request.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed final3 original1254/512WebP/120PNG: small beta-cell cluster is entirely OUTSIDE continuous blood vessel and outside muscle, separated by visible pale gaps; purple hormone secretion points upward across vessel wall into red blood. No duct/funnel or intravascular beta cells. Insulin then binds distinct blue membrane receptor; intracellular dashed signal relates to separate compact green GLUT4 carrier with one outward binding pocket, no continuous open pore or insulin-as-transporter. Orange glucose uptake uses that carrier, muscle shown only as membrane/myofibril patch not false round single-nucleus whole cell. Exact INSULIN/BETA CELLS/GLUCOSE/GLUT4/MUSCLE verified all3sizes, all identifiable120 after enlargement. Qualitative selected muscle physiology only, not atom-exact insulin/receptor/GLUT4 shapes, stoichiometry, rates, full vesicle-trafficking cascade or all-cell dependence; no injectable product/dose/diagnostic claim. Soft precise clinical palette/context. Two rejected boundary/carrier/text candidates preserved, no fourth request."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T16:26:46.159Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d308ba7a6cb337d5f5a9d08a853a8af22b5e10f00e260973c777ecc0a7780ebb",
+          "inspectedAt": "2026-10-30T16:47:04.622Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected original1254,512WebP,120PNG. Beta-cell cluster is completely extravascular with pale gaps from vessel and muscle; continuous endothelial wall separates blood. Purple hormone binds distinct blue extracellular receptor; dashed intracellular signal leads to separate green GLUT4 glucose-uptake route, not insulin through a sugar channel. Exact INSULIN/BETA CELLS/GLUCOSE/GLUT4/MUSCLE labels checked; 120 preserves main relation. Symbolic surface-receptor/muscle example, not molecular structure, full trafficking pathway, concentrations or universal cell dependency.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "glucose",
+      "sourceWord": "glucose",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "glucose:meaning-1",
+          "pos": "n.",
+          "en": "A simple sugar that circulates in blood and is used by many cells as a fuel."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Many cells use glucose as a source of energy.",
+          "senseId": "glucose:meaning-1"
+        },
+        {
+          "en": "The laboratory measured the concentration of this sugar in the blood sample.",
+          "senseId": "glucose:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/glucose.webp",
+        "sha256": "127183f194ede942a93238302a9309369e519b92fa5776ab497123479c061a76"
+      },
+      "visual": {
+        "expectedCue": "Single labelled glucose sugar-unit symbol with exact GLUCOSE/BLOOD SUGAR and matching separate units within red-cell-containing vessel; no polymer chain, atomic structure, concentration or diagnosis claim.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/card512/thumb120. Exact GLUCOSE and BLOOD SUGAR labels correctly spelled and readable120. One dominant symbolic whole-sugar hexagon is linked by a non-arrow pointer to matching separate symbols within a red-cell-containing vessel; no polymer chain or false wall-crossing flow arrow. Red cells remain in blood, continuous contextual vessel wall. Clinical coolwhite/mint/paleblue style, meaningful red blood. Orange tokens are conceptual whole sugar units at explanatory scales, not atoms/chemical stereochemistry, actual particle sizes or concentrations. No clinical reading/diagnosis. Human/specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually inspected original1254/card512/thumb120. Exact GLUCOSE and BLOOD SUGAR labels correctly spelled and readable120. One dominant symbolic whole-sugar hexagon is linked by a non-arrow pointer to matching separate symbols within a red-cell-containing vessel; no polymer chain or false wall-crossing flow arrow. Red cells remain in blood, continuous contextual vessel wall. Clinical coolwhite/mint/paleblue style, meaningful red blood. Orange tokens are conceptual whole sugar units at explanatory scales, not atoms/chemical stereochemistry, actual particle sizes or concentrations. No clinical reading/diagnosis. Human/specialist review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:53:51.162Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "127183f194ede942a93238302a9309369e519b92fa5776ab497123479c061a76",
+          "inspectedAt": "2026-10-30T16:47:04.640Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected original1254,512WebP,120PNG. Exact GLUCOSE and BLOOD SUGAR read at all3 sizes; matching separate orange whole-sugar-unit symbols sit with biconcave red cells inside continuous blood-vessel context. Enlarged token callout is a leader, not transport arrow; no polymer chain or dose/readings. Token is explanatory symbol, not literal atomic/chemical ring structure or concentration. Clinical mint/white rendering fits selected simple-sugar noun.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "glycogen",
+      "sourceWord": "glycogen",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "glycogen:meaning-1",
+          "pos": "n.",
+          "en": "A highly branched polymer of glucose used as an energy store, especially in liver and skeletal muscle cells."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The liver stores some glucose as glycogen.",
+          "senseId": "glycogen:meaning-1"
+        },
+        {
+          "en": "During activity, muscle cells can break down their own stores to help supply energy.",
+          "senseId": "glycogen:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/glycogen.webp",
+        "sha256": "4ef093ec7f5da92eb8584f074e23ed86b5272851d18a82c428f878783cfdf9f6"
+      },
+      "visual": {
+        "expectedCue": "Highly branched connected identical glucose-unit model linked to a representative liver-cell storage granule, distinct single free glucose or unbranched protein; qualitative architecture not exact bond/count map.",
+        "decision": "added",
+        "reason": "Actually viewed original1254/512WebP/120PNG: dominant connected orange repeating-unit network has numerous clear branches/free ends, unlike an unbranched protein chain or one free glucose unit. Leader points from cytoplasmic storage granule in representative single-nucleus cell to enlarged model; granules stay outside nucleus, no giant polymer through cell. Exact GLYCOGEN verified all3sizes/readable120. Qualitative branched storage architecture and liver-cell context only, not exact alpha-linkage positions, unit counts, atom chemistry, granule microscopy or universal liver/muscle functions. Soft precise cool-white/mint/pale-blue cellular study with meaningful orange units, no readings/props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually viewed original1254/512WebP/120PNG: dominant connected orange repeating-unit network has numerous clear branches/free ends, unlike an unbranched protein chain or one free glucose unit. Leader points from cytoplasmic storage granule in representative single-nucleus cell to enlarged model; granules stay outside nucleus, no giant polymer through cell. Exact GLYCOGEN verified all3sizes/readable120. Qualitative branched storage architecture and liver-cell context only, not exact alpha-linkage positions, unit counts, atom chemistry, granule microscopy or universal liver/muscle functions. Soft precise cool-white/mint/pale-blue cellular study with meaningful orange units, no readings/props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:36:31.719Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4ef093ec7f5da92eb8584f074e23ed86b5272851d18a82c428f878783cfdf9f6",
+          "inspectedAt": "2026-10-30T16:27:04.677Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/card512/thumb120. Dominant connected branched orange-unit network with many free ends differs from single free glucose; non-arrow leader joins a cytoplasmic storage granule in representative cell, granules outside nucleus. Exact GLYCOGEN correct/readable120. Qualitative branched glucose storage model at illustrative scales, not equal-size atomic units, exact linkage/valence/chain counts, measured granule microscopy or universal liver/muscle roles. Coolwhite/mint/paleblue clinical-cellular style. Independent human language/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "electrolyte",
+      "sourceWord": "electrolyte",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "electrolyte:meaning-1",
+          "pos": "n.",
+          "en": "A substance that forms ions in water; these charged particles support functions such as fluid balance and nerve or muscle activity in the body."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clinician checked the patient’s electrolyte balance.",
+          "senseId": "electrolyte:meaning-1"
+        },
+        {
+          "en": "Sodium ions carry a positive charge, while chloride ions carry a negative charge.",
+          "senseId": "electrolyte:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/electrolyte.webp",
+        "sha256": "a1d42e438cddbc0cb340a973c876d3c53433e79c88f3252c2cae37d4809ebbda"
+      },
+      "visual": {
+        "expectedCue": "Magnified conceptual separated Na+ and Cl- ions in same water-filled beaker; exact ELECTROLYTE/NaCl IN WATER labels identify one balanced salt example, not glucose, electric circuit or clinical dose.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/card512/thumb120. Exact ELECTROLYTE and NaCl IN WATER verified; two Na+ labels have uppercaseN/lowercasea/positive charges and two Cl− have uppercaseC/lowercasel/negative charges, not I or positive chloride. Four separate conceptual ion spheres coexist inside continuous water in one unmarked glass beaker, with subordinate salt crystal; no bonds, separated charge layers, wires, meter or dose. Class caption and charged-solution cue readable120 in coolwhite/mint/paleblue clinical style. Selected balanced NaCl example and symbolic magnification only, not real visible ions, hydration map, concentration, recipe or all body electrolytes. Human/specialist review pending.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually inspected original1254/card512/thumb120. Exact ELECTROLYTE and NaCl IN WATER verified; two Na+ labels have uppercaseN/lowercasea/positive charges and two Cl− have uppercaseC/lowercasel/negative charges, not I or positive chloride. Four separate conceptual ion spheres coexist inside continuous water in one unmarked glass beaker, with subordinate salt crystal; no bonds, separated charge layers, wires, meter or dose. Class caption and charged-solution cue readable120 in coolwhite/mint/paleblue clinical style. Selected balanced NaCl example and symbolic magnification only, not real visible ions, hydration map, concentration, recipe or all body electrolytes. Human/specialist review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:57:36.662Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a1d42e438cddbc0cb340a973c876d3c53433e79c88f3252c2cae37d4809ebbda",
+          "inspectedAt": "2026-10-30T16:47:04.659Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually independently inspected original1254,512WebP,120PNG. Four separated symbols inside continuous pale-water beaker: exactly two Na+ and two Cl− with correct N/a and C/l case, opposite signs, no bonded pairs or electric wires. Exact ELECTROLYTE and NaCl IN WATER headings verified; labels remain legible120. Salt crystal is subordinate context. Conceptual dissolved-sodium-chloride example, not visible real ions, hydration map, measured concentration or clinical advice; clinical mint/white style fits.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "guard",
+      "sourceWord": "guard",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "guard:meaning-1",
+          "pos": "n.",
+          "en": "A physical barrier fitted around a machine part to limit access to a hazardous area or contain material thrown from it."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The guard covers the belt and pulleys.",
+          "senseId": "guard:meaning-1"
+        },
+        {
+          "en": "Its mesh panel is fastened to the machine frame.",
+          "senseId": "guard:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/guard.webp",
+        "sha256": "1314e67957b7d9aa5c2369363aa9c8c7c0b3bf7436aaf2f1dc4363c31ee2b1e7"
+      },
+      "visual": {
+        "expectedCue": "Front mesh is continuously in front of BOTH entire hub/nut assemblies, separated by a visible standoff gap, while the joined guard remains grounded to the common base.",
+        "decision": "added",
+        "reason": "Actually inspected corrected original1254,512WebP,120PNG. Continuous amber foreground mesh now visibly crosses in front of BOTH complete silver hub/nut faces; neither rotating projection interrupts or pierces the screen. Deeper joined top/side frame and attached mounting brackets retain a coherent standoff space on the same base, with the pulley/belt context enclosed behind. The critical interposition error of candidate1 is corrected. Exact slate/silver/amber technical style reads at120. No mesh aperture, complete rear coverage, strength or protective performance qualification.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected corrected original1254,512WebP,120PNG. Continuous amber foreground mesh now visibly crosses in front of BOTH complete silver hub/nut faces; neither rotating projection interrupts or pierces the screen. Deeper joined top/side frame and attached mounting brackets retain a coherent standoff space on the same base, with the pulley/belt context enclosed behind. The critical interposition error of candidate1 is corrected. Exact slate/silver/amber technical style reads at120. No mesh aperture, complete rear coverage, strength or protective performance qualification."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:34:53.964Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1314e67957b7d9aa5c2369363aa9c8c7c0b3bf7436aaf2f1dc4363c31ee2b1e7",
+          "inspectedAt": "2026-10-30T16:05:38.577Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected corrected2 original1254/card512/thumb120. Continuous foreground mesh now crosses BOTH complete hub/nut faces, clearly ahead of rotating context with standoff space; no shaft protrudes through mesh. Joined frame/top/side/brackets share drive base and belt remains continuous on pulleys. Corrected interposition ambiguity1 retained in history. Distinct physical barrier and slate/silver/amber style clear120. No aperture/complete rear coverage/strength or protective certification claim. Human/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "interlock",
+      "sourceWord": "interlock",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "interlock:meaning-1",
+          "pos": "n.",
+          "en": "A device or arrangement that makes machine operation depend on a required guard condition, such as an access door being closed."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The interlock monitors whether the access door is closed.",
+          "senseId": "interlock:meaning-1"
+        },
+        {
+          "en": "The switch body is mounted on the frame, and its actuator is attached to the door.",
+          "senseId": "interlock:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/interlock.webp",
+        "sha256": "d120c215cb192860eb4b24825f7bc0e9c974123c5bb83e5020e4b4f9ceb8b34a"
+      },
+      "visual": {
+        "expectedCue": "Far-left hinges attach a separate moving mesh door; tongue is bolted to its opposite RIGHT FREE edge, while switch body remains on separate fixed right frame. No actuator on fixed hinge post.",
+        "decision": "added",
+        "reason": "Actually viewed corrected original1254,512WebP,120PNG. Hinge pair is now on the opposite far-left edge, joining a distinct fixed post to the moving mesh-door frame. The tongue is bolted to the free closing edge on the right of that same door, while the separate slot-bearing switch body bolts to the fixed right post. Continuous hinge-door-key mounting path resolves candidate1's fixed-post ambiguity; tongue remains outside the receiving slot, not through a solid wall. Component topology reads at120 in exact technical palette. No engagement tolerances, hidden circuit, lock function, actual machine permission/stopping or validated safety performance are established.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed corrected original1254,512WebP,120PNG. Hinge pair is now on the opposite far-left edge, joining a distinct fixed post to the moving mesh-door frame. The tongue is bolted to the free closing edge on the right of that same door, while the separate slot-bearing switch body bolts to the fixed right post. Continuous hinge-door-key mounting path resolves candidate1's fixed-post ambiguity; tongue remains outside the receiving slot, not through a solid wall. Component topology reads at120 in exact technical palette. No engagement tolerances, hidden circuit, lock function, actual machine permission/stopping or validated safety performance are established."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:51:25.170Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d120c215cb192860eb4b24825f7bc0e9c974123c5bb83e5020e4b4f9ceb8b34a",
+          "inspectedAt": "2026-10-30T16:12:14.578Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected corrected2 original1254/card512/thumb120. Far-left hinges join fixed leftpost to moving mesh door; continuous door frame reaches tongue bolted at opposite free right edge. Slot-bearing switch stays on separate fixed rightpost with connected cable. Tongue remains visibly outside receiver, rather than a fixed hinge-side plate or penetration through solid housing. Component relationship clear120 in slate/silver/amber. No engagement tolerance, hidden circuit, machine permission/stopping, locking or safety rating claim. Prior hinge-side ambiguity1 retained. Human/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "light-curtain",
+      "sourceWord": "light curtain",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "light-curtain:meaning-1",
+          "pos": "n.",
+          "en": "An optical sensing device with multiple light beams between an emitter and a receiver that detects an object entering the monitored field."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The light curtain detects an object crossing the monitored opening.",
+          "senseId": "light-curtain:meaning-1"
+        },
+        {
+          "en": "Its emitter and receiver stand on opposite sides of the opening.",
+          "senseId": "light-curtain:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/light-curtain.webp",
+        "sha256": "f73f0f63d4902f8b1a9c657c131c94fa9360b419e3a71f4c5a357ccde7be295a"
+      },
+      "visual": {
+        "expectedCue": "Opposed supported emitter/receiver arrays define many matching parallel optical sensing paths; opaque block interrupts only affected paths, not a physical curtain or barrier.",
+        "decision": "added",
+        "reason": "Actually viewed generated1254 original and512WebP/120PNG. Two whole opposed columns have corresponding optical-window arrays and mechanically bolted feet on one base. Multiple unobstructed parallel paths reach the receiver; the lower affected paths stop on the opaque supported test block and do not pass through it. No solid barrier or fabric panel is implied. Clear field/array cue remains at120 in slate/silver/amber style. Visible rays are an explanatory treatment of normally invisible infrared, not actual resolution, installation distance, safety outputs, working-machine response or performance proof.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed generated1254 original and512WebP/120PNG. Two whole opposed columns have corresponding optical-window arrays and mechanically bolted feet on one base. Multiple unobstructed parallel paths reach the receiver; the lower affected paths stop on the opaque supported test block and do not pass through it. No solid barrier or fabric panel is implied. Clear field/array cue remains at120 in slate/silver/amber style. Visible rays are an explanatory treatment of normally invisible infrared, not actual resolution, installation distance, safety outputs, working-machine response or performance proof."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:40:17.872Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f73f0f63d4902f8b1a9c657c131c94fa9360b419e3a71f4c5a357ccde7be295a",
+          "inspectedAt": "2026-10-30T16:05:38.605Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/card512/thumb120. Whole opposed arrays bolt to shared base; corresponding upper parallel optical paths reach receiver while affected lower paths terminate at opaque supported block, no rays through block. No solid curtain or laser force barrier. Explanatory visible rays represent optical sensing, not actual infrared visibility/resolution/distance or machine stop performance. Engineering slate silver amber field remains clear120. Human/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "enclosure",
+      "sourceWord": "enclosure",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "enclosure:meaning-1",
+          "pos": "n.",
+          "en": "A case or housing that surrounds equipment to protect it and restrict unintended contact with the parts inside."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The enclosure houses the electrical control components.",
+          "senseId": "enclosure:meaning-1"
+        },
+        {
+          "en": "A hinged door provides access to the mounting plate inside.",
+          "senseId": "enclosure:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/enclosure.webp",
+        "sha256": "e6f0315ae7728579c9c4beba050660ab86005d34776b2a87dbde9f7fbc80c823"
+      },
+      "visual": {
+        "expectedCue": "Empty joined protective box with complete hinged door and internal supported mounting plate; enclosure is the housing, not an electrical distribution assembly.",
+        "decision": "added",
+        "reason": "Actually viewed original1254 and converted512WebP/120PNG. Entire empty amber box has continuous joined walls, back and real hollow interior. A whole door joins the left rim through two visible hinges; latch is opposite, and silver mounting plate has four visible supports/contact points within the shell. This clearly selects housing rather than populated distribution apparatus. Geometry and amber/silver/slate technical style read at120. Static generic enclosure cue only: mounting-foot capacity, ingress rating, electrical bonding and protective certification are not demonstrated.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed original1254 and converted512WebP/120PNG. Entire empty amber box has continuous joined walls, back and real hollow interior. A whole door joins the left rim through two visible hinges; latch is opposite, and silver mounting plate has four visible supports/contact points within the shell. This clearly selects housing rather than populated distribution apparatus. Geometry and amber/silver/slate technical style read at120. Static generic enclosure cue only: mounting-foot capacity, ingress rating, electrical bonding and protective certification are not demonstrated."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:28:31.050Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e6f0315ae7728579c9c4beba050660ab86005d34776b2a87dbde9f7fbc80c823",
+          "inspectedAt": "2026-10-30T16:05:38.593Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/card512/thumb120. Complete empty case has continuous back/walls, two visible hinges joining whole door to left rim, opposite latch and supported internal silver mounting plate. Distinct protective housing rather than populated distribution board; no loose wall or floating plate. Slate silver amber silhouette clear120. No ingress, electrical bonding, mounting capacity or enclosure safety rating asserted. Human/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "welding-helmet",
+      "sourceWord": "welding helmet",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "welding-helmet:meaning-1",
+          "pos": "n.",
+          "en": "A head-worn shield with a viewing filter designed to protect the eyes and face during welding."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The welding helmet has a dark viewing filter and an adjustable headband.",
+          "senseId": "welding-helmet:meaning-1"
+        },
+        {
+          "en": "The welder checked the shell and filter before the next job.",
+          "senseId": "welding-helmet:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/welding-helmet.webp",
+        "sha256": "e4f0ee00c9eca2e0adf0b3197c6cb6726c6620a3bd0d5e646b3ae7a9f9d9f38b"
+      },
+      "visual": {
+        "expectedCue": "Complete opaque welding hood with small dark viewing filter and coherent headband/pivots; distinguish broad transparent face shield or impact hard hat.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/card512/thumb120. Complete opaque hood around separate dark rectangular viewing filter, continuous supported bezel and coherent visible side pivot/headband behind shell. No broad transparent medical visor or hard-hat substitution, no person/active exposure. Primary filter and hood silhouette clear120 in slate/silver/amber product style. Concealed second pivot, filter shade, auto-darkening response, impact/completePPE performance are unqualified; human/specialist review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254/card512/thumb120. Complete opaque hood around separate dark rectangular viewing filter, continuous supported bezel and coherent visible side pivot/headband behind shell. No broad transparent medical visor or hard-hat substitution, no person/active exposure. Primary filter and hood silhouette clear120 in slate/silver/amber product style. Concealed second pivot, filter shade, auto-darkening response, impact/completePPE performance are unqualified; human/specialist review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:28:45.518Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e4f0ee00c9eca2e0adf0b3197c6cb6726c6620a3bd0d5e646b3ae7a9f9d9f38b",
+          "inspectedAt": "2026-10-30T15:34:53.977Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original,512WebP and120PNG. Complete opaque contoured face/head shield has a small dark green rectangular viewing-filter window; visible headband arches and side pivot join the shell, clearly unlike a broad transparent medical face shield or bare impact hard hat. Whole object, dark filter and supports remain legible at120 in restrained slate/silver/amber product style. Static generic welding-helmet cue only: exact shell material, filter shade, auto-darkening response, impact protection or overall PPE adequacy are not demonstrated.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "filler-rod",
+      "sourceWord": "filler rod",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "filler-rod:meaning-1",
+          "pos": "n.",
+          "en": "A rod of filler metal added to a joint during a joining process such as welding or brazing."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The filler rod supplies extra metal to the joint.",
+          "senseId": "filler-rod:meaning-1"
+        },
+        {
+          "en": "In this TIG process, it is separate from the tungsten electrode.",
+          "senseId": "filler-rod:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/filler-rod.webp",
+        "sha256": "ebb69ebb69f6b4341bb9a371e6024536df6fc3b0c17ae5f15ecca97d66a0dbda"
+      },
+      "visual": {
+        "expectedCue": "Separate bare filler rod continuously reaches local weld pool, distinct from nonconsumable torch electrode held above the pool; supported rods/tools/plates with exact contact focus.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/card512/thumb120. Continuous bare amber filler rod from rear feeding clamp meets local liquid pool; distinct dark tungsten tip protrudes ceramic torch cup above pool with clear small arc gap. Both plates remain coplanar/joined with solid grey ripple trail separate from local liquid region. Clamp and torch support are cropped essential context, no unprotected person. Selected rod contact survives120 and slate/silver/amber scene. Qualitative TIG filler-versus-electrode topology only, not exact arc/gas/temperature, metallography, penetration or operating procedure. Human/specialist review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254/card512/thumb120. Continuous bare amber filler rod from rear feeding clamp meets local liquid pool; distinct dark tungsten tip protrudes ceramic torch cup above pool with clear small arc gap. Both plates remain coplanar/joined with solid grey ripple trail separate from local liquid region. Clamp and torch support are cropped essential context, no unprotected person. Selected rod contact survives120 and slate/silver/amber scene. Qualitative TIG filler-versus-electrode topology only, not exact arc/gas/temperature, metallography, penetration or operating procedure. Human/specialist review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:36:28.178Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ebb69ebb69f6b4341bb9a371e6024536df6fc3b0c17ae5f15ecca97d66a0dbda",
+          "inspectedAt": "2026-10-30T15:46:32.568Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently inspected actual1254 original,512WebP,120PNG. Bare amber rod extends continuously from its holding clamp into the localized molten joint region; a separate dark tungsten electrode protrudes from the ceramic torch cup above it with a visible arc gap. Rod and electrode are distinct, and joined coplanar plates plus a solid seam trail give relevant filler context. Focal rod/pool remain readable at120 in slate/silver/amber style. Tool supports extend outside the close-up. This accepts the qualitative separate filler-material cue, not feed movement, composition, electrical circuit, temperature, procedure, penetration or weld quality.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "weld-bead",
+      "sourceWord": "weld bead",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "weld-bead:meaning-1",
+          "pos": "n.",
+          "en": "A strip of solidified weld metal left along a welding path."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The weld bead runs along the joint between the two plates.",
+          "senseId": "weld-bead:meaning-1"
+        },
+        {
+          "en": "The inspector recorded its width and surface shape.",
+          "senseId": "weld-bead:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/weld-bead.webp",
+        "sha256": "49213e3e0fa2d37faed811c61c50bc171aa33fa0d5339cb16064d13c452b5948"
+      },
+      "visual": {
+        "expectedCue": "Continuous solid raised weld-metal seam physically joins both coplanar plate edges, with toes in contact and no molten pool or loose filler rope; solid bead focus.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/card512/thumb120. Continuous raised rippled solid amber seam contacts both coplanar silver plate edges along its toes; front qualitative section shows joining fill rather than a loose rope or hollow tube. No molten pool, arc or hot glow. Clear solid bead focus in exact slate/silver/amber style at120. Amber is selection color, not dissimilar alloy; front texture/partial root gap is not metallography, full penetration or quality qualification. Human/specialist review pending.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254/card512/thumb120. Continuous raised rippled solid amber seam contacts both coplanar silver plate edges along its toes; front qualitative section shows joining fill rather than a loose rope or hollow tube. No molten pool, arc or hot glow. Clear solid bead focus in exact slate/silver/amber style at120. Amber is selection color, not dissimilar alloy; front texture/partial root gap is not metallography, full penetration or quality qualification. Human/specialist review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:24:50.063Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "49213e3e0fa2d37faed811c61c50bc171aa33fa0d5339cb16064d13c452b5948",
+          "inspectedAt": "2026-10-30T15:28:31.063Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently inspected actual1254 original,512WebP and120PNG. A continuous solid amber weld-metal track meets the beveled edges of both coplanar silver plates, with readable joined toes and a solid explanatory near-end cross-section; no liquid pool or detached rope is pictured. Raised seam remains unmistakable at120 in the exact slate/silver/amber technical style. Cropped plate extent is contextual. This accepts only the qualitative solid-bead/joint teaching cue, not full root penetration, grain structure, defect absence, load capacity or joint qualification.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "weld-pool",
+      "sourceWord": "weld pool",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "weld-pool:meaning-1",
+          "pos": "n.",
+          "en": "The local region of molten metal present during fusion welding before that metal solidifies."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The weld pool forms beneath the welding heat source.",
+          "senseId": "weld-pool:meaning-1"
+        },
+        {
+          "en": "As the torch moves on, metal behind the pool solidifies.",
+          "senseId": "weld-pool:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/weld-pool.webp",
+        "sha256": "933d54abc86d23e63a53602e610b805f994f75eade1ee14aedc7951042e100f3"
+      },
+      "visual": {
+        "expectedCue": "Localized liquid metal pool within joint touches both plate edges beneath a separate torch/electrode arc gap; solid neutral seam behind contrasts with amber molten region, no filler rod.",
+        "decision": "added",
+        "reason": "Actually viewed original1254 and512WebP/120PNG. A localized amber liquid-metal region lies within the joint and meets both silver plate edges; a neutral solidified rippled seam continues behind it. A separate tungsten point emerges continuously from the ceramic torch cup and remains above the pool with a visible localized arc gap, with no filler rod. Pool dominates thumbnail meaning, distinct solid-bead and filler-rod cards. Slate/silver/amber technical shading matches the brief. Front section is explanatory, not metallography or full penetration; glow, flow texture, arc length and tool support outside the close-up do not qualify temperature, motion, process settings or weld quality. Fresh derivative inspected independently of its template approval.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed original1254 and512WebP/120PNG. A localized amber liquid-metal region lies within the joint and meets both silver plate edges; a neutral solidified rippled seam continues behind it. A separate tungsten point emerges continuously from the ceramic torch cup and remains above the pool with a visible localized arc gap, with no filler rod. Pool dominates thumbnail meaning, distinct solid-bead and filler-rod cards. Slate/silver/amber technical shading matches the brief. Front section is explanatory, not metallography or full penetration; glow, flow texture, arc length and tool support outside the close-up do not qualify temperature, motion, process settings or weld quality. Fresh derivative inspected independently of its template approval."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T16:14:12.812Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "933d54abc86d23e63a53602e610b805f994f75eade1ee14aedc7951042e100f3",
+          "inspectedAt": "2026-10-30T16:33:01.299Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed original1254/512WebP/120PNG. Local amber fluid pool sits WITHIN joint and meets both plate edges; neutral silver solidified seam trails behind. Separate tungsten point protrudes continuously from ceramic cup, with visible short arc GAP to liquid, no contacting solid rod or filler. Pool-versus-solid contrast survives120; two grounded coplanar plates and supported/cropped torch coherent. Correct slate/silver/amber subtle technical rendering, no text/numerical readings. Front section explains local joint only, not full penetration, metallography, literal liquid temperature/flow, operating settings or weld quality. Fresh derivative second review, no inherited template approval.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "corrosion",
+      "sourceWord": "corrosion",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "corrosion:meaning-1",
+          "pos": "n.",
+          "en": "Deterioration of a material, especially a metal, through chemical or electrochemical interaction with its environment."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Corrosion has left pits in the surface of the steel plate.",
+          "senseId": "corrosion:meaning-1"
+        },
+        {
+          "en": "The damage is deeper near the exposed edge.",
+          "senseId": "corrosion:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/corrosion.webp",
+        "sha256": "377bf3818873f6df5ffcf2320fea31b130b463eb7a92608f8e87e1456cf2d6a9"
+      },
+      "visual": {
+        "expectedCue": "One continuous steel plate has irregular oxide/flaking and rounded pitting with material loss at exposed edge, distinct paint, polishing, mechanical scratch or a machined groove.",
+        "decision": "added",
+        "reason": "Actually viewed original1254,512WebP,120PNG. One continuous steel plate has intact silver surface transitioning to irregular adherent rust-brown oxide and clearly recessed rounded pits/material loss along its exposed front-right edge. The enlargement matches that same rough pitted edge, not a neat machined groove, scratch or painted color band. Two neutral supports contact the plate; left contextual extent is cropped but affected edge and teaching cue remain complete/readable at120. Exact slate/silver with restrained amber leader fits the technical brief. Static visible rust/pitting example only, not exact chemistry, scale, hidden depth, corrosion rate or remaining-life assessment.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually viewed original1254,512WebP,120PNG. One continuous steel plate has intact silver surface transitioning to irregular adherent rust-brown oxide and clearly recessed rounded pits/material loss along its exposed front-right edge. The enlargement matches that same rough pitted edge, not a neat machined groove, scratch or painted color band. Two neutral supports contact the plate; left contextual extent is cropped but affected edge and teaching cue remain complete/readable at120. Exact slate/silver with restrained amber leader fits the technical brief. Static visible rust/pitting example only, not exact chemistry, scale, hidden depth, corrosion rate or remaining-life assessment."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T15:56:38.485Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "377bf3818873f6df5ffcf2320fea31b130b463eb7a92608f8e87e1456cf2d6a9",
+          "inspectedAt": "2026-10-30T16:12:14.599Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected original1254/card512/thumb120. One continuous supported steel plate transitions from intact silver to irregular flaking brown oxide and recessed pitting/material loss at exposed edge. Same-edge explanatory inset matches damaged surface, not a neat machining groove or painted stripe. Affected region clear120 in slate/silver/amber technical context with meaningful rust coloration. One rust/pitting example of corrosion, not all metals or chemistry/rate/depth/remaining life qualification. Human/specialist review pending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "ductility",
+      "sourceWord": "ductility",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "ductility:meaning-1",
+          "pos": "n.",
+          "en": "The capacity of a material to undergo plastic elongation under tension before it fractures."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Ductility allows the specimen to stretch plastically before it breaks.",
+          "senseId": "ductility:meaning-1"
+        },
+        {
+          "en": "The stretched section became longer and narrower.",
+          "senseId": "ductility:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ductility.webp",
+        "sha256": "0bf4ac5232121b024635faccb21d1a41befdc26fdeecb741b7bb4dcc1278bc73"
+      },
+      "visual": {
+        "expectedCue": "Exact BEFORE/AFTER labels are large enough to verify at120px while the same continuous necked after-coupon, original coupon, grip contacts and outward forces remain unchanged.",
+        "decision": "added",
+        "reason": "Actually inspected corrected original1254, converted512WebP and120PNG. BEFORE and AFTER are now plainly character-readable at120; narrow label edit preserves continuous necked lower gauge, original upper dogbone and outward grip-force arrows. Broad tabs partly occluded by grips; no exact scale, strain, strength or post-unloading claim. Precise slate/silver/amber technical drawing fits category.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected corrected original1254, converted512WebP and120PNG. BEFORE and AFTER are now plainly character-readable at120; narrow label edit preserves continuous necked lower gauge, original upper dogbone and outward grip-force arrows. Broad tabs partly occluded by grips; no exact scale, strain, strength or post-unloading claim. Precise slate/silver/amber technical drawing fits category."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T16:45:58.104Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0bf4ac5232121b024635faccb21d1a41befdc26fdeecb741b7bb4dcc1278bc73",
+          "inspectedAt": "2026-10-30T16:49:24.829Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed corrected original1254/512WebP/120PNG. Exact BEFORE/AFTER now comfortably readable120; otherwise the same silver coupon/gauge/neck, supports and outward amber force arrows are preserved. Before gauge uniform; after gauge visibly longer and smoothly locally necked but one continuous unbroken piece. Broad endtabs engage grips; full hidden tab dimensions not measured or qualified. This teaches substantial plastic tensile elongation/necking before fracture, not elastic recovery, calibrated strain/force, universal material behavior or an unloaded-residual observation. Correct restrained slate/silver/amber technical forms, no false readings/props. Earlier text-size negative retained; no inherited template acceptance.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "brittleness",
+      "sourceWord": "brittleness",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "brittleness:meaning-1",
+          "pos": "n.",
+          "en": "The tendency of a material to fracture with little plastic deformation."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Brittleness can cause a specimen to break with little permanent stretching.",
+          "senseId": "brittleness:meaning-1"
+        },
+        {
+          "en": "The two broken pieces show almost no necking near the break.",
+          "senseId": "brittleness:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/brittleness.webp",
+        "sha256": "6d5859b51bec69473531ccf9833200b27850e6f2031699b351611c8104c877fc"
+      },
+      "visual": {
+        "expectedCue": "Lower broken halves preserve upper original coupon material geometry; only small fracture separation adds distance, with no neck or extra gauge elongation.",
+        "decision": "added",
+        "reason": "Actually inspected corrected original1254,512WebP and120PNG. Lower gauge shoulders now align closely with upper original instead of a visibly extra-long gauge; uniform-width fractured strips meet complementary small transverse break and show no local neck. Both end tabs remain gripped with outward forces and exact readable BEFORE/AFTER. This resolves apparent material stretching as a qualitative low-deformation fracture example. Exact projected material-length conservation/full hidden tab dimensions are not calibrated or claimed. Slate/silver/amber layout coherent; candidate1 negative preserved.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected corrected original1254,512WebP and120PNG. Lower gauge shoulders now align closely with upper original instead of a visibly extra-long gauge; uniform-width fractured strips meet complementary small transverse break and show no local neck. Both end tabs remain gripped with outward forces and exact readable BEFORE/AFTER. This resolves apparent material stretching as a qualitative low-deformation fracture example. Exact projected material-length conservation/full hidden tab dimensions are not calibrated or claimed. Slate/silver/amber layout coherent; candidate1 negative preserved."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T17:00:10.569Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6d5859b51bec69473531ccf9833200b27850e6f2031699b351611c8104c877fc",
+          "inspectedAt": "2026-10-30T17:03:17.281Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed corrected original1254/512WebP/120PNG. Lower shoulder positions now visually align with upper original rather than retaining the elongated ductile gauge. Two complementary broken strips retain uniform gauge width up to a small transverse fracture gap, no local neck or appreciable drawn plastic stretching. Grips remain physically attached and opposed arrows axial/outward; same silver material, exact BEFORE/AFTER clear120. This is qualitative low-plastic-deformation fracture, not calibrated material-length conservation, percentage strain, force/strength/toughness or all materials. Slate/silver/amber precise technical layout preserved. Fresh derivative inspection with independent review; earlier gauge-spacing negative retained.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
     }
   ]
 }

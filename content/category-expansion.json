@@ -4856,7 +4856,119 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 454,
+      "targetCategoryWords": 466,
+      "entryIds": [
+        "nutrient",
+        "protein",
+        "carbohydrate",
+        "fat",
+        "fibre",
+        "vitamin",
+        "enzyme",
+        "hormone",
+        "insulin",
+        "glucose",
+        "glycogen",
+        "electrolyte"
+      ],
+      "units": [
+        {
+          "id": "medical-nutrition-nutrients",
+          "title": "Nutrition and nutrients",
+          "entryIds": [
+            "nutrient",
+            "protein",
+            "carbohydrate",
+            "fat",
+            "fibre",
+            "vitamin"
+          ]
+        },
+        {
+          "id": "medical-cellular-endocrine-physiology",
+          "title": "Cellular and endocrine physiology",
+          "entryIds": [
+            "enzyme",
+            "hormone",
+            "insulin",
+            "glucose",
+            "glycogen",
+            "electrolyte"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-36-ready-1",
+      "releaseId": "2026-10-preview-42",
+      "status": "published-preview",
+      "objective": "Learn Nutrition and nutrients; Cellular and endocrine physiology in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 453,
+      "targetCategoryWords": 464,
+      "entryIds": [
+        "guard",
+        "interlock",
+        "light-curtain",
+        "enclosure",
+        "welding-helmet",
+        "filler-rod",
+        "weld-bead",
+        "weld-pool",
+        "corrosion",
+        "ductility",
+        "brittleness"
+      ],
+      "units": [
+        {
+          "id": "industrial-guarding-and-enclosures",
+          "title": "Industrial guarding and enclosures",
+          "entryIds": [
+            "guard",
+            "interlock",
+            "light-curtain",
+            "enclosure"
+          ]
+        },
+        {
+          "id": "welding-equipment-and-weld-features",
+          "title": "Welding equipment and weld features",
+          "entryIds": [
+            "welding-helmet",
+            "filler-rod",
+            "weld-bead",
+            "weld-pool"
+          ]
+        },
+        {
+          "id": "materials-properties-and-degradation",
+          "title": "Material properties and degradation",
+          "entryIds": [
+            "corrosion",
+            "ductility",
+            "brittleness"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-36-ready-1",
+      "releaseId": "2026-10-preview-42",
+      "status": "published-preview",
+      "objective": "Learn Industrial guarding and enclosures; Welding equipment and weld features; Material properties and degradation in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-35-ready-1"
+  "activePassId": "specialist-500-batch-36-ready-1"
 }

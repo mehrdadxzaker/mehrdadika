@@ -6103,6 +6103,532 @@
           "use": "Primary manufacturer technical excerpt checked for normally closed unpowered state and core/seal/seat relation. Used only for component distinction, not wiring, service or installation guidance."
         }
       ]
+    },
+    {
+      "id": "specialist-500-batch-36-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-42",
+      "baseline": {
+        "releaseId": "2026-10-preview-41",
+        "manifest": "content/releases/2026-10-preview-41-e48cc993ab97/manifest.json",
+        "manifestSha256": "e48cc993ab9701a39fed1dc0d3de2e84e204abe74b4078bd6231b40cb111007f",
+        "words": 1065
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "nutrient",
+            "lexicalBinding": "189072e142282107a14f4c58275988b867ec9243f52b98b67a09c9a8b3c491bf",
+            "sourceImageSha256": "625aad9535abeb34c20cc05ec420acb020b52016ed1ff4251dc4f5f851ebff10",
+            "cardSha256": "23008040716db43229d176a52746ca5c663bf6e7646b3f29e41b705bc29df790",
+            "thumbnailSha256": "fad84b23439cb4aedd8963bc68db7ecdb1b8adb4a78bd2504a97ec060686ee1c",
+            "authorPixelBinding": "4781330d0cd96f7e3f768e6cc56d3dde3592500a058001b1dbf69b02f267da40",
+            "secondPixelBinding": "2e5c5ab0ba3dcae9a5c0b9cfddc41fc5314fcabdfae15c6e52b7487029737e58"
+          },
+          {
+            "entryId": "protein",
+            "lexicalBinding": "cb79792661824c0c0785d301eef3f0b99c593535fe73f8f9d55f6c8614535150",
+            "sourceImageSha256": "e3a5ca6a803a77e50c861f243da830b777cf5d21907ea4d5ce6d6b2f4dce5d2d",
+            "cardSha256": "ec1eb00c05904c20ee1cf1beb4e8cd02294109b9e408e524cbb1e563d3e0a6d4",
+            "thumbnailSha256": "1a7a0d93a8cae89dde7c4fe72c6cf189af227a19e7f3a43bcaf2fdd68ae61628",
+            "authorPixelBinding": "960acb49ba526dade8c1f4784b8ccc5c9835de9f0eb60cd11baa2cd80a30f360",
+            "secondPixelBinding": "1ebac557c9d9b9d7f11fc7980ee896e2eb7ac17e0d3670f3d1d291b33dd86b78"
+          },
+          {
+            "entryId": "carbohydrate",
+            "lexicalBinding": "0509ce697e879145cceab9b11edf376220568b0a34401cee6112617d797323e8",
+            "sourceImageSha256": "eaedf8056f8a7cea7989be5973aa3e4174db07838fbc558fad8917d9b6a5ec19",
+            "cardSha256": "9c2569dca3d47923111c5f6570cd8a0d3bf34492c2e91e1565f02a59024fe1e3",
+            "thumbnailSha256": "1977063a9f3cede43d335cbcc02954bd26d3b52d8de326cc5b88902369739685",
+            "authorPixelBinding": "0344cfde25f2fe4686d9ee6a77fe984994d3b08eef3c8251544083b8bf8a81dd",
+            "secondPixelBinding": "b757f481fc1a699c97f158946955b04399beef94e5dea37b95667063883b5134"
+          },
+          {
+            "entryId": "fat",
+            "lexicalBinding": "e56a65d482e08cb73f3809c3666e9c9bee283abc9c7fe75094d2efd75948621a",
+            "sourceImageSha256": "7c616c751dca6767075f3289c3f891a4fcc671b199ba56a3be9b8f8aacf46c05",
+            "cardSha256": "36ad40e132d1b90a14469b45488efd1bd83b566bfb7fec440c625c1507e29443",
+            "thumbnailSha256": "5d1dfcf43403897820b7180a681538a0e385cfade2f5f7b1f8fe535c32696364",
+            "authorPixelBinding": "8eedca4aa2821b6099cfcb1b64b30eb2632bc538bde4b99f7ff903eade9489be",
+            "secondPixelBinding": "61780f8cf3da9d51ca8827e4cfde308b22fc4676cd182bd80deecbe7edc6036a"
+          },
+          {
+            "entryId": "fibre",
+            "lexicalBinding": "42b612084fc191ebf57e36b9a807356ce4683f78c65ad3ea417a4aaa1cf5db5c",
+            "sourceImageSha256": "1c65304cdb5b614981455e6a021468e54ce57a0d0784a5f0564bfc91fbbd1aad",
+            "cardSha256": "e53f8888bbe5d955bcf97c1175b7abb8c4bc1940496433fe4a82405a09886744",
+            "thumbnailSha256": "8f1c73d02e35a00387807a81b713ad91034b16e6a32fb280973baeb941fd4964",
+            "authorPixelBinding": "4f6d468ef85bfb7ae7ffdb1391471f62c7ec8cedd13847a42e8188d5034a8a64",
+            "secondPixelBinding": "04430c18d8ecfc92a6ef6d42c937585542f698a26142e4a8c7b31ac19ba3457c"
+          },
+          {
+            "entryId": "vitamin",
+            "lexicalBinding": "8b2b7939e0ac2efcf983907367550d782420b835a7888c52bced743f96ca4ab0",
+            "sourceImageSha256": "c3939081e380733fec23346309bed591906c284fccf122e420f7ce6e8a7cfbdd",
+            "cardSha256": "34aeee6096d909cd035460830f84e9b216dfb761829e2517dde43fb8fc76041d",
+            "thumbnailSha256": "aedbdc249603568700d402ad8bdfd4609dbd28ef7de08f6c9342e792411981bf",
+            "authorPixelBinding": "5ff22ef2535b7f43c65a3515480e3ba1ba89c9edc784a98b369ab1b4fd43b7ce",
+            "secondPixelBinding": "bfa27f528405485e9beaad1c3a1a00d2d6414f92e4f50e32889579346b6a6188"
+          },
+          {
+            "entryId": "enzyme",
+            "lexicalBinding": "99f8479e06735c998396b317caafd739d0627e82b32f5ab78a580475bb6b653c",
+            "sourceImageSha256": "592593c76c71604bdaeba13468b60736b28d9b0ea8e1b9bf57b36b093b7b2e08",
+            "cardSha256": "23a49109bc8adcdda94ad45f11edc5047dfec5d57f8057739ab36e419fbeadbe",
+            "thumbnailSha256": "c5c43ec85ff52917d30c5f7eadf51d3260c902091376f73c6868f9e5680e471e",
+            "authorPixelBinding": "c0b0d7db3cd32b2add265d4c173684eed8e94ef53d49687605c243bf7f03ac92",
+            "secondPixelBinding": "abe74c0ff1182001b86fa4241784c55fe7ee06bf8eecfbe22cdc6d69a78adb70"
+          },
+          {
+            "entryId": "hormone",
+            "lexicalBinding": "138bb17d7ef9d4cedfd602d8a7e6ef65071b7e48f1e8accd992cb3e490d5d983",
+            "sourceImageSha256": "34c06845372bba2dc34a3dd6eacada9c5aedb9540b9dc44e38551175fb0933f0",
+            "cardSha256": "aedf87e8fb7376ecfd2eaee62d9eb623cd6e90eac99715498ac301eefb85b71e",
+            "thumbnailSha256": "a9ccbf835825fa30e793e54dde33601a691670fde4c561c011efab6487247d5a",
+            "authorPixelBinding": "27e81b5f682ec50e5f18d24defc50bce637ac95a4844625c1a25f91f5d3f4d56",
+            "secondPixelBinding": "8ddeaa3fa03f681a4c2ad7a1d9d8611bbd9e36c6f98924f2983f31e515392aa0"
+          },
+          {
+            "entryId": "insulin",
+            "lexicalBinding": "07142bf7ef32f3e3dddead578148f11a5f1a07b247374dd46c6ffb4e2b6d8753",
+            "sourceImageSha256": "854cea5553453901c470c4110d98f2bb136f8a9c2f22b38be4da91620c13caa0",
+            "cardSha256": "d308ba7a6cb337d5f5a9d08a853a8af22b5e10f00e260973c777ecc0a7780ebb",
+            "thumbnailSha256": "e173db2890beda893b345e165a53d40ff6c01a46a466b69b15ac2dec448775cf",
+            "authorPixelBinding": "ebd4b7f39ac29f85d1edff2029103cfaf4930a32c6ffb5a12ce09f95712a0d37",
+            "secondPixelBinding": "8a3a8d30a13669596cd584d8ae84ba98233714cb01c0711b93394f6d4a0b1997"
+          },
+          {
+            "entryId": "glucose",
+            "lexicalBinding": "1f35e60e13777a9502012dfc1ea92125526838a0f401475c5bc270321f3e0f2f",
+            "sourceImageSha256": "e885827da72b43464a603751a4544ac0d46d3df6c5188d24f73bbf0ef43ea7e2",
+            "cardSha256": "127183f194ede942a93238302a9309369e519b92fa5776ab497123479c061a76",
+            "thumbnailSha256": "9aac30a3ae2b55fed21d7fdf57515b45fa53d5331b300217078ccb25b8f1b3a4",
+            "authorPixelBinding": "3595e89c7c2f872b1e6ad42ad5f5b21153610e6d11a36896feb713b4e2eb5edb",
+            "secondPixelBinding": "8aa9f11e1a0a72d071e4e0b4836f827ecc9c85a1d0adc248e6a821bbb9840078"
+          },
+          {
+            "entryId": "glycogen",
+            "lexicalBinding": "15b086db7d589a6b5626c92fbd2ad5e477ad0f61e04814511c434c43ea5ffa59",
+            "sourceImageSha256": "290fdabd65135199875b98b5ef4a92aa1b2d8ceb312333a97e217ad90024ffa3",
+            "cardSha256": "4ef093ec7f5da92eb8584f074e23ed86b5272851d18a82c428f878783cfdf9f6",
+            "thumbnailSha256": "db6ceb3f1aede52d69515210b878d240224acd35726afedbd09eb4a9fe71b079",
+            "authorPixelBinding": "69c3e0caa11b21d3ea2dc3812c221366388a8e22e37959fda18ff5fe98b500cc",
+            "secondPixelBinding": "2db448e8887296724fd05937d3b76c7623efa4a477e86c96fb6cc0656cd15821"
+          },
+          {
+            "entryId": "electrolyte",
+            "lexicalBinding": "f7eb2559d7312cc78ccc238a85c74451715836e3072dce7a5afe1536d6191e9e",
+            "sourceImageSha256": "07dd668c86d3349ad226125ff7707e6fd7ed51789732a964b8e47e260ccb149c",
+            "cardSha256": "a1d42e438cddbc0cb340a973c876d3c53433e79c88f3252c2cae37d4809ebbda",
+            "thumbnailSha256": "20cccab299a98bea10e918a2ab9442cb320e300cee140b61376090bca279cbb9",
+            "authorPixelBinding": "8fbf211470fc235272d311eb9a3a32aa88aeaeb847cef2c8f4e1be9c07085ae2",
+            "secondPixelBinding": "fee369ed0b123635e11e309c66bd7d806222fa97768a0f961e4e9c96c6382270"
+          },
+          {
+            "entryId": "guard",
+            "lexicalBinding": "062f83c190b616d32d1f36cd52ab7ece9387cef141aea73c633fdba736371823",
+            "sourceImageSha256": "c2bdf286801d3d26f42500f6826290fc8ac581593376ca8bdf28c1b37b00fb94",
+            "cardSha256": "1314e67957b7d9aa5c2369363aa9c8c7c0b3bf7436aaf2f1dc4363c31ee2b1e7",
+            "thumbnailSha256": "e0f2dd9c9fae8bca6b9211fc0a055017988cb2275441494a5391c82acbb44e02",
+            "authorPixelBinding": "cbc99a5b40aab4e6d05e1d34b4fe6cb3314e018c83c478f3f162fa3aaa1df9ad",
+            "secondPixelBinding": "52bac5ff61f4f0d0f659d452b3cb5926231a5f3dd8f384a6072b976c7eb5c406"
+          },
+          {
+            "entryId": "interlock",
+            "lexicalBinding": "e293fb801c3bb17244fb6080d09e5475041bb5f554ee691f6aeaccaed90cefd2",
+            "sourceImageSha256": "aa32c61d3d37cda03c95a57a03b3e5860a57cdb4bac5c1e580d0ef401bc73a90",
+            "cardSha256": "d120c215cb192860eb4b24825f7bc0e9c974123c5bb83e5020e4b4f9ceb8b34a",
+            "thumbnailSha256": "ad55bb0b080f26eef9aa58cc1e2f7d5a904973ddc888e3ad04e7ed330fa1b5b0",
+            "authorPixelBinding": "27538c5ed81e5cd937b3f94c49a08d50616ccc1924eb932bde521d7771ece2ba",
+            "secondPixelBinding": "ea029151a2ced856d4a19294afca6b732d8dafe9e1b38e3b2b1545b522adcbcd"
+          },
+          {
+            "entryId": "light-curtain",
+            "lexicalBinding": "fb716b3b132582e370d48c50890d3012320f00bef1140c1ac0701b67c64ffa14",
+            "sourceImageSha256": "f15b49ff686d94713824a87a7a193395f2accda280fa172bb35f81a4408b5b61",
+            "cardSha256": "f73f0f63d4902f8b1a9c657c131c94fa9360b419e3a71f4c5a357ccde7be295a",
+            "thumbnailSha256": "72a6fd599f34ec0bbdc3493d64dcab5850c807fe84cb92ffed115fcd4da4e20c",
+            "authorPixelBinding": "448e338de3d3256767cc66ec556bf21f7582ee55d0fcc0ff3a43782984a41c56",
+            "secondPixelBinding": "776567b652103606580e37c71be32e943e4b9360814a5d8a5f605b53f3d4b5d7"
+          },
+          {
+            "entryId": "enclosure",
+            "lexicalBinding": "1cf537576ea6548f61d9d31e2265ae4abf9acebe31a6631985687fe50fa3429c",
+            "sourceImageSha256": "9db999d68f65e3fdd02daab9c894a94c3fd331cd8d59b2a5f7f6f06ab42618d6",
+            "cardSha256": "e6f0315ae7728579c9c4beba050660ab86005d34776b2a87dbde9f7fbc80c823",
+            "thumbnailSha256": "44096f5dafa3a1d2205f292bd47ba157bfa5f801f0a9b09a228846e405a1279b",
+            "authorPixelBinding": "fc4e877a31067baa5ebfe6b36b5b04a5da3d43de245d6b796f4ce7eb7bf7657a",
+            "secondPixelBinding": "104df3e482f01079a9072c02a9b50dab6ce3339c3ae48ca96640e89947fedfa1"
+          },
+          {
+            "entryId": "welding-helmet",
+            "lexicalBinding": "9b8ff7b7c1ba99196239658356358aa5eec937702ec2420ead2cb8a3daa3a678",
+            "sourceImageSha256": "c8fe1ad4253ad8b1450900421f103d190bf73f3bee7031ce8b4a510ac3f22ba9",
+            "cardSha256": "e4f0ee00c9eca2e0adf0b3197c6cb6726c6620a3bd0d5e646b3ae7a9f9d9f38b",
+            "thumbnailSha256": "b7174d5238fa39e69e973a83829c94602823b84f23bb9f74bba480e1fadba0ad",
+            "authorPixelBinding": "2709377107def8bcad098c1f5a34584198424ccfa7dc88ed02b7d9a2131c4290",
+            "secondPixelBinding": "34edaea9cb763061898641ba0bb0e9b92f6a50c3f2c4f4eb8533f3a66bae3489"
+          },
+          {
+            "entryId": "filler-rod",
+            "lexicalBinding": "78a3977468d55f4c23bd337a218f26e4b7d9ed8cf3cf3c2b34098b9379561b96",
+            "sourceImageSha256": "9d1b3370abebf0066f9a3fda8abf5cd833eb3120b9007b9af3b597ac3a76197b",
+            "cardSha256": "ebb69ebb69f6b4341bb9a371e6024536df6fc3b0c17ae5f15ecca97d66a0dbda",
+            "thumbnailSha256": "3488c1c8941c5d191b89b91554b712d9cbcd6a5a4738cbfc44d93d450c904b9b",
+            "authorPixelBinding": "0923b985322d712d31b210f900304621368e4f12fe33cb6f7f2d18d29850135a",
+            "secondPixelBinding": "8d670fab3281a2d3747ef4feb862f19d87ae82c4858a7cda20958c9be8a5be40"
+          },
+          {
+            "entryId": "weld-bead",
+            "lexicalBinding": "83cab78a6335a46ccabecb372bb84161cedbf3db76d125f3cec728a565aa8ca6",
+            "sourceImageSha256": "80c3e25aa6ca6f9d4c80e56dc25be4adb53197414ba4ac363a346e11d00ede5e",
+            "cardSha256": "49213e3e0fa2d37faed811c61c50bc171aa33fa0d5339cb16064d13c452b5948",
+            "thumbnailSha256": "b9b7512a3d95a8be7ccaf5b7c579ecb553880fc6d55f90fea0393d04eb718039",
+            "authorPixelBinding": "d37b2002521f16236808f4e553d03300cbe26c16c6994af42e6ce670ee59718d",
+            "secondPixelBinding": "45e689a5fda0d487ee272107e23b629165daf18fcce0fa6f634a88522a1acaf0"
+          },
+          {
+            "entryId": "weld-pool",
+            "lexicalBinding": "424437e4b29cbe4223539dd30d87b87033c758a8ad021f60db4a6fd427368d41",
+            "sourceImageSha256": "85b6bd3bc2f7c7420d565c28d857d6e1d9d5c42e7243c192670045eb3b3cdd9a",
+            "cardSha256": "933d54abc86d23e63a53602e610b805f994f75eade1ee14aedc7951042e100f3",
+            "thumbnailSha256": "5b7aaceed49af03c6837f73ee6a6380c044bf28c748dd3ae4b3770f17fbed7f7",
+            "authorPixelBinding": "a13fc20b4217e6cc654aa918158251271840b6a6b3e17647bf21d0812ff6a59e",
+            "secondPixelBinding": "12baddf820efe3be905f129173a2061dec9cdf2d10e7f76af598aaaabce60a87"
+          },
+          {
+            "entryId": "corrosion",
+            "lexicalBinding": "cae603c24c37541d3a5c450af1c0f1a01883e6887eebd5e91268f2af3028b00b",
+            "sourceImageSha256": "f0aa7aff009bceb62b244fcd69132268caba26a21fe87cc4f762878b18bfd09e",
+            "cardSha256": "377bf3818873f6df5ffcf2320fea31b130b463eb7a92608f8e87e1456cf2d6a9",
+            "thumbnailSha256": "fd60411c5a2343ebcf3a65c8ac89a17fee86279366a61c20dd2ec8044e416682",
+            "authorPixelBinding": "cb220bbabdd2f325286b68690682fa802a24d2bea7e9e2c42a7e9a27ccd7266f",
+            "secondPixelBinding": "554b5d15a76a061e55c0b5d0449cd9d5441fa96a57bbe4ba3d3bbadb21d9f177"
+          },
+          {
+            "entryId": "ductility",
+            "lexicalBinding": "6651190c6a69fd01c8483b0c85f4b49355f42b4e155eeab8cd19da46f8318108",
+            "sourceImageSha256": "08ecd814beb3fd5e46f4c1c2942ec751423e934e54b9f82c9ce8da198c8c7085",
+            "cardSha256": "0bf4ac5232121b024635faccb21d1a41befdc26fdeecb741b7bb4dcc1278bc73",
+            "thumbnailSha256": "d6baba9f6a8089d9e16d85339b3678f83b420b66e5ab110051fbf652a54f25cd",
+            "authorPixelBinding": "03b543d06c98b825d922ec91bdd8f5d838910cf291eddd42200323b3584a4ce1",
+            "secondPixelBinding": "4cd711d86e5e0a7f68a1e03884c06995c17632f6cdf8d57915003528a6eade31"
+          },
+          {
+            "entryId": "brittleness",
+            "lexicalBinding": "5fcfa52a085c135dccc2926a530ab878df0b94509e6e88c0c00a89cc3fe361ed",
+            "sourceImageSha256": "c8e698c745784b14780dc1d89a9e6e427c6dd33c66eeb10456647f7f3a2fd624",
+            "cardSha256": "6d5859b51bec69473531ccf9833200b27850e6f2031699b351611c8104c877fc",
+            "thumbnailSha256": "82da23a9db9683c328290d598d2b31cb457fb4b0120430fd871596a3767bb72c",
+            "authorPixelBinding": "e43c6a5d36e1b568c832c7bab72f38644876a367e589eb23fe7ed3edc7f9a718",
+            "secondPixelBinding": "465ffef208a7f872c8041e15d8c103d07ef5a8c34efc3ab9a02e1a94d586a9e4"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 454,
+          "targetCategoryWords": 466,
+          "entryIds": [
+            "nutrient",
+            "protein",
+            "carbohydrate",
+            "fat",
+            "fibre",
+            "vitamin",
+            "enzyme",
+            "hormone",
+            "insulin",
+            "glucose",
+            "glycogen",
+            "electrolyte"
+          ],
+          "units": [
+            {
+              "id": "medical-nutrition-nutrients",
+              "title": "Nutrition and nutrients",
+              "entryIds": [
+                "nutrient",
+                "protein",
+                "carbohydrate",
+                "fat",
+                "fibre",
+                "vitamin"
+              ]
+            },
+            {
+              "id": "medical-cellular-endocrine-physiology",
+              "title": "Cellular and endocrine physiology",
+              "entryIds": [
+                "enzyme",
+                "hormone",
+                "insulin",
+                "glucose",
+                "glycogen",
+                "electrolyte"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 453,
+          "targetCategoryWords": 464,
+          "entryIds": [
+            "guard",
+            "interlock",
+            "light-curtain",
+            "enclosure",
+            "welding-helmet",
+            "filler-rod",
+            "weld-bead",
+            "weld-pool",
+            "corrosion",
+            "ductility",
+            "brittleness"
+          ],
+          "units": [
+            {
+              "id": "industrial-guarding-and-enclosures",
+              "title": "Industrial guarding and enclosures",
+              "entryIds": [
+                "guard",
+                "interlock",
+                "light-curtain",
+                "enclosure"
+              ]
+            },
+            {
+              "id": "welding-equipment-and-weld-features",
+              "title": "Welding equipment and weld features",
+              "entryIds": [
+                "welding-helmet",
+                "filler-rod",
+                "weld-bead",
+                "weld-pool"
+              ]
+            },
+            {
+              "id": "materials-properties-and-degradation",
+              "title": "Material properties and degradation",
+              "entryIds": [
+                "corrosion",
+                "ductility",
+                "brittleness"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "parentBatchId": "specialist-500-batch-36",
+      "completedAt": "2026-10-30T17:09:34.981Z",
+      "factualReferences": [
+        {
+          "entryId": "nutrient",
+          "url": "https://medlineplus.gov/nutrition.html",
+          "title": "MedlinePlus — Nutrition",
+          "use": "Actually checked nutrient classes and their roles in providing energy and supporting body functions. Factual text check only; no protected definitions, recommendations or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "protein",
+          "url": "https://www.genome.gov/genetics-glossary/Protein",
+          "title": "NHGRI — Protein",
+          "use": "Actually checked amino-acid chains and varied structural/cellular functions. Factual text check only; no protected definitions, recommendations or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "carbohydrate",
+          "url": "https://medlineplus.gov/carbohydrates.html",
+          "title": "MedlinePlus — Carbohydrates",
+          "use": "Actually checked sugar, starch and fibre distinctions, single units versus complex chains and digestive differences. Factual text check only; no protected definitions, recommendations or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "fat",
+          "url": "https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+          "title": "OpenStax Biology 2e — Connections of Carbohydrate, Protein, and Lipid Metabolic Pathways",
+          "use": "Actually checked triglyceride glycerol/three-fatty-acid structure and energy-storage context. Factual text check only; no protected definitions, recommendations or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "fibre",
+          "url": "https://medlineplus.gov/dietaryfiber.html",
+          "title": "MedlinePlus — Dietary Fiber",
+          "use": "Actually checked plant-food fibre and soluble/insoluble categories. Factual text check only; no protected definitions, recommendations or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "vitamin",
+          "url": "https://medlineplus.gov/vitamins.html",
+          "title": "MedlinePlus — Vitamins",
+          "use": "Actually checked distinct vitamin types and their specific body roles. Factual text check only; no protected definitions, recommendations or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "enzyme",
+          "url": "https://www.genome.gov/genetics-glossary/Enzyme",
+          "title": "NHGRI — Enzyme",
+          "use": "Actually checked biological catalysis, reuse after reaction and protein versus catalytic RNA distinction. Factual text check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "hormone",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/hormone",
+          "title": "NCI — Hormone",
+          "use": "Actually checked blood-borne chemical messaging and effects on particular target cells or organs. Factual text check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "hormone",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-2-hormones",
+          "title": "OpenStax Anatomy and Physiology 2e — Hormones",
+          "use": "Actually checked target-cell receptor specificity and membrane versus intracellular receptor locations. Factual text check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "insulin",
+          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance",
+          "title": "NIDDK — Insulin Resistance and Prediabetes",
+          "use": "Actually checked pancreatic hormone identity and differing muscle, fat and liver responses; no diagnostic thresholds or treatment advice adopted. Factual text check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "insulin",
+          "url": "https://www.collinsdictionary.com/dictionary/english/insulin",
+          "title": "Collins — Insulin pronunciation",
+          "use": "Actually checked British and American IPA variants only; definitions and examples were not copied. Factual text check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "glucose",
+          "url": "https://medlineplus.gov/carbohydrates.html",
+          "title": "MedlinePlus — Carbohydrates",
+          "use": "Actually checked simple-sugar identity, blood/cellular energy context and storage distinction. Factual text check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "glycogen",
+          "url": "https://openstax.org/books/concepts-biology/pages/2-3-biological-molecules",
+          "title": "OpenStax Concepts of Biology — Biological Molecules",
+          "use": "Actually checked highly branched glucose polymer and liver/muscle storage context. Factual text check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "electrolyte",
+          "url": "https://medlineplus.gov/lab-tests/electrolyte-panel/",
+          "title": "MedlinePlus — Electrolyte Panel",
+          "use": "Actually checked charged mineral/ion examples in body fluids and fluid, nerve and muscle functions; no values or interpretations adopted. Factual text check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "fibre",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gas-digestive-tract/symptoms-causes",
+          "title": "NIDDK — Symptoms and Causes of Gas in the Digestive Tract",
+          "use": "Actually checked that some undigested carbohydrates/fibre reach the large intestine and are broken down by bacteria. Factual text check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "vitamin",
+          "url": "https://ods.od.nih.gov/factsheets/VitaminD-Consumer/",
+          "title": "NIH ODS — Vitamin D, consumer fact sheet",
+          "use": "Actually checked calcium-absorption role only; no dose, threshold, supplement or clinical-outcome advice adopted. Factual text check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "vitamin",
+          "url": "https://ods.od.nih.gov/factsheets/VitaminC-Consumer/",
+          "title": "NIH ODS — Vitamin C, consumer fact sheet",
+          "use": "Actually checked collagen-production role and water-soluble identity; no dose or supplement advice adopted. Factual text check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "protein",
+          "url": "https://www.medlineplus.gov/ency/article/002467.htm",
+          "title": "MedlinePlus — Protein in Diet",
+          "use": "Actually checked digestion into amino acids and plant/animal food examples as factual background only. Factual text check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and qualified specialist review pending."
+        },
+        {
+          "entryId": "guard",
+          "url": "https://www.osha.gov/etools/machine-guarding/introduction/general-requirements",
+          "title": "OSHA — Machine guarding: general requirements",
+          "use": "Actual official explanatory text read for barrier guards around moving parts and attachment to a machine or support. Used only for the selected physical-barrier vocabulary relationship, not legal advice, dimensions, compliance or a copied guard design."
+        },
+        {
+          "entryId": "interlock",
+          "url": "https://www.hse.gov.uk/agriculture/topics/machinery/safe-use-4.htm",
+          "title": "HSE — Guarding: general advice",
+          "use": "Actual official text read for the distinction between physical guards and guard-associated switching conditions. Original noun wording and generic separate actuator/switch example; no operation, restart behavior, circuit validation or installation guidance inferred from a static picture."
+        },
+        {
+          "entryId": "interlock",
+          "url": "https://www.osha.gov/sites/default/files/2020-04/Trainer%26%23039%3Bs%20Guide_0.pdf",
+          "title": "OSHA — Machine guarding trainer guide",
+          "use": "Indexed primary PDF passage actually read on interlocked-guard condition and the distinction between closure and automatic restart. No claim to full-manual or installation inspection; no operational checklist reproduced."
+        },
+        {
+          "entryId": "light-curtain",
+          "url": "https://www.ifm.com/us/en/us/learn-more/safety/light-curtains/technology/light-curtains-technology",
+          "title": "ifm — Safety light curtains and grids: technology",
+          "use": "Actual manufacturer terminology section read for opposed emitter/receiver and multiple infrared sensing paths. Used for original vocabulary and qualitative invisible-beam explanation; no spacing, wiring, safety outputs, standards, muting settings or product ratings adopted."
+        },
+        {
+          "entryId": "light-curtain",
+          "url": "https://www.sick.com/pl/en/glossary/safety-light-curtain/g/p501060",
+          "title": "SICK — Safety light curtain glossary",
+          "use": "Indexed primary glossary text actually read for sender/receiver and interrupted protective field. Direct page fetch returned a cache miss; full live page inspection is not claimed. Corroborated with the successfully opened ifm terminology text."
+        },
+        {
+          "entryId": "enclosure",
+          "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.449",
+          "title": "OSHA — Electrical definitions: enclosure",
+          "use": "Actual official enclosure, cabinet and guarded definitions read to select the protective housing noun, distinct from populated electrical distribution equipment. Only stable technical word relationships used; no electrical-law interpretation, equipment approval or enclosure rating copied."
+        },
+        {
+          "entryId": "welding-helmet",
+          "url": "https://www.ccohs.ca/oshanswers/safety_haz/welding/ppe.html",
+          "title": "CCOHS — Welding: personal protective equipment and clothing",
+          "use": "Actual official eye/face and helmet-component text read for head-worn shell and viewing-filter identity, distinct from ordinary transparent face shields. Original generic object wording; no shade selection, protective completeness, respirator claim, standards or procedural advice reproduced."
+        },
+        {
+          "entryId": "filler-rod",
+          "url": "https://www.keyence.com/ss/products/measure/welding/arc/tig.jsp",
+          "title": "KEYENCE — TIG welding",
+          "use": "Actual manufacturer explanation and component terminology read for separate filler rod versus non-consumable tungsten electrode. Original qualitative vocabulary, no process settings, torch angle, wiring, speed or artwork copied."
+        },
+        {
+          "entryId": "filler-rod",
+          "url": "https://www.keyence.com/ss/products/measure/welding/glossary/",
+          "title": "KEYENCE — Welding glossary: filler material",
+          "use": "Actual primary terminology text read for filler material in rod/wire forms. Original learner wording, not copied definitions or art; no material or diameter specification."
+        },
+        {
+          "entryId": "weld-bead",
+          "url": "https://www.keyence.com/ss/products/measure/welding/glossary/",
+          "title": "KEYENCE — Welding glossary: bead and weld pool",
+          "use": "Actual primary glossary distinctions read for finished bead surface versus local molten weld pool. Original learner definitions and examples, no measurement data, acceptance criteria, surface-quality guarantee or artwork copied."
+        },
+        {
+          "entryId": "weld-pool",
+          "url": "https://www.keyence.com/ss/products/measure/welding/glossary/",
+          "title": "KEYENCE — Welding glossary: weld pool",
+          "use": "Actual primary definition read for the local molten region during fusion welding. Used as a stable factual distinction from solid bead, not copied prose or pictures."
+        },
+        {
+          "entryId": "weld-pool",
+          "url": "https://www.twi-global.com/technical-knowledge/faqs/faq-what-is-weld-metal",
+          "title": "TWI — What is weld metal?",
+          "use": "Actual primary technical explanation read for melting/re-solidification and the fact that some welding uses no added filler. Original distinctions, no product artwork or process specification reproduced."
+        },
+        {
+          "entryId": "corrosion",
+          "url": "https://www.ampp.org/technical-research/what-is-corrosion",
+          "title": "AMPP — What is corrosion?",
+          "use": "Actual professional-body text read for environmental chemical/electrochemical deterioration, rust as one example and visible pitting. Original selected-metal wording; no mechanism diagnosis, remaining-life assessment, chemistry recipe or protection design claimed."
+        },
+        {
+          "entryId": "ductility",
+          "url": "https://www-pub.iaea.org/MTCD/publications/PDF/TCS-11.pdf",
+          "title": "IAEA — Training Course Series 11: properties of materials, printed page25",
+          "use": "Actual official PDF section on ductility/malleability/brittleness read around printed pages25–26. Used for plastic tensile elongation versus elastic recovery/compressive formability, without borrowing numeric thresholds, universal material stereotypes, figures or testing instructions."
+        },
+        {
+          "entryId": "brittleness",
+          "url": "https://www-pub.iaea.org/MTCD/publications/PDF/TCS-11.pdf",
+          "title": "IAEA — Training Course Series 11: properties of materials, printed page25",
+          "use": "Actual official PDF brittleness and notch-toughness passages read for fracture with little plastic deformation and distinction from hardness/strength. Original limited teaching description; no numeric fracture criterion, exact material classification or copied test diagram."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,
