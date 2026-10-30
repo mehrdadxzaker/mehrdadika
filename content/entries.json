@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-37",
+  "releaseId": "2026-10-preview-38",
   "channel": "preview",
-  "createdAt": "2026-10-30T04:24:48.154Z",
+  "createdAt": "2026-10-30T05:30:03.799Z",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -61631,6 +61631,690 @@
       "tip": "bill of materials یا BOM فهرستِ اجزا و مقدارهای مربوط به محصول است، نه صورت‌حسابِ پرداخت و نه خودِ نقشهٔ مونتاژ. شناسه‌های فهرست باید با قطعاتِ نشان‌داده‌شده یکسان باشند. جدولِ سادهٔ این تصویر فقط اقلامِ همان نمونه را پوشش می‌دهد؛ مقدارها اندازه، تلرانس یا دستورِ ساخت نیستند.",
       "media": {
         "img": "atlas/img/bill-of-materials.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "medical-history",
+      "w": "medical history",
+      "uk": "/ˌmedɪkəl ˈhɪstəri/",
+      "us": "/ˌmedɪkəl ˈhɪstəri/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "medical-history:meaning-1",
+          "pos": "n.",
+          "fa": "شرح حال پزشکی؛ سابقهٔ پزشکی",
+          "en": "Information about a person’s past and present health, including illnesses, treatments and other relevant experiences.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The clinician asked about the patient’s medical history before the examination.",
+          "fa": "درمانگر پیش از معاینه دربارهٔ سابقهٔ پزشکیِ بیمار پرسید.",
+          "senseId": "medical-history:meaning-1"
+        },
+        {
+          "en": "She mentioned a previous operation and the medicines she currently takes.",
+          "fa": "او به یک عملِ جراحیِ قبلی و داروهایی که اکنون مصرف می‌کند اشاره کرد.",
+          "senseId": "medical-history:meaning-1"
+        }
+      ],
+      "col": [
+        "take a medical history｜گرفتنِ شرح حالِ پزشکی",
+        "a detailed medical history｜شرح حالِ پزشکیِ دقیق",
+        "review the medical history｜مرورِ سابقهٔ پزشکی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "medical history اینجا اطلاعاتِ سلامتِ فرد است؛ medical record پرونده‌ای است که این اطلاعات و یافته‌های دیگر را ثبت می‌کند. history در این ترکیب فقط تاریخِ یک رویداد نیست. اطلاعاتِ خانوادگی یا اجتماعی هم می‌تواند به شرح حال مربوط باشد؛ هیچ نام یا دادهٔ واقعیِ بیمار لازم نیست.",
+      "media": {
+        "img": "atlas/img/medical-history.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "diagnosis",
+      "w": "diagnosis",
+      "uk": "/ˌdaɪəɡˈnəʊsɪs/",
+      "us": "/ˌdaɪəɡˈnoʊsɪs/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "diagnosis:meaning-1",
+          "pos": "n.",
+          "fa": "تشخیص",
+          "en": "The identification of a disease, condition or injury through assessment of relevant information and findings.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The clinician discussed the diagnosis with the patient after reviewing the results.",
+          "fa": "درمانگر پس از مرورِ نتایج، دربارهٔ تشخیص با بیمار گفت‌وگو کرد.",
+          "senseId": "diagnosis:meaning-1"
+        },
+        {
+          "en": "The team requested further tests to clarify the cause of the symptoms.",
+          "fa": "گروه برای روشن شدنِ علتِ علائم، آزمایش‌های بیشتری درخواست کرد.",
+          "senseId": "diagnosis:meaning-1"
+        }
+      ],
+      "col": [
+        "make a diagnosis｜رسیدن به تشخیص",
+        "a confirmed diagnosis｜تشخیصِ تأییدشده",
+        "an early diagnosis｜تشخیصِ زودهنگام"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "diagnosis پاسخ به این پرسش است که چه بیماری یا وضعیتی وجود دارد؛ prognosis دربارهٔ سیرِ احتمالیِ آینده است. جمعِ انگلیسیِ آن diagnoses است. تشخیص ممکن است با اطلاعاتِ تازه تغییر کند؛ گردآوریِ شواهد در یک تصویر، تشخیصِ واقعی یا قطعی را ثابت نمی‌کند.",
+      "media": {
+        "img": "atlas/img/diagnosis.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "prognosis",
+      "w": "prognosis",
+      "uk": "/prɒɡˈnəʊsɪs/",
+      "us": "/prɑːɡˈnoʊsɪs/",
+      "cefr": "C1",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "prognosis:meaning-1",
+          "pos": "n.",
+          "fa": "پیش‌آگهی",
+          "en": "An assessment of how a disease or medical condition is likely to develop and what its outcome may be.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The clinician explained the prognosis and the uncertainty that remained.",
+          "fa": "درمانگر پیش‌آگهی و عدمِ قطعیتِ باقی‌مانده را توضیح داد.",
+          "senseId": "prognosis:meaning-1"
+        },
+        {
+          "en": "The team reviewed the outlook as more information became available.",
+          "fa": "گروه با فراهم شدنِ اطلاعاتِ بیشتر، چشم‌اندازِ آینده را دوباره بررسی کرد.",
+          "senseId": "prognosis:meaning-1"
+        }
+      ],
+      "col": [
+        "a favourable prognosis｜پیش‌آگهیِ مساعد",
+        "a poor prognosis｜پیش‌آگهیِ نامساعد",
+        "discuss the prognosis｜گفت‌وگو دربارهٔ پیش‌آگهی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "prognosis پیش‌بینیِ سنجیده دربارهٔ سیر و پیامد است، نه نامِ بیماری و نه تضمینِ بهبودی. diagnosis شناساییِ وضعیتِ کنونی است. پیش‌آگهی به اطلاعاتِ موجود وابسته است و می‌تواند تغییر کند؛ مسیرهای احتمالی نباید به‌صورتِ نتیجهٔ قطعی نشان داده شوند.",
+      "media": {
+        "img": "atlas/img/prognosis.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "prevention",
+      "w": "prevention",
+      "uk": "/prɪˈvenʃən/",
+      "us": "/prɪˈvenʃən/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "prevention:meaning-1",
+          "pos": "n.",
+          "fa": "پیشگیری",
+          "en": "Action taken to reduce the likelihood that a disease, injury or other health problem will occur.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Prevention was a central topic in the community health programme.",
+          "fa": "پیشگیری موضوعِ اصلیِ برنامهٔ سلامتِ جامعه بود.",
+          "senseId": "prevention:meaning-1"
+        },
+        {
+          "en": "The team discussed ways to reduce injuries before they happened.",
+          "fa": "گروه دربارهٔ راه‌های کاهشِ آسیب‌ها پیش از وقوعِ آن‌ها گفت‌وگو کرد.",
+          "senseId": "prevention:meaning-1"
+        }
+      ],
+      "col": [
+        "disease prevention｜پیشگیری از بیماری",
+        "injury prevention｜پیشگیری از آسیب",
+        "a prevention programme｜برنامهٔ پیشگیری"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "prevention در این معنا کاهشِ احتمالِ بروزِ مشکلِ سلامت است؛ treatment درمانِ مشکلی است که وجود دارد. پیشگیری همیشه خطر را به صفر نمی‌رساند. این واژه نامِ یک دارو یا روشِ واحد نیست و هر تصویر فقط نمونه‌ای از یک اقدامِ پیشگیرانه است.",
+      "media": {
+        "img": "atlas/img/prevention.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "risk-factor",
+      "w": "risk factor",
+      "uk": "/ˈrɪsk ˌfæktə/",
+      "us": "/ˈrɪsk ˌfæktər/",
+      "cefr": "B2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "risk-factor:meaning-1",
+          "pos": "n.",
+          "fa": "عاملِ خطر",
+          "en": "A characteristic, condition or exposure associated with an increased likelihood of a particular health problem.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The study examined age as a risk factor for the condition.",
+          "fa": "مطالعه سن را به‌عنوانِ عاملِ خطرِ آن وضعیت بررسی کرد.",
+          "senseId": "risk-factor:meaning-1"
+        },
+        {
+          "en": "The clinician considered several factors rather than a single feature.",
+          "fa": "درمانگر به‌جای یک ویژگیِ منفرد، چندین عامل را در نظر گرفت.",
+          "senseId": "risk-factor:meaning-1"
+        }
+      ],
+      "col": [
+        "a major risk factor｜عاملِ خطرِ مهم",
+        "a modifiable risk factor｜عاملِ خطرِ تغییرپذیر",
+        "identify a risk factor｜شناساییِ عاملِ خطر"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "risk factor با افزایشِ احتمال همراه است؛ داشتنِ آن به‌معنیِ ابتلای قطعی نیست و هر ارتباطی به‌تنهایی علت بودن را ثابت نمی‌کند. بعضی عوامل تغییرپذیرند و بعضی نیستند. risk خودِ احتمال است؛ risk factor ویژگی یا مواجههٔ مرتبط با آن است.",
+      "media": {
+        "img": "atlas/img/risk-factor.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "contraindication",
+      "w": "contraindication",
+      "uk": "/ˌkɒntrəˌɪndɪˈkeɪʃən/",
+      "us": "/ˌkɑːntrəˌɪndɪˈkeɪʃən/",
+      "cefr": "C2",
+      "topic": "medicine-healthcare",
+      "domainIds": [
+        "medicine-healthcare"
+      ],
+      "senses": [
+        {
+          "id": "contraindication:meaning-1",
+          "pos": "n.",
+          "fa": "موردِ منعِ مصرف یا اقدام",
+          "en": "A circumstance that makes a particular treatment or procedure unsuitable because it may cause harm.",
+          "domainIds": [
+            "medicine-healthcare"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The clinician checked for a contraindication before choosing the treatment.",
+          "fa": "درمانگر پیش از انتخابِ درمان، وجودِ موردِ منعِ آن را بررسی کرد.",
+          "senseId": "contraindication:meaning-1"
+        },
+        {
+          "en": "The team discussed whether the proposed procedure was suitable for that patient.",
+          "fa": "گروه دربارهٔ مناسب بودنِ اقدامِ پیشنهادی برای آن بیمار گفت‌وگو کرد.",
+          "senseId": "contraindication:meaning-1"
+        }
+      ],
+      "col": [
+        "a contraindication to treatment｜موردِ منعِ درمان",
+        "an absolute contraindication｜موردِ منعِ مطلق",
+        "a relative contraindication｜موردِ منعِ نسبی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "contraindication دلیلِ نامناسب بودنِ یک درمان یا اقدام در شرایطی مشخص است؛ side effect پیامدِ ناخواستهٔ آن است. نوعِ مطلق و نسبی یکسان نیستند و سنجشِ آن‌ها به زمینهٔ بالینی وابسته است. این مدخل هیچ دارو، وضعیت یا منعِ مشخصی را برای تصمیمِ درمانی توصیه نمی‌کند.",
+      "media": {
+        "img": "atlas/img/contraindication.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "datum",
+      "w": "datum",
+      "uk": "/ˈdeɪtəm/",
+      "us": "/ˈdeɪtəm/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "datum:meaning-1",
+          "pos": "n.",
+          "fa": "مبنای هندسی",
+          "en": "An ideal geometric reference, such as a plane, line or point, established from specified part features to locate or measure other features.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The datum provides the reference plane for locating the hole.",
+          "fa": "مبنای هندسی صفحهٔ مرجعِ تعیینِ موقعیتِ سوراخ را فراهم می‌کند.",
+          "senseId": "datum:meaning-1"
+        },
+        {
+          "en": "Measurements were related to that reference rather than an arbitrary edge.",
+          "fa": "اندازه‌گیری‌ها به آن مرجع وابسته بودند، نه به لبه‌ای دلخواه.",
+          "senseId": "datum:meaning-1"
+        }
+      ],
+      "col": [
+        "a datum plane｜یک صفحهٔ مبنا",
+        "a datum reference｜یک مرجعِ مبنا",
+        "establish a datum｜تعیینِ یک مبنای هندسی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "datum در این معنا مرجعِ هندسیِ ایدئال است؛ datum feature ویژگیِ فیزیکیِ قطعه است که مرجع از آن تعیین می‌شود. سطحِ واقعی می‌تواند ناهموار باشد و خودِ صفحهٔ ایدئال نیست. با یک دادهٔ آماری یا datum در کاربردهای دیگر اشتباه نشود؛ شکلِ مفهومی به‌تنهایی انطباقِ تلرانسی را ثابت نمی‌کند.",
+      "media": {
+        "img": "atlas/img/datum.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "centreline",
+      "w": "centreline",
+      "uk": "/ˈsentəlaɪn/",
+      "us": "/ˈsentərlaɪn/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "centreline:meaning-1",
+          "pos": "n.",
+          "fa": "خطِ محور؛ خطِ مرکز",
+          "en": "A drawing line identifying the centre or axis of a circular, cylindrical or symmetrical feature.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The centreline passes through the centre of the circular hole.",
+          "fa": "خطِ محور از مرکزِ سوراخِ دایره‌ای می‌گذرد.",
+          "senseId": "centreline:meaning-1"
+        },
+        {
+          "en": "It identifies the axis without representing a solid edge.",
+          "fa": "این خط محور را مشخص می‌کند، نه یک لبهٔ جامد را.",
+          "senseId": "centreline:meaning-1"
+        }
+      ],
+      "col": [
+        "a hole centreline｜خطِ محورِ سوراخ",
+        "a centreline on a drawing｜خطِ محور در نقشه",
+        "draw a centreline｜رسمِ خطِ محور"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "centreline املای بریتانیایی است و centerline در انگلیسی آمریکایی رایج است. این خط معمولاً با الگوی خطِ محور از لبهٔ واقعی متمایز می‌شود؛ خطِ راهنما یا لبهٔ قطعه نیست. الگوی دقیق به قراردادِ نقشه بستگی دارد و همهٔ خط‌های نقطه‌چین خطِ محور نیستند.",
+      "media": {
+        "img": "atlas/img/centreline.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "calibration",
+      "w": "calibration",
+      "uk": "/ˌkælɪˈbreɪʃən/",
+      "us": "/ˌkæləˈbreɪʃən/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "calibration:meaning-1",
+          "pos": "n.",
+          "fa": "واسنجی؛ کالیبراسیون",
+          "en": "Establishing how the indications of a measuring instrument relate to reference values under stated conditions.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The calibration compared the instrument with a measurement standard.",
+          "fa": "در واسنجی، ابزار با یک استانداردِ اندازه‌گیری مقایسه شد.",
+          "senseId": "calibration:meaning-1"
+        },
+        {
+          "en": "The report recorded its response and the associated uncertainty.",
+          "fa": "گزارش پاسخِ ابزار و عدم‌قطعیتِ مربوط را ثبت کرد.",
+          "senseId": "calibration:meaning-1"
+        }
+      ],
+      "col": [
+        "instrument calibration｜واسنجیِ ابزار",
+        "a calibration reference｜یک مرجعِ واسنجی",
+        "a calibration report｜گزارشِ واسنجی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "calibration رابطهٔ پاسخِ ابزار با مقادیرِ مرجع را در شرایطِ مشخص تعیین می‌کند و عدم‌قطعیت در تفسیرِ آن مهم است. با adjustment، یعنی تنظیمِ ابزار برای تغییرِ پاسخ، یکسان نیست؛ واسنجی الزاماً به معنی تنظیم‌کردن یا تأییدِ همهٔ اندازه‌گیری‌های آینده نیست.",
+      "media": {
+        "img": "atlas/img/calibration.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "traceability",
+      "w": "traceability",
+      "uk": "/ˌtreɪsəˈbɪləti/",
+      "us": "/ˌtreɪsəˈbɪləti/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "traceability:meaning-1",
+          "pos": "n.",
+          "fa": "قابلیتِ ردیابی؛ ردیابی‌پذیری",
+          "en": "The ability to connect a product or component with recorded information about its origin, processing and movement.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Traceability links the finished part to its material batch.",
+          "fa": "قابلیتِ ردیابی قطعهٔ نهایی را به بچِ موادِ اولیهٔ آن مرتبط می‌کند.",
+          "senseId": "traceability:meaning-1"
+        },
+        {
+          "en": "The records preserve its processing history and origin.",
+          "fa": "سوابق، تاریخچهٔ فرایندهای انجام‌شده و منشأ آن را حفظ می‌کنند.",
+          "senseId": "traceability:meaning-1"
+        }
+      ],
+      "col": [
+        "component traceability｜قابلیتِ ردیابیِ قطعه",
+        "material traceability｜قابلیتِ ردیابیِ مواد",
+        "traceability records｜سوابقِ ردیابی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "traceability در این مدخل ردیابیِ منشأ و تاریخچهٔ قطعه یا محصول است؛ داشتنِ یک برچسب بدونِ سوابقِ مرتبط کافی نیست. با metrological traceability، زنجیرهٔ مرجعِ یک نتیجهٔ اندازه‌گیری، یک معنا ندارد. شناسه‌های نمونه باید در قطعه و سوابق یکسان باشند و به معنیِ گواهیِ واقعی نیستند.",
+      "media": {
+        "img": "atlas/img/traceability.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "non-destructive-testing",
+      "w": "non-destructive testing",
+      "uk": "/ˌnɒn dɪˈstrʌktɪv ˈtestɪŋ/",
+      "us": "/ˌnɑːn dɪˈstrʌktɪv ˈtestɪŋ/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "non-destructive-testing:meaning-1",
+          "pos": "n.",
+          "fa": "آزمونِ غیرمخرب",
+          "en": "Examination of a material or component to assess its condition without impairing its intended future use.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Non-destructive testing was used to examine the weld without impairing its intended use.",
+          "fa": "جوش با آزمونِ غیرمخرب بررسی شد، بدونِ آنکه کاربردِ موردنظرش مختل شود.",
+          "senseId": "non-destructive-testing:meaning-1"
+        },
+        {
+          "en": "The inspector selected an ultrasonic method for this component.",
+          "fa": "بازرس برای این قطعه یک روشِ فراصوتی انتخاب کرد.",
+          "senseId": "non-destructive-testing:meaning-1"
+        }
+      ],
+      "col": [
+        "ultrasonic non-destructive testing｜آزمونِ غیرمخربِ فراصوتی",
+        "non-destructive testing methods｜روش‌های آزمونِ غیرمخرب",
+        "a non-destructive testing report｜گزارشِ آزمونِ غیرمخرب"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "non-destructive testing یا NDT خانواده‌ای از روش‌های ارزیابی است؛ فراصوت فقط یکی از آن‌هاست. مشاهدهٔ یک نشانه لزوماً به معنی عیبِ مردود یا قبولیِ قطعه نیست و هر روش محدودیت دارد. تصویرِ آموزشی نه دستورِ اجرای آزمون است و نه نتیجه، صلاحیتِ بازرس یا گواهیِ ایمنی را ثابت می‌کند.",
+      "media": {
+        "img": "atlas/img/non-destructive-testing.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original English learner definitions, examples and collocations with Persian, Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted editorial preview; independent human language and qualified specialist review pending."
+      }
+    },
+    {
+      "id": "surface-roughness",
+      "w": "surface roughness",
+      "uk": "/ˈsɜːfɪs ˈrʌfnəs/",
+      "us": "/ˈsɝːfɪs ˈrʌfnəs/",
+      "cefr": "C1",
+      "topic": "engineering",
+      "domainIds": [
+        "engineering"
+      ],
+      "senses": [
+        {
+          "id": "surface-roughness:meaning-1",
+          "pos": "n.",
+          "fa": "زبریِ سطح",
+          "en": "The fine, closely spaced irregularities that form part of a surface's texture.",
+          "domainIds": [
+            "engineering"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The surface roughness affects how the two faces make contact.",
+          "fa": "زبریِ سطح بر نحوهٔ تماسِ دو سطح اثر می‌گذارد.",
+          "senseId": "surface-roughness:meaning-1"
+        },
+        {
+          "en": "The enlarged profile shows fine irregularities rather than the part's overall shape.",
+          "fa": "نمایهٔ بزرگ‌شده ناهمواری‌های ریز را نشان می‌دهد، نه شکلِ کلیِ قطعه را.",
+          "senseId": "surface-roughness:meaning-1"
+        }
+      ],
+      "col": [
+        "surface roughness measurement｜اندازه‌گیریِ زبریِ سطح",
+        "a surface roughness profile｜یک نمایهٔ زبریِ سطح",
+        "low surface roughness｜زبریِ کمِ سطح"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "surface roughness ناهمواری‌های ریزِ بافتِ سطح است؛ با شکلِ کلیِ قطعه یا موج‌داریِ درشت‌تر یکسان نیست. ظاهرِ براق به‌تنهایی مقدارِ زبری را تعیین نمی‌کند. نمایهٔ بزرگ‌نمایی‌شدهٔ آموزشی، مقیاس یا عددِ واقعیِ یک پارامترِ زبری مانند Ra ارائه نمی‌دهد.",
+      "media": {
+        "img": "atlas/img/surface-roughness.webp"
       },
       "provenance": {
         "license": "CC-BY-4.0",

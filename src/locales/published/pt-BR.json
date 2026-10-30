@@ -13,9 +13,9 @@
     "modifications": "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-37",
-    "manifest": "content/releases/2026-10-preview-37-077b9bffb890/manifest.json",
-    "sha256": "077b9bffb890f32d3f6d4ed7796f7b7131d54034e2188625b2d2d91101d724f5"
+    "id": "2026-10-preview-38",
+    "manifest": "content/releases/2026-10-preview-38-f55a73458e2b/manifest.json",
+    "sha256": "f55a73458e2b47aa277d523c42f3911b31a9603767957abadee337fdb641ce19"
   },
   "categories": {
     "everyday-life": {
@@ -33901,6 +33901,414 @@
         }
       ],
       "tip": "Bill of materials, ou BOM, lista componentes e quantidades de um produto; não é uma fatura de pagamento nem o próprio desenho de montagem. Os identificadores da lista devem corresponder às peças mostradas. A tabela simples cobre apenas os itens daquele exemplo; as quantidades não são dimensões, tolerâncias nem instruções de fabricação."
+    },
+    "medical-history": {
+      "sourceWord": "medical history",
+      "senses": {
+        "medical-history:meaning-1": {
+          "gloss": "histórico médico",
+          "definition": "Informações sobre a saúde passada e atual de uma pessoa, incluindo doenças, tratamentos e outras experiências relevantes."
+        }
+      },
+      "examples": [
+        {
+          "en": "The clinician asked about the patient’s medical history before the examination.",
+          "translation": "A profissional perguntou sobre o histórico médico do paciente antes do exame."
+        },
+        {
+          "en": "She mentioned a previous operation and the medicines she currently takes.",
+          "translation": "Ela mencionou uma cirurgia anterior e os medicamentos que usa atualmente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "take a medical history",
+          "translation": "colher o histórico médico"
+        },
+        {
+          "en": "a detailed medical history",
+          "translation": "histórico médico detalhado"
+        },
+        {
+          "en": "review the medical history",
+          "translation": "revisar o histórico médico"
+        }
+      ],
+      "tip": "Medical history seleciona aqui as informações de saúde da pessoa; medical record é o prontuário que registra essas informações e outros achados. History não significa apenas a data de um evento. Informações familiares ou sociais também podem ser relevantes; não são necessários nomes nem dados reais de pacientes."
+    },
+    "diagnosis": {
+      "sourceWord": "diagnosis",
+      "senses": {
+        "diagnosis:meaning-1": {
+          "gloss": "diagnóstico",
+          "definition": "A identificação de uma doença, condição ou lesão pela avaliação de informações e achados relevantes."
+        }
+      },
+      "examples": [
+        {
+          "en": "The clinician discussed the diagnosis with the patient after reviewing the results.",
+          "translation": "A profissional discutiu o diagnóstico com o paciente após analisar os resultados."
+        },
+        {
+          "en": "The team requested further tests to clarify the cause of the symptoms.",
+          "translation": "A equipe solicitou outros exames para esclarecer a causa dos sintomas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "make a diagnosis",
+          "translation": "estabelecer um diagnóstico"
+        },
+        {
+          "en": "a confirmed diagnosis",
+          "translation": "diagnóstico confirmado"
+        },
+        {
+          "en": "an early diagnosis",
+          "translation": "diagnóstico precoce"
+        }
+      ],
+      "tip": "Diagnosis identifica qual doença ou condição está presente; prognosis trata do curso futuro provável. O plural em inglês é diagnoses. Novas informações podem alterar um diagnóstico; reunir evidências em uma imagem não estabelece um diagnóstico real ou definitivo."
+    },
+    "prognosis": {
+      "sourceWord": "prognosis",
+      "senses": {
+        "prognosis:meaning-1": {
+          "gloss": "prognóstico",
+          "definition": "Uma avaliação de como uma doença ou condição tende a evoluir e de qual pode ser seu desfecho."
+        }
+      },
+      "examples": [
+        {
+          "en": "The clinician explained the prognosis and the uncertainty that remained.",
+          "translation": "A profissional explicou o prognóstico e a incerteza que ainda existia."
+        },
+        {
+          "en": "The team reviewed the outlook as more information became available.",
+          "translation": "A equipe reavaliou as perspectivas à medida que surgiram novas informações."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a favourable prognosis",
+          "translation": "prognóstico favorável"
+        },
+        {
+          "en": "a poor prognosis",
+          "translation": "prognóstico desfavorável"
+        },
+        {
+          "en": "discuss the prognosis",
+          "translation": "discutir o prognóstico"
+        }
+      ],
+      "tip": "Prognosis é uma avaliação do curso e do desfecho prováveis, não o nome da doença nem uma garantia de recuperação. Diagnosis identifica a condição presente. O prognóstico depende das informações disponíveis e pode mudar; caminhos possíveis não devem parecer resultados garantidos."
+    },
+    "prevention": {
+      "sourceWord": "prevention",
+      "senses": {
+        "prevention:meaning-1": {
+          "gloss": "prevenção",
+          "definition": "Ação realizada para reduzir a probabilidade de ocorrer uma doença, lesão ou outro problema de saúde."
+        }
+      },
+      "examples": [
+        {
+          "en": "Prevention was a central topic in the community health programme.",
+          "translation": "A prevenção foi um tema central do programa de saúde comunitária."
+        },
+        {
+          "en": "The team discussed ways to reduce injuries before they happened.",
+          "translation": "A equipe discutiu maneiras de reduzir lesões antes que acontecessem."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "disease prevention",
+          "translation": "prevenção de doenças"
+        },
+        {
+          "en": "injury prevention",
+          "translation": "prevenção de lesões"
+        },
+        {
+          "en": "a prevention programme",
+          "translation": "programa de prevenção"
+        }
+      ],
+      "tip": "Neste sentido, prevention reduz a probabilidade de um problema de saúde; treatment cuida de um problema já existente. Prevenir nem sempre elimina todo o risco. O termo não nomeia um único medicamento ou método, e qualquer imagem mostra apenas um exemplo de ação preventiva."
+    },
+    "risk-factor": {
+      "sourceWord": "risk factor",
+      "senses": {
+        "risk-factor:meaning-1": {
+          "gloss": "fator de risco",
+          "definition": "Uma característica, condição ou exposição associada à maior probabilidade de determinado problema de saúde."
+        }
+      },
+      "examples": [
+        {
+          "en": "The study examined age as a risk factor for the condition.",
+          "translation": "O estudo examinou a idade como fator de risco para a condição."
+        },
+        {
+          "en": "The clinician considered several factors rather than a single feature.",
+          "translation": "A profissional considerou vários fatores, em vez de uma única característica."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a major risk factor",
+          "translation": "fator de risco importante"
+        },
+        {
+          "en": "a modifiable risk factor",
+          "translation": "fator de risco modificável"
+        },
+        {
+          "en": "identify a risk factor",
+          "translation": "identificar um fator de risco"
+        }
+      ],
+      "tip": "Um risk factor está associado a maior probabilidade; tê-lo não significa desenvolver a condição com certeza, e uma associação, sozinha, não prova causa. Alguns fatores podem ser modificados e outros não. Risk é a probabilidade; risk factor é a característica ou exposição relacionada a ela."
+    },
+    "contraindication": {
+      "sourceWord": "contraindication",
+      "senses": {
+        "contraindication:meaning-1": {
+          "gloss": "contraindicação",
+          "definition": "Uma circunstância que torna um tratamento ou procedimento específico inadequado por poder causar dano."
+        }
+      },
+      "examples": [
+        {
+          "en": "The clinician checked for a contraindication before choosing the treatment.",
+          "translation": "A profissional verificou se havia uma contraindicação antes de escolher o tratamento."
+        },
+        {
+          "en": "The team discussed whether the proposed procedure was suitable for that patient.",
+          "translation": "A equipe discutiu se o procedimento proposto era adequado para aquele paciente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a contraindication to treatment",
+          "translation": "contraindicação ao tratamento"
+        },
+        {
+          "en": "an absolute contraindication",
+          "translation": "contraindicação absoluta"
+        },
+        {
+          "en": "a relative contraindication",
+          "translation": "contraindicação relativa"
+        }
+      ],
+      "tip": "Contraindication é uma razão para considerar inadequado um tratamento ou procedimento em determinada situação; side effect é um efeito indesejado. As formas absoluta e relativa não são iguais e sua avaliação depende do contexto clínico. Este verbete não recomenda decisões sobre medicamentos, condições ou impedimentos específicos."
+    },
+    "datum": {
+      "sourceWord": "datum",
+      "senses": {
+        "datum:meaning-1": {
+          "gloss": "datum; referência geométrica",
+          "definition": "Referência geométrica ideal, como plano, linha ou ponto, estabelecida a partir de características especificadas da peça para localizar ou medir outras características."
+        }
+      },
+      "examples": [
+        {
+          "en": "The datum provides the reference plane for locating the hole.",
+          "translation": "O datum fornece o plano de referência para localizar o furo."
+        },
+        {
+          "en": "Measurements were related to that reference rather than an arbitrary edge.",
+          "translation": "As medições foram relacionadas a essa referência, e não a uma aresta arbitrária."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a datum plane",
+          "translation": "um plano de referência datum"
+        },
+        {
+          "en": "a datum reference",
+          "translation": "uma referência datum"
+        },
+        {
+          "en": "establish a datum",
+          "translation": "estabelecer um datum"
+        }
+      ],
+      "tip": "Datum seleciona a referência geométrica ideal; datum feature é a característica física da peça a partir da qual ela é estabelecida. A superfície real pode ser irregular e não é o próprio plano ideal. O sentido difere de um dado estatístico e de outros usos de datum; o esquema conceitual não comprova conformidade com tolerâncias."
+    },
+    "centreline": {
+      "sourceWord": "centreline",
+      "senses": {
+        "centreline:meaning-1": {
+          "gloss": "linha de centro",
+          "definition": "Linha de desenho que identifica o centro ou eixo de uma característica circular, cilíndrica ou simétrica."
+        }
+      },
+      "examples": [
+        {
+          "en": "The centreline passes through the centre of the circular hole.",
+          "translation": "A linha de centro passa pelo centro do furo circular."
+        },
+        {
+          "en": "It identifies the axis without representing a solid edge.",
+          "translation": "Ela identifica o eixo sem representar uma aresta sólida."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a hole centreline",
+          "translation": "a linha de centro de um furo"
+        },
+        {
+          "en": "a centreline on a drawing",
+          "translation": "uma linha de centro em um desenho"
+        },
+        {
+          "en": "draw a centreline",
+          "translation": "desenhar uma linha de centro"
+        }
+      ],
+      "tip": "Centreline é a grafia britânica; centerline é comum no inglês americano. A linha costuma usar um padrão próprio para se distinguir das arestas reais; não é uma linha de chamada nem uma aresta da peça. O padrão exato depende da convenção do desenho, e nem toda linha tracejada é uma linha de centro."
+    },
+    "calibration": {
+      "sourceWord": "calibration",
+      "senses": {
+        "calibration:meaning-1": {
+          "gloss": "calibração",
+          "definition": "Estabelecimento da relação entre as indicações de um instrumento de medição e valores de referência sob condições declaradas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The calibration compared the instrument with a measurement standard.",
+          "translation": "A calibração comparou o instrumento com um padrão de medição."
+        },
+        {
+          "en": "The report recorded its response and the associated uncertainty.",
+          "translation": "O relatório registrou sua resposta e a incerteza associada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "instrument calibration",
+          "translation": "calibração de instrumento"
+        },
+        {
+          "en": "a calibration reference",
+          "translation": "uma referência de calibração"
+        },
+        {
+          "en": "a calibration report",
+          "translation": "um relatório de calibração"
+        }
+      ],
+      "tip": "Calibration estabelece a relação entre a resposta de um instrumento e valores de referência em condições declaradas; a incerteza importa na interpretação. Não equivale a adjustment, o ajuste do instrumento para mudar sua resposta. Calibrar não significa necessariamente ajustar nem aprovar todas as medições futuras."
+    },
+    "traceability": {
+      "sourceWord": "traceability",
+      "senses": {
+        "traceability:meaning-1": {
+          "gloss": "rastreabilidade",
+          "definition": "Capacidade de relacionar um produto ou componente a informações registradas sobre sua origem, processamento e movimentação."
+        }
+      },
+      "examples": [
+        {
+          "en": "Traceability links the finished part to its material batch.",
+          "translation": "A rastreabilidade liga a peça acabada ao lote de seu material."
+        },
+        {
+          "en": "The records preserve its processing history and origin.",
+          "translation": "Os registros preservam seu histórico de processamento e sua origem."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "component traceability",
+          "translation": "rastreabilidade de componentes"
+        },
+        {
+          "en": "material traceability",
+          "translation": "rastreabilidade de materiais"
+        },
+        {
+          "en": "traceability records",
+          "translation": "registros de rastreabilidade"
+        }
+      ],
+      "tip": "Traceability seleciona a rastreabilidade da origem e do histórico de uma peça ou produto; uma etiqueta sem registros relacionados não basta. O sentido difere de metrological traceability, a cadeia de referências de um resultado de medição. Identificadores ilustrativos precisam coincidir entre a peça e seus registros e não afirmam certificação real."
+    },
+    "non-destructive-testing": {
+      "sourceWord": "non-destructive testing",
+      "senses": {
+        "non-destructive-testing:meaning-1": {
+          "gloss": "ensaios não destrutivos",
+          "definition": "Exame de um material ou componente para avaliar sua condição sem comprometer seu uso futuro previsto."
+        }
+      },
+      "examples": [
+        {
+          "en": "Non-destructive testing was used to examine the weld without impairing its intended use.",
+          "translation": "A solda foi examinada por ensaios não destrutivos, sem comprometer seu uso previsto."
+        },
+        {
+          "en": "The inspector selected an ultrasonic method for this component.",
+          "translation": "O inspetor escolheu um método ultrassônico para esse componente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "ultrasonic non-destructive testing",
+          "translation": "ensaios não destrutivos por ultrassom"
+        },
+        {
+          "en": "non-destructive testing methods",
+          "translation": "métodos de ensaios não destrutivos"
+        },
+        {
+          "en": "a non-destructive testing report",
+          "translation": "um relatório de ensaios não destrutivos"
+        }
+      ],
+      "tip": "Non-destructive testing, ou NDT, reúne métodos de avaliação; o ultrassom é apenas um deles. Uma indicação observada não significa necessariamente um defeito rejeitável nem a aprovação da peça, e cada método tem limitações. A ilustração não ensina a executar um ensaio nem comprova resultado, qualificação do inspetor ou certificação de segurança."
+    },
+    "surface-roughness": {
+      "sourceWord": "surface roughness",
+      "senses": {
+        "surface-roughness:meaning-1": {
+          "gloss": "rugosidade superficial",
+          "definition": "Irregularidades finas e próximas entre si que fazem parte da textura de uma superfície."
+        }
+      },
+      "examples": [
+        {
+          "en": "The surface roughness affects how the two faces make contact.",
+          "translation": "A rugosidade superficial afeta como as duas faces entram em contato."
+        },
+        {
+          "en": "The enlarged profile shows fine irregularities rather than the part's overall shape.",
+          "translation": "O perfil ampliado mostra irregularidades finas, e não a forma geral da peça."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "surface roughness measurement",
+          "translation": "medição de rugosidade superficial"
+        },
+        {
+          "en": "a surface roughness profile",
+          "translation": "um perfil de rugosidade superficial"
+        },
+        {
+          "en": "low surface roughness",
+          "translation": "baixa rugosidade superficial"
+        }
+      ],
+      "tip": "Surface roughness seleciona irregularidades finas da textura, distintas da forma geral da peça e de ondulações mais amplas. O brilho, por si só, não determina a rugosidade. O perfil didático ampliado não fornece escala nem valor real de um parâmetro de rugosidade, como Ra."
     }
   }
 }

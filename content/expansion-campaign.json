@@ -4161,6 +4161,279 @@
           "use": "Primary CAD training explicitly links parts-list items and corresponding component balloons; original small fictional bill of materials with exact inspected counts, no copied table."
         }
       ]
+    },
+    {
+      "id": "specialist-500-batch-32-ready-2",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-38",
+      "baseline": {
+        "releaseId": "2026-10-preview-37",
+        "manifest": "content/releases/2026-10-preview-37-077b9bffb890/manifest.json",
+        "manifestSha256": "077b9bffb890f32d3f6d4ed7796f7b7131d54034e2188625b2d2d91101d724f5",
+        "words": 981
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "medical-history",
+            "lexicalBinding": "ca5a1b4a25966942e5de6ae4a43cb2adf574c168e1bead6d986ff9b13b30a6e1",
+            "sourceImageSha256": "fdd4281b826cd32bfa706e56e406743ad4cafeebecf996e2eca6c3a0ad0d97ac",
+            "cardSha256": "d19b3998ad4eeb0054649cf0909a96629a8888aebe12c546c40c5dbf80589bcc",
+            "thumbnailSha256": "571cb37f334678f10e720c4d37a5d4841b9a7eec99542be7949470b305e94525",
+            "authorPixelBinding": "ccd54c9f1070eec36216cc0c263ec7b87e6c7597d2f6ec7c31ad6be66aa3fab0",
+            "secondPixelBinding": "07f600e246ae938b14aca7c7e82bd4bb0fedb41fdcbc828495709b29015c1b6f"
+          },
+          {
+            "entryId": "diagnosis",
+            "lexicalBinding": "bbf8315261d31f4d3190c2233ed7da454ca15649812104dca2e91c97db112c94",
+            "sourceImageSha256": "6151df0154543c43c55c24624bcdea015cce129be8bd2d0d2ede7063109bfa11",
+            "cardSha256": "5768cec304a6cec240827261cbd2f337c5f29fa015b7f6ab9257761dba9fdd09",
+            "thumbnailSha256": "0de5a307aacd3198c5e1c75e2d8562b1baafabd13a8e72579627d9779701d1d1",
+            "authorPixelBinding": "d83e1e15482d483e87072a480295663fcb23d4e4277aacbd3543e2243524cc3d",
+            "secondPixelBinding": "15965682f0d986940a144b8a6a6f7113e70c4f231a46c489c7a5b34a0d0eedd5"
+          },
+          {
+            "entryId": "prognosis",
+            "lexicalBinding": "890b292418560db55acf3a4c0648fd40b9782f4146eacab5abd7183484304904",
+            "sourceImageSha256": "a55fbef4969706d29de75180ec617debe5aaf8c92eda27117365c804f45be200",
+            "cardSha256": "3edc5b64817f805ee51b1bc32617598602263d2bc37ddc325dffa2442b6d2525",
+            "thumbnailSha256": "826e4bbd7d6163254312a732ada05432fb36bf5b69709dc712c14241457a3594",
+            "authorPixelBinding": "93861d713f522eacff6038bd44115bd4202cea3838c1292bd33a52955a000d1d",
+            "secondPixelBinding": "5499e4252ccd899dc82975e2a5c952a6a8f1c43470e7e8f80d419a22cd7102e2"
+          },
+          {
+            "entryId": "prevention",
+            "lexicalBinding": "007c1536e79e69b7f355a57854fe1189c1a0545edd84db98c6d8cd32342ad7ea",
+            "sourceImageSha256": "41bd1ff16e2cb6e12acc63ac85cddb3ff3c8201d402459c098887e8baa1bf49b",
+            "cardSha256": "056157afddd10fcf39d8f3bb7eb970b64e3dfa49bef4111f660a5f33f82df47c",
+            "thumbnailSha256": "0b629cd356aa3551fff1c271d44954feb7c9b853e9de0130a0f457822d53e131",
+            "authorPixelBinding": "fbdcd71270658e751330d3dd4e43197b53b3610a22d11879dd367b437163d9dd",
+            "secondPixelBinding": "3c107b399b350d0aa0bbee5f6c7dc2fd122d94ea5fd5dd75b98715cccd9f4653"
+          },
+          {
+            "entryId": "risk-factor",
+            "lexicalBinding": "d318e7435204dbfb05d428ebc5ec5d5fb0e6c235d7aaf9526b8b5f78e6f7191a",
+            "sourceImageSha256": "0c0e088c6d8d14adf3e3ffdce1c260ebac235776eec92ccf7366607d3201f852",
+            "cardSha256": "06d908c18f397103007c8a6ec03c265a40ad0dcc8e0bba840c9aeb751fad2926",
+            "thumbnailSha256": "181ea56ab4a63c392932f2f244bdc4156228f7f509364de2eb49cf5dccdce6f7",
+            "authorPixelBinding": "687b1cef907096513e5f9d3297450ec148c8c7a79d5ddea25543a1f6b68c1458",
+            "secondPixelBinding": "b19170d585726018630f8379fd061958810eda4e88fab82ad018002684434d7f"
+          },
+          {
+            "entryId": "contraindication",
+            "lexicalBinding": "a4e25eba9b0258feba90d17212ae1df11765dea49242871eed94501ffb868926",
+            "sourceImageSha256": "dc5e566535425e9efc6b4bacd9ea8790a7bb4e36cd0103facb31d6befdf53a23",
+            "cardSha256": "24394c29cd8468f00c2efdf2818caeabe2c9dcc86f15ee20133a2bc6e95a02c7",
+            "thumbnailSha256": "ea561a9472249546b5e178d4e367137970f9238c09d98de436beaa90bcf5b772",
+            "authorPixelBinding": "c61463093a2dfaba8f3835b74157e4efb5f863d29dc042f80bc4f6c18d66a509",
+            "secondPixelBinding": "f219377168d293162cab31f023e115142fa55a1f60aa9dcc1e7cc567dd840b2a"
+          },
+          {
+            "entryId": "datum",
+            "lexicalBinding": "7332fee7dd63faa22376d86c726a0a023a85947a9093e573f4797c8f7b3f631a",
+            "sourceImageSha256": "cb3ded7c0706b3d09ada4d02134c01d2935e7fbb917b67908ce6c21de8ea4b72",
+            "cardSha256": "72a83e2d6981ffa218f22a255b68f1bcc64561e4928ebbd42afc38c05ad06495",
+            "thumbnailSha256": "ca27913c9120b402b528f4ee95b5bd117ee8b1acc000cf8aa9b23ed8dc67679a",
+            "authorPixelBinding": "77e8632fc7b60a7ce588da07ac0a3964f1dfb14e21b2bb215dcd95472591656b",
+            "secondPixelBinding": "3e8fa8b87bed0f487239adbcafe5af6ead4763b17ac41adb779cca1b953829fb"
+          },
+          {
+            "entryId": "centreline",
+            "lexicalBinding": "e8fb7f9f7c0a384a7066ee9ec7832a8be9fec5a44b5ea46d27ef20e5a76601c3",
+            "sourceImageSha256": "a2ba6eaff8fe7dec0be709846cca0768a22dfdc5b7201457a728a943eb9dbd90",
+            "cardSha256": "1954b25a28d49fa8d4d240a0b81a8b641091f90f84a37e6e0c48ee75eaa30307",
+            "thumbnailSha256": "62a2d955522a2af3ffa6e3672676b99ad0435d2efef03f02acdcf02b43f00ff8",
+            "authorPixelBinding": "9572245aeb1470875fccfa92db2b700d9024993915d8da93b6db5eb38ba056e3",
+            "secondPixelBinding": "3e8468dddb3d01349ece83cda683dfd16a3bb1f365cab45b0400f8802fcaab70"
+          },
+          {
+            "entryId": "calibration",
+            "lexicalBinding": "485223691c5c4251d0755b15cf8d84936d51d90de8bedd52b90482326058c99e",
+            "sourceImageSha256": "1265b1c065d89d190239176cd5d62bfe5bed21043b9287976322407bd8e46dc9",
+            "cardSha256": "80607e51550d662b1cb4f32eb1963a7c40a99c86b87aee40eba96dd687ae0143",
+            "thumbnailSha256": "f81d8cc42f957a44c026f535fc17fcd1683e3a6e9ab82353fd9c92fc4b564fec",
+            "authorPixelBinding": "6f36825fd829eeca3094cc1af9265eed8d8ccd5d5c0a52d7e52aeb2e3e41784e",
+            "secondPixelBinding": "a9fa46d93e3bc24de139039d96356e5ce05731529d95bb2329fc6c49e5f9abaf"
+          },
+          {
+            "entryId": "traceability",
+            "lexicalBinding": "7931eb7c1e3364625aa2c6836b9938a54755870ccefc8a2a7e0a0e804880758c",
+            "sourceImageSha256": "76405633ac502f35bb310087cd22ef5ef95089e8e862d85a86db46badd89bc12",
+            "cardSha256": "fc34646f233e919041624a54c1b0c8840c6688bf1ca0cb878e29622b075d4e2a",
+            "thumbnailSha256": "3ffd3c11a3052390793fdae6a8eb425c44433163c1b30a17d9efcc74a69abc2e",
+            "authorPixelBinding": "86c354e0bf985173e17e8a3477d593706ca29462659b9a03a94d20e09f25fed7",
+            "secondPixelBinding": "e49435e18782be8304eadec466ec4a0abd0a4aefc747f055ab7ce0afb5c47c90"
+          },
+          {
+            "entryId": "non-destructive-testing",
+            "lexicalBinding": "7b581eb1d2ec6b2a7f2f83de114d1d23a50e7af097c316138b9d78cf5022dd03",
+            "sourceImageSha256": "a566c11a8ab50c2366657bef8e8d9cf79c8c0b0a4fb1a2c4409a2cc67a66b6bd",
+            "cardSha256": "811458212a2fdbc6dff6d07ffb7176c40db6e69c93b12e1ed1b7750a37e550d8",
+            "thumbnailSha256": "acc672adf188d4a7b4e7f67836bd685a5a07b96c7b8e72ad16ac26731d5b4bc9",
+            "authorPixelBinding": "67a84c04b89ae9fbde678bafb703ba9d42342eb80fd34a6476488de4569f88ef",
+            "secondPixelBinding": "26e793a929bdca2b9293809304cbf931fa2866155ffbd01cbcfa25a6389ae4b7"
+          },
+          {
+            "entryId": "surface-roughness",
+            "lexicalBinding": "2c405ace5c7a096cd32616385a8e24cc729f2afa1d7571b7f727d900a08d8dab",
+            "sourceImageSha256": "b116a3a5e720148851652055257ba2613a992ae435c6e1a7c1651ad6249bd71e",
+            "cardSha256": "1e22e8541d2587d17778f2c57ef432ec24465e760bf4a374fc8ddcfae640b952",
+            "thumbnailSha256": "ce41f1cadeed90a3212e85501737c63dbf3d4b10e556482f6854a50951186500",
+            "authorPixelBinding": "326a910e2ac48ec687a5f5087f568c96a2336fac3e3c959c399131264ba2d7d7",
+            "secondPixelBinding": "78a0310b69356b973a8eeaa93b44171862497422dc376a87764248937d452580"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "medicine-healthcare",
+          "visualLanguageId": "medicine-healthcare",
+          "baselineCategoryWords": 412,
+          "targetCategoryWords": 418,
+          "entryIds": [
+            "medical-history",
+            "diagnosis",
+            "prognosis",
+            "prevention",
+            "risk-factor",
+            "contraindication"
+          ],
+          "units": [
+            {
+              "id": "medical-examination-reasoning",
+              "title": "Examination and clinical reasoning",
+              "entryIds": [
+                "medical-history",
+                "diagnosis",
+                "prognosis",
+                "prevention",
+                "risk-factor",
+                "contraindication"
+              ]
+            }
+          ]
+        },
+        {
+          "categoryId": "engineering",
+          "visualLanguageId": "engineering",
+          "baselineCategoryWords": 411,
+          "targetCategoryWords": 417,
+          "entryIds": [
+            "datum",
+            "centreline",
+            "calibration",
+            "traceability",
+            "non-destructive-testing",
+            "surface-roughness"
+          ],
+          "units": [
+            {
+              "id": "engineering-drawings-quality",
+              "title": "Drawings references and quality",
+              "entryIds": [
+                "datum",
+                "centreline",
+                "calibration",
+                "traceability",
+                "non-destructive-testing",
+                "surface-roughness"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "parentBatchId": "specialist-500-batch-32",
+      "completedAt": "2026-10-30T05:30:03.799Z",
+      "factualReferences": [
+        {
+          "entryId": "medical-history",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/medical-history",
+          "use": "NCI medical-history concept checked for past/present health, medicines and family/social information; learner wording and multilingual examples are original. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending.",
+          "title": "NCI — medical history"
+        },
+        {
+          "entryId": "diagnosis",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/diagnosis",
+          "use": "NCI identifies diagnostic assessment using history, examination and tests. No specific patient condition, result or certainty claim introduced. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending.",
+          "title": "NCI — diagnosis"
+        },
+        {
+          "entryId": "prognosis",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/prognosis",
+          "use": "NCI distinguishes likely disease course/outcome from identification of disease; no individual survival estimate or promise of recovery. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending.",
+          "title": "NCI — prognosis"
+        },
+        {
+          "entryId": "prevention",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/prevention",
+          "use": "NCI prevention concept supports reduced likelihood rather than guaranteed protection; no regimen, treatment or product recommended. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending.",
+          "title": "NCI — prevention"
+        },
+        {
+          "entryId": "risk-factor",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/risk-factor",
+          "use": "NCI risk-factor concept includes characteristics and exposures that raise likelihood; no deterministic cause or individual diagnosis assigned. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending.",
+          "title": "NCI — risk factor"
+        },
+        {
+          "entryId": "contraindication",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/contraindication",
+          "use": "NCI contraindication concept checked for potential harm from a particular treatment/procedure in specified circumstances; no drug-specific advice copied. Factual meaning check only; no protected prose or artwork copied. Original AI-assisted editorial preview; independent human language and specialist review pending.",
+          "title": "NCI — contraindication"
+        },
+        {
+          "entryId": "prevention",
+          "url": "https://www.cdc.gov/falls/prevention/index.html",
+          "title": "CDC — Preventing Falls and Hip Fractures",
+          "use": "Actually checked current CDC primary page: removing trip hazards is a fall-prevention example. No instructions, numbers, treatment claims or protected prose/art copied; image uses an original fictional before-injury story, not a guarantee."
+        },
+        {
+          "entryId": "risk-factor",
+          "url": "https://www.cdc.gov/copd/about/",
+          "title": "CDC — About COPD: causes and risk factors",
+          "use": "Actually checked CDC primary text identifying higher COPD risk among current/former cigarette smokers. Supports qualitative tobacco-to-lung-disease risk example only; no probability values, clinical findings, treatment advice or copied prose/art."
+        },
+        {
+          "entryId": "datum",
+          "url": "https://www.keyence.com/ss/products/measure-sys/gd-and-t/datum/type.jsp",
+          "title": "KEYENCE — Major types of datum features",
+          "use": "Primary measurement-manufacturer discussion distinguishes an ideal datum from the physical datum feature and explains plane/axis/point references; original learner wording, no copied diagrams or tolerance instructions."
+        },
+        {
+          "entryId": "centreline",
+          "url": "https://help.autodesk.com/cloudhelp/2022/ENU/AutoCAD-DidYouKnow/files/GUID-EA8F28C5-2A89-4265-8543-FD7A6DDA731C.htm",
+          "title": "Autodesk — Associative centre marks and centrelines",
+          "use": "Primary CAD documentation for drawing centrelines/centre marks associated with geometric features; original learner explanation and regional spelling distinction."
+        },
+        {
+          "entryId": "calibration",
+          "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260-136-2021.pdf",
+          "title": "NIST SP260-136-2021 — Metrological tools for reference materials and instruments",
+          "use": "Primary metrology publication explains calibration as a relation between reference values, indications and associated uncertainties; original simplified wording, no test result or adjustment instruction."
+        },
+        {
+          "entryId": "traceability",
+          "url": "https://www.gs1.org/sites/default/files/docs/traceability/GS1_Global_Traceability_Standard_i2.pdf",
+          "title": "GS1 — Global Traceability Standard",
+          "use": "Primary traceability standard covers origin, processing history and location of materials/parts; original component-history sense, explicitly distinct from metrological traceability, no copied standard prose or identifiers."
+        },
+        {
+          "entryId": "non-destructive-testing",
+          "url": "https://www.asnt.org/what-is-nondestructive-testing",
+          "title": "ASNT — What is nondestructive testing?",
+          "use": "Primary professional-society explanation distinguishes NDT from destructive testing and describes multiple methods and their limitations; original learner wording, no operational test procedure or copied artwork."
+        },
+        {
+          "entryId": "surface-roughness",
+          "url": "https://www2.mitutoyo.co.jp/eng/products/menu/QuickGuide_Surftest.pdf",
+          "title": "Mitutoyo — Terms, definitions and surface texture parameters",
+          "use": "Primary measurement-manufacturer surface-texture guide distinguishes roughness profiles from waviness and other texture components; original qualitative explanation, no copied profile or numerical test result."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,

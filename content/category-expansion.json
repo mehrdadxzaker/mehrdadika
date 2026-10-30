@@ -4436,7 +4436,79 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 412,
+      "targetCategoryWords": 418,
+      "entryIds": [
+        "medical-history",
+        "diagnosis",
+        "prognosis",
+        "prevention",
+        "risk-factor",
+        "contraindication"
+      ],
+      "units": [
+        {
+          "id": "medical-examination-reasoning",
+          "title": "Examination and clinical reasoning",
+          "entryIds": [
+            "medical-history",
+            "diagnosis",
+            "prognosis",
+            "prevention",
+            "risk-factor",
+            "contraindication"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-32-ready-2",
+      "releaseId": "2026-10-preview-38",
+      "status": "published-preview",
+      "objective": "Learn Examination and clinical reasoning in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 411,
+      "targetCategoryWords": 417,
+      "entryIds": [
+        "datum",
+        "centreline",
+        "calibration",
+        "traceability",
+        "non-destructive-testing",
+        "surface-roughness"
+      ],
+      "units": [
+        {
+          "id": "engineering-drawings-quality",
+          "title": "Drawings references and quality",
+          "entryIds": [
+            "datum",
+            "centreline",
+            "calibration",
+            "traceability",
+            "non-destructive-testing",
+            "surface-roughness"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-32-ready-2",
+      "releaseId": "2026-10-preview-38",
+      "status": "published-preview",
+      "objective": "Learn Drawings references and quality in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-32-ready-1"
+  "activePassId": "specialist-500-batch-32-ready-2"
 }

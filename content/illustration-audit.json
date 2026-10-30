@@ -47179,6 +47179,642 @@
           "reviewerId": "/root"
         }
       }
+    },
+    {
+      "entryId": "medical-history",
+      "sourceWord": "medical history",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "medical-history:meaning-1",
+          "pos": "n.",
+          "en": "Information about a person’s past and present health, including illnesses, treatments and other relevant experiences."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clinician asked about the patient’s medical history before the examination.",
+          "senseId": "medical-history:meaning-1"
+        },
+        {
+          "en": "She mentioned a previous operation and the medicines she currently takes.",
+          "senseId": "medical-history:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/medical-history.webp",
+        "sha256": "d19b3998ad4eeb0054649cf0909a96629a8888aebe12c546c40c5dbf80589bcc"
+      },
+      "visual": {
+        "expectedCue": "Patient tells clinician about earlier cast-treated injury and current medicines via same-person PAST/NOW health-memory vignettes, showing information history rather than a medical-record object.",
+        "decision": "added",
+        "reason": "Actually inspected original1254, converted512WebP and120PNG: same short-haired blue-shirt patient narrates to attentive clinician; large speech bubble tail joins that patient. PAST vignette shows his earlier cast, NOW shows an unbranded tablet blister. Both essential labels read exactly PAST/NOW at source/card and remain readable120; no personal identifiers, dose or result. Same-person past/current health information is distinct from a chart object or generic clinic. Human arms/hands and cast are coherent, clean cool-white/mint-blue precise forms, no irrelevant art/plants. Illustration is fictional health-history communication, not a clinical finding or recommendation.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually inspected original1254, converted512WebP and120PNG: same short-haired blue-shirt patient narrates to attentive clinician; large speech bubble tail joins that patient. PAST vignette shows his earlier cast, NOW shows an unbranded tablet blister. Both essential labels read exactly PAST/NOW at source/card and remain readable120; no personal identifiers, dose or result. Same-person past/current health information is distinct from a chart object or generic clinic. Human arms/hands and cast are coherent, clean cool-white/mint-blue precise forms, no irrelevant art/plants. Illustration is fictional health-history communication, not a clinical finding or recommendation."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T05:07:57.529Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d19b3998ad4eeb0054649cf0909a96629a8888aebe12c546c40c5dbf80589bcc",
+          "inspectedAt": "2026-10-30T05:10:09.993Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254original/512WebP/120PNG. Patient speaking to clinician has a clearly attached speech bubble showing the same blue-shirt person with a past cast and current unbranded medicine blister. Exact PAST/NOW labels, consistent identity and cast/medicine cues distinguish health-history information from a chart object or generic consultation. Human hands/limbs remain coherent, no named patient, dose, finding or specific treatment instruction. Cool-white/mint/pale-blue clinical scene and past/current relation stay recognizable120; fictional history communication only, not a medical recommendation.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "diagnosis",
+      "sourceWord": "diagnosis",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "diagnosis:meaning-1",
+          "pos": "n.",
+          "en": "The identification of a disease, condition or injury through assessment of relevant information and findings."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clinician discussed the diagnosis with the patient after reviewing the results.",
+          "senseId": "diagnosis:meaning-1"
+        },
+        {
+          "en": "The team requested further tests to clarify the cause of the symptoms.",
+          "senseId": "diagnosis:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/diagnosis.webp",
+        "sha256": "5768cec304a6cec240827261cbd2f337c5f29fa015b7f6ab9257761dba9fdd09"
+      },
+      "visual": {
+        "expectedCue": "Three distinct illustrated clinical evidence inputs converge into a single identified-condition output in clinician/patient explanation; diagnostic integration, not future outcome or a generic clipboard.",
+        "decision": "added",
+        "reason": "Actually inspected original1254, converted512WebP and120PNG. Three illustrated inputs (patient account, arm examination, red blood specimen/blank sheet) visibly converge by separate arrows to one output region-marked human silhouette while clinician explains to patient. Essential headings exactly HISTORY, EXAM, TESTS, DIAGNOSIS verified at original/card; relation and output label remain legible120. No condition name, scan reading, laboratory values or actual clinical finding is presented: arm tint is schematic target identification only. Distinguishes evidence integration/current identification from uncertain future prognosis; not a generic clipboard. Coherent hands/device context and clean cool clinical palette, no irrelevant decor.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually inspected original1254, converted512WebP and120PNG. Three illustrated inputs (patient account, arm examination, red blood specimen/blank sheet) visibly converge by separate arrows to one output region-marked human silhouette while clinician explains to patient. Essential headings exactly HISTORY, EXAM, TESTS, DIAGNOSIS verified at original/card; relation and output label remain legible120. No condition name, scan reading, laboratory values or actual clinical finding is presented: arm tint is schematic target identification only. Distinguishes evidence integration/current identification from uncertain future prognosis; not a generic clipboard. Coherent hands/device context and clean cool clinical palette, no irrelevant decor."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T05:10:43.131Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5768cec304a6cec240827261cbd2f337c5f29fa015b7f6ab9257761dba9fdd09",
+          "inspectedAt": "2026-10-30T05:12:40.453Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254original/512WebP/120PNG. Pictured patient history, arm examination and red blood specimen/blank report form three distinct inputs whose arrows converge on one current-condition identification panel. Exact HISTORY/EXAM/TESTS/DIAGNOSIS headings verified at original/512; the converging relation remains visible120. Marked silhouette arm is schematic regional identification, not a named disease, actual finding or numerical result. Patient/clinician anatomy and calm cool-white/mint clinical style are coherent; diagram teaches evidence integration rather than an uncertain future prognosis or generic clipboard.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "prognosis",
+      "sourceWord": "prognosis",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "prognosis:meaning-1",
+          "pos": "n.",
+          "en": "An assessment of how a disease or medical condition is likely to develop and what its outcome may be."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clinician explained the prognosis and the uncertainty that remained.",
+          "senseId": "prognosis:meaning-1"
+        },
+        {
+          "en": "The team reviewed the outlook as more information became available.",
+          "senseId": "prognosis:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/prognosis.webp",
+        "sha256": "3edc5b64817f805ee51b1bc32617598602263d2bc37ddc325dffa2442b6d2525"
+      },
+      "visual": {
+        "expectedCue": "NOW cast state branches to two question-marked future courses: upper has visibly uncast forearms/hands, lower still has cast; uncertainty preserved.",
+        "decision": "added",
+        "reason": "Actually inspected corrected original1254/512WebP/120PNG: current same-patient cast state labelled NOW branches on dashed paths to two question-marked possible futures. Upper future now visibly includes BOTH uncast forearms/hands; lower future retains cast. Labels NOW and POSSIBLE FUTURES and both question marks verified; relation and cast contrast survive120. No timing, probabilities, guarantee, disease name or actual patient finding. Clinician explains uncertain future course rather than identifying a current condition. Clean clinical mint/white scene and controlled soft-illustrated board; one cropped-arm initial candidate preserved rejected, this is attempt2.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually inspected corrected original1254/512WebP/120PNG: current same-patient cast state labelled NOW branches on dashed paths to two question-marked possible futures. Upper future now visibly includes BOTH uncast forearms/hands; lower future retains cast. Labels NOW and POSSIBLE FUTURES and both question marks verified; relation and cast contrast survive120. No timing, probabilities, guarantee, disease name or actual patient finding. Clinician explains uncertain future course rather than identifying a current condition. Clean clinical mint/white scene and controlled soft-illustrated board; one cropped-arm initial candidate preserved rejected, this is attempt2."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T05:17:12.429Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3edc5b64817f805ee51b1bc32617598602263d2bc37ddc325dffa2442b6d2525",
+          "inspectedAt": "2026-10-30T05:21:16.104Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently inspected corrected1254original/512WebP/120PNG. Clinician explains one NOW cast state branching through two dashed routes into question-marked possible futures: upper clearly shows both uncast forearms/hands, lower retains a cast. Same-patient identity, cast contrast and uncertainty are visible; exact NOW/POSSIBLE FUTURES and question marks verified at original/512. No timeline, probability, named disease or guaranteed recovery is implied. Clinical white/mint/pale-blue setting supports future-course assessment, distinct from current-condition diagnosis; not a real patient prognosis.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "prevention",
+      "sourceWord": "prevention",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "prevention:meaning-1",
+          "pos": "n.",
+          "en": "Action taken to reduce the likelihood that a disease, injury or other health problem will occur."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Prevention was a central topic in the community health programme.",
+          "senseId": "prevention:meaning-1"
+        },
+        {
+          "en": "The team discussed ways to reduce injuries before they happened.",
+          "senseId": "prevention:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/prevention.webp",
+        "sha256": "056157afddd10fcf39d8f3bb7eb970b64e3dfa49bef4111f660a5f33f82df47c"
+      },
+      "visual": {
+        "expectedCue": "Healthcare worker removes a curled trip-hazard rug before the same uninjured older adult uses the cleared route: a concrete preventive action, no injury treatment or guarantee.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/512WebP/120PNG: same grey-haired blue-cardigan older adult remains seated while visiting health worker removes a loose curled rug; next panel shows same doorway cleared and same uninjured adult walking with worker aside. BEFORE INJURY verified exactly and readable120; connecting arrow establishes action before harm. Hands/legs have coherent support, no fall, treatment, injury, numbers or zero-risk promise. Rug is a purposeful trip hazard, not decorative background. This is one concrete fall-prevention example, not a universal prevention method; cool-white/mint clinical-public-health rendering, no irrelevant props.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually inspected original1254/512WebP/120PNG: same grey-haired blue-cardigan older adult remains seated while visiting health worker removes a loose curled rug; next panel shows same doorway cleared and same uninjured adult walking with worker aside. BEFORE INJURY verified exactly and readable120; connecting arrow establishes action before harm. Hands/legs have coherent support, no fall, treatment, injury, numbers or zero-risk promise. Rug is a purposeful trip hazard, not decorative background. This is one concrete fall-prevention example, not a universal prevention method; cool-white/mint clinical-public-health rendering, no irrelevant props."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T05:20:57.557Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "056157afddd10fcf39d8f3bb7eb970b64e3dfa49bef4111f660a5f33f82df47c",
+          "inspectedAt": "2026-10-30T05:24:42.269Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Same uninjured grey-haired adult waits seated while worker removes loose rug; following panel shows that adult using the clear doorway. BEFORE INJURY exact, arrow and changed floor clear at thumbnail. Coherent weight-bearing limbs and rug contact; no fall, treatment or guarantee. Cool white/mint healthcare context supports one concrete fall-prevention example, with only essential doorway and chair context.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "risk-factor",
+      "sourceWord": "risk factor",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "risk-factor:meaning-1",
+          "pos": "n.",
+          "en": "A characteristic, condition or exposure associated with an increased likelihood of a particular health problem."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The study examined age as a risk factor for the condition.",
+          "senseId": "risk-factor:meaning-1"
+        },
+        {
+          "en": "The clinician considered several factors rather than a single feature.",
+          "senseId": "risk-factor:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/risk-factor.webp",
+        "sha256": "06d908c18f397103007c8a6ec03c265a40ad0dcc8e0bba840c9aeb751fad2926"
+      },
+      "visual": {
+        "expectedCue": "Concrete tobacco exposure connects by a dashed HIGHER CHANCE relationship to LUNG DISEASE? in counselling: increased likelihood of a specified health problem, no inevitable disease or individual diagnosis.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/512WebP/120PNG. Counselling board shows tobacco cigarette/smoke exposure linked by a dashed arrow labelled HIGHER CHANCE to pale lung model captioned LUNG DISEASE? under RISK FACTOR heading. All exact lettering/question mark verified, relationship remains readable120. Cigarette is a large board illustration with visible gap from clinician mouth and no hand contact, not a person smoking. No pathology scan, probability number, individual result or inevitable-disease assertion. Lung model gives target organ context without diagnostic claims; main cue is qualitative increased likelihood, distinct from prognosis/current diagnosis. Clean cool-white/mint scene, no unrelated decoration. CDC factual association reference saved; no source artwork/prose copied.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually inspected original1254/512WebP/120PNG. Counselling board shows tobacco cigarette/smoke exposure linked by a dashed arrow labelled HIGHER CHANCE to pale lung model captioned LUNG DISEASE? under RISK FACTOR heading. All exact lettering/question mark verified, relationship remains readable120. Cigarette is a large board illustration with visible gap from clinician mouth and no hand contact, not a person smoking. No pathology scan, probability number, individual result or inevitable-disease assertion. Lung model gives target organ context without diagnostic claims; main cue is qualitative increased likelihood, distinct from prognosis/current diagnosis. Clean cool-white/mint scene, no unrelated decoration. CDC factual association reference saved; no source artwork/prose copied."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T05:24:09.130Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "06d908c18f397103007c8a6ec03c265a40ad0dcc8e0bba840c9aeb751fad2926",
+          "inspectedAt": "2026-10-30T05:25:06.124Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Cigarette exposure on counselling board connects via dashed HIGHER CHANCE arrow to lung illustration captioned LUNG DISEASE?; exact labels/question mark checked. Diagram cigarette is separate from clinician mouth and hands. No measured probability or individual finding, and question mark preserves uncertain association. Board relation and cigarette/lung cues survive120 though small text does not all remain readable. Coherent hands, clinical white/mint style; lung used as target-organ context rather than diagnostic pathology.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "contraindication",
+      "sourceWord": "contraindication",
+      "categoryId": "medicine-healthcare",
+      "meanings": [
+        {
+          "senseId": "contraindication:meaning-1",
+          "pos": "n.",
+          "en": "A circumstance that makes a particular treatment or procedure unsuitable because it may cause harm."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The clinician checked for a contraindication before choosing the treatment.",
+          "senseId": "contraindication:meaning-1"
+        },
+        {
+          "en": "The team discussed whether the proposed procedure was suitable for that patient.",
+          "senseId": "contraindication:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/contraindication.webp",
+        "sha256": "24394c29cd8468f00c2efdf2818caeabe2c9dcc86f15ee20133a2bc6e95a02c7"
+      },
+      "visual": {
+        "expectedCue": "Patient-specific allergy card and same fictional A medicine identifier connect to withholding that product, distinguishing a contraindication from a side effect or blanket drug prohibition.",
+        "decision": "added",
+        "reason": "Actually inspected original1254/512WebP/120PNG: clinician shows ALLERGY card with fictional A, connector leads to same A carton crossed by red prohibition stroke, clinician's open palm pauses proposed product. Exact ALLERGY and both A characters verified and large/readable120. This is patient-specific prior unsuitability, no reaction after use, blanket medicine ban, substitute, dose or named substance. Carton/card identity relation and coherent five-digit hands clear; no clinical result or real identifying data. Clean clinical cool-white/mint scene without decoration. Fictional symbolic medicine example only, not advice about an actual allergy/drug.",
+        "languageId": "medicine-healthcare",
+        "languageSha256": "45713ebf55b59c071c7d1495a0c4e79ed535a6e6c58f45a0aee328483665e99e",
+        "styleInspection": "Actually inspected original1254/512WebP/120PNG: clinician shows ALLERGY card with fictional A, connector leads to same A carton crossed by red prohibition stroke, clinician's open palm pauses proposed product. Exact ALLERGY and both A characters verified and large/readable120. This is patient-specific prior unsuitability, no reaction after use, blanket medicine ban, substitute, dose or named substance. Carton/card identity relation and coherent five-digit hands clear; no clinical result or real identifying data. Clean clinical cool-white/mint scene without decoration. Fictional symbolic medicine example only, not advice about an actual allergy/drug."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T05:28:15.334Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "24394c29cd8468f00c2efdf2818caeabe2c9dcc86f15ee20133a2bc6e95a02c7",
+          "inspectedAt": "2026-10-30T05:29:28.833Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP,120PNG. Patient-specific ALLERGY A card connects to same fictional A carton with red prohibition slash and clinician pause palm. Exact text/identifier match and remain recognizable120. No administered product, adverse reaction, dose, substitute or real drug advice. Hands/contact coherent and no personal identifiers. Clinical white/mint restrained illustration clearly explains prior unsuitability for this person, not blanket medicine prohibition or side effect.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "datum",
+      "sourceWord": "datum",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "datum:meaning-1",
+          "pos": "n.",
+          "en": "An ideal geometric reference, such as a plane, line or point, established from specified part features to locate or measure other features."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The datum provides the reference plane for locating the hole.",
+          "senseId": "datum:meaning-1"
+        },
+        {
+          "en": "Measurements were related to that reference rather than an arbitrary edge.",
+          "senseId": "datum:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/datum.webp",
+        "sha256": "72a83e2d6981ffa218f22a255b68f1bcc64561e4928ebbd42afc38c05ad06495"
+      },
+      "visual": {
+        "expectedCue": "Ideal flat datum planeA extends beneath a physical block; enlarged real underside differs from the perfect reference, with hole location related to that plane, no measured values.",
+        "decision": "added",
+        "reason": "Actually inspected original1254px,512WebP and120PNG. A flat amber construction grid extends beneath the silver block without a separate material thickness. The magnified underside shows a real irregular silver boundary above the straight ideal reference line, meeting it at a few low points rather than equating the rough surface with the ideal plane. Both literal DATUM A labels lead to ideal geometry, and FEATURE leads to the actual underside; all characters were checked at original/512px. The front through-hole and a qualitative reference guide relate its location to that plane. The inset exaggerates surface variation for teaching, not a measured roughness, qualified datum setup or supported loaded fixture. Main plane/feature distinction remains recognizable120px, with slate/silver/amber technical style.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254px,512WebP and120PNG. A flat amber construction grid extends beneath the silver block without a separate material thickness. The magnified underside shows a real irregular silver boundary above the straight ideal reference line, meeting it at a few low points rather than equating the rough surface with the ideal plane. Both literal DATUM A labels lead to ideal geometry, and FEATURE leads to the actual underside; all characters were checked at original/512px. The front through-hole and a qualitative reference guide relate its location to that plane. The inset exaggerates surface variation for teaching, not a measured roughness, qualified datum setup or supported loaded fixture. Main plane/feature distinction remains recognizable120px, with slate/silver/amber technical style."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T05:06:39.366Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "72a83e2d6981ffa218f22a255b68f1bcc64561e4928ebbd42afc38c05ad06495",
+          "inspectedAt": "2026-10-30T05:08:59.497Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently inspected actual1254original/512WebP/120PNG. A thin amber construction plane extends under the block; magnified irregular actual underside is a separate silver boundary above the ideal straight line, meeting it at low points. Both exact DATUM A labels point to ideal geometry and FEATURE to the real underside; all lettering verified at original/512. Hole reference guide relates location to the plane without numbers. Plane/physical-feature distinction survives120 in slate/silver/amber; inset variation is exaggerated explanatory geometry, not a measured roughness, qualified simulator or tolerance-compliance proof.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "centreline",
+      "sourceWord": "centreline",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "centreline:meaning-1",
+          "pos": "n.",
+          "en": "A drawing line identifying the centre or axis of a circular, cylindrical or symmetrical feature."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The centreline passes through the centre of the circular hole.",
+          "senseId": "centreline:meaning-1"
+        },
+        {
+          "en": "It identifies the axis without representing a solid edge.",
+          "senseId": "centreline:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/centreline.webp",
+        "sha256": "1954b25a28d49fa8d4d240a0b81a8b641091f90f84a37e6e0c48ee75eaa30307"
+      },
+      "visual": {
+        "expectedCue": "One vertical amber long/short-pattern centreline through matched concentric-circle end view and same-width sleeve elevation, with bore-edge spacing matching inner diameter.",
+        "decision": "added",
+        "reason": "Actually inspected corrected original1254px,512WebP and120PNG. The two vertically aligned orthographic views now have matching outer width/diameter and matching hidden-bore spacing/inner diameter, unlike the rejected horizontal candidate. One amber centreline with a repeating long/short pattern passes through the exact visual centres of both concentric circles and the sleeve elevation, extending beyond their bounds. The silver solid outlines and two silver hidden edges remain distinct from the amber reference line, so it cannot be mistaken for a physical wall or groove. No labels or numerical dimensions appear; the full-height views/axis are clear120px. This is an original qualitative drafting illustration, not a measured manufacturing-standard drawing.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected corrected original1254px,512WebP and120PNG. The two vertically aligned orthographic views now have matching outer width/diameter and matching hidden-bore spacing/inner diameter, unlike the rejected horizontal candidate. One amber centreline with a repeating long/short pattern passes through the exact visual centres of both concentric circles and the sleeve elevation, extending beyond their bounds. The silver solid outlines and two silver hidden edges remain distinct from the amber reference line, so it cannot be mistaken for a physical wall or groove. No labels or numerical dimensions appear; the full-height views/axis are clear120px. This is an original qualitative drafting illustration, not a measured manufacturing-standard drawing."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T05:12:16.995Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1954b25a28d49fa8d4d240a0b81a8b641091f90f84a37e6e0c48ee75eaa30307",
+          "inspectedAt": "2026-10-30T05:15:23.289Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually inspected corrected1254original/512WebP/120PNG. One amber long/short-pattern line passes through the concentric-circle centre and middle of the matching sleeve elevation, extending beyond both. Outer widths and hidden bore-edge spacing visually match the corresponding diameters. Amber axis differs from solid silver outlines and silver hidden lines; it is not a wall, groove or leader. Selected reference line remains visible120 in slate/silver/amber. No numbers or production-standard measurement certification are asserted; this is a qualitative centreline illustration.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "calibration",
+      "sourceWord": "calibration",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "calibration:meaning-1",
+          "pos": "n.",
+          "en": "Establishing how the indications of a measuring instrument relate to reference values under stated conditions."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The calibration compared the instrument with a measurement standard.",
+          "senseId": "calibration:meaning-1"
+        },
+        {
+          "en": "The report recorded its response and the associated uncertainty.",
+          "senseId": "calibration:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/calibration.webp",
+        "sha256": "80607e51550d662b1cb4f32eb1963a7c40a99c86b87aee40eba96dd687ae0143"
+      },
+      "visual": {
+        "expectedCue": "A known-reference gauge block actually contacts opposed flat micrometer faces; REFERENCE/INDICATION comparison context with blank nonnumeric instrument display, no adjustment/result claim.",
+        "decision": "added",
+        "reason": "Actually inspected original1254px,512WebP and120PNG. One solid reference block sits between opposed flat micrometer faces; its end boundaries meet the fixed anvil and movable spindle without a visible measuring gap. The anvil/C frame, spindle/sleeve and thimble form a coherent instrument. Exact REFERENCE tag leads to that block; the record headings REFERENCE and INDICATION are correctly spelled, with blank cells and an entirely blank/unlit display. This depicts the instrument/reference comparison context without inventing any result, value, uncertainty number, certification or adjustment action; it does not document a completed real calibration. Main block/contact relationship remains clear120px in the technical slate/silver/amber brief.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254px,512WebP and120PNG. One solid reference block sits between opposed flat micrometer faces; its end boundaries meet the fixed anvil and movable spindle without a visible measuring gap. The anvil/C frame, spindle/sleeve and thimble form a coherent instrument. Exact REFERENCE tag leads to that block; the record headings REFERENCE and INDICATION are correctly spelled, with blank cells and an entirely blank/unlit display. This depicts the instrument/reference comparison context without inventing any result, value, uncertainty number, certification or adjustment action; it does not document a completed real calibration. Main block/contact relationship remains clear120px in the technical slate/silver/amber brief."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T05:15:34.705Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "80607e51550d662b1cb4f32eb1963a7c40a99c86b87aee40eba96dd687ae0143",
+          "inspectedAt": "2026-10-30T05:21:16.118Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed1254original/512WebP/120PNG. Known-reference block is positioned between opposed flat micrometer contacts; anvil, spindle, C frame and thimble are connected coherently. Exact REFERENCE tag and REFERENCE/INDICATION blank comparison table make the intended instrument-versus-reference relation explicit. Blank display/cells deliberately assert no reading, result, uncertainty number, certificate or adjustment. Accepted as calibration comparison apparatus/context, not documentation of a completed calibration. Main contact/comparison cue survives120 in slate/silver/amber.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "traceability",
+      "sourceWord": "traceability",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "traceability:meaning-1",
+          "pos": "n.",
+          "en": "The ability to connect a product or component with recorded information about its origin, processing and movement."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Traceability links the finished part to its material batch.",
+          "senseId": "traceability:meaning-1"
+        },
+        {
+          "en": "The records preserve its processing history and origin.",
+          "senseId": "traceability:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/traceability.webp",
+        "sha256": "fc34646f233e919041624a54c1b0c8840c6688bf1ca0cb878e29622b075d4e2a"
+      },
+      "visual": {
+        "expectedCue": "FinishedPART P4 links through exact PART/LOT/PROCESS record P4/B7/MACHINED back to rawLOT B7, showing original batch/history relation rather than an unrelated barcode.",
+        "decision": "added",
+        "reason": "Actually inspected original1254px,512WebP and120PNG. I read exact header PART/LOT/PROCESS and row P4/B7/MACHINED. The P4 record leader reaches the finished bracket's PART P4 tag, and the B7 leader reaches the raw billet's LOT B7 tag; their crossing in empty space has no junction marker and both endpoints remain traceable. The large original billet can qualitatively yield the smaller machined bracket, and the rightward process arrow is a history relation rather than force. All IDs agree, no unrelated barcode, quantity, real certificate or acceptance stamp is substituted. Record/material/finished-part connection is clear120px in the category palette. This is a fictional component-history example, not metrological traceability or proof of an actual supply-chain record.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254px,512WebP and120PNG. I read exact header PART/LOT/PROCESS and row P4/B7/MACHINED. The P4 record leader reaches the finished bracket's PART P4 tag, and the B7 leader reaches the raw billet's LOT B7 tag; their crossing in empty space has no junction marker and both endpoints remain traceable. The large original billet can qualitatively yield the smaller machined bracket, and the rightward process arrow is a history relation rather than force. All IDs agree, no unrelated barcode, quantity, real certificate or acceptance stamp is substituted. Record/material/finished-part connection is clear120px in the category palette. This is a fictional component-history example, not metrological traceability or proof of an actual supply-chain record."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T05:19:24.369Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "fc34646f233e919041624a54c1b0c8840c6688bf1ca0cb878e29622b075d4e2a",
+          "inspectedAt": "2026-10-30T05:24:53.094Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP,120PNG. Exact PART/LOT/PROCESS row P4/B7/MACHINED matches PART P4 finished bracket and LOT B7 original billet. Amber leaders terminate on correct tags; crossing in empty space has no junction. Billet is large enough qualitatively for bracket; process arrow signifies history, not load. Record-to-material-to-product relation survives120. Navy/silver/amber technical style; fictional product history only, not metrological traceability or certified manufacturing evidence.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "non-destructive-testing",
+      "sourceWord": "non-destructive testing",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "non-destructive-testing:meaning-1",
+          "pos": "n.",
+          "en": "Examination of a material or component to assess its condition without impairing its intended future use."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Non-destructive testing was used to examine the weld without impairing its intended use.",
+          "senseId": "non-destructive-testing:meaning-1"
+        },
+        {
+          "en": "The inspector selected an ultrasonic method for this component.",
+          "senseId": "non-destructive-testing:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/non-destructive-testing.webp",
+        "sha256": "811458212a2fdbc6dff6d07ffb7176c40db6e69c93b12e1ed1b7750a37e550d8"
+      },
+      "visual": {
+        "expectedCue": "An ultrasonic probe/wedge actually contacts the intact welded plate with a thin coupling interface and continuous cable to a blank-screen UT instrument; no test result or hidden flaw claim.",
+        "decision": "added",
+        "reason": "Actually inspected original1254px,512WebP and120PNG. The amber angle-probe wedge has a flat base visibly seated on the flat plate beside the weld through a thin clear coupling interface; its toe faces toward the seam. Probe body/wedge are connected, and one uninterrupted cable visibly enters both the probe and handheld instrument connectors. The joined steel plates and continuous weld remain intact; no destructive sample, internal flaw graphic or asserted test result appears. Exact UT text is correct, the display is blank/unlit, and there are no readings, beam angles, pass/fail marks or operating steps. Main contact/weld/cable cue remains clear120px in slate/silver/amber, with the outer plate edge merely contextual. This illustrates one possible ultrasonic NDT apparatus relationship, not a completed inspection, soundness determination or certified procedure.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254px,512WebP and120PNG. The amber angle-probe wedge has a flat base visibly seated on the flat plate beside the weld through a thin clear coupling interface; its toe faces toward the seam. Probe body/wedge are connected, and one uninterrupted cable visibly enters both the probe and handheld instrument connectors. The joined steel plates and continuous weld remain intact; no destructive sample, internal flaw graphic or asserted test result appears. Exact UT text is correct, the display is blank/unlit, and there are no readings, beam angles, pass/fail marks or operating steps. Main contact/weld/cable cue remains clear120px in slate/silver/amber, with the outer plate edge merely contextual. This illustrates one possible ultrasonic NDT apparatus relationship, not a completed inspection, soundness determination or certified procedure."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T05:23:55.271Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "811458212a2fdbc6dff6d07ffb7176c40db6e69c93b12e1ed1b7750a37e550d8",
+          "inspectedAt": "2026-10-30T05:25:24.358Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP,120PNG. Probe/wedge flat base sits on plate through thin clear coupling edge beside continuous intact weld; wedge toe faces seam. Single continuous cable meets both probe and instrument connectors. Joined plate remains intact; UT exact, display blank, no fabricated flaw, numeric reading or pass/fail claim. Main contacting-probe/weld relation survives120 in slate/silver/amber engineering style. One possible ultrasonic apparatus context, not evidence of a completed test or certified procedure.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "surface-roughness",
+      "sourceWord": "surface roughness",
+      "categoryId": "engineering",
+      "meanings": [
+        {
+          "senseId": "surface-roughness:meaning-1",
+          "pos": "n.",
+          "en": "The fine, closely spaced irregularities that form part of a surface's texture."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The surface roughness affects how the two faces make contact.",
+          "senseId": "surface-roughness:meaning-1"
+        },
+        {
+          "en": "The enlarged profile shows fine irregularities rather than the part's overall shape.",
+          "senseId": "surface-roughness:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/surface-roughness.webp",
+        "sha256": "1e22e8541d2587d17778f2c57ef432ec24465e760bf4a374fc8ddcfae640b952"
+      },
+      "visual": {
+        "expectedCue": "An overall flat intact metal face links to a magnified level profile with many fine irregularities, distinguishing microscopic roughness from gross shape, broad waviness and damage; no measurement values.",
+        "decision": "added",
+        "reason": "Actually inspected original1254px,512WebP and120PNG. The original metal block retains an overall flat intact top/edge, with a small selected surface patch linked to a magnified profile. In that inset, many fine closely spaced nonidentical irregularities form one continuous boundary with solid silver material below and empty slate above. There is no broad sinusoidal waviness, tilted overall form, repeated gear teeth, crack or macroscopic damage. The faint straight reference line is qualitative, with no ticks, scale or parameter value; no measured Ra or real roughness result is inferred. The flat-looking part versus fine enlarged texture cue remains visible120px in the slate/silver/amber brief.",
+        "languageId": "engineering",
+        "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
+        "styleInspection": "Actually inspected original1254px,512WebP and120PNG. The original metal block retains an overall flat intact top/edge, with a small selected surface patch linked to a magnified profile. In that inset, many fine closely spaced nonidentical irregularities form one continuous boundary with solid silver material below and empty slate above. There is no broad sinusoidal waviness, tilted overall form, repeated gear teeth, crack or macroscopic damage. The faint straight reference line is qualitative, with no ticks, scale or parameter value; no measured Ra or real roughness result is inferred. The flat-looking part versus fine enlarged texture cue remains visible120px in the slate/silver/amber brief."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-30T05:27:31.926Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1e22e8541d2587d17778f2c57ef432ec24465e760bf4a374fc8ddcfae640b952",
+          "inspectedAt": "2026-10-30T05:28:41.800Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed original1254,512WebP and120PNG. Amber selection on intact flat-looking block links to enlarged surface boundary: many fine nonuniform peaks/valleys with solid silver below and empty slate above. No gear teeth, cracks, broad wave or gross form error. Qualitative dashed line has no measurements, ticks or claimed Ra. Fine boundary versus overall flat form remains distinguishable120; slate/silver/amber technical brief. Enlarged explanatory profile, not a measured real surface.",
+          "reviewerId": "/root"
+        }
+      }
     }
   ]
 }
