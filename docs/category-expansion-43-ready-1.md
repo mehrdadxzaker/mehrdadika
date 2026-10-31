@@ -1,0 +1,48 @@
+# Category expansion 43: garden objects, growing and home repairs
+
+Prepared on **October 31, 2026**, this group adds **24 distinct illustrated English entries: 12 objects and materials and 12 actions**, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding. The integrated source contains **1,216 words and 1,217 senses**. Home, gardening and DIY grows from **5 to 29 entries**, leaving **21** toward its first count target of 50. The configured count queue continues with this category. Everyday life remains at 50, and medicine and engineering remain at 500 each. These are word-count milestones, not category completion or whole-collection qualification.
+
+## Included vocabulary
+
+| Unit | English headwords and stable entry IDs |
+| --- | --- |
+| Garden containers, supports and materials | flowerpot (`flowerpot`), seed tray (`seed-tray`), trellis (`trellis`), soil (`soil`), compost (`compost`), mulch (`mulch`) |
+| Garden hand tools and transport | trowel (`trowel`), rake (`rake`), spade (`spade`), hoe (`hoe`), wheelbarrow (`wheelbarrow`), secateurs (`secateurs`) |
+| Garden growing and care | weed (`weed`), sow (`sow`), mow (`mow`), dig (`dig`), repot (`repot`), harvest (`harvest`) |
+| Home repair and finishing | glue (`glue`), sand (`sand`), patch (`patch`), caulk (`caulk`), varnish (`varnish`), assemble (`assemble`) |
+
+Each entry selects one explicit sense and supplies two meaningful examples, three collocations, useful distinctions, editorial UK/US IPA and approximate CEFR guidance. All 24 complete English/Persian records and all 48 Portuguese/Spanish overlays were actually read with their English bindings. Compost selects decomposed organic material, while mulch selects a surface covering. Rake and hoe are tool nouns; weed, sand and varnish are actions. Secateurs selects the plural British tool name rather than another entry for a US alias. Translations do not multiply the English word count.
+
+## What the pictures teach
+
+The home, gardening and DIY brief uses botanical home-workshop watercolor and pencil on cream, with leaf green and wood tones. Joined parts, rooted plants, supporting surfaces and tool contact carry the meaning. These pictures use a different category brief from the earlier everyday-life gouache.
+
+The flowerpot holds growing medium and a connected plant above a separate saucer. The seed tray has joined shallow cells; the trellis supports a continuous climbing stem with visible ties. The soil section contains roots below its surface. Compost contrasts recognizable plant waste with broken-down material, while mulch remains a separate coarse covering above finer soil with an opening around the stem. Trowel, rake, spade and hoe have distinct joined working heads. The wheelbarrow has a supported tray, wheel, handles and resting legs. The secateurs picture shows one stem meeting the blade and opposing hook.
+
+The growing actions show removing a weed, placing seeds, mowing grass, digging earth, moving a plant to another pot and gathering produce. The repair actions show adhesive at a repair interface, abrasive paper facing wood, a stitched patch overlapping a tear, a bead inside a trim joint, transparent varnish brushed over visible wood grain, and separate frame members becoming one joined frame. They are qualitative teaching scenes, not measured depth, capacity, hidden mechanism, product performance or professional technique demonstrations.
+
+Three new references were registered only after genuine paired inspection: the household-object style, seed-row layout and soil-section layout. Their recorded histories show **13 distinct first candidates using those references**, plus **three subsequent corrective image edits**. The soil reference supplies limited section geometry; the object reference supplies medium, palette and quiet focus rather than pot geometry for every noun. Every derivative had its own built-in request, fresh actual original/512px/120px author observations and a different AI second review. No semantic approval transferred from a template.
+
+## Actual review, provenance and preservation
+
+**27 genuine built-in requests produced 27 outputs: 24 accepted current images and three preserved rejected candidates.** There were no request failures, new holds or pending requests at freeze. Glue's first bead was on an unrelated rim; the correction moved it into the repair interface. Sand's first abrasive face pointed away from the wood; the correction put the grit underneath. The first secateurs picture had an ambiguous forked stem; the correction established one stem trajectory at the jaws. These negatives remain preserved.
+
+Every current original was actually inspected at 1254px, alongside its converted 512px WebP and separate 120px PNG. Different AI authors and second reviewers inspected every current triple. Current text and pixel receipts bind source meaning, profile, prompt and image bytes. Software establishes integrity and freshness, not semantic truth or human approval.
+
+All new wording, native scaffolding and illustrations are original AI-assisted CC BY 4.0 editorial previews. Per-entry traceability distinguishes original common-language contributions from bounded factual checks against gardening and product references. Definitions, examples and native wording were not copied from reference prose; no external artwork was copied. Before import, 24 tip-only native edits replaced unnecessary image-certification boilerplate with useful word meaning, grammar and distinctions. The original part, exact changes and reversal proof remain preserved.
+
+The same 15 historical manual-resolution holds and their negative evidence remain preserved and were not retried. Two bounded older cases, bearing and shaft, were retained after paired actual current 512px and private 120px observations, with no regenerated picture or new full-original claim. The collection audit still records **4 medical and 29 engineering current-512px inspection gaps**, with further limits in older evidence. Missing original metadata does not invalidate a narrower valid observation; thumbnail-only findings cannot establish full current-card inspection. Whole-collection qualification and independent human language and specialist review remain pending.
+
+The established persistent queue, reviewed templates, frozen-group publisher and strict preservation tooling were reused. No new tooling change or historical targeted-test rerun is claimed. No implementation dashboard was added to learner output.
+
+## Validation
+
+Local integration and release validation passed. Strict integration dry-run and apply preserved the 1,192 prior English records, prior native records, existing media and science assets. The production build under `/mehrdadika/` passed in 4.883 seconds. Its existing prebuild compiled English preview release 49, both native vocabulary snapshots and native reading snapshots, with the illustration, category-style and campaign checks; these were not counted as additional separate build runs. All **198 tests passed, with 0 failures and 0 skips**, and the full content, native-language, reading, illustration, category-style and campaign checks passed. No application or loader code changed in this batch.
+
+Actual local campaign status reports **1,216 words and 1,217 senses**, with home, gardening and DIY at **29 entries**, leaving **21** toward its first count target of 50. The configured count queue continues with this category; everyday life remains at 50 and medicine and engineering at 500 each. Both existing compiled native snapshots were independently read and counted without rebuilding: each has **1,216 words, 1,217 senses, 2,434 translated examples, 3,648 collocations and 1,216 usage notes**, plus 32 categories, 348 subcategory labels and six group labels. Both snapshots bind to the same release 49 English manifest.
+
+Six settled local cards were actually inspected as full-size screenshots, with all six complete captured DOM texts separately read: flowerpot at 1280 × 900 desktop and varnish at 390 × 844 phone in Persian, Brazilian Portuguese and Latin American Spanish. The correct reviewed 512px image bytes matched, with the expected language directions and native text. No horizontal overflow or occlusion was observed. Long phone category badges wrapped readably, and Spanish pronunciation controls occupied two readable rows. These are representative first-viewport observations; complete DOM reading is a separate text check and does not establish every offscreen position or application workflow. Service workers were blocked, and offline behavior was not newly tested.
+
+The seven raw capture payloads remain archived unchanged, with their original false approval flags. They are separate from the actual AI manual inspection proof and confer no semantic or publication approval by themselves. Browser resources were closed, active HTTP requests and route handlers returned to zero, and the owned preview process was gracefully stopped; its port was confirmed closed. No human review is claimed.
+
+Strict preservation checks and exact source-head CI, Pages deployment, live revision, pointer, media and settled card verification remain separate release gates. **Remote CI, Pages and live verification remain pending at commit.** These local checks cover the new group and preservation of prior records; they do not establish category completion, whole-collection image qualification, learning outcomes or independent human language and specialist approval. The existing 4 medical and 29 engineering current-card inspection gaps and older evidence limits remain unresolved by this home, gardening and DIY batch.

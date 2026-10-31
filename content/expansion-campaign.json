@@ -8858,6 +8858,603 @@
           "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-43-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-49",
+      "sourceFiles": [
+        "home-objects.json",
+        "home-actions.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-48",
+        "manifest": "content/releases/2026-10-preview-48-a02a7e27c733/manifest.json",
+        "manifestSha256": "a02a7e27c7337a64a578c4a781342c2caef2e2e981dba24fb68464ddb96a0ba9",
+        "words": 1192
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "flowerpot",
+            "lexicalBinding": "2971caa548ee98ff9806b20c3671817935da24dd6a5265f0bf5169651e81d7b1",
+            "sourceImageSha256": "cc43a2b97d2459aab1724a6486807b3ff0bcc502b13a037aca6a6e1f7978f9e7",
+            "cardSha256": "8bf8c547056ee7d1d5267b5bccb311fcfad23805b57c191ce26d56d38d385f07",
+            "thumbnailSha256": "3b8ef40c3e2210dca2902ae8565c0ebba3b5ff7d7a0f2380ce2488e294382337",
+            "authorPixelBinding": "f3b773b6725fec2e03e485eeaf16dd924e7fabb115d919788fc24a2a00cff823",
+            "secondPixelBinding": "b733ddd30d5009e034ae82030af76830af9a536a41bde6a3e27e6250e0d248d2"
+          },
+          {
+            "entryId": "seed-tray",
+            "lexicalBinding": "66703102a34ba4331992b94083a735f73e8b36729f2a97a090d90556030622eb",
+            "sourceImageSha256": "34a46a6018a9992ab45197a274728c4fa8604a92d3f3735469751bb2c02513ee",
+            "cardSha256": "9ded50666ce01e49bf9853a285636e9b7dbbcc64a8c08b3dd7270f2bb3464b84",
+            "thumbnailSha256": "576c0de715393bd95d315dfa9081aa29f48a6a77a48f17a42804712efb08defe",
+            "authorPixelBinding": "3577c11e588104adcdec2f89334900c6519c17a81466e577ad3303675cdb801d",
+            "secondPixelBinding": "5523f18fad70e55e9e8f5dc6e25613cfd532592f76227bec22d02d21b6548caf"
+          },
+          {
+            "entryId": "trellis",
+            "lexicalBinding": "9dc48f71a5de6cc3e2844fb89d948d1bb0f5c5cee89dffa5f81a77e1ba2a8718",
+            "sourceImageSha256": "ed2a893deb781985150e6af7fa491dd69fb91a0e74f8018a118712d458a4d889",
+            "cardSha256": "b6be9dbacfeaed1b85e83b685c62c909b8c436a32931f6d76503c1c5425e78ca",
+            "thumbnailSha256": "0bfd587a566685261dd02aff7c75c7db74c8d47d95efa8fd6a8b9d5b56165971",
+            "authorPixelBinding": "01626cfe3be178b442c59037802999bf57d520b593b29416d38cdf503afa759a",
+            "secondPixelBinding": "e8b61562f52a79202001e2c78803d6f57dbe057476a5bd7a41e8778dd6c6b8d2"
+          },
+          {
+            "entryId": "soil",
+            "lexicalBinding": "92d9756ebacd242c60eb78a87eddce4837ee1da658c1dd6fe42a8cdfc5a8005a",
+            "sourceImageSha256": "d0947cd736f010e20e6467a7a4214661a670ae78a15a1b153f67d2a82da2df48",
+            "cardSha256": "eab50b01f92e3e76711353c292f8929523e6356b5a29a0b5d10326cb57e1814f",
+            "thumbnailSha256": "f6041ffeaf13e30b1b8db6dc524e72898dbbcdcabdc7231a8f359597211e891f",
+            "authorPixelBinding": "5df16af5774980cc5e65348f5e5424177e50ff6c1df2945ae9b250ffd7758fcd",
+            "secondPixelBinding": "b74cbeace65d055ed27695402527f0b1db0f55f246152cba5ce31d88f0804a56"
+          },
+          {
+            "entryId": "compost",
+            "lexicalBinding": "8daaa93c8fe6d5ca887180e50423b3e95a06a275be5ec7ff0b22ca6a8b0f0dac",
+            "sourceImageSha256": "f4125e402d55a09d8180854131dd1a041f271c208d367f0ab8935720aa9d9c10",
+            "cardSha256": "84fca1f49aa995a289b33e352a414c9da3dce767aadd47daf33c8e96ad2a657f",
+            "thumbnailSha256": "8f8bd677aeccf8bde68c815047d2b645f47a3821409b2769ab4b200f694e4a13",
+            "authorPixelBinding": "aa97ead5d14844f2b70bb9d723ff820eb18ef68c8afe10107de21ca6a854db34",
+            "secondPixelBinding": "5fcb749ee18ef6d1eb6e691ff1bb84cc76062801584b1925bf55a87086cf60ca"
+          },
+          {
+            "entryId": "mulch",
+            "lexicalBinding": "8b1361ac040116ce7f5a039264d869603a6697c70d8059bd877b7e1e950002b9",
+            "sourceImageSha256": "b0a18dc5e2ccc2c826e0edc3c56cf84decbfdb1cd37cd3c5265ffc64c1d33cd8",
+            "cardSha256": "2edef16ce98970a02bf39bcc5641819afb4e1dde55aeb27947fd74e01cea6972",
+            "thumbnailSha256": "2add5975a1deaefe13f7b0c462822924bf37838c65e4427af98f9f5c431e9976",
+            "authorPixelBinding": "283f229a5e5c119e50cc69abfcada68cd45888e91398aaf3760b0848776abc4c",
+            "secondPixelBinding": "60dbe8e128f81a11b7ae5edb3bafd09c229bc31bef98762d469eb0f513d0366b"
+          },
+          {
+            "entryId": "trowel",
+            "lexicalBinding": "f78e6e73c8d814bcbc28327facca1f3999d2b5dc000ce9177defde5f7a8916d4",
+            "sourceImageSha256": "0f51667ad53fa8cbc0c201bae3219705ee7e3c96380070d4c4b51f96bc714823",
+            "cardSha256": "ebf3dbff83ff512828cc5c15b0b1dd2d1d57204ddf4cafd1cd3653cbf3bdc709",
+            "thumbnailSha256": "73625f4d806f26f0b8ec900a33e03f19b338a0c2688e290eea714cf8c6dc5174",
+            "authorPixelBinding": "ce8c2d04077da63af221a247f5d17d4a7473357afb7893a658cf824f710cbcbb",
+            "secondPixelBinding": "53d1331e80957b14dcbe20306a6d77c895cf86b9e148f857509cc5df1e88efdb"
+          },
+          {
+            "entryId": "rake",
+            "lexicalBinding": "bd26648694346c13a0018bd2630f86ce92795d5167b7bf46f10e03ea2fde2afa",
+            "sourceImageSha256": "a2b20f6ee2935d75b4e8ea17693265eef826937f572fb8e90995dccdc118dc7f",
+            "cardSha256": "47246515d5ebd781b9d024b4bd0fcc7f08043697d88bf318e852952afdfae74d",
+            "thumbnailSha256": "24dfa450fe0555bf73d814df5448d69e1fb7c36ff27026f808db0415292c6861",
+            "authorPixelBinding": "abc5667ae12ed10689e8fb49524d24de36560bca576211a3c122092792f5aba4",
+            "secondPixelBinding": "bf7a162925d238a4403f31910f5af5de6ec391547923560371315e1542baf417"
+          },
+          {
+            "entryId": "spade",
+            "lexicalBinding": "bef26ae1b2dd158d20aea3bae8233d16f5bad51c5948e927bf249fab0820c6f2",
+            "sourceImageSha256": "ee6080516902217439ca2ede987e0f8ec482ecb33ce6f410dcec642954c5792d",
+            "cardSha256": "d1319dfed4045e24a59c9232920483821ca9b9644deb98514af042cc5529614a",
+            "thumbnailSha256": "45d9bcbc49001e9802088ee09f630fe2c995e31d7a98308e00e5a624732c4604",
+            "authorPixelBinding": "a03a5dd8da0e9752002ee9f3d91d6df7a1308bf2b47139ad93d100d216d12d37",
+            "secondPixelBinding": "d91584fd1e283a2411e0fe2734da66f20ead2cfbbbc510445978af084521762f"
+          },
+          {
+            "entryId": "hoe",
+            "lexicalBinding": "d55f77500d857a24018b8dd1bd690fd9ad1b5807d4467122e2b0e239c5a11c9e",
+            "sourceImageSha256": "2d22f963fa179d4a67ad5e367454415c854f994226f60c5d8cc1eec19a36f686",
+            "cardSha256": "3971dc508ba31f94a31ae902b1da87f6367a418d6460a32325d3cd72577f11ca",
+            "thumbnailSha256": "389150ddd85bd3be5665074457d4bb0122311f1c2c55d642875ae672af215b58",
+            "authorPixelBinding": "053678e9df1b1da78927a43242233a8f45a4e6bdb021c9b415c11faa4cd0c604",
+            "secondPixelBinding": "a2264787c936b4520617aea9c848a275d071df943b420a3f114950e1792455d8"
+          },
+          {
+            "entryId": "wheelbarrow",
+            "lexicalBinding": "91b4db28e824453860c186c7856173e11349e0a886ca51bdc9adb06758d8be27",
+            "sourceImageSha256": "f80ea6f2e8175aa3844f1566c374a05fbf8663328430f92aa009c2f87a8ffddd",
+            "cardSha256": "2d298edb7b2b7551299523a50cccb98d3dcde01f840b5d2af0603ccdc3de10ff",
+            "thumbnailSha256": "2729ef28d34923dafb16cde39aba2cd95d9ad2b2e5a224a09ef881eb4621f307",
+            "authorPixelBinding": "0923ce919790020eb51d228784d8aa1f9f31fd3127a2dac4ca689a4c1a9b8b88",
+            "secondPixelBinding": "d64b429a80f8799913730d7eac3bbc44bcee83c59170e4a957ed495baa1a770d"
+          },
+          {
+            "entryId": "secateurs",
+            "lexicalBinding": "9150c8a825c390bf5ae084adbfc1871f049bee1b30dcf45cde845c8ccc7f8be3",
+            "sourceImageSha256": "89a1df231d33b3e03156e4ce17fc6d2bc12cce40b6300bd6e99ec8459fc9f459",
+            "cardSha256": "9d80ade24d810c64ed7cd7b136438d05e8d59c0e9aa351286e6cdc13f8bb10ef",
+            "thumbnailSha256": "4d7ee4dc1a20b20ce3d91cba3fc792d766739d129d09a6deb82eed14b0ec0153",
+            "authorPixelBinding": "6b56c2ca441245d8047029eb2531225a98a860c11356c987a985056838d8337a",
+            "secondPixelBinding": "642c308068dcae1060fff285e8d16afa1bbe79f164fb8afd9ce64307036aa1df"
+          },
+          {
+            "entryId": "weed",
+            "lexicalBinding": "56409c26b9cfc28bad51bacd6b379096efeb2cf607dbd049c9ced7a34c48d5ef",
+            "sourceImageSha256": "b60a015de48aee86cffcd10c81a9ac6a560d8d15d72030cc5878392ce55c8cc6",
+            "cardSha256": "5b8c22200fb28e9ee79e09f1039c79cd87c51ab57dbddfe3aa01a14b9f671f03",
+            "thumbnailSha256": "fd1515025dccf6941873389237088d17d84f42e8e4d001772296755d52ec0de2",
+            "authorPixelBinding": "c7b38fd171f232e73d24bd5077644bc546977471c304732a7bbedb41b120fc7f",
+            "secondPixelBinding": "6b10b2e431c2bcbfdcb4dd03ecdca909c5591eeed2bf9800cb576bdec0f0134f"
+          },
+          {
+            "entryId": "sow",
+            "lexicalBinding": "fd18c40699627bd0ee71dc96a4d9f59bccb0d81f0b117fcb25f3c2b4e018682c",
+            "sourceImageSha256": "d609ab0c6abec1a91b902fdf8413da2fc559af38ea802b4a5597727b6d6dbf8a",
+            "cardSha256": "420dc1befec15daf3406a83b4412714afc6493aa22cef40813d12bf8a068fe1e",
+            "thumbnailSha256": "8067395f4ef3ff16e3904b8476384d09365b2ad8cf7d8ea4f2ca25d267077b5e",
+            "authorPixelBinding": "89ea8b70142b8674c44040adbc4b4d789651c65732fa80fdd57440c1a9d95dff",
+            "secondPixelBinding": "bca508e70ad98f4f9663a04771403733f666d6e3cbbff69dde18e8b1978618cf"
+          },
+          {
+            "entryId": "mow",
+            "lexicalBinding": "2526eaa8f5b5f68459c3a3621796d89aaac7e235873153b29ba31151a54bde9e",
+            "sourceImageSha256": "f297d09f875998f254492dcbac438eaaeb3482a3c5d5a8c2374529b4c7e0692d",
+            "cardSha256": "45515967de13c541298be613f27351b4b21e63687fd296096fe87f207a9e07aa",
+            "thumbnailSha256": "07f25fc9e4ee0cb753f8a7a8f51e15ba7f42cd4a26460b2440348cfb2efd0915",
+            "authorPixelBinding": "58ebbffabdc2a5e506b50f2370a3a5e8c1073a3fdc57c213f0e483929ae6517e",
+            "secondPixelBinding": "bd1c83634da8502f8e4896a2e75f7fc1baf14ad37aee16c7d0bde1cba1d22de3"
+          },
+          {
+            "entryId": "dig",
+            "lexicalBinding": "5d943d8f5d88b1ff4f56e02c033fa25eda5f5ed38ddb1a6f897b706f632e6cc6",
+            "sourceImageSha256": "5337d8483f56ebf6ed253cef568720c83c808fb8a70d091467c6a7f9d3c3e78f",
+            "cardSha256": "0a516925e23beefb6b1f8a4af96c60e9dccb2043eaa08ee7df023492c576a075",
+            "thumbnailSha256": "949bfc4d810273a1b5ec937280994bae885389e6b12649a142b0efef07076cd1",
+            "authorPixelBinding": "688e970483961c00229c504dde10b720d04d273e9c913eb719a46169c39773e6",
+            "secondPixelBinding": "4288baa1cc7fde679c8077214c05787499c62d0392ada0e7cd268a125c695ea3"
+          },
+          {
+            "entryId": "repot",
+            "lexicalBinding": "52d417b3720e1874682b1a09afa66ce64f6748994c10dd29bcb7ffcf74de2242",
+            "sourceImageSha256": "9e8d3c1e0f6737987114e786872df5155f858bcbf9478f7460b813fc8ede3148",
+            "cardSha256": "e47c3ba5a054adec2cc38e14327ba81b01a07502dd362d84103db0705f8a3c90",
+            "thumbnailSha256": "446dbf531af5e686c5cb43a274495473265c93e282151ed068dc9053d8c0314f",
+            "authorPixelBinding": "32ef5015aebcc25bf7da4e315062c0f0036cc06869cfede278a1d0c0db160c5f",
+            "secondPixelBinding": "e5ab40a063ed2a77c5f5156f73cd478f384aee306a63bac53223df705f544981"
+          },
+          {
+            "entryId": "harvest",
+            "lexicalBinding": "81f8186fc4d8bd0a64b1f52946673da1fecbfbd359f3db28351373fef32034b4",
+            "sourceImageSha256": "59c7e52fc9d1881c222ea3f20268904d7894153df4f8e21c61006eae414fc96f",
+            "cardSha256": "db0a139560cd1314ed3dfd7b064173ab053c4f22395e82105b6248f363ca0145",
+            "thumbnailSha256": "8d761cf5c0347a30717475baf29a0141ec27add20222fd354f9e74ce1566e118",
+            "authorPixelBinding": "7f6c020d5bf5a7e8745de8fa70d2e114e39e74896cdf7f62a2a28b5182a730cf",
+            "secondPixelBinding": "d36b4c0528afcbe37afd6a627ca144e7591ba546169560ebf8c1872e16bf7ef1"
+          },
+          {
+            "entryId": "glue",
+            "lexicalBinding": "961ead3665b968c4271a7f275dbda912e6ff7bae2107a37110dc44c5a166593b",
+            "sourceImageSha256": "9e33784770bcb01a3cb58acae2bea9fcbf29703268a18109193306a526479746",
+            "cardSha256": "c057eb81728bab7a014635abc30f98b2453bf02e9704d757075afe6a0937c278",
+            "thumbnailSha256": "fd75b8bed530985d4500d3d9f10e115deb7ef4d427ac4928cc8df46d785e6fc2",
+            "authorPixelBinding": "a8aa381d86cf56382bb791851838872e085d2d1df5dcc324feffa86a3fcab5dd",
+            "secondPixelBinding": "290ac10c4ceae4504ad70df528a92df0747fc4883fd7119cfb2d379ffffd3765"
+          },
+          {
+            "entryId": "sand",
+            "lexicalBinding": "59964c54e4288ed01cd01911b5116c0e6199fa771d1bd3c87195fe604ae7cbd7",
+            "sourceImageSha256": "5ba5aff09006900d8598a191023f4ae24293efac43d4c9a97474c06adde0aba3",
+            "cardSha256": "7cddc2e55161a517ad5ba33d88d0c4ce085752b74142ce47327ae996b17f3236",
+            "thumbnailSha256": "d555c9926a7d134ecbde8748fea60a24ef0c67b92b28a8955a71e9cf6edd4c15",
+            "authorPixelBinding": "a0ded53356c02a4ce90c63daa3a994e9a2729e5d44dad586762ecc88f8ee851c",
+            "secondPixelBinding": "e0a78521787e21a34417f48794dbca56aa1c2e45ca88ae85e82a4e5217c67028"
+          },
+          {
+            "entryId": "patch",
+            "lexicalBinding": "449a8e65e36246f9dc1be1f798413d224ebe7ff8f5605a11593e4cb5dbc00d3a",
+            "sourceImageSha256": "c6b387ae94008952090d7edc94db41d1316c1c70f02a6d153c39b25d90ef64ae",
+            "cardSha256": "3588047e8e7d4b7ba8ef17408583b7ff30d4c5e660ed043fae4700760076d18e",
+            "thumbnailSha256": "560d528f8b3f1e37b32bed17fa567cf79d9e20b448c6b3d522d41da07a82e112",
+            "authorPixelBinding": "93e0f2318010bcc039534ce99e87584b8a355a8723c45248c8757a033e58f3de",
+            "secondPixelBinding": "9bac4aa5c3099d9e97d5edd4ee03613d83c97d1152b7cdb0af7ddaf57e7056c3"
+          },
+          {
+            "entryId": "caulk",
+            "lexicalBinding": "3524289e0c2c1995a78fd778654e7154377a72eee38a5598a5ef4878bc658618",
+            "sourceImageSha256": "57e595b504f15a3772ff54a067abadeeab677f3425e72bf7402535b4adbe5f26",
+            "cardSha256": "61797efe14f76de822e2a22ab7ea2bdae100a9582176d522eddd9079e483b435",
+            "thumbnailSha256": "73c6d7370d553a135db851baddfa328eb8491fe33a79625aa59e09dc4de94b8d",
+            "authorPixelBinding": "f9c130b203d0e877948ab882f528c374dad8cc2a75aa537579a1131a66013500",
+            "secondPixelBinding": "3c7015f6c6ec3e2c7479ce9bfaef6f44dee4c8568250c0a113ced4c633005d13"
+          },
+          {
+            "entryId": "varnish",
+            "lexicalBinding": "514bdae406b3c00272ff0d9da08a89dec15bfbef50d420185a25dedfe64a7113",
+            "sourceImageSha256": "5aaa1e6db2bbde59327ca94fc56be548fd5fd90a852cfa5284a14f857406b0e3",
+            "cardSha256": "ce1d82a40418eebfff7802d8452edbae9801055c490f1352808c9a96bd9ca96f",
+            "thumbnailSha256": "71287ecfe247a945f4f82b314930d937a794b610c83910cc5fb522cd045ce46a",
+            "authorPixelBinding": "0a44d10c6275edec259d22ab740084f12a20ce56fb34892d05e2d73caa61b28a",
+            "secondPixelBinding": "9b8d245e6b580eb758b0ab9ea85e156a1a420020abdbfb240bbd0fae5991c7ed"
+          },
+          {
+            "entryId": "assemble",
+            "lexicalBinding": "57310a6f315166457eff792c51ad1a7f7576295b0089aa56772e8fc110fc2caf",
+            "sourceImageSha256": "cc0f64ef251a75c5d7046a87988e6ec51f94b22dfdbd069e05d82ce71193f3ee",
+            "cardSha256": "d80dd5999e10a0261356df15703873d981f7c1cb46f50ca886978ed7b669e738",
+            "thumbnailSha256": "32ffe2e331758faddeae73ead6a87c0c285d29cbe4627ec76de6c3e55d38aaad",
+            "authorPixelBinding": "05176a1545f069321679494f0d656232d8a0069a1501bb059c7bd105ee576427",
+            "secondPixelBinding": "4f6a6b6e94a57b58a06a5c203df56a439e2aa45a2ee64eca7e2155d0a41a8147"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "home-gardening-diy",
+          "visualLanguageId": "home-gardening-diy",
+          "baselineCategoryWords": 5,
+          "targetCategoryWords": 29,
+          "entryIds": [
+            "flowerpot",
+            "seed-tray",
+            "trellis",
+            "soil",
+            "compost",
+            "mulch",
+            "trowel",
+            "rake",
+            "spade",
+            "hoe",
+            "wheelbarrow",
+            "secateurs",
+            "weed",
+            "sow",
+            "mow",
+            "dig",
+            "repot",
+            "harvest",
+            "glue",
+            "sand",
+            "patch",
+            "caulk",
+            "varnish",
+            "assemble"
+          ],
+          "units": [
+            {
+              "id": "garden-containers-supports-and-materials",
+              "title": "Garden containers, supports and materials",
+              "entryIds": [
+                "flowerpot",
+                "seed-tray",
+                "trellis",
+                "soil",
+                "compost",
+                "mulch"
+              ]
+            },
+            {
+              "id": "garden-hand-tools-and-transport",
+              "title": "Garden hand tools and transport",
+              "entryIds": [
+                "trowel",
+                "rake",
+                "spade",
+                "hoe",
+                "wheelbarrow",
+                "secateurs"
+              ]
+            },
+            {
+              "id": "garden-growing-and-care-actions",
+              "title": "Garden growing and care",
+              "entryIds": [
+                "weed",
+                "sow",
+                "mow",
+                "dig",
+                "repot",
+                "harvest"
+              ]
+            },
+            {
+              "id": "home-repair-and-finishing-actions",
+              "title": "Home repair and finishing",
+              "entryIds": [
+                "glue",
+                "sand",
+                "patch",
+                "caulk",
+                "varnish",
+                "assemble"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "parentBatchId": "category-expansion-batch-43",
+      "completedAt": "2026-10-31T09:15:50.700Z",
+      "factualReferences": [
+        {
+          "entryId": "flowerpot",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden learner contribution",
+          "use": "Original selected learner sense, examples, collocations and native overlays; common object recognition plus listed factual checks where applicable. No independent human review or copied artwork claimed."
+        },
+        {
+          "entryId": "flowerpot",
+          "sourceType": "primary-factual",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/starting-seeds-indoors",
+          "title": "University of Minnesota Extension — Starting seeds indoors",
+          "use": "Actual primary page body checked for separate cell flats/trays, small pots and drainage context. No instructions, schedules, concentrations, artwork or wording copied."
+        },
+        {
+          "entryId": "seed-tray",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden learner contribution",
+          "use": "Original selected learner sense, examples, collocations and native overlays; common object recognition plus listed factual checks where applicable. No independent human review or copied artwork claimed."
+        },
+        {
+          "entryId": "seed-tray",
+          "sourceType": "primary-factual",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/starting-seeds-indoors",
+          "title": "University of Minnesota Extension — Starting seeds indoors",
+          "use": "Actual primary page body checked for separate cell flats/trays, small pots and drainage context. No instructions, schedules, concentrations, artwork or wording copied."
+        },
+        {
+          "entryId": "trellis",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden learner contribution",
+          "use": "Original selected learner sense, examples, collocations and native overlays; common object recognition plus listed factual checks where applicable. No independent human review or copied artwork claimed."
+        },
+        {
+          "entryId": "soil",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden learner contribution",
+          "use": "Original selected learner sense, examples, collocations and native overlays; common object recognition plus listed factual checks where applicable. No independent human review or copied artwork claimed."
+        },
+        {
+          "entryId": "soil",
+          "sourceType": "primary-factual",
+          "url": "https://www.rhs.org.uk/soil-composts-mulches/mulch",
+          "title": "Royal Horticultural Society — Mulches and mulching",
+          "use": "Actual primary indexed content checked for soil-surface covering, garden compost as decomposed plant material, compost also naming some UK growing mixes, and compost itself usable as mulch. Original selected definitions/examples/translations; no application recipe, depth or efficacy claim."
+        },
+        {
+          "entryId": "compost",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden learner contribution",
+          "use": "Original selected learner sense, examples, collocations and native overlays; common object recognition plus listed factual checks where applicable. No independent human review or copied artwork claimed."
+        },
+        {
+          "entryId": "compost",
+          "sourceType": "primary-factual",
+          "url": "https://www.rhs.org.uk/soil-composts-mulches/mulch",
+          "title": "Royal Horticultural Society — Mulches and mulching",
+          "use": "Actual primary indexed content checked for soil-surface covering, garden compost as decomposed plant material, compost also naming some UK growing mixes, and compost itself usable as mulch. Original selected definitions/examples/translations; no application recipe, depth or efficacy claim."
+        },
+        {
+          "entryId": "mulch",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden learner contribution",
+          "use": "Original selected learner sense, examples, collocations and native overlays; common object recognition plus listed factual checks where applicable. No independent human review or copied artwork claimed."
+        },
+        {
+          "entryId": "mulch",
+          "sourceType": "primary-factual",
+          "url": "https://www.rhs.org.uk/soil-composts-mulches/mulch",
+          "title": "Royal Horticultural Society — Mulches and mulching",
+          "use": "Actual primary indexed content checked for soil-surface covering, garden compost as decomposed plant material, compost also naming some UK growing mixes, and compost itself usable as mulch. Original selected definitions/examples/translations; no application recipe, depth or efficacy claim."
+        },
+        {
+          "entryId": "trowel",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden learner contribution",
+          "use": "Original selected learner sense, examples, collocations and native overlays; common object recognition plus listed factual checks where applicable. No independent human review or copied artwork claimed."
+        },
+        {
+          "entryId": "trowel",
+          "sourceType": "primary-factual",
+          "url": "https://ucanr.edu/program/uc-master-gardener-program/tools",
+          "title": "University of California Agriculture and Natural Resources — What garden tools do I need?",
+          "use": "Actual primary printable body checked at https://ucanr.edu/node/135471/printable/print for garden spade/rake/hoe/trowel purposes. No care instructions, protected wording or artwork copied."
+        },
+        {
+          "entryId": "rake",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden learner contribution",
+          "use": "Original selected learner sense, examples, collocations and native overlays; common object recognition plus listed factual checks where applicable. No independent human review or copied artwork claimed."
+        },
+        {
+          "entryId": "rake",
+          "sourceType": "primary-factual",
+          "url": "https://ucanr.edu/program/uc-master-gardener-program/tools",
+          "title": "University of California Agriculture and Natural Resources — What garden tools do I need?",
+          "use": "Actual primary printable body checked at https://ucanr.edu/node/135471/printable/print for garden spade/rake/hoe/trowel purposes. No care instructions, protected wording or artwork copied."
+        },
+        {
+          "entryId": "spade",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden learner contribution",
+          "use": "Original selected learner sense, examples, collocations and native overlays; common object recognition plus listed factual checks where applicable. No independent human review or copied artwork claimed."
+        },
+        {
+          "entryId": "spade",
+          "sourceType": "primary-factual",
+          "url": "https://ucanr.edu/program/uc-master-gardener-program/tools",
+          "title": "University of California Agriculture and Natural Resources — What garden tools do I need?",
+          "use": "Actual primary printable body checked at https://ucanr.edu/node/135471/printable/print for garden spade/rake/hoe/trowel purposes. No care instructions, protected wording or artwork copied."
+        },
+        {
+          "entryId": "hoe",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden learner contribution",
+          "use": "Original selected learner sense, examples, collocations and native overlays; common object recognition plus listed factual checks where applicable. No independent human review or copied artwork claimed."
+        },
+        {
+          "entryId": "hoe",
+          "sourceType": "primary-factual",
+          "url": "https://ucanr.edu/program/uc-master-gardener-program/tools",
+          "title": "University of California Agriculture and Natural Resources — What garden tools do I need?",
+          "use": "Actual primary printable body checked at https://ucanr.edu/node/135471/printable/print for garden spade/rake/hoe/trowel purposes. No care instructions, protected wording or artwork copied."
+        },
+        {
+          "entryId": "wheelbarrow",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden learner contribution",
+          "use": "Original selected learner sense, examples, collocations and native overlays; common object recognition plus listed factual checks where applicable. No independent human review or copied artwork claimed."
+        },
+        {
+          "entryId": "secateurs",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden learner contribution",
+          "use": "Original selected learner sense, examples, collocations and native overlays; common object recognition plus listed factual checks where applicable. No independent human review or copied artwork claimed."
+        },
+        {
+          "entryId": "secateurs",
+          "sourceType": "primary-factual",
+          "url": "https://www.rhs.org.uk/garden-jobs/sharpening-tools",
+          "title": "Royal Horticultural Society — Sharpening hand tools",
+          "use": "Actual primary body checked only for secateurs cutting-tool/pivot context and different tool forms; no sharpening, maintenance or cutting protocol copied."
+        },
+        {
+          "entryId": "secateurs",
+          "sourceType": "primary-pronunciation",
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/secateurs",
+          "title": "Oxford Advanced Learner’s Dictionary — secateurs",
+          "use": "Actual page checked only for pronunciation stress/rhotic counterpart and British plural grammatical behavior. English definitions, examples and translations are original, not copied from the dictionary."
+        },
+        {
+          "entryId": "weed",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden action learner contribution",
+          "use": "Original selected common-language verb sense, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding; listed primary factual checks informed particular gardening and material-action distinctions. No external dictionary wording, copied artwork or independent human review claimed."
+        },
+        {
+          "entryId": "sow",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden action learner contribution",
+          "use": "Original selected common-language verb sense, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding; listed primary factual checks informed particular gardening and material-action distinctions. No external dictionary wording, copied artwork or independent human review claimed."
+        },
+        {
+          "entryId": "mow",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden action learner contribution",
+          "use": "Original selected common-language verb sense, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding; listed primary factual checks informed particular gardening and material-action distinctions. No external dictionary wording, copied artwork or independent human review claimed."
+        },
+        {
+          "entryId": "dig",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden action learner contribution",
+          "use": "Original selected common-language verb sense, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding; listed primary factual checks informed particular gardening and material-action distinctions. No external dictionary wording, copied artwork or independent human review claimed."
+        },
+        {
+          "entryId": "repot",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden action learner contribution",
+          "use": "Original selected common-language verb sense, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding; listed primary factual checks informed particular gardening and material-action distinctions. No external dictionary wording, copied artwork or independent human review claimed."
+        },
+        {
+          "entryId": "harvest",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden action learner contribution",
+          "use": "Original selected common-language verb sense, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding; listed primary factual checks informed particular gardening and material-action distinctions. No external dictionary wording, copied artwork or independent human review claimed."
+        },
+        {
+          "entryId": "glue",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden action learner contribution",
+          "use": "Original selected common-language verb sense, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding; listed primary factual checks informed particular gardening and material-action distinctions. No external dictionary wording, copied artwork or independent human review claimed."
+        },
+        {
+          "entryId": "sand",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden action learner contribution",
+          "use": "Original selected common-language verb sense, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding; listed primary factual checks informed particular gardening and material-action distinctions. No external dictionary wording, copied artwork or independent human review claimed."
+        },
+        {
+          "entryId": "patch",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden action learner contribution",
+          "use": "Original selected common-language verb sense, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding; listed primary factual checks informed particular gardening and material-action distinctions. No external dictionary wording, copied artwork or independent human review claimed."
+        },
+        {
+          "entryId": "caulk",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden action learner contribution",
+          "use": "Original selected common-language verb sense, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding; listed primary factual checks informed particular gardening and material-action distinctions. No external dictionary wording, copied artwork or independent human review claimed."
+        },
+        {
+          "entryId": "varnish",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden action learner contribution",
+          "use": "Original selected common-language verb sense, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding; listed primary factual checks informed particular gardening and material-action distinctions. No external dictionary wording, copied artwork or independent human review claimed."
+        },
+        {
+          "entryId": "assemble",
+          "sourceType": "original-editorial",
+          "title": "Original home-and-garden action learner contribution",
+          "use": "Original selected common-language verb sense, examples, collocations and Persian, Brazilian Portuguese and Latin American Spanish scaffolding; listed primary factual checks informed particular gardening and material-action distinctions. No external dictionary wording, copied artwork or independent human review claimed."
+        },
+        {
+          "entryId": "weed",
+          "sourceType": "primary-factual",
+          "url": "https://www.rhs.org.uk/garden-jobs/how-to-weed-a-bed",
+          "title": "RHS — How to weed a bed",
+          "use": "Primary page text actually opened and read for unwanted-plant removal in a cultivated bed; supports the contextual selected verb rather than an intrinsically bad plant species. No gardening recipe or source wording copied."
+        },
+        {
+          "entryId": "sow",
+          "sourceType": "primary-factual",
+          "url": "https://www.rhs.org.uk/propagation/how-to-sow-seeds-indoors",
+          "title": "RHS — How to Sow Seeds Indoors",
+          "use": "Primary page text actually opened and read for placing seeds in growing medium and tray/pot context; distinguishes seed sowing from transplanting an already-grown plant. No universal sowing depth, schedule or temperature adopted."
+        },
+        {
+          "entryId": "dig",
+          "sourceType": "primary-factual",
+          "url": "https://www.rhs.org.uk/soil-composts-mulches/soil-cultivation",
+          "title": "RHS — Soil: cultivation",
+          "use": "Primary search-rendered page text actually read for digging as breaking and moving soil. Full page was not separately opened; no claim that every garden requires digging and no cultivation recipe adopted."
+        },
+        {
+          "entryId": "repot",
+          "sourceType": "primary-factual",
+          "url": "https://www.rhs.org.uk/container-gardening/how-to-repot-a-plant",
+          "title": "RHS — How to repot a plant",
+          "use": "Primary page text actually opened and read: repotting may use another container or refreshed growing medium in the same container. The entry does not require a larger pot in every case; no root-pruning, size or timing recipe adopted."
+        },
+        {
+          "entryId": "sand",
+          "sourceType": "primary-factual",
+          "url": "https://www.minwax.com/en/how-to-finish-wood/wood-preparation/sanding-tips",
+          "title": "Minwax — Sanding Tips",
+          "use": "Official manufacturer page text actually opened and read for abrasive paper removing material/rough marks to smooth wood. No grit sequence, procedural performance claim, source prose or artwork adopted."
+        },
+        {
+          "entryId": "caulk",
+          "sourceType": "primary-factual",
+          "url": "https://www.dap.com/resources/how-to/choose-the-right-caulk-or-sealant",
+          "title": "DAP — How to Choose the Right Caulk or Sealant for Any Project",
+          "use": "Official manufacturer page text actually opened and read for filling/sealing narrow gaps and joints around trim or windows. No claim that products are interchangeable or universally waterproof; no ratings, cure times or source wording adopted."
+        },
+        {
+          "entryId": "varnish",
+          "sourceType": "primary-factual",
+          "url": "https://www.minwax.com/en/products/protective-finishes",
+          "title": "Minwax — Protective Finishes",
+          "use": "Official manufacturer page text actually opened and read for the selected clear wood-finish sense. The entry contrasts visible grain beneath clear coating with opaque paint; no product rating, recoating recipe or copied wording/artwork adopted."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,

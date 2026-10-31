@@ -8,20 +8,20 @@ The [public source repository](https://github.com/mehrdadxzaker/mehrdadika) and 
 
 | Item | Current scope |
 | --- | --- |
-| Vocabulary | 1192 lexical items and 1193 independently scheduled meanings. `pressure` has separate medical and engineering learning contexts under one public word card. |
+| Vocabulary | 1216 lexical items and 1217 independently scheduled meanings. `pressure` has separate medical and engineering learning contexts under one public word card. |
 | Subject taxonomy | All 32 domains, organized into six discovery groups, with category-specific visual briefs for the 64-word expansion. |
 | Subcategory display | 348 native subcategory labels in each of Persian, Brazilian Portuguese and Latin American Spanish, parallel to the English catalog. |
-| Starter focus | All 32 categories have two new visual-foundation entries; cooking has 52 words. Medicine and engineering retain their deployed 500-entry count milestones; whole-collection image qualification and independent human review remain incomplete. Everyday life now has 50 source entries, reaching its first count target; the category remains an editorial preview. |
+| Starter focus | All 32 categories have two new visual-foundation entries; cooking has 52 words. Medicine and engineering retain their deployed 500-entry count milestones; whole-collection image qualification and independent human review remain incomplete. Everyday life has 50 source entries, reaching its first count target. Home, gardening and DIY now has 29 entries toward its first target of 50; both categories remain editorial previews. |
 | Short reading | Three original bilingual passages with comprehension questions. |
 | Book reading | One original short book with three chapters. |
 | Additional exercises | Two paraphrase levels and three confusable-word groups. |
 | Science through English | Water and Weather: eight lessons, 32 closed activities, eight writing tasks, 22 target senses and complete Persian/Portuguese/Spanish support. |
 | Review channel | AI-assisted editorial preview. No independent human or specialist approval is claimed. |
-| Portuguese and Spanish previews | Each edition has 1192 words, 1193 senses, 2386 translated examples, 3576 collocations, 1192 usage notes, 32 category labels, 348 subcategory labels and six group labels, plus the reading/practice catalog above. |
+| Portuguese and Spanish previews | Each edition has 1216 words, 1217 senses, 2434 translated examples, 3648 collocations, 1216 usage notes, 32 category labels, 348 subcategory labels and six group labels, plus the reading/practice catalog above. |
 
 The [category expansion ledger and queue](category-expansion.md) tracks coherent publication batches, with foundation/core/depth targets of 50/150/400 words per category. `npm run content:coverage` reports current unique word and category counts. The [specialist campaign](specialist-expansion.md) overrides the immediate medicine and engineering target to 500 each; `npm run campaign:status` measures the remaining work from the published release.
 
-The [latest everyday-life batch](category-expansion-42-ready-1.md) adds 5 everyday objects and 5 actions. The integrated source reaches everyday life's first count target of 50; this release's local and deployment checks are recorded separately in the batch notes. The configured count queue next continues with home, gardening and DIY toward its first target of 50.
+The [latest home, gardening and DIY batch](category-expansion-43-ready-1.md) adds 12 objects and materials and 12 actions. The integrated source grows this category from 5 to 29 entries, leaving 21 toward its first count target of 50; this release's local and deployment checks are recorded separately in the batch notes. The configured count queue continues with the same category toward 50.
 
 Category and subcategory presence describes intended coverage. It does not mean that every branch already contains authored lessons. A shared sense can appear through multiple category routes without becoming a second learning record.
 

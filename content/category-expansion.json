@@ -15,7 +15,7 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "everyday-life",
+  "currentCategoryId": "home-gardening-diy",
   "nextCategoryId": "home-gardening-diy",
   "categoryOrder": [
     "cooking-food-drink",
@@ -5476,7 +5476,97 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "home-gardening-diy",
+      "visualLanguageId": "home-gardening-diy",
+      "baselineCategoryWords": 5,
+      "targetCategoryWords": 29,
+      "entryIds": [
+        "flowerpot",
+        "seed-tray",
+        "trellis",
+        "soil",
+        "compost",
+        "mulch",
+        "trowel",
+        "rake",
+        "spade",
+        "hoe",
+        "wheelbarrow",
+        "secateurs",
+        "weed",
+        "sow",
+        "mow",
+        "dig",
+        "repot",
+        "harvest",
+        "glue",
+        "sand",
+        "patch",
+        "caulk",
+        "varnish",
+        "assemble"
+      ],
+      "units": [
+        {
+          "id": "garden-containers-supports-and-materials",
+          "title": "Garden containers, supports and materials",
+          "entryIds": [
+            "flowerpot",
+            "seed-tray",
+            "trellis",
+            "soil",
+            "compost",
+            "mulch"
+          ]
+        },
+        {
+          "id": "garden-hand-tools-and-transport",
+          "title": "Garden hand tools and transport",
+          "entryIds": [
+            "trowel",
+            "rake",
+            "spade",
+            "hoe",
+            "wheelbarrow",
+            "secateurs"
+          ]
+        },
+        {
+          "id": "garden-growing-and-care-actions",
+          "title": "Garden growing and care",
+          "entryIds": [
+            "weed",
+            "sow",
+            "mow",
+            "dig",
+            "repot",
+            "harvest"
+          ]
+        },
+        {
+          "id": "home-repair-and-finishing-actions",
+          "title": "Home repair and finishing",
+          "entryIds": [
+            "glue",
+            "sand",
+            "patch",
+            "caulk",
+            "varnish",
+            "assemble"
+          ]
+        }
+      ],
+      "id": "home-gardening-diy-category-expansion-batch-43-ready-1",
+      "releaseId": "2026-10-preview-49",
+      "status": "published-preview",
+      "objective": "Learn Garden containers, supports and materials; Garden hand tools and transport; Garden growing and care; Home repair and finishing in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-42-ready-1"
+  "activePassId": "category-expansion-batch-43-ready-1"
 }
