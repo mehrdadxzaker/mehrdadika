@@ -63030,6 +63030,1278 @@
           "reviewerId": "/root/batch5_medical"
         }
       }
+    },
+    {
+      "entryId": "ticket",
+      "sourceWord": "ticket",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "ticket:meaning-1",
+          "pos": "n.",
+          "en": "A paper or electronic document that allows you to travel on a service or enter a place or event."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I bought a ticket for the train.",
+          "senseId": "ticket:meaning-1"
+        },
+        {
+          "en": "Keep your ticket until you leave the museum.",
+          "senseId": "ticket:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ticket.webp",
+        "sha256": "db40fea4123c29c984d359c8a810d093fb67bd617a76ba4d3e5143d92a4391e9"
+      },
+      "visual": {
+        "expectedCue": "A single generic illustrated paper TRAIN TICKET, wide rectangular card with one short perforated end stub, paper thickness/folds and light ink contours visible. Essential heading reads exactly TRAIN TICKET in two large clean lines, all letters readable120; below it only an original small colored-pencil train drawing, no microtext, fares, dates, names, barcodes, official emblems or real operator layout. Ticket dominates beige ground with muted teal and warm copper accent. Generic teaching object, not an official reproduction.",
+        "decision": "added",
+        "reason": "Actually viewed1254PNG, separate512WebP and120PNG. One wide physical paper ticket has clear perforated endstub, edge thickness/shadow and original train drawing. Exact TRAIN TICKET lettering (TRAIN/TICKET) checked everycharacter and readable120; no other text, operator, identity, barcode or officialformat. Fine pencil hatching/lightink/beige-teal-copper object study fits travelbrief. Traincontext distinguishes transport example from boardingpass; no actualjourneyvalidity or working trainmechanics inferred. Humanreviewpending.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed1254PNG, separate512WebP and120PNG. One wide physical paper ticket has clear perforated endstub, edge thickness/shadow and original train drawing. Exact TRAIN TICKET lettering (TRAIN/TICKET) checked everycharacter and readable120; no other text, operator, identity, barcode or officialformat. Fine pencil hatching/lightink/beige-teal-copper object study fits travelbrief. Traincontext distinguishes transport example from boardingpass; no actualjourneyvalidity or working trainmechanics inferred. Humanreviewpending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T19:46:39.339Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "db40fea4123c29c984d359c8a810d093fb67bd617a76ba4d3e5143d92a4391e9",
+          "inspectedAt": "2026-10-31T19:49:39.389Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG original,512WebP and separate120PNG against ticket meaning/examples and the travel profile. One coherent paper card has a perforated short end stub, continuous edge/shadow and an original train picture; exact TRAIN TICKET is readable at120, all TRAIN/TICKET characters checked. This clearly depicts a generic rail-travel ticket rather than luggage or an official identity document. Colored-pencil grain/light ink contours and cream/teal/ochre palette fit. No names, dates, fares, barcodes or real operator appear. No journey validity, actual document authenticity, train mechanics or human review is inferred.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "boarding-pass",
+      "sourceWord": "boarding pass",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "boarding-pass:meaning-1",
+          "pos": "n.",
+          "en": "A paper or electronic document that a passenger shows to get on a plane."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Show your boarding pass before you get on the plane.",
+          "senseId": "boarding-pass:meaning-1"
+        },
+        {
+          "en": "She saved her boarding pass on her phone.",
+          "senseId": "boarding-pass:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/boarding-pass.webp",
+        "sha256": "5562ddd798393a6065921adfa49a2c0c274fc483d09e14ea8921122de977086c"
+      },
+      "visual": {
+        "expectedCue": "One original generic paper document labeled exactly BOARDING PASS, with one simple aircraft illustration and no misleading jetbridge connection, identity data or official layout; travel coloredpencilobjectstudy.",
+        "decision": "added",
+        "reason": "Actually viewededited1254PNG, separate512WebP and120PNG. Unnecessarywrong jetbridge connection, terminal and tinybackgroundaircraft removed. Onegenericgroundedaircraft illustration remains on coherent physicalpaper document; exact BOARDING PASS letters readable120, noidentity/barcode/operator/officialformat. Finepencil/lightink/beige-teal-copper rendering retained. Teachesairboardingdocument by heading+air-travelcontext, not an aircraftengineeringdiagram or actualticketvalidity. Firstnegative retained; currentedit requiresfreshdistinctAIsecond. Humanreviewpending.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewededited1254PNG, separate512WebP and120PNG. Unnecessarywrong jetbridge connection, terminal and tinybackgroundaircraft removed. Onegenericgroundedaircraft illustration remains on coherent physicalpaper document; exact BOARDING PASS letters readable120, noidentity/barcode/operator/officialformat. Finepencil/lightink/beige-teal-copper rendering retained. Teachesairboardingdocument by heading+air-travelcontext, not an aircraftengineeringdiagram or actualticketvalidity. Firstnegative retained; currentedit requiresfreshdistinctAIsecond. Humanreviewpending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T20:04:09.644Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5562ddd798393a6065921adfa49a2c0c274fc483d09e14ea8921122de977086c",
+          "inspectedAt": "2026-10-31T20:15:12.803Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current edited1254PNG original,512WebP and separate120PNG against boarding pass sense/examples/profile. One coherent generic paper document bears exact BOARDING PASS, every character readable120, with a single original passenger-aircraft illustration. No jetbridge, terminal connector or tiny extra aircraft remains. Air-travel context plus the essential heading distinguishes this from the train-ticket example; no names, dates, gate/seat values, barcode or operator reproduction appear. Light ink/colored-pencil cream/teal/ochre style fits. Not an aircraft-mechanics diagram, actual document validity, carrier rule or human review claim; this is fresh review of candidate2, not inherited template approval.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "itinerary",
+      "sourceWord": "itinerary",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "itinerary:meaning-1",
+          "pos": "n.",
+          "en": "A plan showing the places you will visit on a trip and the order or times of the visits."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Our itinerary includes two days in the mountains.",
+          "senseId": "itinerary:meaning-1"
+        },
+        {
+          "en": "We changed the itinerary to spend longer by the lake.",
+          "senseId": "itinerary:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/itinerary.webp",
+        "sha256": "e1d88f4bad068a69d1e0929234635792fcea162bf4a21e7460aea0be790bf750"
+      },
+      "visual": {
+        "expectedCue": "One planning sheet onemptybeigeground labeled ITINERARY, numbered1→2→3withstation/mountain/seasidevisitorder; no extra props ormicrotext.",
+        "decision": "added",
+        "reason": "Actually viewededited1254PNG,512WebP and120PNG. Oneplanning sheet onblankbeige with exact ITINERARYheading andordered1→2→3 station/mountainvillage/seasidedrawings. Removedallunrequestedmap/compass/microtext/pencil/journal/table props. Numberingandheading checkedcharacterbycharacterandreadable120; lightink/finepencil teal/copperrendering, paperedges/shadow coherent. Showsplannedvisitorder ratherthan geographicalmap; noactualdate/time/routeaccuracy orrealplacesclaimed. Priornegative retained, freshsecondneeded; humanreviewpending.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewededited1254PNG,512WebP and120PNG. Oneplanning sheet onblankbeige with exact ITINERARYheading andordered1→2→3 station/mountainvillage/seasidedrawings. Removedallunrequestedmap/compass/microtext/pencil/journal/table props. Numberingandheading checkedcharacterbycharacterandreadable120; lightink/finepencil teal/copperrendering, paperedges/shadow coherent. Showsplannedvisitorder ratherthan geographicalmap; noactualdate/time/routeaccuracy orrealplacesclaimed. Priornegative retained, freshsecondneeded; humanreviewpending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T20:18:03.256Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e1d88f4bad068a69d1e0929234635792fcea162bf4a21e7460aea0be790bf750",
+          "inspectedAt": "2026-10-31T20:28:33.587Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current edited1254PNG original,512WebP and separate120PNG against itinerary meaning/examples/profile. One physical planning sheet shows exact ITINERARY and correctly ordered1→2→3 station/mountain-town/seaside scenes; heading, numbers and two downward connectors remain readable120. This encodes planned visit order rather than merely a geographic map. All outside map/compass/microtext clutter is absent; paper edges/shadow and colored-pencil light-ink cream/teal/ochre fit. Invented qualitative trip plan, not dates, travel instructions, transport timing or actual reservations. Fresh candidate2 review; human review pending.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "map",
+      "sourceWord": "map",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "map:meaning-1",
+          "pos": "n.",
+          "en": "A drawing that shows where places, roads or other features are in relation to one another."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The map shows a path from the station to the lake.",
+          "senseId": "map:meaning-1"
+        },
+        {
+          "en": "We checked the map before choosing a route.",
+          "senseId": "map:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/map.webp",
+        "sha256": "19f27211a5b156cef724cc3681d57d52cf229c2a530928f20dfc17b11f99e9c3"
+      },
+      "visual": {
+        "expectedCue": "One unfolded paper travel map with visible accordion fold creases, drawn as an original colored-pencil object study. A muted teal river/lake, light ink street grid, pale green park area and a copper dashed route linking two plain dots clearly depict geographic relations. Perspective paper corners/shadow make the physical map clear. No text, real place names, coordinates, real geography, compass label, app UI, brands or numbered itinerary rows. Sparse beige background and precise light ink contours, readable120.",
+        "decision": "added",
+        "reason": "Actually viewed1254PNG,512WebP and120PNG. Foldedphysicalpaper holds lightink street grid, tealriver/lake, greenparks and a copperdashedconnector between two plain dots. Folds/creases/edges/shadow coherent; cleargeographicrelations and papermap at120, distinctfrom ordered itinerarysheet. Routecrosses near a depicted crossing but no usable realroute/navigationaccuracy claimed. No labels/coordinates/realplaceidentities. Finecoloredpencil beige-teal-copper travelstudy fits currentbrief; humanreviewpending.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed1254PNG,512WebP and120PNG. Foldedphysicalpaper holds lightink street grid, tealriver/lake, greenparks and a copperdashedconnector between two plain dots. Folds/creases/edges/shadow coherent; cleargeographicrelations and papermap at120, distinctfrom ordered itinerarysheet. Routecrosses near a depicted crossing but no usable realroute/navigationaccuracy claimed. No labels/coordinates/realplaceidentities. Finecoloredpencil beige-teal-copper travelstudy fits currentbrief; humanreviewpending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T19:53:30.794Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "19f27211a5b156cef724cc3681d57d52cf229c2a530928f20dfc17b11f99e9c3",
+          "inspectedAt": "2026-10-31T20:04:33.344Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG original,512WebP and separate120PNG against map meaning/examples/profile. One coherent accordion-folded paper map shows a street grid, river/lake, green areas and a copper dashed route between two dots; the route crosses the river on the depicted road/bridge. Geographic relations and folded paper remain clear120, distinct from an itinerary text list. No names, coordinates, labels or real geography appear. Colored-pencil shading/light ink contours and cream/teal/ochre fit. Qualitative invented map, not navigable survey, measured scale, real travel instructions or human qualification.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "guidebook",
+      "sourceWord": "guidebook",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "guidebook:meaning-1",
+          "pos": "n.",
+          "en": "A book that gives visitors information about a place and things to see or do there."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I packed a guidebook for our trip.",
+          "senseId": "guidebook:meaning-1"
+        },
+        {
+          "en": "The guidebook describes the town’s museums and walking routes.",
+          "senseId": "guidebook:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/guidebook.webp",
+        "sha256": "8473410196d0cf35286cb4692382bb1e6ec85f19e09a2889cd560f58611923bc"
+      },
+      "visual": {
+        "expectedCue": "A compact thick travel guidebook, slightly open with visible bound page edges and spine, front cover toward viewer reads exactly GUIDEBOOK in large clear single-word letters. Original colored-pencil cover drawing of a small fictional town and one partially open inside page with a tiny unlabeled street map establish visitor-information book context. No other letters, fake paragraphs, real publisher/city/country, logos or official emblems. Teal clothlike cover/copper pencil architectural detail on beige journal ground; main book unmistakable120.",
+        "decision": "added",
+        "reason": "Actually viewed1254PNG,512WebP and120PNG. Thickboundbook withspine/pageedges, visitor-town coverdrawing and partlyopenunlabeledmap page. Exact singleword GUIDEBOOK everycharacterchecked/readable120; mapcontainsroads/buildings/waterwithoutmicrotext. No realpublisher/destination orofficialcopy. Bookshape/title/informationmapdistinguishvisitorreferencefromthinbrochure/genericnovel. Finepencil/lightink teal/copper/beige objectstudy, noextraneousprops; humanreviewpending.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed1254PNG,512WebP and120PNG. Thickboundbook withspine/pageedges, visitor-town coverdrawing and partlyopenunlabeledmap page. Exact singleword GUIDEBOOK everycharacterchecked/readable120; mapcontainsroads/buildings/waterwithoutmicrotext. No realpublisher/destination orofficialcopy. Bookshape/title/informationmapdistinguishvisitorreferencefromthinbrochure/genericnovel. Finepencil/lightink teal/copper/beige objectstudy, noextraneousprops; humanreviewpending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T20:21:43.052Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "8473410196d0cf35286cb4692382bb1e6ec85f19e09a2889cd560f58611923bc",
+          "inspectedAt": "2026-10-31T20:28:33.607Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG original,512WebP and separate120PNG against guidebook meaning/examples/profile. One thick bound book has visible spine/page edges, a fictional town cover illustration and a partly visible unlabeled inside map; exact GUIDEBOOK is clearly character-readable120. Bound-book form and visitor-information context distinguish it from a loose brochure or a person guide. Cream/teal/ochre colored-pencil grain/light ink fit; fine page binding behind the partly closed cover is occluded and not mechanically qualified. No real publisher/place, microtext, official layout or navigational accuracy appears. Human review pending.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "brochure",
+      "sourceWord": "brochure",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "brochure:meaning-1",
+          "pos": "n.",
+          "en": "A thin booklet or folded leaflet that gives information about a place, product or service."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A brochure lists the hotel’s facilities.",
+          "senseId": "brochure:meaning-1"
+        },
+        {
+          "en": "She picked up a brochure about boat tours.",
+          "senseId": "brochure:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/brochure.webp",
+        "sha256": "123ce91d139ee6a289c84c9c385998b00d710f457ef1c0fcb6cc87fd0a52c006"
+      },
+      "visual": {
+        "expectedCue": "One thin travel brochure opened into THREE connected folded paper panels, with clear vertical folds and slim paper edges, not a bound book or single flat postcard. An original colored-pencil coastline/harbour scene extends across the panels, with a small hotel illustration on one panel; front-facing panel has the essential promotional word VISIT, exactly those five large letters, no other text. No fake microcopy, prices, dates, company logos, real destinations or copied photos. Beige paper, teal/copper colored pencil and light ink contours, brochure shape/readable120.",
+        "decision": "added",
+        "reason": "Actually viewed1254PNG,512WebP and120PNG. One thin physicalleaflet opensintothree connectedverticalpanels/twofolds, notboundbook orflatpostcard; coastal/harbour/hotel drawings showvisitorpromotion. Onlyword VISIT, allfiveletterscheckedandlarge/readable120, nofakeparagraphs/brands/identity. Paperedges/folds/shadowcoherent and finecoloredpencil/lightink/beige-teal-copper briefmaintained. Genericpromotionalexample not realdestination/services claim; humanreviewpending.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed1254PNG,512WebP and120PNG. One thin physicalleaflet opensintothree connectedverticalpanels/twofolds, notboundbook orflatpostcard; coastal/harbour/hotel drawings showvisitorpromotion. Onlyword VISIT, allfiveletterscheckedandlarge/readable120, nofakeparagraphs/brands/identity. Paperedges/folds/shadowcoherent and finecoloredpencil/lightink/beige-teal-copper briefmaintained. Genericpromotionalexample not realdestination/services claim; humanreviewpending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T20:28:57.658Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "123ce91d139ee6a289c84c9c385998b00d710f457ef1c0fcb6cc87fd0a52c006",
+          "inspectedAt": "2026-10-31T20:42:08.075Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG original,512WebP and separate120PNG against brochure meaning/examples/profile. Three connected thin paper panels have clear vertical folds and a coherent shared coast/harbour/hotel illustration. Exact VISIT is allfiveletters readable120 and provides promotional-information context without microcopy. Thin folding leaflet form differs from a thick bound guidebook or single flat postcard. Pencil hatching/light ink cream/teal/ochre fit; no brand, real destination, price, booking credential or actual information accuracy is claimed. Human review pending.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "postcard",
+      "sourceWord": "postcard",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "postcard:meaning-1",
+          "pos": "n.",
+          "en": "A card, often with a picture on one side, that can be sent by post without an envelope."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I sent a postcard from the seaside town.",
+          "senseId": "postcard:meaning-1"
+        },
+        {
+          "en": "The postcard has a picture of a mountain village.",
+          "senseId": "postcard:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/postcard.webp",
+        "sha256": "38531060dd5111067f02170484d8727e39769f3a0cd532f81744a811580ed78e"
+      },
+      "visual": {
+        "expectedCue": "Two overlapping views of the same generic rectangular postcard: front with an original colored-pencil fictional coastal lighthouse scene; reverse visible enough to show one central divider, three blank address rules and a completely generic empty outlined stamp box. No actual stamp, postmark, names, address, country, letters or copied postal design. Light card thickness and no envelope. One postcard teaching focus through its two sides, beige ground/teal sea/copper lighthouse/light ink contours, readable120.",
+        "decision": "added",
+        "reason": "Actually viewed1254PNG,512WebP and120PNG. Twooverlapping front/reverse postcardstudies: originalfictionalcoastallighthousedrawing infront, centraldivider/threeblankaddressrules/emptystampbox onreverse, paperthickness/shadowcoherent. Noaddress/name/stamp/postmark/letters orofficialreproduction. Cardpicture/postalbackrelation unmistakable120, finepencil/lightink/beige-teal-copper fitsbrief, noextraneousprops. Illustrativetwo-sideconvention, no real maileditem/identity claim. Humanreviewpending.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed1254PNG,512WebP and120PNG. Twooverlapping front/reverse postcardstudies: originalfictionalcoastallighthousedrawing infront, centraldivider/threeblankaddressrules/emptystampbox onreverse, paperthickness/shadowcoherent. Noaddress/name/stamp/postmark/letters orofficialreproduction. Cardpicture/postalbackrelation unmistakable120, finepencil/lightink/beige-teal-copper fitsbrief, noextraneousprops. Illustrativetwo-sideconvention, no real maileditem/identity claim. Humanreviewpending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T20:35:29.536Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "38531060dd5111067f02170484d8727e39769f3a0cd532f81744a811580ed78e",
+          "inspectedAt": "2026-10-31T20:42:08.094Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG original,512WebP and separate120PNG against postcard meaning/examples/profile. Two overlapping front/reverse views of one generic card show an original coastal lighthouse picture plus a visible central divider, three blank address rules and empty stamp box. Thin card edges, no envelope and front/back correspondence teach a postcard rather than a folded greeting card or brochure, clear120. No names, address, country, lettering, postage mark or official reproduction appears. Colored-pencil/ink cream/teal/ochre fits. Illustrative postal object, not actual mail validity or lighthouse/mechanical accuracy; human review pending.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "souvenir",
+      "sourceWord": "souvenir",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "souvenir:meaning-1",
+          "pos": "n.",
+          "en": "An object that you buy or keep to remind you of a place you visited or an experience."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I bought a small souvenir at the end of our trip.",
+          "senseId": "souvenir:meaning-1"
+        },
+        {
+          "en": "She kept the little wooden boat as a souvenir of the island.",
+          "senseId": "souvenir:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/souvenir.webp",
+        "sha256": "4880714f0bdcd32f4caca0e5fda03ccebae9948fe387261500a5fff71c56bbbb"
+      },
+      "visual": {
+        "expectedCue": "One small carved wooden lighthouse keepsake dominates foreground, drawn in precise colored-pencil travel-journal style with visible wood grain and copper/teal painted detail. Behind it only a small original illustrated postcard showing the SAME distinctive fictional lighthouse on its coast, plus the cropped corner of a travel bag. The matching landmark/keepsake relation suggests a travel memento rather than an unrelated toy or gift. No words, prices, labels, brands, official emblem, real landmark or identity data. Beige journal ground and light ink contours, foreground keepsake clear120.",
+        "decision": "added",
+        "reason": "Actually viewed current1254PNG, separate512WebP and120PNG. Foreground physical miniature lighthouse has visible carved woodgrain and continuous circular base; cream tower, copper roof, teal lantern/balcony and attached small cottage match the fictional coastal lighthouse on the smaller postcard behind. Cropped bag supplies restrained trip context. Keepsake/matching destination relation remains clear120 and distinguishes a travel memento from an arbitrary gift; no letters, prices, brands, identity or official reproduction. Fine colored-pencil hatching/light ink cream-teal-copper fits current travel brief. Not a working lighthouse, real landmark or actual purchase proof. Fresh derivative review, no inherited template or human approval.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed current1254PNG, separate512WebP and120PNG. Foreground physical miniature lighthouse has visible carved woodgrain and continuous circular base; cream tower, copper roof, teal lantern/balcony and attached small cottage match the fictional coastal lighthouse on the smaller postcard behind. Cropped bag supplies restrained trip context. Keepsake/matching destination relation remains clear120 and distinguishes a travel memento from an arbitrary gift; no letters, prices, brands, identity or official reproduction. Fine colored-pencil hatching/light ink cream-teal-copper fits current travel brief. Not a working lighthouse, real landmark or actual purchase proof. Fresh derivative review, no inherited template or human approval."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T20:52:28.731Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4880714f0bdcd32f4caca0e5fda03ccebae9948fe387261500a5fff71c56bbbb",
+          "inspectedAt": "2026-10-31T20:57:02.769Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG original,512WebP and separate120PNG against souvenir sense/examples, travel profile and the previously actually viewed postcard reference. A dominant carved miniature lighthouse/cottage stands on one continuous wooden display base, with visible wood grain; the smaller postcard behind shows the corresponding cream tower, teal lantern/rail, copper roof and attached cottage in coastal context. Matching landmark-to-keepsake relation plus cropped travel bag remains clear120, teaching travel memento rather than an arbitrary toy/gift. Light ink/colored-pencil cream/teal/ochre fits, with no lettering, prices, identity or real brand. Qualitative fictional landmark match, not exact architectural replication, working light, actual purchase/memory or human qualification; fresh derivative review, no inherited acceptance.",
+          "reviewerId": "/root/batch5_medical"
+        }
+      }
+    },
+    {
+      "entryId": "backpack",
+      "sourceWord": "backpack",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "backpack:meaning-1",
+          "pos": "n.",
+          "en": "A bag carried on your back using shoulder straps."
+        }
+      ],
+      "examples": [
+        {
+          "en": "My backpack has two shoulder straps and a front pocket.",
+          "senseId": "backpack:meaning-1"
+        },
+        {
+          "en": "She carried her backpack through the station.",
+          "senseId": "backpack:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/backpack.webp",
+        "sha256": "9ce7122728aa25f0965f031dc1a6c17159e1b88464553a407b16595b3af7fb4e"
+      },
+      "visual": {
+        "expectedCue": "One upright backpack with two distinct complete shoulder-strap loops, each attached at both ends to the rear of the same soft bag; complete silhouette and physical connections clear at120.",
+        "decision": "added",
+        "reason": "Actually inspected the generated 1254px original, converted 512px WebP and 120px PNG separately. One upright soft teal backpack has a padded rear panel and two distinct broad shoulder straps; each top attachment and lower adjusting webbing route joins the same bag, with both open strap loops readable at120. Top carry loop, side pocket and grounded base remain coherent. Fine colored-pencil texture/light ink contours on cream paper with muted teal/ochre matches the travel brief. No lettering or identity data. Acceptance covers the representative bag and visible strap topology, not hidden stitching strength, fit or carrying performance.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually inspected the generated 1254px original, converted 512px WebP and 120px PNG separately. One upright soft teal backpack has a padded rear panel and two distinct broad shoulder straps; each top attachment and lower adjusting webbing route joins the same bag, with both open strap loops readable at120. Top carry loop, side pocket and grounded base remain coherent. Fine colored-pencil texture/light ink contours on cream paper with muted teal/ochre matches the travel brief. No lettering or identity data. Acceptance covers the representative bag and visible strap topology, not hidden stitching strength, fit or carrying performance."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T19:41:43.402Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9ce7122728aa25f0965f031dc1a6c17159e1b88464553a407b16595b3af7fb4e",
+          "inspectedAt": "2026-10-31T20:40:09.613Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed1254original,512WebP and120PNG. One upright softbag shownfromrear, two distinct curvedshoulderstraps withtopattachments andlowerwebbing/buckles continuingtobag. Topcarryloop/backpadding/zip support backpackidentity, clear120; no hiddenstitchedstrengthorfitclaimed. Finecoloredpencil/lightink teal/copper/beige study and no lettering/brands fits travelbrief. Humanreviewpending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "duffel-bag",
+      "sourceWord": "duffel bag",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "duffel-bag:meaning-1",
+          "pos": "n.",
+          "en": "A large, soft travel bag, usually with two handles and sometimes a shoulder strap."
+        }
+      ],
+      "examples": [
+        {
+          "en": "He carried a duffel bag by its two handles.",
+          "senseId": "duffel-bag:meaning-1"
+        },
+        {
+          "en": "She packed the duffel bag with clothes for a short visit.",
+          "senseId": "duffel-bag:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/duffel-bag.webp",
+        "sha256": "70f391376c8a9479646c55de66c3a37d1719c5f118d6cbb219b727f8d199dfec"
+      },
+      "visual": {
+        "expectedCue": "A soft horizontal oblong travel bag with its own zipper and two physically attached carry handles; different silhouette from backpack and rigid suitcase, clear at120.",
+        "decision": "added",
+        "reason": "Actually viewed the 1254px generated original, 512px WebP and 120px PNG separately. Complete soft elongated teal duffel has rounded flexible ends, a long upper zip and two distinct arched carry handles; the foreground handle's stitched webbing routes continue onto the front body and the rear handle rises behind the opening. It reads as a soft hand-carried travel bag at120, with no wheels, rigid suitcase shell or backpack straps. Ground contact and complete margins are coherent. Colored-pencil texture/light ink on cream with teal/ochre fits current travel profile. No letters/logos. Hidden rear attachment stitching and carrying strength are not qualified.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed the 1254px generated original, 512px WebP and 120px PNG separately. Complete soft elongated teal duffel has rounded flexible ends, a long upper zip and two distinct arched carry handles; the foreground handle's stitched webbing routes continue onto the front body and the rear handle rises behind the opening. It reads as a soft hand-carried travel bag at120, with no wheels, rigid suitcase shell or backpack straps. Ground contact and complete margins are coherent. Colored-pencil texture/light ink on cream with teal/ochre fits current travel profile. No letters/logos. Hidden rear attachment stitching and carrying strength are not qualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T19:43:07.550Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "70f391376c8a9479646c55de66c3a37d1719c5f118d6cbb219b727f8d199dfec",
+          "inspectedAt": "2026-10-31T20:40:09.623Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed1254original,512WebP and120PNG. One soft horizontaloblongbag, longtopzipper andtwo distincthandlearches anchoredtoits fabricbody; rearattachments partlyoccluded, notclaimedfullyobserved. Softcreasedbody/roundends distinguishduffel fromrigidsuitcase/backpack, readable120. Coherentgrounds/shadow andfinecoloredpencil/lightink teal/copper/beige, noextra labels/brands. Humanreviewpending.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "luggage",
+      "sourceWord": "luggage",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "luggage:meaning-1",
+          "pos": "n.",
+          "en": "The bags and suitcases that you take with you when travelling."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Our luggage includes two suitcases and a small bag.",
+          "senseId": "luggage:meaning-1"
+        },
+        {
+          "en": "They left their luggage at the hotel before going for a walk.",
+          "senseId": "luggage:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/luggage.webp",
+        "sha256": "d6b055a701eb89630b45536f8b33a3d85e2d228026b7c89061b23c7b40cc2806"
+      },
+      "visual": {
+        "expectedCue": "A grouped collection of two suitcases plus one smaller travel bag, each grounded and recognizable at120, communicating collective travel bags rather than a single named bag type.",
+        "decision": "added",
+        "reason": "Actually inspected the generated 1254px original and separate converted 512px WebP/120px PNG. Two upright wheeled suitcases of different size/color stand with one smaller soft bag in front; all remain recognizable and grounded at120, communicating luggage as a collective group. Handles connect to their cases and foreground bag, visible wheels meet the same floor. No labels, person, shopping cart or allowance symbols. Colored-pencil strokes/light ink on cream with teal/ochre follow the travel profile. Hidden rear wheels and hidden handle fixings are unqualified; this illustrates a collection, not an allowed number/size or carrying specification.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually inspected the generated 1254px original and separate converted 512px WebP/120px PNG. Two upright wheeled suitcases of different size/color stand with one smaller soft bag in front; all remain recognizable and grounded at120, communicating luggage as a collective group. Handles connect to their cases and foreground bag, visible wheels meet the same floor. No labels, person, shopping cart or allowance symbols. Colored-pencil strokes/light ink on cream with teal/ochre follow the travel profile. Hidden rear wheels and hidden handle fixings are unqualified; this illustrates a collection, not an allowed number/size or carrying specification."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T19:44:36.489Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d6b055a701eb89630b45536f8b33a3d85e2d228026b7c89061b23c7b40cc2806",
+          "inspectedAt": "2026-10-31T20:53:20.231Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG,512WebP and120PNG separately against full selected sense/native content/current travel profile. Two wheeled suitcases and a soft handled bag form one clear collective luggage study, all resting on the floor, coherent handles/zips/wheels and fabric straps. Group remains distinct120; teaches collective travel belongings, not countable a luggage. Hidden far wheels/strap mountings not mechanically qualified. Fine colored-pencil hatching/light ink cream-teal-copper fit current category brief; no text/brands or unrelated props. No inherited approval or human/live review.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "carry-on",
+      "sourceWord": "carry-on",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "carry-on:meaning-1",
+          "pos": "n.",
+          "en": "A small bag or suitcase that a passenger takes into the cabin of an aircraft."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her carry-on held a book and a change of clothes.",
+          "senseId": "carry-on:meaning-1"
+        },
+        {
+          "en": "He placed his carry-on in the overhead locker.",
+          "senseId": "carry-on:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/carry-on.webp",
+        "sha256": "d84bd56f6003012e96482868fe4ba96a981a5628b8b1241b7711f24ff0588e9f"
+      },
+      "visual": {
+        "expectedCue": "One small suitcase supported inside an open overhead cabin bin, with minimal aircraft-seat context; bag silhouette and actual bin-floor support remain readable at120.",
+        "decision": "added",
+        "reason": "Actually inspected the 1254px original, 512px WebP and 120px PNG individually. A single compact wheeled suitcase lies directly on the floor inside a generic open overhead cabin bin; complete case/side handle/visible wheels remain clear, with cropped seat backs below establishing cabin context at120. The lower bag edge rests on the bin floor and there is space above it; no floating or wall intersection is visible. Colored-pencil/ink contours and cream/teal/ochre match the travel brief. No words, airline marks, dimensions, approval or rules. Acceptance is a representative cabin-bag relation, not actual airline permission, universal bin fit or hinge/installation qualification.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually inspected the 1254px original, 512px WebP and 120px PNG individually. A single compact wheeled suitcase lies directly on the floor inside a generic open overhead cabin bin; complete case/side handle/visible wheels remain clear, with cropped seat backs below establishing cabin context at120. The lower bag edge rests on the bin floor and there is space above it; no floating or wall intersection is visible. Colored-pencil/ink contours and cream/teal/ochre match the travel brief. No words, airline marks, dimensions, approval or rules. Acceptance is a representative cabin-bag relation, not actual airline permission, universal bin fit or hinge/installation qualification."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T19:46:34.096Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d84bd56f6003012e96482868fe4ba96a981a5628b8b1241b7711f24ff0588e9f",
+          "inspectedAt": "2026-10-31T20:53:20.245Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG,512WebP and120PNG separately against full selected sense/native content/current travel profile. One coherent small suitcase rests horizontally on the floor of an open overhead compartment above visible seat backs. Continuous bag body, zip/handle, compartment sides/floor and lid hinge context remain clear120; depicts cabin luggage use. Does not certify dimensions, carrier permission, lid mechanics or hidden supports. Fine colored-pencil hatching/light ink cream-teal-copper fit current category brief; no text/brands or unrelated props. No inherited approval or human/live review.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "luggage-tag",
+      "sourceWord": "luggage tag",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "luggage-tag:meaning-1",
+          "pos": "n.",
+          "en": "A small label attached to a bag or suitcase to help identify it or its owner."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A luggage tag hung from the suitcase handle.",
+          "senseId": "luggage-tag:meaning-1"
+        },
+        {
+          "en": "She recognized her bag by the bright yellow tag.",
+          "senseId": "luggage-tag:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/luggage-tag.webp",
+        "sha256": "8784f4141b0a6051574ed638c357af4950ef2813da3a752a7a3072149951a97c"
+      },
+      "visual": {
+        "expectedCue": "A dominant blank luggage-identification tag physically joined by a traceable loop around a contextual suitcase handle; whole tag and attachment clear at120.",
+        "decision": "added",
+        "reason": "Actually inspected original1254, converted512WebP and120PNG separately. Dominant ochre rectangular luggage tag has a blank pale identification area and a teal loop passing through its top hole and around the actual upper suitcase handle; both sides of the visible loop and contextual case remain clear at120. Tag hangs below the handle rather than lying loose or becoming an adhesive sticker/key. Pencil texture/light ink, cream paper/teal/ochre conform to the travel brief. No personal details, letters, barcodes or official marks are present. Hidden strap fastening internals and identification/security performance unqualified.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually inspected original1254, converted512WebP and120PNG separately. Dominant ochre rectangular luggage tag has a blank pale identification area and a teal loop passing through its top hole and around the actual upper suitcase handle; both sides of the visible loop and contextual case remain clear at120. Tag hangs below the handle rather than lying loose or becoming an adhesive sticker/key. Pencil texture/light ink, cream paper/teal/ochre conform to the travel brief. No personal details, letters, barcodes or official marks are present. Hidden strap fastening internals and identification/security performance unqualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T19:48:59.165Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "8784f4141b0a6051574ed638c357af4950ef2813da3a752a7a3072149951a97c",
+          "inspectedAt": "2026-10-31T20:53:47.630Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG,512WebP and120PNG separately against full selected sense/native content/current travel profile. Dominant rectangular blank identification tag hangs by a teal loop through its hole and around a suitcase telescoping handle. Visible loop continuity/occlusion, border stitching and supported suitcase body cohere; blank inset and attached-tag relation remain clear120. No identity data or actual owner identified; hidden fastener not qualified. Fine colored-pencil hatching/light ink cream-teal-copper fit current category brief; no letters/brands or irrelevant props. No inherited or human/live approval.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "travel-pillow",
+      "sourceWord": "travel pillow",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "travel-pillow:meaning-1",
+          "pos": "n.",
+          "en": "A small cushion used to support the head or neck while travelling."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A travel pillow supported her neck while she rested.",
+          "senseId": "travel-pillow:meaning-1"
+        },
+        {
+          "en": "She packed the travel pillow in her bag after the journey.",
+          "senseId": "travel-pillow:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/travel-pillow.webp",
+        "sha256": "6af1f8a9c7ef74cc613af83ad6897171deff538be71635d141148019a015f5c7"
+      },
+      "visual": {
+        "expectedCue": "One visibly padded U-shaped travel neck cushion with a clear open gap between its two rounded ends, grounded on minimal seat context and recognizable at120.",
+        "decision": "added",
+        "reason": "Actually inspected the1254px original,512px WebP and120px PNG separately. A single thick soft U-shaped neck cushion has two distinct rounded ends with a clear open gap and a continuous padded back curve, resting directly on a plain seat. The whole cushion/loft/piping silhouette reads at120, different from a rectangular bed pillow, empty cover or rigid ring. Colored-pencil texture/light ink, cream/teal/ochre match the travel brief; no labels or identity data. Seat context is generic; no medical, fit or comfort benefit is claimed and hidden filling construction is unqualified.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually inspected the1254px original,512px WebP and120px PNG separately. A single thick soft U-shaped neck cushion has two distinct rounded ends with a clear open gap and a continuous padded back curve, resting directly on a plain seat. The whole cushion/loft/piping silhouette reads at120, different from a rectangular bed pillow, empty cover or rigid ring. Colored-pencil texture/light ink, cream/teal/ochre match the travel brief; no labels or identity data. Seat context is generic; no medical, fit or comfort benefit is claimed and hidden filling construction is unqualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T19:51:37.884Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6af1f8a9c7ef74cc613af83ad6897171deff538be71635d141148019a015f5c7",
+          "inspectedAt": "2026-10-31T20:53:47.645Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG,512WebP and120PNG separately against full selected sense/native content/current travel profile. Padded open-U cushion with continuous fabric volume, curved inner neck gap and copper piping rests on a seat. Both rounded ends and open center remain clear120, distinguishing a neck travel cushion from a flat bed pillow. No anatomical fit, medical benefit or support certification inferred. Fine colored-pencil hatching/light ink cream-teal-copper fit current category brief; no letters/brands or irrelevant props. No inherited or human/live approval.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "toiletry-bag",
+      "sourceWord": "toiletry bag",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "toiletry-bag:meaning-1",
+          "pos": "n.",
+          "en": "A small bag used to carry washing and personal-care items when travelling."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her toiletry bag contained a toothbrush and a bar of soap.",
+          "senseId": "toiletry-bag:meaning-1"
+        },
+        {
+          "en": "He closed the bag before putting it in his suitcase.",
+          "senseId": "toiletry-bag:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/toiletry-bag.webp",
+        "sha256": "dc6d41c5c16704d3272b20fcae1608296bfbfd576b066abfb93a21e25cd07c03"
+      },
+      "visual": {
+        "expectedCue": "A small open zippered travel pouch containing a recognizable toothbrush and plain soap, with actual opening/content relations clear at120 and distinct from general luggage.",
+        "decision": "added",
+        "reason": "Actually viewed original1254,512WebP and120PNG separately. A complete small open zippered teal pouch contains a toothbrush and plain wrapped bar; lower contents disappear behind the actual front rim into the opening, not through the solid front panel. Attached toothbrush bristles/head/handle and pouch opening remain readable at120, distinct from general luggage. Zipper tracks follow the two sides of one opening and the pouch base rests on the washstand. Fine colored-pencil/ink contours on cream with teal/ochre fit the travel profile. No printed text/brand or extra product claims. Hidden interior bottom/zip mechanics, exact contents requirements and hygiene performance unqualified.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed original1254,512WebP and120PNG separately. A complete small open zippered teal pouch contains a toothbrush and plain wrapped bar; lower contents disappear behind the actual front rim into the opening, not through the solid front panel. Attached toothbrush bristles/head/handle and pouch opening remain readable at120, distinct from general luggage. Zipper tracks follow the two sides of one opening and the pouch base rests on the washstand. Fine colored-pencil/ink contours on cream with teal/ochre fit the travel profile. No printed text/brand or extra product claims. Hidden interior bottom/zip mechanics, exact contents requirements and hygiene performance unqualified."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T19:54:35.834Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "dc6d41c5c16704d3272b20fcae1608296bfbfd576b066abfb93a21e25cd07c03",
+          "inspectedAt": "2026-10-31T20:54:43.600Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG,512WebP and120PNG separately against full selected sense/native content/current travel profile. Open small soft zip pouch holds a toothbrush and plain wrapped soap, sitting beside a basin on a counter. Joined pouch sides/base, continuous zipper edge/slider and brush handle/brush head cohere; personal-washing-items cue remains clear120 and differs from general luggage. No health procedure/product efficacy or hidden zipper operation inferred. Fine colored-pencil hatching/light ink cream-teal-copper fit category; no letters/brands/irrelevant props. No inherited or human/live approval.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "luggage-trolley",
+      "sourceWord": "luggage trolley",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "luggage-trolley:meaning-1",
+          "pos": "n.",
+          "en": "A wheeled cart used to move bags and suitcases through places such as airports or stations."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We put the suitcases on a luggage trolley.",
+          "senseId": "luggage-trolley:meaning-1"
+        },
+        {
+          "en": "She pushed the trolley toward the station entrance.",
+          "senseId": "luggage-trolley:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/luggage-trolley.webp",
+        "sha256": "3ca2352d1de36c768650e30b45d454f7379fed040a1a020009766bd149047265"
+      },
+      "visual": {
+        "expectedCue": "A distinct wheeled load platform and continuous rear push-handle frame supporting two suitcases, grounded wheels and luggage-to-platform contacts clear at120.",
+        "decision": "added",
+        "reason": "Actually inspected original1254,512WebP and120PNG separately. Two suitcases rest on a distinct low load platform; a separate tall rear push-handle frame and three visible grounded caster assemblies identify the luggage trolley at120 rather than just wheeled suitcases. Foreground bag feet and rear case wheels sit on the platform; visible frame upright joins its rear support. Whole cart/handle and visible wheel supports fit inside frame. Colored-pencil/light ink on cream with teal/ochre matches the travel brief; no branding/ratings. The fourth caster and concealed frame joints are not visible and are not inferred as inspected; no load capacity, caster operation or airport-permission claim.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually inspected original1254,512WebP and120PNG separately. Two suitcases rest on a distinct low load platform; a separate tall rear push-handle frame and three visible grounded caster assemblies identify the luggage trolley at120 rather than just wheeled suitcases. Foreground bag feet and rear case wheels sit on the platform; visible frame upright joins its rear support. Whole cart/handle and visible wheel supports fit inside frame. Colored-pencil/light ink on cream with teal/ochre matches the travel brief; no branding/ratings. The fourth caster and concealed frame joints are not visible and are not inferred as inspected; no load capacity, caster operation or airport-permission claim."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T19:58:32.560Z",
+        "reviewerId": "/root/batch4_engineering",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3ca2352d1de36c768650e30b45d454f7379fed040a1a020009766bd149047265",
+          "inspectedAt": "2026-10-31T20:54:43.615Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG,512WebP and120PNG separately against full selected sense/native content/current travel profile. Two upright suitcases rest on a separate continuous platform cart with a tall joined pushing handle and three visibly floor-contacting caster assemblies. Cart frame/platform/handle connections cohere and separate cart remains clear120 rather than suitcase wheels alone. Fourth far caster is occluded, not asserted as seen; no load or mechanical certification. Fine colored-pencil hatching/light ink cream-teal-copper fit category; no letters/brands/irrelevant props. No inherited or human/live approval.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "hotel",
+      "sourceWord": "hotel",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "hotel:meaning-1",
+          "pos": "n.",
+          "en": "A building or business that provides rooms where people pay to stay for a short time."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We chose a hotel near the station so we could walk there with our bags.",
+          "senseId": "hotel:meaning-1"
+        },
+        {
+          "en": "The hotel kept our luggage after we checked out.",
+          "senseId": "hotel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hotel.webp",
+        "sha256": "d92e8fe8af5508e8416c26d3cb2541784ec8983b131ae37e7024c1fcba597662"
+      },
+      "visual": {
+        "expectedCue": "A multi-storey hotel building with repeated guest-room windows, one clear main entrance and small arriving traveler with suitcase for scale. Essential large HOTEL sign identifies accommodation; no stars/prices/brands.",
+        "decision": "added",
+        "reason": "Actually viewed the current1254PNG original,512WebP and separate120PNG. A grounded three-storey lodging building has repeated upper guest-room windows and a coherent central entrance/canopy; a small arriving traveler holds a wheeled suitcase. Essential HOTEL is exactly H-O-T-E-L and plainly readable120. Light ink contours, dense colored-pencil strokes and cream/teal/ochre palette fit the travel brief. Sparse planted boxes and interior lamps are secondary and do not obscure the building. This depicts one labelled hotel example, not actual payment, services, room count, rating or a real property; human review pending.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed the current1254PNG original,512WebP and separate120PNG. A grounded three-storey lodging building has repeated upper guest-room windows and a coherent central entrance/canopy; a small arriving traveler holds a wheeled suitcase. Essential HOTEL is exactly H-O-T-E-L and plainly readable120. Light ink contours, dense colored-pencil strokes and cream/teal/ochre palette fit the travel brief. Sparse planted boxes and interior lamps are secondary and do not obscure the building. This depicts one labelled hotel example, not actual payment, services, room count, rating or a real property; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T19:42:57.282Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d92e8fe8af5508e8416c26d3cb2541784ec8983b131ae37e7024c1fcba597662",
+          "inspectedAt": "2026-10-31T20:01:17.906Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed this current1254PNG original,512WebP and120PNG separately against hotel selected meaning/examples and current travel brief. The whole grounded lodging building has repeated upper windows and a joined main entrance/canopy, with a small suitcase traveler secondary. Essential sign reads exactly HOTEL (H O T E L), clearly readable at120. Building edges/windows/door frames and traveler-to-ground/luggage relation are coherent; pencil hatching/light ink/cream-teal-ochre give the required travel-journal study rather than a photograph. This is one labelled accommodation example: payment, exact room count, services, rating and hidden construction are not established; no human/live approval.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "hostel",
+      "sourceWord": "hostel",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "hostel:meaning-1",
+          "pos": "n.",
+          "en": "A place where travelers pay to stay, often with beds in shared rooms and shared facilities."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The hostel had a shared kitchen where travelers cooked together.",
+          "senseId": "hostel:meaning-1"
+        },
+        {
+          "en": "She booked a bed in a hostel instead of a whole room.",
+          "senseId": "hostel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hostel.webp",
+        "sha256": "cca434a5ce41f6036cff67406670d4ccd583e55220b50ed7987cfae62fa974c2"
+      },
+      "visual": {
+        "expectedCue": "A shared travelers accommodation room containing two complete bunk-bed frames, individual backpacks/lockers and one shared table; shared sleeping places are the focus rather than a private hotel room.",
+        "decision": "added",
+        "reason": "Actually viewed current1254PNG,512WebP and separate120PNG against hostel sense/examples/profile. Two shared bunk-bed units, individual travel backpacks, locker and common table give a clear travelers shared-room arrangement120, distinct from a private hotel bedroom or isolated bunk-bed product. Visible posts/rails/ladders and table/stools meet their supports coherently; the leftmost bed end is cropped and hidden joints/full dimensions are not qualified. Cream/teal/ochre colored-pencil grain and light ink contours fit. Representative shared lodging, not proof of payment, price, age rules or every hostel layout; human review pending.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed current1254PNG,512WebP and separate120PNG against hostel sense/examples/profile. Two shared bunk-bed units, individual travel backpacks, locker and common table give a clear travelers shared-room arrangement120, distinct from a private hotel bedroom or isolated bunk-bed product. Visible posts/rails/ladders and table/stools meet their supports coherently; the leftmost bed end is cropped and hidden joints/full dimensions are not qualified. Cream/teal/ochre colored-pencil grain and light ink contours fit. Representative shared lodging, not proof of payment, price, age rules or every hostel layout; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T19:44:55.641Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "cca434a5ce41f6036cff67406670d4ccd583e55220b50ed7987cfae62fa974c2",
+          "inspectedAt": "2026-10-31T20:04:10.215Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually inspected this current1254PNG original,512WebP and120PNG separately. Two bunk-bed units in the same shared room, separate travelers backpacks and a locker/common table make the shared travelers lodging sense clear at120, rather than only an isolated bunk-bed product. Visible ladders/bed posts/upper rails are joined and table/stool legs meet the common floor. Left bed extent is cropped and hidden joints/full bed dimensions are not inferred. Fine colored-pencil hatching/light ink with cream/teal/ochre matches current travel profile; no labels or rating claims. Representative shared accommodation only, not proof of payment, rules, universal hostel layout or structural safety; no human/live approval.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "motel",
+      "sourceWord": "motel",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "motel:meaning-1",
+          "pos": "n.",
+          "en": "A hotel intended for people traveling by car, usually with parking near the rooms."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We stopped at a motel beside the highway after a long drive.",
+          "senseId": "motel:meaning-1"
+        },
+        {
+          "en": "Our car was parked just outside the motel room.",
+          "senseId": "motel:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/motel.webp",
+        "sha256": "ae49e80d95a3628884c2c6c9cd72c2e070bbc41f39687c68045818ca56cffdbf"
+      },
+      "visual": {
+        "expectedCue": "A low roadside lodging row with separate room doors opening toward nearby parking and one parked car, distinct from a large hotel lobby or shared dormitory.",
+        "decision": "added",
+        "reason": "Actually viewed current1254PNG original,512WebP and separate120PNG. Narrow edit2 has removed the floating motel title/underline and all three room numerals while preserving the low room row, outside doors, joined roof/canopy/posts, parked car and adjacent roadway. Doors/windows/curtains and near-room parking make the roadside lodging example clear120; the pencil/ink cream/teal/ochre study remains consistent. A static illustrative motel example, not actual price, services, access clearance, building compliance or vehicle operation; hidden structures and performance unqualified. Negative1 remains preserved; human review pending.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed current1254PNG original,512WebP and separate120PNG. Narrow edit2 has removed the floating motel title/underline and all three room numerals while preserving the low room row, outside doors, joined roof/canopy/posts, parked car and adjacent roadway. Doors/windows/curtains and near-room parking make the roadside lodging example clear120; the pencil/ink cream/teal/ochre study remains consistent. A static illustrative motel example, not actual price, services, access clearance, building compliance or vehicle operation; hidden structures and performance unqualified. Negative1 remains preserved; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T19:51:30.386Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ae49e80d95a3628884c2c6c9cd72c2e070bbc41f39687c68045818ca56cffdbf",
+          "inspectedAt": "2026-10-31T20:05:55.787Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually inspected current candidate2 original1254PNG,512WebP and120PNG separately. Low roadside room row has separate outward-facing doors/windows, a continuous canopy supported by posts and an adjacent parked car/parking spaces; this near-room vehicle relation reads as a motel example at120. No floating title or room numerals remain in current pixels. Car, building and posts are grounded; fine colored-pencil hatching/light ink/cream-teal-ochre fit travel profile. Static parking and architecture do not establish access clearance, price, services, real property identity, vehicle operation or compliance. Prior rejected candidate1 is separate historical evidence, not approved by this current review; no human/live claim.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "guesthouse",
+      "sourceWord": "guesthouse",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "guesthouse:meaning-1",
+          "pos": "n.",
+          "en": "A small establishment that provides rooms where visitors pay to stay, often with a home-like setting."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The guesthouse had only a few rooms and a small breakfast area.",
+          "senseId": "guesthouse:meaning-1"
+        },
+        {
+          "en": "Our host at the guesthouse showed us a path to the beach.",
+          "senseId": "guesthouse:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/guesthouse.webp",
+        "sha256": "e96d4e6b77c207df588bc3a32dd130a329a56c42326db4527b3f7f01d591e8bc"
+      },
+      "visual": {
+        "expectedCue": "A small home-like guest accommodation building with a welcoming doorway and a secondary arriving traveler carrying a suitcase, distinct from a private family visit or large hotel.",
+        "decision": "added",
+        "reason": "Actually viewed current edited1254PNG original,512WebP and separate120PNG. Guesthouse2 replaces the small side plaque with one large physically attached horizontal facade sign. Exact GUESTHOUSE, all10letters, is now comfortably readable120. The same home-like building, welcoming host, arriving suitcase traveler, doorway/steps and colored-pencil/ink cream/teal/ochre style remain coherent; the previous small sign is absent. This resolves the independent thumbnail-legibility rejection without changing the selected meaning. One illustrative lodging example, not actual payment, owner residence, services or human qualification. Prior candidate1 and both original judgments remain preserved.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed current edited1254PNG original,512WebP and separate120PNG. Guesthouse2 replaces the small side plaque with one large physically attached horizontal facade sign. Exact GUESTHOUSE, all10letters, is now comfortably readable120. The same home-like building, welcoming host, arriving suitcase traveler, doorway/steps and colored-pencil/ink cream/teal/ochre style remain coherent; the previous small sign is absent. This resolves the independent thumbnail-legibility rejection without changing the selected meaning. One illustrative lodging example, not actual payment, owner residence, services or human qualification. Prior candidate1 and both original judgments remain preserved."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T20:34:28.217Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e96d4e6b77c207df588bc3a32dd130a329a56c42326db4527b3f7f01d591e8bc",
+          "inspectedAt": "2026-10-31T20:39:20.936Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Fresh independently actual inspection of candidate2 original1254PNG,512WebP and120PNG separately. The previously tiny side plaque is replaced by a broad physical facade sign with visible corner fixings; exact GUESTHOUSE (G U E S T H O U S E) is now comfortably character-readable at120. The small home-like lodging building, open entrance/host and approaching suitcase traveler remain coherent and distinguish accommodation from a generic house visit. Pencil hatching/light ink and cream/teal/ochre fit current travel brief. This resolves my candidate1 lettering negative; candidate1 remains rejected historical evidence. Actual payment, owner residence, breakfast inclusion, hidden fixings/structure and a universal guesthouse design are not established; no human/live approval.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "lobby",
+      "sourceWord": "lobby",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "lobby:meaning-1",
+          "pos": "n.",
+          "en": "The main entrance hall of a hotel or another public building, where people can wait or meet."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We waited in the lobby while our room was being cleaned.",
+          "senseId": "lobby:meaning-1"
+        },
+        {
+          "en": "The receptionist pointed across the lobby toward the lifts.",
+          "senseId": "lobby:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/lobby.webp",
+        "sha256": "62c7e7ffc9f6db85ce7d111c57519e6788c380567bf6e528489e7bbdf82bd3b0"
+      },
+      "visual": {
+        "expectedCue": "One open hotel entrance hall with main entry doors, grounded waiting seats and a secondary reception desk, showing the whole lobby rather than only the desk or a guest bedroom.",
+        "decision": "added",
+        "reason": "Actually viewed current1254PNG original,512WebP and separate120PNG against lobby sense/examples/profile. A single open entrance hall has a clear exterior doorway, grounded waiting armchairs with suitcase, open central floor and secondary side reception counter. The whole hall rather than only the desk remains the teaching focus120, distinct from a guest bedroom. Visible furniture/door frames/columns meet floor/walls coherently; restrained colored-pencil/ink cream/teal/ochre fits. Some natural architectural lighting/plant context is secondary. No exact building plan, access compliance, service or actual location qualification; human review pending.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed current1254PNG original,512WebP and separate120PNG against lobby sense/examples/profile. A single open entrance hall has a clear exterior doorway, grounded waiting armchairs with suitcase, open central floor and secondary side reception counter. The whole hall rather than only the desk remains the teaching focus120, distinct from a guest bedroom. Visible furniture/door frames/columns meet floor/walls coherently; restrained colored-pencil/ink cream/teal/ochre fits. Some natural architectural lighting/plant context is secondary. No exact building plan, access compliance, service or actual location qualification; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T20:00:44.331Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "62c7e7ffc9f6db85ce7d111c57519e6788c380567bf6e528489e7bbdf82bd3b0",
+          "inspectedAt": "2026-10-31T20:14:10.026Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed currentoriginal1254PNG,512WebP and120PNG separately. Main entrance doors open into a broad coherent hall with waiting chairs, luggage and a secondary reception counter; the entire shared entrance/waiting space, rather than only a desk or bedroom, remains clear at120. Chairs/case/counter meet the common floor and door frames/panels remain joined. Pencil texture/light ink and cream/teal/ochre follow the travel profile. No lettering, ratings or official details. Hidden structure, accessibility/building compliance and actual service use are not established; no human/live approval.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "receptionist",
+      "sourceWord": "receptionist",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "receptionist:meaning-1",
+          "pos": "n.",
+          "en": "A person whose job at a front desk is to welcome visitors or guests and help with their questions or arrangements."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The receptionist checked our booking and gave us a room key.",
+          "senseId": "receptionist:meaning-1"
+        },
+        {
+          "en": "When I lost my bag, the receptionist helped me call the station.",
+          "senseId": "receptionist:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/receptionist.webp",
+        "sha256": "e19318deb878edb25e65641fabcaad6515cbc5ff4b2c5c0b18031a0237ed4244"
+      },
+      "visual": {
+        "expectedCue": "The focal hotel receptionist stands behind a coherent front desk and welcomes a traveler with luggage, with a room key offered across the desk; role/person remains distinct from the lobby space.",
+        "decision": "added",
+        "reason": "Actually viewed current1254PNG original,512WebP and separate120PNG against receptionist sense/examples/profile. Focal adult behind a supported front desk welcomes a traveler with luggage and offers one attached key/fob, held above the guest reaching hand. Visible key/fob/contact and both people's arms/hands are coherent, with natural far-side occlusion. Staff position, desk and traveler context remain clear120, distinguishing a receptionist person from the lobby space. Visible colored-pencil hatching/light ink and cream/teal/ochre fit. Static illustrative hotel role, not actual employment, gender rule, payment or service qualification; human review pending.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed current1254PNG original,512WebP and separate120PNG against receptionist sense/examples/profile. Focal adult behind a supported front desk welcomes a traveler with luggage and offers one attached key/fob, held above the guest reaching hand. Visible key/fob/contact and both people's arms/hands are coherent, with natural far-side occlusion. Staff position, desk and traveler context remain clear120, distinguishing a receptionist person from the lobby space. Visible colored-pencil hatching/light ink and cream/teal/ochre fit. Static illustrative hotel role, not actual employment, gender rule, payment or service qualification; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T20:08:29.315Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e19318deb878edb25e65641fabcaad6515cbc5ff4b2c5c0b18031a0237ed4244",
+          "inspectedAt": "2026-10-31T20:16:18.300Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually inspected this current1254PNG original,512WebP and120PNG separately. Focal worker behind a reception counter offers a physical key/fob toward a waiting suitcase/backpack traveler; the pinching hand, suspended fob/key and recipient open hand remain coherent and the front-desk assisting role reads at120. Both figures' arms/hands attach naturally, counter is continuous, and key/fob is distinct rather than a paper/identity document. Fine colored-pencil hatching/light ink on cream with teal/ochre follows travel profile even with a person as selected focus. No letters or brands. Does not establish an actual transaction, hidden lock operation, employment details or any gender restriction; no human/live approval.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "room-key",
+      "sourceWord": "room key",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "room-key:meaning-1",
+          "pos": "n.",
+          "en": "A key or card used to unlock the door of a particular room, especially a hotel room."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I put the room key in a separate pocket so I could find it easily.",
+          "senseId": "room-key:meaning-1"
+        },
+        {
+          "en": "We asked the front desk for an extra room key.",
+          "senseId": "room-key:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/room-key.webp",
+        "sha256": "2bf106a8c7d096644f9f329d44883e8e07171aeb7c63d9541910f312eb52a348"
+      },
+      "visual": {
+        "expectedCue": "One large physical room key with a plain hotel fob beside a hotel-room door lock; essential ROOM KEY text plus a small visible made bed through the doorway identifies the selected room-access use.",
+        "decision": "added",
+        "reason": "Actually viewed current1254PNG original,512WebP and separate120PNG. One dominant metal key has a continuous bow/shaft/teeth and an attached large wooden fob; it rests beside a partly open room door with a made bed visible through the same opening. Essential ROOM KEY is exactly seven letters in two words and plainly readable120. Key/fob and ledge support are coherent; ring path at hidden overlaps and background lock operation/fit are not qualified. Colored-pencil strokes/light ink cream/teal/ochre fit. A traditional hotel-room-key example, not all electronic keys, actual access authorization, security or human review claim.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed current1254PNG original,512WebP and separate120PNG. One dominant metal key has a continuous bow/shaft/teeth and an attached large wooden fob; it rests beside a partly open room door with a made bed visible through the same opening. Essential ROOM KEY is exactly seven letters in two words and plainly readable120. Key/fob and ledge support are coherent; ring path at hidden overlaps and background lock operation/fit are not qualified. Colored-pencil strokes/light ink cream/teal/ochre fit. A traditional hotel-room-key example, not all electronic keys, actual access authorization, security or human review claim."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T20:20:18.196Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2bf106a8c7d096644f9f329d44883e8e07171aeb7c63d9541910f312eb52a348",
+          "inspectedAt": "2026-10-31T20:27:00.553Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually inspected this current1254PNG original,512WebP and120PNG separately. Dominant metal key has joined bow/shaft/teeth and a ring passing through its bow beside a physical fob, with an open bedroom door/bed establishing the room context. The attached fob reads exactly ROOM KEY in two large lines, every character readable at120. Key/fob rest on a table and do not float; pencil hatching/light ink/cream-teal-ochre follow travel brief. Hidden ring overlap, actual matching of this key to the pictured lock, lock operation and security are not qualified. No personal identity/room number or official credential, human/live approval.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
+    },
+    {
+      "entryId": "bunk-bed",
+      "sourceWord": "bunk bed",
+      "categoryId": "travel-tourism-hospitality",
+      "meanings": [
+        {
+          "senseId": "bunk-bed:meaning-1",
+          "pos": "n.",
+          "en": "A bed structure with one bed above another in the same frame, used to save floor space."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bunk bed left enough space for a small desk in the room.",
+          "senseId": "bunk-bed:meaning-1"
+        },
+        {
+          "en": "My brother chose the lower bed, so I slept in the upper bunk.",
+          "senseId": "bunk-bed:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bunk-bed.webp",
+        "sha256": "cc4c8e705f81ba4b9cb0b15b3ca786662c1053c50499f901431d8ad284d846f1"
+      },
+      "visual": {
+        "expectedCue": "One complete two-level bed frame with two separated mattresses, continuous supporting posts, visible upper guard rails and a joined ladder, distinctly stacked rather than side by side.",
+        "decision": "added",
+        "reason": "Actually viewed current1254PNG original,512WebP and separate120PNG against bunk bed sense/examples/profile. Two separate mattresses are stacked within one coherent shared wooden frame with continuous posts/support rails, upper guard rails and a joined ladder whose two sides reach the floor. All primary bed/ladder/feet fit the square and remain clear120, unlike two side-by-side beds. One pillow per bed and restrained teal bedding remain secondary; no people/text. Cream/teal/ochre colored-pencil hatching/light ink fits. Hidden fastening, exact dimensions, load/safety certification and construction instructions are not demonstrated or claimed; human review pending.",
+        "languageId": "travel-tourism-hospitality",
+        "languageSha256": "0214b6fbdf9591bda1243a5a7ac7a1d655b2ebbbfb7ebacfcad484c6fdf60760",
+        "styleInspection": "Actually viewed current1254PNG original,512WebP and separate120PNG against bunk bed sense/examples/profile. Two separate mattresses are stacked within one coherent shared wooden frame with continuous posts/support rails, upper guard rails and a joined ladder whose two sides reach the floor. All primary bed/ladder/feet fit the square and remain clear120, unlike two side-by-side beds. One pillow per bed and restrained teal bedding remain secondary; no people/text. Cream/teal/ochre colored-pencil hatching/light ink fits. Hidden fastening, exact dimensions, load/safety certification and construction instructions are not demonstrated or claimed; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-10-31T20:47:48.137Z",
+        "reviewerId": "/root/batch5_medical",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "cc4c8e705f81ba4b9cb0b15b3ca786662c1053c50499f901431d8ad284d846f1",
+          "inspectedAt": "2026-10-31T20:52:26.040Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually inspected this current1254PNG original,512WebP and120PNG separately. One complete shared wooden frame supports two mattresses vertically, with visible joined posts/rails, an upper guardrail and an attached ladder whose feet meet the floor; stacked rather than side-by-side sleeping places read clearly at120. Ladder/rail/frame topology and grounded feet are coherent without treating hidden joints as visible. Colored-pencil strokes/light ink contours and cream/teal/ochre match travel brief. No labels/brands. This is a representative bunk-bed object, not measured proportions, hidden fastening/load capacity, ladder access/safety-standard or human/live approval.",
+          "reviewerId": "/root/batch4_engineering"
+        }
+      }
     }
   ]
 }

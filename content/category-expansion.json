@@ -15,7 +15,7 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "people-relationships",
+  "currentCategoryId": "travel-tourism-hospitality",
   "nextCategoryId": "travel-tourism-hospitality",
   "categoryOrder": [
     "cooking-food-drink",
@@ -5814,9 +5814,93 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "travel-tourism-hospitality",
+      "visualLanguageId": "travel-tourism-hospitality",
+      "baselineCategoryWords": 7,
+      "targetCategoryWords": 31,
+      "entryIds": [
+        "ticket",
+        "boarding-pass",
+        "itinerary",
+        "map",
+        "guidebook",
+        "brochure",
+        "postcard",
+        "souvenir",
+        "backpack",
+        "duffel-bag",
+        "luggage",
+        "carry-on",
+        "luggage-tag",
+        "travel-pillow",
+        "toiletry-bag",
+        "luggage-trolley",
+        "hotel",
+        "hostel",
+        "motel",
+        "guesthouse",
+        "lobby",
+        "receptionist",
+        "room-key",
+        "bunk-bed"
+      ],
+      "units": [
+        {
+          "id": "travel-documents-keepsakes",
+          "title": "Travel documents and keepsakes",
+          "entryIds": [
+            "ticket",
+            "boarding-pass",
+            "itinerary",
+            "map",
+            "guidebook",
+            "brochure",
+            "postcard",
+            "souvenir"
+          ]
+        },
+        {
+          "id": "travel-luggage-packing",
+          "title": "Luggage and packing",
+          "entryIds": [
+            "backpack",
+            "duffel-bag",
+            "luggage",
+            "carry-on",
+            "luggage-tag",
+            "travel-pillow",
+            "toiletry-bag",
+            "luggage-trolley"
+          ]
+        },
+        {
+          "id": "travel-stays-hospitality",
+          "title": "Stays and hospitality",
+          "entryIds": [
+            "hotel",
+            "hostel",
+            "motel",
+            "guesthouse",
+            "lobby",
+            "receptionist",
+            "room-key",
+            "bunk-bed"
+          ]
+        }
+      ],
+      "id": "travel-tourism-hospitality-category-expansion-batch-47-ready-1",
+      "releaseId": "2026-10-preview-54",
+      "status": "published-preview",
+      "objective": "Learn Travel documents and keepsakes; Luggage and packing; Stays and hospitality in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-46-ready-1",
+  "activePassId": "category-expansion-batch-47-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",

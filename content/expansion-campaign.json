@@ -10822,6 +10822,474 @@
           "use": "Original common-language wording and selected examples; no external dictionary prose or artwork consulted or copied. Editorial pronunciation/level and independent human review pending."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-47-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-54",
+      "sourceFiles": [
+        "documents-and-keepsakes.json",
+        "luggage-and-packing.json",
+        "stays-and-hospitality.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-53",
+        "manifest": "content/releases/2026-10-preview-53-e03890ac30f7/manifest.json",
+        "manifestSha256": "e03890ac30f7539d4c235dfd19baf89da8ccee9d26357a5047857f7887aa33dc",
+        "words": 1280
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "ticket",
+            "lexicalBinding": "be443a43217ba50f9b54a4e4a5ce113ec198ebda0adbac53f13c9dfb3e4d05f0",
+            "sourceImageSha256": "98d9fce129ed4f95606c4b6598381240dff6579fc6281f97b5dd7f6537b78518",
+            "cardSha256": "db40fea4123c29c984d359c8a810d093fb67bd617a76ba4d3e5143d92a4391e9",
+            "thumbnailSha256": "ac20129ce8943e9afc16faa05930f72bdaec07ef98e444f03b626bb7e7be6fca",
+            "authorPixelBinding": "d12918d7cb728a95af9e3b1cd92046825091016fc509a91585ecf1272ca78171",
+            "secondPixelBinding": "2c9bad4d2ab81f9cd38dc8e0f770535474e8a9f5598345b3caf873f44a2af37d"
+          },
+          {
+            "entryId": "boarding-pass",
+            "lexicalBinding": "9c8e0bdd4e71af4e90e4b40001a566eda65e52fd70fcf50b9bbab3d60d193bde",
+            "sourceImageSha256": "95b57a630f7eaa2542e51335bbd962f3df26fe5c01b0f5617a4f3b89998ce944",
+            "cardSha256": "5562ddd798393a6065921adfa49a2c0c274fc483d09e14ea8921122de977086c",
+            "thumbnailSha256": "838be56839ebf1e92889a74c3e43da34a5e71f2c3de3e817cb5cb1295295cc0a",
+            "authorPixelBinding": "a9b181ddabe847b7fb9c1f64772bf5d709d3aeecacf24251a1cda5cd31b08101",
+            "secondPixelBinding": "90c03a7d9e0091a61a345a8ffce4c9fab7d3bb7d330aefac7e83650f12445964"
+          },
+          {
+            "entryId": "itinerary",
+            "lexicalBinding": "b0d67dddd604c44b51f356f0c349b6feadb1bbb482f16e48034fa1b515e42e13",
+            "sourceImageSha256": "abfdf40580e65b9d6e83087ec09a32c66b54b01a82dfdfbbfdc9d46953650c59",
+            "cardSha256": "e1d88f4bad068a69d1e0929234635792fcea162bf4a21e7460aea0be790bf750",
+            "thumbnailSha256": "c85e44a1252c31fdf16727d46df3ba55f0961d423369b3d68e4d51c3f721b5bc",
+            "authorPixelBinding": "47143adfbf5dc11f1bd46f1bec974adf17850fed56ea072b762d30e57df45287",
+            "secondPixelBinding": "121f513493cbcc83a6f8b9138b52167e36739cef389ba42763c62a53edbb73ad"
+          },
+          {
+            "entryId": "map",
+            "lexicalBinding": "2f7104c4f1a281c4cae63f5ea30eebd2d5aadf0535ced7798cb5934104f9df7a",
+            "sourceImageSha256": "7e7bef6bdf751258a545e79c6a49741ef4caa5a9b2f42bbb300eb06a598823b6",
+            "cardSha256": "19f27211a5b156cef724cc3681d57d52cf229c2a530928f20dfc17b11f99e9c3",
+            "thumbnailSha256": "485ab9cccc973c49de9a2232015b94f78e36da889e90da6e6736b646194647af",
+            "authorPixelBinding": "aa701eb5f17a048e204d88511b2c3653eb6ed127714b273f41fa64eff8f8323b",
+            "secondPixelBinding": "cfc183bb05d40f9a4661397ec8c64e7bdc6e276e80d041214571f7873f7304d3"
+          },
+          {
+            "entryId": "guidebook",
+            "lexicalBinding": "257d8ae687d2ced90cecc3c7b584be612ab4ba99101c4fc94c6afe492774bad3",
+            "sourceImageSha256": "036723c15a24a882d6ffc6e44b007721f920c12f8dc70da0d05ae9b8b3a4bc8e",
+            "cardSha256": "8473410196d0cf35286cb4692382bb1e6ec85f19e09a2889cd560f58611923bc",
+            "thumbnailSha256": "181f7258860ab40ba2ff149931ea89030bda35666093f64d69c583ac313ee449",
+            "authorPixelBinding": "6434adcaa78084d624b31830d095369111cc27e9eec1169618b023f4fa47069e",
+            "secondPixelBinding": "fd770772ff7fe489a7b9469a19053a102569ee51c37b723168c48915b542c8e1"
+          },
+          {
+            "entryId": "brochure",
+            "lexicalBinding": "e1f944b102c1559f63f487506cc0e73c6c971a618e03d2e9ddef03daab3449ba",
+            "sourceImageSha256": "4181fb8c4339bfb8a0bf499a77784a8e4ef1f6ceb6de861501582e1142a7e76b",
+            "cardSha256": "123ce91d139ee6a289c84c9c385998b00d710f457ef1c0fcb6cc87fd0a52c006",
+            "thumbnailSha256": "c6282466a66d25a7c1ee6b1a8bca1ab5cbbb7521e843efecd752032fd3c0ac0c",
+            "authorPixelBinding": "cafb963e88a139acf113787adef820c7b6848747d184fc92ef2915d043f905ea",
+            "secondPixelBinding": "39fedc558bf7e9dfefed40a8dc889d9a1a1517faa296ce391e30fac40178aabe"
+          },
+          {
+            "entryId": "postcard",
+            "lexicalBinding": "ece0ae560bf57e8d5dcb8a12be0b62b6a18ffbfbabb7edc13e50f1fa44e5eb57",
+            "sourceImageSha256": "84ecce7d790e8687b1f1fbe7b95554f0307bbb661631f4d16db86091cbdf1443",
+            "cardSha256": "38531060dd5111067f02170484d8727e39769f3a0cd532f81744a811580ed78e",
+            "thumbnailSha256": "7c84d64b1c3ac43fb0f1766de3311db7efe941f0dd417b368747015f58c90189",
+            "authorPixelBinding": "5451bb3777578d945a6252ad4661f9151d16eedb14c9f887282b95f1b9abecc8",
+            "secondPixelBinding": "8b05dc8fc459381df412bb088bec80307c0337cd773ab09754e569712070699f"
+          },
+          {
+            "entryId": "souvenir",
+            "lexicalBinding": "b9b99b716041f681d8948efde4fdf9051cfe75ec4da3ff2c4f27e9b750ffd9de",
+            "sourceImageSha256": "7e73845311478c42ffce0990af435345db05cff15824d26e470aa97b738ab8e3",
+            "cardSha256": "4880714f0bdcd32f4caca0e5fda03ccebae9948fe387261500a5fff71c56bbbb",
+            "thumbnailSha256": "a57b67dbc9eec49ff3b484f9d3b7dd164101d5aaf5a078da035a37c675fa3f89",
+            "authorPixelBinding": "12548455c3dcbfb1c5a1c2623950271b4dfcc01c31a1d499e91e3a0562be08a9",
+            "secondPixelBinding": "4016090816e08a74c6ee1c7987c732a06b82a98a31e5a219036ca334fbe7997c"
+          },
+          {
+            "entryId": "backpack",
+            "lexicalBinding": "2d6669c68f34fef533af53ec80a3ab2cd8125e06b155f934987de858bd3aa78c",
+            "sourceImageSha256": "9dda9c36e52277d80b05e38fe7d8d69edbb06423c5969572acb874f089381d5a",
+            "cardSha256": "9ce7122728aa25f0965f031dc1a6c17159e1b88464553a407b16595b3af7fb4e",
+            "thumbnailSha256": "27ba0f1e14b0cde10fa036b0f8a03b4eb2de476f90ed5eb7a2bb8498b63a775c",
+            "authorPixelBinding": "47fc75e16ce1e1c793f2130983f7cff600b02d4cca97ef4ad6a37a07dc53e2eb",
+            "secondPixelBinding": "97a5fb13bbe830f395757dde7085b72893f2c33d25cd00ccd8646d64d6d7ff0c"
+          },
+          {
+            "entryId": "duffel-bag",
+            "lexicalBinding": "4827eaf34f4ceca071521e90c40f2fabc0bdc39175751fc60213c413f39edf1a",
+            "sourceImageSha256": "f6c60467536d2926aab69710a9c548b20ae6fe281c59fdde512454af5fd163e5",
+            "cardSha256": "70f391376c8a9479646c55de66c3a37d1719c5f118d6cbb219b727f8d199dfec",
+            "thumbnailSha256": "7dc182b85a2e5e778815058a55745f502adcaa3dfdb7b1a75a0f43758e25965a",
+            "authorPixelBinding": "896ba90c4cdc69f6a92d7d9a81e72b4f345d36615e4db5ade5b356f62a6b2df0",
+            "secondPixelBinding": "b66c5acf70d056cd7250f3fa533521f1fc8628025f5ea04173e041907732f2ca"
+          },
+          {
+            "entryId": "luggage",
+            "lexicalBinding": "44d1a06c92f2de02541e0cb19cf395552f4fc7fc9b9d6f080d4205d254f133d0",
+            "sourceImageSha256": "c007d6ed0a04bdea70405fb4d1b3418fb1261b732954bf9d9605406b6cdf0bfd",
+            "cardSha256": "d6b055a701eb89630b45536f8b33a3d85e2d228026b7c89061b23c7b40cc2806",
+            "thumbnailSha256": "761b83ff3090306c2b3b2a57e7d118cc67db8c5e1e11fedd63c8ce8af789fcec",
+            "authorPixelBinding": "2b98ba591b1c40bff6391bd4aaa5e07fa20958304ee34b5452e571fd6fc72ece",
+            "secondPixelBinding": "075b8942c245fda9da5a614bff2452db66659cb3df67ca32ef178a27e1b1b887"
+          },
+          {
+            "entryId": "carry-on",
+            "lexicalBinding": "2346fbcda3e3b8f4f867187d4aca74b5b100b09e6dffe9b961f5a65371141912",
+            "sourceImageSha256": "32c1993b6448166b776a7778cb1cfa768f5ba8027bd1505f3677b38364440e7c",
+            "cardSha256": "d84bd56f6003012e96482868fe4ba96a981a5628b8b1241b7711f24ff0588e9f",
+            "thumbnailSha256": "9cb86757d3113df55ec4d847d81ccb128d0121bb473cbee3fca6dadfcb520967",
+            "authorPixelBinding": "da61005d4d24419463bb101ccec5385feca705ea0b079dee06db6ed3969e7b2b",
+            "secondPixelBinding": "f25e9e98ef1f696b496f315a80f131c293b7d094a8ddf8955a5bb594e680d88a"
+          },
+          {
+            "entryId": "luggage-tag",
+            "lexicalBinding": "371127d12cb6a133cd1eca0e8de1b03342f5a3ba303d01b601d5532e179613fa",
+            "sourceImageSha256": "0e420c63e65c44d2eb702d3540de21fbd5bff319af13010be0e8991d2afcf51f",
+            "cardSha256": "8784f4141b0a6051574ed638c357af4950ef2813da3a752a7a3072149951a97c",
+            "thumbnailSha256": "a4c152f9e6cbeb1d1fc660700873bf092e58b500e00fb7fdbabdb09b0b49899e",
+            "authorPixelBinding": "9c1929db7a719fa77411da88dea590a364e44fb71e060d03c61b784cfa6b990d",
+            "secondPixelBinding": "78f88362b734282527f9ac4c2c408e7b25f1b43ae002810722a657195cff94c7"
+          },
+          {
+            "entryId": "travel-pillow",
+            "lexicalBinding": "bea31699ae752b23958495866a9769a73b84d2ee358f4ec4988a5aa3a95532aa",
+            "sourceImageSha256": "19b3ebf0168b56dfa1c68e727b8ac2150b4388dc7fa6e6fb8419ce6c7acc3a2a",
+            "cardSha256": "6af1f8a9c7ef74cc613af83ad6897171deff538be71635d141148019a015f5c7",
+            "thumbnailSha256": "e2d0aa1fa99e1a44f4c0036ed862d193e1fd7d7bc4aeaabd667ae690ed6c61d0",
+            "authorPixelBinding": "93d62fd6b34b7a3cefbaf5f4c9a53457abc7502251ba402ddd0261cbd85909e3",
+            "secondPixelBinding": "49ed39d45766db86f2f6fdb8c45439b6329a4ac1c94a429faf0991081aae50f0"
+          },
+          {
+            "entryId": "toiletry-bag",
+            "lexicalBinding": "b58d23f1b109cdf612fa4fde14bb2d24edad38bdb8c127fa2b74c7715c88ba21",
+            "sourceImageSha256": "e0ed1a1373d082ea942fd60bccf6099c07e5a0efe27088beb27960f4418fbf59",
+            "cardSha256": "dc6d41c5c16704d3272b20fcae1608296bfbfd576b066abfb93a21e25cd07c03",
+            "thumbnailSha256": "62c85226643d12272075d72296017a284b0ea6315ac99eea537d7e96ef1f654a",
+            "authorPixelBinding": "d188cbfe65a2f6421fb12593bafe41321bb7f9e674153167b971fba6c1d42992",
+            "secondPixelBinding": "5ce3dc37ab086b80d5802516eab03d3998270e10cae991b686c3f96895c5232b"
+          },
+          {
+            "entryId": "luggage-trolley",
+            "lexicalBinding": "db48a25276a0cc093fc727b09fd0806d302798a65215ff3dff4c1333f46c99ac",
+            "sourceImageSha256": "ca5800981da7de183d783af9fb3d06743a3880b92a0941524bcc133280f123c1",
+            "cardSha256": "3ca2352d1de36c768650e30b45d454f7379fed040a1a020009766bd149047265",
+            "thumbnailSha256": "aa088d1277a64d5a72d0c366af683f0b5263d7fc52ba5b7c00beef0170d89a37",
+            "authorPixelBinding": "ba2f510fc3f5dac1ce3e006ebc0f92c3c96e841148b3e2863d5b4084eebc185c",
+            "secondPixelBinding": "11a33367159ecc975b02f869f2666a7fd57285e8c2bd59528f38ebc33c21247e"
+          },
+          {
+            "entryId": "hotel",
+            "lexicalBinding": "53ca7c55fa031abea8869a46aa012a4171f0e5a1396c514a7ac27921a6d019c7",
+            "sourceImageSha256": "fc3b77d6a2d93b38df608b50b0b941d6d9251664d94a580c3412811651f30516",
+            "cardSha256": "d92e8fe8af5508e8416c26d3cb2541784ec8983b131ae37e7024c1fcba597662",
+            "thumbnailSha256": "5461045027be718f8e44ab9d2fb5e5d7dc631d5adeea054f7ddcf85c6ed2bd5d",
+            "authorPixelBinding": "e4ca0c8b10402e69f2f3a9674d7632b54dba03947c088b3a9d0a11ab60f518cb",
+            "secondPixelBinding": "48dc39b00cac30f59fb0cdee673f4a44817f38b024fb326d14a16071337474aa"
+          },
+          {
+            "entryId": "hostel",
+            "lexicalBinding": "ca857cada220792fda75374cccb684d5915995dfae4001f510744fc32ad9445e",
+            "sourceImageSha256": "2fcc30cf76c728242b504e37728b8ace3d3fa24904f6a2c25e2238835fea9818",
+            "cardSha256": "cca434a5ce41f6036cff67406670d4ccd583e55220b50ed7987cfae62fa974c2",
+            "thumbnailSha256": "4bc9ac04cbb6d9e17d70cb9c998c56deb96ab805fe3720eae708279f89b56d21",
+            "authorPixelBinding": "9535a40f23c9fbd81b0442d1599e947b60bd0f9c99dd4176b33c4ba8bc348c92",
+            "secondPixelBinding": "f82bacdfd3b93bb8dce89bd982128936a1c43f84f340b19d921fde5710da8a5b"
+          },
+          {
+            "entryId": "motel",
+            "lexicalBinding": "b9863b92642cc6c1aebdb96a596464b214fd95185ba73c1038ed303a9572ba14",
+            "sourceImageSha256": "ca3296e1880e756c917469db9985221e111905fd5a861fb1e624abfb9dd617f3",
+            "cardSha256": "ae49e80d95a3628884c2c6c9cd72c2e070bbc41f39687c68045818ca56cffdbf",
+            "thumbnailSha256": "d697a1582c83ea1d7ad44bad2f465d0173faf58a3424c0d89913210b2d6bc6be",
+            "authorPixelBinding": "3da6d77a99cd8b60fede7e399be23027e1dbc3adc79f019aed2ce23af21a2e1b",
+            "secondPixelBinding": "129b4039d354c07e99518804ec6522741668aa0fdbf926f539ab96fa4392161a"
+          },
+          {
+            "entryId": "guesthouse",
+            "lexicalBinding": "584aa96590beea6a4e65c5558ee57c8c782f2fcce609773e7e096560ae60b31b",
+            "sourceImageSha256": "c505d75192c424049ab3906a4ae3bb25667ae878784aab4896c38ebe7b411890",
+            "cardSha256": "e96d4e6b77c207df588bc3a32dd130a329a56c42326db4527b3f7f01d591e8bc",
+            "thumbnailSha256": "5d057e3d99400b4b6e547a14a48c1ef25ac9df42f36318ace6659e0c1d926128",
+            "authorPixelBinding": "61df92121a796311762779b44dfb082aadbd6ad27dfc3e74ae0f27b200ffc195",
+            "secondPixelBinding": "a79552a2e398461409c189abf1d3d7dbdce2804eff14c476eac27e9fe52a2158"
+          },
+          {
+            "entryId": "lobby",
+            "lexicalBinding": "6419f10006c9dc13494235fde0325da4fd5e0c445154f5511196538fbb3722ea",
+            "sourceImageSha256": "4aec63b373102e81adf957b2453d741202e83d0557bfb8b51fac7f080da67878",
+            "cardSha256": "62c7e7ffc9f6db85ce7d111c57519e6788c380567bf6e528489e7bbdf82bd3b0",
+            "thumbnailSha256": "6c8e95649aa817487291f6c76c6a0d200f81ad27374432c74b42a25cd5a97f72",
+            "authorPixelBinding": "7157df64d2d006f7bce7331cd574abf05c3ef53877e38177a1c9ba26b9ba2406",
+            "secondPixelBinding": "69d2680d0a360f631a71d66d2b89f0fd6136636ee0268740165e9e6417c7becc"
+          },
+          {
+            "entryId": "receptionist",
+            "lexicalBinding": "ceda5da056455e08bc96dcf86bad95f0e9995b74dd127425244b72fe155ead52",
+            "sourceImageSha256": "fd6d57e9007e00764e26ecd1ca8263591c52ed763e1400087c20c6f7b1e15f73",
+            "cardSha256": "e19318deb878edb25e65641fabcaad6515cbc5ff4b2c5c0b18031a0237ed4244",
+            "thumbnailSha256": "008e5d5ce2c88e2c119814eaea2b8feccf38ea89eee29738b8e4a7e83f7047f1",
+            "authorPixelBinding": "83d68d9ffedbeb4b58310e47db90f7cf9fe1454d6023d9a0981ddbdb9a22a999",
+            "secondPixelBinding": "e0cb35e75b26bb85860fff5e285b91abf477398c66f26f8261c43181ef06d14b"
+          },
+          {
+            "entryId": "room-key",
+            "lexicalBinding": "b59819ad34712c94f9065b7c03d31b4f99090a89116afedb0ca9e9a6d37011be",
+            "sourceImageSha256": "0c749c1ba4728d17c3daf18d19dbfda9e83fd8168c4101854cdb58f0f762f026",
+            "cardSha256": "2bf106a8c7d096644f9f329d44883e8e07171aeb7c63d9541910f312eb52a348",
+            "thumbnailSha256": "756d98fb9f1cdb6ee54689e925b82e8a411552785457cb95af3280f9ba703871",
+            "authorPixelBinding": "e6b6bbaa8580a579f47fac77a3e663f521fbb743f57522774697aab8559dee3c",
+            "secondPixelBinding": "62527828d42541899b8c34805cde1908e8c3323b34ebeca047b609e20a5cd93c"
+          },
+          {
+            "entryId": "bunk-bed",
+            "lexicalBinding": "8846f3b34633736f1489d67d06ee464c4a3d20b80c2922f94375e93bc4cc5280",
+            "sourceImageSha256": "e155acb215f7d27f83d71eb382caca0d2aae710484c04d87bd42301a437b1a03",
+            "cardSha256": "cc4c8e705f81ba4b9cb0b15b3ca786662c1053c50499f901431d8ad284d846f1",
+            "thumbnailSha256": "113a03642fc16044ee81aba326574112cf087e77023f1a21280da595292bfc76",
+            "authorPixelBinding": "6841af614dbeca20de394ff306ad30787a95fe014d9f6dcccf9c4763e73d0dd5",
+            "secondPixelBinding": "7e0d3ae92856116126232fc13a929c9f26aa49c74eb510f46bb82dd25ca5b162"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "travel-tourism-hospitality",
+          "visualLanguageId": "travel-tourism-hospitality",
+          "baselineCategoryWords": 7,
+          "targetCategoryWords": 31,
+          "entryIds": [
+            "ticket",
+            "boarding-pass",
+            "itinerary",
+            "map",
+            "guidebook",
+            "brochure",
+            "postcard",
+            "souvenir",
+            "backpack",
+            "duffel-bag",
+            "luggage",
+            "carry-on",
+            "luggage-tag",
+            "travel-pillow",
+            "toiletry-bag",
+            "luggage-trolley",
+            "hotel",
+            "hostel",
+            "motel",
+            "guesthouse",
+            "lobby",
+            "receptionist",
+            "room-key",
+            "bunk-bed"
+          ],
+          "units": [
+            {
+              "id": "travel-documents-keepsakes",
+              "title": "Travel documents and keepsakes",
+              "entryIds": [
+                "ticket",
+                "boarding-pass",
+                "itinerary",
+                "map",
+                "guidebook",
+                "brochure",
+                "postcard",
+                "souvenir"
+              ]
+            },
+            {
+              "id": "travel-luggage-packing",
+              "title": "Luggage and packing",
+              "entryIds": [
+                "backpack",
+                "duffel-bag",
+                "luggage",
+                "carry-on",
+                "luggage-tag",
+                "travel-pillow",
+                "toiletry-bag",
+                "luggage-trolley"
+              ]
+            },
+            {
+              "id": "travel-stays-hospitality",
+              "title": "Stays and hospitality",
+              "entryIds": [
+                "hotel",
+                "hostel",
+                "motel",
+                "guesthouse",
+                "lobby",
+                "receptionist",
+                "room-key",
+                "bunk-bed"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "24distinctgloballyabsent established English headwords/lexicalcompounds, freshlyselected after fullyreconciledliveparent46; nextconfiguredtravel7/50remaining43, capped24thisrun to31. No prior47queue/plan/canonicaldestinations or known generation. Sixteenmanualholdsnotretried; originalcommon-language drafts, no regulations/prices/officialdocumentreproductions.",
+      "parentBatchId": "category-expansion-batch-47",
+      "completedAt": "2026-10-31T20:58:58.903Z",
+      "factualReferences": [
+        {
+          "entryId": "ticket",
+          "sourceType": "original-editorial",
+          "title": "Original travel documents and keepsakes learner contribution",
+          "use": "Original common-language learner wording, two examples and complete three-native scaffolding; no external dictionary wording or artwork consulted or copied. Generic documents, no airline/legal instructions or official reproductions. Editorial pronunciation/CEFR and independent human language review pending."
+        },
+        {
+          "entryId": "boarding-pass",
+          "sourceType": "original-editorial",
+          "title": "Original travel documents and keepsakes learner contribution",
+          "use": "Original common-language learner wording, two examples and complete three-native scaffolding; no external dictionary wording or artwork consulted or copied. Generic documents, no airline/legal instructions or official reproductions. Editorial pronunciation/CEFR and independent human language review pending."
+        },
+        {
+          "entryId": "itinerary",
+          "sourceType": "original-editorial",
+          "title": "Original travel documents and keepsakes learner contribution",
+          "use": "Original common-language learner wording, two examples and complete three-native scaffolding; no external dictionary wording or artwork consulted or copied. Generic documents, no airline/legal instructions or official reproductions. Editorial pronunciation/CEFR and independent human language review pending."
+        },
+        {
+          "entryId": "map",
+          "sourceType": "original-editorial",
+          "title": "Original travel documents and keepsakes learner contribution",
+          "use": "Original common-language learner wording, two examples and complete three-native scaffolding; no external dictionary wording or artwork consulted or copied. Generic documents, no airline/legal instructions or official reproductions. Editorial pronunciation/CEFR and independent human language review pending."
+        },
+        {
+          "entryId": "guidebook",
+          "sourceType": "original-editorial",
+          "title": "Original travel documents and keepsakes learner contribution",
+          "use": "Original common-language learner wording, two examples and complete three-native scaffolding; no external dictionary wording or artwork consulted or copied. Generic documents, no airline/legal instructions or official reproductions. Editorial pronunciation/CEFR and independent human language review pending."
+        },
+        {
+          "entryId": "brochure",
+          "sourceType": "original-editorial",
+          "title": "Original travel documents and keepsakes learner contribution",
+          "use": "Original common-language learner wording, two examples and complete three-native scaffolding; no external dictionary wording or artwork consulted or copied. Generic documents, no airline/legal instructions or official reproductions. Editorial pronunciation/CEFR and independent human language review pending."
+        },
+        {
+          "entryId": "postcard",
+          "sourceType": "original-editorial",
+          "title": "Original travel documents and keepsakes learner contribution",
+          "use": "Original common-language learner wording, two examples and complete three-native scaffolding; no external dictionary wording or artwork consulted or copied. Generic documents, no airline/legal instructions or official reproductions. Editorial pronunciation/CEFR and independent human language review pending."
+        },
+        {
+          "entryId": "souvenir",
+          "sourceType": "original-editorial",
+          "title": "Original travel documents and keepsakes learner contribution",
+          "use": "Original common-language learner wording, two examples and complete three-native scaffolding; no external dictionary wording or artwork consulted or copied. Generic documents, no airline/legal instructions or official reproductions. Editorial pronunciation/CEFR and independent human language review pending."
+        },
+        {
+          "entryId": "backpack",
+          "sourceType": "original-editorial",
+          "title": "Original luggage and packing learner contribution",
+          "use": "Common selected travel-object sense and original English/Persian wording, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary wording or artwork consulted or copied; no airline approval, dimensions, performance certification or independent human review claimed."
+        },
+        {
+          "entryId": "duffel-bag",
+          "sourceType": "original-editorial",
+          "title": "Original luggage and packing learner contribution",
+          "use": "Common selected travel-object sense and original English/Persian wording, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary wording or artwork consulted or copied; no airline approval, dimensions, performance certification or independent human review claimed."
+        },
+        {
+          "entryId": "luggage",
+          "sourceType": "original-editorial",
+          "title": "Original luggage and packing learner contribution",
+          "use": "Common selected travel-object sense and original English/Persian wording, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary wording or artwork consulted or copied; no airline approval, dimensions, performance certification or independent human review claimed."
+        },
+        {
+          "entryId": "carry-on",
+          "sourceType": "original-editorial",
+          "title": "Original luggage and packing learner contribution",
+          "use": "Common selected travel-object sense and original English/Persian wording, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary wording or artwork consulted or copied; no airline approval, dimensions, performance certification or independent human review claimed."
+        },
+        {
+          "entryId": "luggage-tag",
+          "sourceType": "original-editorial",
+          "title": "Original luggage and packing learner contribution",
+          "use": "Common selected travel-object sense and original English/Persian wording, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary wording or artwork consulted or copied; no airline approval, dimensions, performance certification or independent human review claimed."
+        },
+        {
+          "entryId": "travel-pillow",
+          "sourceType": "original-editorial",
+          "title": "Original luggage and packing learner contribution",
+          "use": "Common selected travel-object sense and original English/Persian wording, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary wording or artwork consulted or copied; no airline approval, dimensions, performance certification or independent human review claimed."
+        },
+        {
+          "entryId": "toiletry-bag",
+          "sourceType": "original-editorial",
+          "title": "Original luggage and packing learner contribution",
+          "use": "Common selected travel-object sense and original English/Persian wording, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary wording or artwork consulted or copied; no airline approval, dimensions, performance certification or independent human review claimed."
+        },
+        {
+          "entryId": "luggage-trolley",
+          "sourceType": "original-editorial",
+          "title": "Original luggage and packing learner contribution",
+          "use": "Common selected travel-object sense and original English/Persian wording, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary wording or artwork consulted or copied; no airline approval, dimensions, performance certification or independent human review claimed."
+        },
+        {
+          "entryId": "hotel",
+          "sourceType": "original-editorial",
+          "title": "Original travel and hospitality learner contribution",
+          "use": "Common-language selected noun sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        },
+        {
+          "entryId": "hostel",
+          "sourceType": "original-editorial",
+          "title": "Original travel and hospitality learner contribution",
+          "use": "Common-language selected noun sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        },
+        {
+          "entryId": "motel",
+          "sourceType": "original-editorial",
+          "title": "Original travel and hospitality learner contribution",
+          "use": "Common-language selected noun sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        },
+        {
+          "entryId": "guesthouse",
+          "sourceType": "original-editorial",
+          "title": "Original travel and hospitality learner contribution",
+          "use": "Common-language selected noun sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        },
+        {
+          "entryId": "lobby",
+          "sourceType": "original-editorial",
+          "title": "Original travel and hospitality learner contribution",
+          "use": "Common-language selected noun sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        },
+        {
+          "entryId": "receptionist",
+          "sourceType": "original-editorial",
+          "title": "Original travel and hospitality learner contribution",
+          "use": "Common-language selected noun sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        },
+        {
+          "entryId": "room-key",
+          "sourceType": "original-editorial",
+          "title": "Original travel and hospitality learner contribution",
+          "use": "Common-language selected noun sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        },
+        {
+          "entryId": "bunk-bed",
+          "sourceType": "original-editorial",
+          "title": "Original travel and hospitality learner contribution",
+          "use": "Common-language selected noun sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,
