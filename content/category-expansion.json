@@ -5658,5 +5658,35 @@
       }
     }
   ],
-  "activePassId": "category-expansion-batch-44-ready-1"
+  "activePassId": "category-expansion-batch-44-image-refresh-ready-1",
+  "imageCorrections": [
+    {
+      "id": "category-expansion-batch-44-image-refresh-ready-1",
+      "kind": "existing-image-correction",
+      "releaseId": "2026-10-preview-51",
+      "status": "published-preview",
+      "newEnglishWords": 0,
+      "baseline": {
+        "releaseId": "2026-10-preview-50",
+        "manifest": "content/releases/2026-10-preview-50-e5f58ae46448/manifest.json",
+        "manifestSha256": "e5f58ae46448329ab8e90a031f6e3f3a5f80bac5da44a316ff213b0fb87780fa",
+        "words": 1237
+      },
+      "entryIds": [
+        "lever"
+      ],
+      "images": [
+        {
+          "entryId": "lever",
+          "oldPath": "atlas/img/lever.webp",
+          "oldSha256": "f40832d1a40d267935550035a6b476abdff948d4a280796598196267dbed32af",
+          "newPath": "atlas/img/lever-v2.webp",
+          "newSha256": "d67b1ae51e6ffdf6817eaf6e3d904b002f14b439c77371133f210f1070a08340"
+        }
+      ],
+      "review": {
+        "humanReviewed": false
+      }
+    }
+  ]
 }

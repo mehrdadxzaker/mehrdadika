@@ -9502,30 +9502,34 @@
         }
       ],
       "asset": {
-        "path": "atlas/img/lever.webp",
-        "sha256": "f40832d1a40d267935550035a6b476abdff948d4a280796598196267dbed32af"
+        "path": "atlas/img/lever-v2.webp",
+        "sha256": "d67b1ae51e6ffdf6817eaf6e3d904b002f14b439c77371133f210f1070a08340"
       },
       "visual": {
-        "expectedCue": "Rigid bar contacts a pivot; load on short arm and downward force on long arm.",
-        "decision": "added",
-        "reason": "AI pixel inspection of generated original, compressed512x512 WebP and actual120x120 thumbnail: Rigid amber bar physically rests on the triangular fulcrum. A grey load contacts the shorter left arm; a downward arrow touches the longer right end. Support and load contacts remain legible at120px. Accepted editorial preview; qualified domain and independent human review pending.",
+        "expectedCue": "One rigid amber bar physically contacts the apex of a grounded triangular fulcrum; a grey load rests on its short left arm and one downward force arrow touches its long right arm. Contact is visibly continuous, correcting the existing detached-support ambiguity.",
+        "decision": "replaced",
+        "reason": "Actually viewed full1254built-in lever-v2 output and separate512WebP/120PNG. One continuous near-horizontal amber bar touches and occludes the top of a triangular steel fulcrum; support tip reaches the bar underside with a contact shadow, without the old slate-background slit. A grey block rests on the short left arm; one downward amber force arrow touches the long right arm. Fulcrum base is grounded. All three contacts and unequal arms stay readable120 in the engineering slate/amber/pale-steel technical drawing style. Static teaching relationship only: no actual rotation, force magnitude, leverage ratio, balance, rated load or manufacturing fit certified. Existing word/sense/native text preserved; zero new English words.",
         "languageId": "engineering",
         "languageSha256": "b114ed14c955c2ef11249304592873191e3da271316dd0c532c8cec70e99e5df",
-        "styleInspection": "Observed precise technical product drawing with controlled contours, subtle cutaway/metal shading, slate ground, amber highlights and pale steel. Clear single teaching focus, no text, logos, fake readings or decorative labels; readable at120px."
+        "styleInspection": "Actually viewed full1254built-in lever-v2 output and separate512WebP/120PNG. One continuous near-horizontal amber bar touches and occludes the top of a triangular steel fulcrum; support tip reaches the bar underside with a contact shadow, without the old slate-background slit. A grey block rests on the short left arm; one downward amber force arrow touches the long right arm. Fulcrum base is grounded. All three contacts and unequal arms stay readable120 in the engineering slate/amber/pale-steel technical drawing style. Static teaching relationship only: no actual rotation, force magnitude, leverage ratio, balance, rated load or manufacturing fit certified. Existing word/sense/native text preserved; zero new English words."
       },
       "review": {
         "method": "AI visual inspection",
         "humanReviewed": false,
-        "inspectedAt": "2026-10-27T12:03:21.105448+00:00",
+        "inspectedAt": "2026-10-31T10:53:06.020Z",
+        "reviewerId": "/root",
         "secondaryInspection": {
           "method": "Second AI visual inspection",
           "humanReviewed": false,
-          "assetSha256": "f40832d1a40d267935550035a6b476abdff948d4a280796598196267dbed32af",
-          "inspectedAt": "2026-10-27T12:01:22.075498+00:00",
+          "assetSha256": "d67b1ae51e6ffdf6817eaf6e3d904b002f14b439c77371133f210f1070a08340",
+          "inspectedAt": "2026-10-31T11:04:02.596Z",
           "inspectedSizes": [
+            1254,
+            512,
             120
           ],
-          "finding": "Selected motion part or electrical device remains recognizable at 120px with coherent connections and the engineering slate/amber palette."
+          "finding": "Independently actually viewed current lever-v2 original1254,512WebP and separate120PNG against the existing lever meaning/examples and engineering brief. The single near-horizontal amber bar now meets the triangular steel fulcrum at a shared underside/top interface: the apex reaches and is partly hidden by the bar, with a small contact shadow rather than the old slate-air slit. The left block rests directly on the bar and the one downward right arrow ends at its top; the fulcrum base is grounded. These three contacts remain readable120, supporting the static lever relation. Precise metal shading, slate ground and amber focus fit the engineering profile. No actual rotation, balance, force magnitude, mechanical advantage, hidden pivot construction or rated load is inferred. This is an existing-image correction candidate only, zero new English entries, with publication still pending a separate strict correction workflow.",
+          "reviewerId": "/root/batch4_engineering"
         }
       }
     },

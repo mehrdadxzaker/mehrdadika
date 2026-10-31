@@ -9928,6 +9928,49 @@
           "use": "Common outdoor seating selected sense and original definitions/examples/collocations/native overlays authored for Mehrdadika. No external dictionary, artwork, manufactured rating or independent human verification claimed."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-44-image-refresh-ready-1",
+      "parentBatchId": "category-expansion-batch-44-image-refresh",
+      "kind": "existing-image-correction",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-51",
+      "newEnglishWords": 0,
+      "baseline": {
+        "releaseId": "2026-10-preview-50",
+        "manifest": "content/releases/2026-10-preview-50-e5f58ae46448/manifest.json",
+        "manifestSha256": "e5f58ae46448329ab8e90a031f6e3f3a5f80bac5da44a316ff213b0fb87780fa",
+        "words": 1237
+      },
+      "modules": [],
+      "imageRefreshEntryIds": [
+        "lever"
+      ],
+      "images": [
+        {
+          "entryId": "lever",
+          "oldPath": "atlas/img/lever.webp",
+          "oldSha256": "f40832d1a40d267935550035a6b476abdff948d4a280796598196267dbed32af",
+          "newPath": "atlas/img/lever-v2.webp",
+          "newSha256": "d67b1ae51e6ffdf6817eaf6e3d904b002f14b439c77371133f210f1070a08340"
+        }
+      ],
+      "completedAt": "2026-10-31T13:43:11.288Z",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "bindings": [
+          {
+            "entryId": "lever",
+            "lexicalBinding": "0ee0f8670544d4e675602e728830f2c39630f4045cd6d5a0ab1c6bc45899fd52",
+            "sourceImageSha256": "d7499656e30a40f67d6ef755f3832bbc2b48f07c76cfe78b90099ae77297db0a",
+            "cardSha256": "d67b1ae51e6ffdf6817eaf6e3d904b002f14b439c77371133f210f1070a08340",
+            "thumbnailSha256": "2966a019b78cfcb593ce20b8453d93bedd8ddf7856149d02f8323a2d572a0f0d",
+            "authorPixelBinding": "27ea14cd8e32ed210805e42610f9ed00dff1e589664b7e84c1fb27962763e9c8",
+            "secondPixelBinding": "5f1e660041abd066d9877bcf0ecf60dd66a412d726d147dc41df6f0967a7f5c7"
+          }
+        ]
+      }
     }
   ],
   "activeWorkBatchId": null,
