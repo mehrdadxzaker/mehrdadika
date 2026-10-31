@@ -5180,7 +5180,119 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "medicine-healthcare",
+      "visualLanguageId": "medicine-healthcare",
+      "baselineCategoryWords": 489,
+      "targetCategoryWords": 497,
+      "entryIds": [
+        "vagina",
+        "prostate",
+        "seminal-vesicle",
+        "stent",
+        "pacemaker",
+        "speculum",
+        "stadiometer",
+        "biopsy-punch"
+      ],
+      "units": [
+        {
+          "id": "medical-reproductive-tracts-and-glands",
+          "title": "Reproductive tracts and glands",
+          "entryIds": [
+            "vagina",
+            "prostate",
+            "seminal-vesicle"
+          ]
+        },
+        {
+          "id": "medical-examination-and-implant-devices",
+          "title": "Examination and implant devices",
+          "entryIds": [
+            "stent",
+            "pacemaker",
+            "speculum",
+            "stadiometer",
+            "biopsy-punch"
+          ]
+        }
+      ],
+      "id": "medicine-healthcare-specialist-500-batch-39-ready-1",
+      "releaseId": "2026-10-preview-45",
+      "status": "published-preview",
+      "objective": "Learn Reproductive tracts and glands; Examination and implant devices in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
+    },
+    {
+      "categoryId": "engineering",
+      "visualLanguageId": "engineering",
+      "baselineCategoryWords": 487,
+      "targetCategoryWords": 499,
+      "entryIds": [
+        "bracket",
+        "standoff",
+        "latch",
+        "detent",
+        "cam",
+        "cam-follower",
+        "planer",
+        "jointer",
+        "band-saw",
+        "embankment",
+        "breakwater",
+        "seawall"
+      ],
+      "units": [
+        {
+          "id": "machine-mounting-and-closure",
+          "title": "Machine mounting and closure",
+          "entryIds": [
+            "bracket",
+            "standoff",
+            "latch"
+          ]
+        },
+        {
+          "id": "mechanical-indexing-and-cam-contact",
+          "title": "Mechanical indexing and cam contact",
+          "entryIds": [
+            "detent",
+            "cam",
+            "cam-follower"
+          ]
+        },
+        {
+          "id": "woodworking-cutting-machines",
+          "title": "Woodworking cutting machines",
+          "entryIds": [
+            "planer",
+            "jointer",
+            "band-saw"
+          ]
+        },
+        {
+          "id": "civil-earth-and-wave-protection",
+          "title": "Civil earth and wave protection",
+          "entryIds": [
+            "embankment",
+            "breakwater",
+            "seawall"
+          ]
+        }
+      ],
+      "id": "engineering-specialist-500-batch-39-ready-1",
+      "releaseId": "2026-10-preview-45",
+      "status": "published-preview",
+      "objective": "Learn Machine mounting and closure; Mechanical indexing and cam contact; Woodworking cutting machines; Civil earth and wave protection in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-38-ready-1"
+  "activePassId": "specialist-500-batch-39-ready-1"
 }
