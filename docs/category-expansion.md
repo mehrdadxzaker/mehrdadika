@@ -24,7 +24,7 @@ Later cooking passes still need drinks, cuisines and dishes, dining, food storag
 
 ## Expansion queue
 
-Medicine and healthcare and engineering have 500 source entries each. Deployment verification and the whole-collection image audit remain pending; this word-count milestone does not declare either collection finished. They remain the active priorities until those gates are met, before the remaining queue resumes. Each starts with useful everyday vocabulary and a distinct-sense plan before moving into specialist terminology. Specialist records need appropriate professional review before a stable professional curriculum can be claimed.
+Medicine and healthcare and engineering have reached their deployed 500-entry count milestones. Their whole-collection image evidence audits and independent human language and specialist review remain incomplete; neither collection is declared finished or qualified. The configured count queue now continues with everyday life. The [latest 24-entry batch](category-expansion-41-ready-1.md) adds 14 household objects and 10 actions, taking everyday life from 16 to 40 source entries, with 10 remaining toward its first target of 50. Local and deployment verification for this new batch are recorded separately in its notes.
 
 1. Cooking, food and drink
 2. Medicine and healthcare

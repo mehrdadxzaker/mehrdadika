@@ -1,0 +1,40 @@
+# Category expansion 41: everyday household objects and actions
+
+Prepared on **October 30, 2026**, this group adds **24 distinct illustrated English entries: 14 household objects and 10 everyday actions**, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding. The integrated source now contains **1,182 words and 1,183 senses**. Everyday life grows from **16 to 40 entries**, leaving **10** toward its first count target of 50. Medicine and engineering retain 500 entries each; those word-count milestones do not qualify either whole collection or declare it finished.
+
+## Included vocabulary
+
+| Unit | English headwords and stable entry IDs |
+| --- | --- |
+| Everyday household objects | alarm clock (`alarm-clock`), keyring (`keyring`), doormat (`doormat`), coat hanger (`coat-hanger`), laundry basket (`laundry-basket`), clothes peg (`clothes-peg`), dustpan (`dustpan`), ironing board (`ironing-board`), pillowcase (`pillowcase`), duvet (`duvet`), doorbell (`doorbell`), shoehorn (`shoehorn`), bath mat (`bath-mat`), slipper (`slipper`) |
+| Everyday household actions | wake up (`wake-up`), get dressed (`get-dressed`), brush (`brush`), fold (`fold`), hang up (`hang-up`), sweep (`sweep`), mop (`mop`), vacuum (`vacuum`), iron (`iron`), tidy (`tidy`) |
+
+Each entry selects one explicit sense, with two meaningful examples, three collocations, useful distinctions, editorial UK/US IPA and approximate CEFR guidance. All 24 complete English/Persian records and all 48 Portuguese/Spanish overlays were actually read. The English words and sense identities are shared across all three learner editions; translations do not multiply the vocabulary count. The selected action senses include brushing teeth, folding cloth, hanging a garment on a hanger, cleaning a floor with a mop or vacuum, pressing fabric with an iron, and arranging clutter.
+
+## What the pictures teach
+
+All new illustrations use the everyday-life brief: warm observational gouache, gentle paper grain, cream, terracotta and muted teal, with one readable teaching focus. They use actual object relationships and contact rather than decorative icons. Keys pass through the keyring; the clothes peg grips cloth folded over a line; the ironing board has continuous crossed supports; the doorbell is mounted beside a door and pressed by a finger. The pillowcase visibly opens around a partly inserted pillow, while the duvet is a lofted bed covering. The doormat has entrance context, and the soft bath mat lies outside a bathtub. The shoehorn is between a socked heel and the shoe's rear counter. The slipper is one soft indoor, open-back example.
+
+The action pictures distinguish change from a static pose where needed. The same person moves from asleep to awake and adds a jacket over an already covered body. Cloth moves from open to folded; a hanger hook moves from below the rail to resting on it; the same scattered books and pencil become arranged. Toothbrush bristles meet the teeth, broom bristles and mop strands meet the floor, the vacuum head meets a dry rug, and the iron soleplate meets cloth. These are qualitative everyday observations, not instructions or claims about cleaning performance, dental technique, heat settings, load ratings, non-slip properties or exact product construction.
+
+Four genuinely reviewed references support appropriate household-object, floor-scene, tabletop and hanger layouts. Their scope is limited to suitable style or composition. Every derivative required its own built-in image request, fresh actual original/512px/120px author inspection and a different AI second review; no semantic acceptance was inherited from a template.
+
+## Actual review, provenance and preservation
+
+**24 actual built-in requests produced 24 images: 24 accepted current pictures, with no rejected outputs, request failures or new held entries.** Every current original was actually inspected at 1254px, alongside its 512px WebP and separate 120px PNG. Different AI author and second reviewers recorded concrete findings bound to current source meaning, profile, prompt and asset bytes. Software checks integrity and freshness; it does not supply semantic or human approval.
+
+All new wording, native scaffolding and illustrations in this group are original AI-assisted CC BY 4.0 editorial previews. Per-entry original-editorial provenance records common everyday selected senses and original contributions. No external dictionary, copied artwork or external verification is claimed. Independent human language review remains pending. The same 15 historical manual-resolution holds and their negative evidence remain preserved and were not retried.
+
+Two bounded older current-card cases, gear and washer, were retained after paired actual 512px and private 120px observations. No older picture was regenerated, and those observations do not imply a newly inspected original generation image. The collection audit still records **4 medical and 33 engineering current-512px inspection gaps**, with additional limits in some older evidence. Thumbnail-only findings and missing original metadata are treated according to their actual scope; the whole collections remain unqualified.
+
+A small reusable production change supports explicitly named source parts instead of assuming specialist categories. Its separate three-file tooling commit passed 34 targeted tests; the private publication-plan extension passed 11 targeted tests. The existing queue, frozen reviewed groups and strict preservation gates were reused. No editorial implementation dashboard was added to learner output.
+
+## Validation
+
+Local integration and release validation passed. Integration dry-run and apply preserved the 1,158 prior English records, prior native records, existing media and five science assets. The production build under `ATLAS_BASE=/mehrdadika/` completed successfully. Its existing prebuild ran the English release 47, native vocabulary and reading snapshot builders, together with the illustration, category-style and campaign checks; these were not claimed as additional separate build runs. All **198 tests passed, with 0 failures**, and the full content, native-language, reading, illustration, category-style and campaign checks passed.
+
+Actual local campaign status reports **1,182 words and 1,183 senses**, including **40 everyday-life entries**, with **10 remaining** toward its first target of 50. Medicine and engineering remain at 500 entries each. Each compiled Portuguese and Spanish edition contains **1,182 words, 1,183 senses, 2,366 translated examples, 3,546 collocations and 1,182 usage notes**, with the existing 32 categories, 348 subcategory labels and six group labels. The native counts were also checked independently against the compiled output.
+
+Six settled local cards were actually inspected as full-size screenshots, with all six complete captured DOM texts separately read: pillowcase at 1280px desktop and hang up at 390px phone in Persian, Brazilian Portuguese and Latin American Spanish. The reviewed image bytes matched, the teaching focus and native content were clear, and no horizontal overflow was observed. Portuguese and Spanish phone pronunciation text and Spanish badges wrapped readably without overlap. These are representative first-viewport and captured-text observations, not every offscreen position or application workflow. Offline behavior was not newly tested. The owned preview server was stopped, browser resources were closed, and active HTTP requests and route handlers returned to zero.
+
+Strict preservation checks and exact source-head CI, Pages deployment, live revision, pointer, media and settled card verification remain separate release gates. **Remote CI, Pages and live verification remain pending at commit.** Local validation does not establish deployed coverage, whole-collection image qualification, learning outcomes or independent human language or specialist approval. The existing 4 medical and 33 engineering current-card inspection gaps and older evidence limits remain unresolved by this everyday-life batch.

@@ -8179,6 +8179,465 @@
           "use": "Actually opened primary FAA HTML and read the system-description passage identifying control rods interconnected by bellcranks and levers. Supports authentic control-linkage context only; no accident imagery, operational/maintenance instructions, aircraft-specific design or safety qualification incorporated."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-41-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-47",
+      "sourceFiles": [
+        "daily-objects.json",
+        "daily-actions.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-46",
+        "manifest": "content/releases/2026-10-preview-46-ed7349fd8af7/manifest.json",
+        "manifestSha256": "ed7349fd8af76ad399d3b72b8ec0841593b8e1c9b72688ff89e027b1b07db17a",
+        "words": 1158
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "alarm-clock",
+            "lexicalBinding": "b07b8783c23c500d2d2ae05da731a7859c0df724ffc0538c2b1aec2dc3e22d0e",
+            "sourceImageSha256": "ae1a4326b18e771ee36704137784702da5a51f1ba27e25c1a30adfc6ab0205a1",
+            "cardSha256": "dd994462973b175e53a105eb6c5e297f3d5a6bdd2193b445ec8974f3f594e755",
+            "thumbnailSha256": "6dcc36b8d7bafddb2e3fa4846f8d4abba1d95d9c9c7191e96b506da86ce720d8",
+            "authorPixelBinding": "b558709a7d0e520640e1bb4419309bcb0921ca91bd88e5f6bd26c05b21d95876",
+            "secondPixelBinding": "7c11bae6bcbdbfb68361650be0b4663b6bd2ad196a200f5b0e28cb25cbf05871"
+          },
+          {
+            "entryId": "keyring",
+            "lexicalBinding": "d5a95a954057ed43865c27f90fe40423610f71ba3b8687c7975820323d11ecee",
+            "sourceImageSha256": "acfae94d9f730d652c2e608da63baf2d43e6a434c7e26c0d7f6bb04a258d7d3c",
+            "cardSha256": "0c3a24f8c0ec8fb00fa7dce03439f69ac2645463b3beef84eb5662446318f80c",
+            "thumbnailSha256": "b6e8327e8cbc671e712cf87a34d623a57bce6a58d15d9c6f1351f9d5867e8e81",
+            "authorPixelBinding": "bec3aa8b9c5e12f2f3821b30524ceaa2404d28e6ad435ed4f61b77bfb5b366d7",
+            "secondPixelBinding": "e09348bbdd0e435c5897a1e5e41eecb70c9ad44a330aa87b137a67b1f9d2276d"
+          },
+          {
+            "entryId": "doormat",
+            "lexicalBinding": "272c8c99889272488326eeaccd92adb47f6a24906a24bc3ddb10ddbe6c047b6a",
+            "sourceImageSha256": "82d0b9d34bfb8f61d093c33eabc9b0d9c7c72aeed519233818ac7603152d8aac",
+            "cardSha256": "6af328f2703eb22086ce7f0b2563e5a820650a3376b0bd5367b58b6c572cf9d6",
+            "thumbnailSha256": "a22b5f298bec83570215ebae86d93e7b73c9baaef828d8d1531ee65862979fb2",
+            "authorPixelBinding": "2a9a34720c49c83f2bf28e4f48850cb0b1de7ec41ea9f7da6547673722d72df8",
+            "secondPixelBinding": "406a82a3bbb05d0b00f44094b5eca55ab21b74e13484e0b2f2ed1443560f0837"
+          },
+          {
+            "entryId": "coat-hanger",
+            "lexicalBinding": "00f26c3e0e1ae3737dc0a033ed8df97e619e9dcb81a2d99a78a7d14cc326e07e",
+            "sourceImageSha256": "beed5015539dc37db87aafc528b37133abec0ba66c5687f70d50983d0f7b8c86",
+            "cardSha256": "d817a2de66839f623316d3ad2124666bc026012d120b5f6e445ca1666c248efb",
+            "thumbnailSha256": "0e67c6a51c78b37969540d2c3a9898e2b07090a615e26c4b47a13bc2728bb8d4",
+            "authorPixelBinding": "403679d00866576cf39e3ba0bfbcac1aff53be770865530a01fc539fe3f33122",
+            "secondPixelBinding": "ac0a2fbba536ce92bdfbae67013a1dba87101fb95ce666a3a4c565f4303e6271"
+          },
+          {
+            "entryId": "laundry-basket",
+            "lexicalBinding": "cb91a8c7062462ede7d5e6e25f92fa31f40a90255eadc7534ad9531b6efa79c0",
+            "sourceImageSha256": "4855e03aa5fef3f59829d39b714373bda5240946a055850a594fbbf1cb7eb845",
+            "cardSha256": "b6a2276b9885d29f3c7f48d7c4f5e346bb412254c4d31b9cbb594197923450d2",
+            "thumbnailSha256": "94907ac7acb0b646462ac93cd475bb21b0a674b6e784df9bfcdc23d8e4cc2350",
+            "authorPixelBinding": "a0cc01824809cc8f2810a4f911438282f9b3ff82aabbe239f3a347824d693906",
+            "secondPixelBinding": "048601bf79647b2172dde4b8bb3934a8cbcdd7ad0c9189120816459279c8b49c"
+          },
+          {
+            "entryId": "clothes-peg",
+            "lexicalBinding": "027de3978fbdb740c3903b3080dd72e8f3788b660a193f2f9e81cea96f224a49",
+            "sourceImageSha256": "258ec503652691841f46c5abfa78aefdf602ebc99fe0cc6369141b5c5ea2ab59",
+            "cardSha256": "e55d1c6dc8b4b515b995b00d1e9c82ee3cbb3ab80e0da9a06ccceab7d55524f3",
+            "thumbnailSha256": "a67bd2164473a4d14e31672668f34dd496213582af4e44e82856ab4134a2613d",
+            "authorPixelBinding": "60a019973ab6727f13cae7c0681d4e7cca9cb0ced5415a0987719ae47dd820d6",
+            "secondPixelBinding": "d1f4ca0a1075243248d8673976316562e2cf00001ee9885197ec900af42b2698"
+          },
+          {
+            "entryId": "dustpan",
+            "lexicalBinding": "e4f3cd60aa474bc46fa6a33c2131a9ccdaa342801ad4cb775e7410a6da1d28ba",
+            "sourceImageSha256": "fd27657d6a7a672aca040bb03ca5ed77be1a7610cf5d418a27d17a0a88bf72ae",
+            "cardSha256": "8fc67fec9c618f14b28f6dc2fdfdcc745f8113f71df980658afd195d221b3a33",
+            "thumbnailSha256": "abd58f4f510f20b3bbef31eee367e0138ac479805e935d0e451393492381877f",
+            "authorPixelBinding": "1cd2d66116bb4f2daa7fd00e82460c77414f19a768ac52de789e6cb67be06336",
+            "secondPixelBinding": "271debd088ff3c4e865f7004422cbcd5ba023c07959dbcf58386d07499403138"
+          },
+          {
+            "entryId": "ironing-board",
+            "lexicalBinding": "bd92a4a2347cc7bb3995f0d041324f5041bda6890e1d921ca9155fc11cb48e3d",
+            "sourceImageSha256": "059df2d8f4a4663d1b1c68738daf6d76c13d69a3ffc62a83e8277b08ae6dc185",
+            "cardSha256": "21be8e958018a5b7e67aa90fb15c9eb4076aa0d9b02306e70f395f2613da3442",
+            "thumbnailSha256": "f4d21eba397944b959f5b4c689d133796662589800cc29d00f121bb075250cef",
+            "authorPixelBinding": "4e11b724aacf2f8ee33d2588a2605f39e81ace10f146fab92c71cf17dfb9a624",
+            "secondPixelBinding": "8ccc9be7057b8b73f58371a1d1fec766eb5823f57398e7197a2317725c346d43"
+          },
+          {
+            "entryId": "pillowcase",
+            "lexicalBinding": "2f89254eae337a78ad7dab7867646efbd8556a72c4205bb7e89577cdb7c7410c",
+            "sourceImageSha256": "e48c4b98848d9f1c7213bb5a8a80e0ee7d83dfcbaed54cc17813b5fd5958a7c3",
+            "cardSha256": "980ae17a1ce9ce8d80696a7d9f6f8f27f479052e81e112a096ce8ad077086c8b",
+            "thumbnailSha256": "df4c5cd2f6ff32595f86db446eb4116e9f3fc98a365a5888e3b35afec3c93df5",
+            "authorPixelBinding": "d88525ece7b816941d8e10d5c2c9721da42750a6ee77880b9382d1a762a4d4e2",
+            "secondPixelBinding": "5d060b785d41b8a0672028278693263c83007547f7fcacf0add66477b5133474"
+          },
+          {
+            "entryId": "duvet",
+            "lexicalBinding": "d48329662eba0db6ff0b427e0e0901a8b09869c206a05ae40708ed0f4f1a81f4",
+            "sourceImageSha256": "3d742fb782341b3f47eafdb7306b391df2d28aeba81a8ad8a433c78f6acd7dc8",
+            "cardSha256": "329f875d2920b347709b238ff435cb697b1ef340eecb920b233174f49eed4d87",
+            "thumbnailSha256": "06aa7115013f8b1e6d778989a34209f2c6ba6632549c6c2d8554d7804f1d6769",
+            "authorPixelBinding": "359d3d563cfc84ef694de162df53ae8b14a2ec3f0a390cfd11604ebd1b80f81c",
+            "secondPixelBinding": "4e0e6f6364920997381ed07254273683ec6229f6446f00d9417af42fbe090634"
+          },
+          {
+            "entryId": "doorbell",
+            "lexicalBinding": "c765df4291bf4c70968b70be181db949eec0826eee849bc55327144cd9a141e6",
+            "sourceImageSha256": "b7fda60f511d74c4fce047ed3a40e6aca8d15664818d277ce13cf7035e36aeed",
+            "cardSha256": "ff5ce28121aae391723af38a92abfdfbe111063f9092277116bec2cf67906f07",
+            "thumbnailSha256": "2d0696c6889a384dfa3fe4cf484760929b4e1e816ccc31441cf58295b97cf4a3",
+            "authorPixelBinding": "4a8e400f6f98bda68a9df17b642da4c820f9b88a73ecb07e1db19058d23eba4a",
+            "secondPixelBinding": "3369c811f7a406f3731b31104397bce438d0114907c605e2e7dc26d043ec69cf"
+          },
+          {
+            "entryId": "shoehorn",
+            "lexicalBinding": "ba084538f3228952f68268e218199796936a35a8cfc5ea209e930c9230edf56f",
+            "sourceImageSha256": "169589809aa529892215a5fbf46dc3553601c6b3d96c0d61baccf64c879fbee1",
+            "cardSha256": "f023b863b7e671246d53e2130a1707b37ee3a4d23b7b8a921f61477115c774fd",
+            "thumbnailSha256": "39eb251fa6872c65e86c2f2f7b2262c54e11e387c24e1add5bd5adbaa0722624",
+            "authorPixelBinding": "3d942480c69d51a49158e336b56686c22f58b30a2eefc1340acc1f8d68ddd2fc",
+            "secondPixelBinding": "3cc53f5219e0acc52e6e9c97ef9bc9ce278d0e7a39611b797f3a72161a56410f"
+          },
+          {
+            "entryId": "bath-mat",
+            "lexicalBinding": "aeeac15a4b845870a2f410fd303e68ac8cd1b4d8c0d1a76192e5de52dc45e032",
+            "sourceImageSha256": "63f49835f3f727e1cc6c23deb786c7490b643185d654b6eb2cd70824afdabaca",
+            "cardSha256": "e81f4b3c3776869cfe821ef46949a00bbeae9493eb948f1b749e84b264d942ee",
+            "thumbnailSha256": "e122a16000a1f4981d2333284a5cc26950b798433edcbf1b32a43aaf71151c07",
+            "authorPixelBinding": "20b569c86f0909f8d36e5606b489ef54dc5b21986ca62ac44818347f1ff4b76f",
+            "secondPixelBinding": "83acf15bbfade191bfa18b461df4d4cb42538a1df476ba11bdc153c2bd9a43ae"
+          },
+          {
+            "entryId": "slipper",
+            "lexicalBinding": "482af0c20b22fc6e69b9f9b9d8e9a4a558d94460a330608ef2db5c008e7fa761",
+            "sourceImageSha256": "0e472f74ba2e5c65c94fe007b4ac6e167853404f2cc030edf5ef62d3bc09f491",
+            "cardSha256": "4b2db58e17d499a86fbdee387dde38f00547483a6830c82ef9c68bd19a40a611",
+            "thumbnailSha256": "ac509728328c617f0a1d1c217d272326fcf010537c017202b7883d6484fef272",
+            "authorPixelBinding": "5763804392aa7eeaa93a4a20b5d6e671d87de02082646657ca54a52274c634b7",
+            "secondPixelBinding": "e72231a773939b5dd678540179d42813a3449ce18a42a20b1c39f53b22254aea"
+          },
+          {
+            "entryId": "wake-up",
+            "lexicalBinding": "29b819f0408299e264466798f9238bcc3cda6e02c45b71bcfddc9de9734098db",
+            "sourceImageSha256": "1cafa4d9f7508563c80bfb53212894c2be5d5a20c42049146b0e006b8b435203",
+            "cardSha256": "6741ed379c11e264f01f0ecc6b2129b26c7d855839f40a255a74c3ad6d95d3f2",
+            "thumbnailSha256": "29d1f299d9aec86412f57d6f52a73fc96d9726c87be5499d13deacae40514573",
+            "authorPixelBinding": "2ec72bb5f13f2ce62c32e574610650d97f8ff3df95bc951837c113e31a43536f",
+            "secondPixelBinding": "96de959457129ad7d1eb366270f0e9b6d9838e688aa9aa325caa037b186ac18f"
+          },
+          {
+            "entryId": "get-dressed",
+            "lexicalBinding": "9e909094a8c351dc52f9417b8b0e0634010d60a5c71c876e0513f9886e836ddc",
+            "sourceImageSha256": "cb7749f67179d18e3258519b70d21ce7a10b1cfbfa3998bf5bac9cfa078b6303",
+            "cardSha256": "4a160ba4a7d51def1b0acbd0eeb59dc810a3403a5230504d97a5c772670b3f53",
+            "thumbnailSha256": "ed6223b44b655877b75eca78bfc5a71805fd79f299058cb5f599a44c595c48d2",
+            "authorPixelBinding": "889866032062f158ffab94b888fcbf140528f4deb497c0f6a6e2884cfeff8d4c",
+            "secondPixelBinding": "a72e47ff8cfb82bcdcd37b2822b2998d70e0791c1da395310d76538cb6974712"
+          },
+          {
+            "entryId": "brush",
+            "lexicalBinding": "2c02899fce1203c14019544f648e32ae6d5c0c5965b90af7a7c443c13a2a7c67",
+            "sourceImageSha256": "fca7294ac7c958a7da3f3f235252d96bea6ad8c248884f4d3fb577e7093a977d",
+            "cardSha256": "ff292ed073f1d4b7dff06801fe20e649bf289f649745acb8fc758bce2f30a221",
+            "thumbnailSha256": "97e2dc40fd590ea70c19c70b55173de80119c2cc4e49bb5899bf96461f3834df",
+            "authorPixelBinding": "7d0b4986e8ff8e7d40cfce07de6cacb3af08de09fa3d2383881aee99d9202cdb",
+            "secondPixelBinding": "2833da5c971bb7b1e27e09cdf13fc4f79b2dbc4f51c558439ff3a0522a615bcd"
+          },
+          {
+            "entryId": "fold",
+            "lexicalBinding": "eb09ef999dfb1eb72ad195c3a49d0c3f5068d2462df3bbba10ec9a9884694882",
+            "sourceImageSha256": "b09e9b4873a4753098be895174c919d34c1f4577c12f0fd81cc73ad6d397a212",
+            "cardSha256": "1ca1ca70d323c90ad042fe87b279443c61236182f7266f127a2b0587d69cda88",
+            "thumbnailSha256": "c4d6a5a3fb64a0cd6bc618db760f2eb68fa5847c2906ee3c7a89635526fb7afe",
+            "authorPixelBinding": "0a84d37ec700491ac6e45c91bb700bc1d51b13a68e2d553ec36226cbfb77f111",
+            "secondPixelBinding": "32810002fc956dab9d6e10b4cbeed214aaae7467e411050545343fce9045aff8"
+          },
+          {
+            "entryId": "hang-up",
+            "lexicalBinding": "22f4d81e42c237e25f2431df4aed12c1ffbad928e7c53b17f6a50cf126cfb34c",
+            "sourceImageSha256": "795cd56469dbd44c648335a078b8c667d7695c41154f6a281caac53e00e23955",
+            "cardSha256": "ec9e78e24dfb9169e162c06b4b756eb35d15f69d9dc7b3ddb63e3d498a16c11b",
+            "thumbnailSha256": "3a4bb90624f77d565e1efd94e39de754dda10f7689c8ee5712eae279edacbaae",
+            "authorPixelBinding": "772254a2e681054080359296f9bee94b7b94a875c160cfb7807b71b31425ce08",
+            "secondPixelBinding": "bb5528875b8d23dde9e9f5b443dde448ee84883cd1c0f018cef4896fa20ec374"
+          },
+          {
+            "entryId": "sweep",
+            "lexicalBinding": "d45a0cbd4afa1b15a0546a70ab3474ff06b33d8731697daee6396d47cd30e51c",
+            "sourceImageSha256": "386ba48e6787418b99b0a6523a2be368e779e534a1891440c6d4bed5de252a44",
+            "cardSha256": "ed93286d7b23abeab65e10b8e0a2527c4b4884727c81828fce31a7b7c0888241",
+            "thumbnailSha256": "40df1f71bb2e0af8d474d651a9f12c4ddb0db54253e021770fa35586ba5f4fd6",
+            "authorPixelBinding": "4424b7d49b1d8f4222b6c937999a079249f8644a6e2d7f035dc7f5fa211e1727",
+            "secondPixelBinding": "cd74a8f082424d24831cb98c7a347d3f312b09845df8c613903c28ce6c545dba"
+          },
+          {
+            "entryId": "mop",
+            "lexicalBinding": "9d46558a4d4d5da0a65270ca7604ac90b57acfabab9ec3350987c6d729804b8c",
+            "sourceImageSha256": "5cde648defe4790e5e33abb9beeb217fdf2e8ffcd3dec06b169ea9d73caa9a8e",
+            "cardSha256": "166d8884e92c96ddeebef6a4a32317ca6d4251bd5620ae4686badfd8d305f63e",
+            "thumbnailSha256": "0ff35411cc6b545ed8c20261b4a9158093fa31a439535662b3f7207b470319ef",
+            "authorPixelBinding": "3ee021631e70726574d01c57f6052fd0d8e07a94d88ef9acaf94990ee4b10be2",
+            "secondPixelBinding": "71101b44df0647c8ff161ef7692b30792a1af7c6b7e646a5a8b5f8a9a0cfa746"
+          },
+          {
+            "entryId": "vacuum",
+            "lexicalBinding": "003966a62f7a08d3730b3181535b3a35ae13a9873c328b63f14099fcd8bae41b",
+            "sourceImageSha256": "33a121a67170892e10e1750ec48ba3745fb594bf8a8d44f23501ca95caa963ba",
+            "cardSha256": "9297aac311ab0bd5a2c61230e76ec9487ab181f0cc8db1f793aa9c732a5c14db",
+            "thumbnailSha256": "599ba001cff522fdee6687cebb2950e2e997e98838ff6fc9e8ee32532f4b3517",
+            "authorPixelBinding": "5bfce60ef630de2964067611ed70f6e62984ee25ef79c9959625c633a190a35a",
+            "secondPixelBinding": "fdb28d68b50e20d2c30dc6abb96ba2234e61e2d8fd38820a49472cb9c4963724"
+          },
+          {
+            "entryId": "iron",
+            "lexicalBinding": "eaa36405381ddcfbee9f993207a8eeeb899832b81ff27d855a826b8e3bf06314",
+            "sourceImageSha256": "323d299904796062f5db2c70ad5ee869a4a505c5d6ebb6327b8620b5c8b7dcb3",
+            "cardSha256": "39d5099f8c1cef05bd837667d43181b4813861f5262bcc95142222e3b5319e2f",
+            "thumbnailSha256": "7d879706e027c6b13e2ff4f61d4ac66a8df9edc809fc07b505845e7531aa4d41",
+            "authorPixelBinding": "1720dd9e467b292211c8eed7284a3596649307506d8d2bc01c9239c0741a88a2",
+            "secondPixelBinding": "2efe089fc1c02013fd8705149e03c1efc25fd7b769a718887073227684df770d"
+          },
+          {
+            "entryId": "tidy",
+            "lexicalBinding": "5e4b19a6e6b6ecf7174f5b15f353b222986503077686175be63e82e7e44b4d53",
+            "sourceImageSha256": "7d128b6578994df61ea7aaaa8f52d6d3e5d54393130cde7ff0bbf3953a3a015e",
+            "cardSha256": "48fb2f35d46922c561a824939dd90c82e399cae351964c7fc4b05b5fa7c03519",
+            "thumbnailSha256": "6f0fdde5c137bb298639c872df81c17e2cc38b4f220ee3b612b507d8f8829b98",
+            "authorPixelBinding": "d8e09fb78e3ea8071f4ccc0bd840f2f6c5b3fb8ac806f0649a4b22e8afaf8d71",
+            "secondPixelBinding": "0eedd622ca7cd597915b8a25a708cc1a90cd8beb81a8bbf4695856fca456daa5"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "everyday-life",
+          "visualLanguageId": "everyday-life",
+          "baselineCategoryWords": 16,
+          "targetCategoryWords": 40,
+          "entryIds": [
+            "alarm-clock",
+            "keyring",
+            "doormat",
+            "coat-hanger",
+            "laundry-basket",
+            "clothes-peg",
+            "dustpan",
+            "ironing-board",
+            "pillowcase",
+            "duvet",
+            "doorbell",
+            "shoehorn",
+            "bath-mat",
+            "slipper",
+            "wake-up",
+            "get-dressed",
+            "brush",
+            "fold",
+            "hang-up",
+            "sweep",
+            "mop",
+            "vacuum",
+            "iron",
+            "tidy"
+          ],
+          "units": [
+            {
+              "id": "daily-household-objects",
+              "title": "Everyday household objects",
+              "entryIds": [
+                "alarm-clock",
+                "keyring",
+                "doormat",
+                "coat-hanger",
+                "laundry-basket",
+                "clothes-peg",
+                "dustpan",
+                "ironing-board",
+                "pillowcase",
+                "duvet",
+                "doorbell",
+                "shoehorn",
+                "bath-mat",
+                "slipper"
+              ]
+            },
+            {
+              "id": "daily-household-actions",
+              "title": "Everyday household actions",
+              "entryIds": [
+                "wake-up",
+                "get-dressed",
+                "brush",
+                "fold",
+                "hang-up",
+                "sweep",
+                "mop",
+                "vacuum",
+                "iron",
+                "tidy"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "parentBatchId": "category-expansion-batch-41",
+      "completedAt": "2026-10-31T04:05:23.742Z",
+      "factualReferences": [
+        {
+          "entryId": "alarm-clock",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "keyring",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "doormat",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "coat-hanger",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "laundry-basket",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "clothes-peg",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "dustpan",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "ironing-board",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "pillowcase",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "duvet",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "doorbell",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "shoehorn",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "bath-mat",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "slipper",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "wake-up",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "get-dressed",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "brush",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "fold",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "hang-up",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "sweep",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "mop",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "vacuum",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "iron",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        },
+        {
+          "entryId": "tidy",
+          "sourceType": "original-editorial",
+          "title": "Original everyday-language editorial contribution",
+          "use": "Common everyday selected sense and original wording, examples and native overlays authored for Mehrdadika; no external dictionary or artwork consulted and no independent human language review claimed."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,

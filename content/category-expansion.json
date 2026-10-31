@@ -15,8 +15,8 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "medicine-healthcare",
-  "nextCategoryId": "engineering",
+  "currentCategoryId": "everyday-life",
+  "nextCategoryId": "everyday-life",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -5348,7 +5348,85 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "everyday-life",
+      "visualLanguageId": "everyday-life",
+      "baselineCategoryWords": 16,
+      "targetCategoryWords": 40,
+      "entryIds": [
+        "alarm-clock",
+        "keyring",
+        "doormat",
+        "coat-hanger",
+        "laundry-basket",
+        "clothes-peg",
+        "dustpan",
+        "ironing-board",
+        "pillowcase",
+        "duvet",
+        "doorbell",
+        "shoehorn",
+        "bath-mat",
+        "slipper",
+        "wake-up",
+        "get-dressed",
+        "brush",
+        "fold",
+        "hang-up",
+        "sweep",
+        "mop",
+        "vacuum",
+        "iron",
+        "tidy"
+      ],
+      "units": [
+        {
+          "id": "daily-household-objects",
+          "title": "Everyday household objects",
+          "entryIds": [
+            "alarm-clock",
+            "keyring",
+            "doormat",
+            "coat-hanger",
+            "laundry-basket",
+            "clothes-peg",
+            "dustpan",
+            "ironing-board",
+            "pillowcase",
+            "duvet",
+            "doorbell",
+            "shoehorn",
+            "bath-mat",
+            "slipper"
+          ]
+        },
+        {
+          "id": "daily-household-actions",
+          "title": "Everyday household actions",
+          "entryIds": [
+            "wake-up",
+            "get-dressed",
+            "brush",
+            "fold",
+            "hang-up",
+            "sweep",
+            "mop",
+            "vacuum",
+            "iron",
+            "tidy"
+          ]
+        }
+      ],
+      "id": "everyday-life-category-expansion-batch-41-ready-1",
+      "releaseId": "2026-10-preview-47",
+      "status": "published-preview",
+      "objective": "Learn Everyday household objects; Everyday household actions in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "specialist-500-batch-40-ready-1"
+  "activePassId": "category-expansion-batch-41-ready-1"
 }
