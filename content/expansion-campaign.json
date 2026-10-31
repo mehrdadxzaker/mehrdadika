@@ -10439,6 +10439,389 @@
           "use": "Common-language selected sense and original English/Persian wording, examples, collocations, usage notes and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary or artwork consulted; no external verification or independent human review claimed."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-46-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-53",
+      "sourceFiles": [
+        "emotions.json",
+        "social-etiquette.json",
+        "help-and-life-stages.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-52",
+        "manifest": "content/releases/2026-10-preview-52-cac8f24c1f80/manifest.json",
+        "manifestSha256": "cac8f24c1f80fd662b49dac76ee80a1bd264e439881fabb4db5a2a639ce38883",
+        "words": 1261
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "surprised",
+            "lexicalBinding": "633e26ae79a5e278ebc1b78a3762286a9ec33461e3b8938162fc6fe7712b45b1",
+            "sourceImageSha256": "1a2102159b97c3c09918c31beba3d793161e97cb5fc2d13ce8bec745ab129c34",
+            "cardSha256": "4bcb5c9eac427bbdf0ee0b68a428dd11d86c1f8174c0aa738d41abda9a524365",
+            "thumbnailSha256": "96632621cf75ed7e470d5a27c1de9c33ad7bc612554cf36a5bf533e1db8ef4b6",
+            "authorPixelBinding": "89f4fefc7918ed0c9799515bda99bcc612f8621a4fbb392f1138b9783921de17",
+            "secondPixelBinding": "a1896694d8b2012e479f5c089bf560dc9475dd33d63622a5d633dbfcb4c2bec9"
+          },
+          {
+            "entryId": "worried",
+            "lexicalBinding": "5f28c4f455842cc0a5a1f970869168fe1fd45012cf4f6e041432f8cc64d76880",
+            "sourceImageSha256": "6454cac6df541d7726df099e091c28befbba3b0996fe686b29fed5a0a1098b81",
+            "cardSha256": "81141cf2a42094fb9d95e6a81fd929618b41c9ec820695035f39fc90b9467e63",
+            "thumbnailSha256": "1b588a416f994549fdd89ed3dcc928c2e2e21df2616f864d9c72df5fd683aea5",
+            "authorPixelBinding": "076e5869ec0372e2a50d34a4623842ffaa09ed2ab7aa607a5da449524775eec8",
+            "secondPixelBinding": "3d1a51a7a92490a6f67d3fc3b195d84f23abfa0e850aa7e520a68571cc1c50ec"
+          },
+          {
+            "entryId": "angry",
+            "lexicalBinding": "cb6ec1594195782883f76b086ec4742ee719c5e6c458839c7fea670c0a16db43",
+            "sourceImageSha256": "4e2b5d973c1f7ce3ee5343cfb7eed87e31decded051fb39d06cc4141725efc4e",
+            "cardSha256": "0ef8e02a1fd59cebc90a86b82fc273518ae1a61ee57dd31c6af29096d1ea2297",
+            "thumbnailSha256": "a6c30fa2047044831d13abdc2b63a177101bd09258be7692b8b3b94371a73add",
+            "authorPixelBinding": "b4722e62ec88249ebae42c90d5756c6b6bc26e8d4fafe2f655ef80f0cf7f8527",
+            "secondPixelBinding": "afac4a8a0c870a186b13a4c1be5445fd070f1616dc3003ccfec4498f38daa628"
+          },
+          {
+            "entryId": "afraid",
+            "lexicalBinding": "dbc53a251b42401951f592481359e6d0dc27a7d6d2019edfd8dd85301a15f8f4",
+            "sourceImageSha256": "accbd965b884b91193522c83f9b137f7ed6dee940d624d8786dee309dfc689b3",
+            "cardSha256": "c8a4b2bbad1ad930d28b4b3d4289a80c49166092428ffcce906a9e8874ea5d3a",
+            "thumbnailSha256": "b93b0a07c74ed454c00561f64700447b2d9e79215db602c0031a2d4c3a52a67c",
+            "authorPixelBinding": "6ec207c05962f4ecbe4f671c4b6e7e9c25c9e631f0e1b4d1aa1e182dc4197558",
+            "secondPixelBinding": "5f47212ef540e73cbb424cedbc47f33f5b45c8034763dad87c3d376f41ecc664"
+          },
+          {
+            "entryId": "shy",
+            "lexicalBinding": "cc7b5c65b7b0986ebcca1b3c05960be3655c6e5d21db3cbb1f2413a29bfc7579",
+            "sourceImageSha256": "cbf7048f6a9afe1675b2bc1492ad1fdf929cdcba1d6e83196e4ef20768ba81fa",
+            "cardSha256": "756f77f6ab3c871a2de1d468e646ba2041ef0d871249d106014b154d914c35e7",
+            "thumbnailSha256": "847a6863dddb7017496f4ecbbafa116a92203c613d51327287c7424c08da336f",
+            "authorPixelBinding": "6d35161d38416cd56ca8e940d93cf9649786ce702be8ad4dda7816116da939b6",
+            "secondPixelBinding": "420da7e6ed7b72add8fbb404ce27c5e3c208be6023312a8ec17ea43c13ac7d55"
+          },
+          {
+            "entryId": "proud",
+            "lexicalBinding": "6ff8a25d8a7ecd21d5e00b8b472dc31facab02566182b7a656428f6073cfd1ec",
+            "sourceImageSha256": "5606cf18e99cc9b311f84e3ff1b1523a2b8c48c70827d912c012488ddf200035",
+            "cardSha256": "97e41f794ad8b58e3f2ecf633922598e989088f700404409f5c3e4b9589e2944",
+            "thumbnailSha256": "56a9948eb05e57cf9a3f839e26bc3983fc01afc89372a8dbd8dc3e92331043bb",
+            "authorPixelBinding": "b982554fdd0e18ee3f7bb879f5eb7b70523040e2329ca75382f3a32604747b9e",
+            "secondPixelBinding": "6e64e78d82f632493fbee41bb4a3e5e5279693b3929e4b471715989a96943d34"
+          },
+          {
+            "entryId": "lonely",
+            "lexicalBinding": "9d85a8d4db9305c0f4e0b683fdf4e6e099199d53cf51f8270d9b2d651f4011b6",
+            "sourceImageSha256": "d2acbef7348afe830976909c487c488a07947c0aa7569108d001a85b0d2bec4b",
+            "cardSha256": "08837fc5d8e4165954e73850e33d058b97427a7a5736c1208ce6f0637f64a29a",
+            "thumbnailSha256": "6eda8b71409dc26da619f3c85bee200b868bb84893e9bb00adda238f557fc299",
+            "authorPixelBinding": "cc3e2c70e8280c6618163da0d95cadbf1ff3be5c09562ff1853eaf0e5448d2f9",
+            "secondPixelBinding": "95bcd2f5d2d28c635ce306e1622fe8336345c67d71f055873f4b0da7a84a0dae"
+          },
+          {
+            "entryId": "greet",
+            "lexicalBinding": "2c396eaaf1ee52528c603da0b29a18af7b68aab720a7ae65c4c962a7d760e7d4",
+            "sourceImageSha256": "b72955a00e4fd43a2e3fb3f3f654a5fbbfae154d16c27cc89d7cc3f6968eca69",
+            "cardSha256": "9bad3034ac5486ebc19ecc84d0612bdd51a3f96c28bfe9401db7d8e64c722cc7",
+            "thumbnailSha256": "179a3aa06fdb07113df8859b4f79ab103813ba63473eff2ff3f074dabd494a35",
+            "authorPixelBinding": "6ea71f116b41f152723c421e26d3af63ffadfd90026e5a2d1748c8e0ed44e8d5",
+            "secondPixelBinding": "4bf61f62793420be19eb5abd99d36bbfa5dcab63db10b7ec49648ae4b80a43f6"
+          },
+          {
+            "entryId": "introduce",
+            "lexicalBinding": "701b18210153bf3d013672ce1126a265e1b692579b1ad7bbf1a12a9bceaf268d",
+            "sourceImageSha256": "3594c93f2bd4a0f8dc411765743935850f8246fc245363c517dd1ba99c6eba8f",
+            "cardSha256": "cd33bf389d481c51082b88bb4bef6a470202f1a28d49e04bcb00e89ec045cbcc",
+            "thumbnailSha256": "1e719102b7b3d84f489d7d8bf253d2c9aa7e248b39acc6f813bd30067a73ff5f",
+            "authorPixelBinding": "6f57825502aecbaf2bf893e867cc9c7e39be2cf4b415f9556b6511c24b745f1b",
+            "secondPixelBinding": "c104aab0f112b6d538577b7e4e6e55833c9b2d1e60c8de12b4e6c1e41f034446"
+          },
+          {
+            "entryId": "invite",
+            "lexicalBinding": "7314b83f472444a7f6282b79eb83d80bb20f03c6c86da9442f94e283440b1802",
+            "sourceImageSha256": "e926cbeb56ae6dfc0e44e8b28c83161440d687df3e4ecd86ac0cdcb6c8ee9c4f",
+            "cardSha256": "756332fafbff0ccb65075cfd1ab54564b3383553e7f14c142e679872ceda78a5",
+            "thumbnailSha256": "f8fc2407188cfb6161a0c64ba20e44225e83b4acb25c868ceffe8e677b105e74",
+            "authorPixelBinding": "e1aa621a9d0e4f87eb12b35b612ac716f972d02aa0f5183fac78d7a10a8adebb",
+            "secondPixelBinding": "d38c8b87d732afe1969b31512d8d091082563aeb704f12e02c968f77d4dba9a5"
+          },
+          {
+            "entryId": "welcome",
+            "lexicalBinding": "8e4e33e6b9ce42e191607e77aa31fddd05a68f36e6dc87c4a47a916800564941",
+            "sourceImageSha256": "c83a32d906da862001427658e6d0576e1f8ce881f279e041433068adc4285242",
+            "cardSha256": "96786b79aaf9c520b518059a5c868400477916f10f76f1e719236e6cfbe77e95",
+            "thumbnailSha256": "d5e86610bb92657baf8085f69dee8e564ace1a42fc1a707cc44ea6185b8a42c6",
+            "authorPixelBinding": "20105a6a99e0c923de68e5f3767b1c34415ab1f6afca94c6856f641eb80da065",
+            "secondPixelBinding": "fefdca70ce7d9c0998c4091b552592e27aeb9b39e4bf4983092ba048998096e6"
+          },
+          {
+            "entryId": "thank",
+            "lexicalBinding": "792bec5bd4cd986c33f7372ac3f982c692bfbbf7e054f913eacd919825b162a2",
+            "sourceImageSha256": "e8b04c8c80d6f3a404499807c251c560bd212075ddd846a2bbca9b361a0aa5fa",
+            "cardSha256": "1d0551b1678522a1aec40a1b7d82f60bcf63a0d3fb94495072f8beb693fc0cc7",
+            "thumbnailSha256": "534b9e5626bce8cbab52492242e9cf2528bf02c92e770e092f3a1c10c1451049",
+            "authorPixelBinding": "2a86b0be36e1484a9fd26e5fe87490e62739c2d89dffdbe86112bd9983f5bad7",
+            "secondPixelBinding": "39e574f312307be4c4efd036e3d2bd91c7954eede0e3356fd70f3fc7418efb9c"
+          },
+          {
+            "entryId": "apologize",
+            "lexicalBinding": "c8a44fe722dbcde7899df66fabce72cdba8387198046954053c0cd9c0eec2de2",
+            "sourceImageSha256": "06ae4e601d39348381909ba97ff58d6b2c6eff84e1e0a9c389473f1c10df7e5d",
+            "cardSha256": "520379c34adef14ae0e8dab852160a322e4fa07fe7f92c741e79be5d72708d39",
+            "thumbnailSha256": "586040668a9b92e2ef179b1c90bae0363110038fdc79aea7fcebb759390fbac4",
+            "authorPixelBinding": "056df1af0f290e5373e45a59820a3037bcf15d1b628a4dd5a5b12703f2c65713",
+            "secondPixelBinding": "697d064efc2dbaf075210dc042bdebe52f9a4185f1e4c43f62a5886faed3d3b2"
+          },
+          {
+            "entryId": "help",
+            "lexicalBinding": "3d813c659cbab7c4b5ca5e92ce2161e2bb44dc2cce47ad0155a3df720226c5df",
+            "sourceImageSha256": "d264d0b9eddc4cae4b7c2d518dee67aff7772e4f66c037e0ff5a81220c756736",
+            "cardSha256": "fa1eefc929ce5efc8902fae9008fdc6354a290c6bf00838802cbca15d6a7f89a",
+            "thumbnailSha256": "12de53018a0379a04a5cb085afc9164581b791e36dc8862e4d4e46d327d6d900",
+            "authorPixelBinding": "32ddd6cc1a4868a7d02de6698a8b45fca95cc6d8df05514b1562154e4977e09e",
+            "secondPixelBinding": "6c3d7cabf3e5dd32c238c0b241e50339e40b5490f7efcc42eff3092a121cc044"
+          },
+          {
+            "entryId": "listen",
+            "lexicalBinding": "919f7454500bb1b5569a8066ec68bc842a5d8004792a98fda3f91f02d19abe5d",
+            "sourceImageSha256": "5b481a6e6243f2d634040e5f7c825c65d9a03d11d594c572446324c4d758983d",
+            "cardSha256": "312ad2a9049ea8608bb65263ab58fdc43f8e31ca29b74fd04d5dc679301496a5",
+            "thumbnailSha256": "4f5b099debdce09c770842f20c1b0c816fc8628046e1139e2154f77d9d923f53",
+            "authorPixelBinding": "964b1fda34032b10f7de0a93fd8c10985a5e8b8e2fc07ba7e8023ba4e1c68f90",
+            "secondPixelBinding": "f7ed6a8735eea10eb232eda1be76d2a57b05353ea30bd30e5f700adcc7737a9e"
+          },
+          {
+            "entryId": "celebrate",
+            "lexicalBinding": "d673452dbbc5db9fecb95375b7cca91eca44bb6f514acb4e584ba999281f2dc1",
+            "sourceImageSha256": "0f7aac1a281810ea02b1a6e12f70d4c3dd27e38bccf92e8e9d97d3f664b31aae",
+            "cardSha256": "df0703f75f36a28f7ade259bbf4c6d69c31b3e84bfee943c0bdafc1fb945157b",
+            "thumbnailSha256": "d52d7d8b7bdf6f6c5b49d608e564ef58b79bf5a14fa80d7ba1dfc95d70b29098",
+            "authorPixelBinding": "ddbf0b36b9a7e93b6cc931ba29a384a21447dbf35cbe5eeae970a6e017e61f03",
+            "secondPixelBinding": "1db839f99e2c9675f99ad460ac49720228afbc05002bc4bc004763a56fde64b7"
+          },
+          {
+            "entryId": "volunteer",
+            "lexicalBinding": "874381746232ab26b6d17ab48691c8d7d79d473d68bfae6973e3ac39993d30b9",
+            "sourceImageSha256": "cdffc74825ee4e6a00241629c46200c1d7691b7eed2ff9f8db7bf625f1c94fdc",
+            "cardSha256": "86b253608ff4adb52edd00661a137b420ebdfdcaec22f56b803c3005319f4f98",
+            "thumbnailSha256": "8e4993c8f1a0a121426a76bb9a28867e90b0437a619fd279755eeca9274f9e63",
+            "authorPixelBinding": "315cfb2f76161dfdab1c14754f4ea944434c5b4bff0b1df355f93f16676726f4",
+            "secondPixelBinding": "b3cfd7304f0aa742fd07914e146363debfac1e623f2df2449c47a3802b26190d"
+          },
+          {
+            "entryId": "baby",
+            "lexicalBinding": "aace0c92eb8fc19587abe4cd20538d112352530ed17c06e698a3758e12a07e1a",
+            "sourceImageSha256": "04ce6601eae24f0be54f48648f1cc0936808fad5d152096b9798f9b4fd3f6c22",
+            "cardSha256": "df314c32d05f6e078195562359d9df41e63153204c00d7433a4ef6cfe184b1cb",
+            "thumbnailSha256": "1168019d5ccc430632dc279a95b76837edfe7c1fa08cae0cb06b6a1541c45ad8",
+            "authorPixelBinding": "eda6de3e2a6f1c0e3bf807daf6ca5789896b379a62f8eea047c8c3e2a7e3a9ab",
+            "secondPixelBinding": "cb214d677b37d894ca703b79fdba0c433659bf61a3fe065a591879bc00bcb7c2"
+          },
+          {
+            "entryId": "adult",
+            "lexicalBinding": "9260d54ebd79cb37669abd53b5882ff9f20e5156a03231cb18e91affe60a2492",
+            "sourceImageSha256": "e1bfb332581fc2e56d491055cfbcb8c5c89e25a5284ab1ecb5bb02828096b570",
+            "cardSha256": "a7a4fca6f685e3951edb2c165ae30d2b0d90116c061b2600d4b27d2751317e47",
+            "thumbnailSha256": "6a7cd004ad285220280032557e91b62d7e2f80214c3d08cfa30ea0215597cf03",
+            "authorPixelBinding": "a51471f1b085f1b7a92818ba92ce684afca97646cb7531dfe8e294678d83a663",
+            "secondPixelBinding": "f38c2171965eb37d41dfd4e9a2987ce1111f42964bb35fac03d8fbed998ee198"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "people-relationships",
+          "visualLanguageId": "people-relationships",
+          "baselineCategoryWords": 31,
+          "targetCategoryWords": 50,
+          "entryIds": [
+            "surprised",
+            "worried",
+            "angry",
+            "afraid",
+            "shy",
+            "proud",
+            "lonely",
+            "greet",
+            "introduce",
+            "invite",
+            "welcome",
+            "thank",
+            "apologize",
+            "help",
+            "listen",
+            "celebrate",
+            "volunteer",
+            "baby",
+            "adult"
+          ],
+          "units": [
+            {
+              "id": "feelings-expression",
+              "title": "Feelings and personal expression",
+              "entryIds": [
+                "surprised",
+                "worried",
+                "angry",
+                "afraid",
+                "shy",
+                "proud",
+                "lonely"
+              ]
+            },
+            {
+              "id": "social-etiquette",
+              "title": "Greetings and social courtesy",
+              "entryIds": [
+                "greet",
+                "introduce",
+                "invite",
+                "welcome",
+                "thank",
+                "apologize"
+              ]
+            },
+            {
+              "id": "help-life-stages",
+              "title": "Helping, participation and life stages",
+              "entryIds": [
+                "help",
+                "listen",
+                "celebrate",
+                "volunteer",
+                "baby",
+                "adult"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "19 globally absent distinct English headwords from fresh source and deployed release52 people31 target50 remaining19. Parent45 fully live reconciled. No manualholds retried. Fresh original multilingual drafts with no known generation history at selection.",
+      "parentBatchId": "category-expansion-batch-46",
+      "completedAt": "2026-10-31T17:51:05.296Z",
+      "factualReferences": [
+        {
+          "entryId": "surprised",
+          "sourceType": "original-editorial",
+          "title": "Original emotions and social feelings learner contribution",
+          "use": "Common-language selected adjective sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        },
+        {
+          "entryId": "worried",
+          "sourceType": "original-editorial",
+          "title": "Original emotions and social feelings learner contribution",
+          "use": "Common-language selected adjective sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        },
+        {
+          "entryId": "angry",
+          "sourceType": "original-editorial",
+          "title": "Original emotions and social feelings learner contribution",
+          "use": "Common-language selected adjective sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        },
+        {
+          "entryId": "afraid",
+          "sourceType": "original-editorial",
+          "title": "Original emotions and social feelings learner contribution",
+          "use": "Common-language selected adjective sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        },
+        {
+          "entryId": "shy",
+          "sourceType": "original-editorial",
+          "title": "Original emotions and social feelings learner contribution",
+          "use": "Common-language selected adjective sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        },
+        {
+          "entryId": "proud",
+          "sourceType": "original-editorial",
+          "title": "Original emotions and social feelings learner contribution",
+          "use": "Common-language selected adjective sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        },
+        {
+          "entryId": "lonely",
+          "sourceType": "original-editorial",
+          "title": "Original emotions and social feelings learner contribution",
+          "use": "Common-language selected adjective sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
+        },
+        {
+          "entryId": "greet",
+          "sourceType": "original-editorial",
+          "title": "Original social-etiquette learner contribution",
+          "use": "Common selected social sense and original English/Persian wording, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika; no external dictionary wording or artwork consulted and no independent human review claimed."
+        },
+        {
+          "entryId": "introduce",
+          "sourceType": "original-editorial",
+          "title": "Original social-etiquette learner contribution",
+          "use": "Common selected social sense and original English/Persian wording, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika; no external dictionary wording or artwork consulted and no independent human review claimed."
+        },
+        {
+          "entryId": "invite",
+          "sourceType": "original-editorial",
+          "title": "Original social-etiquette learner contribution",
+          "use": "Common selected social sense and original English/Persian wording, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika; no external dictionary wording or artwork consulted and no independent human review claimed."
+        },
+        {
+          "entryId": "welcome",
+          "sourceType": "original-editorial",
+          "title": "Original social-etiquette learner contribution",
+          "use": "Common selected social sense and original English/Persian wording, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika; no external dictionary wording or artwork consulted and no independent human review claimed."
+        },
+        {
+          "entryId": "thank",
+          "sourceType": "original-editorial",
+          "title": "Original social-etiquette learner contribution",
+          "use": "Common selected social sense and original English/Persian wording, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika; no external dictionary wording or artwork consulted and no independent human review claimed."
+        },
+        {
+          "entryId": "apologize",
+          "sourceType": "original-editorial",
+          "title": "Original social-etiquette learner contribution",
+          "use": "Common selected social sense and original English/Persian wording, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika; no external dictionary wording or artwork consulted and no independent human review claimed."
+        },
+        {
+          "entryId": "help",
+          "sourceType": "original-editorial",
+          "title": "Original helping and life-stages learner contribution",
+          "use": "Original common-language wording and selected examples; no external dictionary prose or artwork consulted or copied. Editorial pronunciation/level and independent human review pending."
+        },
+        {
+          "entryId": "listen",
+          "sourceType": "original-editorial",
+          "title": "Original helping and life-stages learner contribution",
+          "use": "Original common-language wording and selected examples; no external dictionary prose or artwork consulted or copied. Editorial pronunciation/level and independent human review pending."
+        },
+        {
+          "entryId": "celebrate",
+          "sourceType": "original-editorial",
+          "title": "Original helping and life-stages learner contribution",
+          "use": "Original common-language wording and selected examples; no external dictionary prose or artwork consulted or copied. Editorial pronunciation/level and independent human review pending."
+        },
+        {
+          "entryId": "volunteer",
+          "sourceType": "original-editorial",
+          "title": "Original helping and life-stages learner contribution",
+          "use": "Original common-language wording and selected examples; no external dictionary prose or artwork consulted or copied. Editorial pronunciation/level and independent human review pending."
+        },
+        {
+          "entryId": "baby",
+          "sourceType": "original-editorial",
+          "title": "Original helping and life-stages learner contribution",
+          "use": "Original common-language wording and selected examples; no external dictionary prose or artwork consulted or copied. Editorial pronunciation/level and independent human review pending."
+        },
+        {
+          "entryId": "adult",
+          "sourceType": "original-editorial",
+          "title": "Original helping and life-stages learner contribution",
+          "use": "Original common-language wording and selected examples; no external dictionary prose or artwork consulted or copied. Editorial pronunciation/level and independent human review pending."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,

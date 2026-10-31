@@ -16,7 +16,7 @@
     }
   ],
   "currentCategoryId": "people-relationships",
-  "nextCategoryId": "people-relationships",
+  "nextCategoryId": "travel-tourism-hospitality",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -5740,9 +5740,83 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "people-relationships",
+      "visualLanguageId": "people-relationships",
+      "baselineCategoryWords": 31,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "surprised",
+        "worried",
+        "angry",
+        "afraid",
+        "shy",
+        "proud",
+        "lonely",
+        "greet",
+        "introduce",
+        "invite",
+        "welcome",
+        "thank",
+        "apologize",
+        "help",
+        "listen",
+        "celebrate",
+        "volunteer",
+        "baby",
+        "adult"
+      ],
+      "units": [
+        {
+          "id": "feelings-expression",
+          "title": "Feelings and personal expression",
+          "entryIds": [
+            "surprised",
+            "worried",
+            "angry",
+            "afraid",
+            "shy",
+            "proud",
+            "lonely"
+          ]
+        },
+        {
+          "id": "social-etiquette",
+          "title": "Greetings and social courtesy",
+          "entryIds": [
+            "greet",
+            "introduce",
+            "invite",
+            "welcome",
+            "thank",
+            "apologize"
+          ]
+        },
+        {
+          "id": "help-life-stages",
+          "title": "Helping, participation and life stages",
+          "entryIds": [
+            "help",
+            "listen",
+            "celebrate",
+            "volunteer",
+            "baby",
+            "adult"
+          ]
+        }
+      ],
+      "id": "people-relationships-category-expansion-batch-46-ready-1",
+      "releaseId": "2026-10-preview-53",
+      "status": "published-preview",
+      "objective": "Learn Feelings and personal expression; Greetings and social courtesy; Helping, participation and life stages in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-45-ready-1",
+  "activePassId": "category-expansion-batch-46-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",
