@@ -7,6 +7,7 @@ import zlib from "node:zlib";
 import test from "node:test";
 import { renderReviewBoard } from "./lib/vocabulary-review-board.mjs";
 import {
+  draftPartNames,
   importBatch,
   loadQueue,
   stateOf,
@@ -311,6 +312,138 @@ const group = (f, groupId, wordIds, runId = "automatic-run-1") =>
     runId,
     wordIds,
   });
+
+test("draft part names preserve exact legacy defaults and enforce a bounded explicit list", () => {
+  assert.deepEqual(draftPartNames(), ["medical.json", "engineering.json"]);
+  assert.deepEqual(draftPartNames({ modules: [] }), [
+    "medical.json",
+    "engineering.json",
+  ]);
+  const names = ["daily-objects.json", "daily-actions.json"];
+  assert.deepEqual(draftPartNames({ sourceFiles: names }), names);
+  const result = draftPartNames({ sourceFiles: names });
+  result.push("changed.json");
+  assert.equal(names.length, 2);
+  const eight = Array.from({ length: 8 }, (_, i) => `unit-${i}.json`);
+  assert.deepEqual(draftPartNames({ sourceFiles: eight }), eight);
+  for (const sourceFiles of [
+    null,
+    undefined,
+    "medical.json",
+    [],
+    [...eight, "ninth.json"],
+    ["daily-objects.json", "daily-objects.json"],
+    ["../daily.json"],
+    ["/tmp/daily.json"],
+    ["nested/daily.json"],
+    ["nested\\daily.json"],
+    ["daily.json/other.json"],
+    ["daily..json"],
+    ["daily.json\0"],
+    ["Daily.json"],
+    ["daily.JSON"],
+    ["batch-plan.json"],
+    ["held-testis.json"],
+    ["medical-text-cross-review.json"],
+    ["queue.json"],
+    ["root-image-draft.json"],
+    ["frozen-drafts.json"],
+    ["publication.json"],
+    ["baseline-files.json"],
+    ["supplemental.json"],
+  ])
+    assert.throws(() => draftPartNames({ sourceFiles }));
+});
+
+test("explicit non-priority draft parts import completely without reading legacy parts", async (t) => {
+  const f = await fixture(t, { legacyImages: false });
+  const entry = sourceEntry("daily-object", "daily object");
+  entry.topic = "everyday-life";
+  entry.domainIds = ["everyday-life"];
+  entry.senses[0].domainIds = ["everyday-life"];
+  const part = {
+    entries: [entry],
+    locales: Object.fromEntries(
+      ["pt-BR", "es-419"].map((locale) => [
+        locale,
+        { [entry.id]: overlay(entry, locale) },
+      ]),
+    ),
+    images: [],
+    sources: [{ entryId: entry.id, sourceType: "original-editorial" }],
+  };
+  await write(f.profileFile, {
+    profiles: [{ ...f.profile, id: "everyday-life" }],
+  });
+  const names = ["daily-objects.json", "daily-actions.json"];
+  await write(path.join(f.batch, names[0]), part);
+  await write(path.join(f.batch, names[1]), {
+    entries: [],
+    locales: { "pt-BR": {}, "es-419": {} },
+    images: [],
+    sources: [],
+  });
+  await write(path.join(f.batch, "batch-plan.json"), { sourceFiles: names });
+  const preserved = await fs.readFile(f.draft);
+  const q = await importBatch({ root: f.root, batchId: f.batchId });
+  assert.equal(q.records.length, 1);
+  assert.equal(q.records[0].categoryId, "everyday-life");
+  assert.deepEqual(q.records[0].entry, entry);
+  assert.deepEqual(
+    q.records[0].locales["pt-BR"],
+    part.locales["pt-BR"][entry.id],
+  );
+  assert.deepEqual(
+    q.importedSources.map((x) => path.basename(x.path)),
+    names,
+  );
+  assert.equal(stateOf(q.records[0]), "needs-attempt-reconciliation");
+  assert.deepEqual(q.records[0].inspections, {
+    author: null,
+    second: null,
+    lexical: null,
+  });
+  assert.deepEqual(await fs.readFile(f.draft), preserved);
+});
+
+test("explicit parts fail closed on missing files, symlinks and duplicate identities", async (t) => {
+  const f = await fixture(t, { legacyImages: false });
+  await write(path.join(f.batch, "batch-plan.json"), {
+    sourceFiles: ["missing.json"],
+  });
+  await assert.rejects(
+    () => importBatch({ root: f.root, batchId: f.batchId }),
+    /ENOENT/,
+  );
+  const linked = path.join(f.batch, "linked.json");
+  await fs.symlink(f.draft, linked);
+  await write(path.join(f.batch, "batch-plan.json"), {
+    sourceFiles: ["linked.json"],
+  });
+  await assert.rejects(
+    () => importBatch({ root: f.root, batchId: f.batchId }),
+    /symlink/i,
+  );
+  await write(path.join(f.batch, "copy.json"), f.part);
+  await write(path.join(f.batch, "batch-plan.json"), {
+    sourceFiles: ["medical.json", "copy.json"],
+  });
+  await assert.rejects(
+    () => importBatch({ root: f.root, batchId: f.batchId }),
+    /Duplicate imported word ID/,
+  );
+});
+
+test("legacy default import still allows either original source part to be absent", async (t) => {
+  const f = await fixture(t, { legacyImages: false });
+  await fs.rm(path.join(f.batch, "engineering.json"));
+  const q = await importBatch({ root: f.root, batchId: f.batchId });
+  assert.deepEqual(
+    q.importedSources.map((x) => path.basename(x.path)),
+    ["medical.json"],
+  );
+  assert.equal(q.records.length, f.part.entries.length);
+});
 
 // No test simulates a real person's approval: receipts below are explicit fixtures.
 test("legacy import preserves original drafts, current pointer and binary assets without inventing receipts", async (t) => {

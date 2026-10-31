@@ -574,6 +574,30 @@ function imageList(x) {
   if (Array.isArray(x.images)) return x.images;
   return Object.values(x).filter((v) => isObject(v) && v.entryId);
 }
+// Plans without sourceFiles retain the original two optional legacy parts.
+export function draftPartNames(plan) {
+  if (plan != null && !isObject(plan)) fail("Draft plan must be an object");
+  if (!plan || !Object.hasOwn(plan, "sourceFiles"))
+    return ["medical.json", "engineering.json"];
+  const names = plan.sourceFiles;
+  if (!Array.isArray(names) || names.length < 1 || names.length > 8)
+    fail("sourceFiles must contain1..8 draft JSON basenames");
+  const seen = new Set();
+  const reserved =
+    /(?:^|[-_])(?:plan|held|hold|rejected|failed|audit|review|checkpoint|baseline|manifest|queue|publication|supplemental|frozen|handoff|requests?|receipts?|evidence|templates?|registry)(?:[-_]|$)/;
+  for (const name of names) {
+    if (
+      typeof name !== "string" ||
+      !/^[a-z][a-z0-9_-]{0,79}\.json$/.test(name) ||
+      name === "root-image-draft.json" ||
+      reserved.test(name.slice(0, -5))
+    )
+      fail("Unsafe or reserved draft part basename");
+    if (seen.has(name)) fail("Duplicate draft part basename");
+    seen.add(name);
+  }
+  return [...names];
+}
 export async function importBatch(options) {
   const ctx = await context(options, true);
   return lock(ctx.root, path.join(ctx.dir, "queue.lock"), async () => {
@@ -595,9 +619,12 @@ export async function importBatch(options) {
     );
     const parts = [];
     const importedSources = [];
-    for (const name of ["medical.json", "engineering.json"]) {
+    for (const name of draftPartNames(plan)) {
       const p = path.join(legacy, name),
-        d = await optionalJson(p, ctx.root);
+        d =
+          plan && Object.hasOwn(plan, "sourceFiles")
+            ? await jsonFile(p, ctx.root)
+            : await optionalJson(p, ctx.root);
       if (d) {
         parts.push(d);
         importedSources.push({
@@ -606,8 +633,7 @@ export async function importBatch(options) {
         });
       }
     }
-    if (!parts.length)
-      fail("At least one legacy medical/engineering draft required");
+    if (!parts.length) fail("At least one draft source part required");
     const supplement =
       (await optionalJson(path.join(legacy, "supplemental.json"), ctx.root)) ||
       (await optionalJson(
