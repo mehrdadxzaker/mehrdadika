@@ -16,7 +16,7 @@
     }
   ],
   "currentCategoryId": "home-gardening-diy",
-  "nextCategoryId": "home-gardening-diy",
+  "nextCategoryId": "people-relationships",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -5566,7 +5566,97 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "home-gardening-diy",
+      "visualLanguageId": "home-gardening-diy",
+      "baselineCategoryWords": 29,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "garden-hose",
+        "sprinkler",
+        "garden-fork",
+        "hedge",
+        "raised-bed",
+        "garden-gate",
+        "garden-shed",
+        "hanging-basket",
+        "window-box",
+        "compost-bin",
+        "bird-feeder",
+        "doorstop",
+        "curtain-rod",
+        "paint-roller",
+        "paint-tray",
+        "wallpaper",
+        "padlock",
+        "plant",
+        "hang",
+        "scrub",
+        "garden-bench"
+      ],
+      "units": [
+        {
+          "id": "garden-watering-and-tools",
+          "title": "Garden watering and tools",
+          "entryIds": [
+            "garden-hose",
+            "sprinkler",
+            "garden-fork"
+          ]
+        },
+        {
+          "id": "garden-growing-boundaries-and-storage",
+          "title": "Garden growing, boundaries and storage",
+          "entryIds": [
+            "hedge",
+            "raised-bed",
+            "garden-gate",
+            "garden-shed",
+            "hanging-basket",
+            "window-box",
+            "compost-bin",
+            "bird-feeder"
+          ]
+        },
+        {
+          "id": "home-fittings-and-finishing-tools",
+          "title": "Home fittings and finishing tools",
+          "entryIds": [
+            "doorstop",
+            "curtain-rod",
+            "paint-roller",
+            "paint-tray",
+            "wallpaper",
+            "padlock"
+          ]
+        },
+        {
+          "id": "garden-and-household-actions",
+          "title": "Garden and household actions",
+          "entryIds": [
+            "plant",
+            "hang",
+            "scrub"
+          ]
+        },
+        {
+          "id": "garden-seating",
+          "title": "Garden seating",
+          "entryIds": [
+            "garden-bench"
+          ]
+        }
+      ],
+      "id": "home-gardening-diy-category-expansion-batch-44-ready-1",
+      "releaseId": "2026-10-preview-50",
+      "status": "published-preview",
+      "objective": "Learn Garden watering and tools; Garden growing, boundaries and storage; Home fittings and finishing tools; Garden and household actions; Garden seating in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-43-ready-1"
+  "activePassId": "category-expansion-batch-44-ready-1"
 }
