@@ -1588,3 +1588,239 @@ test("legacy queue migration preserves counts and pending evidence while requiri
     }),
   );
 });
+
+// Tiny hash-verified published fixture: header-only image containers and explicitly
+// simulated receipts. These are never production artwork or actual AI inspections.
+async function correctionFixture(t, target = "atlas/img/fixture-1-v2.webp") {
+  const f = await fixture(t),
+    old = clone(f.part.entries[0]);
+  const bytes = Buffer.concat([
+    webpHeader(512, 512),
+    Buffer.from("JUNK"),
+    Buffer.from([2, 0, 0, 0, 42, 0]),
+  ]);
+  bytes.writeUInt32LE(bytes.length - 8, 4);
+  const oldHash = sha(bytes),
+    immutable = `content/media/${oldHash}.webp`;
+  await fs.mkdir(path.join(f.root, "public/atlas/img"), { recursive: true });
+  await fs.mkdir(path.join(f.root, "public/content/media"), {
+    recursive: true,
+  });
+  await fs.writeFile(path.join(f.root, "public", old.media.img), bytes);
+  await fs.writeFile(path.join(f.root, "public", immutable), bytes);
+  const published = { ...clone(old), media: { img: immutable }, m: 1 };
+  const shardBytes = Buffer.from(JSON.stringify([published]) + "\n"),
+    shard = `content/entries/${sha(shardBytes)}.json`;
+  await fs.mkdir(path.join(f.root, "public/content/entries"), {
+    recursive: true,
+  });
+  await fs.writeFile(path.join(f.root, "public", shard), shardBytes);
+  const index = {
+    entries: [published],
+    shards: { [old.id]: { path: shard, sha256: sha(shardBytes) } },
+  };
+  const indexBytes = Buffer.from(JSON.stringify(index) + "\n"),
+    indexPath = `content/indexes/${sha(indexBytes)}.json`;
+  await fs.mkdir(path.join(f.root, "public/content/indexes"), {
+    recursive: true,
+  });
+  await fs.writeFile(path.join(f.root, "public", indexPath), indexBytes);
+  const manifest = {
+    schemaVersion: 1,
+    release: { id: "fixture-baseline", channel: "preview" },
+    payload: { path: indexPath, sha256: sha(indexBytes) },
+    dataFiles: [{ path: shard, sha256: sha(shardBytes) }],
+    assets: [{ path: immutable, sha256: oldHash, width: 512, height: 512 }],
+    taxonomy: { domains: [{ id: old.topic }] },
+  };
+  const mb = Buffer.from(JSON.stringify(manifest) + "\n"),
+    mp = `content/releases/fixture-baseline-${sha(mb).slice(0, 12)}/manifest.json`;
+  await fs.mkdir(path.dirname(path.join(f.root, "public", mp)), {
+    recursive: true,
+  });
+  await fs.writeFile(path.join(f.root, "public", mp), mb);
+  await write(path.join(f.root, "public/content/current.json"), {
+    schemaVersion: 1,
+    manifest: mp,
+    sha256: sha(mb),
+  });
+  await write(path.join(f.root, "content/entries.json"), {
+    releaseId: "fixture-baseline",
+    entries: [old],
+  });
+  for (const locale of ["pt-BR", "es-419"])
+    await write(path.join(f.root, `content/locales/${locale}.json`), {
+      entries: f.part.locales[locale],
+    });
+  f.part.entries[0].media.img = target;
+  await write(f.draft, f.part);
+  await importBatch(f);
+  await ready(f);
+  return { ...f, old, oldHash };
+}
+const correctionGroup = (f) =>
+  prepareGroup({
+    ...f,
+    groupId: "image-correction-1",
+    releaseId: "fixture-corrected",
+    runId: "correction-run",
+    wordIds: ["fixture-1"],
+    kind: "existing-image-correction",
+  });
+
+test("existing-image groups freeze reviewed replacements without adding run words", async (t) => {
+  const f = await correctionFixture(t),
+    before = await fs.readFile(path.join(f.root, "content/entries.json"));
+  const g = await correctionGroup(f),
+    ledger = await read(
+      path.join(
+        f.root,
+        ".local/vocabulary-production/pipeline/runs/correction-run.json",
+      ),
+    );
+  assert.equal(g.manifest.kind, "existing-image-correction");
+  assert.equal(g.manifest.newEnglishWords, 0);
+  assert.equal(g.manifest.corrections[0].oldImageSha256, f.oldHash);
+  assert.equal(
+    g.manifest.corrections[0].newImagePath,
+    "atlas/img/fixture-1-v2.webp",
+  );
+  assert.equal(ledger.entries.length, 0);
+  assert.equal(ledger.imageRefreshEntries.length, 1);
+  assert.deepEqual(
+    await fs.readFile(path.join(f.root, "content/entries.json")),
+    before,
+  );
+  assert.equal((await correctionGroup(f)).sha256, g.sha256);
+  await assert.rejects(
+    prepareGroup({
+      ...f,
+      groupId: g.groupId,
+      releaseId: g.releaseId,
+      runId: g.runId,
+      wordIds: ["fixture-1"],
+    }),
+    /kind/,
+  );
+});
+test("correction preparation rejects missing published identity and altered native values", async (t) => {
+  await t.test("unpublished identity", async (st) => {
+    const f = await correctionFixture(st);
+    const p = path.join(f.root, "content/entries.json");
+    const x = await read(p);
+    x.entries = [];
+    await write(p, x);
+    await assert.rejects(correctionGroup(f), /published lexical/);
+  });
+  await t.test("native wording", async (st) => {
+    const f = await correctionFixture(st);
+    const p = path.join(f.root, "content/locales/pt-BR.json");
+    const x = await read(p);
+    x.entries["fixture-1"].tip = "Changed native wording";
+    await write(p, x);
+    await assert.rejects(correctionGroup(f), /native content/);
+  });
+  await t.test("English sense", async (st) => {
+    const f = await correctionFixture(st);
+    const p = path.join(f.root, "content/entries.json");
+    const x = await read(p);
+    x.entries[0].senses[0].en = "Changed selected sense";
+    await write(p, x);
+    await assert.rejects(correctionGroup(f), /unchanged published/);
+  });
+});
+test("correction preparation rejects stale old assets, prompt/review bindings and missing sizes", async (t) => {
+  await t.test("old image bytes", async (st) => {
+    const f = await correctionFixture(st);
+    await fs.appendFile(
+      path.join(f.root, "public", f.old.media.img),
+      "changed",
+    );
+    await assert.rejects(correctionGroup(f), /old image binding/);
+  });
+  for (const [name, change] of [
+    ["prompt", (r) => (r.candidate.prompt += " changed")],
+    [
+      "reviewer",
+      (r) =>
+        (r.inspections.second.reviewerId = r.inspections.author.reviewerId),
+    ],
+    ["thumbnail inspection", (r) => (r.inspections.second.sizes = [1254, 512])],
+    ["asset hash", (r) => (r.candidate.card.sha256 = "0".repeat(64))],
+  ])
+    await t.test(name, async (st) => {
+      const f = await correctionFixture(st);
+      const p = path.join(
+        f.root,
+        ".local/vocabulary-production/pipeline",
+        f.batchId,
+        "queue.json",
+      );
+      const q = await read(p);
+      change(q.records[0]);
+      await write(p, q);
+      await assert.rejects(correctionGroup(f));
+    });
+});
+test("correction preparation rejects image path escape, symlink and overwrite", async (t) => {
+  await t.test("path escape", async (st) => {
+    const f = await correctionFixture(st, "../outside.webp");
+    await assert.rejects(correctionGroup(f), /versioned sibling/);
+  });
+  await t.test("symlink", async (st) => {
+    const f = await correctionFixture(st);
+    await fs.symlink(
+      path.join(f.root, "public", f.old.media.img),
+      path.join(f.root, "public/atlas/img/fixture-1-v2.webp"),
+    );
+    await assert.rejects(correctionGroup(f), /Symlink/);
+  });
+  await t.test("overwrite", async (st) => {
+    const f = await correctionFixture(st);
+    await fs.writeFile(
+      path.join(f.root, "public/atlas/img/fixture-1-v2.webp"),
+      "prior",
+    );
+    await assert.rejects(correctionGroup(f), /overwrite/);
+  });
+});
+test("correction kind cannot widen the2-image or24-new-word budgets", async (t) => {
+  const f = await correctionFixture(t);
+  await assert.rejects(
+    prepareGroup({
+      ...f,
+      groupId: "too-many",
+      releaseId: "fixture-many",
+      runId: "run-many",
+      wordIds: ["fixture-1", "fixture-2", "fixture-3"],
+      kind: "existing-image-correction",
+    }),
+    /1–2/,
+  );
+  await assert.rejects(
+    prepareGroup({
+      ...f,
+      groupId: "bad-kind",
+      releaseId: "fixture-bad",
+      runId: "run-bad",
+      wordIds: ["fixture-1"],
+      kind: "skip-reviews",
+    }),
+    /Unsupported/,
+  );
+  const run = path.join(
+    f.root,
+    ".local/vocabulary-production/pipeline/runs/correction-run.json",
+  );
+  await write(run, {
+    schemaVersion: 1,
+    runId: "correction-run",
+    entries: [],
+    groups: [],
+    imageRefreshEntries: [
+      { wordId: "old-a", wordKey: "old a" },
+      { wordId: "old-b", wordKey: "old b" },
+    ],
+  });
+  await assert.rejects(correctionGroup(f), /budget exceeds2/);
+});

@@ -70,3 +70,28 @@ An attempt reconciliation supplies the verified `used` count and concrete `evide
 An inspection receipt names its `role` (`author`, `second` or `lexical`), `reviewerId`, honest `accepted` result, `humanReviewed: false`, actual review `basis`, concrete `finding`, ISO `inspectedAt` and the current `binding` returned by the queue library's `bindingFor(record, role)`. Pixel receipts list all inspected `sizes`, including the original width, 512 and 120. Record the result only after the corresponding actual review; fixture receipts in software tests are not content reviews. Template input includes `templateId` and `usageNotes`; a group request includes `groupId`, `releaseId`, `runId` and the distinct ready `wordIds`. Keep every request and its evidence private with the batch.
 
 Original intake is limited to workspace files or the configured Codex `generated_images` tree used by the built-in image tool; arbitrary external paths and symlinks are rejected. Supplied card and thumbnail files must be inside the workspace. If those derivatives do not exist yet, supply an explicit already-installed Python/Pillow executable as `python` in the intake request; conversion is bounded to resizing/encoding. The queue does not install Pillow, invoke an image-generation API or treat successful conversion as inspection. Reimport after changing an on-disk category brief, and obtain fresh bound reviews before registering a template or preparing a group. An unchanged legacy import must preserve a newer candidate already produced through the queue.
+
+## Existing-image correction groups
+
+A correction of an already published word uses the explicit `existing-image-correction` kind. It preserves every lexical/sense/example/collocation/tip and both native source overlays; only a fresh versioned sibling image path may change. The old canonical image, immutable releases, provenance records and the previous assessment snapshot remain available. These groups contain one or two existing IDs, add **zero English words or senses**, and use a separate run image-refresh allowance of two. Ordinary new-vocabulary groups retain their 24-word budget and duplicate-ID rejection.
+
+Reuse unchanged accepted originals, conversions and genuine bound author/second/text receipts. Preparation rechecks current profiles, actual file bytes, distinct reviewers and all three inspection sizes. The selected identity must exist in a hash-verified published baseline; its canonical and immutable old image hashes must agree. New file paths cannot escape the workspace, traverse symlinks, overwrite an earlier version or substitute different lexical/native content. Readiness is image/content quality, while live publication is separate per-record/per-group metadata; do not select an already live record merely because its quality state remains `ready`.
+
+After committing and validating reusable tooling separately, capture a clean source baseline and prepare the correction with a private group request containing `groupId`, `releaseId`, `runId` and `wordIds`:
+
+```sh
+node scripts/image-correction.mjs baseline --batch <batchId>
+npm run production:queue -- prepare-image-correction --batch <batchId> --input <private-request.json>
+node scripts/image-correction.mjs integrate --batch <batchId> --group <groupId>
+node scripts/image-correction.mjs integrate --batch <batchId> --group <groupId> --apply
+```
+
+Baseline snapshots preserve previous source/audit/provenance and native records. The integration writes a zero-addition campaign row and a separate category `imageCorrections` row, replacing only the selected current assessment and appending the new media provenance. A correction is not the latest vocabulary addition in the READMEs. Rebuild English and native vocabulary/reading snapshots, then audit the exact allowed source changes and compiler output:
+
+```sh
+node scripts/image-correction.mjs audit --batch <batchId> --group <groupId> --write-report
+```
+
+All normal tests, content/style/campaign checks, `/mehrdadika/` production build, genuine representative desktop/phone observations in all three editions, exact-source CI, manual Pages deployment and live build/pointer/image-byte checks still apply. A single-word correction uses both viewports for that same word rather than an invented second member. Its frozen manifest keeps `newEnglishWords: 0`; its historical prepared artifact never changes into a claimed live result.
+
+For preservation audits compare raw JSON before with raw JSON after. The queue API adds computed `profileStale` fields to its read view; those are not on-disk mutations. Do not widen a stored-field allowlist to accommodate mixing these representations, and do not manufacture semantic inspection from hashes or conversion success.

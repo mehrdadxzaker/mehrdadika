@@ -14,6 +14,10 @@ import {
 } from "./expansion-campaign.mjs";
 import { gap } from "../src/lib/text.ts";
 import { loadPublishedRelease } from "./build-locales.mjs";
+import {
+  categoryCoverage,
+  validateExpansionPlan,
+} from "./content-coverage.mjs";
 const root = fileURLToPath(new URL("../", import.meta.url));
 const read = (relative) =>
   JSON.parse(fs.readFileSync(path.join(root, relative), "utf8"));
@@ -291,4 +295,236 @@ test("legacy image refreshes are bounded and never counted as new vocabulary", (
     }
   }
   assert.equal(loadCampaign({ root }).refreshedCampaignImages, refreshed);
+});
+
+function imageCorrectionBatch() {
+  const historical = campaign().batches.find((b) =>
+    b.imageRefreshEntryIds?.includes("force"),
+  );
+  return {
+    id: "existing-image-correction-fixture",
+    kind: "existing-image-correction",
+    newEnglishWords: 0,
+    status: "published-preview",
+    releaseId: "fixture-correction-release",
+    baseline: structuredClone(historical.baseline),
+    modules: [],
+    imageRefreshEntryIds: ["force"],
+    review: { humanReviewed: false },
+  };
+}
+
+test("only explicit zero-addition corrections may omit category modules", () => {
+  const domains = live().manifest.taxonomy.domains,
+    valid = campaign();
+  valid.batches.push(imageCorrectionBatch());
+  assert.doesNotThrow(() => validateCampaign(valid, domains));
+  assert.deepEqual(
+    campaignProgress(live(), valid),
+    campaignProgress(live(), campaign()),
+  );
+  for (const mutate of [
+    (b) => delete b.kind,
+    (b) => (b.newEnglishWords = 1),
+    (b) => (b.imageRefreshEntryIds = []),
+    (b) => (b.imageRefreshEntryIds = ["force", "force"]),
+    (b) => (b.imageRefreshEntryIds = ["force", "current", "beam"]),
+    (b) =>
+      (b.modules = [
+        {
+          categoryId: "engineering",
+          visualLanguageId: "engineering",
+          entryIds: ["force"],
+        },
+      ]),
+    (b) => (b.review.humanReviewed = true),
+    (b) => (b.baseline.manifestSha256 = "not-a-hash"),
+  ]) {
+    const c = campaign(),
+      batch = imageCorrectionBatch();
+    mutate(batch);
+    c.batches.push(batch);
+    assert.throws(() => validateCampaign(c, domains));
+  }
+});
+
+test("refresh validation proves old membership in each hash-verified batch baseline", () => {
+  const published = live(),
+    registry = read("content/visual-languages.json"),
+    audit = read("content/illustration-audit.json"),
+    provenance = read("content/media-provenance.json"),
+    overlays = {
+      "pt-BR": read("content/locales/pt-BR.json"),
+      "es-419": read("content/locales/es-419.json"),
+    };
+  const check = (batch) => {
+    const c = campaign();
+    c.batches = [batch];
+    return validateCampaignAssets(
+      c,
+      published,
+      registry,
+      audit,
+      provenance,
+      overlays,
+      published,
+      { root },
+    );
+  };
+  const valid = imageCorrectionBatch();
+  assert.ok(
+    published.entries.length > valid.baseline.words,
+    "Later words must not make a historical refresh invalid",
+  );
+  const report = check(valid);
+  assert.equal(report.publishedCampaignWords, 0);
+  assert.equal(report.refreshedCampaignImages, 1);
+  const futureId = structuredClone(valid);
+  futureId.imageRefreshEntryIds = ["garden-bench"];
+  assert.ok(published.entries.some((e) => e.id === "garden-bench"));
+  assert.throws(
+    () => check(futureId),
+    /did not exist in its pinned batch baseline/,
+  );
+  const badHash = structuredClone(valid);
+  badHash.baseline.manifestSha256 = "0".repeat(64);
+  assert.throws(() => check(badHash), /integrity failed/);
+  const wrongWords = structuredClone(valid);
+  wrongWords.baseline.words++;
+  assert.throws(() => check(wrongWords), /baseline metadata differs/);
+  const unchanged = structuredClone(valid),
+    pointer = read("public/content/current.json");
+  unchanged.baseline = {
+    releaseId: published.manifest.release.id,
+    manifest: pointer.manifest,
+    manifestSha256: pointer.sha256,
+    words: published.entries.length,
+  };
+  assert.throws(() => check(unchanged), /must change the baseline image/);
+});
+
+function imageCorrectionLedger() {
+  const plan = read("content/category-expansion.json"),
+    published = live();
+  const source = read("content/entries.json").entries.find(
+    (e) => e.id === "force",
+  );
+  const rights = read("content/media-provenance.json").assets.find(
+    (a) =>
+      a.entryId === "force" && a.kind === "img" && a.path !== source.media.img,
+  );
+  const oldSha256 = crypto
+    .createHash("sha256")
+    .update(fs.readFileSync(path.join(root, "public", rights.path)))
+    .digest("hex");
+  const current = published.entries.find((e) => e.id === "force");
+  const newSha256 = current.media.img.match(/([a-f0-9]{64})\.webp$/)[1];
+  const record = {
+    id: "fixture-correction",
+    kind: "existing-image-correction",
+    releaseId: "fixture-correction-release",
+    status: "published-preview",
+    newEnglishWords: 0,
+    baseline: imageCorrectionBatch().baseline,
+    entryIds: ["force"],
+    images: [
+      {
+        entryId: "force",
+        oldPath: rights.path,
+        oldSha256,
+        newPath: source.media.img,
+        newSha256,
+      },
+    ],
+    review: { humanReviewed: false },
+  };
+  plan.imageCorrections = [record];
+  return { plan, published, record };
+}
+
+test("separate correction ledger reports zero new words without fake modules", () => {
+  const { plan, published } = imageCorrectionLedger();
+  const before = categoryCoverage(published, { ...plan, imageCorrections: [] });
+  const after = categoryCoverage(published, plan);
+  assert.equal(after.words, before.words);
+  assert.equal(after.meanings, before.meanings);
+  assert.deepEqual(after.categories, before.categories);
+  assert.deepEqual(after.imageCorrections, {
+    batches: 1,
+    images: 1,
+    newEnglishWords: 0,
+  });
+  const absent = structuredClone(plan);
+  delete absent.imageCorrections;
+  assert.deepEqual(categoryCoverage(published, absent).imageCorrections, {
+    batches: 0,
+    images: 0,
+    newEnglishWords: 0,
+  });
+});
+
+test("correction ledger rejects malformed identity, baseline, paths, hashes and approval", () => {
+  const domains = live().manifest.taxonomy.domains;
+  for (const mutate of [
+    (p, r) => (p.imageCorrections = {}),
+    (p, r) => (r.kind = "ordinary-module"),
+    (p, r) => (r.newEnglishWords = 1),
+    (p, r) => (r.review.humanReviewed = true),
+    (p, r) => p.imageCorrections.push(structuredClone(r)),
+    (p, r) => (r.baseline.manifest = "content/releases/../../private.json"),
+    (p, r) => (r.baseline.manifestSha256 = "bad"),
+    (p, r) => (r.entryIds = ["force", "force"]),
+    (p, r) => (r.images = []),
+    (p, r) => (r.images[0].entryId = "current"),
+    (p, r) => (r.images[0].oldPath = "atlas/img/../force.webp"),
+    (p, r) => (r.images[0].newPath = "atlas/img/current-v2.webp"),
+    (p, r) => (r.images[0].newPath = "atlas/img/force-v1.webp"),
+    (p, r) => (r.images[0].newSha256 = r.images[0].oldSha256),
+    (p, r) => (r.images[0].newSha256 = "bad"),
+  ]) {
+    const { plan, record } = imageCorrectionLedger();
+    mutate(plan, record);
+    assert.throws(() => validateExpansionPlan(plan, domains));
+  }
+  const { plan, published } = imageCorrectionLedger();
+  plan.imageCorrections[0].entryIds = ["missing"];
+  plan.imageCorrections[0].images[0].entryId = "missing";
+  plan.imageCorrections[0].images[0].newPath = "atlas/img/missing-v2.webp";
+  assert.throws(
+    () => categoryCoverage(published, plan),
+    /unavailable or stale/,
+  );
+});
+
+test("later image versions retain historical rows without inflating vocabulary", () => {
+  const { plan, published, record } = imageCorrectionLedger(),
+    second = structuredClone(record);
+  second.id = "fixture-correction-2";
+  second.releaseId = "fixture-correction-release-2";
+  second.images[0].oldPath = record.images[0].newPath;
+  second.images[0].oldSha256 = record.images[0].newSha256;
+  const version = Number(record.images[0].newPath.match(/-v(\d+)\.webp$/)[1]);
+  second.images[0].newPath = "atlas/img/force-v" + (version + 1) + ".webp";
+  second.images[0].newSha256 = "b".repeat(64);
+  plan.imageCorrections.push(second);
+  assert.throws(
+    () => categoryCoverage(published, plan),
+    /unavailable or stale/,
+  );
+  published.entries.find((e) => e.id === "force").media.img =
+    "content/media/" + "b".repeat(64) + ".webp";
+  const after = categoryCoverage(published, plan);
+  assert.equal(after.words, published.entries.length);
+  assert.deepEqual(after.imageCorrections, {
+    batches: 2,
+    images: 2,
+    newEnglishWords: 0,
+  });
+  const repeatedVersion = structuredClone(second);
+  repeatedVersion.id = "duplicate-version";
+  plan.imageCorrections.push(repeatedVersion);
+  assert.throws(
+    () => categoryCoverage(published, plan),
+    /duplicate image correction asset/,
+  );
 });

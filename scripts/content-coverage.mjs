@@ -59,6 +59,83 @@ export function validateExpansionPlan(plan, domains) {
         `Preview module cannot claim independent human approval: ${module.id}`,
       );
   }
+  if (
+    plan.imageCorrections !== undefined &&
+    !Array.isArray(plan.imageCorrections)
+  )
+    throw new Error("Image corrections must be a separate array");
+  const corrections = new Set(),
+    correctedVersions = new Set();
+  for (const correction of plan.imageCorrections ?? []) {
+    if (
+      !correction ||
+      typeof correction.id !== "string" ||
+      !correction.id.trim() ||
+      corrections.has(correction.id) ||
+      modules.has(correction.id) ||
+      correction.kind !== "existing-image-correction" ||
+      correction.newEnglishWords !== 0 ||
+      correction.status !== "published-preview" ||
+      correction.review?.humanReviewed !== false ||
+      typeof correction.releaseId !== "string" ||
+      !correction.releaseId.trim()
+    )
+      throw new Error("Invalid image correction identity or review");
+    corrections.add(correction.id);
+    const baseline = correction.baseline;
+    if (
+      !baseline ||
+      typeof baseline.releaseId !== "string" ||
+      !baseline.releaseId.trim() ||
+      typeof baseline.manifest !== "string" ||
+      !baseline.manifest.startsWith("content/releases/") ||
+      baseline.manifest.includes("..") ||
+      baseline.manifest.includes("\\") ||
+      !/^[a-f0-9]{64}$/.test(baseline.manifestSha256 ?? "") ||
+      !Number.isInteger(baseline.words) ||
+      baseline.words < 1
+    )
+      throw new Error("Image correction needs a pinned baseline");
+    if (
+      !Array.isArray(correction.entryIds) ||
+      correction.entryIds.length < 1 ||
+      correction.entryIds.length > 2 ||
+      new Set(correction.entryIds).size !== correction.entryIds.length ||
+      correction.entryIds.some(
+        (id) =>
+          typeof id !== "string" || !/^[A-Za-z0-9][A-Za-z0-9._-]*$/.test(id),
+      ) ||
+      !Array.isArray(correction.images) ||
+      correction.images.length !== correction.entryIds.length ||
+      new Set(correction.images.map((image) => image?.entryId)).size !==
+        correction.entryIds.length
+    )
+      throw new Error(
+        "Image correction needs one or two exact image identities",
+      );
+    for (const image of correction.images) {
+      const prefix = "atlas/img/" + image?.entryId + "-v";
+      if (
+        !image ||
+        !correction.entryIds.includes(image.entryId) ||
+        typeof image.oldPath !== "string" ||
+        !/^atlas\/img\/[A-Za-z0-9][A-Za-z0-9._-]*\.(?:webp|png|svg)$/.test(
+          image.oldPath,
+        ) ||
+        typeof image.newPath !== "string" ||
+        !image.newPath.startsWith(prefix) ||
+        !/^[1-9]\d*\.webp$/.test(image.newPath.slice(prefix.length)) ||
+        Number.parseInt(image.newPath.slice(prefix.length), 10) < 2 ||
+        image.oldPath === image.newPath ||
+        !/^[a-f0-9]{64}$/.test(image.oldSha256 ?? "") ||
+        !/^[a-f0-9]{64}$/.test(image.newSha256 ?? "") ||
+        image.oldSha256 === image.newSha256 ||
+        correctedVersions.has(image.entryId + ":" + image.newSha256)
+      )
+        throw new Error("Invalid or duplicate image correction asset binding");
+      correctedVersions.add(image.entryId + ":" + image.newSha256);
+    }
+  }
 }
 
 export function categoryCoverage(published, plan) {
@@ -76,6 +153,20 @@ export function categoryCoverage(published, plan) {
         );
     }
   }
+  const latestCorrectedImages = new Map();
+  for (const correction of plan.imageCorrections ?? [])
+    for (const image of correction.images)
+      latestCorrectedImages.set(image.entryId, image);
+  for (const [id, image] of latestCorrectedImages) {
+    const current = entries.get(id);
+    if (
+      !current ||
+      ![image.newPath, "content/media/" + image.newSha256 + ".webp"].includes(
+        current.media?.img,
+      )
+    )
+      throw new Error("Latest image correction is unavailable or stale: " + id);
+  }
   const target = plan.milestones[0].targetWordsPerCategory;
   return {
     releaseId: published.manifest.release.id,
@@ -85,6 +176,14 @@ export function categoryCoverage(published, plan) {
       0,
     ),
     activePassId: plan.activePassId ?? null,
+    imageCorrections: {
+      batches: (plan.imageCorrections ?? []).length,
+      images: (plan.imageCorrections ?? []).reduce(
+        (n, correction) => n + correction.images.length,
+        0,
+      ),
+      newEnglishWords: 0,
+    },
     currentCategoryId: plan.currentCategoryId,
     nextCategoryId: plan.nextCategoryId,
     categories: plan.categoryOrder.map((id) => {

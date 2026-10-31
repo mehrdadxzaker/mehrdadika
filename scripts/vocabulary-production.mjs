@@ -16,7 +16,7 @@ import {
 } from "./lib/vocabulary-production.mjs";
 
 const usage =
-  "Usage: node scripts/vocabulary-production.mjs <import|status|board|intake|inspect|begin-generation|fail-generation|reconcile-attempts|template|prepare-group> --batch ID [--root PATH] [--word ID] [--input PRIVATE_JSON|--receipt PRIVATE_JSON]";
+  "Usage: node scripts/vocabulary-production.mjs <import|status|board|intake|inspect|begin-generation|fail-generation|reconcile-attempts|template|prepare-group|prepare-image-correction> --batch ID [--root PATH] [--word ID] [--input PRIVATE_JSON|--receipt PRIVATE_JSON]";
 const select = (value, keys) =>
   Object.fromEntries(
     keys.filter((k) => Object.hasOwn(value, k)).map((k) => [k, value[k]]),
@@ -104,10 +104,13 @@ async function main() {
         ...word,
         ...select(input, ["templateId", "usageNotes"]),
       });
-    else if (command === "prepare-group")
+    else if (["prepare-group", "prepare-image-correction"].includes(command))
       result = await prepareGroup({
         ...common,
         ...select(input, ["groupId", "releaseId", "runId", "wordIds"]),
+        ...(command === "prepare-image-correction"
+          ? { kind: "existing-image-correction" }
+          : {}),
       });
     else throw new Error("Unknown command. " + usage);
   }

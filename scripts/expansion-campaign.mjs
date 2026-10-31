@@ -119,9 +119,13 @@ export function validateCampaign(campaign, domains) {
       "Invalid campaign batch or human approval claim",
     );
     batchIds.add(batch.id);
+    const imageCorrection = batch.kind === "existing-image-correction";
     requireValue(
-      Array.isArray(batch.modules) && batch.modules.length > 0,
-      "Missing campaign category modules",
+      Array.isArray(batch.modules) &&
+        (imageCorrection
+          ? batch.modules.length === 0 && batch.newEnglishWords === 0
+          : batch.modules.length > 0),
+      "Missing campaign category modules or invalid zero-addition correction",
     );
     const batchSize = batch.modules.reduce(
       (total, module) => total + (module.entryIds?.length ?? 0),
@@ -154,6 +158,16 @@ export function validateCampaign(campaign, domains) {
         refresh.every((id) => nonempty(id) && !additions.has(id)),
       "Image refreshes must be at most two existing lexical identities, separate from additions",
     );
+    if (imageCorrection)
+      requireValue(
+        refresh.length >= 1 &&
+          nonempty(batch.baseline?.releaseId) &&
+          nonempty(batch.baseline?.manifest) &&
+          /^[a-f0-9]{64}$/.test(batch.baseline?.manifestSha256 ?? "") &&
+          Number.isInteger(batch.baseline?.words) &&
+          batch.baseline.words > 0,
+        "Image-only correction needs one or two refreshes and a pinned baseline",
+      );
     for (const module of batch.modules) {
       requireValue(
         ids.has(module.categoryId) &&
@@ -309,6 +323,7 @@ export function validateCampaignAssets(
   provenance,
   overlays,
   baseline,
+  { root = process.cwd() } = {},
 ) {
   validateCampaign(campaign, published.manifest.taxonomy.domains);
   validateCampaignCoverage(campaign, published, baseline);
@@ -326,9 +341,34 @@ export function validateCampaignAssets(
   );
   let checkedWords = 0,
     checkedRefreshImages = 0;
+  const refreshBaselines = new Map();
   for (const batch of campaign.batches.filter(
     (batch) => batch.status === "published-preview",
-  ))
+  )) {
+    const refreshIds = batch.imageRefreshEntryIds ?? [];
+    if (refreshIds.length) {
+      const key = JSON.stringify(batch.baseline);
+      if (!refreshBaselines.has(key))
+        refreshBaselines.set(key, loadCampaignBaseline(batch, { root }));
+      const pinned = refreshBaselines.get(key);
+      const previous = new Map(
+        pinned.entries.map((entry) => [entry.id, entry]),
+      );
+      for (const id of refreshIds) {
+        const old = previous.get(id),
+          current = entries.get(id);
+        requireValue(
+          old && current && old.w === current.w,
+          "Image refresh did not exist in its pinned batch baseline: " + id,
+        );
+        requireValue(
+          old.media?.img &&
+            current.media?.img &&
+            old.media.img !== current.media.img,
+          "Image refresh must change the baseline image: " + id,
+        );
+      }
+    }
     for (const module of [
       ...batch.modules,
       ...(batch.imageRefreshEntryIds ?? []).map((id) => ({
@@ -398,6 +438,7 @@ export function validateCampaignAssets(
         else checkedWords++;
       }
     }
+  }
   return {
     publishedCampaignWords: checkedWords,
     refreshedCampaignImages: checkedRefreshImages,
@@ -430,6 +471,7 @@ export function loadCampaign({
           "es-419": read("content/locales/es-419.json"),
         },
         baseline,
+        { root },
       ),
     );
   return report;

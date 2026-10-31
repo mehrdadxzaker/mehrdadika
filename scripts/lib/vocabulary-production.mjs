@@ -3,6 +3,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { spawn } from "node:child_process";
 import { homedir } from "node:os";
+import { loadPublishedRelease } from "../build-locales.mjs";
 
 const JSON_LIMIT = 32 * 1024 * 1024;
 const IMAGE_LIMIT = 32 * 1024 * 1024;
@@ -1248,7 +1249,168 @@ async function copyAsset(ctx, a, dir) {
   }
   return { ...a, path: "assets/" + name };
 }
+/** Integrity validation only; current genuine AI receipts remain the semantic evidence. */
+export async function validateReadyRecord(options) {
+  const ctx = await context(options);
+  const r = options.record
+    ? clone(options.record)
+    : recordFor(await loadQueue(options), options.wordId);
+  if (stateOf(r) !== "ready")
+    fail("Only explicitly reviewed ready records are eligible");
+  await assertCurrentProfile(ctx, r);
+  await validateAssets(ctx, r);
+  return r;
+}
+
+/** Bind an image-only revision to an actual hash-verified published identity. */
+export async function existingImageCorrections(options, records) {
+  const ctx = await context(options);
+  if (!Array.isArray(records) || records.length < 1 || records.length > 2)
+    fail("Image corrections need1–2 existing records");
+  const pointer = await jsonFile(
+    path.join(ctx.root, "public/content/current.json"),
+    ctx.root,
+  );
+  const safePublished = (relative) => {
+    if (
+      typeof relative !== "string" ||
+      !/^content\/[A-Za-z0-9._/-]+$/.test(relative) ||
+      relative.includes("..")
+    )
+      fail("Unsafe published correction artifact path");
+    return path.join(ctx.root, "public", relative);
+  };
+  const manifest = await jsonFile(safePublished(pointer.manifest), ctx.root);
+  for (const relative of [
+    manifest.payload?.path,
+    ...(manifest.dataFiles || []).map((f) => f.path),
+  ])
+    await noLinks(ctx.root, safePublished(relative));
+  const published = loadPublishedRelease({ root: ctx.root });
+  const source = await jsonFile(
+    path.join(ctx.root, "content/entries.json"),
+    ctx.root,
+  );
+  if (source.releaseId !== published.manifest.release.id)
+    fail("Authoring source differs from the published baseline release");
+  const natives = Object.fromEntries(
+    await Promise.all(
+      LOCALES.map(async (locale) => [
+        locale,
+        await jsonFile(
+          path.join(ctx.root, "content/locales", locale + ".json"),
+          ctx.root,
+        ),
+      ]),
+    ),
+  );
+  const oldById = new Map(source.entries.map((e) => [e.id, e]));
+  const publicById = new Map(published.entries.map((e) => [e.id, e]));
+  const withoutMedia = (e) => {
+    const x = clone(e);
+    delete x.media;
+    delete x.m;
+    return x;
+  };
+  return Promise.all(
+    records.map(async (r) => {
+      const old = oldById.get(r.id),
+        current = publicById.get(r.id);
+      if (
+        !old ||
+        !current ||
+        !published.index.entries.some((e) => e.id === r.id && e.w === r.word) ||
+        old.w !== r.word ||
+        current.w !== r.word ||
+        fingerprint(withoutMedia(old)) !== fingerprint(withoutMedia(current))
+      )
+        fail(
+          "Correction requires an unchanged published lexical/sense identity: " +
+            r.id,
+        );
+      const allowed = clone(old);
+      allowed.media.img = r.entry.media?.img;
+      if (fingerprint(allowed) !== fingerprint(r.entry))
+        fail(
+          "Image correction changed lexical content beyond media.img: " + r.id,
+        );
+      for (const locale of LOCALES)
+        if (
+          fingerprint(natives[locale].entries[r.id]) !==
+          fingerprint(r.locales[locale])
+        )
+          fail(
+            "Image correction changed native content: " + locale + ":" + r.id,
+          );
+      const prefix = "atlas/img/" + r.id + "-v";
+      const target = r.entry.media.img;
+      const suffix =
+        typeof target === "string" && target.startsWith(prefix)
+          ? target.slice(prefix.length)
+          : "";
+      const revision = Number(suffix.split(".")[0]);
+      const oldRevision = old.media.img.startsWith(prefix)
+        ? Number(old.media.img.slice(prefix.length).split(".")[0])
+        : 1;
+      if (
+        !/^(?:[2-9]|[1-9][0-9]+)\.webp$/.test(suffix) ||
+        !Number.isSafeInteger(revision) ||
+        revision <= oldRevision ||
+        target === old.media.img
+      )
+        fail("Correction requires a fresh versioned sibling image path");
+      if (
+        !/^atlas\/img\/[A-Za-z0-9._-]+\.webp$/.test(old.media.img) ||
+        !/^content\/media\/[a-f0-9]{64}\.webp$/.test(current.media.img)
+      )
+        fail("Unsafe old correction image path");
+      const destination = path.join(ctx.root, "public", target);
+      await noLinks(ctx.root, destination, true);
+      try {
+        await fs.lstat(destination);
+        fail("Refusing existing image overwrite");
+      } catch (e) {
+        if (e.code !== "ENOENT") throw e;
+      }
+      const oldAsset = published.manifest.assets.find(
+        (a) => a.path === current.media.img,
+      );
+      if (!oldAsset || oldAsset.sha256 === r.candidate.card.sha256)
+        fail(
+          "Correction needs different image bytes from the published baseline",
+        );
+      const canonical = await boundedBytes(
+        path.join("public", old.media.img),
+        IMAGE_LIMIT,
+        ctx.root,
+      );
+      const immutable = await boundedBytes(
+        path.join("public", current.media.img),
+        IMAGE_LIMIT,
+        ctx.root,
+      );
+      if (
+        hash(canonical.bytes) !== oldAsset.sha256 ||
+        hash(immutable.bytes) !== oldAsset.sha256
+      )
+        fail("Published/canonical old image binding changed");
+      return {
+        entryId: r.id,
+        oldImagePath: old.media.img,
+        oldImageSha256: oldAsset.sha256,
+        oldPublishedImagePath: current.media.img,
+        newImagePath: target,
+        newImageSha256: r.candidate.card.sha256,
+      };
+    }),
+  );
+}
+
 export async function prepareGroup(options) {
+  const correction = options.kind === "existing-image-correction";
+  if (options.kind !== undefined && !correction) fail("Unsupported group kind");
+  if (correction && options.wordIds?.length > 2)
+    fail("Image corrections need1–2 existing records");
   identifier(options.groupId, "group ID");
   identifier(options.releaseId, "release ID");
   identifier(options.runId, "run ID");
@@ -1282,6 +1444,8 @@ export async function prepareGroup(options) {
         );
         if (old || prior) {
           const g = old || prior;
+          if ((g.kind === "existing-image-correction") !== correction)
+            fail("Group kind already bound to different inputs");
           if (
             g.releaseId !== options.releaseId ||
             g.runId !== options.runId ||
@@ -1300,6 +1464,9 @@ export async function prepareGroup(options) {
             manifest.groupId !== g.groupId ||
             manifest.releaseId !== g.releaseId ||
             manifest.runId !== g.runId ||
+            (correction &&
+              (manifest.kind !== "existing-image-correction" ||
+                manifest.newEnglishWords !== 0)) ||
             fingerprint(manifest.records?.map((r) => r.id)) !==
               fingerprint(options.wordIds)
           )
@@ -1350,6 +1517,9 @@ export async function prepareGroup(options) {
           await assertCurrentProfile(ctx, r);
           await validateAssets(ctx, r);
         }
+        const corrections = correction
+          ? await existingImageCorrections(options, records)
+          : null;
         const previous = q.groups.flatMap((g) => g.wordIds);
         if (options.wordIds.some((id) => previous.includes(id)))
           fail("Word is already assigned to a release group");
@@ -1358,13 +1528,21 @@ export async function prepareGroup(options) {
           ledger.groups.some((g) => g.releaseId === options.releaseId)
         )
           fail("Release ID already assigned");
-        if (ledger.entries.length + records.length > 24)
+        if (ledger.entries.length + (correction ? 0 : records.length) > 24)
           fail("Run budget exceeds24 distinct new IDs across all groups");
+        if (correction) {
+          ledger.imageRefreshEntries ??= [];
+          if (
+            !Array.isArray(ledger.imageRefreshEntries) ||
+            ledger.imageRefreshEntries.length + records.length > 2
+          )
+            fail("Run image-refresh budget exceeds2 existing identities");
+        }
         const keys = records.map((r) => r.word.trim().toLocaleLowerCase("en"));
         if (
           new Set(keys).size !== keys.length ||
           records.some((r) =>
-            ledger.entries.some(
+            [...ledger.entries, ...(ledger.imageRefreshEntries || [])].some(
               (e) =>
                 e.wordId === r.id ||
                 e.wordKey === r.word.trim().toLocaleLowerCase("en"),
@@ -1394,6 +1572,13 @@ export async function prepareGroup(options) {
           preparedAt: now(),
           status: "prepared-unpublished",
           publicationVerified: false,
+          ...(correction
+            ? {
+                kind: "existing-image-correction",
+                newEnglishWords: 0,
+                corrections,
+              }
+            : {}),
           records: frozen,
           count: frozen.length,
         };
@@ -1410,9 +1595,12 @@ export async function prepareGroup(options) {
           manifestPath: file,
           sha256: hash((await boundedBytes(file, JSON_LIMIT, ctx.root)).bytes),
           status: "prepared-unpublished",
+          ...(correction
+            ? { kind: "existing-image-correction", newEnglishWords: 0 }
+            : {}),
         };
         ledger.groups.push(g);
-        ledger.entries.push(
+        (correction ? ledger.imageRefreshEntries : ledger.entries).push(
           ...records.map((r) => ({
             batchId: q.batchId,
             groupId: g.groupId,
