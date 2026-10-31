@@ -15,7 +15,7 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "home-gardening-diy",
+  "currentCategoryId": "people-relationships",
   "nextCategoryId": "people-relationships",
   "categoryOrder": [
     "cooking-food-drink",
@@ -5656,9 +5656,93 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "people-relationships",
+      "visualLanguageId": "people-relationships",
+      "baselineCategoryWords": 7,
+      "targetCategoryWords": 31,
+      "entryIds": [
+        "smile",
+        "laugh",
+        "cry",
+        "frown",
+        "wink",
+        "blush",
+        "shrug",
+        "nod",
+        "wave",
+        "clap",
+        "bow",
+        "point",
+        "handshake",
+        "whisper",
+        "conversation",
+        "argue",
+        "share",
+        "comfort",
+        "guest",
+        "host",
+        "roommate",
+        "classmate",
+        "colleague",
+        "crowd"
+      ],
+      "units": [
+        {
+          "id": "expressions-gestures",
+          "title": "Expressions and gestures",
+          "entryIds": [
+            "smile",
+            "laugh",
+            "cry",
+            "frown",
+            "wink",
+            "blush",
+            "shrug",
+            "nod"
+          ]
+        },
+        {
+          "id": "social-actions",
+          "title": "Social actions and conversation",
+          "entryIds": [
+            "wave",
+            "clap",
+            "bow",
+            "point",
+            "handshake",
+            "whisper",
+            "conversation",
+            "argue"
+          ]
+        },
+        {
+          "id": "social-roles-care",
+          "title": "Social roles and care",
+          "entryIds": [
+            "share",
+            "comfort",
+            "guest",
+            "host",
+            "roommate",
+            "classmate",
+            "colleague",
+            "crowd"
+          ]
+        }
+      ],
+      "id": "people-relationships-category-expansion-batch-45-ready-1",
+      "releaseId": "2026-10-preview-52",
+      "status": "published-preview",
+      "objective": "Learn Expressions and gestures; Social actions and conversation; Social roles and care in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-44-image-refresh-ready-1",
+  "activePassId": "category-expansion-batch-45-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",
