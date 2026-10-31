@@ -1,0 +1,40 @@
+# Category expansion 42: personal and cleaning essentials
+
+Prepared on **October 31, 2026**, this group adds **10 distinct illustrated English entries: 5 everyday objects and 5 practical actions**, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding. The integrated source now contains **1,192 words and 1,193 senses**. Everyday life grows from **40 to 50 entries**, reaching its first count target. This milestone does not mean that the category is complete. Medicine and engineering remain at 500 entries each; their whole collections remain unqualified.
+
+## Included vocabulary
+
+| Unit | English headwords and stable entry IDs |
+| --- | --- |
+| Everyday personal and cleaning objects | wallet (`wallet`), toothbrush (`toothbrush`), towel (`towel`), bucket (`bucket`), sponge (`sponge`) |
+| Practical everyday actions | wipe (`wipe`), button (`button`), zip (`zip`), unpack (`unpack`), knock (`knock`) |
+
+Each entry selects one explicit sense and supplies two meaningful examples, three collocations, usage distinctions, editorial UK/US IPA and approximate CEFR guidance. All 10 complete English/Persian records and all 20 Portuguese/Spanish overlays were actually read. Toothbrush is the object noun, distinct from the existing brush verb. Button and zip select clothing-fastening actions; unpack removes packed belongings rather than merely opening a case; knock is ordinary knuckle-on-door contact rather than the held clinical examination term. Translations do not multiply the English word count.
+
+## What the pictures teach
+
+The everyday-life brief remains warm observational gouache with gentle paper grain, cream, terracotta and muted teal. The open wallet has joined halves and cards actually entering pocket lips. The whole manual toothbrush has a continuous handle, neck and attached bristle head beside a basin. A looped and hemmed towel hangs between coherent hands being dried. The bucket has a closed base, solid wall and one carrying bail attached at opposite pivots. The porous sponge is held against a dish in a sink, with water and cleaning context.
+
+The action pictures show cloth rubbing across a spill; a garment button meeting its matching hole; a zipper slider closing joined teeth below an open V; the same shirt removed from a suitcase; and knuckles contacting a door. These relationships distinguish the selected actions from static tools, unfastening, packing, pressing a doorbell or clinical percussion. They are qualitative everyday observations, not cleaning efficacy, exact material, zipper specification, hygiene or product-safety certification.
+
+Three distinct derivatives reuse appropriate actually viewed reviewed references: wallet and bucket use only the household-object style, while wipe uses the tabletop layout. The new objects replace all dustpan geometry. Each derivative had its own built-in request, fresh actual original/512px/120px author observations and a different AI second review; no semantic approval transferred from a template.
+
+## Actual review, provenance and preservation
+
+**10 genuine built-in requests produced 10 accepted current images, with no rejected outputs, request failures or new held entries.** Every original was actually inspected at 1254px, alongside its converted 512px WebP and separate 120px PNG. Different AI authors and second reviewers inspected all current triples: the engineering reviewer supplied five seconds, root supplied four, and the medical author independently supplied the knock second. Current text and pixel receipts bind actual source meaning, profile, prompt and image bytes. Software checks integrity and freshness, not semantic truth or human approval.
+
+All new wording, native scaffolding and illustrations are original AI-assisted CC BY 4.0 editorial previews. Per-entry original-editorial traceability records common everyday selected senses and original contributions without inventing external dictionary use, copied artwork, external verification or independent human language approval. Two overly literal wipe-example translations were narrowly corrected before import: the Portuguese and Spanish now refer naturally to rain drops on glasses. The prior complete part and exact two-field reversal proof remain preserved. No other source field changed.
+
+The same 15 historical manual-resolution holds and their negative evidence remain preserved and were not retried. Two bounded older current-card cases, screw and rivet, were retained after paired actual 512px and private 120px observations. Those cases received no regenerated picture or new full-original claim. The collection audit still records **4 medical and 31 engineering current-512px inspection gaps**, with additional limits in older evidence. Missing original metadata does not invalidate a narrower valid observation, and thumbnail-only findings cannot be promoted to full current-card inspection. Whole-collection qualification and independent human language and specialist review remain pending.
+
+The established named-source-part queue, reviewed templates, frozen-group publisher and strict preservation tooling were reused without a new tooling change. Historical targeted tests were not rerun or claimed as new results. No implementation dashboard was added to learner output.
+
+## Validation
+
+Local integration and release validation passed. Integration dry-run and apply preserved the 1,182 prior English records, prior native records, existing media and science assets. The production build under `/mehrdadika/` completed successfully. Its existing prebuild compiled English preview release 48, both native vocabulary snapshots and native reading snapshots, with the illustration, category-style and campaign checks; these were not counted as additional separate build runs. All **198 tests passed, with 0 failures and 0 skips**, and the full content, native-language, reading, illustration, category-style and campaign checks passed.
+
+Actual local campaign status reports **1,192 words and 1,193 senses**, with everyday life at its first count target of **50** and medicine and engineering unchanged at 500 each. The configured next count category is home, gardening and DIY toward its first target of 50. Both existing compiled native snapshots were independently read and counted without rebuilding: each has **1,192 words, 1,193 senses, 2,386 translated examples, 3,576 collocations and 1,192 usage notes**, plus 32 categories, 348 subcategory labels and six group labels. Both snapshots bind to the same release 48 English manifest.
+
+Six settled local cards were actually inspected as full-size screenshots, with all six complete captured DOM texts separately read: wallet at 1280px desktop and zip at 390px phone in Persian, Brazilian Portuguese and Latin American Spanish. The correct reviewed 512px image bytes matched; no horizontal overflow or occlusion was observed. Pronunciation text fit in every sample, and Spanish phone badges wrapped readably. These are representative first-viewport and captured-text observations, not every offscreen position or application workflow. Offline behavior was not newly tested. The unchanged raw capture remains separate from the actual manual inspection proof and does not confer semantic approval by itself. Capture used at most four concurrent requests; browser resources were closed, active HTTP requests and route handlers returned to zero, and the owned preview process was stopped.
+
+Strict preservation checks and exact source-head CI, Pages deployment, live revision, pointer, media and settled card verification remain separate release gates. **Remote CI, Pages and live verification remain pending at commit.** The locally verified first everyday-life count target does not establish deployed coverage, category completion, whole-collection image qualification, learning outcomes or independent human language and specialist approval. The existing 4 medical and 31 engineering current-card inspection gaps and older evidence limits remain unresolved by this everyday-life batch.

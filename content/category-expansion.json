@@ -16,7 +16,7 @@
     }
   ],
   "currentCategoryId": "everyday-life",
-  "nextCategoryId": "everyday-life",
+  "nextCategoryId": "home-gardening-diy",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -5426,7 +5426,57 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "everyday-life",
+      "visualLanguageId": "everyday-life",
+      "baselineCategoryWords": 40,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "wallet",
+        "toothbrush",
+        "towel",
+        "bucket",
+        "sponge",
+        "wipe",
+        "button",
+        "zip",
+        "unpack",
+        "knock"
+      ],
+      "units": [
+        {
+          "id": "everyday-personal-and-cleaning-objects",
+          "title": "Everyday personal and cleaning objects",
+          "entryIds": [
+            "wallet",
+            "toothbrush",
+            "towel",
+            "bucket",
+            "sponge"
+          ]
+        },
+        {
+          "id": "practical-everyday-actions",
+          "title": "Practical everyday actions",
+          "entryIds": [
+            "wipe",
+            "button",
+            "zip",
+            "unpack",
+            "knock"
+          ]
+        }
+      ],
+      "id": "everyday-life-category-expansion-batch-42-ready-1",
+      "releaseId": "2026-10-preview-48",
+      "status": "published-preview",
+      "objective": "Learn Everyday personal and cleaning objects; Practical everyday actions in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-41-ready-1"
+  "activePassId": "category-expansion-batch-42-ready-1"
 }
