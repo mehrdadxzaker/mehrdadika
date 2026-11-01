@@ -15,7 +15,7 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "natural-sciences-mathematics",
+  "currentCategoryId": "careers-workplace",
   "nextCategoryId": "careers-workplace",
   "categoryOrder": [
     "cooking-food-drink",
@@ -6510,9 +6510,87 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "careers-workplace",
+      "visualLanguageId": "careers-workplace",
+      "baselineCategoryWords": 9,
+      "targetCategoryWords": 33,
+      "entryIds": [
+        "office",
+        "cubicle",
+        "workstation",
+        "filing-cabinet",
+        "photocopier",
+        "shredder",
+        "binder",
+        "noticeboard",
+        "briefcase",
+        "lanyard",
+        "badge",
+        "projector",
+        "employee",
+        "manager",
+        "supervisor",
+        "accountant",
+        "apprentice",
+        "meeting",
+        "presentation",
+        "commute",
+        "photocopy",
+        "shred",
+        "print",
+        "type"
+      ],
+      "units": [
+        {
+          "id": "office-spaces-equipment",
+          "title": "Office spaces, equipment and personal work items",
+          "entryIds": [
+            "office",
+            "cubicle",
+            "workstation",
+            "filing-cabinet",
+            "photocopier",
+            "shredder",
+            "binder",
+            "noticeboard",
+            "briefcase",
+            "lanyard",
+            "badge",
+            "projector"
+          ]
+        },
+        {
+          "id": "workplace-roles-activities",
+          "title": "Workplace roles, meetings and practical activities",
+          "entryIds": [
+            "employee",
+            "manager",
+            "supervisor",
+            "accountant",
+            "apprentice",
+            "meeting",
+            "presentation",
+            "commute",
+            "photocopy",
+            "shred",
+            "print",
+            "type"
+          ]
+        }
+      ],
+      "id": "careers-workplace-category-expansion-batch-57-ready-1",
+      "releaseId": "2026-10-preview-64",
+      "status": "published-preview",
+      "objective": "Learn Office spaces, equipment and personal work items; Workplace roles, meetings and practical activities in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-56-ready-1",
+  "activePassId": "category-expansion-batch-57-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",

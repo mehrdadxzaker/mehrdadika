@@ -13,9 +13,9 @@
     "modifications": "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-63",
-    "manifest": "content/releases/2026-10-preview-63-6eeb978869e8/manifest.json",
-    "sha256": "6eeb978869e816c0fc3e839247618d6896bedfe7d5e39a844f0373d24992e30f"
+    "id": "2026-10-preview-64",
+    "manifest": "content/releases/2026-10-preview-64-d6974e3b5ead/manifest.json",
+    "sha256": "d6974e3b5eadcc2c47098f2489d475f2faf25df5e04116ff6c0c11d90ddbbdd0"
   },
   "categories": {
     "everyday-life": {
@@ -50187,6 +50187,822 @@
         }
       ],
       "tip": "Um regular polygon (polígono regular) tem todos os lados de mesmo comprimento e todos os ângulos internos de mesma medida; um polígono irregular não atende a pelo menos uma dessas duas condições. Um círculo, que tem contorno curvo, e uma linha quebrada aberta não são polígonos. Aqui polygon é uma figura de duas dimensões, não um sólido de três dimensões. A ilustração mostra apenas um exemplo com cinco lados; polígonos podem ter diferentes números de lados."
+    },
+    "office": {
+      "sourceWord": "office",
+      "senses": {
+        "office:meaning-1": {
+          "gloss": "escritório",
+          "definition": "Sala ou conjunto de salas onde se realiza trabalho administrativo ou profissional."
+        }
+      },
+      "examples": [
+        {
+          "en": "The office has two desks and a window.",
+          "translation": "O escritório tem duas mesas e uma janela."
+        },
+        {
+          "en": "She closes the door when she needs a quiet place to work.",
+          "translation": "Ela fecha a porta quando precisa de um lugar silencioso para trabalhar."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "work in an office",
+          "translation": "trabalhar em um escritório"
+        },
+        {
+          "en": "office door",
+          "translation": "porta do escritório"
+        },
+        {
+          "en": "shared office",
+          "translation": "escritório compartilhado"
+        }
+      ],
+      "tip": "Aqui office é um espaço de trabalho administrativo, não um cargo público nem o nome de um órgão. Um office pode ser uma sala fechada; um cubicle costuma ser uma pequena área separada por divisórias."
+    },
+    "cubicle": {
+      "sourceWord": "cubicle",
+      "senses": {
+        "cubicle:meaning-1": {
+          "gloss": "estação de trabalho com divisórias",
+          "definition": "Pequena área de trabalho individual separada das áreas próximas por divisórias."
+        }
+      },
+      "examples": [
+        {
+          "en": "My cubicle is beside the window.",
+          "translation": "Minha estação de trabalho com divisórias fica ao lado da janela."
+        },
+        {
+          "en": "The low partitions give each employee a separate place to work.",
+          "translation": "As divisórias baixas dão a cada funcionário um lugar separado para trabalhar."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "office cubicle",
+          "translation": "estação de trabalho com divisórias no escritório"
+        },
+        {
+          "en": "cubicle wall",
+          "translation": "parede divisória da estação de trabalho"
+        },
+        {
+          "en": "work in a cubicle",
+          "translation": "trabalhar em uma estação com divisórias"
+        }
+      ],
+      "tip": "Aqui cubicle é uma área individual de trabalho em um escritório, não uma cabine de banho nem de banheiro. As divisórias geralmente não chegam ao teto. Workstation destaca o posto e seus equipamentos; cubicle destaca a separação do espaço."
+    },
+    "workstation": {
+      "sourceWord": "workstation",
+      "senses": {
+        "workstation:meaning-1": {
+          "gloss": "posto de trabalho",
+          "definition": "Lugar organizado com uma mesa e os equipamentos de que uma pessoa precisa para trabalhar."
+        }
+      },
+      "examples": [
+        {
+          "en": "Each workstation has a computer and an adjustable chair.",
+          "translation": "Cada posto de trabalho tem um computador e uma cadeira ajustável."
+        },
+        {
+          "en": "Please leave the desk clear for the next person.",
+          "translation": "Por favor, deixe a mesa livre para a próxima pessoa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "computer workstation",
+          "translation": "posto de trabalho com computador"
+        },
+        {
+          "en": "shared workstation",
+          "translation": "posto de trabalho compartilhado"
+        },
+        {
+          "en": "set up a workstation",
+          "translation": "montar um posto de trabalho"
+        }
+      ],
+      "tip": "Aqui workstation é todo o posto preparado para trabalhar, não apenas o computador de alto desempenho que também pode receber esse nome. Um workstation não precisa de divisórias; cubicle é uma área separada por divisórias."
+    },
+    "filing-cabinet": {
+      "sourceWord": "filing cabinet",
+      "senses": {
+        "filing-cabinet:meaning-1": {
+          "gloss": "arquivo de gavetas",
+          "definition": "Armário com gavetas usado para guardar pastas e documentos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The filing cabinet holds folders for each customer.",
+          "translation": "O arquivo de gavetas guarda pastas de cada cliente."
+        },
+        {
+          "en": "Close the drawer after you put the papers away.",
+          "translation": "Feche a gaveta depois de guardar os papéis."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "locked filing cabinet",
+          "translation": "arquivo de gavetas trancado"
+        },
+        {
+          "en": "filing cabinet drawer",
+          "translation": "gaveta do arquivo"
+        },
+        {
+          "en": "metal filing cabinet",
+          "translation": "arquivo de gavetas de metal"
+        }
+      ],
+      "tip": "Filing cabinet é escrito com duas palavras. Aqui é um armário com gavetas para documentos, não qualquer armário ou estante. File pode ser um documento ou arquivo digital, mas a ilustração mostra pastas de papel em uma gaveta."
+    },
+    "photocopier": {
+      "sourceWord": "photocopier",
+      "senses": {
+        "photocopier:meaning-1": {
+          "gloss": "fotocopiadora",
+          "definition": "Máquina que faz cópias em papel de um documento em papel."
+        }
+      },
+      "examples": [
+        {
+          "en": "The photocopier made two copies of the form.",
+          "translation": "A fotocopiadora fez duas cópias do formulário."
+        },
+        {
+          "en": "Place the original page on the glass before you close the lid.",
+          "translation": "Coloque a página original sobre o vidro antes de fechar a tampa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "office photocopier",
+          "translation": "fotocopiadora do escritório"
+        },
+        {
+          "en": "use the photocopier",
+          "translation": "usar a fotocopiadora"
+        },
+        {
+          "en": "photocopier paper",
+          "translation": "papel para fotocopiadora"
+        }
+      ],
+      "tip": "Photocopier é a máquina; photocopy pode ser a cópia produzida ou o verbo fotocopiar. Neste sentido, um documento de papel é copiado a partir de um original em papel; uma printer normalmente imprime um arquivo digital. Uma máquina multifuncional pode fazer as duas coisas."
+    },
+    "shredder": {
+      "sourceWord": "shredder",
+      "senses": {
+        "shredder:meaning-1": {
+          "gloss": "fragmentadora de papel",
+          "definition": "Máquina que corta papel em tiras estreitas ou pequenos pedaços."
+        }
+      },
+      "examples": [
+        {
+          "en": "The shredder cuts old documents into narrow strips.",
+          "translation": "A fragmentadora de papel corta documentos antigos em tiras estreitas."
+        },
+        {
+          "en": "Empty the bin when it is full of paper pieces.",
+          "translation": "Esvazie o cesto quando ele estiver cheio de pedaços de papel."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "paper shredder",
+          "translation": "fragmentadora de papel"
+        },
+        {
+          "en": "shredder bin",
+          "translation": "cesto da fragmentadora"
+        },
+        {
+          "en": "use a shredder",
+          "translation": "usar uma fragmentadora"
+        }
+      ],
+      "tip": "Aqui shredder é uma máquina para fragmentar papel, não um utensílio para triturar alimentos ou galhos. Shred é o verbo cortar em tiras ou pedaços. Apenas amassar ou jogar fora uma folha inteira não é shredding."
+    },
+    "binder": {
+      "sourceWord": "binder",
+      "senses": {
+        "binder:meaning-1": {
+          "gloss": "fichário",
+          "definition": "Pasta rígida com argolas que prendem folhas de papel perfuradas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The binder holds all the training notes.",
+          "translation": "O fichário guarda todas as anotações do treinamento."
+        },
+        {
+          "en": "Open the rings to add another page.",
+          "translation": "Abra as argolas para acrescentar outra página."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "ring binder",
+          "translation": "fichário de argolas"
+        },
+        {
+          "en": "put a page in a binder",
+          "translation": "colocar uma página no fichário"
+        },
+        {
+          "en": "binder rings",
+          "translation": "argolas do fichário"
+        }
+      ],
+      "tip": "Neste sentido, binder é um ring binder: as argolas passam pelos furos e prendem as folhas. Folder pode ser uma pasta simples sem argolas. Aqui não se trata de binder no sentido de substância aglutinante."
+    },
+    "noticeboard": {
+      "sourceWord": "noticeboard",
+      "senses": {
+        "noticeboard:meaning-1": {
+          "gloss": "quadro de avisos",
+          "definition": "Quadro em que se exibem avisos e mensagens em papel."
+        }
+      },
+      "examples": [
+        {
+          "en": "The noticeboard has a new meeting notice.",
+          "translation": "O quadro de avisos tem um novo comunicado sobre uma reunião."
+        },
+        {
+          "en": "Pin the message where everyone can see it.",
+          "translation": "Prenda a mensagem onde todos possam vê-la."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "office noticeboard",
+          "translation": "quadro de avisos do escritório"
+        },
+        {
+          "en": "pin a notice on the noticeboard",
+          "translation": "fixar um aviso no quadro"
+        },
+        {
+          "en": "check the noticeboard",
+          "translation": "consultar o quadro de avisos"
+        }
+      ],
+      "tip": "Noticeboard é comum no inglês britânico; bulletin board é o equivalente comum no inglês americano. Aqui é um quadro para prender papéis, não um whiteboard em que se escreve diretamente, nem um fórum na internet."
+    },
+    "briefcase": {
+      "sourceWord": "briefcase",
+      "senses": {
+        "briefcase:meaning-1": {
+          "gloss": "maleta executiva",
+          "definition": "Maleta com alça para transportar documentos e outros objetos de trabalho."
+        }
+      },
+      "examples": [
+        {
+          "en": "He put the contract in his briefcase.",
+          "translation": "Ele colocou o contrato na maleta executiva."
+        },
+        {
+          "en": "The case has a handle and two metal catches.",
+          "translation": "A maleta tem uma alça e dois fechos de metal."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "leather briefcase",
+          "translation": "maleta executiva de couro"
+        },
+        {
+          "en": "carry a briefcase",
+          "translation": "carregar uma maleta executiva"
+        },
+        {
+          "en": "open a briefcase",
+          "translation": "abrir uma maleta executiva"
+        }
+      ],
+      "tip": "Briefcase costuma servir para transportar documentos e objetos de trabalho; suitcase é mala de viagem e backpack é mochila. Aqui é uma maleta de mão para trabalho, não qualquer bolsa para computador."
+    },
+    "lanyard": {
+      "sourceWord": "lanyard",
+      "senses": {
+        "lanyard:meaning-1": {
+          "gloss": "cordão de crachá",
+          "definition": "Tira usada ao redor do pescoço para segurar um crachá ou outro objeto pequeno."
+        }
+      },
+      "examples": [
+        {
+          "en": "Her lanyard holds her work badge.",
+          "translation": "O cordão dela segura o crachá de trabalho."
+        },
+        {
+          "en": "The clip at the end of the strap keeps the card attached.",
+          "translation": "O clipe na ponta do cordão mantém o cartão preso."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "wear a lanyard",
+          "translation": "usar um cordão de crachá"
+        },
+        {
+          "en": "badge lanyard",
+          "translation": "cordão para crachá"
+        },
+        {
+          "en": "lanyard clip",
+          "translation": "clipe do cordão"
+        }
+      ],
+      "tip": "Aqui lanyard é o cordão usado ao redor do pescoço; badge é o próprio crachá. Este sentido difere de cordas de segurança ou tiras para ferramentas em outros contextos. A imagem deve mostrar a volta para o pescoço e a ligação com o cartão."
+    },
+    "badge": {
+      "sourceWord": "badge",
+      "senses": {
+        "badge:meaning-1": {
+          "gloss": "crachá",
+          "definition": "Pequeno cartão ou distintivo usado para mostrar quem uma pessoa é ou a qual organização pertence."
+        }
+      },
+      "examples": [
+        {
+          "en": "Please wear your badge inside the office.",
+          "translation": "Por favor, use seu crachá dentro do escritório."
+        },
+        {
+          "en": "The card shows her photograph so colleagues can identify her.",
+          "translation": "O cartão mostra a foto dela para que os colegas possam identificá-la."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "ID badge",
+          "translation": "crachá de identificação"
+        },
+        {
+          "en": "staff badge",
+          "translation": "crachá de funcionário"
+        },
+        {
+          "en": "wear a badge",
+          "translation": "usar um crachá"
+        }
+      ],
+      "tip": "Aqui badge é um crachá de identificação no trabalho, não uma medalha de prêmio nem um símbolo em um aplicativo. Lanyard é o cordão que pode sustentar o crachá; o cordão não é o badge."
+    },
+    "projector": {
+      "sourceWord": "projector",
+      "senses": {
+        "projector:meaning-1": {
+          "gloss": "projetor",
+          "definition": "Aparelho que usa luz para mostrar uma imagem em uma tela ou parede."
+        }
+      },
+      "examples": [
+        {
+          "en": "The projector shows the slides on the screen.",
+          "translation": "O projetor mostra os slides na tela."
+        },
+        {
+          "en": "Move the chair so it does not block the light from the lens.",
+          "translation": "Mova a cadeira para que ela não bloqueie a luz que sai da lente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "digital projector",
+          "translation": "projetor digital"
+        },
+        {
+          "en": "projector lens",
+          "translation": "lente do projetor"
+        },
+        {
+          "en": "turn on the projector",
+          "translation": "ligar o projetor"
+        }
+      ],
+      "tip": "Aqui projector é um aparelho que mostra uma imagem em outra superfície. Um monitor mostra a imagem na própria tela; um spotlight ilumina um objeto e não necessariamente exibe uma imagem. A ilustração mostra um projetor digital de sala de reunião."
+    },
+    "employee": {
+      "sourceWord": "employee",
+      "senses": {
+        "employee:meaning-1": {
+          "gloss": "funcionário; funcionária",
+          "definition": "Pessoa que trabalha para um empregador em troca de remuneração."
+        }
+      },
+      "examples": [
+        {
+          "en": "The employee checks customer orders at her desk.",
+          "translation": "A funcionária confere os pedidos dos clientes em sua mesa."
+        },
+        {
+          "en": "The company gives every new worker a tour on their first day.",
+          "translation": "A empresa apresenta os setores a cada novo funcionário no primeiro dia."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a new employee",
+          "translation": "um novo funcionário"
+        },
+        {
+          "en": "a full-time employee",
+          "translation": "um funcionário em tempo integral"
+        },
+        {
+          "en": "employee training",
+          "translation": "treinamento de funcionários"
+        }
+      ],
+      "tip": "Employee é a pessoa que trabalha para um empregador; employer é o empregador. A palavra não se limita a trabalho de escritório e também pode descrever quem trabalha em uma oficina ou loja."
+    },
+    "manager": {
+      "sourceWord": "manager",
+      "senses": {
+        "manager:meaning-1": {
+          "gloss": "gerente",
+          "definition": "Pessoa responsável por organizar e dirigir uma equipe ou uma parte de uma organização."
+        }
+      },
+      "examples": [
+        {
+          "en": "The manager assigns the tasks for this week.",
+          "translation": "A gerente distribui as tarefas desta semana."
+        },
+        {
+          "en": "We ask the person leading the team to approve the schedule.",
+          "translation": "Pedimos à pessoa que lidera a equipe que aprove o cronograma."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a team manager",
+          "translation": "um gerente de equipe"
+        },
+        {
+          "en": "a store manager",
+          "translation": "um gerente de loja"
+        },
+        {
+          "en": "a project manager",
+          "translation": "um gerente de projeto"
+        }
+      ],
+      "tip": "Manager destaca a organização, as decisões e a responsabilidade por uma equipe ou setor. Supervisor costuma destacar o acompanhamento direto do trabalho; na prática, as responsabilidades dos dois cargos podem se sobrepor."
+    },
+    "supervisor": {
+      "sourceWord": "supervisor",
+      "senses": {
+        "supervisor:meaning-1": {
+          "gloss": "supervisor; supervisora",
+          "definition": "Pessoa cuja função é acompanhar o trabalho de outras pessoas e verificar como ele é feito."
+        }
+      },
+      "examples": [
+        {
+          "en": "The supervisor watches a worker assemble the parts.",
+          "translation": "O supervisor observa um funcionário montar as peças."
+        },
+        {
+          "en": "Ask the person overseeing the shift if you need help with the task.",
+          "translation": "Peça ajuda à pessoa que supervisiona o turno se precisar de apoio na tarefa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a shift supervisor",
+          "translation": "um supervisor de turno"
+        },
+        {
+          "en": "a direct supervisor",
+          "translation": "um supervisor direto"
+        },
+        {
+          "en": "report to a supervisor",
+          "translation": "se reportar a um supervisor"
+        }
+      ],
+      "tip": "Supervisor indica uma função de acompanhamento do trabalho, não apenas qualquer colega experiente. A direct supervisor é quem supervisiona você diretamente. Gerentes e supervisores podem ter funções parecidas, dependendo da organização."
+    },
+    "accountant": {
+      "sourceWord": "accountant",
+      "senses": {
+        "accountant:meaning-1": {
+          "gloss": "contador; contadora",
+          "definition": "Pessoa cujo trabalho inclui preparar ou verificar registros financeiros."
+        }
+      },
+      "examples": [
+        {
+          "en": "The accountant checks the figures in the ledger.",
+          "translation": "A contadora confere os valores no livro contábil."
+        },
+        {
+          "en": "We send the receipts to the person who keeps our financial records.",
+          "translation": "Enviamos os recibos à pessoa que mantém nossos registros financeiros."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a company accountant",
+          "translation": "um contador da empresa"
+        },
+        {
+          "en": "work as an accountant",
+          "translation": "trabalhar como contador"
+        },
+        {
+          "en": "an accountant’s report",
+          "translation": "um relatório do contador"
+        }
+      ],
+      "tip": "Accountant é a pessoa; accounting é a atividade ou área de contabilidade. Account, neste contexto, significa conta. Este verbete não estabelece títulos regulamentados, formação exigida nem licenças profissionais em diferentes países."
+    },
+    "apprentice": {
+      "sourceWord": "apprentice",
+      "senses": {
+        "apprentice:meaning-1": {
+          "gloss": "aprendiz",
+          "definition": "Pessoa que aprende um trabalho especializado por meio da prática com um trabalhador experiente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The apprentice fits the wooden pieces together while her mentor guides her.",
+          "translation": "A aprendiz encaixa as peças de madeira enquanto sua mentora a orienta."
+        },
+        {
+          "en": "He is learning the trade by working alongside an experienced carpenter.",
+          "translation": "Ele está aprendendo o ofício trabalhando ao lado de um carpinteiro experiente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an apprentice carpenter",
+          "translation": "um aprendiz de carpinteiro"
+        },
+        {
+          "en": "take on an apprentice",
+          "translation": "contratar um aprendiz"
+        },
+        {
+          "en": "train an apprentice",
+          "translation": "treinar um aprendiz"
+        }
+      ],
+      "tip": "Apprentice destaca o aprendizado prático de um ofício com uma pessoa qualificada. Intern costuma indicar um estagiário em um período de experiência profissional e não é sinônimo exato. Contrato, duração e remuneração não são iguais em todos os lugares."
+    },
+    "meeting": {
+      "sourceWord": "meeting",
+      "senses": {
+        "meeting:meaning-1": {
+          "gloss": "reunião",
+          "definition": "Encontro planejado de pessoas para discutir trabalho ou tomar decisões em conjunto."
+        }
+      },
+      "examples": [
+        {
+          "en": "The meeting starts with a discussion of the delivery schedule.",
+          "translation": "A reunião começa com uma discussão sobre o cronograma de entregas."
+        },
+        {
+          "en": "Four colleagues sit around a table to agree on the next steps.",
+          "translation": "Quatro colegas se sentam ao redor de uma mesa para combinar os próximos passos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a team meeting",
+          "translation": "uma reunião de equipe"
+        },
+        {
+          "en": "attend a meeting",
+          "translation": "participar de uma reunião"
+        },
+        {
+          "en": "hold a meeting",
+          "translation": "realizar uma reunião"
+        }
+      ],
+      "tip": "Neste sentido, meeting é uma reunião de trabalho; appointment costuma ser um horário ou compromisso marcado. Hold a meeting é realizar a reunião; attend a meeting é participar dela."
+    },
+    "presentation": {
+      "sourceWord": "presentation",
+      "senses": {
+        "presentation:meaning-1": {
+          "gloss": "apresentação",
+          "definition": "Exposição oral que explica informações a um público, muitas vezes com apoio visual."
+        }
+      },
+      "examples": [
+        {
+          "en": "The presentation explains the design to the whole team.",
+          "translation": "A apresentação explica o projeto para toda a equipe."
+        },
+        {
+          "en": "She points to the plan on the screen while her colleagues listen.",
+          "translation": "Ela aponta para o plano na tela enquanto seus colegas escutam."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "give a presentation",
+          "translation": "fazer uma apresentação"
+        },
+        {
+          "en": "prepare a presentation",
+          "translation": "preparar uma apresentação"
+        },
+        {
+          "en": "a slide presentation",
+          "translation": "uma apresentação de slides"
+        }
+      ],
+      "tip": "Aqui presentation é uma exposição oral para um público; não é apenas o arquivo de slides nem uma conversa comum. Give a presentation é uma combinação frequente para fazer uma apresentação."
+    },
+    "commute": {
+      "sourceWord": "commute",
+      "senses": {
+        "commute:meaning-1": {
+          "gloss": "ir e voltar regularmente do trabalho",
+          "definition": "Deslocar-se regularmente entre a casa e o local de trabalho."
+        }
+      },
+      "examples": [
+        {
+          "en": "I commute to the office by train every weekday.",
+          "translation": "Eu vou de trem de casa ao escritório todos os dias úteis."
+        },
+        {
+          "en": "Her journey home from work takes forty minutes.",
+          "translation": "O trajeto dela do trabalho para casa leva quarenta minutos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "commute to work",
+          "translation": "ir de casa para o trabalho regularmente"
+        },
+        {
+          "en": "commute by train",
+          "translation": "ir de trem para o trabalho"
+        },
+        {
+          "en": "commute every day",
+          "translation": "fazer o trajeto casa-trabalho todos os dias"
+        }
+      ],
+      "tip": "Commute destaca o deslocamento regular entre casa e trabalho, não qualquer viagem curta ou viagem a trabalho. Commute to pode indicar o destino; commute by pode indicar o meio de transporte."
+    },
+    "photocopy": {
+      "sourceWord": "photocopy",
+      "senses": {
+        "photocopy:meaning-1": {
+          "gloss": "fotocopiar; tirar uma fotocópia",
+          "definition": "Fazer uma cópia em papel de um documento usando uma fotocopiadora."
+        }
+      },
+      "examples": [
+        {
+          "en": "Please photocopy this form before you send the original.",
+          "translation": "Por favor, tire uma fotocópia deste formulário antes de enviar o original."
+        },
+        {
+          "en": "She places the page on the glass and collects a copy from the tray.",
+          "translation": "Ela coloca a página sobre o vidro e pega uma cópia na bandeja."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "photocopy a document",
+          "translation": "fotocopiar um documento"
+        },
+        {
+          "en": "photocopy a form",
+          "translation": "fotocopiar um formulário"
+        },
+        {
+          "en": "photocopy both sides",
+          "translation": "fotocopiar os dois lados"
+        }
+      ],
+      "tip": "Aqui photocopy é verbo; photocopier é a máquina. Fotocopiar produz uma cópia a partir de um original em papel; print pode levar o conteúdo de um arquivo digital ao papel. Evite usar uma marca no lugar do nome genérico da máquina."
+    },
+    "shred": {
+      "sourceWord": "shred",
+      "senses": {
+        "shred:meaning-1": {
+          "gloss": "triturar papel",
+          "definition": "Cortar papel em tiras muito finas ou pequenos pedaços, muitas vezes com uma máquina."
+        }
+      },
+      "examples": [
+        {
+          "en": "We shred the unwanted papers in the office machine.",
+          "translation": "Trituramos os papéis que não usamos mais na máquina do escritório."
+        },
+        {
+          "en": "The sheet enters the slot and falls into the bin as narrow strips.",
+          "translation": "A folha entra na abertura e cai na lixeira em tiras estreitas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "shred paper",
+          "translation": "triturar papel"
+        },
+        {
+          "en": "shred a document",
+          "translation": "triturar um documento"
+        },
+        {
+          "en": "shred old files",
+          "translation": "triturar arquivos antigos em papel"
+        }
+      ],
+      "tip": "Este sentido de shred é sobre papel; na culinária, o mesmo verbo pode indicar desfiar ou cortar alimentos em tiras finas. Tear significa rasgar e não exige tiras estreitas ou pedaços pequenos."
+    },
+    "print": {
+      "sourceWord": "print",
+      "senses": {
+        "print:meaning-1": {
+          "gloss": "imprimir",
+          "definition": "Produzir texto ou uma imagem em papel usando uma impressora."
+        }
+      },
+      "examples": [
+        {
+          "en": "Please print the report for tomorrow’s meeting.",
+          "translation": "Por favor, imprima o relatório para a reunião de amanhã."
+        },
+        {
+          "en": "A page comes out of the printer while she waits beside it.",
+          "translation": "Uma página sai da impressora enquanto ela espera ao lado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "print a document",
+          "translation": "imprimir um documento"
+        },
+        {
+          "en": "print in color",
+          "translation": "imprimir em cores"
+        },
+        {
+          "en": "print on both sides",
+          "translation": "imprimir nos dois lados"
+        }
+      ],
+      "tip": "Neste sentido, print indica produzir uma saída em papel, não apenas exibir algo na tela. Printer é a impressora; photocopy destaca fazer uma cópia a partir de um original em papel."
+    },
+    "type": {
+      "sourceWord": "type",
+      "senses": {
+        "type:meaning-1": {
+          "gloss": "digitar",
+          "definition": "Inserir letras ou palavras usando um teclado."
+        }
+      },
+      "examples": [
+        {
+          "en": "I type the meeting notes on my computer.",
+          "translation": "Eu digito as anotações da reunião no computador."
+        },
+        {
+          "en": "Her fingers press the keys as words appear on the screen.",
+          "translation": "Os dedos dela pressionam as teclas enquanto as palavras aparecem na tela."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "type a message",
+          "translation": "digitar uma mensagem"
+        },
+        {
+          "en": "type on a keyboard",
+          "translation": "digitar em um teclado"
+        },
+        {
+          "en": "type quickly",
+          "translation": "digitar rapidamente"
+        }
+      ],
+      "tip": "Aqui type é o verbo digitar; como substantivo, type pode significar tipo. Write tem sentido mais amplo e inclui escrever com caneta; type indica o uso de um teclado."
     }
   }
 }

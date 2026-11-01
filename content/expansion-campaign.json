@@ -14597,6 +14597,467 @@
           "use": "Original selected closed flat straight-sided shape sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and mathematics review pending. No external dictionary wording or artwork copied. No external factual reference used for these elementary geometric definitions."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-57-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-64",
+      "sourceFiles": [
+        "workplace-objects.json",
+        "workplace-people-actions.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-63",
+        "manifest": "content/releases/2026-10-preview-63-6eeb978869e8/manifest.json",
+        "manifestSha256": "6eeb978869e816c0fc3e839247618d6896bedfe7d5e39a844f0373d24992e30f",
+        "words": 1460
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "office",
+            "lexicalBinding": "8c8a0b695446dde209eaf188d8f9bc04e8481a860f91da7e496b89b308bca629",
+            "sourceImageSha256": "6bf521b91bdf368e491ecd14063754c5a7d5b5eec9bea1339501ee35ec9f02f8",
+            "cardSha256": "5148dd92e412f6569a28ecb64a2cd9e914aeaaf4cf6c73c27a543981071ba2b9",
+            "thumbnailSha256": "f36bff664ff666604506e67257b5d1798ad3c923161a732d3008058b1b1ba7ad",
+            "authorPixelBinding": "343d2331be5c338ff8ae696590aa67d75280193c0ffc6ad1534f9c39448e656c",
+            "secondPixelBinding": "5e9e337db69d43a11fb1cd16b3444fce7c95b5eb15c7fb48114d76a1d9527667"
+          },
+          {
+            "entryId": "cubicle",
+            "lexicalBinding": "78d86f22ba84abb2ea9ed0bd5662556b8cdb0ce4bac05493c684672c09b2f01e",
+            "sourceImageSha256": "5042c85203c5b32df942e16183c038d76bbb04eee4d2a39f6689f2b06a859956",
+            "cardSha256": "8fcab9e8369ecc5c46df9c6e8ebfb867bf27a76d4313f96a1f55f594f8da90df",
+            "thumbnailSha256": "328b41f79abaa2eeb3b8d8851e7f68467353c0437d82ca4ccb28a4ed897dd600",
+            "authorPixelBinding": "f2fce44c1cfad7b8b87d64186a64266caf820da78d18ee60ff266667a194b1da",
+            "secondPixelBinding": "699ea140a9b7da424da7849903176d800ae66639c51affc9fc7b646258393312"
+          },
+          {
+            "entryId": "workstation",
+            "lexicalBinding": "71bad30f05e6a8298e0fcf519febdf8907a19bc8fa103d9d21b8173d1f313e31",
+            "sourceImageSha256": "d9b18e838cbfcab9558c033d9248b1040be2210a7eca08ba0245085ef274b117",
+            "cardSha256": "ace2c5993ae23bcd430ef09372498f8b383d15d49330748140a1b2974621ebe6",
+            "thumbnailSha256": "6b8e1660c5be7060c9c4d8ba5b0cdc7dc097ced2db4e975f00968777f498f3ed",
+            "authorPixelBinding": "daa421aac546f764c4e15917aec9998fabf3288412ccda52f041cc776098d92c",
+            "secondPixelBinding": "d7ea05fc680b49e279b9706b41fdb4c7e04bb10ad97a54fd1b6c5da92bd871c1"
+          },
+          {
+            "entryId": "filing-cabinet",
+            "lexicalBinding": "ca892f886c70c0f5da319fd1ec93a25b2edb2e06f5ef1cad7a9bc6bd351b5f19",
+            "sourceImageSha256": "82a67ea54d17af4a3b81b665f866016c16d779680662344905b7b114f04aaab8",
+            "cardSha256": "192b2e59693b430c51513cfeaaa02fbefce48f76da7530e92189b3061ca9e0f4",
+            "thumbnailSha256": "96d16b12c44c0cf65ed143e021d808361282aeb11205da93fd4585ecda4f716e",
+            "authorPixelBinding": "81ec894a7414c721a6de4085d0c4d9a1256d33bbeef8066e3cbfabf2315e953d",
+            "secondPixelBinding": "039ae9930fca3106247120b0cfeda6a6ab6a909f319c16bf68849f5f69119a5f"
+          },
+          {
+            "entryId": "photocopier",
+            "lexicalBinding": "a5d7b6ad09082f2197802f3500295455aa039156fff8a86cc63879046877a763",
+            "sourceImageSha256": "398e71f79f20f5d8171cf889c33db91249b733464392c7a272fd9d77587bc752",
+            "cardSha256": "78be93a4ef197eac1639568a69b6037e620aff8784ffa9f7454465ad049df7e5",
+            "thumbnailSha256": "07571ae655f773f1daff08aefd87ba50dccc5cb4d8b654c9096819e79bdb61ae",
+            "authorPixelBinding": "8612a02081a70435ea70da9c1443db2eeb9c629995fbecf70a880ecd25698f68",
+            "secondPixelBinding": "ee65623b8bf846180645e807b6121d20ccb4421ed91ce2b825cd9350843f0005"
+          },
+          {
+            "entryId": "shredder",
+            "lexicalBinding": "cb8ee1b6b20425cda1070f5bb80a2a208017644f941c1d5d2026c5a09dfa1565",
+            "sourceImageSha256": "54484f8e907148eea4d13dc2ef8f81b80ec8e860b4d092ac4671b04a436b1079",
+            "cardSha256": "6ad929a718ccf58c5c731660068be48f44736f308372aa1dacb01e06103cbaa3",
+            "thumbnailSha256": "b32fff7a8c3e2b20e305f1bdeca4b6a69fb686f3a318987c330fd2780abb7251",
+            "authorPixelBinding": "f7778a4d6e6243bf12292aab8a157ddd9e39b97a08964c6c598430a57a6beae5",
+            "secondPixelBinding": "878c5d9ef26e59e2f93028f78e33a64deee84c0873cc907f1df6bf87a26b68f1"
+          },
+          {
+            "entryId": "binder",
+            "lexicalBinding": "989db9531167e322e6f10de3c0cf6c379b1700745e1b4bb24fe187796a5bb651",
+            "sourceImageSha256": "e4a50fb125a858246eede9cd10d0de7103742d223cb0621f703b8a8b0e79a85b",
+            "cardSha256": "350854b1d72e3ee05247805be17f73bf47c474c7a6e9092661deca9a8e318b05",
+            "thumbnailSha256": "af873ac5334abab3b5246eaed75ff7482c25e4e92ce91d1f31fa885b712c4c28",
+            "authorPixelBinding": "d285543786dd7cf70cace249cfb5b0cc63e2433cbab84adb282e09d11f5108a8",
+            "secondPixelBinding": "168bf1f94ba13b976a1b0d82e928e8d5feb040ab556ecb3451a422784b79dc50"
+          },
+          {
+            "entryId": "noticeboard",
+            "lexicalBinding": "6fbed3f0396a56c00fcbe56e4cd5b99fd4e5ddbe6232d62faad204f22839aed2",
+            "sourceImageSha256": "8244a714f7ca7f44608ab110875e142641a61aae9180a6f2ee9b48f52afece3c",
+            "cardSha256": "5caed1b9fb90d55c9562f0e89bf4dc61bb3e183089752db5b7a7429abb83bd1a",
+            "thumbnailSha256": "8b1c21c290d8fc4e45df6c7ac1d39f6c01d8aceb7177d02a7a0f791e505e8091",
+            "authorPixelBinding": "527a9393a2f455f9466957ea45594a63cf7f256ddc4450dfcd61e247ad6bc2ac",
+            "secondPixelBinding": "1b8d25ee2ece096fa5aa5575241373a9ea304f4b2dcf6a3153326818a1360358"
+          },
+          {
+            "entryId": "briefcase",
+            "lexicalBinding": "b76e89a55ee224050431819643953cdcbdca938deb12e9cfa93b2043ba0b9975",
+            "sourceImageSha256": "d4448149d74b0b46c679caf96487a223e6a8469e9bde940721cc66a52bb685e8",
+            "cardSha256": "73078cb36aa6c19aa63ebc2e3291dbdcc7718536b01b52c104795ee01e4828dc",
+            "thumbnailSha256": "fbac131d2b3f7aca0aac104a9b2e1b8fe9c5f7b208eef48cd11bd2916f895ac4",
+            "authorPixelBinding": "ac32a3f9512be13d83df37099080eda2eb9c35abd9af2f2aea7e01bcf5a3c9a3",
+            "secondPixelBinding": "952473afba8cf4665b707e215479e2ec300bba0862832c3e5d4864cacb336de4"
+          },
+          {
+            "entryId": "lanyard",
+            "lexicalBinding": "16b792bd32ead27d183e8fde91c906525d10cff9a3c543123c0515a2c9e29192",
+            "sourceImageSha256": "c9fbb0916b5e720424394cc7139a5d43cc2cbcd3e33f0991f03a8b6567f08f15",
+            "cardSha256": "82f55ccb518caaa0ce85878f61019fee08896044c6209fa43afbb9a1ee70f54c",
+            "thumbnailSha256": "884aa37ea97f02bd852a4a8a94b27fc0b90e56e7af6cfbb2020cedb4a6e3aa8a",
+            "authorPixelBinding": "4f84ab9f6042b86b5cff9352b01c3ebd314489aa2177ce4120b11cc4181215c0",
+            "secondPixelBinding": "909d683754db921cab2e6b22d9ec7bda8d89cee38603961920ff29dde8c4671f"
+          },
+          {
+            "entryId": "badge",
+            "lexicalBinding": "b0f9b39219eece55bb4f68382d1156a9d994911d8a28bff39ba92adce3026c8a",
+            "sourceImageSha256": "a5be1af81f95feb6300963f590a6fa69db8fd0ba33f063060334759df5e12bc9",
+            "cardSha256": "3e62743ecce94e4c48857b236cec75e2a0fa6027bd1e1df9493e81f31c8fa64c",
+            "thumbnailSha256": "d4e6614325e9a25ed2dca2d9ea76fc664ce20165a04e3de2022cd15a5c7a5dd6",
+            "authorPixelBinding": "7b353a20407b12ab39db24bc624124d115d0559671784f04e42d0103e3805764",
+            "secondPixelBinding": "50c10f524ea11c338cc69f792d75bfb37f931f5d587bf1b8301073c31079226c"
+          },
+          {
+            "entryId": "projector",
+            "lexicalBinding": "f2095540471ffaeeddeaa9e7ba78f507e35565ef0948ab4946e1e6b67d5184ef",
+            "sourceImageSha256": "c478686a9b22ac16e651978ea16da906c1930b495e85e51e92cab9f254062d51",
+            "cardSha256": "2692703d1412b435a48394ad11b6d66047091fbd17b6461684232eec713c97ac",
+            "thumbnailSha256": "3a4d6ec93ca7a1ebaf427ede0b100d0deb5ab68117aadfd1a028fce6a29a07cb",
+            "authorPixelBinding": "cc4cf7d4f5ada3c72c704dada7133657a0256b22debe2be82a2fe846325b5b47",
+            "secondPixelBinding": "bd48ba0ac89f8611b4c7a74f5464bb21b0654b7c0d5c3426347e90c313354029"
+          },
+          {
+            "entryId": "employee",
+            "lexicalBinding": "e2b9b74de952122cdcc660e7931979c67aa96aead0de6c14ebc84893536e8364",
+            "sourceImageSha256": "6b0d3e02a7bdce1dcd9e47ca66c561e6c16684b91c013bfc97fb8622aeac6a83",
+            "cardSha256": "bccf4ce776338c807ca3f2cc2777cf38764775df8a3dd9f96a6cb7194fe28e45",
+            "thumbnailSha256": "f519ddd601e90d307179978d7d023eef4be79cba1d229543fc1e446f5ac3eb58",
+            "authorPixelBinding": "a179298f64d84feefcfd217bc7bdba74b2497a285085579744d66554b2531141",
+            "secondPixelBinding": "4f25f5cb59461ea72b3f226a6c2686e3843fc54664901d7ba918b5dbf32a48df"
+          },
+          {
+            "entryId": "manager",
+            "lexicalBinding": "0142a2f839c41a27d990f598015d1f530826feb1bc1aa44daefeedb370e3171b",
+            "sourceImageSha256": "92d6ad719f5c7a13f23291ac53504c309ebf25bf4f744b8fbc1e86eccfafe3cf",
+            "cardSha256": "957b57a22d21d3ebeadc36bd8d66c243a3f38a2a5cdb0b58393655eb70415ea1",
+            "thumbnailSha256": "e3832f05b9ffc7a338823a0f5ad8190222e2273a29d6830cdadb7eebb7a07c19",
+            "authorPixelBinding": "54d5d2232be913e0ebce73131c55485a7c7b1946ce0c2048145f60c21cd3b913",
+            "secondPixelBinding": "fac595f94965d44b98b7ac24eac9364f22f311c7048fe1e6a7d6e589b2c75ac3"
+          },
+          {
+            "entryId": "supervisor",
+            "lexicalBinding": "778534e779ac26b76f6603a20e2fb7469671d9ba7f6c871c83a60f4f05a19243",
+            "sourceImageSha256": "b5c9ca3e9b42bb831940b25cf6bfd139b81fb3725b9feba1fa0c634e8854cdb3",
+            "cardSha256": "3b42e30d35aa51d29a8c98739e9a89587d148ebec7fffdbfb900377450f96c1a",
+            "thumbnailSha256": "826704eca3d568ef702238ec80055fb80922e4ac7ec2a1270f4c0f7fdf4740f7",
+            "authorPixelBinding": "ad81b381d4eb0ce9f24aada95dcaaecae18fcc31e7cfa68a90311923a01bdd8a",
+            "secondPixelBinding": "c7cdba00c7cfad289ae0d19cc21b3ebd4b8039f8d5f8e3c5638e6fb7246546e9"
+          },
+          {
+            "entryId": "accountant",
+            "lexicalBinding": "6e9a1df824b40d45f4dd484d74f37b21aee88fcb9954f5423d40a37daca611a4",
+            "sourceImageSha256": "508b3e5cef5a450e9c9ac202335c09cdfdc537f0b4f1de2c3a664838b843f3d7",
+            "cardSha256": "7a23cb306deb5398f3238fb8d7a59f1efac3ad8474058e573d741080bf5b70bc",
+            "thumbnailSha256": "f5e16cb4bf5c1f3793efa74425f02f98b64444c19e4a3704d9841dbcf2bf210f",
+            "authorPixelBinding": "209d3a9bd4aecd08461cdbf102b66b44200b8b26fffe56f13943252aff935d0c",
+            "secondPixelBinding": "a801b3734c643c5260ced923c2a7d1b45c4f279d797b53db3a9546ff7507067a"
+          },
+          {
+            "entryId": "apprentice",
+            "lexicalBinding": "12217fdd0ddc23aae6a678129bc82b5603700237dd4330c1ce8911a0e811a2ac",
+            "sourceImageSha256": "347bdb3228104830296d330069cc0b3db77c28b5896a02a07cf3a8d7a4f3ce94",
+            "cardSha256": "284e21b959bd1cf16c78405a561b66440bbbc833a804343eb924355d0772d420",
+            "thumbnailSha256": "326c498b6489f53f63eeab7cd042d6fc6b21d01ff64cd748740db19536b1e6e8",
+            "authorPixelBinding": "3be4ffce99a63cb2c712a4ba1aecbd1e963d1b9777a8d68da4299ea1a87981d5",
+            "secondPixelBinding": "67655b07651cbc443724031a72c94c6554bfcbdc68bebf723dadc9108a5c06ea"
+          },
+          {
+            "entryId": "meeting",
+            "lexicalBinding": "52f0ce8440fe42fb633ed01c1496701ffcf55eea08c54fba86630b7b69fe2a1d",
+            "sourceImageSha256": "de38062855ecf6b89a8df3f5563603c6edf2b1cfa8a8e87e7f1b7e6862e3939a",
+            "cardSha256": "5ef5c6924272b8958f3733f35566bc8c812c4e75838b2c331adbddc6c7ac7d6b",
+            "thumbnailSha256": "677001d20126c6afdbb1d906d73cad2603ba398b1a4560f28b2abdbeaa3f5ba9",
+            "authorPixelBinding": "88527e80698a7f0afb13682b5fb1cd39a4364751ffb1dd410b3c9f4aaeb36b58",
+            "secondPixelBinding": "79c72fe8a43ec135cabc3976f9877fd0bd2b909e3d7242f7f3fb80ada2579fd3"
+          },
+          {
+            "entryId": "presentation",
+            "lexicalBinding": "aef334e51cc9d7646ca48050daceb3741a68d9878c2d8b7636e70eab5b0d6c28",
+            "sourceImageSha256": "58460fc8693eb2181c8e9e51cda8966db441987a1feebb3eb3fb44dfbf10e233",
+            "cardSha256": "4500ceaec99d9a741b475ecc99ef6c66b033db06373650157ebf4302445bf8f9",
+            "thumbnailSha256": "e68028812836ae895dd536156a1696bdd40cbf6b4a6b91aaff567ea2477a44f3",
+            "authorPixelBinding": "d5b78bec5ce23d0b102a607481a8fb30f9396d35f3c5e29971ff7d39a5882f45",
+            "secondPixelBinding": "323350936b25e3f6ba8e2a3d16efd9877c568615473fc6f52fc09f088a4af5d3"
+          },
+          {
+            "entryId": "commute",
+            "lexicalBinding": "8b3520fdf50c6937be460fa5561814392cc5814a2035e62c8b85a4bd3d8f3a7d",
+            "sourceImageSha256": "d3fe2702ef849acd56d0a09be9c59f607690a0173935fb3e33da96ca4e7ac23d",
+            "cardSha256": "c229852e09a7dbd7bbe211e3c3824da872264ee6e98a3815729ba13f493ef8ea",
+            "thumbnailSha256": "c921264a0a5443161db732f9619140fca0815c7ca5121346b2562743c82122f4",
+            "authorPixelBinding": "ad1688802816947478a20bad0f6cf9e7916e99e0d6d3173199e6000e99b55614",
+            "secondPixelBinding": "f80907e9055050ea9382c10890b54c9ceb97e37676fd3d1e723ac53792ee7e0d"
+          },
+          {
+            "entryId": "photocopy",
+            "lexicalBinding": "87cb23af3edb3e037948c10f68c29be54bcc75804df4bfa3318395a217e43ee2",
+            "sourceImageSha256": "4d2f81d9d1a0b367bd0d73df65e2ca87259d1327e60211a6bb2200652162e817",
+            "cardSha256": "f1872fdd447463eba8a79f837596a684249ffc6275e2574038023601881f6068",
+            "thumbnailSha256": "1470647c08831df8495d57b2b9d951177dc0fb8988a3c13e0288f8d36bea2368",
+            "authorPixelBinding": "58b75b30f32fff7ad4f3be02572a863a614e4a9f18445873a09c0d052f740378",
+            "secondPixelBinding": "7c2edfd7020867df2b08b83283925a7839403afb8185224b5e1c362d6a212281"
+          },
+          {
+            "entryId": "shred",
+            "lexicalBinding": "3550169815f91483a025d1698e5cf1ff5e5341790760596bf807f4f5ae29833c",
+            "sourceImageSha256": "34f5055f2eaff6fbc1f092f882541c37af6084ea1290781b03dacacc09163a0a",
+            "cardSha256": "ca608915b0555b3685153a02c4175e2c06826d4e579db2818ecae1faf9a867e9",
+            "thumbnailSha256": "276ce0ad404b72bfb41f0e1c4ca4ba8e76defc35695bdd0eb7a1cbae913914d1",
+            "authorPixelBinding": "2470197ecafe454334234be0c889597bc4897fd5f88e7dd1995d327eed5602a2",
+            "secondPixelBinding": "1a1617bec92394a364dbb3d1cb94d6e637e01e631c127d2c6fa8d572e1dac72c"
+          },
+          {
+            "entryId": "print",
+            "lexicalBinding": "a1f85be8d38910894a4a147b5983eb79e055119f25c2f6542cccbcd08e963658",
+            "sourceImageSha256": "db26b904caa31c9b1f9286555bd3ff15596d8941197c213a040f0081945e50e6",
+            "cardSha256": "4c4b7a730574949a21804ef8e14fe8775e0c63c5d169cb17e3c12cfd9046b229",
+            "thumbnailSha256": "e61a58401a2d386a29ab63a9d0f15017e02a4ff4be134378731eb815da1b7133",
+            "authorPixelBinding": "7709a45553eceb0638dd975e81b1f0775aebe86e5e1ed8507c554549d5081df7",
+            "secondPixelBinding": "7aee26221bc956d8e0858737ecdefd5e6038c25d0bee948c438b694900d8feb7"
+          },
+          {
+            "entryId": "type",
+            "lexicalBinding": "d383d7b7c5f9c7c2eb7807e54bfa52c13d92896472afff194e747286430adffb",
+            "sourceImageSha256": "8463e5f6155ab41c3acdc0f47a9b3c81d7c0e83b23165754f53a3ab83c9fb3f3",
+            "cardSha256": "427b38394c2e7a41c3eaf00d089b66a9f2be6bc262d4e628e443144347502bd9",
+            "thumbnailSha256": "5cfa9e45b734ab55c22da0c0107335a371da01ec1a0c673c9ba3dbc7bd9532b5",
+            "authorPixelBinding": "781f69a5d6dfdf6367fee172176c44d3084641aced1d618b994c2f20f414f4ad",
+            "secondPixelBinding": "917b081580380ee4342cd9e8c695887511f5930187a9fd7b33ab3f2a8ffc2333"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "careers-workplace",
+          "visualLanguageId": "careers-workplace",
+          "baselineCategoryWords": 9,
+          "targetCategoryWords": 33,
+          "entryIds": [
+            "office",
+            "cubicle",
+            "workstation",
+            "filing-cabinet",
+            "photocopier",
+            "shredder",
+            "binder",
+            "noticeboard",
+            "briefcase",
+            "lanyard",
+            "badge",
+            "projector",
+            "employee",
+            "manager",
+            "supervisor",
+            "accountant",
+            "apprentice",
+            "meeting",
+            "presentation",
+            "commute",
+            "photocopy",
+            "shred",
+            "print",
+            "type"
+          ],
+          "units": [
+            {
+              "id": "office-spaces-equipment",
+              "title": "Office spaces, equipment and personal work items",
+              "entryIds": [
+                "office",
+                "cubicle",
+                "workstation",
+                "filing-cabinet",
+                "photocopier",
+                "shredder",
+                "binder",
+                "noticeboard",
+                "briefcase",
+                "lanyard",
+                "badge",
+                "projector"
+              ]
+            },
+            {
+              "id": "workplace-roles-activities",
+              "title": "Workplace roles, meetings and practical activities",
+              "entryIds": [
+                "employee",
+                "manager",
+                "supervisor",
+                "accountant",
+                "apprentice",
+                "meeting",
+                "presentation",
+                "commute",
+                "photocopy",
+                "shred",
+                "print",
+                "type"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "Twenty-four globally absent established headwords, after actual prior56 live/reconciliation and8564priorpins verified before Hadvance, capped by remaining41to50. No previous queued selectedIDs. Complete original/native source and precise category-specific original ink-and-wash pictures required; reference templates only after actual paired acceptance and within explicit usage.17manual holds unchanged, no retry, no parent58selected.",
+      "parentBatchId": "category-expansion-batch-57",
+      "completedAt": "2026-11-01T15:10:01.994Z",
+      "factualReferences": [
+        {
+          "entryId": "office",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary text or artwork copied. No external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "cubicle",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary text or artwork copied. No external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "workstation",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary text or artwork copied. No external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "filing-cabinet",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary text or artwork copied. No external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "photocopier",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary text or artwork copied. No external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "shredder",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary text or artwork copied. No external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "binder",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary text or artwork copied. No external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "noticeboard",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary text or artwork copied. No external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "briefcase",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary text or artwork copied. No external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "lanyard",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary text or artwork copied. No external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "badge",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary text or artwork copied. No external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "projector",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary text or artwork copied. No external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "employee",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace roles and actions vocabulary contribution",
+          "use": "Original selected common workplace sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated qualifications, employment law, pay rules, or financial performance."
+        },
+        {
+          "entryId": "manager",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace roles and actions vocabulary contribution",
+          "use": "Original selected common workplace sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated qualifications, employment law, pay rules, or financial performance."
+        },
+        {
+          "entryId": "supervisor",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace roles and actions vocabulary contribution",
+          "use": "Original selected common workplace sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated qualifications, employment law, pay rules, or financial performance."
+        },
+        {
+          "entryId": "accountant",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace roles and actions vocabulary contribution",
+          "use": "Original selected common workplace sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated qualifications, employment law, pay rules, or financial performance."
+        },
+        {
+          "entryId": "apprentice",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace roles and actions vocabulary contribution",
+          "use": "Original selected common workplace sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated qualifications, employment law, pay rules, or financial performance."
+        },
+        {
+          "entryId": "meeting",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace roles and actions vocabulary contribution",
+          "use": "Original selected common workplace sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated qualifications, employment law, pay rules, or financial performance."
+        },
+        {
+          "entryId": "presentation",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace roles and actions vocabulary contribution",
+          "use": "Original selected common workplace sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated qualifications, employment law, pay rules, or financial performance."
+        },
+        {
+          "entryId": "commute",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace roles and actions vocabulary contribution",
+          "use": "Original selected common workplace sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated qualifications, employment law, pay rules, or financial performance."
+        },
+        {
+          "entryId": "photocopy",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace roles and actions vocabulary contribution",
+          "use": "Original selected common workplace sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated qualifications, employment law, pay rules, or financial performance."
+        },
+        {
+          "entryId": "shred",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace roles and actions vocabulary contribution",
+          "use": "Original selected common workplace sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated qualifications, employment law, pay rules, or financial performance."
+        },
+        {
+          "entryId": "print",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace roles and actions vocabulary contribution",
+          "use": "Original selected common workplace sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated qualifications, employment law, pay rules, or financial performance."
+        },
+        {
+          "entryId": "type",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace roles and actions vocabulary contribution",
+          "use": "Original selected common workplace sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated qualifications, employment law, pay rules, or financial performance."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,
