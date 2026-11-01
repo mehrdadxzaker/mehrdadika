@@ -15,7 +15,7 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "travel-tourism-hospitality",
+  "currentCategoryId": "transport-vehicles",
   "nextCategoryId": "transport-vehicles",
   "categoryOrder": [
     "cooking-food-drink",
@@ -5972,9 +5972,93 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "transport-vehicles",
+      "visualLanguageId": "transport-vehicles",
+      "baselineCategoryWords": 8,
+      "targetCategoryWords": 32,
+      "entryIds": [
+        "car",
+        "taxi",
+        "van",
+        "truck",
+        "pickup-truck",
+        "motorcycle",
+        "scooter",
+        "fire-engine",
+        "bus",
+        "coach",
+        "tram",
+        "trolleybus",
+        "minibus",
+        "subway",
+        "locomotive",
+        "railway-carriage",
+        "airplane",
+        "helicopter",
+        "glider",
+        "hot-air-balloon",
+        "ferry",
+        "canoe",
+        "kayak",
+        "sailboat"
+      ],
+      "units": [
+        {
+          "id": "transport-road-vehicles",
+          "title": "Road vehicles",
+          "entryIds": [
+            "car",
+            "taxi",
+            "van",
+            "truck",
+            "pickup-truck",
+            "motorcycle",
+            "scooter",
+            "fire-engine"
+          ]
+        },
+        {
+          "id": "transport-transit-rail",
+          "title": "Public transport and rail",
+          "entryIds": [
+            "bus",
+            "coach",
+            "tram",
+            "trolleybus",
+            "minibus",
+            "subway",
+            "locomotive",
+            "railway-carriage"
+          ]
+        },
+        {
+          "id": "transport-air-water",
+          "title": "Air and water transport",
+          "entryIds": [
+            "airplane",
+            "helicopter",
+            "glider",
+            "hot-air-balloon",
+            "ferry",
+            "canoe",
+            "kayak",
+            "sailboat"
+          ]
+        }
+      ],
+      "id": "transport-vehicles-category-expansion-batch-49-ready-1",
+      "releaseId": "2026-10-preview-56",
+      "status": "published-preview",
+      "objective": "Learn Road vehicles; Public transport and rail; Air and water transport in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-48-ready-1",
+  "activePassId": "category-expansion-batch-49-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",

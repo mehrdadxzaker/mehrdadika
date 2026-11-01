@@ -11694,6 +11694,474 @@
           "use": "One bounded primary pronunciation-page check of UK/US IPA only. Definitions, examples, collocations, learner tips and translations remain originally authored; no dictionary definition or example wording copied."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-49-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-56",
+      "sourceFiles": [
+        "road-vehicles.json",
+        "transit-and-rail.json",
+        "air-and-water.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-55",
+        "manifest": "content/releases/2026-10-preview-55-1dd20ba431a6/manifest.json",
+        "manifestSha256": "1dd20ba431a636ae5fd12c27f87bdb634dd54f78e559eb5f1b2d93e56b8999e2",
+        "words": 1323
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "car",
+            "lexicalBinding": "ece13bdf6a2c19c1bebff96ddc5c92c2eb2ae899fd39b44ac4504e9f9e570a96",
+            "sourceImageSha256": "88c2a90baeae5576db39454e5267e1bf3d29ad78e2903c85599cb7b1747d8c98",
+            "cardSha256": "5b067a9335d510c398c432485f43d116c77f85f2ff47c0292febce8a7c7d9919",
+            "thumbnailSha256": "d7a1dadb05e56d57f31cc5f5bed8e435707190ba28b200780976beb3abbc6178",
+            "authorPixelBinding": "7cf2fb050ff611546e0943f3196b2fea179223fabb4a86359774ceb10533e7ac",
+            "secondPixelBinding": "7f48f8ada3fef53c43f5dd57d42b627c279e8b707ea035bfe38e4c78a52c4dc0"
+          },
+          {
+            "entryId": "taxi",
+            "lexicalBinding": "fdd81f8260dfe1eb5bb58071c8dabeb1e58aa7532f89fae0f0b1575d929a1156",
+            "sourceImageSha256": "71f89ff4ee9894e9c3f85fce93e9a832c46ee0834128114fc82eb74d93e8b35f",
+            "cardSha256": "ecb9441aba444f8ff0023fc6d08553610c5d92bc9991f2db51b089259624886f",
+            "thumbnailSha256": "428ebddcc9b0b0e0d184ed75ff1ae145f98aa1570dd25cb7084f9be6c971eac3",
+            "authorPixelBinding": "5d6f6c43ec725c04f868f312cc96d032ecd1563f58a06fc71d3cbe18e6f09da8",
+            "secondPixelBinding": "e6300318a00bd3c346835fc6c2afa058815d72d7c39c2f81108d9a4a4e26b002"
+          },
+          {
+            "entryId": "van",
+            "lexicalBinding": "4d171819e89362fd024b2e9de4da00bc2c146ebfeb6d9fb1f0e49d3c90e54211",
+            "sourceImageSha256": "cdda8ebd7a80917563273466eb3c43e39c0ac65f74280b2206f79c491c5ba684",
+            "cardSha256": "18656939c6687b1af3c30500f9fe1f327e7c8c63832ef991c28c860eb57b7a60",
+            "thumbnailSha256": "931231a809edc2360f9ef863d7e81d747b4be92f09e0db6fbe7a428471fd9f6a",
+            "authorPixelBinding": "ed880df41f6335aabab0864106bed8cdb0b9230576fb2f8be3d15dcee3ce2b26",
+            "secondPixelBinding": "5e8a0ac30df79a1584bbbba235c619b4e0b1fd59696183fbf5f1c6dbea26c50c"
+          },
+          {
+            "entryId": "truck",
+            "lexicalBinding": "36e2eae529f36418a6f703e0319aef468dde558e6c5b88148a1adc7cb5338efd",
+            "sourceImageSha256": "b3880291b8e09a17468ee3662d0bb6e32edc081e5d156df9a41f2f01ba4d0212",
+            "cardSha256": "99cc0492f535980d6e0151c279c86844284480af23f223e86f80042635154fb4",
+            "thumbnailSha256": "803e4f9dfd82c67dcafed3254be7db18c4d4674eaf529230018c2456bdff1069",
+            "authorPixelBinding": "298a81fd54e7cbab5d69ee52ef6d894badfca000acecd08f297f4be8697c935e",
+            "secondPixelBinding": "3aca6666b13f92c4fd4288751d16e55283aa206d712de2613819d885d3b0e0dc"
+          },
+          {
+            "entryId": "pickup-truck",
+            "lexicalBinding": "c916984a1a872a4d4110048a2ddccd37061bcb50a5559abfd3d5295f91bd49e1",
+            "sourceImageSha256": "67054a0f64af655a0487a977e19d74119e202f9c123706830383e59855426d1f",
+            "cardSha256": "ab6afb2d7f20e0e4559e42d0712abc22525b36cfe55a33dd53343dee31dc894b",
+            "thumbnailSha256": "7beffe81918d59415848d4883582341ebdca8fe4d12ab16ff259b4d46266b4f8",
+            "authorPixelBinding": "456344fa1787112a1d95d6207aba7b881016c226cd0dae551fa744d283bb294d",
+            "secondPixelBinding": "4ef88532929712595fdbb00fa6004d6012997ef78a91ae8dc0b645ab1010d756"
+          },
+          {
+            "entryId": "motorcycle",
+            "lexicalBinding": "31d8672ff845eb1f5f31c3c948800fc01a5cddf20acdea9c870a32475d9be3d0",
+            "sourceImageSha256": "654b73a442c7a9f2a0705e766437780d018486f3de2bd588a60509bd4b39fd41",
+            "cardSha256": "f0f6836db463c7d23b98e28a9423e1932df4fdd405bf4d0ca6335dac52b7a0c1",
+            "thumbnailSha256": "3cb3632ebad98733afb936df5033fced9c97e0ab03717ee21181a76b6dab6b8d",
+            "authorPixelBinding": "55b460ebc6f53f6b6233c21a44d85e7d365f635a1ed1986bd8e15825d9539a6f",
+            "secondPixelBinding": "1a0ec696b2794b5f5142af4d1ee037ea695e7d623e96d5d0694f3ff0689c8254"
+          },
+          {
+            "entryId": "scooter",
+            "lexicalBinding": "8e27081df7044016310ca91de7495fc58c6be04a3d2f7d434aa95f579ab9ab0c",
+            "sourceImageSha256": "808ef2690c96ab9aabf9e1f24aa2192a4fa6aa2916d1330431a567933d6b9300",
+            "cardSha256": "cbeb41f4b18c858157ae3f84c1007a88a9c29692fc41e5de55ebcb3e6931e85d",
+            "thumbnailSha256": "d0b35a64b5992f61f871b1146ae33fb9b356bfbd45ded968f800645df98da7d2",
+            "authorPixelBinding": "d9b963be28f058cdc12e4bede691c19166bf28ca9a131e6923b12bcddfe267d4",
+            "secondPixelBinding": "0342c35eeefb965d3cd9b569f1e2f7b36b5396e4c835a1fd8994027f8a1b5c29"
+          },
+          {
+            "entryId": "fire-engine",
+            "lexicalBinding": "ea832139e0800967980e30f1ef2c40543393391191fa73fa5e10036bfb2f7144",
+            "sourceImageSha256": "2700ee7754ba594b65b37e3699c7aab54c67fabb33882cc5605d40b3d04a2371",
+            "cardSha256": "ba97013d2d401b3f02f9d2c0b92b56b726831862812188bfc227be3a4249d0b8",
+            "thumbnailSha256": "af770cb3b76232655f7b3e21045d2b4af8a9bc1653933bfb106cfb4012f38a44",
+            "authorPixelBinding": "667f532ececcc1956f747584beefb064d7d6f3aa47ed219af7fafe4970f16958",
+            "secondPixelBinding": "dde03d79e9d3a72f22ba33337244e9a2d49d51ceb99deb544e6fb4fbf9267a8b"
+          },
+          {
+            "entryId": "bus",
+            "lexicalBinding": "90eb1e75367598e5503ba88be3899d2c47052422f8217e7abc357a7bd34fc1fa",
+            "sourceImageSha256": "2556e4f6024b163614f78b002682dcc738e81e29faa25208023e75604f88c224",
+            "cardSha256": "69e8a06a13327c36b256d328eaee3f6fe236eecd48bad9292f3e427280edcb21",
+            "thumbnailSha256": "202b0143642d15aab28554cb8308261dd547628efb96ca064cfcd3a32ca84024",
+            "authorPixelBinding": "833bfb604e4d10c055aad8f1fb33d082a589464abf2beb9a93d9652254a617c8",
+            "secondPixelBinding": "6f941c1fe5befba6183c1b09b55f1b9bcbd651e1b4d753bac9e4e46fc6529cae"
+          },
+          {
+            "entryId": "coach",
+            "lexicalBinding": "976f6fbcf5b4238b3c819316c4c1b0f59d4bce7794b173a2038d49133387bd94",
+            "sourceImageSha256": "687a97a40a60787d1f0455cb417537637405891f0279ce33d21f96e58aeb72b4",
+            "cardSha256": "fb04c33e2a858d60bebfacd44818397a692766c76e23c0a7d51135c9d90fa481",
+            "thumbnailSha256": "676f258bde391ec640cada539f488153d455aff45326c1695e7c93f28ec12f90",
+            "authorPixelBinding": "4f87b9f810812c2df991c5c631ee61fe3c8afcdd2648d9f1b04e1f7c16193a6e",
+            "secondPixelBinding": "04bb71b26693337a258b3b4cbd6ea47e44d938efaa496f7e13a2022d37dfc99c"
+          },
+          {
+            "entryId": "tram",
+            "lexicalBinding": "b43e8c2150094716777b3a2ed3f93387431b71cec18778f1a4c3c21c847b3c13",
+            "sourceImageSha256": "2e348a0ba12773a172322704bc8872a2a94555ef17753ea5929b1782bffcf2cb",
+            "cardSha256": "c7aa9d790fb017c2fbd417b7c1c300bc6fb54be737578aeb7da9cb75804c439f",
+            "thumbnailSha256": "7fe2061479b640009a660733b69913044522b8032daa0bf9f31a136f5094867e",
+            "authorPixelBinding": "255afc5e20d2038298ae7795b88b49ba50a5a78457414baaffdf0cda8a62a952",
+            "secondPixelBinding": "8af266425a2dfb777c7b4c50bafed411d845504c01e6c774dfca562fbfe8fb48"
+          },
+          {
+            "entryId": "trolleybus",
+            "lexicalBinding": "e6df69cefd2c6ef530364e45a87d6fb3086713f2aff898a956d2cfe091455ded",
+            "sourceImageSha256": "21627f88540ff62dd1c04e9f2c20719f8a5cc752a72817e2ea099a062581e052",
+            "cardSha256": "0809f8b7f49999ce66d8f8e6ab3b1bd9723ea4480d9f0775167bd876ab18ac6f",
+            "thumbnailSha256": "e47cd2ae54ad1d6093bb5a1772b9e4d672cee70c69d78684a3bbef01bd7dfa74",
+            "authorPixelBinding": "d878ec30626ca2052f6783156704a2e538b7681a2590c1e9eaa443bdd50b3a9b",
+            "secondPixelBinding": "ba93294bb7f27b4bbd3c7ec9214a654152b806165d8b130b683537071e60fc68"
+          },
+          {
+            "entryId": "minibus",
+            "lexicalBinding": "6143198ec7b795dd69e6ba2297612f1f57089bd883603154b3140ed62a02ce29",
+            "sourceImageSha256": "2b59bdd1e3ad204802c9f0e8771de6752fa1bccd76df2c20eabcf592c8510485",
+            "cardSha256": "cdaf785edc9bd1d71eab7928e35bce0ec59eb830119ef1a0945c9f3396e588c2",
+            "thumbnailSha256": "121a0ed7f5857c75410a0ef567659e22a9ae07d01dbcd4521c548d896fd4306d",
+            "authorPixelBinding": "11953f6de9cebabb095b47e7fde5f9605f69348eef2a211fa7ef91f193126df2",
+            "secondPixelBinding": "d71d99abcc632b66b1e48048eb92c8680c6bfa8407dd2f2bca3251ae93cef0af"
+          },
+          {
+            "entryId": "subway",
+            "lexicalBinding": "caeba815327335af1357153ac2f2c6290ca944e6b1747450e6f3b1495e7c38f6",
+            "sourceImageSha256": "485a7eec14155095ee552a5e4b33ae80ff52f68d5b09456e018505813b2222b7",
+            "cardSha256": "6ea6ff3ba44846fb95f4fe4ac7146bf3d2cbe8cf7ce0ec09da81035e0b2fbc45",
+            "thumbnailSha256": "7b1306392c8a20ae8708794efc601e1ffcc79d761f6c9124cb84aac2a588199f",
+            "authorPixelBinding": "5f63224aeeee2ba01e3a2048f2b9d7e55431e77fd599882a392b5136688cd64a",
+            "secondPixelBinding": "34dbcd561580d21d68a2e23907d0637ced6754a8261f9473d994b74cd2e71763"
+          },
+          {
+            "entryId": "locomotive",
+            "lexicalBinding": "1551230a143b48b0989b04b46a8627acc857ff8c3d465a8c32a1bd54796dbf48",
+            "sourceImageSha256": "032936e9ce9e202aa94643bf79c8eb8e7aabe0bad2356649a1d8db1a3ada4093",
+            "cardSha256": "eb8b5e873d68570ed0025590eb67b9d6fad34199a2d132aa3b4c3f207349f954",
+            "thumbnailSha256": "4899fe5c82a919c243967bcdd0c2bde126a1bb20c9751389849f768ed963ea57",
+            "authorPixelBinding": "5d1a83ceaf9aa468953fcff88dafb440e41e4362479886c0b7fe4b1776880a8b",
+            "secondPixelBinding": "b8731a5266b74fb2d4bf8f495d3a462a984f0bee25abbf17281e7717774c5fc5"
+          },
+          {
+            "entryId": "railway-carriage",
+            "lexicalBinding": "df299609576463f6167eeec635abbf81481cb935de8179b0cd1efeb699970df8",
+            "sourceImageSha256": "bcdae8ec0d052562f5dfda2077de27f360a0879a69fd1e2ac711fb28dcb81215",
+            "cardSha256": "2788bef086b31af29619d2ab7624cc02b557db1b5206102bba77556578463950",
+            "thumbnailSha256": "cf0baf85948f69b5ff44f3c6936cbfeadaf34f9b7473a21a4befde3aa3acc246",
+            "authorPixelBinding": "0436d1fce9bd82b3e1dd8bac3ae4cb1cb8f6071d74559137e4d2e7bc36bf2b38",
+            "secondPixelBinding": "4de02ddaebd71a7d0043db640faa4bc8602c4bb1c792f5630c5ece419a07bfd8"
+          },
+          {
+            "entryId": "airplane",
+            "lexicalBinding": "619e6e2998233c8bb1cd11a75bb4c4b6301d8ffadffce4bee532995809cd8084",
+            "sourceImageSha256": "db201b469f5bb502cb0b76fb0b2523a7fcb3b97d3bd9fe497e4c1e75e8cd11d0",
+            "cardSha256": "c9b453a00909f51e4b66f40c71bce18e1c39a333413f84edce7bbf797ecdbe80",
+            "thumbnailSha256": "b1e383067eb4b7c353c56380f5e944d2a943802314a3d39828abc0591c62829f",
+            "authorPixelBinding": "e5ea99e6ed2e63e7212f4d0bd21c9f909de9cd0690bb00e124feac8e60659c43",
+            "secondPixelBinding": "0507b08f8b3dd14dd27dd29bdc8d0b2384dad87703e81162f1478373e9c1c9e1"
+          },
+          {
+            "entryId": "helicopter",
+            "lexicalBinding": "0f7bfa3c822d96f6e5aa2c1950eff84fdbc6af2ee4e93a07a7e1c733bb1796d9",
+            "sourceImageSha256": "f8c72273cada57b7dadb7c99769c2c3e8ad55c828457ff3e837b4cb8a5b3840e",
+            "cardSha256": "f26ae235f82043ac9550a0fb57912d32012fe8acca1b7a3a637f2dbe4e17f890",
+            "thumbnailSha256": "f1c47c86ae2c285412605f6fe34fe924aeae62bdbfd66b5b6326e580042a1dc3",
+            "authorPixelBinding": "84a68716fb524e20e676e00e83ed232765fd39c9f463270a6c9be1a5dfaa126e",
+            "secondPixelBinding": "cb5d563dc5d252395b7c984ea6842fc8426d0913b1d1ed50f796bdfcfe09d012"
+          },
+          {
+            "entryId": "glider",
+            "lexicalBinding": "e831a2ac84f0a500af2d985a84e3da1e1986a564f2fd7b6f5902f260ca19febe",
+            "sourceImageSha256": "7970daa0bac6ca3cfd807c6c67392d495b51e533681c8db61cb2f7910222ffdb",
+            "cardSha256": "1196d84a5e5363ba41cd3e2f3ac0dcbe3250491589ae85137592af2f423599ce",
+            "thumbnailSha256": "a8b5a1b1a38f867869b0bed25205980ee0810b2a044c0f16ee16b81d4e97c0db",
+            "authorPixelBinding": "9c3c5c411281fab7ad8fe293c85269bb3ec2318e039dd20f46941fc0437c53c8",
+            "secondPixelBinding": "103630448dd0ddc60202b0ad6b1488b31f76ff46229ccfea81c3beac8efdb61c"
+          },
+          {
+            "entryId": "hot-air-balloon",
+            "lexicalBinding": "e31107a43a219e6586a8543fcdb1dd2bfa78a9b5e72bdf351978b24c03a0c7ba",
+            "sourceImageSha256": "40571be5135b02db38ab3f47cecdf0d9680df74bc8c11013bb7b024522862d64",
+            "cardSha256": "a27a61b99c89934117c5d883b2e53fc908a5e45381bb829ea46d526f9a83f6fe",
+            "thumbnailSha256": "f237d444838300e5d60dda0748408dc74ed426e551441339f63b0f718b9deb36",
+            "authorPixelBinding": "97f347131cd5df5d15e6aa5156eacf21ec83abc5e7f9024aa06b82561278a4ca",
+            "secondPixelBinding": "e5d51cfad05399c28510491da7bd6b136cd0d83bcaa887e4ed2de111623efc91"
+          },
+          {
+            "entryId": "ferry",
+            "lexicalBinding": "71da4a5436b2b9a740bcbe777b1e0ee749601366f7f69bce7288154f9d5485ef",
+            "sourceImageSha256": "db50a13f8e85b7262f8f12c84d892874c04600173e19aa084870b1ab760c608e",
+            "cardSha256": "017ca19b74fab7137e6f171fa73a2411df11d4f5c0dc0d18b016ee7d91bafb9a",
+            "thumbnailSha256": "f89a16e8e0b326bc875863f3e38fb45adde23e290af2c00aacfb24fbdb57d082",
+            "authorPixelBinding": "220878b3d096dcc016f164fa9d16c2dc9a71b36ef9f34d91e00a832aba910dcd",
+            "secondPixelBinding": "c04fbdacaa049926162e3812561fe9b3a1afb93356b85bb977cee67070becbbd"
+          },
+          {
+            "entryId": "canoe",
+            "lexicalBinding": "6fbc93e9f63fe46eb3d1e09d502601298413a479663e9000e7e8d7981513abfa",
+            "sourceImageSha256": "d6c213aabb49df5295779414903afbfe072db19cff6e5ead90188ec3dd64319b",
+            "cardSha256": "5f27c443a35946d3966b809344a5cbf4510c93266e2525bd4cd2f90262d5490c",
+            "thumbnailSha256": "236fad3f11c1a8336b69edc2223d91f8ba6a81aaaa88c7f760b0521b7d28c862",
+            "authorPixelBinding": "1cfdeee608ce27f78d1dad43b6a71d958d65bd8093cfa7ecbbbd230a2fa6b674",
+            "secondPixelBinding": "0c5888f51bb02ec1dfdf82c6f4e1cd6d77f8d2a96e4c5a21a9cc25e490236bf4"
+          },
+          {
+            "entryId": "kayak",
+            "lexicalBinding": "5e6afefe91a747ffa17f94ebb3f498f686c09f196fe06047208346006717610c",
+            "sourceImageSha256": "b7da849eaad6f3b2640681940abd050fc3ce77caea4b7a3432b13afaff7fe3f3",
+            "cardSha256": "8ce48c1f95506f2834a5d3d46e9693358b56585a5d1f6d3896f0cac85bb033a0",
+            "thumbnailSha256": "32e075de62be8bd20fdf8249795b95ffe175c8b151a1b20910c83b30e0403100",
+            "authorPixelBinding": "e793c57916525c55fc6a3729b47cdb7c2058f2f7d8ecb1795d734e5b28b4ddaf",
+            "secondPixelBinding": "33dd55899a4892a8f68eaf899d3a50c5f22f8cd9cbde144f9452bb05bcf35f09"
+          },
+          {
+            "entryId": "sailboat",
+            "lexicalBinding": "6e9c9f8ec0f5a62b685db6b9df6e97bb3090b564eb31bb9f822df95ac8e2e594",
+            "sourceImageSha256": "bf69d7e8b61affc6bb0b8e1d94fc5929b636c7e6d7764f4c8855782506462e99",
+            "cardSha256": "7539935cdda5f1db2f735f33c9a2448ae953519ee5723b0a8b34fe00138f5a38",
+            "thumbnailSha256": "531e6a70e993789c5e917e94eb17a9147168e042dc329147ff37bda9864b1d29",
+            "authorPixelBinding": "fcde55463d63a09f304799306e3056e7cc7989ffbfc5c96311145a15400b276e",
+            "secondPixelBinding": "f41820e1ef17face7ca2f353fa705b28a608cc3f676f4d2d9ef00d9483c3dc26"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "transport-vehicles",
+          "visualLanguageId": "transport-vehicles",
+          "baselineCategoryWords": 8,
+          "targetCategoryWords": 32,
+          "entryIds": [
+            "car",
+            "taxi",
+            "van",
+            "truck",
+            "pickup-truck",
+            "motorcycle",
+            "scooter",
+            "fire-engine",
+            "bus",
+            "coach",
+            "tram",
+            "trolleybus",
+            "minibus",
+            "subway",
+            "locomotive",
+            "railway-carriage",
+            "airplane",
+            "helicopter",
+            "glider",
+            "hot-air-balloon",
+            "ferry",
+            "canoe",
+            "kayak",
+            "sailboat"
+          ],
+          "units": [
+            {
+              "id": "transport-road-vehicles",
+              "title": "Road vehicles",
+              "entryIds": [
+                "car",
+                "taxi",
+                "van",
+                "truck",
+                "pickup-truck",
+                "motorcycle",
+                "scooter",
+                "fire-engine"
+              ]
+            },
+            {
+              "id": "transport-transit-rail",
+              "title": "Public transport and rail",
+              "entryIds": [
+                "bus",
+                "coach",
+                "tram",
+                "trolleybus",
+                "minibus",
+                "subway",
+                "locomotive",
+                "railway-carriage"
+              ]
+            },
+            {
+              "id": "transport-air-water",
+              "title": "Air and water transport",
+              "entryIds": [
+                "airplane",
+                "helicopter",
+                "glider",
+                "hot-air-balloon",
+                "ferry",
+                "canoe",
+                "kayak",
+                "sailboat"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "24 globally absent established vehicle/transport headwords, fresh selection only after parent48 fully live/reconciled. Transport8→32 toward first50;18remain. Original common-language selected senses, complete native overlays, exact transport profile; existing16manualholds untouched.",
+      "parentBatchId": "category-expansion-batch-49",
+      "completedAt": "2026-11-01T01:43:09.819Z",
+      "factualReferences": [
+        {
+          "entryId": "car",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika road-transport vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "taxi",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika road-transport vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "van",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika road-transport vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "truck",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika road-transport vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "pickup-truck",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika road-transport vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "motorcycle",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika road-transport vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "scooter",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika road-transport vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "fire-engine",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika road-transport vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "bus",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika public transport and rail vocabulary contribution — bus",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. CC BY 4.0 AI-assisted preview with independent human review pending; no external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "coach",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika public transport and rail vocabulary contribution — coach",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. CC BY 4.0 AI-assisted preview with independent human review pending; no external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "tram",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika public transport and rail vocabulary contribution — tram",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. CC BY 4.0 AI-assisted preview with independent human review pending; no external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "trolleybus",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika public transport and rail vocabulary contribution — trolleybus",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. CC BY 4.0 AI-assisted preview with independent human review pending; no external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "minibus",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika public transport and rail vocabulary contribution — minibus",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. CC BY 4.0 AI-assisted preview with independent human review pending; no external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "subway",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika public transport and rail vocabulary contribution — subway",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. CC BY 4.0 AI-assisted preview with independent human review pending; no external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "locomotive",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika public transport and rail vocabulary contribution — locomotive",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. CC BY 4.0 AI-assisted preview with independent human review pending; no external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "railway-carriage",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika public transport and rail vocabulary contribution — railway carriage",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. CC BY 4.0 AI-assisted preview with independent human review pending; no external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "airplane",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika air and water transport vocabulary contribution",
+          "use": "Original selected common-language sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, AI-assisted CC BY 4.0 preview with independent human review pending. No external dictionary or artwork copied."
+        },
+        {
+          "entryId": "helicopter",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika air and water transport vocabulary contribution",
+          "use": "Original selected common-language sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, AI-assisted CC BY 4.0 preview with independent human review pending. No external dictionary or artwork copied."
+        },
+        {
+          "entryId": "glider",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika air and water transport vocabulary contribution",
+          "use": "Original selected common-language sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, AI-assisted CC BY 4.0 preview with independent human review pending. No external dictionary or artwork copied."
+        },
+        {
+          "entryId": "hot-air-balloon",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika air and water transport vocabulary contribution",
+          "use": "Original selected common-language sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, AI-assisted CC BY 4.0 preview with independent human review pending. No external dictionary or artwork copied."
+        },
+        {
+          "entryId": "ferry",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika air and water transport vocabulary contribution",
+          "use": "Original selected common-language sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, AI-assisted CC BY 4.0 preview with independent human review pending. No external dictionary or artwork copied."
+        },
+        {
+          "entryId": "canoe",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika air and water transport vocabulary contribution",
+          "use": "Original selected common-language sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, AI-assisted CC BY 4.0 preview with independent human review pending. No external dictionary or artwork copied."
+        },
+        {
+          "entryId": "kayak",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika air and water transport vocabulary contribution",
+          "use": "Original selected common-language sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, AI-assisted CC BY 4.0 preview with independent human review pending. No external dictionary or artwork copied."
+        },
+        {
+          "entryId": "sailboat",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika air and water transport vocabulary contribution",
+          "use": "Original selected common-language sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, AI-assisted CC BY 4.0 preview with independent human review pending. No external dictionary or artwork copied."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,

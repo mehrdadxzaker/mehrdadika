@@ -13,9 +13,9 @@
     "modifications": "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-55",
-    "manifest": "content/releases/2026-10-preview-55-1dd20ba431a6/manifest.json",
-    "sha256": "1dd20ba431a636ae5fd12c27f87bdb634dd54f78e559eb5f1b2d93e56b8999e2"
+    "id": "2026-10-preview-56",
+    "manifest": "content/releases/2026-10-preview-56-49aa0a8ce6a4/manifest.json",
+    "sha256": "49aa0a8ce6a437bf8ee0c3b286abede7f2f7fd7b9c495f3b883eb74ff0b99c96"
   },
   "categories": {
     "everyday-life": {
@@ -45529,6 +45529,822 @@
         }
       ],
       "tip": "Excursion destaca um passeio curto por lazer; não precisa ser em grupo nem organizado por uma empresa. Tour costuma descrever a visita a um lugar ou a vários lugares. Um programa pode ser as duas coisas, mas as palavras nem sempre são intercambiáveis. São comuns go on an excursion e an excursion to a place."
+    },
+    "car": {
+      "sourceWord": "car",
+      "senses": {
+        "car:meaning-1": {
+          "gloss": "carro",
+          "definition": "Veículo de rua ou estrada com motor, geralmente usado para transportar poucas pessoas."
+        }
+      },
+      "examples": [
+        {
+          "en": "We put our bags in the car before leaving.",
+          "translation": "Colocamos as malas no carro antes de sair."
+        },
+        {
+          "en": "Her car has room for four passengers and a driver.",
+          "translation": "O carro dela tem espaço para quatro passageiros e quem dirige."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "drive a car",
+          "translation": "dirigir um carro"
+        },
+        {
+          "en": "a parked car",
+          "translation": "um carro estacionado"
+        },
+        {
+          "en": "a car door",
+          "translation": "uma porta de carro"
+        }
+      ],
+      "tip": "Car aqui é um carro de passeio; vehicle é o termo mais amplo para veículo. No inglês dos EUA, car também pode ser um vagão em contexto ferroviário; esse sentido não é o deste verbete."
+    },
+    "taxi": {
+      "sourceWord": "taxi",
+      "senses": {
+        "taxi:meaning-1": {
+          "gloss": "táxi",
+          "definition": "Veículo com motorista pago para levar passageiros a um destino."
+        }
+      },
+      "examples": [
+        {
+          "en": "We took a taxi from the station to the hotel.",
+          "translation": "Pegamos um táxi da estação até o hotel."
+        },
+        {
+          "en": "The taxi driver helped her put a bag in the back.",
+          "translation": "O taxista a ajudou a colocar uma mala na parte de trás."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "take a taxi",
+          "translation": "pegar um táxi"
+        },
+        {
+          "en": "a taxi driver",
+          "translation": "um taxista"
+        },
+        {
+          "en": "call a taxi",
+          "translation": "chamar um táxi"
+        }
+      ],
+      "tip": "Taxi é o veículo de transporte com motorista contratado. Dizemos take a taxi para usar o serviço e drive a taxi para dirigir o veículo. O verbo taxi também descreve o avião se deslocando no solo; não é o sentido aqui."
+    },
+    "van": {
+      "sourceWord": "van",
+      "senses": {
+        "van:meaning-1": {
+          "gloss": "van; furgão",
+          "definition": "Veículo com um espaço fechado amplo atrás dos bancos dianteiros, usado para levar pessoas ou mercadorias."
+        }
+      },
+      "examples": [
+        {
+          "en": "The delivery van stopped outside the shop.",
+          "translation": "O furgão de entregas parou em frente à loja."
+        },
+        {
+          "en": "They rented a van to move the boxes together.",
+          "translation": "Eles alugaram uma van para transportar as caixas juntas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a delivery van",
+          "translation": "um furgão de entregas"
+        },
+        {
+          "en": "rent a van",
+          "translation": "alugar uma van"
+        },
+        {
+          "en": "load a van",
+          "translation": "carregar uma van"
+        }
+      ],
+      "tip": "Van pode transportar passageiros ou carga; o termo sozinho não fixa o número de assentos. No Brasil, van costuma sugerir passageiros e furgão, carga. Em inglês, van abrange os dois usos; pickup truck geralmente tem caçamba aberta."
+    },
+    "truck": {
+      "sourceWord": "truck",
+      "senses": {
+        "truck:meaning-1": {
+          "gloss": "caminhão",
+          "definition": "Veículo grande de rua ou estrada usado principalmente para transportar mercadorias ou materiais."
+        }
+      },
+      "examples": [
+        {
+          "en": "A truck brought the new furniture to the warehouse.",
+          "translation": "Um caminhão levou os móveis novos ao depósito."
+        },
+        {
+          "en": "The driver parked the truck beside the loading area.",
+          "translation": "O motorista estacionou o caminhão ao lado da área de carga."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "drive a truck",
+          "translation": "dirigir um caminhão"
+        },
+        {
+          "en": "a delivery truck",
+          "translation": "um caminhão de entregas"
+        },
+        {
+          "en": "a truck driver",
+          "translation": "um motorista de caminhão"
+        }
+      ],
+      "tip": "Truck é muito comum no inglês dos EUA; lorry também é comum no inglês britânico. Trailer é uma unidade rebocada e não necessariamente tem motor ou cabine."
+    },
+    "pickup-truck": {
+      "sourceWord": "pickup truck",
+      "senses": {
+        "pickup-truck:meaning-1": {
+          "gloss": "picape; caminhonete com caçamba",
+          "definition": "Veículo com cabine para pessoas na frente e caçamba aberta atrás."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pickup truck carried bags of soil to the garden.",
+          "translation": "A picape levou sacos de terra para o jardim."
+        },
+        {
+          "en": "He closed the tailgate of the pickup truck after unloading it.",
+          "translation": "Ele fechou a tampa da caçamba da picape depois de descarregá-la."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "drive a pickup truck",
+          "translation": "dirigir uma picape"
+        },
+        {
+          "en": "a pickup truck bed",
+          "translation": "a caçamba de uma picape"
+        },
+        {
+          "en": "load a pickup truck",
+          "translation": "carregar uma picape"
+        }
+      ],
+      "tip": "Pickup truck, ou apenas pickup, é uma picape. O substantivo pickup é escrito junto; o verbo pick up é separado e pode significar pegar ou buscar alguém. A caçamba fica atrás da cabine."
+    },
+    "motorcycle": {
+      "sourceWord": "motorcycle",
+      "senses": {
+        "motorcycle:meaning-1": {
+          "gloss": "motocicleta; moto",
+          "definition": "Veículo motorizado de duas rodas alinhadas, conduzido por uma pessoa sentada que usa um guidão."
+        }
+      },
+      "examples": [
+        {
+          "en": "She parked her motorcycle beside the garage.",
+          "translation": "Ela estacionou a motocicleta ao lado da garagem."
+        },
+        {
+          "en": "He put on a helmet before riding the motorcycle.",
+          "translation": "Ele colocou um capacete antes de sair de motocicleta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "ride a motorcycle",
+          "translation": "andar de motocicleta"
+        },
+        {
+          "en": "a motorcycle helmet",
+          "translation": "um capacete de motocicleta"
+        },
+        {
+          "en": "a motorcycle rider",
+          "translation": "uma pessoa que pilota motocicleta"
+        }
+      ],
+      "tip": "É comum dizer ride a motorcycle e drive a car. Motorbike também significa motocicleta. Bicycle é bicicleta, normalmente movida por pedais."
+    },
+    "scooter": {
+      "sourceWord": "scooter",
+      "senses": {
+        "scooter:meaning-1": {
+          "gloss": "motoneta; scooter",
+          "definition": "Pequeno veículo motorizado de duas rodas com assento e espaço baixo para os pés à frente do assento."
+        }
+      },
+      "examples": [
+        {
+          "en": "She rode a scooter along the quiet street.",
+          "translation": "Ela foi de motoneta pela rua tranquila."
+        },
+        {
+          "en": "The scooter had a flat space for the rider’s feet.",
+          "translation": "A motoneta tinha uma plataforma para os pés de quem a conduzia."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "ride a scooter",
+          "translation": "andar de motoneta"
+        },
+        {
+          "en": "a motor scooter",
+          "translation": "uma motoneta"
+        },
+        {
+          "en": "a scooter seat",
+          "translation": "um assento de motoneta"
+        }
+      ],
+      "tip": "Aqui scooter é a motoneta com banco e plataforma para os pés. Scooter também pode ser um patinete, com ou sem motor elétrico; esse outro sentido não foi selecionado."
+    },
+    "fire-engine": {
+      "sourceWord": "fire engine",
+      "senses": {
+        "fire-engine:meaning-1": {
+          "gloss": "caminhão de bombeiros",
+          "definition": "Veículo usado por bombeiros para levar equipamentos e chegar a incêndios."
+        }
+      },
+      "examples": [
+        {
+          "en": "A fire engine stopped outside the building.",
+          "translation": "Um caminhão de bombeiros parou em frente ao prédio."
+        },
+        {
+          "en": "The firefighters took a hose from the fire engine.",
+          "translation": "Os bombeiros retiraram uma mangueira do caminhão de bombeiros."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a fire engine siren",
+          "translation": "a sirene de um caminhão de bombeiros"
+        },
+        {
+          "en": "a fire engine crew",
+          "translation": "a equipe de um caminhão de bombeiros"
+        },
+        {
+          "en": "drive a fire engine",
+          "translation": "dirigir um caminhão de bombeiros"
+        }
+      ],
+      "tip": "Fire engine é um caminhão de bombeiros, não apenas o motor do veículo. Fire truck também é comum. Os veículos e seus equipamentos variam; nem todos têm uma escada longa."
+    },
+    "bus": {
+      "sourceWord": "bus",
+      "senses": {
+        "bus:meaning-1": {
+          "gloss": "ônibus",
+          "definition": "Veículo rodoviário grande que transporta passageiros, muitas vezes por uma linha regular com várias paradas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The bus stopped outside the library.",
+          "translation": "O ônibus parou em frente à biblioteca."
+        },
+        {
+          "en": "We took the last bus home after the concert.",
+          "translation": "Depois do show, pegamos o último ônibus para casa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "catch a bus",
+          "translation": "pegar um ônibus"
+        },
+        {
+          "en": "a bus stop",
+          "translation": "um ponto de ônibus"
+        },
+        {
+          "en": "a bus route",
+          "translation": "uma linha de ônibus"
+        }
+      ],
+      "tip": "Bus é ônibus; tram circula sobre trilhos. No inglês britânico, coach costuma ser um ônibus rodoviário para viagens mais longas. Para embarcar, use get on a bus."
+    },
+    "coach": {
+      "sourceWord": "coach",
+      "senses": {
+        "coach:meaning-1": {
+          "gloss": "ônibus rodoviário",
+          "definition": "Ônibus com assentos confortáveis, usado principalmente em viagens mais longas entre cidades."
+        }
+      },
+      "examples": [
+        {
+          "en": "Our coach left for the coast early in the morning.",
+          "translation": "Nosso ônibus rodoviário partiu para o litoral bem cedo."
+        },
+        {
+          "en": "The driver placed our suitcases in the luggage compartment below the seats.",
+          "translation": "O motorista colocou nossas malas no bagageiro abaixo dos assentos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "travel by coach",
+          "translation": "viajar de ônibus rodoviário"
+        },
+        {
+          "en": "a coach journey",
+          "translation": "uma viagem de ônibus rodoviário"
+        },
+        {
+          "en": "a coach station",
+          "translation": "um terminal rodoviário"
+        }
+      ],
+      "tip": "Neste sentido, especialmente britânico, coach é ônibus rodoviário; city bus é ônibus urbano. Coach também pode significar treinador, mas aqui se refere ao veículo."
+    },
+    "tram": {
+      "sourceWord": "tram",
+      "senses": {
+        "tram:meaning-1": {
+          "gloss": "bonde",
+          "definition": "Veículo elétrico de passageiros que circula sobre trilhos, geralmente pelas ruas da cidade."
+        }
+      },
+      "examples": [
+        {
+          "en": "The tram crossed the square on its rails.",
+          "translation": "O bonde atravessou a praça sobre seus trilhos."
+        },
+        {
+          "en": "We got off at the next stop and walked to the market.",
+          "translation": "Descemos na parada seguinte e fomos a pé até o mercado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "take a tram",
+          "translation": "pegar um bonde"
+        },
+        {
+          "en": "a tram stop",
+          "translation": "uma parada de bonde"
+        },
+        {
+          "en": "tram tracks",
+          "translation": "trilhos de bonde"
+        }
+      ],
+      "tip": "Tram circula sobre trilhos; trolleybus tem pneus e circula na via. No inglês americano, também se usa streetcar. Ambos podem receber energia de fios aéreos; os trilhos são uma pista importante para tram."
+    },
+    "trolleybus": {
+      "sourceWord": "trolleybus",
+      "senses": {
+        "trolleybus:meaning-1": {
+          "gloss": "trólebus",
+          "definition": "Ônibus elétrico com pneus que recebe energia de fios aéreos por duas hastes no teto."
+        }
+      },
+      "examples": [
+        {
+          "en": "The trolleybus turned along the street beneath the overhead wires.",
+          "translation": "O trólebus fez a curva na rua sob os fios aéreos."
+        },
+        {
+          "en": "Its two roof poles each touched a separate wire.",
+          "translation": "Cada uma das duas hastes no teto tocava um fio separado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a trolleybus route",
+          "translation": "uma linha de trólebus"
+        },
+        {
+          "en": "overhead trolleybus wires",
+          "translation": "fios aéreos de trólebus"
+        },
+        {
+          "en": "ride a trolleybus",
+          "translation": "andar de trólebus"
+        }
+      ],
+      "tip": "Trolleybus não usa trilhos: tem pneus e duas hastes no teto em contato com dois fios separados. Tram circula sobre trilhos. Nem todo ônibus elétrico é um trolleybus; um ônibus a bateria pode não ter fios aéreos."
+    },
+    "minibus": {
+      "sourceWord": "minibus",
+      "senses": {
+        "minibus:meaning-1": {
+          "gloss": "micro-ônibus",
+          "definition": "Ônibus pequeno que transporta menos passageiros do que um ônibus de tamanho normal."
+        }
+      },
+      "examples": [
+        {
+          "en": "A minibus took our group from the hotel to the museum.",
+          "translation": "Um micro-ônibus levou nosso grupo do hotel ao museu."
+        },
+        {
+          "en": "There was room for everyone, but little space for large suitcases.",
+          "translation": "Havia lugar para todos, mas pouco espaço para malas grandes."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "hire a minibus",
+          "translation": "alugar um micro-ônibus"
+        },
+        {
+          "en": "a school minibus",
+          "translation": "um micro-ônibus escolar"
+        },
+        {
+          "en": "a minibus service",
+          "translation": "um serviço de micro-ônibus"
+        }
+      ],
+      "tip": "Minibus é um ônibus pequeno para passageiros; van pode transportar passageiros ou carga. O prefixo mini- indica um tamanho menor. Um número exato de assentos não faz parte desta definição geral."
+    },
+    "subway": {
+      "sourceWord": "subway",
+      "senses": {
+        "subway:meaning-1": {
+          "gloss": "metrô",
+          "definition": "Sistema ferroviário urbano que passa pelo menos em parte no subsolo; termo habitual no inglês americano para esse sistema."
+        }
+      },
+      "examples": [
+        {
+          "en": "The subway took us across the city in twenty minutes.",
+          "translation": "O metrô nos levou ao outro lado da cidade em vinte minutos."
+        },
+        {
+          "en": "We walked down the stairs to the underground platform.",
+          "translation": "Descemos as escadas até a plataforma subterrânea."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "take the subway",
+          "translation": "pegar o metrô"
+        },
+        {
+          "en": "a subway station",
+          "translation": "uma estação de metrô"
+        },
+        {
+          "en": "a subway line",
+          "translation": "uma linha de metrô"
+        }
+      ],
+      "tip": "No inglês americano, subway costuma significar metrô; no britânico, muitas vezes significa uma passagem subterrânea para pedestres. Underground é usado na Grã-Bretanha e metro aparece em várias cidades. Esta entrada ensina o sentido ferroviário americano."
+    },
+    "locomotive": {
+      "sourceWord": "locomotive",
+      "senses": {
+        "locomotive:meaning-1": {
+          "gloss": "locomotiva",
+          "definition": "Veículo ferroviário motorizado usado para puxar ou empurrar os carros ou vagões de um trem."
+        }
+      },
+      "examples": [
+        {
+          "en": "The locomotive pulled a line of freight wagons out of the yard.",
+          "translation": "A locomotiva puxou uma fila de vagões de carga para fora do pátio."
+        },
+        {
+          "en": "The driver climbed into the cab before departure.",
+          "translation": "O maquinista entrou na cabine antes da partida."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a diesel locomotive",
+          "translation": "uma locomotiva a diesel"
+        },
+        {
+          "en": "an electric locomotive",
+          "translation": "uma locomotiva elétrica"
+        },
+        {
+          "en": "a locomotive driver",
+          "translation": "um maquinista de locomotiva"
+        }
+      ],
+      "tip": "Locomotive é o veículo motorizado separado que puxa ou empurra os vagões; train é o conjunto do trem. Nem todo trem tem uma locomotiva separada: alguns distribuem a tração por vários carros."
+    },
+    "railway-carriage": {
+      "sourceWord": "railway carriage",
+      "senses": {
+        "railway-carriage:meaning-1": {
+          "gloss": "carro de passageiros de trem",
+          "definition": "Veículo que faz parte de um trem e no qual os passageiros se sentam ou viajam."
+        }
+      },
+      "examples": [
+        {
+          "en": "Our railway carriage had seats facing each other across a table.",
+          "translation": "Nosso carro de passageiros tinha assentos frente a frente, separados por uma mesa."
+        },
+        {
+          "en": "We walked through the connecting door to the next carriage.",
+          "translation": "Passamos pela porta de ligação para o carro seguinte."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a crowded railway carriage",
+          "translation": "um carro de passageiros lotado"
+        },
+        {
+          "en": "board a railway carriage",
+          "translation": "embarcar em um carro de passageiros"
+        },
+        {
+          "en": "a first-class railway carriage",
+          "translation": "um carro de passageiros de primeira classe"
+        }
+      ],
+      "tip": "Railway carriage é o termo britânico para carro de passageiros; no inglês americano, railroad car ou passenger car são mais comuns. Locomotive fornece tração e freight wagon transporta carga. Carriage sozinho também pode significar carruagem; aqui o sentido é ferroviário."
+    },
+    "airplane": {
+      "sourceWord": "airplane",
+      "senses": {
+        "airplane:meaning-1": {
+          "gloss": "avião",
+          "definition": "Aeronave com motor e asas fixas que transporta pessoas ou mercadorias pelo ar."
+        }
+      },
+      "examples": [
+        {
+          "en": "The airplane carried passengers across the ocean.",
+          "translation": "O avião transportou passageiros de um lado ao outro do oceano."
+        },
+        {
+          "en": "We watched it take off from the runway.",
+          "translation": "Nós o vimos decolar da pista."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "board an airplane",
+          "translation": "embarcar em um avião"
+        },
+        {
+          "en": "a passenger airplane",
+          "translation": "um avião de passageiros"
+        },
+        {
+          "en": "an airplane ticket",
+          "translation": "uma passagem de avião"
+        }
+      ],
+      "tip": "Airplane é comum no inglês americano; aeroplane também é usado no inglês britânico, e plane é a forma curta comum. Suas asas são fixas; um helicopter voa com pás que giram acima da fuselagem."
+    },
+    "helicopter": {
+      "sourceWord": "helicopter",
+      "senses": {
+        "helicopter:meaning-1": {
+          "gloss": "helicóptero",
+          "definition": "Aeronave sustentada por grandes pás que giram acima do corpo, capaz de decolar na vertical e permanecer parada no ar."
+        }
+      },
+      "examples": [
+        {
+          "en": "The helicopter rose straight up from the landing pad.",
+          "translation": "O helicóptero subiu na vertical a partir da plataforma de pouso."
+        },
+        {
+          "en": "The pilot kept it above the field while the crew looked down.",
+          "translation": "O piloto o manteve parado no ar sobre o campo enquanto a equipe olhava para baixo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a helicopter pilot",
+          "translation": "um piloto de helicóptero"
+        },
+        {
+          "en": "a helicopter flight",
+          "translation": "um voo de helicóptero"
+        },
+        {
+          "en": "a rescue helicopter",
+          "translation": "um helicóptero de resgate"
+        }
+      ],
+      "tip": "Helicopter é helicóptero; rotor é o conjunto de pás giratórias. Hover significa ficar parado no ar. Um airplane comum tem asas fixas; a diferença não é apenas o tamanho ou o número de passageiros."
+    },
+    "glider": {
+      "sourceWord": "glider",
+      "senses": {
+        "glider:meaning-1": {
+          "gloss": "planador",
+          "definition": "Aeronave sem motor que voa com asas fixas, geralmente rebocada para subir antes de voar livremente."
+        }
+      },
+      "examples": [
+        {
+          "en": "The glider circled above the hillside without engine noise.",
+          "translation": "O planador fez círculos acima da encosta sem barulho de motor."
+        },
+        {
+          "en": "After the tow rope was released, the pilot continued flying freely.",
+          "translation": "Depois que o cabo de reboque foi solto, o piloto continuou voando livremente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "fly a glider",
+          "translation": "pilotar um planador"
+        },
+        {
+          "en": "a glider pilot",
+          "translation": "um piloto de planador"
+        },
+        {
+          "en": "a glider flight",
+          "translation": "um voo de planador"
+        }
+      ],
+      "tip": "Neste sentido, glider é uma aeronave sem motor, não qualquer avião que voe por um momento com o motor desligado. Geralmente sobe por reboque; voo sem motor não significa voo sem piloto. Hang glider é uma asa-delta, uma estrutura diferente sob a qual o piloto fica suspenso."
+    },
+    "hot-air-balloon": {
+      "sourceWord": "hot air balloon",
+      "senses": {
+        "hot-air-balloon:meaning-1": {
+          "gloss": "balão de ar quente",
+          "definition": "Grande balão elevado pelo ar aquecido em seu interior, com uma cesta embaixo para transportar pessoas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The hot air balloon lifted its basket above the trees.",
+          "translation": "O balão de ar quente elevou sua cesta acima das árvores."
+        },
+        {
+          "en": "The pilot used the burner to heat the air inside the balloon.",
+          "translation": "O piloto usou o queimador para aquecer o ar dentro do balão."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a hot air balloon ride",
+          "translation": "um passeio de balão de ar quente"
+        },
+        {
+          "en": "a hot air balloon pilot",
+          "translation": "um piloto de balão de ar quente"
+        },
+        {
+          "en": "a hot air balloon flight",
+          "translation": "um voo de balão de ar quente"
+        }
+      ],
+      "tip": "Hot air balloon é a expressão completa para esse veículo; balloon sozinho também pode ser uma bexiga de festa. Aqui, o ar quente fornece a sustentação; não é o mesmo que um balão de gás cheio de hélio. A cesta fica suspensa sob o balão."
+    },
+    "ferry": {
+      "sourceWord": "ferry",
+      "senses": {
+        "ferry:meaning-1": {
+          "gloss": "balsa; embarcação de travessia",
+          "definition": "Barco ou navio que transporta passageiros e, às vezes, veículos regularmente por um trecho de água."
+        }
+      },
+      "examples": [
+        {
+          "en": "The ferry carried us across the river to the other bank.",
+          "translation": "A balsa nos levou para a outra margem do rio."
+        },
+        {
+          "en": "This service takes foot passengers but has no space for cars.",
+          "translation": "Esse serviço leva passageiros a pé, mas não tem espaço para carros."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "take a ferry",
+          "translation": "pegar uma balsa"
+        },
+        {
+          "en": "a ferry crossing",
+          "translation": "uma travessia de balsa"
+        },
+        {
+          "en": "a passenger ferry",
+          "translation": "uma balsa de passageiros"
+        }
+      ],
+      "tip": "Ferry é uma embarcação ou serviço de travessia; nem todo ferry transporta carros. Car ferry tem espaço também para veículos. Cruise ship costuma servir a viagens de lazer, em vez de travessias regulares entre margens."
+    },
+    "canoe": {
+      "sourceWord": "canoe",
+      "senses": {
+        "canoe:meaning-1": {
+          "gloss": "canoa",
+          "definition": "Embarcação estreita com a parte superior aberta, geralmente movida com um remo de uma só pá."
+        }
+      },
+      "examples": [
+        {
+          "en": "The canoe moved quietly along the lake near the shore.",
+          "translation": "A canoa avançou silenciosamente pelo lago, perto da margem."
+        },
+        {
+          "en": "She dipped the single blade of her paddle into the water beside the boat.",
+          "translation": "Ela mergulhou a única pá do remo na água ao lado do barco."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "paddle a canoe",
+          "translation": "remar uma canoa"
+        },
+        {
+          "en": "a canoe trip",
+          "translation": "um passeio de canoa"
+        },
+        {
+          "en": "a two-person canoe",
+          "translation": "uma canoa para duas pessoas"
+        }
+      ],
+      "tip": "Neste sentido comum, canoe é aberta e usa remo de uma pá; kayak costuma ter convés e assento mais baixo, e usa remo de duas pás. O paddle é segurado com as mãos e não fica apoiado em um encaixe fixo no barco como um oar."
+    },
+    "kayak": {
+      "sourceWord": "kayak",
+      "senses": {
+        "kayak:meaning-1": {
+          "gloss": "caiaque",
+          "definition": "Embarcação estreita em que a pessoa se senta em posição baixa e rema com uma pá em cada extremidade do remo, muitas vezes com um convés ao redor do assento."
+        }
+      },
+      "examples": [
+        {
+          "en": "The kayak passed under the bridge with one paddler sitting low inside.",
+          "translation": "O caiaque passou sob a ponte com uma pessoa sentada em posição baixa, remando."
+        },
+        {
+          "en": "He put one end of the double-bladed paddle into the water, then the other.",
+          "translation": "Ele colocou uma ponta do remo de duas pás na água e depois a outra."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "paddle a kayak",
+          "translation": "remar um caiaque"
+        },
+        {
+          "en": "a sea kayak",
+          "translation": "um caiaque oceânico"
+        },
+        {
+          "en": "a kayak paddle",
+          "translation": "um remo de caiaque"
+        }
+      ],
+      "tip": "Kayak costuma usar remo de duas pás; canoe geralmente é aberta e usa remo de uma pá. Nem todo caiaque tem um compartimento fechado: o tipo sit-on-top tem assento aberto sobre o casco. Aqui, a palavra nomeia o barco, não o verbo praticar caiaque."
+    },
+    "sailboat": {
+      "sourceWord": "sailboat",
+      "senses": {
+        "sailboat:meaning-1": {
+          "gloss": "veleiro; barco a vela",
+          "definition": "Barco que usa uma ou mais velas para captar o vento e se deslocar pela água."
+        }
+      },
+      "examples": [
+        {
+          "en": "The sailboat crossed the bay with its white sail full of wind.",
+          "translation": "O veleiro atravessou a baía com a vela branca cheia de vento."
+        },
+        {
+          "en": "The crew lowered the sails before entering the harbor.",
+          "translation": "A tripulação baixou as velas antes de entrar no porto."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "sail a sailboat",
+          "translation": "conduzir um veleiro"
+        },
+        {
+          "en": "a small sailboat",
+          "translation": "um veleiro pequeno"
+        },
+        {
+          "en": "a sailboat race",
+          "translation": "uma regata de veleiros"
+        }
+      ],
+      "tip": "Sailboat é o barco a vela; sail é a vela ou o verbo navegar. Pode haver um motor auxiliar, mas a vela é a característica central desse tipo de barco; motorboat se move a motor. Sailing boat também é comum no inglês britânico."
     }
   }
 }

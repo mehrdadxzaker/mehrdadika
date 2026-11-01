@@ -65309,6 +65309,1278 @@
           "reviewerId": "/root/batch4_engineering"
         }
       }
+    },
+    {
+      "entryId": "car",
+      "sourceWord": "car",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "car:meaning-1",
+          "pos": "n.",
+          "en": "A road vehicle with an engine or electric motor, usually used to carry a few people."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We put our bags in the car before leaving.",
+          "senseId": "car:meaning-1"
+        },
+        {
+          "en": "Her car has room for four passengers and a driver.",
+          "senseId": "car:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/car.webp",
+        "sha256": "5b067a9335d510c398c432485f43d116c77f85f2ff47c0292febce8a7c7d9919"
+      },
+      "visual": {
+        "expectedCue": "One generic compact passenger car fully visible in three-quarter front-left view on a pale catalog ground, four attached road wheels with two near wheels and far-side wheels only where visible, coherent axles implied by body not x-ray, closed four-door cabin with clear windshield and side windows, separate short hood and rear luggage area. Safety-orange body panels, graphite tires/chassis; no people, branding, lettering, license-plate characters or duplicate wheels. A realistic catalog drawing, not a flat icon. Teach a passenger car rather than a van or cargo truck.",
+        "decision": "added",
+        "reason": "Actually viewed current1254PNG original,512WebP and separate120PNG against car selected sense/examples and current transport brief. Entire passenger-car silhouette, enclosed cabin, hood/rear luggage area, attached near wheels and visible far-front tire sit on common ground with coherent door/window/body relations. No lettering/logo identified; orange/slate/light-gray graphite contour/hatching catalog style reads120. Far-rear wheel and internal drivetrain/seat capacity/roadworthiness are occluded or unqualified; qualitative passenger-car example only. Human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed current1254PNG original,512WebP and separate120PNG against car selected sense/examples and current transport brief. Entire passenger-car silhouette, enclosed cabin, hood/rear luggage area, attached near wheels and visible far-front tire sit on common ground with coherent door/window/body relations. No lettering/logo identified; orange/slate/light-gray graphite contour/hatching catalog style reads120. Far-rear wheel and internal drivetrain/seat capacity/roadworthiness are occluded or unqualified; qualitative passenger-car example only. Human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:20:30.242Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5b067a9335d510c398c432485f43d116c77f85f2ff47c0292febce8a7c7d9919",
+          "inspectedAt": "2026-11-01T01:21:16.918Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed exact current1254PNG original,512WebP and120PNG against full ENFA/PTBR/es419 car sense/examples and transport brief. One coherent complete passenger sedan with short hood, closed cabin, side doors, windshield/interior seats, rear luggage area, two near-side wheels and a visible far front tire; fourth wheel naturally occluded and not claimed visible. Tires touch one common ground; mirrors/lights/panels remain connected, passenger-car silhouette clear120 versus van/truck. Graphite contours with tactile hatching, pale cool-gray ground and orange body match current catalog medium/palette; no logo, letters or plate characters. Hidden axles, engine/electric powertrain and actual seating capacity not qualified. Suitable only as a fresh physical passenger-car layout/style template after explicit registration; all derivative semantic/text checks still required.",
+          "reviewerId": "parent49-airwater-independent-ai"
+        }
+      }
+    },
+    {
+      "entryId": "taxi",
+      "sourceWord": "taxi",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "taxi:meaning-1",
+          "pos": "n.",
+          "en": "A vehicle with a driver that people pay to take them to a place."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We took a taxi from the station to the hotel.",
+          "senseId": "taxi:meaning-1"
+        },
+        {
+          "en": "The taxi driver helped her put a bag in the back.",
+          "senseId": "taxi:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/taxi.webp",
+        "sha256": "ecb9441aba444f8ff0023fc6d08553610c5d92bc9991f2db51b089259624886f"
+      },
+      "visual": {
+        "expectedCue": "One generic compact passenger car serving as a taxi, fully visible front-left three-quarter catalog view. A LARGE firmly roof-mounted sign reading exactly TAXI (T A X I) is the only text, character-readable at120px. Safety-orange lower body/graphite trim. The car has natural wheels, doors, roof and cabin. No people, logos, numbers, license-plate characters or decorative words; taxi role established by attached essential roof sign, not a brand or universal color claim.",
+        "decision": "added",
+        "reason": "Actually viewed fresh derivative1254PNG original,512WebP and120PNG separately; not inherited from car template. Roof sign is firmly mounted by two feet, exact TAXI allfourcharacters comfortably clear120. Passenger-car body/windows/threevisiblewheels and common ground remain coherent, fourthwheel/internalmechanics hidden. Crisp graphite catalog rendering and orange/slate/cool-gray palette match current brief. Illustrative hired-driver vehicle cue, not proof of licensing/service status/fare or universal taxi color; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed fresh derivative1254PNG original,512WebP and120PNG separately; not inherited from car template. Roof sign is firmly mounted by two feet, exact TAXI allfourcharacters comfortably clear120. Passenger-car body/windows/threevisiblewheels and common ground remain coherent, fourthwheel/internalmechanics hidden. Crisp graphite catalog rendering and orange/slate/cool-gray palette match current brief. Illustrative hired-driver vehicle cue, not proof of licensing/service status/fare or universal taxi color; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:24:11.031Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ecb9441aba444f8ff0023fc6d08553610c5d92bc9991f2db51b089259624886f",
+          "inspectedAt": "2026-11-01T01:26:31.547Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed exact fresh1254PNG original,512WebP and120PNG against full ENFA/PTBR/es419 selected paid-driver transport sense/examples and current brief. Connected complete sedan/cabin/doors/mirrors/lights/two near wheels and far front tire touch common ground; far rear wheel occluded and unqualified. One roof sign has two visible mounting feet, and exact letters T A X I are clear at120, distinguishing hired taxi from generic passenger car and aircraft taxiing. Graphite contours/crosshatching, pale cool-gray ground and orange body fit transport catalog. No extra logo/plate characters. Driver/service availability/licensing/actual passenger capacity and hidden axles not qualified. This fresh derivative has its own inspection; no approval inherited from car template.",
+          "reviewerId": "parent49-airwater-independent-ai"
+        }
+      }
+    },
+    {
+      "entryId": "van",
+      "sourceWord": "van",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "van:meaning-1",
+          "pos": "n.",
+          "en": "A road vehicle with a large enclosed space behind the front seats, used for carrying goods or people."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The delivery van stopped outside the shop.",
+          "senseId": "van:meaning-1"
+        },
+        {
+          "en": "They rented a van to move the boxes together.",
+          "senseId": "van:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/van.webp",
+        "sha256": "18656939c6687b1af3c30500f9fe1f327e7c8c63832ef991c28c860eb57b7a60"
+      },
+      "visual": {
+        "expectedCue": "One generic enclosed delivery van, fully visible three-quarter rear-left view. Tall integrated body joins the front cab to a large FULLY ENCLOSED rear cargo compartment; side sliding-door seam, rear doors physically attached, small front side-window and plain closed cargo-side panels. Dark graphite wheels attached with a coherent common ground shadow, pale gray body with restrained orange door accents. No open pickup bed, cargo piled on roof, people, logos or text.",
+        "decision": "added",
+        "reason": "Actually viewed original1254PNG and converted512WebP/120PNG. Tall integrated enclosed cargo body behind front cab, attached rear-door pair with visible external hinges and sliding-side-door rail distinguish van from open pickup/box truck. Near front/rear wheels and partially visible far tires share coherent grounded perspective; exact hidden axles/hinge internals unqualified. Graphite contour/hatching, cool gray/slate and restrained orange accents fit transport brief. No wording/logo, passenger number/cargo volume/roadworthiness not established; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed original1254PNG and converted512WebP/120PNG. Tall integrated enclosed cargo body behind front cab, attached rear-door pair with visible external hinges and sliding-side-door rail distinguish van from open pickup/box truck. Near front/rear wheels and partially visible far tires share coherent grounded perspective; exact hidden axles/hinge internals unqualified. Graphite contour/hatching, cool gray/slate and restrained orange accents fit transport brief. No wording/logo, passenger number/cargo volume/roadworthiness not established; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:26:56.834Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "18656939c6687b1af3c30500f9fe1f327e7c8c63832ef991c28c860eb57b7a60",
+          "inspectedAt": "2026-11-01T01:27:00.919Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed exact1254PNG original,512WebP and120PNG against full ENFA/PTBR/es419 van text and current profile. One continuous enclosed cargo/passenger-volume body behind front cabin, with roof, side sliding-door track and two rear doors, distinguishes van from open pickup and separate-box large truck. Two near-side wheels and portions of two far-side tires appear on common ground in rear-three-quarter perspective; no transparent internal axles claimed. Door handles/hinges/mirror/lights attach coherently; nose margin tight but vehicle complete. Tall enclosed-body silhouette remains clear120. Crisp graphite contours/hatching, light cool-gray body/ground and orange light accents match catalog brief; no logo/lettering. Unseen cabin/cargo contents, exact axle geometry and seating capacity not qualified; no visible semantic failure.",
+          "reviewerId": "parent49-airwater-independent-ai"
+        }
+      }
+    },
+    {
+      "entryId": "truck",
+      "sourceWord": "truck",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "truck:meaning-1",
+          "pos": "n.",
+          "en": "A large road vehicle used mainly for carrying goods or materials."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A truck brought the new furniture to the warehouse.",
+          "senseId": "truck:meaning-1"
+        },
+        {
+          "en": "The driver parked the truck beside the loading area.",
+          "senseId": "truck:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/truck.webp",
+        "sha256": "99cc0492f535980d6e0151c279c86844284480af23f223e86f80042635154fb4"
+      },
+      "visual": {
+        "expectedCue": "One generic medium box-delivery truck, complete three-quarter front-left catalog view. Separate short driver cab ahead of a LARGE CLOSED rectangular cargo box mounted on a visible chassis; four road wheels, clear supported rear cargo-box corner. Pale gray cargo box, safety-orange cab, graphite contours and visible tire tread. Box and cab physically supported, no floating detached wheel, no trailer, people, logos, lettering or numbers.",
+        "decision": "added",
+        "reason": "Actually viewed currentoriginal1254PNG,512WebP and120PNG separately. Large closed rectangular cargo box visibly rests on chassis behind distinct short cab, with supported mirror arms/steps/near wheels and partial far tires on common ground. Cargo-truck relation reads120, clearly different from integrated van and open pickup. Exact current graphite/slate/orange/cool-gray catalog medium and no lettering/logo. Hidden far wheel/axle details, load capacity/internal propulsion/safety not qualified; illustrative cargo vehicle only, human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed currentoriginal1254PNG,512WebP and120PNG separately. Large closed rectangular cargo box visibly rests on chassis behind distinct short cab, with supported mirror arms/steps/near wheels and partial far tires on common ground. Cargo-truck relation reads120, clearly different from integrated van and open pickup. Exact current graphite/slate/orange/cool-gray catalog medium and no lettering/logo. Hidden far wheel/axle details, load capacity/internal propulsion/safety not qualified; illustrative cargo vehicle only, human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:29:19.814Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "99cc0492f535980d6e0151c279c86844284480af23f223e86f80042635154fb4",
+          "inspectedAt": "2026-11-01T01:29:47.451Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG original,512WebP and120PNG after full ENFA/PTBR/es419 truck text/current transport brief. One road cargo truck has a separate large closed rectangular load box mounted continuously to the chassis behind its cab; front mirrors/windows/steps, underbody guard and wheels attach coherently. Near front/rear tires plus visible far-side tire portions share plausible common ground; exact hidden axles unqualified. Tall box-plus-cab silhouette clearly differs from passenger car/continuous van body at120. Graphite outlines/tactile shading, pale cool-gray load box/ground and orange cab fit catalog profile; no branding/plate characters. Cargo contents, size/load rating and mechanical roadworthiness not claimed; no visible semantic failure.",
+          "reviewerId": "parent49-airwater-independent-ai"
+        }
+      }
+    },
+    {
+      "entryId": "pickup-truck",
+      "sourceWord": "pickup truck",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "pickup-truck:meaning-1",
+          "pos": "n.",
+          "en": "A road vehicle with a passenger cab at the front and an open load area at the back."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pickup truck carried bags of soil to the garden.",
+          "senseId": "pickup-truck:meaning-1"
+        },
+        {
+          "en": "He closed the tailgate of the pickup truck after unloading it.",
+          "senseId": "pickup-truck:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pickup-truck.webp",
+        "sha256": "ab6afb2d7f20e0e4559e42d0712abc22525b36cfe55a33dd53343dee31dc894b"
+      },
+      "visual": {
+        "expectedCue": "One generic pickup truck, fully visible elevated three-quarter rear-left view. A passenger cab with two side doors and windows at front, and a clearly OPEN TOP REAR LOAD BED immediately behind it, empty so the bed floor and sidewalls are easily visible; attached upright closed tailgate. Four correctly attached wheels, coherent chassis/support and graphite tires; safety-orange body accents on pale gray catalog ground. No canopy covering bed, no cargo load, no people, logos or text.",
+        "decision": "added",
+        "reason": "Actually viewed current1254PNG,512WebP and120PNG separately. Elevated rear view reveals empty open-top rear cargo bed floor and sidewalls behind enclosed passenger cab; attached upright tailgate, near wheels and partial far rear tire grounded coherently. Pickup cue obvious120 versus closed van/box truck; tight outer nose margin does not hide selected open-bed/cab relation. Current precise graphite/slate/orange/cool-gray catalog style, no lettering/logo. Hiddenfarfront wheel, exact bed dimensions/latches/loadcapacity or driving safety unqualified; no human approval.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed current1254PNG,512WebP and120PNG separately. Elevated rear view reveals empty open-top rear cargo bed floor and sidewalls behind enclosed passenger cab; attached upright tailgate, near wheels and partial far rear tire grounded coherently. Pickup cue obvious120 versus closed van/box truck; tight outer nose margin does not hide selected open-bed/cab relation. Current precise graphite/slate/orange/cool-gray catalog style, no lettering/logo. Hiddenfarfront wheel, exact bed dimensions/latches/loadcapacity or driving safety unqualified; no human approval."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:31:16.696Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ab6afb2d7f20e0e4559e42d0712abc22525b36cfe55a33dd53343dee31dc894b",
+          "inspectedAt": "2026-11-01T01:31:15.342Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG original,512WebP and120PNG after full ENFA/PTBR/es419 pickup-truck text/current transport brief. One passenger cab in front is visibly separated from a broad open-topped rear load bed: continuous bed floor, two sides, front bulkhead and closed tailgate form coherent space, with no van roof. Rear-three-quarter view keeps open bed especially clear120; tailgate handle/lights, doors/cab glazing/mirrors and visible tires attach coherently. Tires meet common ground, far-side tires partly occluded and no hidden-axle claim. Graphite contours/hatching, pale cool-gray ground and orange body match catalog palette; no logos/letters/plate characters. Exact load capacity, unseen suspension and construction not qualified; no visible semantic failure.",
+          "reviewerId": "parent49-airwater-independent-ai"
+        }
+      }
+    },
+    {
+      "entryId": "motorcycle",
+      "sourceWord": "motorcycle",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "motorcycle:meaning-1",
+          "pos": "n.",
+          "en": "A motor vehicle with two wheels, one behind the other, that a rider sits on and steers with handlebars."
+        }
+      ],
+      "examples": [
+        {
+          "en": "She parked her motorcycle beside the garage.",
+          "senseId": "motorcycle:meaning-1"
+        },
+        {
+          "en": "He put on a helmet before riding the motorcycle.",
+          "senseId": "motorcycle:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/motorcycle.webp",
+        "sha256": "f0f6836db463c7d23b98e28a9423e1932df4fdd405bf4d0ca6335dac52b7a0c1"
+      },
+      "visual": {
+        "expectedCue": "One generic road motorcycle, full slight three-quarter side catalog view. TWO wheels one behind the other, visible coherent front steering fork joining the handlebar/head tube to front axle, main frame joining rear swingarm/wheel, engine mass mounted within frame, single stepped seat atop frame, one fuel-tank shape between seat and head tube, two visible hand grips. All wheels/ground contacts and parked side stand coherent. Graphite body/contours with safety-orange tank accents. No wheels cut off, floating handlebar, extra pedals, people, logos, text or labels.",
+        "decision": "added",
+        "reason": "Actually viewed1254PNG original,512WebP and120PNG. Two aligned grounded wheels connected through visible main frame/engine region, rear swingarm and front fork/headtube/handlebar; supported stepped saddle/tank, attached mirrors/grips and grounded side stand. Mounted exterior brake discs/caliper and exhaust are coherent qualitative external components, no invented cutaway internals. Motorcycle silhouette strong120, no pedal vehicle/standing scooter ambiguity, exact graphite/orange/slate/coolgray brief and no lettering/logo. Hidden driveline/internal engine, dimensions/roadworthiness/operating safety unqualified; human pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed1254PNG original,512WebP and120PNG. Two aligned grounded wheels connected through visible main frame/engine region, rear swingarm and front fork/headtube/handlebar; supported stepped saddle/tank, attached mirrors/grips and grounded side stand. Mounted exterior brake discs/caliper and exhaust are coherent qualitative external components, no invented cutaway internals. Motorcycle silhouette strong120, no pedal vehicle/standing scooter ambiguity, exact graphite/orange/slate/coolgray brief and no lettering/logo. Hidden driveline/internal engine, dimensions/roadworthiness/operating safety unqualified; human pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:33:28.343Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f0f6836db463c7d23b98e28a9423e1932df4fdd405bf4d0ca6335dac52b7a0c1",
+          "inspectedAt": "2026-11-01T01:35:16.824Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed exact current1254PNG original,512WebP and120PNG after full ENFA/PTBR/es419 motorcycle text/current transport brief. Two aligned road wheels connect through front fork and rear swingarm to one continuous frame supporting saddle, fuel-tank-shaped body and visible engine. Handlebars/mirrors/headlamp join fork/steering assembly; visible external front caliper lies beside/over disc rather than an invented internal cutaway. Kickstand visibly supports frame at ground and both tires share ground. Rear chain segment is partly occluded, so complete drivetrain not certified. Engine/straddle-seat silhouette remains clear120 versus bicycle or seated step-through scooter. Crisp graphite contours/hatching, orange tank/panels and pale cool-gray ground match catalog brief; no logo/letters/plate characters. Hidden mechanics and roadworthiness not qualified; no visible semantic failure.",
+          "reviewerId": "parent49-airwater-independent-ai"
+        }
+      }
+    },
+    {
+      "entryId": "scooter",
+      "sourceWord": "scooter",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "scooter:meaning-1",
+          "pos": "n.",
+          "en": "A small motor vehicle with two wheels, a seat, and a low space in front of the seat for the rider’s feet."
+        }
+      ],
+      "examples": [
+        {
+          "en": "She rode a scooter along the quiet street.",
+          "senseId": "scooter:meaning-1"
+        },
+        {
+          "en": "The scooter had a flat space for the rider’s feet.",
+          "senseId": "scooter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/scooter.webp",
+        "sha256": "cbeb41f4b18c858157ae3f84c1007a88a9c29692fc41e5de55ebcb3e6931e85d"
+      },
+      "visual": {
+        "expectedCue": "One seated MOTOR SCOOTER, full slight three-quarter side catalog view. Two small attached wheels one behind another, a padded seat at rear, broad LOW horizontal FOOTBOARD in FRONT OF THE SEAT and a genuinely open STEP-THROUGH space above the footboard, front leg shield joining handlebar column and front wheel fork, enclosed rear motor housing. Supported parked stand and coherent wheels. Safety-orange leg shield with gray/graphite contours. Clearly a seated motoneta, NOT a standing kick scooter or conventional motorcycle with a top tank across the leg gap. No people, logos or text.",
+        "decision": "added",
+        "reason": "Actually viewed current1254PNG,512WebP and120PNG. Padded rear seat, low broad footboard ahead of seat and genuinely open step-through gap connect to front legshield/handlebar column; two attached small wheels, enclosed rear motor housing and grounded parked stand coherent. Seated motor-scooter cue clear120 versus standing kick scooter and straddled-tank motorcycle. Precise graphite/slate/safetyorange/coolgray catalog style, no lettering or logo. Hiddensteering/driveline, stand far-side details and actualroadworthiness/safety unqualified; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed current1254PNG,512WebP and120PNG. Padded rear seat, low broad footboard ahead of seat and genuinely open step-through gap connect to front legshield/handlebar column; two attached small wheels, enclosed rear motor housing and grounded parked stand coherent. Seated motor-scooter cue clear120 versus standing kick scooter and straddled-tank motorcycle. Precise graphite/slate/safetyorange/coolgray catalog style, no lettering or logo. Hiddensteering/driveline, stand far-side details and actualroadworthiness/safety unqualified; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:36:12.595Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "cbeb41f4b18c858157ae3f84c1007a88a9c29692fc41e5de55ebcb3e6931e85d",
+          "inspectedAt": "2026-11-01T01:36:44.104Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG original,512WebP and120PNG after full ENFA/PTBR/es419 selected motor-scooter text/current transport brief. One seated step-through motor scooter has two aligned tires, visible low flat foot platform in front of saddle, front leg shield, handlebars and enclosed motor/exhaust near rear wheel. Wheels/fork/body/seat join coherently and grounded stand supports it; foot platform remains clear120 versus straddle motorcycle or standing kick scooter. Mirrors/headlamp/brake levers attach coherently, front disc visible with no invented cutaway internals. Graphite contours/crosshatching, orange body and pale cool-gray ground match catalog brief; no logos/letters. Far fork/brake-caliper details and hidden powertrain not qualified; no visible semantic failure.",
+          "reviewerId": "parent49-airwater-independent-ai"
+        }
+      }
+    },
+    {
+      "entryId": "fire-engine",
+      "sourceWord": "fire engine",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "fire-engine:meaning-1",
+          "pos": "n.",
+          "en": "A vehicle that firefighters use to carry equipment and travel to fires."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A fire engine stopped outside the building.",
+          "senseId": "fire-engine:meaning-1"
+        },
+        {
+          "en": "The firefighters took a hose from the fire engine.",
+          "senseId": "fire-engine:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/fire-engine.webp",
+        "sha256": "ba97013d2d401b3f02f9d2c0b92b56b726831862812188bfc227be3a4249d0b8"
+      },
+      "visual": {
+        "expectedCue": "One generic fire-service truck fully visible in three-quarter front-left catalog view, graphite contours and safety-orange body. Compact crew cab, supported rear equipment body with clear open equipment compartment containing COILED FIRE HOSE and a short ladder firmly stowed horizontally on attached roof racks. Coils rest on shelf, rack supports visibly connect to body, four road wheels attached on common ground. Small unlettered emergency light units on cab roof, no flashing rays or active emergency scene. No waterjet, people, logos, numbers, decorative text or need for a tall extending aerial ladder. Teach firefighter equipment vehicle rather than a generic box truck.",
+        "decision": "added",
+        "reason": "Actually viewed current1254PNG,512WebP and120PNG. Crew cab connects to supported equipment body; open compartment visibly carries coiled fire hose on shelf and cases, with stowed roof ladder secured on attached racks and a roof lightbar. Attached wheels and common ground coherent; firefighter vehicle cue remains clear120 rather than generic box truck. Exact graphite/slate/orange/coolgray catalog medium; no readable brand, plate identity or decorative wording identified. Hidden rack/hoselatch internals, pumpoperation, equipment standard/loadratings/actual emergency use unqualified; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed current1254PNG,512WebP and120PNG. Crew cab connects to supported equipment body; open compartment visibly carries coiled fire hose on shelf and cases, with stowed roof ladder secured on attached racks and a roof lightbar. Attached wheels and common ground coherent; firefighter vehicle cue remains clear120 rather than generic box truck. Exact graphite/slate/orange/coolgray catalog medium; no readable brand, plate identity or decorative wording identified. Hidden rack/hoselatch internals, pumpoperation, equipment standard/loadratings/actual emergency use unqualified; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:39:13.845Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ba97013d2d401b3f02f9d2c0b92b56b726831862812188bfc227be3a4249d0b8",
+          "inspectedAt": "2026-11-01T01:40:09.257Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed exact current1254PNG original,512WebP and120PNG after full ENFA/PTBR/es419 fire-engine text/current transport brief. One complete crew-cab fire-service truck has a roof lightbar on mounting feet, stowed ladder sections held by connected roof racks, and an open side compartment with two coiled fire hoses resting on a shelf plus visible fittings/equipment. These cues remain recognizable120 and distinguish whole firefighting vehicle from generic cargo truck or isolated motor. Cab/windows/mirrors/steps, storage body and visible near/far tires form one supported chassis at common ground. Graphite contours/hatching, orange body and pale cool-gray ground match catalog brief. No readable plate identity or logo is claimed; front plate-like panel contains nonlinguistic hatch texture. Hidden pumping/water connections, equipment fastening strength, response safety and roadworthiness not qualified. No visible semantic failure.",
+          "reviewerId": "parent49-airwater-independent-ai"
+        }
+      }
+    },
+    {
+      "entryId": "bus",
+      "sourceWord": "bus",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "bus:meaning-1",
+          "pos": "n.",
+          "en": "A large road vehicle that carries passengers, often on a regular route with several stops."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bus stopped outside the library.",
+          "senseId": "bus:meaning-1"
+        },
+        {
+          "en": "We took the last bus home after the concert.",
+          "senseId": "bus:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bus.webp",
+        "sha256": "69e8a06a13327c36b256d328eaee3f6fe236eecd48bad9292f3e427280edcb21"
+      },
+      "visual": {
+        "expectedCue": "Large city passenger bus on rubber tires with two doors and long window row; clearly distinct from small minibus and high-floor coach.",
+        "decision": "added",
+        "reason": "Viewed actual 1254px original, 512px WebP and 120px PNG: a long city passenger bus with rubber tires, broad passenger window row, front and mid-body entry doors, coherent body and wheel contacts. No rail or overhead wire. The broad doors and low-floor shape remain legible at 120px; pale field, graphite outlines and orange lower band match the transport catalog profile. No text/logo found. AI-only review; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Viewed actual 1254px original, 512px WebP and 120px PNG: a long city passenger bus with rubber tires, broad passenger window row, front and mid-body entry doors, coherent body and wheel contacts. No rail or overhead wire. The broad doors and low-floor shape remain legible at 120px; pale field, graphite outlines and orange lower band match the transport catalog profile. No text/logo found. AI-only review; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:19:11.915Z",
+        "reviewerId": "parent49-transit-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "69e8a06a13327c36b256d328eaee3f6fe236eecd48bad9292f3e427280edcb21",
+          "inspectedAt": "2026-11-01T01:21:14.523Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG,512WebP and120PNG against bus selected meaning/examples and exacttransport brief. Large low-window road passenger body, visible rows of seats/handrails, two attached passenger doorway assemblies and grounded wheels make city-bus example clear120. Cabin/window/door/mirror supports coherent, no rails or overheadcollector, no lettering/logo. Crisp graphite/slate/orange/light-gray catalog rendering fits. Hiddenfar wheels/internal driveline, capacity, actual route/timetable or boarding safety are not established; no human/live approval.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "coach",
+      "sourceWord": "coach",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "coach:meaning-1",
+          "pos": "n.",
+          "en": "A bus with comfortable seats used especially for longer journeys between towns or cities."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Our coach left for the coast early in the morning.",
+          "senseId": "coach:meaning-1"
+        },
+        {
+          "en": "The driver placed our suitcases in the luggage compartment below the seats.",
+          "senseId": "coach:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/coach.webp",
+        "sha256": "fb04c33e2a858d60bebfacd44818397a692766c76e23c0a7d51135c9d90fa481"
+      },
+      "visual": {
+        "expectedCue": "High-floor long-distance passenger coach with high window row and accessible lower luggage bay, contrasting a low-floor city bus.",
+        "decision": "added",
+        "reason": "Viewed actual 1254px original, 512px WebP and 120px PNG. High-floor long-distance passenger coach has continuous high windows, visible comfortable seat backs, single front entrance and open lower luggage bay containing two suitcases. Body, wheels and luggage hatch cohere; distinct from the earlier low-floor two-door city bus at 120px. Pale background, graphite contours and orange accents match profile. No text/logo observed. AI-only review with human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Viewed actual 1254px original, 512px WebP and 120px PNG. High-floor long-distance passenger coach has continuous high windows, visible comfortable seat backs, single front entrance and open lower luggage bay containing two suitcases. Body, wheels and luggage hatch cohere; distinct from the earlier low-floor two-door city bus at 120px. Pale background, graphite contours and orange accents match profile. No text/logo observed. AI-only review with human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:20:04.252Z",
+        "reviewerId": "parent49-transit-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "fb04c33e2a858d60bebfacd44818397a692766c76e23c0a7d51135c9d90fa481",
+          "inspectedAt": "2026-11-01T01:22:42.181Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually viewed current1254PNG,512WebP and120PNG against coach passenger-vehicle sense/examples/profile. High passenger seats/windows, one front door and luggage compartment visibly below seats with two supported suitcases differentiate long-distance coach from lower city-bus study at120. Bay lid is hinged and supported by visible struts; body/mirrors/near wheels meet coherently. Precise graphite/slate/orange/light-gray catalog medium, no wording/logos. Hidden far-side wheels/latches/actual comfort, capacity or operating safety unqualified; no human/live approval.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "tram",
+      "sourceWord": "tram",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "tram:meaning-1",
+          "pos": "n.",
+          "en": "An electric passenger vehicle that runs on rails, usually along city streets."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tram crossed the square on its rails.",
+          "senseId": "tram:meaning-1"
+        },
+        {
+          "en": "We got off at the next stop and walked to the market.",
+          "senseId": "tram:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tram.webp",
+        "sha256": "c7aa9d790fb017c2fbd417b7c1c300bc6fb54be737578aeb7da9cb75804c439f"
+      },
+      "visual": {
+        "expectedCue": "Street passenger tram physically on two rails, with one roof pantograph making coherent contact with one overhead supply wire.",
+        "decision": "added",
+        "reason": "Viewed actual original1254, card512 and thumbnail120. Articulated street passenger tram visibly rests with rail wheel bogies on two steel rails; a single diamond pantograph has a top contact bar touching the one overhead wire. Rails and roof power connection remain clear at120, distinct from trackless trolleybus. Coherent body, doors and windows, pale field, graphite contours and safety-orange accents; no text/logo. AI-only inspection; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Viewed actual original1254, card512 and thumbnail120. Articulated street passenger tram visibly rests with rail wheel bogies on two steel rails; a single diamond pantograph has a top contact bar touching the one overhead wire. Rails and roof power connection remain clear at120, distinct from trackless trolleybus. Coherent body, doors and windows, pale field, graphite contours and safety-orange accents; no text/logo. AI-only inspection; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:20:49.963Z",
+        "reviewerId": "parent49-transit-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c7aa9d790fb017c2fbd417b7c1c300bc6fb54be737578aeb7da9cb75804c439f",
+          "inspectedAt": "2026-11-01T01:29:22.947Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually opened and viewed exact current1254PNG original,512WebP and120PNG separately, after reading complete ENFA/PTBR/es419 selected sense, examples, collocations and usage distinctions and current transport profile. One connected articulated street tram has visible steel bogie wheels aligned to paired embedded street rails; roof-mounted diamond pantograph reaches the overhead wire with its top collector. Articulation bellows, glazing/doors, undercarriage and collector joints trace coherently. Rails, pantograph and tram silhouette remain distinct120 versus rubber-tire trolleybus. Far wheel/rail contacts and collector internals are partially hidden and not qualified. Crisp graphite contours/technical catalog shading, pale cool-gray/light body areas and safety-orange accents match current transport brief; no labels/logos/fake readings. AI-only preview, independent human/domain review remains pending.",
+          "reviewerId": "parent49-airwater-independent-ai"
+        }
+      }
+    },
+    {
+      "entryId": "trolleybus",
+      "sourceWord": "trolleybus",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "trolleybus:meaning-1",
+          "pos": "n.",
+          "en": "An electric bus with rubber tires that takes power from overhead wires through two poles on its roof."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The trolleybus turned along the street beneath the overhead wires.",
+          "senseId": "trolleybus:meaning-1"
+        },
+        {
+          "en": "Its two roof poles each touched a separate wire.",
+          "senseId": "trolleybus:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/trolleybus.webp",
+        "sha256": "0809f8b7f49999ce66d8f8e6ab3b1bd9723ea4480d9f0775167bd876ab18ac6f"
+      },
+      "visual": {
+        "expectedCue": "Rubber-tired trackless trolleybus, exactly two roof trolley poles each touching a different overhead wire; no tram rails.",
+        "decision": "added",
+        "reason": "Viewed actual original1254/card512/thumbnail120. Trackless passenger bus has rubber tires and no rails. Exactly two separately mounted roof poles rise to two separate parallel overhead wires; each shoe contacts its own wire. Upper pole crosses lower wire only in projected view, then terminates on the upper wire. Both contacts and separation are legible; two-pole cue survives120. Coherent body/wheels; pale background, graphite outlines, safety-orange band/poles, no text/logo. AI-only inspection; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Viewed actual original1254/card512/thumbnail120. Trackless passenger bus has rubber tires and no rails. Exactly two separately mounted roof poles rise to two separate parallel overhead wires; each shoe contacts its own wire. Upper pole crosses lower wire only in projected view, then terminates on the upper wire. Both contacts and separation are legible; two-pole cue survives120. Coherent body/wheels; pale background, graphite outlines, safety-orange band/poles, no text/logo. AI-only inspection; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:22:00.711Z",
+        "reviewerId": "parent49-transit-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0809f8b7f49999ce66d8f8e6ab3b1bd9723ea4480d9f0775167bd876ab18ac6f",
+          "inspectedAt": "2026-11-01T01:29:22.958Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually opened and viewed exact current1254PNG original,512WebP and120PNG separately, after reading complete ENFA/PTBR/es419 selected sense, examples, collocations and usage distinctions and current transport profile. One connected rubber-tire bus stands on an ordinary paved lane with white road markings, no rails. Two distinct roof-mounted poles end in separate collector shoes on two visibly separated overhead wires: higher pole tip touches upper wire and lower pole tip lower wire. High pole merely crosses the lower wire in projection without an attachment there. Pole bases, wheels/cabin/windows cohere; two-wire/two-pole cue remains readable120. Hidden electrical return circuitry and insulated shoe internals unqualified. Crisp graphite contours/technical catalog shading, pale cool-gray/light body areas and safety-orange accents match current transport brief; no labels/logos/fake readings. AI-only preview, independent human/domain review remains pending.",
+          "reviewerId": "parent49-airwater-independent-ai"
+        }
+      }
+    },
+    {
+      "entryId": "minibus",
+      "sourceWord": "minibus",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "minibus:meaning-1",
+          "pos": "n.",
+          "en": "A small bus that carries fewer passengers than a full-size bus."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A minibus took our group from the hotel to the museum.",
+          "senseId": "minibus:meaning-1"
+        },
+        {
+          "en": "There was room for everyone, but little space for large suitcases.",
+          "senseId": "minibus:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/minibus.webp",
+        "sha256": "cdaf785edc9bd1d71eab7928e35bce0ec59eb830119ef1a0945c9f3396e588c2"
+      },
+      "visual": {
+        "expectedCue": "Compact small passenger bus with short body, passenger entry and several windowed seat rows; no cargo van panels.",
+        "decision": "added",
+        "reason": "Viewed actual original1254/card512/thumbnail120. Compact short passenger bus with three side passenger window bays, visible seat rows and narrow front passenger door; small bus proportions clearly differ from full-size city bus and high coach. Rubber tires/body/door cohere; no cargo side panels, rails, wires, text or logo. Short windowed passenger body remains legible120. Pale field, graphite outlines and orange lower band match transport profile. AI-only review; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Viewed actual original1254/card512/thumbnail120. Compact short passenger bus with three side passenger window bays, visible seat rows and narrow front passenger door; small bus proportions clearly differ from full-size city bus and high coach. Rubber tires/body/door cohere; no cargo side panels, rails, wires, text or logo. Short windowed passenger body remains legible120. Pale field, graphite outlines and orange lower band match transport profile. AI-only review; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:22:32.649Z",
+        "reviewerId": "parent49-transit-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "cdaf785edc9bd1d71eab7928e35bce0ec59eb830119ef1a0945c9f3396e588c2",
+          "inspectedAt": "2026-11-01T01:29:22.967Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually opened and viewed exact current1254PNG original,512WebP and120PNG separately, after reading complete ENFA/PTBR/es419 selected sense, examples, collocations and usage distinctions and current transport profile. One short passenger-bus body with only a few rows visible through side windows, tall boarding door/step and compact wheelbase clearly represents small bus rather than cargo van. Two near wheels and partially visible far tires contact common ground; mirrors/handrail/door/seat supports are coherent. Compact silhouette/window rows remain clear120. Exact passenger capacity, unseen seats and comparative real dimensions are not claimed. Crisp graphite contours/technical catalog shading, pale cool-gray/light body areas and safety-orange accents match current transport brief; no labels/logos/fake readings. AI-only preview, independent human/domain review remains pending.",
+          "reviewerId": "parent49-airwater-independent-ai"
+        }
+      }
+    },
+    {
+      "entryId": "subway",
+      "sourceWord": "subway",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "subway:meaning-1",
+          "pos": "n.",
+          "en": "An urban railway system that runs at least partly underground; the usual American word for this system."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The subway took us across the city in twenty minutes.",
+          "senseId": "subway:meaning-1"
+        },
+        {
+          "en": "We walked down the stairs to the underground platform.",
+          "senseId": "subway:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/subway.webp",
+        "sha256": "6ea6ff3ba44846fb95f4fe4ac7146bf3d2cbe8cf7ce0ec09da81035e0b2fbc45"
+      },
+      "visual": {
+        "expectedCue": "Urban passenger train on rails inside an enclosed underground tunnel/platform, explicitly teaching US subway railway sense rather than pedestrian underpass.",
+        "decision": "added",
+        "reason": "Viewed actual original1254/card512/thumbnail120. Urban passenger train rests on steel rails beside a platform under a fully enclosed arched tunnel; no open sky. Long window/door row and underground setting clearly teach the US railway sense, not a pedestrian underpass, at120. Wheels/rails and front coupler are coherent. Graphite tunnel adds needed context while pale body and orange doors retain catalog palette; no text/logo. AI-only review; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Viewed actual original1254/card512/thumbnail120. Urban passenger train rests on steel rails beside a platform under a fully enclosed arched tunnel; no open sky. Long window/door row and underground setting clearly teach the US railway sense, not a pedestrian underpass, at120. Wheels/rails and front coupler are coherent. Graphite tunnel adds needed context while pale body and orange doors retain catalog palette; no text/logo. AI-only review; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:23:07.042Z",
+        "reviewerId": "parent49-transit-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6ea6ff3ba44846fb95f4fe4ac7146bf3d2cbe8cf7ce0ec09da81035e0b2fbc45",
+          "inspectedAt": "2026-11-01T01:29:22.976Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually opened and viewed exact current1254PNG original,512WebP and120PNG separately, after reading complete ENFA/PTBR/es419 selected sense, examples, collocations and usage distinctions and current transport profile. An urban passenger train sits on paired rails beside a bounded platform under a clearly arched underground tunnel roof. Visible bogie wheels meet the rails; doors, front coupling and glazing connect coherently. Tunnel/platform/train relationship remains clear120 and teaches railway-system sense rather than pedestrian underpass; rear train continues out of frame. Underground context necessarily darkens the slate scene, while cool-gray body and orange doors retain transport palette. Unseen system extent, traction supply and hidden wheels unqualified. Crisp graphite contours/technical catalog shading, pale cool-gray/light body areas and safety-orange accents match current transport brief; no labels/logos/fake readings. AI-only preview, independent human/domain review remains pending.",
+          "reviewerId": "parent49-airwater-independent-ai"
+        }
+      }
+    },
+    {
+      "entryId": "locomotive",
+      "sourceWord": "locomotive",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "locomotive:meaning-1",
+          "pos": "n.",
+          "en": "A powered railway vehicle used to pull or push the carriages or wagons of a train."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The locomotive pulled a line of freight wagons out of the yard.",
+          "senseId": "locomotive:meaning-1"
+        },
+        {
+          "en": "The driver climbed into the cab before departure.",
+          "senseId": "locomotive:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/locomotive.webp",
+        "sha256": "eb8b5e873d68570ed0025590eb67b9d6fad34199a2d132aa3b4c3f207349f954"
+      },
+      "visual": {
+        "expectedCue": "Powered diesel railway engine with cab, long engine hood, ventilation grilles, rail bogies and coupling, no passenger windows.",
+        "decision": "added",
+        "reason": "Viewed actual original1254/card512/thumbnail120. Separate diesel railway engine has a raised driving cab, long enclosed engine hood with ventilation grilles, two coherent rail bogies and front coupling; no passenger-window row. Engine silhouette is clearly legible120 and distinct from passenger carriage. Wheels rest on rails; pale field, graphite line/shading and safety-orange stripe/rails match profile. No words/logo. AI-only inspection; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Viewed actual original1254/card512/thumbnail120. Separate diesel railway engine has a raised driving cab, long enclosed engine hood with ventilation grilles, two coherent rail bogies and front coupling; no passenger-window row. Engine silhouette is clearly legible120 and distinct from passenger carriage. Wheels rest on rails; pale field, graphite line/shading and safety-orange stripe/rails match profile. No words/logo. AI-only inspection; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:23:48.968Z",
+        "reviewerId": "parent49-transit-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "eb8b5e873d68570ed0025590eb67b9d6fad34199a2d132aa3b4c3f207349f954",
+          "inspectedAt": "2026-11-01T01:29:22.984Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually opened and viewed exact current1254PNG original,512WebP and120PNG separately, after reading complete ENFA/PTBR/es419 selected sense, examples, collocations and usage distinctions and current transport profile. One separate powered-looking locomotive has a driver cab, long machinery hood with large vents, roof exhaust/air horns and front coupler/handrails, with no row of passenger windows. Two coherent bogies each have three near-side steel wheels aligned to visible rail; springs/frame trace to chassis. Cab/hood/bogies distinguish locomotive from passenger carriage at120. Entire vehicle fits with tight rear margin. Internal engine/traction and far-side wheel contacts not mechanically qualified; no wagons needed to identify locomotive noun. Crisp graphite contours/technical catalog shading, pale cool-gray/light body areas and safety-orange accents match current transport brief; no labels/logos/fake readings. AI-only preview, independent human/domain review remains pending.",
+          "reviewerId": "parent49-airwater-independent-ai"
+        }
+      }
+    },
+    {
+      "entryId": "railway-carriage",
+      "sourceWord": "railway carriage",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "railway-carriage:meaning-1",
+          "pos": "n.",
+          "en": "A vehicle forming part of a train in which passengers sit or travel."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Our railway carriage had seats facing each other across a table.",
+          "senseId": "railway-carriage:meaning-1"
+        },
+        {
+          "en": "We walked through the connecting door to the next carriage.",
+          "senseId": "railway-carriage:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/railway-carriage.webp",
+        "sha256": "2788bef086b31af29619d2ab7624cc02b557db1b5206102bba77556578463950"
+      },
+      "visual": {
+        "expectedCue": "Single unpowered passenger rail carriage with windows, seats, end gangway and couplers, distinct from powered locomotive and freight wagon.",
+        "decision": "added",
+        "reason": "Viewed actual1254 original/512WebP/120PNG. Single passenger railway carriage has a long passenger-window row with visible seat backs, orange end entry doors, coherent bogies resting on rails and end gangway/couplings. No engine hood, driving cab or freight load; clearly separate unpowered passenger car rather than locomotive, legible120. Pale field, graphite contours and safety-orange details match profile. No words/logo. AI-only inspection; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Viewed actual1254 original/512WebP/120PNG. Single passenger railway carriage has a long passenger-window row with visible seat backs, orange end entry doors, coherent bogies resting on rails and end gangway/couplings. No engine hood, driving cab or freight load; clearly separate unpowered passenger car rather than locomotive, legible120. Pale field, graphite contours and safety-orange details match profile. No words/logo. AI-only inspection; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:24:25.949Z",
+        "reviewerId": "parent49-transit-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2788bef086b31af29619d2ab7624cc02b557db1b5206102bba77556578463950",
+          "inspectedAt": "2026-11-01T01:29:22.992Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently actually opened and viewed exact current1254PNG original,512WebP and120PNG separately, after reading complete ENFA/PTBR/es419 selected sense, examples, collocations and usage distinctions and current transport profile. One complete passenger rail carriage has a continuous window row with visible seat backs, end vestibule/gangway and coupling/buffers; no driver cab or large machinery hood. Two connected two-axle near-side bogies place steel wheels on one coherent rail with opposite rail visible. End steps/doors/underframe support cohere, passenger-carriage silhouette readable120 versus locomotive/freight wagon. Example table is not claimed visible and adjacent carriage is not shown; hidden wheelsets/coupling loads unqualified. Crisp graphite contours/technical catalog shading, pale cool-gray/light body areas and safety-orange accents match current transport brief; no labels/logos/fake readings. AI-only preview, independent human/domain review remains pending.",
+          "reviewerId": "parent49-airwater-independent-ai"
+        }
+      }
+    },
+    {
+      "entryId": "airplane",
+      "sourceWord": "airplane",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "airplane:meaning-1",
+          "pos": "n.",
+          "en": "A powered aircraft with fixed wings that carries people or goods through the air."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The airplane carried passengers across the ocean.",
+          "senseId": "airplane:meaning-1"
+        },
+        {
+          "en": "We watched it take off from the runway.",
+          "senseId": "airplane:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/airplane.webp",
+        "sha256": "c9b453a00909f51e4b66f40c71bce18e1c39a333413f84edce7bbf797ecdbe80"
+      },
+      "visual": {
+        "expectedCue": "A powered fixed-wing aircraft: connected fuselage, two fixed swept wings, two attached underwing engines, tailplane and upright tail fin; no helicopter rotor.",
+        "decision": "added",
+        "reason": "Actually viewed cached1254PNG original at original detail,512WebP and120PNG individually. One coherent jet fuselage with two fixed swept wings, two underwing engines on visible pylons, complete horizontal stabilizers and upright tail; cockpit/passenger windows follow body, no rotor. Both wingtips/tail/engines remain readable120; propulsion/fixed-wing silhouette clearly differs from helicopter and motorless glider. Graphite contours, light cool-gray ground/body and restrained safety-orange tail/wingtip accents match transport catalog brief; no logo/text. Near wing-root fairing and unseen mechanisms are not structural qualification; no visible semantic failure.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed cached1254PNG original at original detail,512WebP and120PNG individually. One coherent jet fuselage with two fixed swept wings, two underwing engines on visible pylons, complete horizontal stabilizers and upright tail; cockpit/passenger windows follow body, no rotor. Both wingtips/tail/engines remain readable120; propulsion/fixed-wing silhouette clearly differs from helicopter and motorless glider. Graphite contours, light cool-gray ground/body and restrained safety-orange tail/wingtip accents match transport catalog brief; no logo/text. Near wing-root fairing and unseen mechanisms are not structural qualification; no visible semantic failure."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:19:11.930Z",
+        "reviewerId": "parent49-airwater-author-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c9b453a00909f51e4b66f40c71bce18e1c39a333413f84edce7bbf797ecdbe80",
+          "inspectedAt": "2026-11-01T01:25:40.529Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original,512WebP and120PNG. Fixed-wing airliner has two connected swept wings, two visibly attached underwing engines, coherent fuselage, tailplane and vertical fin. Engine/wings silhouette clearly survives120 and differs from rotor helicopter and motorless glider. Crisp catalog contours and pale/graphite/safety-orange palette are consistent; no text/logo/watermark observed. AI-only second review; independent human/domain review pending.",
+          "reviewerId": "parent49-transit-independent-reviewer"
+        }
+      }
+    },
+    {
+      "entryId": "helicopter",
+      "sourceWord": "helicopter",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "helicopter:meaning-1",
+          "pos": "n.",
+          "en": "An aircraft lifted by large rotating blades above its body, able to take off vertically and stay in one place in the air."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The helicopter rose straight up from the landing pad.",
+          "senseId": "helicopter:meaning-1"
+        },
+        {
+          "en": "The pilot kept it above the field while the crew looked down.",
+          "senseId": "helicopter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/helicopter.webp",
+        "sha256": "f26ae235f82043ac9550a0fb57912d32012fe8acca1b7a3a637f2dbe4e17f890"
+      },
+      "visual": {
+        "expectedCue": "A helicopter with main rotor attached to top mast, tail rotor, connected cabin/tail boom and supported landing skids; no fixed airliner wings.",
+        "decision": "added",
+        "reason": "Actually viewed1254PNG original separately at original detail and512WebP/120PNG. One connected civilian cabin/tail boom, main rotor mast/hub with four attached blades, small tail-rotor hub/blades and two grounded skids joined by struts. Rotor versus fixed-wing aircraft distinction survives120; full blade tips and tail fit, cabin/glazing/seat geometry coherent. Light cool gray body/ground, graphite contours and orange accents follow transport catalog profile, no text/logos. Linkages are simplified and hidden drivetrain/airworthiness are unqualified; no visible semantic failure.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed1254PNG original separately at original detail and512WebP/120PNG. One connected civilian cabin/tail boom, main rotor mast/hub with four attached blades, small tail-rotor hub/blades and two grounded skids joined by struts. Rotor versus fixed-wing aircraft distinction survives120; full blade tips and tail fit, cabin/glazing/seat geometry coherent. Light cool gray body/ground, graphite contours and orange accents follow transport catalog profile, no text/logos. Linkages are simplified and hidden drivetrain/airworthiness are unqualified; no visible semantic failure."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:19:58.211Z",
+        "reviewerId": "parent49-airwater-author-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f26ae235f82043ac9550a0fb57912d32012fe8acca1b7a3a637f2dbe4e17f890",
+          "inspectedAt": "2026-11-01T01:25:40.542Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original,512WebP and120PNG. Main four-blade rotor connects to roof mast, tail rotor attaches to tail boom, cabin and tail body join coherently; two supported landing skids. Large rotor silhouette remains legible120, without fixed airliner wings. Crisp catalog contours and pale/graphite/safety-orange palette are consistent; no text/logo/watermark observed. AI-only second review; independent human/domain review pending.",
+          "reviewerId": "parent49-transit-independent-reviewer"
+        }
+      }
+    },
+    {
+      "entryId": "glider",
+      "sourceWord": "glider",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "glider:meaning-1",
+          "pos": "n.",
+          "en": "An aircraft without a motor that flies on fixed wings, usually towed into the air before flying freely."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The glider circled above the hillside without engine noise.",
+          "senseId": "glider:meaning-1"
+        },
+        {
+          "en": "After the tow rope was released, the pilot continued flying freely.",
+          "senseId": "glider:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/glider.webp",
+        "sha256": "1196d84a5e5363ba41cd3e2f3ac0dcbe3250491589ae85137592af2f423599ce"
+      },
+      "visual": {
+        "expectedCue": "A motorless sailplane: very long narrow fixed wings, slim fuselage and enclosed cockpit, no engine, propeller or rotor.",
+        "decision": "added",
+        "reason": "Actually viewed1254PNG original from built-in generated path (same intake hash),512WebP and120PNG. One slim enclosed-cockpit sailplane has very long narrow connected fixed wings, thin rear fuselage and complete connected T-tail; no propeller, engine pod, rotor or dangling pilot. Long motorless sailplane silhouette remains distinctive120 versus passenger airplane; wingtip margins are tight but uncut. Light cool gray/graphite/orange catalog style matches brief; no text/logos. Absence of motor is illustrated externally, not certification of unseen internal components; towing is in bounded usually wording, not depicted as universal. No visible semantic failure.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed1254PNG original from built-in generated path (same intake hash),512WebP and120PNG. One slim enclosed-cockpit sailplane has very long narrow connected fixed wings, thin rear fuselage and complete connected T-tail; no propeller, engine pod, rotor or dangling pilot. Long motorless sailplane silhouette remains distinctive120 versus passenger airplane; wingtip margins are tight but uncut. Light cool gray/graphite/orange catalog style matches brief; no text/logos. Absence of motor is illustrated externally, not certification of unseen internal components; towing is in bounded usually wording, not depicted as universal. No visible semantic failure."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:20:50.357Z",
+        "reviewerId": "parent49-airwater-author-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1196d84a5e5363ba41cd3e2f3ac0dcbe3250491589ae85137592af2f423599ce",
+          "inspectedAt": "2026-11-01T01:25:40.552Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original,512WebP and120PNG. Very long slender fixed wings join slim motorless fuselage; small enclosed cockpit and T-tail, no engine, propeller or rotor. Wing aspect ratio and absence of engine distinguish glider from powered airplane at120. Crisp catalog contours and pale/graphite/safety-orange palette are consistent; no text/logo/watermark observed. AI-only second review; independent human/domain review pending.",
+          "reviewerId": "parent49-transit-independent-reviewer"
+        }
+      }
+    },
+    {
+      "entryId": "hot-air-balloon",
+      "sourceWord": "hot air balloon",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "hot-air-balloon:meaning-1",
+          "pos": "n.",
+          "en": "A large balloon lifted by heated air inside it, with a basket below for people to ride in."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The hot air balloon lifted its basket above the trees.",
+          "senseId": "hot-air-balloon:meaning-1"
+        },
+        {
+          "en": "The pilot used the burner to heat the air inside the balloon.",
+          "senseId": "hot-air-balloon:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/hot-air-balloon.webp",
+        "sha256": "a27a61b99c89934117c5d883b2e53fc908a5e45381bb829ea46d526f9a83f6fe"
+      },
+      "visual": {
+        "expectedCue": "Large inflated hot-air envelope with open throat above an attached passenger basket, supported by taut suspension cables and visible burner; not a hand-held party balloon.",
+        "decision": "added",
+        "reason": "Actually viewed1254PNG built-in rendered original,512WebP and120PNG. Full inflated envelope tapers to a visible open throat; a burner mounted on a connected basket frame directs a flame upward into that opening. Taut suspension cables visibly join envelope sides to basket corners; no party-balloon string or detached basket. Envelope, supporting cables and basket remain recognizable120, with burner flame still visible. Top margin is tight but full envelope is present. Light cool-gray ground, graphite contour/seams and safety-orange panels fit catalog profile; no text/logos. Hidden cable anchors and balloon flight safety are not qualified; no visible semantic failure.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed1254PNG built-in rendered original,512WebP and120PNG. Full inflated envelope tapers to a visible open throat; a burner mounted on a connected basket frame directs a flame upward into that opening. Taut suspension cables visibly join envelope sides to basket corners; no party-balloon string or detached basket. Envelope, supporting cables and basket remain recognizable120, with burner flame still visible. Top margin is tight but full envelope is present. Light cool-gray ground, graphite contour/seams and safety-orange panels fit catalog profile; no text/logos. Hidden cable anchors and balloon flight safety are not qualified; no visible semantic failure."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:22:08.899Z",
+        "reviewerId": "parent49-airwater-author-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a27a61b99c89934117c5d883b2e53fc908a5e45381bb829ea46d526f9a83f6fe",
+          "inspectedAt": "2026-11-01T01:25:40.563Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original,512WebP and120PNG. Large inflated envelope has open throat above visible burner flame; basket hangs coherently from suspension cables and burner frame. Large balloon-plus-basket silhouette and warm-air burner cue remain legible120, unlike a handheld party balloon. Crisp catalog contours and pale/graphite/safety-orange palette are consistent; no text/logo/watermark observed. AI-only second review; independent human/domain review pending.",
+          "reviewerId": "parent49-transit-independent-reviewer"
+        }
+      }
+    },
+    {
+      "entryId": "ferry",
+      "sourceWord": "ferry",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "ferry:meaning-1",
+          "pos": "n.",
+          "en": "A boat or ship that carries passengers, and sometimes vehicles, regularly across a stretch of water."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ferry carried us across the river to the other bank.",
+          "senseId": "ferry:meaning-1"
+        },
+        {
+          "en": "This service takes foot passengers but has no space for cars.",
+          "senseId": "ferry:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/ferry.webp",
+        "sha256": "017ca19b74fab7137e6f171fa73a2411df11d4f5c0dc0d18b016ee7d91bafb9a"
+      },
+      "visual": {
+        "expectedCue": "A utilitarian passenger ferry at a bank-side boarding ramp, not a cruise ship; passengers can board from connected ramp, no claim all ferries carry cars.",
+        "decision": "added",
+        "reason": "Actually viewed1254PNG built-in rendered original,512WebP and120PNG. One squat utilitarian passenger ferry has coherent hull at waterline, enclosed seated-passenger cabin, short wheelhouse and connected rails. A supported gangway bridges pier to its boarding deck, with two upright passengers stepping aboard; a faint other riverbank supplies crossing context. Boarding route and short ferry silhouette remain visible120, unlike a yacht/cruise ship or car ferry universalization; no cars required. Crisp graphite contours, pale cool-gray/safety-orange body and restrained gray water fit transport brief though scene has necessary pier/water context. No logos/text. Unseen moorings/propulsion, operating schedule and real vessel safety/capacity are not qualified; no visible semantic failure.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed1254PNG built-in rendered original,512WebP and120PNG. One squat utilitarian passenger ferry has coherent hull at waterline, enclosed seated-passenger cabin, short wheelhouse and connected rails. A supported gangway bridges pier to its boarding deck, with two upright passengers stepping aboard; a faint other riverbank supplies crossing context. Boarding route and short ferry silhouette remain visible120, unlike a yacht/cruise ship or car ferry universalization; no cars required. Crisp graphite contours, pale cool-gray/safety-orange body and restrained gray water fit transport brief though scene has necessary pier/water context. No logos/text. Unseen moorings/propulsion, operating schedule and real vessel safety/capacity are not qualified; no visible semantic failure."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:22:49.759Z",
+        "reviewerId": "parent49-airwater-author-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "017ca19b74fab7137e6f171fa73a2411df11d4f5c0dc0d18b016ee7d91bafb9a",
+          "inspectedAt": "2026-11-01T01:25:40.572Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original,512WebP and120PNG. Small utilitarian passenger ferry floats beside pier; connected boarding ramp has passengers stepping toward open ship entrance, rows of seated passengers and bridge above. Hull/waterline/ramp contact cohere. Ferry silhouette and boarding connection remain legible120; background bank is subdued, with no cruise-ship decoration. Crisp catalog contours and pale/graphite/safety-orange palette are consistent; no text/logo/watermark observed. AI-only second review; independent human/domain review pending.",
+          "reviewerId": "parent49-transit-independent-reviewer"
+        }
+      }
+    },
+    {
+      "entryId": "canoe",
+      "sourceWord": "canoe",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "canoe:meaning-1",
+          "pos": "n.",
+          "en": "A narrow boat with an open top, usually moved using a paddle with a blade at one end."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The canoe moved quietly along the lake near the shore.",
+          "senseId": "canoe:meaning-1"
+        },
+        {
+          "en": "She dipped the single blade of her paddle into the water beside the boat.",
+          "senseId": "canoe:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/canoe.webp",
+        "sha256": "5f27c443a35946d3966b809344a5cbf4510c93266e2525bd4cd2f90262d5490c"
+      },
+      "visual": {
+        "expectedCue": "Open narrow canoe with visible open interior and thwarts/seats, one upright paddler using a single-bladed paddle; distinguish from kayak.",
+        "decision": "added",
+        "reason": "Actually viewed1254PNG built-in rendered original,512WebP and120PNG. Continuous open narrow hull with pointed ends, clear open interior and cross-seats; one upright seated adult in life vest holds one paddle with grip at top and exactly one broad blade dipping into adjacent water. Both hands wrap the same shaft coherently; elbows/legs/seat contact plausible. Open gunwales, cross-seats and single blade remain clear120, distinguishing the selected canoe from decked kayak with double blade. Full hull/paddle visible, no oarlocks/motor. Graphite contours, cool-gray/orange hull and pale ground fit transport catalog; restrained skin/khaki is incidental. Hidden hull construction and actual paddling safety not qualified; no visible semantic failure.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed1254PNG built-in rendered original,512WebP and120PNG. Continuous open narrow hull with pointed ends, clear open interior and cross-seats; one upright seated adult in life vest holds one paddle with grip at top and exactly one broad blade dipping into adjacent water. Both hands wrap the same shaft coherently; elbows/legs/seat contact plausible. Open gunwales, cross-seats and single blade remain clear120, distinguishing the selected canoe from decked kayak with double blade. Full hull/paddle visible, no oarlocks/motor. Graphite contours, cool-gray/orange hull and pale ground fit transport catalog; restrained skin/khaki is incidental. Hidden hull construction and actual paddling safety not qualified; no visible semantic failure."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:23:40.316Z",
+        "reviewerId": "parent49-airwater-author-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5f27c443a35946d3966b809344a5cbf4510c93266e2525bd4cd2f90262d5490c",
+          "inspectedAt": "2026-11-01T01:25:40.582Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original,512WebP and120PNG. Narrow open-top canoe shows open interior, cross seats/thwarts, upright paddler with two hands on one single-bladed paddle whose blade meets water. Hands, boat edge and paddle contact cohere. Open body and single blade remain distinct120 from decked kayak. Crisp catalog contours and pale/graphite/safety-orange palette are consistent; no text/logo/watermark observed. AI-only second review; independent human/domain review pending.",
+          "reviewerId": "parent49-transit-independent-reviewer"
+        }
+      }
+    },
+    {
+      "entryId": "kayak",
+      "sourceWord": "kayak",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "kayak:meaning-1",
+          "pos": "n.",
+          "en": "A narrow boat in which a person sits low and paddles with a blade at each end of the paddle, often with a deck around the seat."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The kayak passed under the bridge with one paddler sitting low inside.",
+          "senseId": "kayak:meaning-1"
+        },
+        {
+          "en": "He put one end of the double-bladed paddle into the water, then the other.",
+          "senseId": "kayak:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/kayak.webp",
+        "sha256": "8ce48c1f95506f2834a5d3d46e9693358b56585a5d1f6d3896f0cac85bb033a0"
+      },
+      "visual": {
+        "expectedCue": "Decked narrow kayak with one seated-low paddler in cockpit and one paddle with a blade at each end; distinguish open canoe.",
+        "decision": "added",
+        "reason": "Actually viewed1254PNG built-in rendered original,512WebP and120PNG. One pointed narrow hull has a continuous bow/stern deck with central oval cockpit; one life-vested adult sits low inside, legs concealed forward. Both hands hold one continuous diagonal paddle shaft with exactly two opposite blades: lower-left blade enters water and upper-right blade stays raised. Hands/arms/cockpit contact coherent and paddle tips/full hull uncropped. Deck/cockpit and two-blade distinction survive120 versus open canoe with single blade. Graphite contours, pale cool gray and safety-orange accents fit catalog brief; no motor/oarlocks/text/logos. Hidden legs/seat/hull interior and actual water safety unqualified; no visible semantic failure.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed1254PNG built-in rendered original,512WebP and120PNG. One pointed narrow hull has a continuous bow/stern deck with central oval cockpit; one life-vested adult sits low inside, legs concealed forward. Both hands hold one continuous diagonal paddle shaft with exactly two opposite blades: lower-left blade enters water and upper-right blade stays raised. Hands/arms/cockpit contact coherent and paddle tips/full hull uncropped. Deck/cockpit and two-blade distinction survive120 versus open canoe with single blade. Graphite contours, pale cool gray and safety-orange accents fit catalog brief; no motor/oarlocks/text/logos. Hidden legs/seat/hull interior and actual water safety unqualified; no visible semantic failure."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:24:31.957Z",
+        "reviewerId": "parent49-airwater-author-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "8ce48c1f95506f2834a5d3d46e9693358b56585a5d1f6d3896f0cac85bb033a0",
+          "inspectedAt": "2026-11-01T01:25:40.591Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original,512WebP and120PNG. Narrow decked kayak encloses low seated paddler in cockpit; a continuous paddle with blade at each end crosses both hands, one blade entering water. Coherent hull/deck and hand/paddle contact; double blade and deck clearly distinguish from open canoe at120. Crisp catalog contours and pale/graphite/safety-orange palette are consistent; no text/logo/watermark observed. AI-only second review; independent human/domain review pending.",
+          "reviewerId": "parent49-transit-independent-reviewer"
+        }
+      }
+    },
+    {
+      "entryId": "sailboat",
+      "sourceWord": "sailboat",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "sailboat:meaning-1",
+          "pos": "n.",
+          "en": "A boat that uses one or more sails to catch the wind and move through the water."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sailboat crossed the bay with its white sail full of wind.",
+          "senseId": "sailboat:meaning-1"
+        },
+        {
+          "en": "The crew lowered the sails before entering the harbor.",
+          "senseId": "sailboat:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/sailboat.webp",
+        "sha256": "7539935cdda5f1db2f735f33c9a2448ae953519ee5723b0a8b34fe00138f5a38"
+      },
+      "visual": {
+        "expectedCue": "A connected sailboat hull, mast, boom and filled triangular sail above the waterline; sail is dominant propulsion cue, no generic motorboat.",
+        "decision": "added",
+        "reason": "Actually viewed1254PNG built-in rendered original,512WebP and120PNG. One complete monohull supports a vertical mast, attached boom, large triangular mainsail attached along mast/boom and a forward jib secured toward bow/top stay. Mast, boom and visible rigging connect to coherent deck/hull; full sail tips/bow/stern present. Two sails dominate120 and distinguish sailboat from generic motorboat; no engine/smoke/propeller or unrelated props. Crisp graphite contours with subtle material shading, light-gray ground/sails and restrained orange hull/boom match transport catalog brief; no text/logos. Fine rigging knots, hidden keel and actual wind direction/seaworthiness not qualified; no visible semantic failure.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed1254PNG built-in rendered original,512WebP and120PNG. One complete monohull supports a vertical mast, attached boom, large triangular mainsail attached along mast/boom and a forward jib secured toward bow/top stay. Mast, boom and visible rigging connect to coherent deck/hull; full sail tips/bow/stern present. Two sails dominate120 and distinguish sailboat from generic motorboat; no engine/smoke/propeller or unrelated props. Crisp graphite contours with subtle material shading, light-gray ground/sails and restrained orange hull/boom match transport catalog brief; no text/logos. Fine rigging knots, hidden keel and actual wind direction/seaworthiness not qualified; no visible semantic failure."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T01:25:19.377Z",
+        "reviewerId": "parent49-airwater-author-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "7539935cdda5f1db2f735f33c9a2448ae953519ee5723b0a8b34fe00138f5a38",
+          "inspectedAt": "2026-11-01T01:25:40.601Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original,512WebP and120PNG. Hull floats at coherent waterline; mast is attached to deck, mainsail joins mast/boom and forward jib reaches the bow rigging. Large triangular sails are unmistakable120, distinct from powered ferry and paddle craft. No invented propulsion mechanism or decorative labels. Crisp catalog contours and pale/graphite/safety-orange palette are consistent; no text/logo/watermark observed. AI-only second review; independent human/domain review pending.",
+          "reviewerId": "parent49-transit-independent-reviewer"
+        }
+      }
     }
   ]
 }
