@@ -16,7 +16,7 @@
     }
   ],
   "currentCategoryId": "careers-workplace",
-  "nextCategoryId": "careers-workplace",
+  "nextCategoryId": "business-management",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -6588,9 +6588,73 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "careers-workplace",
+      "visualLanguageId": "careers-workplace",
+      "baselineCategoryWords": 33,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "reception-desk",
+        "envelope",
+        "hole-punch",
+        "inbox",
+        "outbox",
+        "warehouse",
+        "workshop",
+        "locker",
+        "delivery-driver",
+        "security-guard",
+        "electrician",
+        "plumber",
+        "carpenter",
+        "cashier",
+        "uniform",
+        "hard-hat",
+        "safety-vest"
+      ],
+      "units": [
+        {
+          "id": "workplace-spaces-mail",
+          "title": "Workplace spaces, mail trays and paper tools",
+          "entryIds": [
+            "reception-desk",
+            "envelope",
+            "hole-punch",
+            "inbox",
+            "outbox",
+            "warehouse",
+            "workshop",
+            "locker"
+          ]
+        },
+        {
+          "id": "workplace-roles-clothing",
+          "title": "Work roles and protective work clothing",
+          "entryIds": [
+            "delivery-driver",
+            "security-guard",
+            "electrician",
+            "plumber",
+            "carpenter",
+            "cashier",
+            "uniform",
+            "hard-hat",
+            "safety-vest"
+          ]
+        }
+      ],
+      "id": "careers-workplace-category-expansion-batch-58-ready-1",
+      "releaseId": "2026-10-preview-65",
+      "status": "published-preview",
+      "objective": "Learn Workplace spaces, mail trays and paper tools; Work roles and protective work clothing in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-57-ready-1",
+  "activePassId": "category-expansion-batch-58-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",

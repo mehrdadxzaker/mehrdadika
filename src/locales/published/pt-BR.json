@@ -13,9 +13,9 @@
     "modifications": "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-64",
-    "manifest": "content/releases/2026-10-preview-64-d6974e3b5ead/manifest.json",
-    "sha256": "d6974e3b5eadcc2c47098f2489d475f2faf25df5e04116ff6c0c11d90ddbbdd0"
+    "id": "2026-10-preview-65",
+    "manifest": "content/releases/2026-10-preview-65-1b114372cbd6/manifest.json",
+    "sha256": "1b114372cbd6db2b4762a5dfe92e09a4b17987645e0555331552e8e0886deefa"
   },
   "categories": {
     "everyday-life": {
@@ -51003,6 +51003,584 @@
         }
       ],
       "tip": "Aqui type é o verbo digitar; como substantivo, type pode significar tipo. Write tem sentido mais amplo e inclui escrever com caneta; type indica o uso de um teclado."
+    },
+    "reception-desk": {
+      "sourceWord": "reception desk",
+      "senses": {
+        "reception-desk:meaning-1": {
+          "gloss": "balcão da recepção",
+          "definition": "Balcão onde os visitantes são recebidos e orientados na entrada de um local de trabalho ou de outro prédio."
+        }
+      },
+      "examples": [
+        {
+          "en": "Please ask at the reception desk when you arrive.",
+          "translation": "Por favor, peça informações no balcão da recepção quando chegar."
+        },
+        {
+          "en": "The visitor gives her name to the person behind the counter.",
+          "translation": "A visitante informa seu nome à pessoa atrás do balcão."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "at the reception desk",
+          "translation": "no balcão da recepção"
+        },
+        {
+          "en": "ask at the reception desk",
+          "translation": "pedir informações no balcão da recepção"
+        },
+        {
+          "en": "reception desk staff",
+          "translation": "equipe da recepção"
+        }
+      ],
+      "tip": "Reception desk é o balcão de atendimento aos visitantes; receptionist é a pessoa que trabalha na recepção. Não confunda esse balcão com uma mesa individual de trabalho nem com reception no sentido de uma festa formal."
+    },
+    "envelope": {
+      "sourceWord": "envelope",
+      "senses": {
+        "envelope:meaning-1": {
+          "gloss": "envelope",
+          "definition": "Invólucro plano de papel, com uma aba, usado para guardar uma carta ou outros papéis."
+        }
+      },
+      "examples": [
+        {
+          "en": "Put the signed letter in an envelope.",
+          "translation": "Coloque a carta assinada em um envelope."
+        },
+        {
+          "en": "She folds the flap down before taking the letter to the post office.",
+          "translation": "Ela dobra a aba para baixo antes de levar a carta aos correios."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "seal an envelope",
+          "translation": "fechar um envelope"
+        },
+        {
+          "en": "address an envelope",
+          "translation": "escrever o endereço em um envelope"
+        },
+        {
+          "en": "open an envelope",
+          "translation": "abrir um envelope"
+        }
+      ],
+      "tip": "Aqui envelope é o invólucro de papel para uma carta, não uma pasta de documentos nem uma caixa. Seal an envelope significa fechá-lo; address an envelope significa escrever nele o endereço do destinatário."
+    },
+    "hole-punch": {
+      "sourceWord": "hole punch",
+      "senses": {
+        "hole-punch:meaning-1": {
+          "gloss": "furador de papel",
+          "definition": "Ferramenta que faz furos em folhas de papel para que possam ser colocadas em um fichário."
+        }
+      },
+      "examples": [
+        {
+          "en": "Use the hole punch before you put the pages in the binder.",
+          "translation": "Use o furador de papel antes de colocar as folhas no fichário."
+        },
+        {
+          "en": "The two round holes line up with the rings.",
+          "translation": "Os dois furos redondos ficam alinhados com as argolas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "use a hole punch",
+          "translation": "usar um furador de papel"
+        },
+        {
+          "en": "two-hole punch",
+          "translation": "furador de dois furos"
+        },
+        {
+          "en": "empty the hole punch",
+          "translation": "esvaziar o coletor do furador"
+        }
+      ],
+      "tip": "Um hole punch faz furos no papel; um stapler prende folhas com grampos. Há furadores com diferentes quantidades de furos. Two-hole punch é o modelo de dois furos, não uma característica de todos os furadores."
+    },
+    "inbox": {
+      "sourceWord": "inbox",
+      "senses": {
+        "inbox:meaning-1": {
+          "gloss": "bandeja de entrada",
+          "definition": "Bandeja sobre uma mesa para cartas e papéis que chegaram e ainda precisam ser analisados."
+        }
+      },
+      "examples": [
+        {
+          "en": "The inbox holds letters that need attention.",
+          "translation": "A bandeja de entrada contém cartas que precisam de atenção."
+        },
+        {
+          "en": "Leave the new forms in the tray for the assistant to check.",
+          "translation": "Deixe os formulários novos na bandeja para o assistente conferir."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "office inbox",
+          "translation": "bandeja de entrada do escritório"
+        },
+        {
+          "en": "put papers in the inbox",
+          "translation": "colocar papéis na bandeja de entrada"
+        },
+        {
+          "en": "check the inbox",
+          "translation": "verificar a bandeja de entrada"
+        }
+      ],
+      "tip": "Neste sentido, inbox é uma bandeja física para papéis recebidos; no e-mail, a palavra também designa a caixa de mensagens recebidas. Outbox é a bandeja para cartas ou documentos prontos para envio. Entrada e saída indicam direções diferentes."
+    },
+    "outbox": {
+      "sourceWord": "outbox",
+      "senses": {
+        "outbox:meaning-1": {
+          "gloss": "bandeja de saída",
+          "definition": "Bandeja sobre uma mesa para cartas e papéis prontos para serem enviados ou recolhidos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The outbox contains letters ready to be sent.",
+          "translation": "A bandeja de saída contém cartas prontas para envio."
+        },
+        {
+          "en": "The assistant collects the outgoing papers every afternoon.",
+          "translation": "O assistente recolhe os papéis para envio todas as tardes."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "office outbox",
+          "translation": "bandeja de saída do escritório"
+        },
+        {
+          "en": "put letters in the outbox",
+          "translation": "colocar cartas na bandeja de saída"
+        },
+        {
+          "en": "empty the outbox",
+          "translation": "esvaziar a bandeja de saída"
+        }
+      ],
+      "tip": "Aqui outbox é uma bandeja física para papéis prontos para envio, não a bandeja de correspondência recebida nem uma lixeira. No e-mail, outbox costuma guardar mensagens que aguardam envio; sent reúne mensagens já enviadas."
+    },
+    "warehouse": {
+      "sourceWord": "warehouse",
+      "senses": {
+        "warehouse:meaning-1": {
+          "gloss": "armazém",
+          "definition": "Prédio grande onde se guardam mercadorias antes de transportá-las, vendê-las ou entregá-las."
+        }
+      },
+      "examples": [
+        {
+          "en": "The warehouse stores boxes before delivery.",
+          "translation": "O armazém guarda caixas antes da entrega."
+        },
+        {
+          "en": "Workers leave a clear aisle between the storage racks.",
+          "translation": "Os trabalhadores deixam um corredor livre entre as estruturas de armazenagem."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "warehouse worker",
+          "translation": "trabalhador de armazém"
+        },
+        {
+          "en": "warehouse shelves",
+          "translation": "prateleiras de armazém"
+        },
+        {
+          "en": "store goods in a warehouse",
+          "translation": "armazenar mercadorias em um armazém"
+        }
+      ],
+      "tip": "Warehouse costuma ser um prédio grande para armazenar mercadorias; storeroom pode ser uma sala menor de armazenamento. Workshop é um local de fabricação ou conserto. Alguns estabelecimentos chamados warehouse também vendem produtos, mas o sentido aqui destaca o armazenamento."
+    },
+    "workshop": {
+      "sourceWord": "workshop",
+      "senses": {
+        "workshop:meaning-1": {
+          "gloss": "oficina",
+          "definition": "Sala ou prédio onde se fabricam ou consertam coisas com ferramentas."
+        }
+      },
+      "examples": [
+        {
+          "en": "He repairs wooden chairs in his workshop.",
+          "translation": "Ele conserta cadeiras de madeira em sua oficina."
+        },
+        {
+          "en": "The tools hang above a sturdy workbench.",
+          "translation": "As ferramentas ficam penduradas acima de uma bancada firme."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "repair workshop",
+          "translation": "oficina de consertos"
+        },
+        {
+          "en": "workshop tools",
+          "translation": "ferramentas de oficina"
+        },
+        {
+          "en": "work in a workshop",
+          "translation": "trabalhar em uma oficina"
+        }
+      ],
+      "tip": "Aqui workshop é o espaço físico de fabricação ou conserto com ferramentas, não uma atividade de formação prática, que também pode ser chamada de workshop. Workbench é a bancada dentro da oficina; warehouse destaca o armazenamento de mercadorias."
+    },
+    "locker": {
+      "sourceWord": "locker",
+      "senses": {
+        "locker:meaning-1": {
+          "gloss": "armário individual",
+          "definition": "Armário ou compartimento pequeno que pode ser trancado para guardar os pertences de uma pessoa."
+        }
+      },
+      "examples": [
+        {
+          "en": "She leaves her bag in a locker before work.",
+          "translation": "Ela deixa a bolsa em um armário individual antes do trabalho."
+        },
+        {
+          "en": "He keeps the key with him during his shift.",
+          "translation": "Ele fica com a chave durante o turno."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "staff locker",
+          "translation": "armário individual para funcionários"
+        },
+        {
+          "en": "locker key",
+          "translation": "chave do armário individual"
+        },
+        {
+          "en": "lock a locker",
+          "translation": "trancar um armário individual"
+        }
+      ],
+      "tip": "Um locker costuma ser um compartimento individual que pode ser trancado no trabalho, na escola ou em uma academia. Nem todo cupboard ou wardrobe é um locker. Locker é o compartimento; lock pode ser o substantivo fechadura ou o verbo trancar."
+    },
+    "delivery-driver": {
+      "sourceWord": "delivery driver",
+      "senses": {
+        "delivery-driver:meaning-1": {
+          "gloss": "motorista de entregas",
+          "definition": "Pessoa cujo trabalho é dirigir para levar mercadorias ou pacotes aos destinatários."
+        }
+      },
+      "examples": [
+        {
+          "en": "The delivery driver brings a parcel to the office.",
+          "translation": "O motorista de entregas leva um pacote ao escritório."
+        },
+        {
+          "en": "She parks the van and hands the box to the customer.",
+          "translation": "Ela estaciona a van e entrega a caixa ao cliente."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a delivery driver",
+          "translation": "um motorista de entregas"
+        },
+        {
+          "en": "work as a delivery driver",
+          "translation": "trabalhar como motorista de entregas"
+        },
+        {
+          "en": "the delivery driver arrives",
+          "translation": "o motorista de entregas chega"
+        }
+      ],
+      "tip": "Delivery driver transporta mercadorias ou pacotes; um motorista de passageiros transporta pessoas. A expressão indica uma ocupação; delivery é a entrega. Mantenha as duas palavras juntas neste sentido."
+    },
+    "security-guard": {
+      "sourceWord": "security guard",
+      "senses": {
+        "security-guard:meaning-1": {
+          "gloss": "segurança; vigilante",
+          "definition": "Pessoa cujo trabalho é vigiar um local e ajudar a proteger as pessoas ou os bens que estão ali."
+        }
+      },
+      "examples": [
+        {
+          "en": "The security guard checks a visitor’s badge at the entrance.",
+          "translation": "O segurança confere o crachá de um visitante na entrada."
+        },
+        {
+          "en": "She watches the building entrance during the evening shift.",
+          "translation": "Ela vigia a entrada do prédio durante o turno da noite."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a security guard",
+          "translation": "um segurança"
+        },
+        {
+          "en": "a security guard at the entrance",
+          "translation": "um segurança na entrada"
+        },
+        {
+          "en": "work as a security guard",
+          "translation": "trabalhar como segurança"
+        }
+      ],
+      "tip": "Security guard é uma ocupação de vigilância e proteção; o título, por si só, não significa police officer. Aqui guard é o nome da pessoa; também pode ser o verbo vigiar. As tarefas específicas dependem do local de trabalho."
+    },
+    "electrician": {
+      "sourceWord": "electrician",
+      "senses": {
+        "electrician:meaning-1": {
+          "gloss": "eletricista",
+          "definition": "Pessoa cujo trabalho é instalar ou reparar fiação e equipamentos elétricos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The electrician examines the wiring inside the light fitting.",
+          "translation": "A eletricista examina a fiação dentro da luminária."
+        },
+        {
+          "en": "We ask a trained worker to repair the electrical equipment.",
+          "translation": "Pedimos a uma profissional capacitada que conserte o equipamento elétrico."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an electrician",
+          "translation": "um eletricista"
+        },
+        {
+          "en": "call an electrician",
+          "translation": "chamar um eletricista"
+        },
+        {
+          "en": "work as an electrician",
+          "translation": "trabalhar como eletricista"
+        }
+      ],
+      "tip": "Electrician é a pessoa; electricity é a eletricidade, e electrical é um adjetivo. Não confunda electrician com electrical engineer, engenheiro eletricista. Os exemplos apresentam a ocupação e não ensinam a fazer reparos elétricos."
+    },
+    "plumber": {
+      "sourceWord": "plumber",
+      "senses": {
+        "plumber:meaning-1": {
+          "gloss": "encanador; encanadora",
+          "definition": "Pessoa cujo trabalho é instalar ou reparar canos de água e as conexões relacionadas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The plumber repairs the pipe under the sink.",
+          "translation": "O encanador conserta o cano embaixo da pia."
+        },
+        {
+          "en": "We call a worker because water is leaking from the joint.",
+          "translation": "Chamamos um profissional porque há água vazando da conexão."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "call a plumber",
+          "translation": "chamar um encanador"
+        },
+        {
+          "en": "a local plumber",
+          "translation": "um encanador da região"
+        },
+        {
+          "en": "work as a plumber",
+          "translation": "trabalhar como encanador"
+        }
+      ],
+      "tip": "Plumber é a pessoa; plumbing pode ser a tubulação ou o trabalho de encanamento. A letra b de plumber não é pronunciada. A imagem e os exemplos mostram a ocupação, não um procedimento de reparo."
+    },
+    "carpenter": {
+      "sourceWord": "carpenter",
+      "senses": {
+        "carpenter:meaning-1": {
+          "gloss": "carpinteiro; carpinteira",
+          "definition": "Pessoa cujo trabalho é fazer, ajustar ou reparar peças e estruturas de madeira."
+        }
+      },
+      "examples": [
+        {
+          "en": "The carpenter smooths a wooden board on the workbench.",
+          "translation": "O carpinteiro alisa uma tábua de madeira na bancada."
+        },
+        {
+          "en": "She makes a new wooden frame for the doorway.",
+          "translation": "Ela faz uma nova estrutura de madeira para a passagem da porta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a skilled carpenter",
+          "translation": "um carpinteiro habilidoso"
+        },
+        {
+          "en": "a carpenter’s tools",
+          "translation": "as ferramentas de um carpinteiro"
+        },
+        {
+          "en": "work as a carpenter",
+          "translation": "trabalhar como carpinteiro"
+        }
+      ],
+      "tip": "Carpenter é a pessoa; carpentry é o trabalho ou ofício da carpintaria. Não confunda carpenter com carpet, tapete ou carpete. Furniture maker destaca a fabricação de móveis; carpenter pode trabalhar com diferentes peças e estruturas de madeira."
+    },
+    "cashier": {
+      "sourceWord": "cashier",
+      "senses": {
+        "cashier:meaning-1": {
+          "gloss": "operador de caixa; operadora de caixa",
+          "definition": "Pessoa cujo trabalho é receber os pagamentos dos clientes em uma loja ou local semelhante."
+        }
+      },
+      "examples": [
+        {
+          "en": "The cashier takes the customer’s payment at the checkout.",
+          "translation": "A operadora de caixa recebe o pagamento do cliente no caixa."
+        },
+        {
+          "en": "He gives the shopper a receipt after the purchase.",
+          "translation": "Ele entrega um recibo ao cliente depois da compra."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a shop cashier",
+          "translation": "um operador de caixa de loja"
+        },
+        {
+          "en": "pay the cashier",
+          "translation": "pagar ao operador de caixa"
+        },
+        {
+          "en": "work as a cashier",
+          "translation": "trabalhar como operador de caixa"
+        }
+      ],
+      "tip": "Cashier é a pessoa; checkout é o local ou processo de pagamento, e cash register é a máquina registradora. Um cashier pode receber pagamentos em dinheiro ou com cartão; a palavra não se limita ao dinheiro em espécie."
+    },
+    "uniform": {
+      "sourceWord": "uniform",
+      "senses": {
+        "uniform:meaning-1": {
+          "gloss": "uniforme",
+          "definition": "Conjunto de roupas usado por membros de uma organização ou por pessoas que exercem determinado trabalho."
+        }
+      },
+      "examples": [
+        {
+          "en": "The two workers wear the same uniform at the reception desk.",
+          "translation": "Os dois funcionários usam o mesmo uniforme na recepção."
+        },
+        {
+          "en": "She hangs her work clothes in the locker before going home.",
+          "translation": "Ela pendura as roupas de trabalho no armário antes de ir para casa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "wear a uniform",
+          "translation": "usar uniforme"
+        },
+        {
+          "en": "a work uniform",
+          "translation": "um uniforme de trabalho"
+        },
+        {
+          "en": "a school uniform",
+          "translation": "um uniforme escolar"
+        }
+      ],
+      "tip": "Aqui uniform é um substantivo e significa uniforme. Como adjetivo, pode significar uniforme ou igual. Nem toda roupa de trabalho é um uniform; o substantivo destaca um padrão de vestuário compartilhado por um grupo ou ocupação."
+    },
+    "hard-hat": {
+      "sourceWord": "hard hat",
+      "senses": {
+        "hard-hat:meaning-1": {
+          "gloss": "capacete de segurança",
+          "definition": "Capacete rígido de proteção usado em locais onde a cabeça pode ser atingida por objetos que caem ou se movimentam."
+        }
+      },
+      "examples": [
+        {
+          "en": "The worker puts on a hard hat before entering the construction area.",
+          "translation": "O trabalhador coloca um capacete de segurança antes de entrar na área da obra."
+        },
+        {
+          "en": "She carries the rigid helmet by its brim after work.",
+          "translation": "Ela carrega o capacete rígido pela aba depois do trabalho."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "wear a hard hat",
+          "translation": "usar capacete de segurança"
+        },
+        {
+          "en": "put on a hard hat",
+          "translation": "colocar um capacete de segurança"
+        },
+        {
+          "en": "a construction hard hat",
+          "translation": "um capacete de segurança para construção"
+        }
+      ],
+      "tip": "Hard hat é um capacete rígido usado em contextos industriais; nem todo helmet é um hard hat, como um capacete de motocicleta. Hard hat é uma expressão de duas palavras. A imagem não comprova o desempenho nem a conformidade de um produto com normas de segurança."
+    },
+    "safety-vest": {
+      "sourceWord": "safety vest",
+      "senses": {
+        "safety-vest:meaning-1": {
+          "gloss": "colete de alta visibilidade",
+          "definition": "Colete de cor viva, muitas vezes com faixas refletivas, usado para tornar uma pessoa que trabalha mais visível."
+        }
+      },
+      "examples": [
+        {
+          "en": "The worker wears a safety vest beside the delivery area.",
+          "translation": "A trabalhadora usa um colete de alta visibilidade ao lado da área de entregas."
+        },
+        {
+          "en": "The bright fabric and reflective strips stand out against the dark jacket.",
+          "translation": "O tecido de cor viva e as faixas refletivas se destacam sobre a jaqueta escura."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "wear a safety vest",
+          "translation": "usar um colete de alta visibilidade"
+        },
+        {
+          "en": "a reflective safety vest",
+          "translation": "um colete de segurança refletivo"
+        },
+        {
+          "en": "put on a safety vest",
+          "translation": "vestir um colete de alta visibilidade"
+        }
+      ],
+      "tip": "Neste sentido, safety vest ajuda a pessoa a ser vista; life jacket é um colete salva-vidas para flutuação na água e não é o mesmo equipamento. Aqui vest é uma peça sem mangas usada sobre a roupa. A imagem não demonstra um nível de refletividade nem uma certificação de segurança."
     }
   }
 }

@@ -15058,6 +15058,348 @@
           "use": "Original selected common workplace sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated qualifications, employment law, pay rules, or financial performance."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-58-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-65",
+      "sourceFiles": [
+        "workplace-spaces-mail.json",
+        "workplace-roles-clothing.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-64",
+        "manifest": "content/releases/2026-10-preview-64-d6974e3b5ead/manifest.json",
+        "manifestSha256": "d6974e3b5eadcc2c47098f2489d475f2faf25df5e04116ff6c0c11d90ddbbdd0",
+        "words": 1484
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "reception-desk",
+            "lexicalBinding": "815bebea6fe35cd0866b5418dbd6015279d7d0331c3362acf354620383c10a0d",
+            "sourceImageSha256": "8c5eb1dbd981760ad26b71c6b0851f5e1868a1ccd3d6cfe8839de702ada3fa86",
+            "cardSha256": "c05c7b406f690ed3101c109fb422b5483e678bb3828e522c7863632da493ac90",
+            "thumbnailSha256": "373641f40a174cc651893d8c0caf80d1ce852c5ad8f1e873ab00793dfe40f377",
+            "authorPixelBinding": "8e63ff627bdc1ee482761973cc4f42c55589fe18daab0b51aa2108f2fde02e16",
+            "secondPixelBinding": "4da816f8e4c493841c26011135c5adeaac95378eea8404680832d551e65b32dd"
+          },
+          {
+            "entryId": "envelope",
+            "lexicalBinding": "84487ea79d16fe996dfdda44e6a47de069743a6ee3d76f6d5cd91b97be892697",
+            "sourceImageSha256": "76b60cde25c45b7ef2b708c813fe285c0149f70039340567c277cdc8987bd781",
+            "cardSha256": "1f9b0fb69446bd11b4d10fd98a9c1660a17edb226ece8896a240ced572a60315",
+            "thumbnailSha256": "5fec84173d89b53c692a0ba80888f594855e90d9295baeffc58b4552df3fcff1",
+            "authorPixelBinding": "22cf8c82b3ff89d617f1741ef28033f96aaa590d91e1b00df648129fdbf416a9",
+            "secondPixelBinding": "9fd730926983ff8d47d0fa7865fa92903c030d4aa42adaff20359291876dc93d"
+          },
+          {
+            "entryId": "hole-punch",
+            "lexicalBinding": "b3931293e863ad4a2e650fea107270adc3390a4358d950379a0a4384ac1aef5b",
+            "sourceImageSha256": "5e3dfc84550953f82de64adcfd45f87fbaa648ec1b8c04f5bf108d34530e3d9e",
+            "cardSha256": "ae7fca07b847ae55f6c49e64c2b0b2397d261512b9b5c0ecf3274fefa26b5e53",
+            "thumbnailSha256": "bb2b328448ea2a4f1317c79347b5374f12cf6ce6a067395f15b2f9da3eee24b7",
+            "authorPixelBinding": "1591faf8a23e7c2480b20a186eb77cf1880c0983499fa0366a1edbdb1f1d26bf",
+            "secondPixelBinding": "d5ae849381083ff2e1c70907bf839ca6a0617d3ea46eb2f064af466900e626af"
+          },
+          {
+            "entryId": "inbox",
+            "lexicalBinding": "f94daceaf2be37f8484930bb69e14b5080ee92508827c182841052dd3fcb5a9b",
+            "sourceImageSha256": "6168d9389f80ceedff250b8bfd44350d5d60adda71324c9c3e10de1790886395",
+            "cardSha256": "d150d14ddd6e662a22283e749a08a04a928131023f80817c39f18cbe39ab16b2",
+            "thumbnailSha256": "2b00cf0089c06d8e0e881caaf09a29da0c072190a70c66a48f699ae83840ca68",
+            "authorPixelBinding": "9ed1818c39e357bfc8f22a9b80d44121a272eba26c08cdc5660adf0f464d2fce",
+            "secondPixelBinding": "c43d9ec5169edf464db9028c5f91967313fe99d921d36decec45fb41ed9fc100"
+          },
+          {
+            "entryId": "outbox",
+            "lexicalBinding": "aec32ae61407953d96fba3aef4994e2da75c874bb9c8735c0a7618b9cdf80267",
+            "sourceImageSha256": "5a9855d42cf7605744a9f933d708812b159ff55e7469c004acc7781ec776f33c",
+            "cardSha256": "aa9bfb87229ede6981d0ab92568542fc87e0a0881e7bb18ce86cc85d358d4bc3",
+            "thumbnailSha256": "8996f633a547132abfb47484d3a2d4301ead673afbac5260846c199dcb182469",
+            "authorPixelBinding": "6a1f0401a6385fef8100bbd6274fefdf45e04bd6098692618ec5496d5dec4642",
+            "secondPixelBinding": "12f6f516bc77785be595964a8f2a2e2ffebb047c740704aaad65296faf815840"
+          },
+          {
+            "entryId": "warehouse",
+            "lexicalBinding": "0b84252415429a9b63533a96e8f08891beeac5ba05fb7dca6d8da23e1de9cfbd",
+            "sourceImageSha256": "ff62ec0458065201dd8af6256d88b3acf194aa74a8c29ae35960a68ac2a069b6",
+            "cardSha256": "ce491432d84bdc52fd6858122e22c0907765fdea8d0038ad2f9761afb5c94260",
+            "thumbnailSha256": "767dd411a493daec88a93c263809941e5473c980a033130f067bec1d6916d32f",
+            "authorPixelBinding": "58acbeae1c84cc7a8d17d90c8bbcaca22f67230ce652c2acf9dd0d2c9a0173a3",
+            "secondPixelBinding": "5bdc8a53c700a5e125e9e9fab2433b269b20a4903986eea99e93a83f58f6512a"
+          },
+          {
+            "entryId": "workshop",
+            "lexicalBinding": "ea9c2bf9dc2c4cbc81329bb12121fa34824a1150704e602633ca2b11aec09d40",
+            "sourceImageSha256": "9e103d69b267f1a27a0f9b2572412b8690e8014d500ea01970ae7f3df4d2f023",
+            "cardSha256": "7accc4aad6462467799fb67cf027955fd367ab85ff7dbda8366a7ea83cc43bef",
+            "thumbnailSha256": "a8dfbd93e6a126df3e90d1875e3202e317e986adaa7721721fe8ae93148d6139",
+            "authorPixelBinding": "d054156b7204dc64ff4db5219bf0b8faf3e5a0a1a874f83ec4943fc2d11162f0",
+            "secondPixelBinding": "ed9acf97c9dd97705fdd4b5cea2e8e84a3bead47e58be06a9c88ba94f4cc0bbf"
+          },
+          {
+            "entryId": "locker",
+            "lexicalBinding": "c2d397105aa5016ea6b8d140a9aaed753ee7f6714035a88fbe0558ee82ac9248",
+            "sourceImageSha256": "06664bba4444b62403674a4b0cac643fd66ed679ad391e5dc9c3e849d32fccee",
+            "cardSha256": "3aa48b23cf63044151a82b44832a3a7bf2a0c05684ef77e38c97f81b3c52b84f",
+            "thumbnailSha256": "cac2dbf5a6f5325f82cfb3432ab2e3b4d777e0fd614b0c4e628ae3e1a1f3bf49",
+            "authorPixelBinding": "92dca44ec1c524298eb97bf9e125b087074611866e4b0c32c69e1930885b7c86",
+            "secondPixelBinding": "b63832f6eb6e6d08787784845a5e63fe6650da434a4ba380d367503732ae7993"
+          },
+          {
+            "entryId": "delivery-driver",
+            "lexicalBinding": "71594969a9dfd9fc9d407e63c35dae72b29aea6c77c3cbc4d415f82a80d4aa26",
+            "sourceImageSha256": "cf920340af5940ddba53cd8e1985c1343e9d1f59293039c2d80f774d2b5a7906",
+            "cardSha256": "e3018ceb673aefab3ce418bc9a159d7306d78c6f6dd731c569dfbbf4fb3e5e85",
+            "thumbnailSha256": "081dba947e8bdc319a17a9e6c1dc2a2185b535201445c65e6aa1f0e33a23f3a4",
+            "authorPixelBinding": "8d4ba8c767590144f74be1315a7c91a5eb000bd1d90c987358a34bc237d64182",
+            "secondPixelBinding": "c25dc48acec6fbbc58611b2c3dafcb8b03648e865819175e7bef1c59d4f951d7"
+          },
+          {
+            "entryId": "security-guard",
+            "lexicalBinding": "fa89f0ca6ac1843b876503887c0c7c9924117ef9a46897ed30e48b06e8924fc1",
+            "sourceImageSha256": "f24a641d83fe2e180c1dc5b39a2b2c145ef0051dc24946acf5a079fe9eaffe95",
+            "cardSha256": "365eaa73222c8cf76e2ee358795b41195b80d96127ed7ba12a9ea54dc37efaa3",
+            "thumbnailSha256": "390507a9f7761c29ac1a7d2e70fa8d135704f72163ca805923628e563668b171",
+            "authorPixelBinding": "da35b192462c60f0daa484ee0206cb1b29c9ba4c279abe29369912148194785b",
+            "secondPixelBinding": "c226ba867660b21d0ef6c87f738d140b14f0a04353c4f5ce3b3fb48cd3ebb686"
+          },
+          {
+            "entryId": "electrician",
+            "lexicalBinding": "0225080913651ba57d769ff93655edc26980d83fec0d39a58ea5e37cb47d39bc",
+            "sourceImageSha256": "cdd79e659e1a2ba20fd56f267c7a7ccb7cc342a9d6c9ef6e531d5149a259a60f",
+            "cardSha256": "3d4e8df419e792369954d262e8d596b8259818493b6b5672b3f426f7ec7d28b9",
+            "thumbnailSha256": "95e1a9a52a607544430f255d5849c771da76f9d7d6cc5811a3e9825b5100957a",
+            "authorPixelBinding": "c348f949b7ece761bd4dc5560313f08ddeb90dc95a06c2ba9cf3c14db0dd0171",
+            "secondPixelBinding": "8229d9ea9c8841dea17b35c6af8434c7ef52cc62f994130e33ee6592ebc626da"
+          },
+          {
+            "entryId": "plumber",
+            "lexicalBinding": "2e0518cc968d645294d815c267b86dce68fd28b9bfe1e6bbba451d108d29eae0",
+            "sourceImageSha256": "8f47ad88afa13f5a4f17c58b0c996fd1cb2bd5e2651b0ab17c2ba3cdffadc3c6",
+            "cardSha256": "679e67e0a315fd7172fe3659b15ca9d3981c4d9db1244fd606d95c29e489bbb0",
+            "thumbnailSha256": "98ff1d1950273f0876ef09f1bc8dd2afb622bd9ee2c0587304ee64f2876c14bf",
+            "authorPixelBinding": "03e4d9f23f38375f47b8a86a68754d2f0e38316c42d035048cee0e773f0aab66",
+            "secondPixelBinding": "81c467917ce2181419a5e31e81c47fdf974a9a646bdfa21206c912a2438529f2"
+          },
+          {
+            "entryId": "carpenter",
+            "lexicalBinding": "8066d5a464194a5102ff07fe2fdba20548c308c569693946f35dae4749f17fd1",
+            "sourceImageSha256": "aa62f0bf475be621faed3ea02c86a3f9f9c0127203f716425f2d7b8240e65ea1",
+            "cardSha256": "676e6217437cf5e19fd840a4c10782303d98f43649a26f6ac0556b987a33d334",
+            "thumbnailSha256": "ab7d01818800cd0c34f4d177645cfc81c0b59b819f6dad1840813c40855d977d",
+            "authorPixelBinding": "201a12d8baabe36a3531761eb899b7e59d1c043e74e019285342b69f5bba5b50",
+            "secondPixelBinding": "832795e41e321e3b2efc873807b920ec82a675ad69056de1841ca007dab88d69"
+          },
+          {
+            "entryId": "cashier",
+            "lexicalBinding": "ce007a1c5810cbe4609e29b10c7ca44f15eef3230f6d1ef65f3e23db18d879a2",
+            "sourceImageSha256": "ac5289ff09881709fbd5e52e63eae2f3c9906cb24ec3f0aadecacdcaf218b3a2",
+            "cardSha256": "aaf85631d3ff580b27c54be84191ea3084cb0b453c088b778b42ae389d599751",
+            "thumbnailSha256": "6d88c25c9c3d5c65fc05ea20a9ed9fb3bef9d7c1174819e1064e136a9e06d527",
+            "authorPixelBinding": "eb00c5b54b5e275e8ffb6bf1d0907a90847cb9727d099a6d0c276cf1338bdb3d",
+            "secondPixelBinding": "959e0d5396c41d1b070f9504b6e859653789e1f10383bc57a1f6fe1c3261a7ed"
+          },
+          {
+            "entryId": "uniform",
+            "lexicalBinding": "b95801557fede8a92ff8acba0855e11f05bfc48d0ed4b5c6f5da30d4055f6bb4",
+            "sourceImageSha256": "364aeeb5705b83c57bdac73cd9dbdbd38b1b258b6d8fe2f2c8125aa228ac24fc",
+            "cardSha256": "bed53a6317a55df10079b600ab5e3289d6942988e0ee3e7991d710aea194d13e",
+            "thumbnailSha256": "a4c0fab1d0b769268299ad34b055fd9c1e1b0373b9a51421e05bfd940ac6518b",
+            "authorPixelBinding": "1a306dbae83c4f6f13473fb77e4911c4af145935dce30177c59c818efb4f38d2",
+            "secondPixelBinding": "746f14d54bc24fd6814cdf3399534b3ad994671964faa64c69f4bdf36b95be0e"
+          },
+          {
+            "entryId": "hard-hat",
+            "lexicalBinding": "fc1671063ebc7df676a86cbe0ca0c22f9178a71838d1043c02ecf83c4572b9a8",
+            "sourceImageSha256": "136bcd11c2e9d481f8d21c256130d1e131ab479eab917dc50a1a7ed17aedba97",
+            "cardSha256": "19c74d3ba86a3db7964e0d2a46c2043c24a3f2d1cbfd86a5ce7f8c61f2c5a4bf",
+            "thumbnailSha256": "89667af9f587652063d81972fe29c6dbadbab926915d0cf1066b9a4842cf8bd9",
+            "authorPixelBinding": "8700ac87b32be5a9aaeb435bcf9fa8b75963dcff451e0bdd7ee5c25c0e1f5e0e",
+            "secondPixelBinding": "b53a5f36349017a4e61ca2824fd1ec4268c7c6a9b60187b47718b5a5db7b98bf"
+          },
+          {
+            "entryId": "safety-vest",
+            "lexicalBinding": "76df2747673f29a5f6d558540bd0b6d888d1b58a8dc9fc3efc9910b7ca959f95",
+            "sourceImageSha256": "93c4446247bc31f2b017d7539d99008c8719a99ab40c9de91bdbdf906cb3cd0b",
+            "cardSha256": "891ba9508ce7511f7b30227519e99718f9c0d0665fe3002879d1c234b034f1df",
+            "thumbnailSha256": "af4c9e832b5a3e0df18f8c1fefd59b268384aaa303d984b59238d57447d0b5c3",
+            "authorPixelBinding": "761121bc315ba243beb72c412e4b2fe9d318bf85ed8880c41d48a1f7f08d75dc",
+            "secondPixelBinding": "c54eb15fbbc65823f55b77677569ee2dce18019437da7fc6ea6c3c53b759ab55"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "careers-workplace",
+          "visualLanguageId": "careers-workplace",
+          "baselineCategoryWords": 33,
+          "targetCategoryWords": 50,
+          "entryIds": [
+            "reception-desk",
+            "envelope",
+            "hole-punch",
+            "inbox",
+            "outbox",
+            "warehouse",
+            "workshop",
+            "locker",
+            "delivery-driver",
+            "security-guard",
+            "electrician",
+            "plumber",
+            "carpenter",
+            "cashier",
+            "uniform",
+            "hard-hat",
+            "safety-vest"
+          ],
+          "units": [
+            {
+              "id": "workplace-spaces-mail",
+              "title": "Workplace spaces, mail trays and paper tools",
+              "entryIds": [
+                "reception-desk",
+                "envelope",
+                "hole-punch",
+                "inbox",
+                "outbox",
+                "warehouse",
+                "workshop",
+                "locker"
+              ]
+            },
+            {
+              "id": "workplace-roles-clothing",
+              "title": "Work roles and protective work clothing",
+              "entryIds": [
+                "delivery-driver",
+                "security-guard",
+                "electrician",
+                "plumber",
+                "carpenter",
+                "cashier",
+                "uniform",
+                "hard-hat",
+                "safety-vest"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "Seventeen globally and prior-queue absent established English headwords, capped by actual remaining17to50; prior57 fully reconciled and9066sealedpins plus finalpeer rehashed before Hadvance. Every distinct image needs genuine actual original/512/120 author and independent-second reviews; all17manual holds unchanged and not retried. Count50 is not full curriculum or whole-collection qualification.",
+      "parentBatchId": "category-expansion-batch-58",
+      "completedAt": "2026-11-01T16:59:19.203Z",
+      "factualReferences": [
+        {
+          "entryId": "reception-desk",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace spaces and mail vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary wording or artwork copied; no external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "envelope",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace spaces and mail vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary wording or artwork copied; no external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "hole-punch",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace spaces and mail vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary wording or artwork copied; no external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "inbox",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace spaces and mail vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary wording or artwork copied; no external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "outbox",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace spaces and mail vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary wording or artwork copied; no external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "warehouse",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace spaces and mail vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary wording or artwork copied; no external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "workshop",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace spaces and mail vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary wording or artwork copied; no external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "locker",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika workplace spaces and mail vocabulary contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 scaffolding; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and workplace/domain review pending. No external dictionary wording or artwork copied; no external factual reference used for these ordinary workplace concepts."
+        },
+        {
+          "entryId": "delivery-driver",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika work roles and clothing vocabulary contribution",
+          "use": "Original common workplace meaning, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays, with editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; human language/domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated credentials, electrical/plumbing repair procedures, labor law or certified protective performance."
+        },
+        {
+          "entryId": "security-guard",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika work roles and clothing vocabulary contribution",
+          "use": "Original common workplace meaning, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays, with editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; human language/domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated credentials, electrical/plumbing repair procedures, labor law or certified protective performance."
+        },
+        {
+          "entryId": "electrician",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika work roles and clothing vocabulary contribution",
+          "use": "Original common workplace meaning, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays, with editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; human language/domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated credentials, electrical/plumbing repair procedures, labor law or certified protective performance."
+        },
+        {
+          "entryId": "plumber",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika work roles and clothing vocabulary contribution",
+          "use": "Original common workplace meaning, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays, with editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; human language/domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated credentials, electrical/plumbing repair procedures, labor law or certified protective performance."
+        },
+        {
+          "entryId": "carpenter",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika work roles and clothing vocabulary contribution",
+          "use": "Original common workplace meaning, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays, with editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; human language/domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated credentials, electrical/plumbing repair procedures, labor law or certified protective performance."
+        },
+        {
+          "entryId": "cashier",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika work roles and clothing vocabulary contribution",
+          "use": "Original common workplace meaning, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays, with editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; human language/domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated credentials, electrical/plumbing repair procedures, labor law or certified protective performance."
+        },
+        {
+          "entryId": "uniform",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika work roles and clothing vocabulary contribution",
+          "use": "Original common workplace meaning, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays, with editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; human language/domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated credentials, electrical/plumbing repair procedures, labor law or certified protective performance."
+        },
+        {
+          "entryId": "hard-hat",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika work roles and clothing vocabulary contribution",
+          "use": "Original common workplace meaning, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays, with editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; human language/domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated credentials, electrical/plumbing repair procedures, labor law or certified protective performance."
+        },
+        {
+          "entryId": "safety-vest",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika work roles and clothing vocabulary contribution",
+          "use": "Original common workplace meaning, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays, with editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; human language/domain review pending. No external dictionary wording or artwork copied. No external factual reference used; no claims about regulated credentials, electrical/plumbing repair procedures, labor law or certified protective performance."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,
