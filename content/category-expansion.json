@@ -15,7 +15,7 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "education-academic",
+  "currentCategoryId": "natural-sciences-mathematics",
   "nextCategoryId": "natural-sciences-mathematics",
   "categoryOrder": [
     "cooking-food-drink",
@@ -6426,9 +6426,67 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "natural-sciences-mathematics",
+      "visualLanguageId": "natural-sciences-mathematics",
+      "baselineCategoryWords": 35,
+      "targetCategoryWords": 49,
+      "entryIds": [
+        "atom",
+        "seed",
+        "root",
+        "leaf",
+        "telescope",
+        "planet",
+        "circle",
+        "square",
+        "rectangle",
+        "angle",
+        "fraction",
+        "parallel",
+        "perpendicular",
+        "symmetry"
+      ],
+      "units": [
+        {
+          "id": "science-matter-life-space",
+          "title": "Matter, plant parts and astronomy",
+          "entryIds": [
+            "atom",
+            "seed",
+            "root",
+            "leaf",
+            "telescope",
+            "planet"
+          ]
+        },
+        {
+          "id": "science-shape-number-relations",
+          "title": "Shapes, fractions and geometric relations",
+          "entryIds": [
+            "circle",
+            "square",
+            "rectangle",
+            "angle",
+            "fraction",
+            "parallel",
+            "perpendicular",
+            "symmetry"
+          ]
+        }
+      ],
+      "id": "natural-sciences-mathematics-category-expansion-batch-55-ready-1",
+      "releaseId": "2026-10-preview-62",
+      "status": "published-preview",
+      "objective": "Learn Matter, plant parts and astronomy; Shapes, fractions and geometric relations in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-54-ready-1",
+  "activePassId": "category-expansion-batch-55-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",
