@@ -13,9 +13,9 @@
     "modifications": "Latin-American Spanish preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-57",
-    "manifest": "content/releases/2026-10-preview-57-78ba17e001c9/manifest.json",
-    "sha256": "78ba17e001c997298a75b37d3b2828e5bef67d92cadaded2a738230652469a96"
+    "id": "2026-10-preview-58",
+    "manifest": "content/releases/2026-10-preview-58-45995107b2b0/manifest.json",
+    "sha256": "45995107b2b02268cccc67ef44f1f42017ea048591b0ba078c5be667e1959718"
   },
   "categories": {
     "everyday-life": {
@@ -46957,6 +46957,822 @@
         }
       ],
       "tip": "Crosswalk es habitual en inglés estadounidense; pedestrian crossing lo es en inglés británico. El sentido elegido es un cruce marcado para peatones. Las marcas y las normas para cruzar varían según el lugar."
+    },
+    "computer": {
+      "sourceWord": "computer",
+      "senses": {
+        "computer:meaning-1": {
+          "gloss": "computadora; computador",
+          "definition": "Dispositivo electrónico que ejecuta programas para procesar y almacenar información."
+        }
+      },
+      "examples": [
+        {
+          "en": "The computer opened the file in a few seconds.",
+          "translation": "La computadora abrió el archivo en pocos segundos."
+        },
+        {
+          "en": "She uses a computer to write reports and edit photographs.",
+          "translation": "Ella usa una computadora para escribir informes y editar fotografías."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "use a computer",
+          "translation": "usar una computadora"
+        },
+        {
+          "en": "a computer program",
+          "translation": "un programa de computadora"
+        },
+        {
+          "en": "a personal computer",
+          "translation": "una computadora personal"
+        }
+      ],
+      "tip": "Computer es un término general que incluye computadoras de escritorio y portátiles. Monitor es la pantalla de visualización, no necesariamente toda la computadora. Computadora y computador se usan en distintas regiones."
+    },
+    "laptop": {
+      "sourceWord": "laptop",
+      "senses": {
+        "laptop:meaning-1": {
+          "gloss": "computadora portátil; laptop",
+          "definition": "Computadora portátil con pantalla y teclado integrados, normalmente en una estructura que se cierra al plegarla."
+        }
+      },
+      "examples": [
+        {
+          "en": "She opened her laptop to check the train times.",
+          "translation": "Ella abrió su computadora portátil para consultar los horarios de los trenes."
+        },
+        {
+          "en": "He charged the laptop before taking it to class.",
+          "translation": "Él cargó la computadora portátil antes de llevarla a clase."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "open a laptop",
+          "translation": "abrir una computadora portátil"
+        },
+        {
+          "en": "a laptop screen",
+          "translation": "una pantalla de computadora portátil"
+        },
+        {
+          "en": "a laptop battery",
+          "translation": "una batería de computadora portátil"
+        }
+      ],
+      "tip": "Laptop es una computadora portátil con pantalla y teclado en el mismo aparato. Desktop computer es una computadora de escritorio. Una tableta suele tener pantalla táctil y puede admitir un teclado separado."
+    },
+    "desktop-computer": {
+      "sourceWord": "desktop computer",
+      "senses": {
+        "desktop-computer:meaning-1": {
+          "gloss": "computadora de escritorio; computador de escritorio",
+          "definition": "Computadora diseñada para usarse en un lugar fijo, como un escritorio, en vez de transportarla con frecuencia."
+        }
+      },
+      "examples": [
+        {
+          "en": "The desktop computer stays on the desk in the study.",
+          "translation": "La computadora de escritorio permanece sobre el escritorio del estudio."
+        },
+        {
+          "en": "He connected two monitors to his desktop computer.",
+          "translation": "Él conectó dos monitores a su computadora de escritorio."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "set up a desktop computer",
+          "translation": "configurar una computadora de escritorio"
+        },
+        {
+          "en": "a desktop computer tower",
+          "translation": "una torre de computadora de escritorio"
+        },
+        {
+          "en": "a desktop computer monitor",
+          "translation": "un monitor de computadora de escritorio"
+        }
+      ],
+      "tip": "Desktop computer es una computadora de escritorio; laptop es portátil. Algunas tienen una torre separada y otras integran la computadora y el monitor. Desktop solo también puede significar el escritorio de la pantalla; ese no es el sentido seleccionado."
+    },
+    "computer-mouse": {
+      "sourceWord": "computer mouse",
+      "senses": {
+        "computer-mouse:meaning-1": {
+          "gloss": "mouse; ratón de computadora",
+          "definition": "Dispositivo pequeño controlado con la mano para mover el puntero y seleccionar elementos en la pantalla de la computadora."
+        }
+      },
+      "examples": [
+        {
+          "en": "She used a computer mouse to select the photo.",
+          "translation": "Ella usó un mouse para seleccionar la foto."
+        },
+        {
+          "en": "His wireless computer mouse needs a new battery.",
+          "translation": "Su mouse inalámbrico necesita una pila nueva."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a wireless computer mouse",
+          "translation": "un mouse inalámbrico"
+        },
+        {
+          "en": "a computer mouse button",
+          "translation": "un botón del mouse"
+        },
+        {
+          "en": "move the computer mouse",
+          "translation": "mover el mouse"
+        }
+      ],
+      "tip": "Computer mouse es el dispositivo apuntador, no el animal. En contexto informático suele decirse solo mouse; el plural habitual en inglés es mice. Mouse y ratón se usan según la región. Puede tener cable o ser inalámbrico; trackpad es una superficie táctil de otra forma."
+    },
+    "monitor": {
+      "sourceWord": "monitor",
+      "senses": {
+        "monitor:meaning-1": {
+          "gloss": "monitor; pantalla de computadora",
+          "definition": "Dispositivo con pantalla que muestra textos e imágenes de una computadora."
+        }
+      },
+      "examples": [
+        {
+          "en": "The monitor displayed the document in large text.",
+          "translation": "El monitor mostró el documento con texto grande."
+        },
+        {
+          "en": "She connected a second monitor to her laptop.",
+          "translation": "Ella conectó un segundo monitor a su computadora portátil."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a computer monitor",
+          "translation": "un monitor de computadora"
+        },
+        {
+          "en": "connect a monitor",
+          "translation": "conectar un monitor"
+        },
+        {
+          "en": "a monitor stand",
+          "translation": "un soporte de monitor"
+        }
+      ],
+      "tip": "Aquí monitor es el dispositivo de visualización de una computadora. Screen también puede indicar la superficie de la pantalla, mientras que monitor suele nombrar el aparato. El verbo monitor, vigilar o supervisar, y el equipo de monitoreo médico no son los sentidos seleccionados."
+    },
+    "printer": {
+      "sourceWord": "printer",
+      "senses": {
+        "printer:meaning-1": {
+          "gloss": "impresora",
+          "definition": "Dispositivo que imprime textos o imágenes digitales en papel."
+        }
+      },
+      "examples": [
+        {
+          "en": "The printer produced a paper copy of the letter.",
+          "translation": "La impresora produjo una copia de la carta en papel."
+        },
+        {
+          "en": "We put more paper in the printer before printing the report.",
+          "translation": "Pusimos más papel en la impresora antes de imprimir el informe."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a color printer",
+          "translation": "una impresora a color"
+        },
+        {
+          "en": "printer paper",
+          "translation": "papel para impresora"
+        },
+        {
+          "en": "connect a printer",
+          "translation": "conectar una impresora"
+        }
+      ],
+      "tip": "Aquí printer es el aparato que imprime en papel. Scanner convierte la imagen del papel en un archivo digital. Printer también puede indicar una persona o empresa que imprime; la impresora 3D corresponde a otro sentido, no seleccionado aquí."
+    },
+    "scanner": {
+      "sourceWord": "scanner",
+      "senses": {
+        "scanner:meaning-1": {
+          "gloss": "escáner",
+          "definition": "Dispositivo que captura textos o imágenes impresos como información digital."
+        }
+      },
+      "examples": [
+        {
+          "en": "The scanner saved a digital copy of the signed form.",
+          "translation": "El escáner guardó una copia digital del formulario firmado."
+        },
+        {
+          "en": "She placed an old photograph on the scanner glass.",
+          "translation": "Ella colocó una fotografía antigua sobre el vidrio del escáner."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a flatbed scanner",
+          "translation": "un escáner de cama plana"
+        },
+        {
+          "en": "a document scanner",
+          "translation": "un escáner de documentos"
+        },
+        {
+          "en": "scanner glass",
+          "translation": "el vidrio del escáner"
+        }
+      ],
+      "tip": "Aquí scanner digitaliza documentos y fotografías; la impresora produce la copia en papel. Un flatbed scanner mantiene el documento sobre un vidrio. Los equipos de diagnóstico médico y lectores de códigos de barras no son los sentidos seleccionados."
+    },
+    "webcam": {
+      "sourceWord": "webcam",
+      "senses": {
+        "webcam:meaning-1": {
+          "gloss": "cámara web; webcam",
+          "definition": "Cámara pequeña integrada o conectada a una computadora que envía video en vivo para llamadas o visualización en línea."
+        }
+      },
+      "examples": [
+        {
+          "en": "The webcam showed her face during the video call.",
+          "translation": "La cámara web mostró su rostro durante la videollamada."
+        },
+        {
+          "en": "He attached a webcam to the top of his monitor.",
+          "translation": "Él sujetó una cámara web a la parte superior de su monitor."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a built-in webcam",
+          "translation": "una cámara web integrada"
+        },
+        {
+          "en": "an external webcam",
+          "translation": "una cámara web externa"
+        },
+        {
+          "en": "a webcam lens",
+          "translation": "una lente de cámara web"
+        }
+      ],
+      "tip": "Webcam es la cámara, no la videollamada. Algunas computadoras portátiles tienen una cámara web integrada, y una externa puede conectarse por separado. Microphone capta sonido; webcam aporta la imagen, aunque también puede tener micrófono."
+    },
+    "touchscreen": {
+      "sourceWord": "touchscreen",
+      "senses": {
+        "touchscreen:meaning-1": {
+          "gloss": "pantalla táctil",
+          "definition": "Pantalla que permite controlar un dispositivo tocando su superficie."
+        }
+      },
+      "examples": [
+        {
+          "en": "The touchscreen shows a menu that you can select with your finger.",
+          "translation": "La pantalla táctil muestra un menú en el que puedes seleccionar una opción con el dedo."
+        },
+        {
+          "en": "She used the touchscreen to choose a seat.",
+          "translation": "Usó la pantalla táctil para elegir un asiento."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a touchscreen display",
+          "translation": "una pantalla táctil"
+        },
+        {
+          "en": "tap the touchscreen",
+          "translation": "tocar la pantalla táctil"
+        },
+        {
+          "en": "touchscreen controls",
+          "translation": "controles de la pantalla táctil"
+        }
+      ],
+      "tip": "Touchscreen muestra información y también recibe el contacto; no toda screen ni todo monitor es táctil. Tap suele indicar un toque breve con el dedo, sin presionar un botón físico."
+    },
+    "processor": {
+      "sourceWord": "processor",
+      "senses": {
+        "processor:meaning-1": {
+          "gloss": "procesador",
+          "definition": "Componente electrónico central de una computadora que ejecuta instrucciones de programas y cálculos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The processor carries out the instructions in a computer program.",
+          "translation": "El procesador ejecuta las instrucciones de un programa de computadora."
+        },
+        {
+          "en": "This computer has a processor beneath a cooling fan.",
+          "translation": "Esta computadora tiene un procesador debajo de un ventilador de refrigeración."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a computer processor",
+          "translation": "un procesador de computadora"
+        },
+        {
+          "en": "processor speed",
+          "translation": "velocidad del procesador"
+        },
+        {
+          "en": "a multi-core processor",
+          "translation": "un procesador de varios núcleos"
+        }
+      ],
+      "tip": "Processor aquí es el procesador central o CPU, no todo el gabinete de la computadora. Un procesador puede tener varios cores o núcleos. La velocidad del procesador por sí sola no determina el rendimiento de toda la computadora."
+    },
+    "motherboard": {
+      "sourceWord": "motherboard",
+      "senses": {
+        "motherboard:meaning-1": {
+          "gloss": "tarjeta madre; placa base",
+          "definition": "Placa de circuito principal de una computadora que conecta el procesador, la memoria y otros componentes."
+        }
+      },
+      "examples": [
+        {
+          "en": "The motherboard connects the processor to other computer components.",
+          "translation": "La tarjeta madre conecta el procesador con otros componentes de la computadora."
+        },
+        {
+          "en": "The technician checked the connectors on the motherboard.",
+          "translation": "La técnica revisó los conectores de la tarjeta madre."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a computer motherboard",
+          "translation": "una tarjeta madre de computadora"
+        },
+        {
+          "en": "a motherboard connector",
+          "translation": "un conector de la tarjeta madre"
+        },
+        {
+          "en": "a motherboard socket",
+          "translation": "un zócalo de la tarjeta madre"
+        }
+      ],
+      "tip": "Motherboard es la placa principal; processor es el componente de procesamiento conectado a ella. En algunos equipos, el procesador se coloca en un socket o zócalo; en otros, está soldado a la placa. Mainboard también se usa para esta placa."
+    },
+    "hard-drive": {
+      "sourceWord": "hard drive",
+      "senses": {
+        "hard-drive:meaning-1": {
+          "gloss": "disco duro",
+          "definition": "Dispositivo de almacenamiento que registra información magnéticamente en discos rígidos giratorios."
+        }
+      },
+      "examples": [
+        {
+          "en": "The hard drive stores the computer’s files on rotating disks.",
+          "translation": "El disco duro guarda los archivos de la computadora en discos giratorios."
+        },
+        {
+          "en": "She copied the photos to an external hard drive.",
+          "translation": "Copió las fotos a un disco duro externo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an external hard drive",
+          "translation": "un disco duro externo"
+        },
+        {
+          "en": "hard drive capacity",
+          "translation": "capacidad del disco duro"
+        },
+        {
+          "en": "a hard drive failure",
+          "translation": "una falla del disco duro"
+        }
+      ],
+      "tip": "Hard drive aquí es el disco duro magnético con discos giratorios o HDD. El SSD también almacena datos, pero no tiene discos giratorios; los mecanismos son distintos. External indica un dispositivo usado fuera de la computadora, con conexión separada."
+    },
+    "flash-drive": {
+      "sourceWord": "flash drive",
+      "senses": {
+        "flash-drive:meaning-1": {
+          "gloss": "memoria USB",
+          "definition": "Dispositivo pequeño y portátil de almacenamiento con memoria flash y un conector USB."
+        }
+      },
+      "examples": [
+        {
+          "en": "The flash drive holds a copy of my presentation.",
+          "translation": "La memoria USB guarda una copia de mi presentación."
+        },
+        {
+          "en": "He plugged the flash drive into a USB port on the laptop.",
+          "translation": "Conectó la memoria USB a un puerto USB de la computadora portátil."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a USB flash drive",
+          "translation": "una memoria USB"
+        },
+        {
+          "en": "plug in a flash drive",
+          "translation": "conectar una memoria USB"
+        },
+        {
+          "en": "copy files to a flash drive",
+          "translation": "copiar archivos a una memoria USB"
+        }
+      ],
+      "tip": "Flash drive aquí es el dispositivo portátil con conector USB, también llamado thumb drive o USB stick en inglés. Flash memory es el tipo de memoria y también se usa en otros dispositivos, como memory cards. La forma del conector puede variar."
+    },
+    "memory-card": {
+      "sourceWord": "memory card",
+      "senses": {
+        "memory-card:meaning-1": {
+          "gloss": "tarjeta de memoria",
+          "definition": "Tarjeta pequeña y extraíble que almacena archivos digitales en dispositivos como cámaras."
+        }
+      },
+      "examples": [
+        {
+          "en": "The memory card stores the photos from the camera.",
+          "translation": "La tarjeta de memoria guarda las fotos de la cámara."
+        },
+        {
+          "en": "She put the memory card into a card reader.",
+          "translation": "Puso la tarjeta de memoria en un lector de tarjetas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a camera memory card",
+          "translation": "una tarjeta de memoria de cámara"
+        },
+        {
+          "en": "a memory card slot",
+          "translation": "una ranura para tarjeta de memoria"
+        },
+        {
+          "en": "a memory card reader",
+          "translation": "un lector de tarjetas de memoria"
+        }
+      ],
+      "tip": "Memory card es una tarjeta extraíble de almacenamiento, como una tarjeta SD; no es un módulo de RAM usado por la computadora al ejecutar programas. Card reader es el lector; slot es la ranura donde se inserta la tarjeta."
+    },
+    "router": {
+      "sourceWord": "router",
+      "senses": {
+        "router:meaning-1": {
+          "gloss": "enrutador; rúter",
+          "definition": "Dispositivo de red que dirige datos entre redes, por ejemplo entre una red doméstica y una conexión a internet."
+        }
+      },
+      "examples": [
+        {
+          "en": "The router links our home network to the internet connection.",
+          "translation": "El enrutador conecta nuestra red doméstica con la conexión a internet."
+        },
+        {
+          "en": "They connected two computers to the router with network cables.",
+          "translation": "Conectaron dos computadoras al enrutador con cables de red."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a wireless router",
+          "translation": "un enrutador inalámbrico"
+        },
+        {
+          "en": "a home router",
+          "translation": "un enrutador doméstico"
+        },
+        {
+          "en": "connect to a router",
+          "translation": "conectarse a un enrutador"
+        }
+      ],
+      "tip": "Router dirige datos entre redes. Un enrutador doméstico puede ofrecer Wi-Fi y puertos para cables, pero no todos son inalámbricos. Modem convierte la señal de la conexión con el proveedor; ambas funciones pueden estar combinadas en un aparato."
+    },
+    "modem": {
+      "sourceWord": "modem",
+      "senses": {
+        "modem:meaning-1": {
+          "gloss": "módem",
+          "definition": "Dispositivo que convierte señales entre la conexión de un proveedor de internet y una computadora o red local."
+        }
+      },
+      "examples": [
+        {
+          "en": "The modem converts the signal from the provider’s cable for our home network.",
+          "translation": "El módem convierte la señal del cable del proveedor para nuestra red doméstica."
+        },
+        {
+          "en": "A network cable connects the modem to a separate router.",
+          "translation": "Un cable de red conecta el módem con un enrutador separado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a cable modem",
+          "translation": "un módem de cable"
+        },
+        {
+          "en": "a modem connection",
+          "translation": "una conexión de módem"
+        },
+        {
+          "en": "connect a modem",
+          "translation": "conectar un módem"
+        }
+      ],
+      "tip": "Modem convierte señales de un tipo de conexión, como internet por cable o DSL; router dirige datos entre redes. Un equipo puede reunir ambas funciones. Tener Wi-Fi no forma parte de la definición de módem."
+    },
+    "internet": {
+      "sourceWord": "internet",
+      "senses": {
+        "internet:meaning-1": {
+          "gloss": "internet",
+          "definition": "Sistema mundial de redes de computadoras conectadas que permite intercambiar datos entre dispositivos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The internet lets people send messages between distant countries.",
+          "translation": "Internet permite enviar mensajes entre países lejanos."
+        },
+        {
+          "en": "Our office lost its connection to the internet for an hour.",
+          "translation": "Nuestra oficina perdió la conexión a internet durante una hora."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "access the internet",
+          "translation": "acceder a internet"
+        },
+        {
+          "en": "connect to the internet",
+          "translation": "conectarse a internet"
+        },
+        {
+          "en": "an internet connection",
+          "translation": "una conexión a internet"
+        }
+      ],
+      "tip": "Internet es la infraestructura de redes; the web es uno de los servicios que la utilizan. Un website es solo una parte de la web. En inglés son comunes on the internet y connect to the internet."
+    },
+    "website": {
+      "sourceWord": "website",
+      "senses": {
+        "website:meaning-1": {
+          "gloss": "sitio web",
+          "definition": "Una o más páginas web relacionadas publicadas bajo una dirección común."
+        }
+      },
+      "examples": [
+        {
+          "en": "The website lists the museum's opening hours.",
+          "translation": "El sitio web indica el horario de apertura del museo."
+        },
+        {
+          "en": "We opened the contact page to find an email address.",
+          "translation": "Abrimos la página de contacto para encontrar una dirección de correo electrónico."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "visit a website",
+          "translation": "visitar un sitio web"
+        },
+        {
+          "en": "an official website",
+          "translation": "un sitio web oficial"
+        },
+        {
+          "en": "a website address",
+          "translation": "la dirección de un sitio web"
+        }
+      ],
+      "tip": "Website es el conjunto de páginas relacionadas; web page es una página y web browser es el programa para acceder a ellas. Site puede abreviar website en inglés; aquí no se trata de un lugar físico."
+    },
+    "web-browser": {
+      "sourceWord": "web browser",
+      "senses": {
+        "web-browser:meaning-1": {
+          "gloss": "navegador web",
+          "definition": "Programa que permite abrir, mostrar y recorrer páginas de la web."
+        }
+      },
+      "examples": [
+        {
+          "en": "The web browser opened the address in a new tab.",
+          "translation": "El navegador web abrió la dirección en una pestaña nueva."
+        },
+        {
+          "en": "You can use a different browser to view the same page.",
+          "translation": "Puedes usar otro navegador para ver la misma página."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "open a web browser",
+          "translation": "abrir un navegador web"
+        },
+        {
+          "en": "a browser tab",
+          "translation": "una pestaña del navegador"
+        },
+        {
+          "en": "a browser window",
+          "translation": "una ventana del navegador"
+        }
+      ],
+      "tip": "Web browser es el programa, no el sitio ni el search engine. Puedes abrir un buscador dentro del navegador. En informática, browser suele abreviar web browser."
+    },
+    "password": {
+      "sourceWord": "password",
+      "senses": {
+        "password:meaning-1": {
+          "gloss": "contraseña",
+          "definition": "Secuencia secreta de caracteres utilizada para acceder a una cuenta, un dispositivo o un servicio."
+        }
+      },
+      "examples": [
+        {
+          "en": "Enter your password to sign in to the account.",
+          "translation": "Ingresa tu contraseña para acceder a la cuenta."
+        },
+        {
+          "en": "The sign-in form hides the characters with dots.",
+          "translation": "El formulario de acceso oculta los caracteres con puntos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "enter a password",
+          "translation": "ingresar una contraseña"
+        },
+        {
+          "en": "change a password",
+          "translation": "cambiar una contraseña"
+        },
+        {
+          "en": "reset a password",
+          "translation": "restablecer una contraseña"
+        }
+      ],
+      "tip": "Password no tiene que ser una palabra común y puede contener distintos tipos de caracteres. Username identifica la cuenta y no es la contraseña."
+    },
+    "download": {
+      "sourceWord": "download",
+      "senses": {
+        "download:meaning-1": {
+          "gloss": "descargar",
+          "definition": "Recibir en tu dispositivo una copia de datos de otra computadora o de un servicio en línea."
+        }
+      },
+      "examples": [
+        {
+          "en": "Download the map before you leave the hotel.",
+          "translation": "Descarga el mapa antes de salir del hotel."
+        },
+        {
+          "en": "The file moved from the website to a folder on my laptop.",
+          "translation": "El archivo se transfirió del sitio web a una carpeta de mi computadora portátil."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "download a file",
+          "translation": "descargar un archivo"
+        },
+        {
+          "en": "download an app",
+          "translation": "descargar una aplicación"
+        },
+        {
+          "en": "download from a website",
+          "translation": "descargar de un sitio web"
+        }
+      ],
+      "tip": "Aquí download es verbo: los datos llegan a tu dispositivo. Upload expresa la dirección contraria, desde tu dispositivo hacia otra computadora o servicio. En download a file from a website, from indica el origen."
+    },
+    "click": {
+      "sourceWord": "click",
+      "senses": {
+        "click:meaning-1": {
+          "gloss": "hacer clic",
+          "definition": "Presionar y soltar un botón del mouse para seleccionar o activar algo en la pantalla de la computadora."
+        }
+      },
+      "examples": [
+        {
+          "en": "Click the blue button to open the next page.",
+          "translation": "Haz clic en el botón azul para abrir la página siguiente."
+        },
+        {
+          "en": "She clicked once on the photo to select it.",
+          "translation": "Ella hizo clic una vez en la foto para seleccionarla."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "click a button",
+          "translation": "hacer clic en un botón"
+        },
+        {
+          "en": "click on a link",
+          "translation": "hacer clic en un enlace"
+        },
+        {
+          "en": "click once",
+          "translation": "hacer clic una vez"
+        }
+      ],
+      "tip": "Aquí click es la acción de presionar y soltar el botón del mouse, no el sonido de un chasquido. Click a button y click on a button son comunes en inglés. Double-click es hacer dos clics rápidos; tap es un toque breve en la pantalla."
+    },
+    "scroll": {
+      "sourceWord": "scroll",
+      "senses": {
+        "scroll:meaning-1": {
+          "gloss": "desplazarse por la pantalla",
+          "definition": "Mover el contenido que aparece en la pantalla para ver otra parte."
+        }
+      },
+      "examples": [
+        {
+          "en": "Scroll down to see the rest of the article.",
+          "translation": "Desplázate hacia abajo para ver el resto del artículo."
+        },
+        {
+          "en": "He scrolled back to the top of the list.",
+          "translation": "Él volvió a desplazarse hasta el inicio de la lista."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "scroll down",
+          "translation": "desplazarse hacia abajo"
+        },
+        {
+          "en": "scroll up",
+          "translation": "desplazarse hacia arriba"
+        },
+        {
+          "en": "scroll through a page",
+          "translation": "desplazarse por una página"
+        }
+      ],
+      "tip": "Aquí scroll es el verbo de navegación en pantalla, no el sustantivo rollo de papel. Scroll down muestra una parte inferior del documento, aunque el texto pueda subir en la pantalla. Desplazarse no elimina ni reescribe el contenido."
+    },
+    "delete": {
+      "sourceWord": "delete",
+      "senses": {
+        "delete:meaning-1": {
+          "gloss": "eliminar; borrar",
+          "definition": "Quitar texto seleccionado, un archivo u otro elemento de un documento digital o de una ubicación de almacenamiento."
+        }
+      },
+      "examples": [
+        {
+          "en": "Delete the repeated word from the sentence.",
+          "translation": "Borra la palabra repetida de la oración."
+        },
+        {
+          "en": "I deleted an old file that I no longer needed.",
+          "translation": "Eliminé un archivo antiguo que ya no necesitaba."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "delete a file",
+          "translation": "eliminar un archivo"
+        },
+        {
+          "en": "delete a message",
+          "translation": "borrar un mensaje"
+        },
+        {
+          "en": "delete selected text",
+          "translation": "borrar el texto seleccionado"
+        }
+      ],
+      "tip": "Delete significa quitar un elemento de donde está. Según el programa, un archivo eliminado puede pasar primero a la papelera; el verbo por sí solo no implica borrado permanente o irreversible. En algunos programas, undo permite deshacer la eliminación."
     }
   }
 }

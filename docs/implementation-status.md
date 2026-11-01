@@ -1,6 +1,6 @@
 # Mehrdadika implementation status
 
-Implementation snapshot, October 31, 2026. Mehrdadika adapts the public Word Atlas application into a Persian-first English-learning website, with full shared application flows for Brazilian Portuguese and a first Latin American Spanish edition. It retains the reference’s visual foundation and five main destinations, with new reading and specialist practice features implemented over the public source.
+Implementation snapshot, November 1, 2026. Mehrdadika adapts the public Word Atlas application into a Persian-first English-learning website, with full shared application flows for Brazilian Portuguese and a first Latin American Spanish edition. It retains the reference’s visual foundation and five main destinations, with new reading and specialist practice features implemented over the public source.
 
 The [public source repository](https://github.com/mehrdadxzaker/mehrdadika) and [GitHub Pages website](https://mehrdadxzaker.github.io/mehrdadika/) are available. The [implementation plan](../IMPLEMENTATION_PLAN.md) remains the broader requirements and continuing roadmap; this document distinguishes current implementation from corpus readiness and release qualification.
 
@@ -8,7 +8,7 @@ The [public source repository](https://github.com/mehrdadxzaker/mehrdadika) and 
 
 | Item | Current scope |
 | --- | --- |
-| Vocabulary | 1365 lexical items and 1366 independently scheduled meanings. `pressure` has separate medical and engineering learning contexts under one public word card. |
+| Vocabulary | 1389 lexical items and 1390 independently scheduled meanings. `pressure` has separate medical and engineering learning contexts under one public word card. |
 | Subject taxonomy | All 32 domains, organized into six discovery groups, with category-specific visual briefs for the 64-word expansion. |
 | Subcategory display | 348 native subcategory labels in each of Persian, Brazilian Portuguese and Latin American Spanish, parallel to the English catalog. |
 | Starter focus | All 32 categories have two new visual-foundation entries; cooking has 52 words. Medicine and engineering retain their deployed 500-entry count milestones; whole-collection image qualification and independent human review remain incomplete. Everyday life and home, gardening and DIY each have 50 source entries, reaching their first count targets; both remain editorial previews. Future category milestones remain 150 and 400. |
@@ -17,11 +17,11 @@ The [public source repository](https://github.com/mehrdadxzaker/mehrdadika) and 
 | Additional exercises | Two paraphrase levels and three confusable-word groups. |
 | Science through English | Water and Weather: eight lessons, 32 closed activities, eight writing tasks, 22 target senses and complete Persian/Portuguese/Spanish support. |
 | Review channel | AI-assisted editorial preview. No independent human or specialist approval is claimed. |
-| Portuguese and Spanish previews | Each edition has 1365 words, 1366 senses, 2732 translated examples, 4095 collocations, 1365 usage notes, 32 category labels, 348 subcategory labels and six group labels, plus the reading/practice catalog above. |
+| Portuguese and Spanish previews | Each edition has 1389 words, 1390 senses, 2780 translated examples, 4167 collocations, 1389 usage notes, 32 category labels, 348 subcategory labels and six group labels, plus the reading/practice catalog above. |
 
 The [category expansion ledger and queue](category-expansion.md) tracks coherent publication batches, with foundation/core/depth targets of 50/150/400 words per category. `npm run content:coverage` reports current unique word and category counts. The [specialist campaign](specialist-expansion.md) overrides the immediate medicine and engineering target to 500 each; `npm run campaign:status` measures the remaining work from the published release.
 
-The [latest transport and vehicles batch](category-expansion-50-ready-1.md) adds 18 distinct illustrated English entries, taking the integrated category source from 32 to 50 and reaching its first count target. Computing and technology is next in the configured queue; no next parent has been selected. Build, tests, full content checks and representative local desktop/phone cards in all three editions passed, with scope and limitations recorded in the batch notes. Exact-source CI, Pages and live verification remain pending at commit. Medicine and engineering retain their previously deployed 500-entry count milestones; travel, people and relationships, everyday life and home retain 50 each. Count milestones do not complete or qualify a category.
+The [latest computing and technology batch](category-expansion-51-ready-1.md) adds 24 distinct illustrated English entries, taking the integrated category source from 6 to 30. Computing remains next in the configured queue, with 20 entries remaining to its first count target of 50 and at most 20 additions in the next allocation; no next parent has been selected. This group uses the full 24-entry automatic-run cap. Build, tests, full content checks and representative local desktop/phone cards in all three editions passed, with full dialog text read separately and scope recorded in the batch notes. Exact-source CI, Pages and live verification remain pending at commit. Medicine and engineering retain their previously deployed 500-entry count milestones; transport, travel, people and relationships, everyday life and home, and gardening and DIY retain 50 each. Count milestones do not complete or qualify a category.
 
 Category and subcategory presence describes intended coverage. It does not mean that every branch already contains authored lessons. A shared sense can appear through multiple category routes without becoming a second learning record.
 

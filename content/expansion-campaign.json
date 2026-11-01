@@ -12528,6 +12528,531 @@
           "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-51-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-58",
+      "sourceFiles": [
+        "basic-devices.json",
+        "components-storage.json",
+        "web-and-actions.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-57",
+        "manifest": "content/releases/2026-10-preview-57-78ba17e001c9/manifest.json",
+        "manifestSha256": "78ba17e001c997298a75b37d3b2828e5bef67d92cadaded2a738230652469a96",
+        "words": 1365
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "computer",
+            "lexicalBinding": "2a3042ab2b39cdc386a74c60a0f325eff129b7d89909a5d8637446892251bb4a",
+            "sourceImageSha256": "b8f88012ae117f95bc209c8f0fb211c457c03af8f3fcc59e73d09b3ab84eefd2",
+            "cardSha256": "35e0c8d22dba12603bfb5838092fc282659e87da188e3a503dbcdf9efcf46aad",
+            "thumbnailSha256": "6d4a128f72aea7f877ac5fc6b4f4457674c04635d59bbee50e5dd20fa7c75e83",
+            "authorPixelBinding": "6ba251e8e630f7fcd289da4868115acde3efbd441bad1c2404a9f45188064361",
+            "secondPixelBinding": "32c79503cb88c81ee0cb0bcae8e7e9a26cef102037e8901b25a53893c8137326"
+          },
+          {
+            "entryId": "laptop",
+            "lexicalBinding": "a0b009e4d31ea170c227aa1776978afbbf1a0098b5292d1125c9cbac76034091",
+            "sourceImageSha256": "fe5dfad1da53bb344c47d2819c0b01c943e1b77efb2611c0636678209f2519a2",
+            "cardSha256": "becaa6ec830d3d13ecfe7b01e5137d03596bf918ab0938381a4bb0bdf5ec3666",
+            "thumbnailSha256": "3bc231c3bdba64fba036e68af03d5521064828b3c463b8a09e69dee4245357ab",
+            "authorPixelBinding": "d56a5a5e262123177f1043441de23c7b0a45e41ad171788d73914f80f12dff35",
+            "secondPixelBinding": "c0279a878afefb1ee32caf7767b87df35075c1144f5fe1a6104d0f8d22c0914e"
+          },
+          {
+            "entryId": "desktop-computer",
+            "lexicalBinding": "3238af0137023868cd353826fcf27c6a85856799dc336edbdeb153df7a76997e",
+            "sourceImageSha256": "2a6003a45320d7fc35e68432f82558ff3ca1d5792317a56264c2a3785afc67e2",
+            "cardSha256": "ab693ebc86240503681d773de83cb741fc8d0505597bbbb4a9d479e77e1e5930",
+            "thumbnailSha256": "30b141a7a740cfd20146c214ebc01a7955db35ec60b5e3964fd3b9d64b03285f",
+            "authorPixelBinding": "f904443b03938ec7339a127b1fcc25fe05083035bfd1caa70e4bc4733c5aa9c5",
+            "secondPixelBinding": "2aa42e843f960fcf21baf7893a3c02659645b84b72a66482ddb15eef70c53f98"
+          },
+          {
+            "entryId": "computer-mouse",
+            "lexicalBinding": "01e126b480b8f699e6620a006027242a43996b66adc067c7f0a514f0423ce8dc",
+            "sourceImageSha256": "8aa190d6d4a5c0ee7040d98870b7991fb10d389e45fb57139ba11927ecfaa30f",
+            "cardSha256": "9ee6f00972aa4b8073612d3459896c901062fa31d056394f3dcb46f72382fc1f",
+            "thumbnailSha256": "2a21e7c1abedbfc7dcf1fdb3d10894ebf1b4a0b9556cde31181a45ca487b2615",
+            "authorPixelBinding": "561d30a1cdf946390fe2a30b050a08bcb2e2be0813b6c92d3d44e7d69bbb0169",
+            "secondPixelBinding": "a0d24d555a0bda84e10d503710001409649d434aab40b5d6a23c9120791addb5"
+          },
+          {
+            "entryId": "monitor",
+            "lexicalBinding": "55b62cdae4ed731d7b9a0332896568c0e1d0a125874c1695460a5ecb659874ce",
+            "sourceImageSha256": "d5d94f968b3a5afb26b9b08a3db34cbb4b09fba3d192caadeb77c0e78df48cb2",
+            "cardSha256": "3299862a9219634edac32079155f2627f8ea2a323c0c58a4faed4971b6ade55c",
+            "thumbnailSha256": "1f2e012318f7dcef0c7e5ce19e2ecc496e6ba08b8560e511475d391b27af32cc",
+            "authorPixelBinding": "2d6dda32de8705915b6fdf376d0cc0bb51f7ca1dac4c45a0785dc8b9be77d830",
+            "secondPixelBinding": "5f715dc13918055c6bc35451468c5dfd4f17af6c5704af7f50bc7b122d4485a7"
+          },
+          {
+            "entryId": "printer",
+            "lexicalBinding": "8761289bea486f5b65ea8509c3895a996e6e69fe3afbab422e856644e79d342f",
+            "sourceImageSha256": "1ee3b4c6ae8f960b2b6f70036a7758e0af598f8920d4ff1ad629aa9a1f11d74a",
+            "cardSha256": "5fc81485fecf131f8edc5ed4e5f0e7950ec44e6ef81b5b281cd876f72de14345",
+            "thumbnailSha256": "f20b72f322cb91b13c804693c93f4e278b286d2e81520b2ae6e6f8597cd25e28",
+            "authorPixelBinding": "2f8203005875744e7646023aa37cdb51278c0820502541ed0d8b86de25274c05",
+            "secondPixelBinding": "4d9067fb034ebfeb671a8bdfa46c6b971e3c7c549cdfc04005a9557b69ad4844"
+          },
+          {
+            "entryId": "scanner",
+            "lexicalBinding": "a3503bec3b225e606a73415c0f121e99bf12aba701df114d62671dc1d38f597f",
+            "sourceImageSha256": "37bc2973b55770ac7b6001ced40d3cee35a8938d78481617ad6334c95b17e7bc",
+            "cardSha256": "041dd586264d998eeea6d433e22e2da2924568154c5fd52a189bcbc599c60951",
+            "thumbnailSha256": "4c7c6dc14d81b25e398e21912d82b64870d3867d2187d14dc31afee019a0a07a",
+            "authorPixelBinding": "d0e16eb9227df578848735894e127a73eca9fcef111fdbe4aa36dd8cd3c33df9",
+            "secondPixelBinding": "c2b4a0a6b9c3b1e26f247260951b0ae9e685902ad75ea7e6b14ac8cdbdc804cf"
+          },
+          {
+            "entryId": "webcam",
+            "lexicalBinding": "bc9637a19b43af59bc2a20cf4c016de60fead9a3e15bd41e370a3456bc17715d",
+            "sourceImageSha256": "524d1fbdcbcda1d4d998d45eff1ae13e02d77ee900f50e7dc9ef145da726934e",
+            "cardSha256": "dbecc032f154199089c030bd537b12d2c897763dec156cc925e85112e4da07b3",
+            "thumbnailSha256": "acd049c77174addacd1641598d6301d0a6aee3158f1bde9f7083c8859ef3ace6",
+            "authorPixelBinding": "9590dde507113605078b65a57faf82d592946fdb6229959b31c2d99f4724162f",
+            "secondPixelBinding": "c58a77afa86b7033e59b2c0c53ce1628141656a33f102ecb1fe4dc9d992f054d"
+          },
+          {
+            "entryId": "touchscreen",
+            "lexicalBinding": "b6d77c6d5c4c6300f8b441a7606187d16f87375a63243e09b2c33292f4315073",
+            "sourceImageSha256": "dc9422d0148369faddf1176a8a9f15c80f70234c5484cbea36deef79e1172546",
+            "cardSha256": "fd2db038779b0fea0566e2e597ed2e6c633d7b3eed802bc4baec255d0f94421d",
+            "thumbnailSha256": "6f4582f69a3a22b7ed47f79608746cc600ea5669914bd935f2428afa8b2a8e3b",
+            "authorPixelBinding": "efe8fc5811a75876379053987c1dd589186bef64904a8741cb6e6a48b030c38b",
+            "secondPixelBinding": "13bbfad100bac88c1a9694335b0190f245c962060cb073da03aa37536f60ba3a"
+          },
+          {
+            "entryId": "processor",
+            "lexicalBinding": "aa62270956fdf8566d8c8012d28d2d3cbdcf91cdb0b9439b0d987638833ccbf3",
+            "sourceImageSha256": "6cfda81e99d72fb3627368471abe3d8e769cb9f9805464abca2bf0bf343a6954",
+            "cardSha256": "8eaabe016f4fa41de336db79e8d29636cf3c97255c0286b0be0b5da53e677a4d",
+            "thumbnailSha256": "30838f91bdfc562a7067dd2ae19db80f679dda74381cb365d6f0d947fa6e32f4",
+            "authorPixelBinding": "cf000dcfd9d9f0ed91be2d8aeae4e419eabd556e7f940d3ebcac2c53d72e1083",
+            "secondPixelBinding": "9fafd48c6ecd1e704fa7716de9f072ece5ca7061d1e66fb5987fe268129279c1"
+          },
+          {
+            "entryId": "motherboard",
+            "lexicalBinding": "5cbf7d21c8d6916ee48cc9150429a61d672e9e318383ef09a38008b48a136cb5",
+            "sourceImageSha256": "71390f675d71592d030b64ee351c36595516c0e742ab53ac052593a24bbab16d",
+            "cardSha256": "4f1ecdd421cbd05eefcb2e57a8655f1735d5ddc581cbd0b0e5f80c0fa49df04a",
+            "thumbnailSha256": "165c2fa320940977e1e9b4018f053bff1880d154d26ce788be1bc432f9e690f2",
+            "authorPixelBinding": "107abc45853c9a757af9c634f193168f5a7089c52f78fc8ccc07e0638dae2e9f",
+            "secondPixelBinding": "4bd17d012ced4c1cb593b481a217e7ae50c90aa902135206e2282a14c52a1149"
+          },
+          {
+            "entryId": "hard-drive",
+            "lexicalBinding": "37caec8decc50be42f4c28e3af987d9bac09bc5f27a4e3e68ff29e76b3d21348",
+            "sourceImageSha256": "cf119875a11de945b02a83fa8459119ffead5035d92db646e35c1b43c88670c4",
+            "cardSha256": "e90cf9ad0921603bc8e87f5bdab42931a7877c2f169a44ab9abfac9ff0b51741",
+            "thumbnailSha256": "8ccc69280e89baafdf0c855a884fcec72c46f19b166b65be4604d31f8037965a",
+            "authorPixelBinding": "bf34d8f21db07c9d4069ba74328a14184cc4a64e59bbed41b701d338d2919409",
+            "secondPixelBinding": "eb593ca23b079e88773ae336422120beae26fbcac320027b3268af42405fa856"
+          },
+          {
+            "entryId": "flash-drive",
+            "lexicalBinding": "53fe249d8d93ea3f210d4a9908468d6c393240dc60e31da0445055684b63edb8",
+            "sourceImageSha256": "b2973cca18bba074dcc82bcc7c39369a9756a96ec58474a7ba2c51848e33e79a",
+            "cardSha256": "73a9a39ce8f076801e63a80f111c595dd3a071347897b9e1b89d8122a502c835",
+            "thumbnailSha256": "5aa61f71dc3aebecf64eb64bde9feb476b42dd08b96de7127ac2b0132a117a39",
+            "authorPixelBinding": "690d808ef89e72f40d627df78b4d730e284f1f9f5d399adaa5b7857219d18203",
+            "secondPixelBinding": "48dd7f87a743c3b9cae49bfce9d88bddfb99352c476c399f5b8c0ca926c99749"
+          },
+          {
+            "entryId": "memory-card",
+            "lexicalBinding": "7aed9e8c5bc48b1a21b559313dea61ab528c32ef9ba378475c8bf5c8180d6ec1",
+            "sourceImageSha256": "08a050b4450f8caf69eb408d072d741ae967c821a2742d9d6443c50295db3345",
+            "cardSha256": "b84ddf3b62cf05cc2ed32da78188bb8d682d834fd5cc73ce55e7079c2f5411a5",
+            "thumbnailSha256": "8c00c414b123edd5952d7234c0b552877ba6b6913aa2b3e09134bfd2bbc57f18",
+            "authorPixelBinding": "0a8e830f4d543f73611998408c139b46f8fd4aeef5d3776cbe5a079de751b205",
+            "secondPixelBinding": "47be4cb99b32f443d7a0ecb75b1ca58ed764886e5647166b56595403bf0db179"
+          },
+          {
+            "entryId": "router",
+            "lexicalBinding": "7018206e2ca1b15c4e85d422bcf7ca55a31c37e982561dab564df83d72d366e6",
+            "sourceImageSha256": "439324cf1297fca486137159dd54298c920caaca8d454ab4e1fe6a71b3b833d8",
+            "cardSha256": "969e70689a9974b9661f4f5bded6d254bd11bf555c3ca678d3381eaeb4c92818",
+            "thumbnailSha256": "c780148d2dd4fc1a05784d8deb134bd30c8744e1f22c1a130ae6e5dd5162be9d",
+            "authorPixelBinding": "b9e7c82518973f1c3989960bb4f3791031a5ef9790af49c8782205b07cc7e42c",
+            "secondPixelBinding": "1f97ca002c3c45e9242ef853a795483e93ab2467c4b60c3d0217861916cb2499"
+          },
+          {
+            "entryId": "modem",
+            "lexicalBinding": "df7e951fd7c7c272cc4031c266b99c96de76f3c3179b1a6cd5ea9e4d6facc23d",
+            "sourceImageSha256": "040be52c6b43212e6e44c06eabb7b1188acc6cdb2f1eeb91272cd3ebbc045d63",
+            "cardSha256": "e7266d689f1de0f5e0ce3277cdc19b4030808218185689e3d42629fe5f60277f",
+            "thumbnailSha256": "d9f461c74e582ae05d9d22a7f2db46f8bc999d968acfaac3b9e55877749a5c0d",
+            "authorPixelBinding": "14d8abab369159e2dc3e6786161762be7710d53825ecd9752dae12195fdc7203",
+            "secondPixelBinding": "f849dfd491ecec7a495a0f2214afea8adfbf1f9be8f6a5467fd14d4f29cc8dd1"
+          },
+          {
+            "entryId": "internet",
+            "lexicalBinding": "1d8af913339e202faad490b92dbaba2dceaf14ed9af1348310ce683490e147d2",
+            "sourceImageSha256": "b3a7173b0821859fd3d90926b6f580347646510ec58eb9ca05d82cce74400d2c",
+            "cardSha256": "e45f61c36cb845b677da60eedf43f3451ef8b1940c821bf563e128236e67aaca",
+            "thumbnailSha256": "381518731f32a1460efc793980114e746a835e676903d876d15935372b67093e",
+            "authorPixelBinding": "9c31935daf2e75caf77b0b855ce92ceb757a66b0ffdd936271f1e9ea441c9784",
+            "secondPixelBinding": "b14d3f27ca14da9f2231a126623a7eca215301330571f7383eacb587ab242c14"
+          },
+          {
+            "entryId": "website",
+            "lexicalBinding": "8c6d976c9df7ea1f2665592d2f9b1f175c9b68b1693c84082e291ebda3d4e81a",
+            "sourceImageSha256": "286754659a72f7b6da3f9cb166b2a6e38c790e11e1eb8cd360e62da658c798e9",
+            "cardSha256": "c1a5ec08e50e6a689cf230e409ce8e7a16019270abf612cc772a92b280387f44",
+            "thumbnailSha256": "7c95f610b13489acf2e8c31e75335b4cf3b6dc6c85d2beabacb272e44745220e",
+            "authorPixelBinding": "1999dc0ec4a0bef9a8b10de5f1f85874db8d8743486c082a11b95587a21da09b",
+            "secondPixelBinding": "1996eadd667f2a3aeccf312e3167662bbcfd2da74c0719c633d4169696308c5b"
+          },
+          {
+            "entryId": "web-browser",
+            "lexicalBinding": "a8a56315767d3058c75a756ce0113adb75cc795247018a2c0aa6b858a44d4636",
+            "sourceImageSha256": "524c5fe4367f5b3d75df7532f4b6659fdd31231e5e4e4b9934cd3e15248a0e38",
+            "cardSha256": "0e7b3ffe7874e686c66654d418e7808a0e0c2ea1e0085371115eb5426394a703",
+            "thumbnailSha256": "188fa40743631602aedcc9f8acff0f468b42b801f4f111283a11d6b8095aa97d",
+            "authorPixelBinding": "a40c2b9de3bcf09bd92e26779b33908c3fba427f34666048cb71932caf8b8bd7",
+            "secondPixelBinding": "2e2ede0226daacb414f6c9415fc5bed71b7661e3af1a7d2955f9d9da25a7cd84"
+          },
+          {
+            "entryId": "password",
+            "lexicalBinding": "bf189d2b5149e0b89aaeeafc9719337a53cb638dc0b170665a0965caa4d32413",
+            "sourceImageSha256": "5206d75ee20dbe29abf89105e236df01da3c8d609f82c8845c4d2a03c70f609d",
+            "cardSha256": "17b87bc1144fc5ff9a55f33688e00913aaaafbb6011a9185e3dea03ab611c9f9",
+            "thumbnailSha256": "b5d1a2b05bd70021a7b4197bec5f033e25c11d23c28b2cc10cc64d5fbc2944cd",
+            "authorPixelBinding": "a7a19cee8dd367762086a320478a73a6a1fbf961f408a700ef26cb07c7df0f36",
+            "secondPixelBinding": "1f242940812bfd7dd77e3613722d669d532840f1394e933d1b24496a06f387f7"
+          },
+          {
+            "entryId": "download",
+            "lexicalBinding": "d231ddd613123119f1990e28496328da9960bd76cfb353cc4b54153e0781a4dd",
+            "sourceImageSha256": "93754ecd6493d57c6a46f1e84d3611dbc2be686272d427a12db4de07f0a9d5dd",
+            "cardSha256": "84d693f6673ffcfc8e412caecb58168d038660956cf85f438fce089b901b51e3",
+            "thumbnailSha256": "6f0f9bee528b270c5c2478f4e0567b44d89b0e25f43f410a5bce73570210ff7b",
+            "authorPixelBinding": "2dd8532b67a5880837123d0c28e2d0b2c94bdee2530add770897505dab516385",
+            "secondPixelBinding": "fb999e5b5e023931b78ecae69f18c6c1cb518927e54409eac860665214831176"
+          },
+          {
+            "entryId": "click",
+            "lexicalBinding": "4c64630af99b85e4848ba14014ef39f5254e31d5897fc0d20b66aa4c54a4213e",
+            "sourceImageSha256": "e88afcefcb80639d93c6878739ddb17064a6dc195e94972acc074d39301a7cb7",
+            "cardSha256": "f93d72685c78af0f7aa30b4509f6254bbd87688bc2f80ec7e7993ca8b7999643",
+            "thumbnailSha256": "380ea52ecbae04a67711653c380e85ba9ac2ed21aca9d9187aa757ec63bb3913",
+            "authorPixelBinding": "e80f9323c6104902cf95edc191b0adc0b52f10f185358ddae630780883beced1",
+            "secondPixelBinding": "ba612f8450c933426d913b366fb9c146031a7b043548c7c2126ce7ad2f889b6a"
+          },
+          {
+            "entryId": "scroll",
+            "lexicalBinding": "9c1d7d33dc70e88a648014203bce65dca8a00a6d520b5bd49c010375b4db4b23",
+            "sourceImageSha256": "e43a108fe21dda8030d147fc7336f93092676c1edcda15e0eda12149f9bce542",
+            "cardSha256": "c90c26b83385e4ff51c7a100075314b4ed7467f00c2d1e92d98e1ea068a9bdfd",
+            "thumbnailSha256": "69dd786deab1fb6ef669f0fd5dbb3cb9111aabff4333c54d86cb27aa14980be6",
+            "authorPixelBinding": "9c11883b325510d9a64a4359f4794f514613012c21f82ef3110b0561449a7fcd",
+            "secondPixelBinding": "eed105a387c63aa371b133ec9695e9bd7e7c92c9b9806d7b8ccc904ecb7c5533"
+          },
+          {
+            "entryId": "delete",
+            "lexicalBinding": "337c27aefd3a55c160e7594b648f6170d62e50a76a885295e67fe58c4405a81b",
+            "sourceImageSha256": "d77aecedffb52ccb22ac259a6a48bef83336ea7fb4f6024ebe9bc7d6f255a048",
+            "cardSha256": "8a53409770f47ce84147599e36ef4daa65ef2aab23f1f27dcd39f9698ccba0a9",
+            "thumbnailSha256": "142479e8347d758da9b9eb7668cf11bd646a988357c79d58be0cc76d8dd47ce3",
+            "authorPixelBinding": "f32b556d5542c51a952f63a7f652aa32f484f98335e136bdc9ef22aaa5b1d29f",
+            "secondPixelBinding": "d5db355ac8e1402b686127729b40eb1610c1b2fd06f3aee348bc8ff1bd5f13f3"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "computing-technology",
+          "visualLanguageId": "computing-technology",
+          "baselineCategoryWords": 6,
+          "targetCategoryWords": 30,
+          "entryIds": [
+            "computer",
+            "laptop",
+            "desktop-computer",
+            "computer-mouse",
+            "monitor",
+            "printer",
+            "scanner",
+            "webcam",
+            "touchscreen",
+            "processor",
+            "motherboard",
+            "hard-drive",
+            "flash-drive",
+            "memory-card",
+            "router",
+            "modem",
+            "internet",
+            "website",
+            "web-browser",
+            "password",
+            "download",
+            "click",
+            "scroll",
+            "delete"
+          ],
+          "units": [
+            {
+              "id": "computing-devices",
+              "title": "Computers and everyday peripherals",
+              "entryIds": [
+                "computer",
+                "laptop",
+                "desktop-computer",
+                "computer-mouse",
+                "monitor",
+                "printer",
+                "scanner",
+                "webcam"
+              ]
+            },
+            {
+              "id": "computing-components-storage",
+              "title": "Components, storage and connection devices",
+              "entryIds": [
+                "touchscreen",
+                "processor",
+                "motherboard",
+                "hard-drive",
+                "flash-drive",
+                "memory-card",
+                "router",
+                "modem"
+              ]
+            },
+            {
+              "id": "computing-web-actions",
+              "title": "The web, credentials and everyday actions",
+              "entryIds": [
+                "internet",
+                "website",
+                "web-browser",
+                "password",
+                "download",
+                "click",
+                "scroll",
+                "delete"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "24 globally absent established computing headwords after parent50 fully live/reconciled and2962 evidence pins verified; computing6to30within50target/24run cap.16manualholds untouched. No nextparentselected.",
+      "parentBatchId": "category-expansion-batch-51",
+      "completedAt": "2026-11-01T06:16:17.493Z",
+      "factualReferences": [
+        {
+          "entryId": "computer",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika basic computing-device vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "laptop",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika basic computing-device vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "desktop-computer",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika basic computing-device vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "computer-mouse",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika basic computing-device vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "monitor",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika basic computing-device vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "printer",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika basic computing-device vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "scanner",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika basic computing-device vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "webcam",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika basic computing-device vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "touchscreen",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika computing components and storage vocabulary contribution",
+          "use": "Original ENFA/PT-BR/es-419 learner wording, two examples and three collocations; approximate editorial IPA/CEFR. AI-assisted CC BY preview, human language/domain review pending; no copied dictionary text or artwork."
+        },
+        {
+          "entryId": "processor",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika computing components and storage vocabulary contribution",
+          "use": "Original ENFA/PT-BR/es-419 learner wording, two examples and three collocations; approximate editorial IPA/CEFR. AI-assisted CC BY preview, human language/domain review pending; no copied dictionary text or artwork.",
+          "factualReferences": [
+            {
+              "url": "https://www.ibm.com/think/topics/central-processing-unit",
+              "title": "IBM: What is a central processing unit?",
+              "use": "Used only for CPU executing program instructions, not its unrelated or questionable memory/ROM descriptions."
+            }
+          ]
+        },
+        {
+          "entryId": "motherboard",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika computing components and storage vocabulary contribution",
+          "use": "Original ENFA/PT-BR/es-419 learner wording, two examples and three collocations; approximate editorial IPA/CEFR. AI-assisted CC BY preview, human language/domain review pending; no copied dictionary text or artwork.",
+          "factualReferences": [
+            {
+              "url": "https://www.intel.com/content/www/us/en/gaming/resources/how-to-choose-a-motherboard.html",
+              "title": "Intel: How to Choose a Gaming Motherboard",
+              "use": "Main circuit board and component connections; processor socket versus soldered processor."
+            }
+          ]
+        },
+        {
+          "entryId": "hard-drive",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika computing components and storage vocabulary contribution",
+          "use": "Original ENFA/PT-BR/es-419 learner wording, two examples and three collocations; approximate editorial IPA/CEFR. AI-assisted CC BY preview, human language/domain review pending; no copied dictionary text or artwork."
+        },
+        {
+          "entryId": "flash-drive",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika computing components and storage vocabulary contribution",
+          "use": "Original ENFA/PT-BR/es-419 learner wording, two examples and three collocations; approximate editorial IPA/CEFR. AI-assisted CC BY preview, human language/domain review pending; no copied dictionary text or artwork."
+        },
+        {
+          "entryId": "memory-card",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika computing components and storage vocabulary contribution",
+          "use": "Original ENFA/PT-BR/es-419 learner wording, two examples and three collocations; approximate editorial IPA/CEFR. AI-assisted CC BY preview, human language/domain review pending; no copied dictionary text or artwork.",
+          "factualReferences": [
+            {
+              "url": "https://www.sdcard.org/consumers/about-sd-memory-card-choices/",
+              "title": "SD Association: SD Memory Card Choices",
+              "use": "Consumer memory cards used for photos/files; source is not a claim that all memory cards share one format."
+            }
+          ]
+        },
+        {
+          "entryId": "router",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika computing components and storage vocabulary contribution",
+          "use": "Original ENFA/PT-BR/es-419 learner wording, two examples and three collocations; approximate editorial IPA/CEFR. AI-assisted CC BY preview, human language/domain review pending; no copied dictionary text or artwork.",
+          "factualReferences": [
+            {
+              "url": "https://www.cisco.com/site/us/en/learn/topics/small-business/how-does-a-router-work.html",
+              "title": "Cisco: How does a router work?",
+              "use": "Data forwarding between networks; distinct wired/wireless router examples and router/modem functions."
+            }
+          ]
+        },
+        {
+          "entryId": "modem",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika computing components and storage vocabulary contribution",
+          "use": "Original ENFA/PT-BR/es-419 learner wording, two examples and three collocations; approximate editorial IPA/CEFR. AI-assisted CC BY preview, human language/domain review pending; no copied dictionary text or artwork.",
+          "factualReferences": [
+            {
+              "url": "https://kb.netgear.com/31114/What-s-a-modem",
+              "title": "NETGEAR: What’s a modem?",
+              "use": "Converts provider signal to Ethernet in cable/DSL examples; separate versus combined modem/router functions. No claim every internet connection requires a standalone modem."
+            }
+          ]
+        },
+        {
+          "entryId": "internet",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika web and everyday computing actions vocabulary",
+          "use": "Original definitions, ENFA examples/collocations/tips and complete PT-BR/es-419 overlays; editorial IPA/CEFR and pending human review. No external wording/artwork copied."
+        },
+        {
+          "entryId": "internet",
+          "sourceType": "primary-documentation",
+          "title": "MDN: Internet glossary",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Internet",
+          "use": "Factual worldwide network-of-networks meaning; original learner wording and translations."
+        },
+        {
+          "entryId": "website",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika web and everyday computing actions vocabulary",
+          "use": "Original definitions, ENFA examples/collocations/tips and complete PT-BR/es-419 overlays; editorial IPA/CEFR and pending human review. No external wording/artwork copied."
+        },
+        {
+          "entryId": "website",
+          "sourceType": "primary-documentation",
+          "title": "MDN: Browsing the web; Site glossary",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
+          "use": "Factual distinction between network infrastructure, website content, browser software and search engine; original learner wording and translations.",
+          "additionalUrl": "https://developer.mozilla.org/en-US/docs/Glossary/Site"
+        },
+        {
+          "entryId": "web-browser",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika web and everyday computing actions vocabulary",
+          "use": "Original definitions, ENFA examples/collocations/tips and complete PT-BR/es-419 overlays; editorial IPA/CEFR and pending human review. No external wording/artwork copied."
+        },
+        {
+          "entryId": "web-browser",
+          "sourceType": "primary-documentation",
+          "title": "MDN: Browsing the web and Browser glossary",
+          "url": "https://developer.mozilla.org/en-US/docs/Glossary/Browser",
+          "use": "Factual distinction between network infrastructure, website content, browser software and search engine; original learner wording and translations."
+        },
+        {
+          "entryId": "password",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika web and everyday computing actions vocabulary",
+          "use": "Original definitions, ENFA examples/collocations/tips and complete PT-BR/es-419 overlays; editorial IPA/CEFR and pending human review. No external wording/artwork copied."
+        },
+        {
+          "entryId": "download",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika web and everyday computing actions vocabulary",
+          "use": "Original definitions, ENFA examples/collocations/tips and complete PT-BR/es-419 overlays; editorial IPA/CEFR and pending human review. No external wording/artwork copied."
+        },
+        {
+          "entryId": "click",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika web and everyday computing actions vocabulary",
+          "use": "Original definitions, ENFA examples/collocations/tips and complete PT-BR/es-419 overlays; editorial IPA/CEFR and pending human review. No external wording/artwork copied."
+        },
+        {
+          "entryId": "scroll",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika web and everyday computing actions vocabulary",
+          "use": "Original definitions, ENFA examples/collocations/tips and complete PT-BR/es-419 overlays; editorial IPA/CEFR and pending human review. No external wording/artwork copied."
+        },
+        {
+          "entryId": "delete",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika web and everyday computing actions vocabulary",
+          "use": "Original definitions, ENFA examples/collocations/tips and complete PT-BR/es-419 overlays; editorial IPA/CEFR and pending human review. No external wording/artwork copied."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,

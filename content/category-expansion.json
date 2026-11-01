@@ -15,7 +15,7 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "transport-vehicles",
+  "currentCategoryId": "computing-technology",
   "nextCategoryId": "computing-technology",
   "categoryOrder": [
     "cooking-food-drink",
@@ -6128,9 +6128,93 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "computing-technology",
+      "visualLanguageId": "computing-technology",
+      "baselineCategoryWords": 6,
+      "targetCategoryWords": 30,
+      "entryIds": [
+        "computer",
+        "laptop",
+        "desktop-computer",
+        "computer-mouse",
+        "monitor",
+        "printer",
+        "scanner",
+        "webcam",
+        "touchscreen",
+        "processor",
+        "motherboard",
+        "hard-drive",
+        "flash-drive",
+        "memory-card",
+        "router",
+        "modem",
+        "internet",
+        "website",
+        "web-browser",
+        "password",
+        "download",
+        "click",
+        "scroll",
+        "delete"
+      ],
+      "units": [
+        {
+          "id": "computing-devices",
+          "title": "Computers and everyday peripherals",
+          "entryIds": [
+            "computer",
+            "laptop",
+            "desktop-computer",
+            "computer-mouse",
+            "monitor",
+            "printer",
+            "scanner",
+            "webcam"
+          ]
+        },
+        {
+          "id": "computing-components-storage",
+          "title": "Components, storage and connection devices",
+          "entryIds": [
+            "touchscreen",
+            "processor",
+            "motherboard",
+            "hard-drive",
+            "flash-drive",
+            "memory-card",
+            "router",
+            "modem"
+          ]
+        },
+        {
+          "id": "computing-web-actions",
+          "title": "The web, credentials and everyday actions",
+          "entryIds": [
+            "internet",
+            "website",
+            "web-browser",
+            "password",
+            "download",
+            "click",
+            "scroll",
+            "delete"
+          ]
+        }
+      ],
+      "id": "computing-technology-category-expansion-batch-51-ready-1",
+      "releaseId": "2026-10-preview-58",
+      "status": "published-preview",
+      "objective": "Learn Computers and everyday peripherals; Components, storage and connection devices; The web, credentials and everyday actions in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-50-ready-1",
+  "activePassId": "category-expansion-batch-51-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",
