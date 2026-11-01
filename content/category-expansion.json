@@ -16,7 +16,7 @@
     }
   ],
   "currentCategoryId": "travel-tourism-hospitality",
-  "nextCategoryId": "travel-tourism-hospitality",
+  "nextCategoryId": "transport-vehicles",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -5898,9 +5898,83 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "travel-tourism-hospitality",
+      "visualLanguageId": "travel-tourism-hospitality",
+      "baselineCategoryWords": 31,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "visa",
+        "customs",
+        "destination",
+        "tourist",
+        "sightseeing",
+        "landmark",
+        "tour",
+        "single-room",
+        "double-room",
+        "twin-room",
+        "suite",
+        "reservation",
+        "vacancy",
+        "check-in",
+        "check-out",
+        "concierge",
+        "housekeeping",
+        "bellhop",
+        "excursion"
+      ],
+      "units": [
+        {
+          "id": "travel-visitors-places",
+          "title": "Visitors and places",
+          "entryIds": [
+            "visa",
+            "customs",
+            "destination",
+            "tourist",
+            "sightseeing",
+            "landmark",
+            "tour"
+          ]
+        },
+        {
+          "id": "travel-rooms-bookings",
+          "title": "Rooms and bookings",
+          "entryIds": [
+            "single-room",
+            "double-room",
+            "twin-room",
+            "suite",
+            "reservation",
+            "vacancy"
+          ]
+        },
+        {
+          "id": "travel-hospitality-outings",
+          "title": "Hospitality and outings",
+          "entryIds": [
+            "check-in",
+            "check-out",
+            "concierge",
+            "housekeeping",
+            "bellhop",
+            "excursion"
+          ]
+        }
+      ],
+      "id": "travel-tourism-hospitality-category-expansion-batch-48-ready-1",
+      "releaseId": "2026-10-preview-55",
+      "status": "published-preview",
+      "objective": "Learn Visitors and places; Rooms and bookings; Hospitality and outings in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-47-ready-1",
+  "activePassId": "category-expansion-batch-48-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",

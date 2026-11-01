@@ -11290,6 +11290,410 @@
           "use": "Common-language selected noun sense and original English/Persian wording, examples, collocations, usage distinctions and complete Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary, artwork, external verification or independent human review claimed."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-48-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-55",
+      "sourceFiles": [
+        "visitors-and-places.json",
+        "rooms-and-bookings.json",
+        "hospitality-and-outings.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-54",
+        "manifest": "content/releases/2026-10-preview-54-26687c6b8f48/manifest.json",
+        "manifestSha256": "26687c6b8f48b20932a4e54da8ac7469f04bac641305d2c668b1584cc20078b5",
+        "words": 1304
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "visa",
+            "lexicalBinding": "7348b150a8f1fbf87dee04eb575c4b4eb212d3ccc3c276db43432d6cfc91ee12",
+            "sourceImageSha256": "b3557b997f07c0f03eb66333a29d38ae3a88dc1c975889a6027f91c463b625cb",
+            "cardSha256": "70af1139ed603913d6bc0b6c7a4238d30dc041788ebf5ae7ab2900ccaf2d230e",
+            "thumbnailSha256": "d4677619c621f57a281c370db2c0fde9a18c10e03b25eec7c7a12f7b8d18436e",
+            "authorPixelBinding": "a0c885143d8ea4d9733a36224e820a3f57e48d6a8d587ca5560e8fd619a70026",
+            "secondPixelBinding": "9a8f2469504b58a1d41122c355900f29143a0a5f843bf6a11034e24caba1f52c"
+          },
+          {
+            "entryId": "customs",
+            "lexicalBinding": "3613d96f76607861be7a377e419a3f1bd38ce86ee286fc01bd6bab61ed9504d7",
+            "sourceImageSha256": "2946c4179594c3f28f23ab1dd1a99c7d485c7c57ff4c8c5dd2220fa623ede2c1",
+            "cardSha256": "89b73e1cfbccaed1a621c56fc08441440fc2567de51a4acd28ed8e8820fa0823",
+            "thumbnailSha256": "8eae82463f92e6b9917b42852862d33b69ded9027c45ddda67d0c4c105b9eb09",
+            "authorPixelBinding": "0406d852ccce0e0048c00d9f02cc65fc9867d314e97e04ab7ef5649460b3f375",
+            "secondPixelBinding": "6e080d197af64e0964ef4b54a93f8980627a922a39223acd3377fab84de73809"
+          },
+          {
+            "entryId": "destination",
+            "lexicalBinding": "8e5d1499eb0833524b65f181a33c7d02f5ed955ab3114f44d1730af8bee43c3e",
+            "sourceImageSha256": "e94ae2b0b3360b6aed715b3c55d1620670bb008ae1c33239f233772639072c17",
+            "cardSha256": "840d4b82a00371c4990de9478464c1536e65b0c60c803ce05b3b399f432873b0",
+            "thumbnailSha256": "12fd9db2f875ba75934b7862608a88e185c366119d7ad5246f2a2cafb332536d",
+            "authorPixelBinding": "93b2b16a45ec29e9fddce0d7de8436b70ed67a4ff315aa94917ecde5a1b9bbeb",
+            "secondPixelBinding": "ed2ebed851470f79a9c402279c97a93984c378cfefb1792ed9353fd18da05d98"
+          },
+          {
+            "entryId": "tourist",
+            "lexicalBinding": "b59f5629163dda4485e486ec4631a5864a33fa86e95bb7ae90884ce718b47d57",
+            "sourceImageSha256": "9eac51922fb923cf08a4eebad08133e76cf0debe40b187570bfa372ee371deca",
+            "cardSha256": "cbe3b7e2f69c08aba361aa93e83a0c1240c237d831ddd10b1e1850f738bb297b",
+            "thumbnailSha256": "75620bc44397f558fff24e0a7e1bd3080db5e631137704517a5242ac7528f702",
+            "authorPixelBinding": "c40aacd080189fcea43b280310369a98c47b528856076879b6fc610553ee5a61",
+            "secondPixelBinding": "67907adb3239e875a63dbcbfa157b699cdf36cf4d9ff414ca649c80c7da90240"
+          },
+          {
+            "entryId": "sightseeing",
+            "lexicalBinding": "aa2ff71788150f54a8e382e3445dca13003030c52f68194a850d38c01ef5b010",
+            "sourceImageSha256": "24ab98c7b00bd0fc5d167dcd9e14a7f4078f3b0506e0f9707e1f840ba6805996",
+            "cardSha256": "36bfbcce55d126823cca1d57b9343161d20f708a3a347a1b72855cd80af31dc1",
+            "thumbnailSha256": "165bce6cfaca808048f52c9debf4b6eea60848585106bfa16417d51fe8fcb8aa",
+            "authorPixelBinding": "d2e43ec91d1ec36b92316bbb7cacc13f30dfa360dcea99d15b541c9aed694f6c",
+            "secondPixelBinding": "312751c064f78f00a59e9d635822c1b5be426da65d8f90bc21e4e2e85b26a4d1"
+          },
+          {
+            "entryId": "landmark",
+            "lexicalBinding": "c4fa776693692cfdeccdeb88c50c6832dec9119878b073032e8a413c8ef82b4b",
+            "sourceImageSha256": "60a28c97bce107a285ea470b02528e9a1bfab6d3427bb3328dd9af215ec76907",
+            "cardSha256": "be7fb5af22e1ad2144e5807b2300694beeef7c1da0f7dd6511cac1601d8f3447",
+            "thumbnailSha256": "a0a9fb26fb1163323296eaaf002d8377dde0ee16258d2f9d9d6b1866fe87e8b6",
+            "authorPixelBinding": "8101b53edeb38ddd79153b050a201aa3056bc5fe9754a737bd41a78280950332",
+            "secondPixelBinding": "768e0fff427f28f3607e705f49207d31423ba676b71cba69a4fdfec3b596b64b"
+          },
+          {
+            "entryId": "tour",
+            "lexicalBinding": "ef2fcc7e5955bf6f0a9608eae70f049c969939f8c1f84fe1b0632f7cd98cbaef",
+            "sourceImageSha256": "5bbe9d10f19f4e68cbe5ff7e75ceda6982c2cf41b7dab02d1e712076a9e4c3e9",
+            "cardSha256": "b8a625d1ae1eaf69c110a2daf2f547682b9a9af5eb740de75dd06b397099fe69",
+            "thumbnailSha256": "153e472343f63c9eb16fc32a4f92065be9a79811ef395aaa776b686cbe144b7e",
+            "authorPixelBinding": "f47bdb3af3deafb136f499ec8430551d414007b47bf28bc07e352efc110a43e4",
+            "secondPixelBinding": "a33bb05ddfa3826844ba1a30847a0d05867e197b85e9c25cb8d9b65f4d5dd7ae"
+          },
+          {
+            "entryId": "single-room",
+            "lexicalBinding": "5103482963c5b685e00d974247e3436d00f927152632a1dfa9f5789513761886",
+            "sourceImageSha256": "7e38f8bbc089e96a23fcc2f5eade23501dd6c409161cb47109200bd916300443",
+            "cardSha256": "ff99267b02de8cc382d2e1fc28257c08f8c4d5d29bf7eb1f8255c027f7b6f6e8",
+            "thumbnailSha256": "9be91b41c499553a077db102ecff6f761642a14b0a06d96c9455b0dbbc162a9a",
+            "authorPixelBinding": "735052511a912f7eb34e6963d30ee0d764c9b2fcf30ac73e21b959eb8f7f45ff",
+            "secondPixelBinding": "4dc156d04190e9bfd0945221538ae497caa1d3f282c41b85b76802437d0d7a9f"
+          },
+          {
+            "entryId": "double-room",
+            "lexicalBinding": "01c87076677a05a20c787de685d5d8291d56c7f325cb76b05a48c59cd0dc6b8d",
+            "sourceImageSha256": "52af5a75bbd2082b5dce9a2c72132529bedf040d583cdab5a11443c2348d3af3",
+            "cardSha256": "aa3700384913901916538208e64dc56960004e4c629ca2dcee751d7ce40c429a",
+            "thumbnailSha256": "f90211c1e4d4db8fb5c0fea9b0b5d79e4070f094b82242ec9a08645c9ac67325",
+            "authorPixelBinding": "37abdc1ddb03868ee909da47dd4adb5dd8b1accdf42d8eca871f9da0f1e0defb",
+            "secondPixelBinding": "a53db4a85f642facf61854567018588276d4556055c314146a58956c420da9e7"
+          },
+          {
+            "entryId": "twin-room",
+            "lexicalBinding": "eec02b4b0cf249c72968e07fc6066bed8eadf5f360766436bec7e1ea156c2f29",
+            "sourceImageSha256": "ff3eb93b83f7ff305aae01c4dbbcc1f0867516b38778e6f9595876b2461d3ef4",
+            "cardSha256": "4b2d1521a8e432b2fc0938810ac815c8f5bb8339f3e5d9b6d968dd17332bc675",
+            "thumbnailSha256": "5bde0994bd955142e295207f83c8f8a047c4647ee1605d5dc695b297a3b885a3",
+            "authorPixelBinding": "d729c6e3cd4d9fda6142fc693d545bea69f385268ed7e8542b44f6d75bbabfd6",
+            "secondPixelBinding": "f5fb3c6152dee645c478d6d9c648611a375554cba744586e9df00a44fa8674a2"
+          },
+          {
+            "entryId": "suite",
+            "lexicalBinding": "33953f8922fc41d88be6a8ee001d04b87997441abe31e79b4586c967920b2725",
+            "sourceImageSha256": "06ba59ec52251ad3a8b7ac433de175f94931435e5a2259a1645a8304de5b925b",
+            "cardSha256": "f2a3106e41e7336a24bb04251993a91050ff451b0a33ba441e51f908e8ee6e21",
+            "thumbnailSha256": "61fe02e2704ce86f7c4a9cbea8e04e63bc42df17eecfd6ff267217dd88c11aca",
+            "authorPixelBinding": "2ac30a0d7bbd94c06d6cbc4e0cbf32a61c43142f1a2db3e827703c1ce8ad031a",
+            "secondPixelBinding": "f46275e5122f18bbc710a8e3844b9f0801a6299fe7c903c814b047552f9d1049"
+          },
+          {
+            "entryId": "reservation",
+            "lexicalBinding": "fecb1150ba47fb53c75f3462ec1f9c8043ec5bff3548296cb4fb4afe161128f0",
+            "sourceImageSha256": "8e581620094f20b2b095b2cd8dc113be53327aa5383b13d42f018e4e6895faf9",
+            "cardSha256": "cfd8b9a41a6d7e372be50f574cc79b3d7a7a6eef4eea8cd3d1a06d30bc6a129e",
+            "thumbnailSha256": "b01da4a85f7fb04dc1ce16c7e3691b59e66f3a21c725745f21ed5fa72f789a6c",
+            "authorPixelBinding": "b0d2e7c7380aab7134085490c043f0abdd3d018dda04d41179423b96c8e933f4",
+            "secondPixelBinding": "e513f4b4b1d79acc1ffc12e3233f507fa28015a21f289c6d12d1678979c6c1b3"
+          },
+          {
+            "entryId": "vacancy",
+            "lexicalBinding": "4dc3a4260962226b2efb559f967b9ad6c1ec1f74bfa562c4709b37e3635a5a22",
+            "sourceImageSha256": "fa6cbc022302fd7c5c4110524a039d33710c65bbb1f99ed2002c1346474eb191",
+            "cardSha256": "b89ca98855d6d5145c08eb0153bef4cbd5dc14918c92fb71448b1a4555c6f318",
+            "thumbnailSha256": "08acd89783785eb417a1020f3690e8ce85130cee5dce9ae80f8e8740914d331e",
+            "authorPixelBinding": "3657471825b89fc2aaf65b20882c6f7711568645cc98fbf8529cee29ad3a8abd",
+            "secondPixelBinding": "54cb8d39c13ab40786ab8245af02833a0d38c56d8b28a6a63fa9c11b61bfe6cb"
+          },
+          {
+            "entryId": "check-in",
+            "lexicalBinding": "6f0127e96f8b8623be76bc439f1d86d3f58301e958cc0ab2ebda61992c917879",
+            "sourceImageSha256": "477da206e9fd9f34b569ff6951102dbb4e8402fec9cada4d58a2e23358a0cfc6",
+            "cardSha256": "525ae90960ea561e98dd2d7c16c332ebebe4e862a8691ef0a56c6233e8862720",
+            "thumbnailSha256": "9d0ff8b1fcecb189850ffdfd5cbaebfd5dafc30ab0e154a1b85b4e5112c8cecb",
+            "authorPixelBinding": "d504d2805401f95fa24cbdd34ca93abf41903ba52b50f58c0a1181ff5a900f24",
+            "secondPixelBinding": "e3f28e0ca7e77a278419cbf37699eded1cdd48ad6e31ca0f33890213cf7e3833"
+          },
+          {
+            "entryId": "check-out",
+            "lexicalBinding": "fbbdfc762e06e06eefd1b799dcb4378f09a347c1991c616ed147c42d9325316c",
+            "sourceImageSha256": "632d9323e60f92945048cc1eef1345ef1d83f53a9f046a707b2c4b74dc2ff27f",
+            "cardSha256": "cf408d02b746068b42fa187230bf2e92e034ac222b58361f215baef39291a413",
+            "thumbnailSha256": "2889685edfe1871692fb78f87dc5a71afe19b54838b601bace7793941e1f9f0a",
+            "authorPixelBinding": "9eb5c2ce598844787d967bd93348ae73f0dcac9c10a217178227eb7c0805b0db",
+            "secondPixelBinding": "48d3878e2c722e59263bebc6bb199540c786d63fd33481fa6309d94245d03b4b"
+          },
+          {
+            "entryId": "concierge",
+            "lexicalBinding": "fd358059767b40939718de69262376e399b01b46b8ba26f9be086686e1e46717",
+            "sourceImageSha256": "97040daa11236c7ca97f90c184b5895f5491923f8f3b8807cf03e29999c01e80",
+            "cardSha256": "2390c51cc922c71cb1323554962a75848535710369f91d4b7bc10d0ea50715eb",
+            "thumbnailSha256": "af6a011c3a08f94bda33da814ba2c08b7227774360b56fa4a6735caa8635953e",
+            "authorPixelBinding": "bdc687341b07b3f6a59f455a3ee800b11086c034e4416c2bd50b147d6a339716",
+            "secondPixelBinding": "c1720f5d33861b13dcb39d2881a142dc0d15e6d8fabf4a662b53664dc4ec342b"
+          },
+          {
+            "entryId": "housekeeping",
+            "lexicalBinding": "0c3cb504f48b8a1bee3310da28eb1b37ad5632656653a15c609cd0df2cbf9ee4",
+            "sourceImageSha256": "2b706c1060a4ea675abf50945d6049a90466f2fae4902d9f214fcb1ffc6bef3b",
+            "cardSha256": "2c3a27e939831d99ecfd2602069dd739e1c6bd8b1e92e39cb0ce73ba4eadb458",
+            "thumbnailSha256": "e2f5b248c9baa444c902820276b0c8c5490866f0cbb8369fca2db2a17056d689",
+            "authorPixelBinding": "4e7d096b7703756a9746a19dbd4b4beb76940337ac92662b863e2d3302949c9e",
+            "secondPixelBinding": "72b1138007e1d61a0411aae5169da42d771f0e65eec5d8c9852183c6c9e66f95"
+          },
+          {
+            "entryId": "bellhop",
+            "lexicalBinding": "4879025c8c86dd788a4d11d1c5ec45ad07969fd90a9416bfdcbe50e126e4d740",
+            "sourceImageSha256": "f227b9c22bfdea57eae227412cd91334d383a8f242414ad16e38d828ebc8cbd5",
+            "cardSha256": "c8726571a66e4d3195c7c48b1cff20563f7324f7f615f60213533e0dd9770af0",
+            "thumbnailSha256": "153b2185de18b0616fd134cf083ac08b0d7c7b4356a6d4b4359a85987472c879",
+            "authorPixelBinding": "25784a31b9e4aa2d2223bbf164d2a5247c80747d7699c9130df82601224f8107",
+            "secondPixelBinding": "bfe2617d44aef7104c0eb8f2ee043f850514f6c82d27406a59d7250f0ad8b676"
+          },
+          {
+            "entryId": "excursion",
+            "lexicalBinding": "0a3054a342d18772dbecdd4fc561f1796c52a2b5ac10c841969b27de0a1e01f5",
+            "sourceImageSha256": "9b098d6983818a0bb0b8ffc4be929caef82db7babc91109f8af4ac568bbd99bb",
+            "cardSha256": "add8f7cd6a321b20b646c8b5a62e2b09c3ee4237fb4f91a3c07f1e3c9b175d7b",
+            "thumbnailSha256": "1c20a789c3929acf7ea25310e5395578fb6e8f185d0a3d16940cf5d08222383a",
+            "authorPixelBinding": "8c4a4a106722321a657c205f98bdd4ed2a8f2c7429c6383240e3a0170ac55a58",
+            "secondPixelBinding": "e21f949a6854c819bd5e1f0b475c4fc28265a0175bb1733b4accb97401e4741c"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "travel-tourism-hospitality",
+          "visualLanguageId": "travel-tourism-hospitality",
+          "baselineCategoryWords": 31,
+          "targetCategoryWords": 50,
+          "entryIds": [
+            "visa",
+            "customs",
+            "destination",
+            "tourist",
+            "sightseeing",
+            "landmark",
+            "tour",
+            "single-room",
+            "double-room",
+            "twin-room",
+            "suite",
+            "reservation",
+            "vacancy",
+            "check-in",
+            "check-out",
+            "concierge",
+            "housekeeping",
+            "bellhop",
+            "excursion"
+          ],
+          "units": [
+            {
+              "id": "travel-visitors-places",
+              "title": "Visitors and places",
+              "entryIds": [
+                "visa",
+                "customs",
+                "destination",
+                "tourist",
+                "sightseeing",
+                "landmark",
+                "tour"
+              ]
+            },
+            {
+              "id": "travel-rooms-bookings",
+              "title": "Rooms and bookings",
+              "entryIds": [
+                "single-room",
+                "double-room",
+                "twin-room",
+                "suite",
+                "reservation",
+                "vacancy"
+              ]
+            },
+            {
+              "id": "travel-hospitality-outings",
+              "title": "Hospitality and outings",
+              "entryIds": [
+                "check-in",
+                "check-out",
+                "concierge",
+                "housekeeping",
+                "bellhop",
+                "excursion"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "19distinct globallyabsent established Englishheadwords/lexicalcompounds, fresh selection after fullyreconciledliveparent47; allocatedremaining19 travel31→50. No prior48queue/plan/canonicaldestinations or known generation. Existing16manualholdsnotretried. Originalcommonlanguage, no officialdocument copies or travelregulation advice.",
+      "parentBatchId": "category-expansion-batch-48",
+      "completedAt": "2026-11-01T00:39:29.174Z",
+      "factualReferences": [
+        {
+          "entryId": "visa",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika travel vocabulary contribution",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, human review pending. No external dictionary or artwork copied."
+        },
+        {
+          "entryId": "customs",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika travel vocabulary contribution",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, human review pending. No external dictionary or artwork copied."
+        },
+        {
+          "entryId": "destination",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika travel vocabulary contribution",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, human review pending. No external dictionary or artwork copied."
+        },
+        {
+          "entryId": "tourist",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika travel vocabulary contribution",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, human review pending. No external dictionary or artwork copied."
+        },
+        {
+          "entryId": "sightseeing",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika travel vocabulary contribution",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, human review pending. No external dictionary or artwork copied."
+        },
+        {
+          "entryId": "landmark",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika travel vocabulary contribution",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, human review pending. No external dictionary or artwork copied."
+        },
+        {
+          "entryId": "tour",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika travel vocabulary contribution",
+          "use": "Original selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, human review pending. No external dictionary or artwork copied."
+        },
+        {
+          "entryId": "visa",
+          "sourceType": "primary-official-factual-reference",
+          "title": "U.S. Department of State — What is a U.S. Visa?",
+          "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/frequently-asked-questions/what-is-us-visa.html",
+          "use": "Factual scope check only: a visa can permit travel to request admission and is not itself a guarantee of admission. General original learner wording; no country-specific legal rules, fees or official artwork reproduced."
+        },
+        {
+          "entryId": "customs",
+          "sourceType": "primary-official-factual-reference",
+          "title": "U.S. Customs and Border Protection — Welcome to the United States",
+          "url": "https://www.cbp.gov/sites/default/files/documents/WelcomeToTheUS.pdf",
+          "use": "Factual scope check for customs examination of incoming travelers’ belongings. Original general vocabulary wording only; no procedures, limits, duties or document designs copied."
+        },
+        {
+          "entryId": "single-room",
+          "sourceType": "original-editorial",
+          "title": "Original hotel-room and booking learner contribution",
+          "use": "Common selected travel/hospitality sense and original English/Persian definitions, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary wording or artwork consulted or copied. Room examples are representative, not bed-size, property-service, availability, booking-validity or regulatory guarantees; independent human review pending."
+        },
+        {
+          "entryId": "double-room",
+          "sourceType": "original-editorial",
+          "title": "Original hotel-room and booking learner contribution",
+          "use": "Common selected travel/hospitality sense and original English/Persian definitions, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary wording or artwork consulted or copied. Room examples are representative, not bed-size, property-service, availability, booking-validity or regulatory guarantees; independent human review pending."
+        },
+        {
+          "entryId": "twin-room",
+          "sourceType": "original-editorial",
+          "title": "Original hotel-room and booking learner contribution",
+          "use": "Common selected travel/hospitality sense and original English/Persian definitions, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary wording or artwork consulted or copied. Room examples are representative, not bed-size, property-service, availability, booking-validity or regulatory guarantees; independent human review pending."
+        },
+        {
+          "entryId": "suite",
+          "sourceType": "original-editorial",
+          "title": "Original hotel-room and booking learner contribution",
+          "use": "Common selected travel/hospitality sense and original English/Persian definitions, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary wording or artwork consulted or copied. Room examples are representative, not bed-size, property-service, availability, booking-validity or regulatory guarantees; independent human review pending."
+        },
+        {
+          "entryId": "reservation",
+          "sourceType": "original-editorial",
+          "title": "Original hotel-room and booking learner contribution",
+          "use": "Common selected travel/hospitality sense and original English/Persian definitions, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary wording or artwork consulted or copied. Room examples are representative, not bed-size, property-service, availability, booking-validity or regulatory guarantees; independent human review pending."
+        },
+        {
+          "entryId": "vacancy",
+          "sourceType": "original-editorial",
+          "title": "Original hotel-room and booking learner contribution",
+          "use": "Common selected travel/hospitality sense and original English/Persian definitions, examples, collocations and Brazilian Portuguese/Latin American Spanish overlays authored for Mehrdadika. No external dictionary wording or artwork consulted or copied. Room examples are representative, not bed-size, property-service, availability, booking-validity or regulatory guarantees; independent human review pending."
+        },
+        {
+          "entryId": "check-in",
+          "sourceType": "original-editorial",
+          "title": "Original hotel-service and short-outing learner contribution",
+          "use": "Original common-language selected noun sense, English/Persian wording, examples, collocations, learner distinctions and complete PT-BR/es-419 overlays authored for Mehrdadika. Editorial authorship traceability, not independent human or external subject qualification. No external dictionary definition/example wording or artwork copied."
+        },
+        {
+          "entryId": "check-out",
+          "sourceType": "original-editorial",
+          "title": "Original hotel-service and short-outing learner contribution",
+          "use": "Original common-language selected noun sense, English/Persian wording, examples, collocations, learner distinctions and complete PT-BR/es-419 overlays authored for Mehrdadika. Editorial authorship traceability, not independent human or external subject qualification. No external dictionary definition/example wording or artwork copied."
+        },
+        {
+          "entryId": "concierge",
+          "sourceType": "original-editorial",
+          "title": "Original hotel-service and short-outing learner contribution",
+          "use": "Original common-language selected noun sense, English/Persian wording, examples, collocations, learner distinctions and complete PT-BR/es-419 overlays authored for Mehrdadika. Editorial authorship traceability, not independent human or external subject qualification. No external dictionary definition/example wording or artwork copied."
+        },
+        {
+          "entryId": "housekeeping",
+          "sourceType": "original-editorial",
+          "title": "Original hotel-service and short-outing learner contribution",
+          "use": "Original common-language selected noun sense, English/Persian wording, examples, collocations, learner distinctions and complete PT-BR/es-419 overlays authored for Mehrdadika. Editorial authorship traceability, not independent human or external subject qualification. No external dictionary definition/example wording or artwork copied."
+        },
+        {
+          "entryId": "bellhop",
+          "sourceType": "original-editorial",
+          "title": "Original hotel-service and short-outing learner contribution",
+          "use": "Original common-language selected noun sense, English/Persian wording, examples, collocations, learner distinctions and complete PT-BR/es-419 overlays authored for Mehrdadika. Editorial authorship traceability, not independent human or external subject qualification. No external dictionary definition/example wording or artwork copied."
+        },
+        {
+          "entryId": "excursion",
+          "sourceType": "original-editorial",
+          "title": "Original hotel-service and short-outing learner contribution",
+          "use": "Original common-language selected noun sense, English/Persian wording, examples, collocations, learner distinctions and complete PT-BR/es-419 overlays authored for Mehrdadika. Editorial authorship traceability, not independent human or external subject qualification. No external dictionary definition/example wording or artwork copied."
+        },
+        {
+          "entryId": "concierge",
+          "sourceType": "pronunciation-reference",
+          "title": "Cambridge Dictionary: concierge pronunciation",
+          "url": "https://dictionary.cambridge.org/us/pronunciation/english/concierge",
+          "use": "One bounded primary pronunciation-page check of UK/US IPA only. Definitions, examples, collocations, learner tips and translations remain originally authored; no dictionary definition or example wording copied."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,
