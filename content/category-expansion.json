@@ -15,7 +15,7 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "careers-workplace",
+  "currentCategoryId": "business-management",
   "nextCategoryId": "business-management",
   "categoryOrder": [
     "cooking-food-drink",
@@ -6652,9 +6652,87 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "business-management",
+      "visualLanguageId": "business-management",
+      "baselineCategoryWords": 4,
+      "targetCategoryWords": 28,
+      "entryIds": [
+        "customer",
+        "client",
+        "supplier",
+        "retailer",
+        "wholesaler",
+        "manufacturer",
+        "team",
+        "boardroom",
+        "conference",
+        "videoconference",
+        "agenda",
+        "schedule",
+        "receipt",
+        "quotation",
+        "purchase-order",
+        "delivery-note",
+        "packing-list",
+        "order-form",
+        "business-card",
+        "spreadsheet",
+        "ledger",
+        "chart",
+        "organization-chart",
+        "flowchart"
+      ],
+      "units": [
+        {
+          "id": "business-people-planning",
+          "title": "Commercial relationships, teams, meetings and planning",
+          "entryIds": [
+            "customer",
+            "client",
+            "supplier",
+            "retailer",
+            "wholesaler",
+            "manufacturer",
+            "team",
+            "boardroom",
+            "conference",
+            "videoconference",
+            "agenda",
+            "schedule"
+          ]
+        },
+        {
+          "id": "business-documents-diagrams",
+          "title": "Commercial documents, records and information diagrams",
+          "entryIds": [
+            "receipt",
+            "quotation",
+            "purchase-order",
+            "delivery-note",
+            "packing-list",
+            "order-form",
+            "business-card",
+            "spreadsheet",
+            "ledger",
+            "chart",
+            "organization-chart",
+            "flowchart"
+          ]
+        }
+      ],
+      "id": "business-management-category-expansion-batch-59-ready-1",
+      "releaseId": "2026-10-preview-66",
+      "status": "published-preview",
+      "objective": "Learn Commercial relationships, teams, meetings and planning; Commercial documents, records and information diagrams in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-58-ready-1",
+  "activePassId": "category-expansion-batch-59-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",
