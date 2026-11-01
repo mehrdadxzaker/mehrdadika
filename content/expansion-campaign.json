@@ -13474,6 +13474,474 @@
           "use": "Original ENFA/PT-BR/es-419 prose, editorial IPA/CEFR, AI assistance and pending independent human/domain review; no copied dictionary wording or artwork."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-53-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-60",
+      "sourceFiles": [
+        "school-people.json",
+        "classroom-objects.json",
+        "learning-actions.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-59",
+        "manifest": "content/releases/2026-10-preview-59-d5d31b907098/manifest.json",
+        "manifestSha256": "d5d31b907098e82459411105aa60e37f60ddfe1bb80b501a5060bb96c8947649",
+        "words": 1409
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "teacher",
+            "lexicalBinding": "0af0f3c64075a9a2b4056e5ef51727185408bfc10c3523a5272137e0d2c7da5b",
+            "sourceImageSha256": "1e9f8703e6ddc54f783f8e3319a26f2cc7023944690e71a84fea550585a1d1bb",
+            "cardSha256": "481435f6d13e10989faea08acd2d3c4d44a862f2e52b6224eb891d3859d8b902",
+            "thumbnailSha256": "c5dec77925ff6b31676cb63a6e69cd27ba5882bbbdde69353fb7964a1a260b93",
+            "authorPixelBinding": "05f46fdcd935decf1ea6bfdfe6a6a1dd0a36948e7c7e9b9a681b46433f627747",
+            "secondPixelBinding": "b9943d67472b39e5cbc1f2dfb2e9500dd1f3d3ee3ffa82256f7357157cb3018f"
+          },
+          {
+            "entryId": "student",
+            "lexicalBinding": "c9f8a382e0eb0aabebe1c522b42c3475ccae3fc61336a4af75299832e764f7aa",
+            "sourceImageSha256": "c63d4c004153ff43935927d0cb68241e6eb8fbc0f73a4ab9513d41c636b36152",
+            "cardSha256": "b304533dcbcb6fb4d6daa86db3cc6a31e382e9133259ed256de59a51617b0b45",
+            "thumbnailSha256": "0522f9ca7703795f589b456d38b5da9b407d536338f75b69dadb7344f284aa96",
+            "authorPixelBinding": "393044b56b59a0c81bc2059185bf99f3b0fe8c7d694ff6f70b3018d41b987170",
+            "secondPixelBinding": "6a97d50be36e9155dea039ea0b242fc8045f248698dbdb51e26ee82c22bc68a8"
+          },
+          {
+            "entryId": "classroom",
+            "lexicalBinding": "77f5927befd6c85fd6d035c81214ef51b09357093bdf71304ff1878ffa790f53",
+            "sourceImageSha256": "71ba3905c5cfcc15ac57ab818bee4a1f19a13b2874855728435400affa54d47e",
+            "cardSha256": "034df688e8c2bbabebaf8890173e917cb5998e5203a9ad971414748c04e37fd2",
+            "thumbnailSha256": "d51bed43d1be61c676aa7f057ac58e9537b59ff31b5ab81da2a8502686c3b29e",
+            "authorPixelBinding": "b92ceffaed1dd0af55323abc114e7027bf119e76e001a62cd808a7ee63a7015c",
+            "secondPixelBinding": "6b066ea18bf470a6edce16d134bb8f4711c9adc40c4823e0e3af8a722132b022"
+          },
+          {
+            "entryId": "school",
+            "lexicalBinding": "51c3748da3fca2d7e38aaa47e31f56029dbd7820b64d5a15dfa60451a2526d0c",
+            "sourceImageSha256": "3aacb48b5ae25736ef0d2b5e87631e1775f68c2654576f2b7175d4b1faf81dbc",
+            "cardSha256": "0de5d4c2c438a1859a0fd2b506ddeb852011e20089cffcbc50b0172ba80d3f69",
+            "thumbnailSha256": "8750bfc31fee18a138102100f0893b5606565080afc148755a6d16a60cc98061",
+            "authorPixelBinding": "543847930f1f702a5189b2a0ad29ca175017eebdad0307b9b6845e4611b81983",
+            "secondPixelBinding": "63da652dbf9627fcba3177b40442e538807b275941dace0988d6566111f4d11e"
+          },
+          {
+            "entryId": "lesson",
+            "lexicalBinding": "b282cffabf69dd89e1679de310550020d7817fc1e82eef09f3c9d9d8ad7df1d7",
+            "sourceImageSha256": "5fbb456f606293f23f9c163aa73bff4ebc22ff8643e71e3944e094e41bbf9e7f",
+            "cardSha256": "bbfbb3c8442a91804c42dac4905e3881c67fb73ff1d506725030d79debc4114a",
+            "thumbnailSha256": "ff466b1177b67bdddd500d34f28d298a018017942c476c2d1eb9170195b0e8e2",
+            "authorPixelBinding": "d3b3ad0e21f9ae98e0af521c818c898bd6b2f4b9d9d4bbef92ed8aef02d2831b",
+            "secondPixelBinding": "f116d79d31920f877002b1eab3a1531cdb4cb4ed116784c83f6183ae58762b8b"
+          },
+          {
+            "entryId": "homework",
+            "lexicalBinding": "69693d81d062d1ec019ad6858971b9d223c6b5bbec8debc984f9c53d90b58314",
+            "sourceImageSha256": "f8def91b285b2592115b981c159744784e4c84c26c3321b72b66a44ea25c21c2",
+            "cardSha256": "c84780307971f21dd6c04fb953265c5425da6d656e682ce2ccb7fb33cb737218",
+            "thumbnailSha256": "74b707b22e0bb6f924077ebfd710264b57382fe6de9e26abff650d3ea18e3711",
+            "authorPixelBinding": "61918bba0897ebe0db8a3cf3e9841a410d306bce61eeda855a28963a8a59a2b0",
+            "secondPixelBinding": "53fa4393a30716844206e2fb2c66042112505bf73c7ac7a374ce40015876a5c3"
+          },
+          {
+            "entryId": "textbook",
+            "lexicalBinding": "e870e8783ad3aa9d590cc77facea225cd7e51de5dcd0a2838f0d997393e33dfa",
+            "sourceImageSha256": "7eabc017b51bb8d77b88da750919aaa281f5214a5fb4e3eff426137c555479f1",
+            "cardSha256": "3faa497eb442f2e5883dac3933c5ba1cc5803347f38e0b57a1dccd63b40fd5ff",
+            "thumbnailSha256": "f51996ebb2bab594eb707f1b2c627210824b31319439728221bde9f7ceb66126",
+            "authorPixelBinding": "58e04756a8fbbb004834f761b949f06986736819207e9bab1518938738399d0d",
+            "secondPixelBinding": "9667bd2f7eddb62d9a0b337dfc5e6da624c600fa02ff99f60b725307e44a6c5b"
+          },
+          {
+            "entryId": "worksheet",
+            "lexicalBinding": "23738f213858e7d102ff6da9a21c32135244aa2e0c8e4517f4f1c2960327fdfc",
+            "sourceImageSha256": "6d126ce19dc5cc8bb3e08760a56eca9b5137ca8ef7d95714dee0aca6c2325ddc",
+            "cardSha256": "6435b10aa07cb41d62d6baa49ebdaa16671dd8e0a643a682bd9860bcf4dd6d90",
+            "thumbnailSha256": "e38c3b8bb12127ff6a0f52d4a01d3adbd9d8845b2186db6221fe4bd92b0be975",
+            "authorPixelBinding": "e8c1d1cf0583939d5cffd1dacd36599ea60be6ee9bfda78570a1c877975aa4d3",
+            "secondPixelBinding": "5fba4baf0c969181ee56dfb1ce0699e1f4dfe14e69cb2f94894b683c550ad270"
+          },
+          {
+            "entryId": "pencil",
+            "lexicalBinding": "37c30d20bc561b4fac791defdb8e6d4ab2dcb4ccdc514ee9afe0e9fb5b0a4a16",
+            "sourceImageSha256": "2118c9190e71c9838abfc2955df1c4ea89c96aa8e9dba97640c405d103aa376c",
+            "cardSha256": "819bc0883e2c72f43c0d30d68210c77373f063b0db5214bad9ba8aca61f8ea7f",
+            "thumbnailSha256": "a73c5368a387ee217f183be783da18ac7e3c6f1f2ba313d0355f23f2fab815a5",
+            "authorPixelBinding": "ca51e51a88260af2a8b0ba6c725059a078ab85aaaf78e0e41b4d2e0340d6b165",
+            "secondPixelBinding": "fcba6867f6cdca793df25d45a42b6bf41bce41bde53e7eeca1465e525f4f8e6f"
+          },
+          {
+            "entryId": "eraser",
+            "lexicalBinding": "760ce5aa60bf325709b37643e66b0cbcf017cb6041543dce2739144b2a4f9ada",
+            "sourceImageSha256": "e47334c70a6899437013bb85732e637c413d1e813db0c2b54ebfb9670b86e894",
+            "cardSha256": "39ef946eb94ffd117d2350c3ef121b9d1a274d6d382d1e836b8cb6a25c117f00",
+            "thumbnailSha256": "90c21aec0f4f169531d1615977447979f75b1a03910bdb1241dc1b9b831ba9db",
+            "authorPixelBinding": "79bf23befe98f95c2603541e788e85fd0530b222a55a3a56729781a62d71f401",
+            "secondPixelBinding": "014a02387b5c92648c994d98630056267830fdfd00eacec53d79d0a0e1ba3eae"
+          },
+          {
+            "entryId": "desk",
+            "lexicalBinding": "5259735c197f0de75851e6f4c407b13bb7506c5e4585cbd3acae0b0567417e42",
+            "sourceImageSha256": "5a438712a21a2b84c0b82f71b03378b0e33d3028cae4669fdaaa84fe2b7bfb25",
+            "cardSha256": "46a1d1fc71fceaee2c41bc6a27d96b2828a746073af3b3ec871d87ed4277dae1",
+            "thumbnailSha256": "643c774ee23fe0def789b786d0e3071c06f9c960465f8f158952b42f0d339650",
+            "authorPixelBinding": "ac148c100d313bf055dd23ba3188d1d4e0877415d59489c6a90ed0cbe1b52004",
+            "secondPixelBinding": "f1e0bc4c1be04d7548629774714693a210908a09e27b9cf7fef7e2b9b474e23e"
+          },
+          {
+            "entryId": "blackboard",
+            "lexicalBinding": "e9e7f13bc8c2fdeda5b2294bf2e6a7746d4c6bc5d1e5bb59df8cd9465de7c0d4",
+            "sourceImageSha256": "ffccc0d38a0e1c29497e83b392d15e37b680ea001b85ef127bc48f5f30fbf76b",
+            "cardSha256": "11339398f9e19b85330509b1688f3636932a9969f4400269418e694a84858851",
+            "thumbnailSha256": "1921efff7d695881c1ce2e39b39b0095b16f8406c9e35b0b412173d10448c6ac",
+            "authorPixelBinding": "501ee2a759836f7951760cb21b995772a26bb08b8408fb641303ebf68eba6d70",
+            "secondPixelBinding": "efb387d10c2531baa607096d27a6428b82da77ae37493f1173d1d155cd655c6b"
+          },
+          {
+            "entryId": "whiteboard",
+            "lexicalBinding": "2509ac589c6eb995c11ec356011b84ffa120ee5ae6dce1e1563aac8c701cd286",
+            "sourceImageSha256": "3b8a59574eb82247f33375a51861ee961031269a5bd98d56ac6b701b61d04c9e",
+            "cardSha256": "32eda7519992652b288a894694439360d94e3a0e3231629b4e7adc83f36df5a4",
+            "thumbnailSha256": "dcf7570fed06fad0628a48250c0295f0a788dc58d22246c7c398007c7946b435",
+            "authorPixelBinding": "5d14a3f6fcb9491bfd642a7805420bf570c3b41bfc04ec26da0c82cae042a215",
+            "secondPixelBinding": "8ab8483828346872aa87c4c69bc673aaaaf016125eb8f5366745d32024c70434"
+          },
+          {
+            "entryId": "globe",
+            "lexicalBinding": "dc398b5952f850a9e879859b3ecec00fdb7c9fa18b5faa2dcf188d9f10c5ba78",
+            "sourceImageSha256": "d20499af78cebc13d28afa8dc6d4564809e0c876236d7e42360f70284b4f850c",
+            "cardSha256": "d11a8513aa72ca585b09e751bc6ba4284271c1e64487e1a0f0237743527fac24",
+            "thumbnailSha256": "7d0bc5fa6ba533cd78e19f62fa78f3a4f2961d3ba812247f116ec61ad151461b",
+            "authorPixelBinding": "6dd776e2144b2a74878d4b98d670805db956150c9970edca8cd9df4cd38c9ca7",
+            "secondPixelBinding": "4ec157b89a252342b4597bacf38d275d7744153ab6d9a3290d661935241566b8"
+          },
+          {
+            "entryId": "pencil-case",
+            "lexicalBinding": "fd82aa71f56fd5e371c49641982cbc4d032c32262ea19afe545568be014c4c12",
+            "sourceImageSha256": "e81312d6250f96e330a19c4283857a25755bb1647b706e3c27ba6ec632b70ecb",
+            "cardSha256": "d4dfb88cf3455b110745cbd426df7615bc4325ef667084dffa7a7e6f304f4edc",
+            "thumbnailSha256": "0dd54a4d28fdc8cb70dbaf2e9e81179d5882528ab43240b9701bf5c14403ea24",
+            "authorPixelBinding": "9bfcd7a3aa7e18f1c587f8ae55a2c1c391552d29b6f8cd970000764147d2afb5",
+            "secondPixelBinding": "66194f7a5f877b2301bcd7834fc4b922d67c71516578c48e0cc46fd668e46f95"
+          },
+          {
+            "entryId": "stapler",
+            "lexicalBinding": "98d5178ac4f147ef5a69e0b0859cdbaf55f648162a80aa2e0c3d79c10d19d80b",
+            "sourceImageSha256": "6773728bec4da92fc97acb3de58102978dee08438af6dda29a9ddd075a5f9fc6",
+            "cardSha256": "3cb0389cdcb5cdd270cd8164ecb78a05e3c5df45724bfaf595bf6d113bed1d77",
+            "thumbnailSha256": "0d5d64a6138767244e8ba5c53a9b6716fc9da404762a53e0c33edf9a2f57a858",
+            "authorPixelBinding": "8f6fec137c5494056bdc5e07c85d4465cca54fd82063a46920f379e589a778ac",
+            "secondPixelBinding": "bbe9cf16d746efe064d30115c38a718ea740abcd1956b6910b13e3ac285f3ebf"
+          },
+          {
+            "entryId": "read",
+            "lexicalBinding": "575a3c11f9cd5743aa67aea07f9672931a53b05a868d897ce1396f9862911d73",
+            "sourceImageSha256": "2b8ade38a2581b2504475dc11a49b78f4cc6455011f8caa923e425a9e04b9605",
+            "cardSha256": "d1115c754cffe1fdfe08fac205e09cd29c1b35d87c5a69a137e5e145ff7e3f23",
+            "thumbnailSha256": "24e5d9511b0ba21c0edf3a6e402dc5af368edff137e9341b0fedb733184a25e6",
+            "authorPixelBinding": "048d88fb1d449b0e99019566259e3974e531cc1b258c0b7c6ccc68d2faa88c67",
+            "secondPixelBinding": "c38880346d6ffd948bfbbc686088f4f18f0ce6b9c0a9ecfea54348164ba3cf1a"
+          },
+          {
+            "entryId": "write",
+            "lexicalBinding": "aff48b3bee8fe41bd5b3dbc60c82643d7794f1ed149a6f55140266c79f574c9b",
+            "sourceImageSha256": "1bde990865bc1c7556628d691f57bf79cb3dccbaa2003bf25911b6febf33ee2e",
+            "cardSha256": "a3a32a55ba34de299c70e8a392b0343ad0136a5cc157ff983cef5702db93703a",
+            "thumbnailSha256": "109b551c8dd4d9acdb2d24c5f8045259ce99067e9583db3b4fad91d21a54190d",
+            "authorPixelBinding": "8973b7df01e32364b23549035e09e359e718f3c47b3d68a0de2fda9a8a39bf4e",
+            "secondPixelBinding": "ffbabb4b252c5ca16da950751becad2d088f97154169dc64daa79c5ba95bc5ae"
+          },
+          {
+            "entryId": "spell",
+            "lexicalBinding": "d93c30d8faa46d5460b0c79e822b7376a49e1690b926fac5e5a9c00afae22f9b",
+            "sourceImageSha256": "0ac3ea05d81a1ab302e9b7934a1f8912c1447c6123e38269ba5ef7378bbf5958",
+            "cardSha256": "7b05f74edb4e43e1d54c237d587ef0b7b9a551ad83aad0028e3ff4864e749328",
+            "thumbnailSha256": "340648349a0151de32dc752766d5be65a955e9aaf1e844f4e9a30a13fae84081",
+            "authorPixelBinding": "c993728478e7d6abd2f2538e8265b46302939cd7889da0da4ed1c77f658d1188",
+            "secondPixelBinding": "5c39647a03c97e61279d0fec92124a43b8ca0f590b06b0d55dafadea679f1218"
+          },
+          {
+            "entryId": "count",
+            "lexicalBinding": "0b2899e916839224ddb39a069d24fc1ff81e21b029ef9b39dcdcdf8998b62fd4",
+            "sourceImageSha256": "a898a0446c971df5100b94057db4ce02acf161cc853e57f26f7932ea7d257997",
+            "cardSha256": "99ed89e0f2ade81f7b1611e40d8dc6bdadb3c2a07ea6246ddefec9c285b5484e",
+            "thumbnailSha256": "3e784cf3b2553b77f8c0c8d12a6ec84767387b72731169dc4827a36e8d448fe8",
+            "authorPixelBinding": "4bd688388163e9fac2886ba86010bac736913485c33e030e3be82ef353f3a42e",
+            "secondPixelBinding": "a836bc492824bde76739a26721669d975dac84a64bbd9f04045c8bcfbeb32de0"
+          },
+          {
+            "entryId": "draw",
+            "lexicalBinding": "787cb88eec40574ced4861d19500e291357e972e044920388bfa3ae29925033b",
+            "sourceImageSha256": "9138b3c22a8b2e7b82e824cb9c7630362ac69748bb4dba377bfcfe743735b4e0",
+            "cardSha256": "48f7e1d16ff1e17a2cf9b7a2981349f8bcf4d269287cb8f4fa1dcce1fe249240",
+            "thumbnailSha256": "7a1d08673b84fda63dc230acf9e725c9762103a34e78944e756a3232ce898ac1",
+            "authorPixelBinding": "ffa4b9261a4ff124d7b306be43c3d4759e63a1c28b431eff9cd9fc6bc9508d39",
+            "secondPixelBinding": "1d179a8c70ba147e401aad8f4168158aead75a9be2f88b1e842c123e0f295bc4"
+          },
+          {
+            "entryId": "practice",
+            "lexicalBinding": "6c1fb031cdf0b83042b48e27494b9e5b58cad7fc3bc53d66a2c2e1b995451425",
+            "sourceImageSha256": "40b68a0997aa1495f43e2d26c81f6d8c0b866ed0a45648a3c77f25497d6d4589",
+            "cardSha256": "86565dfe960e1aa7d7f554535e18cc3a6fd7d3763af84ccb519cefefb5607536",
+            "thumbnailSha256": "f753b5dd1e611ac4cd6051e68e73f5adebf04e6678d417d3d2c76a1738c67640",
+            "authorPixelBinding": "ddcdb0bb769ab3580494522fdeb07c84b51a7cbf5d871bede1584fe8ab6d713f",
+            "secondPixelBinding": "6463cbdfba71699346f847280fd29a5a7d8b6d2251242d4986f8777939342e85"
+          },
+          {
+            "entryId": "exam",
+            "lexicalBinding": "1a3a5f244a467aacc3a906ef0b535c74d6a1d8eb9a2063b7000f4074ad4f7d1a",
+            "sourceImageSha256": "0300583cc6506b8390b056c8b9321bd512b5946c1b33245e8b2461fce7b9e36f",
+            "cardSha256": "4770a6ab2556b188e8f599303170c4918f2fdc3059e6da34fb061001fe2a97ae",
+            "thumbnailSha256": "6ce8188c861a084d18a2d51f912afd0930b22a3a613365097c277a4b3f8b85df",
+            "authorPixelBinding": "0a859bb69314558779ef9a86612fd4b5c2b93a7e7ad71800aab49bcc279fb18d",
+            "secondPixelBinding": "0a370df9492ed358c53a24bac99507e57ee030c24f77c496f769d203a584fb27"
+          },
+          {
+            "entryId": "take-notes",
+            "lexicalBinding": "cb570558812491382d07a75c86ffea09f3df31501d130de0d486003dae2294cb",
+            "sourceImageSha256": "7ac5160491edfab635cb67c64503424e02b66798768849d2bd49edbbe7697814",
+            "cardSha256": "5af6b2cb2512a5aa202545c51289df2b70b6995ab3743d1f6e441a0d810af64a",
+            "thumbnailSha256": "54906774ec8da2936604330c0bf47f4404294bcc00b4fd3a1cd23a1e51eeb99c",
+            "authorPixelBinding": "face950cd14f92af3eb3b51fd3238f36b5a216f219599188c9e8d0c11160dc65",
+            "secondPixelBinding": "4ce1f27c14f72564dd209390fcc3025f67155ea47e39b7ccd15f0e5ca53d5af3"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "education-academic",
+          "visualLanguageId": "education-academic",
+          "baselineCategoryWords": 14,
+          "targetCategoryWords": 38,
+          "entryIds": [
+            "teacher",
+            "student",
+            "classroom",
+            "school",
+            "lesson",
+            "homework",
+            "textbook",
+            "worksheet",
+            "pencil",
+            "eraser",
+            "desk",
+            "blackboard",
+            "whiteboard",
+            "globe",
+            "pencil-case",
+            "stapler",
+            "read",
+            "write",
+            "spell",
+            "count",
+            "draw",
+            "practice",
+            "exam",
+            "take-notes"
+          ],
+          "units": [
+            {
+              "id": "education-school-people",
+              "title": "People, places and learning materials",
+              "entryIds": [
+                "teacher",
+                "student",
+                "classroom",
+                "school",
+                "lesson",
+                "homework",
+                "textbook",
+                "worksheet"
+              ]
+            },
+            {
+              "id": "education-classroom-objects",
+              "title": "Classroom tools and objects",
+              "entryIds": [
+                "pencil",
+                "eraser",
+                "desk",
+                "blackboard",
+                "whiteboard",
+                "globe",
+                "pencil-case",
+                "stapler"
+              ]
+            },
+            {
+              "id": "education-learning-actions",
+              "title": "Core learning actions and assessment",
+              "entryIds": [
+                "read",
+                "write",
+                "spell",
+                "count",
+                "draw",
+                "practice",
+                "exam",
+                "take-notes"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "24globally absent established education headwords after parent52 fully live/reconciled and3787literalpins verified; education14to38toward50within24run cap, remaining12afterpublication. Existing ruler/backpack/listen excluded; take notes is a conventional learning verb phrase, not an added inflection or gratuitous phrase. All16historicalmanualholds unchanged. No nextparent selected.",
+      "parentBatchId": "category-expansion-batch-53",
+      "completedAt": "2026-11-01T08:57:14.279Z",
+      "factualReferences": [
+        {
+          "entryId": "teacher",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika school people, places and learning materials vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "student",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika school people, places and learning materials vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "classroom",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika school people, places and learning materials vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "school",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika school people, places and learning materials vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "lesson",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika school people, places and learning materials vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "homework",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika school people, places and learning materials vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "textbook",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika school people, places and learning materials vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "worksheet",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika school people, places and learning materials vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "pencil",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika classroom objects vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "eraser",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika classroom objects vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "desk",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika classroom objects vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "blackboard",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika classroom objects vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "whiteboard",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika classroom objects vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "globe",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika classroom objects vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "pencil-case",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika classroom objects vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "stapler",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika classroom objects vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY editorial preview; independent human language/domain review pending. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "read",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika core learning actions and assessment vocabulary",
+          "use": "Original ENFA/PT-BR/es-419 learner prose; editorial IPA/CEFR and spelling/usage distinctions, AI assistance and pending human/domain review. No external dictionary wording or artwork copied and no fabricated external citation."
+        },
+        {
+          "entryId": "write",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika core learning actions and assessment vocabulary",
+          "use": "Original ENFA/PT-BR/es-419 learner prose; editorial IPA/CEFR and spelling/usage distinctions, AI assistance and pending human/domain review. No external dictionary wording or artwork copied and no fabricated external citation."
+        },
+        {
+          "entryId": "spell",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika core learning actions and assessment vocabulary",
+          "use": "Original ENFA/PT-BR/es-419 learner prose; editorial IPA/CEFR and spelling/usage distinctions, AI assistance and pending human/domain review. No external dictionary wording or artwork copied and no fabricated external citation."
+        },
+        {
+          "entryId": "count",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika core learning actions and assessment vocabulary",
+          "use": "Original ENFA/PT-BR/es-419 learner prose; editorial IPA/CEFR and spelling/usage distinctions, AI assistance and pending human/domain review. No external dictionary wording or artwork copied and no fabricated external citation."
+        },
+        {
+          "entryId": "draw",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika core learning actions and assessment vocabulary",
+          "use": "Original ENFA/PT-BR/es-419 learner prose; editorial IPA/CEFR and spelling/usage distinctions, AI assistance and pending human/domain review. No external dictionary wording or artwork copied and no fabricated external citation."
+        },
+        {
+          "entryId": "practice",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika core learning actions and assessment vocabulary",
+          "use": "Original ENFA/PT-BR/es-419 learner prose; editorial IPA/CEFR and spelling/usage distinctions, AI assistance and pending human/domain review. No external dictionary wording or artwork copied and no fabricated external citation."
+        },
+        {
+          "entryId": "exam",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika core learning actions and assessment vocabulary",
+          "use": "Original ENFA/PT-BR/es-419 learner prose; editorial IPA/CEFR and spelling/usage distinctions, AI assistance and pending human/domain review. No external dictionary wording or artwork copied and no fabricated external citation."
+        },
+        {
+          "entryId": "take-notes",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika core learning actions and assessment vocabulary",
+          "use": "Original ENFA/PT-BR/es-419 learner prose; editorial IPA/CEFR and spelling/usage distinctions, AI assistance and pending human/domain review. No external dictionary wording or artwork copied and no fabricated external citation."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,

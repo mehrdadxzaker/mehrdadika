@@ -15,7 +15,7 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "computing-technology",
+  "currentCategoryId": "education-academic",
   "nextCategoryId": "education-academic",
   "categoryOrder": [
     "cooking-food-drink",
@@ -6288,9 +6288,93 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "education-academic",
+      "visualLanguageId": "education-academic",
+      "baselineCategoryWords": 14,
+      "targetCategoryWords": 38,
+      "entryIds": [
+        "teacher",
+        "student",
+        "classroom",
+        "school",
+        "lesson",
+        "homework",
+        "textbook",
+        "worksheet",
+        "pencil",
+        "eraser",
+        "desk",
+        "blackboard",
+        "whiteboard",
+        "globe",
+        "pencil-case",
+        "stapler",
+        "read",
+        "write",
+        "spell",
+        "count",
+        "draw",
+        "practice",
+        "exam",
+        "take-notes"
+      ],
+      "units": [
+        {
+          "id": "education-school-people",
+          "title": "People, places and learning materials",
+          "entryIds": [
+            "teacher",
+            "student",
+            "classroom",
+            "school",
+            "lesson",
+            "homework",
+            "textbook",
+            "worksheet"
+          ]
+        },
+        {
+          "id": "education-classroom-objects",
+          "title": "Classroom tools and objects",
+          "entryIds": [
+            "pencil",
+            "eraser",
+            "desk",
+            "blackboard",
+            "whiteboard",
+            "globe",
+            "pencil-case",
+            "stapler"
+          ]
+        },
+        {
+          "id": "education-learning-actions",
+          "title": "Core learning actions and assessment",
+          "entryIds": [
+            "read",
+            "write",
+            "spell",
+            "count",
+            "draw",
+            "practice",
+            "exam",
+            "take-notes"
+          ]
+        }
+      ],
+      "id": "education-academic-category-expansion-batch-53-ready-1",
+      "releaseId": "2026-10-preview-60",
+      "status": "published-preview",
+      "objective": "Learn People, places and learning materials; Classroom tools and objects; Core learning actions and assessment in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-52-ready-1",
+  "activePassId": "category-expansion-batch-53-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",

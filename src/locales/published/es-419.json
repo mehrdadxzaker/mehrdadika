@@ -13,9 +13,9 @@
     "modifications": "Latin-American Spanish preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-59",
-    "manifest": "content/releases/2026-10-preview-59-d5d31b907098/manifest.json",
-    "sha256": "d5d31b907098e82459411105aa60e37f60ddfe1bb80b501a5060bb96c8947649"
+    "id": "2026-10-preview-60",
+    "manifest": "content/releases/2026-10-preview-60-75fa1b7e74b3/manifest.json",
+    "sha256": "75fa1b7e74b3840f61c3689580958793d67c6a1bf9cc82e13fcac58743efd867"
   },
   "categories": {
     "everyday-life": {
@@ -48453,6 +48453,822 @@
         }
       ],
       "tip": "Backup es el sustantivo en una palabra; el verbo back up lleva dos: back up your files. Sincronizar, o sync, por sí solo no equivale a mantener una copia de seguridad: una eliminación también puede sincronizarse. La idea principal es una copia separada que permita recuperar los datos."
+    },
+    "teacher": {
+      "sourceWord": "teacher",
+      "senses": {
+        "teacher:meaning-1": {
+          "gloss": "maestro; maestra; profesor; profesora",
+          "definition": "Persona cuyo trabajo consiste en ayudar a otras personas a aprender, especialmente en una escuela."
+        }
+      },
+      "examples": [
+        {
+          "en": "The teacher explained the new words to the class.",
+          "translation": "La maestra explicó las palabras nuevas al grupo."
+        },
+        {
+          "en": "She asked her students to compare their answers.",
+          "translation": "Ella les pidió a sus estudiantes que compararan sus respuestas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a school teacher",
+          "translation": "un maestro de escuela"
+        },
+        {
+          "en": "an English teacher",
+          "translation": "un profesor de inglés"
+        },
+        {
+          "en": "ask the teacher",
+          "translation": "preguntarle al maestro"
+        }
+      ],
+      "tip": "Teacher es la persona que enseña; student es quien aprende. Professor en inglés suele ser un título universitario y no reemplaza a teacher en cualquier contexto. Teach es el verbo enseñar."
+    },
+    "student": {
+      "sourceWord": "student",
+      "senses": {
+        "student:meaning-1": {
+          "gloss": "estudiante; alumno; alumna",
+          "definition": "Persona que estudia en una escuela, una institución de educación superior o una universidad."
+        }
+      },
+      "examples": [
+        {
+          "en": "The student raised her hand to ask a question.",
+          "translation": "La estudiante levantó la mano para hacer una pregunta."
+        },
+        {
+          "en": "Two students worked together on the science project.",
+          "translation": "Dos estudiantes trabajaron juntos en el proyecto de ciencias."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a university student",
+          "translation": "un estudiante universitario"
+        },
+        {
+          "en": "a student card",
+          "translation": "una credencial de estudiante"
+        },
+        {
+          "en": "a group of students",
+          "translation": "un grupo de estudiantes"
+        }
+      ],
+      "tip": "Student puede ser alumno de escuela o estudiante universitario. Pupil suele referirse a un alumno de escuela, especialmente en inglés británico. Learner es más amplio e incluye a cualquier persona que esté aprendiendo."
+    },
+    "classroom": {
+      "sourceWord": "classroom",
+      "senses": {
+        "classroom:meaning-1": {
+          "gloss": "salón de clases; aula",
+          "definition": "Salón donde un docente y un grupo de estudiantes tienen clases."
+        }
+      },
+      "examples": [
+        {
+          "en": "The classroom has a board and six desks.",
+          "translation": "El salón de clases tiene un pizarrón y seis pupitres."
+        },
+        {
+          "en": "The students returned to the room after lunch.",
+          "translation": "Los estudiantes regresaron al salón después del almuerzo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a classroom door",
+          "translation": "una puerta de salón de clases"
+        },
+        {
+          "en": "in the classroom",
+          "translation": "en el salón de clases"
+        },
+        {
+          "en": "a classroom activity",
+          "translation": "una actividad en el salón de clases"
+        }
+      ],
+      "tip": "Classroom es el salón físico. Class puede indicar el grupo de estudiantes o una sesión de enseñanza. School es el edificio o la institución más amplia, que puede tener varios salones."
+    },
+    "school": {
+      "sourceWord": "school",
+      "senses": {
+        "school:meaning-1": {
+          "gloss": "escuela",
+          "definition": "Edificio o conjunto de edificios adonde van los niños para recibir enseñanza."
+        }
+      },
+      "examples": [
+        {
+          "en": "The school has large windows and a playground.",
+          "translation": "La escuela tiene ventanas grandes y un patio de juegos."
+        },
+        {
+          "en": "They waited outside the main entrance for the children.",
+          "translation": "Esperaron a los niños afuera de la entrada principal."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a primary school",
+          "translation": "una escuela primaria"
+        },
+        {
+          "en": "the school entrance",
+          "translation": "la entrada de la escuela"
+        },
+        {
+          "en": "walk to school",
+          "translation": "ir caminando a la escuela"
+        }
+      ],
+      "tip": "Aquí school indica el lugar donde estudian los niños; classroom es uno de sus salones. School también puede indicar la institución o los estudios, pero este sentido destaca el edificio. Go to school suele significar asistir a la escuela para estudiar."
+    },
+    "lesson": {
+      "sourceWord": "lesson",
+      "senses": {
+        "lesson:meaning-1": {
+          "gloss": "clase; sesión de enseñanza",
+          "definition": "Periodo de enseñanza en el que alguien ayuda a una persona o a un grupo a aprender una materia o habilidad."
+        }
+      },
+      "examples": [
+        {
+          "en": "The lesson began with the teacher showing us a map.",
+          "translation": "La clase comenzó cuando la maestra nos mostró un mapa."
+        },
+        {
+          "en": "We learned three new phrases during the short session.",
+          "translation": "Aprendimos tres expresiones nuevas durante la sesión corta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an English lesson",
+          "translation": "una clase de inglés"
+        },
+        {
+          "en": "a music lesson",
+          "translation": "una clase de música"
+        },
+        {
+          "en": "have a lesson",
+          "translation": "tener una clase"
+        }
+      ],
+      "tip": "Lesson aquí es una sesión de enseñanza, no un curso completo. Course suele reunir varias lessons. Class también puede indicar una sesión de enseñanza, pero puede significar el grupo. Take a lesson es participar en una clase."
+    },
+    "homework": {
+      "sourceWord": "homework",
+      "senses": {
+        "homework:meaning-1": {
+          "gloss": "tarea; tarea escolar",
+          "definition": "Trabajo escolar que un docente les pide a los estudiantes que hagan fuera de las clases."
+        }
+      },
+      "examples": [
+        {
+          "en": "The teacher gave us homework to finish before the next lesson.",
+          "translation": "La maestra nos dejó tarea para terminar antes de la siguiente clase."
+        },
+        {
+          "en": "I did the assigned exercises at the kitchen table after school.",
+          "translation": "Hice los ejercicios asignados en la mesa de la cocina después de la escuela."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "do your homework",
+          "translation": "hacer la tarea"
+        },
+        {
+          "en": "hand in homework",
+          "translation": "entregar la tarea"
+        },
+        {
+          "en": "a homework assignment",
+          "translation": "una tarea asignada"
+        }
+      ],
+      "tip": "Homework es incontable en este sentido: some homework o a homework assignment, y no a homework. Se dice do homework, no make homework. Housework son los quehaceres domésticos, como la limpieza, y no la tarea escolar."
+    },
+    "textbook": {
+      "sourceWord": "textbook",
+      "senses": {
+        "textbook:meaning-1": {
+          "gloss": "libro de texto",
+          "definition": "Libro que se usa para estudiar una materia y contiene explicaciones y material de aprendizaje organizados."
+        }
+      },
+      "examples": [
+        {
+          "en": "The textbook explains how plants use sunlight.",
+          "translation": "El libro de texto explica cómo las plantas usan la luz del sol."
+        },
+        {
+          "en": "We opened the science book to the next chapter.",
+          "translation": "Abrimos el libro de ciencias en el siguiente capítulo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a science textbook",
+          "translation": "un libro de texto de ciencias"
+        },
+        {
+          "en": "a textbook chapter",
+          "translation": "un capítulo de un libro de texto"
+        },
+        {
+          "en": "read a textbook",
+          "translation": "leer un libro de texto"
+        }
+      ],
+      "tip": "Textbook enseña una materia de forma organizada. Workbook se centra en ejercicios y notebook es un cuaderno de apuntes. Worksheet suele ser una hoja de actividades suelta, no un libro encuadernado con capítulos."
+    },
+    "worksheet": {
+      "sourceWord": "worksheet",
+      "senses": {
+        "worksheet:meaning-1": {
+          "gloss": "hoja de ejercicios; hoja de trabajo",
+          "definition": "Hoja de papel con preguntas o actividades para que los estudiantes las completen."
+        }
+      },
+      "examples": [
+        {
+          "en": "The worksheet has pictures to match and questions to answer.",
+          "translation": "La hoja de ejercicios tiene imágenes para relacionar y preguntas para responder."
+        },
+        {
+          "en": "Each student wrote a name at the top of the sheet.",
+          "translation": "Cada estudiante escribió un nombre en la parte superior de la hoja."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "complete a worksheet",
+          "translation": "completar una hoja de ejercicios"
+        },
+        {
+          "en": "a math worksheet",
+          "translation": "una hoja de ejercicios de matemáticas"
+        },
+        {
+          "en": "hand out worksheets",
+          "translation": "repartir hojas de ejercicios"
+        }
+      ],
+      "tip": "Worksheet aquí es una hoja de ejercicios en papel; notebook es un cuaderno encuadernado y workbook es un libro de ejercicios. Worksheet también tiene un sentido en los programas de hojas de cálculo, que no se enseña en esta entrada."
+    },
+    "pencil": {
+      "sourceWord": "pencil",
+      "senses": {
+        "pencil:meaning-1": {
+          "gloss": "lápiz; lápiz de grafito",
+          "definition": "Instrumento para escribir o dibujar que deja marcas con una mina fina de grafito, generalmente rodeada de madera."
+        }
+      },
+      "examples": [
+        {
+          "en": "She sharpened her pencil before writing the answer.",
+          "translation": "Ella le sacó punta al lápiz antes de escribir la respuesta."
+        },
+        {
+          "en": "The soft graphite left a dark line on the paper.",
+          "translation": "El grafito blando dejó una línea oscura en el papel."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a sharp pencil",
+          "translation": "un lápiz con buena punta"
+        },
+        {
+          "en": "sharpen a pencil",
+          "translation": "sacarle punta a un lápiz"
+        },
+        {
+          "en": "write in pencil",
+          "translation": "escribir a lápiz"
+        }
+      ],
+      "tip": "Aquí pencil es el lápiz común de grafito; colored pencil o coloured pencil es un lápiz de color. Pen escribe con tinta. Write in pencil significa escribir a lápiz. En el inglés cotidiano se llama lead a la mina, pero esta no está hecha de plomo metálico."
+    },
+    "eraser": {
+      "sourceWord": "eraser",
+      "senses": {
+        "eraser:meaning-1": {
+          "gloss": "borrador; goma de borrar",
+          "definition": "Pequeña pieza de goma o material parecido que se frota para quitar marcas de lápiz."
+        }
+      },
+      "examples": [
+        {
+          "en": "He used an eraser to remove the wrong number.",
+          "translation": "Él usó un borrador para quitar el número equivocado."
+        },
+        {
+          "en": "Rub the pencil mark gently so the paper does not tear.",
+          "translation": "Borra la marca de lápiz con suavidad para que no se rompa el papel."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a pencil eraser",
+          "translation": "un borrador de lápiz"
+        },
+        {
+          "en": "use an eraser",
+          "translation": "usar un borrador"
+        },
+        {
+          "en": "the end of an eraser",
+          "translation": "la punta de un borrador"
+        }
+      ],
+      "tip": "En este sentido, eraser quita marcas de lápiz y no necesariamente tinta. Rubber también es común en inglés británico para el borrador de lápiz; eraser es más habitual en inglés estadounidense. Board eraser es un borrador de pizarrón, objeto que no se seleccionó en esta imagen."
+    },
+    "desk": {
+      "sourceWord": "desk",
+      "senses": {
+        "desk:meaning-1": {
+          "gloss": "escritorio; mesa de estudio o trabajo",
+          "definition": "Mesa diseñada para leer, escribir o realizar otras tareas, a menudo usada por una persona en la escuela o en una oficina."
+        }
+      },
+      "examples": [
+        {
+          "en": "The student put a notebook on her desk.",
+          "translation": "La estudiante puso un cuaderno en su escritorio."
+        },
+        {
+          "en": "Each child had a small table for reading and writing.",
+          "translation": "Cada niño tenía una mesa pequeña para leer y escribir."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a school desk",
+          "translation": "un pupitre escolar"
+        },
+        {
+          "en": "sit at a desk",
+          "translation": "sentarse frente a un escritorio"
+        },
+        {
+          "en": "a desk drawer",
+          "translation": "un cajón del escritorio"
+        }
+      ],
+      "tip": "Desk es una mesa para trabajar o estudiar; no tiene que tener cajones. Table es un término más general y puede ser una mesa de comedor. Chest of drawers es una cómoda, no un escritorio. En sit at a desk, at señala el lugar donde se sienta la persona."
+    },
+    "blackboard": {
+      "sourceWord": "blackboard",
+      "senses": {
+        "blackboard:meaning-1": {
+          "gloss": "pizarrón; pizarra de tiza",
+          "definition": "Tablero oscuro sobre el que se escribe o dibuja con tiza, especialmente en un salón de clases."
+        }
+      },
+      "examples": [
+        {
+          "en": "The teacher drew a triangle on the blackboard with chalk.",
+          "translation": "La maestra dibujó un triángulo en el pizarrón con tiza."
+        },
+        {
+          "en": "A cloth removed the white marks from the dark surface.",
+          "translation": "Un paño quitó las marcas blancas de la superficie oscura."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "write on the blackboard",
+          "translation": "escribir en el pizarrón"
+        },
+        {
+          "en": "clean the blackboard",
+          "translation": "limpiar el pizarrón"
+        },
+        {
+          "en": "blackboard chalk",
+          "translation": "tiza para pizarrón"
+        }
+      ],
+      "tip": "Blackboard es una superficie para escribir con tiza; algunos tableros con ese nombre son de color verde oscuro. Chalkboard también designa ese tipo de pizarra. Whiteboard suele ser blanco y se usa con marcadores especiales. Board solo es un término más general."
+    },
+    "whiteboard": {
+      "sourceWord": "whiteboard",
+      "senses": {
+        "whiteboard:meaning-1": {
+          "gloss": "pizarrón blanco; pizarra blanca",
+          "definition": "Tablero blanco y liso sobre el que se escribe o dibuja con marcadores cuyas marcas se pueden borrar."
+        }
+      },
+      "examples": [
+        {
+          "en": "She wrote the date on the whiteboard with a blue marker.",
+          "translation": "Ella escribió la fecha en el pizarrón blanco con un marcador azul."
+        },
+        {
+          "en": "He wiped the board clean before the next lesson.",
+          "translation": "Él limpió el pizarrón antes de la siguiente clase."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a whiteboard marker",
+          "translation": "un marcador para pizarrón blanco"
+        },
+        {
+          "en": "write on a whiteboard",
+          "translation": "escribir en una pizarra blanca"
+        },
+        {
+          "en": "wipe the whiteboard clean",
+          "translation": "dejar limpio el pizarrón blanco"
+        }
+      ],
+      "tip": "Aquí whiteboard es el tablero común para marcadores borrables. Blackboard o chalkboard se usa con tiza. No todos los marcadores sirven para el pizarrón blanco; permanent marker es un marcador permanente. Interactive whiteboard es un tipo de pizarra digital interactiva y no es el sentido seleccionado."
+    },
+    "globe": {
+      "sourceWord": "globe",
+      "senses": {
+        "globe:meaning-1": {
+          "gloss": "globo terráqueo",
+          "definition": "Modelo físico y redondo de la Tierra con un mapa en su superficie."
+        }
+      },
+      "examples": [
+        {
+          "en": "The student turned the globe to find South America.",
+          "translation": "El estudiante giró el globo terráqueo para encontrar América del Sur."
+        },
+        {
+          "en": "The model showed oceans and land on a curved surface.",
+          "translation": "El modelo mostraba océanos y tierras sobre una superficie curva."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a classroom globe",
+          "translation": "un globo terráqueo del salón de clases"
+        },
+        {
+          "en": "turn the globe",
+          "translation": "girar el globo terráqueo"
+        },
+        {
+          "en": "a globe on a stand",
+          "translation": "un globo terráqueo con soporte"
+        }
+      ],
+      "tip": "En este sentido, globe es un modelo esférico de la Tierra, no un mapa plano. Un globo puede girar sobre un soporte; el soporte no es parte de la Tierra misma. The globe puede referirse al mundo entero en algunas oraciones, pero ese uso no se seleccionó aquí."
+    },
+    "pencil-case": {
+      "sourceWord": "pencil case",
+      "senses": {
+        "pencil-case:meaning-1": {
+          "gloss": "estuche; estuche para lápices",
+          "definition": "Recipiente pequeño para llevar lápices, plumas y otros útiles pequeños de escritura."
+        }
+      },
+      "examples": [
+        {
+          "en": "She opened her pencil case and took out a sharp pencil.",
+          "translation": "Ella abrió su estuche y sacó un lápiz con buena punta."
+        },
+        {
+          "en": "The eraser and two pens fit inside the small case.",
+          "translation": "El borrador y dos plumas cupieron dentro del estuche pequeño."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "open a pencil case",
+          "translation": "abrir un estuche para lápices"
+        },
+        {
+          "en": "a zip-up pencil case",
+          "translation": "un estuche con cierre"
+        },
+        {
+          "en": "keep pens in a pencil case",
+          "translation": "guardar plumas en un estuche"
+        }
+      ],
+      "tip": "Pencil case es un recipiente o bolsa para útiles de escritura y también puede contener plumas y un borrador. Pencil box suele destacar el formato de caja. Makeup bag es una bolsa de maquillaje. En inglés, pencil case normalmente se escribe en dos palabras."
+    },
+    "stapler": {
+      "sourceWord": "stapler",
+      "senses": {
+        "stapler:meaning-1": {
+          "gloss": "engrapadora; grapadora",
+          "definition": "Herramienta que une hojas de papel al atravesarlas con una pequeña grapa metálica y doblar sus puntas."
+        }
+      },
+      "examples": [
+        {
+          "en": "He used a stapler to join the two worksheets.",
+          "translation": "Él usó una engrapadora para unir las dos hojas de ejercicios."
+        },
+        {
+          "en": "Press the top down with the papers between the jaws.",
+          "translation": "Presiona la parte de arriba hacia abajo con los papeles entre las dos partes de la engrapadora."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "use a stapler",
+          "translation": "usar una engrapadora"
+        },
+        {
+          "en": "a desk stapler",
+          "translation": "una engrapadora de escritorio"
+        },
+        {
+          "en": "load a stapler",
+          "translation": "cargar una engrapadora"
+        }
+      ],
+      "tip": "Stapler es la herramienta; staple es la pequeña grapa metálica que sujeta las hojas y también el verbo engrapar. Paper clip es un clip que sujeta hojas sin perforarlas. Hole punch es una perforadora y por sí sola no une las hojas."
+    },
+    "read": {
+      "sourceWord": "read",
+      "senses": {
+        "read:meaning-1": {
+          "gloss": "leer",
+          "definition": "Mirar palabras escritas y comprender lo que dicen."
+        }
+      },
+      "examples": [
+        {
+          "en": "Read the short sentence aloud.",
+          "translation": "Lee la oración corta en voz alta."
+        },
+        {
+          "en": "She followed the words on the page with her finger.",
+          "translation": "Ella siguió las palabras de la página con el dedo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "read a book",
+          "translation": "leer un libro"
+        },
+        {
+          "en": "read aloud",
+          "translation": "leer en voz alta"
+        },
+        {
+          "en": "read the instructions",
+          "translation": "leer las instrucciones"
+        }
+      ],
+      "tip": "La forma básica y el presente de read se pronuncian /riːd/. El pasado se escribe igual, read, pero se pronuncia /red/. Read aloud es leer en voz alta; read también se usa para la lectura silenciosa."
+    },
+    "write": {
+      "sourceWord": "write",
+      "senses": {
+        "write:meaning-1": {
+          "gloss": "escribir",
+          "definition": "Formar o registrar texto con letras y palabras, en papel o en un dispositivo."
+        }
+      },
+      "examples": [
+        {
+          "en": "Write your name at the top of the page.",
+          "translation": "Escribe tu nombre en la parte superior de la página."
+        },
+        {
+          "en": "The pencil left a row of words on the paper.",
+          "translation": "El lápiz dejó una línea de palabras en el papel."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "write a sentence",
+          "translation": "escribir una oración"
+        },
+        {
+          "en": "write on paper",
+          "translation": "escribir en papel"
+        },
+        {
+          "en": "write by hand",
+          "translation": "escribir a mano"
+        }
+      ],
+      "tip": "Las formas principales son write, wrote y written. Write by hand es escribir a mano; type es introducir texto con el teclado. Write on paper indica la superficie; write about a topic indica el tema."
+    },
+    "spell": {
+      "sourceWord": "spell",
+      "senses": {
+        "spell:meaning-1": {
+          "gloss": "deletrear",
+          "definition": "Decir o escribir las letras de una palabra en el orden correcto."
+        }
+      },
+      "examples": [
+        {
+          "en": "Spell the word cat one letter at a time.",
+          "translation": "Deletrea la palabra cat, una letra a la vez."
+        },
+        {
+          "en": "He said C, A and T in the right order.",
+          "translation": "Él dijo C, A y T en el orden correcto."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "spell a word",
+          "translation": "deletrear una palabra"
+        },
+        {
+          "en": "spell your name",
+          "translation": "deletrear tu nombre"
+        },
+        {
+          "en": "spell correctly",
+          "translation": "deletrear correctamente"
+        }
+      ],
+      "tip": "Spell trata de las letras y su orden; pronounce trata de cómo se dice la palabra completa. How do you spell it? pregunta por la secuencia de letras. Aquí spell es verbo; no se presenta el sustantivo que significa hechizo."
+    },
+    "count": {
+      "sourceWord": "count",
+      "senses": {
+        "count:meaning-1": {
+          "gloss": "contar",
+          "definition": "Averiguar cuántas cosas hay considerando una a la vez."
+        }
+      },
+      "examples": [
+        {
+          "en": "Count the three blocks on the table.",
+          "translation": "Cuenta los tres bloques que están sobre la mesa."
+        },
+        {
+          "en": "She touched each counter once and said a number.",
+          "translation": "Ella tocó cada ficha una vez y dijo un número."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "count to ten",
+          "translation": "contar hasta diez"
+        },
+        {
+          "en": "count the objects",
+          "translation": "contar los objetos"
+        },
+        {
+          "en": "count carefully",
+          "translation": "contar con cuidado"
+        }
+      ],
+      "tip": "Aquí count es el verbo contar cantidades. En count to ten, to indica el final de la secuencia. Count on someone significa confiar en alguien, otro sentido. Al contar, cada objeto debe incluirse una sola vez."
+    },
+    "draw": {
+      "sourceWord": "draw",
+      "senses": {
+        "draw:meaning-1": {
+          "gloss": "dibujar; trazar",
+          "definition": "Crear una imagen o figura con líneas y marcas, por ejemplo usando un lápiz."
+        }
+      },
+      "examples": [
+        {
+          "en": "Draw a triangle below the circle.",
+          "translation": "Dibuja un triángulo debajo del círculo."
+        },
+        {
+          "en": "He added the last side of the shape with his pencil.",
+          "translation": "Él agregó el último lado de la figura con su lápiz."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "draw a picture",
+          "translation": "dibujar una imagen"
+        },
+        {
+          "en": "draw a line",
+          "translation": "trazar una línea"
+        },
+        {
+          "en": "draw from memory",
+          "translation": "dibujar de memoria"
+        }
+      ],
+      "tip": "Las formas principales son draw, drew y drawn. Aquí draw es crear una imagen o figura. Draw the curtains es correr las cortinas y draw money es retirar dinero; esos sentidos no se presentan en esta entrada."
+    },
+    "practice": {
+      "sourceWord": "practice",
+      "senses": {
+        "practice:meaning-1": {
+          "gloss": "practicar; entrenar",
+          "definition": "Repetir una actividad para adquirir mayor habilidad en ella."
+        }
+      },
+      "examples": [
+        {
+          "en": "Practice the letter A before writing the whole word.",
+          "translation": "Practica la letra A antes de escribir la palabra completa."
+        },
+        {
+          "en": "She repeated the same movement several times.",
+          "translation": "Ella repitió el mismo movimiento varias veces."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "practice writing",
+          "translation": "practicar la escritura"
+        },
+        {
+          "en": "practice every day",
+          "translation": "practicar todos los días"
+        },
+        {
+          "en": "practice a skill",
+          "translation": "practicar una habilidad"
+        }
+      ],
+      "tip": "Aquí practice es la escritura estadounidense del verbo; en inglés británico suele escribirse practise. El sustantivo se escribe practice en ambas variedades. Practicar implica repetir para aprender y no equivale a realizar un examen formal."
+    },
+    "exam": {
+      "sourceWord": "exam",
+      "senses": {
+        "exam:meaning-1": {
+          "gloss": "examen",
+          "definition": "Prueba formal utilizada para evaluar los conocimientos o las habilidades de un estudiante."
+        }
+      },
+      "examples": [
+        {
+          "en": "The exam asks students to answer questions on their own.",
+          "translation": "El examen pide que los estudiantes respondan las preguntas por su cuenta."
+        },
+        {
+          "en": "They worked quietly while the teacher collected the finished papers.",
+          "translation": "Trabajaron en silencio mientras la maestra recogía las pruebas terminadas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "take an exam",
+          "translation": "presentar un examen"
+        },
+        {
+          "en": "sit an exam",
+          "translation": "rendir un examen"
+        },
+        {
+          "en": "pass an exam",
+          "translation": "aprobar un examen"
+        }
+      ],
+      "tip": "Exam es una forma corta de examination. Take an exam es común en inglés estadounidense y sit an exam en británico; ambas expresiones indican participar en la evaluación. Aquí no se presenta el sentido de examen médico."
+    },
+    "take-notes": {
+      "sourceWord": "take notes",
+      "senses": {
+        "take-notes:meaning-1": {
+          "gloss": "tomar apuntes; tomar notas",
+          "definition": "Escribir puntos breves mientras se escucha o lee para recordar la información después."
+        }
+      },
+      "examples": [
+        {
+          "en": "Take notes while the teacher explains the diagram.",
+          "translation": "Toma apuntes mientras la maestra explica el diagrama."
+        },
+        {
+          "en": "She wrote down three key points from the lesson.",
+          "translation": "Ella anotó tres puntos clave de la lección."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "take notes in class",
+          "translation": "tomar apuntes en clase"
+        },
+        {
+          "en": "take notes during a lecture",
+          "translation": "tomar apuntes durante una conferencia"
+        },
+        {
+          "en": "take notes on a topic",
+          "translation": "tomar apuntes sobre un tema"
+        }
+      ],
+      "tip": "Take notes es una expresión verbal común; el pasado es took notes. Notes son puntos breves para recordar después, sin necesidad de transcribir todo palabra por palabra. Para registrar un punto específico, make a note también es común."
     }
   }
 }
