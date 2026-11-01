@@ -16,7 +16,7 @@
     }
   ],
   "currentCategoryId": "education-academic",
-  "nextCategoryId": "education-academic",
+  "nextCategoryId": "natural-sciences-mathematics",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -6372,9 +6372,63 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "education-academic",
+      "visualLanguageId": "education-academic",
+      "baselineCategoryWords": 38,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "crayon",
+        "scissors",
+        "calculator",
+        "colored-pencil",
+        "paper-clip",
+        "highlighter",
+        "dictionary",
+        "sentence",
+        "paragraph",
+        "timetable",
+        "lecture",
+        "graduation"
+      ],
+      "units": [
+        {
+          "id": "education-writing-tools",
+          "title": "Writing and classroom tools",
+          "entryIds": [
+            "crayon",
+            "scissors",
+            "calculator",
+            "colored-pencil",
+            "paper-clip",
+            "highlighter"
+          ]
+        },
+        {
+          "id": "education-reading-study",
+          "title": "Reading, study and academic occasions",
+          "entryIds": [
+            "dictionary",
+            "sentence",
+            "paragraph",
+            "timetable",
+            "lecture",
+            "graduation"
+          ]
+        }
+      ],
+      "id": "education-academic-category-expansion-batch-54-ready-1",
+      "releaseId": "2026-10-preview-61",
+      "status": "published-preview",
+      "objective": "Learn Writing and classroom tools; Reading, study and academic occasions in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-53-ready-1",
+  "activePassId": "category-expansion-batch-54-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",
