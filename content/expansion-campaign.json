@@ -14534,6 +14534,69 @@
           "use": "Original selected basic mathematics sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language/mathematics review pending. No external dictionary wording or artwork copied. No external factual reference used for these elementary definitions."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-56-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-63",
+      "sourceFiles": [
+        "geometry-shapes.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-62",
+        "manifest": "content/releases/2026-10-preview-62-4db2d23d9ee7/manifest.json",
+        "manifestSha256": "4db2d23d9ee793944be143378ba3ccc863966b1ee4136b36922a80c06d59bc3a",
+        "words": 1459
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "polygon",
+            "lexicalBinding": "544232ce4c92c502c8d0f342e04f3c014d6fa7cc7062c1288bdd82d9ca8a52ce",
+            "sourceImageSha256": "0cca8f0d348aa2b6b410b895a4ed039ac6aa30e423488379e72a0296e4bc7a9b",
+            "cardSha256": "b5c37d984f5341ada63d9b5be390e4c75677ab4fa26d5cb566dcf77568f3b56c",
+            "thumbnailSha256": "a29d8f14fd2a3575cc128c75783c123fe59da79e5853d7a51c2f1e0c068f97b5",
+            "authorPixelBinding": "dab1af4127ddb093e4e25c84b70758755b64e48fee39a3b65577514e2765df60",
+            "secondPixelBinding": "a7536528c61752491a256921716ce2d563df269fa6220c3b6d2f191a3086e2c4"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "natural-sciences-mathematics",
+          "visualLanguageId": "natural-sciences-mathematics",
+          "baselineCategoryWords": 49,
+          "targetCategoryWords": 50,
+          "entryIds": [
+            "polygon"
+          ],
+          "units": [
+            {
+              "id": "closed-straight-sided-shapes",
+              "title": "Closed shapes with straight sides",
+              "entryIds": [
+                "polygon"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "One globally absent polygon headword, capped by actual remaining49to50 after fully live/reconciled parent55 with molecule retained privatelyheld. All8408priorpins verified before Hadvance. Existing square template actual usage restricts rectangle/equal-parts fraction derivatives; preserve it unchanged and create a fresh original exact five-sided polygon instead. No prior template acceptance inherited. No parent57 selected.",
+      "parentBatchId": "category-expansion-batch-56",
+      "completedAt": "2026-11-01T13:39:10.860Z",
+      "factualReferences": [
+        {
+          "entryId": "polygon",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika elementary geometry vocabulary contribution",
+          "use": "Original selected closed flat straight-sided shape sense, EN/FA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and mathematics review pending. No external dictionary wording or artwork copied. No external factual reference used for these elementary geometric definitions."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,

@@ -72517,6 +72517,59 @@
           "reviewerId": "/root/parent55_science"
         }
       }
+    },
+    {
+      "entryId": "polygon",
+      "sourceWord": "polygon",
+      "categoryId": "natural-sciences-mathematics",
+      "meanings": [
+        {
+          "senseId": "polygon:meaning-1",
+          "pos": "n.",
+          "en": "A closed flat shape with three or more straight sides."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The polygon on the page has five straight sides.",
+          "senseId": "polygon:meaning-1"
+        },
+        {
+          "en": "A triangle is a polygon, but a circle is not.",
+          "senseId": "polygon:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/polygon.webp",
+        "sha256": "b5c37d984f5341ada63d9b5be390e4c75677ab4fa26d5cb566dcf77568f3b56c"
+      },
+      "visual": {
+        "expectedCue": "Exactly one large closed planar unfilled blue pentagon, exactly five connected straight edges and five distinct vertices, with exactly one small red dot centered on each vertex. This is a five-sided example of the generic polygon meaning, without a regularity claim. No curved or open edge, crossings, right-angle marks, 3D or perspective.",
+        "decision": "added",
+        "reason": "Actually viewed the cached full1254 original separately and the actual final512WebP and120PNG individually. One large unfilled planar blue pentagon has exactly five connected straight edges, five distinct vertices and one red dot on each vertex; the boundary closes without gaps or crossing edges. All five sides/corners remain countable at120. No curved path, right-angle marker, text, diagonal, perspective, 3D solid or irrelevant object appears. Bright white with restrained blue/red and crisp textbook diagram matches natural-sciences-mathematics revision1. This is a valid five-sided example of the selected generic polygon sense; no equal-side/equal-angle or regularity claim is inferred. Original built-in generation with no template/reference; AI author review only, independent human language/mathematics review pending.",
+        "languageId": "natural-sciences-mathematics",
+        "languageSha256": "8d54b33181ffc0c3202512561bdd313712bc217c229d53a45f9b22a99866660c",
+        "styleInspection": "Actually viewed the cached full1254 original separately and the actual final512WebP and120PNG individually. One large unfilled planar blue pentagon has exactly five connected straight edges, five distinct vertices and one red dot on each vertex; the boundary closes without gaps or crossing edges. All five sides/corners remain countable at120. No curved path, right-angle marker, text, diagonal, perspective, 3D solid or irrelevant object appears. Bright white with restrained blue/red and crisp textbook diagram matches natural-sciences-mathematics revision1. This is a valid five-sided example of the selected generic polygon sense; no equal-side/equal-angle or regularity claim is inferred. Original built-in generation with no template/reference; AI author review only, independent human language/mathematics review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T13:37:21.541Z",
+        "reviewerId": "/root/parent56_polygon",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "b5c37d984f5341ada63d9b5be390e4c75677ab4fa26d5cb566dcf77568f3b56c",
+          "inspectedAt": "2026-11-01T13:38:52.586Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actually viewed the full1254 original,512WebP and separate120PNG individually. One unfilled planar blue pentagon has exactly five straight sides forming one closed non-self-crossing boundary and exactly five red dots at actual connected vertices. No gap, curved side, right-angle marker, perspective, prism or lettering. The five-sided example and vertex/edge distinction remain clear at120 on bright white with restrained red/blue, matching current science profile and first example. This illustrates one polygon example; no equal-side/equal-angle or universal five-side claim, human mathematics approval pending.",
+          "reviewerId": "/root"
+        }
+      }
     }
   ]
 }

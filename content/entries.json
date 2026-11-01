@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-62",
+  "releaseId": "2026-10-preview-63",
   "channel": "preview",
-  "createdAt": "2026-11-01T12:57:56.984Z",
+  "createdAt": "2026-11-01T13:39:10.860Z",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -88884,6 +88884,63 @@
         "attribution": "Mehrdadika contributors — CC BY 4.0",
         "aiAssisted": true,
         "modifications": "Original learner definitions, meaningful English/Persian examples and collocations, editorial UK/US IPA and approximate CEFR, complete Brazilian Portuguese and Latin American Spanish scaffolding. Original basic mathematics editorial authorship; no copied dictionary wording or artwork. AI-assisted editorial preview; independent human language and qualified mathematics review pending."
+      }
+    },
+    {
+      "id": "polygon",
+      "w": "polygon",
+      "uk": "/ˈpɒl.ɪ.ɡən/",
+      "us": "/ˈpɑː.lɪ.ɡɑːn/",
+      "cefr": "B2",
+      "topic": "natural-sciences-mathematics",
+      "domainIds": [
+        "natural-sciences-mathematics"
+      ],
+      "senses": [
+        {
+          "id": "polygon:meaning-1",
+          "pos": "n.",
+          "fa": "چندضلعی؛ شکلی مسطح و بسته با سه یا چند ضلعِ مستقیم",
+          "en": "A closed flat shape with three or more straight sides.",
+          "domainIds": [
+            "natural-sciences-mathematics"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The polygon on the page has five straight sides.",
+          "fa": "چندضلعیِ روی صفحه پنج ضلعِ مستقیم دارد.",
+          "senseId": "polygon:meaning-1"
+        },
+        {
+          "en": "A triangle is a polygon, but a circle is not.",
+          "fa": "مثلث یک چندضلعی است، اما دایره چندضلعی نیست.",
+          "senseId": "polygon:meaning-1"
+        }
+      ],
+      "col": [
+        "regular polygon｜چندضلعیِ منتظم",
+        "irregular polygon｜چندضلعیِ نامنتظم",
+        "draw a polygon｜چندضلعی کشیدن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "در regular polygon (چندضلعیِ منتظم)، همهٔ ضلع‌ها با هم برابرند و همهٔ زاویه‌های داخلی نیز با هم برابرند؛ چندضلعیِ نامنتظم دست‌کم یکی از این دو شرط را ندارد. دایره با مرزِ خمیده و خطِ شکستهٔ باز چندضلعی نیستند. اینجا polygon شکلی دوبعدی است، نه جسمی سه‌بعدی. تصویر فقط یک نمونهٔ پنج‌ضلعی را نشان می‌دهد؛ چندضلعی‌ها می‌توانند تعدادِ ضلع‌های متفاوتی داشته باشند.",
+      "media": {
+        "img": "atlas/img/polygon.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original learner definition, meaningful English/Persian examples and collocations, editorial UK/US IPA and approximate CEFR, complete Brazilian Portuguese and Latin American Spanish scaffolding. Original elementary geometry editorial authorship; no copied dictionary wording or artwork. AI-assisted editorial preview; independent human language and qualified mathematics review pending."
       }
     }
   ]
