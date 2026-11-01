@@ -16,7 +16,7 @@
     }
   ],
   "currentCategoryId": "transport-vehicles",
-  "nextCategoryId": "transport-vehicles",
+  "nextCategoryId": "computing-technology",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -6056,9 +6056,81 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "transport-vehicles",
+      "visualLanguageId": "transport-vehicles",
+      "baselineCategoryWords": 32,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "train",
+        "airport",
+        "railway-station",
+        "bus-station",
+        "platform",
+        "runway",
+        "driver",
+        "passenger",
+        "pedestrian",
+        "cyclist",
+        "pilot",
+        "commuter",
+        "road",
+        "street",
+        "highway",
+        "intersection",
+        "roundabout",
+        "crosswalk"
+      ],
+      "units": [
+        {
+          "id": "transport-stations-airports",
+          "title": "Trains, stations and airports",
+          "entryIds": [
+            "train",
+            "airport",
+            "railway-station",
+            "bus-station",
+            "platform",
+            "runway"
+          ]
+        },
+        {
+          "id": "transport-people",
+          "title": "People using transport",
+          "entryIds": [
+            "driver",
+            "passenger",
+            "pedestrian",
+            "cyclist",
+            "pilot",
+            "commuter"
+          ]
+        },
+        {
+          "id": "transport-roads-crossings",
+          "title": "Roads and crossings",
+          "entryIds": [
+            "road",
+            "street",
+            "highway",
+            "intersection",
+            "roundabout",
+            "crosswalk"
+          ]
+        }
+      ],
+      "id": "transport-vehicles-category-expansion-batch-50-ready-1",
+      "releaseId": "2026-10-preview-57",
+      "status": "published-preview",
+      "objective": "Learn Trains, stations and airports; People using transport; Roads and crossings in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-49-ready-1",
+  "activePassId": "category-expansion-batch-50-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",

@@ -66581,6 +66581,960 @@
           "reviewerId": "parent49-transit-independent-reviewer"
         }
       }
+    },
+    {
+      "entryId": "train",
+      "sourceWord": "train",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "train:meaning-1",
+          "pos": "n.",
+          "en": "A railway vehicle or connected set of railway vehicles that carries people or goods."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The train carried passengers from the coast to the capital.",
+          "senseId": "train:meaning-1"
+        },
+        {
+          "en": "We watched a long freight train pass through the station.",
+          "senseId": "train:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/train.webp",
+        "sha256": "fc5aa67fd3d3ed2fcd143f97f2011fbf727e8ad17fffd9dedfabe26b3c29faa0"
+      },
+      "visual": {
+        "expectedCue": "One complete short passenger TRAIN of THREE physically CONNECTED units: one compact powered cab/engine unit at the front and TWO passenger carriages behind it, all fully visible in slightly elevated near-broadside catalog perspective. Adjacent vehicle ends joined by visible actual coupling links or bellows, not isolated separate vehicles. Wheelsets sit ON the same TWO continuous steel rails on sleepers. Coherent shared track and perspective, repeated passenger windows. Pale gray bodies with safety-orange accents and graphite structure. No branding, text, numbers, steam, extra cab units, floating wheels or irrelevant scenery. Whole connected train is the focus, not only its locomotive.",
+        "decision": "added",
+        "reason": "Actually viewed cached full1254 original,512 WebP and120 PNG separately. Three passenger units visibly connected by two bellows, repeated windows and supported wheelsets on continuous two-rail track. Whole consist fits frame, tight right margin but tail remains visible; tiny blank nose emblem has no readable brand/text. Crisp graphite/gray/orange transport style. At120 connected train remains recognizable; hidden motor mechanics unqualified. AI editorial preview, no human inspection.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed cached full1254 original,512 WebP and120 PNG separately. Three passenger units visibly connected by two bellows, repeated windows and supported wheelsets on continuous two-rail track. Whole consist fits frame, tight right margin but tail remains visible; tiny blank nose emblem has no readable brand/text. Crisp graphite/gray/orange transport style. At120 connected train remains recognizable; hidden motor mechanics unqualified. AI editorial preview, no human inspection."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:52:56.499Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "fc5aa67fd3d3ed2fcd143f97f2011fbf727e8ad17fffd9dedfabe26b3c29faa0",
+          "inspectedAt": "2026-11-01T02:53:32.657Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual current1254PNG,512WebP and120PNG against selected railway vehicle/connected consist meaning and current transport brief. Three passenger units connect through two continuous bellows, each has windows/doors and supported bogie wheels resting along the same two continuous rails/sleepers. Whole consist is visible, with tight right tail margin but no isolated carriage or locomotive-only cue. Orange cab/door/stripe accents, pale body and graphite outlines/hatching fit crisp catalog style. Connected train remains recognizable120 despite broad pale top/bottom margin; fine wheels/coupling details need larger view. Tiny blank nose oval is not recognized as branding, no readable text. Actual power systems, rail engineering and passenger safety unqualified; distinct AI-only second, human review pending.",
+          "reviewerId": "/root/parent50_roads"
+        }
+      }
+    },
+    {
+      "entryId": "airport",
+      "sourceWord": "airport",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "airport:meaning-1",
+          "pos": "n.",
+          "en": "A place with runways and other facilities where aircraft take off and land and passengers or cargo arrive and leave."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The airport has two runways and a passenger terminal.",
+          "senseId": "airport:meaning-1"
+        },
+        {
+          "en": "A bus took us from the city center to the airport.",
+          "senseId": "airport:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/airport.webp",
+        "sha256": "3221474d86780791bf124b30a83259b14a8b4171981d17655121bc37551ef8e4"
+      },
+      "visual": {
+        "expectedCue": "A restrained slightly elevated catalog study of a SMALL FICTIONAL AIRPORT as one connected site: ONE broad passenger terminal with glazing, ONE short control tower, a simple paved apron beside terminal with ONE parked small passenger airplane, and TWO long parallel prepared runway strips extending away into open ground. Public access road stays on terminal landside, not across runway. Big firmly attached terminal facade heading exactly AIRPORT, A I R P O R T, comfortably character-readable120. No other letters/numbers/brands, map legend, jetbridge connection, people or flight instructions. Terminal/plane/apron/runway relation establishes whole airport facility; pale gray graphite contours with orange terminal roof accents. No exact surveyed layout or safety-clearance claim.",
+        "decision": "added",
+        "reason": "Actually viewed1254 original,512WebP,120PNG: one connected airport site includes broad glazed terminal, attached short tower, side apron with parked coherent fixed-wing airplane and two prepared runway strips beyond. Public curved access road remains front/landside left of terminal and does not cross either runway; aircraft supported on side apron. Whole facilities relation distinguishes airport from only terminal or runway. Facade letters individually read A I R P O R T, exactly AIRPORT, in actual120 as well as original/card, with no other letters/numbers. Crisp graphite/slate forms, pale gray ground and orange roofs/tail match transport profile. Fictional illustrative geometry, no operational/surveyed-clearance claim. AI-only review; independent human/domain review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed1254 original,512WebP,120PNG: one connected airport site includes broad glazed terminal, attached short tower, side apron with parked coherent fixed-wing airplane and two prepared runway strips beyond. Public curved access road remains front/landside left of terminal and does not cross either runway; aircraft supported on side apron. Whole facilities relation distinguishes airport from only terminal or runway. Facade letters individually read A I R P O R T, exactly AIRPORT, in actual120 as well as original/card, with no other letters/numbers. Crisp graphite/slate forms, pale gray ground and orange roofs/tail match transport profile. Fictional illustrative geometry, no operational/surveyed-clearance claim. AI-only review; independent human/domain review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:54:00.816Z",
+        "reviewerId": "ai-parent50-people-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3221474d86780791bf124b30a83259b14a8b4171981d17655121bc37551ef8e4",
+          "inspectedAt": "2026-11-01T02:54:40.663Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual current1254PNG,512WebP and120PNG against selected whole airport facility meaning and transport brief. Glazed passenger terminal, tower, apron with supported twin-wing aircraft and two long parallel runway strips form a readable connected site; public curved access road remains landside/front-left rather than crossing runways. Aircraft wing/tail/fuselage and visible landing gear connect coherently in illustrative perspective. Facade reads exactly AIRPORT, all seven A I R P O R T letters identifiable at actual120; this attached facility sign is essential context, with no other readable labels/brands. Pale-gray/slate graphite/hatching and safety-orange roofs/tail fit crisp catalog style, muted landscape secondary. Runways have simplified markings, not surveyed/operational clearance or aviation safety evidence. Whole airport rather than only plane/runway is clear120. Distinct AI second accepted; human/domain review pending.",
+          "reviewerId": "/root/parent50_roads"
+        }
+      }
+    },
+    {
+      "entryId": "railway-station",
+      "sourceWord": "railway station",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "railway-station:meaning-1",
+          "pos": "n.",
+          "en": "A place where trains stop so that passengers can get on or off."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The railway station has a ticket office and three platforms.",
+          "senseId": "railway-station:meaning-1"
+        },
+        {
+          "en": "They walked from the hotel to the railway station to catch their train.",
+          "senseId": "railway-station:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/railway-station.webp",
+        "sha256": "8b4a46ad3214e8d9af36330fde7bd6e720910ede6125a456fd5b156b451d13dd"
+      },
+      "visual": {
+        "expectedCue": "One small RAILWAY STATION as a coherent facility in slightly elevated three-quarter catalog view: a large waiting/ticket hall front building with a broad attached heading exactly STATION, S T A T I O N, readable120; beside it a connected roofed raised passenger platform; one short generic passenger train stands on TWO rails adjacent to that platform, wheelsets aligned on rails. Building entrance faces public walkway, platform is on its rail side. Only two small plainly grounded waiting people, no hand detail focus. Pale gray/slate architecture and orange roof/train accents. No other wording, timetable digits, logos, decorative text or invented overhead structures. Whole station facility is focal, not only the train or a solitary platform.",
+        "decision": "added",
+        "reason": "Actually viewed cached1254 original,512 WebP and120 PNG individually. Coherent hall entrance and connected roofed raised platform alongside a train supported on two rails; two grounded waiting people with coherent visible limbs. Attached STATION has exactly seven correct letters and remains readable120. Whole facility dominates, train rear intentionally cropped as context; no timetable/brand/technical readings. Gray graphite/orange catalog language clear. Hidden wheel/contact details and station compliance unqualified; AI preview only.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed cached1254 original,512 WebP and120 PNG individually. Coherent hall entrance and connected roofed raised platform alongside a train supported on two rails; two grounded waiting people with coherent visible limbs. Attached STATION has exactly seven correct letters and remains readable120. Whole facility dominates, train rear intentionally cropped as context; no timetable/brand/technical readings. Gray graphite/orange catalog language clear. Hidden wheel/contact details and station compliance unqualified; AI preview only."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:54:11.102Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "8b4a46ad3214e8d9af36330fde7bd6e720910ede6125a456fd5b156b451d13dd",
+          "inspectedAt": "2026-11-01T02:55:15.977Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual current1254PNG,512WebP and120PNG against selected train-stop/passenger facility meaning and current transport brief. Front hall with public entrance connects to a roofed raised platform along rail side, with two grounded waiting people and one train supported along the same two continuous rails/sleepers. Benches/canopy posts attach to platform, edge height and train-side adjacency are coherent; near/far wheel contacts are partly occluded by car body and not individually qualified. Whole station facility dominates rather than isolated train or platform. Attached facade text reads exactly STATION, S T A T I O N, identifiable at120; no other readable labels/logos. Train rear crops as context without hiding station meaning. Graphite edges, cool pale architecture and orange roofs/train fit crisp transport catalog brief. No operational clearance/accessibility/engineering safety claim. Distinct AI second accepted; human/domain review pending.",
+          "reviewerId": "/root/parent50_roads"
+        }
+      }
+    },
+    {
+      "entryId": "bus-station",
+      "sourceWord": "bus station",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "bus-station:meaning-1",
+          "pos": "n.",
+          "en": "A place with several bays where buses on different services pick up and drop off passengers."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bus station has separate bays for several routes.",
+          "senseId": "bus-station:meaning-1"
+        },
+        {
+          "en": "We changed buses at the bus station near the market.",
+          "senseId": "bus-station:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bus-station.webp",
+        "sha256": "15cc2e1033c990fff0de33e6b82a72a901cbd426b5f81db8fc092aadfa6607f3"
+      },
+      "visual": {
+        "expectedCue": "One compact BUS STATION facility, slightly elevated three-quarter catalog view. Large waiting building behind THREE clearly separate paved bus bays; broad supported canopy and walkways connect building to bays. TWO generic road buses stand at separate bays with wheels on road; third bay empty, no rails. Large firmly attached facade sign exactly BUS STATION, B U S space S T A T I O N, bold dark letters comfortably readable120. Only essential building/bays/buses context, no people, other wording, timetable digits, brand marks or floating roof. Pale gray architecture, graphite contours and safety-orange canopy/bus accents. Clearly a multi-service terminal rather than a lone curbside bus-stop shelter.",
+        "decision": "added",
+        "reason": "Actually viewed full cached1254 original,512 WebP,120 PNG. Two complete buses on grounded paved bays and third empty bay, raised passenger islands and supported canopy connect to large waiting building. Visible tires supported and windows/cab coherent; no rails. Attached BUS STATION exactly ten letters and one space, readable120. Multiple-service facility readily distinguishes bus stop. Graphite texture/gray/orange matches profile; empty destination displays unlettered. Hidden contacts, circulation rules and accessibility unqualified; AI editorial preview.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed full cached1254 original,512 WebP,120 PNG. Two complete buses on grounded paved bays and third empty bay, raised passenger islands and supported canopy connect to large waiting building. Visible tires supported and windows/cab coherent; no rails. Attached BUS STATION exactly ten letters and one space, readable120. Multiple-service facility readily distinguishes bus stop. Graphite texture/gray/orange matches profile; empty destination displays unlettered. Hidden contacts, circulation rules and accessibility unqualified; AI editorial preview."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:56:06.435Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "15cc2e1033c990fff0de33e6b82a72a901cbd426b5f81db8fc092aadfa6607f3",
+          "inspectedAt": "2026-11-01T02:56:50.349Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual current1254PNG,512WebP and120PNG against selected several-bay bus passenger facility meaning and transport brief. Two complete road buses occupy separate paved bays, third bay empty; raised passenger islands connect to terminal-side walkway and canopy has grounded posts outside vehicle paths. Visible bus tires meet pavement, cabin/window/body relations coherent, no rails. Whole waiting hall and multiple bays distinguish bus station from a solitary bus stop at120. Facade reads exact BUS STATION, ten correct letters plus one word space, identifiable in actual120; blank destination panels contain no invented route text. Crisp graphite/slate/pale surfaces with orange buses/roof trim fit catalog brief. Hidden tire contacts, circulation maneuvers, accessibility and legal/engineering safety are not qualified. Distinct AI second accepted, human review pending.",
+          "reviewerId": "/root/parent50_roads"
+        }
+      }
+    },
+    {
+      "entryId": "platform",
+      "sourceWord": "platform",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "platform:meaning-1",
+          "pos": "n.",
+          "en": "A raised area beside a railway track where passengers wait for trains and get on or off them."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The platform was crowded with people waiting for the train.",
+          "senseId": "platform:meaning-1"
+        },
+        {
+          "en": "She stepped from the train onto the platform.",
+          "senseId": "platform:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/platform.webp",
+        "sha256": "346aca713600add244f62cf2e87790c8cc475210e5247f11888a9a7212feb170"
+      },
+      "visual": {
+        "expectedCue": "Focus a RAISED RAILWAY PLATFORM as a long broad solid passenger standing surface dominating foreground. Its vertical edge drops to a lower track bed; one generic passenger train stands beside it, attached wheels ON TWO rails below, door facing the platform. Two waiting passengers fully supported on platform, with coherent arms/legs but no crowd or boarding gap action. Keep building context minimal and cropped so the platform itself is the teaching focus, not whole station. No lettering, logos, numbers, arrows or safety-instruction symbols. Slate/gray graphite contours, restrained orange edge accents, clear physical platform-versus-track height relation at120. No precise clearance or code-compliance claim.",
+        "decision": "added",
+        "reason": "Actually viewed cached1254 original,512 WebP and120 PNG individually after new built-in reference edit. Long raised passenger surface and vertical wall dominate foreground, lower two-rail bed coherent, connected train beside platform with side doors; two waiting people fully grounded, visible limbs coherent. Station facade/sign removed; no letters or fake readings. Supported canopy/benches context, graphite gray/orange language matches. Platform-versus-track height relation clear120. Illustrative edge strip is not qualified tactile standard, clearances/accessibility/hidden wheel contacts unestablished. Fresh derivative separately inspected, no approval transfer/human claim.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed cached1254 original,512 WebP and120 PNG individually after new built-in reference edit. Long raised passenger surface and vertical wall dominate foreground, lower two-rail bed coherent, connected train beside platform with side doors; two waiting people fully grounded, visible limbs coherent. Station facade/sign removed; no letters or fake readings. Supported canopy/benches context, graphite gray/orange language matches. Platform-versus-track height relation clear120. Illustrative edge strip is not qualified tactile standard, clearances/accessibility/hidden wheel contacts unestablished. Fresh derivative separately inspected, no approval transfer/human claim."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:58:26.356Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "346aca713600add244f62cf2e87790c8cc475210e5247f11888a9a7212feb170",
+          "inspectedAt": "2026-11-01T02:59:25.235Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Fresh independent actual-pixel review of current derivative1254PNG,512WebP and120PNG against selected raised railway passenger standing area meaning and transport brief; station-template reviews not transferred. Broad solid paved platform dominates foreground and drops through clear vertical wall to lower rail bed; two continuous rails follow train-side platform edge with supported train alongside. Two waiting people stand fully on platform, benches/canopy posts attach coherently. Train doors face platform; fine wheel contacts partly occluded and not individually qualified. Whole station facade/sign removed, no readable letters/logos remain. Platform-versus-track height and waiting surface remain unmistakable120. Graphite contours/slate/cool-gray paving with orange roof/train/edge accents fit catalog brief. Edge texture is illustrative, not certified tactile design; no clearance/accessibility/operational safety claim. Fresh distinct AI second accepted; human/domain review pending.",
+          "reviewerId": "/root/parent50_roads"
+        }
+      }
+    },
+    {
+      "entryId": "runway",
+      "sourceWord": "runway",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "runway:meaning-1",
+          "pos": "n.",
+          "en": "A prepared strip of ground at an airport where aircraft take off and land."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The runway was clear before the plane landed.",
+          "senseId": "runway:meaning-1"
+        },
+        {
+          "en": "The plane accelerated along the runway and lifted into the air.",
+          "senseId": "runway:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/runway.webp",
+        "sha256": "c514ad9e4db21b751dc99ade499fc96f54391ae3d9f46e25dc65a99a3c746933"
+      },
+      "visual": {
+        "expectedCue": "Focus ONE long prepared airport RUNWAY, broad paved strip dominating foreground and receding into distance with simple white dashed centerline. ONE small generic passenger airplane aligned lengthwise near far end, just lifting clear of runway in a coherent fixed-wing attitude; attached wings/tail and engines, no vehicle on a crossing path. Terminal/control tower only tiny distant side context so airport runway meaning is clear. No fashion-model stage, walking path, road intersection, decorative text, numbers, official identifiers, exact lighting scheme or operating instructions. Crisp graphite/slate/gray paved surface and restrained safety-orange airplane accent. Qualitative takeoff-strip example, not surveyed geometry or aircraft performance.",
+        "decision": "added",
+        "reason": "Actually viewed NEW derivative1254 original,512WebP,120PNG after inspected NEW50 airport template. One broad prepared strip dominates foreground and recedes with coherent edges, threshold bars and dashed centerline; fixed-wing passenger airplane is airborne above far strip with attached wings/tail/twin engines and extended gear. Aircraft is shown from a slightly angled rear view rather than exact surveyed heading; selected takeoff-strip cue remains clear at120. Familiar terminal/tower tiny at side; no public road, second runway or AIRPORT heading inherited. No letters/numbers/brands or operating data visible. Crisp graphite/slate paving, pale sky/ground and orange tail retain category style and template relationship while composition/meaning are distinct. Qualitative runway example, not aircraft performance/operational-clearance evidence. Fresh AI-only author review; human/domain review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed NEW derivative1254 original,512WebP,120PNG after inspected NEW50 airport template. One broad prepared strip dominates foreground and recedes with coherent edges, threshold bars and dashed centerline; fixed-wing passenger airplane is airborne above far strip with attached wings/tail/twin engines and extended gear. Aircraft is shown from a slightly angled rear view rather than exact surveyed heading; selected takeoff-strip cue remains clear at120. Familiar terminal/tower tiny at side; no public road, second runway or AIRPORT heading inherited. No letters/numbers/brands or operating data visible. Crisp graphite/slate paving, pale sky/ground and orange tail retain category style and template relationship while composition/meaning are distinct. Qualitative runway example, not aircraft performance/operational-clearance evidence. Fresh AI-only author review; human/domain review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:56:19.332Z",
+        "reviewerId": "ai-parent50-people-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c514ad9e4db21b751dc99ade499fc96f54391ae3d9f46e25dc65a99a3c746933",
+          "inspectedAt": "2026-11-01T02:57:25.237Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Fresh independent actual-pixel review of current derivative1254PNG,512WebP and120PNG against selected prepared airport takeoff/landing strip meaning and transport brief; no airport-template approval transferred. One broad continuous slate strip dominates foreground, with consistent receding edges, threshold bars and dashed centerline. Small airborne aircraft above far end plus tiny terminal/tower establishes airport context; no second runway/public road/large AIRPORT heading remains. Aircraft wings/tail/engines attach coherently, visible extended gear is not touching runway, with a quarter-rear angled nose-up depiction; exact centerline heading, shallow-climb angle and real aircraft performance are not established. The image teaches a runway unambiguously120 without depending on those operational claims. Graphite/hatching, pale cool surroundings and orange tail fit catalog brief. No letters/numbers/identifiers identified. Fresh distinct AI second accepted for qualitative runway cue only; human/domain review pending.",
+          "reviewerId": "/root/parent50_roads"
+        }
+      }
+    },
+    {
+      "entryId": "driver",
+      "sourceWord": "driver",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "driver:meaning-1",
+          "pos": "n.",
+          "en": "A person who controls and drives a vehicle."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The driver stopped the bus beside the station.",
+          "senseId": "driver:meaning-1"
+        },
+        {
+          "en": "She thanked the driver before getting out of the taxi.",
+          "senseId": "driver:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/driver.webp",
+        "sha256": "dbdc847940730287cd11f1a0bb404dfb7c5e3b5151db15170f4e3a3e947c91fa"
+      },
+      "visual": {
+        "expectedCue": "Person seated at the steering wheel of a road vehicle, visibly controlling it with both hands; person is the focus.",
+        "decision": "added",
+        "reason": "Viewed genuine original1254, final512WebP and120PNG: orange-shirted adult seated in the driving position, both attached hands gripping the same steering wheel in front of torso with coherent dashboard/column, forward gaze and routed seat belt. Crisp graphite car-cabin contours with safety-orange clothing retain clear person-at-wheel driver cue at120; no text/logo or role ambiguity. AI-only review; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Viewed genuine original1254, final512WebP and120PNG: orange-shirted adult seated in the driving position, both attached hands gripping the same steering wheel in front of torso with coherent dashboard/column, forward gaze and routed seat belt. Crisp graphite car-cabin contours with safety-orange clothing retain clear person-at-wheel driver cue at120; no text/logo or role ambiguity. AI-only review; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:38:33.058Z",
+        "reviewerId": "ai-parent50-people-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "dbdc847940730287cd11f1a0bb404dfb7c5e3b5151db15170f4e3a3e947c91fa",
+          "inspectedAt": "2026-11-01T02:47:31.207Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual current1254PNG,512WebP and120PNG against selected person-driving sense and transport brief. Orange-shirted seated adult faces forward; both connected arms end in visibly gripping hands on one steering wheel, joined to dashboard/column ahead of the body. Seat/cabin/shoulder belt remain coherent; the person-at-controls cue clearly differs from passenger at120. Graphite car contours, cool-gray cabin and orange top with drawn shaded forms fit crisp transport catalog illustration. No readable instrument labels, logo or invented readings identified. Pedals are outside crop, vehicle motion/road legality and actual driving competence cannot be inferred. Distinct AI second inspection only, human review pending.",
+          "reviewerId": "/root/parent50_roads"
+        }
+      }
+    },
+    {
+      "entryId": "passenger",
+      "sourceWord": "passenger",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "passenger:meaning-1",
+          "pos": "n.",
+          "en": "A person who travels in a vehicle without driving it or working as part of its crew."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The passenger put her bag under the train seat.",
+          "senseId": "passenger:meaning-1"
+        },
+        {
+          "en": "Each passenger showed a ticket before boarding the coach.",
+          "senseId": "passenger:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/passenger.webp",
+        "sha256": "6f6a4aab151f17b9e2589504f38cbf91bee114cfa2e3c7fbf64d3190bf63dab3"
+      },
+      "visual": {
+        "expectedCue": "A person travelling seated in the back of a vehicle, hands in lap and no contact with driving controls.",
+        "decision": "added",
+        "reason": "Viewed genuine1254 original, final512WebP and120PNG. Orange-shirted person sits belted on a rear car bench behind the visible front-seat back; both coherent hands rest on closed bag in lap, feet supported on floor, no driving controls. Passing view through rear door window supports travel; rear bench and front-seat back distinguish passenger from driver at120. Crisp graphite contours/orange accent coherent with transport brief. AI-only inspection; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Viewed genuine1254 original, final512WebP and120PNG. Orange-shirted person sits belted on a rear car bench behind the visible front-seat back; both coherent hands rest on closed bag in lap, feet supported on floor, no driving controls. Passing view through rear door window supports travel; rear bench and front-seat back distinguish passenger from driver at120. Crisp graphite contours/orange accent coherent with transport brief. AI-only inspection; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:39:22.725Z",
+        "reviewerId": "ai-parent50-people-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "6f6a4aab151f17b9e2589504f38cbf91bee114cfa2e3c7fbf64d3190bf63dab3",
+          "inspectedAt": "2026-11-01T02:47:49.696Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual current1254PNG,512WebP and120PNG against selected passenger sense and transport brief. Person rests on unmistakable rear bench behind a visible front seat back, with two hands resting on a closed lap bag and two shoes on floor. Shoulder/lap belt connects to visible buckle area; no steering or driving controls appear. Blurred outside road supports travel context without changing role; seated non-driver reads120. Drawn graphite contours, cool gray interior and orange top fit catalog brief. Image establishes a particular passenger role, without proving vehicle movement, ticket, crew employment status or safety compliance. Distinct AI-only second; human review pending.",
+          "reviewerId": "/root/parent50_roads"
+        }
+      }
+    },
+    {
+      "entryId": "pedestrian",
+      "sourceWord": "pedestrian",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "pedestrian:meaning-1",
+          "pos": "n.",
+          "en": "A person walking, especially along a street or across a road."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A pedestrian crossed the road after the cars stopped.",
+          "senseId": "pedestrian:meaning-1"
+        },
+        {
+          "en": "The new bridge gives pedestrians a route over the railway.",
+          "senseId": "pedestrian:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pedestrian.webp",
+        "sha256": "cd79b1683d1e41e618e376a41af7ae0de654a34c9c1055d8023a8af54b7ee5dc"
+      },
+      "visual": {
+        "expectedCue": "One person walking on foot across a clearly visible road crossing, distinct from vehicle users.",
+        "decision": "added",
+        "reason": "Viewed genuine1254 original, final512WebP and120PNG: one orange-jacketed walking person dominates, coherent opposing arm/leg stride and attached hands/feet over broad crosswalk stripes, curb establishes street crossing. No bicycle or vehicle user role; person walking on foot remains clear at120. Crisp graphite outlines, pale-gray ground and safety-orange accent match transport brief. AI-only review, human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Viewed genuine1254 original, final512WebP and120PNG: one orange-jacketed walking person dominates, coherent opposing arm/leg stride and attached hands/feet over broad crosswalk stripes, curb establishes street crossing. No bicycle or vehicle user role; person walking on foot remains clear at120. Crisp graphite outlines, pale-gray ground and safety-orange accent match transport brief. AI-only review, human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:40:09.315Z",
+        "reviewerId": "ai-parent50-people-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "cd79b1683d1e41e618e376a41af7ae0de654a34c9c1055d8023a8af54b7ee5dc",
+          "inspectedAt": "2026-11-01T02:48:25.807Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual current1254PNG,512WebP and120PNG against selected person-walking road sense and current transport brief. Large orange-jacket adult walks across road stripes beside a visible curb; two connected legs form a plausible heel-to-toe stride, rear forefoot and forward heel meet the road, and opposite arm swing has no extra limb. Walking person dominates120 and differs from cyclist/vehicle users. Crisp graphite outlines, pale-gray ground, slate road and orange jacket match illustrated catalog style. No text/logo or mandatory crossing-right rule appears. Particular crossing example does not establish legal priority, safe behavior or anatomical qualification; AI-only second, human review pending.",
+          "reviewerId": "/root/parent50_roads"
+        }
+      }
+    },
+    {
+      "entryId": "cyclist",
+      "sourceWord": "cyclist",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "cyclist:meaning-1",
+          "pos": "n.",
+          "en": "A person who rides a bicycle."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cyclist slowed down before the sharp bend.",
+          "senseId": "cyclist:meaning-1"
+        },
+        {
+          "en": "Several cyclists rode along the path beside the river.",
+          "senseId": "cyclist:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cyclist.webp",
+        "sha256": "1a40af7c67b0f51385eedef7e3e7b77dd46453cc99fdb9af801b0b2ddfb934ae"
+      },
+      "visual": {
+        "expectedCue": "Riding person on connected bicycle with both supported shoes on exactly opposing horizontal three/nine-oclock pedals from one axle, hands gripping bars and hips on saddle.",
+        "decision": "added",
+        "reason": "Actual1254 original,512WebP,120PNG viewed for final attempt3. Two coherent legs now reach shoes resting on two visible pedal surfaces at the same height, one forward and one rearward of a shared crank axle with horizontally opposite arms. Taut chain loop links chainring/rear sprocket; frame, fork, two hubs/wheels and common ground line connected. Hips on saddle and hands on bars; orange rider remains clear at120. Prior failed foot-contact/crank candidates remain in history. Graphite/pale-gray/orange transport style fits; AI-only review with independent human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actual1254 original,512WebP,120PNG viewed for final attempt3. Two coherent legs now reach shoes resting on two visible pedal surfaces at the same height, one forward and one rearward of a shared crank axle with horizontally opposite arms. Taut chain loop links chainring/rear sprocket; frame, fork, two hubs/wheels and common ground line connected. Hips on saddle and hands on bars; orange rider remains clear at120. Prior failed foot-contact/crank candidates remain in history. Graphite/pale-gray/orange transport style fits; AI-only review with independent human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:44:11.718Z",
+        "reviewerId": "ai-parent50-people-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "1a40af7c67b0f51385eedef7e3e7b77dd46453cc99fdb9af801b0b2ddfb934ae",
+          "inspectedAt": "2026-11-01T02:48:55.447Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual final-attempt3 current1254PNG,512WebP and120PNG, inspecting mechanics rather than inheriting author acceptance. Each shoe sole now visibly rests on its own rectangular pedal; near crank extends right and far crank extends left from the same bottom-bracket/chainring axle on an essentially horizontal three/nine-oclock line, with no elevated extra pedal. Far crank appears shorter through perspective, not a separate displaced axle. Closed taut chain loop traces front ring to rear sprocket; chainstays/seatstays, fork and two wheel hubs form connected bicycle frame, both tires rest on common ground. Rider hips meet saddle, hands grip bar region and two coherent legs reach the supported shoes. Orange rider dominates120; slate bicycle/graphite outlines/cool ground fit transport brief. Small spokes/fasteners and hidden far-hand surfaces remain occluded, not qualified as engineering/safety approval. Two prior rejected candidates stay in history; this is one actual distinct AI second for current attempt3 only, human review pending.",
+          "reviewerId": "/root/parent50_roads"
+        }
+      }
+    },
+    {
+      "entryId": "pilot",
+      "sourceWord": "pilot",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "pilot:meaning-1",
+          "pos": "n.",
+          "en": "A person who operates and controls an aircraft."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The pilot landed the plane at a small airport.",
+          "senseId": "pilot:meaning-1"
+        },
+        {
+          "en": "The pilot checked the controls before takeoff.",
+          "senseId": "pilot:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/pilot.webp",
+        "sha256": "89cb287bd0c35d58c47bd74e77d2dfefa115cf21938098aeec43826d2f5134a0"
+      },
+      "visual": {
+        "expectedCue": "Drawn graphite/orange pilot actively gripping attached aircraft yoke in cockpit; role clear at120, smooth simplified unnumbered instrument faces with no fabricated readings.",
+        "decision": "added",
+        "reason": "Actual1254 original,512WebP,120PNG viewed for attempt2. Clearly drawn graphite contours/clean shaded planes replace photographic skin/knit texture; orange sweater, pale cockpit and slate yoke fit transport brief. Two naturally attached hands grip the two handles of a common U-shaped yoke connected to panel by a column; headset, forward horizon and wing establish aircraft operation at120. Dial housings have smooth unnumbered faces with no letters/numbers/calibrated readings; one simple blue/brown horizon shape is illustrative rather than asserted flight data. No labels/logos. Original failed photo/readings candidate retained. AI-only inspection; human/domain review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actual1254 original,512WebP,120PNG viewed for attempt2. Clearly drawn graphite contours/clean shaded planes replace photographic skin/knit texture; orange sweater, pale cockpit and slate yoke fit transport brief. Two naturally attached hands grip the two handles of a common U-shaped yoke connected to panel by a column; headset, forward horizon and wing establish aircraft operation at120. Dial housings have smooth unnumbered faces with no letters/numbers/calibrated readings; one simple blue/brown horizon shape is illustrative rather than asserted flight data. No labels/logos. Original failed photo/readings candidate retained. AI-only inspection; human/domain review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:47:11.611Z",
+        "reviewerId": "ai-parent50-people-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "89cb287bd0c35d58c47bd74e77d2dfefa115cf21938098aeec43826d2f5134a0",
+          "inspectedAt": "2026-11-01T02:49:36.995Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual current attempt2 1254PNG,512WebP and120PNG against selected aircraft-operator sense and transport brief. Orange-sweater pilot grips two connected yoke handles with coherent attached hands/arms; common yoke/column runs into panel. Headset, airplane wing and outside elevated horizon distinguish aircraft cockpit from driver at120. Current surfaces have clear drawn graphite contours and simplified shaded planes, not photographic pores/knit. Panel has four circular housings rather than requested three; they have no letters/numbers/calibrated values. One unnumbered blue/brown horizon shape is a simplified context cue, not validated flight data, and another housing has a simple horizontal graphic. Count/graphic variance does not alter selected role; no named aircraft/instrument accuracy or aviation safety approval claimed. Prior rejected photo/readings candidate is not approved by this receipt. Current crisp orange/slate/pale illustration accepted, human/domain review pending.",
+          "reviewerId": "/root/parent50_roads"
+        }
+      }
+    },
+    {
+      "entryId": "commuter",
+      "sourceWord": "commuter",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "commuter:meaning-1",
+          "pos": "n.",
+          "en": "A person who regularly travels between home and work."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The commuter takes the same train to work every weekday.",
+          "senseId": "commuter:meaning-1"
+        },
+        {
+          "en": "Many commuters return home by bus after work.",
+          "senseId": "commuter:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/commuter.webp",
+        "sha256": "967b9c479a2e869b65fc8b52f8e8546deca38a85ffc21c31de363aac93098cc4"
+      },
+      "visual": {
+        "expectedCue": "The SAME person repeats a home-to-work journey on two weekdays, with consistent home, office, person and route; readable MON/TUE sequence.",
+        "decision": "added",
+        "reason": "Actually viewed original1254,final512WebP,120PNG. Two stacked panels repeat SAME dark-haired orange-jacketed briefcase carrier walking the same sloped-roof house-to-flat-roof office route; matching clothes/bag, endpoints, path and right-facing arrows establish repeated work journey. Essential uppercase labels read exactly MON and TUE at original/card/actual120; no other letters. Coherent walking legs/arms, briefcase handle hand contact and shoe-ground support. Person is central and remains clear at120, beyond idle portrait or one-time traveller. Crisp graphite outlines/pale gray/orange fit transport brief. AI-only review; human language/domain review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed original1254,final512WebP,120PNG. Two stacked panels repeat SAME dark-haired orange-jacketed briefcase carrier walking the same sloped-roof house-to-flat-roof office route; matching clothes/bag, endpoints, path and right-facing arrows establish repeated work journey. Essential uppercase labels read exactly MON and TUE at original/card/actual120; no other letters. Coherent walking legs/arms, briefcase handle hand contact and shoe-ground support. Person is central and remains clear at120, beyond idle portrait or one-time traveller. Crisp graphite outlines/pale gray/orange fit transport brief. AI-only review; human language/domain review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:48:04.451Z",
+        "reviewerId": "ai-parent50-people-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "967b9c479a2e869b65fc8b52f8e8546deca38a85ffc21c31de363aac93098cc4",
+          "inspectedAt": "2026-11-01T02:49:57.577Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual current1254PNG,512WebP and120PNG against selected regular home/work traveler sense and transport brief. Two panels visibly repeat the same dark-haired orange-jacket briefcase carrier, same sloped-roof house and same flat-roof office, with matching rightward route arrow. Labels read exactly MON and TUE at actual120 as well as larger sizes; these essential day cues establish repetition rather than a one-time traveler. Person has coherent walking limbs, planted heel/forefoot and hand grasping briefcase handle. Repeated person/route/home/work distinction remains readable120. Crisp graphite outlines/slate trousers/pale-gray ground/orange jacket and arrow match brief; muted grass/blue windows are secondary. Office function is conventional contextual inference from building/briefcase, not a labeled employer or verified schedule. No extra text/logo identified; AI-only second, human language review pending.",
+          "reviewerId": "/root/parent50_roads"
+        }
+      }
+    },
+    {
+      "entryId": "road",
+      "sourceWord": "road",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "road:meaning-1",
+          "pos": "n.",
+          "en": "A route with a prepared surface for vehicles to travel along."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The road follows the river to the next village.",
+          "senseId": "road:meaning-1"
+        },
+        {
+          "en": "Heavy rain left water on the road.",
+          "senseId": "road:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/road.webp",
+        "sha256": "db0ffc33d6a2554b80578aa41ce02d395e2f0125ab509079d093c9bae440a719"
+      },
+      "visual": {
+        "expectedCue": "A prepared route for vehicles; general road, shown in a rural example rather than a city street or large divided highway.",
+        "decision": "added",
+        "reason": "Actually viewed current1254PNG original with original-detail mode, final512WebP and separate120PNG. Continuous rural prepared roadway has coherent edges, receding dashed center line and one orange car resting within its lane; no joined crossing or buildings confuse it with intersection/street. Broad slate paving is readable at120; crisp graphite contours/crosshatching, pale cool sky and orange car follow transport brief, with muted field colors providing rural context. No readable decorative text or recognized brand identified. A particular two-lane paved example does not imply all roads share this shape/marking; hidden vehicle internals and traffic-law compliance are not assessed. AI-only preview; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed current1254PNG original with original-detail mode, final512WebP and separate120PNG. Continuous rural prepared roadway has coherent edges, receding dashed center line and one orange car resting within its lane; no joined crossing or buildings confuse it with intersection/street. Broad slate paving is readable at120; crisp graphite contours/crosshatching, pale cool sky and orange car follow transport brief, with muted field colors providing rural context. No readable decorative text or recognized brand identified. A particular two-lane paved example does not imply all roads share this shape/marking; hidden vehicle internals and traffic-law compliance are not assessed. AI-only preview; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:39:30.753Z",
+        "reviewerId": "/root/parent50_roads",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "db0ffc33d6a2554b80578aa41ce02d395e2f0125ab509079d093c9bae440a719",
+          "inspectedAt": "2026-11-01T02:40:09.321Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original, final512WebP and120PNG: continuous prepared paved road occupies most of frame with coherent two edges and dashed center line curving through rural fields; orange car fully supported within lane. No urban building-lined street, crossing junction or divided multi-lane highway cue. Road remains unambiguous at120; graphite/slate treatment, pale ground and orange accent fit transport profile. No legible decorative text or logo. AI-only second review; human review pending.",
+          "reviewerId": "ai-parent50-people-independent-second"
+        }
+      }
+    },
+    {
+      "entryId": "street",
+      "sourceWord": "street",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "street:meaning-1",
+          "pos": "n.",
+          "en": "A road in a town or city, usually with buildings along its sides."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The street has small shops on both sides.",
+          "senseId": "street:meaning-1"
+        },
+        {
+          "en": "They live on a quiet street near the library.",
+          "senseId": "street:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/street.webp",
+        "sha256": "5d997cec1695d158f914ee632431d77b919f9ace24bd920da57c13245355256d"
+      },
+      "visual": {
+        "expectedCue": "An urban road visibly lined with buildings and sidewalks, distinct from the rural road picture.",
+        "decision": "added",
+        "reason": "Actually viewed exact1254PNG original separately at original detail, final512WebP and120PNG. Continuous town roadway is visibly framed by low-rise buildings and raised paved sidewalks on both sides; this urban enclosure clearly distinguishes street from the rural road. Orange parked car has connected body/windows/wheels at curbside; its curbside tires are on the raised sidewalk while road-side tires rest on paving, so the scene is not evidence of legal/safe parking. Main street cue remains clear120, with graphite outlines/slate road/cool pale sky and orange facades/car in crisp catalog style. No readable labels or recognized branding identified. No universal lane/parking rule or hidden mechanics is claimed; independent human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed exact1254PNG original separately at original detail, final512WebP and120PNG. Continuous town roadway is visibly framed by low-rise buildings and raised paved sidewalks on both sides; this urban enclosure clearly distinguishes street from the rural road. Orange parked car has connected body/windows/wheels at curbside; its curbside tires are on the raised sidewalk while road-side tires rest on paving, so the scene is not evidence of legal/safe parking. Main street cue remains clear120, with graphite outlines/slate road/cool pale sky and orange facades/car in crisp catalog style. No readable labels or recognized branding identified. No universal lane/parking rule or hidden mechanics is claimed; independent human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:40:33.385Z",
+        "reviewerId": "/root/parent50_roads",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "5d997cec1695d158f914ee632431d77b919f9ace24bd920da57c13245355256d",
+          "inspectedAt": "2026-11-01T02:41:24.754Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original,512WebP,120PNG. A continuous urban road is flanked by coherent raised sidewalks and close rows of building entrances/windows, clearly establishing street rather than rural road or highway at120. Graphite/slate contours and restrained orange buildings/car match transport profile. Orange parked car straddles curb with near tires on roadway and far tires on raised sidewalk; visibly supported parked example, not a claim of permitted parking or traffic guidance. No labels/logos. AI-only second review; human review pending.",
+          "reviewerId": "ai-parent50-people-independent-second"
+        }
+      }
+    },
+    {
+      "entryId": "highway",
+      "sourceWord": "highway",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "highway:meaning-1",
+          "pos": "n.",
+          "en": "A main road used for travel between towns or over long distances."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The highway connects the two coastal cities.",
+          "senseId": "highway:meaning-1"
+        },
+        {
+          "en": "We left the highway and followed a smaller road to the lake.",
+          "senseId": "highway:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/highway.webp",
+        "sha256": "4c76f93e9ee1dfc88ae607ed5540cf2f5ff4b2d7086518679b10c08e336f2a41"
+      },
+      "visual": {
+        "expectedCue": "A broad main road continuing between places, drawn as a particular divided multi-lane example; no legal or universal-access claim.",
+        "decision": "added",
+        "reason": "Actually viewed exact1254PNG original with explicit original image-render detail, final512WebP and120PNG. A broad connected main route continues through countryside with distant settlements; two separated two-lane carriageways and continuous median are clearly readable120. Opposing carriageways carry vehicles facing opposite directions; visible tires meet road, with no disconnected ramps, road layering or crossing conflict. Crisp slate paving/graphite contours/hatching, cool sky and orange vehicle accents fit current transport catalog brief, with subdued landscape secondary. This is a particular divided highway example; it makes no universal controlled-access, speed-limit, lane-count or legal claim. No readable labels/recognized brand identified; hidden vehicle mechanics and road design qualification not established. AI-only preview, human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed exact1254PNG original with explicit original image-render detail, final512WebP and120PNG. A broad connected main route continues through countryside with distant settlements; two separated two-lane carriageways and continuous median are clearly readable120. Opposing carriageways carry vehicles facing opposite directions; visible tires meet road, with no disconnected ramps, road layering or crossing conflict. Crisp slate paving/graphite contours/hatching, cool sky and orange vehicle accents fit current transport catalog brief, with subdued landscape secondary. This is a particular divided highway example; it makes no universal controlled-access, speed-limit, lane-count or legal claim. No readable labels/recognized brand identified; hidden vehicle mechanics and road design qualification not established. AI-only preview, human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:41:52.375Z",
+        "reviewerId": "/root/parent50_roads",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4c76f93e9ee1dfc88ae607ed5540cf2f5ff4b2d7086518679b10c08e336f2a41",
+          "inspectedAt": "2026-11-01T02:42:54.026Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original,512WebP,120PNG: two continuous broad carriageways separated by a coherent planted/guardrail median extend between distant settlements; cars on left face away and cars on right face toward viewer, all supported within paved lanes. Distinct main intercity route remains legible at120, not urban street or junction. Crisp graphite/slate forms with restrained orange cars fit transport medium. This is a divided-highway example with no universal highway access/speed/geometry assertion. No labels or readable branding. AI-only review, human review pending.",
+          "reviewerId": "ai-parent50-people-independent-second"
+        }
+      }
+    },
+    {
+      "entryId": "intersection",
+      "sourceWord": "intersection",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "intersection:meaning-1",
+          "pos": "n.",
+          "en": "A place where two or more roads meet or cross at the same level."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The intersection is where the two streets meet.",
+          "senseId": "intersection:meaning-1"
+        },
+        {
+          "en": "She turned left at the next intersection.",
+          "senseId": "intersection:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/intersection.webp",
+        "sha256": "bf430587e76021345243cf076eb18067b2289704074b2e27d8552fafd6162c2c"
+      },
+      "visual": {
+        "expectedCue": "Two roads actually join in one continuous same-level four-way junction, not an overpass.",
+        "decision": "added",
+        "reason": "Actually viewed exact1254PNG original separately at original detail, final512WebP and120PNG. Two perpendicular roads join into one continuous central paved crossing at the same level; four curved curb corners terminate outside that crossing, with no bridge, overlapping deck or disconnected approach. Dashed center lines stop before the joined center. Orange car sits on one approach away from the central crossing; vehicle orientation is a particular left-side travel example without asserting a jurisdiction or legal rule. Plus-shaped connected junction remains clear120. Slate road, cool pale pavement/buildings, graphite edges and orange vehicle form the requested crisp catalog style. No labels or recognized branding identified. Construction/safe traffic flow and hidden vehicle mechanisms unqualified; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed exact1254PNG original separately at original detail, final512WebP and120PNG. Two perpendicular roads join into one continuous central paved crossing at the same level; four curved curb corners terminate outside that crossing, with no bridge, overlapping deck or disconnected approach. Dashed center lines stop before the joined center. Orange car sits on one approach away from the central crossing; vehicle orientation is a particular left-side travel example without asserting a jurisdiction or legal rule. Plus-shaped connected junction remains clear120. Slate road, cool pale pavement/buildings, graphite edges and orange vehicle form the requested crisp catalog style. No labels or recognized branding identified. Construction/safe traffic flow and hidden vehicle mechanisms unqualified; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:42:46.188Z",
+        "reviewerId": "/root/parent50_roads",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "bf430587e76021345243cf076eb18067b2289704074b2e27d8552fafd6162c2c",
+          "inspectedAt": "2026-11-01T02:44:11.724Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently viewed actual1254 original,512WebP,120PNG: two roads meet in one continuous open plus-shaped paved center, with no bridge, tunnel or separation of levels. Four coherent sidewalk corners frame the same-level junction; approach center marks stop outside center and orange car rests on approach pavement. Clear intersection geometry remains visible at120, distinct from roundabout or overpass. Crisp slate/graphite with pale sidewalk and orange accent match profile. No labels/logos. AI-only review; human review pending.",
+          "reviewerId": "ai-parent50-people-independent-second"
+        }
+      }
+    },
+    {
+      "entryId": "roundabout",
+      "sourceWord": "roundabout",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "roundabout:meaning-1",
+          "pos": "n.",
+          "en": "A road junction where vehicles move in one direction around a central island to reach an exit."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The roundabout has a planted island in the middle.",
+          "senseId": "roundabout:meaning-1"
+        },
+        {
+          "en": "We went around the roundabout and took the exit toward the hospital.",
+          "senseId": "roundabout:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/roundabout.webp",
+        "sha256": "40482a4f1af55de55038e8dce72a7ab116bca96dd3a3e854f9f9212465943c68"
+      },
+      "visual": {
+        "expectedCue": "A circular single-direction roadway connects four approach roads around a clearly raised central island; three consistent arrows indicate one illustrative direction.",
+        "decision": "added",
+        "reason": "Actually viewed current1254PNG original separately at original render detail, final512WebP and separate120PNG. Continuous circular slate carriageway connects four approach roads around a raised planted central island; the island cannot be mistaken for road through the center. Three orange tangent arrows all circulate clockwise: top toward right, right downward and lower-left toward upper-left, with no opposing/radial arrow. Continuous outer white ring is painted road marking across the paved mouths, not a physical barrier; curb geometry stays outside entry mouths. Connections and one-way circulation remain readable120. Graphite texture/contours, pale cool ground and orange accents fit transport catalog style. Clockwise is one illustrative direction and asserts no universal direction/priority law or safe design qualification. No text/logos identified; human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed current1254PNG original separately at original render detail, final512WebP and separate120PNG. Continuous circular slate carriageway connects four approach roads around a raised planted central island; the island cannot be mistaken for road through the center. Three orange tangent arrows all circulate clockwise: top toward right, right downward and lower-left toward upper-left, with no opposing/radial arrow. Continuous outer white ring is painted road marking across the paved mouths, not a physical barrier; curb geometry stays outside entry mouths. Connections and one-way circulation remain readable120. Graphite texture/contours, pale cool ground and orange accents fit transport catalog style. Clockwise is one illustrative direction and asserts no universal direction/priority law or safe design qualification. No text/logos identified; human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:43:40.946Z",
+        "reviewerId": "/root/parent50_roads",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "40482a4f1af55de55038e8dce72a7ab116bca96dd3a3e854f9f9212465943c68",
+          "inspectedAt": "2026-11-01T02:45:36.235Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual1254 original,512WebP,120PNG independently viewed: continuous circular roadway around raised planted central island, four approach mouths connect to outer ring and outer white curve is paint rather than an impassable curb. Exactly3 curved orange arrows all tangent clockwise; ring/central island remain clear at120. One illustrative circulation direction, no universal traffic-rule claim. Crisp graphite/slate/pale ground and orange arrows fit profile; no text. AI-only review; human review pending.",
+          "reviewerId": "ai-parent50-people-independent-second"
+        }
+      }
+    },
+    {
+      "entryId": "crosswalk",
+      "sourceWord": "crosswalk",
+      "categoryId": "transport-vehicles",
+      "meanings": [
+        {
+          "senseId": "crosswalk:meaning-1",
+          "pos": "n.",
+          "en": "A marked place across a road where pedestrians can cross from one side to the other."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The crosswalk links the sidewalks on opposite sides of the street.",
+          "senseId": "crosswalk:meaning-1"
+        },
+        {
+          "en": "They walked across the road on the crosswalk.",
+          "senseId": "crosswalk:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/crosswalk.webp",
+        "sha256": "e9d57a35544ef5575efd87094f6a5d961f2652c28ed5c095ea7b60ba004b9ac9"
+      },
+      "visual": {
+        "expectedCue": "A wide marked pedestrian crossing spans the roadway continuously from one curb/sidewalk to the opposite curb/sidewalk.",
+        "decision": "added",
+        "reason": "Actually viewed exact1254PNG original separately at original detail, final512WebP and120PNG. A group of broad white zebra stripes demarcates a pedestrian path across the entire slate roadway between two opposed sidewalk curb ramps. One orange-jacket pedestrian walks across within the stripe band, with coherent two-leg body and a planted foot meeting road; no vehicle overlaps the crossing. Road traffic direction is left-right while pedestrian route runs curb-to-curb. Output stripes run across the pedestrian walking direction rather than the prompt requested bar orientation; selected marked-crossing meaning remains correct and readable120, with no dependency on a universal marking pattern. Crisp graphite edges, cool pale sidewalk and orange jacket match transport brief. No text/logo or mandatory-priority rule is asserted; accessibility dimensions/safety unqualified. Human review pending.",
+        "languageId": "transport-vehicles",
+        "languageSha256": "9e43dcc0f68b09e880189d779fbe02dbbe38c2525c77390656d49ba0035b4e61",
+        "styleInspection": "Actually viewed exact1254PNG original separately at original detail, final512WebP and120PNG. A group of broad white zebra stripes demarcates a pedestrian path across the entire slate roadway between two opposed sidewalk curb ramps. One orange-jacket pedestrian walks across within the stripe band, with coherent two-leg body and a planted foot meeting road; no vehicle overlaps the crossing. Road traffic direction is left-right while pedestrian route runs curb-to-curb. Output stripes run across the pedestrian walking direction rather than the prompt requested bar orientation; selected marked-crossing meaning remains correct and readable120, with no dependency on a universal marking pattern. Crisp graphite edges, cool pale sidewalk and orange jacket match transport brief. No text/logo or mandatory-priority rule is asserted; accessibility dimensions/safety unqualified. Human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-01T02:44:49.340Z",
+        "reviewerId": "/root/parent50_roads",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "e9d57a35544ef5575efd87094f6a5d961f2652c28ed5c095ea7b60ba004b9ac9",
+          "inspectedAt": "2026-11-01T02:45:36.241Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual1254 original,512WebP,120PNG independently viewed: broad white marked band spans road between matching opposing sidewalk curb ramps. Orange pedestrian walks toward far sidewalk, coherent attached limbs with supporting foot on roadway. Crossing/place is dominant at120, distinct from person-focused pedestrian card. White bars run across pedestrian path rather than longitudinal prompt wording; actual marked-crossing meaning remains correct. Crisp graphite/slate/pale surfaces and orange jacket fit transport profile, no labels or legal priority claim. AI-only review; human review pending.",
+          "reviewerId": "ai-parent50-people-independent-second"
+        }
+      }
     }
   ]
 }

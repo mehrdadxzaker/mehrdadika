@@ -24,7 +24,7 @@ Later cooking passes still need drinks, cuisines and dishes, dining, food storag
 
 ## Expansion queue
 
-Medicine and healthcare and engineering retain their deployed 500-entry count milestones. Whole-collection image audits and independent human language and specialist review remain incomplete; neither collection is declared finished or qualified. Everyday life, home, gardening and DIY, people and relationships, and travel retain 50 each. The [latest 24-entry batch](category-expansion-49-ready-1.md) takes transport and vehicles from eight to 32, with 18 remaining toward its first count target of 50. Transport remains next in the configured queue. Later category milestones remain 150 and 400. Exact-source CI, Pages and live verification remain pending at commit and are recorded separately in the batch notes.
+Medicine and healthcare and engineering retain their deployed 500-entry count milestones. Whole-collection image audits and independent human language and specialist review remain incomplete; neither collection is declared finished or qualified. Everyday life, home, gardening and DIY, people and relationships, and travel retain 50 each. The [latest 18-entry batch](category-expansion-50-ready-1.md) takes transport and vehicles from 32 to 50, reaching its first count target. Computing and technology is next in the configured queue; no next parent has been selected. Later category milestones remain 150 and 400. Tests and representative local browser checks passed; exact-source CI, Pages and live verification remain pending at commit and are recorded separately in the batch notes.
 
 1. Cooking, food and drink
 2. Medicine and healthcare

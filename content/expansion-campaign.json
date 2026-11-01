@@ -12162,6 +12162,372 @@
           "use": "Original selected common-language sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA/approximate CEFR, AI-assisted CC BY 4.0 preview with independent human review pending. No external dictionary or artwork copied."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-50-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-57",
+      "sourceFiles": [
+        "stations-and-airports.json",
+        "transport-people.json",
+        "roads-and-crossings.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-56",
+        "manifest": "content/releases/2026-10-preview-56-49aa0a8ce6a4/manifest.json",
+        "manifestSha256": "49aa0a8ce6a437bf8ee0c3b286abede7f2f7fd7b9c495f3b883eb74ff0b99c96",
+        "words": 1347
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "train",
+            "lexicalBinding": "f2b0816ed1c66e0457e35070a16545780dd366c0d5d1bce640f7a0a750045e28",
+            "sourceImageSha256": "f63e7bc2aa90c872eb4d6ae1029d6c2368902a5fc55d857549a0871319c1a4f4",
+            "cardSha256": "fc5aa67fd3d3ed2fcd143f97f2011fbf727e8ad17fffd9dedfabe26b3c29faa0",
+            "thumbnailSha256": "51e2c3a8346763efdd7d00dd2a629b9df23c7885cb90e2468a0dc8f7d8c4a7b4",
+            "authorPixelBinding": "cc5f97d51355971defdab6e5686acba91c243843a711f3e8da19d5bf1777acf2",
+            "secondPixelBinding": "46a94f28279a00dfa08e567de041473d136d4643968fc4d48c7be5f2de44a139"
+          },
+          {
+            "entryId": "airport",
+            "lexicalBinding": "fc98191a94f1f2ae83544c2bd56093be71f9ec9e63045866646ead10c5c8330f",
+            "sourceImageSha256": "107e03381e90edb13b4f81f300ab5b4b82894cd95e5850864504d2177e338728",
+            "cardSha256": "3221474d86780791bf124b30a83259b14a8b4171981d17655121bc37551ef8e4",
+            "thumbnailSha256": "bcd1f40d9ccfdf4874972ce3224d835da18736800e127ffdf8883c457abd9b70",
+            "authorPixelBinding": "4e5c4937aef1676be3d17f59329373cbabfb2ba285b48b6a201eef1c82e542b8",
+            "secondPixelBinding": "ab6360cda0e640c5a1d44a75be50bcbdd2c5325f02b86ddf77ca55840c5c0c71"
+          },
+          {
+            "entryId": "railway-station",
+            "lexicalBinding": "4aeddc6599f240e1f3fff1b898c3610e150ae50d7c9ca53129f680931820f467",
+            "sourceImageSha256": "ed7246424fdc608e84a186addb013ddde41477e288e37102441fcf1df202b2b0",
+            "cardSha256": "8b4a46ad3214e8d9af36330fde7bd6e720910ede6125a456fd5b156b451d13dd",
+            "thumbnailSha256": "16c85ad88244af7f0b351673a2135e9cae178a60de0d6f3cfefc02caa622eb8c",
+            "authorPixelBinding": "881ccd7fc65467a9249cd062ba4b1c9f92771b6290cea011f5fc5f5cb8e61ae9",
+            "secondPixelBinding": "7daadba84fa421742fe88ee68643a3e932f1f4f3e2972650c7b52fe58c960ad4"
+          },
+          {
+            "entryId": "bus-station",
+            "lexicalBinding": "2a336b48c14206b6f0ff232853aba83f3fc9a78beb8b3672d42df6fec8d7adf8",
+            "sourceImageSha256": "1d3adfea0dc2665139de0980d1aa2a8f3db85bc079bfa787667a74c04bd05bc3",
+            "cardSha256": "15cc2e1033c990fff0de33e6b82a72a901cbd426b5f81db8fc092aadfa6607f3",
+            "thumbnailSha256": "e23229f7dc6d4fb1d0adc966031ad56199bc944c7230696a56cc0c23de9c9980",
+            "authorPixelBinding": "42cfb5515df90486d034b4367300eb75fdadab90804624dc63993a22f6f3d1aa",
+            "secondPixelBinding": "939c5a4afa80f7eddcb7597ef8e5bb6097a1c6b8583b1c0455f182e52db61e81"
+          },
+          {
+            "entryId": "platform",
+            "lexicalBinding": "db4b3a37e976c882d103790cfa4bdf853a9de0fb003d7e46a547b33db7d6460b",
+            "sourceImageSha256": "6963416e9a27b7c64b083744b587e157b8ab317329c2768f4f69d5bff29601aa",
+            "cardSha256": "346aca713600add244f62cf2e87790c8cc475210e5247f11888a9a7212feb170",
+            "thumbnailSha256": "73f1c57c68ff19646564153e4087d95d15751dc6e7887be66a34750c6a35fe8e",
+            "authorPixelBinding": "68b852819bb1a4a1a913172c97086f1eece825c75c93799ed0bbc890564b8743",
+            "secondPixelBinding": "c775f66d1502e9794b8e8038190d489f60c6d6f3b6f8e87c4f81b200f10b7b51"
+          },
+          {
+            "entryId": "runway",
+            "lexicalBinding": "b6faaf052bc767235a3874059ce157597faceb3c212cf312b52ce8f7458af54b",
+            "sourceImageSha256": "45f5c5a557d1b1f28eae1d6f0822639a7ba8481cdbe097512723713e4bd07017",
+            "cardSha256": "c514ad9e4db21b751dc99ade499fc96f54391ae3d9f46e25dc65a99a3c746933",
+            "thumbnailSha256": "b9b645b9a067bd4f2f82ef1745e614535bc98a8efc2988f359fe3c1be6d7bae9",
+            "authorPixelBinding": "b62466b8a83f733d1b495a87c1dd5e2d802f1a82db50e694cbe3bb54cddda774",
+            "secondPixelBinding": "10af38d3e344ee77455b72df130a7c332b859934f276ea92caaa2e967a1ac218"
+          },
+          {
+            "entryId": "driver",
+            "lexicalBinding": "af810d96dda8bdf55cd28be59d1562ed1f798c3066c266139b41c612fc9cb38a",
+            "sourceImageSha256": "93f7103e6a0a9c06b7f4128c698ab00b960214347e0aa8d0211f24acc06107cd",
+            "cardSha256": "dbdc847940730287cd11f1a0bb404dfb7c5e3b5151db15170f4e3a3e947c91fa",
+            "thumbnailSha256": "e39938d37da2eca98ffa7ddd58d019e87310ce437003cf2c50b083eca07f9c1d",
+            "authorPixelBinding": "6f9a69a424c6fe6b0a85f75af5c39190bfd60f359a97478bc200e2e1f9eefe45",
+            "secondPixelBinding": "61894a0d3257c4cbc0e94aeba3e5b6c3e1b80da3020b942bf6b206be35368134"
+          },
+          {
+            "entryId": "passenger",
+            "lexicalBinding": "7cc99efa70f155746b50bce2dd464252e57a8095b30a9d6859b96dc83d1ce377",
+            "sourceImageSha256": "77c629a6579dd9a86d309adb803b39d09798b0e9cfe12a0dd85288598049aa22",
+            "cardSha256": "6f6a4aab151f17b9e2589504f38cbf91bee114cfa2e3c7fbf64d3190bf63dab3",
+            "thumbnailSha256": "5ff07e8f83535f54b97e4bef4753d542872c3425463f7fec32e8ab589f07d43a",
+            "authorPixelBinding": "6f870b73d1ba87b71acfdb7d35b1a9f48ea42a2b7f5c0e5eee519fe77f5fff25",
+            "secondPixelBinding": "17ccac56fa58023f6db4e59e81e92205bbf70a91e2188652b576259be5f93ea4"
+          },
+          {
+            "entryId": "pedestrian",
+            "lexicalBinding": "93e3d51f913f95c8eb04593edbd37a5a363aeebd6722f742bf40d1aa96503c02",
+            "sourceImageSha256": "13dbdc76e5a2e1754fb3db5c6c097bf26ffdb735d109248b42cd38530148906a",
+            "cardSha256": "cd79b1683d1e41e618e376a41af7ae0de654a34c9c1055d8023a8af54b7ee5dc",
+            "thumbnailSha256": "bee41454d72dad283f46c21e51449dcce9a3f2306dcee2596db46afe873ec77a",
+            "authorPixelBinding": "bfd2c1d83a335e343800266278f912b505328e7c3449da0da31c17ba342e896b",
+            "secondPixelBinding": "0595a5b4fd7e79335736bc8c6941bd056c626d4b104982aa910bdf70e260bece"
+          },
+          {
+            "entryId": "cyclist",
+            "lexicalBinding": "141878d032edea42d1bdd5f958e14775941a7cbeb3bbc189bbe208809f7e4757",
+            "sourceImageSha256": "7252a80a41813759d0b330599dadde9762d02a92dea5b49db52f494ea19bccef",
+            "cardSha256": "1a40af7c67b0f51385eedef7e3e7b77dd46453cc99fdb9af801b0b2ddfb934ae",
+            "thumbnailSha256": "6b50be6ee6e4a8c6a84a0e58f6950c2906d69bc7ce414ac720f43c5ae92b5b71",
+            "authorPixelBinding": "61c915b8373e70c0fec50113aeb4d814033f61eb6d4345f069feb8e723ca0c63",
+            "secondPixelBinding": "73d1de5d190868e68e0995dab4627edbd5d93d51c5e1832b4bb5cb6e53aaedb2"
+          },
+          {
+            "entryId": "pilot",
+            "lexicalBinding": "20c6d1c6675185135f1883a898a5404a85904de4b0a5720178b9f184ac788c9d",
+            "sourceImageSha256": "ea62fbc6363b82eb87980222277288ffd74b0af56d44dd8659764d84e833d933",
+            "cardSha256": "89cb287bd0c35d58c47bd74e77d2dfefa115cf21938098aeec43826d2f5134a0",
+            "thumbnailSha256": "e203f3dd5491ecc73ef9cb2b14bb4d6562a0c9cb4198bd4b5584bf4a389add12",
+            "authorPixelBinding": "598cea5ae715b87c4c951b3eed96eda5f26a1c5ccc00fdf84c26b591a821e495",
+            "secondPixelBinding": "2390bea8baabb4c298f32b4b01bed9639e29e01aa30c33c44474b091dc21eb26"
+          },
+          {
+            "entryId": "commuter",
+            "lexicalBinding": "ec55bcfb7fdb213f40dbf59d711499496849881b22dc50b210de26724eb113d0",
+            "sourceImageSha256": "64e1a32bbc05b94e8a477cff30e12522dc12f84c5a5e866e9b84367b8bee54f3",
+            "cardSha256": "967b9c479a2e869b65fc8b52f8e8546deca38a85ffc21c31de363aac93098cc4",
+            "thumbnailSha256": "b5a98fa2b029f663a1719f32c10f9f2c5ddfdc7bb0c486f226c0bf03882d94cb",
+            "authorPixelBinding": "5cb7c3c1bdbb9bc3599ec9bee708c66b32323b2673d046d85543f88e59d860be",
+            "secondPixelBinding": "87c4d5eacfa24e59fdf95ff6b67e5c81d7cd58aab4cd3ee6d2684f7d09a36370"
+          },
+          {
+            "entryId": "road",
+            "lexicalBinding": "6306bfba4ad2a1eba5070598fafc37a5c54f4711eb7931e657c30d3503930681",
+            "sourceImageSha256": "2199228fcd83450f5689b18e1178c83c807da12e3e451e5154554c19cb848877",
+            "cardSha256": "db0ffc33d6a2554b80578aa41ce02d395e2f0125ab509079d093c9bae440a719",
+            "thumbnailSha256": "cdb8ad516021762c372142abef79edca282368701eff572656eddb9ea1c43ea8",
+            "authorPixelBinding": "705a6d9630f93ba83cbc9bb6846c777f9efbc01c87352882b2687fd58c64c9b7",
+            "secondPixelBinding": "94335060da0921b79e71441a45dd01cbd3a1714c80b7d07b8a1ec43f1eee5a44"
+          },
+          {
+            "entryId": "street",
+            "lexicalBinding": "112b45bf2178598977a5007b1754ca16891cdd2a1b2fd91d88abe2af2976627c",
+            "sourceImageSha256": "7e2fed44422182dadb68791e1c04fb84c63daed043c1657aef1b4aba18f87daf",
+            "cardSha256": "5d997cec1695d158f914ee632431d77b919f9ace24bd920da57c13245355256d",
+            "thumbnailSha256": "3a6f724ed2786548df092cbbf3b8247523b356b038e41677480b8c317b9715b9",
+            "authorPixelBinding": "24b3f5559f00b1e955a2f4f23fd67d4c3b12290159ad4ba0b1d100b33c3c7e53",
+            "secondPixelBinding": "f85e92367205647af22da87b31617a6726a69005e21ea785ce66340321fe3819"
+          },
+          {
+            "entryId": "highway",
+            "lexicalBinding": "20d68e16dec44e7b7d900cf46923fbf215dad2c44345e86c8cae0fe8a3b6661c",
+            "sourceImageSha256": "6bb4a82a239f323e106673b1722c09ab633ed594819febfcfed2b4d29f48a5a5",
+            "cardSha256": "4c76f93e9ee1dfc88ae607ed5540cf2f5ff4b2d7086518679b10c08e336f2a41",
+            "thumbnailSha256": "cfe5581796720dd26baf5d89145b8ecca1480346d167f607ed3da67c902d1ef2",
+            "authorPixelBinding": "f4a0192bd4b41e781ae4bc1e41f1b24665aef9036377ad79117100874cd90bd5",
+            "secondPixelBinding": "5342d84b77aa31ec0a2676f2f3f044474352adb43bcea5a2f9aa1710ff9d8d24"
+          },
+          {
+            "entryId": "intersection",
+            "lexicalBinding": "1266b60dd6548df14fca394e308f6a7cf25ab969cda3700f260c6dd6782d4b10",
+            "sourceImageSha256": "65b81da9407ff8f8842cfe0d3c046dc508a3af995d93cd53c6ff302f6f142db1",
+            "cardSha256": "bf430587e76021345243cf076eb18067b2289704074b2e27d8552fafd6162c2c",
+            "thumbnailSha256": "109c00bae7cc2b93e1d4b777eb680b2b40c908c4aa9db955a8434cbf82dbbc9d",
+            "authorPixelBinding": "6b588de0cb0e5dc0ec6973e6981ff2e9f0e96ad27e9cd47c4251ad80c7b8893c",
+            "secondPixelBinding": "cc70beb059b82d0fcbbdc4e5304487057b5fd0c90058166313ea03f3fe46fc3f"
+          },
+          {
+            "entryId": "roundabout",
+            "lexicalBinding": "e3bf3fd0d551eddcf45eec0c824bf7a1a2d6971b4712f4d32f471954947678f2",
+            "sourceImageSha256": "d07f9c9981d3b587e692940611bfc08c655125e362f1e39e2724a2728bf30408",
+            "cardSha256": "40482a4f1af55de55038e8dce72a7ab116bca96dd3a3e854f9f9212465943c68",
+            "thumbnailSha256": "eda80c8332f4ffde44dc1a72806ff4d4129399658ab7d61f959bf9b6d113a163",
+            "authorPixelBinding": "d5f95a3353bf60deb066aed80b30d4e43ed179196f2778ab808866e79661f8ce",
+            "secondPixelBinding": "149a5489d91f2bf9ca2462e3d25df42230a9dcb4fe2a2769f8ae320159e07aac"
+          },
+          {
+            "entryId": "crosswalk",
+            "lexicalBinding": "2843e07c8172028a2e29cd62ea8ce5648c32841343433f5f2351729910e1b01e",
+            "sourceImageSha256": "918636c8489b1c9dfe6453fa0f2247f5679c163a5d94c05f9d9ec68cd7f6652c",
+            "cardSha256": "e9d57a35544ef5575efd87094f6a5d961f2652c28ed5c095ea7b60ba004b9ac9",
+            "thumbnailSha256": "987ea3ee3ecffa6c136b03a584b9c63c8e49fb72828ec313e7cef4bdccd401fb",
+            "authorPixelBinding": "4f0f5dfd0f19d648e0d8f1c9ae676936c47dc102d720d1a9d9aaceeb12e2f891",
+            "secondPixelBinding": "362d3165d11b9c8678b39211f46084d4bbccac38aaefce5f817d7de2762d8c2b"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "transport-vehicles",
+          "visualLanguageId": "transport-vehicles",
+          "baselineCategoryWords": 32,
+          "targetCategoryWords": 50,
+          "entryIds": [
+            "train",
+            "airport",
+            "railway-station",
+            "bus-station",
+            "platform",
+            "runway",
+            "driver",
+            "passenger",
+            "pedestrian",
+            "cyclist",
+            "pilot",
+            "commuter",
+            "road",
+            "street",
+            "highway",
+            "intersection",
+            "roundabout",
+            "crosswalk"
+          ],
+          "units": [
+            {
+              "id": "transport-stations-airports",
+              "title": "Trains, stations and airports",
+              "entryIds": [
+                "train",
+                "airport",
+                "railway-station",
+                "bus-station",
+                "platform",
+                "runway"
+              ]
+            },
+            {
+              "id": "transport-people",
+              "title": "People using transport",
+              "entryIds": [
+                "driver",
+                "passenger",
+                "pedestrian",
+                "cyclist",
+                "pilot",
+                "commuter"
+              ]
+            },
+            {
+              "id": "transport-roads-crossings",
+              "title": "Roads and crossings",
+              "entryIds": [
+                "road",
+                "street",
+                "highway",
+                "intersection",
+                "roundabout",
+                "crosswalk"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "18 globallyabsent established transportheadwords, selected onlyafterparent49 fullylive/reconciled. Allocatedremaining18transport32→50 within24run cap; no nextparentselected. Original common-language selected senses/fullnativeoverlays/currenttransportbrief;16historicalmanualholdsuntouched.",
+      "parentBatchId": "category-expansion-batch-50",
+      "completedAt": "2026-11-01T03:01:34.171Z",
+      "factualReferences": [
+        {
+          "entryId": "train",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika rail, station and airport vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "airport",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika rail, station and airport vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "railway-station",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika rail, station and airport vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "bus-station",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika rail, station and airport vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "platform",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika rail, station and airport vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "runway",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika rail, station and airport vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "driver",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika transport-role vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "passenger",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika transport-role vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "pedestrian",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika transport-role vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "cyclist",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika transport-role vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "pilot",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika transport-role vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "commuter",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika transport-role vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "road",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika roads and crossings vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "street",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika roads and crossings vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "highway",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika roads and crossings vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "intersection",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika roads and crossings vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "roundabout",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika roads and crossings vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        },
+        {
+          "entryId": "crosswalk",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika roads and crossings vocabulary contribution",
+          "use": "Original common-language selected sense, ENFA examples/collocations/distinctions and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. Independent human review pending; no external wording or artwork copied."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,
