@@ -16,7 +16,7 @@
     }
   ],
   "currentCategoryId": "computing-technology",
-  "nextCategoryId": "computing-technology",
+  "nextCategoryId": "education-academic",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -6212,9 +6212,85 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "computing-technology",
+      "visualLanguageId": "computing-technology",
+      "baselineCategoryWords": 30,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "smartphone",
+        "headset",
+        "earbuds",
+        "microphone",
+        "speaker",
+        "touchpad",
+        "charger",
+        "folder",
+        "icon",
+        "cursor",
+        "hyperlink",
+        "search",
+        "copy",
+        "paste",
+        "solid-state-drive",
+        "graphics-card",
+        "server",
+        "application",
+        "software",
+        "backup"
+      ],
+      "units": [
+        {
+          "id": "computing-peripherals",
+          "title": "Portable computing and input/output accessories",
+          "entryIds": [
+            "smartphone",
+            "headset",
+            "earbuds",
+            "microphone",
+            "speaker",
+            "touchpad",
+            "charger"
+          ]
+        },
+        {
+          "id": "computing-interface-actions",
+          "title": "Everyday interface items and actions",
+          "entryIds": [
+            "folder",
+            "icon",
+            "cursor",
+            "hyperlink",
+            "search",
+            "copy",
+            "paste"
+          ]
+        },
+        {
+          "id": "computing-systems-storage",
+          "title": "Storage, graphics, network service and software",
+          "entryIds": [
+            "solid-state-drive",
+            "graphics-card",
+            "server",
+            "application",
+            "software",
+            "backup"
+          ]
+        }
+      ],
+      "id": "computing-technology-category-expansion-batch-52-ready-1",
+      "releaseId": "2026-10-preview-59",
+      "status": "published-preview",
+      "objective": "Learn Portable computing and input/output accessories; Everyday interface items and actions; Storage, graphics, network service and software in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-51-ready-1",
+  "activePassId": "category-expansion-batch-52-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",
