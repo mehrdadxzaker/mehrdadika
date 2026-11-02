@@ -13,9 +13,9 @@
     "modifications": "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-67",
-    "manifest": "content/releases/2026-10-preview-67-1eb82530e776/manifest.json",
-    "sha256": "1eb82530e7767f9f6be9a2763e6e24baa18c651f77de8321a62850d34b8b7ad8"
+    "id": "2026-10-preview-68",
+    "manifest": "content/releases/2026-10-preview-68-b98004080b1e/manifest.json",
+    "sha256": "b98004080b1e08333879e0b71913bf4d100759ee4e923fb522e48cfb02b27dd0"
   },
   "categories": {
     "everyday-life": {
@@ -53145,6 +53145,822 @@
         }
       ],
       "tip": "Stockroom é uma sala para guardar mercadorias, muitas vezes nos fundos de uma loja; showroom é um espaço de exposição aos clientes. Warehouse costuma ser um prédio ou espaço de armazenagem maior, embora o tamanho sozinho não estabeleça um limite absoluto."
+    },
+    "banknote": {
+      "sourceWord": "banknote",
+      "senses": {
+        "banknote:meaning-1": {
+          "gloss": "nota de dinheiro",
+          "definition": "Peça de dinheiro feita de papel ou polímero, com um valor indicado."
+        }
+      },
+      "examples": [
+        {
+          "en": "She put a ten-dollar banknote in her wallet.",
+          "translation": "Ela colocou uma nota de dez dólares na carteira."
+        },
+        {
+          "en": "The cashier gave me two notes and three coins as change.",
+          "translation": "O caixa me deu duas notas e três moedas de troco."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a ten-dollar banknote",
+          "translation": "uma nota de dez dólares"
+        },
+        {
+          "en": "a folded banknote",
+          "translation": "uma nota dobrada"
+        },
+        {
+          "en": "a polymer banknote",
+          "translation": "uma nota de polímero"
+        }
+      ],
+      "tip": "Banknote é uma nota; coin é uma moeda. No inglês americano, bill é comum para nota de dinheiro; no britânico, também se usa note. Algumas notas são feitas de polímero."
+    },
+    "cash": {
+      "sourceWord": "cash",
+      "senses": {
+        "cash:meaning-1": {
+          "gloss": "dinheiro em espécie",
+          "definition": "Dinheiro na forma física de notas e moedas."
+        }
+      },
+      "examples": [
+        {
+          "en": "I paid for the bread in cash.",
+          "translation": "Paguei o pão em dinheiro."
+        },
+        {
+          "en": "She counted the notes and coins in her purse.",
+          "translation": "Ela contou as notas e moedas na bolsa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "pay in cash",
+          "translation": "pagar em dinheiro"
+        },
+        {
+          "en": "carry cash",
+          "translation": "levar dinheiro em espécie"
+        },
+        {
+          "en": "withdraw cash",
+          "translation": "sacar dinheiro"
+        }
+      ],
+      "tip": "Neste sentido, cash são notas e moedas físicas; money também abrange dinheiro em conta. Cash normalmente é incontável: some cash, sem a. Para pagar com cartão, usa-se pay by card."
+    },
+    "bank": {
+      "sourceWord": "bank",
+      "senses": {
+        "bank:meaning-1": {
+          "gloss": "banco",
+          "definition": "Empresa financeira que mantém dinheiro em contas e oferece serviços como pagamentos e empréstimos."
+        }
+      },
+      "examples": [
+        {
+          "en": "Our bank has a branch near the station.",
+          "translation": "Nosso banco tem uma agência perto da estação."
+        },
+        {
+          "en": "I spoke to a member of staff about opening an account.",
+          "translation": "Conversei com uma funcionária sobre abrir uma conta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a bank branch",
+          "translation": "uma agência bancária"
+        },
+        {
+          "en": "a bank customer",
+          "translation": "um cliente do banco"
+        },
+        {
+          "en": "a bank loan",
+          "translation": "um empréstimo bancário"
+        }
+      ],
+      "tip": "Aqui, bank é uma instituição financeira. A bank também pode indicar o prédio ou uma agência; branch especifica uma agência. A margem de um rio é outro sentido de bank. Os serviços e as condições variam entre bancos."
+    },
+    "atm": {
+      "sourceWord": "ATM",
+      "senses": {
+        "atm:meaning-1": {
+          "gloss": "caixa eletrônico",
+          "definition": "Máquina que permite usar um cartão bancário ou outro método aceito para sacar dinheiro e realizar algumas operações bancárias."
+        }
+      },
+      "examples": [
+        {
+          "en": "I withdrew twenty dollars from the ATM.",
+          "translation": "Saquei vinte dólares no caixa eletrônico."
+        },
+        {
+          "en": "This machine is outside the bank entrance.",
+          "translation": "Esta máquina fica do lado de fora da entrada do banco."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "use an ATM",
+          "translation": "usar um caixa eletrônico"
+        },
+        {
+          "en": "an ATM withdrawal",
+          "translation": "um saque no caixa eletrônico"
+        },
+        {
+          "en": "find an ATM",
+          "translation": "encontrar um caixa eletrônico"
+        }
+      ],
+      "tip": "ATM significa automated teller machine e é pronunciado letra por letra. Usa-se an ATM. Cash machine também é comum. As funções variam: algumas máquinas só permitem saques, outras oferecem mais serviços."
+    },
+    "debit-card": {
+      "sourceWord": "debit card",
+      "senses": {
+        "debit-card:meaning-1": {
+          "gloss": "cartão de débito",
+          "definition": "Cartão de pagamento que retira dinheiro da conta bancária à qual está vinculado."
+        }
+      },
+      "examples": [
+        {
+          "en": "I used my debit card to pay ten dollars from my bank account.",
+          "translation": "Usei meu cartão de débito para pagar dez dólares da minha conta bancária."
+        },
+        {
+          "en": "The purchase appeared in her account activity.",
+          "translation": "A compra apareceu na movimentação da conta dela."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "pay by debit card",
+          "translation": "pagar com cartão de débito"
+        },
+        {
+          "en": "a debit card payment",
+          "translation": "um pagamento com cartão de débito"
+        },
+        {
+          "en": "a debit card number",
+          "translation": "um número de cartão de débito"
+        }
+      ],
+      "tip": "O debit card usa a conta bancária vinculada; o credit card usa crédito emprestado. A possibilidade de usar saldo negativo, as tarifas e o prazo de lançamento dependem da conta e do provedor. Débito não significa sempre ausência de dívida ou custo."
+    },
+    "credit-card": {
+      "sourceWord": "credit card",
+      "senses": {
+        "credit-card:meaning-1": {
+          "gloss": "cartão de crédito",
+          "definition": "Cartão de pagamento que permite ao titular tomar dinheiro emprestado para compras e devolvê-lo depois."
+        }
+      },
+      "examples": [
+        {
+          "en": "She used a credit card to buy a forty-dollar lamp.",
+          "translation": "Ela usou um cartão de crédito para comprar uma luminária de quarenta dólares."
+        },
+        {
+          "en": "The forty-dollar purchase is an amount she must repay.",
+          "translation": "Os quarenta dólares da compra são um valor que ela precisa devolver."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "pay by credit card",
+          "translation": "pagar com cartão de crédito"
+        },
+        {
+          "en": "a credit card bill",
+          "translation": "uma fatura de cartão de crédito"
+        },
+        {
+          "en": "a credit card limit",
+          "translation": "um limite de cartão de crédito"
+        }
+      ],
+      "tip": "O credit card permite pagar usando crédito emprestado; o debit card retira dinheiro da conta vinculada. A compra no crédito não é dinheiro grátis. Juros, tarifas e condições de pagamento dependem do contrato e das regras aplicáveis. Os exemplos não são recomendações financeiras."
+    },
+    "cheque": {
+      "sourceWord": "cheque",
+      "senses": {
+        "cheque:meaning-1": {
+          "gloss": "cheque",
+          "definition": "Instrução por escrito para um banco pagar uma quantia indicada, a partir de uma conta, a uma pessoa ou organização."
+        }
+      },
+      "examples": [
+        {
+          "en": "He wrote a cheque for fifty dollars to the repair shop.",
+          "translation": "Ele preencheu um cheque de cinquenta dólares para a oficina."
+        },
+        {
+          "en": "She checked the amount before signing the paper.",
+          "translation": "Ela conferiu o valor antes de assinar o papel."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "write a cheque",
+          "translation": "preencher um cheque"
+        },
+        {
+          "en": "pay by cheque",
+          "translation": "pagar com cheque"
+        },
+        {
+          "en": "deposit a cheque",
+          "translation": "depositar um cheque"
+        }
+      ],
+      "tip": "Cheque é a grafia britânica; no inglês americano, esse documento se escreve check. Cheque é uma ordem de pagamento; receipt registra o recebimento de dinheiro ou uma compra. A aceitação e a disponibilidade dos fundos não são necessariamente imediatas nem garantidas."
+    },
+    "payment": {
+      "sourceWord": "payment",
+      "senses": {
+        "payment:meaning-1": {
+          "gloss": "pagamento",
+          "definition": "Dinheiro entregue ou transferido para pagar algo ou quitar uma quantia devida."
+        }
+      },
+      "examples": [
+        {
+          "en": "The shop received my payment of fifteen dollars for the book.",
+          "translation": "A loja recebeu meu pagamento de quinze dólares pelo livro."
+        },
+        {
+          "en": "We paid the bill by bank transfer.",
+          "translation": "Pagamos a conta por transferência bancária."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "make a payment",
+          "translation": "fazer um pagamento"
+        },
+        {
+          "en": "receive a payment",
+          "translation": "receber um pagamento"
+        },
+        {
+          "en": "a monthly payment",
+          "translation": "um pagamento mensal"
+        }
+      ],
+      "tip": "Payment pode indicar o valor pago ou o ato de pagar; aqui foi escolhido o valor. Price é o preço atribuído ao produto ou serviço. Receipt é o comprovante, não o dinheiro. Para a ação, use make a payment ou pay."
+    },
+    "bank-account": {
+      "sourceWord": "bank account",
+      "senses": {
+        "bank-account:meaning-1": {
+          "gloss": "conta bancária",
+          "definition": "Acordo com um banco que registra o dinheiro depositado, retirado ou transferido."
+        }
+      },
+      "examples": [
+        {
+          "en": "My bank account shows a deposit of thirty dollars.",
+          "translation": "Minha conta bancária mostra um depósito de trinta dólares."
+        },
+        {
+          "en": "She checked her balance before making a payment.",
+          "translation": "Ela consultou o saldo antes de fazer um pagamento."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "open a bank account",
+          "translation": "abrir uma conta bancária"
+        },
+        {
+          "en": "close a bank account",
+          "translation": "encerrar uma conta bancária"
+        },
+        {
+          "en": "bank account details",
+          "translation": "dados da conta bancária"
+        }
+      ],
+      "tip": "Bank account é a conta; bank card é um cartão de acesso ou pagamento. Balance indica o saldo. As contas têm tipos e condições diferentes; a expressão não implica tarifas, rendimentos ou serviços específicos."
+    },
+    "deposit": {
+      "sourceWord": "deposit",
+      "senses": {
+        "deposit:meaning-1": {
+          "gloss": "depósito bancário",
+          "definition": "Dinheiro acrescentado a uma conta bancária."
+        }
+      },
+      "examples": [
+        {
+          "en": "A cash deposit of thirty dollars raised the account balance from fifty to eighty dollars.",
+          "translation": "Um depósito em dinheiro de trinta dólares elevou o saldo da conta de cinquenta para oitenta dólares."
+        },
+        {
+          "en": "The bank recorded the money she put into her account.",
+          "translation": "O banco registrou o dinheiro que ela colocou na conta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "make a deposit",
+          "translation": "fazer um depósito"
+        },
+        {
+          "en": "a cash deposit",
+          "translation": "um depósito em dinheiro"
+        },
+        {
+          "en": "a deposit into an account",
+          "translation": "um depósito em uma conta"
+        }
+      ],
+      "tip": "Aqui, deposit é dinheiro colocado em uma conta; withdrawal é dinheiro retirado. O sentido de sinal ou caução, como em um aluguel, não é o escolhido. Um depósito registrado não significa necessariamente disponibilidade imediata de todo o valor; os números do exemplo são simples e fictícios."
+    },
+    "withdrawal": {
+      "sourceWord": "withdrawal",
+      "senses": {
+        "withdrawal:meaning-1": {
+          "gloss": "saque",
+          "definition": "Dinheiro retirado de uma conta bancária."
+        }
+      },
+      "examples": [
+        {
+          "en": "A cash withdrawal of twenty dollars reduced the account balance from eighty to sixty dollars.",
+          "translation": "Um saque de vinte dólares reduziu o saldo da conta de oitenta para sessenta dólares."
+        },
+        {
+          "en": "She took the notes from the machine and put them in her wallet.",
+          "translation": "Ela pegou as notas da máquina e as guardou na carteira."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "make a withdrawal",
+          "translation": "fazer um saque"
+        },
+        {
+          "en": "a cash withdrawal",
+          "translation": "um saque em dinheiro"
+        },
+        {
+          "en": "a withdrawal from an account",
+          "translation": "um saque de uma conta"
+        }
+      ],
+      "tip": "Aqui, withdrawal é dinheiro retirado da conta; deposit é dinheiro acrescentado. O verbo relacionado é withdraw. Os sentidos de desistência e abstinência não são os escolhidos. Os números do exemplo são fictícios e não indicam tarifas ou limites reais."
+    },
+    "refund": {
+      "sourceWord": "refund",
+      "senses": {
+        "refund:meaning-1": {
+          "gloss": "reembolso",
+          "definition": "Dinheiro devolvido a quem o pagou antes, por exemplo após o cancelamento de uma compra ou a devolução de um produto."
+        }
+      },
+      "examples": [
+        {
+          "en": "The shop gave me a ten-dollar refund for the returned mug.",
+          "translation": "A loja me deu um reembolso de dez dólares pela caneca devolvida."
+        },
+        {
+          "en": "The money went back to the card used for the purchase.",
+          "translation": "O dinheiro voltou para o cartão usado na compra."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "ask for a refund",
+          "translation": "pedir um reembolso"
+        },
+        {
+          "en": "receive a refund",
+          "translation": "receber um reembolso"
+        },
+        {
+          "en": "a full refund",
+          "translation": "um reembolso integral"
+        }
+      ],
+      "tip": "Aqui, refund é substantivo, com a primeira sílaba tônica; o verbo costuma ter a segunda sílaba tônica. Refund devolve um pagamento anterior; change é o troco no momento de pagar. Possibilidade, método e prazo dependem das condições e regras; o exemplo não estabelece um direito universal de devolução."
+    },
+    "price": {
+      "sourceWord": "price",
+      "senses": {
+        "price:meaning-1": {
+          "gloss": "preço",
+          "definition": "Quantia que o vendedor pede ao comprador por um produto ou serviço."
+        }
+      },
+      "examples": [
+        {
+          "en": "The price of this mug is five dollars.",
+          "translation": "O preço desta caneca é de cinco dólares."
+        },
+        {
+          "en": "We compared the amounts on the two shop labels.",
+          "translation": "Comparamos os valores nas etiquetas das duas lojas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a high price",
+          "translation": "um preço alto"
+        },
+        {
+          "en": "compare prices",
+          "translation": "comparar preços"
+        },
+        {
+          "en": "the asking price",
+          "translation": "o preço pedido"
+        }
+      ],
+      "tip": "Price é o valor pedido pelo vendedor por um produto ou serviço; cost é o gasto necessário para comprar ou fazer algo e pode reunir várias parcelas. Price indica um valor, não o dinheiro físico nem a etiqueta."
+    },
+    "cost": {
+      "sourceWord": "cost",
+      "senses": {
+        "cost:meaning-1": {
+          "gloss": "custo",
+          "definition": "Dinheiro necessário para comprar algo ou realizar uma atividade."
+        }
+      },
+      "examples": [
+        {
+          "en": "The cost of the mug and delivery is eight dollars.",
+          "translation": "O custo da caneca com a entrega é de oito dólares."
+        },
+        {
+          "en": "We added the ticket and bus fare to find the total.",
+          "translation": "Somamos o ingresso e a passagem de ônibus para encontrar o total."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the total cost",
+          "translation": "o custo total"
+        },
+        {
+          "en": "cover the cost",
+          "translation": "cobrir o custo"
+        },
+        {
+          "en": "reduce costs",
+          "translation": "reduzir custos"
+        }
+      ],
+      "tip": "Aqui, cost é substantivo; costs pode indicar vários gastos. O preço do produto pode ser apenas uma parte do custo total, que também pode incluir a entrega. O uso de cost como verbo fica fora deste sentido."
+    },
+    "income": {
+      "sourceWord": "income",
+      "senses": {
+        "income:meaning-1": {
+          "gloss": "renda",
+          "definition": "Dinheiro que uma pessoa ou organização ganha ou recebe ao longo de um período."
+        }
+      },
+      "examples": [
+        {
+          "en": "Her income from weekend work is forty dollars a week.",
+          "translation": "A renda dela com o trabalho de fim de semana é de quarenta dólares por semana."
+        },
+        {
+          "en": "The family records the money it receives each month.",
+          "translation": "A família registra o dinheiro que recebe a cada mês."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a regular income",
+          "translation": "uma renda regular"
+        },
+        {
+          "en": "monthly income",
+          "translation": "renda mensal"
+        },
+        {
+          "en": "earn an income",
+          "translation": "obter renda"
+        }
+      ],
+      "tip": "Income indica dinheiro recebido ao longo de um período; savings é dinheiro guardado, e balance é o saldo de uma conta em determinado momento. Renda não é o mesmo que profit, o lucro após os custos. Income costuma ser incontável."
+    },
+    "expense": {
+      "sourceWord": "expense",
+      "senses": {
+        "expense:meaning-1": {
+          "gloss": "despesa",
+          "definition": "Valor gasto ou necessário para uma finalidade específica."
+        }
+      },
+      "examples": [
+        {
+          "en": "The bus ticket was a travel expense.",
+          "translation": "A passagem de ônibus foi uma despesa de viagem."
+        },
+        {
+          "en": "She recorded how much she spent on printer paper.",
+          "translation": "Ela registrou quanto gastou com papel para impressora."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a business expense",
+          "translation": "uma despesa de trabalho"
+        },
+        {
+          "en": "travel expenses",
+          "translation": "despesas de viagem"
+        },
+        {
+          "en": "an unexpected expense",
+          "translation": "uma despesa inesperada"
+        }
+      ],
+      "tip": "An expense é um gasto específico; expenses pode indicar vários gastos ou o conjunto das despesas. Income é dinheiro recebido, enquanto expense é dinheiro gasto ou necessário para uma finalidade. Uma despesa não significa, por si só, um prejuízo."
+    },
+    "profit": {
+      "sourceWord": "profit",
+      "senses": {
+        "profit:meaning-1": {
+          "gloss": "lucro",
+          "definition": "Valor positivo que sobra ao subtrair todos os custos de uma venda ou atividade comercial da receita que ela gera."
+        }
+      },
+      "examples": [
+        {
+          "en": "He made a profit of three dollars on a sale of eight dollars with a total cost of five dollars.",
+          "translation": "Ele teve um lucro de três dólares em uma venda de oito dólares com custo total de cinco dólares."
+        },
+        {
+          "en": "After paying all the stall costs, the team still had money left from sales.",
+          "translation": "Depois de pagar todos os custos da barraca, a equipe ainda tinha dinheiro das vendas sobrando."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "make a profit",
+          "translation": "ter lucro"
+        },
+        {
+          "en": "a small profit",
+          "translation": "um pequeno lucro"
+        },
+        {
+          "en": "increase profits",
+          "translation": "aumentar os lucros"
+        }
+      ],
+      "tip": "Profit não é o valor total das vendas nem o dinheiro disponível na carteira. Neste exemplo simples, 8 menos 5 é igual a 3, considerando todos os custos informados. Loss é prejuízo: os custos superam a receita. O exemplo não promete lucro futuro."
+    },
+    "loss": {
+      "sourceWord": "loss",
+      "senses": {
+        "loss:meaning-1": {
+          "gloss": "prejuízo",
+          "definition": "Valor pelo qual todos os custos de uma venda ou atividade comercial ultrapassam a receita que ela gera."
+        }
+      },
+      "examples": [
+        {
+          "en": "She made a loss of two dollars on a sale of four dollars with a total cost of six dollars.",
+          "translation": "Ela teve um prejuízo de dois dólares em uma venda de quatro dólares com custo total de seis dólares."
+        },
+        {
+          "en": "The stall spent more on supplies than it received from sales.",
+          "translation": "A barraca gastou mais com materiais do que recebeu com as vendas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "make a loss",
+          "translation": "ter prejuízo"
+        },
+        {
+          "en": "a financial loss",
+          "translation": "um prejuízo financeiro"
+        },
+        {
+          "en": "cover a loss",
+          "translation": "cobrir um prejuízo"
+        }
+      ],
+      "tip": "Aqui, loss é o prejuízo financeiro de uma atividade, não perder uma moeda nem simplesmente ter pouco dinheiro disponível. No exemplo, custo de 6 e receita de 4 dão prejuízo de 2. O plural é losses. Profit ocorre quando a receita supera os custos."
+    },
+    "budget": {
+      "sourceWord": "budget",
+      "senses": {
+        "budget:meaning-1": {
+          "gloss": "orçamento",
+          "definition": "Plano para o dinheiro que se espera receber e para como ele será gasto ou reservado durante um período."
+        }
+      },
+      "examples": [
+        {
+          "en": "Our weekly budget sets aside thirty dollars for food and ten for bus tickets.",
+          "translation": "Nosso orçamento semanal reserva trinta dólares para comida e dez para passagens de ônibus."
+        },
+        {
+          "en": "We changed the plan when our expected income fell.",
+          "translation": "Mudamos o plano quando nossa renda esperada diminuiu."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a weekly budget",
+          "translation": "um orçamento semanal"
+        },
+        {
+          "en": "draw up a budget",
+          "translation": "elaborar um orçamento"
+        },
+        {
+          "en": "stay within a budget",
+          "translation": "ficar dentro do orçamento"
+        }
+      ],
+      "tip": "Aqui, budget é um plano para usar dinheiro ao longo de um período, não um registro de gastos passados nem o dinheiro na carteira. Um plano simples pode indicar a renda prevista e os valores para gastos e poupança. O exemplo não é uma recomendação de orçamento pessoal."
+    },
+    "loan": {
+      "sourceWord": "loan",
+      "senses": {
+        "loan:meaning-1": {
+          "gloss": "empréstimo",
+          "definition": "Dinheiro entregue a alguém com o acordo de que será devolvido."
+        }
+      },
+      "examples": [
+        {
+          "en": "She took out a loan of one hundred dollars to buy a desk.",
+          "translation": "Ela contratou um empréstimo de cem dólares para comprar uma escrivaninha."
+        },
+        {
+          "en": "The agreement says when the borrowed money must be paid back.",
+          "translation": "O acordo informa quando o dinheiro emprestado deve ser devolvido."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "take out a loan",
+          "translation": "fazer um empréstimo"
+        },
+        {
+          "en": "repay a loan",
+          "translation": "pagar um empréstimo"
+        },
+        {
+          "en": "a small loan",
+          "translation": "um pequeno empréstimo"
+        }
+      ],
+      "tip": "Loan é dinheiro que precisa ser devolvido; gift é um presente. Um empréstimo pode ter juros ou outros encargos, conforme o acordo. Debt é o dinheiro devido e pode surgir de um empréstimo ou de outra obrigação."
+    },
+    "debt": {
+      "sourceWord": "debt",
+      "senses": {
+        "debt:meaning-1": {
+          "gloss": "dívida",
+          "definition": "Dinheiro que uma pessoa ou organização deve e ainda não devolveu."
+        }
+      },
+      "examples": [
+        {
+          "en": "His debt fell from one hundred dollars to eighty after he repaid twenty.",
+          "translation": "A dívida dele caiu de cem para oitenta dólares depois que ele devolveu vinte."
+        },
+        {
+          "en": "The notebook lists the amount she still owes her brother.",
+          "translation": "O caderno registra o valor que ela ainda deve ao irmão."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "pay off a debt",
+          "translation": "quitar uma dívida"
+        },
+        {
+          "en": "be in debt",
+          "translation": "estar endividado"
+        },
+        {
+          "en": "an unpaid debt",
+          "translation": "uma dívida não paga"
+        }
+      ],
+      "tip": "O b de debt não é pronunciado. Debt é o valor devido, não o dinheiro disponível nem o ato de emprestar. Um loan pode ser a origem de uma dívida. No exemplo simples, sem encargos adicionais, 100 menos 20 é igual a 80."
+    },
+    "interest": {
+      "sourceWord": "interest",
+      "senses": {
+        "interest:meaning-1": {
+          "gloss": "juros",
+          "definition": "Valor adicional cobrado pelo uso de dinheiro emprestado, além da quantia recebida."
+        }
+      },
+      "examples": [
+        {
+          "en": "The interest on this example loan is five dollars, so one hundred dollars borrowed becomes one hundred and five to repay, with no other charges.",
+          "translation": "Os juros deste empréstimo hipotético são de cinco dólares; assim, cem dólares emprestados se tornam cento e cinco a devolver, sem outros encargos."
+        },
+        {
+          "en": "She checked the borrowing charge before signing the agreement.",
+          "translation": "Ela conferiu o valor dos juros antes de assinar o acordo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "pay interest",
+          "translation": "pagar juros"
+        },
+        {
+          "en": "interest on a loan",
+          "translation": "juros de um empréstimo"
+        },
+        {
+          "en": "an interest charge",
+          "translation": "uma cobrança de juros"
+        }
+      ],
+      "tip": "Aqui, interest é o custo de tomar dinheiro emprestado, não interesse por um assunto nem rendimento de um depósito. Principal é o valor originalmente emprestado. No exemplo hipotético, 100 + 5 = 105, sem outros encargos; isso não indica taxa anual nem recomendação de empréstimo. Interest costuma ser incontável em inglês neste uso."
+    },
+    "tax": {
+      "sourceWord": "tax",
+      "senses": {
+        "tax:meaning-1": {
+          "gloss": "imposto",
+          "definition": "Dinheiro que um governo exige que pessoas ou empresas paguem para financiar gastos públicos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The receipt shows a tax of two dollars.",
+          "translation": "O recibo mostra um imposto de dois dólares."
+        },
+        {
+          "en": "The town uses some of the money collected to pay for street lights.",
+          "translation": "A cidade usa parte do dinheiro arrecadado para pagar a iluminação das ruas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "pay tax",
+          "translation": "pagar imposto"
+        },
+        {
+          "en": "income tax",
+          "translation": "imposto de renda"
+        },
+        {
+          "en": "a tax payment",
+          "translation": "um pagamento de imposto"
+        }
+      ],
+      "tip": "Tax é um pagamento obrigatório ao governo ou a uma autoridade pública; não é gorjeta, doação voluntária nem o preço do próprio produto. Em inglês, tax pode ser contável ou incontável; o plural é taxes. O valor do recibo é fictício e não indica a lei nem a alíquota de um país específico."
+    },
+    "discount": {
+      "sourceWord": "discount",
+      "senses": {
+        "discount:meaning-1": {
+          "gloss": "desconto",
+          "definition": "Redução do preço habitual ou anunciado de algo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The shop offers a discount of two dollars on a ten-dollar bag.",
+          "translation": "A loja oferece um desconto de dois dólares em uma bolsa de dez dólares."
+        },
+        {
+          "en": "After the reduction, the buyer pays eight dollars instead of ten.",
+          "translation": "Depois da redução, o comprador paga oito dólares em vez de dez."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "get a discount",
+          "translation": "conseguir um desconto"
+        },
+        {
+          "en": "a small discount",
+          "translation": "um pequeno desconto"
+        },
+        {
+          "en": "a discount on something",
+          "translation": "um desconto em algo"
+        }
+      ],
+      "tip": "Discount é a redução do preço, não o preço final. No exemplo, o preço anterior é 10, o desconto é 2 e o preço final é 8. Refund é dinheiro devolvido ao comprador depois do pagamento. Aqui, discount é substantivo, com a primeira sílaba tônica."
     }
   }
 }

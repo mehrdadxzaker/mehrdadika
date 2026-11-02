@@ -77181,6 +77181,1278 @@
           "reviewerId": "/root"
         }
       }
+    },
+    {
+      "entryId": "banknote",
+      "sourceWord": "banknote",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "banknote:meaning-1",
+          "pos": "n.",
+          "en": "A piece of paper or polymer money with a stated value."
+        }
+      ],
+      "examples": [
+        {
+          "en": "She put a ten-dollar banknote in her wallet.",
+          "senseId": "banknote:meaning-1"
+        },
+        {
+          "en": "The cashier gave me two notes and three coins as change.",
+          "senseId": "banknote:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/banknote.webp",
+        "sha256": "c8ae5791d205d5e4ea549f6caee3bf9b616223b1fde2b0eef70afd0b9a6c979c"
+      },
+      "visual": {
+        "expectedCue": "One single broad thin rectangular fictional banknote, pale emerald engraved-style border, simple large 10 in two corners and a single generic geometric central medallion. Slight lifted corner shows flexible paper/polymer sheet. No coins, no wallet, no stack, no cheque lines. Numeral 10 is the only text. Teach a single banknote.",
+        "decision": "added",
+        "reason": "Actual original1254, final512WebP and120PNG viewed separately: one broad thin flexible note with curled lower-right corner, geometric central medallion and two exact10 numerals. No coins, cheque fields, copied real issuer or extraneous text. Emerald/brass linear detail and crisp quiet shading on pale ground remain readable at120; selected banknote sheet is distinct from cash group.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actual original1254, final512WebP and120PNG viewed separately: one broad thin flexible note with curled lower-right corner, geometric central medallion and two exact10 numerals. No coins, cheque fields, copied real issuer or extraneous text. Emerald/brass linear detail and crisp quiet shading on pale ground remain readable at120; selected banknote sheet is distinct from cash group."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:23:17.939Z",
+        "reviewerId": "parent61-banking-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "c8ae5791d205d5e4ea549f6caee3bf9b616223b1fde2b0eef70afd0b9a6c979c",
+          "inspectedAt": "2026-11-02T22:29:57.765Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "ROOT independently viewed actual full1254 PNG via full existing-original display, final512WebP and actual120PNG. A single broad rectangular thin note has one lifted corner, two correct10 numerals and an original geometric medallion; no issuer, copied portrait, cheque fields, coins or extraneous labels. Flexible sheet and denomination survive120, distinguishing a banknote from the mixed notes/coins cash cue. Emerald/brass restrained finance object still-life with crisp fine-line shading fits current brief. AI-only preview; no claim of real legal tender or human review.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "cash",
+      "sourceWord": "cash",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "cash:meaning-1",
+          "pos": "n.",
+          "en": "Money in the physical form of banknotes and coins."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I paid for the bread in cash.",
+          "senseId": "cash:meaning-1"
+        },
+        {
+          "en": "She counted the notes and coins in her purse.",
+          "senseId": "cash:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cash.webp",
+        "sha256": "d5359d1c161f4abd5574f07f76762f21ec4e4f5389edbc1832d27199adedc96b"
+      },
+      "visual": {
+        "expectedCue": "A small loose group of three fictional emerald banknotes and five brass coins on the same surface, spread so rectangular notes and round metal discs are both unmistakable. No cards, phone, bank, payment arrows or wallet. Physical notes PLUS coins together teach cash.",
+        "decision": "added",
+        "reason": "Actual1254original/512WebP/120PNG separately viewed: three broad thin fictional notes50,20,10 and exactly five brass coins1, all on same pale surface. Both physical notes and metal coins remain visible at120. No card, payment arrow, or real issuer. Emerald/brass crisp simplified still-life teaches cash as a group, distinguished from a single banknote.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actual1254original/512WebP/120PNG separately viewed: three broad thin fictional notes50,20,10 and exactly five brass coins1, all on same pale surface. Both physical notes and metal coins remain visible at120. No card, payment arrow, or real issuer. Emerald/brass crisp simplified still-life teaches cash as a group, distinguished from a single banknote."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:24:15.749Z",
+        "reviewerId": "parent61-banking-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d5359d1c161f4abd5574f07f76762f21ec4e4f5389edbc1832d27199adedc96b",
+          "inspectedAt": "2026-11-02T22:34:24.165Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "ROOT independently viewed the actual1254 original, final512WebP and actual120PNG. Three broad fictional banknotes50/20/10 and five brass metal coins1 form a loose physical-money group; both paper rectangles and round metal discs remain unmistakable120. Supports/overlap are coherent, emerald/brass still-life shading and pale ground fit finance brief. No cards, phone, bank issuer, transaction arrows or promises. Distinct from single banknote and savings set-aside context; no legal-tender authenticity claim.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "bank",
+      "sourceWord": "bank",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "bank:meaning-1",
+          "pos": "n.",
+          "en": "A financial business that holds money in accounts and provides services such as payments and loans."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Our bank has a branch near the station.",
+          "senseId": "bank:meaning-1"
+        },
+        {
+          "en": "I spoke to a member of staff about opening an account.",
+          "senseId": "bank:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bank.webp",
+        "sha256": "d3b098dffaf22315335338cea938d2de78b2bf1a301028c64009472ce6a70a59"
+      },
+      "visual": {
+        "expectedCue": "A miniature street bank branch as the sole large object: modest emerald-and-pale building with glazed entrance, clearly visible service counter through front window and a tiny brass note/coin relief over the doorway. One small essential sign BANK in exact plain letters. No classical government temple, no shop products, no river. This is the financial business branch.",
+        "decision": "added",
+        "reason": "Actual1254original/512WebP/120PNG separately viewed: single glazed bank branch with exact BANK sign and brass note/coin relief; visible counter partitions and monitors behind window identify banking service, no goods or river. Emerald/brass model-like still-life and pale ground crisp at120; selected financial institution sense clear.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actual1254original/512WebP/120PNG separately viewed: single glazed bank branch with exact BANK sign and brass note/coin relief; visible counter partitions and monitors behind window identify banking service, no goods or river. Emerald/brass model-like still-life and pale ground crisp at120; selected financial institution sense clear."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:25:16.142Z",
+        "reviewerId": "parent61-banking-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d3b098dffaf22315335338cea938d2de78b2bf1a301028c64009472ce6a70a59",
+          "inspectedAt": "2026-11-02T22:35:38.791Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "ROOT independently viewed full1254PNG,512WebP and120PNG. Concrete small bank branch shows exact BANK sign, money emblem and visible teller counters/screens behind windows, distinguishing a financial-business location from a river bank or ordinary shop. Entrance, handles, counter/glass supports and perspective are coherent. A restrained emerald/brass building object study fits the pale finance still-life brief and remains readable120. Generic invented emblem is not a real bank brand; no claim that all banks share this architecture or offer particular terms.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "atm",
+      "sourceWord": "ATM",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "atm:meaning-1",
+          "pos": "n.",
+          "en": "A machine that lets customers use a bank card or another supported method to withdraw cash and perform some banking tasks."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I withdrew twenty dollars from the ATM.",
+          "senseId": "atm:meaning-1"
+        },
+        {
+          "en": "This machine is outside the bank entrance.",
+          "senseId": "atm:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/atm.webp",
+        "sha256": "673e9c466daf6cd58c1b5d73ec952490d99b2038f610c75ae6cea1c0599f99e4"
+      },
+      "visual": {
+        "expectedCue": "One freestanding modern emerald cash machine, three-quarter view. Essential exact ATM at top, simple blank screen, compact keypad, distinct card slot, lower wide cash dispensing slot with two fictional banknotes visibly emerging from it. No people, no unrelated vending products. Cash emerges from the machine; do not put notes in card slot.",
+        "decision": "added",
+        "reason": "Actual1254original/512WebP/120PNG separately viewed: freestanding emerald cash machine has screen, keypad, a distinct small card slot and two fictional notes emerging visibly from separate wide lower cash slot. Device shape and cash access stay clear120. Requested ATM lettering is omitted, with no wrong lettering; meaning is taught by device and dispensing cue. Crisp emerald/brass still-life on pale ground matches finance brief.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actual1254original/512WebP/120PNG separately viewed: freestanding emerald cash machine has screen, keypad, a distinct small card slot and two fictional notes emerging visibly from separate wide lower cash slot. Device shape and cash access stay clear120. Requested ATM lettering is omitted, with no wrong lettering; meaning is taught by device and dispensing cue. Crisp emerald/brass still-life on pale ground matches finance brief."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:26:09.133Z",
+        "reviewerId": "parent61-banking-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "673e9c466daf6cd58c1b5d73ec952490d99b2038f610c75ae6cea1c0599f99e4",
+          "inspectedAt": "2026-11-02T22:36:50.649Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "ROOT independently inspected actual1254PNG,512WebP and120PNG. Freestanding banking machine has screen/keypad, separate small card slot and wider lower cash dispenser with two fictional notes emerging; cash-dispensing cue remains clear120. Slot placement/notes, casing and base are physically coherent, emerald/brass restrained object still-life fits finance brief. Requested ATM header is omitted, with no misspelled substitute; device/cash cue is still unambiguous for selected sense. Blank screen does not invent instructions, account data or a product guarantee.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "debit-card",
+      "sourceWord": "debit card",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "debit-card:meaning-1",
+          "pos": "n.",
+          "en": "A payment card that takes money from the bank account linked to it."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I used my debit card to pay ten dollars from my bank account.",
+          "senseId": "debit-card:meaning-1"
+        },
+        {
+          "en": "The purchase appeared in her account activity.",
+          "senseId": "debit-card:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/debit-card.webp",
+        "sha256": "ecb0fa01c81fd1e9685ded4a7ca3db58334e23955b7768d2260836562bfa8963"
+      },
+      "visual": {
+        "expectedCue": "One large emerald payment card front showing a brass chip and essential exact DEBIT, connected by one clear short arrow to a small bank-account ledger tile behind it. Ledger shows exact 50 then minus 10 then 40 in large simple numerals, so a payment reduces existing account money. No future bill, borrowing, growth chart or coin pile. Card must be main focal object. Card and existing-account deduction distinguish debit from credit.",
+        "decision": "added",
+        "reason": "Actual1254original/512WebP/120PNG separately viewed: emerald brass-chip card exact DEBIT with dummy all-zero number, linked arrow to bank-account tile showing50−10=40. Deduction from existing account distinguishes credit borrowing; all arithmetic and DEBIT remain readable120. No real issuer or bill. Crisp restrained pale-ground finance still-life.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actual1254original/512WebP/120PNG separately viewed: emerald brass-chip card exact DEBIT with dummy all-zero number, linked arrow to bank-account tile showing50−10=40. Deduction from existing account distinguishes credit borrowing; all arithmetic and DEBIT remain readable120. No real issuer or bill. Crisp restrained pale-ground finance still-life."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:27:11.547Z",
+        "reviewerId": "parent61-banking-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "ecb0fa01c81fd1e9685ded4a7ca3db58334e23955b7768d2260836562bfa8963",
+          "inspectedAt": "2026-11-02T22:38:03.284Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "ROOT independently inspected actual1254PNG,512WebP and120PNG. Physical chip card has correct DEBIT and clearly dummy all-zero groups; arrow links it to a bank-account record50−10=40. Correct subtraction and linked-account deduction remain readable120, distinguishing debit card from credit borrowing. Card corners/chip and simple record layout are coherent; emerald/brass crisp finance still-life fits profile. No real issuer, personal data, fee/overdraft rule or universal product claim.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "credit-card",
+      "sourceWord": "credit card",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "credit-card:meaning-1",
+          "pos": "n.",
+          "en": "A payment card that lets the holder borrow money for purchases and repay it later."
+        }
+      ],
+      "examples": [
+        {
+          "en": "She used a credit card to buy a forty-dollar lamp.",
+          "senseId": "credit-card:meaning-1"
+        },
+        {
+          "en": "The forty-dollar purchase is an amount she must repay.",
+          "senseId": "credit-card:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/credit-card.webp",
+        "sha256": "a8dd0a7024c46c45f6aa92b042eae9ad0ebd0c9996e56d30685663916928cae7"
+      },
+      "visual": {
+        "expectedCue": "One large emerald payment card front showing a brass chip and essential exact CREDIT, paired with one crisp pale paper bill behind it showing a large 40 and a simple calendar symbol. Short curved arrow from card purchase to bill: purchased amount to repay later. No bank-balance deduction or savings icon, no real card number or logo. Card is main focal object; borrowed purchase and later bill distinguish credit.",
+        "decision": "added",
+        "reason": "Actual1254original/512WebP/120PNG separately viewed: emerald chip card exact CREDIT leads by brass arrow to a pale bill with clear calendar symbol and amount40. Future repayment cue differs from debit account50−10=40; no real account number, bank-balance deduction or return promise. CREDIT/calendar40 remain legible120; restrained crisp emerald/brass object still-life on pale ground.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actual1254original/512WebP/120PNG separately viewed: emerald chip card exact CREDIT leads by brass arrow to a pale bill with clear calendar symbol and amount40. Future repayment cue differs from debit account50−10=40; no real account number, bank-balance deduction or return promise. CREDIT/calendar40 remain legible120; restrained crisp emerald/brass object still-life on pale ground."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:28:02.776Z",
+        "reviewerId": "parent61-banking-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "a8dd0a7024c46c45f6aa92b042eae9ad0ebd0c9996e56d30685663916928cae7",
+          "inspectedAt": "2026-11-02T22:39:41.848Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "ROOT independently viewed actual1254 original,512WebP and120PNG. Physical chip card reads CREDIT correctly and points to a separate40 bill with calendar cue for later repayment; no immediate bank-balance subtraction, contrasting the debit card picture. Essential CREDIT/40 and temporal bill cue survive120, geometry/support/arrow endpoint coherent. Emerald/brass restrained finance object still-life fits brief. Generic calendar has no asserted date/weekday/month length; no real issuer, exact finance terms or guarantee of no other charges.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "cheque",
+      "sourceWord": "cheque",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "cheque:meaning-1",
+          "pos": "n.",
+          "en": "A written instruction asking a bank to pay a stated amount from an account to a person or organization."
+        }
+      ],
+      "examples": [
+        {
+          "en": "He wrote a cheque for fifty dollars to the repair shop.",
+          "senseId": "cheque:meaning-1"
+        },
+        {
+          "en": "She checked the amount before signing the paper.",
+          "senseId": "cheque:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cheque.webp",
+        "sha256": "34d671f1286160921f9833839698289862dd915bf0924674b4947c0b2d48ad0b"
+      },
+      "visual": {
+        "expectedCue": "One broad landscape pale-emerald fictional cheque leaf with a small perforated left stub, a payee line, a box containing exact 50, and a visible handwritten signature stroke at lower right. Essential exact PAY on payee row, other lines unfilled. Brass pen touches signature line. Layout must clearly be a written bank-payment instruction, not a narrow itemized shop receipt and not a banknote. No real bank identity, account numbers or copied currency.",
+        "decision": "added",
+        "reason": "Actual1254original/512WebP/120PNG separately viewed: broad landscape cheque leaf has perforated left stub, payee line exact PAY, amount box50 and signature stroke at lower right touched by brass pen tip. Layout remains recognizable120 and differs from banknote or itemized narrow receipt. No real bank identity or account data. Crisp restrained emerald/brass pale-ground paper still-life.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actual1254original/512WebP/120PNG separately viewed: broad landscape cheque leaf has perforated left stub, payee line exact PAY, amount box50 and signature stroke at lower right touched by brass pen tip. Layout remains recognizable120 and differs from banknote or itemized narrow receipt. No real bank identity or account data. Crisp restrained emerald/brass pale-ground paper still-life."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:28:54.032Z",
+        "reviewerId": "parent61-banking-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "34d671f1286160921f9833839698289862dd915bf0924674b4947c0b2d48ad0b",
+          "inspectedAt": "2026-11-02T22:40:37.822Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "ROOT independently inspected actual1254PNG,512WebP and120PNG. Broad perforated cheque leaf has correct PAY and amount50, a fictional signature-like mark and a pen tip visibly contacting its end. The horizontal instruction form is distinct from a banknote or paid receipt and remains recognizable120; amount50 and signature survive. Emerald/brass object still-life is consistent, paper/pen contact coherent. Payee line is blank: this is a simplified teaching form, not a claim of a complete legally valid negotiable instrument or completed payment.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "payment",
+      "sourceWord": "payment",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "payment:meaning-1",
+          "pos": "n.",
+          "en": "Money given or transferred to pay for something or settle an amount owed."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The shop received my payment of fifteen dollars for the book.",
+          "senseId": "payment:meaning-1"
+        },
+        {
+          "en": "We paid the bill by bank transfer.",
+          "senseId": "payment:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/payment.webp",
+        "sha256": "d9973108d5de9b1cea8812e10a4a79e5c3bfa63b9c65db072346ea7ebe9531b6"
+      },
+      "visual": {
+        "expectedCue": "Customer hands fictional15 left-to-right to merchant for a new undamaged book priced15; money paid for book, unlike receipt/refund or account deposit.",
+        "decision": "added",
+        "reason": "Actual1254original/512WebP/120PNG separately viewed: customerLEFT holds fictional note15 toward merchantRIGHT open palm/apron; brass arrow points left-to-right. New undamaged book on merchant counter carries price15 matching paid15, all clear120. Two coherent simplified hands, no refund/product-return cue, receipt or bankbook. Restrained emerald/brass/pale counter object scene teaches money paid for book.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actual1254original/512WebP/120PNG separately viewed: customerLEFT holds fictional note15 toward merchantRIGHT open palm/apron; brass arrow points left-to-right. New undamaged book on merchant counter carries price15 matching paid15, all clear120. Two coherent simplified hands, no refund/product-return cue, receipt or bankbook. Restrained emerald/brass/pale counter object scene teaches money paid for book."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:37:14.100Z",
+        "reviewerId": "parent61-banking-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "d9973108d5de9b1cea8812e10a4a79e5c3bfa63b9c65db072346ea7ebe9531b6",
+          "inspectedAt": "2026-11-02T22:44:16.752Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "ROOT independently viewed actual1254PNG,512WebP and120PNG. Customer hand at left offers fictional15 note toward apron-wearing merchant right, with rightward arrow; a new intact book on counter bears matching price15. Correct customer-to-merchant money direction and price/payment match remain readable120, distinct from the damaged-goods refund scene. Visible hand anatomy/grips and book/counter support are coherent; emerald/brass finance object scene with only essential hands fits brief. No real currency, identity, repayment or legal-policy claim.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "bank-account",
+      "sourceWord": "bank account",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "bank-account:meaning-1",
+          "pos": "n.",
+          "en": "An arrangement with a bank that records money you put in, take out or transfer."
+        }
+      ],
+      "examples": [
+        {
+          "en": "My bank account shows a deposit of thirty dollars.",
+          "senseId": "bank-account:meaning-1"
+        },
+        {
+          "en": "She checked her balance before making a payment.",
+          "senseId": "bank-account:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/bank-account.webp",
+        "sha256": "4e6b5f190e0e8eddba9f53078ca5a271f71cdd922b8526b26e839bbc4141710f"
+      },
+      "visual": {
+        "expectedCue": "A physical bank-account passbook records START50 + DEPOSIT30 = BALANCE80, distinguishing a bank account record from cash, a receipt or a loan contract. Exact essential labels and amounts must survive120px; no real account details or advice.",
+        "decision": "added",
+        "reason": "ROOT actually inspected full1254 PNG as built-in output and separately forced full cached-original display after a tiny renderer placeholder (display only, no generation), final512WebP and actual120PNG. Open passbook has correct BANK ACCOUNT / START50 / DEPOSIT30 / BALANCE80 and coherent50+30=80, all labels and values readable120. Page edges/binding/brass clips and supported tabletop form one concrete financial-record still life in emerald/brass on pale ground; paper texture more material-rich than flat geometry but fits the finance object brief. It illustrates account money movements, not an actual account, current product or guaranteed balance. No real issuer or personal details. AI-only preview, human review pending.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "ROOT actually inspected full1254 PNG as built-in output and separately forced full cached-original display after a tiny renderer placeholder (display only, no generation), final512WebP and actual120PNG. Open passbook has correct BANK ACCOUNT / START50 / DEPOSIT30 / BALANCE80 and coherent50+30=80, all labels and values readable120. Page edges/binding/brass clips and supported tabletop form one concrete financial-record still life in emerald/brass on pale ground; paper texture more material-rich than flat geometry but fits the finance object brief. It illustrates account money movements, not an actual account, current product or guaranteed balance. No real issuer or personal details. AI-only preview, human review pending."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:27:07.398Z",
+        "reviewerId": "/root",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4e6b5f190e0e8eddba9f53078ca5a271f71cdd922b8526b26e839bbc4141710f",
+          "inspectedAt": "2026-11-02T22:25:07.811Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Independently opened the actual1254PNG original,512WebP and120PNG separately. An emerald-edged physical account book records BANK ACCOUNT, START50, DEPOSIT30, BALANCE80: all exact labels and50+30=80 stay readable120. Account record rather than cash/card is the focus. Cream/pale ground, emerald lettering, brass binding and dimensional paper shading match finance still-life rev1; no return/availability promise, logo or extraneous plot.",
+          "reviewerId": "ai-parent61-finance-peer"
+        }
+      }
+    },
+    {
+      "entryId": "deposit",
+      "sourceWord": "deposit",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "deposit:meaning-1",
+          "pos": "n.",
+          "en": "Money added to a bank account."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A cash deposit of thirty dollars raised the account balance from fifty to eighty dollars.",
+          "senseId": "deposit:meaning-1"
+        },
+        {
+          "en": "The bank recorded the money she put into her account.",
+          "senseId": "deposit:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/deposit.webp",
+        "sha256": "99d85b61c2e30b261cd1d04af1ec68cefb20422d8cdc731aa5f61b9887e7e670"
+      },
+      "visual": {
+        "expectedCue": "Physical fictional30 cash points inward to bank account page DEPOSIT START50 +30 BALANCE80; incoming money and50+30=80 distinguish deposit from withdrawal and static account.",
+        "decision": "added",
+        "reason": "Actual1254original/512WebP/120PNG separately viewed: fresh bankbook derivative changes viewpoint, cash30 stands left and brass arrow points inward/right to account page DEPOSIT, START50, +30, BALANCE80. Correct50+30=80 and physically incoming cash relation clearly survive120, distinct from static original account and outgoing withdrawal. Restrained emerald/brass physical paper still-life; actual derivative independently inspected, no inherited approval.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actual1254original/512WebP/120PNG separately viewed: fresh bankbook derivative changes viewpoint, cash30 stands left and brass arrow points inward/right to account page DEPOSIT, START50, +30, BALANCE80. Correct50+30=80 and physically incoming cash relation clearly survive120, distinct from static original account and outgoing withdrawal. Restrained emerald/brass physical paper still-life; actual derivative independently inspected, no inherited approval."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:33:11.484Z",
+        "reviewerId": "parent61-banking-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "99d85b61c2e30b261cd1d04af1ec68cefb20422d8cdc731aa5f61b9887e7e670",
+          "inspectedAt": "2026-11-02T22:42:13.028Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "ROOT independently inspected actual1254 original,512WebP and120PNG. A fictional30 money note at left points inward to the passbook at right; DEPOSIT/START50/+30/BALANCE80 are correctly spelled and satisfy50+30=80. Cash-to-account direction and increased balance survive120 and distinguish deposit from withdrawal and the neutral bank-account record. Book pages/spine/arrow endpoint coherent, emerald/brass still-life fits finance brief. Amount/denomination is fictional illustrative money, not a real product or account. This distinct template edit has its own current pixel acceptance.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "withdrawal",
+      "sourceWord": "withdrawal",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "withdrawal:meaning-1",
+          "pos": "n.",
+          "en": "Money taken out of a bank account."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A cash withdrawal of twenty dollars reduced the account balance from eighty to sixty dollars.",
+          "senseId": "withdrawal:meaning-1"
+        },
+        {
+          "en": "She took the notes from the machine and put them in her wallet.",
+          "senseId": "withdrawal:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/withdrawal.webp",
+        "sha256": "fc14945d66e8eb60c50b469eb94280ad4f4b01fccb23ca04e5d2607a358f75cb"
+      },
+      "visual": {
+        "expectedCue": "Account page WITHDRAWAL START80 −20 BALANCE60 points outward to physical20 cash; outgoing money and80−20=60 distinguish withdrawal from deposit/static account.",
+        "decision": "added",
+        "reason": "Actual corrected1254square original/512WebP/120PNG separately viewed: bankbook LEFT shows WITHDRAWAL START80 −20 BALANCE60, brass arrow points OUT/right to separate physical note20.80−20=60 exact and outgoing cash relation clear120; distinct from incoming deposit and static account. Square2 resolves actual1536x1024 failed1, retained privately; no crop or inherited review. Restrained emerald/brass paper-object still-life.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actual corrected1254square original/512WebP/120PNG separately viewed: bankbook LEFT shows WITHDRAWAL START80 −20 BALANCE60, brass arrow points OUT/right to separate physical note20.80−20=60 exact and outgoing cash relation clear120; distinct from incoming deposit and static account. Square2 resolves actual1536x1024 failed1, retained privately; no crop or inherited review. Restrained emerald/brass paper-object still-life."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:35:50.698Z",
+        "reviewerId": "parent61-banking-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "fc14945d66e8eb60c50b469eb94280ad4f4b01fccb23ca04e5d2607a358f75cb",
+          "inspectedAt": "2026-11-02T22:42:59.668Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "ROOT independently inspected corrected actual1254square PNG,512WebP and120PNG. Passbook at left reads WITHDRAWAL/START80/−20/BALANCE60 and a brass outward arrow points from the subtraction row to fictional20 cash at right. Correct80−20=60 and cash-out direction survive120, distinct from inward deposit. Physical book/page edges and restrained emerald/brass still-life are coherent. Current square correction accepted separately; earlier landscape output remains a pre-intake rejection, not an accepted original or request failure. Fictional amount only; no bank policy or real account claim.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "refund",
+      "sourceWord": "refund",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "refund:meaning-1",
+          "pos": "n.",
+          "en": "Money returned to someone who previously paid it, for example after a purchase is cancelled or a product is returned."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The shop gave me a ten-dollar refund for the returned mug.",
+          "senseId": "refund:meaning-1"
+        },
+        {
+          "en": "The money went back to the card used for the purchase.",
+          "senseId": "refund:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/refund.webp",
+        "sha256": "2f5db9ff332b3b758ffde429f900284738853aa4eb0fcd8d37b8874f17a47d5e"
+      },
+      "visual": {
+        "expectedCue": "Defective visibly chipped/cracked mug returned left to merchant, full original receipt10 returned right as note10 to customer; separate opposite arrows establish product return and money-back, unlike generic payment/change.",
+        "decision": "added",
+        "reason": "Actual1254original/512WebP/120PNG separately viewed: corrected mug has visibly chipped rim and short crack; separate brass arrow returns defective mug left to merchant, emerald arrow returns note10 right to customer, matching original receipt10. Two hands hold/receive money coherently; exact10 appears twice and no extra money or shards. Opposite product-return/money-back directions and defect survive120, resolving generic-exchange ambiguity of preserved rejected1. Crisp emerald/brass finance object scene on pale ground.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actual1254original/512WebP/120PNG separately viewed: corrected mug has visibly chipped rim and short crack; separate brass arrow returns defective mug left to merchant, emerald arrow returns note10 right to customer, matching original receipt10. Two hands hold/receive money coherently; exact10 appears twice and no extra money or shards. Opposite product-return/money-back directions and defect survive120, resolving generic-exchange ambiguity of preserved rejected1. Crisp emerald/brass finance object scene on pale ground."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:31:15.226Z",
+        "reviewerId": "parent61-banking-ai",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "2f5db9ff332b3b758ffde429f900284738853aa4eb0fcd8d37b8874f17a47d5e",
+          "inspectedAt": "2026-11-02T22:41:29.349Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "ROOT independently inspected corrected actual1254PNG,512WebP and120PNG. Merchant hand returns fictional10 note toward customer with rightward emerald arrow; separate leftward brass arrow points back to a visibly chipped/cracked mug on counter, beside original receipt10. Opposing product-return and money-return directions, damage and matching10 remain clear120, distinguishing refund from initial purchase/payment. Both hand grips/palm and supported mug/counter are coherent; emerald/brass finance object scene fits brief. Illustration is one example, not a universal legal refund entitlement or requirement to damage goods. Current correction accepted; first candidate negative retained.",
+          "reviewerId": "/root"
+        }
+      }
+    },
+    {
+      "entryId": "price",
+      "sourceWord": "price",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "price:meaning-1",
+          "pos": "n.",
+          "en": "The amount of money a seller asks a buyer to pay for something."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The price of this mug is five dollars.",
+          "senseId": "price:meaning-1"
+        },
+        {
+          "en": "We compared the amounts on the two shop labels.",
+          "senseId": "price:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/price.webp",
+        "sha256": "f40c89a59fc76a244d37fb6f5da776ab66efba3889cf00f3a30781a8bb1afa73"
+      },
+      "visual": {
+        "expectedCue": "One emerald mug with a physically attached seller price tag clearly reading PRICE 5; asks an amount, not a paid receipt or cash stock.",
+        "decision": "added",
+        "reason": "Actually viewed generated 1254 original and cached original, final 512 WebP and 120 PNG. One emerald mug has a physically tied brass-ring paper tag, plainly PRICE above 5 at all sizes. Attached asking-price cue is clear; no paid/receipt cue. Restrained pale background, emerald object, brass detail and crisp dimensional shading match finance rev1; no extraneous labels or logos.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actually viewed generated 1254 original and cached original, final 512 WebP and 120 PNG. One emerald mug has a physically tied brass-ring paper tag, plainly PRICE above 5 at all sizes. Attached asking-price cue is clear; no paid/receipt cue. Restrained pale background, emerald object, brass detail and crisp dimensional shading match finance rev1; no extraneous labels or logos."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:23:44.234Z",
+        "reviewerId": "ai-parent61-finance-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f40c89a59fc76a244d37fb6f5da776ab66efba3889cf00f3a30781a8bb1afa73",
+          "inspectedAt": "2026-11-02T22:24:15.764Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual1254original/512WebP/120PNG separately viewed: exact PRICE5 on a large seller tag physically tied through the emerald mug handle; requested amount remains clear at120. No receipt, paid stamp or payment occurs. Pale-ground emerald/brass still-life with quiet modeled object shading and restrained layout matches category and selected price sense.",
+          "reviewerId": "parent61-banking-ai"
+        }
+      }
+    },
+    {
+      "entryId": "cost",
+      "sourceWord": "cost",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "cost:meaning-1",
+          "pos": "n.",
+          "en": "The money needed to buy something or to carry out an activity."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cost of the mug and delivery is eight dollars.",
+          "senseId": "cost:meaning-1"
+        },
+        {
+          "en": "We added the ticket and bus fare to find the total.",
+          "senseId": "cost:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/cost.webp",
+        "sha256": "3e79038087951a15d2b05106c4e11b2c4972b9255a9409bd259f73e6ed7969cc"
+      },
+      "visual": {
+        "expectedCue": "Physical cost worksheet adds mug5 plus delivery3 to total8, distinct from the single attached price tag.",
+        "decision": "added",
+        "reason": "Actually viewed generated1254 and cached original plus final512WebP and120PNG separately. A physical cream worksheet beside an emerald mug reads COST, MUG5, DELIVERY3, TOTAL8 with correct sum and separated total. All characters remain readable120; the component addition distinguishes total cost from single price. Paper clip/contact shadow support real object still-life, restrained emerald/brass/pale palette, no unrelated chart or logo.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actually viewed generated1254 and cached original plus final512WebP and120PNG separately. A physical cream worksheet beside an emerald mug reads COST, MUG5, DELIVERY3, TOTAL8 with correct sum and separated total. All characters remain readable120; the component addition distinguishes total cost from single price. Paper clip/contact shadow support real object still-life, restrained emerald/brass/pale palette, no unrelated chart or logo."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:24:47.230Z",
+        "reviewerId": "ai-parent61-finance-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "3e79038087951a15d2b05106c4e11b2c4972b9255a9409bd259f73e6ed7969cc",
+          "inspectedAt": "2026-11-02T22:25:16.155Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual1254original/512WebP/120PNG separately viewed: worksheet physically stands beside emerald mug and reads exactly COST, MUG5, DELIVERY3, TOTAL8. Components5+3 correctly produce total8, teaching total cost beyond seller price. Exact lettering and arithmetic stay legible120; restrained finance paper-object still-life, brass clip, pale ground match category.",
+          "reviewerId": "parent61-banking-ai"
+        }
+      }
+    },
+    {
+      "entryId": "income",
+      "sourceWord": "income",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "income:meaning-1",
+          "pos": "n.",
+          "en": "Money a person or organization earns or receives over a period of time."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her income from weekend work is forty dollars a week.",
+          "senseId": "income:meaning-1"
+        },
+        {
+          "en": "The family records the money it receives each month.",
+          "senseId": "income:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/income.webp",
+        "sha256": "40b74e9072c90c1dcd345cfbc48990f703cf5c826c42f77a0c20e31367726d7b"
+      },
+      "visual": {
+        "expectedCue": "Physical INCOME THIS WEEK WORK PAY40 record and pay envelope show work earnings during a period, not savings or account balance.",
+        "decision": "added",
+        "reason": "Actually viewed new1254 original, final512WebP and120PNG separately. Physical pay record reads INCOME/THIS WEEK/WORK PAY40 above a plain green pay envelope. All labels/40 legible120; work source and one-week period show income flow, not savings or a current account balance. No old mug/cost labels, cash pile or investment promise. Emerald/brass/pale dimensional paper-envelope still-life matches finance rev1; fresh derivative assessed.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actually viewed new1254 original, final512WebP and120PNG separately. Physical pay record reads INCOME/THIS WEEK/WORK PAY40 above a plain green pay envelope. All labels/40 legible120; work source and one-week period show income flow, not savings or a current account balance. No old mug/cost labels, cash pile or investment promise. Emerald/brass/pale dimensional paper-envelope still-life matches finance rev1; fresh derivative assessed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:34:17.459Z",
+        "reviewerId": "ai-parent61-finance-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "40b74e9072c90c1dcd345cfbc48990f703cf5c826c42f77a0c20e31367726d7b",
+          "inspectedAt": "2026-11-02T22:35:50.712Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual1254original/512WebP/120PNG separately viewed: fresh physical clipped earnings record and plain pay envelope read INCOME, THIS WEEK, WORK PAY40, all clear120. Period and work-source income distinguish a current account balance, savings or loan. Emerald/brass/pale physical paper still-life coherent; actual derivative independently assessed.",
+          "reviewerId": "parent61-banking-ai"
+        }
+      }
+    },
+    {
+      "entryId": "expense",
+      "sourceWord": "expense",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "expense:meaning-1",
+          "pos": "n.",
+          "en": "An amount of money spent or needed for a particular purpose."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bus ticket was a travel expense.",
+          "senseId": "expense:meaning-1"
+        },
+        {
+          "en": "She recorded how much she spent on printer paper.",
+          "senseId": "expense:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/expense.webp",
+        "sha256": "918f7bbf4421dafd751d13bcc6397619d0c09d15bfdac09f2e19308aa5313ccb"
+      },
+      "visual": {
+        "expectedCue": "Physical EXPENSE BUS FARE5 SPENT5 record with BUS ticket shows a purpose-specific outgoing travel expense, not income or financial loss.",
+        "decision": "added",
+        "reason": "Actually viewed new1254 original, final512WebP and120PNG separately. Physical record reads EXPENSE/BUS FARE5/SPENT5, and one partly tucked ticket reads BUS. Main text and ticket BUS stay readable120. Specific amount spent for travel teaches one expense; not income, lost coin or profit/loss outcome. Emerald/brass/pale dimensional paper-ticket still-life matches finance rev1; no old mug/cost labels.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actually viewed new1254 original, final512WebP and120PNG separately. Physical record reads EXPENSE/BUS FARE5/SPENT5, and one partly tucked ticket reads BUS. Main text and ticket BUS stay readable120. Specific amount spent for travel teaches one expense; not income, lost coin or profit/loss outcome. Emerald/brass/pale dimensional paper-ticket still-life matches finance rev1; no old mug/cost labels."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:35:32.702Z",
+        "reviewerId": "ai-parent61-finance-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "918f7bbf4421dafd751d13bcc6397619d0c09d15bfdac09f2e19308aa5313ccb",
+          "inspectedAt": "2026-11-02T22:37:14.113Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual1254original/512WebP/120PNG separately viewed: fresh physical clipped record exact EXPENSE, BUS FARE5, SPENT5, with separate BUS ticket. Specific-purpose expenditure5 differs from income and total financial loss; all text including ticket readable120. Emerald/brass/pale paper still-life and quiet shadows match category, fresh derivative independently assessed.",
+          "reviewerId": "parent61-banking-ai"
+        }
+      }
+    },
+    {
+      "entryId": "profit",
+      "sourceWord": "profit",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "profit:meaning-1",
+          "pos": "n.",
+          "en": "The positive amount left when the total costs of a sale or business activity are subtracted from the money it brings in."
+        }
+      ],
+      "examples": [
+        {
+          "en": "He made a profit of three dollars on a sale of eight dollars with a total cost of five dollars.",
+          "senseId": "profit:meaning-1"
+        },
+        {
+          "en": "After paying all the stall costs, the team still had money left from sales.",
+          "senseId": "profit:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/profit.webp",
+        "sha256": "4c64e9080dea214271e559afaf7cd8b42a972ac3eeb0d3d4b1fba1741fb54bdc"
+      },
+      "visual": {
+        "expectedCue": "Physical PROFIT transaction result records SALE8 TOTAL COST5 and8-5=+3, positive outcome distinct from gross receipts or cash balance.",
+        "decision": "added",
+        "reason": "Actually viewed new1254 original, final512WebP and120PNG separately. Physical sheet reads PROFIT/SALE8/TOTAL COST5/8-5=+3; all words, numbers, minus, equals and positive sign legible120. Total stated cost subtraction gives positive3 rather than gross8 or cash balance. No money pile, lost coin, investment or future-return promise. Emerald/brass/pale dimensional paper still-life matches finance rev1; fresh derivative assessed.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actually viewed new1254 original, final512WebP and120PNG separately. Physical sheet reads PROFIT/SALE8/TOTAL COST5/8-5=+3; all words, numbers, minus, equals and positive sign legible120. Total stated cost subtraction gives positive3 rather than gross8 or cash balance. No money pile, lost coin, investment or future-return promise. Emerald/brass/pale dimensional paper still-life matches finance rev1; fresh derivative assessed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:36:37.034Z",
+        "reviewerId": "ai-parent61-finance-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "4c64e9080dea214271e559afaf7cd8b42a972ac3eeb0d3d4b1fba1741fb54bdc",
+          "inspectedAt": "2026-11-02T22:37:14.126Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual1254original/512WebP/120PNG separately viewed: fresh physical sheet exact PROFIT, SALE8, TOTAL COST5, equation8−5=+3. Arithmetic and positive result clear120;3 remainder after total5cost differs from gross sale8/cash/investment growth. All necessary labels/symbols legible, restrained emerald/brass/pale finance paper-object style, fresh actual derivative reviewed.",
+          "reviewerId": "parent61-banking-ai"
+        }
+      }
+    },
+    {
+      "entryId": "loss",
+      "sourceWord": "loss",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "loss:meaning-1",
+          "pos": "n.",
+          "en": "The amount by which the total costs of a sale or business activity exceed the money it brings in."
+        }
+      ],
+      "examples": [
+        {
+          "en": "She made a loss of two dollars on a sale of four dollars with a total cost of six dollars.",
+          "senseId": "loss:meaning-1"
+        },
+        {
+          "en": "The stall spent more on supplies than it received from sales.",
+          "senseId": "loss:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/loss.webp",
+        "sha256": "30af3c13b157d22f130985d61393569550139334749f4620af6339a831d91c56"
+      },
+      "visual": {
+        "expectedCue": "Physical LOSS sheet records SALE4 TOTAL COST6 and4-6=-2, a two-unit financial loss caused by costs exceeding sales, not lost cash.",
+        "decision": "added",
+        "reason": "Actually viewed new1254 original, final512WebP and120PNG separately. Physical result sheet reads LOSS/SALE4/TOTAL COST6/4-6=-2; all words, numbers, both minus signs and equals readable120. Costs exceed sales by2, correctly shown as negative result of2; this teaches financial loss rather than missing coin or cash stock. No old mug/cost labels, future claim or investment chart. Restrained emerald/brass/pale dimensional paper still-life matches finance rev1; fresh derivative assessed.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actually viewed new1254 original, final512WebP and120PNG separately. Physical result sheet reads LOSS/SALE4/TOTAL COST6/4-6=-2; all words, numbers, both minus signs and equals readable120. Costs exceed sales by2, correctly shown as negative result of2; this teaches financial loss rather than missing coin or cash stock. No old mug/cost labels, future claim or investment chart. Restrained emerald/brass/pale dimensional paper still-life matches finance rev1; fresh derivative assessed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:37:49.288Z",
+        "reviewerId": "ai-parent61-finance-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "30af3c13b157d22f130985d61393569550139334749f4620af6339a831d91c56",
+          "inspectedAt": "2026-11-02T22:38:08.919Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual1254original/512WebP/120PNG separately viewed: fresh physical clipped sheet exact LOSS, SALE4, TOTAL COST6, equation4−6=−2. Negative net result corresponds to loss amount2, distinct from spent-cost6/gross-sale4 or mislaying cash. Every sign/number and label readable120, no return promise; restrained emerald/brass/pale finance object style. Fresh derivative pixels independently assessed.",
+          "reviewerId": "parent61-banking-ai"
+        }
+      }
+    },
+    {
+      "entryId": "budget",
+      "sourceWord": "budget",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "budget:meaning-1",
+          "pos": "n.",
+          "en": "A plan for the money expected to come in and how it will be spent or set aside during a period."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Our weekly budget sets aside thirty dollars for food and ten for bus tickets.",
+          "senseId": "budget:meaning-1"
+        },
+        {
+          "en": "We changed the plan when our expected income fell.",
+          "senseId": "budget:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/budget.webp",
+        "sha256": "342490a3a59e83ef78d75d1df5a8a9ba7924e4a4fcf9a9fb54fa9670c7bdbbbf"
+      },
+      "visual": {
+        "expectedCue": "One physical weekly BUDGET plan allocates INCOME40 to FOOD30 and BUS10; planned allocations rather than past payments or cash stock.",
+        "decision": "added",
+        "reason": "Actually viewed the new1254 original and its512WebP and120PNG separately. Physical planning sheet reads BUDGET/WEEK PLAN/INCOME40/FOOD30/BUS10; all characters legible120. Expected40 is allocated as30+10, clearly a weekly plan rather than past paid activity or account stock. Mug removed; restrained emerald type, brass clip and cream/pale dimensional still-life retain finance brief. New derivative independently assessed.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actually viewed the new1254 original and its512WebP and120PNG separately. Physical planning sheet reads BUDGET/WEEK PLAN/INCOME40/FOOD30/BUS10; all characters legible120. Expected40 is allocated as30+10, clearly a weekly plan rather than past paid activity or account stock. Mug removed; restrained emerald type, brass clip and cream/pale dimensional still-life retain finance brief. New derivative independently assessed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:26:55.146Z",
+        "reviewerId": "ai-parent61-finance-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "342490a3a59e83ef78d75d1df5a8a9ba7924e4a4fcf9a9fb54fa9670c7bdbbbf",
+          "inspectedAt": "2026-11-02T22:27:11.560Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual1254original/512WebP/120PNG separately viewed: fresh physical paper sheet reads BUDGET, WEEK PLAN, INCOME40, FOOD30, BUS10 with brass clip and no mug. Clear expected weekly allocation40=30+10; not past spending or cash. All letters and figures legible120; restrained emerald/brass pale-ground paper-object style. Review assesses this derivative actual pixels independently.",
+          "reviewerId": "parent61-banking-ai"
+        }
+      }
+    },
+    {
+      "entryId": "loan",
+      "sourceWord": "loan",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "loan:meaning-1",
+          "pos": "n.",
+          "en": "Money given to someone under an agreement that they will pay it back."
+        }
+      ],
+      "examples": [
+        {
+          "en": "She took out a loan of one hundred dollars to buy a desk.",
+          "senseId": "loan:meaning-1"
+        },
+        {
+          "en": "The agreement says when the borrowed money must be paid back.",
+          "senseId": "loan:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/loan.webp",
+        "sha256": "dac9a07a94915651434e065681f40e5ad6839dd8088b40d84c443a7573f085a8"
+      },
+      "visual": {
+        "expectedCue": "Physical LOAN agreement clearly commits BORROW100 to REPAY100, with money partly tucked beneath; received money with repayment obligation rather than gift or investment.",
+        "decision": "added",
+        "reason": "Actually viewed new1254 original, final512WebP and120PNG separately. Physical clipped paper reads LOAN/AGREED/BORROW100/REPAY100 with all lettering readable120; two unmarked green note shapes rest partly under paper. The agreement/borrow-and-repay relation establishes selected loan sense, not gift or cash stock. This is one fictional principal-only example, no general interest-free claim. Emerald/brass/pale dimensional object style matches finance brief; no obsolete cost labels or mug.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actually viewed new1254 original, final512WebP and120PNG separately. Physical clipped paper reads LOAN/AGREED/BORROW100/REPAY100 with all lettering readable120; two unmarked green note shapes rest partly under paper. The agreement/borrow-and-repay relation establishes selected loan sense, not gift or cash stock. This is one fictional principal-only example, no general interest-free claim. Emerald/brass/pale dimensional object style matches finance brief; no obsolete cost labels or mug."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:28:04.061Z",
+        "reviewerId": "ai-parent61-finance-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "dac9a07a94915651434e065681f40e5ad6839dd8088b40d84c443a7573f085a8",
+          "inspectedAt": "2026-11-02T22:28:54.045Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual1254original/512WebP/120PNG separately viewed: fresh clipped loan-agreement paper reads exactly LOAN, AGREED, BORROW100, REPAY100, clear120. Repayment obligation distinguishes loan from gift; green unmarked money sheets support context. This is a fictional principal-only example, not a claim all loans lack charges; source tip retains contingent interest/fees. No prior cost/mug content. Emerald/brass pale-ground paper still-life matches brief.",
+          "reviewerId": "parent61-banking-ai"
+        }
+      }
+    },
+    {
+      "entryId": "debt",
+      "sourceWord": "debt",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "debt:meaning-1",
+          "pos": "n.",
+          "en": "Money that a person or organization owes and has not yet paid back."
+        }
+      ],
+      "examples": [
+        {
+          "en": "His debt fell from one hundred dollars to eighty after he repaid twenty.",
+          "senseId": "debt:meaning-1"
+        },
+        {
+          "en": "The notebook lists the amount she still owes her brother.",
+          "senseId": "debt:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/debt.webp",
+        "sha256": "0146d61ceec671a34b2f08117b14648f3382e9045f38a4d33a6f0fa5fecc9bbe"
+      },
+      "visual": {
+        "expectedCue": "Physical DEBT record shows START100 minus PAID20 leaves OWED80, clearly the remaining obligation rather than cash owned.",
+        "decision": "added",
+        "reason": "Actually viewed new1254 original, final512WebP and120PNG separately. Large physical DEBT sheet shows START100/PAID20/OWED80 with final amount under a rule. All lettering readable120;100-20=80 and OWED label establish remaining obligation, not cash on hand, new advance or missing money. No old mug/cost labels. Emerald/brass/pale paper dimensional still-life matches finance rev1; fresh derivative assessed.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actually viewed new1254 original, final512WebP and120PNG separately. Large physical DEBT sheet shows START100/PAID20/OWED80 with final amount under a rule. All lettering readable120;100-20=80 and OWED label establish remaining obligation, not cash on hand, new advance or missing money. No old mug/cost labels. Emerald/brass/pale paper dimensional still-life matches finance rev1; fresh derivative assessed."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:29:04.736Z",
+        "reviewerId": "ai-parent61-finance-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "0146d61ceec671a34b2f08117b14648f3382e9045f38a4d33a6f0fa5fecc9bbe",
+          "inspectedAt": "2026-11-02T22:29:57.802Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual1254original/512WebP/120PNG separately viewed: fresh clipped paper exact DEBT, START100, PAID20, OWED80.100−20=80 correctly shows remaining obligation, distinct from cash balance or income. All text and arithmetic clear120; restrained emerald lettering/brass clip/pale physical sheet match finance still-life. Fresh derivative pixels independently assessed.",
+          "reviewerId": "parent61-banking-ai"
+        }
+      }
+    },
+    {
+      "entryId": "interest",
+      "sourceWord": "interest",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "interest:meaning-1",
+          "pos": "n.",
+          "en": "An extra amount charged for borrowing money, in addition to the amount borrowed."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The interest on this example loan is five dollars, so one hundred dollars borrowed becomes one hundred and five to repay, with no other charges.",
+          "senseId": "interest:meaning-1"
+        },
+        {
+          "en": "She checked the borrowing charge before signing the agreement.",
+          "senseId": "interest:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/interest.webp",
+        "sha256": "fae37e7ff4ab0b10816be08d7f1220dc40e90c5e4932b287a51b5c1625826c4f"
+      },
+      "visual": {
+        "expectedCue": "Physical borrowing sheet clearly shows LOAN100 plus INTEREST5 equals REPAY105, selecting borrowing cost rather than investment growth.",
+        "decision": "added",
+        "reason": "Actually viewed the new1254 original, final512WebP and120PNG separately. Physical sheet clearly reads LOAN100/+INTEREST5/REPAY105 with plus and separation rule, all exact characters readable120.100+5=105 shows the extra borrowing cost, no percentage, savings, return or growth promise. No old mug/cost labels; emerald lettering, brass clip and pale cream paper dimensional still-life match finance rev1.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actually viewed the new1254 original, final512WebP and120PNG separately. Physical sheet clearly reads LOAN100/+INTEREST5/REPAY105 with plus and separation rule, all exact characters readable120.100+5=105 shows the extra borrowing cost, no percentage, savings, return or growth promise. No old mug/cost labels; emerald lettering, brass clip and pale cream paper dimensional still-life match finance rev1."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:30:37.728Z",
+        "reviewerId": "ai-parent61-finance-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "fae37e7ff4ab0b10816be08d7f1220dc40e90c5e4932b287a51b5c1625826c4f",
+          "inspectedAt": "2026-11-02T22:31:15.240Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual1254original/512WebP/120PNG separately viewed: fresh physical clipped paper exact LOAN100, +INTEREST5, REPAY105; arithmetic100+5=105 clear120 and explicitly borrowing charge rather than investment return. No annual rate, guarantee or other-charge claim. Restrained emerald lettering/brass clip/pale sheet finance still-life; fresh derivative pixels independently assessed.",
+          "reviewerId": "parent61-banking-ai"
+        }
+      }
+    },
+    {
+      "entryId": "tax",
+      "sourceWord": "tax",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "tax:meaning-1",
+          "pos": "n.",
+          "en": "Money that a government requires people or businesses to pay to support public spending."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The receipt shows a tax of two dollars.",
+          "senseId": "tax:meaning-1"
+        },
+        {
+          "en": "The town uses some of the money collected to pay for street lights.",
+          "senseId": "tax:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/tax.webp",
+        "sha256": "f36f3efcbaee5278444b1adb1cb39c3858a5932bd5dd09d6e18451ad374f1ec9"
+      },
+      "visual": {
+        "expectedCue": "Physical GOVERNMENT TAX DUE2 notice makes compulsory government payment explicit, without generic fee/price/donation or jurisdiction-specific rule.",
+        "decision": "added",
+        "reason": "Actually viewed new1254 original, final512WebP and120PNG separately. Physical clipped notice clearly spells GOVERNMENT/TAX/DUE2; all characters including GOVERNMENT readable120. Required government payment is direct, distinct from generic seller price, fee or voluntary donation. Fictional unspecified amount, no rate/jurisdiction/seal/legal rule. Restrained emerald/brass/pale paper object style matches finance rev1, no old mug/labels.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actually viewed new1254 original, final512WebP and120PNG separately. Physical clipped notice clearly spells GOVERNMENT/TAX/DUE2; all characters including GOVERNMENT readable120. Required government payment is direct, distinct from generic seller price, fee or voluntary donation. Fictional unspecified amount, no rate/jurisdiction/seal/legal rule. Restrained emerald/brass/pale paper object style matches finance rev1, no old mug/labels."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:31:48.704Z",
+        "reviewerId": "ai-parent61-finance-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "f36f3efcbaee5278444b1adb1cb39c3858a5932bd5dd09d6e18451ad374f1ec9",
+          "inspectedAt": "2026-11-02T22:33:11.498Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual1254original/512WebP/120PNG separately viewed: physical clipped government notice exact GOVERNMENT, TAX, DUE2, all readable120. Required amount owed to government is explicit, unlike generic shop fee, tip or donation. Fictional2 asserts no jurisdiction or tax rate. Emerald lettering/brass clip/pale sheet match restrained finance object brief; fresh derivative independently inspected.",
+          "reviewerId": "parent61-banking-ai"
+        }
+      }
+    },
+    {
+      "entryId": "discount",
+      "sourceWord": "discount",
+      "categoryId": "economics-finance",
+      "meanings": [
+        {
+          "senseId": "discount:meaning-1",
+          "pos": "n.",
+          "en": "A reduction in the usual or stated price of something."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The shop offers a discount of two dollars on a ten-dollar bag.",
+          "senseId": "discount:meaning-1"
+        },
+        {
+          "en": "After the reduction, the buyer pays eight dollars instead of ten.",
+          "senseId": "discount:meaning-1"
+        }
+      ],
+      "asset": {
+        "path": "atlas/img/discount.webp",
+        "sha256": "9ce80f9f4c2a7b79eacadd83e1b52e54bb01fb41a0e9284aff5a04cc9b208db6"
+      },
+      "visual": {
+        "expectedCue": "Same mug with attached discount tag WAS10 LESS2 NOW8; old price reduced by2 to8, distinct from refund or cash savings.",
+        "decision": "added",
+        "reason": "Actually viewed new1254 original, final512WebP and120PNG separately. One mug is physically tied to a large tag reading DISCOUNT/WAS10/LESS2/NOW8. Only old10 is struck, remains readable;10-2=8 and2 is the reduction,8 the new price. All essential letters/numbers legible120. Single-item price reduction distinguishes refund or unrelated price comparison. Emerald mug/type, brass tie and pale/cream still-life match finance rev1; no old cost labels or clip.",
+        "languageId": "economics-finance",
+        "languageSha256": "f7e2b31d70b74dd0039de24a79c6f904bd1252bed27ef98db910a92976e24407",
+        "styleInspection": "Actually viewed new1254 original, final512WebP and120PNG separately. One mug is physically tied to a large tag reading DISCOUNT/WAS10/LESS2/NOW8. Only old10 is struck, remains readable;10-2=8 and2 is the reduction,8 the new price. All essential letters/numbers legible120. Single-item price reduction distinguishes refund or unrelated price comparison. Emerald mug/type, brass tie and pale/cream still-life match finance rev1; no old cost labels or clip."
+      },
+      "review": {
+        "method": "AI visual inspection",
+        "humanReviewed": false,
+        "inspectedAt": "2026-11-02T22:33:14.717Z",
+        "reviewerId": "ai-parent61-finance-author",
+        "secondaryInspection": {
+          "method": "Second AI visual inspection",
+          "humanReviewed": false,
+          "assetSha256": "9ce80f9f4c2a7b79eacadd83e1b52e54bb01fb41a0e9284aff5a04cc9b208db6",
+          "inspectedAt": "2026-11-02T22:35:50.724Z",
+          "inspectedSizes": [
+            1254,
+            512,
+            120
+          ],
+          "finding": "Actual1254original/512WebP/120PNG separately viewed: same single mug physically tied to large tag reading DISCOUNT, WAS10 with thin strike still readable, LESS2, NOW8.10−2=8 correctly distinguishes reduction2 from final8 and refund; all text readable120. Fresh tag-object derivative differs from old cost worksheet, restrained emerald/brass/pale style.",
+          "reviewerId": "parent61-banking-ai"
+        }
+      }
     }
   ]
 }

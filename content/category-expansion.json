@@ -15,7 +15,7 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "business-management",
+  "currentCategoryId": "economics-finance",
   "nextCategoryId": "economics-finance",
   "categoryOrder": [
     "cooking-food-drink",
@@ -6804,9 +6804,87 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "economics-finance",
+      "visualLanguageId": "economics-finance",
+      "baselineCategoryWords": 3,
+      "targetCategoryWords": 27,
+      "entryIds": [
+        "banknote",
+        "cash",
+        "bank",
+        "atm",
+        "debit-card",
+        "credit-card",
+        "cheque",
+        "payment",
+        "bank-account",
+        "deposit",
+        "withdrawal",
+        "refund",
+        "price",
+        "cost",
+        "income",
+        "expense",
+        "profit",
+        "loss",
+        "budget",
+        "loan",
+        "debt",
+        "interest",
+        "tax",
+        "discount"
+      ],
+      "units": [
+        {
+          "id": "banking-transactions",
+          "title": "Everyday banking and money transfers",
+          "entryIds": [
+            "banknote",
+            "cash",
+            "bank",
+            "atm",
+            "debit-card",
+            "credit-card",
+            "cheque",
+            "payment",
+            "bank-account",
+            "deposit",
+            "withdrawal",
+            "refund"
+          ]
+        },
+        {
+          "id": "finance-records",
+          "title": "Prices, budgets and money records",
+          "entryIds": [
+            "price",
+            "cost",
+            "income",
+            "expense",
+            "profit",
+            "loss",
+            "budget",
+            "loan",
+            "debt",
+            "interest",
+            "tax",
+            "discount"
+          ]
+        }
+      ],
+      "id": "economics-finance-category-expansion-batch-61-ready-1",
+      "releaseId": "2026-10-preview-68",
+      "status": "published-preview",
+      "objective": "Learn Everyday banking and money transfers; Prices, budgets and money records in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-60-ready-1",
+  "activePassId": "category-expansion-batch-61-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",

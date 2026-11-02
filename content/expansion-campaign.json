@@ -16288,6 +16288,620 @@
           "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-61-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-68",
+      "sourceFiles": [
+        "banking-transactions.json",
+        "finance-records.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-67",
+        "manifest": "content/releases/2026-10-preview-67-1eb82530e776/manifest.json",
+        "manifestSha256": "1eb82530e7767f9f6be9a2763e6e24baa18c651f77de8321a62850d34b8b7ad8",
+        "words": 1547
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "banknote",
+            "lexicalBinding": "b876546c6ce4e83e5e80496b89bd72a2608bde489add25e5b75034f6b78796a6",
+            "sourceImageSha256": "92e2e4462d2e22667d3e7c78ff6b6fb504738ab9a606f8f6ea36cba7a53a09b4",
+            "cardSha256": "c8ae5791d205d5e4ea549f6caee3bf9b616223b1fde2b0eef70afd0b9a6c979c",
+            "thumbnailSha256": "da9ceca82c50583389de43afb6c98f7c1fac2266ddac823cf5f36d165501cbc8",
+            "authorPixelBinding": "43483215d67e71aad32a80239e43a688eae024322920204fd821849be94d0ed6",
+            "secondPixelBinding": "99f5772fc1b61070a7678ba22c58b5c43ca78360c0f142864e33816df8347ce6"
+          },
+          {
+            "entryId": "cash",
+            "lexicalBinding": "9a1f9bb394bdecc11932a6e4603e5e2c00ea8758017090ff14d63616cce0db32",
+            "sourceImageSha256": "17057959d16178a10ac0d9c972a2309c79a22c9d3fcbb802017748f26bff122a",
+            "cardSha256": "d5359d1c161f4abd5574f07f76762f21ec4e4f5389edbc1832d27199adedc96b",
+            "thumbnailSha256": "9d6e0f5a6cf828f7ac5b748519986e49d4eb13051c93f1baf553c7be485318f5",
+            "authorPixelBinding": "9d198b5a1920531f4740727b8551a0beec772b25ef517e22145b9c6c9fcced98",
+            "secondPixelBinding": "875447c7a192345627123a07f536a8e1d04809dc32ec8ec346b812e8de800f6a"
+          },
+          {
+            "entryId": "bank",
+            "lexicalBinding": "d771666ab7a31cc77075c293cb9b326b85139d657b5930d3ae19a17d53fbb23e",
+            "sourceImageSha256": "8ee27f3c50a649056e1333cb020b63ce289456a047265113175bf4661497cee3",
+            "cardSha256": "d3b098dffaf22315335338cea938d2de78b2bf1a301028c64009472ce6a70a59",
+            "thumbnailSha256": "95f4999d9556d1a5c8730a61dbca2c68e4241bac13977df8d25339bcd0fd3669",
+            "authorPixelBinding": "9621e50512a615506d054da334a97185a65c00afdcbda080a8c5c84878645996",
+            "secondPixelBinding": "c7c97711cab61663deefa717473aa469a01da2a5671bc239449d9a83f6f86862"
+          },
+          {
+            "entryId": "atm",
+            "lexicalBinding": "533832320c55274a37b6fedf313534207ef745e24dd0c0c34cc3b12d39be3474",
+            "sourceImageSha256": "41e0266b4ee338e6c54da8c1fb50470a63fe6baf9361a1ad855a70908634289c",
+            "cardSha256": "673e9c466daf6cd58c1b5d73ec952490d99b2038f610c75ae6cea1c0599f99e4",
+            "thumbnailSha256": "bb6e0ac4bbd3fa192cc2fc94f03a14784817a9d811b3148c74f8e53099b75ba2",
+            "authorPixelBinding": "e96f8b9c7bd95e6caedb50f501e872fb11355e388e9107eedc21e1ebba7084c5",
+            "secondPixelBinding": "52dd455fa2ed4afd47808eebc1c6b9cf7d3aeec7ad9ff946c5de9716a33aaf97"
+          },
+          {
+            "entryId": "debit-card",
+            "lexicalBinding": "408cdc89147cb8a495e169271b615da481e5b95237d01330ec7ca63add648462",
+            "sourceImageSha256": "ee1e8ac96607e5ed5f820d056b9f93c949a47b2a4cddf0997e143a11a78ef539",
+            "cardSha256": "ecb0fa01c81fd1e9685ded4a7ca3db58334e23955b7768d2260836562bfa8963",
+            "thumbnailSha256": "f1991a96da6635e36977c8a2dd877b3cf85ffd16e061dba0a6782931127947cf",
+            "authorPixelBinding": "9e595942c68e6c05358a053bab8441e0c4deb9dd3a29685148b1231c2aaaf677",
+            "secondPixelBinding": "95aa608240957172dadec8a300d0f93b9355ca0470664f40a7e88c6b3a26a94f"
+          },
+          {
+            "entryId": "credit-card",
+            "lexicalBinding": "8dc5c9c00b36683abf93540af234366e8a627181d9a86d67b6aa5fb0ab461654",
+            "sourceImageSha256": "904afdeea45e8625d9fcd8971f65ad186269bc4064523a5e67529983c1997c23",
+            "cardSha256": "a8dd0a7024c46c45f6aa92b042eae9ad0ebd0c9996e56d30685663916928cae7",
+            "thumbnailSha256": "588c0c56d4792c64666e935f47c0428b0ace24f6fb293b9deba06cf28a01d767",
+            "authorPixelBinding": "50f6e8331fad049805be1926da433c759ee556b2db35b899339eb1e042af4b61",
+            "secondPixelBinding": "f11117645fffb996c0d3b0ff74ab7f2160b43e3753415c5ec86208f95250c1f0"
+          },
+          {
+            "entryId": "cheque",
+            "lexicalBinding": "346a35af8ff3d25d4a1a4240ece887deb85a6080706a67d6b76a6aef03903e31",
+            "sourceImageSha256": "c275c81a8005a241bdb53362450535fe01fbdc36615515731a979e153b11a8c9",
+            "cardSha256": "34d671f1286160921f9833839698289862dd915bf0924674b4947c0b2d48ad0b",
+            "thumbnailSha256": "18bcd9d956f88c4cc87666fe0eff34a68e583dce0787e6e2bee76fb2c91cc36d",
+            "authorPixelBinding": "70dad0bf5b57fd133c2797b3b5a842a8521005d1b4bed1586b3af470a1d030e2",
+            "secondPixelBinding": "5f11b66a882c91bd62513c24b5b12050f4cc7f2389cb44b5b4ec015304d6a4ac"
+          },
+          {
+            "entryId": "payment",
+            "lexicalBinding": "80e813071e1fe0e0b5d7b2cac256e269218d555f9474534b90dac69619336087",
+            "sourceImageSha256": "e99987736d632aeb316e60b72e014d891e2ea15656f7810071359c488ea3cb26",
+            "cardSha256": "d9973108d5de9b1cea8812e10a4a79e5c3bfa63b9c65db072346ea7ebe9531b6",
+            "thumbnailSha256": "040c64054cc2f38eb9c21b11b97d6dd1f75d4f752e25010ef93f7b0c46005f87",
+            "authorPixelBinding": "4a4e7b84d9cc194e8ce5b72d5b93660ba76bedf8ea752fff26efbb7ad910be3b",
+            "secondPixelBinding": "64f77d39b54a94c43340c168be0e0fdf3f2ebedda96a9f99771be58ff08eb6c7"
+          },
+          {
+            "entryId": "bank-account",
+            "lexicalBinding": "49595d249e877c81210135f1ccc7f5e4582dc5b4775aa00561b58379a2ff86f7",
+            "sourceImageSha256": "8de05331e56f84235c5151f1745e7c4a0eb8ed3c5bf6d8e0ac712fb3fa247d2d",
+            "cardSha256": "4e6b5f190e0e8eddba9f53078ca5a271f71cdd922b8526b26e839bbc4141710f",
+            "thumbnailSha256": "03f65382dcce46e5f1d6d2fda8773e95f6a57aa8ef36c65df8524e6d8e944c1a",
+            "authorPixelBinding": "71999579c25cd1f6dc60d8e27b999a47179a5d81eb8f03aa85a64369325f4ead",
+            "secondPixelBinding": "5948653dbf8c659bb252e891bc1ec06f36238d5225b405b36cf36806273818d4"
+          },
+          {
+            "entryId": "deposit",
+            "lexicalBinding": "06bd0190a3e4fea032d93d95ecb39c37d07bcf49ee1cf9b422b79d58af350b81",
+            "sourceImageSha256": "d8638b6ff74b6ceb0e3cbefb26d05d1c5903186e4e74e3541d8f7978c81e9d44",
+            "cardSha256": "99d85b61c2e30b261cd1d04af1ec68cefb20422d8cdc731aa5f61b9887e7e670",
+            "thumbnailSha256": "ba8ddea1200f81316cb11b8251565a1e3c2b0031d05313d2c06fd3bc361827f6",
+            "authorPixelBinding": "39268d3d9746b7cd4856618fc54aec38abd5b6e8186bfbd18eb9cbcb0e0e5a02",
+            "secondPixelBinding": "7bd30d37701dd1128650ac1e8ffc8763555a0592589488e23a23a943011ccd6c"
+          },
+          {
+            "entryId": "withdrawal",
+            "lexicalBinding": "597fc4d985ee258ce1f3a2ca40b0b3b8f82b5080b449587e2826ceb1cad9dd6d",
+            "sourceImageSha256": "50ec72e34664ba1d47b3e2a351cad0caf42a040987ea4b54aac3de519c5e3cfc",
+            "cardSha256": "fc14945d66e8eb60c50b469eb94280ad4f4b01fccb23ca04e5d2607a358f75cb",
+            "thumbnailSha256": "f053797f1821a51343eb904fc45db7b855f6c1d0a408dd51413f338171987a42",
+            "authorPixelBinding": "f0c53d7f37ec1c0ad39ff696777d7a2dbb1704d60c57bc3d0e54d87dcfc25e39",
+            "secondPixelBinding": "e8715725506ab5868d1e82d6ef1202eef3b83b32be0a422a8b5b6c50091d35af"
+          },
+          {
+            "entryId": "refund",
+            "lexicalBinding": "bb75a0f72f44f56d19a8a030bdb9f4c3f361e30939e4dfba6a9214d165a19013",
+            "sourceImageSha256": "13362c63fa8233729d8c028f3434a3f90e8467b87209b35aca4a06d15c34f006",
+            "cardSha256": "2f5db9ff332b3b758ffde429f900284738853aa4eb0fcd8d37b8874f17a47d5e",
+            "thumbnailSha256": "c86d17d699087f542084b5b8c64303c5edf17f37c5b1fea8a298bc48e90d99af",
+            "authorPixelBinding": "ac3f0f404caaaab9765da60c22fef53c61d0dc8a10714a32a6a6991207392de7",
+            "secondPixelBinding": "30ce506dc87514bae5b744c8755e9a58127e7549a2b99f18e5ef8edc8cd2735b"
+          },
+          {
+            "entryId": "price",
+            "lexicalBinding": "6c94f4e8b967979c128b625114e9cc997635fb7b67237d3a720dd3de0043ddb8",
+            "sourceImageSha256": "24e8141ae50e17e74953a5d9bba7e50863334edf4ee016b06f633c6c6db3a1a5",
+            "cardSha256": "f40c89a59fc76a244d37fb6f5da776ab66efba3889cf00f3a30781a8bb1afa73",
+            "thumbnailSha256": "7807059146e3c9d6b72023252d731c19037b97ab489333d34ba38525b1383ade",
+            "authorPixelBinding": "30d2f4638ac6ef3e92f1c4cf998f646531db22a6bd4509ec5004a887fcfec6f9",
+            "secondPixelBinding": "ccaa7a757b02163f539b201cbc8e1f3a879895dae100aaaf03df08493430ba25"
+          },
+          {
+            "entryId": "cost",
+            "lexicalBinding": "1e3e2b8693e4b213917f27c61bf4bd4be4a7eb8c44ec55db24af50cdccd7eec4",
+            "sourceImageSha256": "6b81f4f2df85c64e9f0a1d58f8ace461367ee53616bd67e39542394790b9f8da",
+            "cardSha256": "3e79038087951a15d2b05106c4e11b2c4972b9255a9409bd259f73e6ed7969cc",
+            "thumbnailSha256": "2ab9088a422d8e286c0c85c973b50461011059303795de5b0f4872082f6d7a90",
+            "authorPixelBinding": "d7ece647046f432999e520cd94d7112a93942f8c1f917c033d7b679530340fcf",
+            "secondPixelBinding": "e32c7084fcee7a8688785771c0b553f88cc506dfec4a8345917e10aa7527357f"
+          },
+          {
+            "entryId": "income",
+            "lexicalBinding": "b4ae0ea9f7572973368b724fb43d38721b6eb6e564f66f1b7f15fbbc25c8e18b",
+            "sourceImageSha256": "ee17cfaac86cba3cffce79dec2d793473f4f7fb12b5382199b76c91e1bd7fbb0",
+            "cardSha256": "40b74e9072c90c1dcd345cfbc48990f703cf5c826c42f77a0c20e31367726d7b",
+            "thumbnailSha256": "e373f7cd0fd4d2e6e8f896adfd45c2252948e1dc88d8f4eb21c1e25e344877bf",
+            "authorPixelBinding": "31608003c96bd4a79f1ff41e8e28233ffde32f0fe5b71f2a3861e69a17486683",
+            "secondPixelBinding": "662be1c1b9986133a85bafa9f8f3f6aa3bc08a3933771e7c1897d5417b6d1224"
+          },
+          {
+            "entryId": "expense",
+            "lexicalBinding": "a9ada0119c28f8de1a90e92c65ecf199d533ecf49eb4fd5b176978ae51ea05d4",
+            "sourceImageSha256": "1757cbde96605593be42d420ff32690f7ce3bdfb0a2662bdca6409d430020d4c",
+            "cardSha256": "918f7bbf4421dafd751d13bcc6397619d0c09d15bfdac09f2e19308aa5313ccb",
+            "thumbnailSha256": "c87f5093212d6d8c0ce2cb2c18cef845bd8e24e8b4cc0872cdecace0f79ebed4",
+            "authorPixelBinding": "92acb17e122f0ca3fb259164c0575d7d860a223bcf0b58cfd31d3de0d6278cc0",
+            "secondPixelBinding": "a3c9690d57ddc4faa1200bdb0ec3320ba4fa19b79f918c28e82219266b542057"
+          },
+          {
+            "entryId": "profit",
+            "lexicalBinding": "6563a62e8a451d25a49999e9b729e112ccc9856bdda53afad37ec04f9a9c2fdc",
+            "sourceImageSha256": "13f65fd49e0d0a8a9a771db5e885c37defee7d7b796bec3cb659d50263f9550e",
+            "cardSha256": "4c64e9080dea214271e559afaf7cd8b42a972ac3eeb0d3d4b1fba1741fb54bdc",
+            "thumbnailSha256": "368d198a9147f3f3a86c6f21db826a5ec9c30fd90633ae35fdca4ae8b051b65c",
+            "authorPixelBinding": "3e2ba0c8d9f897e74d415f0eb67a1e8ccc3fae87c80d801af11985691725c35a",
+            "secondPixelBinding": "41c26204f661b736687710ddce57e405cb89e361fb42182a762799623fdc50c3"
+          },
+          {
+            "entryId": "loss",
+            "lexicalBinding": "a914c27d30f0b148d52099b65dee06746b9928a0cf005f7664f0d92faddc7c78",
+            "sourceImageSha256": "32c72b59b6d9c15aed10bbe140f22f32753db976331d6d59029d61050871e558",
+            "cardSha256": "30af3c13b157d22f130985d61393569550139334749f4620af6339a831d91c56",
+            "thumbnailSha256": "152b4f468e5759b05bccf2370cc07f632eeabdc1c722855ada3266151c26b2bf",
+            "authorPixelBinding": "468658e311c2261ff25d463126baccf3af20c5467a5c348d7d6b67eee5deae8c",
+            "secondPixelBinding": "a23986ed40a7dfbc4bf18586c33f26a04caa37d1df0696addbd51ccc5e3ed315"
+          },
+          {
+            "entryId": "budget",
+            "lexicalBinding": "46f929d5208a00f0af779373ae1d20a8f95f275b008f11a3d6825486a0994107",
+            "sourceImageSha256": "2c5355c2ab1416c0754d9e514b5864ef9b77958cc1e0a2537c826b510b9f3284",
+            "cardSha256": "342490a3a59e83ef78d75d1df5a8a9ba7924e4a4fcf9a9fb54fa9670c7bdbbbf",
+            "thumbnailSha256": "f7dec4686cca1a728cdbca6b7ea0509de7568ba5eca312a4cccbccc82d69761e",
+            "authorPixelBinding": "a30e55a90abed42069a4a021be8d32f78e94d74d95d2024eab973761c446b67e",
+            "secondPixelBinding": "4f69ce228c1dda9c6393cd3ce9f30bc69d127a2f558e0ee3dfbb98f938972889"
+          },
+          {
+            "entryId": "loan",
+            "lexicalBinding": "101be6d42c6365d3a5e209c173f171fd75c509a2e540c2032c150a7ad1432d67",
+            "sourceImageSha256": "e34fb69156e5a8bb1389fd5ea0da8594d6b50e6fbf62dcaa6e33ea54e58fa33a",
+            "cardSha256": "dac9a07a94915651434e065681f40e5ad6839dd8088b40d84c443a7573f085a8",
+            "thumbnailSha256": "402542e5dd7cb49996500d10541f51c8d03f38f9c778934a18fdd7a8ae968dfb",
+            "authorPixelBinding": "841e575346ef28bf504516085fa9e79957a8e09ef29e875aeb435432625629f2",
+            "secondPixelBinding": "60a92cf0462f784b8bc057fa974eb08729208241f1d41306d5a2930d8738013e"
+          },
+          {
+            "entryId": "debt",
+            "lexicalBinding": "e65552fb400309e6b54619fee48e63316db43ba0c8394d9c1a796654bb497d36",
+            "sourceImageSha256": "75bd566731c3ea0cae1dc08d1f683c5f9753c5afb778b5d29b50d1bfdd083173",
+            "cardSha256": "0146d61ceec671a34b2f08117b14648f3382e9045f38a4d33a6f0fa5fecc9bbe",
+            "thumbnailSha256": "dbb4e6260cf3a4cc0d774f0519eba0028b57aafbdaa7c5ab4ad50b80a7a61e32",
+            "authorPixelBinding": "93733907ed9dd7aa2c8b23dce90af97200f25b3b0007ccb600f3e48ed778cd23",
+            "secondPixelBinding": "2f9ca37408ff13624fe3d005070583e601289becac73a50c2492f659bdf7940e"
+          },
+          {
+            "entryId": "interest",
+            "lexicalBinding": "23aa2fc936a7468be7e1eaa568c94c52ba2603afe9840efab9bd6a9a8f4149dd",
+            "sourceImageSha256": "2ef854dfe496fdd4d704a84f90d5ac88d8b158f9ec05c53733bea1373f58dd23",
+            "cardSha256": "fae37e7ff4ab0b10816be08d7f1220dc40e90c5e4932b287a51b5c1625826c4f",
+            "thumbnailSha256": "431eec220e0f4b32a75557f61e3986c8e3a5eae8db900f3366b3a05b0328bde7",
+            "authorPixelBinding": "2bc62696c79bb25d6d21116080636a82946b41b93df308e9225d35ca96f98c4b",
+            "secondPixelBinding": "3306d76dffbcd3af2654e66105be235a2974540953696fcf5bf5ce0188ee02b9"
+          },
+          {
+            "entryId": "tax",
+            "lexicalBinding": "b4f55ca60e34ee71ef0570f0349c9626dc2182720a61c79a9f55ef334150555a",
+            "sourceImageSha256": "0bbdd30f9d67c460636a3d5041425c3568e331852c161cecc09afa6abdb29865",
+            "cardSha256": "f36f3efcbaee5278444b1adb1cb39c3858a5932bd5dd09d6e18451ad374f1ec9",
+            "thumbnailSha256": "733777d0fe1f5be5e6223c7389e855f8ab143d86a13157186b926a999d968973",
+            "authorPixelBinding": "1483a7e0ee00d9db4840795bc9742edf85a382442f0af2cbf74a133213861fc5",
+            "secondPixelBinding": "38f467f4055d517fa8dabcfe1e4a9a5b8e71921d85d9d701820707f2d670bfad"
+          },
+          {
+            "entryId": "discount",
+            "lexicalBinding": "76ae70ad5ee96e63a448bf35f108ac11c5176a70bb7328ec83fd7393ba44f42b",
+            "sourceImageSha256": "2a473b71db412051901b7875cf8b2bf76d533f083bb0b2982bf79bbe9c7e913f",
+            "cardSha256": "9ce80f9f4c2a7b79eacadd83e1b52e54bb01fb41a0e9284aff5a04cc9b208db6",
+            "thumbnailSha256": "b38c1c6d6b02b828bfd4af7d7c26aec48b8c8df9d274592092e8835b6fb5fa2a",
+            "authorPixelBinding": "f0a66946d719d3480f5bfb83c8ce2696c8e89cb06ce2f7fbee868c82110d6934",
+            "secondPixelBinding": "d202f320b27ce5d6a5f5e87f7c598aee463972c3d7c2080642a75a3a3b3d7ed3"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "economics-finance",
+          "visualLanguageId": "economics-finance",
+          "baselineCategoryWords": 3,
+          "targetCategoryWords": 27,
+          "entryIds": [
+            "banknote",
+            "cash",
+            "bank",
+            "atm",
+            "debit-card",
+            "credit-card",
+            "cheque",
+            "payment",
+            "bank-account",
+            "deposit",
+            "withdrawal",
+            "refund",
+            "price",
+            "cost",
+            "income",
+            "expense",
+            "profit",
+            "loss",
+            "budget",
+            "loan",
+            "debt",
+            "interest",
+            "tax",
+            "discount"
+          ],
+          "units": [
+            {
+              "id": "banking-transactions",
+              "title": "Everyday banking and money transfers",
+              "entryIds": [
+                "banknote",
+                "cash",
+                "bank",
+                "atm",
+                "debit-card",
+                "credit-card",
+                "cheque",
+                "payment",
+                "bank-account",
+                "deposit",
+                "withdrawal",
+                "refund"
+              ]
+            },
+            {
+              "id": "finance-records",
+              "title": "Prices, budgets and money records",
+              "entryIds": [
+                "price",
+                "cost",
+                "income",
+                "expense",
+                "profit",
+                "loss",
+                "budget",
+                "loan",
+                "debt",
+                "interest",
+                "tax",
+                "discount"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "24 established globally and all prior private-queue absent English heads. Prior60 fully live/reconciled with all10697seal pins and actualfinalpeer verified before selection. Economics-finance3of50 allows24 toward27 thisrun; no parent62selected. Full content and genuine three-size author/different-second pixel gates required. No existing economics-finance template; register only genuinely paired suitable originals before derivative reuse.",
+      "parentBatchId": "category-expansion-batch-61",
+      "completedAt": "2026-11-02T22:44:26.611Z",
+      "factualReferences": [
+        {
+          "entryId": "banknote",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika everyday banking and money transactions vocabulary contribution",
+          "use": "Original EN/FA selected sense and complete PT-BR/es-419 scaffolding; original examples and distinctions, approximate editorial CEFR and IPA. AI-assisted CC BY 4.0 preview; independent human language and financial/domain review pending. No external dictionary wording or artwork copied. No universal jurisdiction rules, account terms, returns, rates, tax or legal advice."
+        },
+        {
+          "entryId": "banknote",
+          "sourceType": "authoritative-factual-reference",
+          "url": "https://www.bankofengland.co.uk/banknotes",
+          "title": "Bank of England — Banknotes",
+          "use": "Factual check that notes represent stated denominations and may be polymer; no currency design or wording reused.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "cash",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika everyday banking and money transactions vocabulary contribution",
+          "use": "Original EN/FA selected sense and complete PT-BR/es-419 scaffolding; original examples and distinctions, approximate editorial CEFR and IPA. AI-assisted CC BY 4.0 preview; independent human language and financial/domain review pending. No external dictionary wording or artwork copied. No universal jurisdiction rules, account terms, returns, rates, tax or legal advice."
+        },
+        {
+          "entryId": "cash",
+          "sourceType": "authoritative-factual-reference",
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/museum/futureproofing-todays-systems.pdf",
+          "title": "Bank of England Museum — The future of money, pack 2",
+          "use": "Factual check of cash as physical notes and coins only; no legal-tender or acceptance rule asserted.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "bank",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika everyday banking and money transactions vocabulary contribution",
+          "use": "Original EN/FA selected sense and complete PT-BR/es-419 scaffolding; original examples and distinctions, approximate editorial CEFR and IPA. AI-assisted CC BY 4.0 preview; independent human language and financial/domain review pending. No external dictionary wording or artwork copied. No universal jurisdiction rules, account terms, returns, rates, tax or legal advice."
+        },
+        {
+          "entryId": "bank",
+          "sourceType": "authoritative-factual-reference",
+          "url": "https://consumer.gov/your-money/opening-bank-account",
+          "title": "Federal Trade Commission — Opening a Bank Account",
+          "use": "Factual check of banks and account/payment services; original broad institutional sense, with no universal terms or safety guarantee.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "atm",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika everyday banking and money transactions vocabulary contribution",
+          "use": "Original EN/FA selected sense and complete PT-BR/es-419 scaffolding; original examples and distinctions, approximate editorial CEFR and IPA. AI-assisted CC BY 4.0 preview; independent human language and financial/domain review pending. No external dictionary wording or artwork copied. No universal jurisdiction rules, account terms, returns, rates, tax or legal advice."
+        },
+        {
+          "entryId": "atm",
+          "sourceType": "authoritative-factual-reference",
+          "url": "https://www.helpwithmybank.gov/glossary/index-glossary.html",
+          "title": "Office of the Comptroller of the Currency — Glossary of Banking Terms and Phrases",
+          "use": "Factual check of automated teller machines and cash access; no universal card-only, fee or availability claim.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "debit-card",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika everyday banking and money transactions vocabulary contribution",
+          "use": "Original EN/FA selected sense and complete PT-BR/es-419 scaffolding; original examples and distinctions, approximate editorial CEFR and IPA. AI-assisted CC BY 4.0 preview; independent human language and financial/domain review pending. No external dictionary wording or artwork copied. No universal jurisdiction rules, account terms, returns, rates, tax or legal advice."
+        },
+        {
+          "entryId": "debit-card",
+          "sourceType": "authoritative-factual-reference",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-are-prepaid-cards-debit-cards-and-credit-cards-different-en-433/",
+          "title": "Consumer Financial Protection Bureau — How prepaid, debit and credit cards differ",
+          "use": "Factual check of linked-account spending versus borrowing and the overdraft qualification; no fee, timing or consumer-rights rule generalized.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "credit-card",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika everyday banking and money transactions vocabulary contribution",
+          "use": "Original EN/FA selected sense and complete PT-BR/es-419 scaffolding; original examples and distinctions, approximate editorial CEFR and IPA. AI-assisted CC BY 4.0 preview; independent human language and financial/domain review pending. No external dictionary wording or artwork copied. No universal jurisdiction rules, account terms, returns, rates, tax or legal advice."
+        },
+        {
+          "entryId": "credit-card",
+          "sourceType": "authoritative-factual-reference",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-are-prepaid-cards-debit-cards-and-credit-cards-different-en-433/",
+          "title": "Consumer Financial Protection Bureau — How prepaid, debit and credit cards differ",
+          "use": "Factual check of credit-card borrowing and repayment, contrasted with debit; no rate, grace-period or repayment schedule asserted.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "cheque",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika everyday banking and money transactions vocabulary contribution",
+          "use": "Original EN/FA selected sense and complete PT-BR/es-419 scaffolding; original examples and distinctions, approximate editorial CEFR and IPA. AI-assisted CC BY 4.0 preview; independent human language and financial/domain review pending. No external dictionary wording or artwork copied. No universal jurisdiction rules, account terms, returns, rates, tax or legal advice."
+        },
+        {
+          "entryId": "cheque",
+          "sourceType": "authoritative-factual-reference",
+          "url": "https://www.helpwithmybank.gov/glossary/index-glossary.html",
+          "title": "Office of the Comptroller of the Currency — Glossary of Banking Terms and Phrases",
+          "use": "Factual check of check as a written payment instruction; original selected sense avoids jurisdiction-specific form requirements.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "cheque",
+          "sourceType": "authoritative-factual-reference",
+          "url": "https://www.federalreserveconsumerhelp.gov/deposits-withdrawals/",
+          "title": "Federal Reserve Consumer Help — Deposits & Withdrawals",
+          "use": "Factual check that access to deposited check funds can be delayed and funds may be reversed; no timing or legal rule copied.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "payment",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika everyday banking and money transactions vocabulary contribution",
+          "use": "Original EN/FA selected sense and complete PT-BR/es-419 scaffolding; original examples and distinctions, approximate editorial CEFR and IPA. AI-assisted CC BY 4.0 preview; independent human language and financial/domain review pending. No external dictionary wording or artwork copied. No universal jurisdiction rules, account terms, returns, rates, tax or legal advice."
+        },
+        {
+          "entryId": "payment",
+          "sourceType": "authoritative-factual-reference",
+          "url": "https://catalog.fdic.gov/catalog/sfc/servlet.shepherd/document/download/069t000000BcgxyAAB",
+          "title": "FDIC Money Smart for Adults — Module 2: You Can Bank On It",
+          "use": "Factual check that payments may be made electronically through bank accounts; original general payment wording without legal or settlement-time claims.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "bank-account",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika everyday banking and money transactions vocabulary contribution",
+          "use": "Original EN/FA selected sense and complete PT-BR/es-419 scaffolding; original examples and distinctions, approximate editorial CEFR and IPA. AI-assisted CC BY 4.0 preview; independent human language and financial/domain review pending. No external dictionary wording or artwork copied. No universal jurisdiction rules, account terms, returns, rates, tax or legal advice."
+        },
+        {
+          "entryId": "bank-account",
+          "sourceType": "authoritative-factual-reference",
+          "url": "https://consumer.gov/your-money/opening-bank-account",
+          "title": "Federal Trade Commission — Opening a Bank Account",
+          "use": "Factual check of bank accounts, deposits and payments; original selected account sense without any universal product terms.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "deposit",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika everyday banking and money transactions vocabulary contribution",
+          "use": "Original EN/FA selected sense and complete PT-BR/es-419 scaffolding; original examples and distinctions, approximate editorial CEFR and IPA. AI-assisted CC BY 4.0 preview; independent human language and financial/domain review pending. No external dictionary wording or artwork copied. No universal jurisdiction rules, account terms, returns, rates, tax or legal advice."
+        },
+        {
+          "entryId": "deposit",
+          "sourceType": "authoritative-factual-reference",
+          "url": "https://www.federalreserveconsumerhelp.gov/deposits-withdrawals/",
+          "title": "Federal Reserve Consumer Help — Deposits & Withdrawals",
+          "use": "Factual check of deposit/account use and possible holds; illustrative balance arithmetic ignores fees and does not promise immediate availability.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "withdrawal",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika everyday banking and money transactions vocabulary contribution",
+          "use": "Original EN/FA selected sense and complete PT-BR/es-419 scaffolding; original examples and distinctions, approximate editorial CEFR and IPA. AI-assisted CC BY 4.0 preview; independent human language and financial/domain review pending. No external dictionary wording or artwork copied. No universal jurisdiction rules, account terms, returns, rates, tax or legal advice."
+        },
+        {
+          "entryId": "withdrawal",
+          "sourceType": "authoritative-factual-reference",
+          "url": "https://www.fdic.gov/consumer-compliance-examination-manual/vi-2-electronic-fund-transfer-act",
+          "title": "FDIC — Electronic Fund Transfer Act examination manual",
+          "use": "Factual check of cash withdrawals and account transfers as banking operations; no jurisdictional rule, fee or withdrawal limit included.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "refund",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika everyday banking and money transactions vocabulary contribution",
+          "use": "Original EN/FA selected sense and complete PT-BR/es-419 scaffolding; original examples and distinctions, approximate editorial CEFR and IPA. AI-assisted CC BY 4.0 preview; independent human language and financial/domain review pending. No external dictionary wording or artwork copied. No universal jurisdiction rules, account terms, returns, rates, tax or legal advice."
+        },
+        {
+          "entryId": "refund",
+          "sourceType": "authoritative-factual-reference",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/how-can-i-get-a-refund-on-a-product-or-service-i-purchased-with-my-credit-card-en-1969/",
+          "title": "Consumer Financial Protection Bureau — Refunds on card purchases",
+          "use": "Factual check of purchase refunds as returning money or undoing a charge; illustrative store outcome only, without universal return rights or timing.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "price",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika prices, budgets and money records vocabulary contribution",
+          "use": "Original selected common financial sense and complete EN/FA/PT-BR/es-419 learner text. Editorial IPA and approximate CEFR, not an externally certified level. All toy amounts are fictional and arithmetic checked. AI-assisted CC BY 4.0 preview; independent human language and finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "cost",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika prices, budgets and money records vocabulary contribution",
+          "use": "Original selected common financial sense and complete EN/FA/PT-BR/es-419 learner text. Editorial IPA and approximate CEFR, not an externally certified level. All toy amounts are fictional and arithmetic checked. AI-assisted CC BY 4.0 preview; independent human language and finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "income",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika prices, budgets and money records vocabulary contribution",
+          "use": "Original selected common financial sense and complete EN/FA/PT-BR/es-419 learner text. Editorial IPA and approximate CEFR, not an externally certified level. All toy amounts are fictional and arithmetic checked. AI-assisted CC BY 4.0 preview; independent human language and finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "income",
+          "sourceType": "primary-factual-reference",
+          "title": "Consumer Financial Protection Bureau — Financial terms glossary",
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/youth-financial-education/glossary/",
+          "use": "Verified only the general income concept; original learner wording and fictional examples authored separately. No jurisdiction-specific rules or financial recommendation. Checked 2026-11-02."
+        },
+        {
+          "entryId": "expense",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika prices, budgets and money records vocabulary contribution",
+          "use": "Original selected common financial sense and complete EN/FA/PT-BR/es-419 learner text. Editorial IPA and approximate CEFR, not an externally certified level. All toy amounts are fictional and arithmetic checked. AI-assisted CC BY 4.0 preview; independent human language and finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "profit",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika prices, budgets and money records vocabulary contribution",
+          "use": "Original selected common financial sense and complete EN/FA/PT-BR/es-419 learner text. Editorial IPA and approximate CEFR, not an externally certified level. All toy amounts are fictional and arithmetic checked. AI-assisted CC BY 4.0 preview; independent human language and finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "profit",
+          "sourceType": "primary-factual-reference",
+          "title": "Consumer Financial Protection Bureau — Financial terms glossary",
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/youth-financial-education/glossary/",
+          "use": "Verified only the general profit concept; original learner wording and fictional examples authored separately. No jurisdiction-specific rules or financial recommendation. Checked 2026-11-02."
+        },
+        {
+          "entryId": "loss",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika prices, budgets and money records vocabulary contribution",
+          "use": "Original selected common financial sense and complete EN/FA/PT-BR/es-419 learner text. Editorial IPA and approximate CEFR, not an externally certified level. All toy amounts are fictional and arithmetic checked. AI-assisted CC BY 4.0 preview; independent human language and finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "budget",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika prices, budgets and money records vocabulary contribution",
+          "use": "Original selected common financial sense and complete EN/FA/PT-BR/es-419 learner text. Editorial IPA and approximate CEFR, not an externally certified level. All toy amounts are fictional and arithmetic checked. AI-assisted CC BY 4.0 preview; independent human language and finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "budget",
+          "sourceType": "primary-factual-reference",
+          "title": "Consumer Financial Protection Bureau — Financial terms glossary",
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/youth-financial-education/glossary/",
+          "use": "Verified only the general budget concept; original learner wording and fictional examples authored separately. No jurisdiction-specific rules or financial recommendation. Checked 2026-11-02."
+        },
+        {
+          "entryId": "loan",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika prices, budgets and money records vocabulary contribution",
+          "use": "Original selected common financial sense and complete EN/FA/PT-BR/es-419 learner text. Editorial IPA and approximate CEFR, not an externally certified level. All toy amounts are fictional and arithmetic checked. AI-assisted CC BY 4.0 preview; independent human language and finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "loan",
+          "sourceType": "primary-factual-reference",
+          "title": "Consumer Financial Protection Bureau — Financial terms glossary",
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/youth-financial-education/glossary/",
+          "use": "Verified only the general loan concept; original learner wording and fictional examples authored separately. No jurisdiction-specific rules or financial recommendation. Checked 2026-11-02."
+        },
+        {
+          "entryId": "debt",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika prices, budgets and money records vocabulary contribution",
+          "use": "Original selected common financial sense and complete EN/FA/PT-BR/es-419 learner text. Editorial IPA and approximate CEFR, not an externally certified level. All toy amounts are fictional and arithmetic checked. AI-assisted CC BY 4.0 preview; independent human language and finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "debt",
+          "sourceType": "primary-factual-reference",
+          "title": "Consumer Financial Protection Bureau — Financial terms glossary",
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/youth-financial-education/glossary/",
+          "use": "Verified only the general debt concept; original learner wording and fictional examples authored separately. No jurisdiction-specific rules or financial recommendation. Checked 2026-11-02."
+        },
+        {
+          "entryId": "interest",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika prices, budgets and money records vocabulary contribution",
+          "use": "Original selected common financial sense and complete EN/FA/PT-BR/es-419 learner text. Editorial IPA and approximate CEFR, not an externally certified level. All toy amounts are fictional and arithmetic checked. AI-assisted CC BY 4.0 preview; independent human language and finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "interest",
+          "sourceType": "primary-factual-reference",
+          "title": "Consumer Financial Protection Bureau — Is it better to pay off the interest or principal on my auto loan?",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/is-it-better-to-pay-off-the-interest-or-principal-on-my-auto-loan-en-845/",
+          "use": "Verified only the distinction between borrowed principal and interest as a borrowing cost. Original fictional no-other-charges example: 100 + 5 = 105; no repayment-allocation advice or annual-rate claim. Checked 2026-11-02."
+        },
+        {
+          "entryId": "tax",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika prices, budgets and money records vocabulary contribution",
+          "use": "Original selected common financial sense and complete EN/FA/PT-BR/es-419 learner text. Editorial IPA and approximate CEFR, not an externally certified level. All toy amounts are fictional and arithmetic checked. AI-assisted CC BY 4.0 preview; independent human language and finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "tax",
+          "sourceType": "primary-factual-reference",
+          "title": "Consumer Financial Protection Bureau — Financial terms glossary",
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/youth-financial-education/glossary/",
+          "use": "Verified only the general tax concept; original learner wording and fictional examples authored separately. No jurisdiction-specific rules or financial recommendation. Checked 2026-11-02."
+        },
+        {
+          "entryId": "discount",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika prices, budgets and money records vocabulary contribution",
+          "use": "Original selected common financial sense and complete EN/FA/PT-BR/es-419 learner text. Editorial IPA and approximate CEFR, not an externally certified level. All toy amounts are fictional and arithmetic checked. AI-assisted CC BY 4.0 preview; independent human language and finance review pending. No dictionary wording or artwork copied."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,
