@@ -15861,6 +15861,433 @@
           "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples and visual data are fictional; no universal legal, tax or accounting claim."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-60-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-67",
+      "sourceFiles": [
+        "business-relationships.json",
+        "business-products-records.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-66",
+        "manifest": "content/releases/2026-10-preview-66-cbc8247fb146/manifest.json",
+        "manifestSha256": "cbc8247fb1467528e3ce1d91f4691d0678ea68d0d11e542249641deb3ca04471",
+        "words": 1525
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "signature",
+            "lexicalBinding": "75a71cc54e5f4086cc7f559a4a36911966806987ff705d0b07b4c23d89d29246",
+            "sourceImageSha256": "fff7c31cb6e1b89d9fe56357933759349d076714f5f940199d43a58c715afa4a",
+            "cardSha256": "f532ec665753b79c2ad9f221e7476567e938afe0ba7a84142640ae2e62ff6d2c",
+            "thumbnailSha256": "9de4aec766e3af7f3eeaa85e32b9fe2232cf00fcb6cf1e6f418c8f2e2e304a2c",
+            "authorPixelBinding": "6db66b9699271f61845a9f4d18393c165034ceb3077a475e2cf77c924508894e",
+            "secondPixelBinding": "5367b6331441e8c54a8cfc5431b62fc1c2cdbb26d25f90299a8dbc6b8384c46a"
+          },
+          {
+            "entryId": "deadline",
+            "lexicalBinding": "83c0c62c3863cace1e927d37ca43920ee71b43aa42fc2a348e85e20997d39f75",
+            "sourceImageSha256": "1e46399b268d522a5e4c16e4dcf58fe98cb9eba2d8860eef7cd86fa730cb359c",
+            "cardSha256": "d87ca4027fcf62b21ca449543a399c6ee97985979d75a8180841fe741ce572ad",
+            "thumbnailSha256": "0f2c031ff261ae0b236f1d848f6eea0c74a2a4a04009cdfd2b90d8bc8edc1238",
+            "authorPixelBinding": "6fecfb5fabb63e3b48f911f97cef130037cf2238bca2d3e8434cba0153865a3f",
+            "secondPixelBinding": "7bcd00bd467dd6705d776b7b34c43fd549c0b6fa74d7560a9f742a5945a6e720"
+          },
+          {
+            "entryId": "proposal",
+            "lexicalBinding": "67241537ddb4d944564d7d0d24efa59878d05e00fae974175e4e6557c6f5da55",
+            "sourceImageSha256": "f209a81291aa3d06b2402a84c4e3059bf9b214289179d78e400b18f805e476f8",
+            "cardSha256": "ff1360c97e7d80356ff6b8d5398526a8369890977802de10e13aa8014869263d",
+            "thumbnailSha256": "78bc9d2e17a017b79e6b15712e06034c3fffd28ac04ce2ca001506f115787e58",
+            "authorPixelBinding": "f80578de766d07674c24446540f9f5c8b1d60b0d58d874b01f202df3f9464a09",
+            "secondPixelBinding": "3199a7c0b7655ef1c0d326a82307b3f2890181bf6956f44e157283d56a67c1d1"
+          },
+          {
+            "entryId": "memo",
+            "lexicalBinding": "4c2413db755c92d6f6738747eae98e694c289b64df980ff4d9f38e07a48bb098",
+            "sourceImageSha256": "b0a8e5cb321e029c19b852333851c8371a10b67e97b88f576e2b46c1f869307c",
+            "cardSha256": "42a8f29985021ddec293041aea823bcec9ac7c2ca9538c358d6f1f3487f5e955",
+            "thumbnailSha256": "4fc1e5ac793ee459652675cdbd4571db7f3505e01f1ee8995f7168ead7216035",
+            "authorPixelBinding": "9c6dafe2f3530f1a123daee3254cdc431ad006aeb5986987a4ae706755a28ad6",
+            "secondPixelBinding": "83c355f7e393021a98ae2db00f4ade83ab330def709b5df93c4b2bd1c286ca93"
+          },
+          {
+            "entryId": "letterhead",
+            "lexicalBinding": "0e15dfeed8d46ce00ac914bbfcead1008914f5853d1883cab96e5ef68c0dbe4b",
+            "sourceImageSha256": "81c9b2212508ea5e00876e42fe81670f981eff52787885bd6b3f6d621d15362c",
+            "cardSha256": "5d8e649d166de07b714120863dbc7aec25f013b5b4cc502c4efac4af65529a38",
+            "thumbnailSha256": "db0c189bf7bdd21ebe374b412401fe0466a477d4226cb1490529e5f1068d8c3d",
+            "authorPixelBinding": "dde2d114f415bf9d3edac3b98b93e68070f36429b579b9b498b1c22b217715fe",
+            "secondPixelBinding": "c853394b0e4807b38b6a873dae1d0e6668c030a896c267b8d13490c5891c2d47"
+          },
+          {
+            "entryId": "policy",
+            "lexicalBinding": "04ec056e1dec9de3562cc76d2a2c7f84f9603282dbb04be33b69ae38fc455972",
+            "sourceImageSha256": "6841dc050c35f90303a3f2e407f37631dee4c829d57931fe8299edeaf72f6319",
+            "cardSha256": "f3c79a6f55d1abde5ce0729ae09128cbf40d065e06f20d72c611bb1df522c489",
+            "thumbnailSha256": "08d3d4aa73b780c1d6bbdf4c2f318cc4c83aa45057e1660d6e9972bd3f510ce4",
+            "authorPixelBinding": "9c3232f54d6fc9b429bbec812c4be9e1e58e0604fe68aa2edfa5381d2e7fc4bb",
+            "secondPixelBinding": "1b52f2b5bc34821ad5309fbd2545c453388aa2059341c0c6ed46a927fe776952"
+          },
+          {
+            "entryId": "headquarters",
+            "lexicalBinding": "8b877c47577e8fae697be84da9070206aa3f3708371125ae077c28f83cc5ca0b",
+            "sourceImageSha256": "9e99af64b2e9a3950e858769a78c6208144671c507a3d86cf1407e4d01176d2a",
+            "cardSha256": "dcee900534bf90c7f8b2f4772f47c15dce3bb9b4541843aeb0e26f8c4163bb54",
+            "thumbnailSha256": "9cc8ef56753f5b683a7163c4feca6849b191875717459a0cdfedbc3e5493d2c9",
+            "authorPixelBinding": "08f322ebfb4435697d6cd78621e1114bb8a1cd5347fc0e8b6d2e735b7954a9e8",
+            "secondPixelBinding": "2e6c003dc3cbbf96038b9f558bd5d0e0864953d2831a967cc68cf815142c11fd"
+          },
+          {
+            "entryId": "branch",
+            "lexicalBinding": "295cb307936eb42bd5e4d533dfb4f50209603550f4135352d1701f4da4d85442",
+            "sourceImageSha256": "172a7406f14850837e561a912385f4e415136b7dc42fc3f83b455da2c30dea5e",
+            "cardSha256": "74d9217b9d56a7be444ed349cfb93959693d96eb3538d9b1d7fe0599893f2874",
+            "thumbnailSha256": "de5b5f08131f2726991704b57b6f2fba2c3dd7ce1d66587a55c3047f2f6bf0ca",
+            "authorPixelBinding": "5693687d4defd4062ccf62b8a9c7c8f9681338ee62468430fbf61c563d47a7b7",
+            "secondPixelBinding": "d1ba568397c434b5f2f94b069024aa75d371849c1cee9096f87541c861131616"
+          },
+          {
+            "entryId": "franchise",
+            "lexicalBinding": "7d87bf15ea6ecb8c24a4d59a472f9f8aa4fbafe73520e32d9b19a20b996b98dd",
+            "sourceImageSha256": "9d187afe3f89f3162f30e83797709c07abc20006d290aa0641c0b1fcbc1b4a84",
+            "cardSha256": "723a02c6f9683264e601956dd7aee6812bdd9340d5500f6e6edba899724fb5bf",
+            "thumbnailSha256": "e2282e5c66b03fb44e5658ba8ff7b8e0e9b771e9d0cab1abe777b08fc82eeb76",
+            "authorPixelBinding": "12955bc909f42b4106f814151e7a5a5f994c8b7c3f84b268e15d3c78c9375158",
+            "secondPixelBinding": "e740f53596cd4ef5e05c17d5a07fc486e01f496f3cc0be1f6ecb20e1e18202cf"
+          },
+          {
+            "entryId": "partnership",
+            "lexicalBinding": "5dd1715eee34112acf60182c45bbc062b632382253ed70d792b32c84b8cda970",
+            "sourceImageSha256": "d6b59a45397d592038a80576b9ad5af78750cf683769891ea28024ff124995c0",
+            "cardSha256": "4748269fa103ff8e3617e9ffd2c2fe5c0fd3557a0d085b00adfc50be534d1679",
+            "thumbnailSha256": "84659d996a7d418425d64f72d62510ae62447c7de5c7c8b9334f6f12fed6f884",
+            "authorPixelBinding": "afa9df9f27515424ac5ac3ee0fef05f91ec2365220895a422b05a0c351336d14",
+            "secondPixelBinding": "0dd0bdcdee028e1dc23fb147a6cb1933522223474e26bc1fa1ef41875f8b2b7d"
+          },
+          {
+            "entryId": "entrepreneur",
+            "lexicalBinding": "c01711836a8c5b68c23660682b865a58231143f6832dbe5ac923965b865e4376",
+            "sourceImageSha256": "113d4e67b3b31d71d3abdc3123f31cfdaf0f651a462b5e4110e9b1cfb4170be8",
+            "cardSha256": "31305103e947ea5d56ec5d5f16e3692387b9c93464d908b3101b176cbce0b451",
+            "thumbnailSha256": "507e403f1df198e2a5c38156cfb8a61f4854b387599399bdfed379c257d6057e",
+            "authorPixelBinding": "2fb7380ceed60c22cb1087c76010ac54d0b98b84994a4f567bd87f31b4b7c889",
+            "secondPixelBinding": "62a1f0ce005500ccb086d409d8f72fa7432f0da6e8048e7b521815f945ab841f"
+          },
+          {
+            "entryId": "startup",
+            "lexicalBinding": "b9f7398bb28554f336cc93333a9463025ef24f4611168923f389eea0e40ad128",
+            "sourceImageSha256": "03debd200bae39b617f7bbf819d5cd637029bfba0b159c8f8858949f8700f3bc",
+            "cardSha256": "afc6d12526db96dfbf49426be76b762f6fbe2ab2934412539e0d08b69a1ab7af",
+            "thumbnailSha256": "8334ef05e28441fe48f9a91bcd0c47bdaabbe2c5604fd0135927eba0d030b38d",
+            "authorPixelBinding": "9558b88a8567ecc3cc203d848a24ad91847459eec1301dc1ff6c024d4ff74cf4",
+            "secondPixelBinding": "a8f074203741a5f61f999c89445429a0bbeeec0e64f3f5a37fedc73f3429b7af"
+          },
+          {
+            "entryId": "competitor",
+            "lexicalBinding": "9009a99c9a9941ebbc07ca5762cff3a788cd0dfbf5e20f888fcbc4e453f89df2",
+            "sourceImageSha256": "3195dc25241559acc5226045af115e4024cc13dcb9c7117627ef144f77bf66c6",
+            "cardSha256": "9e24d671d7765988f2d013852e255f840b773dfd6027a492e76be55a1472a993",
+            "thumbnailSha256": "08585da02a192a5c0f44fa572162855491fce2cddd18e9949550dfdce023475a",
+            "authorPixelBinding": "40a110f90619fc7cebcbed14312fe83c73c215265c1f67ccbf6ea28bc439de8e",
+            "secondPixelBinding": "2665ab6e0256704c9f8e2e0dba19468c9b637af3f20976b0d84386dc78fdd468"
+          },
+          {
+            "entryId": "trade-fair",
+            "lexicalBinding": "252dcab53f7818f81925e72d960ef60bb80b6b1d98debd5479f4db9d8a9f4926",
+            "sourceImageSha256": "1b1b7d1b2554e9433302f4b00212e5351f03a2f75d0b144bf8b9d5ddf033733a",
+            "cardSha256": "161947be5cb52ceb00d0b8ed8f53ffeac151d3be37800ad2811494ae18b360b7",
+            "thumbnailSha256": "cff38ff450ad9ff13e8307c47ea85a085ef0d9349b8d7933abcac342a94bee84",
+            "authorPixelBinding": "70ab98ce60cf634090ac38f3fc3d74d0f1768162745fd4b8c5dc744fb036b33c",
+            "secondPixelBinding": "47f26bf4f87dd6cff720f25379a2f9acde3b56ef720d63bd062a07cdb17fcbb9"
+          },
+          {
+            "entryId": "showroom",
+            "lexicalBinding": "2247e8228320e4c4d776d13500601033e92add96c7ab30ff34326e1c25609a9c",
+            "sourceImageSha256": "8c834046cbfd7c406917675096732c2307bfa85a276f0149b856010f5fdb11c7",
+            "cardSha256": "f3f3dd782d94cc26228bdc76a7343f15dade9914fa63f6c3cd302adf6b1b6c50",
+            "thumbnailSha256": "f7fd6d15431f4e5cbce1b88f27c642dd1a3437e061e2302b3ecaf7c432c258e0",
+            "authorPixelBinding": "c982a4ec9721d18428663f1e5e084b059461b1a3e625b78c9ac98fcca5f8d26c",
+            "secondPixelBinding": "c624a06d041da2f9dec9801c7e80a1ac82c3f0df3efe533d4faebd3dffba7769"
+          },
+          {
+            "entryId": "sample",
+            "lexicalBinding": "9b72ecc1be8e39e48a032d212786417420ecf85569470541b99854552ea290e1",
+            "sourceImageSha256": "25e638ce6c922ff9ad2ef31ba01169edaf2092ba9ccfe6b98a275b7b01ad6fba",
+            "cardSha256": "8016dba2dac05c730d1d54bb17d05d2f92ef9c6cf53c7b35c0f4612f11264b56",
+            "thumbnailSha256": "ff74fdd3d8af8a1edc3f556578818b8d1a1d37045ef376c59e905fd8717991cd",
+            "authorPixelBinding": "e0714ecc4e1fc61b62d070fca98da93f29c3cabf97bd2160e01b3e18a737fec7",
+            "secondPixelBinding": "3d82dc33ee54945b0f213846d90bdca99d852a96ec2d535244433a038b8fae75"
+          },
+          {
+            "entryId": "catalog",
+            "lexicalBinding": "58cb2fbd68378b267ff69a1135b69f0f1ce8b1746698d4d27b2693a85015175a",
+            "sourceImageSha256": "f307529274ef5f1c05e3ee75b369a5c417000963418722fb0a281d7209153f3b",
+            "cardSha256": "18471701ac54783062c7e8b86b0ebb0d2df5b8447b5228aefcc3582c6086c055",
+            "thumbnailSha256": "e65e8ab82a460229ea5e52f5ef0f65362c76835909fe6cd0e1ad2df6cbcb6c68",
+            "authorPixelBinding": "384daf990b29a078f841c620bc26f0cfbfdac654cbe4f2333e127ec3e3c38a5e",
+            "secondPixelBinding": "6e891a5280408a8200c5bea1de6f033139a0f1d7edda5beafe5fa0d58f989586"
+          },
+          {
+            "entryId": "flyer",
+            "lexicalBinding": "a7407b2cbf60dd9edbae511be807e2f381dfafc3629f095198ac5dfadd72d38e",
+            "sourceImageSha256": "3f87ecbf7242958575695c1d695e22c27377440dbb739dfba0ad832f46a69905",
+            "cardSha256": "ff57f1df8d02fd38eceab355c1c02eec3bd4c079b81217bac87c601e01a3af6d",
+            "thumbnailSha256": "711dd04b1f3b273db09e08edd297ae49f572b8f8675b08ce138351862e4d6ea6",
+            "authorPixelBinding": "d451df9650050971e47fbb008642d76fa6525fee66fd04d27fbb0ad65473d692",
+            "secondPixelBinding": "57f40ce86f5870fb3038314a87750790ec95ebddb3a67656144ebe337bbdb078"
+          },
+          {
+            "entryId": "poster",
+            "lexicalBinding": "af3d7d5f12658530797b82db6520ccc4ff4ab2db41a89f47b6bf2fcee49fe13f",
+            "sourceImageSha256": "41fda68870bc2de254fe6cc82873c550911d2b1bf9ca0729dd636aad92e928a3",
+            "cardSha256": "b07b659610ca75a9c3b0db95f34aa507f1efd449b448ef3f763750fc9d2b3c55",
+            "thumbnailSha256": "163c0ce2754f33152c3eab4557aef2291f0cd360b9f7492019fe5361429aba66",
+            "authorPixelBinding": "d396eb94562df9a6d6c2420575af2db777a445c24e730f29f1f621c2c88e753b",
+            "secondPixelBinding": "9ca0d08862098ea555149bc6fa2d8c214eda8293f1a9476af1066e0f61040a1a"
+          },
+          {
+            "entryId": "packaging",
+            "lexicalBinding": "353dd1f2958acd0f0aa388901f3672aa38428269732f22f0467ae27d0a628e2b",
+            "sourceImageSha256": "aa68e6fba1652bcf4b67ecddcd4b41b07d276f9b2e438e248abd942d320768c0",
+            "cardSha256": "c93ed6a380c2a256380b0e1363594b4d3d40cf7f2dc0fa3b655932daea1356f0",
+            "thumbnailSha256": "e6e36520f5a6a20c0bcfc10392ad8a0818010c240a062b9134d6a2608097a5e6",
+            "authorPixelBinding": "ac2bd28f231e640cc71c0d28078ebe9284191d066ac79ff5a147e60312618c10",
+            "secondPixelBinding": "bf0c3f7242f7baecf7d7cab7fe0e036849b578b03e66304a4b540cf11eeb9587"
+          },
+          {
+            "entryId": "inventory",
+            "lexicalBinding": "723a7a484ce1c64232d60590233fafd310fd393bd6bedad3b5ef778489479d35",
+            "sourceImageSha256": "c80898f263aae07dc762548e0c185ae7582481066be666ea2e81e1ed2041ec25",
+            "cardSha256": "e8c422bca8740fc84ed24bf9fe7d33943222aaab35fb1e45f023bbe320ecb2da",
+            "thumbnailSha256": "012fd984ef93f8a912d5bcf55ee83a3141fd4284b59b54b54aaf39fab977c511",
+            "authorPixelBinding": "a7927bfb24d5cb03c5fd6527304398c98971414b9472c9e651a7b1efd773f2f7",
+            "secondPixelBinding": "f430398205ca7ce7b184c65adef64d10ba28f6ddc9f86a0ef9c0e7c1f8f6d996"
+          },
+          {
+            "entryId": "stockroom",
+            "lexicalBinding": "b455da8316a088e01995e3d1c3764000b6250e270cd5e364d42aa0981212952f",
+            "sourceImageSha256": "4d868eed80f904b3e67c51d3784ffce54988e54cc8dc389512bd76f1db17dd65",
+            "cardSha256": "c4cf42fac29ba1a3f3c88133f528344873628dd82a73da3bd6873e747fe3c05e",
+            "thumbnailSha256": "8c4922a3380c8eb73886f357b4bd750715f7689fbb87d1f226958339d1bd4c32",
+            "authorPixelBinding": "4b88b0db8e9e2d3dc4be1118788d07ab5b586378c7a5f04ea65d7bfa0eb94358",
+            "secondPixelBinding": "8793fab24b687b4bdb1d88de66b8ce37c22478972139314b901562a33c6d22ac"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "business-management",
+          "visualLanguageId": "business-management",
+          "baselineCategoryWords": 28,
+          "targetCategoryWords": 50,
+          "entryIds": [
+            "signature",
+            "deadline",
+            "proposal",
+            "memo",
+            "letterhead",
+            "policy",
+            "headquarters",
+            "branch",
+            "franchise",
+            "partnership",
+            "entrepreneur",
+            "startup",
+            "competitor",
+            "trade-fair",
+            "showroom",
+            "sample",
+            "catalog",
+            "flyer",
+            "poster",
+            "packaging",
+            "inventory",
+            "stockroom"
+          ],
+          "units": [
+            {
+              "id": "business-relationships",
+              "title": "Company structures and commercial relationships",
+              "entryIds": [
+                "headquarters",
+                "branch",
+                "franchise",
+                "partnership",
+                "entrepreneur",
+                "startup",
+                "competitor",
+                "trade-fair"
+              ]
+            },
+            {
+              "id": "business-products-records",
+              "title": "Product information, stock and business records",
+              "entryIds": [
+                "showroom",
+                "sample",
+                "catalog",
+                "flyer",
+                "poster",
+                "packaging",
+                "inventory",
+                "stockroom",
+                "signature",
+                "deadline",
+                "proposal",
+                "memo",
+                "letterhead",
+                "policy"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "22 established globally and prior-queue absent English heads, capped by the business category remainder28to50. Prior59 fully live/reconciled; all10132seal pins and actual final peer verified before next selection. Genuine full content and paired pixel gates remain required; no parent61 selected.",
+      "parentBatchId": "category-expansion-batch-60",
+      "completedAt": "2026-11-02T18:39:43.024Z",
+      "factualReferences": [
+        {
+          "entryId": "headquarters",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika company structures and commercial relationships contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied; no external factual reference used. Branch, franchise and partnership describe ordinary commercial arrangements without universal legal or ownership claims."
+        },
+        {
+          "entryId": "branch",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika company structures and commercial relationships contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied; no external factual reference used. Branch, franchise and partnership describe ordinary commercial arrangements without universal legal or ownership claims."
+        },
+        {
+          "entryId": "franchise",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika company structures and commercial relationships contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied; no external factual reference used. Branch, franchise and partnership describe ordinary commercial arrangements without universal legal or ownership claims."
+        },
+        {
+          "entryId": "partnership",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika company structures and commercial relationships contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied; no external factual reference used. Branch, franchise and partnership describe ordinary commercial arrangements without universal legal or ownership claims."
+        },
+        {
+          "entryId": "entrepreneur",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika company structures and commercial relationships contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied; no external factual reference used. Branch, franchise and partnership describe ordinary commercial arrangements without universal legal or ownership claims."
+        },
+        {
+          "entryId": "startup",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika company structures and commercial relationships contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied; no external factual reference used. Branch, franchise and partnership describe ordinary commercial arrangements without universal legal or ownership claims."
+        },
+        {
+          "entryId": "competitor",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika company structures and commercial relationships contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied; no external factual reference used. Branch, franchise and partnership describe ordinary commercial arrangements without universal legal or ownership claims."
+        },
+        {
+          "entryId": "trade-fair",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika company structures and commercial relationships contribution",
+          "use": "Original common-language selected sense, English/Persian text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied; no external factual reference used. Branch, franchise and partnership describe ordinary commercial arrangements without universal legal or ownership claims."
+        },
+        {
+          "entryId": "showroom",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika product information, stock and business records vocabulary contribution",
+          "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
+        },
+        {
+          "entryId": "sample",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika product information, stock and business records vocabulary contribution",
+          "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
+        },
+        {
+          "entryId": "catalog",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika product information, stock and business records vocabulary contribution",
+          "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
+        },
+        {
+          "entryId": "flyer",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika product information, stock and business records vocabulary contribution",
+          "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
+        },
+        {
+          "entryId": "poster",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika product information, stock and business records vocabulary contribution",
+          "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
+        },
+        {
+          "entryId": "packaging",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika product information, stock and business records vocabulary contribution",
+          "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
+        },
+        {
+          "entryId": "inventory",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika product information, stock and business records vocabulary contribution",
+          "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
+        },
+        {
+          "entryId": "stockroom",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika product information, stock and business records vocabulary contribution",
+          "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
+        },
+        {
+          "entryId": "signature",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika product information, stock and business records vocabulary contribution",
+          "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
+        },
+        {
+          "entryId": "deadline",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika product information, stock and business records vocabulary contribution",
+          "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
+        },
+        {
+          "entryId": "proposal",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika product information, stock and business records vocabulary contribution",
+          "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
+        },
+        {
+          "entryId": "memo",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika product information, stock and business records vocabulary contribution",
+          "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
+        },
+        {
+          "entryId": "letterhead",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika product information, stock and business records vocabulary contribution",
+          "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
+        },
+        {
+          "entryId": "policy",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika product information, stock and business records vocabulary contribution",
+          "use": "Original common-language selected sense, EN/FA text and complete PT-BR/es-419 overlays; editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 preview; independent human language and business/domain review pending. No external dictionary wording or artwork copied. Examples, names, contact details and visual data are fictional; no universal legal, financial, tax or accounting claim."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,

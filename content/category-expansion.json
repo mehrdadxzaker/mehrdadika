@@ -16,7 +16,7 @@
     }
   ],
   "currentCategoryId": "business-management",
-  "nextCategoryId": "business-management",
+  "nextCategoryId": "economics-finance",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -6730,9 +6730,83 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "business-management",
+      "visualLanguageId": "business-management",
+      "baselineCategoryWords": 28,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "signature",
+        "deadline",
+        "proposal",
+        "memo",
+        "letterhead",
+        "policy",
+        "headquarters",
+        "branch",
+        "franchise",
+        "partnership",
+        "entrepreneur",
+        "startup",
+        "competitor",
+        "trade-fair",
+        "showroom",
+        "sample",
+        "catalog",
+        "flyer",
+        "poster",
+        "packaging",
+        "inventory",
+        "stockroom"
+      ],
+      "units": [
+        {
+          "id": "business-relationships",
+          "title": "Company structures and commercial relationships",
+          "entryIds": [
+            "headquarters",
+            "branch",
+            "franchise",
+            "partnership",
+            "entrepreneur",
+            "startup",
+            "competitor",
+            "trade-fair"
+          ]
+        },
+        {
+          "id": "business-products-records",
+          "title": "Product information, stock and business records",
+          "entryIds": [
+            "showroom",
+            "sample",
+            "catalog",
+            "flyer",
+            "poster",
+            "packaging",
+            "inventory",
+            "stockroom",
+            "signature",
+            "deadline",
+            "proposal",
+            "memo",
+            "letterhead",
+            "policy"
+          ]
+        }
+      ],
+      "id": "business-management-category-expansion-batch-60-ready-1",
+      "releaseId": "2026-10-preview-67",
+      "status": "published-preview",
+      "objective": "Learn Company structures and commercial relationships; Product information, stock and business records in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-59-ready-1",
+  "activePassId": "category-expansion-batch-60-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",
