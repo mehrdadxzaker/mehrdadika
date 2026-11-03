@@ -952,6 +952,11 @@ code {
   gap: 6px;
   flex-wrap: wrap;
 }
+.entry-tags > .chip {
+  height: auto;
+  min-height: 24px;
+  white-space: normal;
+}
 .entry-actions {
   display: flex;
   gap: 2px;
