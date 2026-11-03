@@ -18808,6 +18808,399 @@
           "use": "Original EN/FA/PT-BR/es-419 common-language teaching with one explicit selected retail sense per head, editorial IPA/approximate CEFR, fictional shopping situations and checked toy amounts. AI-assisted CC BY 4.0 editorial preview; independent human review pending. No copied dictionary wording or artwork and no invented external source URL. Distinctions explicitly separate shopper/customer, assistant/cashier, purchase/order/payment, retail package/posted parcel, label/price tag, coupon/gift card and sale/for sale."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-66-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-73",
+      "sourceFiles": [
+        "retail-places.json",
+        "retail-tools.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-72",
+        "manifest": "content/releases/2026-10-preview-72-7aa9c5dc429e/manifest.json",
+        "manifestSha256": "7aa9c5dc429e3c5117e57217fa784d8398b867b0e48527b34316be03b8e623df",
+        "words": 1656
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "boutique",
+            "lexicalBinding": "359f02b7961dbbd69484f8a6ee53e780654edc8047e428b6c88147d5bba51731",
+            "sourceImageSha256": "6ce7fecfa5eebe38f7235820989f324e8e20484c0c5bcfefa8534a8256609965",
+            "cardSha256": "41f125107cf694e83b15f5d83b961ec514e65f58bde75aa6af204a7fb9112a0c",
+            "thumbnailSha256": "e79a1fd52f8c69f5151a3dfabf6a3f60211878e3ae1b6c568bdda4ef62a890d0",
+            "authorPixelBinding": "97ad15d33372b285fd2a1de2b1f02811778d14435968771bb18b228437422c87",
+            "secondPixelBinding": "18c6cc3dd7ba79720cb6628742119ee29a5f7cef99a526bd30574b2728baafe4"
+          },
+          {
+            "entryId": "mall",
+            "lexicalBinding": "1b98dfab77b5928b75e7b3e053675c56eb96f0aebc82f9d7b0a20e649a82cac8",
+            "sourceImageSha256": "412d47f8b72e6a16e3144b83a7e0cb9e3896a479896b29d447c25c92b88ffa65",
+            "cardSha256": "c36700ceb5bcfd17da9d077121fe47b7222b016412eebfc62d803b6f5b022e65",
+            "thumbnailSha256": "4879a65e644816e0cbd7ef4cfbc23a16d30981681928bfad2ee3a436d43ee0bc",
+            "authorPixelBinding": "709e274ff86d79929416c01d1e2322194a9eb80851f25342969c64514eff7125",
+            "secondPixelBinding": "541800e876cb16327c5c63d9f1d9ad968144c644b9cfea1fa3bf86e1ad6c7376"
+          },
+          {
+            "entryId": "department-store",
+            "lexicalBinding": "db879657c4bb6a095890cdcf2ed0aa430b28c9afaf4cad4c3f4ba653dd54c284",
+            "sourceImageSha256": "fadf99d35d9781f2ef272e0f675f94695ac6b4243d5af43c3991579058aac381",
+            "cardSha256": "67a8aeeeb223cbcb8fea99e37a93eed70d19c925c8d0c6bd4a3e692c822bc384",
+            "thumbnailSha256": "e6083de22d18b62ba913b3b9a21672d2300241c19d9731eb7b03ebb0a2388ac0",
+            "authorPixelBinding": "0d758ae73aa04f5f8104627a0561470e9cb7fe7340d307f2203d0698f5210d7c",
+            "secondPixelBinding": "8e01190a911e5e4c92934ccf594947a3fc3b5ee71b85966aa29997b7f9bb121d"
+          },
+          {
+            "entryId": "supermarket",
+            "lexicalBinding": "a374b4187c880a1d410e22f2c2449f2db69172d2b1b4f2a5d90989892be26b9d",
+            "sourceImageSha256": "749e64aae723bbf3bc4bce94698e7bfb3c80c995ffe2fc2221ba051473f1a941",
+            "cardSha256": "d1d5a59c6ccfaf96e95ff94415d31144ba6518213321d581c14d1647ad5c35a9",
+            "thumbnailSha256": "c5aaff9e9fb92aaabf939341e7b3e6a9f0d242db8e867c996503d0dffdf9a6e7",
+            "authorPixelBinding": "0eecaa6f742e3fa91dbf5c2e2bb47ac29218abcf42e8ac1b84dd46e0ce03c901",
+            "secondPixelBinding": "ae2816c92cdd0aec0ca502f8b9cdc0b0dbad8f5b43eaf9e8fa3721d6a952fde0"
+          },
+          {
+            "entryId": "market-stall",
+            "lexicalBinding": "8000b288f0f1d32fd3fe5c124d9571eda64c15fff145100906f22fed160c3e1d",
+            "sourceImageSha256": "d3f3a8966768b5329a888687e53487823b3b79306c7110509a2e413d91768696",
+            "cardSha256": "5c09b14db9e03f752a0f405c4d58db667d9b75ef1510e877d2df234d42a81f69",
+            "thumbnailSha256": "d163aa3520243852a783789c3b5f7e3c74d20d65b1075dc3c41356f5fb594622",
+            "authorPixelBinding": "7041b43f2dae7a70d2bb4f68580a2b26d53c5bb63d2487c632282001626fd496",
+            "secondPixelBinding": "859aad22c6bf2ebb65faeb1ad8308d244f8260b531f4f1ac05c7082323a9f59f"
+          },
+          {
+            "entryId": "kiosk",
+            "lexicalBinding": "bd66fa9ff64e004444e74d9731cdce993e34ccfa28e77667e8517e3ee9703f56",
+            "sourceImageSha256": "5abb307d058563b72e2970dafc6a753e036e74794a6b8c2bd8e9afd47ba23672",
+            "cardSha256": "e4cdf435fd6bc79e5a2d4255670f4227542df9d3b711c0d5136ecb033cfe6e72",
+            "thumbnailSha256": "fd1b58becba8f894e90a86faf84069383a665dacbe8190dc2be1c372c0dc254b",
+            "authorPixelBinding": "93587875bb2f648efa7adbce72979bdda23e0649b4ca08a82200d2c3a16545f9",
+            "secondPixelBinding": "434cc49c6034b155e597f48d10d700846d5001d8033d4b86f12d2c1f09479ead"
+          },
+          {
+            "entryId": "vending-machine",
+            "lexicalBinding": "8ec9778756ae4bad1528cf39741312594f0545c6cfa22831e99db5dd71937979",
+            "sourceImageSha256": "3306c22984b006eca3a9621210d39b2c89eaaccb91f839e60c56032b960ae3dd",
+            "cardSha256": "9aaffdd275f1081216c1e87c0cec113360a5dc10babdc6a16469ba488cd645c9",
+            "thumbnailSha256": "85a3988fa7637a90bcce14d6a093360f5c90684ae98408207ce8435318a20bdc",
+            "authorPixelBinding": "b655fa1c6c20806ef7939d0494f4835cce6abb9bd3f8f060f47ad7c710cfe2e7",
+            "secondPixelBinding": "3db03fc23718647f47eff351c268dbe4b037f73f0e4b55a124c40b3b215b7227"
+          },
+          {
+            "entryId": "bookshop",
+            "lexicalBinding": "e9dfbad1d28bd901fa49dcfc2a02a9c699141ddc0cf0a655c1f324c5fe1aa33d",
+            "sourceImageSha256": "6548d27701ca1f893edeefad223a31053a94caaab357147e12834f01087a0eca",
+            "cardSha256": "a6a61c41440551787d64fc56723b4ea6d5c5609b912bf739190a0326af556bf4",
+            "thumbnailSha256": "8a2a58ec42027f973756e2a245ff1bfa3fb6ce7bb1961bb35b31a0b7d012a3b1",
+            "authorPixelBinding": "0530e7aed3ff0f9cf00a5aa8eb3deccc2cef817049ebc3d20c2df9203684afe9",
+            "secondPixelBinding": "418eb9fed70d95b56d7f614092860cea8d083dfca330b135047c51745ba34bce"
+          },
+          {
+            "entryId": "bakery",
+            "lexicalBinding": "05df662d7530febb0e9508436d8bd1f24544e81da379b38fcb1033f862484b6e",
+            "sourceImageSha256": "22d0e8984227edd34f7b113ebffb1c17bb85cf7ae3e37e2d93ae78acf01c6222",
+            "cardSha256": "aa8f20687062eb90490b795dff015992d0dfda0be326de450b43d64c082da2b1",
+            "thumbnailSha256": "58ac9a605828040cd48b7564cee8e689c2b709bb26fbedcf9aede84284de307b",
+            "authorPixelBinding": "3755d81859bf1d67b95d9fa1fc94de6cbb499cf5e352755cd1bda729c1c5ca53",
+            "secondPixelBinding": "0d0cc3149571eb8d861486a54eccfe1fb4e0a74cd30a41a5d13de8e8c39106ef"
+          },
+          {
+            "entryId": "florist",
+            "lexicalBinding": "60496cfcdb543ca5077ca785aa74c60d849bdc7b4339d44fd94a98a3441e4705",
+            "sourceImageSha256": "d880df7605a6e33657f8f5f40ff36da80d661d58f1b8e27749020f099ebd16d9",
+            "cardSha256": "93524ba6498fcf3f8ac86c7e712c4ff07d979cdc0f56fa9d6be1d6172c5fa2e7",
+            "thumbnailSha256": "efb64acebd69bb04b47e0fd0f7073ae583073a8b06a5100d8cf8373de10fcbfc",
+            "authorPixelBinding": "7fc78e1a216ba45fc86f8bd15925cfd9a5c13bf6a7ffc0d0fbeb1b5e2e324dea",
+            "secondPixelBinding": "c19d087d8922bb121221e914bea89d2cd0eace3ee835e0f8e68fe2cf2a195229"
+          },
+          {
+            "entryId": "loyalty-card",
+            "lexicalBinding": "5c67ae59e7ba64f8b9acfe56421ab5fe7922094bd0aa9b52dd52b6cbf66171e9",
+            "sourceImageSha256": "ad9e98c188e050f3b84c6c00f7c4c330b5f3ac83de1f55e66df6db655291629c",
+            "cardSha256": "b9a3e8687f384528422e7fda40edfedcfd8a04b4480d7428c89c599e568cb4c6",
+            "thumbnailSha256": "09d9d08f13b54c1d38abba7930391a23246d1f8462b6c58ad4c9be818cd5ec22",
+            "authorPixelBinding": "c94f1ab715a02a553a153bfb3355430b4332b9c3f7ee2f0a8f4a64fe855ddade",
+            "secondPixelBinding": "f58e0d351bcad023cc54f4a701e48e9049abf463239e9e484dbfc43a32b15edc"
+          },
+          {
+            "entryId": "shopping-list",
+            "lexicalBinding": "169c6bc2778989cdf47bca3f42f8bebcd31440332e48799342aabd503669e6bc",
+            "sourceImageSha256": "5e365bdec0a518b7a9f4dc7cc0323705981aecc056cccdcec5cfca637e53440f",
+            "cardSha256": "2c09c1452c3ebcf224656fc35ca6c58827ed30a19c90d000bcd5295e546d1a5c",
+            "thumbnailSha256": "45e5249a62a37ac264509ebf4e7415ca029ffbcfd046808021c0e3f8d8be69fe",
+            "authorPixelBinding": "a5eabaa212c8313bf7f4f7b9bce4ed23cfc5f62a5ea49efb9e110c20d88c6d59",
+            "secondPixelBinding": "0256a9b1cdb3f6a0ffa17d0b56d508bcdf53206f1dfe292bb05b7bed3be8a7b4"
+          },
+          {
+            "entryId": "payment-terminal",
+            "lexicalBinding": "87e111b0b9b6ebcc5b343896214c6ec4ca41181b375ca2afc3ec40e04032dbc0",
+            "sourceImageSha256": "cbd39506a8dba4f0fee6e63aac82aa3dc4eecb5164a44750f6d46f061f2bfbf6",
+            "cardSha256": "ff04a12ecb54ef9b151ff11e89b7c619910178d70fe5199c3139422db9f5123a",
+            "thumbnailSha256": "17285ae5aad7b7cec4bb858d68b727a765ed7bc1c3c2e1b3a62f6dbad3ae76de",
+            "authorPixelBinding": "f24b96b487888573d0c2b8f9ceea710961f30c505325f2b4c0c5684029a9bc8e",
+            "secondPixelBinding": "f51661eb0cc0e4c53f3ffda5926835e2203522bb9a126f3244403d95c9a4a060"
+          },
+          {
+            "entryId": "purse",
+            "lexicalBinding": "c7318a2c5983734f60b94a6682ca47201e50c301b9e11ae4bc57ef978ce5a7f1",
+            "sourceImageSha256": "6206b757b3afaf4324e3cd946ef621e974c27c91aa07fba4868496a3f9065c06",
+            "cardSha256": "fd6302bc774517db75b444f0fc4ff876c54ccc6e9d410dc0eace59e697080ce5",
+            "thumbnailSha256": "dac01c9ea3202da7c9fe6285ebd81f0919e722640d21403a06baec3d4003248e",
+            "authorPixelBinding": "0e81c0cb0653ec2530b2d6dc25fa77f007a0c6a765b5e7587b8192828754d1a1",
+            "secondPixelBinding": "20b846e4ccc352bf3ecb2b414bffd9ae0abee6e84281ee781a036998bb88e053"
+          },
+          {
+            "entryId": "tracking-number",
+            "lexicalBinding": "2dfd1a23b7ff2e1ba5382962d1006a2ca0632f41f88eb820d47e98e0af89e104",
+            "sourceImageSha256": "8d871720a727b8cc5196935f80e1c13152a9005b116cf20715ace37c9c3899b2",
+            "cardSha256": "46245d159ff2294a4ea1acc82a2a5a12c2304b99e6c1b494012e6be70acb1b9f",
+            "thumbnailSha256": "c429b4316a516f1fd04a41bb653350f6565d8930e53e1016eb341ac2094960a7",
+            "authorPixelBinding": "acc92a5dba9ae7145970e4a1df96b18a78fcaa96b93346407ba3486e901bdad4",
+            "secondPixelBinding": "af67496fc6ed32218179224864c0ab9ce8d86f0aa02c26c7faf3f681515ac4d9"
+          },
+          {
+            "entryId": "wrapping-paper",
+            "lexicalBinding": "c1ed42ff6d8efe0d3d5e1ee124a1753d52f6c030267ea55af19061b4d5cb2fec",
+            "sourceImageSha256": "7dbe6e99feac8d7915e3175ba221688e93bc3b4d24b8f866cca3bf59190e99b9",
+            "cardSha256": "b2d7f961a8dffbb846782249fbb1e57d997e40aadbb685c32a08975cc2fff160",
+            "thumbnailSha256": "fb63cd8cbcf1bec7a8b7d114440d7720b270fbc8cfd3bebc085b60f27995d75f",
+            "authorPixelBinding": "8aaaa31e37ecf053b653d90a95d9c5456429364b590c376d105f11fd782b8162",
+            "secondPixelBinding": "823e7524628d231e3d68889179124504359fe9699e37b9dbb8a53ebfc265f537"
+          },
+          {
+            "entryId": "gift-box",
+            "lexicalBinding": "b8dcb0cc6754b290d538508be552a501a6482da4184246ee2d3687cddc3c2e37",
+            "sourceImageSha256": "43220f369860698e56c0aeb6dd55633c7e2a8ef0a52982d77d160faa23348757",
+            "cardSha256": "8bdd20c328d2263b89cb6c553cd194d0b13a39c567993e85b81410c07080387a",
+            "thumbnailSha256": "9cb34f6cc479d9f86be498b65e760fcb860f7af9e9acf51df8ee0489b6236921",
+            "authorPixelBinding": "84f8bc43d54541d754584dd750d101e84e8a14baf72587c2ba2fe4dd5ebf6df6",
+            "secondPixelBinding": "5d09b79f8d905e987a58c98849cc4775ff7f3314d7a981395a7b5001b5ce2492"
+          },
+          {
+            "entryId": "ribbon",
+            "lexicalBinding": "2b82aa94bd5cca00e26ef5a6810b2616362ce744efe4988cb865f3bc3bc98ab6",
+            "sourceImageSha256": "907970e5793b951df2fd355cb8b7312df29484de6046bb84f83a34dc8e315724",
+            "cardSha256": "878d0290d5f10ac765bc1ab14d114d5b2545bf95d17b6aa31dcdf392ddaf350c",
+            "thumbnailSha256": "334ee3cc89c8c0256a7d6b13e6c0e579f589531d07e7ce171d661cfa4041ddd4",
+            "authorPixelBinding": "59329c33fdb54e35fd6d339e3b7cef59f250ea5f67abb30d4b33fc5ed6eaea05",
+            "secondPixelBinding": "e6c6ad3323f5b336c8239c9930ba542a4db5f85b5ba10ab6b365b729e1d803f0"
+          },
+          {
+            "entryId": "price-list",
+            "lexicalBinding": "f017bff145237ae9033d8ea86c08b1675c2f964cb52099efe303fa426f1b48c0",
+            "sourceImageSha256": "5974b2fbd9fa3986a8d4ba43b3a12a2d88d39386447dc78ec6a6c36f2fb4c6f2",
+            "cardSha256": "d3df7d34fd85b690b0b227365d483864c1eab856d3ad72ac3de2f9b948e748fd",
+            "thumbnailSha256": "cbc0512d28cd1ca83814d9f08da803b3bc4822120436505813cf87101f693c61",
+            "authorPixelBinding": "b6315b25287d842b76813ff25c5ee8a12f628e861dae170d2056d0d5dc61098b",
+            "secondPixelBinding": "2e59e6a3038420803716f702e926ad8dc920b0fdc56ff7f1307cf0b12a1bb68e"
+          },
+          {
+            "entryId": "greengrocer",
+            "lexicalBinding": "937c7cf0a0d23dcfc40639a5f531ff4616fd89a85a91dc0a47166bccc72970e7",
+            "sourceImageSha256": "4d728464f975ccf948b7fb9a265f891a5ffb036a637ff3168cb6ce2ae9269ba3",
+            "cardSha256": "64920c9e628ed9c74591d170f7c9ff436185d0567bf8a21b6a563941adad9764",
+            "thumbnailSha256": "eb0145aa0e09b4a261c0eaaf5afe5e95c9616ed06658bf7763ef6a861fe276d7",
+            "authorPixelBinding": "6ae6347f366bec553220e66ad7abff7a87a11e4b8849f085dfff2665cc5f79ab",
+            "secondPixelBinding": "834d7681fc6826cc07ed3ba8e66b8dcd908e6d9eefd80305081dd63fa8c1d8f6"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "retail-ecommerce",
+          "visualLanguageId": "retail-ecommerce",
+          "baselineCategoryWords": 30,
+          "targetCategoryWords": 50,
+          "entryIds": [
+            "boutique",
+            "mall",
+            "department-store",
+            "supermarket",
+            "market-stall",
+            "kiosk",
+            "vending-machine",
+            "bookshop",
+            "bakery",
+            "florist",
+            "loyalty-card",
+            "shopping-list",
+            "payment-terminal",
+            "purse",
+            "tracking-number",
+            "wrapping-paper",
+            "gift-box",
+            "ribbon",
+            "price-list",
+            "greengrocer"
+          ],
+          "units": [
+            {
+              "id": "retail-places",
+              "title": "Retail premises and a specialist shopkeeper",
+              "entryIds": [
+                "boutique",
+                "mall",
+                "department-store",
+                "supermarket",
+                "market-stall",
+                "kiosk",
+                "vending-machine",
+                "bookshop",
+                "bakery",
+                "florist"
+              ]
+            },
+            {
+              "id": "retail-tools",
+              "title": "Shopping documents, gift materials and retail service",
+              "entryIds": [
+                "loyalty-card",
+                "shopping-list",
+                "payment-terminal",
+                "purse",
+                "tracking-number",
+                "wrapping-paper",
+                "gift-box",
+                "ribbon",
+                "price-list",
+                "greengrocer"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "20 selected retail entries cap the deployed category remainder30→50. After initial source import, a semantic identity audit excluded packing-slip because existing packing-list already covers the same shipment contents, and store-manager because existing manager includes store-manager collocation/task assignment. Both excluded identities had0 requests/candidates/inspections and remain explicitly held in the persistent queue with exact prior drafts retained. Purse(small British coin case) and greengrocer(fresh-produce seller) replace them with complete original EN/FA/PTBR/es419. No English entries are credited for excluded aliases or drafts;17 pre-existing manual asset holds remain untouched.",
+      "parentBatchId": "category-expansion-batch-66",
+      "completedAt": "2026-11-03T18:54:52.217Z",
+      "factualReferences": [
+        {
+          "entryId": "boutique",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail places and flower-seller vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules. Distinctions separate mall/department store, supermarket/aisle, open stall/enclosed staffed kiosk, automatic vending/ATM, bookshop/library and florist/gardener."
+        },
+        {
+          "entryId": "mall",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail places and flower-seller vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules. Distinctions separate mall/department store, supermarket/aisle, open stall/enclosed staffed kiosk, automatic vending/ATM, bookshop/library and florist/gardener."
+        },
+        {
+          "entryId": "department-store",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail places and flower-seller vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules. Distinctions separate mall/department store, supermarket/aisle, open stall/enclosed staffed kiosk, automatic vending/ATM, bookshop/library and florist/gardener."
+        },
+        {
+          "entryId": "supermarket",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail places and flower-seller vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules. Distinctions separate mall/department store, supermarket/aisle, open stall/enclosed staffed kiosk, automatic vending/ATM, bookshop/library and florist/gardener."
+        },
+        {
+          "entryId": "market-stall",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail places and flower-seller vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules. Distinctions separate mall/department store, supermarket/aisle, open stall/enclosed staffed kiosk, automatic vending/ATM, bookshop/library and florist/gardener."
+        },
+        {
+          "entryId": "kiosk",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail places and flower-seller vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules. Distinctions separate mall/department store, supermarket/aisle, open stall/enclosed staffed kiosk, automatic vending/ATM, bookshop/library and florist/gardener."
+        },
+        {
+          "entryId": "vending-machine",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail places and flower-seller vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules. Distinctions separate mall/department store, supermarket/aisle, open stall/enclosed staffed kiosk, automatic vending/ATM, bookshop/library and florist/gardener."
+        },
+        {
+          "entryId": "bookshop",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail places and flower-seller vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules. Distinctions separate mall/department store, supermarket/aisle, open stall/enclosed staffed kiosk, automatic vending/ATM, bookshop/library and florist/gardener."
+        },
+        {
+          "entryId": "bakery",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail places and flower-seller vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules. Distinctions separate mall/department store, supermarket/aisle, open stall/enclosed staffed kiosk, automatic vending/ATM, bookshop/library and florist/gardener."
+        },
+        {
+          "entryId": "florist",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail places and flower-seller vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules. Distinctions separate mall/department store, supermarket/aisle, open stall/enclosed staffed kiosk, automatic vending/ATM, bookshop/library and florist/gardener."
+        },
+        {
+          "entryId": "loyalty-card",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail tools, documents and service vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with explicit selected retail senses, editorial IPA/approximate CEFR, two contextual examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain review pending. No copied dictionary wording or artwork and no invented external source URLs. Rewards points, PK123 and example prices are fictional; no payment, carrier, consumer-law or required-document claims. Distinctions separate loyalty/gift/bank cards, shopping/packing/price lists, tracking/order identifiers, payment terminals/registers, wrapping/container/ribbon and manager/assistant/cashier roles."
+        },
+        {
+          "entryId": "shopping-list",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail tools, documents and service vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with explicit selected retail senses, editorial IPA/approximate CEFR, two contextual examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain review pending. No copied dictionary wording or artwork and no invented external source URLs. Rewards points, PK123 and example prices are fictional; no payment, carrier, consumer-law or required-document claims. Distinctions separate loyalty/gift/bank cards, shopping/packing/price lists, tracking/order identifiers, payment terminals/registers, wrapping/container/ribbon and manager/assistant/cashier roles."
+        },
+        {
+          "entryId": "payment-terminal",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail tools, documents and service vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with explicit selected retail senses, editorial IPA/approximate CEFR, two contextual examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain review pending. No copied dictionary wording or artwork and no invented external source URLs. Rewards points, PK123 and example prices are fictional; no payment, carrier, consumer-law or required-document claims. Distinctions separate loyalty/gift/bank cards, shopping/packing/price lists, tracking/order identifiers, payment terminals/registers, wrapping/container/ribbon and manager/assistant/cashier roles."
+        },
+        {
+          "entryId": "purse",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail tools, documents and service vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common retail authorship with one explicit selected sense, editorial IPA/approximate CEFR, two contextual examples, three collocations and useful distinctions. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain review pending. No dictionary wording or artwork copied and no invented source URL. Purse selects the British small coin-case sense, distinct from a flat banknote/card wallet or larger handbag; greengrocer selects the fresh-produce seller, distinct from a farmer or generic shop assistant."
+        },
+        {
+          "entryId": "tracking-number",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail tools, documents and service vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with explicit selected retail senses, editorial IPA/approximate CEFR, two contextual examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain review pending. No copied dictionary wording or artwork and no invented external source URLs. Rewards points, PK123 and example prices are fictional; no payment, carrier, consumer-law or required-document claims. Distinctions separate loyalty/gift/bank cards, shopping/packing/price lists, tracking/order identifiers, payment terminals/registers, wrapping/container/ribbon and manager/assistant/cashier roles."
+        },
+        {
+          "entryId": "wrapping-paper",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail tools, documents and service vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with explicit selected retail senses, editorial IPA/approximate CEFR, two contextual examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain review pending. No copied dictionary wording or artwork and no invented external source URLs. Rewards points, PK123 and example prices are fictional; no payment, carrier, consumer-law or required-document claims. Distinctions separate loyalty/gift/bank cards, shopping/packing/price lists, tracking/order identifiers, payment terminals/registers, wrapping/container/ribbon and manager/assistant/cashier roles."
+        },
+        {
+          "entryId": "gift-box",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail tools, documents and service vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with explicit selected retail senses, editorial IPA/approximate CEFR, two contextual examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain review pending. No copied dictionary wording or artwork and no invented external source URLs. Rewards points, PK123 and example prices are fictional; no payment, carrier, consumer-law or required-document claims. Distinctions separate loyalty/gift/bank cards, shopping/packing/price lists, tracking/order identifiers, payment terminals/registers, wrapping/container/ribbon and manager/assistant/cashier roles."
+        },
+        {
+          "entryId": "ribbon",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail tools, documents and service vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with explicit selected retail senses, editorial IPA/approximate CEFR, two contextual examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain review pending. No copied dictionary wording or artwork and no invented external source URLs. Rewards points, PK123 and example prices are fictional; no payment, carrier, consumer-law or required-document claims. Distinctions separate loyalty/gift/bank cards, shopping/packing/price lists, tracking/order identifiers, payment terminals/registers, wrapping/container/ribbon and manager/assistant/cashier roles."
+        },
+        {
+          "entryId": "price-list",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail tools, documents and service vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with explicit selected retail senses, editorial IPA/approximate CEFR, two contextual examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain review pending. No copied dictionary wording or artwork and no invented external source URLs. Rewards points, PK123 and example prices are fictional; no payment, carrier, consumer-law or required-document claims. Distinctions separate loyalty/gift/bank cards, shopping/packing/price lists, tracking/order identifiers, payment terminals/registers, wrapping/container/ribbon and manager/assistant/cashier roles."
+        },
+        {
+          "entryId": "greengrocer",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika retail tools, documents and service vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common retail authorship with one explicit selected sense, editorial IPA/approximate CEFR, two contextual examples, three collocations and useful distinctions. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain review pending. No dictionary wording or artwork copied and no invented source URL. Purse selects the British small coin-case sense, distinct from a flat banknote/card wallet or larger handbag; greengrocer selects the fresh-produce seller, distinct from a farmer or generic shop assistant."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,

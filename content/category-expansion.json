@@ -16,7 +16,7 @@
     }
   ],
   "currentCategoryId": "retail-ecommerce",
-  "nextCategoryId": "retail-ecommerce",
+  "nextCategoryId": "safety-emergencies",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -7172,9 +7172,79 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "retail-ecommerce",
+      "visualLanguageId": "retail-ecommerce",
+      "baselineCategoryWords": 30,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "boutique",
+        "mall",
+        "department-store",
+        "supermarket",
+        "market-stall",
+        "kiosk",
+        "vending-machine",
+        "bookshop",
+        "bakery",
+        "florist",
+        "loyalty-card",
+        "shopping-list",
+        "payment-terminal",
+        "purse",
+        "tracking-number",
+        "wrapping-paper",
+        "gift-box",
+        "ribbon",
+        "price-list",
+        "greengrocer"
+      ],
+      "units": [
+        {
+          "id": "retail-places",
+          "title": "Retail premises and a specialist shopkeeper",
+          "entryIds": [
+            "boutique",
+            "mall",
+            "department-store",
+            "supermarket",
+            "market-stall",
+            "kiosk",
+            "vending-machine",
+            "bookshop",
+            "bakery",
+            "florist"
+          ]
+        },
+        {
+          "id": "retail-tools",
+          "title": "Shopping documents, gift materials and retail service",
+          "entryIds": [
+            "loyalty-card",
+            "shopping-list",
+            "payment-terminal",
+            "purse",
+            "tracking-number",
+            "wrapping-paper",
+            "gift-box",
+            "ribbon",
+            "price-list",
+            "greengrocer"
+          ]
+        }
+      ],
+      "id": "retail-ecommerce-category-expansion-batch-66-ready-1",
+      "releaseId": "2026-10-preview-73",
+      "status": "published-preview",
+      "objective": "Learn Retail premises and a specialist shopkeeper; Shopping documents, gift materials and retail service in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-65-ready-1",
+  "activePassId": "category-expansion-batch-66-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",

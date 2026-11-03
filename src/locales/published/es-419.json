@@ -13,9 +13,9 @@
     "modifications": "Latin-American Spanish preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-72",
-    "manifest": "content/releases/2026-10-preview-72-7aa9c5dc429e/manifest.json",
-    "sha256": "7aa9c5dc429e3c5117e57217fa784d8398b867b0e48527b34316be03b8e623df"
+    "id": "2026-10-preview-73",
+    "manifest": "content/releases/2026-10-preview-73-bac06e105e68/manifest.json",
+    "sha256": "bac06e105e68d826174316afcd731dbb7e9907bcd930375f98490e98b1869d3f"
   },
   "categories": {
     "everyday-life": {
@@ -56851,6 +56851,686 @@
         }
       ],
       "tip": "Sale significa aquí un evento o periodo de precios reducidos; la acepción general de venta no es el foco. For sale indica que algo está a la venta, sin que necesariamente tenga descuento. En la historia ficticia, la misma bufanda bajó de diez a ocho libras; la duración y los importes son solo detalles del ejemplo."
+    },
+    "boutique": {
+      "sourceWord": "boutique",
+      "senses": {
+        "boutique:meaning-1": {
+          "gloss": "boutique",
+          "definition": "Tienda pequeña que vende una selección de ropa o accesorios de moda."
+        }
+      },
+      "examples": [
+        {
+          "en": "The boutique sells coats made by local designers.",
+          "translation": "La boutique vende abrigos hechos por diseñadores locales."
+        },
+        {
+          "en": "Only a few dresses hang beside the small counter.",
+          "translation": "Solo hay unos pocos vestidos colgados junto al mostrador pequeño."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a clothing boutique",
+          "translation": "una boutique de ropa"
+        },
+        {
+          "en": "a small boutique",
+          "translation": "una boutique pequeña"
+        },
+        {
+          "en": "open a boutique",
+          "translation": "abrir una boutique"
+        }
+      ],
+      "tip": "Aquí, boutique es una tienda pequeña de ropa o accesorios de moda. No toda tienda pequeña es una boutique: un puesto de periódicos o una tienda de alimentos suele recibir otro nombre. La palabra por sí sola no garantiza lujo ni calidad."
+    },
+    "mall": {
+      "sourceWord": "mall",
+      "senses": {
+        "mall:meaning-1": {
+          "gloss": "centro comercial",
+          "definition": "Centro de compras con varias tiendas separadas conectadas por pasillos interiores compartidos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The mall has a bookshop and several clothing stores.",
+          "translation": "El centro comercial tiene una librería y varias tiendas de ropa."
+        },
+        {
+          "en": "We walked along the indoor passage between the shops.",
+          "translation": "Caminamos por el pasillo interior entre las tiendas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a shopping mall",
+          "translation": "un centro comercial"
+        },
+        {
+          "en": "an indoor mall",
+          "translation": "un centro comercial cerrado"
+        },
+        {
+          "en": "visit the mall",
+          "translation": "ir al centro comercial"
+        }
+      ],
+      "tip": "Mall es común en inglés estadounidense; shopping centre es más común en inglés británico. El sentido elegido aquí es un centro cerrado. Tiene tiendas separadas conectadas por pasillos comunes; una department store es una sola tienda con distintos departamentos."
+    },
+    "department-store": {
+      "sourceWord": "department store",
+      "senses": {
+        "department-store:meaning-1": {
+          "gloss": "tienda por departamentos",
+          "definition": "Tienda grande con secciones diferentes para distintos tipos de productos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The department store sells clothes, shoes and lamps.",
+          "translation": "La tienda por departamentos vende ropa, zapatos y lámparas."
+        },
+        {
+          "en": "We found the towels in the home section.",
+          "translation": "Encontramos las toallas en la sección de artículos para el hogar."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a large department store",
+          "translation": "una tienda por departamentos grande"
+        },
+        {
+          "en": "shop at a department store",
+          "translation": "comprar en una tienda por departamentos"
+        },
+        {
+          "en": "a department store entrance",
+          "translation": "la entrada de una tienda por departamentos"
+        }
+      ],
+      "tip": "Department aquí es una sección de una tienda. Una department store es una tienda con varias secciones de productos, no una oficina pública ni un mall con varias tiendas separadas. Aprende department store como una expresión completa."
+    },
+    "supermarket": {
+      "sourceWord": "supermarket",
+      "senses": {
+        "supermarket:meaning-1": {
+          "gloss": "supermercado",
+          "definition": "Tienda grande de autoservicio que vende alimentos y productos de uso diario para el hogar."
+        }
+      },
+      "examples": [
+        {
+          "en": "The supermarket sells fruit, bread and cleaning products.",
+          "translation": "El supermercado vende fruta, pan y productos de limpieza."
+        },
+        {
+          "en": "She puts the groceries in a cart before paying.",
+          "translation": "Ella pone las compras en un carrito antes de pagar."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a local supermarket",
+          "translation": "un supermercado del barrio"
+        },
+        {
+          "en": "a supermarket aisle",
+          "translation": "un pasillo de supermercado"
+        },
+        {
+          "en": "go to the supermarket",
+          "translation": "ir al supermercado"
+        }
+      ],
+      "tip": "En este sentido común, el cliente toma los productos de los estantes y después paga. Un supermarket suele ser más grande que una tienda de alimentos pequeña. Un solo pasillo entre estantes muestra mejor aisle; esta entrada se refiere a la tienda entera."
+    },
+    "market-stall": {
+      "sourceWord": "market stall",
+      "senses": {
+        "market-stall:meaning-1": {
+          "gloss": "puesto de mercado",
+          "definition": "Puesto o mesa abierta donde un vendedor ofrece productos en un mercado."
+        }
+      },
+      "examples": [
+        {
+          "en": "The market stall sells apples and pears.",
+          "translation": "El puesto de mercado vende manzanas y peras."
+        },
+        {
+          "en": "The seller arranges the fruit on a wooden table.",
+          "translation": "El vendedor acomoda la fruta sobre una mesa de madera."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a fruit market stall",
+          "translation": "un puesto de fruta en el mercado"
+        },
+        {
+          "en": "run a market stall",
+          "translation": "atender un puesto de mercado"
+        },
+        {
+          "en": "browse the market stalls",
+          "translation": "recorrer los puestos del mercado"
+        }
+      ],
+      "tip": "Stall en esta expresión es un punto de venta en un mercado; no es el verbo que describe un motor que se apaga ni un espacio para un animal. Un market stall suele ser un puesto abierto, a veces bajo un toldo. Kiosk, en el sentido de esta colección, es una cabina pequeña con paredes y una ventanilla de atención."
+    },
+    "kiosk": {
+      "sourceWord": "kiosk",
+      "senses": {
+        "kiosk:meaning-1": {
+          "gloss": "quiosco",
+          "definition": "Cabina pequeña de venta con una ventanilla de atención, usada, por ejemplo, para vender periódicos o refrigerios."
+        }
+      },
+      "examples": [
+        {
+          "en": "The kiosk sells newspapers beside the station.",
+          "translation": "El quiosco vende periódicos junto a la estación."
+        },
+        {
+          "en": "A customer speaks to the seller through the small opening.",
+          "translation": "Un cliente habla con el vendedor por la ventanilla pequeña."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a newspaper kiosk",
+          "translation": "un quiosco de periódicos"
+        },
+        {
+          "en": "a small kiosk",
+          "translation": "un quiosco pequeño"
+        },
+        {
+          "en": "buy something at a kiosk",
+          "translation": "comprar algo en un quiosco"
+        }
+      ],
+      "tip": "Aquí, kiosk es una cabina física de venta con una persona que atiende. La palabra también puede referirse a una terminal de autoservicio para información o pagos, pero ese no es el sentido elegido. Para distinguirlo de market stall, recuerda la cabina y la ventanilla de atención."
+    },
+    "vending-machine": {
+      "sourceWord": "vending machine",
+      "senses": {
+        "vending-machine:meaning-1": {
+          "gloss": "máquina expendedora",
+          "definition": "Máquina en la que el cliente paga y elige un producto pequeño para comprar."
+        }
+      },
+      "examples": [
+        {
+          "en": "The vending machine sells bottles of water.",
+          "translation": "La máquina expendedora vende botellas de agua."
+        },
+        {
+          "en": "He presses a button and takes his drink from the opening below.",
+          "translation": "Él presiona un botón y recoge la bebida en la abertura de abajo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a drinks vending machine",
+          "translation": "una máquina expendedora de bebidas"
+        },
+        {
+          "en": "use a vending machine",
+          "translation": "usar una máquina expendedora"
+        },
+        {
+          "en": "a vending machine button",
+          "translation": "un botón de una máquina expendedora"
+        }
+      ],
+      "tip": "Una vending machine entrega productos; cash machine o ATM es un cajero automático para retirar dinero. Esta entrada elige una máquina de bebidas. Las formas de pago varían; los ejemplos no son instrucciones para un modelo real."
+    },
+    "bookshop": {
+      "sourceWord": "bookshop",
+      "senses": {
+        "bookshop:meaning-1": {
+          "gloss": "librería",
+          "definition": "Tienda donde se venden libros."
+        }
+      },
+      "examples": [
+        {
+          "en": "The bookshop sells novels and children’s books.",
+          "translation": "La librería vende novelas y libros infantiles."
+        },
+        {
+          "en": "We pay for the two books at the counter.",
+          "translation": "Pagamos los dos libros en el mostrador."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a local bookshop",
+          "translation": "una librería del barrio"
+        },
+        {
+          "en": "a second-hand bookshop",
+          "translation": "una librería de libros usados"
+        },
+        {
+          "en": "browse in a bookshop",
+          "translation": "mirar libros en una librería"
+        }
+      ],
+      "tip": "Bookshop es común en inglés británico; bookstore también se usa, especialmente en el estadounidense, para el mismo tipo de tienda. Los libros están a la venta. Library significa biblioteca, no librería."
+    },
+    "bakery": {
+      "sourceWord": "bakery",
+      "senses": {
+        "bakery:meaning-1": {
+          "gloss": "panadería",
+          "definition": "Lugar donde se hacen y venden panes, pasteles u otros alimentos similares."
+        }
+      },
+      "examples": [
+        {
+          "en": "The bakery makes fresh bread every morning.",
+          "translation": "La panadería hace pan fresco todas las mañanas."
+        },
+        {
+          "en": "Customers choose rolls from the display near the counter.",
+          "translation": "Los clientes eligen panecillos en la vitrina cerca del mostrador."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a local bakery",
+          "translation": "una panadería del barrio"
+        },
+        {
+          "en": "a bakery counter",
+          "translation": "un mostrador de panadería"
+        },
+        {
+          "en": "work in a bakery",
+          "translation": "trabajar en una panadería"
+        }
+      ],
+      "tip": "Una bakery puede vender pan y otros alimentos horneados; panadería es el equivalente común en este contexto. Baker es la persona que prepara esos productos; bakery es el lugar. El sentido elegido combina elaboración y venta de pan, no un restaurante genérico."
+    },
+    "florist": {
+      "sourceWord": "florist",
+      "senses": {
+        "florist:meaning-1": {
+          "gloss": "florista",
+          "definition": "Persona cuyo trabajo incluye vender flores y preparar arreglos para los clientes."
+        }
+      },
+      "examples": [
+        {
+          "en": "The florist wraps a bouquet for a customer.",
+          "translation": "La florista envuelve un ramo para una clienta."
+        },
+        {
+          "en": "She selects flowers that look good together.",
+          "translation": "Ella elige flores que se ven bien juntas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a local florist",
+          "translation": "una florista del barrio"
+        },
+        {
+          "en": "work as a florist",
+          "translation": "trabajar como florista"
+        },
+        {
+          "en": "order flowers from a florist",
+          "translation": "pedir flores a una florista"
+        }
+      ],
+      "tip": "El sentido elegido de florist es la persona, no la flor. Florist’s puede indicar su tienda. Gardener se refiere más al cultivo y cuidado de plantas, no necesariamente a la venta de flores y la preparación de ramos."
+    },
+    "loyalty-card": {
+      "sourceWord": "loyalty card",
+      "senses": {
+        "loyalty-card:meaning-1": {
+          "gloss": "tarjeta de lealtad",
+          "definition": "Tarjeta que identifica a un cliente en el programa de recompensas de una tienda."
+        }
+      },
+      "examples": [
+        {
+          "en": "The cashier scanned my loyalty card to add the new points.",
+          "translation": "El cajero escaneó mi tarjeta de lealtad para agregar los nuevos puntos."
+        },
+        {
+          "en": "I keep it in my wallet for visits to the same shop.",
+          "translation": "La guardo en mi cartera para otras visitas a la misma tienda."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "use a loyalty card",
+          "translation": "usar una tarjeta de lealtad"
+        },
+        {
+          "en": "scan a loyalty card",
+          "translation": "escanear una tarjeta de lealtad"
+        },
+        {
+          "en": "a shop loyalty card",
+          "translation": "la tarjeta de lealtad de una tienda"
+        }
+      ],
+      "tip": "La tarjeta identifica al cliente en el programa de recompensas de la tienda; no es una tarjeta bancaria ni una gift card con saldo prepagado. Algunos programas dan puntos o descuentos, pero las reglas varían. Los tres puntos de la imagen son solo un ejemplo ficticio."
+    },
+    "shopping-list": {
+      "sourceWord": "shopping list",
+      "senses": {
+        "shopping-list:meaning-1": {
+          "gloss": "lista de compras",
+          "definition": "Lista escrita de las cosas que alguien piensa comprar."
+        }
+      },
+      "examples": [
+        {
+          "en": "I wrote bread and tea on my shopping list.",
+          "translation": "Anoté pan y té en mi lista de compras."
+        },
+        {
+          "en": "We checked it before we left the shop.",
+          "translation": "Revisamos la lista antes de salir de la tienda."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "make a shopping list",
+          "translation": "hacer una lista de compras"
+        },
+        {
+          "en": "check a shopping list",
+          "translation": "revisar una lista de compras"
+        },
+        {
+          "en": "forget the shopping list",
+          "translation": "olvidar la lista de compras"
+        }
+      ],
+      "tip": "Una shopping list recuerda lo que se quiere comprar; un receipt registra una compra ya realizada y una price list muestra precios. La lista puede estar en papel o en el teléfono. En la imagen, el pan y el té son productos que se planea comprar."
+    },
+    "payment-terminal": {
+      "sourceWord": "payment terminal",
+      "senses": {
+        "payment-terminal:meaning-1": {
+          "gloss": "terminal de pago",
+          "definition": "Dispositivo que una tienda usa para recibir pagos electrónicos con tarjeta."
+        }
+      },
+      "examples": [
+        {
+          "en": "She inserted her card into the payment terminal.",
+          "translation": "Ella insertó su tarjeta en la terminal de pago."
+        },
+        {
+          "en": "The small screen asked her to confirm the amount.",
+          "translation": "La pantalla pequeña le pidió que confirmara el importe."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "use a payment terminal",
+          "translation": "usar una terminal de pago"
+        },
+        {
+          "en": "a portable payment terminal",
+          "translation": "una terminal de pago portátil"
+        },
+        {
+          "en": "the payment-terminal screen",
+          "translation": "la pantalla de la terminal de pago"
+        }
+      ],
+      "tip": "Aquí se trata del dispositivo para pagar con tarjeta, no de la caja registradora con cajón. Card machine también es común en inglés. Hay modelos de lectura sin contacto y otros con ranura; la imagen muestra uno con ranura, sin dar instrucciones de pago ni de uso del NIP o clave."
+    },
+    "purse": {
+      "sourceWord": "purse",
+      "senses": {
+        "purse:meaning-1": {
+          "gloss": "monedero",
+          "definition": "Bolsa o estuche pequeño para guardar monedas, especialmente en el uso británico de purse."
+        }
+      },
+      "examples": [
+        {
+          "en": "She opened her purse to find a coin.",
+          "translation": "Ella abrió su monedero para buscar una moneda."
+        },
+        {
+          "en": "The small clasp kept the coins inside.",
+          "translation": "El pequeño broche mantenía las monedas adentro."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a coin purse",
+          "translation": "un monedero"
+        },
+        {
+          "en": "open a purse",
+          "translation": "abrir un monedero"
+        },
+        {
+          "en": "a purse clasp",
+          "translation": "el broche de un monedero"
+        }
+      ],
+      "tip": "Esta entrada selecciona el sentido británico de bolsa pequeña para monedas. En inglés estadounidense, purse suele referirse también a un bolso de mano más grande. Wallet suele ser la cartera plana para billetes y tarjetas; aquí la imagen muestra un monedero pequeño con broche, no un bolso ni un tarjetero."
+    },
+    "tracking-number": {
+      "sourceWord": "tracking number",
+      "senses": {
+        "tracking-number:meaning-1": {
+          "gloss": "número de seguimiento",
+          "definition": "Código que permite identificar un paquete y consultar el progreso de su entrega."
+        }
+      },
+      "examples": [
+        {
+          "en": "I entered the tracking number to check where my parcel was.",
+          "translation": "Ingresé el número de seguimiento para consultar dónde estaba mi paquete."
+        },
+        {
+          "en": "The same code appeared on the label and the delivery update.",
+          "translation": "El mismo código aparecía en la etiqueta y en la actualización de la entrega."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "enter a tracking number",
+          "translation": "ingresar un número de seguimiento"
+        },
+        {
+          "en": "a parcel tracking number",
+          "translation": "el número de seguimiento de un paquete"
+        },
+        {
+          "en": "check the tracking number",
+          "translation": "revisar el número de seguimiento"
+        }
+      ],
+      "tip": "Aunque se use number, el identificador puede contener letras y cifras. Tracking number sirve para seguir el paquete; order number identifica el pedido de la tienda y barcode representa un código mediante barras. PK123 es un identificador ficticio para enseñar; una actualización de seguimiento no garantiza una fecha de entrega."
+    },
+    "wrapping-paper": {
+      "sourceWord": "wrapping paper",
+      "senses": {
+        "wrapping-paper:meaning-1": {
+          "gloss": "papel para regalo",
+          "definition": "Papel decorativo que se usa para envolver un regalo."
+        }
+      },
+      "examples": [
+        {
+          "en": "We cut the wrapping paper to fit the box.",
+          "translation": "Cortamos el papel para regalo al tamaño de la caja."
+        },
+        {
+          "en": "The coral sheet covered the plain cardboard completely.",
+          "translation": "La hoja de color coral cubrió por completo el cartón liso."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a roll of wrapping paper",
+          "translation": "un rollo de papel para regalo"
+        },
+        {
+          "en": "cut the wrapping paper",
+          "translation": "cortar el papel para regalo"
+        },
+        {
+          "en": "wrap a gift in wrapping paper",
+          "translation": "envolver un regalo en papel para regalo"
+        }
+      ],
+      "tip": "Aquí, wrapping paper es el papel decorativo que envuelve el regalo; la caja es una gift box y la tira de tela puede ser una ribbon. Paper es incontable en este uso: a sheet of wrapping paper significa una hoja de papel para regalo. Roll se refiere al papel enrollado."
+    },
+    "gift-box": {
+      "sourceWord": "gift box",
+      "senses": {
+        "gift-box:meaning-1": {
+          "gloss": "caja de regalo",
+          "definition": "Caja que se usa para contener o presentar un regalo."
+        }
+      },
+      "examples": [
+        {
+          "en": "She put the scarf in a gift box.",
+          "translation": "Ella puso el pañuelo en una caja de regalo."
+        },
+        {
+          "en": "Its lid kept the folded fabric out of sight.",
+          "translation": "La tapa ocultaba la tela doblada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a decorative gift box",
+          "translation": "una caja de regalo decorativa"
+        },
+        {
+          "en": "open a gift box",
+          "translation": "abrir una caja de regalo"
+        },
+        {
+          "en": "put something in a gift box",
+          "translation": "poner algo en una caja de regalo"
+        }
+      ],
+      "tip": "Gift box es la caja que contiene el regalo, no el regalo mismo ni el wrapping paper que puede envolverla. No toda caja de regalo necesita una cinta o palabras impresas. La tapa removible y el pañuelo de la imagen muestran su uso para presentar un regalo."
+    },
+    "ribbon": {
+      "sourceWord": "ribbon",
+      "senses": {
+        "ribbon:meaning-1": {
+          "gloss": "cinta decorativa de tela",
+          "definition": "Tira estrecha de tela que aquí se usa para decorar un regalo."
+        }
+      },
+      "examples": [
+        {
+          "en": "A coral ribbon was tied around the gift.",
+          "translation": "Una cinta de color coral estaba atada alrededor del regalo."
+        },
+        {
+          "en": "She formed a bow and left two short ends.",
+          "translation": "Ella formó un moño y dejó dos extremos cortos."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "tie a ribbon",
+          "translation": "atar una cinta"
+        },
+        {
+          "en": "a roll of ribbon",
+          "translation": "un rollo de cinta"
+        },
+        {
+          "en": "a ribbon bow",
+          "translation": "un moño de cinta"
+        }
+      ],
+      "tip": "Aquí, ribbon es una tira decorativa de tela, no un cordón redondo, cinta adhesiva ni la cinta de comandos de un programa. Su superficie plana y flexible se puede doblar y atar en un moño. Bow es la forma del nudo; ribbon es la tira que se usa para hacerlo."
+    },
+    "price-list": {
+      "sourceWord": "price list",
+      "senses": {
+        "price-list:meaning-1": {
+          "gloss": "lista de precios",
+          "definition": "Lista escrita de productos o servicios y sus precios."
+        }
+      },
+      "examples": [
+        {
+          "en": "The price list showed the cost of each notebook.",
+          "translation": "La lista de precios mostraba el precio de cada cuaderno."
+        },
+        {
+          "en": "We compared the prices before choosing a size.",
+          "translation": "Comparamos los precios antes de elegir un tamaño."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "check a price list",
+          "translation": "consultar una lista de precios"
+        },
+        {
+          "en": "an updated price list",
+          "translation": "una lista de precios actualizada"
+        },
+        {
+          "en": "the shop's price list",
+          "translation": "la lista de precios de la tienda"
+        }
+      ],
+      "tip": "Una price list reúne varios productos o servicios con sus precios; una price tag suele estar unida a un producto específico y una shopping list recuerda lo que se quiere comprar. Los números 3 y 5 de la imagen son precios ficticios, no precios reales, un total de compra ni un descuento."
+    },
+    "greengrocer": {
+      "sourceWord": "greengrocer",
+      "senses": {
+        "greengrocer:meaning-1": {
+          "gloss": "vendedor de frutas y verduras",
+          "definition": "Persona que vende frutas y verduras frescas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The greengrocer weighed the apples for us.",
+          "translation": "La vendedora de frutas y verduras pesó las manzanas para nosotros."
+        },
+        {
+          "en": "She also sells carrots and onions.",
+          "translation": "Ella también vende zanahorias y cebollas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a local greengrocer",
+          "translation": "un vendedor de frutas y verduras del barrio"
+        },
+        {
+          "en": "buy fruit from a greengrocer",
+          "translation": "comprar fruta a un vendedor de frutas y verduras"
+        },
+        {
+          "en": "ask the greengrocer",
+          "translation": "preguntarle al vendedor de frutas y verduras"
+        }
+      ],
+      "tip": "Greengrocer, sobre todo en inglés británico, es quien vende frutas y verduras frescas. Aquí se selecciona a la persona, no solo los productos ni al agricultor que los cultiva. Greengrocer's puede referirse a su tienda. Grocer tiene el sentido más amplio de comerciante de alimentos; no todo shop assistant es vendedor de frutas y verduras."
     }
   }
 }
