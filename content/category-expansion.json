@@ -15,7 +15,7 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "languages-communication",
+  "currentCategoryId": "retail-ecommerce",
   "nextCategoryId": "retail-ecommerce",
   "categoryOrder": [
     "cooking-food-drink",
@@ -7094,9 +7094,87 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "retail-ecommerce",
+      "visualLanguageId": "retail-ecommerce",
+      "baselineCategoryWords": 6,
+      "targetCategoryWords": 30,
+      "entryIds": [
+        "shop",
+        "storefront",
+        "shop-window",
+        "shelf",
+        "aisle",
+        "counter",
+        "display",
+        "mannequin",
+        "fitting-room",
+        "awning",
+        "shopping-cart",
+        "shopping-bag",
+        "cash-register",
+        "shopper",
+        "shop-assistant",
+        "purchase",
+        "order",
+        "delivery",
+        "package",
+        "price-tag",
+        "coupon",
+        "gift-card",
+        "label",
+        "sale"
+      ],
+      "units": [
+        {
+          "id": "shop-space",
+          "title": "Shops, fixtures and retail spaces",
+          "entryIds": [
+            "shop",
+            "storefront",
+            "shop-window",
+            "shelf",
+            "aisle",
+            "counter",
+            "display",
+            "mannequin",
+            "fitting-room",
+            "awning",
+            "shopping-cart",
+            "shopping-bag"
+          ]
+        },
+        {
+          "id": "shopping-transactions",
+          "title": "Shopping actions, roles and transaction objects",
+          "entryIds": [
+            "cash-register",
+            "shopper",
+            "shop-assistant",
+            "purchase",
+            "order",
+            "delivery",
+            "package",
+            "price-tag",
+            "coupon",
+            "gift-card",
+            "label",
+            "sale"
+          ]
+        }
+      ],
+      "id": "retail-ecommerce-category-expansion-batch-65-ready-1",
+      "releaseId": "2026-10-preview-72",
+      "status": "published-preview",
+      "objective": "Learn Shops, fixtures and retail spaces; Shopping actions, roles and transaction objects in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-64-ready-1",
+  "activePassId": "category-expansion-batch-65-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",

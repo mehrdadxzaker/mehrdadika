@@ -18347,6 +18347,467 @@
           "use": "Original EN/FA/PT-BR/es-419 selected learner content and contextual examples; editorial IPA and approximate CEFR; AI-assisted CC BY4 editorial preview, independent human language and qualified linguistic/editorial review pending. Common-language authorship, no copied dictionary wording or artwork and no invented external source. Pictures must show the selected communication action or role, with gesture meanings treated as context-dependent rather than universal."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-65-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-72",
+      "sourceFiles": [
+        "shop-space.json",
+        "shopping-transactions.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-71",
+        "manifest": "content/releases/2026-10-preview-71-00ee11bd9291/manifest.json",
+        "manifestSha256": "00ee11bd9291cda0ae10a5396d45ceac30bc17584cc27dd2b223b3d01eeffe5d",
+        "words": 1632
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "shop",
+            "lexicalBinding": "431fb0fa54c3b853b67559fcdac7080cb7e7aca289b3afeb09a2841ffe0b1181",
+            "sourceImageSha256": "a206642cc0ed9cfd5639041d9b6186599770fb353406a106a9895ae0feab5810",
+            "cardSha256": "68031adc6200ca256c08555121ca2a2bc7275cb6cca3e5b4e7074d0dd5924c33",
+            "thumbnailSha256": "d2a0b4fda7bb6bbda78ab599f727db91915e26714fd3bc2d259bb8a9480ee8d3",
+            "authorPixelBinding": "588cfe415acca42450e6d785048ec44a5f80c70f7b38ed480588c9c5323fdc04",
+            "secondPixelBinding": "b4ab0157bd2643acbaaef995af882593fcb2802caf3f2552b9dae4837fbd90a1"
+          },
+          {
+            "entryId": "storefront",
+            "lexicalBinding": "e46e0c4bcdcbb93ef357f96160945cdf48e7e08b9fbd68b13bd50880b770303a",
+            "sourceImageSha256": "69fe8237914bb515c7f9380d632f20089d22211bdd410df55aaa4e1a1ba9e0f7",
+            "cardSha256": "fe6aba7e75348ed597ce6360b1bbe34c0bd2cf83b9edaeebd18ac87db9858bdd",
+            "thumbnailSha256": "d58270382be912522a73b67ee5d151f09fc1deef75e54a370d53dac1361ce263",
+            "authorPixelBinding": "ff9c81f31ac85feef8988b71b4e6cc8c53a8a777f7f6d69c02c426c02af3e146",
+            "secondPixelBinding": "25895852d9782d0e79131cdf1205357d90cf484fc7be6c1ea1e505969ca0df28"
+          },
+          {
+            "entryId": "shop-window",
+            "lexicalBinding": "f9326755e557072361fb3e18c345ffaf123b1401477b2dba429e9789d7d4968c",
+            "sourceImageSha256": "2791b49d967656926a43bc3e852f3e745d6ee5fae8fec1dd7b3c50c5aee0a855",
+            "cardSha256": "a205830519e56fdbc2910dd719d2f872b4e61012b04c3b81e74fe26ffe27994d",
+            "thumbnailSha256": "4ced4f184f4462905ab3f770c3b51bdb8ed740962660590f78c62b7c75a327c9",
+            "authorPixelBinding": "b9870ea0f336d836f55833a01e21f8a026a22d6f9f9b137b297e4b657a138185",
+            "secondPixelBinding": "70aeb9026cb00c01d851695d8c6033d71a3344fc5ddcea6748e887ae4a1834e8"
+          },
+          {
+            "entryId": "shelf",
+            "lexicalBinding": "14b9b619e54dbfdd30014feff9a54652af5f573894f51e426dc9019bdfb52338",
+            "sourceImageSha256": "d0d38d0e8b820359ee94ea6d6dd83c90bb43c5dfd00c1e334652e7be07bead8f",
+            "cardSha256": "b4235f61142c4e6dd9a3ed2705dab3cccb87f0015545188832294160713e4015",
+            "thumbnailSha256": "416f781c52f72a487a4b19a5c589b68ad3ee68cc9a05c734f05cdc6838826138",
+            "authorPixelBinding": "7f8856ecc6730c05fba8fa475af97bdd4229ca1ee9b6f6d27c807f54cf876a38",
+            "secondPixelBinding": "fe409d3b46de140707ba715fe52acd931000f2acf3108e0e47c816a125435dd6"
+          },
+          {
+            "entryId": "aisle",
+            "lexicalBinding": "691d79bab2e4a2223b915f475e8392ec5508083b4ab5e1f4c76ff0ab11cf5d5c",
+            "sourceImageSha256": "a7aa1a47036bf18ebacd9b816f40da61b50a4a44d279ec0b01c744be22ec66fa",
+            "cardSha256": "5098e3db03a25acbcd68edc092d7c32b2a1d465bd16d7f656f3fbb6417b984d6",
+            "thumbnailSha256": "b0a34cbdfbbd3746559ab8bbd281cd9a32e8fe4a592297265326e81f2a9cf5b1",
+            "authorPixelBinding": "fd617ce7c4c882e3a50c545b1a1a0a3c9690d19a86c1a08873b74d6d9f56cd48",
+            "secondPixelBinding": "1717343b10ecf24229c54271fd12b8640529f95f01f833c57bc02c7ef9d5adc3"
+          },
+          {
+            "entryId": "counter",
+            "lexicalBinding": "ab4c01137db7e918c6064d349a6009381dab343b0ebd4902bfc56f027dbbf1a1",
+            "sourceImageSha256": "4210cb5f47af6e8e29e6c03f1197f29d53c157fa30b98caf399d3674bdcd59a2",
+            "cardSha256": "431259d5f0cb72f060da16a6da4f17684e5a7b512391477780b031e55c40cf4a",
+            "thumbnailSha256": "99cff93c73cc90d3de967c47f872a072344216284006a419717c6a0aa78c9268",
+            "authorPixelBinding": "87732c5e5cd9af774157786009e29d38590e252e8cadaf9d6aedf0eb314852cc",
+            "secondPixelBinding": "3cf5980033ce358c3e1c92e7282cefbcbced2407140d0050f320dd39c14e1c10"
+          },
+          {
+            "entryId": "display",
+            "lexicalBinding": "271f53a6f9e8db58f0b5e1f75059cd1db5470702d86ce4a0883f0e1a9abf6001",
+            "sourceImageSha256": "6823af3519676650f8c6432387e3137de1ba45a60ee2e15de7986c8611c5072b",
+            "cardSha256": "b2c9e64d8cc31d88fe32c33eb208e543357dbc35c7d356540230c5faefc2b8a3",
+            "thumbnailSha256": "79da64c427f99c2d0d21b3d6302ac96561b71e4364a43589af94e77c1f2bc40a",
+            "authorPixelBinding": "3bd60016daf4eb791d9d6198d8dc49b72632aec15f02b2991d111704ef50ee9f",
+            "secondPixelBinding": "beefed904c535362ec6e7b7f2d407db1f90aded4db745aa1d6850644297723bf"
+          },
+          {
+            "entryId": "mannequin",
+            "lexicalBinding": "c8d5bdfefc520a25c0e96de325b12f3500635b8ba343ddb28530d51bda23ac43",
+            "sourceImageSha256": "1454d11446372890f183dff97e28fca01fe811e2f382797f8e8e191b6a8eeb55",
+            "cardSha256": "f6bc1608f210c7c278f638c3f6983b6dc6fc2151bb343d5804aa319f5bc0051b",
+            "thumbnailSha256": "73e8c8a3d0181a9e56ecbdc70f468dd8dff1e186d2d39e30fadc474b3c515a20",
+            "authorPixelBinding": "0143253038f2b08395ccb046287b0f44dbce3904ad51fc4d62a8d64ef3e87335",
+            "secondPixelBinding": "836a265a448adcb05a2d6e69c4d40c6b47f58de2b25697edc240b553e27ceb15"
+          },
+          {
+            "entryId": "fitting-room",
+            "lexicalBinding": "e5841aff16885ce604a6de1f87045137996c9b628031fcbf32d18db631f0d6e0",
+            "sourceImageSha256": "6b9a5a22456417ddfed4eba8d776a685d164f6ff9dda393e7dfe0b1755f7c0b7",
+            "cardSha256": "4d8924ea780caf57256a853b9d2276c95eb185b6246d0555f638cf14686c10b7",
+            "thumbnailSha256": "7aba1399c0c46894c9a206d4d21430a7bb8b486fd09378c182753738ccaf78c4",
+            "authorPixelBinding": "22246888f1b904ea8cc7294fcebadb15d0ccab1c7f31cb2afe56c60f0fc8b8c0",
+            "secondPixelBinding": "a44fe89d66c1761108629ce7c4d5871f883b7e063ce5cd05c8771a42f27d0d85"
+          },
+          {
+            "entryId": "awning",
+            "lexicalBinding": "0d4997e988b40988b03a5fba3dba3d40740ffe93e5570c0082db4b0d4538b3d4",
+            "sourceImageSha256": "47a8abaeb08affa649a89f8b9de626c4855fb34cbaf44d42f3f839b9bd1aa89c",
+            "cardSha256": "0e0830f63b4dd81150686070d2f0409879284e53e6efb0d39442b5d0cd21b0ea",
+            "thumbnailSha256": "ba9a3e05e201864bc03062769d6503a05001cefac6b8a43b5d30e04fbc7aca92",
+            "authorPixelBinding": "d7c5bce88b991f668e81cf77eee5344b79009853b321358a875abc85bbe25448",
+            "secondPixelBinding": "76bf404b4aa1f82d93e530ff425bc53b454171bc1db44b9f59c86a0e8caec1cf"
+          },
+          {
+            "entryId": "shopping-cart",
+            "lexicalBinding": "ec4186f19566078f09e02440d3e682a198899842c938f0d3ba8215a98a0e7156",
+            "sourceImageSha256": "6155db8e19b10c39909c52d1f4101cf27b4bb61f152dd32104cc585d8526a7bf",
+            "cardSha256": "5a6f481d065c24fe6cd266867574921c7260763031d520266222713646549658",
+            "thumbnailSha256": "1c1e23a86da47ce316fdc6819cde41be7717ddc6f74e86b122e4c52e71d0554f",
+            "authorPixelBinding": "5c5862ba2c09acfd2fd68bddbf444ad6d9ca6e1097466df40d00b11a5d028075",
+            "secondPixelBinding": "da2d162717f72aa0858735627b31923ec342475cf3a4ba4820dd3e065d8e2863"
+          },
+          {
+            "entryId": "shopping-bag",
+            "lexicalBinding": "c337fcea5a9385ab293e937dceb1c682990772ddea68846e3fd95d86fca90130",
+            "sourceImageSha256": "1a1a9f00f8e861eb3c418fc42e3e8fafda6fd93b670c7d0d89bf6be8d39d567d",
+            "cardSha256": "1a5ad7479feaa5997e33e757592546aa2f004e751c2e4a9f7d709a3445c007d9",
+            "thumbnailSha256": "00dd7d2fdd1e17853ece89cab1881cd48462745b06b220356c47e6c7e8b26653",
+            "authorPixelBinding": "6a504832f527019b98519682eac0edcd40776f6c61ad0a785eb3760f37aeab87",
+            "secondPixelBinding": "36108ef8ba9c0e8e8849161eef32259af175c66927da2252a9abfe60485c0d32"
+          },
+          {
+            "entryId": "cash-register",
+            "lexicalBinding": "746f54182e5f2ba1bc122742feab34b4c1b18b2067ad6170821f2924371be15c",
+            "sourceImageSha256": "03838ada07d172640c97a02350922fb41a8cbf9c1c399d7965e478623d652b82",
+            "cardSha256": "5ade5dfa7ebee66a49221cb6801816ad23d24224d634967c09f326ceff3f1ebe",
+            "thumbnailSha256": "a8b8989876cec3e04b4b9727874b552e0be84213bd4640e5e8673a494ba12153",
+            "authorPixelBinding": "431ea966029f8497ab50576684dfb0499925c8465bd338ed8b5acc2e3e8107f1",
+            "secondPixelBinding": "517620001266ba8ed4f54f26e12043d09092b696c1f78eea5be1dee2791f6dcc"
+          },
+          {
+            "entryId": "shopper",
+            "lexicalBinding": "6f030c5c534ef7fd3f467529f5a9c9efa291cc946c544753780747ee82fbc316",
+            "sourceImageSha256": "3b6be168f48e448624e59978b5a0664e10384ec6d5325c04845356119d11e132",
+            "cardSha256": "5adddbd51e9d3163e43efc8ab241aabd26af7c7b815011616a6743b330158404",
+            "thumbnailSha256": "c306ed0c7071c70574de83f281e97e385c61b10cca75c9aff19551b34bc3e6e7",
+            "authorPixelBinding": "87b7f23e1cc08565ed9fb8d4f40b8ebf90cb379c15d125f6cf10bcbb930090b4",
+            "secondPixelBinding": "6cd44767ec5209a3df577c59d1633f1f83555ef18df38d4ee1c6d2cc2c330c1c"
+          },
+          {
+            "entryId": "shop-assistant",
+            "lexicalBinding": "9bda459551072b58a88d5d06d9ae1571368347b8cc0e9e29a453551e826aad51",
+            "sourceImageSha256": "f865d15fc8df646791a07f332a0d6997a6bda48e5175a50209b02512d31fce3f",
+            "cardSha256": "5b896df42edd51d945e975c387c1023b3e2819083b1ddc1db14b5b33c2b42e5e",
+            "thumbnailSha256": "1768492368ea0a6df7631caf58440edb0a1af83a0eb6e7208f099dda741d8e10",
+            "authorPixelBinding": "0736973140eab5cadf6155f515d95764ad204ba47c9c5ff4e4abd843dd699d75",
+            "secondPixelBinding": "4023af2dbf1963b9c49d82ced4ed0b26748677484b24e0c4559c696b1756b8ab"
+          },
+          {
+            "entryId": "purchase",
+            "lexicalBinding": "3a1cab73abe3eb4bd32adcc5998c745d6d8a3e682a7af6ea974c3dbe19abaf09",
+            "sourceImageSha256": "4b3048f976199b4d0b3796487517ef175942e7530cdfaa86c16d0a8e76341030",
+            "cardSha256": "9387ae7ad75027f64423e7e8a77a40ec0f44e2315eb2a89c32535b2cf312453d",
+            "thumbnailSha256": "6412f88b0ebc31ba1480b18f0ce4a2ee142c7b87c833e1e1ae60a4beb07ed750",
+            "authorPixelBinding": "c5d732e2f0c31286b6d8fc4c7101b3aba5772e8718cb7e5898b68bcbc0dc04fe",
+            "secondPixelBinding": "57acb2fc598397139ee9e6f9500ce2bd11dad4e8ec6acd876367bfabe522734f"
+          },
+          {
+            "entryId": "order",
+            "lexicalBinding": "167abd638b881a097a7d6eb0a3951cbf65baa3c00fe3b4b8563cc4687233d9b0",
+            "sourceImageSha256": "323b9b14035e48a2e5954ced7e8c9d13c9997bb5eb8b29fd43e28d04dc5e8882",
+            "cardSha256": "3f7b26ce86c02ab3d2ea158fe84a01826b1036e9735e0d5c67bf4601ff5d134d",
+            "thumbnailSha256": "f7a3594fe6c6057dafd41135a4a200f3600eca62e8dbb3a29a5a5055b2a29e06",
+            "authorPixelBinding": "a59a7c7a3dff14ab0e9637cea1a1fb731c739655abd933f1429e3065b5d0f34a",
+            "secondPixelBinding": "e5edd464c366d587131102882aa08b26fff123f63bf573476e82797b74fb5905"
+          },
+          {
+            "entryId": "delivery",
+            "lexicalBinding": "9f2ff596f850600cdf1f97ce5784d796de0fa9c5ad5f71f8f6036cb3ab148467",
+            "sourceImageSha256": "edeb061e77800ee01cc2704d07ec4e5cbab77bd7f3c829262bb9b3527c9caca9",
+            "cardSha256": "f1c2433d09ebf2e2bb2ce233e8b90688a7ef9901cad1b0079ab759bfe50c780e",
+            "thumbnailSha256": "33ec25a9d3a3bdd6cca81c3765132315be85c68221139c770551fb8998fe96b6",
+            "authorPixelBinding": "811d6f5fe6ba506aec4c0770f3866bd7e67fb158c08ba7d59f2bc4fbd30c2061",
+            "secondPixelBinding": "feda15a608c9931e6eb912d9f6b08cce8a7ff77c7e23be26e8b76e50ae178251"
+          },
+          {
+            "entryId": "package",
+            "lexicalBinding": "d2ac9e0606c2e2f58ee6e750873336da558771e96b87ad0af6132a433ec3caae",
+            "sourceImageSha256": "c6c19348d68792ed5e6cd95c20397ef485e12806d2284b37787b07ca7af64188",
+            "cardSha256": "bdc4c6314636b4b6efc3e467cf64193b349254623a3ee8da4899ff9a5a409315",
+            "thumbnailSha256": "963aca42c8086e4f29df41e39e5549a6e9acf5ff404676ba7f5fdc86e4c858f1",
+            "authorPixelBinding": "6ade57b04b54179cce41556461e74237538b1b9d40940582fe67495df2e88932",
+            "secondPixelBinding": "39fcc21c5b9065a3a3a80d8754a9a633b27d05b99277da8e47518e2aca76a5aa"
+          },
+          {
+            "entryId": "price-tag",
+            "lexicalBinding": "0316d4e7d19a1f309cc63e15943dfda8efc6ff763feed0024680c3519a6a409e",
+            "sourceImageSha256": "46d9aa9ef812ebceaebaa438baee6bf8131c673f12ddb4a7de31484161aee667",
+            "cardSha256": "172220959969edac3312aea3e8a11237cfd9de85f1d54bb88e1469893b3948b3",
+            "thumbnailSha256": "031a5b53c041946d0ed03e53dfdd50d1b336ea653188b55400f23ef15c825941",
+            "authorPixelBinding": "65ac8f0880c5e2ff6cab7d5107a3f6a4fe11cdbafaafdbdca68a522da541c1df",
+            "secondPixelBinding": "177013ab9194c38946115ee368959df6c503f813e8be6cb95cc5ec582aa20390"
+          },
+          {
+            "entryId": "coupon",
+            "lexicalBinding": "86b73e720ed8b001e652b45cd4ee25d4df0f6062776b15b1387cb89d371ca36b",
+            "sourceImageSha256": "0ca2f59a068cb0d168932dc72dd8c349af2d2488756dc3108b2639b708f5af2f",
+            "cardSha256": "f4262e8bf0ac2fa7f27f605a82e5f5b366813d3bb845338b676663dc7a5c04e1",
+            "thumbnailSha256": "bf6866419ccb65340ed7644c9d57ca6f11d0859254bc9d2ccb5373175a07fe79",
+            "authorPixelBinding": "5bed1fc2f094c97e075561b3cedbbbe1ec027a5f315e46255fe3f5389a9238b8",
+            "secondPixelBinding": "f5f050cad1c8c4473c9fdc7017c95ede333f5c4370b0178c1d05195361047da4"
+          },
+          {
+            "entryId": "gift-card",
+            "lexicalBinding": "4507a8128cf08a872d332d4e0a6c5865c51b5afe3f8aeada57136fae41da9e93",
+            "sourceImageSha256": "957c494b75967625cf32e6d7ba13b378937111799c0f3b3593c96102edfd15fe",
+            "cardSha256": "f5a146b451c38dc32af8d869fc0d07da3531b83cb2f289be4b4006e61d5bf82c",
+            "thumbnailSha256": "0a596f6db0355707275d769c9f54e7c917daf36d067f386a2fc338b48a130499",
+            "authorPixelBinding": "3cceccf77de2928848a80b2487dca7d0db9278112a07448da4e82bd8917a84a8",
+            "secondPixelBinding": "6b96c40ae68c72cb442026994efa9f30fe554eda0aa811b89fc39579ab77b35c"
+          },
+          {
+            "entryId": "label",
+            "lexicalBinding": "4870c67228af5ecc044464840ed4ed1529b2fd2a2ec772c6cfa1adce612a5406",
+            "sourceImageSha256": "81dca8a116b0d1f31f980db28e41fa3077f656d5ec2fa403d47e8bde29befbec",
+            "cardSha256": "86cfa20474cdb3c8971edb57741214ea897db9b5cfb7a5619b214729606827d3",
+            "thumbnailSha256": "fa52fce006773d842533e54c1305a5e0f765d2016898a6879178553035558495",
+            "authorPixelBinding": "59b4b849215747f2aa00940504908fdf6da44a373911f75b3cf7b7c216f83f5f",
+            "secondPixelBinding": "aca0efc75fed0bec426082234cee8d5cc15ab8bddb6201aecebd381ddf09da2a"
+          },
+          {
+            "entryId": "sale",
+            "lexicalBinding": "bee028ec6c4a09a2d4616099dbfec9a33791aa97e306ccbcba07374b90cc5498",
+            "sourceImageSha256": "89dff451d43a140263dbbd0f32bbb1bf6be37710c975c31c097b2c44d4149ee6",
+            "cardSha256": "7287dce1c90b1d5bc5fbaa9abb6b00bce9cf48e5b185f2758596b5bba1c3b434",
+            "thumbnailSha256": "770ecdf84795bfc7c8dc662b7aab190956a78fc849d0683d2c2bf05aedbd2f2c",
+            "authorPixelBinding": "f65046703f42f80b42460de5fc890574bb54dc8830dfd61fae43a69a9b88a555",
+            "secondPixelBinding": "1af3be74ce94f458badefe55a1a08297d08a62ce12f6c6342a8a3a4531eb5e4e"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "retail-ecommerce",
+          "visualLanguageId": "retail-ecommerce",
+          "baselineCategoryWords": 6,
+          "targetCategoryWords": 30,
+          "entryIds": [
+            "shop",
+            "storefront",
+            "shop-window",
+            "shelf",
+            "aisle",
+            "counter",
+            "display",
+            "mannequin",
+            "fitting-room",
+            "awning",
+            "shopping-cart",
+            "shopping-bag",
+            "cash-register",
+            "shopper",
+            "shop-assistant",
+            "purchase",
+            "order",
+            "delivery",
+            "package",
+            "price-tag",
+            "coupon",
+            "gift-card",
+            "label",
+            "sale"
+          ],
+          "units": [
+            {
+              "id": "shop-space",
+              "title": "Shops, fixtures and retail spaces",
+              "entryIds": [
+                "shop",
+                "storefront",
+                "shop-window",
+                "shelf",
+                "aisle",
+                "counter",
+                "display",
+                "mannequin",
+                "fitting-room",
+                "awning",
+                "shopping-cart",
+                "shopping-bag"
+              ]
+            },
+            {
+              "id": "shopping-transactions",
+              "title": "Shopping actions, roles and transaction objects",
+              "entryIds": [
+                "cash-register",
+                "shopper",
+                "shop-assistant",
+                "purchase",
+                "order",
+                "delivery",
+                "package",
+                "price-tag",
+                "coupon",
+                "gift-card",
+                "label",
+                "sale"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "24 distinct proposed retail heads after excluding three alias/shortened-head candidates before source import or any generation. Existing catalog/check-out/coat-hanger identities preserved; replacements cash register/gift card/awning must receive complete original content and fresh evidence. Baseline retail6, target50, allocation24; no existing17 manual hold retries.",
+      "parentBatchId": "category-expansion-batch-65",
+      "completedAt": "2026-11-03T16:59:53.021Z",
+      "factualReferences": [
+        {
+          "entryId": "shop",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shop-space and fixture vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules."
+        },
+        {
+          "entryId": "storefront",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shop-space and fixture vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules."
+        },
+        {
+          "entryId": "shop-window",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shop-space and fixture vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules."
+        },
+        {
+          "entryId": "shelf",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shop-space and fixture vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules."
+        },
+        {
+          "entryId": "aisle",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shop-space and fixture vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules."
+        },
+        {
+          "entryId": "counter",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shop-space and fixture vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules."
+        },
+        {
+          "entryId": "display",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shop-space and fixture vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules."
+        },
+        {
+          "entryId": "mannequin",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shop-space and fixture vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules."
+        },
+        {
+          "entryId": "fitting-room",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shop-space and fixture vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules."
+        },
+        {
+          "entryId": "awning",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shop-space and fixture vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules."
+        },
+        {
+          "entryId": "shopping-cart",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shop-space and fixture vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules."
+        },
+        {
+          "entryId": "shopping-bag",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shop-space and fixture vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, approximate editorial IPA/CEFR and fictional retail examples. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain/editorial review pending. No protected dictionary wording, copied artwork, fabricated reviewers, current prices or jurisdictional consumer rules."
+        },
+        {
+          "entryId": "cash-register",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shopping and transactions vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with one explicit selected retail sense per head, editorial IPA/approximate CEFR, fictional shopping situations and checked toy amounts. AI-assisted CC BY 4.0 editorial preview; independent human review pending. No copied dictionary wording or artwork and no invented external source URL. Distinctions explicitly separate shopper/customer, assistant/cashier, purchase/order/payment, retail package/posted parcel, label/price tag, coupon/gift card and sale/for sale."
+        },
+        {
+          "entryId": "shopper",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shopping and transactions vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with one explicit selected retail sense per head, editorial IPA/approximate CEFR, fictional shopping situations and checked toy amounts. AI-assisted CC BY 4.0 editorial preview; independent human review pending. No copied dictionary wording or artwork and no invented external source URL. Distinctions explicitly separate shopper/customer, assistant/cashier, purchase/order/payment, retail package/posted parcel, label/price tag, coupon/gift card and sale/for sale."
+        },
+        {
+          "entryId": "shop-assistant",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shopping and transactions vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with one explicit selected retail sense per head, editorial IPA/approximate CEFR, fictional shopping situations and checked toy amounts. AI-assisted CC BY 4.0 editorial preview; independent human review pending. No copied dictionary wording or artwork and no invented external source URL. Distinctions explicitly separate shopper/customer, assistant/cashier, purchase/order/payment, retail package/posted parcel, label/price tag, coupon/gift card and sale/for sale."
+        },
+        {
+          "entryId": "purchase",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shopping and transactions vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with one explicit selected retail sense per head, editorial IPA/approximate CEFR, fictional shopping situations and checked toy amounts. AI-assisted CC BY 4.0 editorial preview; independent human review pending. No copied dictionary wording or artwork and no invented external source URL. Distinctions explicitly separate shopper/customer, assistant/cashier, purchase/order/payment, retail package/posted parcel, label/price tag, coupon/gift card and sale/for sale."
+        },
+        {
+          "entryId": "order",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shopping and transactions vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with one explicit selected retail sense per head, editorial IPA/approximate CEFR, fictional shopping situations and checked toy amounts. AI-assisted CC BY 4.0 editorial preview; independent human review pending. No copied dictionary wording or artwork and no invented external source URL. Distinctions explicitly separate shopper/customer, assistant/cashier, purchase/order/payment, retail package/posted parcel, label/price tag, coupon/gift card and sale/for sale."
+        },
+        {
+          "entryId": "delivery",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shopping and transactions vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with one explicit selected retail sense per head, editorial IPA/approximate CEFR, fictional shopping situations and checked toy amounts. AI-assisted CC BY 4.0 editorial preview; independent human review pending. No copied dictionary wording or artwork and no invented external source URL. Distinctions explicitly separate shopper/customer, assistant/cashier, purchase/order/payment, retail package/posted parcel, label/price tag, coupon/gift card and sale/for sale."
+        },
+        {
+          "entryId": "package",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shopping and transactions vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with one explicit selected retail sense per head, editorial IPA/approximate CEFR, fictional shopping situations and checked toy amounts. AI-assisted CC BY 4.0 editorial preview; independent human review pending. No copied dictionary wording or artwork and no invented external source URL. Distinctions explicitly separate shopper/customer, assistant/cashier, purchase/order/payment, retail package/posted parcel, label/price tag, coupon/gift card and sale/for sale."
+        },
+        {
+          "entryId": "price-tag",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shopping and transactions vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with one explicit selected retail sense per head, editorial IPA/approximate CEFR, fictional shopping situations and checked toy amounts. AI-assisted CC BY 4.0 editorial preview; independent human review pending. No copied dictionary wording or artwork and no invented external source URL. Distinctions explicitly separate shopper/customer, assistant/cashier, purchase/order/payment, retail package/posted parcel, label/price tag, coupon/gift card and sale/for sale."
+        },
+        {
+          "entryId": "coupon",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shopping and transactions vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with one explicit selected retail sense per head, editorial IPA/approximate CEFR, fictional shopping situations and checked toy amounts. AI-assisted CC BY 4.0 editorial preview; independent human review pending. No copied dictionary wording or artwork and no invented external source URL. Distinctions explicitly separate shopper/customer, assistant/cashier, purchase/order/payment, retail package/posted parcel, label/price tag, coupon/gift card and sale/for sale."
+        },
+        {
+          "entryId": "gift-card",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shopping and transactions vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with one explicit selected retail sense per head, editorial IPA/approximate CEFR, fictional shopping situations and checked toy amounts. AI-assisted CC BY 4.0 editorial preview; independent human review pending. No copied dictionary wording or artwork and no invented external source URL. Distinctions explicitly separate shopper/customer, assistant/cashier, purchase/order/payment, retail package/posted parcel, label/price tag, coupon/gift card and sale/for sale."
+        },
+        {
+          "entryId": "label",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shopping and transactions vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with one explicit selected retail sense per head, editorial IPA/approximate CEFR, fictional shopping situations and checked toy amounts. AI-assisted CC BY 4.0 editorial preview; independent human review pending. No copied dictionary wording or artwork and no invented external source URL. Distinctions explicitly separate shopper/customer, assistant/cashier, purchase/order/payment, retail package/posted parcel, label/price tag, coupon/gift card and sale/for sale."
+        },
+        {
+          "entryId": "sale",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika shopping and transactions vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language teaching with one explicit selected retail sense per head, editorial IPA/approximate CEFR, fictional shopping situations and checked toy amounts. AI-assisted CC BY 4.0 editorial preview; independent human review pending. No copied dictionary wording or artwork and no invented external source URL. Distinctions explicitly separate shopper/customer, assistant/cashier, purchase/order/payment, retail package/posted parcel, label/price tag, coupon/gift card and sale/for sale."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,
