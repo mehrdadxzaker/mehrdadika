@@ -1,8 +1,8 @@
 {
   "corpusId": "mehrdadika-en-fa",
-  "releaseId": "2026-10-preview-70",
+  "releaseId": "2026-10-preview-71",
   "channel": "preview",
-  "createdAt": "2026-11-03T02:59:20.392Z",
+  "createdAt": "2026-11-03T14:23:52.762Z",
   "name": "مهردادیکا · اطلس انگلیسی–فارسی",
   "entries": [
     {
@@ -97947,6 +97947,804 @@
         "attribution": "Mehrdadika contributors — CC BY 4.0",
         "aiAssisted": true,
         "modifications": "Original selected language-learning sense, English/Persian learner wording, two contextual examples, three collocations and useful distinctions, editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish overlays. Original AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary wording or artwork copied. Quoted English example words retain their spelling in every native overlay."
+      }
+    },
+    {
+      "id": "pronoun",
+      "w": "pronoun",
+      "uk": "/ˈprəʊnaʊn/",
+      "us": "/ˈproʊnaʊn/",
+      "cefr": "B1",
+      "topic": "languages-communication",
+      "domainIds": [
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "pronoun:meaning-1",
+          "pos": "n.",
+          "en": "A word such as she, it or they that refers to someone or something without repeating a name or noun phrase.",
+          "fa": "ضمیر؛ واژه‌ای مانند she، it یا they که بدونِ تکرارِ نام یا گروهِ اسمی به شخص یا چیزی اشاره می‌کند",
+          "domainIds": [
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The pronoun she refers to Ada in our story.",
+          "fa": "ضمیرِ she در داستانِ ما به آدا اشاره می‌کند.",
+          "senseId": "pronoun:meaning-1"
+        },
+        {
+          "en": "We wrote She reads instead of repeating Ada reads.",
+          "fa": "به‌جای تکرارِ Ada reads، نوشتیم She reads.",
+          "senseId": "pronoun:meaning-1"
+        }
+      ],
+      "col": [
+        "a personal pronoun｜ضمیرِ شخصی",
+        "a subject pronoun｜ضمیرِ فاعلی",
+        "choose a pronoun｜یک ضمیر را انتخاب کردن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "ضمیر می‌تواند به یک گروهِ اسمیِ کامل اشاره کند، نه فقط یک نام. I و you به گوینده و شنونده اشاره می‌کنند، حتی اگر پیش‌تر نامی نیامده باشد. در داستانِ فرضیِ ما she به آدا برمی‌گردد؛ مرجعِ ضمیر را از بافتِ واقعیِ جمله پیدا کنید.",
+      "media": {
+        "img": "atlas/img/pronoun.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original selected grammatical or lexical-relation sense, English/Persian learner wording, two contextual examples, three collocations and useful distinctions; editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish overlays. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary definitions or artwork copied. Linguistic English sample words retain their spelling in native scaffolding. Synonym/antonym examples are context-specific; singular/lowercase are selected established noun senses."
+      }
+    },
+    {
+      "id": "preposition",
+      "w": "preposition",
+      "uk": "/ˌprepəˈzɪʃən/",
+      "us": "/ˌprepəˈzɪʃən/",
+      "cefr": "B1",
+      "topic": "languages-communication",
+      "domainIds": [
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "preposition:meaning-1",
+          "pos": "n.",
+          "en": "A word such as in, on or with that expresses a relationship between a noun phrase and another part of a sentence.",
+          "fa": "حرفِ اضافه؛ واژه‌ای مانند in، on یا with که رابطهٔ یک گروهِ اسمی را با بخشِ دیگری از جمله بیان می‌کند",
+          "domainIds": [
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The preposition in shows that the ball is inside the box.",
+          "fa": "حرفِ اضافهٔ in نشان می‌دهد توپ داخلِ جعبه است.",
+          "senseId": "preposition:meaning-1"
+        },
+        {
+          "en": "We wrote The ball is in the box to describe its position.",
+          "fa": "برای توصیفِ جای توپ، نوشتیم The ball is in the box.",
+          "senseId": "preposition:meaning-1"
+        }
+      ],
+      "col": [
+        "a preposition of place｜حرفِ اضافهٔ مکان",
+        "a preposition of time｜حرفِ اضافهٔ زمان",
+        "use a preposition｜حرفِ اضافه به کار بردن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "حرفِ اضافه فقط جایِ چیزها را بیان نمی‌کند؛ at night دربارهٔ زمان و with a friend دربارهٔ همراهی است. تصویر فقط in را در معنای «داخلِ جعبه» نشان می‌دهد. حرف‌های اضافه در زبان‌های مختلف همیشه معادلِ یک‌به‌یک ندارند؛ آن‌ها را همراهِ عبارت یاد بگیرید.",
+      "media": {
+        "img": "atlas/img/preposition.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original selected grammatical or lexical-relation sense, English/Persian learner wording, two contextual examples, three collocations and useful distinctions; editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish overlays. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary definitions or artwork copied. Linguistic English sample words retain their spelling in native scaffolding. Synonym/antonym examples are context-specific; singular/lowercase are selected established noun senses."
+      }
+    },
+    {
+      "id": "conjunction",
+      "w": "conjunction",
+      "uk": "/kənˈdʒʌŋkʃən/",
+      "us": "/kənˈdʒʌŋkʃən/",
+      "cefr": "B2",
+      "topic": "languages-communication",
+      "domainIds": [
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "conjunction:meaning-1",
+          "pos": "n.",
+          "en": "A word such as and or but used to join words, phrases or clauses.",
+          "fa": "حرفِ ربط؛ واژه‌ای مانند and یا but که واژه‌ها، عبارت‌ها یا بندها را به هم پیوند می‌دهد",
+          "domainIds": [
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The conjunction and joins tea and coffee in this phrase.",
+          "fa": "حرفِ ربطِ and در این عبارت tea و coffee را به هم پیوند می‌دهد.",
+          "senseId": "conjunction:meaning-1"
+        },
+        {
+          "en": "It can also join two clauses, as in I read and she writes.",
+          "fa": "این واژه می‌تواند دو بند را نیز پیوند دهد، مانند I read and she writes.",
+          "senseId": "conjunction:meaning-1"
+        }
+      ],
+      "col": [
+        "a coordinating conjunction｜حرفِ ربطِ هم‌پایه",
+        "a subordinating conjunction｜حرفِ ربطِ وابسته‌ساز",
+        "use a conjunction｜حرفِ ربط به کار بردن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "and اطلاعات را اضافه می‌کند، but تقابل را نشان می‌دهد و or گزینه‌ها را مطرح می‌کند؛ این واژه‌ها همیشه جانشینِ هم نیستند. حرفِ ربط می‌تواند واژه‌ها یا بندهای کامل را پیوند دهد. پیش از هر حرفِ ربط به‌طورِ خودکار ویرگول نگذارید؛ نشانه‌گذاری به ساختارِ جمله بستگی دارد.",
+      "media": {
+        "img": "atlas/img/conjunction.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original selected grammatical or lexical-relation sense, English/Persian learner wording, two contextual examples, three collocations and useful distinctions; editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish overlays. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary definitions or artwork copied. Linguistic English sample words retain their spelling in native scaffolding. Synonym/antonym examples are context-specific; singular/lowercase are selected established noun senses."
+      }
+    },
+    {
+      "id": "synonym",
+      "w": "synonym",
+      "uk": "/ˈsɪnənɪm/",
+      "us": "/ˈsɪnənɪm/",
+      "cefr": "B2",
+      "topic": "languages-communication",
+      "domainIds": [
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "synonym:meaning-1",
+          "pos": "n.",
+          "en": "A word or expression with the same or nearly the same meaning as another in a particular context.",
+          "fa": "واژه یا عبارتِ هم‌معنی؛ واژه یا عبارتی با معنای یکسان یا بسیار نزدیک به واژه یا عبارتِ دیگر در یک بافتِ مشخص",
+          "domainIds": [
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Large is a synonym of big when we describe the size of a house.",
+          "fa": "وقتی اندازهٔ یک خانه را توصیف می‌کنیم، large هم‌معنیِ big است.",
+          "senseId": "synonym:meaning-1"
+        },
+        {
+          "en": "A big house and a large house can describe the same building.",
+          "fa": "a big house و a large house می‌توانند همان ساختمان را توصیف کنند.",
+          "senseId": "synonym:meaning-1"
+        }
+      ],
+      "col": [
+        "a close synonym｜واژه‌ای با معنای بسیار نزدیک",
+        "a synonym for a word｜هم‌معنیِ یک واژه",
+        "find a synonym｜واژهٔ هم‌معنی پیدا کردن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "هم‌معنی‌بودن به بافت و معنای انتخاب‌شده بستگی دارد؛ دو واژه ممکن است در لحن یا همراهی‌های رایج فرق کنند. تصویر فقط اندازهٔ خانه را مقایسه می‌کند. big mistake یک ترکیبِ رایج است؛ نزدیک‌بودنِ معنی تضمین نمی‌کند که دو واژه در هر عبارتی به یک اندازه طبیعی باشند.",
+      "media": {
+        "img": "atlas/img/synonym.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original selected grammatical or lexical-relation sense, English/Persian learner wording, two contextual examples, three collocations and useful distinctions; editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish overlays. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary definitions or artwork copied. Linguistic English sample words retain their spelling in native scaffolding. Synonym/antonym examples are context-specific; singular/lowercase are selected established noun senses."
+      }
+    },
+    {
+      "id": "antonym",
+      "w": "antonym",
+      "uk": "/ˈæntənɪm/",
+      "us": "/ˈæntənɪm/",
+      "cefr": "B2",
+      "topic": "languages-communication",
+      "domainIds": [
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "antonym:meaning-1",
+          "pos": "n.",
+          "en": "A word with a meaning opposite to another word in a particular use.",
+          "fa": "واژهٔ متضاد؛ واژه‌ای با معنای متقابلِ واژه‌ای دیگر در یک کاربردِ مشخص",
+          "domainIds": [
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Small is an antonym of big when we describe size.",
+          "fa": "وقتی اندازه را توصیف می‌کنیم، small متضادِ big است.",
+          "senseId": "antonym:meaning-1"
+        },
+        {
+          "en": "One house is big, while the other is small.",
+          "fa": "یک خانه بزرگ است، در حالی که خانهٔ دیگر کوچک است.",
+          "senseId": "antonym:meaning-1"
+        }
+      ],
+      "col": [
+        "an antonym of a word｜متضادِ یک واژه",
+        "find an antonym｜واژهٔ متضاد پیدا کردن",
+        "a pair of antonyms｜یک جفت واژهٔ متضاد"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "antonym معنای متقابل را نشان می‌دهد؛ synonym معنای یکسان یا نزدیک را. این جفت فقط big و small را در معنای اندازه مقایسه می‌کند. هر واژه متضادِ دقیق و مستقیمی ندارد و ساختنِ متضاد همیشه با افزودنِ یک پیشوند ممکن نیست.",
+      "media": {
+        "img": "atlas/img/antonym.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original selected grammatical or lexical-relation sense, English/Persian learner wording, two contextual examples, three collocations and useful distinctions; editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish overlays. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary definitions or artwork copied. Linguistic English sample words retain their spelling in native scaffolding. Synonym/antonym examples are context-specific; singular/lowercase are selected established noun senses."
+      }
+    },
+    {
+      "id": "singular",
+      "w": "singular",
+      "uk": "/ˈsɪŋɡjələ/",
+      "us": "/ˈsɪŋɡjəlɚ/",
+      "cefr": "B1",
+      "topic": "languages-communication",
+      "domainIds": [
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "singular:meaning-1",
+          "pos": "n.",
+          "en": "A form of a noun or other word used for one rather than more than one.",
+          "fa": "صورتِ مفرد؛ شکلی از اسم یا واژهٔ دیگر برای اشاره به یکی به‌جای بیش از یکی",
+          "domainIds": [
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The singular of cats is cat.",
+          "fa": "صورتِ مفردِ cats، واژهٔ cat است.",
+          "senseId": "singular:meaning-1"
+        },
+        {
+          "en": "In There is a cat, the noun refers to one animal.",
+          "fa": "در جملهٔ There is a cat، اسم به یک جانور اشاره می‌کند.",
+          "senseId": "singular:meaning-1"
+        }
+      ],
+      "col": [
+        "the singular of a noun｜صورتِ مفردِ یک اسم",
+        "form the singular｜صورتِ مفرد را ساختن",
+        "in the singular｜به صورتِ مفرد"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "اینجا singular اسم است، مانند the singular of cats؛ در singular noun نقشِ صفت دارد. برای یافتنِ مفرد، هر s پایانی را حذف نکنید: news از نظرِ دستوری مفرد است و sheep می‌تواند با همان شکل مفرد یا جمع باشد. تصویر فقط نمونهٔ cat/cats را نشان می‌دهد.",
+      "media": {
+        "img": "atlas/img/singular.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original selected grammatical or lexical-relation sense, English/Persian learner wording, two contextual examples, three collocations and useful distinctions; editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish overlays. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary definitions or artwork copied. Linguistic English sample words retain their spelling in native scaffolding. Synonym/antonym examples are context-specific; singular/lowercase are selected established noun senses."
+      }
+    },
+    {
+      "id": "lowercase",
+      "w": "lowercase",
+      "uk": "/ˌləʊəˈkeɪs/",
+      "us": "/ˌloʊərˈkeɪs/",
+      "cefr": "B2",
+      "topic": "languages-communication",
+      "domainIds": [
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "lowercase:meaning-1",
+          "pos": "n.",
+          "en": "The small-letter forms of an alphabet, such as a rather than A.",
+          "fa": "حروفِ کوچک؛ صورت‌های کوچکِ حروفِ یک الفبا، مانند a در برابرِ A",
+          "domainIds": [
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The word cat is written in lowercase.",
+          "fa": "واژهٔ cat با حروفِ کوچک نوشته شده است.",
+          "senseId": "lowercase:meaning-1"
+        },
+        {
+          "en": "Its letters are c, a and t, rather than C, A and T.",
+          "fa": "حروفِ آن c، a و t هستند، نه C، A و T.",
+          "senseId": "lowercase:meaning-1"
+        }
+      ],
+      "col": [
+        "write in lowercase｜با حروفِ کوچک نوشتن",
+        "convert to lowercase｜به حروفِ کوچک تبدیل کردن",
+        "use lowercase｜از حروفِ کوچک استفاده کردن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "lowercase به شکلِ حرف اشاره دارد، نه اندازهٔ قلم: a حتی وقتی خیلی درشت چاپ شود، حرفِ کوچک است؛ A با قلمِ ریز هم حرفِ بزرگ است. اینجا lowercase اسمِ غیرقابلِ‌شمارش است، مانند in lowercase. آغازِ جمله و نام‌های خاص در انگلیسی معمولاً حرفِ بزرگ می‌گیرند.",
+      "media": {
+        "img": "atlas/img/lowercase.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original selected grammatical or lexical-relation sense, English/Persian learner wording, two contextual examples, three collocations and useful distinctions; editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish overlays. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary definitions or artwork copied. Linguistic English sample words retain their spelling in native scaffolding. Synonym/antonym examples are context-specific; singular/lowercase are selected established noun senses."
+      }
+    },
+    {
+      "id": "dialogue",
+      "w": "dialogue",
+      "uk": "/ˈdaɪəlɒɡ/",
+      "us": "/ˈdaɪəlɔːɡ/",
+      "cefr": "B1",
+      "topic": "languages-communication",
+      "domainIds": [
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "dialogue:meaning-1",
+          "pos": "n.",
+          "en": "A conversation in which two or more people exchange ideas or respond to each other.",
+          "fa": "گفت‌وگو؛ مکالمه‌ای که در آن دو یا چند نفر نظرهایشان را ردوبدل می‌کنند یا به یکدیگر پاسخ می‌دهند",
+          "domainIds": [
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The dialogue between the two neighbours helped them solve the problem.",
+          "fa": "گفت‌وگوی میان آن دو همسایه به آن‌ها کمک کرد مشکل را حل کنند.",
+          "senseId": "dialogue:meaning-1"
+        },
+        {
+          "en": "In our role-play, one student asked a question and the other replied.",
+          "fa": "در نقش‌آفرینیِ ما، یک زبان‌آموز پرسشی مطرح کرد و دیگری پاسخ داد.",
+          "senseId": "dialogue:meaning-1"
+        }
+      ],
+      "col": [
+        "an open dialogue｜گفت‌وگویی باز و صریح",
+        "begin a dialogue｜گفت‌وگویی را آغاز کردن",
+        "dialogue between neighbours｜گفت‌وگو میان همسایه‌ها"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "dialogue بر ردوبدل شدن حرف یا نظر تأکید دارد؛ یک نفر به‌تنهایی سخنرانی نمی‌کند. conversation واژه‌ای عمومی‌تر برای مکالمه است. اینجا منظور گفت‌وگوی واقعی است، نه فقط جمله‌های چاپ‌شدهٔ یک نمایش‌نامه.",
+      "media": {
+        "img": "atlas/img/dialogue.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original selected communication sense and English/Persian learner wording, two contextual examples, three collocations and useful distinctions; editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified linguistic/editorial review pending. No dictionary definitions or artwork copied. Communication roles, spoken versus written message and ordinary culturally dependent gestures are distinguished without claiming universal sign-language meanings."
+      }
+    },
+    {
+      "id": "interpreter",
+      "w": "interpreter",
+      "uk": "/ɪnˈtɜːprɪtə/",
+      "us": "/ɪnˈtɝːprɪtər/",
+      "cefr": "B2",
+      "topic": "languages-communication",
+      "domainIds": [
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "interpreter:meaning-1",
+          "pos": "n.",
+          "en": "A person who conveys spoken words in another language during a conversation or event.",
+          "fa": "مترجم شفاهی؛ کسی که هنگام گفت‌وگو یا رویداد، گفته‌های یک زبان را به زبان دیگری منتقل می‌کند",
+          "domainIds": [
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The interpreter repeated the visitor’s question in Portuguese.",
+          "fa": "مترجم شفاهی پرسشِ بازدیدکننده را به پرتغالی بازگفت.",
+          "senseId": "interpreter:meaning-1"
+        },
+        {
+          "en": "With her help, the two speakers could understand each other.",
+          "fa": "با کمک او، آن دو گوینده توانستند حرف یکدیگر را بفهمند.",
+          "senseId": "interpreter:meaning-1"
+        }
+      ],
+      "col": [
+        "work as an interpreter｜به‌عنوان مترجم شفاهی کار کردن",
+        "a conference interpreter｜مترجم شفاهیِ همایش",
+        "through an interpreter｜از طریق مترجم شفاهی"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "در این معنی، interpreter میان گفته‌های شفاهیِ دو زبان واسطه می‌شود؛ translator معمولاً با متن نوشتاری کار می‌کند. اینجا منظور شخص است، نه مفسرِ یک زبان برنامه‌نویسی. همهٔ روش‌های ترجمهٔ شفاهی هم‌زمان نیستند.",
+      "media": {
+        "img": "atlas/img/interpreter.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original selected communication sense and English/Persian learner wording, two contextual examples, three collocations and useful distinctions; editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified linguistic/editorial review pending. No dictionary definitions or artwork copied. Communication roles, spoken versus written message and ordinary culturally dependent gestures are distinguished without claiming universal sign-language meanings."
+      }
+    },
+    {
+      "id": "greeting",
+      "w": "greeting",
+      "uk": "/ˈɡriːtɪŋ/",
+      "us": "/ˈɡriːtɪŋ/",
+      "cefr": "A2",
+      "topic": "languages-communication",
+      "domainIds": [
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "greeting:meaning-1",
+          "pos": "n.",
+          "en": "Something you say or do to acknowledge or welcome someone when you meet.",
+          "fa": "سلام و احوال‌پرسی؛ حرف یا کاری برای خوشامدگویی یا نشان دادن توجه به کسی هنگام دیدار",
+          "domainIds": [
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Her friendly greeting made the new student feel welcome.",
+          "fa": "سلام و احوال‌پرسیِ دوستانهٔ او باعث شد زبان‌آموزِ تازه‌وارد احساس کند از او استقبال شده است.",
+          "senseId": "greeting:meaning-1"
+        },
+        {
+          "en": "When we met at the door, he smiled and said hello.",
+          "fa": "وقتی دمِ در همدیگر را دیدیم، لبخند زد و سلام کرد.",
+          "senseId": "greeting:meaning-1"
+        }
+      ],
+      "col": [
+        "a friendly greeting｜سلام و احوال‌پرسیِ دوستانه",
+        "exchange greetings｜به یکدیگر سلام کردن",
+        "a warm greeting｜استقبالی گرم و صمیمانه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "greeting می‌تواند یک عبارت مانند Hello یا رفتاری هنگام دیدار باشد. با کلِ یک conversation یکی نیست؛ اغلب شروعِ ارتباط است. شکلِ مناسبِ سلام کردن به موقعیت و فرهنگ بستگی دارد.",
+      "media": {
+        "img": "atlas/img/greeting.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original selected communication sense and English/Persian learner wording, two contextual examples, three collocations and useful distinctions; editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified linguistic/editorial review pending. No dictionary definitions or artwork copied. Communication roles, spoken versus written message and ordinary culturally dependent gestures are distinguished without claiming universal sign-language meanings."
+      }
+    },
+    {
+      "id": "gesture",
+      "w": "gesture",
+      "uk": "/ˈdʒestʃə/",
+      "us": "/ˈdʒestʃər/",
+      "cefr": "B1",
+      "topic": "languages-communication",
+      "domainIds": [
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "gesture:meaning-1",
+          "pos": "n.",
+          "en": "A movement of the hand, head or body that expresses an idea or feeling.",
+          "fa": "اشاره یا حرکتِ معنادارِ دست، سر یا بدن برای بیانِ فکر یا احساس",
+          "domainIds": [
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "She made a gesture with her hand to invite us closer.",
+          "fa": "او با دستش اشاره‌ای کرد تا از ما بخواهد نزدیک‌تر برویم.",
+          "senseId": "gesture:meaning-1"
+        },
+        {
+          "en": "He pointed towards the empty chair without saying a word.",
+          "fa": "او بدون گفتنِ کلمه‌ای به صندلیِ خالی اشاره کرد.",
+          "senseId": "gesture:meaning-1"
+        }
+      ],
+      "col": [
+        "make a gesture｜اشاره‌ای کردن",
+        "a hand gesture｜حرکتِ معنادارِ دست",
+        "a friendly gesture｜حرکتی دوستانه"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "gesture در اینجا حرکتِ بدن برای رساندنِ معناست، نه صرفاً هر حرکتِ اتفاقی. معنای یک اشاره ممکن است در فرهنگ‌ها یا موقعیت‌های مختلف فرق کند. یک اشارهٔ معمولی را نباید خودبه‌خود نشانه‌ای از یک زبانِ اشارهٔ مشخص دانست.",
+      "media": {
+        "img": "atlas/img/gesture.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original selected communication sense and English/Persian learner wording, two contextual examples, three collocations and useful distinctions; editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified linguistic/editorial review pending. No dictionary definitions or artwork copied. Communication roles, spoken versus written message and ordinary culturally dependent gestures are distinguished without claiming universal sign-language meanings."
+      }
+    },
+    {
+      "id": "message",
+      "w": "message",
+      "uk": "/ˈmesɪdʒ/",
+      "us": "/ˈmesɪdʒ/",
+      "cefr": "A1",
+      "topic": "languages-communication",
+      "domainIds": [
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "message:meaning-1",
+          "pos": "n.",
+          "en": "A piece of written information sent or left for another person.",
+          "fa": "پیامِ نوشتاری؛ اطلاعاتی که برای فردِ دیگری فرستاده یا گذاشته می‌شود",
+          "domainIds": [
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "I sent a message to say I would arrive at six.",
+          "fa": "پیامی فرستادم تا بگویم ساعت شش می‌رسم.",
+          "senseId": "message:meaning-1"
+        },
+        {
+          "en": "She left a short note on my desk asking me to call.",
+          "fa": "او یادداشتِ کوتاهی روی میزم گذاشت و خواست با او تماس بگیرم.",
+          "senseId": "message:meaning-1"
+        }
+      ],
+      "col": [
+        "send a message｜پیامی فرستادن",
+        "leave a message｜پیامی گذاشتن",
+        "read a message｜پیامی خواندن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "message خودِ اطلاعاتِ منتقل‌شده است، نه تلفن یا برنامه‌ای که آن را می‌فرستد. اینجا معنیِ نوشتاری انتخاب شده؛ در بافت‌های دیگر پیام می‌تواند شفاهی هم باشد. text message یک نوع پیامِ نوشتاری است.",
+      "media": {
+        "img": "atlas/img/message.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original selected communication sense and English/Persian learner wording, two contextual examples, three collocations and useful distinctions; editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified linguistic/editorial review pending. No dictionary definitions or artwork copied. Communication roles, spoken versus written message and ordinary culturally dependent gestures are distinguished without claiming universal sign-language meanings."
+      }
+    },
+    {
+      "id": "listener",
+      "w": "listener",
+      "uk": "/ˈlɪsənə/",
+      "us": "/ˈlɪsənər/",
+      "cefr": "A2",
+      "topic": "languages-communication",
+      "domainIds": [
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "listener:meaning-1",
+          "pos": "n.",
+          "en": "A person who pays attention to someone speaking.",
+          "fa": "شنونده؛ کسی که با توجه به گفته‌های فردِ دیگری گوش می‌دهد",
+          "domainIds": [
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "The listener asked a question after the speaker finished.",
+          "fa": "شنونده پس از آن‌که گوینده حرفش را تمام کرد، پرسشی مطرح کرد.",
+          "senseId": "listener:meaning-1"
+        },
+        {
+          "en": "During the talk, she paid close attention to every point.",
+          "fa": "هنگام صحبت، او با دقت به تک‌تک نکته‌ها توجه کرد.",
+          "senseId": "listener:meaning-1"
+        }
+      ],
+      "col": [
+        "a good listener｜شنونده‌ای خوب",
+        "an attentive listener｜شنونده‌ای با‌توجه",
+        "the listener’s response｜پاسخِ شنونده"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "listener شخصی است که گوش می‌دهد؛ speaker کسی است که صحبت می‌کند. اینجا گوش دادنِ همراه با توجه منظور است، نه فقط شنیدنِ اتفاقیِ یک صدا. حرفِ t در listen و listener تلفظ نمی‌شود.",
+      "media": {
+        "img": "atlas/img/listener.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original selected communication sense and English/Persian learner wording, two contextual examples, three collocations and useful distinctions; editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified linguistic/editorial review pending. No dictionary definitions or artwork copied. Communication roles, spoken versus written message and ordinary culturally dependent gestures are distinguished without claiming universal sign-language meanings."
+      }
+    },
+    {
+      "id": "speak",
+      "w": "speak",
+      "uk": "/spiːk/",
+      "us": "/spiːk/",
+      "cefr": "A1",
+      "topic": "languages-communication",
+      "domainIds": [
+        "languages-communication"
+      ],
+      "senses": [
+        {
+          "id": "speak:meaning-1",
+          "pos": "v.",
+          "en": "To say words aloud in order to communicate.",
+          "fa": "صحبت کردن؛ برای ارتباط با دیگران، واژه‌ها را با صدا گفتن",
+          "domainIds": [
+            "languages-communication"
+          ],
+          "review": {
+            "status": "preview",
+            "humanReviewed": false
+          }
+        }
+      ],
+      "ex": [
+        {
+          "en": "Please speak slowly so everyone can follow.",
+          "fa": "لطفاً آهسته صحبت کنید تا همه بتوانند حرفتان را دنبال کنند.",
+          "senseId": "speak:meaning-1"
+        },
+        {
+          "en": "She told the group what had happened.",
+          "fa": "او برای گروه توضیح داد چه اتفاقی افتاده بود.",
+          "senseId": "speak:meaning-1"
+        }
+      ],
+      "col": [
+        "speak clearly｜واضح صحبت کردن",
+        "speak English｜انگلیسی صحبت کردن",
+        "speak to someone｜با کسی صحبت کردن"
+      ],
+      "fam": [],
+      "syn": [],
+      "ant": [],
+      "tip": "speak بر صحبت کردن یا تواناییِ استفاده از زبان تأکید دارد: speak English. برای نقلِ خودِ یک عبارت معمولاً say به کار می‌رود: say hello. شکلِ گذشتهٔ speak برابرِ spoke و قسمتِ سوم آن spoken است.",
+      "media": {
+        "img": "atlas/img/speak.webp"
+      },
+      "provenance": {
+        "license": "CC-BY-4.0",
+        "source": "Original Mehrdadika editorial contribution",
+        "attribution": "Mehrdadika contributors — CC BY 4.0",
+        "aiAssisted": true,
+        "modifications": "Original selected communication sense and English/Persian learner wording, two contextual examples, three collocations and useful distinctions; editorial UK/US IPA and approximate CEFR, with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified linguistic/editorial review pending. No dictionary definitions or artwork copied. Communication roles, spoken versus written message and ordinary culturally dependent gestures are distinguished without claiming universal sign-language meanings."
       }
     }
   ]

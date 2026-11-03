@@ -16,7 +16,7 @@
     }
   ],
   "currentCategoryId": "languages-communication",
-  "nextCategoryId": "languages-communication",
+  "nextCategoryId": "retail-ecommerce",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -7036,9 +7036,67 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "languages-communication",
+      "visualLanguageId": "languages-communication",
+      "baselineCategoryWords": 36,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "pronoun",
+        "preposition",
+        "conjunction",
+        "synonym",
+        "antonym",
+        "singular",
+        "lowercase",
+        "dialogue",
+        "interpreter",
+        "greeting",
+        "gesture",
+        "message",
+        "listener",
+        "speak"
+      ],
+      "units": [
+        {
+          "id": "grammar-relations",
+          "title": "Word classes and lexical relations",
+          "entryIds": [
+            "pronoun",
+            "preposition",
+            "conjunction",
+            "synonym",
+            "antonym",
+            "singular",
+            "lowercase"
+          ]
+        },
+        {
+          "id": "communication-in-action",
+          "title": "People, messages and spoken communication",
+          "entryIds": [
+            "dialogue",
+            "interpreter",
+            "greeting",
+            "gesture",
+            "message",
+            "listener",
+            "speak"
+          ]
+        }
+      ],
+      "id": "languages-communication-category-expansion-batch-64-ready-1",
+      "releaseId": "2026-10-preview-71",
+      "status": "published-preview",
+      "objective": "Learn Word classes and lexical relations; People, messages and spoken communication in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-63-ready-1",
+  "activePassId": "category-expansion-batch-64-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",
