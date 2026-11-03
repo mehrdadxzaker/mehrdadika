@@ -17487,6 +17487,575 @@
           "use": "Checked movement of cash in/out during a period only; original examples distinguish receipt timing from sales and profit. Checked 2026-11-02."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-63-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-70",
+      "sourceFiles": [
+        "writing-and-punctuation.json",
+        "grammar-and-meaning.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-69",
+        "manifest": "content/releases/2026-10-preview-69-ca0398726091/manifest.json",
+        "manifestSha256": "ca0398726091070074ee5781258c2a04e0ddb514f7c7281d3489941ddf043679",
+        "words": 1594
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "letter",
+            "lexicalBinding": "02694e3d4b75adf1066dcb58f566a730c8dacbc9160c369c9cd986f78e9b0674",
+            "sourceImageSha256": "f9c364e2e83ce41a81f1f0cda9bd35badb143011076a77224de44762823cd840",
+            "cardSha256": "5f9964360d096052364ab2bfd297b0327a7613aa592c46200b0b7f7e1b342265",
+            "thumbnailSha256": "a89d10106f2b1fd9676268b007fce6e3ef553bdf13538be357edd7e46f5cb2c9",
+            "authorPixelBinding": "ce16a717b9ed9c7d2dad88d29419ddc318aca94de3695f0cb0c6f484fb4587f4",
+            "secondPixelBinding": "365bb7d9c7abddc805309cb3b3f634882f7ce687e31a902fab432baf29d20a5a"
+          },
+          {
+            "entryId": "word",
+            "lexicalBinding": "07527421a5ec7f8f8692868340b5b3c3b5abf285dbad7919ec550e66d2697bf2",
+            "sourceImageSha256": "c4877b87bea08257fe031bd6eed85247692dbeca84c081627d6d6580677e007e",
+            "cardSha256": "c4b55c6c3596cc8a6ce046b32062d98d31af4f5da345e45e95ad510749c409fd",
+            "thumbnailSha256": "868e7f4320e3dfed7426175c942fc4ce1686c9f6cf707a8866369438176cb9b2",
+            "authorPixelBinding": "6accba7b9629e2cf47e6e84bedbae64ed3b06e076bb34a15d747dd3629f7facd",
+            "secondPixelBinding": "7ec1d2932cdca2eb79b711c414efe4b9767ff79ccc48ab992a25d8577b801a00"
+          },
+          {
+            "entryId": "punctuation",
+            "lexicalBinding": "8127abd9c5cb66e205e5721b587264ca11842e94b667a5987850bf800fb8f488",
+            "sourceImageSha256": "ee7a4424da97a907799f701596e47cd73926dc96e5c89230b3917d18ad37d9db",
+            "cardSha256": "b694e1ad8136a05fd35de05d870b6e16c254a8c5754370ae68ed2f66cf9b0a6f",
+            "thumbnailSha256": "c0a4f46687009ca364739512f9518d90ea2c8ea5b72a29f5a5ea2029c7a7b94f",
+            "authorPixelBinding": "c02de2aa19931e31c2c199dbfd7750f0d2cdfa45cd0fee7f9c4b77fc97d6aac8",
+            "secondPixelBinding": "4cda575880f44b1d1f5157afa53cc462de8dc62565d106e5bf679555b039523e"
+          },
+          {
+            "entryId": "comma",
+            "lexicalBinding": "5e8cbe7fa232acff3064bfcf74c25e0b47ee639bc168451511e669e77807b85f",
+            "sourceImageSha256": "4fa07090dc3b52451a1b44d6b31c94a20f3d101eb6fa062f6b91a96fbd9b93d3",
+            "cardSha256": "5bd643492865b0ca42773504db7e57a2c711c344e0458ab33c639e8aad022d97",
+            "thumbnailSha256": "7247cf68b58712ffd33f753f5e6e6e426baca324a8ab2f250221175f3d495fe1",
+            "authorPixelBinding": "b0578283f09d6ffebfdc500efc2c0d01369575570e3ee2f3fcda397d3be1803a",
+            "secondPixelBinding": "149490239fab1f414e7bab4e38a51402c70e8aff7e68a8ff202b205d5c8ca5a1"
+          },
+          {
+            "entryId": "full-stop",
+            "lexicalBinding": "33dc2b7bdd4c0be89fbb5ea1a51020b94f77c2ed6fc6f82cb39bb728f2857dcd",
+            "sourceImageSha256": "0866da5426bc0e60e02b7ea58d2c20a039c79e7a5905562f88007f69c36d10db",
+            "cardSha256": "3b9b5ddb58e02552f068f1e4359d5a4981c7a065e07d081c6808bce146341e85",
+            "thumbnailSha256": "14aea223b471a19e3e67c3637b81ea69f16b5dd56ad768d0cd6ad9efdef17375",
+            "authorPixelBinding": "e06374a0751e48b828927123bf6024ffa8b780f2c171987f3b3b4c727749ff2f",
+            "secondPixelBinding": "e0a76d0044a79dbd5bfe0230e2a804c17ca263e7bdee361eb888b570437b83b6"
+          },
+          {
+            "entryId": "question-mark",
+            "lexicalBinding": "cb8c8737a0c748c3b4ed7356a49979e21dec19edcdc230fcdc9fc7d3f67ed31b",
+            "sourceImageSha256": "2241a71ae63f9f928f68906fe53172087d4d53ca9e1f263c2cdce5009766afed",
+            "cardSha256": "8e03933b6710457c8307e56d84c868df1750a5944a4411db4a325918a11ad2d1",
+            "thumbnailSha256": "17cd856fe2525da47ba4e6d91e5f3d0d4c8a3617ee28147bda99ca3c6935cc42",
+            "authorPixelBinding": "5c2e12f38c98a10d87b263e2093f3a75f75cfcd0d9a663b0d5576f9b0ba3af8b",
+            "secondPixelBinding": "e04aac1226d8809965ba18de573b6d0159fb51de17afc0a0b56150a3d955e3c6"
+          },
+          {
+            "entryId": "exclamation-mark",
+            "lexicalBinding": "87ba1d690d612524dfd22cca95f2ccb0cd9a208beb4f54ef0f53974b01de763a",
+            "sourceImageSha256": "b4fd2c92525d371eda50acc9969c95e319a75cba31797c57f8fb271b54ddcc05",
+            "cardSha256": "2f0f286d4840b493926df5fd0ff333adb3f24695ccaa3a9c7d56fbe2579f1c05",
+            "thumbnailSha256": "8e539d43c7c38b4a0c2bee4a6f6fa8311bfceeef95346520a9b0c225f50a2022",
+            "authorPixelBinding": "fb030e807aec853cc3bf912c52a05356877dd872c771c9c9210579b50ba21732",
+            "secondPixelBinding": "ce166c59a2a7a98cfed0371c0754d0ebf0701b57f2eec0c3081f2c411ad5a1ac"
+          },
+          {
+            "entryId": "quotation-mark",
+            "lexicalBinding": "a67385054626fc1d5180c9d15c863c9ada25736967f4fbd2594217c28b7c103d",
+            "sourceImageSha256": "638addb023b42a89eaf5b1c906dfde54b9088f3c1f88d79c7539ad130c10f21d",
+            "cardSha256": "86116e67a2f56ece5ba7e340a5c281d1bc89bc37042a22ff9e9b9a399179e980",
+            "thumbnailSha256": "f62dfbefb4526a0d884fb938d2ea57a1d597f270478c0c967f56a4c823c8ddd6",
+            "authorPixelBinding": "eef59704ab6e4a095d7d56e775f9801fb59ea2acad63819becf3ad4aaa6d293e",
+            "secondPixelBinding": "67fb22a5d32a93d409eefc1831831b19dd90d9def9ea9a0657eb3180c3209868"
+          },
+          {
+            "entryId": "apostrophe",
+            "lexicalBinding": "e46e0f6e126b6e23a4440fb525ffc796930fb2791c759259b71a5791d945e7e4",
+            "sourceImageSha256": "f6a42086b8e1a34332f101e1c75c967afc10fe1823f1ade6d05628be248f9af5",
+            "cardSha256": "5bc51f50100a05da9259dc77b96676434ead0b46bf4a4a716e6bad7552ed082f",
+            "thumbnailSha256": "c5b8189d6c2f844c0af8a4005d8d3fbb5dae07f552564acaa8a89a9998691853",
+            "authorPixelBinding": "87c5b09b31c274ee4de85ab5083d25a08ba2b385dcc97be642cc4381cc396dc4",
+            "secondPixelBinding": "eb573527bdd9699276b0c1d7292b63d935dee6306ea2ffddc5d6b96acc0df492"
+          },
+          {
+            "entryId": "hyphen",
+            "lexicalBinding": "734c84506017c0bbf5e27745c4ca7e23892df36e81b2b36e3e6ba98e683d5d29",
+            "sourceImageSha256": "72c0557f95b7073939f47d826051efbd268f83dc00c55b9376eff4f721b31a55",
+            "cardSha256": "0d650a9fda7aa3eb2a124c8c11e5e68dc624294ea31362a493cf9eace4ca634e",
+            "thumbnailSha256": "c60a4056dfe7ac9399ae417f1cc72814168a65ed376023a9a0f4770e6f8dc4f2",
+            "authorPixelBinding": "2681e1a0d23d256a087d84b5b71250f80ac0adf23037ee27a7cac30927329574",
+            "secondPixelBinding": "3a94baf89554ccd23da90e534d7b868a3eb4ad74418440d3169a655de64297ca"
+          },
+          {
+            "entryId": "semicolon",
+            "lexicalBinding": "c7e00e99eee0783ce0de3588f41fe00ec67fd6122e6497d22c596863d06e610a",
+            "sourceImageSha256": "15fd8b5e045fe02586b3f1145ff63533bdfbf7b366409a7f976e1b9b28146be0",
+            "cardSha256": "1e9f971c3c549de00b8cc7e1ab945bb35cb4a33a132df244807d48b5996f7f2a",
+            "thumbnailSha256": "b0e46f8fbfccf4d40ce141ecd660623a61d3d7e6f8fa1fa96765a8683a67033e",
+            "authorPixelBinding": "994c8721a7cbd343bd059bb629447b14707c853ed623fd737d43c96f57e02c3f",
+            "secondPixelBinding": "10b195b3da257092f1fb7353998b71bc2ffae04a8da97eaffab34fb80acbe981"
+          },
+          {
+            "entryId": "capital-letter",
+            "lexicalBinding": "002d0270f3f10239251f63d151d051cdb9cd31c9c733549fcd9e233c0712f41a",
+            "sourceImageSha256": "cf8dd2bda8881a0c2a2d3ded7df35272da9d5d70d4106e237d0e1da8bf8f8832",
+            "cardSha256": "3f0f65c142499db6af497ed3be61e01d6a256466bd2c0ffa0b7ee65780b1de07",
+            "thumbnailSha256": "9a396304342009258a4345fa116b83253489f466a73c91746da6f95751b26d4f",
+            "authorPixelBinding": "1a03f2281e1262f469f977e65a35aa1fefee15c870b5c40073fc2dcdfe3835c4",
+            "secondPixelBinding": "6763dcadbe2f5653858746742769ad6e59ae26ddcdbbbb2527070dc14e8283a5"
+          },
+          {
+            "entryId": "syllable",
+            "lexicalBinding": "a15dcad28334031b01865d0ab9e6d2434fede1b7ec2357eabf411396e4e611bc",
+            "sourceImageSha256": "5bd9f421a87526c2f23498361afdffcffb12929e801e40f4e4a6bb94b558d30d",
+            "cardSha256": "7fbebb9af12af1fe449480050fa210f84b60dfc0a6d74d7dd6a096628c9a6549",
+            "thumbnailSha256": "c0ec037043190590fa73dea6d51567eeab78a747441834b9205e848687507a08",
+            "authorPixelBinding": "d5033aa84768b95ac9cd181c32bc18551f5b048f44375f530993e55f61c8b4af",
+            "secondPixelBinding": "6ad7869969f52d2ce0112f4b5cc54147a5c7c6fd48f4531c078c6f975ebb6723"
+          },
+          {
+            "entryId": "vowel",
+            "lexicalBinding": "9fb3b9cc1bda5bcf1970fff5d9e6c279267ab281653064a45d56f2dcb7467681",
+            "sourceImageSha256": "ac890f7311041dae8310152e3b193d9fb52e0f0d17cff4c6230991b5a90d1d83",
+            "cardSha256": "aa209f21a63087f694c3f40570dfc89ab4fcc97ff873a7e7ad4021a7000e6ac4",
+            "thumbnailSha256": "2b29331d8f810fcb8c6266b22b4c73a974102ba4185cc46b1111969fb9599846",
+            "authorPixelBinding": "35ebb2a89554b69a546806a1b98b5cdab431ffe6bcfcbfced0de103670375aab",
+            "secondPixelBinding": "bf955994939a26facf97c8a76f0f68254e57ae5c511ab716994fe485de38dbf5"
+          },
+          {
+            "entryId": "consonant",
+            "lexicalBinding": "75f966bb209aa007863db7884613fab21d152052a3ca32bca0c016d6cf60fdb9",
+            "sourceImageSha256": "81adee4f0eaf0e74916b63503eeea8e548ea4e737dc165b00d27d2f3cf3dca37",
+            "cardSha256": "d3e4bd3f2bfeac42187aff406c6578d319644ccc440740f2bbfa16b0868d7cbe",
+            "thumbnailSha256": "be921b72882dd0ac1122179fe3fa003bdadc593ffdab3910e898a1fc335dde85",
+            "authorPixelBinding": "be7479a1d579e80add09c3184c2b09d9a2af433b1e80c4a64c8384e47e69c8e2",
+            "secondPixelBinding": "d400dcd261fbd646ce8a4f3766867939dd566c58b248f7cd3cdf248adeb63d57"
+          },
+          {
+            "entryId": "noun",
+            "lexicalBinding": "b3f2a540b7a15ffeaae9e49fd54541655aec9e9a7e7c5079407814a525e858e9",
+            "sourceImageSha256": "a892292572668f228e3d241d34dcb35ccde051e158ed89d1559718ad0bb83b34",
+            "cardSha256": "d0505e7871847d62b5f87a2453779da5ca99964a4d5f128261f9399866fd7639",
+            "thumbnailSha256": "e00b9ca783ef373aca97afa6a562304c2fde94fbe0a6865ce8e8f46b90782ce2",
+            "authorPixelBinding": "d2fd023d4fe998074ec37a451445f3affabe6c99cb62548133ea794b740fd6d9",
+            "secondPixelBinding": "7910d7132f0349a46970e19b9b81f58de154c4c85b05cab99e99cdbc6f5e4ef0"
+          },
+          {
+            "entryId": "verb",
+            "lexicalBinding": "3aa3339a380318babb465cce3c1e1620245d1aebba0f585b4095421f17125b92",
+            "sourceImageSha256": "f2767558e3a0c9754c026cd7d986e04161391c5c91db99bab266907345cc64a4",
+            "cardSha256": "d3c2f15cafa03ca9b3e6a6b2b5730b54a7c16ac6502fc71d232f8b322f9e4230",
+            "thumbnailSha256": "b88e00b8faa4c38edffb7f28b63667ba7bad62c9e6f6596a5fa889a122568b48",
+            "authorPixelBinding": "b7063e586530adfa7a404a5d6b7c0de61f882668e90275d68ad48014291fbe02",
+            "secondPixelBinding": "a8e4b5db83edc747aafbc859065da27bd93dd438c9b3452dc86a5d2a63a251af"
+          },
+          {
+            "entryId": "adjective",
+            "lexicalBinding": "26b80b6e93b0f82a496518d5ad0a54eaeb849a1870b3cfe54d18196c010c8ffd",
+            "sourceImageSha256": "c281118f194e389666050318a09882c568ba71f7d47f875efd63497d1a41bd9e",
+            "cardSha256": "afde4d9688866074f505f2a3d5fe087b65c0602edbbe61e3504b53c67f6baee6",
+            "thumbnailSha256": "6902f1e022f484c14cf1b2fa5eb46efaac145ac4bc474e98873d9149dcc953f6",
+            "authorPixelBinding": "5fa87477497774ec3a57f39d0f5c0b1fcabab607e622e3665badf0433f0ccd95",
+            "secondPixelBinding": "5259d3a22b775452be449ee7ab5576015ef4ac7d697a4da23009598c8817bc9f"
+          },
+          {
+            "entryId": "adverb",
+            "lexicalBinding": "d35a720af7ffbe135ba8580c7da2b0316527a579dd3cb4db2b9fa71b72b123b1",
+            "sourceImageSha256": "15c7e82911d2e548651f2c53d790cee1bc366ebeac1540079eb583f33150d3f6",
+            "cardSha256": "5387f652b35d3395cc932ca85ab2c2d8371ba4f759011a6f60d9395d77555c72",
+            "thumbnailSha256": "eaa75c49f00d29877f3df89f25e17f3f085f6a37dd636a35cde77d0ccae7efd3",
+            "authorPixelBinding": "c1a192768bd57f8ccec45907ada31ec0398a62984631493b28046ad3a23eeac7",
+            "secondPixelBinding": "d22e97e5b0ffd128ae676775d1a4a544f110aa8c30b297bb5c72b50221fcf19e"
+          },
+          {
+            "entryId": "grammar",
+            "lexicalBinding": "99816c80b60fa4088c1ea14cacc9c923d58b92e832ab6565ad41cc3d2558cd1c",
+            "sourceImageSha256": "24f4ed5fcac88adc8f198a254139310622c8704c04505d5d6390d553c451fa78",
+            "cardSha256": "79e164f7c75fbe45720fc0c79649a511a1f27c9fbe2af662bb32949c902c8380",
+            "thumbnailSha256": "f669269ed45200fd3a0a1289392b811b3dafda1584c718d3bdc2adb5f8a99282",
+            "authorPixelBinding": "6ca4ad23774927c768340f719edceca1a1af0d5bdf1bca52fb013be05770e82d",
+            "secondPixelBinding": "31841baf9609aafb3d178910203ce418c4e3b924157d39e072fc45595ae35ee1"
+          },
+          {
+            "entryId": "vocabulary",
+            "lexicalBinding": "32a2f69b41d3e2309291db706f4047e46ed6e209693967e605320c25a51cb349",
+            "sourceImageSha256": "4456b7aaa06b3d21b91377bbbec6923a30ef109884a1f282e750c7da4b9ac271",
+            "cardSha256": "47a28c25895825e47d42b6d443c04aca6c25ffb05e8615645e6918c2a5184599",
+            "thumbnailSha256": "ca79939615a54741cdc2fc6fa0eee57c9757d4db64d9a32ffa31e6962e24672d",
+            "authorPixelBinding": "3dbebe0cb39294c4de87e8c326dca80cf737691bebc9308c33883cf0d8276d49",
+            "secondPixelBinding": "a803f08a55befef109ad96d15a75a5e358e34902b5194851b4fb238ac5a35e40"
+          },
+          {
+            "entryId": "translation",
+            "lexicalBinding": "a405303fe0df2a38cdd14cf3eace307e8d07b61fbc4116dba0bbf610edf1d674",
+            "sourceImageSha256": "f5910d0d5380d62573e5b9132b5afb3d07f1bc93afd25d3defeea4138c8a6eb8",
+            "cardSha256": "2dd5d100b0ad9dbf8f38179048430a29bf445f45b36628bcb5bae5585a707a01",
+            "thumbnailSha256": "6f818bb4319c0a4982b124bbc3749c8c4eafebff12958d8519ca9831aa8bf037",
+            "authorPixelBinding": "9f43a9b045c9b2c42b437cf43e9fff7deb83c21f026912fccb80174ebbb82280",
+            "secondPixelBinding": "cc88884abe1304bb87402e7f78ef307aff32345545c09fe56fcad8a91709c46a"
+          },
+          {
+            "entryId": "abbreviation",
+            "lexicalBinding": "c3413fec07f7c8953b5d9ce767ba74e1f3881b1e159690c9d2a23a50c5261076",
+            "sourceImageSha256": "6aafb2c9e441ecd2c37713b3e5b2942c6e0238cd30aca4a49e2d55a9f664363a",
+            "cardSha256": "b2ca2e22a55f960f6f74ba86fc471ea7c2212c85503a48bd0e0558b9386a6ef1",
+            "thumbnailSha256": "b99f4a25de69e04a001bff6e1b5b2318e2b3661532b2b541c4b35346ac9747cb",
+            "authorPixelBinding": "da15a4b7bbaf3d4788027e74532a0de02425c723f3f4325c821cdbd5ece974f9",
+            "secondPixelBinding": "3b94cecc4e3afdf628d3d62db2f70c3c8afc09575a5af901e1849c7afb8ceeff"
+          },
+          {
+            "entryId": "plural",
+            "lexicalBinding": "b2970584abc46495ad7d37cca491ce84a91f5076095ea4defa4cf017c24dda3a",
+            "sourceImageSha256": "0586f68cfadcff35f4c73c69a34f2cc8460c63e3c42396ff4bd7e15c82621bee",
+            "cardSha256": "7947dd97906b4a4541818cbbb49db644d16669272ed58bb9ccf2e4385a0c224c",
+            "thumbnailSha256": "2aa00946e2560a251a0b8da47bea4202f0a052635121b615f934b13a02b7420c",
+            "authorPixelBinding": "9da56d848e795e4fd8c112faf18e6d2975da5c8de2f7bf80410879bb021d29ef",
+            "secondPixelBinding": "76590cd0f6ad2debe447e18770536adf2837ee63df2572594aef45896590bcd8"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "languages-communication",
+          "visualLanguageId": "languages-communication",
+          "baselineCategoryWords": 12,
+          "targetCategoryWords": 36,
+          "entryIds": [
+            "letter",
+            "word",
+            "punctuation",
+            "comma",
+            "full-stop",
+            "question-mark",
+            "exclamation-mark",
+            "quotation-mark",
+            "apostrophe",
+            "hyphen",
+            "semicolon",
+            "capital-letter",
+            "syllable",
+            "vowel",
+            "consonant",
+            "noun",
+            "verb",
+            "adjective",
+            "adverb",
+            "grammar",
+            "vocabulary",
+            "translation",
+            "abbreviation",
+            "plural"
+          ],
+          "units": [
+            {
+              "id": "writing-and-punctuation",
+              "title": "Letters and written punctuation",
+              "entryIds": [
+                "letter",
+                "word",
+                "punctuation",
+                "comma",
+                "full-stop",
+                "question-mark",
+                "exclamation-mark",
+                "quotation-mark",
+                "apostrophe",
+                "hyphen",
+                "semicolon",
+                "capital-letter"
+              ]
+            },
+            {
+              "id": "grammar-and-meaning",
+              "title": "Language forms and meaning",
+              "entryIds": [
+                "syllable",
+                "vowel",
+                "consonant",
+                "noun",
+                "verb",
+                "adjective",
+                "adverb",
+                "grammar",
+                "vocabulary",
+                "translation",
+                "abbreviation",
+                "plural"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "24 established distinct absent English heads toward configured languages-communication50. Full prior62 seal and peer verified before selection; all prior queues have no unfinished groups or pending requests. Real native lexical and both image inspections still required. No manual hold retries.",
+      "parentBatchId": "category-expansion-batch-63",
+      "completedAt": "2026-11-03T02:59:20.392Z",
+      "factualReferences": [
+        {
+          "entryId": "letter",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika letters and punctuation contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected learner content and contextual examples, editorial IPA/approximate CEFR, AI-assisted CC BY4 preview with independent human language/qualified linguistic review pending. Letter/word identities distinct; aliases period and exclamation point stay within their selected existing entries, not extra published heads. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "word",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika letters and punctuation contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected learner content and contextual examples, editorial IPA/approximate CEFR, AI-assisted CC BY4 preview with independent human language/qualified linguistic review pending. Letter/word identities distinct; aliases period and exclamation point stay within their selected existing entries, not extra published heads. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "punctuation",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika letters and punctuation contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected learner content and contextual examples, editorial IPA/approximate CEFR, AI-assisted CC BY4 preview with independent human language/qualified linguistic review pending. Letter/word identities distinct; aliases period and exclamation point stay within their selected existing entries, not extra published heads. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "punctuation",
+          "sourceType": "primary-factual-reference",
+          "title": "Australian Government Style Manual — Punctuation",
+          "url": "https://www.stylemanual.gov.au/grammar-punctuation-and-conventions/punctuation",
+          "use": "Checked only the general selected punctuation function and the existence of style-dependent conventions. All definitions/examples/translations independently authored; no prescribed Australian-only quotation or other house-style preference treated as a universal English rule. No source wording or artwork copied.",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "entryId": "comma",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika letters and punctuation contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected learner content and contextual examples, editorial IPA/approximate CEFR, AI-assisted CC BY4 preview with independent human language/qualified linguistic review pending. Letter/word identities distinct; aliases period and exclamation point stay within their selected existing entries, not extra published heads. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "comma",
+          "sourceType": "primary-factual-reference",
+          "title": "Australian Government Style Manual — Punctuation",
+          "url": "https://www.stylemanual.gov.au/grammar-punctuation-and-conventions/punctuation",
+          "use": "Checked only the general selected punctuation function and the existence of style-dependent conventions. All definitions/examples/translations independently authored; no prescribed Australian-only quotation or other house-style preference treated as a universal English rule. No source wording or artwork copied.",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "entryId": "full-stop",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika letters and punctuation contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected learner content and contextual examples, editorial IPA/approximate CEFR, AI-assisted CC BY4 preview with independent human language/qualified linguistic review pending. Letter/word identities distinct; aliases period and exclamation point stay within their selected existing entries, not extra published heads. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "full-stop",
+          "sourceType": "primary-factual-reference",
+          "title": "Australian Government Style Manual — Punctuation",
+          "url": "https://www.stylemanual.gov.au/grammar-punctuation-and-conventions/punctuation",
+          "use": "Checked only the general selected punctuation function and the existence of style-dependent conventions. All definitions/examples/translations independently authored; no prescribed Australian-only quotation or other house-style preference treated as a universal English rule. No source wording or artwork copied.",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "entryId": "question-mark",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika letters and punctuation contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected learner content and contextual examples, editorial IPA/approximate CEFR, AI-assisted CC BY4 preview with independent human language/qualified linguistic review pending. Letter/word identities distinct; aliases period and exclamation point stay within their selected existing entries, not extra published heads. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "question-mark",
+          "sourceType": "primary-factual-reference",
+          "title": "Australian Government Style Manual — Punctuation",
+          "url": "https://www.stylemanual.gov.au/grammar-punctuation-and-conventions/punctuation",
+          "use": "Checked only the general selected punctuation function and the existence of style-dependent conventions. All definitions/examples/translations independently authored; no prescribed Australian-only quotation or other house-style preference treated as a universal English rule. No source wording or artwork copied.",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "entryId": "exclamation-mark",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika letters and punctuation contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected learner content and contextual examples, editorial IPA/approximate CEFR, AI-assisted CC BY4 preview with independent human language/qualified linguistic review pending. Letter/word identities distinct; aliases period and exclamation point stay within their selected existing entries, not extra published heads. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "exclamation-mark",
+          "sourceType": "primary-factual-reference",
+          "title": "Australian Government Style Manual — Punctuation",
+          "url": "https://www.stylemanual.gov.au/grammar-punctuation-and-conventions/punctuation",
+          "use": "Checked only the general selected punctuation function and the existence of style-dependent conventions. All definitions/examples/translations independently authored; no prescribed Australian-only quotation or other house-style preference treated as a universal English rule. No source wording or artwork copied.",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "entryId": "quotation-mark",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika letters and punctuation contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected learner content and contextual examples, editorial IPA/approximate CEFR, AI-assisted CC BY4 preview with independent human language/qualified linguistic review pending. Letter/word identities distinct; aliases period and exclamation point stay within their selected existing entries, not extra published heads. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "quotation-mark",
+          "sourceType": "primary-factual-reference",
+          "title": "Australian Government Style Manual — Punctuation",
+          "url": "https://www.stylemanual.gov.au/grammar-punctuation-and-conventions/punctuation",
+          "use": "Checked only the general selected punctuation function and the existence of style-dependent conventions. All definitions/examples/translations independently authored; no prescribed Australian-only quotation or other house-style preference treated as a universal English rule. No source wording or artwork copied.",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "entryId": "apostrophe",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika letters and punctuation contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected learner content and contextual examples, editorial IPA/approximate CEFR, AI-assisted CC BY4 preview with independent human language/qualified linguistic review pending. Letter/word identities distinct; aliases period and exclamation point stay within their selected existing entries, not extra published heads. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "apostrophe",
+          "sourceType": "primary-factual-reference",
+          "title": "Australian Government Style Manual — Punctuation",
+          "url": "https://www.stylemanual.gov.au/grammar-punctuation-and-conventions/punctuation",
+          "use": "Checked only the general selected punctuation function and the existence of style-dependent conventions. All definitions/examples/translations independently authored; no prescribed Australian-only quotation or other house-style preference treated as a universal English rule. No source wording or artwork copied.",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "entryId": "hyphen",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika letters and punctuation contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected learner content and contextual examples, editorial IPA/approximate CEFR, AI-assisted CC BY4 preview with independent human language/qualified linguistic review pending. Letter/word identities distinct; aliases period and exclamation point stay within their selected existing entries, not extra published heads. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "hyphen",
+          "sourceType": "primary-factual-reference",
+          "title": "Australian Government Style Manual — Punctuation",
+          "url": "https://www.stylemanual.gov.au/grammar-punctuation-and-conventions/punctuation",
+          "use": "Checked only the general selected punctuation function and the existence of style-dependent conventions. All definitions/examples/translations independently authored; no prescribed Australian-only quotation or other house-style preference treated as a universal English rule. No source wording or artwork copied.",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "entryId": "semicolon",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika letters and punctuation contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected learner content and contextual examples, editorial IPA/approximate CEFR, AI-assisted CC BY4 preview with independent human language/qualified linguistic review pending. Letter/word identities distinct; aliases period and exclamation point stay within their selected existing entries, not extra published heads. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "semicolon",
+          "sourceType": "primary-factual-reference",
+          "title": "Australian Government Style Manual — Punctuation",
+          "url": "https://www.stylemanual.gov.au/grammar-punctuation-and-conventions/punctuation",
+          "use": "Checked only the general selected punctuation function and the existence of style-dependent conventions. All definitions/examples/translations independently authored; no prescribed Australian-only quotation or other house-style preference treated as a universal English rule. No source wording or artwork copied.",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "entryId": "capital-letter",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika letters and punctuation contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected learner content and contextual examples, editorial IPA/approximate CEFR, AI-assisted CC BY4 preview with independent human language/qualified linguistic review pending. Letter/word identities distinct; aliases period and exclamation point stay within their selected existing entries, not extra published heads. No external dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "capital-letter",
+          "sourceType": "primary-factual-reference",
+          "title": "Australian Government Style Manual — Punctuation",
+          "url": "https://www.stylemanual.gov.au/grammar-punctuation-and-conventions/punctuation",
+          "use": "Checked only the general selected punctuation function and the existence of style-dependent conventions. All definitions/examples/translations independently authored; no prescribed Australian-only quotation or other house-style preference treated as a universal English rule. No source wording or artwork copied.",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "entryId": "syllable",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika language forms and meaning vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and original short linguistic examples. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "vowel",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika language forms and meaning vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and original short linguistic examples. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "consonant",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika language forms and meaning vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and original short linguistic examples. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "noun",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika language forms and meaning vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and original short linguistic examples. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "noun",
+          "sourceType": "primary-factual-reference",
+          "title": "Open University — English: skills for learning, 3.3 Word classes",
+          "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=83485&section=_unit8.3.3",
+          "use": "Checked the naming word class including abstract ideas and qualities; original definitions, examples and translations, not copied source wording. Checked 2026-11-03."
+        },
+        {
+          "entryId": "verb",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika language forms and meaning vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and original short linguistic examples. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "verb",
+          "sourceType": "primary-factual-reference",
+          "title": "Open University — English: skills for learning, 3.3 Word classes",
+          "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=83485&section=_unit8.3.3",
+          "use": "Checked actions, happenings and states rather than a movement-only definition; original bird/sings example. Checked 2026-11-03."
+        },
+        {
+          "entryId": "adjective",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika language forms and meaning vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and original short linguistic examples. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "adjective",
+          "sourceType": "primary-factual-reference",
+          "title": "British Council — English grammar reference",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference",
+          "use": "Checked adjectives give information about nouns or pronouns; original red-cup example and native teaching distinctions. Checked 2026-11-03."
+        },
+        {
+          "entryId": "adverb",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika language forms and meaning vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and original short linguistic examples. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "adverb",
+          "sourceType": "primary-factual-reference",
+          "title": "Open University — English: skills for learning, 3.3 Word classes",
+          "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=83485&section=_unit8.3.3",
+          "use": "Checked adverbs can modify verbs, adjectives and other adverbs; original slowly/very/friendly distinctions. Checked 2026-11-03."
+        },
+        {
+          "entryId": "grammar",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika language forms and meaning vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and original short linguistic examples. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "vocabulary",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika language forms and meaning vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and original short linguistic examples. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "translation",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika language forms and meaning vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and original short linguistic examples. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "abbreviation",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika language forms and meaning vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and original short linguistic examples. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "plural",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika language forms and meaning vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and original short linguistic examples. AI-assisted CC BY 4.0 editorial preview; independent human language and domain review pending. No dictionary wording or artwork copied."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,

@@ -15,7 +15,7 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "economics-finance",
+  "currentCategoryId": "languages-communication",
   "nextCategoryId": "languages-communication",
   "categoryOrder": [
     "cooking-food-drink",
@@ -6958,9 +6958,87 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "languages-communication",
+      "visualLanguageId": "languages-communication",
+      "baselineCategoryWords": 12,
+      "targetCategoryWords": 36,
+      "entryIds": [
+        "letter",
+        "word",
+        "punctuation",
+        "comma",
+        "full-stop",
+        "question-mark",
+        "exclamation-mark",
+        "quotation-mark",
+        "apostrophe",
+        "hyphen",
+        "semicolon",
+        "capital-letter",
+        "syllable",
+        "vowel",
+        "consonant",
+        "noun",
+        "verb",
+        "adjective",
+        "adverb",
+        "grammar",
+        "vocabulary",
+        "translation",
+        "abbreviation",
+        "plural"
+      ],
+      "units": [
+        {
+          "id": "writing-and-punctuation",
+          "title": "Letters and written punctuation",
+          "entryIds": [
+            "letter",
+            "word",
+            "punctuation",
+            "comma",
+            "full-stop",
+            "question-mark",
+            "exclamation-mark",
+            "quotation-mark",
+            "apostrophe",
+            "hyphen",
+            "semicolon",
+            "capital-letter"
+          ]
+        },
+        {
+          "id": "grammar-and-meaning",
+          "title": "Language forms and meaning",
+          "entryIds": [
+            "syllable",
+            "vowel",
+            "consonant",
+            "noun",
+            "verb",
+            "adjective",
+            "adverb",
+            "grammar",
+            "vocabulary",
+            "translation",
+            "abbreviation",
+            "plural"
+          ]
+        }
+      ],
+      "id": "languages-communication-category-expansion-batch-63-ready-1",
+      "releaseId": "2026-10-preview-70",
+      "status": "published-preview",
+      "objective": "Learn Letters and written punctuation; Language forms and meaning in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-62-ready-1",
+  "activePassId": "category-expansion-batch-63-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",
