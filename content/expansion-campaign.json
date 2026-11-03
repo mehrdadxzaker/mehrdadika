@@ -19201,6 +19201,591 @@
           "use": "Original EN/FA/PT-BR/es-419 common retail authorship with one explicit selected sense, editorial IPA/approximate CEFR, two contextual examples, three collocations and useful distinctions. AI-assisted CC BY 4.0 editorial preview; independent human language and relevant domain review pending. No dictionary wording or artwork copied and no invented source URL. Purse selects the British small coin-case sense, distinct from a flat banknote/card wallet or larger handbag; greengrocer selects the fresh-produce seller, distinct from a farmer or generic shop assistant."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-67-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-74",
+      "sourceFiles": [
+        "fire-and-evacuation.json",
+        "personal-protection.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-73",
+        "manifest": "content/releases/2026-10-preview-73-bac06e105e68/manifest.json",
+        "manifestSha256": "bac06e105e68d826174316afcd731dbb7e9907bcd930375f98490e98b1869d3f",
+        "words": 1676
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "smoke-alarm",
+            "lexicalBinding": "fd01a0a2dab0cf5bb2c38a5dba2599f87ade88b56d1f2013f14e67153fc401e3",
+            "sourceImageSha256": "0d7758c046598d6752d6075b1310db3a3307d6ac590038e9180e808379aa6e6f",
+            "cardSha256": "9cc3b6c43693654e5eb15c051b010391d505178f4f32c6fb886bf5186d5abe22",
+            "thumbnailSha256": "f57bb9d1a213502c11aad07c82e3707f982a8d5fc9f832a81927aeaf9d6689d0",
+            "authorPixelBinding": "0f8315b5c39523643a92d2ee111d3ece6a9cd954894e081e24c58552b29c3ef1",
+            "secondPixelBinding": "c549d92daa95b675941ced92d7baee09df2c5db44f8041f34a1b63116deb5c25"
+          },
+          {
+            "entryId": "fire-blanket",
+            "lexicalBinding": "01492386a4ccbc2baa4ef48f43c39f423fdb54cc0f9f1cdf2ff2fe1d8a0499ac",
+            "sourceImageSha256": "6fb7e56abe8c400ff1c6e7e60303279e9abd3b3259305d3c68f3be43f8a278e1",
+            "cardSha256": "f1a2e8f5e943055a34bd2c0515d6c20615182e0766232ce9d3f526c287013552",
+            "thumbnailSha256": "65dcd6178ce05d813ee27f2001b4352ce5b4c43883b8f5261ee23f5972dd176a",
+            "authorPixelBinding": "70a14adb5eb1e0501e86d8532d19cda43868fd11845579e47799b2f9bb5af2b7",
+            "secondPixelBinding": "93f0527b0732515016f3ed94295cdc7ddd77b5ccbd4df44c9358038530000550"
+          },
+          {
+            "entryId": "emergency-exit",
+            "lexicalBinding": "0467ee0a60a0e64f5724342061e613006ae4aa0515d6eea990d1d7d93aff7fdd",
+            "sourceImageSha256": "71ecf3dccb78ce3b5e003cb384d21667a6ce1e167316f8f901165798bc2ede7a",
+            "cardSha256": "5df6f6a83c1d2d1492f8c3b1ba6102efc560aa54c4eb61172365aa8cec6fc2aa",
+            "thumbnailSha256": "7dbabd7ed23f978c82ab0abb471efa8e28ae734c7aad8f56723c7f93512f1c18",
+            "authorPixelBinding": "7404564791a107fd2cfe1354f3a0cffe00dbe2d80da5cfca9e6b2769826aafe6",
+            "secondPixelBinding": "fc6180d6c663e941ab956e7b1b293ad6918e194ae9af495b7b106e5bb634a506"
+          },
+          {
+            "entryId": "fire-door",
+            "lexicalBinding": "243bb37d74b49bd941e6cfbdbabd8bc1f39e5ea2401c31c35d70a30af3b879d5",
+            "sourceImageSha256": "b277bd359a23af23ca7f08e0ba457f470b5fe05f349838b475966bfa11d89f1f",
+            "cardSha256": "94328e73c74507bb06a0e4f0a01ecd6a245eddce17a39c3b215d0e4cdd1b3fd6",
+            "thumbnailSha256": "2576826909f091f11ebfa0a5b5a1e361c91f5ee1d48e56c56262510adbdc4be0",
+            "authorPixelBinding": "e49cac74eb46fb7c00f5dd81d3a70c716d4f0ef769a9ab8000102e43a97ee12c",
+            "secondPixelBinding": "cd248646cf35e6c4b133e2e7230b61466cf1b7226df388204b4b67ca8b06bb6c"
+          },
+          {
+            "entryId": "fire-escape",
+            "lexicalBinding": "9fbd07fd66e190e2039b468470bb47f982538a8bda240791fe1fad1df559ba06",
+            "sourceImageSha256": "e02aa8dbb8e69240c8ddcad30ffc543893a977da0ce8e8304e47e81bf9c2b330",
+            "cardSha256": "1073540f2a9d60307575cbba14266bab5bb696cb1765619914d1e6d7db705fcd",
+            "thumbnailSha256": "69deba5baeb408054615c32588d62494ddaf720021659ae27b046079af4d267d",
+            "authorPixelBinding": "f7399184766cfde446ad8fabfdb05b3ddeb426480715044f6d7d909fe32c24f5",
+            "secondPixelBinding": "1aca4584fe2e52471403d4b0a170c32fb3509801b4dff3f4234428ee87bad27c"
+          },
+          {
+            "entryId": "assembly-point",
+            "lexicalBinding": "224a0f8e83d6185bafe803a967bbdc515bf6b68e388a4cdf48ad41c9107db19f",
+            "sourceImageSha256": "1d6bbc9309dbae36802f4bcd5be8c2deac48bd65fd1eeb4baaa55ec2a2358487",
+            "cardSha256": "af7834b80be10988296d441610f976691eab801aa0fc115b09203735fd2ab517",
+            "thumbnailSha256": "420b365b5a04bcee7021b7883793fa512a997e54f44f8ee4c29aebc0f5e421b6",
+            "authorPixelBinding": "914b31645472df0c8b2429d639597969d84728248a9a01f7fcfb4e75b0ed9566",
+            "secondPixelBinding": "1501ed080dbdf64ee0d6b16dfc786642ef5e40f98875cf4ec6735fa2d7e0b5f5"
+          },
+          {
+            "entryId": "firefighter",
+            "lexicalBinding": "e861aad35224e601fe097548076d926986a2182b5dc0cdaef9158d15fc4632a5",
+            "sourceImageSha256": "32b25832b55adeb69714f2a96bb59883d3630f290616d402e46a68f7d392492a",
+            "cardSha256": "397659a8790a3bac7bab6e2407938731065f6ec9466b0e141c096ccb69601ea3",
+            "thumbnailSha256": "6c1052fb974db4e7dcf1eaf272cbc74f2ba74ed76d839800287c8b479e4fd03a",
+            "authorPixelBinding": "76924255091dd2d896aa07cc70385a1b7e614c459840e5372de382640d5c336d",
+            "secondPixelBinding": "d5e8c24029223a26112501f1a345a7a2931e952e5eae20fe775ca4074bc12c0f"
+          },
+          {
+            "entryId": "fire-drill",
+            "lexicalBinding": "e4997ee214703fd21b2de7f60d2917ebe9304eb29c28cd9fb59e22fe337f4e8c",
+            "sourceImageSha256": "aeaf5f23660d2f9b74f771aa88a7ef270b680220d4fc7791731f7c394422fb5c",
+            "cardSha256": "0259aeb9a76e3b38086ea0d9bfdeda630947043fc01e99fe774f671e6784f026",
+            "thumbnailSha256": "6c6a17d9d1d5ac0773ca1a8b6df15401b33d6bb8ace62a2fa7b67294fba25185",
+            "authorPixelBinding": "c2b602ddcc6eb4565db8df75447b427b242aa71e50052fb171c71b9c8a38bb11",
+            "secondPixelBinding": "7b38e2c116c5849026f301edc914a6043fdb39d23f752cea7b0755e61fc797dd"
+          },
+          {
+            "entryId": "siren",
+            "lexicalBinding": "8c2648becf247133f55ea5c7c82ea13565646063fecd31764d7bb1e4af66c691",
+            "sourceImageSha256": "70596c155f40811d660f3a7d2e8a65c3dbf4dade94ff91d0e915599484aec79c",
+            "cardSha256": "5bc131930b825735540b63bb7465bfb4f09bcd0687c4336332495f4ec94e751d",
+            "thumbnailSha256": "a3b869b0e2d9d1c962703fc6229115e68eaf7e443b1b8518271c2b8a0b1f7dbf",
+            "authorPixelBinding": "53fa3ed653a74415e53db6fc888fca3bab5bcf8e6a34f7febcdca446ede700ff",
+            "secondPixelBinding": "b2c8a009048dd85e14bd518172cc44fbba05e2560fe6d0519008133907b25d9d"
+          },
+          {
+            "entryId": "hydrant",
+            "lexicalBinding": "c03e24438e784fa251937903f3d22907b81619cccd6c9d3078112354e99f65a3",
+            "sourceImageSha256": "911cc529f1739b1b1076342ddcae902582424ca2a9bd52e55d5f55116b69b771",
+            "cardSha256": "1744b6881270fb70a7ac9c1b7a50f68a0659c6154241f1aa0f5a29972d1cfd5c",
+            "thumbnailSha256": "bb924042b4aff1a585de19c5eebf13326fd1db6bc32fa75b4972e72b00ea0693",
+            "authorPixelBinding": "d0ee7dd6065af0d09c383baf5e66ed0ba7f649bc4ee527fb0a802e3f96918b8b",
+            "secondPixelBinding": "23a9662f78a980968b6ea51bb842712dc1b17658d238adead3df1a134e8e19da"
+          },
+          {
+            "entryId": "barricade",
+            "lexicalBinding": "5af893b9cea47fefd98fb59697d6e54e76e7ed4984ba9a62b86e4264b1cf237a",
+            "sourceImageSha256": "4322430324a35430d53f3a13ad294e3f9f432dd58ed8501aa314191e0e020b39",
+            "cardSha256": "81520cc8e3a4bf502b709494095709ba7988b0b884af6c37286520489a878210",
+            "thumbnailSha256": "7cfe17a66ab79610bc4d33d8f190e51e5e516c5b8ce70945c0fa4ff23221a337",
+            "authorPixelBinding": "9186dc9276ad2898550a9570668393f31ce7bc21e2f63d45d9592a8648e5f0c0",
+            "secondPixelBinding": "01dafb8c362ee454e350a1f7a2e94e245df2ac84961c675458349fa12859fbe4"
+          },
+          {
+            "entryId": "traffic-cone",
+            "lexicalBinding": "85e7a7850a4a8e0b51f7bf75b4255b6161a1b72b87f2a53ebad59148546c3fac",
+            "sourceImageSha256": "ca1ca1f023d400ada9ee9bce66b9af502377bcccafe4059782c3120161aa843c",
+            "cardSha256": "bf48398cd5007e0f550128f6cef6ada566f0f354ca572fd4f0c87858edb7a006",
+            "thumbnailSha256": "815983bdd4d841c2bc65512a2831a171a74d444cd08a73dc3396bb93b0b7fa0d",
+            "authorPixelBinding": "5fe87e248d00d9c28437d036b8d68d74d314fbac207ed7b71caab6634179cd70",
+            "secondPixelBinding": "e3352846cf0fd132b8e6c5538bd55b10f06b2b924235c56898275cac8db878d2"
+          },
+          {
+            "entryId": "lifebuoy",
+            "lexicalBinding": "6b7fc62d1b69567e9417f656b4da9faa5078dbbc2cc754c4139c7e9b5719cd42",
+            "sourceImageSha256": "db7987e27f2f335bd328906cc64caaba48ac6f222d778baafee4f8cad38f0c99",
+            "cardSha256": "8eca3cef5c2735277bd83bd5cd43503fca5621fcb5906f0fb411205dfd825991",
+            "thumbnailSha256": "4daf786c9a50bfa757c7eb44b21b6fb5cad573b87be61b31ca33a95485e3a229",
+            "authorPixelBinding": "0b773f192a506b4db8e8d366a4efed74bdbc0edcf03505f1bd77b3e8e7b29e8e",
+            "secondPixelBinding": "5c03000ed5e07abd3b3e12bd46a8c6a0687554e7750c76cb06e882526ea2953c"
+          },
+          {
+            "entryId": "life-jacket",
+            "lexicalBinding": "3b13fecbf2b3392ac494d94f2f82f7d992d0a4282fcf8e715d47ab7852c58021",
+            "sourceImageSha256": "406a9b0a4752aea29ae8dd5c2bacda2834aaadb1ee8843143eb024ff8cfe004d",
+            "cardSha256": "1f2f3066374cdfa90f8b6a4d6264914cf9dcbba7d950e8b970608d5b71192c7e",
+            "thumbnailSha256": "cb5e146e3c6ad61e7ff89c8c48928c5d177819d7cbde51e9b32fecda8378b420",
+            "authorPixelBinding": "c9c18933122191d240a2f17b33051d9c1e73345b5fd3d904a44910be1ce2d3be",
+            "secondPixelBinding": "1e0babfa04afd089f6ba635a8d07192390c56cec93a4e6fab61b5719a011b1bc"
+          },
+          {
+            "entryId": "seat-belt",
+            "lexicalBinding": "a9b5e66f224501e4051e99a2b45b9927df46f7394ee21a8c40256db3711b42c9",
+            "sourceImageSha256": "087842ca0c28838e5e12494f9a4e8f65e71b0e85b8201eea299ca6a53e23f675",
+            "cardSha256": "5d677eee771d52e01c1ccdf184b56d933479baefe0061874ab8599fe592d311a",
+            "thumbnailSha256": "6fbb8c3489430ea1c3034ef150e702a17047902a7ed16ba5e58315f6fd3ad886",
+            "authorPixelBinding": "d8637e51327766f75411eec3e4e574465ecf44b6b72c6f9d36cc8495ef8c6c3b",
+            "secondPixelBinding": "289c3773e76d13b0a7bf01f3564c0ff736c509ed1504655d09e01dfc0126004f"
+          },
+          {
+            "entryId": "helmet",
+            "lexicalBinding": "ff1341d35e80509f138b1bc57ec8ba5e741602794f2cd9ef2fdea1d0698c5587",
+            "sourceImageSha256": "1fd8d9fefe7a0c9563805fd55a1c8e7536a48541ecf0e46814db7f4fed1ed590",
+            "cardSha256": "deb348d24220065c8288dd95bee323fdc30f617b393b65580f2ed8fd28da0e40",
+            "thumbnailSha256": "28406ca55082b3ba900b17e6134dd048696d8ff24e8826255441115b58e7fa4b",
+            "authorPixelBinding": "f66bb524b351d5c467d05491216f4491401604e9ada25cade6d7034a84d83ad3",
+            "secondPixelBinding": "7b799650c20d935a85d33f24f5c881a17e2b74f427e41b9f924441be0f293b8f"
+          },
+          {
+            "entryId": "safety-goggles",
+            "lexicalBinding": "7d603b7ddd8deeec562a6c723ebd99573edc7cbf35321c141c499cbebc48cf16",
+            "sourceImageSha256": "bf6b7f784b8296a406eae221278bca4324a8f6ace259ec989419a793e91d3fa6",
+            "cardSha256": "02dbba06b3698277bdce5d8ec6506e47fa282d4c69a9cd62a7d1d2eee6efa395",
+            "thumbnailSha256": "256484bbc4d31574bed95242990c1b86bb3849e77230de4943223ca7d0ee31d1",
+            "authorPixelBinding": "5ef7a0f79efec9d09e00ce864d5aa551f02522f22f24710a3e48f26253bf13c2",
+            "secondPixelBinding": "e7d161c6ac76b7fa5232c92c3efece7be7f4c16abdf14529efd114f4c613c5f3"
+          },
+          {
+            "entryId": "guardrail",
+            "lexicalBinding": "4440d0603817ae2498fe0009ed96731a0159559823470c4c5f419db6b15d3b4e",
+            "sourceImageSha256": "1b03dad0de10bf9b8b8af400aba91d69d1a2bffcceb0a3791d4ab00320514853",
+            "cardSha256": "5d8ca08fbb12ce4bad964be1dee840254fb5367e0a207876a946939388bd6091",
+            "thumbnailSha256": "d39946af9d4d442df80db3150474858a6c241d2fe64c35253d1c3c8d4147b475",
+            "authorPixelBinding": "898ac224902ae26925960c3d9470a4a7c9446ea506e47f0927b9853267229d65",
+            "secondPixelBinding": "a45dc23e08b5311d77ca5a18e4b6a803b52ded36cff2bf1802529c0d2010b22d"
+          },
+          {
+            "entryId": "lifeguard",
+            "lexicalBinding": "b57217669217eba9946cd4513e85181e149329aa3183c0f606c7c87db50ae208",
+            "sourceImageSha256": "792ebe7b6e9e721b65a83ad0c0e80b9a2e6f0ea494e26ebb720b2b1889e38b44",
+            "cardSha256": "99d0c7404f254a0b747080d284c98e9dfd9c62ccf7d5e43b73a13b54cf62474a",
+            "thumbnailSha256": "0d10bc488b895bc2a25af8f3cf93f3911aaf13750a31a8ac33a143b1877013ee",
+            "authorPixelBinding": "999a960e6c692ccb9408b5c4b9be45382f170629b9020e0bf8b2eb4ca5d0132f",
+            "secondPixelBinding": "1977672ec9805ffe8793da5ceeca732260b1d5dcd1ce1839f8597d7bd087010c"
+          },
+          {
+            "entryId": "rescue",
+            "lexicalBinding": "a0488827ad33db034b39bdb53b8ae0260f72facf1399c0260b06f3ca12b6dbf3",
+            "sourceImageSha256": "58f3ad14e164cd730385daf49a016b30a4ff32d0dd0c75cab721354d598f022a",
+            "cardSha256": "0d50796d72a3111d4f1b91319b4b83bd9602779d3534a416ee99405d10b55705",
+            "thumbnailSha256": "fbc75ec5e74001c80d8b1cdb96c4b00f5c2b407be389d6f39e73c8aa3da92d1c",
+            "authorPixelBinding": "9aafb3f372e463f04eeec261caf4e5fa41e91a0d8e41a673455c4b3abc88c8f3",
+            "secondPixelBinding": "386ce9c71e00da9072d1c2d6476dcffc7b3f1b2b48034c5fe78a80ed3dd61b77"
+          },
+          {
+            "entryId": "caution-tape",
+            "lexicalBinding": "fa7dff467b2497499a92fb601fad58c310e4c9b7adae2c6899c4e974ef3b47a2",
+            "sourceImageSha256": "9d7f9d103d7b4e11fb4bbdfaae722bd3d0b1c0aa84f53e966a079b3e94f59b70",
+            "cardSha256": "c44897dc2919eaa488b43557649ef20b4607dfd939510d614342155e20bf87f6",
+            "thumbnailSha256": "c6f80d7a263ac00c84f132869eb56bb8bd6814a02c893f4befe9bfb372295c65",
+            "authorPixelBinding": "7bee430b402269d49a9cc83a713cc7f3532572bed6f1847eae49030bb4da2840",
+            "secondPixelBinding": "e0a7633d5f06c09df0a6b79b3bc69e5877bbc7c57c33bb93a64060be31ec98b5"
+          },
+          {
+            "entryId": "safety-harness",
+            "lexicalBinding": "2b4fbdcbd4e4d8342e3600c3cfc5405713c9553d41f0b56339f0bbfabc69f4ea",
+            "sourceImageSha256": "b75d75cef7f3b77ad8c6593fbdab33172ac32fbcc5742cfe8dded2b9aa78f885",
+            "cardSha256": "bfed57cb327725f1e3f017fbfa2062dafa4e9bd9055ee53636cf62749233a59f",
+            "thumbnailSha256": "7e171b5e945658c2441aac071969ee02a9f170c56989e426ac2f712c12824aa5",
+            "authorPixelBinding": "340270d842f7006e9d87e4866bbdbce3a2439697bccd5eb10fff3b16b3f80dea",
+            "secondPixelBinding": "b9c52203d9702962b1dbe16b4b0584b5d4822f8df37d70e504ad64c76d3623dd"
+          },
+          {
+            "entryId": "safety-net",
+            "lexicalBinding": "f8a7c34b30df98c8da82de05f6901f73d58b352a2edd5ddc44c9c8dfd707d0b7",
+            "sourceImageSha256": "96256828c798a384f59ba14d9f7615c4a6d3de584cc9418a941567b1babc7951",
+            "cardSha256": "10f2e95197ef64957715302e4af0884cd515450eb8af993d7c1f2cdd5dd36502",
+            "thumbnailSha256": "2ee2426d605dee642ec4f1405d8df65982ce554977f6896aef872c1c27a0edbe",
+            "authorPixelBinding": "c101feb82962e57dfe31e48ccbcfd361e09759637b31d0b8a3cd62dea643e0b4",
+            "secondPixelBinding": "341e811d4cd2f2290ae26a5bb800349ff1eb5f4958462897cb885cae480b711c"
+          },
+          {
+            "entryId": "flashlight",
+            "lexicalBinding": "3083fafaadfb8b3d4fae052e4728313dfebfbfe6eca24ea16c6518fc10b0e6c2",
+            "sourceImageSha256": "4c67938d5901d36dbacf38f2226fabf182beec39fce0a2c74215df3b49958392",
+            "cardSha256": "0dd9fbed372f878bb8667f8f029ebb2d426942ad53d937cd73090fd327aaf8f7",
+            "thumbnailSha256": "a8e81297f08e4a53d15c8cf2c1264878878ed8b773373afaa06dca4c7cf06114",
+            "authorPixelBinding": "4cda738891507681a918086e94d3b2ba34160ba0797f47521e03eb614210fb60",
+            "secondPixelBinding": "90ce7c25662f1dd7e3d0244eca01fc7b6a98a9a16d8a80dc0d61b8a3e6a50454"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "safety-emergencies",
+          "visualLanguageId": "safety-emergencies",
+          "baselineCategoryWords": 6,
+          "targetCategoryWords": 30,
+          "entryIds": [
+            "smoke-alarm",
+            "fire-blanket",
+            "emergency-exit",
+            "fire-door",
+            "fire-escape",
+            "assembly-point",
+            "firefighter",
+            "fire-drill",
+            "siren",
+            "hydrant",
+            "barricade",
+            "traffic-cone",
+            "lifebuoy",
+            "life-jacket",
+            "seat-belt",
+            "helmet",
+            "safety-goggles",
+            "guardrail",
+            "lifeguard",
+            "rescue",
+            "caution-tape",
+            "safety-harness",
+            "safety-net",
+            "flashlight"
+          ],
+          "units": [
+            {
+              "id": "fire-and-evacuation",
+              "title": "Fire awareness, exits and warning equipment",
+              "entryIds": [
+                "smoke-alarm",
+                "fire-blanket",
+                "emergency-exit",
+                "fire-door",
+                "fire-escape",
+                "assembly-point",
+                "firefighter",
+                "fire-drill",
+                "siren",
+                "hydrant",
+                "barricade",
+                "traffic-cone"
+              ]
+            },
+            {
+              "id": "personal-protection",
+              "title": "Personal protection and rescue vocabulary",
+              "entryIds": [
+                "lifebuoy",
+                "life-jacket",
+                "seat-belt",
+                "helmet",
+                "safety-goggles",
+                "guardrail",
+                "lifeguard",
+                "rescue",
+                "caution-tape",
+                "safety-harness",
+                "safety-net",
+                "flashlight"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "24 distinct selected safety nouns toward the configured50-entry count milestone. One preliminary alias candidate was excluded before source/image production because a published entry already covers it; all existing lexical/sense identities and17manual asset holds remain untouched. Original safety vocabulary and illustrative scenes are editorial previews, not instructions, certification or professional qualification.",
+      "parentBatchId": "category-expansion-batch-67",
+      "completedAt": "2026-11-03T21:24:27.645Z",
+      "factualReferences": [
+        {
+          "entryId": "smoke-alarm",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika fire, evacuation and route-marker vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified safety/domain review pending. Primary references used only to check stable physical meanings; no dictionary wording, procedural advice, artwork, regulations, dimensions, certification marks or emergency guarantees copied."
+        },
+        {
+          "entryId": "smoke-alarm",
+          "sourceType": "primary-reference",
+          "title": "U.S. Fire Administration — Smoke Alarms",
+          "url": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/index.html",
+          "use": "Factual distinction between a smoke-detecting warning device and broader fire-alarm systems; no installation, maintenance schedule or response instructions reproduced."
+        },
+        {
+          "entryId": "fire-blanket",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika fire, evacuation and route-marker vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified safety/domain review pending. Primary references used only to check stable physical meanings; no dictionary wording, procedural advice, artwork, regulations, dimensions, certification marks or emergency guarantees copied."
+        },
+        {
+          "entryId": "fire-blanket",
+          "sourceType": "primary-reference",
+          "title": "Queensland Fire Department — Personal fire safety",
+          "url": "https://www.fire.qld.gov.au/safety-education/using-fire-indoors/personal",
+          "use": "Factual support for fire-resistant fabric used to smother small fires; original object vocabulary only, with no operational sequence, human wrapping, standards or performance claims."
+        },
+        {
+          "entryId": "emergency-exit",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika fire, evacuation and route-marker vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified safety/domain review pending. Primary references used only to check stable physical meanings; no dictionary wording, procedural advice, artwork, regulations, dimensions, certification marks or emergency guarantees copied."
+        },
+        {
+          "entryId": "emergency-exit",
+          "sourceType": "primary-reference",
+          "title": "OSHA — Emergency Action Plan: Minimum Requirements",
+          "url": "https://www.osha.gov/etools/evacuation-plans-procedures/eap/minimum-requirements",
+          "use": "Factual support for emergency escape routes and evacuation out of a facility; original selected doorway sense, without regulatory obligations, dimensions or response instructions."
+        },
+        {
+          "entryId": "fire-door",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika fire, evacuation and route-marker vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified safety/domain review pending. Primary references used only to check stable physical meanings; no dictionary wording, procedural advice, artwork, regulations, dimensions, certification marks or emergency guarantees copied."
+        },
+        {
+          "entryId": "fire-door",
+          "sourceType": "primary-reference",
+          "title": "London Fire Brigade — Fire doors",
+          "url": "https://www.london-fire.gov.uk/safety/the-home/fire-doors/",
+          "use": "Factual support for fire/smoke compartmentation and coherent closer/frame components; no claimed rating, certification, inspection checklist or repair advice."
+        },
+        {
+          "entryId": "fire-escape",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika fire, evacuation and route-marker vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified safety/domain review pending. Primary references used only to check stable physical meanings; no dictionary wording, procedural advice, artwork, regulations, dimensions, certification marks or emergency guarantees copied."
+        },
+        {
+          "entryId": "fire-escape",
+          "sourceType": "primary-reference",
+          "title": "OSHA — Design and construction requirements for exit routes",
+          "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.36",
+          "use": "Factual context for external exit routes and stairs; selected common outside-staircase sense authored originally, with no dimensions, compliance assertion or building-specific guidance."
+        },
+        {
+          "entryId": "assembly-point",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika fire, evacuation and route-marker vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified safety/domain review pending. Primary references used only to check stable physical meanings; no dictionary wording, procedural advice, artwork, regulations, dimensions, certification marks or emergency guarantees copied."
+        },
+        {
+          "entryId": "assembly-point",
+          "sourceType": "primary-reference",
+          "title": "OSHA — Emergency Action Plan: Minimum Requirements",
+          "url": "https://www.osha.gov/etools/evacuation-plans-procedures/eap/minimum-requirements",
+          "use": "Factual support for gathering and accounting for people in an assembly area following evacuation; no advice on selecting a real location or guarantees of safety."
+        },
+        {
+          "entryId": "firefighter",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika fire, evacuation and route-marker vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified safety/domain review pending. Primary references used only to check stable physical meanings; no dictionary wording, procedural advice, artwork, regulations, dimensions, certification marks or emergency guarantees copied."
+        },
+        {
+          "entryId": "firefighter",
+          "sourceType": "primary-reference",
+          "title": "U.S. Bureau of Labor Statistics — Firefighters",
+          "url": "https://www.bls.gov/ooh/Protective-Service/Firefighters.htm",
+          "use": "Factual support for firefighting, rescue and equipment demonstrations as occupational activities; no local licensing, training qualification, pay or employment claims."
+        },
+        {
+          "entryId": "fire-drill",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika fire, evacuation and route-marker vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified safety/domain review pending. Primary references used only to check stable physical meanings; no dictionary wording, procedural advice, artwork, regulations, dimensions, certification marks or emergency guarantees copied."
+        },
+        {
+          "entryId": "fire-drill",
+          "sourceType": "primary-reference",
+          "title": "OSHA — Develop and Implement an Emergency Action Plan",
+          "url": "https://www.osha.gov/etools/evacuation-plans-procedures/eap/develop-implement",
+          "use": "Factual context for practice drills and evacuation rehearsal; no required drill frequency, mandated procedure or safety guarantee."
+        },
+        {
+          "entryId": "siren",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika fire, evacuation and route-marker vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified safety/domain review pending. Primary references used only to check stable physical meanings; no dictionary wording, procedural advice, artwork, regulations, dimensions, certification marks or emergency guarantees copied."
+        },
+        {
+          "entryId": "siren",
+          "sourceType": "primary-reference",
+          "title": "OSHA — Emergency Action Plan: Minimum Requirements",
+          "url": "https://www.osha.gov/etools/evacuation-plans-procedures/eap/minimum-requirements",
+          "use": "Factual support for sirens as audible alarm devices, distinct from visual-only warnings; no technical sound-level or response instruction claims."
+        },
+        {
+          "entryId": "hydrant",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika fire, evacuation and route-marker vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified safety/domain review pending. Primary references used only to check stable physical meanings; no dictionary wording, procedural advice, artwork, regulations, dimensions, certification marks or emergency guarantees copied."
+        },
+        {
+          "entryId": "hydrant",
+          "sourceType": "primary-reference",
+          "title": "London Fire Brigade — Hydrant inspection",
+          "url": "https://www.london-fire.gov.uk/about-us/services-and-facilities/techniques-and-procedures/hydrant-inspection/",
+          "use": "Factual support for hydrants providing firefighters access to the water network. Above-ground column is an explicitly selected illustrative form; no local color, access-distance, operation or pressure claims."
+        },
+        {
+          "entryId": "barricade",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika fire, evacuation and route-marker vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified safety/domain review pending. Primary references used only to check stable physical meanings; no dictionary wording, procedural advice, artwork, regulations, dimensions, certification marks or emergency guarantees copied."
+        },
+        {
+          "entryId": "barricade",
+          "sourceType": "primary-reference",
+          "title": "Federal Highway Administration — Barricades and Channelizing Devices",
+          "url": "https://mutcd.fhwa.dot.gov/htm/2003r1r2/part3/part3f.htm",
+          "use": "Factual support for a barricade marking a closed route, distinguished from cone markers. Historical page used only for stable physical-object context; no current standard, dimension, placement instruction or compliance assertion."
+        },
+        {
+          "entryId": "traffic-cone",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika fire, evacuation and route-marker vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 common-language authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified safety/domain review pending. Primary references used only to check stable physical meanings; no dictionary wording, procedural advice, artwork, regulations, dimensions, certification marks or emergency guarantees copied."
+        },
+        {
+          "entryId": "traffic-cone",
+          "sourceType": "primary-reference",
+          "title": "Federal Highway Administration — Barricades and Channelizing Devices",
+          "url": "https://mutcd.fhwa.dot.gov/htm/2003r1r2/part3/part3f.htm",
+          "use": "Factual support for traffic cones as portable channelizing markers, distinct from rigid barricades. Historical reference only for stable meaning; no current standard, prescribed colors, dimensions or placement instructions."
+        },
+        {
+          "entryId": "lifebuoy",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika personal protection and rescue vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected common-language sense, editorial IPA/approximate CEFR, two meaningful examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified specialist review pending. Distinctions identify objects and roles without giving equipment-use or rescue procedures. No copied dictionary wording or artwork."
+        },
+        {
+          "entryId": "lifebuoy",
+          "url": "https://www.dco.uscg.mil/CG-ENG-4/PFD/",
+          "use": "Primary factual context for the selected object and relevant illustration distinctions. Original wording; no quoted or copied dictionary/artwork, code dimensions, certification, legal guarantee or procedural instruction. Access limitations and actual reference-reading evidence are retained privately."
+        },
+        {
+          "entryId": "life-jacket",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika personal protection and rescue vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected common-language sense, editorial IPA/approximate CEFR, two meaningful examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified specialist review pending. Distinctions identify objects and roles without giving equipment-use or rescue procedures. No copied dictionary wording or artwork."
+        },
+        {
+          "entryId": "life-jacket",
+          "url": "https://www.dco.uscg.mil/CG-ENG-4/PFD/",
+          "use": "Primary factual context for the selected object and relevant illustration distinctions. Original wording; no quoted or copied dictionary/artwork, code dimensions, certification, legal guarantee or procedural instruction. Access limitations and actual reference-reading evidence are retained privately."
+        },
+        {
+          "entryId": "seat-belt",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika personal protection and rescue vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected common-language sense, editorial IPA/approximate CEFR, two meaningful examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified specialist review pending. Distinctions identify objects and roles without giving equipment-use or rescue procedures. No copied dictionary wording or artwork."
+        },
+        {
+          "entryId": "seat-belt",
+          "url": "https://www.nhtsa.gov/vehicle-safety/seat-belts",
+          "use": "Primary factual context for the selected object and relevant illustration distinctions. Original wording; no quoted or copied dictionary/artwork, code dimensions, certification, legal guarantee or procedural instruction. Access limitations and actual reference-reading evidence are retained privately."
+        },
+        {
+          "entryId": "helmet",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika personal protection and rescue vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected common-language sense, editorial IPA/approximate CEFR, two meaningful examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified specialist review pending. Distinctions identify objects and roles without giving equipment-use or rescue procedures. No copied dictionary wording or artwork."
+        },
+        {
+          "entryId": "helmet",
+          "url": "https://www.osha.gov/personal-protective-equipment",
+          "use": "Primary factual context for the selected object and relevant illustration distinctions. Original wording; no quoted or copied dictionary/artwork, code dimensions, certification, legal guarantee or procedural instruction. Access limitations and actual reference-reading evidence are retained privately."
+        },
+        {
+          "entryId": "safety-goggles",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika personal protection and rescue vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected common-language sense, editorial IPA/approximate CEFR, two meaningful examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified specialist review pending. Distinctions identify objects and roles without giving equipment-use or rescue procedures. No copied dictionary wording or artwork."
+        },
+        {
+          "entryId": "safety-goggles",
+          "url": "https://www.osha.gov/personal-protective-equipment",
+          "use": "Primary factual context for the selected object and relevant illustration distinctions. Original wording; no quoted or copied dictionary/artwork, code dimensions, certification, legal guarantee or procedural instruction. Access limitations and actual reference-reading evidence are retained privately."
+        },
+        {
+          "entryId": "guardrail",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika personal protection and rescue vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected common-language sense, editorial IPA/approximate CEFR, two meaningful examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified specialist review pending. Distinctions identify objects and roles without giving equipment-use or rescue procedures. No copied dictionary wording or artwork."
+        },
+        {
+          "entryId": "guardrail",
+          "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.29",
+          "use": "Primary factual context for the selected object and relevant illustration distinctions. Original wording; no quoted or copied dictionary/artwork, code dimensions, certification, legal guarantee or procedural instruction. Access limitations and actual reference-reading evidence are retained privately."
+        },
+        {
+          "entryId": "lifeguard",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika personal protection and rescue vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected common-language sense, editorial IPA/approximate CEFR, two meaningful examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified specialist review pending. Distinctions identify objects and roles without giving equipment-use or rescue procedures. No copied dictionary wording or artwork."
+        },
+        {
+          "entryId": "rescue",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika personal protection and rescue vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected common-language sense, editorial IPA/approximate CEFR, two meaningful examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified specialist review pending. Distinctions identify objects and roles without giving equipment-use or rescue procedures. No copied dictionary wording or artwork."
+        },
+        {
+          "entryId": "caution-tape",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika personal protection and rescue vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected common-language sense, editorial IPA/approximate CEFR, two meaningful examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified specialist review pending. Distinctions identify objects and roles without giving equipment-use or rescue procedures. No copied dictionary wording or artwork."
+        },
+        {
+          "entryId": "safety-harness",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika personal protection and rescue vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected common-language sense, editorial IPA/approximate CEFR, two meaningful examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified specialist review pending. Distinctions identify objects and roles without giving equipment-use or rescue procedures. No copied dictionary wording or artwork."
+        },
+        {
+          "entryId": "safety-harness",
+          "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.140",
+          "use": "Primary factual context for the selected object and relevant illustration distinctions. Original wording; no quoted or copied dictionary/artwork, code dimensions, certification, legal guarantee or procedural instruction. Access limitations and actual reference-reading evidence are retained privately."
+        },
+        {
+          "entryId": "safety-net",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika personal protection and rescue vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected common-language sense, editorial IPA/approximate CEFR, two meaningful examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified specialist review pending. Distinctions identify objects and roles without giving equipment-use or rescue procedures. No copied dictionary wording or artwork."
+        },
+        {
+          "entryId": "safety-net",
+          "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.105",
+          "use": "Primary factual context for the selected object and relevant illustration distinctions. Original wording; no quoted or copied dictionary/artwork, code dimensions, certification, legal guarantee or procedural instruction. Access limitations and actual reference-reading evidence are retained privately."
+        },
+        {
+          "entryId": "flashlight",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika personal protection and rescue vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 selected common-language sense, editorial IPA/approximate CEFR, two meaningful examples and three collocations. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified specialist review pending. Distinctions identify objects and roles without giving equipment-use or rescue procedures. No copied dictionary wording or artwork."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,

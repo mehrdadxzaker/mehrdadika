@@ -15,7 +15,7 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "retail-ecommerce",
+  "currentCategoryId": "safety-emergencies",
   "nextCategoryId": "safety-emergencies",
   "categoryOrder": [
     "cooking-food-drink",
@@ -7242,9 +7242,87 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "safety-emergencies",
+      "visualLanguageId": "safety-emergencies",
+      "baselineCategoryWords": 6,
+      "targetCategoryWords": 30,
+      "entryIds": [
+        "smoke-alarm",
+        "fire-blanket",
+        "emergency-exit",
+        "fire-door",
+        "fire-escape",
+        "assembly-point",
+        "firefighter",
+        "fire-drill",
+        "siren",
+        "hydrant",
+        "barricade",
+        "traffic-cone",
+        "lifebuoy",
+        "life-jacket",
+        "seat-belt",
+        "helmet",
+        "safety-goggles",
+        "guardrail",
+        "lifeguard",
+        "rescue",
+        "caution-tape",
+        "safety-harness",
+        "safety-net",
+        "flashlight"
+      ],
+      "units": [
+        {
+          "id": "fire-and-evacuation",
+          "title": "Fire awareness, exits and warning equipment",
+          "entryIds": [
+            "smoke-alarm",
+            "fire-blanket",
+            "emergency-exit",
+            "fire-door",
+            "fire-escape",
+            "assembly-point",
+            "firefighter",
+            "fire-drill",
+            "siren",
+            "hydrant",
+            "barricade",
+            "traffic-cone"
+          ]
+        },
+        {
+          "id": "personal-protection",
+          "title": "Personal protection and rescue vocabulary",
+          "entryIds": [
+            "lifebuoy",
+            "life-jacket",
+            "seat-belt",
+            "helmet",
+            "safety-goggles",
+            "guardrail",
+            "lifeguard",
+            "rescue",
+            "caution-tape",
+            "safety-harness",
+            "safety-net",
+            "flashlight"
+          ]
+        }
+      ],
+      "id": "safety-emergencies-category-expansion-batch-67-ready-1",
+      "releaseId": "2026-10-preview-74",
+      "status": "published-preview",
+      "objective": "Learn Fire awareness, exits and warning equipment; Personal protection and rescue vocabulary in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-66-ready-1",
+  "activePassId": "category-expansion-batch-67-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",
