@@ -16,7 +16,7 @@
     }
   ],
   "currentCategoryId": "economics-finance",
-  "nextCategoryId": "economics-finance",
+  "nextCategoryId": "languages-communication",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -6882,9 +6882,85 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "economics-finance",
+      "visualLanguageId": "economics-finance",
+      "baselineCategoryWords": 27,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "salary",
+        "wage",
+        "pension",
+        "allowance",
+        "fee",
+        "bill",
+        "balance",
+        "currency",
+        "exchange-rate",
+        "inflation",
+        "interest-rate",
+        "principal",
+        "instalment",
+        "mortgage",
+        "insurance",
+        "premium",
+        "asset",
+        "liability",
+        "investment",
+        "dividend",
+        "bond",
+        "revenue",
+        "cash-flow"
+      ],
+      "units": [
+        {
+          "id": "money-and-payments",
+          "title": "Pay, financial amounts and money systems",
+          "entryIds": [
+            "salary",
+            "wage",
+            "pension",
+            "allowance",
+            "fee",
+            "bill",
+            "balance",
+            "currency",
+            "exchange-rate",
+            "inflation",
+            "interest-rate",
+            "principal"
+          ]
+        },
+        {
+          "id": "finance-instruments",
+          "title": "Financial agreements, resources and flows",
+          "entryIds": [
+            "instalment",
+            "mortgage",
+            "insurance",
+            "premium",
+            "asset",
+            "liability",
+            "investment",
+            "dividend",
+            "bond",
+            "revenue",
+            "cash-flow"
+          ]
+        }
+      ],
+      "id": "economics-finance-category-expansion-batch-62-ready-1",
+      "releaseId": "2026-10-preview-69",
+      "status": "published-preview",
+      "objective": "Learn Pay, financial amounts and money systems; Financial agreements, resources and flows in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-61-ready-1",
+  "activePassId": "category-expansion-batch-62-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",

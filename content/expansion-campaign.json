@@ -16902,6 +16902,591 @@
           "use": "Original selected common financial sense and complete EN/FA/PT-BR/es-419 learner text. Editorial IPA and approximate CEFR, not an externally certified level. All toy amounts are fictional and arithmetic checked. AI-assisted CC BY 4.0 preview; independent human language and finance review pending. No dictionary wording or artwork copied."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-62-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-69",
+      "sourceFiles": [
+        "money-and-payments.json",
+        "finance-instruments.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-68",
+        "manifest": "content/releases/2026-10-preview-68-b98004080b1e/manifest.json",
+        "manifestSha256": "b98004080b1e08333879e0b71913bf4d100759ee4e923fb522e48cfb02b27dd0",
+        "words": 1571
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "salary",
+            "lexicalBinding": "1b0cc6d7da3eb4fa1166001fb41672d779b0d047687eca7862435ba837acf873",
+            "sourceImageSha256": "af6900af7f53f4ad6833d75889cd1a43afb68387bee5d14a780e4d695a1176a3",
+            "cardSha256": "1e31d48d3b72a8d00641cd7bf50c40694ef1fd68aeda9458013366e0253b33bf",
+            "thumbnailSha256": "24248cc7fd2a5238b296b13884a696011cef8aeed17d2aedca042ba3e84f1fa1",
+            "authorPixelBinding": "18d4a260b24abe5b1000211526ff4faad949b087faffcbf86d9e09a294a15653",
+            "secondPixelBinding": "83a87545c65ebf110d37462e0367783dca0817979067d80f063eea4282142cf7"
+          },
+          {
+            "entryId": "wage",
+            "lexicalBinding": "875204a8168700c5dbab4a113098e0bcbb649958cd4fa35d2488bad28387a98a",
+            "sourceImageSha256": "f408b86ca0f21a818ad6880d95e347bac30c2de8e5490dd48e0c4fc5c06e7245",
+            "cardSha256": "8786bda0cc6344d51eedf4a1fcef1591127cf5660efab34a6f9a82055270a9e1",
+            "thumbnailSha256": "d247f7dde09566cbd9e0b5a3eecb879735c6fed6dc317f6f61f7a7db375bb28d",
+            "authorPixelBinding": "c68a62a373323cc7422b7b2b34d02529223d8b1eba1f444bf6490de838aca92f",
+            "secondPixelBinding": "afab0af7b27271eb33d8e4fe7f53f255167d0f66c4d9c39c15b5f9c16e50fa9f"
+          },
+          {
+            "entryId": "pension",
+            "lexicalBinding": "b6465ed3d525e93327c8ed483eb8aaa6c7b8e5b535092d0f4f19be0533ca3e84",
+            "sourceImageSha256": "b4eb12fb368b413a6eff9662bffabfbbc2292f6c7ceb004d887a2290982b5630",
+            "cardSha256": "e9a896e9e9dc50d7694183df680c59f10f100da512aa31b8fbc9d517984354d0",
+            "thumbnailSha256": "72ef6b0d8fb59eaf59cf52d2d68333735a61604e55f51d2e002ef81c0e3a7641",
+            "authorPixelBinding": "25d1b8430d5ddb3602eee454a88d389d3daccc3d22931b48dc212dbf8a08682d",
+            "secondPixelBinding": "4943d460b32e72ac51f432eb2a5427703d5b5d18a59abd387d31b0643745573a"
+          },
+          {
+            "entryId": "allowance",
+            "lexicalBinding": "8e9cfbc61285d148762fe67b3486faa6c93eaa9aa322afccc8b74d1a0b0aa22d",
+            "sourceImageSha256": "2ba35f8bdb96102b5df4f64a977f72be71dfeee7ef7cd578a2ae2e6c4ff4eddb",
+            "cardSha256": "fb8702abe16ddc47e4e7a7a0522b686d9c197b857c90fab06df79a55c44979b2",
+            "thumbnailSha256": "6a6ba9923bd455037efc0607553b4e80df8342a6d0a058e46bcf03a73e070448",
+            "authorPixelBinding": "0d02e0e52f9caac5642f25b643e914f51838778c63d8e910de51f64172b0f423",
+            "secondPixelBinding": "3aa7647714df843de6a737a8095f802e8b04fea319e2d0d21559e9a8205997ee"
+          },
+          {
+            "entryId": "fee",
+            "lexicalBinding": "f47ffbe92268fb9784665114beef78c6e2802adbe1daeba5c2d4f23ec81649d3",
+            "sourceImageSha256": "59218099282c798d9d31bb2d27e764d84e3935c651a214478abe5713d772e4f9",
+            "cardSha256": "02d444776eada83949c37d5254ea4a8bdbdded49f4523ebc7a3fdc7a5f2b8b8e",
+            "thumbnailSha256": "57958e5924f5fd048062e1e5d612a1a1099aa478f4f9b47a0fe7ddfa5114ec49",
+            "authorPixelBinding": "9d4ad2c6c52a7378bef0a368076a86509aadf008f6c134ab5c79e95795dea0d2",
+            "secondPixelBinding": "aa463559608d766b5cf1f8b5b5dda869ed2f00758f87e1186eca8202b5b3e80a"
+          },
+          {
+            "entryId": "bill",
+            "lexicalBinding": "b0ad5b3040a61595916660660cc9f35e375cdbaf4cfcea35a7ad0fda5353204d",
+            "sourceImageSha256": "68ccbfb037972991642805eb32e47728fe84ab5be556f243e3c7553e0f6e83ab",
+            "cardSha256": "ca63291c4b3b0df0011d54fdb8816761974f78977782d705652d44c1d05f8185",
+            "thumbnailSha256": "5b591032c710e89eca9e158cf9358fa490a9a8ba282237129af9008aec9420f2",
+            "authorPixelBinding": "fd5b19207bd13aced74058aaae3fa462dae868fb6468ee8df97920067ef3d101",
+            "secondPixelBinding": "0d55e47ec88630834e60d157d8138d10b5537b2e9710695bae3a43314f8ed898"
+          },
+          {
+            "entryId": "balance",
+            "lexicalBinding": "aa6004f0c406dbfbd86c621a7eb62588f6123b5f48bad988fb549a44d833f2a0",
+            "sourceImageSha256": "1fe75169fa19c8738984be6cd8690a7999cf5709a339e63ae1db04ac0b44f11c",
+            "cardSha256": "5fea776450fb37b10e46ae486cddc779275a11a2bbb87fe67d0e88d86f1e7593",
+            "thumbnailSha256": "304d2a7accecc32251b7f7b6e9ebc92d51ddfc9c8c610380c26c5ee5b8955de6",
+            "authorPixelBinding": "bd3321aceb84e8a01dae245193f09722f126482af673126cf2c40979ef1e8440",
+            "secondPixelBinding": "e745616e123eb10b37561d7a1d7d00a3fa0805845ad81f0db54d20ac867b40a6"
+          },
+          {
+            "entryId": "currency",
+            "lexicalBinding": "5adbd44c116a326f48ba9fb0a880bfaeec4d7280adebe23afb1823fe1c050ee7",
+            "sourceImageSha256": "e5ef7d9c0b5bb54a400c4cea579a50325f6443e1db0c5effebe62b929231bde1",
+            "cardSha256": "72dcc6fb04775d2eda190f31ff83d4b902d2e5beae51d7f9b28dcb1fb479d5f1",
+            "thumbnailSha256": "e4bb73feac7e1330d6aa534623038c9c1071101695c84dcecda496584befd903",
+            "authorPixelBinding": "dc082a92f99b8ced5ba26d6cbeeb012328c522f45726dc8b0144a573634380f5",
+            "secondPixelBinding": "2506c558de59e5d60699cd6cbe46fcd7ecc42a0e433193d27888ecdffcc13340"
+          },
+          {
+            "entryId": "exchange-rate",
+            "lexicalBinding": "1991c47dae86d6c280f6bd646173e908520536a50e1388a2ce6b67ea9c926056",
+            "sourceImageSha256": "128cbb3b2f440c3029634c2a25683fb894041c0c007faa49372c3256eaa5f6c3",
+            "cardSha256": "da1499f4748a7b1b80252b9a1074635b6d780ee939c04ee0195ea69cb477eb46",
+            "thumbnailSha256": "163811494a39e7323ace8ca8e73e51cf5b8780e1cbaac22a0a5d798af16829a6",
+            "authorPixelBinding": "d740d4123c1d4e76fb1bb8b0f051777588f811057dbff5dfc556af5778b7ad15",
+            "secondPixelBinding": "9e87b1a63e4183f49f4826eaf4a0c7991a6dd39f177b42bb17ba707e6746e4f8"
+          },
+          {
+            "entryId": "inflation",
+            "lexicalBinding": "912e94258720701b58965bc735c6f133220cfa651dee500f51054d7e785f6bf9",
+            "sourceImageSha256": "b00a947d044088a6e3682582b43aa34c2dd9afd08abd167f30c62a4631d6e3cf",
+            "cardSha256": "a7b36a85bdfe17ebbedb64b8353e1eecae9475e39cdd661c0fab17b861e11f4e",
+            "thumbnailSha256": "15efcfda7bd1ef851974c3702c6e86513a74ff22eb2280174f38a7a350d38313",
+            "authorPixelBinding": "0a1b4d125aa8448cebd970e4b4876831033577083e597527694a08b496bcfe80",
+            "secondPixelBinding": "e80abe2c77f414fde2c71a76a5cf1c8ae7ba637e2eb406a09fff97de41f17c2d"
+          },
+          {
+            "entryId": "interest-rate",
+            "lexicalBinding": "1791f426c2ac6c72677b21f2c9d6a6057dc8b3f36a22436764569c539826c99b",
+            "sourceImageSha256": "0da8daea8dd092e30b0963a805d253a326311c63665866dc05a238dcd140ec23",
+            "cardSha256": "4bd9086f18297d8b6da49eb2f6e29f2068310f243112fc5b271640ffbd2438b1",
+            "thumbnailSha256": "75a8ac425326ea079a95baa9c3ab55ac99e4f2913efa23330be143b9494e8acc",
+            "authorPixelBinding": "3526036cdca0313a027b944b9dbed95c59cc4db21362bb5742151abf92c65e76",
+            "secondPixelBinding": "4b9dd030169d03d9190a3d2493b1a8654d365697f37cdde41d26dab975666652"
+          },
+          {
+            "entryId": "principal",
+            "lexicalBinding": "0008f8d9bd5c75e18b8992dba4ea1195afc63fc17eab8866262e8afd9e097661",
+            "sourceImageSha256": "0217b605332f6758d39fa2f88cc0a4c5f9a948fe62df8c50274a59318e7443db",
+            "cardSha256": "421243cd6613647bfbd507bdb684fd0b39f4f3ddd06c141b0156efc98c100d26",
+            "thumbnailSha256": "6f5be7b02c8180d96bbefd87722a533552965d95341ff1a75d9b97d732a63642",
+            "authorPixelBinding": "cb050b79991b83f5b1335710bc7fa711d6f7476bbfee643fd5647f2bacfb0119",
+            "secondPixelBinding": "7b8da38869327e61c0773926867e4d426ef5e24988a9b9a5ca2ac4d764fee0ae"
+          },
+          {
+            "entryId": "instalment",
+            "lexicalBinding": "647a9375556c632bf163517b3bba96c393ecaeca6cfd754e35dcbfaa8f8ed15d",
+            "sourceImageSha256": "2404c84f6c9619da554ccd9e894eaadf9d6171c0a18a9cedacd648e1e74701a6",
+            "cardSha256": "c15601a9bc8bf4ce1d4f6aedac02273435e17d3ef0df14c94792797caa4b8ac6",
+            "thumbnailSha256": "c3082f2d20614e89b58c2408ea05a0e1cb03b221f3791925e24fdbd6f37a6cdc",
+            "authorPixelBinding": "c8602791f43e0e19a8e722860618f5e2f10d15fb023b65e7d09df9f7036911a1",
+            "secondPixelBinding": "649a20e8a7dcfdbbcfa12f847d91d03201e2671adc13b8d3a0dfb2087e2910b8"
+          },
+          {
+            "entryId": "mortgage",
+            "lexicalBinding": "723cf257c286c636dfb0089d042ce452e6544e70aec71aa6fbb750194e56183b",
+            "sourceImageSha256": "b27235f47b229302da335143dc520cda9ff3d7d27266935bd5b58c4e31715cea",
+            "cardSha256": "4cf9453be00c36b8c72e9f6870c45a4a2978ad3ed05f2ed5233695d5acbb535d",
+            "thumbnailSha256": "44f7ceca7b0a9ff25ca6b825bde54c2a24291cc6195790b3f068ea29beaa8c72",
+            "authorPixelBinding": "b081d38a6ee5407761e9e0632afc835e73e29a4907f98ecc7f83b2b029eb4fd3",
+            "secondPixelBinding": "3054908b33d56b6a0c776d75ef2beff5adc8f3bd52b7b568007c8edb9f4b584e"
+          },
+          {
+            "entryId": "insurance",
+            "lexicalBinding": "fce35e5c38e5bd845aa3a33beaa304030b36d4e0ee0496c246cf72d5f376ad94",
+            "sourceImageSha256": "612850829aa6c406217c38d101a0ba8c513ecde0c07c117262551380a264c02e",
+            "cardSha256": "77f8caef6adaa87c3ace3b06ac71bd1dedca1acc1ce07b05f144a892d97819ae",
+            "thumbnailSha256": "0931f99c83e8cce56cdad45cc936c21a2d89c7632f95ffb01264886601f20049",
+            "authorPixelBinding": "15da2135ff07816b4f17df8476f8296a2cd583c3ea92f75efed15823b7edd904",
+            "secondPixelBinding": "a7f10aca4d8e25efe07771a5ee5a489e836940ce25f8f9bd9648ef4d1e5723fb"
+          },
+          {
+            "entryId": "premium",
+            "lexicalBinding": "f30c9be8f4649ef2a16acbb0b63f25055a7c4da9c20feeeca60a123e77a1df37",
+            "sourceImageSha256": "28e2ba534776e5d264b1622028333b99bed3319d0fdd14bdeb47ee9a61e21fd6",
+            "cardSha256": "ee4ec9563a8d28c3af8b1879c749843978bf8003382fe3c0633ec925ee78828d",
+            "thumbnailSha256": "fd2dc9198d4339cbdfd3b10aa50e6e8637520f95e0824077789706872df6f293",
+            "authorPixelBinding": "9c4b7e66882b1b12af4aed39b6dcd9df5f2bd70530089aee453ef49b7cd11fb1",
+            "secondPixelBinding": "0146e5bc2f460adda8e30f8285f6ca3527d698068ae6c1bf13c85119046aae88"
+          },
+          {
+            "entryId": "asset",
+            "lexicalBinding": "d2bb60e06901e9ea59bbea991a0f9630286175fcbd86db994c19298467ed0a4c",
+            "sourceImageSha256": "07137902666646c669f031ccee39e0f781bede01b1fb8dc59f80e2f1cc332f41",
+            "cardSha256": "1f57bdf8876886e68d781a9e8023a18c68cefd27a14d92252d1fcbac47a65eb8",
+            "thumbnailSha256": "bb15fedbb8259ddd88f9445af027a3c091f3e70ff6eb15321f7c8797a2a3387f",
+            "authorPixelBinding": "01cdec4e5f84260d88859fa12963a715b92310c463cfdbd02591b6c7d536b142",
+            "secondPixelBinding": "b45583fbaf6502caa753e943ce7d72f1a2e762f254ce1174f756c5c182bc82c6"
+          },
+          {
+            "entryId": "liability",
+            "lexicalBinding": "89b58dc87fbc4ee0a1713f2364869c38e5be2d34a0acbd10922c2adf37b02f6c",
+            "sourceImageSha256": "99c842cac0a0aa26413422b826828e61674e1c2f5892f9f446e4e314ce2eb7bb",
+            "cardSha256": "23b84e04851df1e42f4feedc4795c54976bccac87f7463973a2bdf54655d9429",
+            "thumbnailSha256": "29aef6e067aa92b5b4e3ad94046a0fc76f57ab9ba92cd40a6733a0009417a7a9",
+            "authorPixelBinding": "a2c9dfead712c1950774f793e2f8266f57bcfb084da8ea30bf33dc8a12eff959",
+            "secondPixelBinding": "cf3e962de1ef17b790b0d18cea21baea93d7e307b054ffd6bd7165cdf786ce39"
+          },
+          {
+            "entryId": "investment",
+            "lexicalBinding": "31f1068c4e14f55696ad463cc337ea3615e2df9e39738ef4fab1ae68aed070c7",
+            "sourceImageSha256": "124e818f871dff9696692605ebdc3e4e970ebaa438fc6e6fffdc681ae490be4d",
+            "cardSha256": "b66e598301daf7e98423c50aba8c21fccd113ffd8440a10bd4aabad067317719",
+            "thumbnailSha256": "f1a9f8a4ea85d50e90ec5ce5121bee2936d9e459f1b8912d307b49808d507f97",
+            "authorPixelBinding": "28472bb3b3478b8e80032d3c3e2faf793e9ad8a4174b771b533d9e91a028c1e1",
+            "secondPixelBinding": "1df0c97543e85b62f475757722bcd448372c037357dafefdc899e5895867317f"
+          },
+          {
+            "entryId": "dividend",
+            "lexicalBinding": "c78ffc56c945e65a1c451a83bae8b5d7e9723dae1e25addcff5b019e09a7dc28",
+            "sourceImageSha256": "39e158b41041920706a31ff7edb6d04a17645b44e90680802c406dc5c4b398f0",
+            "cardSha256": "9821e01cfc83d66802bbd17a693678b29e9f5d31661d76a4827f1ad401747671",
+            "thumbnailSha256": "02a1c125f85dc169728ecd116a00790667787df21fea2586388c5c1ad7d08ea3",
+            "authorPixelBinding": "cfe1104b0093fe629d6c2224d1a6eda28bc504f206e28f42bea1a0a7988f3f30",
+            "secondPixelBinding": "a50a939c5f571cd197dc59a85c525508056d6a9fb4e93c5086f2dba982ca90b2"
+          },
+          {
+            "entryId": "bond",
+            "lexicalBinding": "7884b73fdbe7c94ee639ebb9c7ccaef80da2f7c03e21277313e89b433791f0f1",
+            "sourceImageSha256": "3df5fa0dd1e54e43c08f1de1c34b5f5651ec4cfb07b60a6d668984e976167f8d",
+            "cardSha256": "5fb033056f2383da913fd9adb3f10c11475359fa9d45ce24b1b09c36f6b8a57c",
+            "thumbnailSha256": "d4593e68d9357445f678b6ef2fcc9f037a3699308f44a5b19f3750642589ef7f",
+            "authorPixelBinding": "2e93259544b0f92284f22cff941bac5e884967bc82bf25c370daeae8b78b7c2c",
+            "secondPixelBinding": "bf70d46e0a6ba68ac11bdf563962218e6a62291f15176cc96e864c7a07876f99"
+          },
+          {
+            "entryId": "revenue",
+            "lexicalBinding": "21acf78e9bf236563235164374d0b8762b4a5567e3e532c8896fea668651a646",
+            "sourceImageSha256": "2bb9521991ea72597fb49786d908668b3d4c34b2ee3ba4017e3e1016020e9967",
+            "cardSha256": "53da51796b6ebed4234d3f555599b0b49931c731e097610ef7264905c2092483",
+            "thumbnailSha256": "c334788f03b9a9dcd6839d88e4ac81f0b6b956fe6b75e998fd3625ad0f27952a",
+            "authorPixelBinding": "8442d12e4b4788fbfea750b9379ed865f164d11a67afdc695f87f83440258cac",
+            "secondPixelBinding": "360d5abca033c35a8a1148bba83b19611992b6d2a94172f56694c51e930d8ba1"
+          },
+          {
+            "entryId": "cash-flow",
+            "lexicalBinding": "e03e81e83692c6e5f9e6ed67f1c5bfe473e22c726f0ada63dfeb87a4bad12470",
+            "sourceImageSha256": "953ac23509bc104cd314467b1a199b2fa706e067a7be31621e0cb804cadcc1b2",
+            "cardSha256": "13d7323f8a683bd448b31a779132ab409d8a29da23d384e248ecaac16ba04a52",
+            "thumbnailSha256": "3d15d7af596fb887e154536206fc70f35eebe243b125ba86524dc79d866e4250",
+            "authorPixelBinding": "283ce6327bf28d078d3990fc280d82fca441975cf4c423ab093ff3ed63e7f18d",
+            "secondPixelBinding": "076cec88480c1770fc90c62f34fcfaee8754d5ead1059568f31f24a5bcae91b1"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "economics-finance",
+          "visualLanguageId": "economics-finance",
+          "baselineCategoryWords": 27,
+          "targetCategoryWords": 50,
+          "entryIds": [
+            "salary",
+            "wage",
+            "pension",
+            "allowance",
+            "fee",
+            "bill",
+            "balance",
+            "currency",
+            "exchange-rate",
+            "inflation",
+            "interest-rate",
+            "principal",
+            "instalment",
+            "mortgage",
+            "insurance",
+            "premium",
+            "asset",
+            "liability",
+            "investment",
+            "dividend",
+            "bond",
+            "revenue",
+            "cash-flow"
+          ],
+          "units": [
+            {
+              "id": "money-and-payments",
+              "title": "Pay, financial amounts and money systems",
+              "entryIds": [
+                "salary",
+                "wage",
+                "pension",
+                "allowance",
+                "fee",
+                "bill",
+                "balance",
+                "currency",
+                "exchange-rate",
+                "inflation",
+                "interest-rate",
+                "principal"
+              ]
+            },
+            {
+              "id": "finance-instruments",
+              "title": "Financial agreements, resources and flows",
+              "entryIds": [
+                "instalment",
+                "mortgage",
+                "insurance",
+                "premium",
+                "asset",
+                "liability",
+                "investment",
+                "dividend",
+                "bond",
+                "revenue",
+                "cash-flow"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "23 established globally and all inspected private-source/queue absent English heads toward the configured economics-finance50 milestone. Prior61 full11365pins and finalpeer verified before selection. No existinghold retries, no parent63. Complete real three-size author/distinct-second and full-native text gates remain required. Reuse appropriate actually inspected finance paper/passbook layouts only with fresh derivatives and inspections.",
+      "parentBatchId": "category-expansion-batch-62",
+      "completedAt": "2026-11-03T00:26:50.615Z",
+      "factualReferences": [
+        {
+          "entryId": "salary",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika money, pay and financial records vocabulary contribution",
+          "use": "Original selected common sense and complete EN/FA/PT-BR/es-419 learner content, approximate editorial CEFR and IPA, fictional checked arithmetic. AI-assisted CC BY 4.0 preview; human language and qualified finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "salary",
+          "sourceType": "primary-factual-reference",
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/youth-financial-education/glossary/",
+          "title": "Consumer Financial Protection Bureau — Financial terms glossary",
+          "use": "Primary concept check only for salary as fixed-period pay, service fees, borrowing interest as a percentage, and borrowed principal distinct from interest. All learner definitions, examples and translations are independently authored; no glossary wording copied and no current product rate or jurisdiction rule asserted.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "wage",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika money, pay and financial records vocabulary contribution",
+          "use": "Original selected common sense and complete EN/FA/PT-BR/es-419 learner content, approximate editorial CEFR and IPA, fictional checked arithmetic. AI-assisted CC BY 4.0 preview; human language and qualified finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "pension",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika money, pay and financial records vocabulary contribution",
+          "use": "Original selected common sense and complete EN/FA/PT-BR/es-419 learner content, approximate editorial CEFR and IPA, fictional checked arithmetic. AI-assisted CC BY 4.0 preview; human language and qualified finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "pension",
+          "sourceType": "primary-factual-reference",
+          "url": "https://www.pbgc.gov/workers-retirees/new/understanding-pensions",
+          "title": "Pension Benefit Guaranty Corporation — Understanding pensions",
+          "use": "Primary check only for the common retirement-income sense of pension and regular payments after retirement. No US-specific eligibility, vesting, amount, payment duration, guarantee or legal rule adopted.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "allowance",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika money, pay and financial records vocabulary contribution",
+          "use": "Original selected common sense and complete EN/FA/PT-BR/es-419 learner content, approximate editorial CEFR and IPA, fictional checked arithmetic. AI-assisted CC BY 4.0 preview; human language and qualified finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "fee",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika money, pay and financial records vocabulary contribution",
+          "use": "Original selected common sense and complete EN/FA/PT-BR/es-419 learner content, approximate editorial CEFR and IPA, fictional checked arithmetic. AI-assisted CC BY 4.0 preview; human language and qualified finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "fee",
+          "sourceType": "primary-factual-reference",
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/youth-financial-education/glossary/",
+          "title": "Consumer Financial Protection Bureau — Financial terms glossary",
+          "use": "Primary concept check only for salary as fixed-period pay, service fees, borrowing interest as a percentage, and borrowed principal distinct from interest. All learner definitions, examples and translations are independently authored; no glossary wording copied and no current product rate or jurisdiction rule asserted.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "bill",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika money, pay and financial records vocabulary contribution",
+          "use": "Original selected common sense and complete EN/FA/PT-BR/es-419 learner content, approximate editorial CEFR and IPA, fictional checked arithmetic. AI-assisted CC BY 4.0 preview; human language and qualified finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "balance",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika money, pay and financial records vocabulary contribution",
+          "use": "Original selected common sense and complete EN/FA/PT-BR/es-419 learner content, approximate editorial CEFR and IPA, fictional checked arithmetic. AI-assisted CC BY 4.0 preview; human language and qualified finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "currency",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika money, pay and financial records vocabulary contribution",
+          "use": "Original selected common sense and complete EN/FA/PT-BR/es-419 learner content, approximate editorial CEFR and IPA, fictional checked arithmetic. AI-assisted CC BY 4.0 preview; human language and qualified finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "currency",
+          "sourceType": "primary-factual-reference",
+          "url": "https://www.bankofengland.co.uk/explainers/who-sets-exchange-rates",
+          "title": "Bank of England — Who sets exchange rates?",
+          "use": "Primary concept check for currencies as distinct money systems and an exchange rate expressing one currency in another. Original A/B fictional units and conversion arithmetic; no live quotation, actual currency design, fees, trading advice or policy rule.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "exchange-rate",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika money, pay and financial records vocabulary contribution",
+          "use": "Original selected common sense and complete EN/FA/PT-BR/es-419 learner content, approximate editorial CEFR and IPA, fictional checked arithmetic. AI-assisted CC BY 4.0 preview; human language and qualified finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "exchange-rate",
+          "sourceType": "primary-factual-reference",
+          "url": "https://www.bankofengland.co.uk/explainers/who-sets-exchange-rates",
+          "title": "Bank of England — Who sets exchange rates?",
+          "use": "Primary concept check for currencies as distinct money systems and an exchange rate expressing one currency in another. Original A/B fictional units and conversion arithmetic; no live quotation, actual currency design, fees, trading advice or policy rule.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "inflation",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika money, pay and financial records vocabulary contribution",
+          "use": "Original selected common sense and complete EN/FA/PT-BR/es-419 learner content, approximate editorial CEFR and IPA, fictional checked arithmetic. AI-assisted CC BY 4.0 preview; human language and qualified finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "inflation",
+          "sourceType": "primary-factual-reference",
+          "url": "https://www.bankofengland.co.uk/explainers/what-is-inflation",
+          "title": "Bank of England — What is inflation?",
+          "use": "Primary concept check that inflation concerns an overall price level tracked using a basket over time, rather than one product alone, and that slower inflation can still mean rising prices. Only original fictional basket comparison used; no current inflation figure, policy claim or copied artwork.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "interest-rate",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika money, pay and financial records vocabulary contribution",
+          "use": "Original selected common sense and complete EN/FA/PT-BR/es-419 learner content, approximate editorial CEFR and IPA, fictional checked arithmetic. AI-assisted CC BY 4.0 preview; human language and qualified finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "interest-rate",
+          "sourceType": "primary-factual-reference",
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/youth-financial-education/glossary/",
+          "title": "Consumer Financial Protection Bureau — Financial terms glossary",
+          "use": "Primary concept check only for salary as fixed-period pay, service fees, borrowing interest as a percentage, and borrowed principal distinct from interest. All learner definitions, examples and translations are independently authored; no glossary wording copied and no current product rate or jurisdiction rule asserted.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "principal",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika money, pay and financial records vocabulary contribution",
+          "use": "Original selected common sense and complete EN/FA/PT-BR/es-419 learner content, approximate editorial CEFR and IPA, fictional checked arithmetic. AI-assisted CC BY 4.0 preview; human language and qualified finance review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "principal",
+          "sourceType": "primary-factual-reference",
+          "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/youth-financial-education/glossary/",
+          "title": "Consumer Financial Protection Bureau — Financial terms glossary",
+          "use": "Primary concept check only for salary as fixed-period pay, service fees, borrowing interest as a percentage, and borrowed principal distinct from interest. All learner definitions, examples and translations are independently authored; no glossary wording copied and no current product rate or jurisdiction rule asserted.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "entryId": "instalment",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika financial instruments and money-flow vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and fictional examples. AI-assisted CC BY 4.0 preview; independent human language and specialist review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "instalment",
+          "sourceType": "primary-factual-reference",
+          "title": "U.S. Treasury — Glossary",
+          "url": "https://fiscal.treasury.gov/system/files/2026-03/glossary.pdf",
+          "use": "Checked only repayment in multiple payments at intervals; no program-specific terms or copied dictionary wording. Checked 2026-11-02."
+        },
+        {
+          "entryId": "mortgage",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika financial instruments and money-flow vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and fictional examples. AI-assisted CC BY 4.0 preview; independent human language and specialist review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "mortgage",
+          "sourceType": "primary-factual-reference",
+          "title": "Consumer Financial Protection Bureau — What is a mortgage?",
+          "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-mortgage-en-99/",
+          "use": "Checked property-secured borrowing and common home-purchase use only; original neutral examples, no affordability advice or jurisdictional procedure. Checked 2026-11-02."
+        },
+        {
+          "entryId": "insurance",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika financial instruments and money-flow vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and fictional examples. AI-assisted CC BY 4.0 preview; independent human language and specialist review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "insurance",
+          "sourceType": "primary-factual-reference",
+          "title": "NAIC — How Does Insurance Work?",
+          "url": "https://content.naic.org/consumer/how-does-insurance-work",
+          "use": "Checked policy, covered risks, premiums and terms only; no claim of universal coverage or settlement certainty. Checked 2026-11-02."
+        },
+        {
+          "entryId": "premium",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika financial instruments and money-flow vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and fictional examples. AI-assisted CC BY 4.0 preview; independent human language and specialist review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "premium",
+          "sourceType": "primary-factual-reference",
+          "title": "California Department of Insurance — Glossary of Insurance Terms",
+          "url": "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/20-Glossary/",
+          "use": "Checked premium as insurance-coverage price; excludes the separate investment above-par sense and any actual quote. Checked 2026-11-02."
+        },
+        {
+          "entryId": "asset",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika financial instruments and money-flow vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and fictional examples. AI-assisted CC BY 4.0 preview; independent human language and specialist review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "asset",
+          "sourceType": "primary-factual-reference",
+          "title": "Investor.gov — Asset",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/asset",
+          "use": "Checked financial-value resource concept only; original owned delivery-van example, no accounting valuation rule. Checked 2026-11-02."
+        },
+        {
+          "entryId": "liability",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika financial instruments and money-flow vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and fictional examples. AI-assisted CC BY 4.0 preview; independent human language and specialist review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "liability",
+          "sourceType": "primary-factual-reference",
+          "title": "Investor.gov — Liability/Debt",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/liabilitydebt",
+          "use": "Checked borrowed amount owed as a financial obligation; no legal-liability claim or general accounting standard. Checked 2026-11-02."
+        },
+        {
+          "entryId": "investment",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika financial instruments and money-flow vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and fictional examples. AI-assisted CC BY 4.0 preview; independent human language and specialist review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "investment",
+          "sourceType": "primary-factual-reference",
+          "title": "Investor.gov — Understand What It Means to Invest",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/save-and-invest/understand-what-it-means-invest",
+          "use": "Checked expectation of possible gain with risk of loss only; no recommendation, allocation or promised return. Checked 2026-11-02."
+        },
+        {
+          "entryId": "dividend",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika financial instruments and money-flow vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and fictional examples. AI-assisted CC BY 4.0 preview; independent human language and specialist review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "dividend",
+          "sourceType": "primary-factual-reference",
+          "title": "Investor.gov — Dividend",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/dividend",
+          "use": "Checked corporate earnings distribution to shareholders; original fictional per-share example and no guaranteed future distribution. Checked 2026-11-02."
+        },
+        {
+          "entryId": "bond",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika financial instruments and money-flow vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and fictional examples. AI-assisted CC BY 4.0 preview; independent human language and specialist review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "bond",
+          "sourceType": "primary-factual-reference",
+          "title": "Investor.gov — Bonds FAQs",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+          "use": "Checked issuer borrowing, repayment terms and possible default only; no bond recommendation, maturity claim or guaranteed return. Checked 2026-11-02."
+        },
+        {
+          "entryId": "revenue",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika financial instruments and money-flow vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and fictional examples. AI-assisted CC BY 4.0 preview; independent human language and specialist review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "revenue",
+          "sourceType": "primary-factual-reference",
+          "title": "business.gov.au — Key financial terms",
+          "url": "https://business.gov.au/finance/financial-tools-and-templates/key-financial-terms",
+          "use": "Checked revenue before expenses and distinction from profit only; toy sales arithmetic and original learner wording, no Australian tax rules. Checked 2026-11-02."
+        },
+        {
+          "entryId": "cash-flow",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika financial instruments and money-flow vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 learner wording, approximate editorial CEFR/IPA and fictional examples. AI-assisted CC BY 4.0 preview; independent human language and specialist review pending. No dictionary wording or artwork copied."
+        },
+        {
+          "entryId": "cash-flow",
+          "sourceType": "primary-factual-reference",
+          "title": "BDC — Cash flow",
+          "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/templates-business-guides/glossary/cash-flow",
+          "use": "Checked movement of cash in/out during a period only; original examples distinguish receipt timing from sales and profit. Checked 2026-11-02."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,
