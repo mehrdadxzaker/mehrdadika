@@ -16,7 +16,7 @@
     }
   ],
   "currentCategoryId": "safety-emergencies",
-  "nextCategoryId": "safety-emergencies",
+  "nextCategoryId": "architecture-infrastructure",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -7320,9 +7320,79 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "safety-emergencies",
+      "visualLanguageId": "safety-emergencies",
+      "baselineCategoryWords": 30,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "first-aid",
+        "fire-hose",
+        "sandbag",
+        "respirator",
+        "earmuffs",
+        "whistle",
+        "megaphone",
+        "beacon",
+        "escape-route",
+        "evacuation-plan",
+        "flood",
+        "earthquake",
+        "lightning",
+        "landslide",
+        "tsunami",
+        "avalanche",
+        "drought",
+        "heatwave",
+        "hurricane",
+        "blackout"
+      ],
+      "units": [
+        {
+          "id": "preparedness-equipment",
+          "title": "Preparedness and protective equipment",
+          "entryIds": [
+            "first-aid",
+            "fire-hose",
+            "sandbag",
+            "respirator",
+            "earmuffs",
+            "whistle",
+            "megaphone",
+            "beacon",
+            "escape-route",
+            "evacuation-plan"
+          ]
+        },
+        {
+          "id": "natural-hazards",
+          "title": "Natural hazards and power interruption",
+          "entryIds": [
+            "flood",
+            "earthquake",
+            "lightning",
+            "landslide",
+            "tsunami",
+            "avalanche",
+            "drought",
+            "heatwave",
+            "hurricane",
+            "blackout"
+          ]
+        }
+      ],
+      "id": "safety-emergencies-category-expansion-batch-68-ready-1",
+      "releaseId": "2026-10-preview-75",
+      "status": "published-preview",
+      "objective": "Learn Preparedness and protective equipment; Natural hazards and power interruption in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-67-ready-1",
+  "activePassId": "category-expansion-batch-68-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",
