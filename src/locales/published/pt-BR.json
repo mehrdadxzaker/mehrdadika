@@ -13,9 +13,9 @@
     "modifications": "Brazilian Portuguese preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-75",
-    "manifest": "content/releases/2026-10-preview-75-a37a509a71d4/manifest.json",
-    "sha256": "a37a509a71d4f0d4612b677a85d15ff60897c2777a5b380e7841e01e2442165b"
+    "id": "2026-10-preview-76",
+    "manifest": "content/releases/2026-10-preview-76-ef66d55ec274/manifest.json",
+    "sha256": "ef66d55ec274d3c25a99a5cfce38e4486a8744bdd2d090d36325056df856c3a5"
   },
   "categories": {
     "everyday-life": {
@@ -59027,6 +59027,822 @@
         }
       ],
       "tip": "Aqui blackout é a falta de energia elétrica; em outros contextos, pode indicar perda temporária de consciência ou de memória. Power outage e power cut também nomeiam uma interrupção de energia. Dark é apenas o adjetivo escuro."
+    },
+    "facade": {
+      "sourceWord": "facade",
+      "senses": {
+        "facade:meaning-1": {
+          "gloss": "fachada",
+          "definition": "A face da frente ou a face externa principal de um edifício."
+        }
+      },
+      "examples": [
+        {
+          "en": "The facade has three windows above the main entrance.",
+          "translation": "A fachada tem três janelas acima da entrada principal."
+        },
+        {
+          "en": "The architect drew the front of the building facing the street.",
+          "translation": "O arquiteto desenhou a frente do edifício voltada para a rua."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a stone facade",
+          "translation": "uma fachada de pedra"
+        },
+        {
+          "en": "the main facade",
+          "translation": "a fachada principal"
+        },
+        {
+          "en": "restore a facade",
+          "translation": "restaurar uma fachada"
+        }
+      ],
+      "tip": "Facade e façade são duas grafias da mesma palavra. Aqui ela indica a face externa do edifício; o uso figurado de aparência enganosa é outro sentido. Front é uma palavra mais geral para a parte da frente."
+    },
+    "balcony": {
+      "sourceWord": "balcony",
+      "senses": {
+        "balcony:meaning-1": {
+          "gloss": "sacada",
+          "definition": "Plataforma elevada com guarda-corpo que se projeta para fora da parede externa de um edifício."
+        }
+      },
+      "examples": [
+        {
+          "en": "The balcony projects from the bedroom wall above the garden.",
+          "translation": "A sacada se projeta da parede do quarto, acima do jardim."
+        },
+        {
+          "en": "A railing runs along the exposed edges of the platform.",
+          "translation": "Um guarda-corpo acompanha as bordas expostas da plataforma."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a balcony railing",
+          "translation": "o guarda-corpo da sacada"
+        },
+        {
+          "en": "step onto the balcony",
+          "translation": "sair para a sacada"
+        },
+        {
+          "en": "a small balcony",
+          "translation": "uma sacada pequena"
+        }
+      ],
+      "tip": "Neste sentido, balcony é uma plataforma externa elevada com guarda-corpo, frequentemente chamada de sacada no Brasil. Terrace pode ser uma área externa maior ao lado do edifício ou sobre ele. Balcony também nomeia um setor elevado de um teatro; esse não é o sentido escolhido aqui."
+    },
+    "veranda": {
+      "sourceWord": "veranda",
+      "senses": {
+        "veranda:meaning-1": {
+          "gloss": "varanda coberta",
+          "definition": "Plataforma externa coberta que acompanha parte de um edifício."
+        }
+      },
+      "examples": [
+        {
+          "en": "The veranda extends along the side of the house.",
+          "translation": "A varanda coberta se estende pela lateral da casa."
+        },
+        {
+          "en": "We sat outside under the long roof while rain fell in the garden.",
+          "translation": "Sentamos do lado de fora, sob o telhado comprido, enquanto chovia no jardim."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a shaded veranda",
+          "translation": "uma varanda sombreada"
+        },
+        {
+          "en": "sit on the veranda",
+          "translation": "sentar na varanda"
+        },
+        {
+          "en": "a veranda roof",
+          "translation": "o telhado da varanda"
+        }
+      ],
+      "tip": "Veranda também se escreve verandah. Costuma indicar uma área coberta que acompanha o edifício. Porch destaca a entrada, e os nomes podem se sobrepor em alguns casos. Uma veranda não precisa ficar apenas no térreo; varanda em português tem usos mais amplos."
+    },
+    "porch": {
+      "sourceWord": "porch",
+      "senses": {
+        "porch:meaning-1": {
+          "gloss": "alpendre de entrada",
+          "definition": "Espaço coberto na entrada de um edifício."
+        }
+      },
+      "examples": [
+        {
+          "en": "The porch shelters the front door and a small area in front of it.",
+          "translation": "O alpendre de entrada cobre a porta da frente e uma pequena área diante dela."
+        },
+        {
+          "en": "She waited under the entrance roof before ringing the bell.",
+          "translation": "Ela esperou sob o telhado da entrada antes de tocar a campainha."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a front porch",
+          "translation": "um alpendre na frente da casa"
+        },
+        {
+          "en": "stand on the porch",
+          "translation": "ficar no alpendre de entrada"
+        },
+        {
+          "en": "a covered porch",
+          "translation": "um alpendre coberto"
+        }
+      ],
+      "tip": "Porch destaca o espaço coberto da entrada, que pode ter tamanhos e formas diferentes. Veranda costuma se estender ao longo do edifício; portico é uma entrada coberta com colunas. Os nomes podem se sobrepor no uso real."
+    },
+    "courtyard": {
+      "sourceWord": "courtyard",
+      "senses": {
+        "courtyard:meaning-1": {
+          "gloss": "pátio interno",
+          "definition": "Espaço ao ar livre cercado por edifícios ou muros."
+        }
+      },
+      "examples": [
+        {
+          "en": "The courtyard is open to the sky and surrounded by rooms.",
+          "translation": "O pátio interno é aberto para o céu e cercado por cômodos."
+        },
+        {
+          "en": "Guests crossed the paved space between the surrounding walls.",
+          "translation": "Os hóspedes atravessaram o espaço pavimentado entre os muros ao redor."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an inner courtyard",
+          "translation": "um pátio interno"
+        },
+        {
+          "en": "a paved courtyard",
+          "translation": "um pátio pavimentado"
+        },
+        {
+          "en": "cross the courtyard",
+          "translation": "atravessar o pátio"
+        }
+      ],
+      "tip": "Courtyard indica um espaço ao ar livre cercado por construções ou muros. Yard é mais geral para uma área externa. Aqui o pátio fica aberto para o céu, em vez de ser um salão interno coberto."
+    },
+    "corridor": {
+      "sourceWord": "corridor",
+      "senses": {
+        "corridor:meaning-1": {
+          "gloss": "corredor",
+          "definition": "Passagem dentro de um edifício que liga cômodos ou outros espaços."
+        }
+      },
+      "examples": [
+        {
+          "en": "The corridor connects the classrooms on this floor.",
+          "translation": "O corredor liga as salas de aula deste andar."
+        },
+        {
+          "en": "Several doors open onto the long passage.",
+          "translation": "Várias portas dão para a passagem comprida."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a long corridor",
+          "translation": "um corredor comprido"
+        },
+        {
+          "en": "walk along the corridor",
+          "translation": "caminhar pelo corredor"
+        },
+        {
+          "en": "a corridor door",
+          "translation": "uma porta do corredor"
+        }
+      ],
+      "tip": "Corridor aqui é uma passagem interna. Hallway costuma ter sentido semelhante; as duas palavras nem sempre indicam espaços diferentes. Aisle é a passagem entre fileiras de assentos ou estantes. O sentido geográfico de corridor não foi escolhido aqui."
+    },
+    "vestibule": {
+      "sourceWord": "vestibule",
+      "senses": {
+        "vestibule:meaning-1": {
+          "gloss": "vestíbulo de entrada",
+          "definition": "Pequeno espaço fechado entre uma porta externa e a parte principal do interior de um edifício."
+        }
+      },
+      "examples": [
+        {
+          "en": "The vestibule lies between the outer door and the door to the hall.",
+          "translation": "O vestíbulo de entrada fica entre a porta externa e a porta que leva ao hall."
+        },
+        {
+          "en": "Visitors crossed the small enclosed entrance space before entering the main hall.",
+          "translation": "Os visitantes atravessaram o pequeno espaço fechado da entrada antes de entrar no salão principal."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an entrance vestibule",
+          "translation": "um vestíbulo de entrada"
+        },
+        {
+          "en": "a vestibule door",
+          "translation": "uma porta do vestíbulo"
+        },
+        {
+          "en": "step into the vestibule",
+          "translation": "entrar no vestíbulo"
+        }
+      ],
+      "tip": "Vestibule destaca um pequeno espaço fechado entre o acesso externo e o interior principal. Lobby costuma ser um espaço de entrada maior ou de espera; porch indica a área coberta da entrada externa. Os limites entre esses nomes variam entre edifícios."
+    },
+    "canopy": {
+      "sourceWord": "canopy",
+      "senses": {
+        "canopy:meaning-1": {
+          "gloss": "cobertura de entrada",
+          "definition": "Cobertura suspensa que se estende sobre uma entrada ou um espaço externo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The canopy projects over the entrance to the station.",
+          "translation": "A cobertura se projeta sobre a entrada da estação."
+        },
+        {
+          "en": "Its slim supports hold the covering above the people waiting below.",
+          "translation": "Seus apoios finos sustentam a cobertura acima das pessoas que esperam embaixo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an entrance canopy",
+          "translation": "uma cobertura de entrada"
+        },
+        {
+          "en": "stand under the canopy",
+          "translation": "ficar sob a cobertura"
+        },
+        {
+          "en": "a canopy support",
+          "translation": "um apoio da cobertura"
+        }
+      ],
+      "tip": "Canopy aqui é uma cobertura acima da entrada ou de um espaço externo, feita de materiais variados. Pode ser chamada de marquise ou cobertura conforme a forma. Eaves é o beiral do próprio telhado. O sentido de cobertura formada pelas copas das árvores não foi escolhido aqui."
+    },
+    "eaves": {
+      "sourceWord": "eaves",
+      "senses": {
+        "eaves:meaning-1": {
+          "gloss": "beirais",
+          "definition": "Bordas inferiores de um telhado que avançam além das paredes externas de um edifício."
+        }
+      },
+      "examples": [
+        {
+          "en": "The eaves extend beyond the wall above the window.",
+          "translation": "Os beirais avançam além da parede acima da janela."
+        },
+        {
+          "en": "A narrow band of shade lies beneath the projecting roof edge.",
+          "translation": "Uma faixa estreita de sombra fica sob a borda saliente do telhado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "under the eaves",
+          "translation": "sob os beirais"
+        },
+        {
+          "en": "overhanging eaves",
+          "translation": "beirais salientes"
+        },
+        {
+          "en": "the eaves of the roof",
+          "translation": "os beirais do telhado"
+        }
+      ],
+      "tip": "Eaves é normalmente plural em inglês: the eaves extend. Nomeia as bordas inferiores salientes do telhado. Gutter é a calha junto à borda, e soffit indica a superfície inferior da projeção. São partes relacionadas, mas não a mesma coisa."
+    },
+    "gable": {
+      "sourceWord": "gable",
+      "senses": {
+        "gable:meaning-1": {
+          "gloss": "empena triangular",
+          "definition": "Parte superior triangular de uma parede de extremidade, sob as duas águas de um telhado inclinado."
+        }
+      },
+      "examples": [
+        {
+          "en": "The gable forms a triangle above the upper windows.",
+          "translation": "A empena forma um triângulo acima das janelas superiores."
+        },
+        {
+          "en": "The two sloping roof edges meet over the end wall.",
+          "translation": "As duas bordas inclinadas do telhado se encontram sobre a parede de extremidade."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a brick gable",
+          "translation": "uma empena de tijolos"
+        },
+        {
+          "en": "a gable wall",
+          "translation": "uma parede com empena"
+        },
+        {
+          "en": "a window in the gable",
+          "translation": "uma janela na empena"
+        }
+      ],
+      "tip": "Gable é a parte da parede sob as duas águas do telhado, não o telhado inteiro. Gable roof nomeia um telhado desse formato. Empena tem usos mais amplos em português; aqui a parte triangular é essencial. Dormer é uma estrutura com janela que se projeta da superfície inclinada."
+    },
+    "dormer": {
+      "sourceWord": "dormer",
+      "senses": {
+        "dormer:meaning-1": {
+          "gloss": "lucarna",
+          "definition": "Estrutura com janela que se projeta de um telhado inclinado e tem um pequeno telhado próprio."
+        }
+      },
+      "examples": [
+        {
+          "en": "The dormer projects from the sloping roof above the front wall.",
+          "translation": "A lucarna se projeta do telhado inclinado acima da parede da frente."
+        },
+        {
+          "en": "Its upright window sits beneath a small separate roof.",
+          "translation": "Sua janela vertical fica sob um pequeno telhado separado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a dormer window",
+          "translation": "uma janela de lucarna"
+        },
+        {
+          "en": "a small dormer",
+          "translation": "uma lucarna pequena"
+        },
+        {
+          "en": "a dormer roof",
+          "translation": "o telhado da lucarna"
+        }
+      ],
+      "tip": "Dormer nomeia a estrutura saliente, e dormer window destaca sua janela. Skylight fica no plano do telhado; dormer traz uma janela para fora da superfície inclinada. Nem toda lucarna tem um telhado triangular. Mansarda também pode nomear um tipo de telhado ou um cômodo, por isso não é uma tradução exata em todos os contextos."
+    },
+    "skylight": {
+      "sourceWord": "skylight",
+      "senses": {
+        "skylight:meaning-1": {
+          "gloss": "claraboia",
+          "definition": "Abertura envidraçada em um telhado que deixa a luz do dia entrar por cima."
+        }
+      },
+      "examples": [
+        {
+          "en": "The skylight is set into the sloping roof above the room.",
+          "translation": "A claraboia está encaixada no telhado inclinado acima do cômodo."
+        },
+        {
+          "en": "Daylight enters through the glass overhead.",
+          "translation": "A luz do dia entra pelo vidro acima."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a roof skylight",
+          "translation": "uma claraboia no telhado"
+        },
+        {
+          "en": "light from the skylight",
+          "translation": "luz da claraboia"
+        },
+        {
+          "en": "a skylight frame",
+          "translation": "a moldura da claraboia"
+        }
+      ],
+      "tip": "Skylight é uma abertura envidraçada no telhado; ceiling light é uma luminária no teto. No sentido escolhido, o vidro fica no plano do telhado, enquanto dormer se projeta dele com uma janela vertical. Sky sozinho significa céu."
+    },
+    "cornice": {
+      "sourceWord": "cornice",
+      "senses": {
+        "cornice:meaning-1": {
+          "gloss": "cornija",
+          "definition": "Faixa moldada e saliente que arremata a parte superior de uma parede ou de outro elemento arquitetônico."
+        }
+      },
+      "examples": [
+        {
+          "en": "The cornice projects above the upper windows of the building.",
+          "translation": "A cornija se projeta acima das janelas superiores do edifício."
+        },
+        {
+          "en": "A soft shadow makes the shaped band easier to see.",
+          "translation": "Uma sombra suave facilita a visualização da faixa moldada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a stone cornice",
+          "translation": "uma cornija de pedra"
+        },
+        {
+          "en": "an ornate cornice",
+          "translation": "uma cornija ornamentada"
+        },
+        {
+          "en": "a projecting cornice",
+          "translation": "uma cornija saliente"
+        }
+      ],
+      "tip": "Cornice é a moldura saliente no alto de uma parede ou elemento arquitetônico; não é o rodapé junto ao piso. Eaves nomeia a borda do próprio telhado que avança além da parede."
+    },
+    "arcade": {
+      "sourceWord": "arcade",
+      "senses": {
+        "arcade:meaning-1": {
+          "gloss": "arcada",
+          "definition": "Sequência de arcos apoiados em colunas ou pilares, muitas vezes ao lado de uma passagem coberta."
+        }
+      },
+      "examples": [
+        {
+          "en": "The arcade runs along one side of the public garden.",
+          "translation": "A arcada se estende ao longo de um dos lados do jardim público."
+        },
+        {
+          "en": "We walked beneath the repeated arches to stay in the shade.",
+          "translation": "Caminhamos sob os arcos repetidos para ficar à sombra."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a stone arcade",
+          "translation": "uma arcada de pedra"
+        },
+        {
+          "en": "a covered arcade",
+          "translation": "uma arcada coberta"
+        },
+        {
+          "en": "walk through an arcade",
+          "translation": "caminhar por uma arcada"
+        }
+      ],
+      "tip": "Aqui, arcade é uma sequência arquitetônica de arcos; a games arcade é um salão de jogos. Um único arco é an arch. Colonnade destaca a sequência de colunas."
+    },
+    "colonnade": {
+      "sourceWord": "colonnade",
+      "senses": {
+        "colonnade:meaning-1": {
+          "gloss": "colunata",
+          "definition": "Fileira de colunas com espaçamento regular que sustenta uma estrutura arquitetônica horizontal e contínua."
+        }
+      },
+      "examples": [
+        {
+          "en": "The colonnade borders the open garden.",
+          "translation": "A colunata margeia o jardim aberto."
+        },
+        {
+          "en": "The long horizontal stone band rests on the column tops.",
+          "translation": "A longa faixa horizontal de pedra repousa sobre o topo das colunas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a stone colonnade",
+          "translation": "uma colunata de pedra"
+        },
+        {
+          "en": "a long colonnade",
+          "translation": "uma longa colunata"
+        },
+        {
+          "en": "beneath the colonnade",
+          "translation": "sob a colunata"
+        }
+      ],
+      "tip": "Colonnade é uma fileira de colunas com uma estrutura acima; column é uma coluna isolada. Na imagem, as colunas sustentam peças horizontais retas; arcade se reconhece pela sequência de arcos."
+    },
+    "portico": {
+      "sourceWord": "portico",
+      "senses": {
+        "portico:meaning-1": {
+          "gloss": "pórtico de entrada",
+          "definition": "Estrutura coberta diante de uma entrada, com o telhado apoiado em colunas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The portico shelters the main entrance to the hall.",
+          "translation": "O pórtico protege a entrada principal do salão."
+        },
+        {
+          "en": "Two stone columns stand in front of the doorway.",
+          "translation": "Duas colunas de pedra ficam diante da porta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a columned portico",
+          "translation": "um pórtico com colunas"
+        },
+        {
+          "en": "an entrance portico",
+          "translation": "um pórtico de entrada"
+        },
+        {
+          "en": "under the portico",
+          "translation": "sob o pórtico"
+        }
+      ],
+      "tip": "Portico costuma ser uma entrada coberta com colunas. Porch é mais amplo e não exige colunas arquitetônicas; colonnade pode ser uma longa fileira de colunas sem formar uma entrada."
+    },
+    "basement": {
+      "sourceWord": "basement",
+      "senses": {
+        "basement:meaning-1": {
+          "gloss": "porão",
+          "definition": "Cômodo ou andar de um edifício que fica parcial ou totalmente abaixo do nível do terreno."
+        }
+      },
+      "examples": [
+        {
+          "en": "The basement is below the rooms at street level.",
+          "translation": "O porão fica abaixo dos cômodos no nível da rua."
+        },
+        {
+          "en": "A small window near the ceiling lets in daylight.",
+          "translation": "Uma pequena janela perto do teto deixa entrar a luz do dia."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a basement room",
+          "translation": "um cômodo no porão"
+        },
+        {
+          "en": "a basement window",
+          "translation": "uma janela do porão"
+        },
+        {
+          "en": "in the basement",
+          "translation": "no porão"
+        }
+      ],
+      "tip": "Basement fica abaixo do nível do terreno; ground floor é o térreo. Cellar costuma indicar um espaço subterrâneo para armazenamento, enquanto basement pode ter outras funções."
+    },
+    "attic": {
+      "sourceWord": "attic",
+      "senses": {
+        "attic:meaning-1": {
+          "gloss": "sótão",
+          "definition": "Espaço interno de um edifício logo abaixo do telhado, especialmente quando o telhado é inclinado."
+        }
+      },
+      "examples": [
+        {
+          "en": "The attic sits directly beneath the sloping roof.",
+          "translation": "O sótão fica diretamente sob o telhado inclinado."
+        },
+        {
+          "en": "We stored two old suitcases in the low space upstairs.",
+          "translation": "Guardamos duas malas antigas no espaço baixo no andar de cima."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "an attic room",
+          "translation": "um quarto no sótão"
+        },
+        {
+          "en": "attic space",
+          "translation": "espaço no sótão"
+        },
+        {
+          "en": "in the attic",
+          "translation": "no sótão"
+        }
+      ],
+      "tip": "Attic é o espaço interno sob o telhado; roof é a própria cobertura. No inglês britânico, loft também pode nomear esse espaço. Um attic não é necessariamente um quarto pronto para morar."
+    },
+    "terrace": {
+      "sourceWord": "terrace",
+      "senses": {
+        "terrace:meaning-1": {
+          "gloss": "terraço",
+          "definition": "Área plana e descoberta junto a um edifício ou sobre sua cobertura, usada para sentar ou realizar outras atividades."
+        }
+      },
+      "examples": [
+        {
+          "en": "The terrace opens directly onto the garden.",
+          "translation": "O terraço dá diretamente para o jardim."
+        },
+        {
+          "en": "We carried two chairs outside and sat beside the house.",
+          "translation": "Levamos duas cadeiras para fora e nos sentamos ao lado da casa."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a garden terrace",
+          "translation": "um terraço junto ao jardim"
+        },
+        {
+          "en": "a roof terrace",
+          "translation": "um terraço na cobertura"
+        },
+        {
+          "en": "sit on the terrace",
+          "translation": "sentar no terraço"
+        }
+      ],
+      "tip": "Terrace aqui é uma área externa plana, que pode ficar junto ao jardim ou na cobertura. Balcony costuma ser uma sacada que se projeta de um andar elevado. A terrace of houses tem outro sentido: uma fileira de casas geminadas."
+    },
+    "viaduct": {
+      "sourceWord": "viaduct",
+      "senses": {
+        "viaduct:meaning-1": {
+          "gloss": "viaduto",
+          "definition": "Ponte longa com vários vãos que leva uma estrada ou ferrovia sobre um vale ou outro terreno mais baixo."
+        }
+      },
+      "examples": [
+        {
+          "en": "The viaduct carries the railway across the wide valley.",
+          "translation": "O viaduto leva a ferrovia sobre o vale amplo."
+        },
+        {
+          "en": "Several tall piers support the deck above the lower ground.",
+          "translation": "Vários pilares altos sustentam o tabuleiro acima do terreno mais baixo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a railway viaduct",
+          "translation": "um viaduto ferroviário"
+        },
+        {
+          "en": "a stone viaduct",
+          "translation": "um viaduto de pedra"
+        },
+        {
+          "en": "cross a viaduct",
+          "translation": "atravessar um viaduto"
+        }
+      ],
+      "tip": "Viaduct é um tipo de bridge com vários vãos que conduz uma via de transporte sobre terreno mais baixo. Aqueduct conduz água. Um viaduct não precisa ser de pedra nem ter arcos; a imagem mostra um exemplo com arcos."
+    },
+    "aqueduct": {
+      "sourceWord": "aqueduct",
+      "senses": {
+        "aqueduct:meaning-1": {
+          "gloss": "aqueduto",
+          "definition": "Estrutura ou canal construído para levar água de um lugar a outro, às vezes elevado sobre uma ponte."
+        }
+      },
+      "examples": [
+        {
+          "en": "The aqueduct carries water across the valley in a raised channel.",
+          "translation": "O aqueduto leva água sobre o vale por um canal elevado."
+        },
+        {
+          "en": "From above, we could see the water between the channel walls.",
+          "translation": "Do alto, conseguíamos ver a água entre as paredes do canal."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a stone aqueduct",
+          "translation": "um aqueduto de pedra"
+        },
+        {
+          "en": "an aqueduct channel",
+          "translation": "um canal de aqueduto"
+        },
+        {
+          "en": "water flows through an aqueduct",
+          "translation": "a água corre por um aqueduto"
+        }
+      ],
+      "tip": "Aqueduct transporta água; viaduct sustenta uma estrada ou ferrovia. Nem todo aqueduct é uma ponte com arcos: pode ter trechos no nível do terreno ou subterrâneos. A imagem mostra um exemplo elevado."
+    },
+    "plaza": {
+      "sourceWord": "plaza",
+      "senses": {
+        "plaza:meaning-1": {
+          "gloss": "praça",
+          "definition": "Espaço público aberto em uma cidade, usado como praça ou ponto de encontro."
+        }
+      },
+      "examples": [
+        {
+          "en": "The plaza is an open meeting place between the town buildings.",
+          "translation": "A praça é um ponto de encontro aberto entre os edifícios da cidade."
+        },
+        {
+          "en": "People crossed the broad paved space on their way to the library.",
+          "translation": "As pessoas atravessaram o amplo espaço pavimentado a caminho da biblioteca."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a public plaza",
+          "translation": "uma praça pública"
+        },
+        {
+          "en": "a central plaza",
+          "translation": "uma praça central"
+        },
+        {
+          "en": "meet in the plaza",
+          "translation": "encontrar-se na praça"
+        }
+      ],
+      "tip": "Plaza aqui é um espaço público aberto da cidade; courtyard é um pátio cercado por prédios ou muros. A shopping plaza pode ser um conjunto de lojas, outro sentido não selecionado aqui."
+    },
+    "boulevard": {
+      "sourceWord": "boulevard",
+      "senses": {
+        "boulevard:meaning-1": {
+          "gloss": "bulevar",
+          "definition": "Rua urbana larga, muitas vezes com árvores nas laterais ou uma faixa central."
+        }
+      },
+      "examples": [
+        {
+          "en": "The boulevard has a broad roadway and a line of trees on each side.",
+          "translation": "O bulevar tem uma pista larga e uma fileira de árvores de cada lado."
+        },
+        {
+          "en": "We followed the wide city street toward the museum.",
+          "translation": "Seguimos pela rua larga da cidade em direção ao museu."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a tree-lined boulevard",
+          "translation": "um bulevar arborizado"
+        },
+        {
+          "en": "a wide boulevard",
+          "translation": "um bulevar largo"
+        },
+        {
+          "en": "along the boulevard",
+          "translation": "ao longo do bulevar"
+        }
+      ],
+      "tip": "Boulevard é uma via urbana larga; árvores ou uma faixa central aparecem em muitos exemplos, mas os nomes das ruas variam. A palavra, por si só, não significa uma rodovia sem cruzamentos."
+    },
+    "alley": {
+      "sourceWord": "alley",
+      "senses": {
+        "alley:meaning-1": {
+          "gloss": "viela",
+          "definition": "Rua ou passagem estreita entre edifícios."
+        }
+      },
+      "examples": [
+        {
+          "en": "The alley runs between the backs of two rows of houses.",
+          "translation": "A viela passa entre os fundos de duas fileiras de casas."
+        },
+        {
+          "en": "We followed the narrow passage until it joined a wider street.",
+          "translation": "Seguimos pela passagem estreita até ela chegar a uma rua mais larga."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a narrow alley",
+          "translation": "uma viela estreita"
+        },
+        {
+          "en": "a back alley",
+          "translation": "uma viela nos fundos"
+        },
+        {
+          "en": "down the alley",
+          "translation": "pela viela"
+        }
+      ],
+      "tip": "Alley é uma passagem externa geralmente estreita; aisle é o corredor entre prateleiras ou fileiras de assentos. A bowling alley é uma expressão para uma pista ou estabelecimento de boliche, outro sentido."
     }
   }
 }

@@ -15,7 +15,7 @@
       "targetWordsPerCategory": 400
     }
   ],
-  "currentCategoryId": "safety-emergencies",
+  "currentCategoryId": "architecture-infrastructure",
   "nextCategoryId": "architecture-infrastructure",
   "categoryOrder": [
     "cooking-food-drink",
@@ -7390,9 +7390,87 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "architecture-infrastructure",
+      "visualLanguageId": "architecture-infrastructure",
+      "baselineCategoryWords": 4,
+      "targetCategoryWords": 28,
+      "entryIds": [
+        "facade",
+        "balcony",
+        "veranda",
+        "porch",
+        "courtyard",
+        "corridor",
+        "vestibule",
+        "canopy",
+        "eaves",
+        "gable",
+        "dormer",
+        "skylight",
+        "cornice",
+        "arcade",
+        "colonnade",
+        "portico",
+        "basement",
+        "attic",
+        "terrace",
+        "viaduct",
+        "aqueduct",
+        "plaza",
+        "boulevard",
+        "alley"
+      ],
+      "units": [
+        {
+          "id": "building-features",
+          "title": "Building envelope and entrances",
+          "entryIds": [
+            "facade",
+            "balcony",
+            "veranda",
+            "porch",
+            "courtyard",
+            "corridor",
+            "vestibule",
+            "canopy",
+            "eaves",
+            "gable",
+            "dormer",
+            "skylight"
+          ]
+        },
+        {
+          "id": "buildings-public-space",
+          "title": "Architectural spaces and infrastructure",
+          "entryIds": [
+            "cornice",
+            "arcade",
+            "colonnade",
+            "portico",
+            "basement",
+            "attic",
+            "terrace",
+            "viaduct",
+            "aqueduct",
+            "plaza",
+            "boulevard",
+            "alley"
+          ]
+        }
+      ],
+      "id": "architecture-infrastructure-category-expansion-batch-69-ready-1",
+      "releaseId": "2026-10-preview-76",
+      "status": "published-preview",
+      "objective": "Learn Building envelope and entrances; Architectural spaces and infrastructure in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-68-ready-1",
+  "activePassId": "category-expansion-batch-69-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",

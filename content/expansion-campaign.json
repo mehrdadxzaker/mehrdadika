@@ -20270,6 +20270,537 @@
           "use": "Original EN/FA/PT-BR/es-419 learner authorship with fictional neutral examples and original distinctions; editorial IPA/approximate CEFR, AI-assisted CC BY4.0 preview, independent human language and qualified domain review pending. No copied dictionary or artwork, real forecast/event claims, numerical warning thresholds or emergency procedures."
         }
       ]
+    },
+    {
+      "id": "category-expansion-batch-69-ready-1",
+      "status": "published-preview",
+      "releaseId": "2026-10-preview-76",
+      "sourceFiles": [
+        "building-features.json",
+        "buildings-public-space.json"
+      ],
+      "baseline": {
+        "releaseId": "2026-10-preview-75",
+        "manifest": "content/releases/2026-10-preview-75-a37a509a71d4/manifest.json",
+        "manifestSha256": "a37a509a71d4f0d4612b677a85d15ff60897c2777a5b380e7841e01e2442165b",
+        "words": 1720
+      },
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview",
+        "sourceAndNativeInspection": "Actual English/Persian, Brazilian Portuguese and Latin American Spanish text review; independent human language and qualified specialist review pending.",
+        "bindings": [
+          {
+            "entryId": "facade",
+            "lexicalBinding": "f05a091716bbd8be95289979a6b5c1a316feef478dde3e364cceae6dbddcb673",
+            "sourceImageSha256": "a3dc31b85353af06756209bd3119253b16d3b9d60dfbac355f48462b2d38aefd",
+            "cardSha256": "7225e5dcb75c3437e661c4236a4da4bf8350cc1fafc183a593e27ad00dcdcfbd",
+            "thumbnailSha256": "a743f3b43dcd4a0e912e5a82b1861390ba4a8c5cc5c3ab3607ff286135ea32f4",
+            "authorPixelBinding": "8900385699ea7ff58b6ca30334d20d03440aca34a82c24a608e0b5d175efe0ea",
+            "secondPixelBinding": "76d0edd635b8b68e0d845e60adacb41338703e42540e48e6f92798a40a69f13e"
+          },
+          {
+            "entryId": "balcony",
+            "lexicalBinding": "46bccbc829829afde56d5c4656c921efe8ba23b1bf6106c3297ac66b0bff627e",
+            "sourceImageSha256": "290145f04ec3157e1dcc7244b44f975728428b47a57d0c882a10aec78c243a60",
+            "cardSha256": "6ec12c48a9b9a5b742b6061f9a0e57d4c30c15beeeca6005ee9f9ce07574e136",
+            "thumbnailSha256": "1f8ca203596e0da6a2e7559f67a933f75dcd76095bf7a633fd27e24bba41ddf0",
+            "authorPixelBinding": "c60c5f3269f30b5a2b25c60acdc72cb717b31228b9a6362f4a150cd845594d41",
+            "secondPixelBinding": "ebf50c53368b9ce544614f995f7e3c756fe6fc964a7f27dbd9cdfd7a854f7ee2"
+          },
+          {
+            "entryId": "veranda",
+            "lexicalBinding": "332b6a56154270f5a723e67c857f0f51216d0c7798ae012f343844833d2c358a",
+            "sourceImageSha256": "f91696510f21ee95fffc6665da73bfce951a35ce2500f185ef677f5cd0b03156",
+            "cardSha256": "bcf87243f2db7cf769593f45564ab96c73822e6ba063041c0d7b91ac5b375e62",
+            "thumbnailSha256": "206c0dcdb5c18e6e5be6ecb35ab531f3354824d853d698edfd104bb28e94cd0a",
+            "authorPixelBinding": "cd3a9675bf32401976a20f352777ff230031b7252102a19081f62e40de2ef368",
+            "secondPixelBinding": "b58dea2fb9ae34fce403847f5ec018e6ca3d4b5ba79525c4bfe51e450d407752"
+          },
+          {
+            "entryId": "porch",
+            "lexicalBinding": "79e10bf2fb7181b2819a7494fe689ebec89f0105a73ab349d63902dd588e8c2e",
+            "sourceImageSha256": "881bebbe5bc513d9a9edf00997c1d5048cd59cbb66a62fc4809f7830812e2f6b",
+            "cardSha256": "d31ac03592dcf3f76398a10c40d68cc3edf533842b1c73ba8fb91fb47ba70d3b",
+            "thumbnailSha256": "957df771d3f46ea08bd4d44f146a5ab25cde2b65c58804bbfcc368b1524cd527",
+            "authorPixelBinding": "2fb3f32a84c17342fb928fa20da0a5efc86fe65b36c4066ba101e9d34dcd413a",
+            "secondPixelBinding": "c3899dad4413ca59878232c9c9610f31d72bb49a697c167124a96eafd672f44c"
+          },
+          {
+            "entryId": "courtyard",
+            "lexicalBinding": "07e10e001b287cc17add28a4c84839c2b5482722d562ca25454cd38f751e490a",
+            "sourceImageSha256": "5deb62c7195a68deac3a6c1ab3405f54ec047ad68a68cfea215908e7df2a657a",
+            "cardSha256": "8bb54e1e90561183d3a16218a5a7904caa38ec8d4e1d1dc818f09e5430321d5d",
+            "thumbnailSha256": "51219847a3a1f2e75921c94595e7a80955f2d46ad40fb780d1b54e08a84f754c",
+            "authorPixelBinding": "378c73582f9ce64b4a450184f47efbe264bf203621c282c99ce91061b3e37695",
+            "secondPixelBinding": "a60550d491efc008d6dda6bc5ce9c4c61b56d60c5410a2b137f6f932b6628f92"
+          },
+          {
+            "entryId": "corridor",
+            "lexicalBinding": "849dba312d17cdfcfe66f690fff4dcdb25a4637f5b6b7991b163fb4a953c1327",
+            "sourceImageSha256": "50d393ea2b84d1da147bc0a0c47e022dffe3303742b932b761170ec89d14611d",
+            "cardSha256": "3f5ffc729896c726207a428b37cc5ecc26ee9740174d13837e9e3b828b97eb03",
+            "thumbnailSha256": "131644915303f0959f7a1d91bc519cf2afbbc8cf1aa681da0e746f08dba03e42",
+            "authorPixelBinding": "4630760d27c7a24a2da8c58102e7dff416a9dc8757019103440eceefe76f6733",
+            "secondPixelBinding": "d2510bb28edcd3b5aa3d13761af500f8c3934139071aba3ef854b246a3061aef"
+          },
+          {
+            "entryId": "vestibule",
+            "lexicalBinding": "7ca4792106d8cc00e2684130df22cff6b028866c301da2b738d88dc1299e36d2",
+            "sourceImageSha256": "d2c90dd66408070056f62df7dfad09984dde5952a12986838655b19b28a57bc0",
+            "cardSha256": "c296548d5263407369548381b8108c66a237371f2e906fcc287d99a31c9b1bb9",
+            "thumbnailSha256": "eb3d6794b189e6aa32d5392dc910828711f2aadce070bd494a6d2b641dd69309",
+            "authorPixelBinding": "7cef6bec1e25e8901a753c552885c137b57b856275e8d8366c22f31398d6a739",
+            "secondPixelBinding": "9b9f1b5383f405d1d8521e8dd20fbd07a8a55f4293a257507d1a5f8195cb95dd"
+          },
+          {
+            "entryId": "canopy",
+            "lexicalBinding": "7cd090e0e9e3f225dedb3a02d00937f8782d704c5cd0bb5113688f39ec8190f6",
+            "sourceImageSha256": "4afca3353b7d6af032e505c0a8741a0839c996612225771bd49b43e319fe4ff3",
+            "cardSha256": "0eb428a16df3f48be20fdfcca4558b9cd6245e711cae4b8b10fedce88ac8fb02",
+            "thumbnailSha256": "5d80f54165331a3922f478da46dec59881ee4dac23e44651003cdc998554f8a1",
+            "authorPixelBinding": "ae8ef4fedfe1855fa644c5ff021b714daa0643f07955ace22321825612fb3ee9",
+            "secondPixelBinding": "f215b93f627c2c2ca90798fb856b2735c284593ad5538ac5dda5d83dce845d5a"
+          },
+          {
+            "entryId": "eaves",
+            "lexicalBinding": "8ef978b9bfef1b284b22c4704809262a471a934bb4be4b38287cbda90edf63af",
+            "sourceImageSha256": "05cb7f63ed362c8d36cc01eb06cf3d4e93307d10afc497ace992b13f1a25d149",
+            "cardSha256": "51517519f086e548c3a065ff9a64d5fa5e7779c863a927bbe937a528f60d8fa8",
+            "thumbnailSha256": "56289f69d9528519763092d609de43854a9c8963ce4578e540e35be84678a323",
+            "authorPixelBinding": "c7f8af7fdfa6c8b515fef464fd709e53cf416a1bafd1b69d8e85c202c6325c2c",
+            "secondPixelBinding": "653779424c94f6096551bf5f07e9d4c09fd0b49eca6acae6db12c71892394a84"
+          },
+          {
+            "entryId": "gable",
+            "lexicalBinding": "d315f93a2b5940271c2339e72a4370d73b50720e2f2b86aaeffc65d40b1d1a15",
+            "sourceImageSha256": "2a96a252a1bc451fbfcc6e14bba99f851f426c64cdb4a07ce06bae695854df3e",
+            "cardSha256": "cde3808a3de7373550c3610fdb567071d104bdc31b875af782d89fef9ce4b78f",
+            "thumbnailSha256": "bedd4b114829b62002a9b64bfe5a9b292a093af05fa3067e2bd452653d1f99fd",
+            "authorPixelBinding": "7cbfc6ae78dc1807b10575cd1671a6240fd997b19d303d997260913db4ff70be",
+            "secondPixelBinding": "4b2f1f1b28a816a2628b84fd2f5e50e9bc1f865f1a24cc90b46164697017773d"
+          },
+          {
+            "entryId": "dormer",
+            "lexicalBinding": "3ea44e62fb51a447ae55f92feb78f212072ebe6183524216c63df73d8e3a91b9",
+            "sourceImageSha256": "2b5abf6c759ed5524db4f4577ae498d6d9863342bc8b858464dc21a99f2fb9a9",
+            "cardSha256": "a36396a4f822691313dab00673b4b8a081f1bba1a02bdc591e3f12f22bcfa511",
+            "thumbnailSha256": "f487770df3e7a5b5337210870ed676f5be18b2473afd46b0732e1569539b7923",
+            "authorPixelBinding": "a93c145f22c6ea0bbcac69f09363e6779b992b9b7e260cdf81ec7e0fdac01dcf",
+            "secondPixelBinding": "c22e6cffdc811b38b42b5e69e9faae62e4ca7646bc55090c99f3b1f9007a668b"
+          },
+          {
+            "entryId": "skylight",
+            "lexicalBinding": "3c51865257050e99b4a63fa35d7f6d1a56dafa1129cf643beafe1938677fc774",
+            "sourceImageSha256": "7d1387fc97c7892d0786cc5a2edda15ff6e16829fd955f1649a0bf06c87fa03e",
+            "cardSha256": "98ab67facf35283fe5c66005277fdf707c2c2a30c0a510595b004618a5c93e9b",
+            "thumbnailSha256": "0102ca04bde2afcc7ccebb073b0abdd4b54c56a1a88fe41ad5151542d6ea6774",
+            "authorPixelBinding": "d7b039f943f153537beb20664fc4322799c1bbeb74ada00defd5e9783a95f3ec",
+            "secondPixelBinding": "dae40cde8c2b6e3e72e5d8adde2df5e85b99bfb90bd35f61c06a6f112e57b8fc"
+          },
+          {
+            "entryId": "cornice",
+            "lexicalBinding": "52096b8c61ff68ed38a535baa1d024f4e2be88b73fc26d564cbbd8b6d673001f",
+            "sourceImageSha256": "b42dbb454a77e03874110e7aa843ff63f13e9ba9274c8b751d684eac7f1fb7f2",
+            "cardSha256": "5a8b13be9ad0a42ab4cf0178dcb1dcd5617356e5f573e6aab3c69c3efedfefc1",
+            "thumbnailSha256": "132fa2f4dfd2286e10f94405d0aa3d0c2474aed2593fbb0f5d0e946187eedb37",
+            "authorPixelBinding": "8eec33bbd7727b4f377e4d20df95ae49f84de3fd41394b899c6925b7698d322d",
+            "secondPixelBinding": "a8c215453c8535b2f3555a2b32525fe0e79eea643d7878e2f6e716eb7e770459"
+          },
+          {
+            "entryId": "arcade",
+            "lexicalBinding": "59585ab62dbd47178d0544d221ba396ff0f16d4c3dbb287d8165367a6b8a5f07",
+            "sourceImageSha256": "05b318c38f19982dcf8d25f9f414791bf2c8774bef1ba5e3a20cffc0fa338bfd",
+            "cardSha256": "a68d200683b4d0c67cf5435ddac595109b6695fd4164c92d30dc8bdecbd7df28",
+            "thumbnailSha256": "2ac0192f2be448a9ac3d8fe9da329a9eb2baa47e5bb332762ceff3572ce28f45",
+            "authorPixelBinding": "7be800f3b29ddc337fc479af255a1f092e741ae431008d7064440b97dbe5447e",
+            "secondPixelBinding": "9bca8838a90f6aab8d54b6c3fd2c4f4aaa0f806d84813520fb5333e70f30f42b"
+          },
+          {
+            "entryId": "colonnade",
+            "lexicalBinding": "828070de54efe69dfd4fec7719710e46d54fa0038ba443ba3a17edd16e284f1b",
+            "sourceImageSha256": "aed485ee058d38bdfff7252f56c3d15d7ccf07430916d1bcac550c501e3a46f1",
+            "cardSha256": "0a65161a5fe20a06ffb6cf6c14ba5772c94760f3de4e1294dfebb0ee099c1d4f",
+            "thumbnailSha256": "a634e20740dc89cb3dbefde3f2e01047f0e27f2118d2b3644a84d9891c2f6592",
+            "authorPixelBinding": "621590c25d41e8374111e5fd6d14d2aac61360251a01922bbc723d32d99cafe0",
+            "secondPixelBinding": "a3eeee6e9df629f4ab5194b1f7b5841f0ec236576a84b64a117e531e84114d32"
+          },
+          {
+            "entryId": "portico",
+            "lexicalBinding": "90e4ea7f96094088872cf327be11f2731fb9a9c56dce14639f37df31246d22af",
+            "sourceImageSha256": "6c3ff44e91101f70f9377e35cbbc32df0aca079026797c360a3573270698768e",
+            "cardSha256": "ab5d6451ea45e4c6f9ac4c03e1e89578ecf867e65d97439f55b61aff783550c0",
+            "thumbnailSha256": "8040f1d70881556c0c93d93d0923912727feddf06f7c002469a11141162e49b5",
+            "authorPixelBinding": "3a238ed293e8ec3a675087b46ed3b193dd9e7fb7600957f128033556b22dc487",
+            "secondPixelBinding": "eb928d774da2869fef8908c5b8f591acfe36fe08c0d4e05c1b5c265d849912e3"
+          },
+          {
+            "entryId": "basement",
+            "lexicalBinding": "ece9fc09219e0dfb95ec6e8844591b30ad2b16f9011c35b31088afe364b9832d",
+            "sourceImageSha256": "7293b69b359aa55f5265ff2f8a622bbd38d680f14de12b65b4d81d0a35523a22",
+            "cardSha256": "22c564629f20bafeed35171541556f9affae468eca10002a9a90c910851c39bb",
+            "thumbnailSha256": "70efa5bbc2e05681726a8d1f9164f09db3b67a1b2f5532a021a7cca0b4535a04",
+            "authorPixelBinding": "708f8fd104fe6fac94fe2d92b00742e6ba5e4bc7a9a7f6fb990b7b71288d0ce9",
+            "secondPixelBinding": "7837ea23ece3e0736ab8b4c26f46c5a40c5d23679a32a9913012f2c5b2a0db1f"
+          },
+          {
+            "entryId": "attic",
+            "lexicalBinding": "6b45c499a85ed9ad35711b95f3a01eba5a495c4d5873c09185c7e4a38d635564",
+            "sourceImageSha256": "18c85f7a0982b8edba2353728f58f986bf067f95f93cb2f06140918d29c553e1",
+            "cardSha256": "a33b4cdff430e1498b0f7915f8b29fcbc7e38b39fff39736061b7fbbf69375f2",
+            "thumbnailSha256": "f3b35ad09fcca9c1789e3a559563760a95ae26278df938fda27eaf3c10f848e1",
+            "authorPixelBinding": "9cf7fe52b94af173f4783b63190c0c54f53b0d31dbca55ef6e3061c77d86c4ca",
+            "secondPixelBinding": "4111d397772e643cd0a51399c644723777eaad8ad2dceb25ac1178fba11369ac"
+          },
+          {
+            "entryId": "terrace",
+            "lexicalBinding": "24c4def7439d36d86294f9f0f35b0ae9344c7a14154e384086f4ead076d20c90",
+            "sourceImageSha256": "a7aeb3a0ccb21196a8f90d7b1ae50f6cc59c1f2cf30527c336ed208eae094b33",
+            "cardSha256": "18f11cce96d10f4672b7f1de91f7e23c1e2abde322e85f2218b54ca6a266f556",
+            "thumbnailSha256": "1017aedf938763ce7c8d146a31845bb79d5f5f18830d804b9264de3b22524ee0",
+            "authorPixelBinding": "02c8b57c730d0ac69a5c382da698468ecc311012dc419188785deb8fead011b2",
+            "secondPixelBinding": "362ee1ea1c56993deb74c828d66e59308f51ca3ee21753f83ac388f73eba203f"
+          },
+          {
+            "entryId": "viaduct",
+            "lexicalBinding": "dd95f2b29d026fc67c877f4685e3cef303db5a5de6a5c716112ffd0db715dc76",
+            "sourceImageSha256": "a3fbc71ba8adc91191c559588b71328b1ab973b72dfe54f228147b369ec6d8a7",
+            "cardSha256": "bc0458b54a58d370078636700e63539019593b3e087c4cbead9bf1c11d19f473",
+            "thumbnailSha256": "cd8beeb5089ffc39792df11f7e99ac6996882eddaa262a7d490c1ccf988db568",
+            "authorPixelBinding": "b82719132c19afb5ef9e55f4f7f5d63b3dcdc0acde8381b73152a632ff8cb188",
+            "secondPixelBinding": "9422d8231e998d321eb5246ac54a4aa573163e375d81fa90e0f53ce00a522128"
+          },
+          {
+            "entryId": "aqueduct",
+            "lexicalBinding": "7cb1d3c7349df8b14bca8de93a8fb7b3d167fe04049fa67aa34ac07aeef4eab5",
+            "sourceImageSha256": "fd0bd70fda426570b4ecabe3219481a45cc1dd4238bf23ea0c88ed3e4718d1fa",
+            "cardSha256": "f80bab5c0b2a49a06a191b25408619342edfec15247ff81311eea99cd6b3a2c9",
+            "thumbnailSha256": "7bb4e4a718b1d05a59cbddde4c034b60860ecf54bdceaf1c4fe9bb8db80db94c",
+            "authorPixelBinding": "b27d8d5b0ca47a0fc7a38cf7abf4add1705d0c269010e5a8913604ef03d57053",
+            "secondPixelBinding": "34fd096117ae0ba9f9f23ce2a2b883a50a4b9ad994e3b3229bf8231977043e4e"
+          },
+          {
+            "entryId": "plaza",
+            "lexicalBinding": "d686cb878c2e4d1640a2a0e06637b88f29dd5a2e0d5dac36c1707fe1ad17a71b",
+            "sourceImageSha256": "f6e4f0793ab61ba61885c42bd6846423ee9d0fb40bbe78d1c304bed8127c32d7",
+            "cardSha256": "33137525674b8feb6ca97fe77ce9cab70467fd59271749f37cd23eea275804dd",
+            "thumbnailSha256": "dc5e3be4737f40887197bf1881d4429ceac45c3df399b78d1e07fb556476564f",
+            "authorPixelBinding": "c0ba3bcd43dbb44a168fdeb3f6ef34f0785450d7e08aa3868457d349d914c8eb",
+            "secondPixelBinding": "ff836ebe03578328431b9b70224c926f157b293a66f2b8ef54a1b2420b75e77c"
+          },
+          {
+            "entryId": "boulevard",
+            "lexicalBinding": "a20ab564dcd46015d54e83de9f05f501acbe51cf4584e15f567590886b26e798",
+            "sourceImageSha256": "b7ed24a12b71af991f98f0608ad06d8c4ad602db0158d54a521fa71ea7fd7eef",
+            "cardSha256": "49d97f4b499f36a3ee755ab17f5075724897bbe20199961e82016b5b169a2c3f",
+            "thumbnailSha256": "38278ab181f2d7e01670431c2cfe83f9ea4d980d210fbdbeb083dd31e2e5ec44",
+            "authorPixelBinding": "e54c8489a40a888a280feef2109c0ef98c775d809b047445d99ee508f9e1b00c",
+            "secondPixelBinding": "f6e336211dd0abbc1586ea0ed9a055bf66bd1b42105ea41abe198e9356092017"
+          },
+          {
+            "entryId": "alley",
+            "lexicalBinding": "490bd8807a5bf96cfc0d8f3f089556d2c71c2e7fbccb2784f2e7ddecc1c8f6b7",
+            "sourceImageSha256": "71bb03beb3821e36aeaa702d0adfdcb6313caeab8cf3c896162dae1f07a855d1",
+            "cardSha256": "5c94b9bf8a62c213458c7c9704ffaf8726e870199ccfdac8a8d2e2c47e69bce6",
+            "thumbnailSha256": "f7ca0b301f7aff6bc9d7adb1f60f49c21ac00562e39cb3e5ef2277f4808e5dbe",
+            "authorPixelBinding": "b46c86de08b39fc586d46df4296b6895f77942dd2bec674c09718f44be190ff7",
+            "secondPixelBinding": "85959b582a8e89fb4d41487417283c0b7620e71668d32283e6cc4b9fae5f1028"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "categoryId": "architecture-infrastructure",
+          "visualLanguageId": "architecture-infrastructure",
+          "baselineCategoryWords": 4,
+          "targetCategoryWords": 28,
+          "entryIds": [
+            "facade",
+            "balcony",
+            "veranda",
+            "porch",
+            "courtyard",
+            "corridor",
+            "vestibule",
+            "canopy",
+            "eaves",
+            "gable",
+            "dormer",
+            "skylight",
+            "cornice",
+            "arcade",
+            "colonnade",
+            "portico",
+            "basement",
+            "attic",
+            "terrace",
+            "viaduct",
+            "aqueduct",
+            "plaza",
+            "boulevard",
+            "alley"
+          ],
+          "units": [
+            {
+              "id": "building-features",
+              "title": "Building envelope and entrances",
+              "entryIds": [
+                "facade",
+                "balcony",
+                "veranda",
+                "porch",
+                "courtyard",
+                "corridor",
+                "vestibule",
+                "canopy",
+                "eaves",
+                "gable",
+                "dormer",
+                "skylight"
+              ]
+            },
+            {
+              "id": "buildings-public-space",
+              "title": "Architectural spaces and infrastructure",
+              "entryIds": [
+                "cornice",
+                "arcade",
+                "colonnade",
+                "portico",
+                "basement",
+                "attic",
+                "terrace",
+                "viaduct",
+                "aqueduct",
+                "plaza",
+                "boulevard",
+                "alley"
+              ]
+            }
+          ]
+        }
+      ],
+      "imageRefreshEntryIds": [],
+      "heldEntryIds": [],
+      "selectionNotes": "Twenty-four distinct established English heads, actual1720source/39queues/213sourceparts absent. Excluded existing atrium cardiac head, lobby, parapet/lintel/buttress/dome/roundabout/crosswalk/embankment, not counted as new senses or category memberships. Facade/façade, veranda/verandah aliases checked; corridor selected instead of a duplicate hallway slot. Architectural spatial meanings only, original text and fresh assets; no code compliance, capacities or specialist approval.",
+      "parentBatchId": "category-expansion-batch-69",
+      "completedAt": "2026-11-06T05:00:01.287Z",
+      "factualReferences": [
+        {
+          "entryId": "facade",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika building-envelope and entrance vocabulary contribution",
+          "use": "Original selected architectural noun sense, English/Persian learner wording, two meaningful fictional examples, three collocations and lexical distinctions; editorial UK/US IPA and approximate CEFR with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/domain review pending. No dictionary wording or artwork copied; no code-compliance, capacity, rating, certification or performance claims."
+        },
+        {
+          "entryId": "facade",
+          "sourceType": "primary-reference",
+          "title": "New York City Landmarks Preservation Commission — architectural glossary",
+          "url": "https://www.nyc.gov/site/lpc/about/glossary.page",
+          "use": "Stable geometry only, independently read through built-in web open on 2026-11-04. Original wording and original illustration; no source artwork or dictionary wording copied. Relevant glossary item: Facade. No legal or local compliance claims."
+        },
+        {
+          "entryId": "balcony",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika building-envelope and entrance vocabulary contribution",
+          "use": "Original selected architectural noun sense, English/Persian learner wording, two meaningful fictional examples, three collocations and lexical distinctions; editorial UK/US IPA and approximate CEFR with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/domain review pending. No dictionary wording or artwork copied; no code-compliance, capacity, rating, certification or performance claims."
+        },
+        {
+          "entryId": "veranda",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika building-envelope and entrance vocabulary contribution",
+          "use": "Original selected architectural noun sense, English/Persian learner wording, two meaningful fictional examples, three collocations and lexical distinctions; editorial UK/US IPA and approximate CEFR with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/domain review pending. No dictionary wording or artwork copied; no code-compliance, capacity, rating, certification or performance claims."
+        },
+        {
+          "entryId": "porch",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika building-envelope and entrance vocabulary contribution",
+          "use": "Original selected architectural noun sense, English/Persian learner wording, two meaningful fictional examples, three collocations and lexical distinctions; editorial UK/US IPA and approximate CEFR with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/domain review pending. No dictionary wording or artwork copied; no code-compliance, capacity, rating, certification or performance claims."
+        },
+        {
+          "entryId": "courtyard",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika building-envelope and entrance vocabulary contribution",
+          "use": "Original selected architectural noun sense, English/Persian learner wording, two meaningful fictional examples, three collocations and lexical distinctions; editorial UK/US IPA and approximate CEFR with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/domain review pending. No dictionary wording or artwork copied; no code-compliance, capacity, rating, certification or performance claims."
+        },
+        {
+          "entryId": "corridor",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika building-envelope and entrance vocabulary contribution",
+          "use": "Original selected architectural noun sense, English/Persian learner wording, two meaningful fictional examples, three collocations and lexical distinctions; editorial UK/US IPA and approximate CEFR with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/domain review pending. No dictionary wording or artwork copied; no code-compliance, capacity, rating, certification or performance claims."
+        },
+        {
+          "entryId": "vestibule",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika building-envelope and entrance vocabulary contribution",
+          "use": "Original selected architectural noun sense, English/Persian learner wording, two meaningful fictional examples, three collocations and lexical distinctions; editorial UK/US IPA and approximate CEFR with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/domain review pending. No dictionary wording or artwork copied; no code-compliance, capacity, rating, certification or performance claims."
+        },
+        {
+          "entryId": "canopy",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika building-envelope and entrance vocabulary contribution",
+          "use": "Original selected architectural noun sense, English/Persian learner wording, two meaningful fictional examples, three collocations and lexical distinctions; editorial UK/US IPA and approximate CEFR with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/domain review pending. No dictionary wording or artwork copied; no code-compliance, capacity, rating, certification or performance claims."
+        },
+        {
+          "entryId": "eaves",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika building-envelope and entrance vocabulary contribution",
+          "use": "Original selected architectural noun sense, English/Persian learner wording, two meaningful fictional examples, three collocations and lexical distinctions; editorial UK/US IPA and approximate CEFR with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/domain review pending. No dictionary wording or artwork copied; no code-compliance, capacity, rating, certification or performance claims."
+        },
+        {
+          "entryId": "eaves",
+          "sourceType": "primary-reference",
+          "title": "New York City Landmarks Preservation Commission — architectural glossary",
+          "url": "https://www.nyc.gov/site/lpc/about/glossary.page",
+          "use": "Stable geometry only, independently read through built-in web open on 2026-11-04. Original wording and original illustration; no source artwork or dictionary wording copied. Relevant glossary item: Eave. No legal or local compliance claims."
+        },
+        {
+          "entryId": "gable",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika building-envelope and entrance vocabulary contribution",
+          "use": "Original selected architectural noun sense, English/Persian learner wording, two meaningful fictional examples, three collocations and lexical distinctions; editorial UK/US IPA and approximate CEFR with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/domain review pending. No dictionary wording or artwork copied; no code-compliance, capacity, rating, certification or performance claims."
+        },
+        {
+          "entryId": "gable",
+          "sourceType": "primary-reference",
+          "title": "New York City Landmarks Preservation Commission — architectural glossary",
+          "url": "https://www.nyc.gov/site/lpc/about/glossary.page",
+          "use": "Stable geometry only, independently read through built-in web open on 2026-11-04. Original wording and original illustration; no source artwork or dictionary wording copied. Relevant glossary item: Gable. No legal or local compliance claims."
+        },
+        {
+          "entryId": "dormer",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika building-envelope and entrance vocabulary contribution",
+          "use": "Original selected architectural noun sense, English/Persian learner wording, two meaningful fictional examples, three collocations and lexical distinctions; editorial UK/US IPA and approximate CEFR with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/domain review pending. No dictionary wording or artwork copied; no code-compliance, capacity, rating, certification or performance claims."
+        },
+        {
+          "entryId": "dormer",
+          "sourceType": "primary-reference",
+          "title": "New York City Landmarks Preservation Commission — architectural glossary",
+          "url": "https://www.nyc.gov/site/lpc/about/glossary.page",
+          "use": "Stable geometry only, independently read through built-in web open on 2026-11-04. Original wording and original illustration; no source artwork or dictionary wording copied. Relevant glossary item: Dormer. No legal or local compliance claims."
+        },
+        {
+          "entryId": "skylight",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika building-envelope and entrance vocabulary contribution",
+          "use": "Original selected architectural noun sense, English/Persian learner wording, two meaningful fictional examples, three collocations and lexical distinctions; editorial UK/US IPA and approximate CEFR with complete Brazilian Portuguese and Latin American Spanish scaffolding. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/domain review pending. No dictionary wording or artwork copied; no code-compliance, capacity, rating, certification or performance claims."
+        },
+        {
+          "entryId": "cornice",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika architectural spaces and infrastructure vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/infrastructure review pending. Primary references check only stable physical meanings; no dictionary wording, artwork, code, dimensions or performance claims copied."
+        },
+        {
+          "entryId": "arcade",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika architectural spaces and infrastructure vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/infrastructure review pending. Primary references check only stable physical meanings; no dictionary wording, artwork, code, dimensions or performance claims copied."
+        },
+        {
+          "entryId": "colonnade",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika architectural spaces and infrastructure vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/infrastructure review pending. Primary references check only stable physical meanings; no dictionary wording, artwork, code, dimensions or performance claims copied."
+        },
+        {
+          "entryId": "portico",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika architectural spaces and infrastructure vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/infrastructure review pending. Primary references check only stable physical meanings; no dictionary wording, artwork, code, dimensions or performance claims copied."
+        },
+        {
+          "entryId": "basement",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika architectural spaces and infrastructure vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/infrastructure review pending. Primary references check only stable physical meanings; no dictionary wording, artwork, code, dimensions or performance claims copied."
+        },
+        {
+          "entryId": "attic",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika architectural spaces and infrastructure vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/infrastructure review pending. Primary references check only stable physical meanings; no dictionary wording, artwork, code, dimensions or performance claims copied."
+        },
+        {
+          "entryId": "terrace",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika architectural spaces and infrastructure vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/infrastructure review pending. Primary references check only stable physical meanings; no dictionary wording, artwork, code, dimensions or performance claims copied."
+        },
+        {
+          "entryId": "viaduct",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika architectural spaces and infrastructure vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/infrastructure review pending. Primary references check only stable physical meanings; no dictionary wording, artwork, code, dimensions or performance claims copied."
+        },
+        {
+          "entryId": "aqueduct",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika architectural spaces and infrastructure vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/infrastructure review pending. Primary references check only stable physical meanings; no dictionary wording, artwork, code, dimensions or performance claims copied."
+        },
+        {
+          "entryId": "plaza",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika architectural spaces and infrastructure vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/infrastructure review pending. Primary references check only stable physical meanings; no dictionary wording, artwork, code, dimensions or performance claims copied."
+        },
+        {
+          "entryId": "boulevard",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika architectural spaces and infrastructure vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/infrastructure review pending. Primary references check only stable physical meanings; no dictionary wording, artwork, code, dimensions or performance claims copied."
+        },
+        {
+          "entryId": "alley",
+          "sourceType": "original-editorial",
+          "title": "Original Mehrdadika architectural spaces and infrastructure vocabulary contribution",
+          "use": "Original EN/FA/PT-BR/es-419 authorship, fictional examples, editorial IPA and approximate CEFR. AI-assisted CC BY 4.0 editorial preview; independent human language and qualified architecture/infrastructure review pending. Primary references check only stable physical meanings; no dictionary wording, artwork, code, dimensions or performance claims copied."
+        },
+        {
+          "entryId": "cornice",
+          "sourceType": "primary-reference",
+          "title": "NYC Landmarks Preservation Commission — Glossary",
+          "url": "https://www.nyc.gov/site/lpc/about/glossary.page",
+          "use": "Opened official LPC glossary; checked projecting top moulding, column row supporting entablature and roofed column-supported doorway entrance. Only stable physical relations were used; all learner wording and illustrations are original."
+        },
+        {
+          "entryId": "colonnade",
+          "sourceType": "primary-reference",
+          "title": "NYC Landmarks Preservation Commission — Glossary",
+          "url": "https://www.nyc.gov/site/lpc/about/glossary.page",
+          "use": "Opened official LPC glossary; checked projecting top moulding, column row supporting entablature and roofed column-supported doorway entrance. Only stable physical relations were used; all learner wording and illustrations are original."
+        },
+        {
+          "entryId": "portico",
+          "sourceType": "primary-reference",
+          "title": "NYC Landmarks Preservation Commission — Glossary",
+          "url": "https://www.nyc.gov/site/lpc/about/glossary.page",
+          "use": "Opened official LPC glossary; checked projecting top moulding, column row supporting entablature and roofed column-supported doorway entrance. Only stable physical relations were used; all learner wording and illustrations are original."
+        },
+        {
+          "entryId": "aqueduct",
+          "sourceType": "primary-reference",
+          "title": "National Park Service — Catoctin Creek Aqueduct",
+          "url": "https://www.nps.gov/places/catoctin-aqueduct.htm",
+          "use": "Opened official NPS page; checked an elevated water-carrying crossing over a creek as one aqueduct example. No site history, dimensions, wording or artwork copied. Aqueduct is not limited to arched bridges."
+        },
+        {
+          "entryId": "viaduct",
+          "sourceType": "primary-reference",
+          "title": "Network Rail — Your railway: bridges and viaducts",
+          "url": "https://www.networkrail.co.uk/stories/your-railway-bridges-and-viaducts/?cat_name=railway-safety",
+          "use": "Opened official railway operator page; checked railway crossings over valleys, roads and rivers. No operational, capacity or performance claims retained; wording and generic illustrated example are original."
+        },
+        {
+          "entryId": "viaduct",
+          "sourceType": "primary-reference",
+          "title": "American Society of Civil Engineers — Thomas Viaduct Railroad Bridge",
+          "url": "https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/thomas-viaduct-railroad-bridge",
+          "use": "Primary professional-society search excerpt only; checked existence of a multiple-arch stone railroad viaduct. Did not open this page; no historical dates, dimensions, superlatives, wording or artwork copied."
+        }
+      ]
     }
   ],
   "activeWorkBatchId": null,
