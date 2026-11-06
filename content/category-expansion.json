@@ -16,7 +16,7 @@
     }
   ],
   "currentCategoryId": "architecture-infrastructure",
-  "nextCategoryId": "architecture-infrastructure",
+  "nextCategoryId": "trades-practical-work",
   "categoryOrder": [
     "cooking-food-drink",
     "medicine-healthcare",
@@ -7468,9 +7468,83 @@
         "humanReviewed": false,
         "status": "AI-assisted editorial preview"
       }
+    },
+    {
+      "categoryId": "architecture-infrastructure",
+      "visualLanguageId": "architecture-infrastructure",
+      "baselineCategoryWords": 28,
+      "targetCategoryWords": 50,
+      "entryIds": [
+        "balustrade",
+        "baluster",
+        "pediment",
+        "pilaster",
+        "sill",
+        "mullion",
+        "transom",
+        "clerestory",
+        "cupola",
+        "spire",
+        "steeple",
+        "turret",
+        "apse",
+        "nave",
+        "belfry",
+        "foyer",
+        "mezzanine",
+        "loggia",
+        "cloister",
+        "rotunda",
+        "pergola",
+        "gazebo"
+      ],
+      "units": [
+        {
+          "id": "building-details",
+          "title": "Architectural parts and roof forms",
+          "entryIds": [
+            "balustrade",
+            "baluster",
+            "pediment",
+            "pilaster",
+            "sill",
+            "mullion",
+            "transom",
+            "clerestory",
+            "cupola",
+            "spire",
+            "steeple"
+          ]
+        },
+        {
+          "id": "spaces-structures",
+          "title": "Architectural spaces and garden structures",
+          "entryIds": [
+            "turret",
+            "apse",
+            "nave",
+            "belfry",
+            "foyer",
+            "mezzanine",
+            "loggia",
+            "cloister",
+            "rotunda",
+            "pergola",
+            "gazebo"
+          ]
+        }
+      ],
+      "id": "architecture-infrastructure-category-expansion-batch-70-ready-1",
+      "releaseId": "2026-10-preview-77",
+      "status": "published-preview",
+      "objective": "Learn Architectural parts and roof forms; Architectural spaces and garden structures in English, with complete Persian, Brazilian Portuguese and Latin American Spanish scaffolding.",
+      "review": {
+        "humanReviewed": false,
+        "status": "AI-assisted editorial preview"
+      }
     }
   ],
-  "activePassId": "category-expansion-batch-69-ready-1",
+  "activePassId": "category-expansion-batch-70-ready-1",
   "imageCorrections": [
     {
       "id": "category-expansion-batch-44-image-refresh-ready-1",

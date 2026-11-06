@@ -13,9 +13,9 @@
     "modifications": "Latin-American Spanish preview translations filtered against the published English release. No independent human language or specialist review is claimed."
   },
   "sourceRelease": {
-    "id": "2026-10-preview-76",
-    "manifest": "content/releases/2026-10-preview-76-ef66d55ec274/manifest.json",
-    "sha256": "ef66d55ec274d3c25a99a5cfce38e4486a8744bdd2d090d36325056df856c3a5"
+    "id": "2026-10-preview-77",
+    "manifest": "content/releases/2026-10-preview-77-98f60674780a/manifest.json",
+    "sha256": "98f60674780a2868822d2c9797d62f30c53955c4eb1e9992c139f32d0f0f2bc7"
   },
   "categories": {
     "everyday-life": {
@@ -59843,6 +59843,754 @@
         }
       ],
       "tip": "Alley es un paso exterior generalmente estrecho; aisle es el pasillo entre estantes o filas de asientos. A bowling alley es una expresión para una pista o local de boliche, otro sentido."
+    },
+    "balustrade": {
+      "sourceWord": "balustrade",
+      "senses": {
+        "balustrade:meaning-1": {
+          "gloss": "balaustrada",
+          "definition": "Conjunto de postes cortos unidos por un barandal junto a una escalera o al borde de un espacio elevado."
+        }
+      },
+      "examples": [
+        {
+          "en": "The balustrade runs along the edge of the terrace.",
+          "translation": "La balaustrada recorre el borde de la terraza."
+        },
+        {
+          "en": "A continuous handrail connects the short stone posts beside the steps.",
+          "translation": "Un pasamanos continuo une los postes cortos de piedra junto a los escalones."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a stone balustrade",
+          "translation": "una balaustrada de piedra"
+        },
+        {
+          "en": "a staircase balustrade",
+          "translation": "una balaustrada de escalera"
+        },
+        {
+          "en": "restore a balustrade",
+          "translation": "restaurar una balaustrada"
+        }
+      ],
+      "tip": "Balustrade nombra el conjunto de postes cortos y pasamanos superior; baluster es uno de esos postes. Railing es más general y puede nombrar un barandal sin este tipo de soporte."
+    },
+    "baluster": {
+      "sourceWord": "baluster",
+      "senses": {
+        "baluster:meaning-1": {
+          "gloss": "balaustre",
+          "definition": "Uno de los postes cortos y verticales que sostienen un pasamanos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The baluster joins the handrail to the stone base.",
+          "translation": "El balaustre une el pasamanos con la base de piedra."
+        },
+        {
+          "en": "The carpenter replaced one damaged upright without removing the whole railing.",
+          "translation": "El carpintero reemplazó un soporte vertical dañado sin retirar toda la balaustrada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a wooden baluster",
+          "translation": "un balaustre de madera"
+        },
+        {
+          "en": "a turned baluster",
+          "translation": "un balaustre torneado"
+        },
+        {
+          "en": "replace a baluster",
+          "translation": "reemplazar un balaustre"
+        }
+      ],
+      "tip": "Baluster es un soporte corto debajo del pasamanos, no toda la balaustrada. Balustrade nombra el conjunto. El poste puede ser sencillo o decorativo; no tiene que presentar siempre la misma forma."
+    },
+    "pediment": {
+      "sourceWord": "pediment",
+      "senses": {
+        "pediment:meaning-1": {
+          "gloss": "frontón triangular",
+          "definition": "Elemento triangular que corona una entrada clásica o el frente de un edificio."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pediment forms a triangle above the main doorway.",
+          "translation": "El frontón forma un triángulo sobre la puerta principal."
+        },
+        {
+          "en": "The architect drew a horizontal lower edge beneath the two sloping sides.",
+          "translation": "El arquitecto dibujó un borde inferior horizontal debajo de los dos lados inclinados."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a triangular pediment",
+          "translation": "un frontón triangular"
+        },
+        {
+          "en": "a classical pediment",
+          "translation": "un frontón clásico"
+        },
+        {
+          "en": "a pediment above the entrance",
+          "translation": "un frontón sobre la entrada"
+        }
+      ],
+      "tip": "Aquí se selecciona la forma triangular de pediment. Puede estar sobre una puerta. Gable es la parte superior de la pared de un extremo, delimitada por las pendientes del techo; el frontón de la entrada no es todo el techo."
+    },
+    "pilaster": {
+      "sourceWord": "pilaster",
+      "senses": {
+        "pilaster:meaning-1": {
+          "gloss": "pilastra",
+          "definition": "Elemento rectangular que sobresale poco de una pared y tiene la forma de una columna plana."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pilaster projects slightly from the wall beside the door.",
+          "translation": "La pilastra sobresale un poco de la pared junto a la puerta."
+        },
+        {
+          "en": "Its flat shaft, base and capital remain attached to the facade.",
+          "translation": "Su fuste plano, su base y su capitel permanecen unidos a la fachada."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a stone pilaster",
+          "translation": "una pilastra de piedra"
+        },
+        {
+          "en": "a pilaster capital",
+          "translation": "un capitel de pilastra"
+        },
+        {
+          "en": "a pilaster beside the doorway",
+          "translation": "una pilastra junto a la puerta"
+        }
+      ],
+      "tip": "Pilaster es la pilastra unida a la pared, normalmente con un frente plano y rectangular. Column puede ser una columna separada de la pared. La apariencia de una pilastra por sí sola no determina su función estructural."
+    },
+    "sill": {
+      "sourceWord": "sill",
+      "senses": {
+        "sill:meaning-1": {
+          "gloss": "alféizar de ventana",
+          "definition": "Borde horizontal situado en la parte inferior del hueco de una ventana."
+        }
+      },
+      "examples": [
+        {
+          "en": "The sill projects beyond the wall below the window.",
+          "translation": "El alféizar sobresale de la pared debajo de la ventana."
+        },
+        {
+          "en": "The open window stands directly above the wide stone ledge.",
+          "translation": "La ventana abierta está justo encima del borde ancho de piedra."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a window sill",
+          "translation": "un alféizar de ventana"
+        },
+        {
+          "en": "a stone sill",
+          "translation": "un alféizar de piedra"
+        },
+        {
+          "en": "the outer sill",
+          "translation": "el alféizar exterior"
+        }
+      ],
+      "tip": "En este sentido, sill está debajo de la ventana; lintel nombra el elemento horizontal sobre el hueco. Window sill y windowsill también designan este alféizar. Aquí no se selecciona el sentido relacionado con la base de una puerta."
+    },
+    "mullion": {
+      "sourceWord": "mullion",
+      "senses": {
+        "mullion:meaning-1": {
+          "gloss": "parteluz vertical",
+          "definition": "Elemento vertical que separa las secciones de una ventana."
+        }
+      },
+      "examples": [
+        {
+          "en": "The mullion divides the wide window into two vertical sections.",
+          "translation": "El parteluz divide la ventana ancha en dos secciones verticales."
+        },
+        {
+          "en": "The stone divider runs from the sill to the top of the opening.",
+          "translation": "El elemento divisorio de piedra va desde el alféizar hasta la parte superior del hueco."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a stone mullion",
+          "translation": "un parteluz de piedra"
+        },
+        {
+          "en": "a central mullion",
+          "translation": "un parteluz central"
+        },
+        {
+          "en": "a mullion between two window sections",
+          "translation": "un parteluz entre dos secciones de la ventana"
+        }
+      ],
+      "tip": "En el sentido seleccionado, mullion es vertical y separa secciones principales de la ventana. No es cualquier varilla que subdivide el vidrio ni una pieza horizontal. En esta colección, transom indica la pequeña ventana sobre una puerta."
+    },
+    "transom": {
+      "sourceWord": "transom",
+      "senses": {
+        "transom:meaning-1": {
+          "gloss": "ventana sobre la puerta",
+          "definition": "Ventana pequeña colocada justo encima de una puerta."
+        }
+      },
+      "examples": [
+        {
+          "en": "The transom lets daylight into the hall above the closed door.",
+          "translation": "La ventana sobre la puerta deja entrar luz natural al recibidor por encima de la puerta cerrada."
+        },
+        {
+          "en": "The narrow rectangular window has its own frame above the door leaf.",
+          "translation": "La ventana rectangular y angosta tiene su propio marco encima de la hoja de la puerta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a transom window",
+          "translation": "una ventana sobre la puerta"
+        },
+        {
+          "en": "a glazed transom",
+          "translation": "una ventana acristalada sobre la puerta"
+        },
+        {
+          "en": "a transom above the entrance door",
+          "translation": "una ventana sobre la puerta de entrada"
+        }
+      ],
+      "tip": "Aquí transom es la pequeña ventana sobre la puerta. También puede nombrar un travesaño horizontal de una puerta o ventana, pero ese sentido no se selecciona. Sidelight está al lado de la puerta, no encima."
+    },
+    "clerestory": {
+      "sourceWord": "clerestory",
+      "senses": {
+        "clerestory:meaning-1": {
+          "gloss": "claristorio",
+          "definition": "Franja de ventanas altas, por encima de los techos laterales más bajos, que permite la entrada de luz natural."
+        }
+      },
+      "examples": [
+        {
+          "en": "The clerestory brings daylight into the hall above the lower side roofs.",
+          "translation": "El claristorio deja entrar luz natural al salón por encima de los techos laterales más bajos."
+        },
+        {
+          "en": "A row of high windows lines the wall beneath the raised central roof.",
+          "translation": "Una fila de ventanas altas recorre la pared debajo del techo central elevado."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "clerestory windows",
+          "translation": "ventanas del claristorio"
+        },
+        {
+          "en": "a clerestory above the side roofs",
+          "translation": "un claristorio por encima de los techos laterales"
+        },
+        {
+          "en": "daylight through the clerestory",
+          "translation": "luz natural a través del claristorio"
+        }
+      ],
+      "tip": "En este sentido, clerestory es la franja de ventanas altas en la pared sobre los techos laterales. Skylight está en el plano del techo; dormer sobresale de un techo inclinado. No es simplemente cualquier ventana de un piso superior."
+    },
+    "cupola": {
+      "sourceWord": "cupola",
+      "senses": {
+        "cupola:meaning-1": {
+          "gloss": "cupulín sobre el techo",
+          "definition": "Pequeña estructura cubierta sobre el techo principal de un edificio, a menudo rematada por una cubierta redondeada."
+        }
+      },
+      "examples": [
+        {
+          "en": "The cupola stands on the ridge of the main roof.",
+          "translation": "El cupulín se alza sobre la cumbrera del techo principal."
+        },
+        {
+          "en": "Its small windowed base carries a rounded cap above the larger building.",
+          "translation": "Su pequeña base con ventanas sostiene una cubierta redondeada sobre el edificio más grande."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a rooftop cupola",
+          "translation": "un cupulín sobre el techo"
+        },
+        {
+          "en": "a small cupola",
+          "translation": "un cupulín pequeño"
+        },
+        {
+          "en": "a cupola on the roof ridge",
+          "translation": "un cupulín sobre la cumbrera"
+        }
+      ],
+      "tip": "Cupola aquí indica una pequeña estructura sobre el techo, que puede tener una base corta y una cubierta redondeada. Dome destaca la propia cubierta en forma de cúpula. No toda cúpula grande ni toda ventana del techo es un cupulín en este sentido."
+    },
+    "spire": {
+      "sourceWord": "spire",
+      "senses": {
+        "spire:meaning-1": {
+          "gloss": "chapitel puntiagudo",
+          "definition": "Cubierta alta y estrecha que termina en punta en la parte superior de una torre."
+        }
+      },
+      "examples": [
+        {
+          "en": "The spire tapers to a point above the stone tower.",
+          "translation": "El chapitel se estrecha hasta una punta sobre la torre de piedra."
+        },
+        {
+          "en": "From the hill, we could see the slender roof against the sky.",
+          "translation": "Desde la colina podíamos ver la cubierta esbelta recortada contra el cielo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a pointed spire",
+          "translation": "un chapitel puntiagudo"
+        },
+        {
+          "en": "a church spire",
+          "translation": "un chapitel de iglesia"
+        },
+        {
+          "en": "the tip of the spire",
+          "translation": "la punta del chapitel"
+        }
+      ],
+      "tip": "Spire aquí es la cubierta estrecha y puntiaguda sobre una torre, no toda la torre. Steeple nombra la torre de la iglesia y puede incluir una spire en la parte superior. No significa que toda la torre tenga forma de aguja."
+    },
+    "steeple": {
+      "sourceWord": "steeple",
+      "senses": {
+        "steeple:meaning-1": {
+          "gloss": "torre de iglesia",
+          "definition": "Torre alta de una iglesia, a menudo rematada por una cubierta puntiaguda."
+        }
+      },
+      "examples": [
+        {
+          "en": "The steeple rises above the roof of the small church.",
+          "translation": "La torre se eleva sobre el techo de la pequeña iglesia."
+        },
+        {
+          "en": "The drawing shows the tower from its base to its pointed top.",
+          "translation": "El dibujo muestra la torre desde la base hasta la parte superior puntiaguda."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a church steeple",
+          "translation": "una torre de iglesia"
+        },
+        {
+          "en": "a tall steeple",
+          "translation": "una torre alta de iglesia"
+        },
+        {
+          "en": "the top of the steeple",
+          "translation": "la parte superior de la torre de la iglesia"
+        }
+      ],
+      "tip": "Steeple es la torre completa de la iglesia; spire es solo la parte puntiaguda que puede estar encima. Belfry indica el espacio donde cuelgan las campanas. Estos nombres destacan partes diferentes y no son intercambiables para cualquier torre."
+    },
+    "turret": {
+      "sourceWord": "turret",
+      "senses": {
+        "turret:meaning-1": {
+          "gloss": "torrecilla",
+          "definition": "Torre pequeña o parte con forma de torre unida a un edificio."
+        }
+      },
+      "examples": [
+        {
+          "en": "The turret projects from one corner of the stone house.",
+          "translation": "La torrecilla sobresale de una esquina de la casa de piedra."
+        },
+        {
+          "en": "A narrow stair leads into the small tower.",
+          "translation": "Una escalera angosta conduce a la pequeña torre."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a corner turret",
+          "translation": "una torrecilla en una esquina"
+        },
+        {
+          "en": "a round turret",
+          "translation": "una torrecilla redonda"
+        },
+        {
+          "en": "a turret window",
+          "translation": "una ventana de la torrecilla"
+        }
+      ],
+      "tip": "En este sentido, turret es una pequeña torre unida a un edificio, no cualquier torre alta e independiente. También puede nombrar la parte giratoria que sostiene un arma; aquí no se usa ese sentido."
+    },
+    "apse": {
+      "sourceWord": "apse",
+      "senses": {
+        "apse:meaning-1": {
+          "gloss": "ábside",
+          "definition": "Espacio entrante redondeado o poligonal que forma el extremo de una iglesia o de una sala semejante."
+        }
+      },
+      "examples": [
+        {
+          "en": "The apse forms a curved recess at the far end of the church.",
+          "translation": "El ábside forma un espacio entrante curvo al fondo de la iglesia."
+        },
+        {
+          "en": "The guide pointed to the rounded wall behind the main worship space.",
+          "translation": "El guía señaló la pared redondeada detrás del espacio principal de culto."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a semicircular apse",
+          "translation": "un ábside semicircular"
+        },
+        {
+          "en": "a polygonal apse",
+          "translation": "un ábside poligonal"
+        },
+        {
+          "en": "the church apse",
+          "translation": "el ábside de la iglesia"
+        }
+      ],
+      "tip": "Apse indica la forma y la ubicación del extremo del edificio; nave es el espacio central principal de la iglesia. No nombra el altar en sí, y no todos los ábsides son semicirculares."
+    },
+    "nave": {
+      "sourceWord": "nave",
+      "senses": {
+        "nave:meaning-1": {
+          "gloss": "nave",
+          "definition": "Espacio central principal de una iglesia, donde se reúne la congregación."
+        }
+      },
+      "examples": [
+        {
+          "en": "The nave extends between two rows of stone columns.",
+          "translation": "La nave se extiende entre dos hileras de columnas de piedra."
+        },
+        {
+          "en": "Visitors stood in the main central space and looked up at the roof.",
+          "translation": "Los visitantes se detuvieron en el espacio central principal y miraron hacia el techo."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the church nave",
+          "translation": "la nave de la iglesia"
+        },
+        {
+          "en": "a wide nave",
+          "translation": "una nave ancha"
+        },
+        {
+          "en": "along the nave",
+          "translation": "a lo largo de la nave"
+        }
+      ],
+      "tip": "Aquí, nave es el espacio central principal de la iglesia, no solo un paso angosto entre asientos. Aisle puede indicar un paso lateral o entre filas; apse es el extremo redondeado o poligonal."
+    },
+    "belfry": {
+      "sourceWord": "belfry",
+      "senses": {
+        "belfry:meaning-1": {
+          "gloss": "campanario",
+          "definition": "Espacio de una torre donde cuelgan una o varias campanas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The belfry contains a large bell behind its arched openings.",
+          "translation": "El campanario alberga una campana grande detrás de sus aberturas en arco."
+        },
+        {
+          "en": "We could see the hanging bell from the square below.",
+          "translation": "Desde la plaza de abajo podíamos ver la campana colgante."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the church belfry",
+          "translation": "el campanario de la iglesia"
+        },
+        {
+          "en": "a stone belfry",
+          "translation": "un campanario de piedra"
+        },
+        {
+          "en": "bells in the belfry",
+          "translation": "campanas en el campanario"
+        }
+      ],
+      "tip": "En el sentido elegido, belfry es el espacio de la torre que aloja las campanas; spire es la parte alta y puntiaguda que puede coronarla. Belfry a veces también nombra toda la torre de campanas, pero la imagen se centra en el espacio de las campanas."
+    },
+    "foyer": {
+      "sourceWord": "foyer",
+      "senses": {
+        "foyer:meaning-1": {
+          "gloss": "vestíbulo",
+          "definition": "Sala de entrada de un teatro u otro edificio público, usada para esperar o encontrarse con otras personas."
+        }
+      },
+      "examples": [
+        {
+          "en": "The foyer has enough space for visitors to meet before the play.",
+          "translation": "El vestíbulo tiene espacio suficiente para que los visitantes se encuentren antes de la obra."
+        },
+        {
+          "en": "We waited in the entrance hall until the auditorium doors opened.",
+          "translation": "Esperamos en el vestíbulo hasta que se abrieron las puertas del auditorio."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the theatre foyer",
+          "translation": "el vestíbulo del teatro"
+        },
+        {
+          "en": "a spacious foyer",
+          "translation": "un vestíbulo amplio"
+        },
+        {
+          "en": "meet in the foyer",
+          "translation": "encontrarse en el vestíbulo"
+        }
+      ],
+      "tip": "En este uso, foyer es cercano a lobby y no designa una categoría física totalmente distinta del vestíbulo; es frecuente en teatros y salas de espectáculos. Vestibule suele ser un espacio menor entre la puerta exterior y el interior principal."
+    },
+    "mezzanine": {
+      "sourceWord": "mezzanine",
+      "senses": {
+        "mezzanine:meaning-1": {
+          "gloss": "entrepiso",
+          "definition": "Piso intermedio parcial dentro de un edificio, abierto hacia parte del espacio inferior."
+        }
+      },
+      "examples": [
+        {
+          "en": "The mezzanine overlooks the reading room below.",
+          "translation": "El entrepiso da a la sala de lectura de abajo."
+        },
+        {
+          "en": "A short stair connects the lower floor to the open upper platform.",
+          "translation": "Una escalera corta conecta el piso inferior con la plataforma superior abierta."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a mezzanine floor",
+          "translation": "un entrepiso"
+        },
+        {
+          "en": "the mezzanine level",
+          "translation": "el nivel del entrepiso"
+        },
+        {
+          "en": "on the mezzanine",
+          "translation": "en el entrepiso"
+        }
+      ],
+      "tip": "En el sentido elegido, mezzanine no ocupa toda el área de la sala y se abre hacia el espacio inferior; no cualquier segundo piso completo es un entrepiso de este tipo. Su uso para una zona de asientos de teatro es otro sentido relacionado, que aquí no se enseña."
+    },
+    "loggia": {
+      "sourceWord": "loggia",
+      "senses": {
+        "loggia:meaning-1": {
+          "gloss": "galería exterior cubierta",
+          "definition": "Galería exterior techada, unida a un edificio o integrada en él, abierta por uno o más lados."
+        }
+      },
+      "examples": [
+        {
+          "en": "The loggia opens toward the garden through a row of arches.",
+          "translation": "La galería exterior cubierta se abre hacia el jardín a través de una hilera de arcos."
+        },
+        {
+          "en": "We stood under the roof and looked out between the columns.",
+          "translation": "Nos quedamos bajo el techo y miramos hacia afuera entre las columnas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a ground-floor loggia",
+          "translation": "una galería exterior cubierta en la planta baja"
+        },
+        {
+          "en": "an arched loggia",
+          "translation": "una galería exterior cubierta con arcos"
+        },
+        {
+          "en": "the garden loggia",
+          "translation": "la galería exterior cubierta que da al jardín"
+        }
+      ],
+      "tip": "Loggia destaca la galería cubierta abierta al exterior; arcade nombra la sucesión de arcos y balcony, la plataforma que sobresale del edificio. Aquí se muestra una galería unida al edificio; los usos de loggia y veranda pueden superponerse según el caso."
+    },
+    "cloister": {
+      "sourceWord": "cloister",
+      "senses": {
+        "cloister:meaning-1": {
+          "gloss": "claustro",
+          "definition": "Pasillo cubierto alrededor de un patio abierto, especialmente en un monasterio o conjunto semejante."
+        }
+      },
+      "examples": [
+        {
+          "en": "The cloister runs around a quiet open courtyard.",
+          "translation": "El claustro rodea un patio abierto y tranquilo."
+        },
+        {
+          "en": "We walked under the arches while rain fell in the central garden.",
+          "translation": "Caminamos bajo los arcos mientras llovía en el jardín central."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a monastery cloister",
+          "translation": "un claustro de monasterio"
+        },
+        {
+          "en": "an arcaded cloister",
+          "translation": "un claustro con arcadas"
+        },
+        {
+          "en": "walk around the cloister",
+          "translation": "caminar por el claustro"
+        }
+      ],
+      "tip": "En este sentido, cloister es el pasillo cubierto que rodea el patio, no solo el patio abierto. Este esquema es común en monasterios, pero también aparece en algunos conjuntos laicos; una hilera recta de arcos por sí sola no basta."
+    },
+    "rotunda": {
+      "sourceWord": "rotunda",
+      "senses": {
+        "rotunda:meaning-1": {
+          "gloss": "rotonda",
+          "definition": "Sala o salón circular, a menudo cubierto por una cúpula."
+        }
+      },
+      "examples": [
+        {
+          "en": "The rotunda has a curved wall around a circular floor.",
+          "translation": "La rotonda tiene una pared curva alrededor de un piso circular."
+        },
+        {
+          "en": "Several doorways lead from the round hall into neighboring rooms.",
+          "translation": "Varias puertas comunican el salón redondo con las salas contiguas."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a domed rotunda",
+          "translation": "una rotonda con cúpula"
+        },
+        {
+          "en": "the central rotunda",
+          "translation": "la rotonda central"
+        },
+        {
+          "en": "enter the rotunda",
+          "translation": "entrar en la rotonda"
+        }
+      ],
+      "tip": "En este sentido, rotunda es un espacio interior circular; dome nombra la cubierta en forma de cúpula. Algunas salas circulares no tienen cúpula. El uso de rotonda para una glorieta de tránsito no corresponde al sentido inglés elegido aquí."
+    },
+    "pergola": {
+      "sourceWord": "pergola",
+      "senses": {
+        "pergola:meaning-1": {
+          "gloss": "pérgola",
+          "definition": "Estructura de jardín con postes que sostienen un entramado abierto de vigas en la parte superior."
+        }
+      },
+      "examples": [
+        {
+          "en": "The pergola has open spaces between its overhead beams.",
+          "translation": "La pérgola tiene espacios abiertos entre sus vigas superiores."
+        },
+        {
+          "en": "Climbing plants grow over the wooden frame beside the path.",
+          "translation": "Plantas trepadoras crecen sobre el armazón de madera junto al sendero."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a wooden pergola",
+          "translation": "una pérgola de madera"
+        },
+        {
+          "en": "a garden pergola",
+          "translation": "una pérgola de jardín"
+        },
+        {
+          "en": "under the pergola",
+          "translation": "bajo la pérgola"
+        }
+      ],
+      "tip": "En este sentido, pergola tiene un entramado superior abierto y puede sostener trepadoras; la palabra por sí sola no garantiza una cubierta continua que proteja de la lluvia. Gazebo suele ser un refugio independiente de jardín con techo cubierto."
+    },
+    "gazebo": {
+      "sourceWord": "gazebo",
+      "senses": {
+        "gazebo:meaning-1": {
+          "gloss": "cenador",
+          "definition": "Pequeño refugio independiente en un jardín, con techo y lados mayormente abiertos."
+        }
+      },
+      "examples": [
+        {
+          "en": "The gazebo stands in the garden with a solid roof above its open sides.",
+          "translation": "El cenador está en el jardín, con un techo continuo sobre sus lados abiertos."
+        },
+        {
+          "en": "We sat inside the small shelter and looked out toward the trees.",
+          "translation": "Nos sentamos dentro del pequeño refugio y miramos hacia los árboles."
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a garden gazebo",
+          "translation": "un cenador de jardín"
+        },
+        {
+          "en": "a wooden gazebo",
+          "translation": "un cenador de madera"
+        },
+        {
+          "en": "sit in the gazebo",
+          "translation": "sentarse en el cenador"
+        }
+      ],
+      "tip": "Aquí, gazebo es una estructura independiente con techo cubierto y no tiene que ser octagonal. Pergola suele tener un entramado superior abierto; porch está unido a la entrada de un edificio."
     }
   }
 }
